@@ -1,6 +1,6 @@
 ---
-title: Gespeicherte Einstellungen in Berichten
-description: Beschreibt, wie Sie gespeicherte Einstellungen im Bericht verwenden.
+title: "Ausgleichen und ändern Sie Einstellungen in gespeicherten Berichten | Microsoft Docs"
+description: Beschreibt vordefinierte Optionen und filtert, um einen Bericht anzupassen und die richtigen Daten zu generieren.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 12/12/2016
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7afbd31e77a4f53ee99fbb192dd8a32a660f87eb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9e5f7417579a5ba0629032cf9fa664e0060b9cbf
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -36,7 +36,7 @@ Sie können die gespeicherten Einstellungen sehen, die Ihnen für einen Bericht 
 ## <a name="administer-saved-report-settings-for-users"></a>Verwalten von gespeicherten Berichtseinstellungen für Benutzer
 Wenn Sie die richtigen Berechtigungen haben, können Sie die gespeicherten Einstellungen für alle Berichte für alle Benutzer im Unternehmen anzeigen, erstellen und bearbeiten. Sie können gespeicherte Einstellungen für einen Bericht den einzelnen Benutzern oder allen Benutzern im Unternehmen zuweisen.
 
-Sie können gespeicherte Einstellungen der Seite 1506 **Berichteinstellungen** verwalten. Um die Seite zu öffnen wählen Sie in der oberen rechter Ecke das Symbol **Nach Seite oder Bericht suchen** aus! ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und **Berichteinstellungen** eingeben und den entsprechenden Link auswählen.„”
+Sie können gespeicherte Einstellungen der Seite 1506 **Berichteinstellungen** verwalten. Um diese Seite zu öffnen, wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Berichtseinstellungen** ein. Wählen Sie dann den zugehörigen Link aus.
 
 Von der Seite **Berichteinstellungen** können Sie neue Einstellungen von Grund auf erstellen oder Sie können bestehende Einstellungen kopieren oder bearbeiten. Um die Optionen und Filter für Einstellungen zu ändern, wählen Sie die Aktion **Bearbeiten**.
 

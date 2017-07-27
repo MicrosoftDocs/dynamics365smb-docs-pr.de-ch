@@ -1,6 +1,6 @@
 ---
 title: Importieren Sie Ihre Stammdaten in Financials | Microsoft Docs
-description: "Beschreibt, wie Sie Ihre eigenen Daten in das Project Dynamics 365 for Financials importieren können."
+description: "Sie können Daten für Debitoren, Kreditoren und Lager zum Beispiel aus Excel oder QuickBooks Dynamics GP, in Financials migrieren."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migrate, initialize, implement
-ms.date: 04/27/2017
+ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 001dccf7935f38dd2f409e4fea31598a279472d4
+ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
+ms.openlocfilehash: dd6eb5a6b19bf4c8fd92674a48e8cd29ce912eee
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,16 +31,21 @@ Wenn beispielsweise Ihre Datei Debitoren und Kreditoren umfasst, können Sie wä
 
 Die unterstützte Einrichtung umfasst eine Option, die Vorgabe Konfiguration der Übertragung zu ändern. Wir empfehlen aber, dass nur dieses erweiterte Einrichtung eingeben wird, wenn Sie mit Datenbanktabellen vertraut sind. In der überwiegenden Mehrheit von Geschäften überträgt die Standardzuordnung von QuickBook oder Dynamics GP die Informationen zu [!INCLUDE[d365fin](includes/d365fin_md.md)], die Sie möchten.  
 
+Weitere Informationen finden Sie unter [QuickBooks-Datenmigration](ui-extensions-quickbooks-data-migration.md) oder [Dynamics GP-Datenmigration](ui-extensions-dynamicsgp-data-migration.md).
+
 ## <a name="importing-data-from-configuration-packages"></a>Importieren von Daten aus den Konfigurations-Paketen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst ein Konfigurationspaket, das Sie dann in Excel exportieren und dort die Daten einrichten können. Anschließend können die wieder von Excel importiert werden. Das Paket besteht aus 27 Tabellen, einschließlich Masterdaten wie Debitoren, Kreditoren, Artikel und Konten, andere grundsätzliche Einrichtungstabellen wie Versandarten und Transaktionstabellen wie Versandkopf und Zeilen.  
 
 > [!NOTE]  
->  Das Arbeiten mit Konfigurationspaketen ist eine erweiterte Funktionalität und wir empfehlen, dass Sie sich an Ihren Administrator wenden. [Importieren von Daten aus der Vorgänger-Buchhaltungs-Software unter Verwendung eines Konfigurations-Pakets](across-import-data-configuration-packages.md)  
+>   Das Arbeiten mit Konfigurationspaketen ist eine erweiterte Funktionalität und wir empfehlen, dass Sie sich an Ihren Administrator wenden. [Importieren von Daten aus der Vorgänger-Buchhaltungs-Software unter Verwendung eines Konfigurations-Pakets](across-import-data-configuration-packages.md)  
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  
 [Importieren von Daten aus der Vorgänger-Buchhaltungs-Software unter Verwendung eines Konfigurations-Pakets.](across-import-data-configuration-packages.md)  
-[Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe der Erweiterungen] (ui-extensions.md)   
-[Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
+[QuickBooks Datenmigration](ui-extensions-quickbooks-data-migration.md)  
+[Dynamics GP Datenmigration](ui-extensions-dynamicsgp-data-migration.md)  
+[Anpassen[!INCLUDE[d365fin](includes/d365fin_md.md)]Erweiterungen nutzen ](ui-extensions.md)   
+[Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

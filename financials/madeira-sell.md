@@ -1,6 +1,6 @@
 ---
-title: "Einen Wiederverkäufer von Dynamics 365 for Financials werden | Microsoft Docs"
-description: "Einen Wiederverkäufer von Dynamics 365 for Financials werden"
+title: Dynamics 365 for Financials verkaufen | Microsoft Docs
+description: "Herausfinden, wie Sie Ihre Geschäftschancen erweitern und ein Microsoft Partner und Dynamics 365 for Financials Wiederverkäufer werden."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6c6cc735037e7acce48e46893ec27359333f8177
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2760d173a46e0ab382253179d899d6f7c3cf7a4f
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: Verwaltung von Kreditoren | Microsoft Docs
-description: "Einführung der Zahlen Ihrer Kreditoren und andere Zahlungen."
+title: Verwalten von Verbindlichkeiten| Microsoft Docs
+description: "Überblick darüber, wie Ihnen Financials hilft, Verbindlichkeiten inklusive Kreditorenzahlungen, Gläubiger, Schulden und geschuldete Beträge zu verwalten."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -12,13 +12,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 03b872f9507e4c96dd55e8cf0f3d1ec7417501f2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 859647435fe3a418761f67c9067314939c734519
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -53,5 +53,5 @@ Wenn Sie abwarten, um Zahlungen zu buchen, bis die Bank bestätigt, dass Transak
 ## <a name="see-also"></a>Siehe auch
 [Zahlungsformen](finance-payment-methods.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

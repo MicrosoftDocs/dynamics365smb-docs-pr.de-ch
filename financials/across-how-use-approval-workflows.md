@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Genehmigungsworkflows nutzen| Microsoft Docs'
-description: 'Gewusst wie: Genehmigungsworkflow verwenden'
+title: Genehmigen und Ablehnen von Belegen im Arbeitsablauf | Microsoft Docs
+description: Anfordern, ablehnen oder delegieren einer Genehmigung, beispielsweise einen Einkaufs- oder Verkaufsbeleg, als Teil eines Workflows.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: reject, delegate, request
 ms.date: 04/25/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ed08fdb7f78c9f6c338e287cd4ef42d7ce0cb72c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,13 +26,14 @@ Sie richten Genehmigungsworkflows im Fenster **Workflow** ein.
 
 Wesentliche Genehmigungsworkflows für Einkaufsbelege, Verkaufsbelege, Zahlungsausgangs Buch.-Blätter, Debitorenkarten und Artikelkarten können als unterstützte Einrichtung gestartet werden. Weitere Informationen finden Sie unter [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
 
-**Hinweis: ** Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter] [Benutzeroberfläche [!INCLUDE[d365fin](includes/d365fin_md.md)] (ui-experiences.md) anpassen.
+> [!NOTE]  
+>   Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.
 
 ## <a name="to-request-approval-of-a-record"></a>So fordern Sie die Genehmigung eines Datensatzes an
 Die nächste Aufgabe wird durch einen genehmigenden Benutzer ausgeführt.
 
 1. Wählen Sie im Fenster, das den Datensatz anzeigt, die Aktion **Genehmigungsanforderung senden**.
-2. Um alle Genehmigungsanforderungen zu sehen, wählen Sie in der oberen rechter Ecke das Symbol **Nach Seite oder Bericht suchen **aus ![Nach Seite oder Bericht suchen ](media/ui-search/search_small.png "") Symbol nach Seite oder Bericht suchen. Geben Sie **Genehmigungsanforderungseingaben** ein und wählen Sie dann den entsprechenden Link aus.
+2. Um alle Genehmigungsanforderungen anzuzeigen, wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus, geben **Genehmigungsanforderungsposten** ein und wählen dann den zugehörigen Link aus.  
 
 Der Status des Genehmigungspostens wird von **Erstellt** in **Offen** aktualisiert. Der Status des Datensatzes, z. B. einer Einkaufsrechnung wird von **Offen** zu **Ausstehende Genehmigung** aktualisiert und ist für eine Bearbeitung gesperrt, bis alle Genehmiger den Datensatz genehmigt haben.
 
@@ -63,7 +64,7 @@ Die nächste Aufgabe wird durch einen genehmigenden Benutzer mit Genehmigerrecht
 
 Sie können Genehmigungsanforderungen im Fenster **Zu genehmigende Anforderungen** verarbeiten, beispielsweise um mehrere Anforderungen gleichzeitig zu genehmigen. Alternativ können Sie jede Anforderung im entsprechenden Datensatz, wie dem Fenster **Einkaufsrechnung** verarbeiten, indem Sie den Link in der Benachrichtigung auswählen, die Sie erhalten.
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Anforderungen für Genehmigungen** ein und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen ](media/ui-search/search_small.png "Nach Seite oder Bericht suche")und geben **Zu genehmigende Anforderungen** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie mindestens eine Zeile für den Datensatz (oder die Datensätze) zur Genehmigung oder Ablehnung aus.
 3. Wählen Sie die Aktion **Genehmigen**, **Ablehnen**, oder **Delegieren** aus.
 
@@ -78,7 +79,7 @@ Die nächste Aufgabe wird durch einen genehmigenden Benutzer mit Genehmigerrecht
 
 Damit verhindert wird, dass sich Belege ansammeln oder anderweitig den Workflow blockieren, können der Genehmiger und der Genehmigungsadministrator eine Genehmigungsanforderung an einen stellvertretenden Genehmiger delegieren. Der Ersatz kann entweder ein festgelegter Ersatz, der direkte Genehmiger oder der Genehmigungsadministrator sein (in dieser Prioritätenreihenfolge). In der Regel nutzen Sie diese Funktion dann, wenn sich ein Genehmiger außer Haus befindet und Anforderungen nicht vor dem Fälligkeitsdatum genehmigen kann.
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Anforderungen für Genehmigungen** ein und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen ](media/ui-search/search_small.png "Nach Seite oder Bericht suche")und geben **Zu genehmigende Anforderungen** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie mindestens eine Zeile für die Genehmigungsanforderungen aus, die Sie an einen Ersatzgenehmiger delegieren möchten, und wählen Sie dann die Aktion **Delegieren**.
 
 Eine Benachrichtigung zur Genehmigung der Anforderung wird an den stellvertretenden Genehmiger gesendet.
@@ -90,12 +91,12 @@ In regelmäßigen Abständen müssen Sie Genehmigungs-Workflowbenutzer an überf
 
 Die Funktion **Fällige Genehmigungsbenachrichtigungen senden** ermittelt alle offenen Genehmigungsanforderungen, die zurzeit fällig sind. Jeder Genehmiger, für den mindestens ein fälliger Genehmigungsposten vorhanden ist, erhält eine Benachrichtigung mit der Liste aller fälligen Genehmigungsanforderungen. Die Benachrichtigung wird auch an den Genehmiger und an alle Anforderer der fälligen Genehmigungen gesendet. Dies ist hilfreich, wenn der fällige Genehmigungsposten an einen Stellvertreter delegiert werden muss.
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Überfällige Anforderungen für Genehmigungen** ein und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen ](media/ui-search/search_small.png "Nach Seite oder Bericht suche")und geben **Überfällige Genehmigungsanforderungen** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie im Fenster **Überfällige Genehmigungsanfragen** die Aktion **Überfällige Genehmigungsbenachrichtigungen senden** aus.
 
 ## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)    
 [Eingehende Belege](across-income-documents.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

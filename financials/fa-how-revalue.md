@@ -1,6 +1,6 @@
 ---
-title: 'So geht&quot;s: Anlagen neu bewerten| Microsoft Docs'
-description: Beschreibt, wie eine Anlage bewertet und abgeschrieben wird.
+title: Anlagen neu bewerten| Microsoft Docs
+description: "Erfahren Sie, wie der Wert von Anlagen reguliert wird und neue Beträge als erhöhte AfA oder Zuschreibungen erfasst werden, und buchen Sie zusätzliche Anschaffungskosten."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/28/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 189499fea8b51697013711c8d8d09ab164ad85c5
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e578b2d22cf715407fee0b796b1ea49ef592057d
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,36 +29,39 @@ Wenn sich der Wert einer Anlage verringert hat, buchen Sie eine Erf.-Journalzeil
 Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispielsweise allgemeinen Preisänderungen, anzupassen. Die Stapelverarbeitung **Anlagen indexieren** kann verwendet werden, um verschiedene Beträge (wie erhöhte AfA und Zuschreibungen) zu ändern.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>So buchen Sie Zuschreibungen aus dem Anlagen Fibu Erf.-Journal
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Anlagen-Journalkonto** ein und wählen Sie dann den entsprechenden Link aus.  
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Anlagen G/L-Buchblatt** ein und wählen den zugehörenden Link aus.  
 2. Erstellen Sie eine ursprüngliche Erf.-Journalzeile und füllen Sie die notwendigen Felder aus.
 3. Wählen Sie im Feld **Anlagenbuchungsart** die **Neubewertung**.
 4. Wählen Sie die Aktion **Anlagengegenkonto einfügen**. Eine zweite Erf.-Journalzeile wird für das Gegenkonto erstellt, das für die Buchung von Zuschreibungen eingerichtet wird.
 
-    **Hinweis:** Schritt 4 funktioniert nur, wenn Sie Folgendes eingerichtet haben: Im Fenster **Anlagenbuchungsgruppenkarte** der Buchungsgruppe der Anlage enthält das Feld **Kto. Zuschreibung** das Sollkonto im Sachkonto und das Feld **Gegenkto. Zuschreibung** enthält das Sachkonto, auf das die Gegenposten für Zuschreibungen gebucht werden sollen. Weitere Informationen finden Sie im Abschnitt "So richten Sie Anlagenbuchungsgruppen ein" in [So geht's: Allgemeine Anlageninformationen einrichten](fa-how-setup-general.md).  
+    > [!NOTE]  
+>   Schritt 4 funktioniert nur, wenn Sie Folgendes eingerichtet haben: Im Fenster **Anlagenbuchungsgruppenkarte** der Buchungsgruppe der Anlage enthält das Feld **Abschreibungskonto** das Sollkonto im Sachkonto und das Feld **Gegenkto. Abschreibung** enthält das Sachkonto, auf das die Gegenposten für Zuschreibungen gebucht werden sollen. Weitere Informationen finden Sie im Abschnitt "So richten Sie Anlagenbuchungsgruppen ein" in [So geht's: Allgemeine Anlageninformationen einrichten](fa-how-setup-general.md).  
 5. Wählen Sie die Aktion **Buchen** aus.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>So buchen Sie eine erhöhte Abschreibung aus dem Anlagen Fibu Erf.-Journal
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Anlagen-Journalkonto** ein und wählen Sie dann den entsprechenden Link aus.  
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Anlagen G/L-Buchblatt** ein und wählen den zugehörenden Link aus.  
 2. Erstellen Sie eine ursprüngliche Erf.-Journalzeile und füllen Sie die notwendigen Felder aus.
 3. Wählen Sie im Feld **Anlagenbuchungsart** die **Erhöhte AfA**.
 4. Wählen Sie die Aktion **Anlagengegenkonto einfügen**. Eine zweite Erf.-Journalzeile wird für das Gegenkonto erstellt, das für die Buchung einer erhöhten Abschreibung eingerichtet wird.
 
-    **Hinweis:** Schritt 4 funktioniert nur, wenn Sie Folgendes eingerichtet haben: Im Fenster **Anlagenbuchungsgruppenkarte** der Buchungsgruppe der Anlage enthält das Feld **Kto. Erhöhte AfA** das Habenkonto im Sachkonto und das Feld **Kto. Erhöhte AfA** enthält das Sollkonto im Sachkonto, auf das die Gegenposten für erhöhte AfA gebucht werden sollen. Weitere Informationen finden Sie im Abschnitt "So richten Sie Anlagenbuchungsgruppen ein" in [So geht's: Allgemeine Anlageninformationen einrichten](fa-how-setup-general.md).
+    > [!NOTE]  
+>   Schritt 4 funktioniert nur, wenn Sie Folgendes eingerichtet haben: Im Fenster **Anlagenbuchungsgruppenkarte** der Buchungsgruppe der Anlage enthält das Feld **Abschreibungskonto** das Habenkonto im Sachkonto und das Feld **Ausgaben-Abschreibungskonto** das Sollkonto im Sachkonto, auf das die Gegenposten für erhöhte AfA gebucht werden sollen. Weitere Informationen finden Sie im Abschnitt "So richten Sie Anlagenbuchungsgruppen ein" in [So geht's: Allgemeine Anlageninformationen einrichten](fa-how-setup-general.md).
 5. Wählen Sie die Aktion **Buchen** aus.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>So führen Sie allgemeine Neubewertungen von Anlagen aus
 Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispielsweise allgemeinen Preisänderungen, anzupassen. Die Stapelverarbeitung **Anlagen indexieren** kann verwendet werden, um verschiedene Beträge (wie erhöhte AfA und Zuschreibungen) zu ändern. Das Kontrollkästchen **Indexierung zulassen** im Fenster **AfA-Buch** muss aktiviert sein.
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus! ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und **Index Anlagen** eingeben und den entsprechenden Link auswählen.  
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Analgenindex** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder je nach Bedarf aus.
 3. Wählen Sie die Schaltfläche **OK** aus.
 
     Neubewertungszeilen werden in Schritt 2 gemäß Ihrer Einstellungen erstellt. Die Zeilen werden entweder im Anlagen Buch.-Blatt oder im Anlagen Fibu Buch.-Blatt, abhängig von Ihren Vorlagen und Stapeln, die im Fenster **Anlagen Buch.-Blatt Einr.** installiert sind, erstellt. Weitere Informationen finden Sie unter [So geht's: Allgemeine Anlageninformationen einrichten](fa-how-setup-general.md).
-4. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Anlagen-Journalkonto** ein und wählen Sie dann den entsprechenden Link aus.  
+4. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Anlagen G/L-Buchblatt** ein und wählen den zugehörenden Link aus.  
 5. Wählen Sie das Buch.-Blatt mit den Anlagen, die Sie neu bewerten möchten und wählen die Aktion **Posten** aus.  
 6. Prüfen Sie die erstellten Posten und wählen Sie dann die Aktion **Buchen** aus, um das Buch.-Blatt zu buchen.
 
-    **Tipp:** Falls die Indexzahlen nur für Simulationen verwendet werden, können Sie dafür ein spezielles AfA-Buch erstellen. Dann haben diese Posten keinen Einfluss auf andere Abschreibungsbücher.
+    > [!TIP]  
+>   Falls die Indexzahlen nur für die Simulation verwendet werden, können Sie ein spezielles Abschreibungsbuch dafür erstellen. Dann haben diese Posten keinen Einfluss auf andere Abschreibungsbücher.
 
    ## <a name="to-post-additional-acquisition-costs"></a>So buchen Sie zusätzliche Anschaffungskosten
    Sie können zusätzliche Anschaffungskosten einer Anlage auf die gleiche Art buchen, auf die Sie die ursprünglichen Anschaffungskosten gebucht haben: aus einer Einkaufsrechnung oder aus einem Anlagen Erf.-Journal. Weitere Informationen finden Sie unter [So geht's: Beschaffen von Anlagen](fa-how-acquire.md).  
@@ -119,5 +122,5 @@ Falls Sie das Kontrollkästchen **AfA bis Anlagedatum** aktiviert haben, würde 
 [Anlagen einrichten](fa-setup.md)  
 [Finanzen](finance.md)  
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Die Fibuposten und der Kontenschema| Microsoft Docs
-description: Beschreibt die Finanzbuchhaltung, den Kontenplan und die Kontokategorien.
+title: Erhalten von Informationen zu Fibuposten und COA| Microsoft Docs
+description: Beschreibt den Fibuposten, den Kontenplan und die Kontokategorien.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,18 +10,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 02/14/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 04b94fa9f737765edbb1c93c506b444179b86fcf
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 06becfd7e54803fea925e8364719576bef0a8bab
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="the-general-ledger-and-the-chart-of-accounts"></a>Die Finanzbuchhaltung und der Kontenplan
-Die Finanzbuchhaltung speichert Ihre Finanzdaten, und der Kontenplan zeigt die Konten, auf die alle Sachposten gebucht werden, an. [!INCLUDE[d365fin](includes/d365fin_md.md)]umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
+# <a name="understanding-the-general-ledger-and-the-coa"></a>Verständnis des Fibupostens und des COA
+Die Fibuposten speichern Ihre Finanzdaten, und der Kontenplan zeigt die Konten, auf die alle Fibuposten gebucht werden, an. [!INCLUDE[d365fin](includes/d365fin_md.md)]umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Finanzbuchhaltung Einrichtung und Buchungsmatrix Einrichtung
 Die Einrichtung der Fibuposten ist das Kernstück der Finanzvorgängen, da sie definieren, wie Sie Daten buchen.  
@@ -64,5 +64,5 @@ Wenn Sie das nächste Mal ein Kontenschema auf Grundlage Ihre Änderungen erstel
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  
 [Einrichten oder Ändern des Kontenplans](finance-setup-chart-accounts.md)  
-[Kontenschemata](finance-account-schedule.md)  
+[Business Intelligence](bi.md)  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/27/2017
-ms.author: jswymer
+ms.date: 06/02/2017
+ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0e3d1a290a541cdf9289bd607b70abc21f9c8120
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,16 +33,17 @@ Um einige einfache Tipps kennenzulernen, gehen Sie zu:
 * [Filter setzen](ui-enter-criteria-filters.md)  
 * [Sortieren von Daten in Listen](ui-sorting.md)  
 
-Weitere Informationen finden Sie unter [Arbeit mit [!INCLUDE[d365fin](includes/d365fin_md.md)]] (ui-work-product.md).  
+Weitere Informationen finden Sie unter [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 Wenn Sie bereit sind, etwas tiefer hineinzublicken und einige der Geschäftsprozesse berücksichtigen möchten, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt werden, gehen Sie zu [Geschäfts-Funktionalität](madeira-business-functionality.md). Eine Übersicht über aktuelle und geplante Funktionen finden Sie in der Roadmap unter [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Die Startseiten
 Homepages verwenden ein Rollen orientiertes Design, damit Sie rasch auf Geschäftsvorgangs- und Intelligenztools zugreifen können, die Sie für Ihre Arbeit benötigen. Beispielsweise kann ein Buchhalter Zahlungen und Genehmigungen überwachen und Finanzdienstleistungsdiagramme anzeigen. Prüfen Sie die verschiedenen Homepages, indem Sie das Symbol **Einstellungen** auswählen! ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol Rollencenter ") in der oberen rechter Ecke, wählen Sie **Meine Einstellungen** und dann das entsprechende Rollencenter. Melden Sie sich erneut, um die Änderung zu übernehmen. Weitere Informationen finden Sie unter [Rollencenter ändern](change-role.md).  
 
-Jede Homepage bietet eine Schaltfläche **Einrichtung und Erweiterungen**. Hier haben Sie Zugriff auf eine Liste der unterstützten Einrichtung, die Ihnen dabei helfen kann, ausgewählte Bereiche rasch aufzusetzen. Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt wird, wählen Sie die Aktion **Manuelle Einrichtung**  aus, um auf das Einrichtungsfenster zuzugreifen, in dem Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter  [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Jede Homepage bietet eine Schaltfläche **Einrichtung und Erweiterungen**. Hier haben Sie Zugriff auf eine Liste der unterstützten Einrichtung, die Ihnen dabei helfen kann, ausgewählte Bereiche rasch aufzusetzen. Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt wird, wählen Sie die Aktion **Manuelle Einrichtung**  aus, um auf das Einrichtungsfenster zuzugreifen, in dem Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 
-**Hinweis:** Die Liste der Einrichtungshilfen, Erweiterungen und Diensten, die verfügbar sind, unterscheidet sich abhängig von der Benutzerumgebung, die Sie für Ihr Unternehmen auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Suite**. Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung "Standard". Weitere Informationen finden Sie unter] [Benutzeroberfläche [!INCLUDE[d365fin](includes/d365fin_md.md)] (ui-experiences.md) anpassen.  
+> [!NOTE]  
+>   Die Liste der Einrichtungshilfen, Erweiterungen und Diensten, die verfügbar sind, unterscheidet sich abhängig von der Benutzerumgebung, die Sie für Ihr Unternehmen auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Suite**. Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung "Standard". Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.  
 
 Im Fenster **Unterstützte Einrichtung** finden Sie Folgendes in der Umgebung **Suite**:
 
@@ -71,12 +72,12 @@ Um einen Mandanten zu erstellen und Dinge zu testen, gehen Sie zum Menü **Meine
 Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich für ein Abonnement entscheiden, verwenden Sie den Link in der Benachrichtigung, um Microsoft zu kontaktieren. Sie können ebenfalls navigieren zu [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707).
 
 ## <a name="see-also"></a>Siehe auch
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
-[Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Finanzen] (finance.md)  
-[Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe der Erweiterungen] (ui-extensions.md)  
-[Nutzen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](madeira-outlook.md)  
-[Herunterladen von [!INCLUDE[d365fin](includes/d365fin_md.md)] auf dem mobilen Gerät] (install-mobile-app.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Finanzen](finance.md)  
+[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzenb](ui-extensions.md)  
+[Nutzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](madeira-outlook.md)  
+[Abrufen [!INCLUDE[d365fin](includes/d365fin_md.md)] auf meinem mobilen Gerät](install-mobile-app.md)  
 [Microsoft Dynamics 365 Dokumentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  

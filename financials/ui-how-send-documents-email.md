@@ -1,6 +1,6 @@
 ---
-title: "Vorgehensweise: Senden von Belegen über E-Mail| Microsoft Docs"
-description: "Gewusst wie: Senden von Belegen über E-Mail"
+title: "Einrichten von Beleg-spezifischen Inhalten und Dateianhängen für E-Mails | Microsoft Docs"
+description: "Sie können Inhalt definieren, um in den Text eine E-Mail beispielsweise ein Paypal-Link einzufügen. Bestellanforderungen können auch Belege an eine E-Mail-Nachricht angehängt werden."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 03/30/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f6d234e40cf01be46d601c92c680e90c71424be0
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 445982644c7491df2090b56b0a7ce3e7277c4a57
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,7 +33,7 @@ Wenn das Feld **E-Mail** Im Fenster **Dokument senden an** auf **JA festgelegt w
 Nachfolgend wird beschrieben, wie der Bericht **Verkaufsrechnung** für belegspezifische E-Mail-Texte verwendet wird, wenn Sie gebuchte Verkaufsrechnungen senden.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Einen belegspezifischen E-Mail-Text für Verkaufsrechnungen einrichten
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen **aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen.") Geben Sie **Bericht Auswahl Verkäufe** ein und wählen Sie dann den entsprechenden Link aus.
+1. Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **Berichtauswahl Verkäufe** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Im Fenster **Berichts-Auswahl - Verkauf** unter **Verwendung** wählen Sie **Rechnung**.
 3. In einer neuen Zeile im Feld **Berichts-ID** wählen Sie beispielsweise Standardbericht 1306.
 4. Wählen Sie das Kontrollkästchen **Für E-Mail-Text verwenden**.
@@ -49,7 +49,7 @@ Wenn Sie jetzt beispielsweise die Aktion **Senden** im Fenster **Gebuchte Verkau
 Nachfolgend wird beschrieben, wie eine gebuchte Verkaufsrechnung als E-Mail mit dem Beleg gesendet wird, der als PDF-Datei angehängt ist und einen belegspezifischen E-Mail-Text enthält.
 
 ## <a name="to-send-documents-by-email"></a>Senden von Belegen über E-Mail
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus! ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und **Gebuchte Verkaufsrechnungen** eingeben und den entsprechenden Link auswählen.„”
+1. Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Gebuchte Verkaufsrechnung** ein und wählen den zugehörenden Link aus.
 2. Wählen Sie die relevante gebuchte Verkaufsrechnung aus und wählen Sie die Aktion **Senden**. Das Fenster **Dokument senden an** wird geöffnet.
 3. Wählen Sie im Feld **E-Mail** **Ja (Aufforderung für Einstellung)** aus. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).
 4. Wählen Sie die Schaltfläche **OK** aus. Das Fenster **E-Mails senden** wird geöffnet.
@@ -61,11 +61,12 @@ Nachfolgend wird beschrieben, wie eine gebuchte Verkaufsrechnung als E-Mail mit 
     Wenn ein dokumentspezifischer E-Mail-Text im Fenster **Berichts-Auswahl - Verkauf** eingerichtet wird, wird das Feld **Text** automatisch ausgefüllt. Weitere Informationen finden Sie unter “Einrichten eines dokumentspezifischen E-Mail-Texts für Verkaufsrechnungen” im betreffenden Abschnitt zu diesem Thema.
 9. Wählen Sie die Schaltfläche **OK**, um die E-Mail zu senden.
 
-**Hinweis: ** Wenn Sie die E-Mail-Einstellungen nicht jedes Mal ändern wollen, wenn Sie ein Dokument per E-Mail senden, können Sie die Option **Ja (Standardeinstellungen verwenden)** im Feld **E-Mail** im Fenster **Dokument senden an** auswählen. In diesem Fall wird das Fenster **E-Mail senden** nicht geöffnet. Siehe dazu auch Schritt 4. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).
+> [!NOTE]  
+>   Wenn Sie die E-Mail-Einstellungen nicht jedes Mal ändern wollen, wenn Sie ein Dokument per E-Mail senden, können Sie die Option **Ja** (Standardeinstellungen verwenden) im Feld **E-Mail** im Fenster **Dokument senden** an auswählen. In diesem Fall wird das Fenster **E-Mail senden** nicht geöffnet. Siehe dazu auch Schritt 4. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md)  
 [Gewusst wie: Einrichten von E-Mails](madeira-how-setup-email.md)  
 [Vorgehensweise: Fakturieren](sales-how-invoice-sales.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

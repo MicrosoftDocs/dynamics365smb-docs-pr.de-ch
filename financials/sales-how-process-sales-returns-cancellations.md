@@ -1,6 +1,6 @@
 ---
-title: "So geht&quot;s: Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen | Microsoft Docs"
-description: "Vorgehensweise: Verarbeiten einerVerkaufsrücklieferung oder von Stornierungen"
+title: "Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen | Microsoft Docs"
+description: "Beschreibt, wie eine Verkaufsgutschrift erstellt, eine Reklamation, Stornierung oder eine Vergütung für Artikel oder Dienstleistungen verarbeitet wird, für Sie eine Zahlung erhalten haben."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,29 +10,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/29/2016
+ms.date: 06/21/2016
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cf471e0c3a13a954ab7604a8b1d0f715f664722d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f08526054e99f742cedfefe036d8903304e54a56
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-process-sales-returns-or-cancellations"></a>Vorgehensweise: Verarbeiten einerVerkaufsrücklieferung oder von Stornierungen
 Wenn Ihr Debitor Artikel zurückschicken oder Dienstleistungen löschen will, die Sie verkauft haben, können Sie eine Einkaufsgutschrift erstellen und buchen, die die angeforderte Änderung im Hinblick auf die ursprünglichen Einkaufsrechnung angibt. Um korrekte Verkaufsrechnungsinformationen zu berücksichtigen, können Sie die Verkaufsgutschrift aus der gebuchten Verkaufsrechnung erstellen oder eine Kopierfunktion verwenden.  
 
-**Hinweis:** Wenn eine gebuchte Verkaufsrechnung noch nicht bezahlt wurde, können Sie die Funktionen **Korrigieren** oder **Abbrechen** auf der gebuchten Verkaufsrechnung verwenden, um die entsprechenden Transaktionen automatisch zu stornieren. Diese Funktionen gehen nur für nicht geleistete Rechnungen, und sie unterstützen nicht Teil-Reklamationen oder Stornierungen. Weitere Informationen finden Sie unter [Vorgehensweise: Ändern oder löschen von unbezahlten Verkaufsrechnungen]](sales-how-correct-cancel-sales-invoice.md).
+> [!NOTE]  
+>   Wenn eine gebuchte Verkaufsrechnung noch nicht bezahlt wurde, können Sie die Funktionen **Korrigieren** oder **Abbrechen** auf der gebuchten Verkaufsrechnung verwenden, um die entsprechenden Transaktionen automatisch zu stornieren. Diese Funktionen gehen nur für nicht geleistete Rechnungen, und sie unterstützen nicht Teil-Reklamationen oder Stornierungen. Weitere Informationen finden Sie unter [Vorgehensweise: Ändern oder löschen von unbezahlten Verkaufsrechnungen]](sales-how-correct-cancel-sales-invoice.md).
 
 Zusätzlich zur ursprünglich gebuchten Verkaufsrechnung können Sie die Verkaufsgutschrift für andere Verkaufsbelege übernehmen, beispielsweise einer anderen gebuchten Verkaufsrechnung, da der Debitor auch die Artikel zurücksendet, die mit dieser Rechnung geliefert werden.
 
 Eine Rücklieferungs- oder eine Vergütung kann sich nur auf einige der Artikel oder der Services in der ursprünglichen Verkaufsrechnung beziehen. In diesem Fall müssen Sie Informationen in den Zeilen der Verkaufsgutschrift bearbeiten. Wenn Sie die Verkaufsgutschrift buchen, werden die Verkaufsbelege, die von Änderungen betroffen sind rückgängig gemacht und eine Rückerstattung für den Debitor wird erstellt.  
 
-Sie können die gebuchte Verkaufsgutschrift an den Debitor senden, um die Rücksendung oder Stornierung zu bestätigen und mitzuteilen, dass der zugehörige Wert erstattet werden wird, wenn zum Beispiel Artikel zurückgegeben werden oder eine Service-Stornierung vereinbart wurde.  
+Sie können die gebuchte Verkaufsgutschrift an den Debitor senden, um die Rücksendung oder Stornierung zu bestätigen und mitzuteilen, dass der zugehörige Wert erstattet werden wird, wenn zum Beispiel Artikel zurückgegeben werden oder eine Service-Stornierung vereinbart wurde.
+
+Die Gutschriftsbuchung stellt auch jegliche Artikel Zu-/Abschläge wieder her, die dem gebuchten Beleg zugewiesen wurden, sodass die Wertposten des Artikels wieder identisch sind, wie bevor der Artikel Zu-/Abschlag zugewiesen wurde.
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Erstellt eine neue Verkaufsgutschrift, um eine gebuchte Verkaufsrechnung zurückzusetzen.
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus! ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und **Gebuchte Verkaufsrechnungen** eingeben und den entsprechenden Link auswählen.  
+1. Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Gebuchte Verkaufsrechnung** ein und wählen den zugehörenden Link aus.  
 2. Wählen Sie das Feld **Gebuchte Verkaufsrechnung**, um das Fenster **Korrekturgutschrift erstellen** zu öffnen, und wählen Sie die gebuchte Verkaufsrechnung aus, die Sie stornieren möchten.
 
     Der Verkaufsgutschriftskopf enthält einige Informationen aus der gebuchten Verkaufsrechnung. Sie können alle Felder bearbeiten, zum Beispiel mit neuen Daten, die die Rückholvereinbarung wiedergeben.  
@@ -54,7 +57,7 @@ Das Dialogfeld **Buchungs- und Sendebestätigung** wird geöffnet und zeigt die 
 Die gebuchten Verkaufsbelege für die entsprechende Gutschrift werden nun annulliert und eine Erstattung der Zahlung kann für den Debitor erstellt werden. Die Verkaufsgutschrift wird entfernt und durch einen neuen Beleg in der Liste der gebuchten Verkaufsgutschriften ersetzt.
 
 ## <a name="to-create-a-sales-credit-memo-from-scratch"></a>So erstellen Sie eine Verkaufsgutschrift von Grund auf
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus! ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und **Gebuchte Verkaufsrechnungen** eingeben und den entsprechenden Link auswählen.„”
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufskreditor-Memo** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie **Neu**, um eine neue leere Verkaufsgutschrift zu öffnen.
 3. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein.
 4. Wählen Sie die **Beleg kopieren**-Aktion aus.
@@ -68,5 +71,5 @@ Die gebuchten Verkaufsbelege für die entsprechende Gutschrift werden nun annull
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Gewusst wie: Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

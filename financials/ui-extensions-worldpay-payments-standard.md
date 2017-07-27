@@ -15,7 +15,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: a4a110fec7f656fd2132daaf6ddda492e9a4ab67
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,6 +26,6 @@ Wenn Sie die Erweiterung aktivieren und eine Verkaufsrechnung oder einen Verkauf
 Das Aktivieren der Zahlungsverkehrerweiterungen ist frei in [!INCLUDE[d365fin](includes/d365fin_md.md)]jedoch müssen Sie den Zahlungsservice kontaktieren, um ein Konto auszuwählen. Weitere Informationen finden Sie unter [Vorgehensweise: Aktivieren Sie Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
 
 ## <a name="see-also"></a>Siehe auch
-[Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe der Erweiterungen] (ui-extensions.md)  
-[Aufstellung Verkäufe] (sales-setup-sales.md)  
-[Arbeitend mit [!INCLUDE[d365fin](includes/d365fin_md.md)]() ui-work-product.md]
+[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzenb](ui-extensions.md)  
+[Einrichten von Verkäufen](sales-setup-sales.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,6 +1,6 @@
 ---
 title: "Änderungen in Dynamics 365 for Financials Microsoft Docs"
-description: "Änderungen in Dynamics 365 for Financials"
+description: Beschreibt die neuesten Nachrichten und Aktualisierungen von Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 26fe803ea4d4b503b8123f4a06e3017c1d5f077f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
+
 
 ---
-
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Änderungen in Dynamics 365 for Financials
 Willkommen bei [!INCLUDE[d365fin](includes/d365fin_md.md)] Melden Sie sich für die Testversion an, lassen Sie sich von uns durch die Grundlagen dessen, was Sie mit [!INCLUDE[d365fin](includes/d365fin_md.md)] tun können, führen und probieren es dann selbst ein wenig aus. Wenn Sie bereit sind, können Sie ein leeres Unternehmen öffen und es für sich selbst einrichten.  
 
@@ -88,26 +88,26 @@ Diese Aktualisierung von [!INCLUDE[d365fin](includes/d365fin_md.md)] hat neue Fu
 Dieses Update fügt Aktionen zum Kreditorendashboard im Outlook-Add-In hinzu, sodass Sie direkt mit Dateianhängen arbeiten mit der entsprechenden E-Mail. Sie nutzen die Aktionen, um die E-Mail-Dateianhänge direkt in die Übersicht **Eingehende Belege** zu senden, die Belege an den OCR-Dienst zu senden und Genehmigungsanforderung für den eingehenden Beleg zu senden. Weitere Informationen finden Sie unter [Eingehende Dokumente verarbeiten](across-income-documents.md).
 
 ### <a name="create-invoices-in-your-outlook-calendar"></a>Erstellen Sie Rechnungen in Ihrem Outlook-Kalender
-Das Outlook-Add-In erweitert sich nun mit Outlook-Kalender. Von einem Kalendertermin können Sie das Add-In öffnen [!INCLUDE[d365fin](includes/d365fin_md.md)] und eine Übersicht für den Debitor abrufen, der mit den Terminen verknüpft ist. Dann können Sie eine Rechnung für die Services, die für die Besprechung im Meeting bereitgestellt werden erstellen und senden - alle dies passiert direkt im Outlook-Kalender. Weitere Informationen finden Sie unter [Nutzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](madeira-outlook.md).  
+Das Outlook-Add-In erweitert sich nun mit Outlook-Kalender. Von einem Kalendertermin können Sie das Add-In öffnen [!INCLUDE[d365fin](includes/d365fin_md.md)] und eine Übersicht für den Debitor abrufen, der mit den Terminen verknüpft ist. Dann können Sie eine Rechnung für die Services, die für die Besprechung im Meeting bereitgestellt werden erstellen und senden - alle dies passiert direkt im Outlook-Kalender. Weitere Informationen finden Sie unter[ Nutzen Sie[!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-outlook.md)  als Ihr Unternehmenspostfach in Outlook.  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource Markptlatz für Erweiterungen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen sind jetzt im AppSource-Marktplatz verfügbar unter[AppSource.microsoft.com](https://appsource.microsoft.com/). Sie können Erweiterungen im Marktplatz suchen und finden. Sie können Informationen, einschließlich Marketings-Material, Screenshots, Videos und Links zu den zusätzlichen Informationen anzuzeigen. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe von Erweiterungen](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen sind jetzt im AppSource-Marktplatz verfügbar unter[AppSource.microsoft.com](https://appsource.microsoft.com/). Sie können Erweiterungen im Marktplatz suchen und finden. Sie können Informationen, einschließlich Marketings-Material, Screenshots, Videos und Links zu den zusätzlichen Informationen anzuzeigen. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-extensions.md) mithilfe der Erweiterungen .  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Spediteur und Artikelattribute
 Sie können Ihren Attribute Lagerartikeln hinzufügen. Damit wird es sehr einfach, das entsprechende Produkt zu suchen, das Ihr Kunde wünscht. Weitere Informationen finden Sie unter [So geht's: Arbeiten mit Artikelattributen](inventory-how-work-item-attributes.md).  
 
 ### <a name="new-extensions-made-available"></a>Neue Erweiterungen bereitstellen
 Mit diesem Update können Sie noch mehr Erweiterungen im Fenster **Erweiterungsverwaltung** auswählen.
-Weitere Informationen finden Sie unter [[!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen von anderen Anbietern] (ui-extensions-other.md).  
+Weitere Informationen finden Sie unter [[!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterung durch andere Anbieter](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Verwalten Sie Ihre Debitoren-Verhältnisse mit Microsoft Dynamics CRMs über [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Wir haben einen neue unterstütze Einrichtung für die Geschäftsführerhomepage hinzugefügt, die Sie durch den Einrichtungsprozess führt, um die Verbindung zu Dynamics CRM herzustellen. Sobald Sie das getan haben, wird eine nahtlose Kopplung der Dynamics CRM Datensätze mit [!INCLUDE[d365fin](includes/d365fin_md.md)] Datensätzen bereitgestellt. Weitere Informationen finden Sie unter [Ihre Debitoren-Verhältnisse mit Microsoft Dynamics CRM verwalten über [!INCLUDE[d365fin](includes/d365fin_md.md)] ] (marketing-integrate-dynamicscrm.md).
+Wir haben einen neue unterstütze Einrichtung für die Geschäftsführerhomepage hinzugefügt, die Sie durch den Einrichtungsprozess führt, um die Verbindung zu Dynamics CRM herzustellen. Sobald Sie das getan haben, wird eine nahtlose Kopplung der Dynamics CRM Datensätze mit [!INCLUDE[d365fin](includes/d365fin_md.md)] Datensätzen bereitgestellt. Weitere Informationen finden Sie unter [Kundenbeziehung mithilfe von Microsoft Dynamics CRM verwalten[!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)
 
 ## <a name="may-2016-update"></a>Mai 2016 Aktualisierung
 Diese Aktualisierung von [!INCLUDE[d365fin](includes/d365fin_md.md)] hat neue Funktionen hinzugefügt wie im [Blog angekündigt](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
 
 ### <a name="new-extensions-made-available"></a>Neue Erweiterungen bereitstellen
-Prüfen Sie das Fenster **Erweiterungsverwaltung**: Das Aktualisieren fügt neun Erweiterungen hinzu, einschließlich Sana Commerce für [!INCLUDE[d365fin](includes/d365fin_md.md)] die B2B-Handelsfunktionen und bietet ChargeLogic-Zahlungen an, die Zahlungs- und Kreditkartenverarbeitungsfunktionen anbietet. Die Erweiterungen werden nicht automatisch eingerichtet, aber das Fenster **Erweiterungsverwaltung** hilft dabei, die Erweiterung einzurichten, die Sie verwenden möchten. Weitere Informationen finden Sie unter [[!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen von anderen Anbietern] (ui-extensions-other.md).  
+Prüfen Sie das Fenster **Erweiterungsverwaltung**: Das Aktualisieren fügt neun Erweiterungen hinzu, einschließlich Sana Commerce für [!INCLUDE[d365fin](includes/d365fin_md.md)] die B2B-Handelsfunktionen und bietet ChargeLogic-Zahlungen an, die Zahlungs- und Kreditkartenverarbeitungsfunktionen anbietet. Die Erweiterungen werden nicht automatisch eingerichtet, aber das Fenster **Erweiterungsverwaltung** hilft dabei, die Erweiterung einzurichten, die Sie verwenden möchten. Weitere Informationen finden Sie unter [[!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterung durch andere Anbieter](ui-extensions-other.md).  
 
 ### <a name="filter-on-unprocessed-incoming-documents"></a>Filter für nicht verarbeitete eingehende Belege.
 Wir haben auch einige Kernfunktionalitäten in der Aktualisierung dieses Monats geändert: Die Liste aus eingehenden Belege wird jetzt gefiltert, um nur Posten anzuzeigen, die nicht verwendet wurden, um gebuchte Belege zu erstellen. Weitere Informationen finden Sie unter [Eingehende Dokumente verarbeiten](across-income-documents.md).  
@@ -116,12 +116,12 @@ Wir haben auch einige Kernfunktionalitäten in der Aktualisierung dieses Monats 
 In der oberen rechter Ecke neben den Einstellungen Menü, sehen Sie das Glockensymbol, das Sie wahrscheinlich bereits von anderen Office-Produkten kennen: Das ist das Benachrichtigungsmenü. Hier erhalten Sie Benachrichtigungen wie neue E-Mail- und Kalendermahnungen direkt beim Arbeiten in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 ## <a name="april-2016-preview"></a>Vorschau April 2016
-Im April 2016 starteten wir die Vorschau von [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wir empfehlen Ihnen, mit dem Erste Schritte-Handbuch im Demonstrationsunternehmen zu beginnen, auf das Sie Zugriff haben, wenn Sie sich das erste Mal anmelden. Das Erste Schritte-Handbuch führt Sie durch wesentliche Szenarien. Weitere Informationen finden Sie unter [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).  
+Im April 2016 starteten wir die Vorschau von [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wir empfehlen Ihnen, mit dem Erste Schritte-Handbuch im Demonstrationsunternehmen zu beginnen, auf das Sie Zugriff haben, wenn Sie sich das erste Mal anmelden. Das Erste Schritte-Handbuch führt Sie durch wesentliche Szenarien. Weitere Informationen finden Sie unter [Willkommen bei[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 
 Wesentliche Szenarien, die Sie selbst ausprobieren können:  
 
-- Nutzen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](madeira-no-outlook.md)  
-- [Herunterladen von [!INCLUDE[d365fin](includes/d365fin_md.md)] auf dem mobilen Gerät] (install-mobile-app.md)  
+- [Nutzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](madeira-no-outlook.md)  
+- [Abrufen [!INCLUDE[d365fin](includes/d365fin_md.md)] auf meinem mobilen Gerät](install-mobile-app.md)  
 - [Führen Ihrer Geschäftsdaten für Power BI](madeira-powerbi.md)  
 - [Rollencenter ändern](change-role.md)  
 
@@ -129,6 +129,6 @@ Wesentliche Szenarien, die Sie selbst ausprobieren können:
 
 ## <a name="see-also"></a>Siehe auch
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
 

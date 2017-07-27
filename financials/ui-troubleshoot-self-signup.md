@@ -1,6 +1,6 @@
 ---
-title: Problembehandlungs-Selbstregistrierung| Microsoft Docs
-description: "Lösungsanleitung Azure AD-Probleme, wenn Sie sich anmelden."
+title: Arten, um Probleme mit Selbstbedienungs-Registrierung zu beheben oder zu arbeiten | Microsoft Docs
+description: "Kennenlernen der die meisten allgemeinen Gründe, warum Sie möglicherweise nicht in der Lage sind, die die Anmeldung mit Dynamics 365 for Financials abzuschließen, und Möglichkeiten, das Problem zu beheben."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9bd980c6c6172d736915119806c0ba154b22bc8a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -40,6 +40,6 @@ In vielen Fällen kann das Registrieren für [!INCLUDE[d365fin](includes/d365fin
 
 ## <a name="see-also"></a>Siehe auch
 [Willkommen bei [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

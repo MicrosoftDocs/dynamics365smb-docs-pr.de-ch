@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen| Microsoft Docs'
-description: "Verwalten von Berechtigungssätzen  für Benutzer, nachdem Sie Benutzer in Office 365 erstellt haben."
+title: "Weisen Sie Berechtigungen zu und Erstellen oder ändern Sie Berechtigungssätze | Microsoft Docs"
+description: "Beschreibt, wie Office 365 Benutzern Financials hinzugefügt wird und vergibt dann Berechtigungen, Zugriffsrechte und Sicherheitseinstellungen."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/29/2017
+ms.date: 06/27/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d1a973b864a654e2047c5a89271519da04f55c08
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 564ef68a1571611efee32db1cf3759cda6a04c80
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,16 +27,17 @@ Sobald der Benutzer im Office 365 erzeugt wurde, können sie in das Fensters **B
 
 Sie können dann fortfahren, um den Benutzern Berechtigungssätze zuzuordnen, um festzulegen, in welchen Datenbankobjekten und auf welche Benutzeroberflächenelemente, sie Zugriff haben und auf welche Unternehmen.
 
-**Wichtig**: Wenn die Datenbank mehrere Unternehmen enthält, dann muss mindestens ein Benutzer ein Mitglied der Superusergruppe in alle Unternehmen sein.
-
 Ein Zugriffsrechtsatz ist eine Sammlung von Berechtigungen für bestimmte Objekte in der Datenbank. Allen Benutzern muss mindestens ein Berechtigungssatz zugeordnet werden, bevor sie auf |[!INCLUDE[d365fin](includes/d365fin_md.md)] zugreifen können. Eine Anzahl vordefinierter Berechtigungssätze steht standardmäßig zur Verfügung. Sie können diese Zugriffsrechtsätze wie bereits definiert verwenden, die Standard-Zugriffsrechtsätze ändern oder zusätzliche eigene Zugriffsrechtsätze erstellen.
 
 Sie können Benutzer Benutzergruppen hinzufügen. Damit ist es leichter, dieselben Berechtigungssätze mehreren Benutzern zuzuordnen.
 
-**Hinweis**: Diese Funktionen erfordert, dass die Benutzeroberfläche in Suite festgelegt wird. Weitere Informationen finden Sie unter] [Benutzeroberfläche [!INCLUDE[d365fin](includes/d365fin_md.md)] (ui-experiences.md) anpassen.
+Administratoren nutzen das Fenster **Benutzer einrichten**, um Zeiträume zu definieren, in denen die angegebenen Benutzer Buchungen durchführen können. Außerdem können sie angeben, ob  die Zeitdauer erfasst, während der angegebene Benutzer angemeldet sind.
+
+> [!NOTE]  
+>   Diese Funktionen erfordert, dass die Benutzeroberfläche in Suite festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.
 
 ## <a name="to-assign-permissions-to-a-user"></a>So ordnen Sie einem Benutzer ein Berechtigung zu
-1. Wählen Sie in der rechten oberen Ecke das Symbol Nach Seite oder Bericht suchen aus und geben Sie **Benutzer**. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png " Symbol Nach Bericht suche") aus und geben Sie Benutzer. Wählen Sie dann **Benutzer**und den zugehörigen Link aus.
 2. Wählen Sie den Benutzer aus, den Sie dem Debitor zuordnen möchten.
 Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich **Benutzerzugriffsrechtsätze** angezeigt.
 3. Wählen Sie im Fenster **Eingehende Dokumente** das Fenster**Benutzerkarten** aus.
@@ -45,7 +46,7 @@ Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich
 ## <a name="to-group-users-in-user-groups"></a>Um Benutzer in Benutzergruppen zu ordnen
 Sie können Benutzergruppen einrichten, um Ihnen zu helfen, Berechtigungssätze für Benutzergruppen in Ihrem Unternehmen zu verwalten. Sie können eine Funktion verwenden, um alle Berechtigungssätze einer vorhandenen Benutzergruppe der neuen Benutzergruppe zu kopieren. Benutzergruppenelemente werden nicht kopiert.
 
-1. Wählen Sie in der rechten oberen Ecke das Symbol Nach Seite oder Bericht suchen aus und geben Sie **Benutzergruppen** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png " Symbol Nach Bericht suche") aus und geben Sie Benutzer. Wählen Sie dann **Benutzer**und den zugehörigen Link aus.
 2. Alternativ wählen Sie im Fenster **Benutzer** die Aktion **Benutzergruppen** aus.
 3. Im Fenster **Benutzergruppen** wählen Sie eine vorhandene Benutzergruppe aus, die Sie kopieren möchten, und wählen die Aktion **Benutzergruppe kopieren** aus.
 4. In Feld **Neuer Benutzergruppencode** geben Sie den Namen der neuen Benutzergruppe an, und wählen Sie dann die Schaltfläche **OK** aus.
@@ -60,7 +61,7 @@ Sie können Benutzergruppen einrichten, um Ihnen zu helfen, Berechtigungssätze 
 Wenn die Standardberechtigungssätze, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] zur Verfügung gestellt wurden, nicht ausreichen oder für Ihre Organisation nicht geeignet sind, können Sie neue Berechtigungssätze erstellen. Wenn die einzelne Objektberechtigungen, die einen Berechtigungssatz definieren, nicht angemessen sind, dann können Sie einen Berechtigungssatz bearbeiten. Sie können einen Berechtigungssatz manuell erstellen, oder Sie können eine Aufzeichnungsfunktion verwenden, die Ihre Aktionen erfasst, während Sie durch ein Szenario navigieren und dann den benötigten Berechtigungssatz generieren.
 
 ### <a name="to-create-or-modify-permission-sets-manually"></a>Um Berechtigungssätze manuell zu erstellen oder zu ändern
-1. Wählen Sie in der rechten oberen Ecke das Symbol Nach Seite oder Bericht suchen aus und geben Sie **Benutzer**. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png " Symbol Nach Bericht suche") aus und geben Sie Benutzer. Wählen Sie dann **Benutzer**und den zugehörigen Link aus.
 2. Alternativ wählen Sie im Fenster **Benutzer** die Aktion **Berechtigungssatz** aus.
 3. Alternativ wählen Sie im Fenster **Benutzer** die Aktion **Neu** aus.
 4. Füllen Sie die Felder in einer neuen Zeile wie erforderlich aus.
@@ -82,7 +83,7 @@ Wenn die Standardberechtigungssätze, die in [!INCLUDE[d365fin](includes/d365fin
 9. Wiederholen Sie die Schritte 7 und 8 und fügen Sie Berechtigungen für zusätzliche Objekte dem Berechtigungssatz hinzu.
 
 ### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Um Berechtigungssätze durch die Erfassung Ihrer Aktionen zu erstellen oder zu ändern
-1. Wählen Sie in der rechten oberen Ecke das Symbol Nach Seite oder Bericht suchen aus und geben Sie **Benutzer**. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png " Symbol Nach Bericht suche") aus und geben Sie Benutzer. Wählen Sie dann **Benutzer**und den zugehörigen Link aus.
 2. Alternativ wählen Sie im Fenster **Benutzer** die Aktion **Berechtigungssatz** aus.
 3. Alternativ wählen Sie im Fenster **Benutzer** die Aktion **Neu** aus.
 4. Füllen Sie die Felder in einer neuen Zeile wie erforderlich aus.
@@ -99,10 +100,18 @@ Wenn die Standardberechtigungssätze, die in [!INCLUDE[d365fin](includes/d365fin
 Sie können indirekte Berechtigungen zuweisen, um ein Objekt nur über ein anderes Objekt zu verwenden.
 Beispielsweise kann ein Benutzer die Berechtigung haben, Codeunit 80 **Verkaufsbuchung** auszuführen. Die **Verkaufsbuchung** Codeunit führt viele Aufgaben aus, einschließlich der Bearbeitung von Tabelle 37 **Verkaufsposition** aus. Wenn der Benutzer ein Verkaufsdokument in der Codeunit **Verkaufsbuchung** buch, überprüft [!INCLUDE[d365fin](includes/d365fin_md.md)],  ob der Benutzer über die Berechtigung zum Bearbeiten der Tabelle **Einkaufszeile** verfügt. Wenn nicht, kann die Codeunit ihre Aufgaben nicht ausführen und der Benutzer erhält eine Fehlermeldung. In diesem Fall wird die Codeunit erfolgreich ausgeführt.
 
-Jedoch muss der Anwender keinen vollen Zugriff auf die Tabelle **Verkaufszeile** haben, um Codeunit auszuführen. Wenn der Benutzer über indirekte Berechtigungen für die Tabelle **Verkaufszeile** verfügt, wird die Codeunit **Verkaufseinheit** erfolgreich ausgeführt. Wenn ein Benutzer über indirekte Berechtigungen verfügt, kann dieser Benutzer die Tabelle **Verkaufszeile** nur ändern, indem die **Verkaufsbuchung** Codeunit oder ein anderes Objekt ausgeführt wird, das die Berechtigung zum ändern der Tabelle ** Verkaufsposition**hat. Der Benutzer kann die Tabelle **Verkaufsposition** nur von unterstützten Anwendungsbereichen aus ändern. Der Benutzer kann die Funktion mit anderen Methoden nicht unbeabsichtigt oder böswillig ausführen.
+Jedoch muss der Anwender keinen vollen Zugriff auf die Tabelle **Verkaufszeile** haben, um Codeunit auszuführen. Wenn der Benutzer über indirekte Berechtigungen für die Tabelle **Verkaufszeile** verfügt, wird die Codeunit **Verkaufseinheit** erfolgreich ausgeführt. Wenn ein Benutzer über indirekte Berechtigungen verfügt, kann dieser Benutzer die Tabelle **Verkaufszeile** nur ändern, indem die **Verkaufsbuchung** Codeunit oder ein anderes Objekt ausgeführt wird, das die Berechtigung zum ändern der Tabelle **Verkaufsposition**hat. Der Benutzer kann die Tabelle **Verkaufsposition** nur von unterstützten Anwendungsbereichen aus ändern. Der Benutzer kann die Funktion mit anderen Methoden nicht unbeabsichtigt oder böswillig ausführen.
+
+## <a name="to-set-up-user-time-constraints"></a>So richten Sie Zeiteinschränkungen ein
+Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definieren, in denen die angegebenen Benutzer Buchungen durchführen können. Außerdem können sie angeben, ob  die Zeitdauer erfasst, während der angegebene Benutzer angemeldet sind. Administratoren können Benutzern Zuständigkeitseinheiten zuordnen.
+
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Benutzereinrichtung** ein. Wählen Sie dann den zugehörigen Link aus.
+2. Wählen Sie im Fenster **Benutzer einrichten** die Aktion **Neu** aus.
+3. In dem Feld **Benutzer-ID** geben Sie die ID eines Benutzers ein, oder wählen Sie das Feld aus, um alle Nutzer der aktiven Fenster im System anzuzeigen.
+4. Füllen Sie die Felder je nach Bedarf aus.
 
 ## <a name="see-also"></a>Siehe auch
 [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
 [Willkommen bei [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

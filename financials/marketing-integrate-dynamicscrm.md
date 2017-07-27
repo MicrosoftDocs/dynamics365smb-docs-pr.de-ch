@@ -1,6 +1,6 @@
 ---
-title: "Verwalten Ihrer Debitoren-Verhältnisse mithilfe von Dynamics 365 for Sales in Dynamics 365 für Financials | Microsoft Docs"
-description: "Wenn Sie 365 Dynamics for Sales für Debitorenverpflichtung verwenden, können Sie Dynamics 365 for Financials für Prozesse und Finanzen verwenden und eine nahtlose Integration in bargeldlose Prozesse haben."
+title: Verwalten von Kunden, die Dynamics 365 for Sales nutzen| Microsoft Docs
+description: "Sie können Dynamics 365 for Sales aus Dynamics 365 for Financials nutzen, um Daten zu verknüpfen und eine nahtlose Integration und Synchronisation der führenden Prozesse sicherzustellen."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 03/05/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c0291cc316b49e1f1f4f2196745914daca158f61
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2f182d48a3d2c083507564b553fbe22ad7a2e661
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Verwalten Ihrer Debitoren-Verhältnisse mithilfe von Dynamics 365 for Sales in Dynamics 365 for Financials | Microsoft Docs
@@ -23,16 +23,19 @@ Wenn Sie 365 Dynamics for Sales für Debitorenverpflichtung verwenden, können S
 
 Wenn Ihre Anwendung für die Integration mit Dynamics 365 eingerichtet ist, haben Sie Zugriff auf Umsatzdaten von [!INCLUDE[d365fin](includes/d365fin_md.md)] und in einigen Fällen auf umgekehrte Art. Mit dieser Integration können Sie mit Datentypen, die von beiden Diensten verwendet werden, arbeiten und diese synchronisieren. Dazu zählen etwa Debitoren, Kontakte und Verkaufsinformationen. Außerdem können Sie die Daten an beiden Lagerorten auf dem aktuellen Stand halten.  
 
-**Hinweis**: In der aktuellen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] ist Dynamics 365 for Sales als Dynamics CRM erwähnt. Der Einfachheit halber verwendet der restliche Teil dieses Artikels die Terminologie, die verwendet wird in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> [!NOTE]  
+>   In der aktuellen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] ist Dynamics 365 for Sales als Dynamics CRM erwähnt. Der Einfachheit halber verwendet der restliche Teil dieses Artikels die Terminologie, die verwendet wird in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Beispielsweise kann der Verkäufer in Dynamics CRM die Preislisten verwenden aus[!INCLUDE[d365fin](includes/d365fin_md.md)] wenn Sie einen Verkaufsauftrag erstellen. Wenn Artikel in der Verkaufsauftragszeile in Dynamics CRM hinzugefügt werden, sie sind auch in der Lage, den Lagerbestand (Verfügbarkeit) des Artikels anzuzeigen von [!INCLUDE[d365fin](includes/d365fin_md.md)]. Diese Daten dienen als Teil der unterstützten Einrichtung **Dynamics CRM-Verbindungseinrichtung**.  
 
-**Hinweis: ** Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter] [Benutzeroberfläche [!INCLUDE[d365fin](includes/d365fin_md.md)] (ui-experiences.md) anpassen.  
+> [!NOTE]  
+>   Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.  
 
 ## <a name="setting-up-the-connection"></a>Einrichten der Verbindung
 Von der Startseite können Sie auf die **Dynamics CRM-Verbindungseinrichtung** unterstützte Einrichtung zugreifen, der Ihnen hilft, den Link einzurichten. Sobald Sie das getan wird, haben Sie eine nahtlose Kopplung der Dynamics CRM Datensätze mit [!INCLUDE[d365fin](includes/d365fin_md.md)] Datensätzen.  
 
-**Hinweis**: Das folgende berücksichtigt die unterstützte Einrichtung, aber Sie können dieselben Aufgaben im Fenster **CRM-Verbindungseinrichtung** manuell ausführen.
+> [!NOTE]  
+>   Das folgende berücksichtigt die unterstützte Einrichtung, aber Sie können dieselben Aufgaben im Fenster **CRM-Verbindungseinrichtung** manuell ausführen.
 
 Im unterstützten Einrichtungshandbuch können Sie auswählen, welche Daten zwischen den beiden Services zu synchronisieren sind. Sie können auch festlegen, dass Sie die vorhandene Lösung in Microsoft Dynamics CRM importieren möchten. In diesem Fall müssen Anmeldeinformationen für ein Administratorkonto angeben.
 
@@ -67,21 +70,22 @@ In bestimmten Bereichen beruht die Funktionalität auf Sie bestimmten Datensätz
 * Artikel und Ressourcenpreise  
   * Koppelt Kundenpreisgruppen mit Dynamics CRM Preisen zuerst  
 
-**Hinweis**: Wenn Sie Verkaufspreise in Fremdwährungen verwenden, stellen Sie sicher, dass Sie Währungen mit Dynamics CRM Transaktionswährungen koppeln.
+> [!NOTE]  
+>   Wenn Sie Verkaufspreise in Fremdwährungen verwenden, stellen Sie sicher, dass Sie Währungen mit Dynamics CRM Transaktionswährungen koppeln.
 
 Dynamics CRM Verkaufsaufträge hängen von zusätzlichen Informationen wie Debitoren, Maßeinheiten, Währungen, Debitorenpreisgruppen, Artikeln und/oder Ressourcen ab. Damit Verkaufsaufträge in Dynamics CRM nahtlos arbeiten, müssen Sie Debitoren, Maßeinheiten, Währungen, Debitorenpreisgruppen, Artikel und/oder Ressourcen zuerst koppeln.
 
 ### <a name="synchronizing-records-fully"></a>Datensätze vollständig synchronisieren
 Am Ende der unterstützen Einrichtung können Sie die Aktion **Vollständige Synchronisierung ausführen** auswählen, um die Synchronisierung aller Datensätze mit allen [!INCLUDE[d365fin](includes/d365fin_md.md)] Datensätzen mit allen verknüpften Einträgen in den verbundenen Dynamics CRM-Lösung zu starten. Im Fenster **Überprüfung vollständige CRM-Synchronisierung** wählen Sie die Aktion **Starten** aus. Die Synchronisierung beginnt dann, Aufgaben entsprechend der Abhängigkeiten auszuführen. Beispielsweise werden Währungsdatensätze vor Debitorendatensätze synchronisiert. Die vollständige Synchronisierung wird möglicherweise viel Zeit in Anspruch nehmen und läuft im Hintergrund, damit Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] weiter arbeiten können.
 
-Um den Status aus einzelnen Projekte in einer vollständigen Synchronisierung sicherzustellen, blättern Sie im ** Projektwarteschlangenposten-Status** nach unten zum Feld **Um Int. Tabellen-Projekt-Status** oder **Von Int. Tabellen-Projekt-Status** im Fenster **CRM Full Synch. Prüfen**.
+Um den Status aus einzelnen Projekte in einer vollständigen Synchronisierung sicherzustellen, blättern Sie im **Projektwarteschlangenposten-Status** nach unten zum Feld **Um Int. Tabellen-Projekt-Status** oder **Von Int. Tabellen-Projekt-Status** im Fenster **CRM Full Synch. Prüfen**.
 
 Im Fenster **CRM-Verbindungseinrichtung** können Sie Details über sämtliche Synchronisierungen sehen. Von hier können Sie das **Integrationstabellenzuordnungen** Fenster auch öffnen, um Details über die Tabellen in den Finanzverhältnissen und der Dynamics CRM Lösung finden, die synchronisiert werden müssen.
 
 ## <a name="see-also"></a>Siehe auch
 [Relationship Management](marketing-relationship-management.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
-[Die Benutzeroberfläche [!INCLUDE[d365fin](includes/d365fin_md.md)] anpassen](ui-experiences.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Anpassen der[!INCLUDE[d365fin](includes/d365fin_md.md)]Erfahrung](ui-experiences.md)  
 [Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen](ui-how-users-permissions.md)    
 [Holen Sie Ihre Organisation und Benutzer zu Dynamics 365 (Online) an Bord)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
 

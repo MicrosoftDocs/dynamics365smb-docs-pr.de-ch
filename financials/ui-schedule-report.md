@@ -1,6 +1,6 @@
 ---
-title: "Vorgehensweise: Planen der Ausführung eines Berichts  | Microsoft Docs"
-description: "Erfahren, wie Sie einen Bericht planen können, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird."
+title: "Sie können einen Bericht planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird | Microsoft Docs"
+description: Erfahren Sie mehr zum Eingeben eines Berichts in eine Aufgabenwarteschlange und das Planen der Verarbeitung an einem bestimmten Datum und Uhrzeit.
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: task, process, job queue
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 50d0d76857b71cc2b2c706cf2a585fde5e7449e8
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0b97a5e48c4b339375ca9ad8cbe8388c5d47bb44
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,5 +27,5 @@ Sie können einen Bericht planen, wenn Sie einen Bericht öffnen. Sie wählen **
 
 ## <a name="see-also"></a>Siehe auch
 [Angeben der Druckerauswahl für Berichte](ui-specify-printer-selection-reports.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

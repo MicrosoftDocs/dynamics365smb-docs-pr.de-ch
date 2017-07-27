@@ -1,6 +1,6 @@
 ---
-title: 'So gehts: Neue Kunden registrieren | Microsoft Docs'
-description: 'Vorgehensweise: Einen neuen Debitor registrieren'
+title: Eine Kreditorenkarte erstellen, um einen neuen Kreditor zu erfassen | Microsoft Docs
+description: Beschreibt, wie eine Debitorenkarte erstellt wird, um Informationen zu jedem neuen Debitor oder Clients zu erfassen, an die Sie verkaufen.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6789e6a4129789e950c7f71ff86e62263ae9c087
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ca4f1880e7a95eaf945d48ca2cdd7b3d5f80a621
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,7 +25,8 @@ Debitoren sind die Herkunft des Erträge. Jeder Debitor, an den Sie verkaufen, m
 
 Bevor Sie neue Debitoren erfassen können, müssen Sie verschiedene Verkaufscodes einrichten, aus denen Sie auswählen können, wenn Sie Debitorenkarten ausfüllen. Weitere Informationen finden Sie unter [Einrichten von Verkäufen](sales-setup-sales.md).
 
-**Hinweis**: Wenn es Debitorenvorlagen für verschiedene Debitorenarten gibt, dann erscheint ein Fenster automatisch, wenn Sie eine neue Debitorenkarte erstellen, von der aus Sie eine entsprechende Debitorenvorlage auswählen können. Wenn nur eine Debitorenvorlage vorhanden ist, verwenden neue Debitorenkarten immer diese Vorlage.
+> [!NOTE]  
+>   Wenn es Debitorenvorlagen für verschiedene Debitorenarten gibt, dann erscheint ein Fenster automatisch, wenn Sie eine neue Debitorenkarte erstellen, von der aus Sie eine entsprechende Debitorenvorlage auswählen können. Wenn nur eine Debitorenvorlage vorhanden ist, verwenden neue Debitorenkarten immer diese Vorlage.
 
 ## <a name="to-create-a-new-customer-card"></a>Erstellen Sie eine neue Debitorenkarte
 1. Auf der Startseite wählen Sie **Debitoren**, um die Liste der Bestandsdebitorenkarten zu öffnen.  
@@ -56,5 +57,5 @@ Die Debitorenvorlage wird der Liste von Debitorenvorlagen hinzugefügt, damit Si
 ## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)    
 [Einrichten von Verkäufen](sales-setup-sales.md)    
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

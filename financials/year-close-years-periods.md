@@ -1,6 +1,6 @@
 ---
-title: "Jahresabschlüsse und Perioden| Microsoft Docs"
-description: "Erklärt, wie ein Geschäftsjahr und Perioden geschlossen werden."
+title: "Überblick zu Aufgaben, ein Geschäftsjahr abzuschließen und Buchhaltungsperioden| Microsoft Docs"
+description: "Gliedert die Aufgaben, um ein Geschäftsjahr abzuschließen oder Buchhaltungsperiode, beispielsweise der Belege und die Buch.-Blätter sind vergewissernd gebucht überprüfend und Bankguthaben."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/07/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 211bebe03d270a0efabe87d131ae45f1617feaa7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0f753e84a9318cdd3a58ed192437206659b6a2ad
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,11 +31,12 @@ Die folgende Tabelle enthält einen Überblick über die Aufgaben, die Sie übli
 | Verschaffen Sie sich einen Überblick über die Aktivitäten, die üblicherweise am Ende einer Periode fällig werden wie Buchen aller Belege und Erfassungsjournale oder das Ausführen eines Kontenschemas. |[Schließen der Perioden](year-how-complete-period-end-processes.md) |
 | Aktualisieren von Wechselkursen und Anpassen der Wechselkurse gebuchter Debitoren-, Kreditoren- und Bankkontoposten |[Vorgehensweise: Aktualisieren von Währungswechselkursen](finance-how-update-currencies.md) |
 | Verteilen von Kosten und Umsatz auf Konten und Dimensionen |[Kosten und Einkünfte zuteilen](year-allocate-costs-income.md) |
+| Definieren Sie, wie Sie Dienstleistungssteuerbeträge erstellen, die Sie für Verkäufe an das Finanzamt eingetrieben haben. |[So gehts: Melden von MwSt. an die Steuerbehörden](finance-how-report-vat.md)|
 | Drucken von Berichten zum Prüfen der Salden von Finanzbuchhaltung, Debitoren, Kreditoren und Bankkonten vor dem Periodenabschluss |[Vorabschlussberichte vorbereiten](year-prepare-preclose-reports.md) |
 | Abschließen der Buchhaltungsperioden, Übertragen der Erfolgsrechnungsbilanzen auf Bilanzkonten und Buchen des .Jahresabschlusspostens. |[Schließen der Bücher](year-close-books.md) |
 | Drucken von Berichten zur Unterstützung beim Erstellen von Finanzauswertungen |[Abschlussberichte vorbereiten](year-prepare-close-statement.md) |
 
 ## <a name="see-also"></a>Siehe auch
 [So geht's: Ein neues Geschäftsjahr eröffnen](finance-how-open-new-fiscal-year.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

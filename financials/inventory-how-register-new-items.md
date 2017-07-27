@@ -1,6 +1,6 @@
 ---
-title: 'So gehts: Neue Artikel registrieren | Microsoft Docs'
-description: "Erstellen Sie Karten für neue physische Produkte, die Sie ab Lager verkaufen z. B. in Stücken oder bei Services in Stunden."
+title: "Erstellen Sie Artikelkarten für Services oder Waren | Microsoft Docs"
+description: "Sie stellen Artikelkarten für Serviceleistungen an, die Sie für physische als Stunden und Produkte, wie Montageartikel, Fertigprodukte aus der Produktion, Komponenten oder Menge verkaufen, die Sie von Ihrem Lagerbestand verkaufen."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 582e006291e51e19d80304d24ae055ce6ac8d698
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 719e11f2c8fee3d7e5dd3736754700b68f57379c
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,8 @@ Die Artikelkarte kann den Typ **Bestand** oder **Service** haben, um anzuzeigen,
 
 Ein Artikel kann als übergeordneter Artikel mit zugrunde liegenden untergeordneten Elementen in Stücklisten (BOM) strukturiert werden. In [!INCLUDE[d365fin](includes/d365fin_md.md)], bezeichnet eine Stückliste als eine Montagestückliste. Sie verwenden Montagestücklisten, um übergeordnete Artikel zu strukturieren, die Sie als Sets verkaufen, die aus den Komponenten des übergeordneten Artikels bestehen oder für die Sie die Auftragsmontage oder das Lager haben. Weitere Informationen finden Sie unter [Arbeiten mit Stücklisten](inventory-how-work-BOMs.md).
 
-**Hinweis**: Wenn für verschiedene Artikelarten Artikelvorlagen existieren, öffnet sich ein Fenster, aus dem Sie eine entsprechende Artikelvorlage auswählen können, sobald eine neue Artikelkarte erstellt wird . Wenn nur eine Artikelvorlage vorhanden ist, verwenden neue Artikelkarten immer diese Vorlage.
+> [!NOTE]  
+>   Wenn für verschiedene Artikelarten Artikelvorlagen existieren, öffnet sich ein Fenster, aus dem Sie eine entsprechende Artikelvorlage auswählen können, sobald eine neue Artikelkarte erstellt wird . Wenn nur eine Artikelvorlage vorhanden ist, verwenden neue Artikelkarten immer diese Vorlage.
 
 ## <a name="to-create-a-new-item-card"></a>So erstellen Sie eine neue Artikelkarte
 1. Wählen Sie auf der Startseite die Aktion **Artikel**, um die Liste der vorhandenen Artikel zu öffnen.  
@@ -55,9 +56,9 @@ Wenn Sie diese Artikelkarte als Vorlage zum Erstellen neuer Artikelkarten verwen
 Die Artikelvorlage wird der Liste von Artikelvorlagen hinzugefügt, damit Sie diese verwenden können, um neue Debitorenkarten zu erstellen.
 
 ## <a name="see-also"></a>Siehe auch
-  [Lagerbesttand](inventory-manage-inventory.md)  
+  [Lagerbest](inventory-manage-inventory.md)  
   [Einkauf](purchasing-manage-purchasing.md)  
   [Verkauf](sales-manage-sales.md)  
-  [Arbeitend mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md]
+  [Arbeiten mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

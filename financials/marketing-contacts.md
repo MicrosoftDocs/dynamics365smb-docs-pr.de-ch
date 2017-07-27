@@ -1,6 +1,6 @@
 ---
-title: Erstellen und Verwalten von Kontakten | Microsoft Docs
-description: Beschreibt, wie Sie Kontakte in Financials erstellen und verwalten
+title: Erstellen und Verwalten von Unternehmenskontakten | Microsoft Docs
+description: "Sie richten alle externen Entitäten ein, mit denen Sie Geschäftsbeziehungen haben (wie Debitoren, Interessenten, Kreditoren und Berater)."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4042cf76b6be433ad0a9934d0d1651d1df7ee433
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,9 +31,9 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 
 | Aktion | Informationen |
 | --- | --- |
-| Richten Sie die Kontaktverwaltung vor dem Hinzufügen von Kontakten ein. |[Vorbereitung auf das Einrichten von Kontakten](marketing-setup-contacts.md) |
-| Erstellen einer Kontaktkarte für jedes neue Unternehmen, mit dem Sie in Kontakt treten – beispielsweise für einen Debitor oder Kreditor |[Erstellen von Kontaktunternehmen](marketing-create-contact-companies.md) |
-| Erstellen einer Kontaktkarte für jede Kontaktperson, die für ein Unternehmen arbeitet, mit dem Sie in Kontakt stehen |[Anlegen von Kontaktpersonen](marketing-create-contact-persons.md) |
+| Richten Sie die Kontaktverwaltung vor dem Hinzufügen von Kontakten ein. |[Vorbereiten, Kontakte einzurichten](marketing-setup-contacts.md) |
+| Erstellen einer Kontaktkarte für jedes neue Unternehmen, mit dem Sie in Kontakt treten – beispielsweise für einen Debitor oder Kreditor |[Kontaktunternehmenerstellen](marketing-create-contact-companies.md) |
+| Erstellen einer Kontaktkarte für jede Kontaktperson, die für ein Unternehmen arbeitet, mit dem Sie in Kontakt stehen |[Kontaktpersonen erstellen](marketing-create-contact-persons.md) |
 
 ## <a name="see-also"></a>Siehe auch
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  

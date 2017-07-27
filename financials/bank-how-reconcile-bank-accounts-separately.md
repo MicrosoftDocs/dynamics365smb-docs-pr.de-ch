@@ -1,6 +1,6 @@
 ---
-title: 'So gehts: Bankkonten separat abstimmen| Microsoft Docs'
-description: 'Gewusst wie: Bankkonten separat abstimmen'
+title: Bankkonten separat abstimmen| Microsoft Docs
+description: Beschreibt wie der Lagerwert mit dem Fibuposten abgestimmt wird.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 916f655f9dba80f7c227519372633913b11641ea
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 12620b1afa4630441889777bce30cb81317a848b
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-reconcile-bank-accounts-separately"></a>Gewusst wie: Bankkonten separat abstimmen
 Um Bankkonten im [!INCLUDE[d365fin](includes/d365fin_md.md)]mit den Kontoauszügen abzustimmen, die Sie von der Bank erhalten haben, müssen Sie die Zeilen im Fenster **Bankkontoabstimmung** ausfüllen.
 
-**Hinweis**: Sie können Bankkonten auch im Fenster **Zahlungsabstimmungs-Erfassungsjournal** abstimmen. Alle offnen Bankposten, die sich auf ausgeglichene Debitoren- oder Kreditorenposten beziehen, werden geschlossen, wenn Sie die Aktion **Zahlungen buchen und Bankkonto abstimmen** auswählen. Dies bedeutet, dass das Bankkonto mit Zahlungen abgestimmt wird, die Sie mit dem Erfassungsjournal buchen. Weitere Informationen finden Sie unter [So gehts: Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
+> [!NOTE]  
+>   Sie können Bankkonten auch im Fenster **Zahlungsabstimmungsbuch.-Blatt** abstimmen. Alle offnen Bankposten, die sich auf ausgeglichene Debitoren- oder Kreditorenposten beziehen, werden geschlossen, wenn Sie die Aktion **Zahlungen buchen und Bankkonto abstimmen** auswählen. Dies bedeutet, dass das Bankkonto mit Zahlungen abgestimmt wird, die Sie mit dem Erfassungsjournal buchen. Weitere Informationen finden Sie unter [So gehts: Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
 Um den Import von Bankkontoauszügen als Bankfeed zu aktivieren, müssen Sie den Bankfeeddienst Envestnet Yodlee einrichten und aktivieren und dann Ihr Bankkonto mit den entsprechenden Onlinebankkonten verbinden. Für weitere Informationen, siehe [So gehts: Einrichten des Envestnet Yodlee Bank-Feed-Service](bank-how-setup-bank-statement-service.md).
 
@@ -38,10 +39,11 @@ Sie können den Bereich **Bankauszugspositionen** im Fenster **Bankkontoabstimmu
 
 Wenn der Wert im Feld **Gesamtsaldo** im Bereich **Bankauszugspositionen** dem Wert im Feld **Abzustimmender Saldo** im Bereich **Bankposten** entspricht, können Sie die Aktion **Buchen** auswählen, um die saldierten Bankposten abzugleichen.. Jeder nicht zugeordnete Bankposten wird weiterhin im Fenster angezeigt. Dies bedeutet, dass die Zahlungen, die für das Bankkonto verarbeitet werden, nicht im letzten Bankkontoauszug dargestellt sind, oder dass einige Zahlungen als Schecks eingegangen sind.
 
-**Hinweis**: Wenn sich Bankauszugspositionen auf Scheckposten beziehen, können Sie die entsprechenden Funktionen nicht verwenden. Stattdessen müssen Sie die Aktion **Posten ausgleichen** auswählen und im Inforegister Bankauszugspositionen auswählen und dann die entsprechenden Scheckposten auswählen, mit denen Sie die Bankkontoauszugszeile ausgleichen möchten.
+> [!NOTE]  
+>   Wenn sich Bankkontoauszugszeilen auf Scheckposten beziehen, können Sie die entsprechenden Funktionen nicht verwenden. Stattdessen müssen Sie die Aktion **Posten ausgleichen** auswählen und im Inforegister Bankauszugspositionen auswählen und dann die entsprechenden Scheckposten auswählen, mit denen Sie die Bankkontoauszugszeile ausgleichen möchten.
 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>So füllen Sie Bankabstimmungszeilen mithilfe des Importierens eines Bankkontoauszugs aus
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen **aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen.") Geben Sie **Abstimmung Bankkonto** ein und wählen Sie dann den entsprechenden Link aus.
+1. Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Bankkonto abstimmemn** ein und wählen den zugehörenden Link aus.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Wählen Sie im Feld **Bankkontonummer** das entsprechende Bankkonto aus. Die Bankposten, die im Bankkonto vorhanden sind, werden im Bereich **Bankposten** angezeigt.
 4. Geben Sie im Feld **Auszugsdatum** das Datum des Kontoauszuges der Bank ein.
@@ -58,7 +60,7 @@ Wenn der Wert im Feld **Gesamtsaldo** im Bereich **Bankauszugspositionen** dem W
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>So gleichen Sie Bankkontoauszugszeilen mit Bankposten automatisch ab
 1. Wählen Sie im Fenster **Bankkontoabstimmung** die Aktion **Automatisch abgleichen** aus. Das Fenster **Bankposten abstimmen** wird geöffnet.
-2. Geben Sie im Feld ** Toleranz Buchungsdaten in Tagen** die Anzahl der Tage vor und nach dem Bankpostenbuchungsdatum an, innerhalb dessen die Funktion nach entsprechenden Transaktionsdaten im Bankkontoauszug sucht.
+2. Geben Sie im Feld **Toleranz Buchungsdaten in Tagen** die Anzahl der Tage vor und nach dem Bankpostenbuchungsdatum an, innerhalb dessen die Funktion nach entsprechenden Transaktionsdaten im Bankkontoauszug sucht.
 
     Wenn Sie "0" eingeben oder das Feld leer lassen, sucht die Funktion **Automatisch abgleichen** nur nach übereinstimmenden Buchungsdaten am Buchungsdatum des Bankpostens.  
 3. Wählen Sie die Schaltfläche **OK** aus.  
@@ -92,5 +94,5 @@ Manchmal enthält ein Bankkontoauszug einen Betrag für berechnete Zinsen oder G
 ## <a name="see-also"></a>Siehe auch
 [Verwalten von Bankkonten](bank-manage-bank-accounts.md)  
 [Einrichten von Banken](bank-setup-banking.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

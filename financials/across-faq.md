@@ -1,6 +1,6 @@
 ---
-title: "Häufig gestellte Fragen| Microsoft Docs"
-description: "Häufig gestellte Frage zur Anmeldung und Verwendung von Dynamics 365 for Financials."
+title: FAQ zur Nutzung von Financials | Microsoft Docs
+description: "Beantwortet allgemeine Fragen darüber, wie man sich bei Financials anmeldet, und was es zu Beginn zu tun gibt."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 58ba70311a035afd08bc5b4d0193fc34b132a39f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f4c4180c1ea70d8ef17136d56cc0f21e50f4f302
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,10 +32,10 @@ Wenn Sie versuchen, sich mit einer persönlichen E-Mail-Adresse anzumelden, erha
 Nr. Wenn Sie allerdings möchten, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] vollständig in Office 365 integriert wird, können Sie sich für eine 1-monatige kostenlose Testversion des Office 365 [hier](https://products.office.com/try)anmelden.  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Worum gehts bei der Integration mit Office 365?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ist vollständig in Office 365 integriert, sodass Sie mithilfe des App-Startfelds unabhängig zwischen Office 365-Anwendungen und [!INCLUDE[d365fin](includes/d365fin_md.md)] navigieren können. Im [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie beispielsweise Daten in Excel öffnen, Berichte unter Verwendung Word drucken und mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)]Daten in Outlook arbeiten. Weitere Informationen finden Sie unter Nutzen Sie [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]  als Ihr Unternehmenspostfach in Outlook](madeira-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ist vollständig in Office 365 integriert, sodass Sie mithilfe des App-Startfelds unabhängig zwischen Office 365-Anwendungen und [!INCLUDE[d365fin](includes/d365fin_md.md)] navigieren können. Im [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie beispielsweise Daten in Excel öffnen, Berichte unter Verwendung Word drucken und mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)]Daten in Outlook arbeiten. Weitere Informationen finden Sie unter[ Nutzen Sie[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-outlook.md)  als Ihr Unternehmenspostfach in Outlook.  
 
 ## <a name="can-i-cancel-my-subscription"></a>Kann ich mein Abonnement beenden?
-Ja, aber abhängig davon, wie Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] registriert haben, können Ihre Daten gelöscht oder beibehalten werden. Weitere Informationen finden Sie unter Beenden von [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md)..  
+Ja, aber abhängig davon, wie Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] registriert haben, können Ihre Daten gelöscht oder beibehalten werden. Weitere Informationen finden Sie unter [Stornierung[!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md)  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Wohin wende ich mich bei Fragen?
 Wenn Sie Fragen zum [!INCLUDE[d365fin](includes/d365fin_md.md)] haben, können Sie eine Reaktion für in diese Dokumentation, Sie nicht finden können das 365 um Finanzverhältniscommunity Dynamics anfordern. Weitere Informationen finden Sie unter [Dynamics 365, Geschäfts-Editions-Community](https://community.dynamics.com/business). Auch unser Support-Team veröffentlicht Tips und Tricks. Weitere Informationen finden Sie unter [Dynamics 365 for Financials Support Blog](https://blogs.msdn.microsoft.com/dyn365finsupport).  
@@ -48,8 +48,8 @@ Dies ist ein wenig komplizierter, aber es sieht so aus, als ob Ihr Administrator
 
 ## <a name="see-also"></a>Siehe auch
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-Nutzen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](madeira-outlook.md)  
-[Verwenden von[!INCLUDE[d365fin](includes/d365fin_md.md)] ohne Outlook] (madeira-no-outlook.md)  
-[So gehts: Ändern des Rollencenterr](change-role.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Nutzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](madeira-outlook.md)  
+[Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] ohne Outllok ](madeira-no-outlook.md)  
+[So gehts: Ändern des Rollencenters](change-role.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

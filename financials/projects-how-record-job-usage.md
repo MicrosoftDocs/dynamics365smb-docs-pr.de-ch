@@ -1,6 +1,6 @@
 ---
-title: "Vorgehensweise: Erfassen des Verbrauchs für Projekte  | Microsoft Docs"
-description: Beschreibt, wie der Verbrauch der Artikel oder Ressourcen auf Projekte gespeichert wird.
+title: Verrechenbarer und geplanter Verbrauch von Projekt-Ressourcen| Microsoft Docs
+description: Beschreibt, wie der Verbrauch oder die Verwendung von Artikeln oder Ressourcen erfasst wird, um das Projektmanagement zu vereinfachen.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, consumption
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 896b26e11042155860d6c933d937066f9c9aec73
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2b42abaed502c49a595a35656570548e48321b46
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Zum Beispiel können Sie für Planungszeilen der Art **Plan** die Menge einer Re
 Die folgenden Verfahren beschreiben, wie die tatsächlichen (verrechenbaren) oder geplanten Projektverkaufspreise und Kosten gespeichert werden. Informationen zur Einschätzung der geplante Werte bei der Planung, siehe [Vorgehensweise: Verwalten von Projektbudgets](projects-how-manage-budgets.md)
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Den Verbrauch in einer Projektplanungszeile der Art "Plan"erfassen
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Jobs** ein und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Projekt** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Projektplanzeilen** aus.
 3. Wählen Sie eine Projektplanungszeile der Art **Plan** aus oder geben Sie **Plan und Fakturierbar** ein, für die Sie den Verbrauch buchen möchten.
 4. Geben Sie im Feld **In das Journal zu übertragende Menge** die Anzahl ein, die Sie auf die Rechnung transferieren wollen. Der Standardwert ist der Wert, den Sie im Feld **Menge** angegeben haben.
@@ -44,7 +44,7 @@ Die folgenden Verfahren beschreiben, wie die tatsächlichen (verrechenbaren) ode
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Den Verbrauch in einer Projektplanungszeile der Art "Fakturierbar" erfassen
 In der nächsten Aufgabe erfassen Sie ebenfalls den Verbrauch, jedoch für eine Projektplanungszeile der Art **Fakturierbar**. In diesem Fall fakturieren Sie normalerweise Ihren Verbrauch, Sie können ihn aber auch in ein Erfassungsjournal übertragen. Wenn Sie dies tun, wird eine Projektplanungszeile der Art **Plan** erstellt, die der Zeile "Fakturierbar" entspricht. Weitere Informationen finden Sie unter [So geht's: Projektbudgets verwalten](projects-how-manage-budgets.md).
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Jobs** ein und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Projekt** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Projektplanzeilen** aus.  
 3. Wählen Sie eine Projektplanungszeile der Art **Fakturierbar** aus, für die Sie den Verbrauch aufzeichnen möchten.
 4. Geben Sie im Feld **In das Journal zu übertragende Rechnung** die Anzahl ein, die Sie transferieren wollen. Der Standardwert ist der Wert, den Sie im Feld **Menge** angegeben haben.
@@ -61,7 +61,7 @@ In der nächsten Aufgabe erfassen Sie ebenfalls den Verbrauch, jedoch für eine 
 ## <a name="to-create-job-journal-lines-from-job-planning-lines"></a>Projekt-Buchungsblattzeilen aus Projektplanungszeilen erstellen
 Wenn Sie bereit sind, Finanzdaten für Projekte zu buchen, müssen Sie Projekt Buch.-Blattzeilen erstellen, die Sie buchen können.
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Jobs** ein und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Projekt** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie ein entsprechendes offenes Projekt und wählen Sie dann die Aktion **Projektplanzeilen** aus.  
 3. Wählen Sie im Fenster **Projektplanungszeilen** eine relevante Projektplanungszeile aus und geben Sie im Feld **In Buch.-Blatt zu übertragende Menge** die Menge ein, die Sie in ein Projekt-Buchungsblatt übertragen möchten.  
 4. Wählen Sie die Aktion **Buch.-Blattzeilen erstellen** aus.
@@ -71,7 +71,7 @@ Wenn Sie bereit sind, Finanzdaten für Projekte zu buchen, müssen Sie Projekt B
 8. Wenn die Projekt-Buch.-Blattzeilen vollständig sind, wählen Sie die Aktion **Buchen** aus.  
 
 ## <a name="to-create-job-journal-lines-manually"></a>Projekt-Buchungsblattzeilen manuell erstellen
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Job Journalkonto** ein und wählen Sie dann den entsprechenden Link aus.  
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen]Symbol (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **Projektbuch** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie im Feld **Stapelverarbeitungsname** einen entsprechenden Projekt-Buchungsblattnamen aus.  
 3. Geben Sie in einer neuen Zeile die Belegnummer, Projektnummer, Projektaufgabennummer und die Art und Menge des verbrauchten Typs ein.  
 4. Wenn die Projekt-Buch.-Blattzeilen vollständig sind, wählen Sie die Aktion **Buchen** aus.  
@@ -79,9 +79,10 @@ Wenn Sie bereit sind, Finanzdaten für Projekte zu buchen, müssen Sie Projekt B
 ## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Um Planungszeilen für einen Projektposten zu überprüfen
 Nachdem Sie die Projekt-Planungszeilen gebucht haben, können Sie die gebuchten Projekt-Buchungszeilen sehen, die dem Projekt-Erfassungsjournal zugeordnet sind.
 
-**Hinweis**: Dazu ist es erforderlich, dass das Kontrollkästchen **Link Verbrauch anwenden** für das ausgewählte Projekt aktiviert wurde, oder dass es die Standardeinstellung für alle Projekte in Ihrer Organisation ist. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Projekten](projects-how-setup-jobs.md).  
+> [!NOTE]  
+>   Dazu ist es erforderlich, dass das Kontrollkästchen **Verbrauchslink anwenden** für das Projekt ausgewählt wurde, oder dass es die Standardeinstellung für alle Projekte in Ihrer Organisation ist. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Projekten](projects-how-setup-jobs.md).  
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Job Journalkonto** ein und wählen Sie dann den entsprechenden Link aus.  
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen]Symbol (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **Projektbuch** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie ein Buch.-Blatt des entsprechenden Projekts aus, und wählen Sie dann die Aktion **Projektposten** aus.  
 3. Im Fenster **Projektposteneinträge** wählen Sie die Aktion **Anzeigen verknüpfter Projektplanungszeilen** aus.
 
@@ -90,5 +91,5 @@ Nachdem Sie die Projekt-Planungszeilen gebucht haben, können Sie die gebuchten 
 [Finanzen](finance.md)  
 [Einkauf](purchasing-manage-purchasing.md)         
 [Verkauf](sales-manage-sales.md)      
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

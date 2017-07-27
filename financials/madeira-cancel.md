@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 for Financials stornieren | Microsoft Docs
-description: Beschreibt, wie Ihr Dynamics 365 for Finanicals Erlebnis storniert werden kann.
+description: Beschreibt, wie Ihr Dynamics 365 for Finanicals annulliert werden kann.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,18 +10,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7cac3c42b47358e35b35891f42300b209bf37ec3
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 4dc1a0d643aa9b1a2e1fe5b870881dc43c1ed2a1
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="canceling-dynamics-365-for-financials"></a>Dynamics 365 for Financials stornieren
-Wenn Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] registriert haben, können Sie Ihr Abonnement jederzeit beenden. Ebenso können Sie Unternehmen zurückzusetzen, die Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)]  verwenden. Für eine Übersicht sehen Sie den [!INCLUDE[d365fin](includes/d365fin_md.md)] Blog] [(https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
+# <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Sie kündigen, entfernen, oder setzen [!INCLUDE[d365fin](includes/d365fin_md.md)] zurück
+Wenn Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] registriert haben, können Sie Ihr Abonnement jederzeit beenden. Ebenso können Sie Unternehmen zurückzusetzen, die Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)]  verwenden. Für eine schnelle Übersicht [[!INCLUDE[d365fin](includes/d365fin_md.md)] Blog](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
 ## <a name="unsubscribing-by-removing-included365finincludesd365finmdmd-from-your-office-365-experience"></a>Entfernen vorn [!INCLUDE[d365fin](includes/d365fin_md.md)] aus Ihrer Office 365-Umgebung
 Wenn Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] unter Verwendung eines vorhandenen Office 365-Geschäftskontos angemeldet haben, müssen Sie Ihren Office 365-Administrator bitten, die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Lizenz aus Ihrem Benutzerkonto zu entfernen.  
@@ -32,7 +32,8 @@ Wenn Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] unter Verwendung 
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Zurücksetzen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]-Nutzung
 Wenn Sie der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Vorschau Daten hinzugefügt haben und Sie möchten nochmal von vorn anfangen, können Sie ein neues Unternehmen erstellen und dann das ersten Unternehmen zurücksetzen. Wenn Sie die Seite **Unternehmen** öffnen, können Sie eine Kopie Ihres aktuellen Unternehmens erstellen, sich abmelden, sich dann mit Ihrem neuen Unternehmen anmelden und dann das ursprüngliche Unternehmen zurücksetzen.  
-**Hinweis**: Wenn Sie ein Unternehmen zurücksetzen wollen, dass Sie mit anderen Personen Ihrer Organisation teilen, müssen Sie sicherstellen, dass andere Personen nicht angemeldet sind, wenn Sie das Unternehmen zurücksetzen.  
+> [!NOTE]  
+>   Wenn Sie ein Unternehmen zurücksetzen wollen, dass Sie mit anderen Personen Ihrer Organisation teilen, müssen Sie sicherstellen, dass andere Personen nicht angemeldet sind, wenn Sie das Unternehmen zurücksetzen.  
 
 ## <a name="removing-included365finincludesd365finmdmd-from-your-app-launcher"></a>Entfernen des [!INCLUDE[d365fin](includes/d365fin_md.md)] von Ihrem App-Startfeld
 Wenn Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] auf Ihrem App-Startfeld ausblenden möchten, können Sie es einfach trennen. Dies entfernt keine Daten, und Ihr Abonnement wird nicht beendet.  

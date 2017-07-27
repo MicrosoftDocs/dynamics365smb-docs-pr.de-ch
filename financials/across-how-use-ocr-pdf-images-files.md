@@ -1,6 +1,6 @@
 ---
-title: 'So gehts: Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln| Microsoft Docs'
-description: Beschreibt, wie OCR verwendet wird, um PDF und Bilddateien in elektronische Belege umzuwandeln
+title: Verwenden Sie OCR, um PDF-Dateien zu E-Rechnungen umzuwandeln| Microsoft Docs
+description: "Beschreibt, wie Sie einen OCRDienst verwenden können, um PDF-Dateien oder Bilddateien zu elektronischen Belegen in den Finanzverhältnissen umzuwandeln."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7be94659e8f00021446314acf6558ae01b158971
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 020aeed82d6147641936dee2d7b860791c76d2ee
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,7 @@ Da OCR mit einer optischen Zeichenerkennung arbeitet, ist es wahrscheinlich, das
 Der Dateiverkehr zum und vom OCR-Dienst wird von einen dedizierten Projektwarteschlangeneintrag verarbeitet, der automatisch erstellt wird, wenn Sie die damit zusammenhängende Dienstverbindung aktivieren. Weitere Informationen finden Sie unter [So gehts: Einrichten von eingehenden Belegen](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-window"></a>So senden Sie eine PDF- oder eine Bilddatei vom Fenster **Eingehende Belege** an den OCR-Dienst
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen **aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen.") Geben Sie **Eingehende Dokumente** ein und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Gebuchte Einkaufsrechnungen** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Erstellen Sie einen neuen Datensatz für den Eingangsbeleg und fügen Sie die Datei an. Weitere Informationen finden Sie unter [So gehts: Eingehende Belege erstellen](across-how-create-income-document-records.md).  
 3. Wählen Sie im Fenster **Eingehende Belege** eine oder mehrere Zeilen aus, und wählen Sie dann die Aktion **An Aufgabenwarteschlange senden**.
 
@@ -45,15 +45,16 @@ Senden Sie eine E-Mail mit der PDF oder Bilddatei als Anhang aus Ihrer E-Mail-An
 
 Da kein Eingangsbeleg-Datensatz für die Datei vorhanden ist, wird automatisch ein neuer Datensatz im Fenster **Eingehende Belege** erstellt, wenn Sie den resultierenden elektronischen Beleg vom OCR-Dienst erhalten. Weitere Informationen finden Sie unter [So gehts: Eingehende Belege erstellen](across-how-create-income-document-records.md).
 
-**Hinweis**: Wenn Sie mit einem Tablet oder einem Telefon arbeiten, können Sie die Datei zum OCR-Dienst senden, sobald Sie ein Foto des Belegs aufgenommen haben, oder Sie können einen Eingangsbeleg direkt erstellen. Weitere Informationen finden Sie im Abschnitt "So erstellen Sie Eingangsbelegdatensätze indem Sie ein Foto machen" entnehmen [So gehts: Erstellen von Eingangsbelegen](across-how-create-income-document-records.md).
+> [!NOTE]  
+>   Wenn Sie an einem Tablet oder einem Telefon arbeiten, können Sie die Datei zum OCR-Dienst senden, sobald Sie ein Foto des Dokuments aufgenommen haben, oder Sie können einen Eingangsbeleg direkt erstellen. Weitere Informationen finden Sie im Abschnitt "So erstellen Sie Eingangsbelegdatensätze indem Sie ein Foto machen" entnehmen [So gehts: Erstellen von Eingangsbelegen](across-how-create-income-document-records.md).
 
-## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>So erhalten Sie ein fertiges elektronisches Dokument vom OCR-Service
+## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>So erhalten Sie einen fertigen elektronischen Beleg vom OCR-Service
 Das elektronische Dokument, das vom OCR-Dienst aus PDF-Dateien oder der Bilddatei erstellt wird, wird automatisch in das **Eingehende Belege**-Fenster mit dem Aufgabenwarteschlangenposten erhalten, der eingerichtet wurde, wenn Sie den OCR-Dienst aktivieren.
 
-Wenn Sie keine Aufgabenwarteschlange verwenden oder Sie einen fertigen OCR-Beleg früher als für den Aufgabenwarteschlangenplan geplant erhalten möchten, können Sie die **Von OCR-Dienst abrufen**-Schaltfläche verwenden. So rufen Sie alle Dokumente ab, die vom OCR-Dienst abgeschlossen wurden.
+Wenn Sie keine Aufgabenwarteschlange verwenden oder Sie einen fertigen OCR-Beleg früher als für den Aufgabenwarteschlangenplan geplant erhalten möchten, können Sie die **Von OCR-Dienst abrufen**-Schaltfläche verwenden. So rufen Sie alle Belege ab, die vom OCR-Dienst abgeschlossen wurden.
 
-**Hinweis**
-: Wenn der OCR-Dienst für die manuelle Überprüfung der verarbeiteten Belegen eingerichtet wird, dann enthält das **OCR-Status**-Feld den Wert **Wartet auf Verifizierung**. In diesem Fall führen Sie die folgenden Schritte aus, um sich an der OCR-Dienst-Website anzumelden, um einen OCR-Beleg manuell zu überprüfen.
+> [!NOTE]  
+>   Wenn der OCR-Dienst für die manuelle Überprüfung der verarbeiteten Belegen eingerichtet wird, dann enthält das **OCR-Status**-Feld den Wert **Wartet auf Verifizierung**. In diesem Fall führen Sie die folgenden Schritte aus, um sich an der OCR-Dienst-Website anzumelden, um einen OCR-Beleg manuell zu überprüfen.
 
 1. Im Feld **OCR-Status**-Feld wählen Sie den Link **Wartet auf Verifizierung** aus. Alternativ wählen Sie die **Wartet auf Verifizierung**-Kachel auf der Homepage aus.
 2. Melden Sie sich auf der OCR-Dienst-Website mit den Anmeldeinformationen des OCR-Service-Kontos an. Das sind die Anmeldeinformationen, die Sie beim Einrichten des Dienstes verwendet haben. Weitere Informationen finden Sie im Abschnitt"So richten Sie einen OCR-Service ein"in [Gewusst wie: Eingehende Dokumente einrichten](across-how-setup-income-documents.md).
@@ -70,11 +71,12 @@ Wenn Sie keine Aufgabenwarteschlange verwenden oder Sie einen fertigen OCR-Beleg
 Jetzt können Sie fortfahren, manuelle oder automatisch Belegdatensätze für die eingegangenen elektronische Belege in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu erstellen. Weitere Informationen finden Sie im nächsten Verfahren. Sie können außerdem den neuen Eingangsbelegdatensatz mit vorhandenen gebuchten oder nicht gebuchten Belegen verknüpfen, sodass aus [!INCLUDE[d365fin](includes/d365fin_md.md)] einfach auf die Quelldatei zugegriffen werden kann. Weitere Informationen finden Sie unter [Eingehende Dokumente verarbeiten](across-process-income-documents.md).
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Eine Einkaufsrechnung aus einem vom OCR-Dienst erhaltenen elektronischen Beleg erstellen.
-Nachfolgend wird beschrieben, wie ein Einkaufsrechnungsdatensatz von Rechnungsrabatten des Kreditors erstellt, die als elektronischer Beleg vom OCR-Dienst erhalten. Dieser Vorgang ist derselbe, wenn Sie beispielsweise eine Fibu Erf.-Journalzeile von einem Ausgabenenwareneingang erstellen.
+Nachfolgend wird beschrieben, wie ein Einkaufsrechnungsdatensatz von Rechnungsrabatten des Kreditors erstellt wird, der als elektronischer Beleg vom OCR-Dienst eingeht. Dieser Vorgang ist derselbe, wenn Sie beispielsweise eine Fibu Erf.-Journalzeile von einem Ausgabenenwareneingang erstellen.
 
-**Hinweis: **Die Felder **Beschreibung** und **Nummer** Felder in den erstellten Belegzeilen werden nur ausgefüllt, wenn Sie zuerst den Text aus dem OCR-Beleg zu den zwei Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] zugeordnet haben. Sie können dies entweder über Artikel-Referenzen, für Belegzeilen vom Typ Artikel oder als Text-zu-Konto-Zuordnungen für Beleg- oder Erf.-Journalzeilen vom Typ Fibukonto machen Weitere Informationen finden Sie in der QuickInfo für die Aktion **Referenzen** auf Artikelkarten und dem zugehörigen Verfahren [Vorgehensweise: Zuordnen von sich wiederholenden Zahlungen an Konten bei der automatischen Abstimmung](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+> [!NOTE]  
+>   Die Felder **Beschreibung** und **Nummer** Felder in den erstellten Belegzeilen werden nur ausgefüllt, wenn Sie zuerst den Text aus dem OCR-Beleg zu den zwei Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] zugeordnet haben. Sie können dies entweder über Artikel-Referenzen, für Belegzeilen vom Typ Artikel oder als Text-zu-Konto-Zuordnungen für Beleg- oder Erf.-Journalzeilen vom Typ Fibukonto machen Weitere Informationen finden Sie in der QuickInfo für die Aktion **Referenzen** auf Artikelkarten und dem zugehörigen Verfahren [Vorgehensweise: Zuordnen von sich wiederholenden Zahlungen an Konten bei der automatischen Abstimmung](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-Für eingehende Belege verwenden **Sie üblicherweise die Aktion**, um zu definieren, das ein gegebener Text in einer Kreditorenrechnung vom OCR-Dienst zu einem bestimmten Kreditorkonto verknüpft ist. Danach wird bei jedem Teil der Dokumentbeschreibung, derals Zuordnungstext vorhanden ist das Feld **Nr.** in Beleg- oder Buch.-Blattzeilen der Art Fibukonto werden mit dem jeweiligen Kreditor gefüllt.
+Für eingehende Belege verwenden Sie üblicherweise die **Text zu Konto zuordnen** Aktion , um zu definieren, das ein gegebener Text in einer Kreditorenrechnung vom OCR-Dienst zu einem bestimmten Kreditorkonto verknüpft ist. Danach wird bei jedem Teil der Dokumentbeschreibung, derals Zuordnungstext vorhanden ist das Feld **Nr.** in Beleg- oder Erf.-Blattzeilen der Art Fibukonto werden mit dem jeweiligen Kreditor gefüllt.
 
 Neben der Zuordnung zu einem Kreditor oder einem anderen Sachkonto können Sie auch ein Bankkonto zuordnen. Dies ist beispielsweise für elektronische Belege für Ausgaben nützlich, die bereits bezahlt wurden, für die Sie jedoch eine Fibu Erf.-Journalzeile erstellen möchten, die auf ein Bankkonto buchen kann.
 
@@ -101,7 +103,7 @@ Da OCR mit einer optischen Zeichenerkennung arbeitet, ist es wahrscheinlich, das
 
 Das Fenster **OCR-Datenkorrektur**, das Sie über das Fenster **Eingehender Beleg** öffnen, zeigt die Felder aus dem Inforegister **Finanzinformationen** in zwei Spalten an. Eine mit bearbeitungsfähigen OCR-Daten und eine mit den schreibgeschützten OCR-Daten. Wenn Sie auf die Schaltfläche **OCR-Feedback senden** klicken, wird der Inhalt des Fensters **OCR-Datenkorrektur** an den OCR-Service gesendet. Bei der nächsten Verarbeitung eines PDFs oder einer Bilddateien mit den entsprechenden Daten durch den Service werden Ihre Korrekturen dazu genutzt, die gleichen Fehler zu vermeiden.
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen **aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen.") Geben Sie **Eingehende Dokumente** ein und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Gebuchte Einkaufsrechnungen** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Öffnen Sie einen Eingangsbelegsdatensatz mit den Daten, die vom OCR-Dienst empfangen wurden und die Sie korrigieren möchten.
 3. Wählen Sie im Fenster **Eingehender Beleg** die Aktion **OCR-Daten korrigieren** aus.
 4. Überschreiben Sie im Fenster **OCR-Datenkorrektur** die Daten in der editierbaren Spalte für jedes Feld, das einen fehlerhaften Wert enthält.
@@ -115,5 +117,5 @@ Die Felder auf dem Inforegister **Finanzinformationen** im Fenster **Eingehender
 [Eingehende Dokumente verarbeiten](across-process-income-documents.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

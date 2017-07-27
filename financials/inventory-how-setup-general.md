@@ -1,6 +1,6 @@
 ---
-title: 'So geht&quot;s: Allgemeine Lagerbestandsinformationen einrichten| Microsoft Docs'
-description: Definieren Sie die allgemeinen Lagereinstellungen, wie Nummernserien und wie Lagerorte verwendet werden.
+title: Definieren Sie die allgemeine Lagereinrichtung| Microsoft Docs
+description: "Beschreibt, wie allgemeine Lagereinrichtung, wie Nummernserien und Lagerorte definiert werden, sodass Sie Ihr Lager und Ihren Vorrat verwalten können."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f4075d3ec4eea1241eeca204a9e800c0dba9f5c6
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 328b522107b58029687dd9e3263ff53b10ede9a9
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,14 +24,14 @@ ms.lasthandoff: 05/04/2017
 Sie geben Ihre allgemeine Lagerbestandseinrichtung im Fenster **Lager Einrichtung** an.
 
 ## <a name="to-set-up-general-inventory-information"></a>So richten Sie allgemeine Lagerbestandsinformationen ein
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus! ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und **MwSt-Lagereinrichtung** eingeben und den entsprechenden Link auswählen.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagereinrichtung** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Füllen Sie im Fenster **Lager Einrichtung** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Siehe auch
 [Lager einrichten](inventory-setup-inventory.md)  
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Lieferkette](madeira-supply-chain.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
-[Die Benutzeroberfläche [!INCLUDE[d365fin](includes/d365fin_md.md)] anpassen](ui-experiences.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Anpassen der[!INCLUDE[d365fin](includes/d365fin_md.md)]Erfahrung](ui-experiences.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 

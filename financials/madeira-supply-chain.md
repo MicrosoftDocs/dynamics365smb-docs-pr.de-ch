@@ -1,6 +1,6 @@
 ---
-title: Lieferkette| Microsoft Docs
-description: "Erfahren Sie mehr über Lieferkonzepte und Prozesse"
+title: "Lieferketten-Funktionen unterstützt durch Finanzverhältnisse| Microsoft Docs"
+description: "Verschaffen Sie sich eine Produktübersicht erfahren Sie Schlüssellieferkettenbegriffe und -Vorgänge, die Teil der ERP-Lösung sind."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product overview, ERP
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ed8437f5d1b7628f256bb435de8ba13bd64a8f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3bae84075dc505aa9318590b1fac06e4844ffafe
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="supply-chain"></a>Lieferkette
+# <a name="overview-of-supply-chain-functionality"></a>Überblick über Lieferketten-Funktionalität
 [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt allgemeine Lieferkettenvorgänge, obwohl sie auf die Anforderungen von Großhandel- und Verteilungsmandanten ohne verwaltete Lagerdurchlaufzeit begrenzt sind.
 
 Zusätzlich zu den Verkaufsrechnungsbelegen können Sie Ihre Auftragserfüllung mit Verkaufsaufträgen verwalten, wodurch Sie Teile einer Bestellmenge senden können, beispielsweise weil die vollständige Menge nicht auf einmal verfügbar ist. Sie können Artikel direkt von einem Kreditor an einen Debitor versenden lassen, indem Sie den Verkaufsauftrag mit der zugehörigen Bestellung verknüpfen.
@@ -44,6 +44,6 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Verwalten von Forderungen](receivables-manage-receivables.md)     
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
 [Verwalten von Verbindlichkeiten|](payables-manage-payables.md)    
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 

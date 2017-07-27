@@ -1,6 +1,6 @@
 ---
-title: "Angeben der Druckerauswahl für Berichte  Microsoft Docs"
-description: "Angeben der Drucker für Berichte."
+title: Einrichten von Berichten, um auf bestimmte Druckern zu drucken | Microsoft Docs
+description: "Weitere Informationen zum Definieren eines Druckers für eine Bericht und zur Nutzung des Druckerauswahlfensters."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: online printing
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e0b13ff745cddf6173b7a6dacda05e915eff41ff
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 106ad2acf2703e8182033a43a39c693a8b060d8f
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -47,7 +47,7 @@ The following table describes the combination of values to specify when you set 
 -->
 
 ## <a name="see-also"></a>Siehe auch
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vorgehensweise: Ausführen von Stapelverarbeitungen](ui-how-run-batch-jobs.md)  
 [Gewusst wie: Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 

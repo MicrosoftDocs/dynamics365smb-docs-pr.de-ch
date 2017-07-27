@@ -1,6 +1,6 @@
 ---
 title: Cashflow-Analyse einrichten | Microsoft Docs
-description: "Beschreibt, wie die Geldumlauf-, Einnahmen und Ausgaben, Cash Flow und Cashflow-Prognosediagramme  verwendet werden, um vergangene und künftige Bargeldbewegungen im Unternehmen zu analysieren."
+description: "Einrichten der Diagramme im Feld Konto-Rollencenter, die Ihnen helfen, die Richtung des Geldes in Ihrem Unternehmen, einschließlich Ausgaben und Umsatz, Liquidität und Zahlungseingänge minus der Barzahlungen zu analysieren."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e07f32dcc3a50e07c5dea48600f7e3dbcd6088a9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -61,35 +61,37 @@ Das Diagramm **Cashflowplanung** verwendet Cashflowkonten, Cashfloweinrichtung u
 
 Cashflowplanungen können Cortana Intelligence verwenden, um Belege mit einem Fälligkeitsdatum in der Zukunft zu berücksichtigen. Das Ergebnis ist eine umfassendere Voraussage. Die Verknüpfung zu Cortana Intelligence ist bereits eingerichtet. Sie müssen sie nur aktivieren. Wenn Sie sich bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] anmelden, wird eine Benachrichtigung in einer blauen Leiste angezeigt mit einem Link zur Standardcashfloweinrichtung. Die Mitteilung wird jeweils nur einmal angezeigt. Wenn Sie sie schließen, sich aber dazu entscheiden, Cortana Intelligence zu aktivieren, können Sie die unterstützte Einrichtung oder den manuellen Vorgang nutzen.  
 
-**Hinweis:** Alternativ können Sie Ihren eigenen vorbestimmten Webdienst verwenden. Weitere Informationen finden Sie unter [Erstellen und verwenden von eigenen vorbestimmten Webdiensten für Cashflowplanungen](#AnchorText).  
+> [!NOTE]  
+>   Alternativ können Sie Ihren eigenen vorbestimmten Webdienst verwenden. Weitere Informationen finden Sie unter [Erstellen und verwenden von eigenen vorbestimmten Webdiensten für Cashflowplanungen](#AnchorText).  
 
 Um die unterstützte Einrichtung zu verwenden:  
 
 1. Im Buchhalterrollencenter unter **Cashflow-Planung** wählen Sie die Aktion **Unterstütze Einrichtung** aus.  
 2. Füllen Sie die Felder soweit erforderlich für jeden Schritt aus.  
-3. Auf der Homepage wählen Sie **Cashflowplanung** über dem Diagramm und dann **Planung berechnen ** aus.  
+3. Auf der Homepage wählen Sie **Cashflowplanung** über dem Diagramm und dann **Planung berechnen** aus.  
 
 Um einen manuellen Vorgang zu verwenden:  
 
 1. Im Feld Buchhalter-Rollencenter suchen Sie nach **Cashfloweinrichtung** und wählen Sie dann den zugehörigen Link aus.  
-2. Erweitern Sie das Inforegister **Cortana Intelligence** und aktivieren Sie dann das Kontrollkästchen ** Cortana Intelligence aktiviert**.  
-3. Auf der Homepage wählen Sie **Cashflowplanung** über dem Diagramm und dann **Planung berechnen ** aus.  
+2. Erweitern Sie das Inforegister **Cortana Intelligence** und aktivieren Sie dann das Kontrollkästchen **Cortana Intelligence aktiviert**.  
+3. Auf der Homepage wählen Sie **Cashflowplanung** über dem Diagramm und dann **Planung berechnen** aus.  
 
-**Tip:** Beachten Sie die Länge der Perioden, die der Service in den Berechnungen verwendet. Je mehr Daten Sie liefern, umso genauer wird die Vorhersage sein. Halten Sie auch nach umfangreichen Abweichungen in Perioden Ausschau. Sie werden ebenfalls Auswirkungen auf die Vorhersagen haben. Wenn Cortana-Intelligenz nicht genügend Daten findet oder die Daten stark abweichen, wird der Service keine Vorhersage machen.  
+> [!TIP]  
+>   Beachten Sie die Länge der Perioden, die der Service in den Berechnungen verwendet. Je mehr Daten Sie liefern, umso genauer wird die Vorhersage sein. Halten Sie auch nach umfangreichen Abweichungen in Perioden Ausschau. Sie werden ebenfalls Auswirkungen auf die Vorhersagen haben. Wenn Cortana-Intelligenz nicht genügend Daten findet oder die Daten stark abweichen, wird der Service keine Vorhersage machen.  
 
 ## <a name="AnchorText"></a>erstellt und verwendet Ihren eigenen vorhersagenden Webdienst für Cashflowplanungen.
-Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Modell erzeugen, dem ** Prognosemodell für Microsoft Dynamics 365 for Financials**. Dieses vorhersagende Modell ist online im Cortana Intelligence Katalog verfügbar. Um das Modell zu verwenden, gehen folgendermaßen vor:  
+Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Modell erzeugen, dem **Prognosemodell für Microsoft Dynamics 365 for Financials**. Dieses vorhersagende Modell ist online im Cortana Intelligence Katalog verfügbar. Um das Modell zu verwenden, gehen folgendermaßen vor:  
 
 1. Öffnen Sie einem Browser und gehen Sie zum [Cortana Intelligence Katalog](https://go.microsoft.com/fwlink/?linkid=828352)  
 2. Suchen Sie nach dem **Planzahlenmodell für Microsoft Dynamics 365 für Financials** und öffnen Sie dann das Modell im Azure Machine Learning Studio.  
 3. Verwenden Sie das Microsoft-Konto, um sich für einen Arbeitsbereich anzumelden und kopieren Sie dann das Muster.  
 4. Führen Sie die Vorlage aus und veröffentlichen Sie dieses als Webdienst.  
 5. Notieren Sie den API URL und den API Schlüssel. Sie verwenden diese Anmeldeinformationen für die Cashfloweinrichtung.  
-6. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen"). Geben Sie **Cashflow einrichten** ein und wählen Sie dann den entsprechenden Link aus.  
+6. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus. Geben Sie **Cashflow einrichten** ein und wählen Sie dann den entsprechenden Link aus.  
 7. Erweitern Sie das Inforegister **Cortana Intelligence** und füllen Sie die Felder wie notwendig aus.  
 
 ## <a name="see-also"></a>Siehe auch
 [Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md)  
 [Finance einrichten](finance-setup-finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

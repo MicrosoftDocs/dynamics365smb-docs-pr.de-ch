@@ -1,6 +1,6 @@
 ---
-title: "Schließen der Bücher| Microsoft Docs"
-description: "Erklärt die Vorgänge beim Abschließen der Bücher für ein Geschäftsjahr oder eine Periode."
+title: "Überblick über die erforderlichen Aufgaben für das Schließen der Bücher| Microsoft Docs"
+description: "Erhalten von Informationen über das Schließens der Bücher für ein Geschäftsjahr oder für eine Periode, und was passiert, nachdem Sie das Jahr abgeschloßen haben."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,14 +13,14 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a8d379c971d9b21b0eac552f8c7f68926090f037
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 870f1c6a7f93195e0308a646402d642f6cadd219
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="closing-books"></a>Schließen der Bücher
+# <a name="closing-the-books"></a>Bucher schließen
 Nachdem sichergestellt wurde, dass sich alle Konten auf dem neuesten Stand befinden und Kosten und Umsatz verteilt wurden, können die Bücher für ein Geschäftsjahr oder für eine Periode abgeschlossen werden.
 
 Ein Jahresabschluss muss nicht zwingend durchgeführt werden, erleichtert Ihnen aber die Arbeit im System, da Sie auf diese Weise die Vorteile der benutzerfreundlichen Filteroptionen nutzen können. Es besteht auch kein Anlass zur Sorge, dass beim Jahresabschluss Details der Transaktionen verloren gehen, da alle Details auch nach Abschluss eines Jahrs beibehalten werden.
@@ -35,15 +35,15 @@ Der Prozess für den Abschluss der Bücher umfasst diese Hauptaufgaben:
     Weitere Informationen finden Sie unter [Vorgehensweise: Abschließen von Buchhaltungsperioden](year-close-account-periods.md).
 2. Erfassen der Vorjahresposten.
 
-    Beim Abschliessen eines Geschäftsjahrs müssen eine Reihe verwaltungsbezogener Transaktionen (wie Artikel mit Vorauszahlung oder abgegrenzte Artikel) eingegeben werden. Diese Transaktionen werden als Regulierungsposten bezeichnet. Für die Buchung dieser Posten gelten keine besonderen Regeln, und auch bei diesen Posten ist das Kontrollkästchen **Nachbuchung** aktiviert, wenn sie für ein Datum gebucht werden, das innerhalb eines abgeschlossenen Geschäftsjahrs liegt. Auch wenn ein Geschäftsjahr abgeschlossen wurde, können hierfür noch Sachposten gebucht werden.
+    Beim Abschliessen eines Geschäftsjahrs müssen eine Reihe verwaltungsbezogener Transaktionen (wie Artikel mit Vorauszahlung oder abgegrenzte Artikel) eingegeben werden. Diese Transaktionen werden als Regulierungsposten bezeichnet. Für die Buchung dieser Posten gelten keine besonderen Regeln, und auch bei diesen Posten ist das Kontrollkästchen **Nachbuchung** aktiviert, wenn sie für ein Datum gebucht werden, das innerhalb eines abgeschlossenen Geschäftsjahrs liegt. Auch wenn ein Geschäftsjahr abgeschlossen wurde, können hierfür noch Fibuposten gebucht werden.
 3. Übertragen der Salden aus der Erfolgsrechnung in die Bilanz.
 
-    Nachdem ein Geschäftsjahr abgeschlossen wurde und alle Nachbuchungen gebucht wurden, müssen die Erfolgsrechnungskonten abgeschlossen werden, und der Nettoertrag des Jahres muss auf ein Konto übertragen werden, das in der Bilanz unter dem Eigenkapital aufgeführt ist. Verwenden Sie zu diesem Zweck die Stapelverarbeitung Erfolgsrechnungskonten Nullstellung. Mithilfe dieser Stapelverarbeitung werden alle Fibukonten vom Typ Erfolgsrechnung verarbeitet und Posten erstellt, mit denen die Salden storniert werden. Diese Posten werden in ein Erf.-Journal eingefügt, von wo aus sie gebucht werden können. Durch die Stapelverarbeitung erfolgt keine automatische Buchung, es sei denn, es wird eine Berichtswährung verwendet. Bei Verwendung einer Berichtswährung erfolgt eine direkte Buchung in die Finanzbuchhaltung.
+    Nachdem ein Geschäftsjahr abgeschlossen wurde und alle Nachbuchungen gebucht wurden, müssen die Erfolgsrechnungskonten abgeschlossen werden, und der Nettoertrag des Jahres muss auf ein Konto übertragen werden, das in der Bilanz unter dem Eigenkapital aufgeführt ist. Verwenden Sie zu diesem Zweck die Stapelverarbeitung Erfolgsrechnungskonten Nullstellung. Mithilfe dieser Stapelverarbeitung werden alle Fibukonten vom Typ Erfolgsrechnung verarbeitet und Posten erstellt, mit denen die Salden annulliert werden. Diese Posten werden in ein Erf.-Journal eingefügt, von wo aus sie gebucht werden können. Durch die Stapelverarbeitung erfolgt keine automatische Buchung, es sei denn, es wird eine Berichtswährung verwendet. Bei Verwendung einer Berichtswährung erfolgt eine direkte Buchung in die Fibuposten.
 
     Weitere Informationen finden Sie unter [Jahresabschluss](year-close-income-statement.md).
 4. Buchen des Ultimopostens für den Jahresabschluss sowie Gegenbuchen von Eigenkapitalkontoposten.
 
-    Wenn die Stapelverarbeitung "Jahresabschluss" generiert wurde, buchen Sie die erstellten Einträge. Wurde in der Stapelverarbeitung kein Erfolgsrechnungs-Abschlusskonto angegeben, geben Sie eine Zeile mit einem Saldoposten ein, durch den der Nettoertrag auf das korrekte Konto (in der Bilanz unter "Eigenkapital") gebucht wird. Anschliessend kann das Erf.-Journal gebucht werden.
+    Wenn die Stapelverarbeitung "Erfolgsrechnungsabschluss" generiert wurde, buchen Sie die erstellten Einträge. Wurde in der Stapelverarbeitung kein Erfolgsrechnungs-Abschlusskonto angegeben, geben Sie eine Zeile mit einem Saldoposten ein, durch den der Nettoertrag auf das korrekte Konto (in der Bilanz unter "Eigenkapital") gebucht wird. Anschliessend kann das Erf.-Journal gebucht werden.
 
     Weitere Informationen finden Sie unter [Vorgehensweise: Buchen von Jahresabschlussposten](year-how-post-year-end-close-entry.md).
 
@@ -56,5 +56,5 @@ Sie können Buchungen in einem früheren Geschäftsjahr auch durchführen, nachd
 
 ## <a name="see-also"></a>Siehe auch
 [So geht's: Ein neues Geschäftsjahr eröffnen](finance-how-open-new-fiscal-year.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financials als PowerApps-Datenquelle nutzen | Microsoft Docs
-description: "Sie können die Finanzdaten als Datenquelle in PowerApps bereitstellen."
+title: Verwenden Sie die Daten, um eine App zu erstellen| Microsoft Docs
+description: "Sie können Ihre Finanzdaten als Datenquelle zur Verfügung stellen und eine OData-URL Ihrer Webdienste festlegen, um eine Geschäfts-App mithilfe PowerApps zu erstellen."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
-ms.date: 12/02/2016
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cedc95b23481b8cb76da85e8459a97b1880a4218
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e41a704d3a94abfb58d9547648f0eee46a8ed9b4
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="using-dynamics-365-for-financials-as-a-powerapps-data-source"></a>Dynamics 365 for Financials als PowerApps-Datenquelle nutzen
+# <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Verknüpfung an Ihre Finanzdaten, um eine Geschäfts-App mithilfe PowerApps zu erstellen
 Sie können die Daten [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquelle in PowerApps bereitstellen.  
 
-**Hinweis**: Sie müssen ein gültiges Konto mit [!INCLUDE[d365fin](includes/d365fin_md.md)]  PowerApps haben.  
+> [!NOTE]  
+>   Sie müssen ein gültiges Konto mit  [!INCLUDE[d365fin](includes/d365fin_md.md)]mit PowerApps haben.  
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-powerapps"></a>Als [!INCLUDE[d365fin](includes/d365fin_md.md)] Datenquelle in PowerApps hinzufügen
 1. In Ihrem Browser navigieren und zu [powerapps.microsoft.com](https://powerapps.microsoft.com/en-us/) gehen und sich dann anmelden.
@@ -44,17 +45,18 @@ Sie können die Daten [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquell
 
    PowerApps wird eine Liste der Tabellen anzeigen, die in [!INCLUDE[d365fin](includes/d365fin_md.md)]verfügbar sind. Diese Tabellen oder Endpunkte stehen für alle Webdienste, die Sie von [!INCLUDE[d365fin](includes/d365fin_md.md)] veröffentlicht haben.
 
-   Sie können einen neuen Webdienst URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellen, indem Sie die **Erstellen Dataset** Aktion der Seite **Webdienste** nutzen, indem Sie die unterstütze Hilfe ** Bericht einrichten** verwenden oder die Aktion**Bearbeiten in Excel** in einer beliebigen Liste wählen.
+   Sie können einen neuen Webdienst URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellen, indem Sie die **Erstellen Dataset** Aktion der Seite **Webdienste** nutzen, indem Sie die unterstütze Hilfe **Bericht einrichten** verwenden oder die Aktion**Bearbeiten in Excel** in einer beliebigen Liste wählen.
 8. Wählen Sie diese Tabelle, die Sie für Ihr PowerApp verwenden möchten, und wählen Sie dann die Schaltfläche **Verbinden** aus.
 9. Wiederholen Sie die vorherigen Schritte, um zusätzliche [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten Ihrem Power BI Datenmodell hinzuzufügen.
 
-   **Hinweis**: Sobald Sie sich erfolgreich verbunden haben mit [!INCLUDE[d365fin](includes/d365fin_md.md)], werden Sie nicht erneut nach OData URL, Benutzername oder Kennwort gefragt.
+   > [!NOTE]  
+>    Sobald Sie sich erfolgreich verbunden haben mit [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Sie nicht erneut nach OData URL, Benutzername oder Kennwort gefragt.
 
 Zu diesem Zeitpunkt haben Sie erfolgreich  Ihre Dynamics 365 Daten verbunden und sind bereit, Ihre PowerApp zu bauen. Weitere Informationen finden Sie in der [PowerApps Dokumentation](https://powerapps.microsoft.com/tutorials/getting-started/).
 
 ## <a name="see-also"></a>Siehe auch
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Geschäftsdaten aus anderen Finanzsystemen importieren](upload-data.md)  
-[Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Geschäftsdaten aus anderen Finanzsystemen migrieren](upload-data.md)  
+[Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanzen](finance.md)  
 

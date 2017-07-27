@@ -1,6 +1,6 @@
 ---
-title: Pflichtfelder| Microsoft Docs
-description: Erhalten Sie Informationen zu den erforderlichen Felder.
+title: "Pflichtfeld, um Arbeitsgänge abzuschließen | Microsoft Docs"
+description: "Erhalten von Informationen zu den Feldern, die mit einem roten Sternchen gekennzeichnet werden, das angibt, dass sie benötigt werden und ausgefüllt werden müssen, um Arbeitsgänge benötigt."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 999a5ba260121c378f80a86703df194d27a5f25c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b93a0a7deeab263e457b9bd1da1e7d1264cf2e71
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,6 +30,6 @@ Im Fenster **Debitorenkarte** wird im Feld **Name** und im Feld **Salestaxgebiet
 Im Fenster **Artikelkarte** wird das rote Sternchen auf **Beschreibung** und den Basiseinheitencode Feldern angezeigt, um anzugeben, dass Sie den Artikel in einer Belegzeile (beispielsweise in einem Verkaufsauftrag) nur dann eingeben können, wenn auch diese Felder ausgefüllt werden.
 
 ## <a name="see-also"></a>Siehe auch
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

@@ -1,6 +1,6 @@
 ---
-title: Bestand | Microsoft Docs
-description: Beschreibt, wie mit physische Artikel verwaltet werden.
+title: Verwaltung von Bestand | Microsoft Docs
+description: Beschreibt, wie physischen Produkte verwaltet werden, die Sie im Lagerbestand in Ihrem Lager verwalten.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b53cae82cfa532fb0620cc9e1f305216c2321785
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 920df314dc8b671d4e2d99d8449ee02a74cb9078
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 
@@ -28,7 +28,10 @@ Um die Übersicht über Artikel zu erhöhen und die Suche zu erleichtern, könne
 
 Sie möchten, dass die Kosten der Artikel an die zugehörigen ausgehenden Verkaufsvorgänge weitergeleitet werden, insbesondere in Fällen, in denen Sie Waren verkaufen, bevor der Kauf dieser Artikel fakturiert wird. Dies wird als Kostenregulierung bezeichnet. Sie können sie manuell ausführen oder sie so einrichten, dass sie automatisch erfolgt, wenn Sie eine Artikeltransaktion buchen.
 
-Änderungen im Lagerwert vom Handel werden automatisch mit den Finanzbüchern Artikeltransaktionen ausgeglichen, wenn Sie buchen.
+## <a name="inventory-reconciliation"></a>Abstimmung des Lagerbestands
+Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen oder Lagerregulierungen, werden die veränderten Artikelkosten in den Artikelwerteinträgen aufgezeichnet. Um diese Änderung des Lagerwerts in Ihren Finanzbüchern wiederzugeben, werden die Lagerkosten automatisch zu den entsprechenden Lagerkonten in der Finanzbuchhaltung gebucht. Für jede Lagertransaktion, die Sie buchen, werden die entsprechenden Werte in der Hauptbuchhaltung im Lagerkonto, im Korrekturkonto und im Lagerverbrauchskonto gebucht.
+
+Selbst wenn Lagerkosten automatisch in die Finanzbuchhaltung gebucht werden, ist es immer noch notwendig sicherzustellen, dass die Kosten für Waren zur zugehörigen ausgehenden Transaktion weitergeleitet werden, insbesondere in Situationen, in denen Sie Waren verkaufen, bevor Sie den Kauf dieser Waren in Rechnung stellen. Dies wird als Kostenanpassung bezeichnet. Artikelkosten werden automatisch angepasst, wenn Sie Artikeltransaktionen buchen, Sie können jedoch auch Artikelpreise manuell anpassen. Weitere Informationen finden Sie unter So geht's: Artikelkosten anpassen.
 
 |An |Informationen |
 |---|----|
@@ -37,18 +40,17 @@ Sie möchten, dass die Kosten der Artikel an die zugehörigen ausgehenden Verkau
 |Aktualisert eine Übersicht über Artikel und erleichtert das Suchen und das Sortieren von Artikeln, indem diese in Kategorien organisiert werden.|[So geht's: Artikel kategorisieren](inventory-how-categorize-items.md)|
 |Weisen Sie Ihren Artikeln Artikelattribute verschiedener Werttypen zu, um das Sortieren und Finden von Artikel zu erleichtern.|[Gewusst wie: Arbeiten mit Artikelattributen](inventory-how-work-item-attributes.md)|
 |Erstellen Sie spezielle Artikelkarten, die Sie Debitoren anbieten, für die Sie aber keinen Bestand verwalten.|[So geht's: Arbeiten mit Katalogartikeln](inventory-how-work-nonstock-items.md)|
-|Erhöhen oder Vermindern des Lagerbestands eines Artikels, etwa nach einer Inventur oder als einfaches Mittel zur Aufzeichnung von Einkaufsbelegen.|[Vorgehensweise: Anpassen des Bestands](inventory-how-adjust-inventory.md)|
-|Zeigt die Verfügbarkeit der Artikel pro Lagerort, nach Periode, nach Verkaufs- oder Einkaufsereignis oder anhand ihrer Verwendung auf Montagestücklisten an.|[Vorgehensweise: Verschaffen Sie sich einen Überblick über die Verfügbarkeit](inventory-how-availability-overview.md)|
+|Beschreibt, wie eine physische Zählung ausgeführt wird, negative oder Zugängen gemacht werden und wie Informationen wie Lagerort oder Chargennummer in Lagerposten und Lagerplatzposten geändert werden.|[Vorgehensweise. Erfassen, Regulieren und Umbuchen von Lagerbestand](inventory-how-count-adjust-reclassify.md)|
+|Zeigt die Verfügbarkeit der Artikel pro Lagerort, nach Periode, nach Verkaufs- oder Einkaufsereignis oder anhand ihrer Verwendung auf Montagestücklisten an.|[Vorgehensweise: Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)|
 |Lagern Sie Artikel zwischen Lagerorten mit Umlagerungsaufträgen oder Artikel Umlag. Erf.-Journal, um Lageraktivitäten zu verwalten.|[So geht's: Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)|
 |Schreiben sie den Wert eines oder mehrerer Artikel im Lager ab oder bewerten sie ihn neu, indem Sie den aktuellen, berechneten Wert buchen.|[Vorgehensweise: Neubewerten von Lagerbestand](inventory-how-revalue-inventory.md)|
 |Regulieren Sie Artikelkosten, entweder automatisch oder manuell, um Kostenänderungen aus eingehenden Posten an die entsprechenden ausgehenden Posten weiterzuleiten.|[Gewusst wie: Artikelpreise anpassen](inventory-how-adjust-item-costs.md)|
-|Erfahren, wie Änderungen im Lagerwert vom Handel automatisch mit den Finanzbüchern ausgeglichen werden.|[Erweitert: Bestandabgleich](advanced-inventory-reconciliation.md)|
 
 ## <a name="see-also"></a>Siehe auch  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verkauf](sales-manage-sales.md)    
 [Lieferkette](madeira-supply-chain.md)  
-[Arbeitend mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

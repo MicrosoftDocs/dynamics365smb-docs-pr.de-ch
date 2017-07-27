@@ -1,6 +1,6 @@
 ---
-title: 'So gehts: Neue Kreditoren registrieren | Microsoft Docs'
-description: "Erfahren Sie, wie Sie Kreditoren Ihrem Financials hinzufügen."
+title: Eine Kreditorenkarte erstellen, um einen neuen Kreditor zu erfassen | Microsoft Docs
+description: Erfahren Sie, wie Sie eine Kreditorenkarte erstellt, um einen neuen Kreditor oder einem Lieferanten zu erfassen.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3420a91200b64ea0672d5757a0104c6806fc607f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 78710d796ed73d7b4c2505f6cbb8c7d5f41d7320
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,7 +27,8 @@ Bevor Sie neue Kreditoren erfassen können, müssen Sie verschiedene Einkaufscod
 
 Kreditorenkarten verwahren die Informationen, die benötigt werden, um Produkte vom Kreditor einzukaufen. Weitere Informationen finden Sie unter [Vorgehensweise: Erfassen eines Einkaufs](purchasing-how-record-purchases.md) und [Vorgehensweise: Neue Produkte erfassen](inventory-how-register-new-items.md).
 
-**Hinweis**: Wenn es Kreditorenvorlagen für verschiedene Kreditorenarten gibt, dann erscheint ein Fenster automatisch, wenn Sie eine neue Kreditorenkarte erstellen, von der aus Sie eine entsprechende Kreditorenvorlage auswählen können. Wenn nur eine Kreditorenvorlage vorhanden ist, verwenden neue Kreditorenkarten immer diese Vorlage.
+> [!NOTE]  
+>   Wenn es Kreditorenvorlagen für verschiedene Kreditorenarten gibt, dann erscheint ein Fenster automatisch, wenn Sie eine neue Kreditorenkarte erstellen, von der aus Sie eine entsprechende Kreditorenvorlage auswählen können. Wenn nur eine Kreditorenvorlage vorhanden ist, verwenden neue Kreditorenkarten immer diese Vorlage.
 
 ## <a name="to-create-a-new-vendor-card"></a>Erstellen einer neue Kreditorenkarte
 1. Auf der Startseite wählen Sie **Kreditoren**, um die Liste der Bestandskreditoren zu öffnen.  
@@ -53,5 +54,5 @@ Wenn Sie diese Kreditorenkarte als Vorlage verwenden möchten, wenn Sie neue Kre
 ## <a name="see-also"></a>Siehe auch
 [Einkauf](purchasing-manage-purchasing.md)  
 [Vorgehensweise: Erfassen eines Einkaufs](purchasing-how-record-purchases.md)   
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

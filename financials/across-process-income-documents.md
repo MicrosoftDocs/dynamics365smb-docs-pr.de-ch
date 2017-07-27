@@ -1,6 +1,6 @@
 ---
-title: Verarbeiten von eingehenden Belege| Microsoft Docs
-description: Eingehende Belege verarbeiten
+title: Verarbeiten von eingehenden Belegen| Microsoft Docs
+description: Um einen externen Beleg wie ein PDF aufzuzeichnen, erstellen Sie zuerst in Dynamics 365 for Financials einen Eingangsbelegdatensatz.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 93a3ba01e479ba8256f4a3628aae2b7838d8e5ad
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b4d344c52bf6f10d00f2157fbdb45903402f6c55
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,12 +29,12 @@ Mithilfe eines externen OCR-Dienstes (optische Zeichenerkennung) können Sie aus
 | --- | --- |
 | Erstellen Sie eingehende Belegdatensätze manuell oder automatisch, indem Sie zum Beispiel ein Foto eines Papierbelegs erstellen. |[Vorgehensweise: Erstellen von Eingangsbelegen](across-how-create-income-document-records.md) |
 | Verwenden Sie einen OCR-Dienst, um PDF und Bilddateien zu elektronische Belege umzuwandeln, die beispielsweise zu Einkaufsrechnungen im [!INCLUDE[d365fin](includes/d365fin_md.md)] konvertiert werden können. Schulen Sie den OCR-Dienst, Fehler zu vermeiden,wenn er das nächste Mal ähnliche Daten verarbeitet. |[Gewusst wie: Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln](across-how-use-ocr-pdf-images-files.md) |
-| Verbinden oder entfernen Sie einen Eingangsbeleg mit einem beliebigem nicht gebuchten Verkaufs- oder Einkaufsbeleg, sowie mit jedem Debitor-, Kreditor- oder Fibuposten in dem Beleg oder Posten. |[So gehts: Verbinden und Lösen von Eingangsbelegen aus Dokumenten und Posten](across-how-connect-disconnect-income-document-records.md) |
+| Verbinden oder entfernen Sie einen Eingangsbeleg mit einem beliebigem nicht gebuchten Verkaufs- oder Einkaufsbeleg, sowie mit jedem Debitor-, Kreditor- oder Fibuposten in dem Beleg oder Posten. |[So wird's gemacht: Erstellen und Verknüpfen von Eingangsbelegen aus Dokumenten und Posten](across-how-connect-disconnect-income-document-records.md) |
 | In den Fenstern **Kontenplan** und **Sachposten** können Sie eine Suchfunktion verwenden, um Sachposten für gebuchte Belege zu finden, für die keine eingehende Belegdatensätze vorhanden sind, und dann zentral eine Verknüpfung zu vorhandenen Datensätzen herstellen oder neue mit angefügten Belegdateien erstellen. |[So wird's gemacht: Gebuchte Belege ohne Eingangsbelege finden](across-how-find-posted-documents-without-income-document-records.md) |
 | Verschaffen Sie sich einen besseren Überblick, indem Sie eingehende Belegdatensätze auf "Verarbeitet" festlegen, um sie aus der Standardansicht zu entfernen. |[So gehts: Mehrere eingehende Belegdatensätze verwalten](across-how-manage-many-income-document-records.md) |
 
 ## <a name="see-also"></a>Siehe auch
 [Eingehende Belege](across-income-documents.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Analysieren des Cashflows in Ihrem Unternehmen| Microsoft Docs
-description: "Beschreibt, wie die Geldumlauf-, Einnahmen- und Ausgaben-, Cash Flow- und Cashflow-Prognosediagramme  verwendet werden, um vergangene und künftige Bargeldbewegungen im Unternehmen zu analysieren."
+title: Analysieren von Cashflow | Microsoft Docs
+description: "Beschreibt, wie die Geldumlauf-, Einnahmen- und Ausgaben-, Cash Flow- und Cashflow-Prognosediagramme verwendet werden, um vergangene und künftige Bargeldbewegungen im Unternehmen zu analysieren."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9e2777bb50702df486a87ed1830f84f51a6434be
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -53,6 +53,6 @@ Wenn Sie die Planung, zusätzlich zu den Absatzplanungsposten prüfen möchten, 
 
 ## <a name="see-also"></a>Siehe auch
 [Finance einrichten](finance-setup-finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Aufstellungs-Cashflow-Analyse](finance-setup-cash-flow-analyses.md)  
 

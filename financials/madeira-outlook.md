@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 for Financials als Geschäfts-Eingang in Outlook  verwenden | Microsoft Docs"
-description: "Dynamics 365 for Financials als Geschäfts-Eingang in Outlook  verwenden"
+title: Dynamics 365 for Financials mit Outlook nutzen| Microsoft Docs
+description: "Dynamics 365 for Financials hat eine starke Integration mit Office 365 und macht es möglich, dass Sie Ihree Geschäftsaktivitäten und E-Mails mit Debitoren und Kreditoren direkt in Outlook zu verwalten können."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a872c8817c412953a64cb1adb8f8234f2801e8fa
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

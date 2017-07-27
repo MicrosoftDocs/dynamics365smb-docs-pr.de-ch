@@ -1,6 +1,6 @@
 ---
 title: Einrichten von Bestand | Microsoft Docs
-description: "Beschreibt, wie Lagervorgänge und Lagerorte, wie Umlagerungsrouten eingerichtet werden."
+description: "Beschreibt, wie Lagervorgänge und Lagerorte eingerichtet werden, einschließlich Umlagerungsrouten und Standorte wie Lagerorte."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c4f2abbe400e0fa7150a912e1cb267b5fbf52d8e
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 8fd3ff9518613c9d01f8e9503a568a0bdf079819
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -39,6 +39,6 @@ Wenn Sie Ihr Lager so eingerichtet haben, können Sie verschiedene Lagervorgäng
 [Käufe verwalten](purchasing-manage-purchasing.md)  
 [Verkäufe verwalten](sales-manage-sales.md)    
 [Lieferkette](madeira-supply-chain.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 

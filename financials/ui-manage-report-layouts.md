@@ -1,6 +1,6 @@
 ---
-title: Verwaltung von Berichtslayouts | Microsoft Docs
-description: Hintergrundwissen zu Berichtlayouts.
+title: "Arbeiten mit benutzerdefinierten und integrierten Layouts für Berichte und Belege | Microsoft Docs"
+description: "Verwenden Sie Berichtslayouts, um Belege anzupassen beispielsweise um die gewünschten Schriftart, das Logo oder die Seiteneinstellungen von PDF-Dateien zu personalisieren, die Sie den Debitoren senden."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,17 +13,18 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e221f5264190a90e04132ed4326afe2cf8364164
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9c4c3b743d705913eaacbfd4b0e2df854f777c1c
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Verwaltung von Berichts- und Beleg-Layouts
 Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfelder eines Berichtsdatasets im Bericht erscheinen und wie sie angeordnet werden, Text-Format, Bilder und mehr. Von [!INCLUDE[d365fin](includes/d365fin_md.md)] aus können Sie ändern, welches Layout in einem Bericht verwendet wird, ein neues Layout erstellen oder vorhandene Layouts ändern.
 
-**Hinweis**: In [!INCLUDE[d365fin](includes/d365fin_md.md)], enthält der Begriff "Bericht" auch Externeinfassungsbelege, wie und Verkaufsrechnungen und Bestellungbestätigungen, die Sie den Debitoren als PDF-Dateien senden.
+> [!NOTE]  
+>   In [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält der Begriff "Bericht" auch für extern bestimmte  Dokumente wie Verkaufsrechnungen und Bestellungbestätigungen, die Sie den Debitoren als PDF-Dateien senden.
 
 Insbesondere richtet ein Berichtlayout Folgendes ein:
 
@@ -37,7 +38,7 @@ Ein [!INCLUDE[d365fin](includes/d365fin_md.md)]-Bericht kann mit mehreren Berich
 Es gibt zwei Arten Berichtlayouts, die Sie in Berichten verwenden können, Word und RDLC.
 
 ## <a name="word-report-layout-overview"></a>Word-Berichtlayout - Übersicht
-Ein Word-Berichtlayout basiert auf einem Word-Dokument (DOCX-Datei-Typ). Word-Berichtslayouts ermöglichen es Ihnen, Berichtslayouts zu gestalten, indem Sie Microsoft Word 2013 oder später verwenden. Ein Word-Berichtslayout bestimmt den Inhalt des Berichts und steuert, wie diese Inhaltselemente angeordnet werden und wie diese aussehen. Ein Word-Berichtlayoutbeleg verwendet normalerweise Tabellen, um Inhalt zu organisieren, wobei die Zellen Datenfelder, Text oder Bilder enthalten können.
+Ein Word-Berichtlayout basiert auf einem Word-Dokument (DOCX-Datei-Typ). Word-Berichtslayouts ermöglichen es Ihnen, Berichtslayouts zu gestalten, indem Sie Microsoft Word 2013 oder später verwenden. Ein Word-Berichtslayout bestimmt den Inhalt des Berichts und steuert, wie diese Inhaltselemente angeordnet werden und wie diese aussehen. Ein Word-Berichtlayoutdokument verwendet normalerweise Tabellen, um Inhalt zu organisieren, wobei die Zellen Datenfelder, Text oder Bilder enthalten können.
 
 ## <a name="rdlc-layout-overview"></a>RDLC-Layout - Übersicht
 RDLC-Layouts basieren auf Client-Berichtsdefinitionslayouts (.rdlc- oder .rdl-Dateitypen). Diese Layouts werden erstellt und geändert, indem Sie SQL Server-Bericht-Generator verwenden. Das Entwurfskonzept für RDLC-Layouts ist ähnlich den Word-Layouts, in denen das Layout das Muster des Berichts definiert und die Felder der Dataset bestimmt, die enthalten sein sollen. RDLC-Layouts bieten, verglichen mit Word-Layouts, eine größere Fülle an Funktionen und Gestaltungsmöglichkeiten.
@@ -57,7 +58,7 @@ Der Prozess für die Einrichtung von Word-Berichtslayouts und RDLC-Berichtslayou
 Weitere Informationen darüber, wie das Layout, das verwendet wird, geändert werden kann, finden Sie unter [Vorgehensweise: Ändern, welches Layout zur Zeit in einem Bericht verwendet wird](ui-how-change-layout-currently-used-report.md)
 
 ## <a name="see-also"></a>Siehe auch
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vorgehensweise: Erstellen Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)  
 [Gewusst wie: Senden von Belegen über E-Mail](ui-how-send-documents-email.md)
 

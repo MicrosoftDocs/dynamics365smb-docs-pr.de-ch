@@ -1,6 +1,6 @@
 ---
 title: Abschreibungsmethoden| Microsoft Docs
-description: Beschreibt die sieben Methoden, mit denen Sie Anlagen abschreiben.
+description: Erhalten von Informationen zu den unterschiedlichen Methoden, um Anlagen abzuschreiben.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a5a43c6d53bdff7c30133d88c66e33996476f580
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,10 +31,12 @@ Es gibt acht verfügbare Abschreibungsmethoden:
 * Tabelle  
 * Manuell  
 
-  **Hinweis**Sie können diese Methode für Anlagen verwenden, die nicht abgeschrieben werden z. B. Land. Sie müssen die Abschreibung im Anlagen Fibu Erf.-Journal eingeben. Die Stapelverarbeitung **Abschreibung berechnen** berücksichtigt keine Anlagen mit dieser Abschreibungs-Methode.  
+  > [!NOTE]  
+>   Sie können diese Methode für Anlagen verwenden, die nicht abgeschrieben werden z. B. Land. Sie müssen die Abschreibung im Anlagen Fibu Erf.-Journal eingeben. Die Stapelverarbeitung **Abschreibung berechnen** berücksichtigt keine Anlagen mit dieser Abschreibungs-Methode.  
 * US-Halbjahresregel  
 
-  **Hinweis:** Wenn diese Methode verwendet wird, wird eine Anlage jedes Jahr mit dem gleichen Betrag abgeschrieben.  
+  > [!NOTE]  
+>    Wenn diese Methode verwendet wird, wird eine Anlage jedes Jahr mit dem gleichen Betrag abgeschrieben.  
 
 ## <a name="straight-line-depreciation"></a>Lineare Abschreibung
 Wenn Sie die Methode "Linear" verwenden, müssen Sie eine der folgenden Optionen im Anlagen-Abschreibungsbuch angeben:  
@@ -203,7 +205,7 @@ Jahr:
 
 *Degressiv Betrag: 25% von 100.000 = 25.000=12.500+12.500*  
 
-*Linear Betrag = 100.000/8=12.500=6.250+6.250*  
+*Linearer Betrag = 100.000/8=12.500=6.250+6.250*  
 
 Es wird der degressive Betrag verwendet, da es sich um den grösseren Betrag handelt.  
 
@@ -230,7 +232,7 @@ Diese benutzerdefinierte Methode kann auch verwendet werden, um eine Abschreibun
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>So richten Sie benutzerdefinierte Abschreibungsmethoden ein
 Im Fenster **Abschreibungstabelle** können Sie benutzerdefinierte Abschreibungsmethoden einrichten. Beispielsweise können Sie die Abschreibung basierend auf der Stückzahl einrichten.  
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Abschreibungstabelle** ein und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite und Bericht suchen")und geben **AfA-Tabellen** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Im Feld **AfA-Tabelle Übersicht** wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie im Fenster **AfA-Tabelle - Karte** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -282,7 +284,8 @@ Diese Abschreibungsmethode kann im Zusammenhang mit den folgenden Abschreibungsm
 
 Wenn die Halbjahresregel angewendet wird, hat eine Anlage sechs AfA Monate in dem ersten Geschäftsjahr der Abschreibung, unabhängig vom Inhalt des Feldes **Abschreibungsdatum**.  
 
-**Hinweis** Die Nutzungsdauer einer Anlage, die nach dem ersten Geschäftsjahr verbleibt, enthält immer ein halbes Jahr, wenn die Halbjahresregel verwendet wird. Damit die Halbjahresregel korrekt angewendet wird, muss dass Feld **Enddatum d. Nutzungsdauer** im Fenster **Anlagen-AfA-Buch** immer ein Datum enthalten, das genau sechs Monate vor dem Enddatum des Geschäftsjahres liegt, in dem die Anlage vollständig abgeschrieben ist.  
+> [!NOTE]  
+>   Die Nutzungsdauer einer Anlage, die nach dem ersten Geschäftsjahr verbleibt, enthält immer ein halbes Jahr, wenn die US-Halbjahresregel verwendet wird. Damit die Halbjahresregel korrekt angewendet wird, muss dass Feld **Enddatum d. Nutzungsdauer** im Fenster **Anlagen-AfA-Buch** immer ein Datum enthalten, das genau sechs Monate vor dem Enddatum des Geschäftsjahres liegt, in dem die Anlage vollständig abgeschrieben ist.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Beispiel – Abschreibung 1 unter Verwendung der US-Halbjahresregel
 Eine Anlage hat Anschaffungskosten von MW 100.000. Das **Startdatum Normal-AfA** ist der 01.03.10. Die erwartete Lebensdauer ist fünf Jahre, daher muss das Feld **Enddatum d. Nutzungsdauer** den Wert 30.06.15 enthalten. Die Stapelverarbeitung **Abschreibung berechnen** wird jährlich ausgeführt. Dieses Beispiel basiert auf einem Kalenderjahr als Geschäftsjahr.  
@@ -339,18 +342,20 @@ Jahr (2004):
 Es wird der lineare Betrag verwendet, da es sich um den grösseren Betrag handelt.  
 
 ## <a name="duplicating-entries-to-more-depreciation-books"></a>Kopieren von Posten in weitere AfA-Bücher
-Falls Sie über 3 Abschreibungsbücher B1, B2 und B3 verfügen und Sie Posten aus B1 in B2 und B3 kopieren möchten, können Sie ein Häkchen in dem Feld **Kopien ermöglichen** in der Abschreibungsbuchkarte von B2 und B3 setzen. Dies kann hilfreich sein, wenn das Abschreibungsbuch B1 in die Finanzbuchhaltung integriert ist und das Anlagen-Fibu Erf.-Journal verwendet, während die Abschreibungsbücher B2 und B3 nicht in der Finanzbuchhaltung integriert sind und das Anlagen Erf.-Journal verwenden.  
+Falls Sie über 3 Abschreibungsbücher B1, B2 und B3 verfügen und Sie Posten aus B1 in B2 und B3 kopieren möchten, können Sie ein Häkchen in dem Feld **Kopien ermöglichen** in der Abschreibungsbuchkarte von B2 und B3 setzen. Dies kann hilfreich sein, wenn das Abschreibungsbuch B1 in die Fibuposten integriert ist und das Anlagen-Fibu Erf.-Journal verwendet, während die Abschreibungsbücher B2 und B3 nicht in der Fibuposten integriert sind und das Anlagen Erf.-Journal verwenden.  
 
 Wenn Sie einen Posten in B1 im Anlagen-Fibu Buch.-Blatt erstellen und ein Häkchen in dem Feld **Kopiervorgang aktivieren** gesetzt haben, kopiert die Anwendung den Posten in die Bücher B2 und B3 im Anlagen Buch.-Blatt, wenn Sie den Posten buchen.  
 
-**Hinweis: **Es ist nicht möglich in dem gleichen Buch.-Blatt und der gleichen Buch.-Blattvorlage zu kopieren, aus der Sie kopieren. Wenn Sie Posten im Fibu Erf.-Journal buchen, können Sie diese über eine weitere Stapelverarbeitung in ein Anlagen Erf.-Journal oder ein Anlagen Fibu Erf.-Journal kopieren.  
+> [!NOTE]  
+>   Es ist nicht möglich in dem gleichen Erf.-Journal und der gleichen Erf.-Journalvorlage zu kopieren, aus der Sie kopieren. Wenn Sie Posten im Fibu Erf.-Journal buchen, können Sie diese über eine weitere Stapelverarbeitung in ein Anlagen Erf.-Journal oder ein Anlagen Fibu Erf.-Journal kopieren.  
 
-**Hinweis**: Es ist nicht möglich, im Anlagen Fibu Buch.-Blatt und im Anlagen Buch-Blatt dieselbe Nummernserie zu verwenden. Wenn Sie Posten im Anlagen Fibu Buch.-Blatt buchen, müssen Sie das Feld **Belegnr.** leer lassen. Wenn Sie in das Feld eine Nummer eingeben, wird die Nummer im Anlagen Erf.-Journal dupliziert. Sie müssen die Belegnummer manuell ändern, bevor Sie das Erf.-Journal buchen können.  
+> [!NOTE]  
+>   Es ist nicht möglich, im Anlagen Fibu Erf.-Journal und im Anl. Erf.-Jrn. dieselbe Nummernserie zu verwenden. Wenn Sie Posten im Anlagen Fibu Buch.-Blatt buchen, müssen Sie das Feld **Belegnr.** leer lassen. Wenn Sie in das Feld eine Nummer eingeben, wird die Nummer im Anlagen Erf.-Journal dupliziert. Sie müssen die Belegnummer manuell ändern, bevor Sie das Erf.-Journal buchen können.  
 
 ## <a name="see-also"></a>Siehe auch
 [Anlagen](fa-manage.md)  
 [Anlagen einrichten](fa-setup.md)  
 [Finanzen](finance.md)  
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
