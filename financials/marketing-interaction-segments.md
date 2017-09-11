@@ -16,41 +16,40 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 899bdda7448810b029216c66402b739004193a61
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="managing-interactions-for-segments"></a>Verwalten von Aktivitäten für Segmente
-Das Fenster **Segment** ist ein Arbeitsschein, in dem Sie folgende Aufgaben ausführen können:
+# <a name="managing-interactions-for-segments"></a><span data-ttu-id="fcbc6-103">Verwalten von Aktivitäten für Segmente</span><span class="sxs-lookup"><span data-stu-id="fcbc6-103">Managing Interactions for Segments</span></span>
+<span data-ttu-id="fcbc6-104">Das Fenster **Segment** ist ein Arbeitsschein, in dem Sie folgende Aufgaben ausführen können:</span><span class="sxs-lookup"><span data-stu-id="fcbc6-104">The **Segment** window is a type of worksheet where you can:</span></span>
 
-* Segmente erstellen
-* Speichern Sie die Segmentierungskriterien, die Sie bei der Auswahl von Kontakten verwendet haben.
-* Protokolliert das Segment und zeichnet Aktivitäten auf, die Sie mit Kontakten in dem Segment durchführen.
+* <span data-ttu-id="fcbc6-105">Segmente erstellen</span><span class="sxs-lookup"><span data-stu-id="fcbc6-105">Create segments.</span></span>
+* <span data-ttu-id="fcbc6-106">Speichern Sie die Segmentierungskriterien, die Sie bei der Auswahl von Kontakten verwendet haben.</span><span class="sxs-lookup"><span data-stu-id="fcbc6-106">Save the segmentation criteria you have used to select contacts.</span></span>
+* <span data-ttu-id="fcbc6-107">Protokolliert das Segment und zeichnet Aktivitäten auf, die Sie mit Kontakten in dem Segment durchführen.</span><span class="sxs-lookup"><span data-stu-id="fcbc6-107">Log the segment and record interactions involving the contacts within the segment.</span></span>
 
-## <a name="segmenting"></a>Segmentieren
-Es gibt verschiedene Arten, Segmente zu erstellen:
+## <a name="segmenting"></a><span data-ttu-id="fcbc6-108">Segmentieren</span><span class="sxs-lookup"><span data-stu-id="fcbc6-108">Segmenting</span></span>
+<span data-ttu-id="fcbc6-109">Es gibt verschiedene Arten, Segmente zu erstellen:</span><span class="sxs-lookup"><span data-stu-id="fcbc6-109">There are several ways to create segments:</span></span>
 
-* Sie können Kontakte manuell in die Segmentszeilen eingeben.
-* Sie können Kontakte auswählen.
-* Sie können ein protokolliertes Segment wiederverwenden, um ein neues zu erstellen.
-* Sie können gespeicherte Segmentierungskriterien wiederverwenden.
+* <span data-ttu-id="fcbc6-110">Sie können Kontakte manuell in die Segmentszeilen eingeben.</span><span class="sxs-lookup"><span data-stu-id="fcbc6-110">You can manually enter the contacts you want to include in the segment in the segment lines.</span></span>
+* <span data-ttu-id="fcbc6-111">Sie können Kontakte auswählen.</span><span class="sxs-lookup"><span data-stu-id="fcbc6-111">You can select contacts.</span></span>
+* <span data-ttu-id="fcbc6-112">Sie können ein protokolliertes Segment wiederverwenden, um ein neues zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="fcbc6-112">You can reuse a logged segment as the basis to create a new one.</span></span>
+* <span data-ttu-id="fcbc6-113">Sie können gespeicherte Segmentierungskriterien wiederverwenden.</span><span class="sxs-lookup"><span data-stu-id="fcbc6-113">You can reuse saved segmentation criteria.</span></span>
 
-## <a name="interactions"></a>Aktivitäten
-In dem Fenster **Segment** können Sie Aktivitäten für mehrere Kontakte gleichzeitig erstellen. Sie können z. B. ein Segment mit einem Microsoft Word Dokument verbinden, sodass Sie einen Brief an alle Kontakte in dem Segment verschicken können.
+## <a name="interactions"></a><span data-ttu-id="fcbc6-114">Aktivitäten</span><span class="sxs-lookup"><span data-stu-id="fcbc6-114">Interactions</span></span>
+<span data-ttu-id="fcbc6-115">In dem Fenster **Segment** können Sie Aktivitäten für mehrere Kontakte gleichzeitig erstellen.</span><span class="sxs-lookup"><span data-stu-id="fcbc6-115">In the **Segment** window, you can create interactions for several contacts simultaneously.</span></span> <span data-ttu-id="fcbc6-116">Sie können z. B. ein Segment mit einem Microsoft Word Dokument verbinden, sodass Sie einen Brief an alle Kontakte in dem Segment verschicken können.</span><span class="sxs-lookup"><span data-stu-id="fcbc6-116">For example, you can merge a segment with a Microsoft Word document, so that you can send a letter to all the contacts in the segment.</span></span>
 
-Sie können Informationen über die Aktivität für das Segment im **Segmentkopf** festlegen. Sie können z. B. entscheiden, welche Aktivitätenvorlage Sie für alle Kontakte verwenden möchten, Sie eine Beschreibung oder eine Korrespondenzart festlegen usw. Sie können diese Informationen in der Segmentszeile für jeden einzelnen Kontakt verändern, z. B., indem Sie eine andere Beschreibung eingeben. Wenn Sie ein Segment mit einem Dokument in Microsoft Word verknüpfen, können Sie das Dokument für einen oder mehrere Kontakte des Segments personalisieren, indem Sie dem Dokument z. B. individuelle Kommentare hinzufügen.
+<span data-ttu-id="fcbc6-117">Sie können Informationen über die Aktivität für das Segment im **Segmentkopf** festlegen.</span><span class="sxs-lookup"><span data-stu-id="fcbc6-117">You can specify information about the interaction for the segment on the **Segment** header.</span></span> <span data-ttu-id="fcbc6-118">Sie können z. B. entscheiden, welche Aktivitätenvorlage Sie für alle Kontakte verwenden möchten, Sie eine Beschreibung oder eine Korrespondenzart festlegen usw.</span><span class="sxs-lookup"><span data-stu-id="fcbc6-118">For example, you can decide which interaction template you want to use for all the contacts, specify a description, a correspondence type, and so on.</span></span> <span data-ttu-id="fcbc6-119">Sie können diese Informationen in der Segmentszeile für jeden einzelnen Kontakt verändern, z. B., indem Sie eine andere Beschreibung eingeben.</span><span class="sxs-lookup"><span data-stu-id="fcbc6-119">However, you can modify this information in the segment line for each particular contact, for example, by specifying another description for one contact.</span></span> <span data-ttu-id="fcbc6-120">Wenn Sie ein Segment mit einem Dokument in Microsoft Word verknüpfen, können Sie das Dokument für einen oder mehrere Kontakte des Segments personalisieren, indem Sie dem Dokument z. B. individuelle Kommentare hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="fcbc6-120">If you are merging a segment with a Microsoft Word document, you can personalize the document to be sent for one or several of the contacts within the segment, for example, by adding individualized comments to the document.</span></span>
 
-## <a name="logging"></a>Protokollieren
-Wenn Sie in dem Fenster **Segment** **Protokoll** wählen, werden alle Aktivitäten im Fenster **Aktivitätenprotokollposten** gespeichert und das Segment wird protokolliert. Nachdem Sie das Segment protokolliert haben, finden Sie es nur in dem Fenster **Protokollierte Segmente**.
+## <a name="logging"></a><span data-ttu-id="fcbc6-121">Protokollieren</span><span class="sxs-lookup"><span data-stu-id="fcbc6-121">Logging</span></span>
+<span data-ttu-id="fcbc6-122">Wenn Sie in dem Fenster **Segment** **Protokoll** wählen, werden alle Aktivitäten im Fenster **Aktivitätenprotokollposten** gespeichert und das Segment wird protokolliert.</span><span class="sxs-lookup"><span data-stu-id="fcbc6-122">In the **Segment** window, when you choose **Log**, the application records the interactions in the **Interaction Log Entry** window, and logs the segment.</span></span> <span data-ttu-id="fcbc6-123">Nachdem Sie das Segment protokolliert haben, finden Sie es nur in dem Fenster **Protokollierte Segmente**.</span><span class="sxs-lookup"><span data-stu-id="fcbc6-123">After you have logged the segment, you can only find it in the **Logged Segments** window.</span></span>
 
-Im Fenster **Protokollierte Segmente** können Sie ein Anschluss-Segment mit den gleichen Kontakten wie das protokollierte Segment erstellen.
+<span data-ttu-id="fcbc6-124">Im Fenster **Protokollierte Segmente** können Sie ein Anschluss-Segment mit den gleichen Kontakten wie das protokollierte Segment erstellen.</span><span class="sxs-lookup"><span data-stu-id="fcbc6-124">In the **Logged Segments** window, you can decide to create a follow-up segment containing the same contacts as the segment you have logged.</span></span>
 
-## <a name="see-also"></a>Siehe auch
-[Gewusst wie: Erstellen von Segmenten](marketing-how-create-segment.md)  
-[Gewusst wie: Erstellen von Aktivitäten für Segmente](marketing-how-create-interactions.md)Ge  
-[Verwalten von Segmenten](marketing-segments.md)  
-[Aufzeichnen von Aktivitäten mit Kontakten](marketing-interactions.md)A  
-[Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
-[Erstellen und Verwalten von Kontakten](marketing-contacts.md)  
-[Arbeiten mit Financials](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="fcbc6-125">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="fcbc6-125">See Also</span></span>
+[<span data-ttu-id="fcbc6-126">Gewusst wie: Erstellen von Segmenten</span><span class="sxs-lookup"><span data-stu-id="fcbc6-126">How to: Create Segments</span></span>](marketing-how-create-segment.md)  
+<span data-ttu-id="fcbc6-127">[Gewusst wie: Erstellen von Aktivitäten für Segmente](marketing-how-create-interactions.md)Ge</span><span class="sxs-lookup"><span data-stu-id="fcbc6-127">[How to: Create Interactions for Segments](marketing-how-create-interactions.md)</span></span>  
+[<span data-ttu-id="fcbc6-128">Verwalten von Segmenten</span><span class="sxs-lookup"><span data-stu-id="fcbc6-128">Managing Segments</span></span>](marketing-segments.md)  
+<span data-ttu-id="fcbc6-129">[Aufzeichnen von Aktivitäten mit Kontakten](marketing-interactions.md)A</span><span class="sxs-lookup"><span data-stu-id="fcbc6-129">[Recording Interactions With Contacts](marketing-interactions.md)</span></span>  
+[<span data-ttu-id="fcbc6-130">Verkaufschancen verwalten</span><span class="sxs-lookup"><span data-stu-id="fcbc6-130">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
+[<span data-ttu-id="fcbc6-131">Erstellen und Verwalten von Kontakten</span><span class="sxs-lookup"><span data-stu-id="fcbc6-131">Creating and Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="fcbc6-132">Arbeiten mit Financials</span><span class="sxs-lookup"><span data-stu-id="fcbc6-132">Working with Financials</span></span>](ui-work-product.md)
 
