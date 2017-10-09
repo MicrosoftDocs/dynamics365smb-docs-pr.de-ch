@@ -1,5 +1,5 @@
 ---
-title: Projket-Management| Microsoft Docs
+title: Jobaufgabe, die Ressourcen und Arbeitszeittabellen verwendet | Microsoft Docs
 description: Beschreibt, wie Ressourcen, Arbeitszeittabellen und Projekte genutzt werden, um Projekte zu verwalten.
 services: project-madeira
 documentationcenter: 
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 608817222d087a04293a25913064e7b47f1c78f0
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e823f58ac796b22a488ab6fd54ed6dc00e262c87
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/04/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="project-management"></a>Projektmanagement
@@ -25,7 +24,8 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie allgemeine Projektman
 
 Bevor Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten. Weitere Informationen finden Sie unter [Projektmanagement einrichten](projects-setup-projects.md).)  
 
-**Hinweis: ** Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter] [Benutzeroberfläche [!INCLUDE[d365fin](includes/d365fin_md.md)] (ui-experiences.md) anpassen.
+> [!NOTE]  
+>   Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.
 
 In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
 
@@ -43,9 +43,9 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 
 ## <a name="see-also"></a>Siehe auch
 [Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md)  
-[Die Benutzeroberfläche [!INCLUDE[d365fin](includes/d365fin_md.md)] anpassen](ui-experiences.md)      
-[Einkauf (purchasing-manage-purchasing.md)         
+[Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Erfahrung](ui-experiences.md)      
+[Einkauf](purchasing-manage-purchasing.md)         
 [Verkauf](sales-manage-sales.md)    
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

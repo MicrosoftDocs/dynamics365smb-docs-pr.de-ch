@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 4a41abe08412b357207cbbc08e8dc5041b12d942
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 2a84fbed87b4d6223e98db0c0bc1f5c5c7d1ba78
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-general-fixed-assets-information"></a>So geht's: Allgemeine Anlagen-Informationen einrichten
@@ -106,7 +105,7 @@ Falls Sie die Anlagen in [!INCLUDE[d365fin](includes/d365fin_md.md)] zum ersten 
 2. Erstellen Sie eine Anlagenkarte für jede bestehende Anlage.  
 3. Richten Sie Anlagenabschreibungsbücher ein.  
 4. Aktivieren Sie die Fibu-Integration, indem Sie die folgenden Schritte ausführen.
-5. Geben Sie im Feld **Suchen** einen Wert für **AfA-Bücher** ein, und wählen Sie dann den zugehörigen Link aus.  
+5. Wählen Sie in der rechten oberen Ecke ![Nach Seite oder Bericht suchen]das Symbol (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **AfA-Buchliste** ein. Wählen Sie dann den zugehörigen Link aus.  
 6. Wählen Sie das entsprechende Abschreibungsbuch aus. Wählen Sie auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Bearbeiten** aus, um das Fenster **Abschreibungsbuch - Karte** zu öffnen.
 7. Vergewissern Sie sich im Inforegister **Integration**, dass alle Felder leer sind, indem Sie alle Häkchen löschen. Sind mehrere Abschreibungsbücher vorhanden, aktivieren Sie die Fibu-Integration für jedes Buch.  
 8. Geben Sie im Anlagen Erf.-Journal die folgenden Zeilen für jede Anlage ein:
@@ -114,7 +113,7 @@ Falls Sie die Anlagen in [!INCLUDE[d365fin](includes/d365fin_md.md)] zum ersten 
    * Eine Zeile mit der kumulierten Abschreibung zum Ende des vorigen Geschäftsjahres.
    * Eine Zeile mit der kumulierten AfA vom Anfang des laufenden Geschäftsjahres bis zu dem Datum, ab dem [!INCLUDE[d365fin](includes/d365fin_md.md)]mit der Berechnung der Abschreibung beginnen soll.
 
-Falls Sie andere Anfangssalden haben, zum Beispiel Ab\-Zuschreibung, können Sie diese ebenfalls jetzt eingeben.  
+Falls Sie andere Anfangssalden haben, zum Beispiel Ab- und Zuschreibung, können Sie diese ebenfalls jetzt eingeben.  
 
 Falls die Anlagen nicht im Fibuposten integriert sind, können Sie die Schritte 4 bis 7 übergehen.
 

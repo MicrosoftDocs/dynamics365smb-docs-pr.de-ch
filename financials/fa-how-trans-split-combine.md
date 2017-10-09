@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 4e29a08e9b0fd9c20dac12bb32dd1be604ff2dcf
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-transfer-split-or-combine-fixed-assets"></a>So geht's: Übertragen, Teilen oder Kombinieren von Anlagen.
@@ -28,7 +27,7 @@ Es kann erforderlich sein, Anlagen an andere Kostenstellen zu transferieren, wen
 1. Richten Sie eine neue Anlage ein. Geben Sie die neue Kostenstelle im Feld **Abteilungscode** ein.
 2. Weisen Sie der neuen Anlage ein Anlagen-Abschreibungsbuch zu. Weitere Informationen finden Sie unter [So geht's: Beschaffen von Anlagen](fa-how-acquire.md).
 3. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Anlage Buchblatt neu klassieren** ein und wählen den zugehörenden Link aus.
-4. Erstellen Sie ein Umbuch.-Blatt erstellt, in dem das Feld **Anlagennr.** die ursprüngliche Anlage enthält und das Feld **Neue Anlagennr.** die neue Anlage enthält, die umgelagert werden soll.  
+4. Erstellt das Umlagerungs-Erf.-Journal, in dem das **Anlagennr.** Feld die urspr. Anlage enthält, und das Feld **Neue Anlagennr.** die neue Anlage enthält, die verschoben werden soll.  
 5. Wählen Sie die Aktion **Umbuchen** aus.
 
     Es werden zwei Zeilen im Anlagen Fibu Buch.-Blatt unter Verwendung der Vorlage und dem Buch.-Blattnamen, die Sie in dem Fenster **Anlagen Buch.-Blatt Einr.** für das gewählte AfA-Buch angegeben haben, erstellt. Weitere Informationen finden Sie unter [So geht's: Anlagen-AfA-Bücher automatisch einrichten](fa-how-setup-depreciation.md).
@@ -44,8 +43,8 @@ Sie können eine Anlage in mehrere Anlagen aufteilen, zum Beispiel wenn Sie eine
 2. Weisen Sie den zwei neuen Anlagen Anlagen-AfA-Bücher zu. Weitere Informationen finden Sie unter [So geht's: Beschaffen von Anlagen](fa-how-acquire.md).
 3. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Anlage Buchblatt neu klassieren** ein und wählen den zugehörenden Link aus.
 4. Erstellen Sie zwei Umlagerungs Buch.-Blattzeilen, eine für jede neue Anlage.
-5. Geben Sie in der ersten Zeile die zweite Anlage im Fenster **Neue Anlagennr.** ein und 25 und im Fenster **Anschaffung % umbuchen**.
-6. Geben Sie in der zweiten Zeile die dritte Anlage im Fenster **Neue Anlagennr.** ein und 40 und im Fenster **Anschaffung % umbuchen**.
+5. Wählen Sie in der ersten Zeile die zweiten Anlage im Feld **Neue Anlagennr.** und 25 im Feld **Buchen Sie Anschaffungskosten um %** Feld ein.
+6. Wählen Sie in der ersten Zeile die zweiten Anlage im Feld **Neue Anlagennr.** und 40 im Feld **Buchen Sie Anschaffungskosten um %** Feld ein.
 7. In beiden Zeilen aktivieren Sie die Kontrollkästchen **Anschaffung umbuchen** und **Normal-AfA umbuchen**.   
 8. Wählen Sie die Aktion **Umbuchen** aus.
 
@@ -57,7 +56,7 @@ Sie können eine Anlage in mehrere Anlagen aufteilen, zum Beispiel wenn Sie eine
 Sie können mehrere Anlage in einer Anlagen zusammenfassen, wenn Sie zum Beispiel verteilte Anlagen in eine Abteilung verschieben. Wenn Sie Anschaffungskosten und Abschreibung für die Anlagen, die verschoben werden sollen, gebucht haben, werden diese Werte in einer einzelnen Anlage zusammengefasst.
 
 1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Anlage Buchblatt neu klassieren** ein und wählen den zugehörenden Link aus.
-2. Erstellen Sie ein Umbuch.-Blatt erstellt, in dem das Feld **Anlagennr.** die Anlage enthält, die verschoben/zusammengefasst werden soll und das Feld **Neue Anlagennr.** enthält die Anlage, mit der sie zusammengefasst wird.
+2. Erstellt das Umlagerungs-Erf.-Journal, in dem das **Anlagennr.** Feld die urspr. Anlage enthält, und das Feld **Neue Anlagennr.** die neue Anlage enthält, mit der sie kombiniert werden soll.
 3. Lassen Sie das Feld **Anschaffung % umbuchen** leer, um die gesamten Anschaffungskosten zu verschieben/zusammenzufassen.    
 4. Aktivieren Sie die Kontrollkästchen **Anschaffung umbuchen** und **Normal-AfA umbuchen**.
 5. Wählen Sie auf der Registerkarte **Aktionen** die Option **Umbuchen** aus.

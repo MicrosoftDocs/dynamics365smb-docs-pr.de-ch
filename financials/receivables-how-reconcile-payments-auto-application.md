@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: b4ff3d64f23a5dfb9800abeedb7374764b060f4d
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-payments-using-automatic-application"></a>Vorgehensweise: Abstimmen von Zahlungen mithilfe der automatischen Anwendung
@@ -33,7 +32,7 @@ Im Fenster **Text zu Konto zuordnen**, können Sie schnell Zuordnungen zwischen 
 
 Sie verwenden die Funktion **Automatisch anwenden** entweder automatisch, wenn Sie die Bankdatei importieren mit Zahlungstransaktionen, oder wenn Sie sie aktivieren, um Zahlungen auf ihre entsprechenden offenen Posten im Rahmen eines Datenabgleichs in einer Erfassungsjournalzeile mit Daten für einen oder mehrere offene Posten anzuwenden.
 
-In Erfassungsjournalzeilen, bei denen eine Zahlung automatisch auf einen oder mehrere offene Posten angewendet wurde, hat das Feld **Passende Werte** einen Wert zwischen Niedrig und Hoch, um die Qualität des Datenabgleichens anzugeben, auf der die vorgeschlagenen Zahlungsanwendung basiert. Darüber hinaus **Kontoart** und **Kontonummer**. Felder werden mit Informationen über den Debitor oder Kreditor, für den die Zahlung gebucht wurde, ergänzt. Wenn Sie eine Text-zu-Konto-Zuordnung eingerichtet haben, kann die automatische Anwendung einen Abgleichungsvertrauenswert von **Hoch - Text-zu-Konto-Zuordnung** ergeben.
+In Erfassungsjournalzeilen, bei denen eine Zahlung automatisch auf einen oder mehrere offene Posten angewendet wurde, hat das Feld **Passende Werte** einen Wert zwischen Niedrig und Hoch, um die Qualität des Datenabgleichens anzugeben, auf der die vorgeschlagenen Zahlungsanwendung basiert. Darüber hinaus werden -**Kontoart** und **Konto-Nr.**-Felder mit Informationen über den Debitor oder Kreditor ausgefüllt, auf die die Zahlung angewendet wird. Wenn Sie eine Text-zu-Konto-Zuordnung eingerichtet haben, kann die automatische Anwendung einen Abgleichungsvertrauenswert von **Hoch - Text-zu-Konto-Zuordnung** ergeben.
 
 Für jede Erfassungsjournalzeile, die ein Zahlung im Fenster **Zahlungsabstimmungserf.-Journal** darstellt, können Sie das Fenster **Zahlungsanwendung** öffnen, um alle offenen Kandidatenposten für die Zahlung anzuzeigen und detaillierte Informationen für jeden Posten zum Datenabgleich anzuzeigen, auf denen eine Zahlungsanwendung basiert. Hier können Sie manuell Zahlungen ausgleichen, oder Zahlungen erneut ausgleichen, die automatisch auf einen falschen offenen Posten angewendet wurden,. Weitere Informationen finden Sie unter [So gehts: Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-review-apply-payments-auto-application.md).
 
@@ -52,7 +51,7 @@ Für jede Erfassungsjournalzeile, die ein Zahlung im Fenster **Zahlungsabstimmun
 
     Das Fenster **Zahlungsabstimmungs-Erfassungsjournal** enthält Zeilen für die Zahlungen, die Banktransaktionen in der importierten Datei darstellen.
 
-    In Zeilen, bei denen eine Zahlung automatisch auf den zugehörigen offenen Posten angewendet wurde, hat das Feld **Übereinstimmungsgenauigkeit** einen Wert zwischen **Niedrig** und **Hoch**, um die Qualität des Datenabgleichens anzugeben, auf der die vorgeschlagenen Zahlungsanwendung basiert. Darüber hinaus **Kontoart** und **Kontonummer**. Felder werden mit Informationen über den Debitor oder Kreditor, für den die Zahlung gebucht wurde, ergänzt.
+    In Zeilen, bei denen eine Zahlung automatisch auf den zugehörigen offenen Posten angewendet wurde, hat das Feld **Übereinstimmungsgenauigkeit** einen Wert zwischen **Niedrig** und **Hoch**, um die Qualität des Datenabgleichens anzugeben, auf der die vorgeschlagenen Zahlungsanwendung basiert. Darüber hinaus werden -**Kontoart** und **Konto-Nr.**-Felder mit Informationen über den Debitor oder Kreditor ausgefüllt, auf die die Zahlung angewendet wird.
 7. Wählen Sie eine Erfassungsjournalzeile, und wählen Sie dann **Manuell anwenden** oder Zahlung manuell anwenden im Fenster **Zahlungsanwendung**. Weitere Informationen finden Sie unter [So gehts: Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-review-apply-payments-auto-application.md).
 
     Wenn Sie den manuellen Ausgleich abgeschlossen haben, enthält das Feld **Übereinstimmungsgenauigkeit** in der Erfassungsjournalzeile, die Sie manuell verarbeitet haben **Akzeptiert**.

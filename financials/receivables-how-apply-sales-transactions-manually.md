@@ -1,8 +1,6 @@
 ---
 title: Anwenden von Debitorenposten, um Debitoren-Zahlungen manuell abzustimmen | Microsoft Docs
 description: "Beschreibt, wie Debitorenzahlungseingänge oder -Erstattungen mit einem oder mehreren offenen Debitorenposten angewendet und Debitorenzahlungen ausgeglichen werden."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 03/29/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 568bd66c201764cae45ea12a900ea12eabbf0546
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ccef6a35b1632bd94f64c5e9ad56ecd3bacbfd06
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually"></a>Vorgehensweise: Manuelle Abstimmung vom Zahlungen
@@ -45,13 +43,13 @@ Sie können Debitorenzahlungen und Kreditorenzahlungen, im Fenster **Zahlungsabs
 4. Füllen Sie das Feld **Buchungsdatum** auf.  
 5. Wählen Sie im Feld **Belegart** die Option **Zahlung** aus.
 
-    Die **Belegnummer** Feld wird anhand der Nummernserie ausgefüllt, die dem Charge zugeordnet ist.  
-6. **Externe Belegnummer** verwenden Verwenden Sie das Feld Externe Belegnummer, um eine Kennung wie die Schecknummer des Debitors zu speichern.
+    Das Feld **Belegnr.** wird anhand der Nummernserie ausgefüllt, die dem Buch.-Blatt zugeordnet wurde.  
+6. Verwenden Sie das Feld **Externe Belegnummer**, um eine Kennung wie die Schecknummer des Debitors, zu speichern.
 7. Wählen Sie im Feld **Kontoart** die Option **Kreditor** aus.
-8. Wählen Sie im Feld **Kontonummer** Wählen Sie das entsprechende Fibukonto.
+8. Wählen Sie im Feld **Bankkontonummer** das entsprechende Fibukonto aus.
 9. Falls Sie den Ausgleich gleichzeitig mit dem Erfassungsjournal buchen möchten, führen Sie einen der folgenden Schritte durch.
 10. Wählen Sie im Feld **Gegenkontoart** das **Fibukonto** für Barzahlungen und das **Bankkonto** für sonstige Zahlungen aus.
-11. Wählen Sie im Feld **Ausgleichskontonummer** das Barkonto für Barzahlungen oder das zutreffende Bankkonto für sonstige Zahlungen aus.
+11. Wählen Sie im Feld **Gegenkontonr.** das Barkonto für Barzahlungen oder das zutreffende Bankkonto für sonstige Zahlungen aus.
 12. Buchen Sie die Erf.-Journalzeile.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>So gleichen Sie einen einzelnen Debitorenposten mit einer Zahlung aus:
@@ -61,12 +59,12 @@ Sie können Debitorenzahlungen und Kreditorenzahlungen, im Fenster **Zahlungsabs
 4. Wählen Sie im Feld **Belegart** die Option **Zahlung** aus.
 5. Wählen Sie im Feld **Kontoart** die Option **Kreditor** aus.
 6. Wählen Sie im Feld **Gegenkontoart** die Option **Bankkonto** aus.
-7. Wählen Sie im Feld **Ausgleich mit Belegnr.** Feld, wählen das Feld, um das Fenster **Debitorenposten anwenden**.
+7. Im  Feld **Gilf für Dok.Nur** wählen Sie Feld, um das Fenster **Auf Kundne anwenden** zu öffnen.
 8. Wählen Sie im Fenster **Kreditorenpostenausgleich** die Zeilen mit den Posten aus, die Sie mit der Zahlung ausgleichen möchten.
 9. Geben Sie in jeder Zeile im Feld **Anzuwendender Betrag** den Betrag ein, mit dem Sie den entsprechenden Posten ausgleichen möchten. Wenn Sie keinen Betrag eingeben, wird automatisch mit dem Höchstbetrag ausgeglichen.
 
     Am unteren Rand des Fensters **Benutzerdefinierter Eintrag anwenden** sehen Sie einen spezifischen Betrag im Fenster **Angewendeter Betrag** und auch, ob die Buchung ausgeglichen ist.  
-10. Wählen Sie die Schaltfläche **OK** aus. Das Fenster **Zahlungseingangs-Erfassungsjournal** zeigt nun die von Ihnen ausgewählten Einträge unter **Auf Dokumenttyp anwenden** und auf **Dokumenttyp anwenden**. Felder.
+10. Wählen Sie die Schaltfläche **OK** aus. Das Fenster **Barzahlungseingangs-Erf.-Journal** zeigt nun die von Ihnen ausgewählten Einträge unter **Auf Dokumenttyp anwenden** und auf **Dokumenttyp anwenden**.
 11. Buchen Sie das Zahlungseingangs-Erfassungsjournal.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>So gleichen Sie mehrere Debitorenposten mit einer Zahlung aus:
@@ -77,8 +75,8 @@ Sie können Debitorenzahlungen und Kreditorenzahlungen, im Fenster **Zahlungsabs
 5. Wählen Sie im Feld **Kontoart** die Option **Kreditor** aus.
 6. Wählen Sie im Feld **Gegenkontoart** die Option **Bankkonto** aus.
 7. Geben Sie im Feld **Betrag** die vollständige Zahlung als negativen Betrag ein.
-8. Wenn Sie die Zahlung bei der Buchung mit mehreren Kreditorenposten ausgleichen möchten, klicken Sie auf die Aktionen **Einträge anwenden**.
-9. Wählen Sie die Zeilen mit den Posten aus, die mit dem Ausgleichsposten ausgeglichen werden sollen, und klicken Sie anschließend auf **Ausgleichs-ID setzen anwenden**.
+8. Wenn Sie die Zahlung bei der Buchung mit mehreren Kreditorenposten ausgleichen möchten, klicken Sie auf die Aktionen **Einträge anwenden**.  
+9. Wählen Sie die Zeilen mit den Posten aus, die mit dem Ausgleichsposten ausgeglichen werden sollen, und klicken Sie anschließend auf **Ausgleichs-ID setzen anwenden**.  
 10. Geben Sie in jeder Zeile im Feld **Ausgleichsbetrag** den Betrag ein, mit dem Sie den entsprechenden Posten ausgleichen möchten. Wenn Sie keinen Betrag eingeben, wird automatisch mit dem Höchstbetrag ausgeglichen.
 
     Am unteren Rand des Fensters **Benutzerdefinierter Eintrag anwenden** sehen Sie einen spezifischen Betrag im Fenster **Angewendeter Betrag** und auch, ob die Buchung ausgeglichen ist.  
@@ -88,11 +86,11 @@ Sie können Debitorenzahlungen und Kreditorenzahlungen, im Fenster **Zahlungsabs
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>So gleichen Sie einen einzelnen Debitorenposten mit einer Gutschrift aus:
 1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufskreditor-Memo** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Öffnen Sie die relevante Verkaufsgutschrift.
-3. Wenn Sie bei der Buchung einen einzelnen Kreditorenposten durch die Gutschrift ausgleichen möchten, klicken Sie auf das Feld **Auf Dok.Nummer anwenden** und wählen den Posten aus, den Sie mit der Zahlung ausgleichen möchten.
+3. Wenn Sie beim Buchen einen einzelnen Debitorenposten mit einer Gutschrift ausgleichen möchten, klicken Sie auf das Inforegister **Anwendung im Feld** , und wählen Sie den Posten, den Sie mit der Zahlung ausgleichen möchten.
 4. Geben Sie in jeder Zeile im Feld **Ausgleichsbetrag** den Betrag ein, mit dem Sie den entsprechenden Posten ausgleichen möchten.  
 
     Wenn Sie keinen Betrag eingeben, gleicht das Programm automatisch mit dem Höchstbetrag aus. Am unteren Rand des Fensters **Benutzerdefinierter Eintrag anwenden** sehen Sie einen spezifischen Betrag im Fenster **Angewendeter Betrag** und auch, ob die Buchung ausgeglichen ist.    
-5. Wählen Sie die Schaltfläche **OK** aus. Das Fenster **Verkaufsgutschrift** zeigt nun die von Ihnen ausgewählten Einträge unter **Auf Dokumenttyp anwenden** und auf **Dokumenttyp anwenden**. Felder. Und den Betrag der zu buchenden Gutschrift an, wobei mögliche Skonti berücksichtigt werden.
+5. Wählen Sie die Schaltfläche **OK** aus. Das Fenster **Verkaufsgutschrift** zeigt nun die von Ihnen ausgewählten Einträge unter **Auf Dokumenttyp anwenden** und auf **Dokumenttyp anwenden**. Und den Betrag der zu buchenden Gutschrift an, wobei mögliche Skonti berücksichtigt werden.
 6. Buchen Sie die Gutschrift.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>So gleichen Sie mehrere Debitorenposten mit einer Gutschrift aus:

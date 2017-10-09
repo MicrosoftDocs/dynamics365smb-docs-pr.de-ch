@@ -1,8 +1,6 @@
 ---
 title: "Kunden für überfälligen Zahlungen erinnern oder mit einem Zuschlag belegen| Microsoft Docs"
 description: "Beschreibt, wie eine Mahnung zu einem Debitoren zu einer Zahlung, welche und Gebühren hinzuzufügen fällig ist, oder Gebühren mit der Zahlung aufgrund von Verzögerung sendet."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 06/28/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f64ad8c9170af52d7650324029a259b267f166b4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c0e028d84d868c7aca597ee007a038ccf3fa61a2
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-collect-outstanding-balances"></a>Vorgehensweise: Einziehen von Restbeträgen
@@ -77,7 +74,7 @@ Werden mehr Mahnungen erstellt als definierte Stufen vorhanden sind, werden die 
 5. Im Fenstert **Währungen für Mahnstufen festlegen** können Sie für jeden Mahnstufencode und die dazugehörende Mahnstufe Fremdwährungsinformationen hinterlegen, die aus einem Währungscode und einer Gebühr bestehen.
 
     > [!NOTE]  
-    > Wenn Sie Mahnungen in Fremdwährungen erstellen, verwendet die Anwendung die Bedingungen für Fremdwährungen, die Sie in dieser Tabelle eingerichtet haben, um  Mahnungen zu erstellen. Falls keine Mahnkonditionen für Fremdwährungen eingerichtet wurden, verwendet die Anwendung die Mahnkonditionen für die Mandantenwährung in der Tabelle **Mahnstufe** und rechnet diese in die entsprechende Währung um.
+    > Wenn Sie Mahnungen in Fremdwährungen erstellen, verwendet die Anwendung die Bedingungen für Fremdwährungen, die Sie in dieser Tabelle eingerichtet haben, um Mahnungen zu erstellen. Falls keine Mahnkonditionen für Fremdwährungen eingerichtet wurden, verwendet die Anwendung die Mahnkonditionen für die Mandantenwährung in der Tabelle **Mahnstufe** und rechnet diese in die entsprechende Währung um.
 
     Jede Mahnstufe kann mit Text versehen werden, der entweder vor ( **Vortext**) oder nach ( **Nachtext**) den Mahnposten gedruckt wird.
 
@@ -99,7 +96,7 @@ Werden mehr Mahnungen erstellt als definierte Stufen vorhanden sind, werden die 
 |%11|Der Unternehmensname.|  
 |%12|Inhalt des Felds **Zusatzgebühr pro Zeile** des Mahnungskopfs|  
 
-Wenn Sie beispielsweise schreiben **%7 %9 fällig 9 am 2%**, dann enthält die Mahnung den folgenden Text: **Sie schulden 1,200, 50 MW, fällig am 02\-02\-2014**.
+Wenn Sie beispielsweise schreiben **%9 %7 fällig am %2.**, dann enthält die Mahnung den folgenden Text: **Sie schulden 1,200,50 MW, fällig am 02-02-2014.**
 
 Geben Sie nach der Einrichtung der Mahnmethoden (mit zusätzlichen Stufen und Text) auf jeder Debitorenkarte einen der Codes ein. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten neuer Debitoren](sales-how-register-new-customers.md).
 
@@ -163,11 +160,13 @@ Sie müssen für jede Zinskondition einen eigenen Code einrichten. Danach könne
 
 Zinsen können entweder auf der Grundlage des Tagessaldos oder des fälligen Saldos berechnet werden.
 
-Bei der Methode "Fälliger Saldo" stellt der Zins einfach einen Prozentsatz des überfälligen Betrags dar.
-**Methode fälliger Saldo** - Zins = Überfälliger Betrag x (Zinssatz/100)
+Bei der Methode "Fälliger Saldo" stellt der Zins einfach einen Prozentsatz des überfälligen Betrags dar:  
 
-Mit der durchschnittlichen "Tagessaldomethode" wird berücksichtigt, seit wie vielen Tagen die Zahlung überfällig ist:
-**Durchschnittlicher Tagessaldo**methode = Überfälliger Betrag * (Tage Überfällig / Zinsperiode) * (Zinssatz / 100)
+    Balance Due method - Finance Charge = Overdue Amount x (Interest Rate / 100)
+
+Mit der durchschnittlichen "Tagessaldomethode" wird berücksichtigt, seit wie vielen Tagen die Zahlung überfällig ist:  
+
+    Average Daily Balance method - Finance Charge = Overdue Amount x (Days Overdue / Interest Period) x (Interest Rate/100)
 
 Zusätzlich ist jeder Code in der Tabelle "Zinskondition" mit einer Untertabelle, der Tabelle Zinsrechnungstext verbunden. Für jeden Zinskonditionencode kann hier ein Vor- und/oder Nachtext hinterlegt werden, der dann auf dem Zinsrechnungsbeleg erscheint.
 
@@ -180,7 +179,7 @@ Zusätzlich ist jeder Code in der Tabelle "Zinskondition" mit einer Untertabelle
 5. Im Fenster **Währungen für Zinskonditionen** können Sie für jeden Begriff einen Währungscode und Gebühren definieren.
 
     > [!NOTE]  
-    > Wenn Sie Zinsrechnungen in Fremdwährungen erstellen, verwendet die Anwendung die Bedingungen für Fremdwährungen, die Sie in dieser Tabelle eingerichtet haben, um  Zinsrechnungen zu erstellen. Falls es keine Zinskonditionen für Fremdwährungen gibt, verwendet die Anwendung die Zinskonditionen für die Mandantenwährung in der Tabelle **Zinskondition** und rechnet diese in die entsprechende Währung um.
+    > Wenn Sie Zinsrechnungen in Fremdwährungen erstellen, verwendet die Anwendung die Bedingungen für Fremdwährungen, die Sie in dieser Tabelle eingerichtet haben, um Zinsrechnungen zu erstellen. Falls es keine Zinskonditionen für Fremdwährungen gibt, verwendet die Anwendung die Zinskonditionen für die Mandantenwährung in der Tabelle **Zinskondition** und rechnet diese in die entsprechende Währung um.
 
     Für jeden Zinskonditionencode können Sie Texte festlegen, die vor (**Vortext**) oder nach (**Nachtext)** den Posten in der Zinsrechnung ausgedruckt werden sollen.  
 6. Wählen Sie die Aktionen **Vortext** oder **Nachtext** entsprechend aus und füllen Sie das Fenster **Zinsgebühr** aus.
@@ -204,10 +203,8 @@ Eine Zinsrechnung ist ähnlich wie eine Rechnung. Sie können den Kopf manuell a
 1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Zinsgebührmemo** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus, und füllen Sie die Felder nach Bedarf aus.  
 3. Wählen Sie **Zinsgebührmemo-Zeilen** vorschlagen.
-4. In der ** Gebühr vorschlagen Zinsrechnungszeilen  
-6.  Legen Sie auf dem Inforegister **Debitorenposten** einen Filter fest, wenn Sie nur für bestimmte Posten Zinsrechnungen erstellen möchten.  
-
-7.  Klicken Sie auf die Schaltfläche **OK**, um den Batchauftrag zu starten.  
+4. Im Fenster **Zinsrechnungszeile vorschlagen**Setzen Sie auf dem Inforegister **Debitorenposten** einen Filter, wenn Sie nur für bestimmte Posten Zinsrechnungen erstellen möchten.  
+5.  Klicken Sie auf die Schaltfläche **OK**, um den Batchauftrag zu starten.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>So aktualisieren Sie Zinsrechnungstexte:  
 In manchen Fällen möchten Sie möglicherweise den Vor- und Nachtext ändern, den Sie für die Zinskonditionen eingerichtet haben. Wenn Sie dies zu einem Zeitpunkt tun, an dem Sie Zinsrechnungen angelegt, aber noch nicht registriert haben, können Sie die Anwendung dazu veranlassen, die Zinsrechnungen mit den geänderten Texten zu aktualisieren.
@@ -243,7 +240,7 @@ Das Zinsgebührenmemo wird entweder gedruckt oder an eine festgelegte E-Mail als
 Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debitorenposten enthält, ein Mahnungsposten in der Tabelle **Mahnung/Zinsrechnung Posten** erstellt. Sie können sich einen Überblick über die erstellten Mahnungsposten für einen bestimmten Debitor anzeigen lassen.    
 1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Kunden** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Öffnen Sie die entsprechende Debitorenkarte und klicken dann auf **Buchblatteinträge**.
-3. Klicken Sie in die Zeile **Buch-Blatteinträge** und wählen Sie die Zeilen, die Sie anzeigen möchten, und klicken Sie dann auf  **Posten,  Mahnungs-/Zinsrechnungseinträge**.
+3. Klicken Sie in die Zeile **Buch-Blatteinträge** und wählen Sie die Zeilen, die Sie anzeigen möchten, und klicken Sie dann auf  **Posten, Mahnungs-/Zinsrechnungseinträge**.
 
 ## <a name="see-also"></a>Siehe auch
 [Verwalten von Forderungen](receivables-manage-receivables.md)  

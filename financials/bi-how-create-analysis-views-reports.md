@@ -12,11 +12,11 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ec1f03555db4e370bf19da41bcb33e9b1d286f82
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: b96ff2d1f4339b137a6f7d2c2c1266185e2dc69c
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 #  <a name="how-to-create-analysis-reports"></a>Vorgehensweise. Erstellen neuer Vertriebsanalyseberichte
@@ -40,7 +40,7 @@ Dann können Sie beispielsweise folgende Spalten erstellen:
 
 - Verkäufe aktueller Monat  
 - Verkäufe letzter Monat  
-- Verkäufe in Paketen vom letzten Monat  
+- Verkäufe in Prozent zum letzten Monat  
 
 > [!NOTE]  
 >   Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.

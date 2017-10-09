@@ -1,8 +1,6 @@
 ---
 title: Besondere Verkaufspreise und Rabatte aufzeichnen| Microsoft Docs
 description: Beschreibt, wie Preise die alternative und Rabattvereinbarungen definiert, die Sie zu Verkaufsbelegen beim Verkauf an verschiedene Debitoren gelten sollen.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 07/03/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 41558d6eec29a277db3cf8f156ae476faf315238
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3bb16f6f192e3a3ca29911cf6215fe1f00bfcb68
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-special-sales-prices-and-discounts"></a>Gewusst wie: Besondere Verkaufspreise und Rabatte aufzeichnen
@@ -69,7 +66,7 @@ Nachdem Sie sich entschieden haben, welche Debitoren für Rechnungsrabatte in Fr
 
 Der Rechnungsrabatt wird jetzt eingerichtet und dem fraglichen Debitor zugewiesen. Wenn Sie den Debitorencode im Feld **Rechnungs-Rabattcode** für andere Debitorenkarten auswählen, wird derselbe Rechnungsrabatt diesen Kunden zugewiesen.
 
-## <a name="sales-invoice-discounts-and-service-charges"></a>Verkaufsrechnungsrabatte und Zuschläge
+## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Arbeiten mit Verkaufsrechnungsrabatten und Servicegebühren
 Wenn Sie Rechnungsrabatte verwenden, bestimmt die Höhe des Rechnungsbetrages die Höhe des Rabattes, der gewährt wird.  
 
 In dem Fenster **Debitorenrechnungsrabatte** können Sie eine Servicegebühr für Rechnungen über einem bestimmten Betrag einrichten.  
@@ -79,7 +76,7 @@ Bevor Sie Rechnungsrabatte mit Verkäufen verwenden können, müssen Sie einige 
 - welchen Debitoren diese Art von Rabatt gewährt wird.  
 - welche Rabattprozentsätze Sie verwenden möchten.  
 
-Wenn die Anwendung Rechnungsrabatte automatisch berechnen soll, können Sie dies in dem Fenster "Debitoren & Verkauf Einr." einrichten.  
+Wenn die Anwendung Rechnungsrabatte automatisch berechnen soll, können Sie dies in dem Fenster **Debitoren & Verkauf Einr.** einrichten.  
 
 Sie können für jeden Debitor angeben, ob Sie Rechnungsrabatte gewähren möchten, wenn die Anforderungen erfüllt sind (d. h. der Rechnungsbetrag gross genug ist). Sie können die Bedingungen für Rechnungsrabatte für inländische Debitoren in der Mandantenwährung und für ausländische Debitoren in Fremdwährung festlegen.  
 
@@ -108,9 +105,22 @@ Der beste Preis ist der niedrigste mögliche Preis mit dem höchsten möglichen 
 2. [!INCLUDE[d365fin](includes/d365fin_md.md)] überprüft, ob Preis-/Rabattvereinbarungen für Informationen für die Beleg- oder die Buch.-Blattzeile gilt und fügt dann den gültigen Einheitspreis und den prozentualen Zeilenrabatt, unter Verwendung der folgenden Kriterien ein:
 
     - Gibt es eine Mindestanzahl in der Preis-/Rabattvereinbarung, die erfüllt ist?
-    - Gibt es eine Währungsanforderung in der Preis-/Rabattvereinbarung, die erfüllt ist? In diesem Fall werden der niedrigste Preis und der höchsten Zeilenrabatt für diese Währung eingefügt, selbst wenn MW einen besseren Preis liefern würde. Falls es für den angegebenen Währungscode keine Preis-/Zeilenrabatte gibt, verwendet [!INCLUDE[d365fin](includes/d365fin_md.md)] den niedrigsten Preis und den höchsten Zeilenrabatt in MW.
+    - Gibt es eine Währungsanforderung in der Preis-/Rabattvereinbarung, die erfüllt ist? In diesem Fall werden der niedrigste Preis und der höchsten Zeilenrabatt für diese Währung eingefügt, selbst wenn lokale Währung einen besseren Preis liefern würde. Falls es für den angegebenen Währungscode keine Preis-/Zeilenrabatte gibt, verwendet [!INCLUDE[d365fin](includes/d365fin_md.md)] den niedrigsten Preis und den höchsten Zeilenrabatt in Ihrer lokalen Währung.
 
 Wenn keine Spezialpreise für die Artikel in der Zeile gefunden werden, werden entweder letzte Einkaufspreis oder der Einheitspreis von der Artikelkarte oder der Lagerhaltungsdatenkarte verwendet.
+
+## <a name="to-copy-sales-prices"></a>Verkaufspreise kopieren  
+Falls Sie Verkaufspreise kopieren möchten, wie z. B. den Preis eines einzelnen Debitors, um ihn in einer Debitorengruppe zu verwenden, müssen Sie die Stapelverarbeitung **VK-Preis vorschlagen** ausführen.  Batchauftrag. Sie finden diese Stapelverarbeitung in dem Fenster **VK-Preisvorschläge**.    
+
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Verkaufsabrechungszusammenfassung** ein. Wählen Sie dann den zugehörigen Link aus.  
+2.  Wählen Sie den **Vorgeschlagenen Verkaufspreis auf dem Arbeitsblatt.** Aktion  
+3.  Füllen Sie im Inforegister **Verkaufspreis** die Felder mit der **Verkaufsart** und dem **Verkaufscode** der ursprünglichen Preise aus, die Sie kopieren möchten.  
+4.  Füllen Sie im oberen Bereich des Anforderungsfensters die Felder **Verkaufsart** und **Verkaufscode** mit der Art und dem Namen aus, in die Sie die Verkaufspreise kopieren möchten.  
+5.  Wenn Sie mit dem Batchauftrag neue Preise erstellen wollen, wählen Sie in das Feld **Neue Preise generieren**.  
+6.  Wählen Sie die Schaltfläche **OK** , um die Zeilen in dem Fenster **VK-Preisvorschläge** mit den neuen Preisvorschlägen auszufüllen, und geben Sie an, dass diese für die gewählte **Verkaufsart** gültig sind.  
+
+> [!NOTE]  
+>  Die Stapelverarbeitung erzeugt nur Vorschläge, implementiert die vorgeschlagenen Änderungen aber nicht. Wenn Sie mit den Vorschlägen zufrieden sind und sie annehmen möchten, d. h. sie in die Tabelle **VK-Preise** übernehmen möchten, können Sie den Batchauftrag **Preisvorschlag übernehmen** verwenden, den Sie im Register **Aktionen**, in der Gruppe **Funktionen** im Fenster **VK-Preisformular** finden.
 
 ## <a name="see-also"></a>Siehe auch
 [Einrichten von Verkäufen](sales-setup-sales.md)  

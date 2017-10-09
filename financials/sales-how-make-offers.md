@@ -1,5 +1,5 @@
 ---
-title: Verkaufsofferten erstellen | Microsoft Docs
+title: "Verkaufsangebote für einen Kunden erstellen| Microsoft Docs"
 description: Beschreibt, wie Verkaufsofferten oder eine Anforderung erstellt wird, um Ihre Offerte zu erfassen, um unter bestimmten Bedingungen einem Kunden zu verkaufen.
 documentationcenter: 
 author: SorenGP
@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 86aad5cbe448b8de396338c609979150cc4adfa6
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6d1c4a937a8030c2f6dbef578a5d5f168faafc31
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-make-offers"></a>Vorgehensweise: Machen Sie ein Angebot
@@ -70,7 +69,7 @@ Wenn Sie wiederkehrende Verkaufszeilen für den Debitor wie einen Monatsersatzau
 16. Im Fenster **E-Mail senden** füllen Sie die restlichen Felder aus und überprüfen Sie das eingebettete Verkaufsangebot. Weitere Informationen finden Sie unter [Vorgehensweise: Senden von Belegen per E-Mail](ui-how-send-documents-email.md).
 17. Wenn der Kunde die Offerte annimmt, wählen Sie **Rechnung erstellen** oder **Auftrag vornehmen** aus.
 
-Die Verkaufsofferte wird aus der Datenbank entfernt. Eine Verkaufsrechnung oder ein Verkaufsauftrag wird auf der Basis der Informationen in der Verkaufsofferte erstellt, in der Sie den Verkauf verarbeiten können. Im Feld **Offertennr.** auf der erstellten Verkaufsrechnung oder in der Verkaufsofferte sehen Sie die Nummer der Verkaufsofferte, aus der sie erstellt wurde. Weitere Informationen finden Sie unter [Vorgehensweise: Fakturieren von Verkäufen](sales-how-invoice-sales.md) und [Vorgehensweise: Neue Produkte verkaufen](sales-how-sell-products.md).
+Die Verkaufsofferte wird aus der Datenbank entfernt. Eine Verkaufsrechnung oder ein Verkaufsauftrag wird auf der Basis der Informationen in der Verkaufsofferte erstellt, in der Sie den Verkauf verarbeiten können. In der erstellten Verkaufsrechnung bzw. -bestellung gibt das Feld **Offertennr.** die Nummer der Verkaufsofferte an, aus der sie erstellt wurde. Weitere Informationen finden Sie unter [Vorgehensweise: Fakturieren von Verkäufen](sales-how-invoice-sales.md) und [Vorgehensweise: Neue Produkte verkaufen](sales-how-sell-products.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)  

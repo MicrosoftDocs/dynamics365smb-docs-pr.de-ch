@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: move, warehouse
 ms.date: 06/02/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: d54b75240cb0a2dddcfabc488a18e0bf9635f82c
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 41804dc183f9fa05ec1599db34c2b4f76a790a72
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-transfer-inventory-between-locations"></a>So geht's: Lagerbestand zwischen Lagerplätzen umlagern
@@ -40,7 +39,7 @@ Um Artikel umzulagern, müssen Lagerplätze und Umlagerungsrouten eingerichtet w
 2. Füllen Sie im Fenster **Umlagerungsauftrag** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   Wenn Sie die Felder **In Transit Code**, **Zustellercode** und **Zustellertransportart** im Fenster **Umlagerungsroutenspezifikation** ausgefüllt haben, wenn Sie die Umlagerungsroute einrichten, werden die entsprechenden Felder im Umlagerungsauftrag automatisch ausgefüllt.
+>   Wenn Sie die Felder **In Transit Code**, **Spediteurcode** und **Spediteurtransportart** im Fenster **Umlagerungsroutenspezifikation** ausgefüllt haben, als Sie die Umlagerungsrouten zwischen diesen Lagerorten eingerichtet haben, werden die entsprechenden Felder im Umlagerungsauftrag automatisch ausgefüllt.
 
     Wenn Sie das Feld **Zustellertransportarten** ausfüllen, wird das Zugangsdatum am Ziellagerplatz berechnet, indem Sie die Transportzeit der Zustellertransportart zum Lieferdatum hinzuaddieren.
 
@@ -65,7 +64,7 @@ Um Artikel umzulagern, müssen Lagerplätze und Umlagerungsrouten eingerichtet w
 ## <a name="see-also"></a>Siehe auch
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [So wird's gemacht: Standorte einrichten](inventory-how-setup-locations.md)  
-[Lieferkette](madeira-supply-chain.md)  
+  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Anpassen der[!INCLUDE[d365fin](includes/d365fin_md.md)]Erfahrung](ui-experiences.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)

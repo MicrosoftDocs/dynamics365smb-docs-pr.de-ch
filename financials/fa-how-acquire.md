@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 903c1a858fe66482cb4404e8b792abade6106489
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-acquire-fixed-assets"></a>So geht's: Beschaffen von Anlagen
@@ -53,7 +52,7 @@ Sowohl für die Hauptanlage als auch für die Unteranlagen müssen Anlagenkarten
 
 1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Anlagen** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Anlage, die die Hauptanlage ist, und wählen die Aktion **Hauptanl. Unteranlagen** aus.
-3. Im Fenster **Hauptanl. Unteranlagen** wählen Sie das Feld **Anlagennr**. und wählen dann die Anlage aus, die Sie als Komponente der Hauptanlage hinzufügen möchten.
+3. Im Fenster **Unteranlagen** wählen Sie **Anlagennr.** aus und wählen Sie die Anlage aus, die Sie als Komponente der Hauptanlage hinzufügen möchten.
 4. Schliessen Sie das Fenster.
 5. Wiederholen Sie die Schritte 3 und 4 für jede Unteranlage, die Sie hinzufügen möchten.
 6. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Anlagen einrichten** ein. Wählen Sie dann den zugehörigen Link aus.
@@ -71,7 +70,7 @@ Nachfolgend wird beschrieben, wie eine Anlage manuell erworben wird, indem Zeile
 4. Wählen Sie die Aktion **Buchen** aus.  
 
 > [!TIP]  
->   Wenn Sie das Feld **Versicherungsnr.** im Anlagen Fibu Buch.-Blatt ausfüllen, während Sie die Anschaffungskosten buchen, bucht [!INCLUDE[d365fin](includes/d365fin_md.md)] die Anschaffungskosten der Anlage auch für die Versicherungsposten. Weitere Informationen finden Sie unter [So geht's: Versichern von Anlagen](fa-how-insure.md).
+>   Wenn Sie bei der Buchung von Anschaffungskosten im Anlagen Fibu Erf.-Journal das Feld **Versicherungsnr.** ausfüllen, bucht [!INCLUDE[d365fin](includes/d365fin_md.md)] die Anwendung die Anschaffungskosten der Anlage auch für die Versicherungsposten. Weitere Informationen finden Sie unter [So geht's: Versichern von Anlagen](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>So stornieren Sie eine Anschaffungskostenbuchung für eine Anlage
 Wenn Ihnen beim Buchen von Anschaffungskosten ein Fehler unterläuft, können Sie den Posten mithilfe der Stapelverarbeitung **Anlagenposten storn.** entfernen und anschließend den korrekten Anschaffungsposten buchen. Die fehlerhaften Posten werden in das Fenster **Anlagenstornoposten** übertragen.

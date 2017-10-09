@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-insure-fixed-assets"></a>So geht's: Versichern von Anlagen
@@ -25,7 +24,7 @@ Eine Versicherungspolice für eine Anlage wird durch eine Versicherungskarte ang
 
 Sie ordnen einer Anlage einer Versicherungspolice zu, indem Sie sie im Versicherungsposten im Fenster **Versicherungs Buch.-Blatt** buchen.
 
-Zudem können Sie eine Anlage einer Versicherungspolice zuzuordnen und Versicherungsposten erstellen, wenn Sie deren Anschaffungskosten buchen. Sie tun dies, indem Sie Anschaffungskosten aus dem Anlagen Buch.-Blatt buchen und das Feld **Versicherungsnr.** ausgefüllt ist. Das Kontrollkästchen **Autom. Versicherungsbuchung** im Fenster **Anlageneinrichtung** muss aktiviert sein. Weitere Informationen finden Sie unter "Wie Anlagenanschaffungen mit dem Anlagen-Fibu Buch.-Blatt manuell gebucht werden" unter [So geht's: Anlagen erwerben](fa-how-acquire.md).
+Zudem können Sie eine Anlage einer Versicherungspolice zuzuordnen und Versicherungsposten erstellen, wenn Sie deren Anschaffungskosten buchen. Sie tun dies, indem Sie Anschaffungskosten aus dem Anlagen Erf.-Journal buchen und das Feld **Versicherungsnr.** verwenden. Das Kontrollkästchen **Autom. Versicherungsbuchung** im Fenster **Anlageneinrichtung** muss aktiviert sein. Weitere Informationen finden Sie unter "Wie Anlagenanschaffungen mit dem Anlagen-Fibu Buch.-Blatt manuell gebucht werden" unter [So geht's: Anlagen erwerben](fa-how-acquire.md).
 
 Wenn das Kontrollkästchen **Autom. Versicherungsbuchung** im Fenster **Anlageneinrichtung** nicht ausgewählt ist, werden beim Buchen von Anschaffungen Zeilen im Fenster **Versicherung Buch.-Blatt** erstellt, die Sie dann manuell buchen müssen.
 
@@ -50,7 +49,7 @@ Nachfolgend wird beschrieben, wie Sie eine Versicherungs Erf.-Journalzeile manue
 
 1. Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Versicherung buchen** ein und wählen den zugehörenden Link aus.  
 2. Öffnen Sie das relevante Erf.-Journal und füllen Sie die Erf.-Journalzeilen nach Bedarf aus.  
-3. Um mehrere Anlagen einer Versicherungspolice zuzuweisen, können Sie Buch.-Blattzeilen mit dem gleichen Wert im Feld **Versicherungsnr.** und unterschiedlichen Werten im Feld **Anlagennr.** erstellen Feld  
+3. Um mehrere Anlagen einer Versicherungspolice zuzuweisen, können Sie Erfassungsjournalzeilen mit dem gleichen Wert im Feld **Versicherungsnr.** und unterschiedliche Werte im Feld **Anlagennr.**  
 4. Wählen Sie die Aktion **Buchen** aus.  
 
     > [!NOTE]  

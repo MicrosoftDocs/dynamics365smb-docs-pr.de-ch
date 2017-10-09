@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-pre-closing-reports"></a>Vorabschlussberichte verwenden
@@ -26,7 +25,7 @@ Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Proz
 
 | An | Siehe diesen Bericht. |
 | --- | --- |
-| Drucken eines ausführlichen Bilanzberichts für Bankkonten mit zusätzlichen Informationen zu einzelnen Posten |Bankkonto - Details Testabschluss |
+| Drucken eines ausführlichen Bilanzberichts für Bankkonten mit zusätzlichen Informationen zu einzelnen Posten |Bankkonto - Detailkontoblatt |
 | Drucken einer ausführlichen Bilanz für ausgewählte Debitoren |Debitor - Bilanz |
 | Drucken einer ausführlichen Bilanz mit ausführlichen Informationen zu einzelnen Posten (für ausgewählte Debitoren sowie innerhalb einer bestimmten Periode) |Debitor - Kontoblatt |
 | Drucken einer ausführlichen Bilanz für ausgewählte Kreditoren |Kreditor - Bilanz |

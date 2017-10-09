@@ -10,21 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 04/20/2017
+ms.date: 09/08/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c22e17c931fcb262abe2d2059af89ec6f930ecb5
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 79851c90a2a2fd8ac2e744173a04b7eda50b98e8
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Einrichten unrealisierter MWST. für Einnahmen- und Ausgabenrechnung
+# <a name="how-to-set-up-unrealized-vat-for-cash-based-accounting"></a>Vorgehensweise: Einrichten unrealisierter MWST für Einnahmen- und Ausgabenrechnung
 Wenn Sie Einnahmen- und Ausgabenrechnungs-Methoden ausgleichen, können Sie in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] festlegen, wie unrealisierte MwSt. zu behandeln ist.
 
-## <a name="use-general-ledger-accounts-for-unrealized-vat"></a>Verwenden von Fibukonten für vereinnahmte MWST.
+## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Verwenden von Fibukonten für unrealisierte MWST
 Sie können festlegen, dass MWST.-Beträge beim Buchen einer Rechnung berechnet und auf ein temporäres Fibukonto gebucht werden und dass die Beträge erst dann auf das korrekte Fibukonto gebucht und in die MWST.-Abrechnungen einbezogen werden sollen, wenn die eigentliche Zahlung der Rechnung gebucht wird. Bevor Sie dies tun können, müssen Sie die MWST.-Buchungsmatrix ausfüllen.
 
 Um die Konten für unrealisierte MWST. zu verwenden, führen Sie diese Schritte aus:

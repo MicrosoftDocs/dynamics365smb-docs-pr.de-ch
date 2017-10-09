@@ -12,18 +12,20 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/13/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 463dcad5d918e9655cd92991403d00a76aca7d69
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: aebeb7a0e3a5fa83ba329bf222c50492f9cb003a
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 #  <a name="how-to-analyze-data-by-dimensions"></a>Vorgehensweise: Analysieren von Daten nach Dimensionen
 Bei den Dimensionen der Finanzanalyse handelt es sich um Daten, die Sie einem Posten als eine Art Markierung hinzufügen können. Diese Daten dienen zum Gruppieren von Posten mit ähnlichen Merkmalen – beispielsweise Debitoren, Regionen, Produkte oder Verkäufer – sowie zum einfachen Abrufen dieser Gruppen zur Analyse. Dimensionen können für Posten in Erf.-Journalen, Belegen und Budgets verwendet werden. Der Begriff "Dimension" beschreibt, wie eine Analyse ausgeführt wird. Ein Beispiel für eine zweidimensionale Analyse sind Verkäufe pro Bereich. Durch die Verwendung zusätzlicher Dimensionen bei der Postenerstellung lassen sich komplexere Analysen ausführen, beispielsweise Verkäufe pro Verkaufskampagne pro Debitorengruppe pro Bereich. Weitere Informationen finden Sie unter [Arbeiten mit Dimensionen](finance-dimensions.md)
 
 Die dimensionsgestützte Analyse von Daten ermöglicht einen tieferen Einblick in das Unternehmen sowie eine bessere Bewertung von Informationen: Wie gut funktioniert der operative Bereich des Unternehmens? Wo liegen Stärken, wo Schwächen? Welche Bereiche benötigen mehr Ressourcen?
+
+> [!TIP]
+> Als schnelle Möglichkeit, Transaktionsdaten nach Dimensionen zu analysieren, können Sie Summen im Kostenplan und Posten in allen **Posten**-Fenstern nach Dimensionen filtern. Suchen Sie nach der Aktion **Dimensionsfilter festlegen**.
 
 > [!NOTE]  
 >   Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.
@@ -78,5 +80,6 @@ Der folgende Ablauf bezieht sich auf die Aktualisierung einer Analyseansicht im 
 [Finanzen](finance.md)  
 [Finance einrichten](finance-setup-finance.md)  
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
+[Arbeiten mit Dimensionen](finance-dimensions.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

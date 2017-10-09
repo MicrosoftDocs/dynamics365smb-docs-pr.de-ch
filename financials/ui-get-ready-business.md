@@ -11,17 +11,17 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 129cc1326b9a35a41f0c12db51af25de6dc4fa3b
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 Glückwünsche, Sie haben soeben Ihren ersten Mandanten in [!INCLUDE[d365fin](includes/d365fin_md.md)]  eingerichtet.
 
-Für Unterstützung zum Tätigen vom Geschäften erhalten, können Sie das Fenster **Geschäfts-Hilfe** aufsuchen. Dort können Sie die unterstützte Hilfe starten oder Hilfethemen für ausgewählte Einrichtungsaufgaben aufrufen. Sie rufen das Fenster aus dem Diagramm im Rollencenter zu **Geschäftsführer** auf, indem Sie das Steuerelement ***** Geschäfts-Hilfe ***** auswählen, und dann die Aktion **Einrichtungs- und Hilfe-Ressourcen anzeigen** auswählen. Wenn Sie die Seite aktualisieren, wird das Diagramm der Einrichtungs- und Hilferessourcen ersetzt.
+Für Unterstützung zum Tätigen vom Geschäften erhalten, können Sie das Fenster **Geschäfts-Hilfe** aufsuchen. Dort können Sie die unterstützte Hilfe starten oder Hilfethemen für ausgewählte Einrichtungsaufgaben aufrufen. Sie rufen das Fenster aus dem Diagramm im Rollencenter zu **Geschäftsführer** auf, indem Sie das Steuerelement **Geschäfts-Hilfe** auswählen, und dann die Aktion **Einrichtungs- und Hilfe-Ressourcen anzeigen** auswählen. Wenn Sie die Seite aktualisieren, wird das Diagramm der Einrichtungs- und Hilferessourcen ersetzt.
 
 Auf der Homepage am unteren Rand des Navigationsbereichs finden Sie das Menü **Einrichtung und Erweiterungen**. Erweitern Sie die Schaltfläche **Startseite**, um den Navigationsbereich anzuzeigen. Hier sehen Sie eine Liste der unterstützten Einrichtung , die Ihnen bei den ersten Schritten helfen kann. Sobald Sie Daten wie Debitoren, Kreditoren und Artikel von Ihrem vorhandenen Finanzsystem migriert haben, können Sie bereit damit zu beginnen. Je nach Ihrem Bedarf sollten Sie in Betracht ziehen, ob die unterstützte Einrichtung Ihnen helfen kann. Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt wird, wählen Sie die Aktion **Manuelle Einrichtung**  aus, um auf das Einrichtungsfenster zuzugreifen, in dem Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
@@ -39,7 +39,7 @@ Im Fenster **Unterstützte Einrichtung** finden Sie Folgendes in der Umgebung **
 | Office-Add-ins einrichten |Richtet die Möglichkeit ein, [!INCLUDE[d365fin](includes/d365fin_md.md)] direkt über Outlook zu verwenden und zu starten. |
 | Genehmigungsworkflow einricht. |Richtet die Möglichkeit ein, Genehmigungsworkflows zu erstellen, damit ein Genehmiger automatisch benachrichtigt wird, wenn ein Benutzer versucht, bestimmte Werte in Belegen, Buch.-Bl.-Zeilen oder Karten zu erstellen oder zu ändern, wie etwa einen Betrag über dem festgelegten Grenzwert. |
 | E-Mail-Protokollierung einr. |Richtet die Funktion ein, um E-Mail-Korrespondenz in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu protokollieren, um Aktivitäten zu verfolgen. |
-| Dynamics CRM-Verbindung einrichten |Richtet eine Verbindung mit Dynamics CRM ein, die Ihnen erlaubt, Daten wie Kontakte und Verkaufsauftragsinformationen zu synchronisieren. |
+| Dynamics 365 Connector einrichten |Richtet eine Verbindung mit Dynamics 365 for Sales ein, die es Ihnen erlaubt, Daten wie Kontakte und Verkaufsauftragsinformationen zu synchronisieren. |
 
 Wenn Sie eine unterstützte Einrichtung ausgeführt haben, wird sie als **Abgeschlossen** markiert. Um die unterstützte Einrichtung auszuführen, wählen Sie die drei Punkte, die auch als Kontextmenü bezeichnet werden, und wählen Sie **Einrichtung starten** aus.
 

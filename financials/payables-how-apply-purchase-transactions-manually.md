@@ -1,6 +1,6 @@
 ---
 title: Abstimmen von manuellen Kreditorenzahlungen | Microsoft Docs
-description: Kreditorenzahlungen oder Erstattungen manuell verarbeiten, abstimmen oder anpassen und den  Betrag mit einem oder mehreren offenen Kreditorenposten abgleichen.
+description: Kreditorenzahlungen oder Erstattungen manuell verarbeiten, abstimmen oder anpassen und den Betrag mit einem oder mehreren offenen Kreditorenposten abgleichen.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 06/06/2017
+ms.date: 06/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6f0f3e1c14e21fff736b54b4c5f7423e1e909e72
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 7c13f127f1ca9f9d95878d79afe21488df7868a6
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-vendor-payments-manually"></a>Vorgehensweise: Manuelle Abstimmung von Debitorenzahlungen
@@ -35,7 +34,7 @@ Sie können Kreditorenposten auf drei verschiedene Arten übernehmen:
 > [!NOTE]  
 >   Wenn das Feld **Ausgleichsmethode** auf der Kreditorenkarte **Auf älteste anwenden** enthält, dann wird die Zahlung automatisch mit der ältesten offenen Rechnung abgeglichen, wenn Sie nicht explizit angeben, auf welchen Habenposten sie sich bezieht. Ist die Ausgleichsmethode eines Debitors auf **Manuell** festgelegt, müssen die Posten manuell ausgeglichen werden.
 
-Sie können Kreditorenzahlungen manuell auf die entsprechenden Einkaufsbelege anwenden, wenn Sie die Zahlungen im **Zahlungsausgangs-Erfassungsjournal**-Fenster buchen. Informationen zum Ausfüllen des Zahlungsausgangs-Erfassungsjournal, finden Sie in [Vorgehensweise: Anwenden von Zahlungen](payables-make-payments.md).
+Sie können Kreditorenzahlungen manuell auf die entsprechenden Einkaufsbelege anwenden, wenn Sie die Zahlungen im **Zahlungsausgangs-Erfassungsjournal**-Fenster buchen. Informationen zum Ausfüllen des Zahlungsausgangs-Erf.-Journals finden Sie in [Vorgehensweise: Anwenden von Zahlungen](payables-make-payments.md).
 
 Sie können Kreditorenzahlungen und Debitorenzahlungen anwenden nachdem die Zahlungen als negative Banktransaktionen in Ihrer Bank erscheinen. Im **Zahlungsabstimmungs-Erfassungsjournal**-Fenster können Sie Funktionen für den Bankkontoauszugsimport, die automatische Anwendung und die Bankkontoabstimmung verwenden. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
@@ -43,7 +42,7 @@ Sie können Kreditorenzahlungen und Debitorenzahlungen anwenden nachdem die Zahl
 1. Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Zahlungs-Buchblatt** ein und wählen den zugehörenden Link aus.
 2. Geben Sie im Fenster **Zahlungsausgangs-Erfassungsjournal** in der ersten Erfassungsblattzeile die entsprechenden Informationen zu dem Zahlungsposten ein.
 3. So gleichen Sie gebuchte Kreditorenposten aus:
-   1. Wählen Sie im Feld **Ausgleich mit Belegnr.** das Feld aus, um das Fenster **Kreditorenposten anwenden** zu öffnen.
+   1. Im Feld **Gilf für Dok.Nur** wählen Sie Feld, um das Fenster **Auf Verkäufer anwenden** zu öffnen.
    2. Wählen Sie im Fenster **Debitorenpostenausgleich** die Zeilen mit den Posten aus, die Sie mit der Zahlung ausgleichen möchten.
    3. Geben Sie in jeder Zeile im Feld **Ausgleichsbetrag** den Betrag ein, mit dem Sie den entsprechenden Posten ausgleichen möchten.
 4. Oder gleichen Sie gebuchte Kreditorenposten aus:
@@ -58,10 +57,10 @@ Sie können Kreditorenzahlungen und Debitorenzahlungen anwenden nachdem die Zahl
 6. Wählen Sie die Aktion **Buchen**, um das Erfassungsjournal zu buchen.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>So gleichen Sie eine Gutschrift mit mehreren Kreditorenposten aus
-1. Alternativ wählen Sie  das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufskreditor-Memo** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufskreditor-Memo** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Öffnen Sie die Gutschrift, die Sie ausgleichen möchten.
 3. Geben Sie die relevanten Informationen in der Kopfzeile ein.
-4. Um einen einzelnen Kreditorenposten, im Inforegister **Anwendung**, **Ausgleich mit Belegnr.** ausgleichen Feld, wählen Sie den Posten aus, auf den die Gurtschrift anzuwenden ist, und wählen Sie dann im Feld **Ausgleichsbetrag** Feld eingeben, den Betrag, die für Posten ausgleichen möchten.
+4. Um einen einzelnen Kreditorenposten, im Inforegister **Ausgleich**, im Feld **Ausgleich mit Belegnr.** Feld auszugleichen, wählen Sie den Posten aus auf den die Gurtschrift anzuwenden ist, und wählen Sie dann im Feld **Ausgleichsbetrag** den Betrag ein, mit dem Sie den entsprechenden Posten ausgleichen möchten.
 5. Oder gleichen Sie gebuchte Kreditorenposten aus:
 
    1. Wählen Sie die Aktion **Posten ausgleichen...** aus.
@@ -71,7 +70,7 @@ Sie können Kreditorenzahlungen und Debitorenzahlungen anwenden nachdem die Zahl
 
        Wenn Sie keinen Betrag eingeben, wird automatisch mit dem Höchstbetrag ausgeglichen. Am unteren Rand des Fensters **Kreditorenpostenausgleich** sehen Sie einen Betrag im Feld **Ausgleichsbetrag**. Sie sehen, ob die Buchung ausgeglichen ist.
 6. Wählen Sie die Schaltfläche **OK** aus.  
-   Das Fenster **Einkaufsgutschrift** zeigt den im Feld **Auf Dokumenttyp anwenden** und auf **Dokumenttyp anwenden** ausgewählten Eintrag an. Feld Das Fenster zeigt auch den Betrag der zu buchenden Gutschrift an, wobei gegebenenfalls Skonti berücksichtigt werden.
+   Das Fenster **Einkaufsgutschrift** zeigt den im Feld **Auf Dokumenttyp anwenden** und auf **Dokumenttyp anwenden** ausgewählten Eintrag an. Das Fenster zeigt auch den Betrag der zu buchenden Gutschrift an, wobei gegebenenfalls Skonti berücksichtigt werden.
 7. Wählen Sie die Schaltfläche **Buchen**, um die Gutschrift zu buchen.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>So gleichen Sie gebuchte Kreditorenposten aus

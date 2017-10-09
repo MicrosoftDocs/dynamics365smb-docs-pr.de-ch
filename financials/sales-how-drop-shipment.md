@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 977debf7386ad1113ef54147b20fd24c7c285a78
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 990867cb428f860b1001177738d1a027f72485bc
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-make-drop-shipments"></a>So geht's: Direktlieferungen erstellen
@@ -60,9 +59,10 @@ Wenn der Kreditor die Artikel geliefert hat, können Sie den Verkaufsauftrag als
 5. Wählen Sie dann entweder die Option **Liefern**, um zu einem späteren Zeitpunkt zu fakturieren oder **Liefern und Fakturieren**, um sofort zu fakturieren.
 
 ## <a name="see-also"></a>Siehe auch
+[Vorgehensweise: Spezialaufträge erstellen](sales-how-to-create-special-orders.md)|  
 [Gewusst wie: Produkte verkaufen](sales-how-sell-products.md)  
 [Vorgehensweise: Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  
 [Verkauf](sales-manage-sales.md)  
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbest.](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

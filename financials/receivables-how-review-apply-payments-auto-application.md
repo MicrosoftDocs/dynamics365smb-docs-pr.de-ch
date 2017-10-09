@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2998cd0841452813cb86ee3859804de93cb9bde9
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-review-or-apply-payments-manually-after-automatic-application"></a>Vorgehensweise: Zahlungen manuell zuordnen oder überprüfen nach der automatischen Zuordnung.
@@ -26,7 +25,7 @@ Für jede Erfassungsjournalzeile, die ein Zahlung im Fenster **Zahlungsabstimmun
 > [!IMPORTANT]  
 >   Wenn das Bankkonto, für das Sie Zahlungen abstimmen, für die Mandantenwährung eingerichtet ist, zeigt das Fenster **Zahlungsanwendung** alle offenen Posten in Mandantenwährung, einschließlich offener Posten für Belege, die ursprünglich in Fremdwährungen fakturiert wurden. Zahlungen, die mit Posten mit umgerechneten Währungen ausgeglichen wurden, werden daher aufgrund von möglicherweise verschiedenen Wechselkursen, die von der Bank bzw. [!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet werden, möglicherweise mit anderen Beträgen als im ursprünglichen Beleg gebucht.
 
-Daher empfiehlt es sich, dass Sie nach Fremdwährungscodes im Feld **Fremdwährungscode** im Fenster **Zahlungsanwendung** suchen, um zu überprüfen, ob Anwendungen auf umgerechneten Währungen basieren. Um den Originalbelegbetrag in der Fremdwährung zu überprüfen und den verwendeten Wechselkurs anzuzeigen, aktivieren Sie **Ausgleich mit Laufnr.** und wählen dann im Kontextmenü die , wählen die Drilldownschaltfläche, um das Fenster **Debitorenposten** oder **Kreditorenposten** zu öffnen.
+Daher empfiehlt es sich, dass Sie nach Fremdwährungscodes im Feld **Fremdwährungscode** im Fenster **Zahlungsanwendung** suchen, um zu überprüfen, ob Anwendungen auf umgerechneten Währungen basieren. Um den Originaldokumentbetrag in Fremdwährung zu überprüfen und den verwendeten Wechselkurs anzuzeigen, aktivieren Sie das Feld **Auf Laufnr. anwenden** und wählen dann die Drilldownschaltfläche aus, um **Debitorenposen** oder **Kreditorenposten** zu öffnen.
 
 Gewinn-und-Verlust-Ausgleich, der aufgrund der Fakturierung des Projekts erforderlich ist, wird nicht automatisch durch [!INCLUDE[d365fin](includes/d365fin_md.md)]verarbeitet.
 

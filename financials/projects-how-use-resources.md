@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 48692c9837007c6dd9c3891f0940b6f15b1d6541
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: f110f4cc342f5284e3da2641d56dc13f67c3773a
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-resources-for-jobs"></a>Gewusst wie: Verwenden von Ressourcen für Projekte
@@ -64,7 +63,7 @@ Wenn Sie einen oder mehrere alternative Ressourcenpreise basierend auf den Stand
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Um Ressourcenpreisvorschläge auf Basis alternierender Preise zu erhalten
 Wenn Sie bereits alternative Ressourcenpreise für mehrere Ressourcen eingerichtet haben, können Sie den Batchauftrag verwenden, um alternative Ressourcenpreise einzurichten.
 
-1. Geben Sie im Feld **Suchen** **Servicepreiskorrekturgruppen (Preis)** ein, und wählen Sie dann den zugehörigen Link aus.  
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Res.-VK-&Preisvorschlag (Preis)** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder je nach Bedarf aus.
 3. Wählen Sie die Schaltfläche **OK** aus.  
 4. Wenn die Stapelverarbeitung beendet ist, öffnen Sie das Fenster **Ressourcen-Preisänderungen**, um die Ergebnisse der Stapelverarbeitung anzuzeigen.

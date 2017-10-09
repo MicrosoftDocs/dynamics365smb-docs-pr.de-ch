@@ -1,8 +1,6 @@
 ---
 title: "Weisen Sie Berechtigungen zu und Erstellen oder ändern Sie Berechtigungssätze | Microsoft Docs"
 description: "Beschreibt, wie Office 365 Benutzern Financials hinzugefügt wird und vergibt dann Berechtigungen, Zugriffsrechte und Sicherheitseinstellungen."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,12 +10,11 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/27/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 564ef68a1571611efee32db1cf3759cda6a04c80
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: a944a6135feeb81b32d1f7edcb823b9da89cd404
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-users-and-permissions"></a>Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen| Microsoft Docs
@@ -112,6 +109,7 @@ Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definie
 
 ## <a name="see-also"></a>Siehe auch
 [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
+[Verwaltung in Dynamics 365 for Financials einrichten](admin-setup-and-administration.md)  
 [Willkommen bei [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

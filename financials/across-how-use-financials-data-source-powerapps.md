@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: e41a704d3a94abfb58d9547648f0eee46a8ed9b4
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Verknüpfung an Ihre Finanzdaten, um eine Geschäfts-App mithilfe PowerApps zu erstellen
@@ -32,7 +31,7 @@ Sie können die Daten [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquell
 3. Wählen Sie den Editor, PowerApps-Studio für Windows oder PowerApps-Studio für Internet aus.
 
    PowerApps-Studio für Windows ist eine Desktop-Anwendung, die verwendet wird, um PowerApps zu erstellen und zu veröffentlichen. PowerApps-Studio für Internet ist eine Online-Lösung, die verwendet wird, um PowerApps zu erstellen und zu veröffentlichen.
-4. Der nächste Schritt, um ein PowerApp zu erstellen ist die Auswahl der Daten. Wählen Sie das Pfeilsymbol aus und wählen Sie dann die Option ***** Neue Verbindung ***** in der oberen linken Seite der Seite aus.
+4. Der nächste Schritt, um ein PowerApp zu erstellen ist die Auswahl der Daten. Wählen Sie das Pfeilsymbol aus und wählen Sie dann die Option **Neue Verbindung** in der oberen linken Seite der Seite aus.
 5. In der Liste der verfügbaren Verbindungscodes, wählen Sie **Dynamics 365 for Financials** aus.
 6. PowerApps zeigt eine Verbindungsseite an, die Sie zur Eingabe der Informationen auffordert, die benötigt werden, um sich mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten zu verbinden. Zum Verbinden, müssen Sie eine OData URL, Benutzername, Mandantenname und Kennwort angeben.
 
@@ -52,7 +51,7 @@ Sie können die Daten [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquell
    > [!NOTE]  
 >    Sobald Sie sich erfolgreich verbunden haben mit [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Sie nicht erneut nach OData URL, Benutzername oder Kennwort gefragt.
 
-Zu diesem Zeitpunkt haben Sie erfolgreich  Ihre Dynamics 365 Daten verbunden und sind bereit, Ihre PowerApp zu bauen. Weitere Informationen finden Sie in der [PowerApps Dokumentation](https://powerapps.microsoft.com/tutorials/getting-started/).
+Zu diesem Zeitpunkt haben Sie erfolgreich Ihre Dynamics 365 Daten verbunden und sind bereit, Ihre PowerApp zu bauen. Weitere Informationen finden Sie in der [PowerApps Dokumentation](https://powerapps.microsoft.com/tutorials/getting-started/).
 
 ## <a name="see-also"></a>Siehe auch
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
