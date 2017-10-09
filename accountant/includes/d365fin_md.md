@@ -1,1 +1,1 @@
-Finanzen
+<span data-ttu-id="bc664-101">Finanzen</span><span class="sxs-lookup"><span data-stu-id="bc664-101">Financials</span></span>
