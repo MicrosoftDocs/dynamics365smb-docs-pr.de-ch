@@ -1,1 +1,1 @@
-<span data-ttu-id="bc664-101">Finanzen</span><span class="sxs-lookup"><span data-stu-id="bc664-101">Financials</span></span>
+<span data-ttu-id="5f42e-101">Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="5f42e-101">Dynamics 365</span></span>

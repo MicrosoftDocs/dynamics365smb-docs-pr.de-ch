@@ -1,2 +1,4 @@
 # [Willkommen bei Dynamics 365 – Buchhalter-Hub](index.md)
-## [Erste Schritte mit dem Buchhalter Hub](accountant-get-started.md)
+## [Erste Schritte](get-started.md)
+## [Fügen Sie Ihren Dashboard Kunden hinzu](add-client.md)
+## [Problembehebung](troubleshooting.md)
