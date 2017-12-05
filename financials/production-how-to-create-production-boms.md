@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 54bbe338b71ece1322b10e0e4203489cf8ab2f49
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 3ebbd34c966ab06fa578336d14a060b0dea44dbc
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-create-production-boms"></a>So wird's gemacht: Neue Fertigungsstücklisten erzeugen
@@ -26,7 +26,7 @@ In einer Fertigungsstückliste sind Stammdaten enthalten, mit denen die Komponen
 
 Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:  
 
-- Artikelkarten wurden für übergeordnete Artikel erstellt, die an der Fertigung teilnehmen. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten neuer Produkte](inventory-how-register-new-items.md).
+- Artikelkarten wurden für übergeordnete Artikel erstellt, die an der Fertigung teilnehmen. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten neuer Artikel](inventory-how-register-new-items.md).
 - Die Ressourcen sind eingerichtet. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Arbeitsplatzgruppen und Maschinencentern](production-how-to-set-up-work-and-machine-centers.md)
 
 ## <a name="to-create-a-production-bom"></a>Erstellen Sie eine neue Fertigungsstückliste.  
@@ -47,7 +47,7 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 9.  Geben Sie im Feld **Verbindungscode** einen Code für die Verbindung der Komponente mit einem bestimmten Arbeitsgang ein. Weitere Informationen finden Sie im Abschnitt "Verbindungslinks erstellen im Abschnitt [Vorgehensweise: Routings erstellen](production-how-to-create-routings.md)
 10. Wenn Sie aus einer vorhandenen Fertigungsstückliste Zeilen kopieren möchten, klicken Sie auf  Aktionen,  Funktion,  **Fertigungsstückliste kopieren**, um vorhandene Zeilen auszuwählen.  
 11.  Überprüfen Sie die Fertigungsstückliste.  
-12.  Sie können die neue Fertigungsstückliste an die Karte des betreffenden übergeordneten Artikels anhängen. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten neuer Produkte](inventory-how-register-new-items.md).  
+12.  Sie können die neue Fertigungsstückliste an die Karte des betreffenden übergeordneten Artikels anhängen. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten neuer Artikel](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Um den Einstandspreis für den Artikel über die Artikelkarte neu zu berechnen, wählen Sie die Aktion **Produktion** und wählen Sie dann **Stückl. Einst.-Preis berechnen**aus.  

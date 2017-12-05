@@ -1,6 +1,6 @@
 ---
 title: SEPA Direct Debit einrichten | Microsoft Docs
-description: Erfahren Sie, wie Sie SEPA Abbuchung in Dynamics 365 for Financials einrichten.
+description: Erfahren Sie, wie Sie SEPA Abbuchung in Dynamics 365 Business edition einrichten.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a5f7a99a3e6bfd9c0146d87af4e3869cda381a67
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-direct-debit"></a>Vorgehensweise: Einrichten von SEPA-Basislastschriften
@@ -38,7 +38,7 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Richten Sie eine Zahlungsmethode ein. Füllen Sie die auf den Lastschrifteinzug bezüglichen Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
-    |Feld|[Beschreibung|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**Basislastschrift**|Geben Sie an, ob die Zahlungsmethode für die SEPA-Basislastschriftübertragung gilt.|  
     |**Zahlungsbedingungscode Basislastschrift**|Geben Sie die Zahlungsbedingungen an, wie etwa NICHT ZAHLEN, die auf Verkaufsrechnungen angezeigt werden, die per SEPA-Basislastschriftübertragung bezahlt werden, um den Debitor darauf hinzuweisen, dass die Zahlung automatisch eingezogen wird. Als Alternative können Sie das Feld leer lassen.|  
@@ -59,7 +59,7 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
 4. Wählen Sie im Feld **Debitor-Bankkontenliste** das Debitorenbankkonto, das Basislastschriften verwenden wird, und wählen Sie dann auf der Registerkarte **Start**, in der Gruppe **Prozess**, **Einzugsermächtigungen**.  
 5. Füllen Sie im Fenster Liste der notwendigen **SEPA-Felder** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
-    |[Feld|Beschreibung]|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**Debitor Bankkontocode**|Gibt das Bankkonto an, aus dem Lastschrifteinzüge abgebucht werden. Dieses Feld wird automatisch ausgefüllt.|  
     |**Gültig ab**|Geben Sie das Datum an, an dem das Lastschrift-Mandat beginnt.|  
@@ -75,8 +75,8 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
  Das Lastschrift-Mandat wird automatisch in das Feld **Lastschrift-Mandat-ID** eingegeben, wenn Sie eine Verkaufsrechnung für den Debitor erstellen, den Sie in Schritt 2 ausgewählt haben. Weitere Informationen finden Sie unter [Vorgehensweise: Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>Siehe auch  
-[Erfassen von Zahlungen per Basislastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+[Einziehen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Vorgehensweise: Datenaustauschdefinitionen einrichten](across-how-to-set-up-data-exchange-definitions.md)
 [Vorgehensweise: Wiederkehrende Verkaufs- und Einkaufszeilen einrichten](sales-how-work-standard-lines.md)
-[Datenaustausch als elektronische Belege](across-data-exchange.md)
+[Daten elektronisch austauschen](across-data-exchange.md)
 

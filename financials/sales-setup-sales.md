@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 08/23/2017
+ms.date: 10/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a16201e48cc823e687c9941082d34044d9612a29
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: d94177e37fec6abf278dc8edac71b03c569c9581
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-sales"></a>Einrichten von Verkäufen
@@ -28,7 +28,7 @@ Eine separate Reihe von Aufgaben, die mit der Erfassung neuer Kreditoren im Zusa
 
 Einrichten von finanzbezogenen Verkäufen wie Zahlungsformen und Währungen werden im Finanzsetupabschnitt behandelt. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
 
-| An | Informationen |
+| Aktion | Informationen |
 | --- | --- |
 | Erstellen Sie eine Debitorenkarte für jeden Debitor, an den Sie verkaufen. |[Vorgehensweise: Einen neuen Debitor registrieren](sales-how-register-new-customers.md) |
 | Aktivieren Sie Debitoren, um über Paypal zu bezahlen, indem Sie das Paypal-Logo in Verkaufsbelegen auswählen. |[Gewusst wie: Aktivieren von Debitoren-Zahlungen durch Paypal](sales-how-enable-payment-service-extensions.md) |
@@ -36,7 +36,7 @@ Einrichten von finanzbezogenen Verkäufen wie Zahlungsformen und Währungen werd
 | Einrichten von Verkäufer, sodass Sie diese den Debitorenkontakten zuweisen können oder die Leistung des Verkaufspersonals messen können und als Basis für die Berechnung von Verkaufsprovisionen oder der Prämie zuweisen können. |[Gewusst wie: Verkäufer einrichten](sales-how-setup-salespeople.md) |
 | Geben Sie für einzelne Debitoren oder für alle Debitoren an, wie Verkaufsbelege standardmäßig gesendet werden, wenn Sie die Aktion **Buchen und senden** auswählen. |[Vorgehensweise: Einrichten von Belegsendeprofilen](sales-how-setup-document-send-profiles.md) |
 | Legen Sie die E-Mail a, um eine Zusammenfassung der Informationen des Verkaufsbelegs zu erhalten, der gesendet wird. |[Vorgehensweise: Senden von Belegen über E-Mail](ui-how-send-documents-email.md). |
-|Verwenden Sie einen EU-Webdienst, um die MWST-Nr. eines Debitors zu überprüfen.|[Vorgehensweise: Überprüfen der MWST Nummer](sales-how-to-verify-vat-registration-numbers.md)|
+|Verwenden Sie einen EU-Webdienst, um die MWST-Nr. eines Debitors zu überprüfen.|[Vorgehensweise: Überprüfen der MWST Nummer](finance-setup-vat.md)|
 |Geben Sie Informationen über die verschiedenen eingesetzten Transportkreditoren ein, einschliesslich einer Verknüpfung zu ihrem Paketverfolgungsservice.|[Vorgehensweise: Spediteur einrichten](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Siehe auch

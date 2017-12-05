@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 434e18ed539a189e8f041c914cfdcdf2c1e0532f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>Vorgehensweise: Mit Zahlungstoleranzen und Skontotoleranzen arbeiten
@@ -31,7 +31,7 @@ Ein einzelner Beleg hat dieselben Zahlungstoleranzen, egal ob er alleine oder mi
 
 *Skontodatum < Zahlungsdatum (des markierten Postens) <= Zahlungstoleranzdatum*  
 
-Diese Regel gilt auch, um zu ermitteln, ob Warnungen angezeigt werden, wenn Sie Zahlungstoleranz auf mehrere Belege anwenden. Die Skontotoleranzwarnung wird für jeden Posten angezeigt, der die Datumskriterien erfüllt. Weitere Informationen finden Sie im Abschnitt "Beispiel 2 – Toleranzberechnungen für mehrere Belege" in . 
+Diese Regel gilt auch, um zu ermitteln, ob Warnungen angezeigt werden, wenn Sie Zahlungstoleranz auf mehrere Belege anwenden. Die Skontotoleranzwarnung wird für jeden Posten angezeigt, der die Datumskriterien erfüllt. Weitere Informationen finden Sie im Abschnitt "Beispiel 2 – Toleranzberechnungen für mehrere Belege" in .
 
 Sie können eine Warnung anzeigen, die auf verschiedenen Toleranzsituationen basiert.  
 
@@ -77,7 +77,7 @@ Die Zahlungstoleranzwarnung erscheint, wenn Sie einen Ausgleich mit einem Saldo 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Zahlungstoleranz für Debitoren sperren:  
 Die Standardeinrichtung für die Zahlungstoleranz ist zulässig. Um eine Zahlungstoleranz für einen bestimmten Kreditor oder Debitor zu sperren, müssen Sie auf der entsprechenden Debitoren- oder Kreditorenkarte die Toleranz sperren. Wie dies für einen Kunden stattfindet, wird im Folgendem beschrieben: Die Schritte sind für einen Kreditor ähnlich.
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen]Symbol (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Kunden** oder **Verkäufer** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") und geben **Kunden** oder **Verkäufer** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Aktivieren Sie auf dem Inforegister **Zahlungen** das Kontrollkästchen **Zahlungstoleranz sperren**.  
 
 > [!NOTE]  
@@ -95,7 +95,8 @@ Szenarien mit Alternative A oder B bedeuten Folgendes:
 - **A** – In diesem Fall wurde die Skontotoleranzwarnung ausgeschaltet ODER der Benutzer hat die Warnung aktiviert und sich entschieden, den verspäteten Skonto zu erlauben (d. h. den Saldo als Zahlungstoleranz zu buchen).  
 - **B** – In diesem Fall hat der Benutzer die Warnung aktiviert und sich entschieden, den überzogenen Skonto nicht zu erlauben (d. h. den Saldo als Restbetrag zu belassen).  
 
-|—|Inv.|Skonto|Max.<br /><br /> Zahl.-Tol.|Skontodatum|Skontotoleranz Datum|Zahlungsdatum|Zahl.-|Toleranzart|Alle Posten geschlossen|Skontotoleranz <br /> GL/CL|Zahl.-<br /><br /> Tol.<br /><br /> G/L|  
+[!div class="mx-tdBreakAll"]  
+|—|Inv.|Skonto|Max. Zahl.-Tol.|Skontodatum|Skontotoleranz Datum|Zahlungsdatum|Zahl.-|Toleranzart|Alle Posten geschlossen|Skontotoleranz GL/CL|Zahl.-Tol. G/L|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1.000|20|5|15.01.2003|01/20/03|<=15.01.03|985|Zahl.-Tol.|Ja|0|-5|  
 |2|**1,000**|**20**|**5**|**15.01.2003**|**01/20/03**|**<=15.01.03**|**980**|**Keine**|**Ja**|**0**|**0**|  
@@ -166,7 +167,9 @@ Szenarien mit Alternative A, B, C oder D bedeuten Folgendes:
 - **C** – In diesem Fall hat der Benutzer die Warnung aktiviert und sich entschieden, den verspäteten Skonto in der ersten Rechnung zu erlauben, in der zweiten jedoch nicht.  
 - **D** – In diesem Fall hat der Benutzer die Warnung aktiviert und sich entschieden, den verspäteten Skonto in der ersten Rechnung nicht zu erlauben, jedoch in der zweiten.  
 
-|—|Inv.|Skonto|Max. Zahl.-Tol.|Skontodatum|Skontotoleranz Datum|Zahlungsdatum|Zahl.-|Toleranzart|Alle Posten geschlossen|Skontotoleranz <br /> GL/CL|Zahl.-Tol.<br /><br /> G/L|  
+[!div class="mx-tdBreakAll"]  
+
+|—|Inv.|Skonto|Max. Zahl.-Tol.|Skontodatum|Skontotoleranz Datum|Zahlungsdatum|Zahl.-|Toleranzart|Alle Posten geschlossen|Skontotoleranz GL/CL|Zahl.-Tol. G/L|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
 |1|1.000 <br />1.000|60 <br />30|5 <br />5|15.01.2003 <br />17.01.2003|01/20/03 <br />01/22/03|<=15.01.03|1920|Zahl.-Tol.|Ja|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.2003** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**<=15.01.03**|**1910**|**Keine**|**Ja**|**0**<br /><br /> **0**|0 <br />0|  

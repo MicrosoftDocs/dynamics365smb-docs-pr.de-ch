@@ -11,10 +11,10 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3f98a08415a896c37868bf0ed5efd9314d5ab07a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fc942b29859d2607577119fe13292078b872b05e
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="using-included365finincludesd365finmdmd-as-a-power-bi-data-source"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI Datenquelle nutzen
@@ -25,11 +25,11 @@ Sie können Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten zur Verfügun
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-power-bi-desktop"></a>Um [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquelle in Power BI Desktop hinzufügen
 1. In Power BI Desktop im linken Navigationsbereich, wählen Sie **Daten abrufen** aus.
-2. Im Fenster **Daten abrufen** wählen Sie **Onlinedienste** aus, wählen Sie **Dynamics 365 for Financials** und dann die Schaltfläche **Verbinden** aus.
+2. Im Fenster **Daten abrufen** wählen Sie **Onlineservices** aus, wählen Sie **Dynamics 365 Business edition** und dann die Schaltfläche **Verbinden** aus.
 
    Power Bi zeigt einen Assistenten an, der Sie durch den Verbindungsvorgang führt. Der erste Schritt besteht darin, OData URL und den Mandanten einzugeben, der mit dem Sachkonto [!INCLUDE[d365fin](includes/d365fin_md.md)] verknüpft ist.  
 
-   Für *OData-URL* können Sie das OData V4 URL eines der Web Services, der in ***Webdienste** auf der Seite angezeigt wird in [!INCLUDE[d365fin](includes/d365fin_md.md)]kopieren, beispielsweise `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  
+   Für *OData-URL* können Sie das OData V4 URL eines der Web Services, der in **Webdienste** auf der Seite angezeigt wird in [!INCLUDE[d365fin](includes/d365fin_md.md)]kopieren, beispielsweise `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  
 
    Für den *Unternehmensname* verwenden Sie den Namen, der im Feld **Name** im Fenster **Firmendaten** in [!INCLUDE[d365fin](includes/d365fin_md.md)] angezeigt wird. Wenn Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] mehrere Unternehmen enthält, wählen Sie den entsprechenden Namen aus der Liste im Fenster **Unternehmen** aus. In beiden Fällen prüfen Sie, ob dem Namen, den Sie im Power BI Assistenten angeben, genau dem Text entspricht, der angezeigt wird in [!INCLUDE[d365fin](includes/d365fin_md.md)], wie z. B. `My Company`
 3. Nachdem Sie die Informationen eingegeben haben, wählen Sie die Schaltfläche OK. Der nächste Schritt im Assistenten ist es, den Benutzernamen und das Kennwort einzugeben.

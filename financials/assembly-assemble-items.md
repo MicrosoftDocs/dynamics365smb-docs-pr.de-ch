@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d945858b3a26126a2def48d88ff1132f598c0916
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 9ddb096b1d09962d96baee9aeefdc5239aa4597a
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="assembly-management"></a>Montageverwaltung
 Für Unternehmen, die Produkte für ihre Debitoren herstellen, indem sie Komponenten in einfachen Prozessen kombinieren, und die keine Fertigungsfunktionen benötigen, bietet [!INCLUDE[d365fin](includes/d365fin_md.md)] Funktionen, um Artikel zu montieren, die sich in bestehende Funktionen einfügen, beispielsweise Verkaufs-, Planungs-, Reservierungs- und Lagerfunktionen.  
 
- Ein Montageartikel wird als verkäuflicher Artikel definiert, der eine Montagestückliste enthält.
+ Ein Montageartikel wird als verkäuflicher Artikel definiert, der eine Montagestückliste enthält. Weitere Informationen finden Sie unter [Vorgehensweise: Mit Stücklisten arbeiten](inventory-how-work-BOMs.md).
 
- Montageaufträge sind, genau wie Fertigungsaufträge, interne Aufträge, die verwendet werden, um den Montagevorgang zu verwalten und die Verkaufsanforderungen mit den jeweiligen Lageraktivitäten zu verbinden. Montageaufträge unterscheiden sich von anderen Auftragsarten, da beim Buchen sowohl eine Istmeldung als auch ein Verbrauch vorliegt. Der Montageauftragskopf verhält sich ähnlich zu einer Verkaufsauftragszeile und die Montageauftragszeilen verhalten sich ähnlich zu den Verbrauchs Erfassungsjournalzeilen. Weitere Informationen finden Sie unter Montageauftrag.  
+ Montageaufträge sind, genau wie Fertigungsaufträge, interne Aufträge, die verwendet werden, um den Montagevorgang zu verwalten und die Verkaufsanforderungen mit den jeweiligen Lageraktivitäten zu verbinden. Montageaufträge unterscheiden sich von anderen Auftragsarten, da beim Buchen sowohl eine Istmeldung als auch ein Verbrauch vorliegt. Der Montageauftragskopf verhält sich ähnlich zu einer Verkaufsauftragszeile und die Montageauftragszeilen verhalten sich ähnlich zu den Verbrauchs Erfassungsjournalzeilen.  
 
  Um eine Just-In-Time-Logistikstrategie sowie die Möglichkeit, Produkte an Debitorenanfragen anzupassen, zu unterstützen, können Montageaufträge automatisch erstellt und verknüpft werden, sobald die Verkaufsauftragszeile erstellt wird. Die Verknüpfung zwischen dem Verkaufsbedarf und dem Montagezubehör aktiviert Verkaufsauftragsprozessoren, um den Montageartikel während der Verarbeitung anzupassen, Liefertermine entsprechend der Komponentenverfügbarkeit zuzusagen und Istmeldung und Lieferung des gefertigten Artikels direkt aus der Verkaufsauftragsschnittstelle zu buchen. Weitere Informationen finden Sie unter [Vorgehensweise: Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).  
 

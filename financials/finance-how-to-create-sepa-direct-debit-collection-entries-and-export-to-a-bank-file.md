@@ -11,10 +11,10 @@ ms.search.keywords: direct-debit, collection, payment, sepa
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: dbecf91050dbdf299ca11e8e5650b2a63b4ccc16
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: ff6fc3af28273545781fc96b811f3c164eaa6fd8
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Vorgehensweise: SEPA-Basislastschrifteinzugsposten erstellen und in eine Bankdatei exportieren
@@ -28,7 +28,7 @@ Um die Bank anzuweisen, den Zahlungsbetrag vom Bankkonto des Debitors auf das Ba
 2. Wählen Sie im Fenster **Lastschriften** auf der Registerkarte **Start** in der Gruppe **Neu** die Option **Lastschrifteinzug erstellen** aus.  
 3. Füllen Sie im Fenster **Lastschrift erstellen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**Von Fälligkeitsdatum**|Geben Sie das früheste Zahlungsfälligkeitsdatum auf Verkaufsrechnungen an, für das Sie einen Lastschrifteinzug erstellen wollen.|  
     |**Bis Fälligkeitsdatum**|Geben Sie das späteste Zahlungsfälligkeitsdatum auf Verkaufsrechnungen an, für das Sie einen Lastschrifteinzug erstellen wollen.|  
@@ -66,5 +66,5 @@ Sie können jetzt Zahlungseingänge für die betreffenden Verkaufsrechnungen buc
 ## <a name="see-also"></a>Siehe auch  
 [Vorgehensweise: Einrichten von SEPA-Basislastschriften](finance-how-to-set-up-sepa-direct-debit.md)   
 [Vorgehensweise: SEPA-Basislastschrift-Zahlungseingänge buchen](finance-how-to-post-sepa-direct-debit-payment-receipts.md)   
-[Erfassen von Zahlungen per Basislastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
+[Einziehen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
 

@@ -1,8 +1,6 @@
 ---
 title: Arten, um Probleme mit Selbstbedienungs-Registrierung zu beheben oder zu arbeiten | Microsoft Docs
-description: "Kennenlernen der die meisten allgemeinen Gründe, warum Sie möglicherweise nicht in der Lage sind, die die Anmeldung mit Dynamics 365 for Financials abzuschließen, und Möglichkeiten, das Problem zu beheben."
-services: project-madeira
-documentationcenter: 
+description: "Kennenlernen der die meisten allgemeinen Gründe, warum Sie möglicherweise nicht in der Lage sind, die die Anmeldung mit Dynamics 365 Business edition abzuschließen, und Möglichkeiten, das Problem zu beheben."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,16 +10,16 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c97d406d0213c7b2ade23a2d209adf54bf9dfcae
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Problembehandlungs-Selbstbedienungs-Registrierung
 Die Anmeldung für [!INCLUDE[d365fin](includes/d365fin_md.md)] ist einfach und kann sehr schnell vorgenommen werden. Sie können ein freies Konto erstellen, wenn es sich um eine vorhandene Organisation handelt. Dieser Artikel bezieht sich Probleme an, die Sie möglicherweise für die die Anmeldung haben.
 
-## <a name="what-email-address-can-i-use-with-financials"></a>Welche E-Mail-Adresse kann ich mit Financials verwenden?
+## <a name="what-email-address-can-i-use-with-dynamics-365"></a>Welche E-Mail-Adresse kann ich mit Dynamics 365 verwenden?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] erfordert eine Arbeits- oder Schul-E-Mail-Adresse, um sich anzumelden. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern bereitgestellt werden. Dieses schließt outlook.com, hotmail.com, gmail.com und andere ein.
 
 Wenn Sie versuchen, sich mit einer persönlichen E-Mail-Adresse anzumelden, erhalten Sie eine Meldung die angibt, eine Arbeits- oder Schul-E-mail-Adresse zu verwenden.
@@ -40,5 +38,4 @@ In vielen Fällen kann das Registrieren für [!INCLUDE[d365fin](includes/d365fin
 ## <a name="see-also"></a>Siehe auch
 [Willkommen bei [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

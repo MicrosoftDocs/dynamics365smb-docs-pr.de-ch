@@ -1,6 +1,7 @@
 ---
 title: Vgl. Inhalt in anderen Sprachen | Microsoft Docs
-description: "Sie können den Hilfeinhalt für Dynamics 365 for Financials in anderen Sprachen anzeigen."
+description: "Sie können den Hilfeinhalt für Dynamics 365 Business edition in anderen Sprachen anzeigen."
+documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,10 +11,10 @@ ms.workload: na
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: aa426b3d963bbe02c3100ad6ab4aca61f2fb4c20
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 581591949fdfe314ef73ec98eb482dba6d13bf87
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="languages-of-the-included365finincludesd365finmdmd-docs"></a>Sprachen der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Dokumente
