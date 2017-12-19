@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 56d191c465b611c1764cf3c97e507c4952fe6287
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-enable-automated-data-capture-systems-adcs"></a>Vorgehensweise: Aktivieren des mobilen Datenerfassungssystems (ADCS)
@@ -28,7 +28,7 @@ Auf der Basis der Anforderungen Ihres Lagers legen Sie in der Miniform-Einrichtu
 - Textinformation.  
 - Nachrichten, die Bestätigungen oder Fehler für Aktivitäten anzeigen, die der Endgerätebenutzer ausgeführt und registriert hat.
 
-Weitere Informationen finden Sie unter [Konfigurieren eines automatisierten Datenerfassungssystems](https://msdn.microsoft.com/en-us/library/dd338742.aspx) auf der MSDN-Website.
+Weitere Informationen finden Sie unter [Konfigurieren eines automatisierten Datenerfassungssystems](/dynamics-nav/Configuring-Automated-Data-Capture-System) im Entwickler und in der IT-Pro-Hilfe.
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>So richten Sie ein Lager für die Verwendung von MDE ein:  
 Um MDE nutzen zu können, müssen Sie festlegen, welche Lagerorte die Technologie verwenden.  
@@ -107,7 +107,7 @@ Wenn Sie ein Miniform erstellt haben, sind die nächsten Schritte das Erstellen 
 
 Bearbeiten Sie in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Entwicklungsumgebung den Code für das Feld **Codeunit verwalten**, um Codes zu erstellen oder zu ändern, die die erforderliche Aktion oder Antwort ausführen.
 
-Weitere Informationen finden Sie unter [Konfigurieren eines automatisierten Datenerfassungssystems](https://msdn.microsoft.com/en-us/library/dd338742.aspx) auf der MSDN-Website.
+Weitere Informationen finden Sie unter [Konfigurieren eines automatisierten Datenerfassungssystems](/dynamics-nav/Configuring-Automated-Data-Capture-System) im Entwickler und in der IT-Pro-Hilfe.
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  

@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2f1e4016df9932b0441d664e203be947e1fa643e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: eb261f0b5b2aae94cebd79c6b23b0a21cb9451ae
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -115,6 +115,6 @@ Die folgende Tabelle beschreibt Codeunits, die Sie für den Bericht erstellen m�
 ## <a name="see-also"></a>Siehe auch 
 [Methoden für die Berechnung und Buchung von Mehrwertsteuer einrichten](finance-setup-vat.md)  
 [So gehts: Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
-[Auftrag einrichten](sales-setup-sales.md)  
+[Einrichten von Verkäufen](sales-setup-sales.md)  
 [Vorgehensweise: Fakturieren](sales-setup-sales.md)  
 

@@ -1,8 +1,6 @@
 ---
 title: 'Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen | Microsoft Docs'
-description: "In  [!INCLUDE[d365fin](includes/d365fin_md.md)]  können die ausgehenden Prozesse für die Komissionierung und Lieferung auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden."
-services: project-madeira
-documentationcenter: 
+description: "In Dynamics 365 können die ausgehenden Prozesse für die Komissionierung und Lieferung auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 993d3f092db9f423aba9a67d58f53895df0d5c2f
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen
@@ -89,7 +87,7 @@ Das Einrichten des Fensters **Standortkarte** definiert die Warenflüsse des Unt
 Verkaufsaufträge sind die häufigste Art des ausgehenden Herkunftsbelegs.  
 
 ### <a name="to-create-the-sales-order"></a>So erstellen Sie den Verkaufsauftrag  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus, geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link aus.  
+1.  Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsauftrag** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Erstellen Sie einen Verkaufsauftrag für den Kreditor 10000 auf das Arbeitsdatum (23. Januar) mit den folgenden Verkaufszeilen.  
 

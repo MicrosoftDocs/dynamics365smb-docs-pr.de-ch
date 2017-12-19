@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 08/16/2017
+ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 031affc5d872fd989515a2561155353446dfde60
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-count-adjust-and-reclassify-inventory"></a>Vorgehensweise. Erfassen, Regulieren und Umbuchen von Lagerbestand
@@ -26,7 +26,7 @@ Obwohl Sie alle Artikel am Lager mindestens einmal im Jahr zählen, haben Sie si
 
 Falls Sie erfasste Lagerbestandsmengen im Zusammenhang mit einer Inventur oder zu anderen Zwecken anpassen müssen, können Sie ein Artikel Erf.-Journal verwenden, um die Inventurposten direkt ohne Buchen von Geschäftstransaktionen zu ändern. Alternativ können Sie einen einzelnen Artikel der Artikelkarte anpassen.
 
-Wenn Sie Attribute und Mengen im Lagerposten ändern müssen, können Sie das Artikel Umlag. Erfassungsjournal verwenden. Typische Attribute für die Umbuchung sind Serien-/Chargennummern, Ablaufdaten und Dimensionen.
+Wenn Sie Attribute und Mengen im Lagerposten ändern müssen, können Sie das Artikel Umlag. Erf.-Journal verwenden. Typische Attribute zur Reklassifizierung umfassen Dimensionen und Verkaufskampagnecodes. Sie führen aber auch "Systemübertragungen" durch, indem Lagerplatz und Lagerortcodes umgebucht werden. Spezielle Schritte treffen zu, wenn Sie Serien- oder Chargennummern und deren Ablaufdatum umbuchen möchten. Weitere Informationen finden Sie unter [Vorgehensweise: Arbeiten mit Serien- und Chargennummern](inventory-how-work-item-tracking.md)..
 
 > [!NOTE]
 > In erweiterten Lagerkonfigurationen werden Artikel in Lagerplätzen als Lagerplatzposten, nicht als Lagerposten erfasst. Daher führen Sie die Zählmengen aus und buchen in bestimmten Logistik Erfassungsjournalen, um die Lagerplätze zu unterstützen. Dann verwenden Sie spezielle Funktionen, um die neuen oder geänderten Lagerplatzposten mit den entsprechenden Lagerposten zu synchronisieren, um die Änderungen in den Lagerbestandsmengen in den Werten zu aktualisieren. Dies wird in einem spezifischen Verfahren unten beschrieben, wo dies relevant ist.
@@ -209,13 +209,19 @@ Sie müssen in geeigneten Intervallen, die von der Firmenpolitik bestimmt werden
 6.  Buchen Sie die Erf.-Journalzeilen, um die Mengenabweichungen als Lagerposten zu buchen. Der Lagerbestand in den Lagerplätzen entspricht jetzt genau dem Lagerbestand in den Lagerposten.  
 
 ## <a name="to-reclassify-an-items-lot-number"></a>Um die Chargennummer des Artikels neu zu klassieren
+Wenn Sie Attribute und Mengen im Lagerposten ändern müssen, können Sie das Artikel Umlag. Erf.-Journal verwenden. Typische Attribute zur Reklassifizierung umfassen Dimensionen und Verkaufskampagnecodes. Sie führen aber auch "Systemübertragungen" durch, indem Lagerplatz und Lagerortcodes umgebucht werden.
+
+Spezielle Schritte treffen zu, wenn Sie Serien- oder Chargennummern und deren Ablaufdatum umbuchen möchten. Weitere Informationen finden Sie unter [Vorgehensweise: Arbeiten mit Serien- und Chargennummern](inventory-how-work-item-tracking.md)..
+
+Das folgende Beispiel basiert auf einen Lagerortcode. Die Schritte sind für andere Arten von Artikelattribute gleich.
+
 1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Artikel Buchblatt neu klassieren** ein und wählen den zugehörenden Link aus.
 2. Füllen Sie im Fenster **Umlagerungs Buch.-Blatt** die notwendigen Felder aus.
-3. Geben Sie in dem Feld **Chargennr.** die Chargennummer des Artikels an, der angeboten werden soll.
-4. Geben Sie in dem Feld **Neue Chargennr.** die neue Chargennummer des Artikels an, der angeboten werden soll.
+3. Geben Sie im **Lagerortcode** Feld den aktuellen Lagerortcode des Artikels ein.
+4. Geben Sie im **Neuer Lagerortcode** Feld den neuen Lagerortcode des Artikels ein.
 5. Wählen Sie die Aktion **Buchen** aus.
 
-Spezielle Schritte treffen zu, um Serien- oder Chargennummern umzubuchen. Weitere Informationen finden Sie unter [Vorgehensweise: Arbeiten mit Serien- und Chargennummern](inventory-how-work-item-tracking.md)..
+Weitere Informationen zum Übertragen von Artikeln mit Kontrolle der gelieferten und eingegangenen Mengen, siehe [Vorgehensweise: Übertragen Sie Lagerbestand zwischen Lagerorten](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Bestands](inventory-manage-inventory.md)

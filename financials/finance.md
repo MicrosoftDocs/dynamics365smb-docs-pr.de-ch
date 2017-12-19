@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 203449e8a7f032dbcb7b3d014c3198e0a2e7847a
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="finance"></a>Finanzen
@@ -37,7 +37,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Verwalten von Lager- und Fertigungskosten, Melden von Kosten und Abstimmen von Kosten mit der Finanzbuchhaltung|[Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)|
 | Entwickeln Sie ein Verständnis für die Fibuposten und den Kontenplan |[Verständnis der Fibu und des COA](finance-general-ledger.md) |
 | Fügen Sie Dimensionen für umfangreichere Business Intelligence hinzu. |[Arbeiten mit Dimensionen](finance-dimensions.md) |
-| Erstellen Sie Budgets, um verschiedene Finanzaktivitäten zu prognostizieren und Dimensionen zu den einzelnen Intelligence-Zwecken zuzuordnen. |[So wird's gemacht: neue Budgets erzeugen](finance-how-create-budgets.md) |
+| Erstellen Sie Sachkonto-Budgets, um verschiedene Finanzaktivitäten zu prognostizieren und Dimensionen zu den einzelnen Intelligence-Zwecken zuzuordnen. |[So wird's gemacht: neue Sachkonten-Budgets erzeugen](finance-how-create-budgets.md) |
 |Erfassen von Umsatz oder Ausgaben direkt im Fibuposten, ohne dedizierte Unternehmensbelege zu buchen.|[Vorgehensweise: Transaktionen direkt in die Finanzbuchhaltung buchen](finance-how-post-transactions-directly.md)|
 |Buchen Sie das Stornieren von Posten, um wertmäßige Buchungen im Fibu Erf.-Journal oder Warenausgänge in einem Einkaufs- oder Verkaufsbeleg zu annullieren. |[So geht's: Buchungen stornieren](finance-how-reverse-journal-posting.md)|
 |Verteilen eines Postens in einem wiederkehrenden Erfassungsjournal auf mehrere Konten beim Buchen des Erfassungsjournals |[Erklärt, wie Kosten und Einnahmen zugewiesen werden.](year-allocate-costs-income.md) |

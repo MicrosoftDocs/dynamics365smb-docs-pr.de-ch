@@ -10,24 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/01/2017
+ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 126c8da9b9ef80e954510fa8e5089906d7dd6f01
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Beschreibt, wie die tatsächlichen Beträge mit den budgetierten Beträgen analysiert werden.
 Als Teil des Zusammentragen, Analysieren und Teilen der Firmendaten sehen Sie aktuelle Beträge verglichen mit den budgetierten Beträgen für alle Konten sowie für mehrere Perioden.
 
-Um budgetierte Beträge zu analysieren, müssen Sie zunächst Budgets erstellen. Weitere Informationen finden Sie unter [Gewusst wie: Budgets erstellen](finance-how-create-budgets.md).
+Um budgetierte Beträge zu analysieren, müssen Sie zunächst Sachkonto-Budgets erstellen. Weitere Informationen finden Sie unter [Gewusst wie: Sachkonto-Budgets erstellen](finance-how-create-budgets.md).
 
 > [!NOTE]  
 >   Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.
 
-## <a name="to-view-a-budget"></a>Ein Budget anzeigen:
+## <a name="to-view-a-gl-budget"></a>Einsehen eines Sachkonto-Budgets
 In einem Budget mit Dimensionen können Sie die Posten filtern und somit bestimmte Budgets einsehen.
 
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen] Symbol (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **G/L-Blatt Budgets** ein. Wählen Sie dann den zugehörigen Link aus.
@@ -68,7 +68,7 @@ Anstatt die aktuellen und budgetierten Beträge für alle Konten für eine einzi
 4. Um die Spezifikation eines angezeigten Betrags anzuzeigen, aktivieren Sie das Feld.  
 
 ## <a name="see-also"></a>Siehe auch
-[Business Intelligence](bi.md)
+[Business Intelligence](bi.md)  
 [Vorgehensweise: Arbeiten mit Kontenschemata](bi-how-work-account-schedule.md)  
 [Finanzen](finance.md)  
 [Finance einrichten](finance-setup-finance.md)  

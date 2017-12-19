@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0f2f91a9813b07b0868043a4a2a3ed0b3f838536
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 902c98c126ff23659cb103e8eaf351c144b76ea9
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Vorgehensweise: Einrichten und Veröffentlichen von KPI-Webdienste auf der Basis von Kontenschema
@@ -49,8 +49,8 @@ Im Fenster **Kontoplan KPI Web-Service einrichten**  richten Sie ein, wie die Ko
 6.  Um die Daten der Kontenschemas-KPIs anzuzeigen, die Sie eingerichtet haben, wählen Sie auf der Registerkarte Navigieren, in der Gruppe **Allgemein Kontoschema KPI Webservice**.  
 7.  Veröffentlichen Sie den Kontenplan KPI Webdienst. Wählen Sie die Aktion **Webdient veröffentlichen**. Der Webdienst wird der Liste der veröffentlichten Webdienste im Fenster **Webservices** hinzugefügt.  
 
-    > [!NOTE]  
-    >  Sie können auch den KPI-Webdienst veröffentlichen, indem Sie im Feld **Webdienst-Setup für KPI-Kontenschema** aus dem Seitenobjekt **Webdienste** verweisen. Weitere Informationen finden Sie unter [So gehts: Veröffentlichen eines Webservice](https://msdn.microsoft.com/en-us/library/dd338978.aspx) auf MSDN.  
+> [!NOTE]  
+>  Sie können auch den KPI-Webdienst veröffentlichen, indem Sie im Feld **Webdienst-Setup für KPI-Kontenschema** aus dem Seitenobjekt **Webdienste** verweisen. Weitere Informationen finden Sie unter [So gehts: Veröffentlichen eines Webservice](across-how-publish-web-service.md).  
 
 ## <a name="see-also"></a>Siehe auch  
 [Business Intelligence](bi.md)  

@@ -13,18 +13,22 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 66a8a2124f1bc4775268b95ba100ada19cbc286d
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="general-business-functionality"></a>Allgemeine Geschäftsfunktionen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]stellt dedizierte Funktionen für typische Geschäftsbereiche, wie Finanzen und Personalwesen, bereit. Und um die bereichsspezifischen Aufgaben des Geschäftes zu unterstützen, können Sie eine Reihe von Geschäftsfunktionalitäten nutzen, wie beispielsweise das Definieren von Zusatztext für Belegzeilen und das Organisieren von verbindenden Geschäftsaufgaben in den Arbeitsabläufen.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]stellt dedizierte Funktionen für typische Geschäftsbereiche, wie Finanzen und Personalwesen, bereit. Weitere Informationen finden Sie unter [Business-Funktionalität](madeira-business-functionality.md).
+
+Und um die bereichsspezifischen Aufgaben des Geschäftes zu unterstützen, können Sie eine Reihe von Geschäftsfunktionalitäten nutzen, wie beispielsweise das Definieren der Textbausteins für Belegzeilen und das Organisieren von verbindenden Geschäftsaufgaben in den Arbeitsabläufen.
+
+
 
 Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu den entsprechenden Themen, in denen die Regionen beschrieben werden.
 
-| Aktion | Informationen |
+| An | Informationen |
 | --- | --- |
 | Einrichten von Standardtextcodes, sodass Standardtext durch Hinzufügen weiterer Zeilen erweitert werden kann, und Einrichten von Bedingungen für die Verwendung der zusätzlichen Zeilen |[So wird's gemacht: Textbausteine anlegen](ui-how-define-ext-text.md) |
 | Informationen zum Arbeiten mit Fibu Erf.-Journals, die zum Erfassen auf Fibukonten sowie auf andere Konten wie Bank-, Debitoren-, Kreditoren- oder Anlagekonten verwendet werden. |[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)A |
