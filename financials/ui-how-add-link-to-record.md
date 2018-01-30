@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8eee2a93a56c33fd5cefb70c475e237166017606
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3ccedd0f5bede5dc692b1fec89d87e708047a622
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Hinzufügen von Links zu Websites, Belegen oder Programmen auf Datensätze
@@ -54,5 +54,5 @@ Wenn Sie einen einzelnen Datensatz (z. B. eine Verkaufszeile, einen Verkaufsauft
 2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## <a name="see-also"></a>Siehe auch  
-[Arbeiten mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
