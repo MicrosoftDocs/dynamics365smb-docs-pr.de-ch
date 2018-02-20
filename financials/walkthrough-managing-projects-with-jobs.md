@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b6a61a9c5d2b8c7b3d197780c580c8bcf957560e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2df47e6f5bcd7b02282e45757d94bd6fc0f0981d
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Exemplarische Vorgehensweise: Verwalten von Projekten
@@ -99,7 +99,7 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
 
 ### <a name="to-create-a-job-journal-batch"></a>So erstellen Sie einen Projekt Erfassungsjournalnamen  
 
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen]Symbol (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **Projektbuch** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen Symbol") und geben **Projektbuch** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie im Fenster **Projekt Erfassungsjournal** das Feld **Erfassungsjournalname** aus. Das Fenster **Projekt Erfassungsjournalnamen** wird geöffnet.  
 3.  Wählen Sie auf der Registerkarte Start die Option **Neu** aus, um eine neue Zeile mit folgender Information zu erstellen.  
 
@@ -147,7 +147,7 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
     1.  **Artikelnr.**: **80201 (Grafikprogramm)**  
     2.  **VK-Preis**: **200**  
 
-6.  Wählen Sie die Schaltfläche **OK**, um das Fenster zu schließen.  
+6.  Wählen Sie die Schaltfläche **OK**, um das Fenster zu schliessen.  
 7.  Wählen Sie die **Fibukonto** Aktion aus.  
 8.  Geben Sie im Fenster **Projekt-Fibukontopreise** die folgenden Werte sowie die Reisekosten ein, für die Sie mit dem Debitor vereinbart haben, dass er sie zuzüglich 25 % übernimmt.  
 
@@ -235,7 +235,7 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
 
 ### <a name="to-calculate-remaining-usage"></a>So berechnen Sie den Restverbrauch  
 
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen]Symbol (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **Projektbuch** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen Symbol") und geben **Projektbuch** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Öffnen Sie im Fenster **Projekt Erfassungsjournal** im Feld **Erfassungsjournalname** die Liste **Projekt Erfassungsjournalnamen**. Wählen Sie den Projekt-Erfassungsjournalnamen **Katrin** aus.  
 3.  Wächlen Sie im Aktionsbereich **Restverbrauch**.  
 4.  Wählen Sie im Fenster **Restverbrauch für Projekt berechnen** im Inforegister **Projektaufgabe** das Feld **Projektnr.** aus, und wählen die Jobnummer des entsprechenden Projekts, üblicherweise Projekt J00010.  
@@ -306,7 +306,7 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>So erfassen Sie Stunden im Projekt Erf.-Journal  
 
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen]Symbol (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **Projektbuch** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen Symbol") und geben **Projektbuch** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Geben Sie in einer neuen Zeile die folgenden Informationen ein:  
 
     -   **Zeilenart**: **(leer)**  
@@ -346,7 +346,7 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
 
      Durch die Verwendung der Zeilenart **Plan** werden die geplanten Kosten und der Preis aktualisiert, ohne die dem Kunden in Rechnung gestellten Einstandsbeträge und Preise aus dem Vertrag zu aktualisieren.  
 
-8.  Wählen Sie die Aktion **Buchen** aus. Wählen Sie die Schaltfläche **OK**, um das Fenster zu schließen.  
+8.  Wählen Sie die Aktion **Buchen** aus. Wählen Sie die Schaltfläche **OK**, um das Fenster zu schliessen.  
 9. Öffnen Sie die Liste **Projekte**.  
 10. Wählen Sie das GUILDFORD Projekte und wählen Sie dann die Aktion **Projektplanzeilen** aus.  
 11. Wählen Sie die Zeile 1120 aus, und klicken Sie im Feld **Plan (Einstandsbetrag)** mit der rechten Maustaste auf den Betrag. Wählen Sie **DrillDown** aus, um die Informationen anzuzeigen.  
@@ -386,11 +386,11 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
      Indem Sie Preise, Projektaufgabenzeilen und Projektplanungszeilen für die beiden Projekte vergleichen, können Sie sehen, dass die Informationen erfolgreich kopiert wurden.  
 
 ## <a name="making-payments-by-installments"></a>Anwenden von Teilzahlungen  
- CRONUS hat gerade ein großes Projekt an Land gezogen, das über ein Jahr laufen wird. Da viele Ressourcen erforderlich sind, richtet der Projektmanager den Vertrag so ein, dass der Kunde eine Teilzahlung im Voraus, eine Teilzahlung nach der Hälfte des Projekts und schliesslich die endgültige Zahlung nach Abschluss des Projekts leistet.  
+ CRONUS hat gerade ein grosses Projekt an Land gezogen, das über ein Jahr laufen wird. Da viele Ressourcen erforderlich sind, richtet der Projektmanager den Vertrag so ein, dass der Kunde eine Teilzahlung im Voraus, eine Teilzahlung nach der Hälfte des Projekts und schliesslich die endgültige Zahlung nach Abschluss des Projekts leistet.  
 
 ### <a name="to-set-up-a-new-account"></a>So richten Sie ein neues Konto ein  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Kontenplan** ein und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben **Kontenplan** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie im Fenster **Kontenplan** auf der Registerkarte Start die Option **Neu**, um eine neue Karte zu erstellen.  
 3.  Geben Sie auf der Karte **Neues Fibukonto** die folgenden Informationen ein:  
 
@@ -417,7 +417,7 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
     -   **Code**: **Katrin**  
     -   **VK-Preis**: **10**  
 
-     Wählen Sie die Schaltfläche **OK**, um das Fenster zu schließen.  
+     Wählen Sie die Schaltfläche **OK**, um das Fenster zu schliessen.  
 
 4.  Wählen Sie auf der Registerkarte **Projekt** die Option **Projektplanzeilen** aus.  
 
@@ -481,8 +481,8 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
 ## <a name="see-also"></a>Siehe auch  
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)   
  [Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md)   
- [Verwendung von Ressourcen](projects-how-use-resources.md)   
- [So gehts: Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)   
- [Vorgehensweise: Fakturieren](projects-how-invoice-jobs.md)  
+ [Ressourceneinsatz](projects-how-use-resources.md)   
+ [Überwachen von Status und Leistung](projects-how-monitor-progress-performance.md)   
+ [Fakturieren von Projekten](projects-how-invoice-jobs.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

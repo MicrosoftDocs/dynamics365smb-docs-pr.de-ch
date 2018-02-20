@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 Business edition und für Power BI Inhaltspakete| Microsoft Docs"
-description: Nutzen Sie Einblicke, Business-Intelligence und KPIs aus Ihren Dynamics 365-Daten mit Power BI und den Dynamics 365-Inhaltspaket.
+title: Finance and Operations, Business edition und Power BI Content Packs| Microsoft Docs
+description: "Insight, Business Intelligence und KPIs können mit dem Power BI und dem Finance and Operations, Business edition einfach von den Finance and Operations, Business edition Daten abgerufen werden."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61d339e584107d48e22bd4c250085e9468271d7e
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivieren Sie Ihre Geschäftsdaten für Power BI
@@ -22,11 +22,11 @@ Einblicke in Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)]-Daten zu erhalten 
 
 Microsoft hat folgende Inhaltspakete veröffentlicht:
 
-| App | Beschreibung |
+| App | Description |
 | --- | --- |
-| Microsoft Dynamics 365 for Financials | Gewährt ein Dashboard mit Schlüsselfinanzdaten im Zeitverlauf, z.B. Umsatz von Ausgaben, Deckungsbeiträgen % und Geldumlauf.|
-| Microsoft Dynamics 365 for Financials - CRM | Gewährt ein Dashboard mit Schlüsseldaten zu Verkaufschancen und Kontakten.  |
-| Microsoft Dynamics 365 for Financials - Sales | Gewährt ein Dashboard mit Schlüsseldaten zu Verkaufschancen und Bestand. |
+| Microsoft Finance and Operations, Business edition | Gewährt ein Dashboard mit Schlüsselfinanzdaten im Zeitverlauf, z.B. Umsatz von Ausgaben, Deckungsbeiträgen % und Geldumlauf.|
+| Microsoft Finance and Operations, Business edition - CRM | Gewährt ein Dashboard mit Schlüsseldaten zu Verkaufschancen und Kontakten.  |
+| Microsoft Finance and Operations, Business edition - Sales | Gewährt ein Dashboard mit Schlüsseldaten zu Verkaufschancen und Bestand. |
 
 ## <a name="using-the-dashboards"></a>Dashboards nutzen
 Jedes Inhaltspaket enthält Berichte, die Sie aufrufen können in:
@@ -44,14 +44,14 @@ Das Inhaltspaket ist vorkonfiguriert, um mit Umsatzdaten und Finanzdaten aus dem
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Auf [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI zugreifen
 Um Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)]-Daten in Power BI anzuzeigen, müssen Sie Folgendes haben:  
 
-* Zugriff auf [!INCLUDE[d365fin](includes/d365fin_md.md)] Weitere Informationen finden Sie unter [Dynamics 365 Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Zugriff auf [!INCLUDE[d365fin](includes/d365fin_md.md)] Weitere Informationen finden Sie unter [Finance and Operations, Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Zugriff auf Power BI Weitere Informationen finden Sie unter [Power BI](https://powerbi.microsoft.com).
 
 Auf der Power BI-Website finden Sie zusätzliche Informationen zum [Verbinden mit den Services mit Inhaltspaketen für Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  
 
 Um auf die Daten [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI auf der Verbindungsseite zuzugreifen, müssen Sie die folgenden Informationen angeben:
 
-| Feld | Beschreibung |
+| Feld | Description |
 | --- | --- |
 | **OData-Feed-URL** |Die OData-URL, damit Power BI auf die Daten von Ihrem Mandanten zugreifen kann z.B. https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('My%2Business'). |
 | **Authentifizierungsmethode** |Wählen Sie **Standard** aus. |
@@ -70,7 +70,7 @@ Um die URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] abzurufen, suchen Sie 
 ### <a name="getting-the-user-name-and-the-web-service-access-key"></a>Ermitteln des Benutzernamens und der Webdiensttastenkombination
 Um Daten aus [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI zu nutzen, müssen Sie im Fenster **Mit Financials verbinden** einen Benutzernamen und ein Kennwort angeben. Der Benutzername ist Ihr Name wie er für Ihr Konto in [!INCLUDE[d365fin](includes/d365fin_md.md)] angezeigt wird, sodass Power BI sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden kann. Das Kennwort ist der Webdienst-Zugriffsschlüssel, den Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] für Ihr Benutzerkonto angelegt haben.  
 
-Um diese Informationen in [!INCLUDE[d365fin](includes/d365fin_md.md)]zu finden, suchen Sie nach dem Fenster **Benutzer** und öffnen Sie die Karte für Ihr Benutzerkonto. Im Feld Inforegister **Allgemein** kopieren Sie den Inhalt des Feldes **Benutzername** und im Inforegister **Webdienstzugriff** kopieren Sie den Inhalt des Felds **Webdienst-Zugriffsschlüssel**. Wenn das Feld **Webdienstzugriffsschlüssel** leer ist, wählen Sie im Menüband **Webdienst-Zugriffsschlüssel ändern**, wählen Sie **Schlüssel läuft nie ab** und klicken Sie anschließend auf die Schaltfläche OK. Anschließend können Sie den Schlüssel kopieren.  
+Um diese Informationen in [!INCLUDE[d365fin](includes/d365fin_md.md)]zu finden, suchen Sie nach dem Fenster **Benutzer**  und öffnen Sie die Karte für Ihr Benutzerkonto. Im Feld Inforegister **Allgemein** kopieren Sie den Inhalt des Feldes **Benutzername** und im Inforegister **Webdienstzugriff** kopieren Sie den Inhalt des Felds **Webdienst-Zugriffsschlüssel**. Wenn das Feld **Webdienstzugriffsschlüssel**leer ist, wählen Sie im Menüband **Webdienst-Zugriffsschlüssel ändern**, wählen Sie **Schlüssel läuft nie ab** und klicken Sie anschliessend auf die Schaltfläche OK. Anschliessend können Sie den Schlüssel kopieren.  
 
 ## <a name="getting-data-from-included365finincludesd365finmdmd"></a>Abrufen von Daten aus [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Dashboard zeigt die Berichte an, die Sie normalerweise verwenden, um Ihr Geschäft zu verfolgen. Die Daten werden von Ihrem [!INCLUDE[d365fin](includes/d365fin_md.md)]-Mandanten über Webdienste zum Lesen von Livedaten abgerufen. In [!INCLUDE[d365fin](includes/d365fin_md.md)], listet das **Webdienste** Fenster die Webdienste an, die eingerichtet wurden.
@@ -120,9 +120,10 @@ Wenn Sie ein Oops "-Fehlerdialogfeld" erhalten, nachdem Sie das Authentifizierun
 [Business Intelligence](bi.md)  
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Geschäftsdaten aus anderen Finanzsystemen migrieren](upload-data.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](across-how-use-financials-data-source-powerbi.md)Financials als Power BI Datenquelle nutzen  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](across-how-use-financials-data-source-powerapps.md)Financials als Power BI Datenquelle nutzen  
-[Anwendung [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] in Microsoft-Fluss](across-how-use-financials-data-source-flow.md)   
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-use-financials-data-source-powerbi.md)Financials als Power BI Datenquelle nutzen  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-use-financials-data-source-powerapps.md)Financials als Power BI Datenquelle nutzen  
+[Anwendung [!INCLUDE[d365fin](includes/d365fin_md.md)] in Microsoft-Fluss](across-how-use-financials-data-source-flow.md)   
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

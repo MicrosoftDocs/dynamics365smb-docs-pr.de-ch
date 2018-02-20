@@ -1,6 +1,6 @@
 ---
 title: Designdetails - Lagerhaus Einrichten | Microsoft Docs
-description: "Lagerfunktionen in Dynamics 365 enthalten verschiedene Komplexitätsstufen, definiert durch Lizenzberechtigungen in den angebotenen Elementen. Die Komplexitätsstufe in einer Lagerlösung ist weitgehend durch den Lagerplatz definiert, der auf Lagerortkarten eingerichtet ist, die wiederum lizenz-gesteuert ist, sodass der Zugriff auf Lagerplatzsetupfelder durch die Lizenz definiert ist."
+description: "Lagerfunktionen in Finance and Operations, Business edition enthalten verschiedene Komplexitätsstufen, definiert durch Lizenzberechtigungen in den angebotenen Elementen. Die Komplexitätsstufe in einer Lagerlösung ist weitgehend durch den Lagerplatz definiert, der auf Lagerortkarten eingerichtet ist, die wiederum lizenz-gesteuert ist, sodass der Zugriff auf Lagerplatzsetupfelder durch die Lizenz definiert ist."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: cf6a2fbbe92b47c4ac58d16abacaaefbe33309b1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 77b601fed0f7eac77ff5a87ba9bc04150325927c
 ms.contentlocale: de-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetails: Lagereinrichtung
@@ -60,7 +60,7 @@ Ein dedizierter Lagerplatz enthält Lagerplatzinhalt, der nur für die dediziert
 Die Standardlagerplatzeigenschaft wird vom System verwendet, um Lagerplätze für Lageraktivitäten vorzuschlagen. An WMS-Lagerorten wird die Standardlagerplatzeigenschaft nicht verwendet. An Lagerorten, an denen Lagerplätze erforderlich sind, wird die Eigenschaft in eingehenden Flüssen verwendet, um anzugeben, wo Artikel zu platzieren sind. In ausgehenden Flüssen wird die Eigenschaft verwendet, um anzugeben, wo Artikel entnommen werden sollen.  
 
 > [!NOTE]  
->  Wenn die ausgehenden Artikel in mehrere Lagerplätze eingelagert werden, werden Artikel zuerst den nicht standardmäßigen Lagerplätzen entnommen, um diesen Lagerplatzinhalt zu leeren, und dann werden die anderen Artikel dem Standardlagerplatz entnommen.  
+>  Wenn die ausgehenden Artikel in mehrere Lagerplätze eingelagert werden, werden Artikel zuerst den nicht standardmässigen Lagerplätzen entnommen, um diesen Lagerplatzinhalt zu leeren, und dann werden die anderen Artikel dem Standardlagerplatz entnommen.  
 
 Es kann nur einen Vorgabelagerplatz pro Artikel pro Lagerort geben.  
 
@@ -74,15 +74,15 @@ In WMS-Installationen können Sie die Lageraktivitäten einschränken, die für 
 |EINLAG|Normalerweise werden hier Artikel in grossen Einheiten eingelagert, die jedoch nicht für die Kommissionierung verwendet werden soll. Da die Lagerplätze nicht zum kommissionieren verwendet werden, weder für Fertigungsaufträge noch für Warenausgänge, kann Ihre Nutzung von Lagerplätzen der Art "Einlagerung" begrenzt sein, diese Lagerplatzart kann jedoch sinnvoll sein, wenn Sie eine grosse Menge an Artikeln eingekauft haben. Lagerplätze dieser Art sollten immer eine niedrige Lagerplatzpriorität haben, so dass beim Einlagern von angenommenen Artikeln diese zuerst in die Lagerplätze der Art EINLAGKOMM mit höherer Priorität einlagert werden, die als Standard für diesen Artikel definiert wurden. Wenn Sie diese Art von Lagerplatz nutzen, müssen Sie regelmässig eine Lagerplatzauffüllung durchführen, so dass die Artikel, die in diesen Lagerplätzen gelagert werden, auch in Lagerplätzen der Art EINLAGKOMM oder KOMMISS verfügbar sind.|  
 |KOMMISS|Nur für Kommissionierung zu verwendende Artikel. Die Auffüllung dieser Lagerplätze kann nur durch Umlagerungen, nicht durch Einlagerungen, durchgeführt werden.|  
 |EINLAGKOMM|Artikel an Lagerplätzen, die für Einlagerungs- und Kommissionierungsfunktionen vorgeschlagen werden. Lagerplätze dieser Art haben wahrscheinlich unterschiedliche Lagerplatzprioritäten. Sie können Ihre Palettenlagerplätze mit dieser Lagerplatzart und mit Prioritäten einrichten, die niedriger sind als die Ihrer normalen Kommissionierungslagerplätze oder der besonders bevorzugten Kommissionierungslagerplätze.|  
-|QK|Dieser Lagerplatz wird für einen Ausgleich von Lagerbestand verwendet, wenn Sie diesen Lagerplatz auf der Lagerortkarte im Feld **Ausgleichlagerplatzcode** angeben. Sie können Lagerplätze dieser Art auch für beschädigte Artikel und Artikel, die für Qualitätskontrollen verwendet werden, einrichten. Sie können Artikel in diese Art von Lagerplätzen umlagern, wenn Sie möchten, dass diese für den normalen Warenfluss nicht zugänglich sein sollen. **HINWEIS:** Anders als alle anderen Lagerplatzarten hat die Lagerplatzart **QK** keine standardmäßig aktivierten Kontrollkästchen für die Behandlung. Dies bedeutet, dass jeder Inhalt, den Sie an einem QC-Lagerplatz platzieren, aus den Artikelströmen ausgeschlossen ist.|  
+|QK|Dieser Lagerplatz wird für einen Ausgleich von Lagerbestand verwendet, wenn Sie diesen Lagerplatz auf der Lagerortkarte im Feld **Ausgleichlagerplatzcode** angeben. Sie können Lagerplätze dieser Art auch für beschädigte Artikel und Artikel, die für Qualitätskontrollen verwendet werden, einrichten. Sie können Artikel in diese Art von Lagerplätzen umlagern, wenn Sie möchten, dass diese für den normalen Warenfluss nicht zugänglich sein sollen. **HINWEIS:** Anders als alle anderen Lagerplatzarten hat die Lagerplatzart **QK** keine standardmässig aktivierten Kontrollkästchen für die Behandlung. Dies bedeutet, dass jeder Inhalt, den Sie an einem QC-Lagerplatz platzieren, aus den Artikelströmen ausgeschlossen ist.|  
 
-Für alle Lagerplatzarten, außer PICK, PUTPICK und PUTAWAY, ist keine andere Aktivität für den Lagerplatz erlaubt als die, die durch ihre Lagerplatzart definiert ist. Beispielsweise kann ein Lagerplatz Art **Eingang** nur verwendet werden, um Artikel zu erhalten oder Artikel zu kommissionieren.  
+Für alle Lagerplatzarten, ausser PICK, PUTPICK und PUTAWAY, ist keine andere Aktivität für den Lagerplatz erlaubt als die, die durch ihre Lagerplatzart definiert ist. Beispielsweise kann ein Lagerplatz Art **Eingang** nur verwendet werden, um Artikel zu erhalten oder Artikel zu kommissionieren.  
 
 > [!NOTE]  
 >  Nur Umlagerung kann an den Lagerplätzen des Typs EING und QC erfolgen. Ebenso können nur Umlagerungen aus Lagerplätzen des Typs SHIP und QC vorgenommen werden.  
 
 ## <a name="bin-ranking"></a>Lagerplatzpriorität  
-In der erweiterten Lagerhaltung können Sie automatisieren und optimieren, wie Artikel in Lagerplätzen gesammelt und Arbeitsblätter nach entnommen werden können, so dass Artikel gemäß Empfehlung und gemäß Rankingkriterien eingelagert oder entnommen werden, damit der Lagerplatz optimal genutzt wird.  
+In der erweiterten Lagerhaltung können Sie automatisieren und optimieren, wie Artikel in Lagerplätzen gesammelt und Arbeitsblätter nach entnommen werden können, so dass Artikel gemäss Empfehlung und gemäss Rankingkriterien eingelagert oder entnommen werden, damit der Lagerplatz optimal genutzt wird.  
 
 Die Einlagerungszeilen Prozesse werden optimiert nach Lagerplatzprioritäten, indem Sie mit höherer Priorität bevor Niedrigklassifizierungslagerplätze vorschlagen. Ebenso werden Entnahmeprozesse durch erste vorschlagende Artikel aus dem Lagerplatzinhalt mit hoher Lagerplatzpriorität optimiert. Darüber hinaus werden Lagerplatzauffüllungen aus den Lagerplätzen mit niedrigerem oder höherem Rang vorgeschlagen.  
 
@@ -91,36 +91,36 @@ Die Lagerplatzpriorität zusammen mit den Lagerplatzinhaltinformationen sind die
 ## <a name="bin-setup"></a>Lagerplatz-Setup  
 In erweiterten Lagerorten können Lagerplätze mit Kapazitätswerten, wie Menge, Gesamtvolumen und Gewicht eingerichtet werden, um zu steuern, welche Artikel wie an dem Lagerplatz aufbewahrt werden.  
 
-In jeder Artikelkarte können Sie eine Einheit (UOM) für den Artikel, wie Stück, Paletten, Liter, Gramm oder Felder zuordnen. Sie können eine Grundlage Mengeneinheit für einen Artikel ebenfalls haben und größere Mengeneinheit für einen Artikel, die darauf basieren, angeben. Beispielsweise können Sie eine Palette auf 16 Stück festlegen (die Basismengeneinheit).  
+In jeder Artikelkarte können Sie eine Einheit (UOM) für den Artikel, wie Stück, Paletten, Liter, Gramm oder Felder zuordnen. Sie können eine Grundlage Mengeneinheit für einen Artikel ebenfalls haben und grössere Mengeneinheit für einen Artikel, die darauf basieren, angeben. Beispielsweise können Sie eine Palette auf 16 Stück festlegen (die Basismengeneinheit).  
 
 Wenn Sie eine maximale Menge eines bestimmten Artikels für die Speicherung in einem einzelnen Lagerplatz einrichten möchten und für den Artikel mehr als eine Mengeneinheit besteht, müssen Sie die Höchstmenge für jede Mengeneinheit auf der Artikelkarte einrichten. Entsprechend gilt: Wenn ein Artikel so eingerichtet wurde, dass er nach Stück und Paletten bearbeitet wird, muss das **Maximale Menge**-Feld im **Lagerplatz-Inhalt**-Fenster für diesen Artikel ebenfalls nach Stück und Paletten organisiert sein. Andernfalls wird die zulässige Menge für diesen Lagerplatz nicht korrekt berechnet.  
 
 Bevor Sie Kapazitätseinschränkungen für Lagerplatzinhalte an einem Lagerplatz einrichten, müssen Sie zuerst prüfen, ob die Mengeneinheit und die Dimensionen des Artikels auf der Artikelkarte eingerichtet wurden.  
 
 > [!NOTE]  
->  Es kann nur mit mehrfachen Maßeinheiten in WMS-Installationen verfahren werden. In allen anderen Konfigurationen können Lagerplatzinhalte nur in der Basismengeneinheit platziert werden. In allen Transaktionen mit einer Einheit größer als die Basiseinheit des Artikels wird die Menge in die Basiseinheit umgewandelt.  
+>  Es kann nur mit mehrfachen Masseinheiten in WMS-Installationen verfahren werden. In allen anderen Konfigurationen können Lagerplatzinhalte nur in der Basismengeneinheit platziert werden. In allen Transaktionen mit einer Einheit grösser als die Basiseinheit des Artikels wird die Menge in die Basiseinheit umgewandelt.  
 
 ## <a name="zone"></a>Servicegebiet  
 In der erweiterten Lagerhaltung können Lagerplätze in Zonen gruppiert werden, um den Workflow der Lageraktivitäten zu verwalten.  
 
 Eine Zone kann eine empfangende Zone oder eine Lagerzone sein, und jede Zone kann aus einem oder mehreren Lagerplätzen bestehen.  
 
-Die meisten Eigenschaften, die einer Zone zugeordnet sind, werden standardmäßig dem Lagerplatz zugeordnet, der aus dieser Zone erstellt wird.  
+Die meisten Eigenschaften, die einer Zone zugeordnet sind, werden standardmässig dem Lagerplatz zugeordnet, der aus dieser Zone erstellt wird.  
 
 ## <a name="class"></a>Klasse  
 In der erweiterten Lagerhaltung können Sie Lagerklassencodes den Artikeln, Lagerplätzen und auch Zonen zuordnen, um festzulegen, wo verschiedene Artikelklassen gespeichert werden, wie z.B. Tiefkühlkost. Sie können eine Zone in mehrere Lagerklassen aufteilen. Beispielsweise können Artikel in der empfangenden Zone als eingefroren, gefährlich oder einer anderen klasse zugehörig gespeichert werden.  
 
-Wenn Sie mit Lagerklassen und standardmäßigen Empfangs-/Versandlagerplätzen arbeiten, müssen Sie die entsprechenden Lagerplätze im Wareneingang und in den Lieferzeilen manuell ausfüllen.  
+Wenn Sie mit Lagerklassen und standardmässigen Empfangs-/Versandlagerplätzen arbeiten, müssen Sie die entsprechenden Lagerplätze im Wareneingang und in den Lieferzeilen manuell ausfüllen.  
 
-In eingehenden Flüssen wird der Klassencode nur auf eingehenden Zeilen hervorgehoben, auf denen der Artikelklassencode nicht dem standardmäßigen Wareneingangslagerplatz entspricht. Wenn die richtigen Standardlagerplätze nicht zugewiesen werden, kann die Menge nicht empfangen werden.  
+In eingehenden Flüssen wird der Klassencode nur auf eingehenden Zeilen hervorgehoben, auf denen der Artikelklassencode nicht dem standardmässigen Wareneingangslagerplatz entspricht. Wenn die richtigen Standardlagerplätze nicht zugewiesen werden, kann die Menge nicht empfangen werden.  
 
 ## <a name="location"></a>Lagerort  
 Ein Lagerort ist eine physische Struktur oder ein Ort, an der/dem Lagerbestand erhalten, gespeichert und geliefert wird, möglicherweise organisiert in Lagerplätze. Ein Lagerort kann ein Lager, ein Service-Auto, ein Verkaufsraum, eine Anlage oder ein Bereich in einer Anlage sein.  
 
 ## <a name="first-expired-first-out"></a>Ausgang nach frühestem Ablaufdatum  
-Wenn Sie das Kontrollkästchen **Gemäß FEFO kommissionieren** im Inforegister **Lagerplatzprüfung** auf der Lagerortkarte wählen, werden Artikel mit Artikelverfolgung entsprechend ihrem Ablaufdatum kommissioniert. Die Artikel mit den frühesten Ablaufdaten werden zuerst kommissioniert.  
+Wenn Sie das Kontrollkästchen **Gemäss FEFO kommissionieren** im Inforegister **Lagerplatzprüfung** auf der Lagerortkarte wählen, werden Artikel mit Artikelverfolgung entsprechend ihrem Ablaufdatum kommissioniert. Die Artikel mit den frühesten Ablaufdaten werden zuerst kommissioniert.  
 
-Lageraktivitäten in allen Kommissionierungs- und Umlagerungsdokumenten werden gemäß FEFO sortiert, es sei denn, den fraglichen Artikel ist bereits eine Serien-/Chargennummer zugeordnet. Wenn nur einem Teil der Menge auf der Zeile bereits Chargen- oder Seriennummern zugewiesen sind, wird die verbleibende zu kommissionierende Menge nach dem FEFO-Prinzip sortiert.  
+Lageraktivitäten in allen Kommissionierungs- und Umlagerungsdokumenten werden gemäss FEFO sortiert, es sei denn, den fraglichen Artikel ist bereits eine Serien-/Chargennummer zugeordnet. Wenn nur einem Teil der Menge auf der Zeile bereits Chargen- oder Seriennummern zugewiesen sind, wird die verbleibende zu kommissionierende Menge nach dem FEFO-Prinzip sortiert.  
 
 Bei der Kommissionierung über FEFO wählt die Anwendung verfügbare Artikel auf der Grundlage des Ablaufdatums aus; das Ergebnis ist eine temporäre Artikeltrackingliste, die auf dem Ablaufdatum basiert. Weisen zwei Artikel dasselbe Ablaufdatum aus, wählt die Anwendung den Artikel mit der niedrigeren Chargen- oder Seriennummer zuerst aus. Sind die Chargen- oder Seriennummern identisch, wählt die Anwendung den Artikel aus, der zuerst ausgewählt wurde. Die Standardkriterien für die Auswahl der Artikel in Kommissionierungslagerplätzen, wie z. B. nach Lagerplatzpriorität und Gebindeanbruch, werden auf diese temporäre FEFO-Artikeltrackingliste angewendet.  
 

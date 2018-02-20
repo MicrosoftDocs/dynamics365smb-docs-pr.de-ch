@@ -1,6 +1,6 @@
 ---
 title: "Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne | Microsoft Docs"
-description: "Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger Schritt beim Einrichten einer Kampagne ist die Auswahl der Zielgruppe. Zu diesem Zweck erstellen Sie in Dynamics 365 mithilfe von Filtern ein Segment bzw. eine Gruppe von Kontakten."
+description: "Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger Schritt beim Einrichten einer Kampagne ist die Auswahl der Zielgruppe. Zu diesem Zweck erstellen Sie in Finance and Operations, Business edition mithilfe von Filtern ein Segment bzw. eine Gruppe von Kontakten."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 492976f9ab0553b67b73317040878c825eaa1808
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e933115531f9adb0296ad8983be00da480f11f25
 ms.contentlocale: de-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne
@@ -62,7 +62,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
 ### <a name="to-set-up-a-campaign"></a>So richten Sie eine Kampagne ein  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Kampagnen** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Kampagnen** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die **Neu** Aktion aus, um eine neue Kampagne zu erstellen. Klicken Sie auf die Kampagnenkarte, drücken Sie die Eingabetaste, um eine Kampagnennummer automatisch einfügen zu lassen.  
 3.  Geben Sie im Feld **Beschreibung** eine Beschreibung für die Kampagne ein, z. B. **FUTURUS-Messe**.  
 4.  Wählen Sie das Feld **Statuscode** und wählen Sie im Fenster **Kampagnenstatus** einen Statuscode aus der List aus, die sich öffnet, aus.  

@@ -1,6 +1,6 @@
 ---
 title: "Erstellen von Aktivitäten zu Kontakten und Segmenten | Microsoft Docs"
-description: "Sie erstellen Aktivitäten, um die Aktivitäten und Kommunikationen (z. B. E-Mails) mit Ihren Kontakten und Segmenten in Dynamics 365 zu erfassen."
+description: "Sie erstellen Aktivitäten, um die Aktivitäten und Kommunikationen (z. B. E-Mails) mit Ihren Kontakten und Segmenten in Finance and Operations, Business edition zu erfassen."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 57cbc08ab2e05777fae54018fe714d44b64d14e0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 93d5bc9fd8189d5a8341faa252de9eac257901d2
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-interactions-on-contacts-and-segments"></a>Vorgehensweise: Erstellen von Aktivitäten zu Kontakten und Segmenten
+# <a name="create-interactions-on-contacts-and-segments"></a>Erstellen von Aktivitäten zu Kontakten und Segmenten
 Sie erstellen Aktivitäten, um die Aktivitäten und Kommunikationen (z. B. E-Mails) mit Ihren Kontakten und Segmenten zu erfassen.
 
 Bevor Sie Aktivitäten erstellen, müssen Sie Aktivitätenvorlagen einrichten. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Aktivitätvorlagen](marketing-interactions.md).
@@ -30,15 +30,15 @@ Bevor Sie Aktivitäten erstellen, müssen Sie Aktivitätenvorlagen einrichten. W
 3. Füllen Sie die Felder aus, und wählen Sie dann die Schaltfläche **OK** aus.
 
 > [!NOTE]  
->   Wenn Sie eine andere Aufgabe ausführen müssen, bevor Sie die Aktivität abgeschlossen haben, können Sie **Abbrechen** auswählen und den Assistenten schließen und die Aktivität später abschließen. Dieses verschiebt die Aktivität.
+>   Wenn Sie eine andere Aufgabe ausführen müssen, bevor Sie die Aktivität abgeschlossen haben, können Sie **Abbrechen** auswählen und den Assistenten schliessen und die Aktivität später abschliessen. Dieses verschiebt die Aktivität.
 
 ## <a name="to-finish-and-delete-postponed-interactions"></a>Beenden und Löschen von zurückgestellten Aktivitäten
 1. Öffnen Sie den Kontakt, den Verkäufer oder den Aktivitätenprotokollposten.
 2. Wählen Sie **Zurückgestellte Aktivitäten**.
-3. Wählen Sie die fertig zu stellende Aktivität aus, und klicken Sie anschließend auf die Aktion **Fortsetzen**.
+3. Wählen Sie die fertig zu stellende Aktivität aus, und klicken Sie anschliessend auf die Aktion **Fortsetzen**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>So erstellen Sie eine Aktivität für ein Segment
-1. Wählen Sie auf der Startseite **Aktive Segmente**, oder wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Segmente** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie auf der Startseite **Aktive Segmente**, oder wählen Sie  das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Segmente** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Füllen Sie im Fenster **Segment** die Felder im Abschnitt **Aktivität** aus, um zu anzugeben, welche Aktivität Sie dem Segment zuordnen möchten.
 
     Nachdem Sie dem Segment eine Aktivität zugeordnet haben, können Sie die Aktivität für jeden einzelnen Kontakt personalisieren z. B., indem Sie eine andere Aktivitätenvorlage in den Zeilen des Fensters **Segment** auswählen.  
@@ -54,5 +54,5 @@ Wenn Sie im Feld **Anschluss-Segment erstellen** ein Häkchen gesetzt haben, wir
 [Kontakte verwalten](marketing-contacts.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Marketing & Vertrieb einrichten](marketing-setup-marketing.md)  
-[Arbeiten mit Dynamics 365](ui-work-product.md)
+[Arbeiten mit Finance and Operations, Business edition](ui-work-product.md)
 

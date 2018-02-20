@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: face4821059b57c32e06dca46ec5144aba4ca528
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 569501a38bb12468400ca53a5014e7c6491ac012
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern
@@ -46,7 +46,7 @@ Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen aus
 ## <a name="prerequisites"></a>Voraussetzungen  
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
--   Das [!INCLUDE[d365fin](includes/d365fin_md.md)] Unternehmen .  
+-   Das [!INCLUDE[d365fin](includes/d365fin_md.md)]Unternehmen .  
 -   Erstellen Sie später in dies Demonstration anhand der Schritte im Abschnitt "Vorbereiten der Beispieldaten" neue Artikel und verschiedene Geschäftstransaktionen.  
 
 ## <a name="story"></a>Hintergrund  
@@ -96,13 +96,13 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Als Nächstes müssen Sie die Produktionseinrichtung des Artikels definieren.
 
-9. Geben Sie auf der Registerkarte B **eschaffung** **1000** in das Feld **Arbeitsplannr.** ein.  
+9. Geben Sie auf der Registerkarte B**eschaffung** **1000** in das Feld **Arbeitsplannr.** ein.  
 10. Wählen Sie das Feld **Produktion Stückliste** und dann **Erweitert** aus.  
 11. Im Fenster **Fert.-Stücklistenliste** wählen Sie die erste Zeile, **1000** aus, und wählen Sie die **Bearbeiten** Aktion aus.  
 12. Ändern Sie im Fenster **Fertigungsstückliste** den Wert im Feld **Status** in **In Entwicklung**.  
 13. Geben Sie in einer leeren Zeile **2000** im Feld **Nr.** ein und geben dann **1** im Feld **Komponentenmenge** ein.  
 14. Ändern Sie den Wert im Feld **Status** wieder in **Zertifiziert**.  
-15. Wählen Sie die Schaltfläche **OK**, um die Fertigungsstückliste auf der Artikelkarte einzufügen, und schließen Sie das Fenster **Produktionsstückliste**.  
+15. Wählen Sie die Schaltfläche **OK**, um die Fertigungsstückliste auf der Artikelkarte einzufügen, und schliessen Sie das Fenster **Produktionsstückliste**.  
 
     Kaufen Sie als Nächstes Rennradrahmen vom Lieferanten Custom Metals Incorporated.  
 
@@ -116,7 +116,7 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     |2000|10|CHARGE1|  
 
 4.  Um die Chargennummer einzugeben, wählen Sie die **Artikeltrackingzeilen** Aktion aus.  
-5.  Klicken Sie im Fenster **Artikeltrackingzeilen** auf den Dropdownpfeil im Feld **Chargennr.**, wählen Sie **Menge (Basis)** aus, und schließen Sie das Fenster.  
+5.  Klicken Sie im Fenster **Artikeltrackingzeilen** auf den Dropdownpfeil im Feld **Chargennr.**, wählen Sie **Menge (Basis)** aus, und schliessen Sie das Fenster.  
 6.  Füllen Sie das Feld **Kred.-Rechnungsnr.** aus.  
 7.  Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Lieferung und Rechnung**, und wählen Sie dann die Schaltfläche **OK** aus.  
 
@@ -130,7 +130,7 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     |2000|11|CHARGE2|  
 
 11. Um die Chargennummer einzugeben, wählen Sie im Inforegister **Zeilen**, in der Gruppe **Zeile**, die Aktion **Artikeltrackingzeilen**.  
-12. Klicken Sie im Fenster **Artikeltrackingzeilen** auf den Dropdownpfeil im Feld **Chargennr.**, wählen Sie **Menge (Basis)** aus, und schließen Sie das Fenster.  
+12. Klicken Sie im Fenster **Artikeltrackingzeilen** auf den Dropdownpfeil im Feld **Chargennr.**, wählen Sie **Menge (Basis)** aus, und schliessen Sie das Fenster.  
 13. Füllen Sie das Feld **Kred.-Rechnungsnr.** aus.  
 14. Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Lieferung und Rechnung**, und wählen Sie dann die Schaltfläche **OK** aus.  
 
@@ -148,7 +148,7 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
 4.  Wählen Sie die **FA berechnen** Aktion aus, und wählen Sie dann die Schaltfläche **OK** aus, um die Zeile zu befüllen.  
 5.  Um die Seriennummern einzugeben, wählen Sie die **Artikeltrackingzeilen** Aktion aus.  
-6.  Klicken Sie im Fenster **Artikeltrackingzeilen** auf den Dropdownpfeil im Feld **Seriennr.**, wählen Sie **Menge (Basis)** aus, und schließen Sie das Fenster.  
+6.  Klicken Sie im Fenster **Artikeltrackingzeilen** auf den Dropdownpfeil im Feld **Seriennr.**, wählen Sie **Menge (Basis)** aus, und schliessen Sie das Fenster.  
 
     Als Nächstes müssen Sie den Verbrauch von Rennradrahmen aus CHARGE1 buchen.  
 7.  Im Fenster **Freigegebener FA** wählen Sie die **Produktions Erf.-Journal** Aktion aus.  
@@ -226,7 +226,7 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>So stellen Sie fest, aus welcher Charge und von welchem Lieferanten der fehlerhafte Rahmen stammt  
 1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Artikel-Nachverfolgung** ein und wählen den zugehörenden Link aus.  
-2.  Geben Sie im Fenster **Artikelablaufverfolgung** **SN1** in das Feld **Seriennr**. ein, und geben Sie dann **1002** in das Feld **Artikelfilter** ein.  
+2.  Geben Sie im Fenster **Artikelablaufverfolgung****SN1** in das Feld **Seriennr**. ein, und geben Sie dann **1002** in das Feld **Artikelfilter** ein.  
 3.  Übernehmen Sie die Standardeinstellung **Nur mit Artikelverfolgung** im Feld K **omponenten anzeigen** und die Standardverfolgungsmethode **Verbrauch - Ursprung** im Feld **Nachverfolgungsmethode**  
 4.  Wählen Sie die Aktion **Ablaufverfolgung** aus.  
 
@@ -271,7 +271,7 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Gleichzeitig kann er den letzten drei Trackingzeilen entnehmen, dass zwei weitere Artikel, SN3 und SN4, mit Rennradrahmen aus CHARGE1 produziert wurden. Er unternimmt die entsprechenden Schritte, um diese Endartikel im Lagerbestand zu sperren.  
 
-    Damit ist die zweite Aufgabe der Defektverwaltung im Fenster für **Artikelnachverfolgung** abgeschlossen. Da das Fenster **Artikelnachverfolgung** nur auf gebuchten Posten basiert, muss der Qualitätskontrolleur zum Fenster **Navigieren** wechseln, um zu überprüfen, ob CHARGE1 in nicht nicht-gebuchten Belegen verwendet wird.  
+    Damit ist die zweite Aufgabe der Defektverwaltung im Fenster  für **Artikelnachverfolgung** abgeschlossen. Da das Fenster **Artikelnachverfolgung** nur auf gebuchten Posten basiert, muss der Qualitätskontrolleur zum Fenster **Navigieren** wechseln, um zu überprüfen, ob CHARGE1 in nicht nicht-gebuchten Belegen verwendet wird.  
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Alle Datensätze einer Serien-/Chargennummer finden  
  Aus dem Fenster **Artikelnachverfolgung** erfuhr der Qualitätskontrolleur, dass CHARGE1 die fehlerhaften Rennradrahmen enthielt, von welchem Lieferanten sie stammen, und in welcher gebuchten Transaktion sie verwendet wurden. Er muss nun feststellen, ob CHARGE1 in offenen Belegen enthalten ist, indem er die Ergebnisse Nachverfolgung in das Fenster **Navigieren** integriert, wo er eine Suche in allen Datenbankdatensätzen ausführen kann.  
@@ -292,7 +292,7 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
  Damit ist die exemplarische Vorgehensweise zur Verwendung der Fenster **Navigieren** und **Artikelablaufverfolgung** für die Defektverwaltung abgeschlossen.  
 
 ## <a name="see-also"></a>Siehe auch
-[Vorgehensweise: Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)  
-[Vorgehensweise: Verfolgen von Artikeln mit Artikeltracking](inventory-how-to-trace-item-tracked-items.md)  
+[Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)  
+[Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)  
 [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
 

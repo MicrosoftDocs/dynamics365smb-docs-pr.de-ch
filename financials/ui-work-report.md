@@ -13,10 +13,10 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 16c9c8c896e3517f08a7326eef88ebc646834b1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c1accaa517efa3fb9958316d2586b06fa8cadb80
 ms.contentlocale: de-ch
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="working-with-reports"></a>Arbeiten mit Berichten
@@ -48,7 +48,7 @@ Verwenden der Menüleiste:
 
 
 ## <a name="saving-a-report"></a>Speichern des Berichts
-Sie können einen Bericht in ein PDF-Dokument, Microsoft Word Dokument oder Microsoft Excel-Dokument speichern, indem Sie **Senden an** auswählen, und anschließend Ihre Auswahl treffen.
+Sie können einen Bericht in ein PDF-Dokument, Microsoft Word Dokument oder Microsoft Excel-Dokument speichern, indem Sie **Senden an** auswählen, und anschliessend Ihre Auswahl treffen.
 
 ## <a name="ScheduleReport"></a>Planen der Ausführung eines Berichts
 Sie können einen Bericht planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird. Geplante Berichte werden in der Projektwarteschlange eingegeben und zu der geplanten Zeit verarbeitet, wie vergleichbare andere Aufträge auch. Sie können auswählen, ob Sie den verarbeiteten Bericht speichern möchten, beispielsweise als Excel-, Word- oder PDF-Datei, ihn auf einem ausgewählten Drucker auszugeben, oder ihn nur zu verarbeiten. Wenn Sie wählen, den Bericht in eine Datei zu speichern, wird der verarbeitete Bericht an den **Berichts-Eingang** auf Ihrer Startseite gesendet, wo Sie ihn anzeigen können.
@@ -67,10 +67,10 @@ Der gespeicherte Einstellungseintrag mit der Bezeichnung **Zuletzt verwendete Op
 >Als Administrator können Sie die gespeicherten Einstellungen für Berichte für alle Benutzer erstellen und verwalten. Weitere Informationen finden Sie unter [Verwaltung von gespeicherten Einstellungen in Berichten](reports-saving-reusing-settings.md).
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>Ändern des Layouts und des Layouts eines Berichts
-Ein Berichtslayout steuert, was in einem Bericht angezeigt wird, wie er angeordnet wird und wie er formatiert ist. Wenn Sie zu einem anderen Layout wechseln möchten, finden Sie Informationen unter [Vorgehensweise: Ändern Sie, das Layout derzeit auf einem Bericht verwendet wird](ui-how-change-layout-currently-used-report.md). Oder, wenn Sie Ihr eigenes Berichtslayout anpassen möchten gehen Sie zu [Vorgehensweise: Erstellen und bearbeiten von benutzerdefinierten Berichtslayouts](ui-how-create-custom-report-layout.md).
+Ein Berichtslayout steuert, was in einem Bericht angezeigt wird, wie er angeordnet wird und wie er formatiert ist. Wenn Sie zu einem anderen Layout wechseln möchten, finden Sie Informationen unter [Ändern Sie, das Layout derzeit auf einem Bericht verwendet wird](ui-how-change-layout-currently-used-report.md). Oder, wenn Sie Ihr eigenes Berichtslayout anpassen möchten gehen Sie zu [Erstellen und bearbeiten von benutzerdefinierten Berichtslayouts](ui-how-create-custom-report-layout.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Angeben der Druckerauswahl für Berichte](ui-specify-printer-selection-reports.md)  
 [Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md)  
-[Arbeiten mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 541eed23db807d62c570834ab0efbef6fc4f4083
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: afeaeb66ee6ff9f45b642e56c9a06ec484fe9669
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Vorgehensweise: Ändern des Betrags "Zu fakturieren (Jahr)" von Serviceverträgen oder Vertragsangeboten
+# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ändern des jährlichen Betrags für Serviceverträge oder Vertragsofferten
 Sie können den Betrag "Zu fakturieren (Jahr)" des Servicevertrags oder der Vertragsofferte ändern, um den jährlich fakturierten Betrag zu korrigieren.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>So ändern Sie den Betrag "Zu fakturieren (Jahr)" eines Servicevertrags oder einer Vertragsofferte  
 
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen-Symbol") aus und geben Sie **Serviceverträge** oder **Servicevertragsofferten**ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen-Symbol") aus und geben Sie **Serviceverträge** oder **Servicevertragsofferten**ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie den Vertrag oder die Vertragsofferte aus.  
 3. Wählen Sie die Aktionen **Vertrag öffnen** aus, um den Vertrag oder die Vertragsofferte zwecks Bearbeitung zu öffnen.  
 4. Wählen Sie das Kontrollkästchen **Nicht ausgegl. Betr. zulassen** aus, wenn Sie den jährlichen Betrag ändern und die Differenz manuell in den Vertragszeilen ausgleichen möchten. Falls Sie das nicht möchten, deaktivieren Sie das Kontrollkästchen, um die Differenz in den Vertragszeilen automatisch ausgleichen zu lassen, wenn Sie den jährlichen Betrag ändern.  
@@ -32,7 +32,7 @@ Sie können den Betrag "Zu fakturieren (Jahr)" des Servicevertrags oder der Vert
 ## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Verteilen von Differenzen zwischen neuen und berechneten jährlichen Beträgen
 Wenn Sie den jährlichen Betrag für einen Servicevertrag oder eine Servicevertragsofferte ändern, müssen Sie u. U. die Differenz zwischen dem neuen und dem berechneten jährlichen Betrag auf die Vertragszeilen verteilen. Es gibt drei Möglichkeiten, Beträge zu verteilen:
 
-* Gleichmäßige Verteilung  
+* Gleichmässige Verteilung  
 * Verteilung nach Zeilenbetrag  
 * Verteilung nach DB
 
@@ -186,6 +186,6 @@ Zum Schluss werden die Vertragszeilen die folgenden Daten enthalten.
 |Artikel 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
 ## <a name="see-also"></a>Siehe auch  
-[Vorgehensweise: Erstellen von Serviceverträgen und Servicevertragsangeboten](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Erstellen von Serviceverträgen und Servicevertragsofferten](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: 'Designdetails: Artikeltrackingdesign | Microsoft Docs'
-description: Dieses Thema beschreibt den Entwurf hinter dem Artikeltracking in Dynamics 365.
+description: Dieses Thema beschreibt den Entwurf hinter dem Artikeltracking in Finance and Operations, Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: design, item, tracking, tracing
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 20d04536d670e0c830ed3b92df8d570e6408fab4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 05a08fff7b3897a528f84dedd6da67cdbd2cd798
 ms.contentlocale: de-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-item-tracking-design"></a>Designdetails: Artikeltrackingdesign
@@ -24,7 +24,7 @@ Ab [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.00, befand sich die Artikeltrac
 
 Seit [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60 sind Artikeltrackingfunktionen im Reservierungssystem integriert, das Reservierung, Auftragsnachverfolgung und Aktionsmessaging verarbeitet. Weitere Informationen finden Sie unter „Designdetails: Reservierung, Auftragstracking und Aktionsmeldungen“ in „Designdetails: Beschaffungsplanung“.  
 
-Dieses neueste Design enthält Artikeltrackingposten in der Gesamtverfügbarkeitsberechnung im gesamten System, einschließlich Planungs-, Produktions- und Lagerfunktionen. Der alte Konzept der Verwendung von Serien- und Chargennummern in den Lagerposten wird erneut eingeführt, um den einfachen Zugriff auf historische Daten für Artikeltrackingzwecke zu ermöglichen. In Verbindung mit Artikeltrackingverbesserungen in [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60 wurde das Reservierungssystem auf Nicht-Auftragsnetzwerk-Entitäten erweitert, wie Erfassungsjournale, Rechnungen und Gutschriften.  
+Dieses neueste Design enthält Artikeltrackingposten in der Gesamtverfügbarkeitsberechnung im gesamten System, einschliesslich Planungs-, Produktions- und Lagerfunktionen. Der alte Konzept der Verwendung von Serien- und Chargennummern in den Lagerposten wird erneut eingeführt, um den einfachen Zugriff auf historische Daten für Artikeltrackingzwecke zu ermöglichen. In Verbindung mit Artikeltrackingverbesserungen in [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60 wurde das Reservierungssystem auf Nicht-Auftragsnetzwerk-Entitäten erweitert, wie Erfassungsjournale, Rechnungen und Gutschriften.  
 
 Mit der Hinzufügung der Serien- oder Chargennummern verarbeitet das Reservierungssystem permanent Artikelattribute sowie periodische Verknüpfungen zwischen Offerte und Nachfrage in Form von Bedarfsverursacherposten und -Reservierungsposten. Ein weitere Eigenschaft der Serien- oder Chargennummern gegenüber herkömmlichen Reservierungsdaten ist die Tatsache, dass diese teilweise oder vollständig gebucht werden können. Daher funktioniert die Tabelle **Reservierungsposten** (T337) jetzt mit einer zugehörigen Tabelle, der Tabelle **Trackingspezifikation** (T336), die das Summieren über aktive und gebuchte Artikeltrackingmengen hinweg verwaltet und anzeigt. Weitere Informationen finden Sie unter [Designdetails: Aktive vs. historische Artikeltrackingposten](design-details-active-versus-historic-item-tracking-entries.md).  
 

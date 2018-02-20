@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: de00ca393b5d2c28292ae3deba743ce3447b6145
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung
@@ -53,7 +53,7 @@ In der folgenden exemplarischen Vorgehensweise wird die Planung von Beschaffungs
  In einer komplexeren Produktionsumgebung wird der Planungsvorschlag verwendet, um die Beschaffung basierend auf Artikelparametern wie Neuplanungsperiode, Sicherheitszuschlag für die Beschaffungszeit und Minimalbestand sowie Stapelberechnungen des konsolidierten Bedarfs aller Produktebenen zu planen.  
 
 ## <a name="setting-up-the-sample-data"></a>Einrichten der Beispieldaten  
- Das standardmäßige Demounternehmen CRONUS verfügt derzeit über einen umfangreichen, nicht geplanten Bedarf. Während der unterschiedlichen Planungsphasen dieser exemplarischen Vorgehensweise ist eine Abweichung von einer realistischen Vorgehensweise erforderlich, da Bedarf mit unmittelbar bevorstehendem Fälligkeitsdatum ignoriert und stattdessen Bedarf mit einem späteren Fälligkeitsdatum verwendet wird.  
+ Das standardmässige Demounternehmen CRONUS verfügt derzeit über einen umfangreichen, nicht geplanten Bedarf. Während der unterschiedlichen Planungsphasen dieser exemplarischen Vorgehensweise ist eine Abweichung von einer realistischen Vorgehensweise erforderlich, da Bedarf mit unmittelbar bevorstehendem Fälligkeitsdatum ignoriert und stattdessen Bedarf mit einem späteren Fälligkeitsdatum verwendet wird.  
 
 ## <a name="using-the-order-planning-window"></a>Verwenden des Fensters "Auftragsplanung"  
  Das Fenster **Auftragsplanung** ist über mehrere Optionen im Menü **Abteilungen** im Navigationsbereich zugänglich:  

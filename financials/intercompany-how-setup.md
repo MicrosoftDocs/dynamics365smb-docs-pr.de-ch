@@ -13,13 +13,13 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/20/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cce1f5c30b758155056b00e933c9f6cabfd9f1f4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7a23f0ba28ab4c7bc9e028375246ea2e57d32764
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-intercompany"></a>Vorgehensweise: Intercompany einrichten
+# <a name="set-up-intercompany"></a>Intercompany einrichten
 Wenn Sie eine Transaktion (beispielsweise eine Verkaufs-Erf.-Journalzeile) von einem Unternehmen an ein anderes Unternehmen senden möchten und im Partnerunternehmen automatisch die entsprechende Transaktion (beispielsweise eine Einkaufs-Erf.-Journalzeile) erstellt werden soll, müssen sich die Unternehmen auf einen gemeinsamen Kontenplan sowie auf eine Gruppe von Dimensionen für Intercompanytransaktionen einigen. Bei dem Intercompanykontenplan kann es sich beispielsweise um eine vereinfachte Version des Kontenplans der Muttergesellschaft handeln. In jedem Unternehmen wird der eigene vollständige Kontenplan dem gemeinsam genutzten Intercompanykontenplan zugeordnet, und auch die Dimensionen des jeweiligen Unternehmens werden den Intercompanydimensionen zugeordnet.  
 
 Sie müssen einen Intercompanypartnercode für jedes Partnerunternehmen einrichten, der zwischen allen Unternehmen vereinbart wurde, und diese dann Kreditorenkarten bzw. Debitorkarten zuweisen, indem Sie das Feld **Intercompanypartnercode** ausfüllen.  
@@ -38,9 +38,9 @@ Wenn Sie Intercompany-Verkaufstransaktionen vornehmen, die Ressourcen beinhalten
 3. Füllen Sie im Fenster **Intercompanypartner** die Felder nach Bedarf aus.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Einrichten von Intercompanykreditoren und Intercompanydebitoren
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Alternativ können Sie auf den Kreditor über das Feld **Kreditorennr.** im Fenster **Intercompanypartner** zugreifen.
-3. Öffnen Sie die Karte für den Kreditor, der ein Intercompanypartner ist. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten neuer Kreditoren](purchasing-how-register-new-vendors.md).
+3. Öffnen Sie die Karte für den Kreditor, der ein Intercompanypartner ist. Weitere Informationen finden Sie unter [Neue Kunden registrieren](purchasing-how-register-new-vendors.md).
 4. Wählen Sie im Feld **Intercompanypartnercode** den relevanten Intercompanypartnercode aus.
 5. Wiederholen Sie die Schritte 1 bis 4 für Debitoren.
 
@@ -89,7 +89,7 @@ Wenn Sie jetzt im Feld **Gegenkontonr.** in einer Intercompanyzeile mit dem Eint
 3. Wiederholen Sie Schritt 3 für jedes Konto, das Sie häufig im Feld **Gegenkontonr.** einer Zeile in einem Intercompany-Erf.-Journal oder -Beleg eingeben.
 
 ## <a name="to-set-up-intercompany-dimensions"></a>So richten Sie Intercompanydimensionen ein
-Wenn Transaktionen mit entsprechend verknüpften Dimensionen zwischen dem Unternehmen und den Intercompanypartern übertragen werden sollen, müssen Sie die Dimensionen vereinbaren, die von allen verwendet werden. Die Muttergesellschaft der Gruppe erstellt beispielsweise eine vereinfachte Version des eigenen Dimensionssatzes, exportiert diese Intercompanydimensionen in eine XML-Datei und verteilt diese an alle Unternehmen der Gruppe. Anschließend wird die XML-Datei von allen Tochtergesellschaften im Fenster **Intercompanydimensionen** importiert, und die Intercompanydimensionen werden den Dimensionen im eigenen Fenster **Dimensionen** zugeordnet.  
+Wenn Transaktionen mit entsprechend verknüpften Dimensionen zwischen dem Unternehmen und den Intercompanypartern übertragen werden sollen, müssen Sie die Dimensionen vereinbaren, die von allen verwendet werden. Die Muttergesellschaft der Gruppe erstellt beispielsweise eine vereinfachte Version des eigenen Dimensionssatzes, exportiert diese Intercompanydimensionen in eine XML-Datei und verteilt diese an alle Unternehmen der Gruppe. Anschliessend wird die XML-Datei von allen Tochtergesellschaften im Fenster **Intercompanydimensionen** importiert, und die Intercompanydimensionen werden den Dimensionen im eigenen Fenster **Dimensionen** zugeordnet.  
 
 Wenn das Unternehmen die Muttergesellschaft ist und den IC-Dimensionssatz definiert, der von der Gruppe zur Referenz verwendet wird, verwenden Sie die Schrittfolge unter "Definieren von Intercompanydimensionen".
 
@@ -99,7 +99,7 @@ Wenn das Unternehmen eine Tochtergesellschaft ist und Sie eine XML-Datei mit den
 1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Intercompanydimensionen** ein und wählen den zugehörenden Link aus.  
 2. Geben Sie die Dimensionen zeilenweise in das Fenster **Intercompanydimensionen** ein.
 
-    Wenn die Intercompanydimensionen den unternehmenseigenen Dimensionen gleichen oder ähneln, können Sie das Fenster automatisch ausfüllen, indem Sie die Funktion **Aus Dimensionen kopieren** benutzen. Anschließend können Sie die ausgefüllten Zeilen bearbeiten.  
+    Wenn die Intercompanydimensionen den unternehmenseigenen Dimensionen gleichen oder ähneln, können Sie das Fenster automatisch ausfüllen, indem Sie die Funktion **Aus Dimensionen kopieren** benutzen. Anschliessend können Sie die ausgefüllten Zeilen bearbeiten.  
 3. Die Intercompanydimensionen können mit der Aktion **Exportieren** in eine XML-Datei exportiert und auf diese Weise an die Partnerunternehmen verteilt werden.  
 4. Geben Sie zum Speichern der XML-Datei einen Namen und einen Verzeichnispfad an, und wählen Sie dann die Schaltfläche **Speichern**.  
 
@@ -114,17 +114,17 @@ Die Zeilen in den Fenstern **Intercompanydimensionen** und **Intercompanydimensi
 ### <a name="to-map-intercompany-dimensions-to-your-companys-dimensions"></a>Intercompanydimensionen Ihren unternehmenseigenen Dimensionen zuordnen:
 Nachdem Sie alle Dimensionen definiert oder importiert haben, die von den Intercompanypartnern laut Übereinkunft verwendet werden, müssen die einzelnen Intercompanydimensionen den unternehmenseigenen Dimensionen zugeordnet werden und umgekehrt. Im Fenster **Intercompanydimensionen** geben Sie an, wie die Intercompanydimensionen eingehender Transaktionen in die unternehmenseigenen Dimensionen aus der Dimensionsliste übersetzt werden. Im Fenster **Dimensionen** legen Sie fest, wie die unternehmenseigenen Dimensionen bei ausgehenden Transaktionen in Intercompanydimensionen übersetzt werden.
 
-Wenn Intercompanydimensionen bezüglich ihres Codes mit unternehmenseigenen Dimensionen aus der Dimensionsliste übereinstimmen, können diese Dimensionen durch das Programm automatisch einander zugeordnet werden, und anschließend ordnen Sie die Konten automatisch zu:
+Wenn Intercompanydimensionen bezüglich ihres Codes mit unternehmenseigenen Dimensionen aus der Dimensionsliste übereinstimmen, können diese Dimensionen durch das Programm automatisch einander zugeordnet werden, und anschliessend ordnen Sie die Konten automatisch zu:
 
 1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Intercompanydimensionen** ein und wählen den zugehörenden Link aus.
-2. Wählen Sie im Fenster **Intercompanydimensionen** die automatisch zuzuweisenden Zeilen aus, und klicken Sie anschließend auf die Aktion **Zuordn. zu Dim. m. selb. Code**.
+2. Wählen Sie im Fenster **Intercompanydimensionen** die automatisch zuzuweisenden Zeilen aus, und klicken Sie anschliessend auf die Aktion **Zuordn. zu Dim. m. selb. Code**.
 3. Füllen Sie für jede Intercompany-Dimensionen, die nicht automatisch zugeordnet wird, das Feld **Zuordnen zu Dimensionscode** aus.
 4. Wählen Sie die Aktion **Intercompanydimensionswerte** aus.
 5. Füllen Sie im Fenster **Intercompanydimensionswerte** das Feld **Zuordnen zu Dimensionswertcode** aus.
 
     Fahren Sie mit dem Zuordnen der Intercompanydimensionen fort, indem Sie ähnliche Schritte ausführen.
-6. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Dimensionen** ein. Wählen Sie dann den zugehörigen Link aus.
-7. Wählen Sie im Fenster **Dimensionen** die automatisch zuzuweisenden Zeilen aus, und klicken Sie anschließend auf die Aktion **Zuordn. zu IC-Dim. m. selb. Cd**.
+6. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Dimensionen** ein. Wählen Sie dann den zugehörigen Link aus.
+7. Wählen Sie im Fenster **Dimensionen** die automatisch zuzuweisenden Zeilen aus, und klicken Sie anschliessend auf die Aktion **Zuordn. zu IC-Dim. m. selb. Cd**.
 8. Füllen Sie für jede Intercompany-Dimensionen, die nicht automatisch zugeordnet wird, das Feld **Zuordn. zu IC-Dimens.wertcode** aus.
 9. Wählen Sie die Aktion **Intercompanydimensionswerte** aus.
 10. Füllen Sie im Fenster **Dimensionswerte** das Feld **Zuordn. zu IC-Dimens.wertcode** aus.

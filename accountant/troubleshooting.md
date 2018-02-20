@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: a9753b00b47fc4d74583482b2da92aae5e2f8a74
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="troubleshooting-included365acclongincludesd365acclongmdmd"></a>Problembehebung [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
@@ -23,7 +23,7 @@ ms.lasthandoff: 11/10/2017
 Die Anmeldung für [!INCLUDE[d365acc](includes/d365acc_md.md)] ist einfach und kann sehr schnell vorgenommen werden. Das Hinzufügen von Kundens zum Dashboard ist auch einfach, aber in diesem Artikel werden Probleme behandelt, die dabei auftreten können.
 
 ## <a name="what-email-address-can-i-use-with-included365accincludesd365accmdmd"></a>Welche E-Mail-Adresse kann ich mit [!INCLUDE[d365acc](includes/d365acc_md.md)]?
-[!INCLUDE[d365acc](includes/d365acc_md.md)] erfordert eine Arbeits- oder Schul-E-Mail-Adresse, um sich anzumelden. [!INCLUDE[d365acc](includes/d365acc_md.md)] unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern bereitgestellt werden. Dieses schließt outlook.com, hotmail.com, gmail.com und andere ein.  
+[!INCLUDE[d365acc](includes/d365acc_md.md)] erfordert eine Arbeits- oder Schul-E-Mail-Adresse, um sich anzumelden. [!INCLUDE[d365acc](includes/d365acc_md.md)] unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern bereitgestellt werden. Dieses schliesst outlook.com, hotmail.com, gmail.com und andere ein.  
 
 Wenn Sie versuchen, sich mit einer persönlichen E-Mail-Adresse anzumelden, erhalten Sie eine Meldung die angibt, eine Arbeits- oder Schul-E-mail-Adresse zu verwenden.  
 

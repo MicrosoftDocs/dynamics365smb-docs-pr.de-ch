@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0b91925a7ec6adb40cdf99d5bcf3398b62c28b3f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 89db93227222d79e535f2d18400330aa30566f2f
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-blanket-sales-orders"></a>Vorgehensweise: Arbeiten mit Rahmenaufträgen
+# <a name="work-with-blanket-sales-orders"></a>Arbeiten mit Rahmenaufträgen
 Ein Rahmenauftrag stellt ein Gerüst für eine langfristige Vereinbarung zwischen Ihnen und einem Debitor dar.
 
 Ein Rahmenauftrag wird in der Regel erstellt, wenn sich ein Debitor verpflichtet hat, grössere Mengen abzunehmen, die über einen längeren Zeitraum in mehreren kleineren bereitgestellt werden. Rahmenaufträge umfassen häufig nur einen Artikel mit im Vorfeld festgelegten Lieferterminen. Der Hauptgrund für die Verwendung von Rahmenaufträgen anstelle von normalen Aufträgen ist, dass Mengen, die für einen Rahmenauftrag eingegeben werden, keine Auswirkungen auf die Artikelverfügbarkeit haben, sodass der Rahmenauftrag als Arbeitsvorlage zum Überwachen und Planen verwendet werden kann.
@@ -39,7 +39,7 @@ Rahmenaufträge werden beispielsweise verwendet, wenn ein Kunde anruft und 1000�
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>So erstellen Sie einen Auftrag aus einem Rahmenauftrag:  
 
 1.  Um einen Auftrag für eine oder mehrere der Zeilen des Montagerahmenauftrags zu erstellen, entfernen Sie die Menge im Feld **Zu liefernde Menge** in allen Zeilen, für die zum aktuellen Zeitpunkt KEINE Lieferung gewünscht wird.  
-2.  Wenn Sie die Aufträge erstellen möchten, klicken Sie auf **Auftrag erst.** und anschließend auf **Ja**. Sie werden in einer Meldung darüber informiert, dass dem Rahmenauftrag eine Auftragsnummer zugewiesen wurde. Beachten Sie, dass der Rahmenauftrag nicht gelöscht wurde.  
+2.  Wenn Sie die Aufträge erstellen möchten, klicken Sie auf **Auftrag erst.** und anschliessend auf **Ja**. Sie werden in einer Meldung darüber informiert, dass dem Rahmenauftrag eine Auftragsnummer zugewiesen wurde. Beachten Sie, dass der Rahmenauftrag nicht gelöscht wurde.  
 3.  Wählen Sie die Schaltfläche **OK** aus.  
 4.  Um die Ergebnisse der vorangehenden Schritte anzuzeigen, wählen Sie auf dem Inforegister **Zeilen** die Option **Aktionen**, wählen Sie Zeile, wählen Sie Nicht gebuchte Zeilen, und wählen Sie dann **Aufträge**.  
 5.  Wählen Sie im Fenster **Verkaufszeilen** den entsprechenden Verkaufsauftrag aus. Wählen Sie auf dem Inforegister **Zeilen** die Option Aktionen, wählen Sie Zeile, und wählen Sie dann **Beleg anzeigen**.  

@@ -1,6 +1,6 @@
 ---
 title: 'Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen | Microsoft Docs'
-description: "Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und auf einen Vorauszahlungsauftrag (Einkauf oder Verkauf) gebucht werden. Sie können z. B. eine Anzahlung vor der Auftragsfertigung von Artikeln oder eine Zahlung vor der Lieferung an einen Kunden verlangen. Mithilfe der Vorauszahlungsfunktion von Dynamics 365 können Sie Anzahlungen von Kunden fakturieren und einfordern oder Anzahlungen an Kreditoren leisten. Somit können Sie sicherstellen, dass alle Zahlungen mit einer Rechnung ausgeglichen werden."
+description: "Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und auf einen Vorauszahlungsauftrag (Einkauf oder Verkauf) gebucht werden. Sie können z. B. eine Anzahlung vor der Auftragsfertigung von Artikeln oder eine Zahlung vor der Lieferung an einen Kunden verlangen. Mithilfe der Vorauszahlungsfunktion von Finance and Operations, Business edition können Sie Anzahlungen von Kunden fakturieren und einfordern oder Anzahlungen an Kreditoren leisten. Somit können Sie sicherstellen, dass alle Zahlungen mit einer Rechnung ausgeglichen werden."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: fbdeb6b9dc8c96b09ded933ec987b8c60098bfcf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cd74d543168f1f96f55141aace571d6d701e3de1
 ms.contentlocale: de-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen
@@ -75,14 +75,14 @@ In den folgenden Verfahren wird beschrieben, wie Sie Heikes Aufgaben ausführen:
 
 Heike legt standardmässig fest, dass für den Kunden 20000 eine Anzahlung in Höhe von 30 % für alle Aufträge fakturiert werden muss. Daher gibt sie einen Standardvorauszahlungsprozentsatz in der Debitorenkarte ein.  
 
-Heike legt fest, dass für alle Kunden eine Anzahlung in Höhe von 20 % für den Artikel 1100 fakturiert werden muss. Debitor 20000 verfügt über eine schlechte Zahlungsvergangenheit Daher verlangt sie vom Kunden 20000 eine Vorauszahlung von 40 % für die Artikel 1100. Im folgenden Beispiel wird gezeigt, wie Sie standardmäßige Vorauszahlungsprozentsätze einrichten.  
+Heike legt fest, dass für alle Kunden eine Anzahlung in Höhe von 20 % für den Artikel 1100 fakturiert werden muss. Debitor 20000 verfügt über eine schlechte Zahlungsvergangenheit Daher verlangt sie vom Kunden 20000 eine Vorauszahlung von 40 % für die Artikel 1100. Im folgenden Beispiel wird gezeigt, wie Sie standardmässige Vorauszahlungsprozentsätze einrichten.  
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>So weisen Sie Kunden und Artikeln Standardvorauszahlungsprozentsätze zu  
 1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Kunden** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Öffnen Sie das Kartenfenster für Kunde 20000 (Selangorian).
 3.  Geben Sie im Feld **Vorauszahlung %** den Wert **30** ein.  
 4.  Wählen Sie die Schaltfläche **OK**, um die Debitorenkarte zu schliessen.  
-5.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
+5.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
 6.  Öffnen Sie die Karte für Kunde 1100.
 7.  Wählen Sie die **Vorauszahlungsprozentsätze** Aktion aus.  
 8.  Füllen Sie im Fenster **Verkaufsvorauszahlungs-Prozentsätze** zwei Zeilen wie folgt aus.  
@@ -128,7 +128,7 @@ Martha erstellt die Vorauszahlungsrechnung und sendet sie an den Kunden.
 
     Das Feld **Vorauszahlung %** in der Zeile mit dem Artikel **1100** enthält **40**. Dies ist der Prozentsatz, den Sie im Fenster **Verkaufsvorauszahlungs-Prozentsätze** für den Artikel **1100** und den Kunden **20000** eingegeben haben.  
 
-    Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Vorauszahlungen](finance-set-up-prepayments.md).  
+    Weitere Informationen finden Sie unter [Einrichten von Vorauszahlungen](finance-set-up-prepayments.md).  
 8. Wählen Sie die Aktion **Statistik** aus.  
 9. Im Inforegister **Vorauszahlung** enthält das Feld **Vorauszahlungszeilenbetrag ohne MWST.** den Wert **1.560**. Wenn Sie jetzt eine Vorauszahlungsrechnung für den Auftrag erstellen, wird dieser Betrag in der Rechnung angezeigt.  
 
@@ -195,7 +195,7 @@ Peter wurde darüber informiert, dass die Artikel im Auftrag geliefert wurden un
 
 #### <a name="to-invoice-the-remaining-amount"></a>So fakturieren Sie den Restbetrag  
 1. Öffnen Sie den Verkaufsauftrag.  
-2. Wählen Sie die Aktion **Liefern und fakturieren**, und klicken Sie anschließend auf die Schaltfläche **OK**.  
+2. Wählen Sie die Aktion **Liefern und fakturieren**, und klicken Sie anschliessend auf die Schaltfläche **OK**.  
 
 > [!NOTE]  
 >  Normalerweise wurde die Lieferung bereits von der Versandabteilung gebucht.  

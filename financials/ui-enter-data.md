@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
 ms.openlocfilehash: 5f95efb5cad24db9848752035172bc7bb76db716
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="entering-data"></a>Eingeben von Daten
@@ -23,9 +23,9 @@ Es gibt eine Vielzahl an allgemeinen Funktionen, die Ihnen dabei helfen, Daten s
 Die Beispiele in diesen Artikel verwendet die Demodaten.
 
 ## <a name="mandatory-fields"></a>Pflichtfelder
-Wenn Sie Daten auf Seiten in eingeben, werden bestimmte Felder mit einem roten Sternchen markiert. Das rote Sternchen bedeutet, dass das Feld ausgefüllt werden muss, um einen bestimmten Prozess, der das Feld verwendet, abzuschließen (Beispiel: Buchung einer Transaktion, die den Wert in dem Feld verwendet).  
+Wenn Sie Daten auf Seiten in eingeben, werden bestimmte Felder mit einem roten Sternchen markiert. Das rote Sternchen bedeutet, dass das Feld ausgefüllt werden muss, um einen bestimmten Prozess, der das Feld verwendet, abzuschliessen (Beispiel: Buchung einer Transaktion, die den Wert in dem Feld verwendet).  
 
-Selbst wenn das Feld ein rotes Sternchen enthält, sind Sie nicht gezwungen, das Feld auszufüllen, bevor Sie mit anderen Feldern fortfahren oder die Seite schließen. Das rote Sternchen dient nur als Erinnerung, dass Sie am Beenden eines bestimmten Prozesses gehindert werden.  
+Selbst wenn das Feld ein rotes Sternchen enthält, sind Sie nicht gezwungen, das Feld auszufüllen, bevor Sie mit anderen Feldern fortfahren oder die Seite schliessen. Das rote Sternchen dient nur als Erinnerung, dass Sie am Beenden eines bestimmten Prozesses gehindert werden.  
 
 
 ## <a name="finding-data-as-you-type"></a>Suchen von Daten bei der Eingabe  
@@ -163,7 +163,7 @@ Datums- und Uhrzeitwerte können in alle Felder eingegeben werden, die speziell 
 
  Hier folgen einige Beispiele.  
 
-|Termine|Maßeinheit**|  
+|Termine|Masseinheit**|  
 |------------------|-------------------------|  
 |2h|2 Stunden|  
 |6h 30m|6 Stunden 30 Minuten|  

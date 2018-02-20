@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 446ed1f08c7ee5f1060dc2add65826c1a8db674f
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="adding-and-viewing-notes-on-records"></a>Notizen zu Datensätzen hinzufügen und enthalten
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/22/2017
   
     <!-- If **Notes** is not visible on the page, then you can customize the page to display the Notes FactBox. -->
   
-2.  Wählen Sie im Fenster **Notizen** das Fenster **Notizen** aus. Dieses Fenster zeigt alle Bemerkungen über den aktuellen Datensatz an. Von hier aus können Sie folgendermaßen vorgehen:
+2.  Wählen Sie im Fenster **Notizen** das Fenster **Notizen** aus. Dieses Fenster zeigt alle Bemerkungen über den aktuellen Datensatz an. Von hier aus können Sie folgendermassen vorgehen:
 
     -   Um die Benachrichtigung anzuzeigen oder zu bearbeiten, wählen Sie **…** und dann **Bearbeiten**. Sie können dies in der Infobox **Notizen** tun, wenn er verfügbar ist auf der Seite.
     -   Um Notizen hinzuzufügen wählen Sie **+new** und geben Ihre Nachricht  im Kästche **Notizen** ein. Sie können bis zu 30 Textzeilen in dem Hinweis eingeben. 

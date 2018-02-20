@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: d2a2ee196be4562f62604afd4faed608ff07411f
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Designdetails: Laden der Bestands-Profile
@@ -52,7 +52,7 @@ Um die vielen Quellen von Nachfrage und Angebot zu sortieren, organisiert das Pl
  Bedarfs- und Vorratsattribute werden nach Auftragspriorität sowie nach Spezifikationsebene angeordnet. Da Serien-/Chargennummernübereinstimmungen die Ebene der Spezifikation widerspiegeln, gilt: Der spezifischere Bestand, wie etwa eine Chargennummer, die speziell nach Verkaufszeile ausgewählt wurde, sucht eine Übereinstimmung vor einem weniger spezifischen Bestand, etwa einem Verkauf aus einer beliebigen ausgewählten Chargennummer.  
 
 > [!NOTE]  
->  Es gibt keine dedizierten Prioritisierungsregeln für serien-/chargennummerierten Bedarf und Vorrat, außer den Ebenen der Spezifikation, die durch ihre Kombinationen von Serien- und der Chargennummern und die Artikeltrackingeinrichtung der einbezogenen Artikel definiert sind.  
+>  Es gibt keine dedizierten Prioritisierungsregeln für serien-/chargennummerierten Bedarf und Vorrat, ausser den Ebenen der Spezifikation, die durch ihre Kombinationen von Serien- und der Chargennummern und die Artikeltrackingeinrichtung der einbezogenen Artikel definiert sind.  
 
  Während des Ausgleichs betrachtet das Planungssystem Vorrat mit Serien-/Chargennummern als nicht flexibel und versucht nicht, diese Beschaffungsaufträge zu erhöhen oder umzuplanen (sofern sie nicht in einer Auftrag-zu-Auftrag-Beziehung verwendet werden). Vgl. Auftrag-zu-Auftrags-Link werden nie unterbrochen). Diese schützt das Vorrat davor, mehrere und möglicherweise widersprüchliche Ereignismeldungen zu erhalten, wenn eine Bedarfssicherung unterschiedliche Attribute hat, etwa eine Sammlung verschiedener Seriennummern.  
 
@@ -68,12 +68,12 @@ Um die vielen Quellen von Nachfrage und Angebot zu sortieren, organisiert das Pl
  Dieser Ausgleich beeinflusst auch die zeitliche Steuerung. Der begrenzte Zeitraum, der durch den Zeitrahmen gewährt wird, wird nicht berücksichtigt; der Vorrat wird neu geplant, wenn die zeitliche Steuerung des Bedarfs geändert wurde. Es wird jedoch die Toleranzzeit berücksichtigt und Auftrag-zu-Auftrag-Vorrat wird nicht ausgeplant, ausgenommen interner Vorrat eines mehrstufigen Fertigungsauftrags (Projektauftrag).  
 
 > [!NOTE]  
->  Serien-/Chargennummern können auch auf Auftrag-zu-Auftrag-Bedarfen angegeben werden. In diesem Fall gilt der Vorrat nicht standardmäßig als inflexibel, wie dies normalerweise der Fall ist für Serien-/Chargennummern. In diesem Fall erhöht/mindert das System gemäß den Änderungen des Bedarfs. Darüber hinaus gilt: Wenn ein Bedarf variierende Serien-/Chargennummern enthält (etwa mehr als eine Chargennummer), wird ein Beschaffungsauftrag pro Charge vorgeschlagen.  
+>  Serien-/Chargennummern können auch auf Auftrag-zu-Auftrag-Bedarfen angegeben werden. In diesem Fall gilt der Vorrat nicht standardmässig als inflexibel, wie dies normalerweise der Fall ist für Serien-/Chargennummern. In diesem Fall erhöht/mindert das System gemäss den Änderungen des Bedarfs. Darüber hinaus gilt: Wenn ein Bedarf variierende Serien-/Chargennummern enthält (etwa mehr als eine Chargennummer), wird ein Beschaffungsauftrag pro Charge vorgeschlagen.  
 
 > [!NOTE]  
 >  Planungen sollten nicht dazu führen, dass Beschaffungsaufträge erstellt werden, die durch eine Auftrag-zu-Auftrag-Verknüpfung gebunden sind. Wenn der Plan verwendet wird, sollte er nur als Generator des abhängigen Bedarfs in einer Produktionsumgebung verwendet werden.  
 
-## <a name="component-need-is-loaded-according-to-production-order-changes"></a>Der Komponentenbedarf wird gemäß den Fertigungsauftragsänderungen geladen  
+## <a name="component-need-is-loaded-according-to-production-order-changes"></a>Der Komponentenbedarf wird gemäss den Fertigungsauftragsänderungen geladen  
  Wenn es Fertigungsaufträge bearbeitet, muss das Planungssystem die benötigten Komponenten überwachen, bevor es sie in das Anforderungsprofil lädt. Komponentenzeilen, die aus einem ergänzten Fertigungsauftrag resultieren, ersetzen die des ursprünglichen Auftrags. Dadurch ist sichergestellt, dass das Planungssystem festlegt, dass Planungszeilen für Komponentenbedarf nicht dupliziert werden.  
 
 ##  <a name="BKMK_SafetyStockMayBeConsumed"></a>Sicherheitsbestand kann verbraucht werden  
@@ -84,7 +84,7 @@ Um die vielen Quellen von Nachfrage und Angebot zu sortieren, organisiert das Pl
 ## <a name="forecast-demand-is-reduced-by-sales-orders"></a>Planungsbedarf wird durch Verkaufsaufträge reduziert  
  Der Produktionsplan drückt den erwarteten künftigen Bedarf aus. Während der Eingabe des tatsächlichen Bedarfs, üblicherweise als Verkaufsaufträge für Fertigungsartikel, verbraucht er die Planung.  
 
- Die Planung selbst wird durch Verkaufsaufträge nicht reduziert; sie bleibt unverändert. Jedoch werden die geplanten Mengen, die in der Planungsberechnung verwendet werden, reduziert (über die Verkaufsauftragsmengen), bevor die eventuelle Restmenge in das Bedarfsbestandsprofil eingeht. Wenn das Planungssystem tatsächliche Verkäufe für eine Periode prüft, schließt dies sowohl Verkaufsaufträge als auch Lagerposten von gelieferten Verkäufen ein, es sei denn, sie ergeben sich aus einem Rahmenauftrag.  
+ Die Planung selbst wird durch Verkaufsaufträge nicht reduziert; sie bleibt unverändert. Jedoch werden die geplanten Mengen, die in der Planungsberechnung verwendet werden, reduziert (über die Verkaufsauftragsmengen), bevor die eventuelle Restmenge in das Bedarfsbestandsprofil eingeht. Wenn das Planungssystem tatsächliche Verkäufe für eine Periode prüft, schliesst dies sowohl Verkaufsaufträge als auch Lagerposten von gelieferten Verkäufen ein, es sei denn, sie ergeben sich aus einem Rahmenauftrag.  
 
  Ein Benutzer muss eine gültige Planungsperiode definieren. Das Datum auf der Planungsmenge definiert den Anfang der Periode, und das Datum auf der nächsten Planung definiert das Ende der Periode.  
 

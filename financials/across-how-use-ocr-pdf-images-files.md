@@ -12,29 +12,29 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 70bacf1c523fa6f547798b1a8df14b1e316c36b3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 91071855697c9235ba8734b40d77ed0b48c24923
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Gewusst wie: Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln
+# <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln
 Mithilfe eines externen OCR-Dienstes (optische Zeichenerkennung) können Sie aus PDF- oder Bilddateien, die Sie von Ihren Handelspartnern erhalten, elektronische Belege erstellen, die Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] in Belegdatensätze konvertieren können. Wenn Sie beispielsweise eine Rechnung in PDF-Format von Ihrem Kreditor erhalten, können Sie diese über das Fenster **Eingehende Belege** zum OCR-Dienst senden. Dies wird im ersten Verfahren beschrieben.
 
 Als Alternative zum Versenden der Datei über das Fenster **Eingehende Belege** können Sie die Datei per E-Mail zum OCR-Dienst senden. Wenn Sie dann den elektronischen Beleg zurückerhalten, wird automatisch ein damit zusammenhängener Datensatz zum eingehenden Beleg erstellt. Dies wird im zweiten Verfahren beschrieben.
 
 Nach einigen Sekunden erhalten Sie die Datei vom OCR-Dienst als elektronische Rechnung zurück, die zu einer Einkaufsrechnung für den Kreditor umgewandelt werden kann. Dies wird im dritten Verfahren beschrieben.
 
-Da OCR mit einer optischen Zeichenerkennung arbeitet, ist es wahrscheinlich, dass der OCR-Dienst Zeichen in Ihrem PDF oder in Bilddateien (beispielsweise bei der ersten Verarbeitung der Belege eines bestimmten Kreditor) falsch erkennt. Er interpretiert möglicherweise nicht das Firmenlogo als Name des Kreditors oder interpretiert den Gesamtbetrag auf einer Quittung aufgrund des Layouts falsch. Um zu vermeiden, dass diese Fehler fortgeführt werden, können Sie die Fehler in einem separaten Fenster **Eingehender Beleg** korrigieren. Anschließend senden Sie die Korrekturen zum OCR-Dienst zurück, um ihn zu schulen, die bestimmten Zeichen richtig zu interpretieren, wenn er das nächste Mal eine PDF- oder Bilddatei für denselben Kreditor verarbeitet. Weitere Informationen finden Sie im Abschnitt "So trainieren Sie den OCR-Dienst, um Fehler zu vermeiden".
+Da OCR mit einer optischen Zeichenerkennung arbeitet, ist es wahrscheinlich, dass der OCR-Dienst Zeichen in Ihrem PDF oder in Bilddateien (beispielsweise bei der ersten Verarbeitung der Belege eines bestimmten Kreditor) falsch erkennt. Er interpretiert möglicherweise nicht das Firmenlogo als Name des Kreditors oder interpretiert den Gesamtbetrag auf einer Quittung aufgrund des Layouts falsch. Um zu vermeiden, dass diese Fehler fortgeführt werden, können Sie die Fehler in einem separaten Fenster **Eingehender Beleg** korrigieren. Anschliessend senden Sie die Korrekturen zum OCR-Dienst zurück, um ihn zu schulen, die bestimmten Zeichen richtig zu interpretieren, wenn er das nächste Mal eine PDF- oder Bilddatei für denselben Kreditor verarbeitet. Weitere Informationen finden Sie im Abschnitt "So trainieren Sie den OCR-Dienst, um Fehler zu vermeiden".
 
-Der Dateiverkehr zum und vom OCR-Dienst wird von einen dedizierten Projektwarteschlangeneintrag verarbeitet, der automatisch erstellt wird, wenn Sie die damit zusammenhängende Dienstverbindung aktivieren. Weitere Informationen finden Sie unter [So gehts: Einrichten von eingehenden Belegen](across-how-setup-income-documents.md).
+Der Dateiverkehr zum und vom OCR-Dienst wird von einen dedizierten Projektwarteschlangeneintrag verarbeitet, der automatisch erstellt wird, wenn Sie die damit zusammenhängende Dienstverbindung aktivieren. Weitere Informationen finden Sie unter [Eingehende Belege einrichten](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-window"></a>So senden Sie eine PDF- oder eine Bilddatei vom Fenster **Eingehende Belege** an den OCR-Dienst
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Gebuchte Einkaufsrechnungen** ein. Wählen Sie dann den zugehörigen Link aus.
-2. Erstellen Sie einen neuen Datensatz für den Eingangsbeleg und fügen Sie die Datei an. Weitere Informationen finden Sie unter [So gehts: Eingehende Belege erstellen](across-how-create-income-document-records.md).  
+2. Erstellen Sie einen neuen Datensatz für den Eingangsbeleg und fügen Sie die Datei an. Weitere Informationen finden Sie unter [So gehts: Eingehende Dokumente erstellen](across-how-create-income-document-records.md).  
 3. Wählen Sie im Fenster **Eingehende Belege** eine oder mehrere Zeilen aus, und wählen Sie dann die Aktion **An Aufgabenwarteschlange senden**.
 
-    Der Wert im Feld **OCR-Status** wird in **Bereit** geändert. Die angefügte PDF- oder Bilddatei wird von der Projektwarteschlange gemäß dem Zeitplan zum OCR-Dienst gesendet, sofern keine Fehler vorliegen.
+    Der Wert im Feld **OCR-Status** wird in **Bereit** geändert. Die angefügte PDF- oder Bilddatei wird von der Projektwarteschlange gemäss dem Zeitplan zum OCR-Dienst gesendet, sofern keine Fehler vorliegen.
 4. Wählen Sie im Fenster **Eingehende Belege** eine oder mehrere Zeilen aus, und wählen Sie dann die Aktion **An OCR-Dienst senden**.
 
 Der Wert im Feld **OCR-Status** ändert sich zu **Gesendet**, sofern keine Fehler vorliegen.
@@ -42,7 +42,7 @@ Der Wert im Feld **OCR-Status** ändert sich zu **Gesendet**, sofern keine Fehle
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>So senden Sie eine PDF- oder Bilddatei per E-Mail zum OCR-Dienst
 Senden Sie eine E-Mail mit der PDF oder Bilddatei als Anhang aus Ihrer E-Mail-Anwendung an den OCR-Dienstanbieter. Weitere Informationen zur gewünschte E-Mail-Adresse zum Senden finden Sie auf der Website des OCR-Dienstanbieters.
 
-Da kein Eingangsbeleg-Datensatz für die Datei vorhanden ist, wird automatisch ein neuer Datensatz im Fenster **Eingehende Belege** erstellt, wenn Sie den resultierenden elektronischen Beleg vom OCR-Dienst erhalten. Weitere Informationen finden Sie unter [So gehts: Eingehende Belege erstellen](across-how-create-income-document-records.md).
+Da kein Eingangsbeleg-Datensatz für die Datei vorhanden ist, wird automatisch ein neuer Datensatz im Fenster **Eingehende Belege** erstellt, wenn Sie den resultierenden elektronischen Beleg vom OCR-Dienst erhalten. Weitere Informationen finden Sie unter [So gehts: Eingehende Dokumente erstellen](across-how-create-income-document-records.md).
 
 > [!NOTE]  
 >   Wenn Sie an einem Tablet oder einem Telefon arbeiten, können Sie die Datei zum OCR-Dienst senden, sobald Sie ein Foto des Dokuments aufgenommen haben, oder Sie können einen Eingangsbeleg direkt erstellen. Weitere Informationen finden Sie im Abschnitt "So erstellen Sie Eingangsbelegdatensätze indem Sie ein Foto machen" entnehmen [So gehts: Erstellen von Eingangsbelegen](across-how-create-income-document-records.md).
@@ -56,7 +56,7 @@ Wenn Sie keine Aufgabenwarteschlange verwenden oder Sie einen fertigen OCR-Beleg
 >   Wenn der OCR-Dienst für die manuelle Überprüfung der verarbeiteten Belegen eingerichtet wird, dann enthält das **OCR-Status**-Feld den Wert **Wartet auf Verifizierung**. In diesem Fall führen Sie die folgenden Schritte aus, um sich an der OCR-Dienst-Website anzumelden, um einen OCR-Beleg manuell zu überprüfen.
 
 1. Im Feld **OCR-Status**-Feld wählen Sie den Link **Wartet auf Verifizierung** aus. Alternativ wählen Sie die **Wartet auf Verifizierung**-Kachel auf der Homepage aus.
-2. Melden Sie sich auf der OCR-Dienst-Website mit den Anmeldeinformationen des OCR-Service-Kontos an. Das sind die Anmeldeinformationen, die Sie beim Einrichten des Dienstes verwendet haben. Weitere Informationen finden Sie im Abschnitt"So richten Sie einen OCR-Service ein"in [Gewusst wie: Eingehende Dokumente einrichten](across-how-setup-income-documents.md).
+2. Melden Sie sich auf der OCR-Dienst-Website mit den Anmeldeinformationen des OCR-Service-Kontos an. Das sind die Anmeldeinformationen, die Sie beim Einrichten des Dienstes verwendet haben. Weitere Informationen finden Sie im Abschnitt "So richten Sie einen OCR-Service ein" in [Gewusst wie: Eingehende Belege einrichten](across-how-setup-income-documents.md).
 
     Wenn Sie auf die Website über das Feld **OCR Status** zugreifen, wird der entsprechende Beleg sofort nach Ihrem Anmelden gezeigt. Wenn Sie auf die Website zugreifen, indem Sie die Kachel auf der Startseite auswählen, müssen Sie auf der ersten OCR-Dienst-Seite die **Start**-Schaltfläche auf der Registerkarte **Prüfen** auswählen, oder in den Beleg, den Sie prüfen möchten doppelklicken.
 
@@ -67,7 +67,7 @@ Wenn Sie keine Aufgabenwarteschlange verwenden oder Sie einen fertigen OCR-Beleg
     Wenn Sie auf die Website zugreifen, indem Sie die Kachel der Startseite auswählen, wird jeder andere zu überprüfende OCR-Beleg automatisch auf der Website angezeigt.
 5. Wiederholen Sie Schritt 4 für jeden anderen zu überprüfenden OCR-Beleg.
 
-Jetzt können Sie fortfahren, manuelle oder automatisch Belegdatensätze für die eingegangenen elektronische Belege in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu erstellen. Weitere Informationen finden Sie im nächsten Verfahren. Sie können außerdem den neuen Eingangsbelegdatensatz mit vorhandenen gebuchten oder nicht gebuchten Belegen verknüpfen, sodass aus [!INCLUDE[d365fin](includes/d365fin_md.md)] einfach auf die Quelldatei zugegriffen werden kann. Weitere Informationen finden Sie unter [Eingehende Dokumente verarbeiten](across-process-income-documents.md).
+Jetzt können Sie fortfahren, manuelle oder automatisch Belegdatensätze für die eingegangenen elektronische Belege in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu erstellen. Weitere Informationen finden Sie im nächsten Verfahren. Sie können ausserdem den neuen Eingangsbelegdatensatz mit vorhandenen gebuchten oder nicht gebuchten Belegen verknüpfen, sodass aus [!INCLUDE[d365fin](includes/d365fin_md.md)] einfach auf die Quelldatei zugegriffen werden kann. Weitere Informationen finden Sie unter [Eingehende Dokumente verarbeiten](across-process-income-documents.md).
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Eine Einkaufsrechnung aus einem vom OCR-Dienst erhaltenen elektronischen Beleg erstellen.
 Nachfolgend wird beschrieben, wie ein Einkaufsrechnungsdatensatz von Rechnungsrabatten des Kreditors erstellt wird, der als elektronischer Beleg vom OCR-Dienst eingeht. Dieser Vorgang ist derselbe, wenn Sie beispielsweise eine Fibu Erf.-Journalzeile von einem Ausgabenwareneingang oder eine Verkaufsreklamation von einem Kunden erstellen.
@@ -95,7 +95,7 @@ Neben der Zuordnung zu einem Kreditor oder einem anderen Sachkonto können Sie a
 6. Geben Sie im Feld **Habenkontonr.** das Kostenart-Fibukonto ein, das auf dem sich daraus ergebenden Verkaufsbeleg oder der Erf.-Journalzeile vom Typ "Fibukonto" eingefügt wird.
 
     > [!NOTE]
-    > Verwenden Sie die Felder **Herkunftsart Saldo** und **Herkunftsnr. Saldo** nicht in Verbindung mit eingehenden Belegen. Sie werden nur für die automatische Zahlungsabstimmung verwendet. Weitere Informationen finden Sie unter [Vorgehensweise: Zuordnen von sich wiederholenden Zahlungen an Konten bei der automatischen Abstimmung](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+    > Verwenden Sie die Felder **Herkunftsart Saldo** und **Herkunftsnr. Saldo** nicht in Verbindung mit eingehenden Belegen. Sie werden nur für die automatische Zahlungsabstimmung verwendet. Weitere Informationen finden Sie unter [Zuordnen von sich wiederholenden Zahlungen an Konten bei der automatischen Abstimmung](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 
 7. Wiederholen Sie die Schritte 2 bis 5 für alle Texte auf eingehenden Belegen, für die Sie automatisch Belege erstellen möchten.
 
@@ -119,7 +119,7 @@ Das Fenster **OCR-Datenkorrektur**, das Sie über das Fenster **Eingehender Bele
 4. Überschreiben Sie im Fenster **OCR-Datenkorrektur** die Daten in der editierbaren Spalte für jedes Feld, das einen fehlerhaften Wert enthält.
 5. Um Korrekturen rückgängig zu machen, die Sie seit dem Öffnen des Fensters **OCR-Datenkorrektur** vorgenommen haben, wählen Sie die Aktion **Reset OCR Data** aus.
 6. Um die Korrekturen an den OCR-Dienst zu senden, wählen Sie die Aktion **OCR-Feedback senden** aus.
-7. Um die Korrekturen zu speichern, schließen Sie das Fenster **OCR-Datenkorrektur**.
+7. Um die Korrekturen zu speichern, schliessen Sie das Fenster **OCR-Datenkorrektur**.
 
 Die Felder auf dem Inforegister **Finanzinformationen** im Fenster **Eingehender Beleg** werden mit allen neuen Werten aktualisiert, die Sie in Schritt 4 eingegeben haben.
 

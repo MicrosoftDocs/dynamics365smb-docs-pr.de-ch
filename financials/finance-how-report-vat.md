@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: eb261f0b5b2aae94cebd79c6b23b0a21cb9451ae
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3d9a803f16ebe5f88a659d3e9e6dab35efe1eed9
 ms.contentlocale: de-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -29,7 +29,7 @@ Es können folgende Berichte verwendet werden:
 Wenn Sie den gesamten Verlauf von MWST-Posten anzeigen möchten, erstellt jede Buchung, die Mehrwertsteuer beinhaltet, einen Posten auf der Seite **MWST-Posten**. Diese Posten werden verwendet, um Ihren MWST.-Abrechnungsbetrag (Ihrer Zahlung oder Erstattung) für eine bestimmte Periode zu berechnen. Wählen Sie zum Anzeigen von MWST-Posten das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen"), geben **MWST-Posten** ein und wählen den verknüpften Link aus.
 
 ## <a name="about-the-ec-sales-list-report"></a>Info über den Bericht „EU-Verkaufsliste“
-In Großbritannien müssen alle Unternehmen, die Waren und Dienstleistungen an für Mehrwertsteuer registrierte Debitoren verkaufen, einschließlich Debitoren in anderen Ländern der Europäischen Union (EU), eine elektronische Version des Verkaufslistenberichts der MWST-Beträge der Europäischen Union (EU) im XML-Format an die HMRC-Website (Her Majesty's Revenue and Customs) senden. Der EU-Verkaufslistenbericht passt nur für Länder in der EU.
+In Grossbritannien müssen alle Unternehmen, die Waren und Dienstleistungen an für Mehrwertsteuer registrierte Debitoren verkaufen, einschliesslich Debitoren in anderen Ländern der Europäischen Union (EU), eine elektronische Version des Verkaufslistenberichts der MWST-Beträge der Europäischen Union (EU) im XML-Format an die HMRC-Website (Her Majesty's Revenue and Customs) senden. Der EU-Verkaufslistenbericht passt nur für Länder in der EU.
 
 Der Bericht enthält eine Zeile für jede Art Transaktion mit dem Debitor und zeigt den Gesamtbetrag für jede Art von Transaktionen an. Es gibt drei Arten von Transaktionen, die der Bericht enthalten kann:  
 
@@ -48,11 +48,11 @@ Die Mehrwertsteuer wird auf Basis der MWST-Buchungsmatrix-Einr. und der MWST-Buc
 
 Für die Mehrwertsteuerrückgabe können Sie die Posten angeben, die berücksichtigt werden sollen:
 
-* Buchen Sie nur offene Transaktionen oder geöffnete und geschlossene. Dies ist beispielsweise dann nützlich, wenn Sie die abschließende jährliche Mehrwertsteuerrückgabe vorbereiten.
+* Buchen Sie nur offene Transaktionen oder geöffnete und geschlossene. Dies ist beispielsweise dann nützlich, wenn Sie die abschliessende jährliche Mehrwertsteuerrückgabe vorbereiten.
 * Buchen Sie nur Posten aus den angegebenen Zeiträumen, oder aktualisieren Sie auch Posten aus den vorherigen Perioden. Dies dient zum Aktualisieren der Mehrwertsteuerrückgabe, die Sie bereits gebucht haben, wenn zum Beispiel ein Kreditor eine verspätete Rechnung sendet.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Um sich mit der Webdienst Ihrer Steuerbehörde zu verbinden
-[!INCLUDE[d365fin](includes/d365fin_md.md)] stellt die Dienst-Verbindungen für Steuerbehördenwebsites bereit. Wenn Sie beispielsweise in Großbritannien sind, können Sie die **GovTalk**-Dienst-Verbindung ausführen, um die EU-Verkaufsliste und MWST-Rückgabeberichte elektronisch zu senden. Wenn Sie den Bericht manuell buchen möchten, indem Sie z. B. die Daten auf der Website der Steuerbehörden eingeben, ist dies nicht erforderlich.   
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  stellt die Dienst-Verbindungen für Steuerbehördenwebsites bereit. Wenn Sie beispielsweise in Grossbritannien sind, können Sie die **GovTalk**-Dienst-Verbindung ausführen, um die EU-Verkaufsliste und MWST-Rückgabeberichte elektronisch zu senden. Wenn Sie den Bericht manuell buchen möchten, indem Sie z. B. die Daten auf der Website der Steuerbehörden eingeben, ist dies nicht erforderlich.   
 
 Um MwSt an eine Steuerbehörden zu übermitteln, müssen Sie den [!INCLUDE[d365fin](includes/d365fin_md.md)] mit der Steuerbehörde verbinden. Dazu ist es erforderlich, dass Sie ein Konto mit Ihrer Steuerbehörden einrichten. Wenn Sie ein Konto haben, können Sie eine Dienst-Verbindung ausführen, die wir in [!INCLUDE[d365fin](includes/d365fin_md.md)] voraussetzen.
 
@@ -77,7 +77,7 @@ Um MwSt an eine Steuerbehörden zu übermitteln, müssen Sie den [!INCLUDE[d365f
 4. Um einen Bericht für die Übermittlung zu überprüfen und vorzubereiten, wählen Sie die **Freigabe**-Aktion.  
 
     >  [!NOTE]  
->   [!INCLUDE[d365fin](includes/d365fin_md.md)] prüft, ob der Bericht korrekt eingerichtet ist. Wenn die Prüfung fehlschlägt, werden die Fehler im Fenster **Fehler und Warnungen**  angezeigt, sodass Sie entsprechende Änderungen vornehmen können. Wenn die Meldung zu einer fehlenden Einstellung in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfolgt, können Sie auf die Nachricht klicken, um die Seite zu öffnen, die die Informationen zur Korrektur enthält.  
+>   [!INCLUDE[d365fin](includes/d365fin_md.md)]  prüft, ob der Bericht korrekt eingerichtet ist. Wenn die Prüfung fehlschlägt, werden die Fehler im Fenster **Fehler und Warnungen**  angezeigt, sodass Sie entsprechende Änderungen vornehmen können. Wenn die Meldung zu einer fehlenden Einstellung in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfolgt, können Sie auf die Nachricht klicken, um die Seite zu öffnen, die die Informationen zur Korrektur enthält.  
 5. Um den Bericht zu buchen, wählen Sie die **Übermitteln** Aktion.  
 
 Nachdem Sie den Bericht gesendet haben, überwacht [!INCLUDE[d365fin](includes/d365fin_md.md)] den Service und bewahrt einen Datensatz Ihrer Kommunikation auf. Das Feld **Status** gibt an, wo der Bericht in Bearbeitung ist. Beispielsweise wenn die Behörden Ihren Bericht verarbeiten, ändert sich der Status des Berichts auf **Erfolgreich**. Wenn die Steuerbehörde Fehler im Bericht finden, erhält der Bericht den Status **Fehler**. Sie können die Fehler unter **Fehler und Warnungen** anzeigen, korrigieren und den Bericht erneut senden. Um eine Liste Ihrer EU-Verkaufsübersichts-Berichte anzuzeigen, wechseln Sie zur Seite **EU-Verkaufsübersichts-Berichte**.  
@@ -86,12 +86,12 @@ Nachdem Sie den Bericht gesendet haben, überwacht [!INCLUDE[d365fin](includes/d
 In einigen Ländern tauschen Sie Meldungen mit Steuerbehörden aus, wenn Sie Berichte senden. Sie können die erste und letzte Meldung anzeigen, die Sie gebucht oder erhalten haben, indem Sie die Aktionen **Übermittlungsnachricht herunterladen** und **Antwornachricht herunterladen** gewählt haben.  
 
 ## <a name="submitting-vat-reports-manually"></a>Manuelles Senden von MWST-Berichten
-Wenn Sie eine andere Methode verwenden, um den Bericht zu buchen, indem Sie beispielsweise die XML exportieren und sie in eine Steuerbehördenwebsite, können Sie sie danach **als übermittet markieren**, um den Berichtszeitraum zu schließen. Wenn Sie den Bericht als freigegeben kennzeichnen, ist er nicht mehr editierbar. Wenn Sie die Erklärung ändern müssen, nachdem Sie sie als freigegeben gekennzeichnet haben, müssen Sie sie zuerst erneut öffnen.
+Wenn Sie eine andere Methode verwenden, um den Bericht zu buchen, indem Sie beispielsweise die XML exportieren und sie in eine Steuerbehördenwebsite, können Sie sie danach **als übermittet markieren**, um den Berichtszeitraum zu schliessen. Wenn Sie den Bericht als freigegeben kennzeichnen, ist er nicht mehr editierbar. Wenn Sie die Erklärung ändern müssen, nachdem Sie sie als freigegeben gekennzeichnet haben, müssen Sie sie zuerst erneut öffnen.
 
 ## <a name="vat-settlement"></a>MWST-Abrechnung
-Die Netto-MWST muss in regelmässigen Abständen an die Steuerbehörden überwiesen werden. Bei häufigen MWST-Abrechnungen können Sie die Stapelverarbeitung **MWST abrechnen und buchen** ausführen, um die offenen MWST-Posten abzuschließen und die MWST-Beträge für Einkäufe und Verkäufe an das MWST-Abrechnungskonto zu übertragen.
+Die Netto-MWST muss in regelmässigen Abständen an die Steuerbehörden überwiesen werden. Bei häufigen MWST-Abrechnungen können Sie die Stapelverarbeitung **MWST abrechnen und buchen** ausführen, um die offenen MWST-Posten abzuschliessen und die MWST-Beträge für Einkäufe und Verkäufe an das MWST-Abrechnungskonto zu übertragen.
 
-Die Übertragung von MWST-Beträgen auf Abrechnungskonten bedeutet, dass das Vorsteuerkonto im Haben und das Umsatzsteuerkonto im Soll mit den für die angegebene Abrechnungsperiode berechneten Beträge bebucht wird. Der Nettobetrag wird als Haben auf das MWST-Ausgleichskonto gebucht (oder als Soll, wenn der Einkaufs-MWST-Betrag größer ist). Sie können die Abrechnung unmittelbar buchen oder erst einen Testbericht ausdrucken.
+Die Übertragung von MWST-Beträgen auf Abrechnungskonten bedeutet, dass das Vorsteuerkonto im Haben und das Umsatzsteuerkonto im Soll mit den für die angegebene Abrechnungsperiode berechneten Beträge bebucht wird. Der Nettobetrag wird als Haben auf das MWST-Ausgleichskonto gebucht (oder als Soll, wenn der Einkaufs-MWST-Betrag grösser ist). Sie können die Abrechnung unmittelbar buchen oder erst einen Testbericht ausdrucken.
 
 >    [!NOTE]  
 >    Wenn Sie die Stapelverarbeitung **MWST abrechnen und buchen** verwenden und keine **MWST-Geschäftsbuchungsgruppe** und **MWST-Produktbuchungsgruppe** angeben, werden Posten mit den Geschäftsbuchungsgruppen und Produktbuchungsgruppencodes einbezogen.
@@ -114,7 +114,7 @@ Die folgende Tabelle beschreibt Codeunits, die Sie für den Bericht erstellen m�
 
 ## <a name="see-also"></a>Siehe auch 
 [Methoden für die Berechnung und Buchung von Mehrwertsteuer einrichten](finance-setup-vat.md)  
-[So gehts: Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
+[Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Vorgehensweise: Fakturieren](sales-setup-sales.md)  
+[Verkaufsrechnung](sales-setup-sales.md)  
 

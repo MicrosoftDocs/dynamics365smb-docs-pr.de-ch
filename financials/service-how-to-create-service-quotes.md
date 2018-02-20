@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d5348e7b15eb0337f2a5f829c871dadcf3133b86
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9d4f8d21d0c79adbac238b2d26accc4c08656c77
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-quotes"></a>Vorgehensweise: Erstellen von Serviceangeboten
+# <a name="create-service-quotes"></a>Serviceofferten erstellen
 Sie können an Serviceofferten als Basis für Serviceaufträge denken. Tatsächlich sind sie fast identisch. Sie enthalten sowohl die Serviceartikelbeschreibung, wie der Debitor, die Art des Auftrags, den Artikel, für den Service, Gebührenzählung und benötigte Versandinformationen, und die Informationen über die tatsächliche Dienstarbeit.
  
-Serviceangebote können als Vorentwürfe von Serviceaufträgen betrachtet werden, die dann vom Angebot in einen Auftrag umgewandelt werden.  
+Serviceofferten können als Vorentwürfe von Serviceaufträgen betrachtet werden, die dann von der Offerte in einen Auftrag umgewandelt werden.  
   
 ## <a name="to-create-a-service-quote"></a>So erstellen Sie eine Serviceofferte  
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Serviceofferten** ein. Wählen Sie dann den zugehörigen Link aus.  
@@ -38,7 +38,7 @@ Serviceangebote können als Vorentwürfe von Serviceaufträgen betrachtet werden
 7. Erfassen Sie die geschätzten Kosten in den Servicezeilen.  
   
 ## <a name="see-also"></a>Siehe auch  
-[Vorgehensweise: Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)  
-[Vorgehensweise: Bearbeiten von Serviceaufgaben](service-how-to-work-on-service-tasks.md)  
+[Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)  
+[Mit Serviceaufgaben arbeiten](service-how-to-work-on-service-tasks.md)  
 
  

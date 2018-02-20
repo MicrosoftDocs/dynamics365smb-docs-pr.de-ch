@@ -1,6 +1,6 @@
 ---
 title: SEPA Direct Debit einrichten | Microsoft Docs
-description: Erfahren Sie, wie Sie SEPA Abbuchung in Dynamics 365 Business edition einrichten.
+description: Erfahren Sie, wie Sie SEPA Kredittransfers in Finance and Operations, Business edition einrichten.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 28958f1f090e5adad69cb21d30727fcbd6a7fef8
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-sepa-direct-debit"></a>Vorgehensweise: Einrichten von SEPA-Basislastschriften
+# <a name="set-up-sepa-direct-debit"></a>Einrichten von SEPA-Lastschriften
 Im Fenster **Lastschriften**  können Sie Anweisungen in Ihre elektronische Bank exportieren, um eine Lastschrift vom Bankkonto des Debitors auf Ihr Bankkonto durchzuführen. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt das Abbuchungsformat SEPA, aber in Ihrem Land/die Region, sind möglicherweise andere Formate für den elektronischen Zahlungsverkehr verfügbar.  
 
-Um das Exportieren von Bankdateiformaten zu aktivieren, die nicht durch die allgemeine oder lokale Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt werden, können Sie eine Datenaustauschdefinition einrichten, indem Sie das  Datenaustauschframework verwenden. Für weitere Informationen, siehe [Gewusst wie: Einrichten des Datenaustauschdefinition](across-how-to-set-up-data-exchange-definitions.md).  
+Um das Exportieren von Bankdateiformaten zu aktivieren, die nicht durch die allgemeine oder lokale Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt werden, können Sie eine Datenaustauschdefinition einrichten, indem Sie das  Datenaustauschframework verwenden. Für weitere Informationen, siehe [Einrichten der Datenaustauschdefinition](across-how-to-set-up-data-exchange-definitions.md).  
 
 Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im SEPA-Lastschriftformat verarbeiten können, müssen Sie die folgenden Einrichtungsschritte ausführen:  
 
@@ -36,7 +36,7 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Einrichten der Zahlungsmethode des Debitors für die SEPA-Basislastschriftübertragung  
 1. Geben Sie im Feld **Suchen** einen Wert für **Zahlungsformen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus.  
-3. Richten Sie eine Zahlungsmethode ein. Füllen Sie die auf den Lastschrifteinzug bezüglichen Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+3. Richten Sie eine Zahlungsmethode ein. Füllen Sie die auf den Lastschrifteinzug bezüglichen Felder gemäss der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
@@ -46,7 +46,7 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
     > [!NOTE]  
     >  Geben Sie hier keinen Wert in **Bal. Kontonr.** ein  
 
-4. Wählen Sie die Schaltfläche **OK** aus, um das Fenster **Genehmigungskommentare** zu schließen.  
+4. Wählen Sie die Schaltfläche **OK** aus, um das Fenster **Genehmigungskommentare** zu schliessen.  
 5. Geben Sie im Feld **Suchen** **Debitoren** ein, und wählen Sie dann den zugehörigen Link aus.  
 6. Öffnen Sie die Debitorenkarte für den Debitor, der für die SEPA-Basislastschriften eingerichtet werden soll.  
 7. Wählen Sie das Feld , und wählen Sie dann den **Zahlungsformcode**, den Sie in Schritt 3 angegeben haben.  
@@ -57,7 +57,7 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
 2. Öffnen Sie die Karte für den Debitor, der für die SEPA-Basislastschriften eingerichtet werden soll.  
 3. Wählen Sie die **Bankkonten** Aktion aus.  
 4. Wählen Sie im Feld **Debitor-Bankkontenliste** das Debitorenbankkonto, das Basislastschriften verwenden wird, und wählen Sie dann auf der Registerkarte **Start**, in der Gruppe **Prozess**, **Einzugsermächtigungen**.  
-5. Füllen Sie im Fenster Liste der notwendigen **SEPA-Felder** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+5. Füllen Sie im Fenster Liste der notwendigen **SEPA-Felder** die Felder gemäss der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
@@ -72,11 +72,11 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
 
 6.  Wiederholen Sie die Schritte 1 bis 5 für alle Debitoren, die für die SEPA-Basislastschriften eingerichtet werden sollen.  
 
- Das Lastschrift-Mandat wird automatisch in das Feld **Lastschrift-Mandat-ID** eingegeben, wenn Sie eine Verkaufsrechnung für den Debitor erstellen, den Sie in Schritt 2 ausgewählt haben. Weitere Informationen finden Sie unter [Vorgehensweise: Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen](sales-how-work-standard-lines.md).  
+ Das Lastschrift-Mandat wird automatisch in das Feld **Lastschrift-Mandat-ID** eingegeben, wenn Sie eine Verkaufsrechnung für den Debitor erstellen, den Sie in Schritt 2 ausgewählt haben. Weitere Informationen finden Sie unter [Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>Siehe auch  
 [Einziehen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
-[Vorgehensweise: Datenaustauschdefinitionen einrichten](across-how-to-set-up-data-exchange-definitions.md)
-[Vorgehensweise: Wiederkehrende Verkaufs- und Einkaufszeilen einrichten](sales-how-work-standard-lines.md)
+[Datenaustauschdefinitionen einrichten](across-how-to-set-up-data-exchange-definitions.md)
+[Wiederkehrende Verkaufs- und Einkaufszeilen einrichten](sales-how-work-standard-lines.md)
 [Daten elektronisch austauschen](across-data-exchange.md)
 

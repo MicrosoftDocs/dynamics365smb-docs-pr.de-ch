@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 4bc8694fc1da6caab88c3b462e5b50306d08271b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9217d8707ab65d231a6759e86f6f2b2866835bb8
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-modify-planning-suggestions-in-a-graphical-view"></a>Vorgehensweise: Ändern von Planungsvorschlägen in einer grafischen Ansicht
+# <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändern von Planungsvorschlägen in einer grafischen Ansicht
 Eine typische Planungsaktivität besteht darin, Planungsvorschlagszeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion **Ereignismeldung durchführen** ausführen. Eine Alternative zur Durchführung im Planungsvorschlag ist die Verwendung einer grafischen Ansicht.
 
 Im Fenster **Artikelverfügbarkeit nach Zeitachse** können Sie gewisse Beschaffungsaufträge und Planungsvorschläge ändern, indem Sie Elemente entlang der X-Achse ziehen, um die Menge zu ändern oder entlang der Y-Achse, um das Fälligkeitsdatum zu ändern.  
@@ -45,11 +45,11 @@ Der folgende Ablauf zeigt, wie Vorratsvorschläge mit Drag & Drop geändert werd
 3.  Suchen Sie den vorgeschlagenen Beschaffungsauftrag, der bearbeitet werden soll. Sie erkennen änderbare Elemente an dem grünen Kreis und dem Diskettensymbol. Weitere Informationen über die verschiedenen Symbole, finden Sie im Inforegister Zeitachse.  
 4.  Positionieren Sie den Mauszeiger über dem grünen Kreis, bis er grösser wird und der Mauszeiger seine Form zum Verschiebungssymbol (vier Pfeile) ändert.  
 5.  Drücken Sie die Maustaste und halten Sie sie gedrückt, während Sie den Zeiger nach oben oder unten ziehen, um die Menge zu ändern. Drücken Sie die Maustaste und halten Sie sie gedrückt, während Sie den Zeiger nach links oder rechts ziehen, um das Fälligkeitsdatum zu ändern.  
-6.  Außer dem Bewegen von Elementen mit Drag & Drop können Sie auch Planungsvorschläge ändern, indem Sie einige Rechtsklick-Funktionen verwenden. Klicken Sie mit der rechten Maustaste auf den grünen Kreis eines vorgeschlagenen Vorratselements, und wählen Sie eine der folgenden Funktionen aus.  
+6.  Ausser dem Bewegen von Elementen mit Drag & Drop können Sie auch Planungsvorschläge ändern, indem Sie einige Rechtsklick-Funktionen verwenden. Klicken Sie mit der rechten Maustaste auf den grünen Kreis eines vorgeschlagenen Vorratselements, und wählen Sie eine der folgenden Funktionen aus.  
 
     |Funktion|Beschreibung|  
     |--------------|---------------------------------------|  
-    |**Neuen Vorrat erstellen**|Erstellt an der Stelle, auf die Sie rechtsklicken, ein neues Element, das einen neuen vorgeschlagenen Beschaffungsauftrag darstellt. Dies wird zu einer neuen Zeile im Planungsvorschlag, wenn Sie **Änderungen speichern** auswählen.<br /><br /> **HINWEIS:** Wenn die Felder **Standortfilter** oder **Varianten-Filter** im Inforegister **Optionen** leer sind oder mehr als einen Filterwert enthalten, wird der neue Vorrat erstellt und später im Planungs- oder Bestellvorschlag mit den folgenden Codes gespeichert:<br /><br /> * Wenn das Feld "Filter" leer ist, wird der neue Vorrat ohne Lagerort oder Variantencode erstellt.<br /><br /> * «»Wenn mehr als ein Filterwert definiert ist, wird der neue Vorrat für den ersten Filterwert gemäß der Sortiermethode erstellt.<br /><br /> Wenn Sie eine andere Variante oder einen anderen Lagerortcode verwenden möchten, müssen Sie diese in der neuen Planungszeile manuell ändern.|  
+    |**Neuen Vorrat erstellen**|Erstellt an der Stelle, auf die Sie rechtsklicken, ein neues Element, das einen neuen vorgeschlagenen Beschaffungsauftrag darstellt. Dies wird zu einer neuen Zeile im Planungsvorschlag, wenn Sie **Änderungen speichern** auswählen.<br /><br /> **HINWEIS:** Wenn die Felder **Standortfilter** oder **Varianten-Filter** im Inforegister **Optionen** leer sind oder mehr als einen Filterwert enthalten, wird der neue Vorrat erstellt und später im Planungs- oder Bestellvorschlag mit den folgenden Codes gespeichert:<br /><br /> * Wenn das Feld "Filter" leer ist, wird der neue Vorrat ohne Lagerort oder Variantencode erstellt.<br /><br /> * «»Wenn mehr als ein Filterwert definiert ist, wird der neue Vorrat für den ersten Filterwert gemäss der Sortiermethode erstellt.<br /><br /> Wenn Sie eine andere Variante oder einen anderen Lagerortcode verwenden möchten, müssen Sie diese in der neuen Planungszeile manuell ändern.|  
     |**Vorrat automatisch anpassen**|Optimiert einen neuen Vorrat, den Sie im Diagramm erstellt haben, indem Sie sicherstellen, dass sich vor dem nächsten Vorrat ein Lagerbestand von null ergibt.|  
     |**Vorrat löschen**|Löscht das Element im Inforegister **Zeitachse** und löscht die Planungszeile, wenn Sie **Änderungen speichern** auswählen. Das Symbol wird als Diskette mit einem roten Kreuz angezeigt, wenn der Vorrat gelöscht wurde.<br /><br /> **HINWEIS:**Sie können nur einen Vorrat mit dem Ereignismeldungstyp **Neu** löschen. Nachdem Sie **Änderungen speichern** ausgewählt haben, müssen Sie die betreffende Planungszeile im Planungs- oder Bestellvorschlag manuell löschen.|  
 
@@ -64,9 +64,9 @@ Um die Beschaffungsplanänderungen zu übernehmen, müssen Sie den resultierende
  |Schwarzes Kreuz|Aufträge (Vorrat und Bedarf).<br /><br /> -   Kann nicht geändert werden.<br />-   Sichtbar, wenn das Feld **Voraussichtlichen Lagerbestand anzeigen** ausgewählt wird (orangefarbenes Diagramm).|  
  |Roter Kreis|Vorhandene Beschaffungsaufträge, die nicht in den Planungsvorschlägen enthalten sind.<br /><br /> -   Kann nicht geändert werden.<br />-   Sichtbar, wenn das Feld **Voraussichtlichen Lagerbestand anzeigen** ausgewählt wird (orangefarbenes Diagramm).|  
  |Gelber Stern|Nachfrageprognose.<br /><br /> -   Kann nicht geändert werden.<br />-   Sichtbar, wenn das Feld **Planungsname** einen Wert enthält.<br /><br /> Wenn die Felder **Voraussichtlichen Lagerbestand anzeigen** und **Planungsvorschläge einschliessen** ausgewählt werden, hat jeder gelbe Stern ein verknüpftes Äquivalent im entgegengesetzten Diagramm. Dieses stellt dar, wie ein vorgeschlagener Vorrat den voraussichtlichen Bedarf erfüllt.|  
- |Grüner Kreis mit einem Diskettensymbol mit einem roten Kreuz|Vorgeschlagener Beschaffungsauftrag mit Ereignismeldung *Abbrechen*.<br /><br /> -   Kann nicht geändert werden.<br />-   Sichtbar, wenn das Feld **Planungsvorschläge einschließen** ausgewählt wird (grünes Diagramm).|  
- |Grüner Kreis mit einem Diskettensymbol mit einem Stern|Vorgeschlagene Beschaffungsaufträge mit Ereignismeldung *Neu*.<br /><br /> -   Kann geändert werden.<br />-   Sichtbar, wenn das Feld **Planungsvorschläge einschließen** ausgewählt wird (grünes Diagramm).|  
- |Grüner Kreis mit einem Diskettensymbol mit einem oder zwei Pfeilen|Vorgeschlagene Beschaffungsaufträge mit Ereignismeldung *Neu berechnen*, *Menge ändern* oder *Neu berechnen & Menge ändern*<br /><br /> -   Kann geändert werden.<br />-   Sichtbar, wenn das Feld **Planungsvorschläge einschließen** ausgewählt wird (grünes Diagramm).<br /><br /> Die Pfeile geben die Richtung des Planungsvorschlags an. Beispielsweise spiegelt ein Linkspfeil zusammen mit einem Nach-oben-Pfeil eine *Neu berechnen Menge ändern*-Ereignismeldung wider, die aus einer rückwärts ausgeführten Neuplanung und einer Mengenerhöhung besteht.|  
+ |Grüner Kreis mit einem Diskettensymbol mit einem roten Kreuz|Vorgeschlagener Beschaffungsauftrag mit Ereignismeldung *Abbrechen*.<br /><br /> -   Kann nicht geändert werden.<br />-   Sichtbar, wenn das Feld **Planungsvorschläge einschliessen** ausgewählt wird (grünes Diagramm).|  
+ |Grüner Kreis mit einem Diskettensymbol mit einem Stern|Vorgeschlagene Beschaffungsaufträge mit Ereignismeldung *Neu*.<br /><br /> -   Kann geändert werden.<br />-   Sichtbar, wenn das Feld **Planungsvorschläge einschliessen** ausgewählt wird (grünes Diagramm).|  
+ |Grüner Kreis mit einem Diskettensymbol mit einem oder zwei Pfeilen|Vorgeschlagene Beschaffungsaufträge mit Ereignismeldung *Neu berechnen*, *Menge ändern* oder *Neu berechnen & Menge ändern*<br /><br /> -   Kann geändert werden.<br />-   Sichtbar, wenn das Feld **Planungsvorschläge einschliessen** ausgewählt wird (grünes Diagramm).<br /><br /> Die Pfeile geben die Richtung des Planungsvorschlags an. Beispielsweise spiegelt ein Linkspfeil zusammen mit einem Nach-oben-Pfeil eine *Neu berechnen Menge ändern*-Ereignismeldung wider, die aus einer rückwärts ausgeführten Neuplanung und einer Mengenerhöhung besteht.|  
 
 Wenn Sie das Dropdownmenü für das Inforegister **Zeitachse** zugreifen, sehen, die folgenden Funktionen, abhängig von dem, was Sie gewählt haben  
 

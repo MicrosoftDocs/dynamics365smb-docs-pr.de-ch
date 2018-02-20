@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: dde3ad30e76c02f58bd31afaa74b81031857462b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
 ms.contentlocale: de-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="changing-basic-settings"></a>Ändern von grundlegenden Einstellungen
@@ -29,7 +29,7 @@ Im Mittelpunkt finden Sie die Kacheln "Aktivitäten". Aktivitäten zeigen Sie ak
 
 Sie können eine Liste von Lieblingsdebitoren der Homepage auch für Konten einrichten, mit denen Sie häufig Geschäfte tätigen oder besondere Aufmerksamkeit geben müssen. Verwenden Sie die Pfeile, um einen Teil der Seite zu verkleinern und mehr Platz hinzuzufügen, um bestimmte Daten anzuzeigen. Bei der Hierarchie der Homepage finden Sie alle Aktionen, die dem aktuellen Inhalt hinzugefügt werden können. Diese kann auch reduziert werden und Sie müssen nur innerhalb des reduzierten Bereichs klicken oder tippen, um den Inhalt wieder anzuzeigen.
 
-Das Standardrollencenter ist der **Geschäftsführer**, aber Sie können ein anderes Rollencenter auswählen, das mit den Anforderungen besser übereinstimmt. Weitere Informationen finden Sie unter [Vorgehensweise: Rollencenter ändern](change-role.md).
+Das Standardrollencenter ist der **Geschäftsführer**, aber Sie können ein anderes Rollencenter auswählen, das mit den Anforderungen besser übereinstimmt. Weitere Informationen finden Sie unter [Rollencenter ändern](change-role.md).
 
 ## <a name="company"></a>Unternehmen
 Ein Unternehmen dient als Container für Daten im Project .[!INCLUDE[d365fin](includes/d365fin_md.md)] Es kann mehrere Unternehmen in einer Datenbank geben, aber nur eine kann gleichzeitig ausgewählt werden.
@@ -40,7 +40,7 @@ Der Standardmandant wird CRONUS bezeichnet und enthält nur Demodaten enthält.
 >   Wenn Sie einen anderen Namen des Mandanten in der Anwendung anzeigen möchten (z. B. auf der Homepage), setzen Sie das Feld **Name** auf der Seite **Firmendaten** oder das Feld **Anzeigename** auf der Seite **Unternehmen** fest.  
 
 ## <a name="work-date"></a>Arbeitsdatum
-Standardmäßig wird das aktuelle Datum (Systemdatum) verwendet. Um Aufgaben wie das Abschließen von Transaktionen für ein Datum auszuführen, das nicht das aktuelle Datum ist, müssen Sie möglicherweise vorübergehend das Arbeitsdatum ändern.
+Standardmässig wird das aktuelle Datum (Systemdatum) verwendet. Um Aufgaben wie das Abschliessen von Transaktionen für ein Datum auszuführen, das nicht das aktuelle Datum ist, müssen Sie möglicherweise vorübergehend das Arbeitsdatum ändern.
 
 > [!TIP]  
 >   Tippen Sie **W** um rasch das Arbeitsdatum in ein Datumsfeld einzugeben. Schreiben Sie **T**, um rasch das aktuelle Datum in ein Datumsfeld einzugeben.
@@ -56,6 +56,6 @@ Wählen Sie diesen Link, um Benachrichtigungen zu ändern oder anzuzeigen, die S
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[So gehts: Ändern des Rollencenters](change-role.md)  
+[So ändern Sie das Rollencenter](change-role.md)  
 [Anpassen der[!INCLUDE[d365fin](includes/d365fin_md.md)]Erfahrung](ui-experiences.md)  
 

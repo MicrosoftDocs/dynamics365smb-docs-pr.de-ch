@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 2c043a33e02d197281877a8287df7008377d52e4
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Exemplarische Vorgehensweise: Berechnen der WIP für ein Projekt
@@ -40,7 +40,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
  Bevor Sie die Aufgaben in dieser Demonstration ausführen, muss [!INCLUDE[d365fin](includes/d365fin_md.md)] auf dem Computer installiert sein.  
 
 ## <a name="story"></a>Hintergrund  
- Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und Beratungsunternehmen, das neue Infrastrukturen anpasst, wie Konferenzräume mit Möblen, Zubehör und Lagereinheiten. Ein Großteil der Arbeit am CRONUS ist projektorientiert, und Tricia, ein Projektteammitglied, verwendet Projekte, um einen Überblick über die einzelnen laufenden Projekte zu erhalten, die CRONOS  gestartet hat, und auch über die Projekte, die abgeschlossen sind. Einige der Projekte können langfristig sein und sich über Monate erstrecken. Katrin kann ein Unf.-Arbeit-Konto verwenden, um die unfertige Arbeit zu erfassen und die Kosten während des Projekts zu verfolgen.  
+ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und Beratungsunternehmen, das neue Infrastrukturen anpasst, wie Konferenzräume mit Möblen, Zubehör und Lagereinheiten. Ein Grossteil der Arbeit am CRONUS ist projektorientiert, und Tricia, ein Projektteammitglied, verwendet Projekte, um einen Überblick über die einzelnen laufenden Projekte zu erhalten, die CRONOS  gestartet hat, und auch über die Projekte, die abgeschlossen sind. Einige der Projekte können langfristig sein und sich über Monate erstrecken. Katrin kann ein Unf.-Arbeit-Konto verwenden, um die unfertige Arbeit zu erfassen und die Kosten während des Projekts zu verfolgen.  
 
 ## <a name="calculating-wip"></a>Berechnen der WIP  
  CRONUS hat ein Projekt mit langer Laufzeit übernommen, das sich nun über mehrere Berichtszeiträume erstreckt. Katrin, ein Projektteammitglied, berechnet die unfertige (WIP) Arbeit, um sicherzustellen, dass die Finanzaufstellung des Unternehmens korrekt ist.  
@@ -87,11 +87,11 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
 10. Erweitern Sie auf der Karte **Projekt** das Inforegister **WIP und Umsatzrealisierung**, um die berechneten Werte anzuzeigen. Sie können auch das **WIP-Buchungsdatum** und die im Sachkonto gebuchten Werte anzeigen, soweit vorhanden.  
 
- Beachten Sie, dass der Wert für **Deaktivierter Einstandsbetrag** 215,60 in der Spalte **Zu buchen** ist. Dieses spiegelt die Gesamtkosten von zwei Artikeln in der Projektaufgabengruppe 1110 – 1130 wieder. Der dritte Artikel wurde auf **Ausschließlich** gesetzt und ist daher nicht in die WIP-Berechnung einbezogen.  
+ Beachten Sie, dass der Wert für **Deaktivierter Einstandsbetrag** 215,60 in der Spalte **Zu buchen** ist. Dieses spiegelt die Gesamtkosten von zwei Artikeln in der Projektaufgabengruppe 1110 – 1130 wieder. Der dritte Artikel wurde auf **Ausschliesslich** gesetzt und ist daher nicht in die WIP-Berechnung einbezogen.  
 
 ### <a name="to-review-wip-warnings"></a>WIP-Warnungen überprüfen  
 
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen]Symbol (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **Projekt-WIP-Methoden** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen Symbol") und geben **Projekt-WIP-Methoden** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die entsprechende Projekte **Deerfield**und wählen Sie dann die Aktion **Warnung anzeigen** aus.  
 3.  Überprüfen Sie im Fenster **Job-WIP-Warnungen** die Warnung, die dem Projekt zugeordnet ist.  
 

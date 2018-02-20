@@ -13,10 +13,10 @@ ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7eac962e0c9863d8c6ed9bcff19f320687f217ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cee6dcc0c0f4f596b3f63dbafec344875edb4e33
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -27,22 +27,22 @@ Beim Einrichten des Servicemanagements muss festgelegt werden, welche Services D
   
 Beim Definieren eines Service kann dieser den Qualifikationen zugeordnet werden, die zur Ausführung des Services erforderlich sind. Damit die Servicemitarbeiter effizient arbeiten, können auch Richtlinien für Lösungsanleitungen in Echtzeit eingerichtet und typische Anfangskosten, wie Reisekosten oder andere Gebühren, zugeordnet werden.  
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.  
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
   
 | Bis | Informationen |
 | --- | --- |
-| Richten Sie Codes ein, die Zeilen in Servicebelegen für Services automatisch zuordnen, die Sie häufig liefern. |[Vorgehensweise: Einrichten von Codes für Standardservices](service-how-setup-service-coding.md)|
-| Richten Sie allgemeine Einstellungen ein, die Aspekte von Service-Vorgängen steuern.|[Vorgehensweise: Konfigurieren von Serviceprozessen](service-setup-service-processes.md)|
-| Definieren Sie, wie Ihre Organisation mit Fehlermeldungen arbeitet. |[Gewusst wie: Einrichten von Problem-Berichtswesen](service-how-setup-fault-reporting.md) |
-| Einrichten der Dienstzubringer, die Ihr Unternehmen an den Debitor liefert.|[Vorgehensweise: Einrichten von Serviceangeboten](service-how-setup-service-offerings.md)|
-| Erstellen Sie Lösungsanleitungen, mit denen die Servicemitarbeiter schnelleren Service bereitstellen können. |[Vorgehensweise: Um Lösungsanleitungen einzurichten:](service-how-setup-troubleshooting.md) |
-| Richten Sie Ressourcenzuordnung ein, um die Zuordnung der richtigen Ressource zu einer Serviceaufgabe zu vereinfachen. |[Vorgehensweise: Einrichten von Ressourcenzuordnung](service-how-setup-resource-allocation.md) |
-| Definieren Sie Preise für Services und legen Sie zusätzliche Servicekosten fest, die bei Serviceaufträgen ermittelt werden. |[Vorgehensweise: Einrichten von Preisen und zusätzlichen Kosten für Services](service-how-setup-service-costs-pricing.md)|
-| Normalerweise verfolgt ein Servicemanagementsystem Ressourcenstunden und den Serviceauftragsstatus, um die Arbeitsauslastung und Serviceanforderungen zu prognostizieren.|[Vorgehensweise: Einrichten von Arbeits- und Servicezeiten](service-how-setup-work-service-hours.md)|
-| Einrichten Reparaturstatusoptionen einrichten, sodass Sie Status auf Service überwachen können. | [Vorgehensweise: Einrichten von Status für Serviceaufträge und Reparaturen](service-order-repair-status.md)|
-| Richten Sie ein Leihgeräteprogramm ein, damit Sie Ersatzartikel ausleihen können, während Sie an einem Serviceartikel arbeiten. |[Vorgehensweise: Einrichten eines Leihgeräteprogramms](service-how-setup-loaner-program.md) |
-| Richten Sie Serviceartikel und Serviceartikelkomponenten ein. |[Vorgehensweise: Einrichten von Serviceartikeln](service-how-setup-service-items.md) |
-| Legen Sie die Grundlagen für das Erstellen von Serviceverträgen und Vertragsofferten. |[Vorgehensweise: Einrichten von Serviceverträgen](service-how-setup-service-contracts.md) |
+| Richten Sie Codes ein, die Zeilen in Servicebelegen für Services automatisch zuordnen, die Sie häufig liefern. |[Einrichten von Codes für Standardservices](service-how-setup-service-coding.md)|
+| Richten Sie allgemeine Einstellungen ein, die Aspekte von Service-Vorgängen steuern.|[Konfigurieren von Serviceprozessen](service-setup-service-processes.md)|
+| Definieren Sie, wie Ihre Organisation mit Fehlermeldungen arbeitet. |[Fehlerberichte einrichten](service-how-setup-fault-reporting.md) |
+| Einrichten der Dienstzubringer, die Ihr Unternehmen an den Debitor liefert.|[Um Serviceangebote einzurichten:](service-how-setup-service-offerings.md)|
+| Erstellen Sie Lösungsanleitungen, mit denen die Servicemitarbeiter schnelleren Service bereitstellen können. |[Lösungsanleitung Einrichtung](service-how-setup-troubleshooting.md) |
+| Richten Sie Ressourcenzuordnung ein, um die Zuordnung der richtigen Ressource zu einer Serviceaufgabe zu vereinfachen. |[Um Ressourcenzuweisung einzurichten:](service-how-setup-resource-allocation.md) |
+| Definieren Sie Preise für Services und legen Sie zusätzliche Servicekosten fest, die bei Serviceaufträgen ermittelt werden. |[Einrichten von Preisen und zusätzlichen Kosten für Services](service-how-setup-service-costs-pricing.md)|
+| Normalerweise verfolgt ein Servicemanagementsystem Ressourcenstunden und den Serviceauftragsstatus, um die Arbeitsauslastung und Serviceanforderungen zu prognostizieren.|[Einrichten von Arbeits- und Servicezeiten](service-how-setup-work-service-hours.md)|
+| Einrichten Reparaturstatusoptionen einrichten, sodass Sie Status auf Service überwachen können. | [Einrichten von Status für Serviceaufträge und Reparaturen](service-order-repair-status.md)|
+| Richten Sie ein Leihgeräteprogramm ein, damit Sie Ersatzartikel ausleihen können, während Sie an einem Serviceartikel arbeiten. |[Einrichten eines Leihgeräteprogramms](service-how-setup-loaner-program.md) |
+| Richten Sie Serviceartikel und Serviceartikelkomponenten ein. |[Serviceverträge einrichten](service-how-setup-service-items.md) |
+| Legen Sie die Grundlagen für das Erstellen von Serviceverträgen und Vertragsofferten. |[Serviceverträge einzurichten:](service-how-setup-service-contracts.md) |
 
 ## <a name="see-also"></a>Siehe auch 
 [Service](service-service.md)  

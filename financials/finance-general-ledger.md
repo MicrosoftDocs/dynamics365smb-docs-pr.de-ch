@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 63d414f4c81a9e20b4bb81b632edd9c91fb34a87
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Verständnis des Fibupostens und des COA
@@ -39,7 +39,7 @@ Der Kontenschema zeigt alle Fibukonten an. Vom Kontenplan aus können Sie Dinge 
 * Berichte ansehen, die die Fibuposten und -Salden zeigen.  
 * Erfolgsrechnung-Kontennullstellung.  
 * Öffnen der Fibukontokarte, um Einstellungen hinzuzufügen oder zu ändern.  
-* Sie können außerdem eine Liste von Buchungsgruppen anzeigen, die auf dieses Konto buchen.
+* Sie können ausserdem eine Liste von Buchungsgruppen anzeigen, die auf dieses Konto buchen.
 * Ansicht der Soll- und Habensalden von einzelnen Sachkonten  
 
 Sie können Fibukonten hinzufügen, ändern oder löschen. Um jedoch Differenzen zu verhindern, können Sie ein Fibuposten nicht löschen, wenn Daten im Kontenschema verwendet werden.  

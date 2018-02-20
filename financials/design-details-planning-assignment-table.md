@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: e7591196c3335f7640d37151054b22dd687b36e8
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-planning-assignment-table"></a>Designdetails: Planungs-Zuordnungstabelle
@@ -33,8 +33,8 @@ Die Tabelle **Planning Assignment** überwacht Bedarf und Vorrat und ordnet die 
 * Ein neuer Verkaufsauftrag, eine Planung, eine Komponente, eine Bestellung, ein Fertigungsauftrag, ein Montageauftrag oder ein Umlagerungsauftrag.  
 * Änderung von Artikel, Menge, Lagerort, Variante oder Datum auf einem Verkaufsauftrag, Plan, einer Komponente, einem Einkaufsauftrag, einem Produktionsauftrag, einem Montageauftrag oder einem Umlagerungsauftrag.  
 * Stornierung eines Verkaufsauftrags, einer Planung, einer Komponente, einer Bestellung, eines Fertigungsauftrags, eines Montageauftrags oder eines Umlagerungsauftrags.  
-* Verbrauch von Artikeln außerhalb der Planung.  
-* Istmeldungen von Artikeln außerhalb der Planung.  
+* Verbrauch von Artikeln ausserhalb der Planung.  
+* Istmeldungen von Artikeln ausserhalb der Planung.  
 * Ungeplante Bestandänderungen.  
   
 Für diese direkten Vorrat-Bedarf-Verschiebungen wahrt das Auftragstracking- und Aktionsmeldungssystem die Planungs-Zuordnungstabelle und gibt einen Planungsgrund als Aktionsmeldung aus.  

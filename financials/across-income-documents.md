@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8c15fded4b70ee0fce8ad43f90b915a33523fc77
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d38f1ed77ac3fac7c9283af6ea0f92479adbf89f
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="incoming-documents"></a>Eingehende Belege
@@ -36,12 +36,12 @@ Die Verarbeitung von Eingangsbelegen kann aus den folgenden Hauptaktivitäten be
   * Automatisch, indem Sie den Beleg vom OCR-Dienst als ein elektronisches Beleg empfangen, nachdem Sie die zugehörige PDF- oder Bilddatei per E-Mail an den OCR-Dienst gesendet haben. Das Inforegister **Finanzinformationen** wird automatisch im Fenster **Eingehender Beleg** ausgefüllt.
 * Nutzen Sie den OCR-Dienst zur Umwandlung von PDF- oder Bilddateien in elektronische Belege die in [!INCLUDE[d365fin](includes/d365fin_md.md)] in Belegdatensätze konvertiert werden können.
 * Erstellen Sie neue Belege oder eine Fibu Buch.-Blattzeilen aus einem eingehenden Belegdatensatz, indem sie die Informationen so eingeben, wie sie in den eingehenden Belegen stehen.
-* Fügen Sie eingehender Belege zu Einkaufs- und Verkaufsbelegen jeden möglichen Status hinzu, einschließlich der resultierenden Kreditor, Debitor- und Fibuposten, die aus dem Buchen resultieren.
+* Fügen Sie eingehender Belege zu Einkaufs- und Verkaufsbelegen jeden möglichen Status hinzu, einschliesslich der resultierenden Kreditor, Debitor- und Fibuposten, die aus dem Buchen resultieren.
 * Zeigen Sie Eingangsbelege und deren Anhänge aus Einkaufs- und Verkaufsbelegen oder Posten an, oder finden Sie alle Sachposten ohne Eingangsbelege im Fenster **Kontenplan**.
 
 | Aktion | Informationen |
 | --- | --- |
-| Richten Sie die Funktion für Eingangsbelege und den OCR-Dienst ein. |[Gewusst wie: Eingehende Dokumente einrichten](across-how-setup-income-documents.md) |
+| Richten Sie die Funktion für Eingangsbelege und den OCR-Dienst ein. |[Einrichten von eingehenden Belegen](across-how-setup-income-documents.md) |
 | Erstellen Sie eingehende Belegdatensätze, fügen Sie Dateien hinzu, nutzen Sie OCR, um PDF-Dateien in elektronische Belege umzuwandeln, konvertieren Sie elektronische Belege in Belegdatensätze, überwachen Sie eingehende Belegdatensätze aus gebuchten Verkaufs- und Einkaufsbelegen. |[Eingehende Dokumente verarbeiten](across-process-income-documents.md) |
 
 ## <a name="see-also"></a>Siehe auch

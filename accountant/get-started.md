@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: 591ca492802166610f00ad5be09badd719fdb64a
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="get-started-with-included365acclongincludesd365acclongmdmd"></a>Erste Schritte mit [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
@@ -61,7 +61,7 @@ Technisch haben Sie sich jetzt bei Ihrem Client [!INCLUDE[d365fin](includes/d365
 > [!TIP]  
 >  Sie können die vordefinierte Excel-Arbeitsmatte aus **Berichte** im Menüband anzeigen. Diese Excel-Arbeitsmappen sind dafür ausgelegt, bereit zu sein, Schlüsselfinanzauswertungen und Berichte zu drucken, können jedoch auch geändert werden, um sie Ihren Anforderungen anzupassen. Weitere Informationen finden Sie unter [Analysieren von Finanzauswertungen in Microsoft Excel](/dynamics365/financials/finance-analyze-excel?toc=/dynamics365/accountants/toc.json) in der Hilfe für [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Andernfalls schließen Sie den Detailbereich und gehen zum nächsten Client.  
+Andernfalls schliessen Sie den Detailbereich und gehen zum nächsten Client.  
 
 ## <a name="assigned-tasks"></a>Zugewiesene Aufgaben
 Im [!INCLUDE[d365fin](includes/d365fin_md.md)] Ihres Kunden können Sie sich selbst sowie anderen Aufgaben zuordnen und andere Personen können Ihnen Aufgaben zuordnen. Ihr Dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)] zeigt Ihnen eine Liste der zugewiesenen Aufgaben für jeden Kunden, und Sie können auf eine Liste aller zugewiesenen Aufgaben zugreifen, indem Sie in der linken Navigation **Meine Benutzeraufgaben** auswählen.  
@@ -75,7 +75,7 @@ Die Liste **Meine Benutzeraufgaben** in [!INCLUDE[d365acc](includes/d365acc_md.m
 
 ![Liste der Aufgaben, die mir al externem Buchhalter zugeordnet wurden](./media/accountant-get-started/accountant-tasklist.png)
 
-Sie können z. B. nach Fälligkeitsdatum, oder einem beliebigen anderen Datentyp sortieren, der dabei hilft, den Tag zu priorisieren. Standardmäßig zeigt die Liste alle Aufgaben an, die Ihnen zugeordnet wurden, aber Sie können Filter setzen, um z.B. nur Aufgaben anzuzeigen, die mit hoher Priorität markiert wurden.
+Sie können z. B. nach Fälligkeitsdatum, oder einem beliebigen anderen Datentyp sortieren, der dabei hilft, den Tag zu priorisieren. Standardmässig zeigt die Liste alle Aufgaben an, die Ihnen zugeordnet wurden, aber Sie können Filter setzen, um z.B. nur Aufgaben anzuzeigen, die mit hoher Priorität markiert wurden.
 
 Um eine Aufgabe aufzunehmen, wählen Sie sie einfach aus der Liste der ausstehenden Benutzeraufgaben aus. Im Menüband öffnet der Link **Zu Aufgabenelement wechseln** das Fenster, in dem Sie die Arbeit ausführen können.  
 

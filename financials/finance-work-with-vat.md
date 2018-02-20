@@ -13,19 +13,19 @@ ms.search.keywords: VAT, sales, purchases,
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 596b5d73e019375aa84b7cb227d305fc29762ae1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 31b28811529cb4e5296a04c18f1f41d9f452a9be
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-vat-on-sales-and-purchases"></a>So gehtsf: Arbeiten mit MwSt im Verkauf und Einkauf
+# <a name="work-with-vat-on-sales-and-purchases"></a>Arbeiten mit MwSt im Verkauf und Einkauf
 Wenn Ihr Land oder Ihre Region es erfordert, die Mehrwertsteuer (MWST) in Einkaufs- und Verkaufstransaktionen zu berechnen, sodass Sie die Beträge einer Steuerbehörden melden können, können Sie festlegen, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] MWST in Einkaufs- und Verkaufsbelegen automatisch berechnet wird. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Mehrwertsteuer] (finance-setup-vat.md).
 
 Es gibt jedoch MWST-verknüpfte Aufgaben, die Sie manuell tun können. Beispielsweise müssen Sie möglicherweise einen gebuchten Betrag korrigieren, wenn Sie feststellen, dass ein Kreditor eine andere Rundungsmethode verwendet.
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Berechnen und Anzeigen von MWST-Beträgen in Verkaufs- und Einkaufsbelegen  
-Je nach Debitoren- oder Kreditorenart können MWST-Beträge in Verkaufs- und Einkaufsbelegen unterschiedlich berechnet und angezeigt werden. Darüber hinaus kann der von der Anwendung berechnete MWST-Betrag außer Kraft gesetzt werden und der von Ihrem Kreditor für ein bestimmtes Geschäft berechnete MWST-Betrag verwendet werden.  
+Je nach Debitoren- oder Kreditorenart können MWST-Beträge in Verkaufs- und Einkaufsbelegen unterschiedlich berechnet und angezeigt werden. Darüber hinaus kann der von der Anwendung berechnete MWST-Betrag ausser Kraft gesetzt werden und der von Ihrem Kreditor für ein bestimmtes Geschäft berechnete MWST-Betrag verwendet werden.  
 
 ### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Verkaufspreis und Zeilenbetrag inklusive/exklusive MWST auf Verkaufsbelegen  
 Wenn Sie eine  Artikelnummer im **Nr.** Feld in einem Verkaufsbeleg auswählen, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] von der Anwendung auch das Feld **Einheitspreis** ausgefüllt. Der Verkaufspreis wird von der **Artikel**karte übernommen oder anhand der Artikelpreise berechnet, die für den Artikel und den Debitor zulässig sind. [!INCLUDE[d365fin](includes/d365fin_md.md)]berechnet den **Zeilenbetrag** nur dann, wenn Sie eine Menge für die Zeile eingeben.  
@@ -33,7 +33,7 @@ Wenn Sie eine  Artikelnummer im **Nr.** Feld in einem Verkaufsbeleg auswählen, 
 Wenn Sie an einen Einzelhandelskunden verkaufen, möchten Sie möglicherweise, dass die Preise in Verkaufsbelegen MWST enthalten. Um dies zu tun, aktivieren Sie das Kontrollkästchen **Preise inkl. MwSt.** im Beleg.  
 
 ### <a name="including-or-excluding-vat-on-prices"></a>Mit oder ohne MWST auf Preise
-Ist das Feld **Preise inkl. MWST** aktiviert, werden die Felder **VK-Preis** und **Zeilenbetrag** mit der MWST berechnet und der Feldname zeigt dies ebenfalls. Standardmäßig ist die MwSt nicht in diesen Feldern enthalten.  
+Ist das Feld **Preise inkl. MWST** aktiviert, werden die Felder **VK-Preis** und **Zeilenbetrag** mit der MWST berechnet und der Feldname zeigt dies ebenfalls. Standardmässig ist die MwSt nicht in diesen Feldern enthalten.  
 
 Ist das Feld nicht aktiviert, wird in die Felder **VK-Preis** und **Zeilenbetrag** ein Betrag ohne MWST. eingegeben. Dies wird auch durch die Feldnamen wiedergegeben.  
 
@@ -79,7 +79,7 @@ Sie können MWST-Beträge auch in den Erfassungsjournalen Allgemein, Verkauf und
 2. Nachdem Sie die oben beschriebene Einrichtung durchgeführt haben, können Sie den Betrag im Feld **MWST-Betrag** in der Fibu-Erf.-Blattzeile oder das Feld **Gegenkonto MWST-Betrag** in der Verkaufs- oder Einkaufs-Erf.-Journalzeile an den MWST-Betrag der Rechnung anpassen. [!INCLUDE[d365fin](includes/d365fin_md.md)]Die Anwendung prüft, ob die Differenz die festgelegte maximale Differenz übersteigt.  
   
     > [!NOTE]  
-    > Wenn die Differenz größer ist, wird in einer Warnmeldung über die maximal zulässige Differenz informiert. Um fortfahren, müssen Sie den Betrag korrigieren. Klicken Sie auf **OK** , und geben Sie einen anderen MwSt.-Betrag ein, der innerhalb des zulässigen Bereichs liegt. Wenn die MWST-Differenz der maximal zulässigen Differenz entspricht oder höher ist, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] die Abweichung im Feld **MWST-Differenz** angezeigt.  
+    > Wenn die Differenz grösser ist, wird in einer Warnmeldung über die maximal zulässige Differenz informiert. Um fortfahren, müssen Sie den Betrag korrigieren. Klicken Sie auf **OK** , und geben Sie einen anderen MwSt.-Betrag ein, der innerhalb des zulässigen Bereichs liegt. Wenn die MWST-Differenz der maximal zulässigen Differenz entspricht oder höher ist, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] die Abweichung im Feld **MWST-Differenz** angezeigt.  
 
 ## <a name="to-post-import-vat-with-purchase-invoices"></a>Import-MwSt mit Einkaufsrechnungen buchen
 Zur Buchung einer Rechnung mit Einfuhrumsatzsteuer kann anstelle eines Fibu-Erfassungsjournals auch eine Einkaufsrechnung verwendet werden.  
@@ -109,7 +109,7 @@ Wenn Sie Waren an einen Debitor in einem anderen EU-Land/einer anderen EU-Region
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Gebuchte Rücklieferungen** ein und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die relevante Verkaufslieferung an einen Debitor in einem anderen EU-Land/einer anderen EU-Region aus.  
 3. Wählen Sie **Details der Gelangensbestätigung**.  
-4. Standardmäßig ist bei der Einrichtung des MWST-Buchungsgruppen-Setup für den Debitor das Kontrollkästchen **Gelangensbestätigung erforderlich** ausgewählt, dann ist das Feld **Status** standardmäßig auf **Erforderlich** festgelegt. Sie können das Feld automatisch aktualisieren, um anzugeben, dass Sie das Zertifikat von dem Debitor erhalten haben.  
+4. Standardmässig ist bei der Einrichtung des MWST-Buchungsgruppen-Setup für den Debitor das Kontrollkästchen **Gelangensbestätigung erforderlich** ausgewählt, dann ist das Feld **Status** standardmässig auf **Erforderlich** festgelegt. Sie können das Feld automatisch aktualisieren, um anzugeben, dass Sie das Zertifikat von dem Debitor erhalten haben.  
 
     > [!Note]  
     >  Wenn bei der MWST.-Buchungsgruppen-Einrichtung nicht das Kontrollkästchen **Gelangensbestätigung erforderlich** ausgewählt ist, wird ein Datensatz erstellt und das Feld **Status** auf **Nicht anwendbar** festgelegt. Sie können das Feld automatisch aktualisieren, um die richtigen Statusinformationen widerzuspiegeln. Sie können den Status bei Bedarf manuell von **Nicht anwendbar** in **Erforderlich** und von **Erforderlich** in **Nicht anwendbar** ändern.  
@@ -134,7 +134,7 @@ Wenn Sie Waren an einen Debitor in einem anderen EU-Land/einer anderen EU-Region
 
 4. Wählen Sie das Kontrollkästchen **Positionsdetails drucken**, um Informationen aus den Zeilen im Warenausgangsbeleg auf der Gelangensbestätigung zu berücksichtigen.  
 5. Wählen Sie das Kontrollkästchen **Gelangensbestätigungen erstellen, falls nicht bereits erstellt**, um von [!INCLUDE[d365fin](includes/d365fin_md.md)] Zertifikate auf gebuchte Lieferungen erstellen zu lassen, die zum Zeitpunkt der Ausführung keine haben. Wenn Sie das Kontrollkästchen aktivieren, werden neue Zertifikate für alle gebuchten Lieferungen erstellt, die über keine Zertifikate innerhalb des ausgewählten Bereichs verfügen.  
-6. Standardmäßig betreffen die Filtereinstellungen den Warenausgangsbeleg, den Sie ausgewählt haben. Füllen Sie die Filterinformationen aus, um eine spezifische Gelangensbestätigung auszuwählen, die Sie drucken möchten.  
+6. Standardmässig betreffen die Filtereinstellungen den Warenausgangsbeleg, den Sie ausgewählt haben. Füllen Sie die Filterinformationen aus, um eine spezifische Gelangensbestätigung auszuwählen, die Sie drucken möchten.  
 7. Wählen Sie im Fenster **Gelangenbestätigung** die Schaltfläche **Drucken** aus, um den Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
     > [!Note]  
@@ -147,7 +147,7 @@ Wenn Sie Waren an einen Debitor in einem anderen EU-Land/einer anderen EU-Region
 2. Wählen Sie die relevante Verkaufslieferung an einen Debitor in einem anderen EU-Land/einer anderen EU-Region aus.  
 3. Wählen Sie im Feld **Status** die entsprechende Option aus.  
 
-   Wenn der Kunde eine Gelangensbestätigung zurücksendet, wählen Sie **Erhalten** aus. Das Feld **Eingangsdatum** wird aktualisiert. Standardmäßig ist das Wareneingangsdatum auf das aktuelle Arbeitsdatum festgelegt.  
+   Wenn der Kunde eine Gelangensbestätigung zurücksendet, wählen Sie **Erhalten** aus. Das Feld **Eingangsdatum** wird aktualisiert. Standardmässig ist das Wareneingangsdatum auf das aktuelle Arbeitsdatum festgelegt.  
 
    Sie können das Datum ändern, sodass das Datum angezeigt wird, an dem Sie die unterschriebene Gelangensbestätigung des Debitors erhalten haben. Sie können mit der Standard-[!INCLUDE[d365fin](includes/d365fin_md.md)]-Verknüpfung einen Link zu dem unterschriebenen Zertifikat hinzufügen.  
 
@@ -161,7 +161,7 @@ Um eine Gruppe von Zertifikaten anzuzeigen, beginnen Sie im **Gelangensbestätig
 3. Um die Statusinformationen zu aktualisieren, aktivieren Sie **Liste bearbeiten**.  
 4. Wählen Sie im Feld **Status** die entsprechende Option aus.  
 
-   Wenn der Kunde eine Gelangensbestätigung zurücksendet, wählen Sie **Erhalten** aus. Das Feld **Eingangsdatum** wird aktualisiert. Standardmäßig ist das Wareneingangsdatum auf das aktuelle Arbeitsdatum festgelegt.  
+   Wenn der Kunde eine Gelangensbestätigung zurücksendet, wählen Sie **Erhalten** aus. Das Feld **Eingangsdatum** wird aktualisiert. Standardmässig ist das Wareneingangsdatum auf das aktuelle Arbeitsdatum festgelegt.  
 
    Sie können das Datum ändern, sodass das Datum angezeigt wird, an dem Sie die unterschriebene Gelangensbestätigung erhalten haben. Sie können mit der Standard-[!INCLUDE[d365fin](includes/d365fin_md.md)]-Verknüpfung einen Link zu dem unterschriebenen Zertifikat hinzufügen.  
 

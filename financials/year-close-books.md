@@ -1,6 +1,6 @@
 ---
-title: "Überblick über die erforderlichen Aufgaben für das Schließen der Bücher| Microsoft Docs"
-description: "Erhalten von Informationen über das Schließens der Bücher für ein Geschäftsjahr oder für eine Periode, und was passiert, nachdem Sie das Jahr abgeschloßen haben."
+title: "Überblick über die erforderlichen Aufgaben für das Schliessen der Bücher| Microsoft Docs"
+description: "Erhalten von Informationen über das Schliessens der Bücher für ein Geschäftsjahr oder für eine Periode, und was passiert, nachdem Sie das Jahr abgeschlossen haben."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,25 +13,25 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 870f1c6a7f93195e0308a646402d642f6cadd219
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3d92f1ca1f36ca74b2da9922d2929ad69c5b31cf
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="closing-the-books"></a>Bucher schließen
+# <a name="closing-the-books"></a>Bucher schliessen
 Nachdem sichergestellt wurde, dass sich alle Konten auf dem neuesten Stand befinden und Kosten und Umsatz verteilt wurden, können die Bücher für ein Geschäftsjahr oder für eine Periode abgeschlossen werden.
 
 Ein Jahresabschluss muss nicht zwingend durchgeführt werden, erleichtert Ihnen aber die Arbeit im System, da Sie auf diese Weise die Vorteile der benutzerfreundlichen Filteroptionen nutzen können. Es besteht auch kein Anlass zur Sorge, dass beim Jahresabschluss Details der Transaktionen verloren gehen, da alle Details auch nach Abschluss eines Jahrs beibehalten werden.
 
-## <a name="closing-book-process"></a>Prozess zum Abschließen der Bücher
+## <a name="closing-book-process"></a>Prozess zum Abschliessen der Bücher
 Der Prozess für den Abschluss der Bücher umfasst diese Hauptaufgaben:
 
-1. Abschließen der Buchhaltungsperiode.
+1. Abschliessen der Buchhaltungsperiode.
 
     Ein Geschäftsjahr ist definiert als mindestens eine offene Periode im Fenster **Buchhaltungsperioden**. Üblicherweise umfasst ein Geschäftsjahr 12 Perioden von jeweils einem Monat, das Jahr kann jedoch auch auf andere Weise definiert werden.
 
-    Weitere Informationen finden Sie unter [Vorgehensweise: Abschließen von Buchhaltungsperioden](year-close-account-periods.md).
+    Weitere Informationen finden Sie unter [Abschliessen von Buchhaltungsperioden](year-close-account-periods.md).
 2. Erfassen der Vorjahresposten.
 
     Beim Abschliessen eines Geschäftsjahrs müssen eine Reihe verwaltungsbezogener Transaktionen (wie Artikel mit Vorauszahlung oder abgegrenzte Artikel) eingegeben werden. Diese Transaktionen werden als Regulierungsposten bezeichnet. Für die Buchung dieser Posten gelten keine besonderen Regeln, und auch bei diesen Posten ist das Kontrollkästchen **Nachbuchung** aktiviert, wenn sie für ein Datum gebucht werden, das innerhalb eines abgeschlossenen Geschäftsjahrs liegt. Auch wenn ein Geschäftsjahr abgeschlossen wurde, können hierfür noch Fibuposten gebucht werden.
@@ -44,9 +44,9 @@ Der Prozess für den Abschluss der Bücher umfasst diese Hauptaufgaben:
 
     Wenn die Stapelverarbeitung "Erfolgsrechnungsabschluss" generiert wurde, buchen Sie die erstellten Einträge. Wurde in der Stapelverarbeitung kein Erfolgsrechnungs-Abschlusskonto angegeben, geben Sie eine Zeile mit einem Saldoposten ein, durch den der Nettoertrag auf das korrekte Konto (in der Bilanz unter "Eigenkapital") gebucht wird. Anschliessend kann das Erf.-Journal gebucht werden.
 
-    Weitere Informationen finden Sie unter [Vorgehensweise: Buchen von Jahresabschlussposten](year-how-post-year-end-close-entry.md).
+    Weitere Informationen finden Sie unter [Buchen von Jahresabschlussposten](year-how-post-year-end-close-entry.md).
 
-## <a name="what-happens-when-you-close"></a>Was erfolgt, wenn Sie abschließen
+## <a name="what-happens-when-you-close"></a>Was erfolgt, wenn Sie abschliessen
 Wenn Sie am Ende des Jahres den Jahresabschluss durchführen, werden Ihre Erträge aus den berechneten Erträgen auf das Konto "Gewinnvortragskonto" verschoben. Das Geschäftsjahr wird als "Geschlossen" gekennzeichnet, und alle nachfolgenden Posten für das geschlossene Jahr werden als "Nachbuchungen" gekennzeichnet.
 
 Anschliessend wird ein Ultimoposten generiert, der jedoch nicht automatisch gebucht wird. Sie erhalten die Möglichkeit, die Gegenbuchung der Posten des Eigenkapitalkontos durchzuführen, sodass Sie entscheiden können, wie der Ultimoposten zugeordnet wird. Wenn Ihr Unternehmen über mehrere Geschäftsbereiche verfügt, können Sie vom System einen einzigen Ultimoposten für alle Geschäftsbereiche generieren lassen und dann für das Eigenkapitalkonto jedes Geschäftsbereichs eine Gegenbuchung erstellen.
@@ -54,6 +54,6 @@ Anschliessend wird ein Ultimoposten generiert, der jedoch nicht automatisch gebu
 Sie können Buchungen in einem früheren Geschäftsjahr auch durchführen, nachdem die Erfolgskonten geschlossen wurden, wenn Sie danach die Stapelverarbeitung Erfolgskonten Nullstellung erneut ausführen.
 
 ## <a name="see-also"></a>Siehe auch
-[So geht's: Ein neues Geschäftsjahr eröffnen](finance-how-open-new-fiscal-year.md)  
+[Ein neues Geschäftsjahres eröffnen](finance-how-open-new-fiscal-year.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

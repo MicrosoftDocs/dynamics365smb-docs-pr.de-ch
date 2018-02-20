@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: 957c8889d943ed412af7555271897b52c0759969
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designdetails: Interner Lagerfluss
@@ -27,7 +27,7 @@ An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerpl�
 ## <a name="internal-flows-in-basic-warehousing"></a>Interne Ströme in der einfachen Logistik  
  In der Basis-Lagerkonfiguration konzentriert sich der Warenfluss zwischen Lagerplätzen in den Kundenzentren auf die Kommissionierung von Komponenten und die Einlagerung von Endartikeln für Produktion oder Montage und Ad-hoc-Verschiebungen, wie etwa Lagerplatzauffüllungen, ohne Bezug auf Herkunftsbelege.  
 
-### <a name="flows-to-and-from-production"></a>Fließt zu und von Produktion  
+### <a name="flows-to-and-from-production"></a>Fliesst zu und von Produktion  
  Die Hauptintegration zwischen Fertigungsaufträgen und grundlegenden Logistikaktivitäten wird durch die Möglichkeit repräsentiert, Produktionskomponenten mit den Fenstern **Kommissionierung** und **Lagerbestandsumlagerung** zu kommissionieren.  
 
 > [!NOTE]  
@@ -39,10 +39,10 @@ An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerpl�
 
  Weitere Informationen darüber, wie der Komponentenverbrauch aus Zu-Produktion- oder Off. Fert.-Ber.-Lagerplätzen gebucht wird, finden Sie im Abschnitt „Buchungen von Produktionskomponenten in Lager“ in diesem Thema.  
 
-### <a name="flows-to-and-from-assembly"></a>Fließt zu und von Montage  
+### <a name="flows-to-and-from-assembly"></a>Fliesst zu und von Montage  
  Die Hauptintegration zwischen Montageaufträgen und grundlegenden Logistikaktivitäten wird durch die Möglichkeit repräsentiert, Montagekomponenten zum Montagebereich zu verschieben.  
 
- Während keine bestimmten Lagerfunktionen für die Einlagerung von Montageartikeln vorhanden sind, kann der Lagerplatzcode im Montageauftragskopf zu einem standardmäßigen Einlagerungs-Lagerplatz festgelegt werden. Das Buchen des Montageauftrags erfolgt dann wie das Buchen einer Einlagerung. Die Lageraktivität, um Montageartikeln in das Lager zu verschieben, kann im **Interne Umlagerung**-Fenster verwaltet werden, ohne Verknüpfung zum Montageauftrag.  
+ Während keine bestimmten Lagerfunktionen für die Einlagerung von Montageartikeln vorhanden sind, kann der Lagerplatzcode im Montageauftragskopf zu einem standardmässigen Einlagerungs-Lagerplatz festgelegt werden. Das Buchen des Montageauftrags erfolgt dann wie das Buchen einer Einlagerung. Die Lageraktivität, um Montageartikeln in das Lager zu verschieben, kann im **Interne Umlagerung**-Fenster verwaltet werden, ohne Verknüpfung zum Montageauftrag.  
 
  Die folgenden Montageflüsse sind vorhanden.  
 
@@ -52,7 +52,7 @@ An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerpl�
 |Programmfertigung|Die Komponenten werden auf einem Montageauftrag benötigt, der mit einem Verkaufsauftrag verbunden ist, der geliefert wird, wenn der verkaufte Artikel montiert wird.|  
 
 > [!NOTE]  
->  Wenn Artikel auftragsgemäß montiert werden, löst die Kommissionierung des verknüpften Verkaufsauftrags eine Lagerbestandsumlagerung für alle beteiligten Montagekomponenten aus, nicht nur für den Verkaufsartikel wie beim Liefern von Lagerartikeln.  
+>  Wenn Artikel auftragsgemäss montiert werden, löst die Kommissionierung des verknüpften Verkaufsauftrags eine Lagerbestandsumlagerung für alle beteiligten Montagekomponenten aus, nicht nur für den Verkaufsartikel wie beim Liefern von Lagerartikeln.  
 
  Die Felder **Zu Mont.-Bereitst.-Lagerplatzcode**, **Von Mont.-Bereitst.-Lagerplatzcode** und **Montage-Ausgangslagerplatzcode** auf der Lagerortkarte legen Standardströme nach und von Montagebereichen fest.  
 
@@ -67,7 +67,7 @@ An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerpl�
 ## <a name="internal-flows-in-advanced-warehousing"></a>Interne Ströme in der erweiterten Logistik  
  In erweiterten Lagerkonfigurationen, der Warenfluss zwischen Lagerplätzen in den Mandantencentern hinsichtlich Entnahmekomponenten und dem Einlagern von Endartikeln für Fertigungsaufträge und dem Kommissionieren von Komponenten für Montageaufträge. Darüber hinaus treten interne Ströme als Ad-hoc-Lagerplatzumlagerungen, wie Lagerplatzauffüllungen ohne Beziehung zu Herkunftsbelegen auf.  
 
-### <a name="flows-to-and-from-production"></a>Fließt zu und von Produktion  
+### <a name="flows-to-and-from-production"></a>Fliesst zu und von Produktion  
  Die Hauptintegration zwischen Fertigungsaufträgen und erweiterten Logistikaktivitäten wird durch die Möglichkeit repräsentiert, Produktionskomponenten, im Fenster **Kommissionierung** und im Fenster **Kommissioniervorschlag**, zu kommissionieren, sowie durch die Möglichkeit, Fertigungsartikel mit dem Fenster **Interne Einlagerung** einzulagern.  
 
  Ein weiterer Integrationspunkt in der Produktion wird mit dem **Lagerplatzumlagerung** Fenster, zusammen mit dem Lagerplatzumlagerungs-Fenster bereitgestellt, womit Sie Komponenten platzieren und produzierte Artikel für freigegebene Fertigungsaufträge nehmen können.  
@@ -76,13 +76,13 @@ An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerpl�
 
  Weitere Informationen darüber, wie der Komponentenverbrauch aus Zu-Produktion- oder Off. Fert.-Ber.-Lagerplätzen gebucht wird, finden Sie im Abschnitt „Buchungen von Produktionskomponenten in Lager“ in diesem Thema.  
 
-### <a name="flows-to-and-from-assembly"></a>Fließt zu und von Montage  
+### <a name="flows-to-and-from-assembly"></a>Fliesst zu und von Montage  
  Die Hauptintegration zwischen Montageaufträgen und erweiterten Logistikaktivitäten wird durch die Möglichkeit repräsentiert, Montagekomponenten, mit dem Fenster **Kommissionierung** und dem Fenster **Kommissioniervorschlag**, zu kommissionieren. Diese Funktionen funktionieren genauso, wie beim Kommissionieren von Komponenten für Fertigungsaufträge.  
 
- Während keine bestimmten Lagerfunktionen für die Einlagerung von Montageartikeln vorhanden sind, kann der Lagerplatzcode im Montageauftragskopf zu einem standardmäßigen Einlagerungs-Lagerplatz festgelegt werden. Das Buchen des Montageauftrags erfolgt dann wie das Buchen einer Einlagerung. Die Lageraktivität, um von Montageartikeln in das Lager zu verschieben, kann im **Lagerplatzumlagerungsvorschlag**-Fenster oder im **Interne Einlag.-Anforderung**-Fenster verwaltet werden, ohne Verknüpfung zum Montageauftrag.  
+ Während keine bestimmten Lagerfunktionen für die Einlagerung von Montageartikeln vorhanden sind, kann der Lagerplatzcode im Montageauftragskopf zu einem standardmässigen Einlagerungs-Lagerplatz festgelegt werden. Das Buchen des Montageauftrags erfolgt dann wie das Buchen einer Einlagerung. Die Lageraktivität, um von Montageartikeln in das Lager zu verschieben, kann im **Lagerplatzumlagerungsvorschlag**-Fenster oder im **Interne Einlag.-Anforderung**-Fenster verwaltet werden, ohne Verknüpfung zum Montageauftrag.  
 
 > [!NOTE]  
->  Wenn Artikel auftragsgemäß montiert werden, löst die Lagerlieferung des verknüpften Verkaufsauftrags eine Kommissionierung für alle beteiligten Montagekomponenten aus, nicht nur für den Verkaufsartikel wie beim Liefern von Lagerartikeln.  
+>  Wenn Artikel auftragsgemäss montiert werden, löst die Lagerlieferung des verknüpften Verkaufsauftrags eine Kommissionierung für alle beteiligten Montagekomponenten aus, nicht nur für den Verkaufsartikel wie beim Liefern von Lagerartikeln.  
 
  Die Felder **Mont.-Bereitst.-Lagerplatzcode** und **Montage-Ausgangslagerplatzcode** auf der Lagerortkarte legen Standardströme nach und von Montagebereichen fest.  
 

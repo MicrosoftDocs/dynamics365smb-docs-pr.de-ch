@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-application"></a>Designdetails: Artikelausgleich
@@ -31,7 +31,7 @@ Darüber hinaus wird ein Artikelausgleich erstellt, um den Kostenempfänger mit 
 |Mengenausgleich|Erstellt für alle Bestandstransaktionen|  
 |Ausgleich Lagerwert reguliert|Erstellt für eingehende Posten zusammen mit einem Mengenausgleich als Folge eines Benutzereingriffs in speziellen Prozessen.|  
 
-Artikelausgleiche können folgendermaßen vorgenommen werden.  
+Artikelausgleiche können folgendermassen vorgenommen werden.  
 
 |Methode|Description|Anwendungstyp|  
 |------------|---------------------------------------|----------------------|  
@@ -40,7 +40,7 @@ Artikelausgleiche können folgendermaßen vorgenommen werden.
 
 Ob Mengen-Anwendungen oder Kostenanträge gemacht werden, hängt von der Richtung der Lagertransaktion und auch davon ab, ob der Artikelausgleich in Verbindung mit Systemprozessen automatisch gesetzt oder korrigiert wird.  
 
-Die nachstehende Tabelle zeigt, basierend auf den zentralen Ausgleichsfeldern auf Lagertransaktionzeilen, wie die Kosten je nach Transaktionsrichtung fließen. Gibt auch an, wann und warum der Artikelausgleich den Typ Menge oder Kosten hat.  
+Die nachstehende Tabelle zeigt, basierend auf den zentralen Ausgleichsfeldern auf Lagertransaktionzeilen, wie die Kosten je nach Transaktionsrichtung fliessen. Gibt auch an, wann und warum der Artikelausgleich den Typ Menge oder Kosten hat.  
 
 ||Ausgleich mit Artikelpostenfeld|Ausgegl. von Artikelpostenfeld|  
 |-|--------------------------------|----------------------------------|  
@@ -70,12 +70,12 @@ Die folgende Tabelle zeigt den Artikelausgleichsposten, der erstellt wird, wenn 
 
 |Buch. Datum|Eingeh. Lagerposten Laufnr.|Ausgeh. Lagerposten Laufnr.|Menge|Lagerposten Laufnr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|0|0|10|0|  
+|01-01-20|1|0|10|1|  
 
 ## <a name="inventory-decrease"></a>Lagerabgänge  
 Wenn Sie einen Lagerabgang buchen, wird ein Artikelausgleichsposten erfasst, der den Lagerbagang mit einem Lagerzugang verknüpft. Diese verknüpfung wird erstellt, indem die Lagerabgangsmethode des Artikels verwendet wird. Für Artikel mit den Kostenberechnungsmethoden FIFO, Standard und Durchschnitt basiert die Verknüpfung auf dem FIFO-Prinzip. Die Bestandsminderung wird auf die Bestandserhöhung mit dem frühesten Buchungsdatum angewendet. Für Artikel mit der Kostenberechnungsmethode LIFO basiert die Verknüpfung auf dem LIFO-Prinzip. Die Bestandsminderung wird auf die Bestandserhöhung mit dem neuesten Buchungsdatum angewendet.  
 
-In der Tabelle **Lagerposten** enthält das Feld **Restmenge die Menge**, für die es noch keine Verknüpfung gibt. Wenn die Restmenge größer als 0 ist, wird das Kontrollkästchen **Offen** aktiviert.  
+In der Tabelle **Lagerposten** enthält das Feld **Restmenge die Menge**, für die es noch keine Verknüpfung gibt. Wenn die Restmenge grösser als 0 ist, wird das Kontrollkästchen **Offen** aktiviert.  
 
 ### <a name="example"></a>Beispiel  
 Das folgende Beispiel zeigt einen Artikelausgleichsposten, der erstellt wird, wenn Sie eine Verkaufslieferung buchen, die 5 Einheiten der Artikel umfasst, die im vorherigen Beispiel eingegangen sind. Der erste Artikelausgleichsposten ist der Einkaufseingang. Der zweite Ausgleichsposten ist die Verkaufslieferung.  
@@ -84,8 +84,8 @@ Die folgende Tabelle zeigt die beiden Artikelausgleichsposten, die aus der Besta
 
 |Buch. Datum|Eingeh. Lagerposten Laufnr.|Ausgeh. Lagerposten Laufnr.|Menge|Lagerposten Laufnr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|0|0|10|0|  
-|01-03-20|0|2|-5|2|  
+|01-01-20|1|0|10|1|  
+|01-03-20|1|2|-5|2|  
 
 ## <a name="fixed-application"></a>fester Ausgleich  
 Sie können einen festen Ausgleich vornehmen, wenn Sie angeben, dass die Kosten eines Lagerzugangs einem bestimmten Lagerabgang (oder umgekehrt) zugeordnet werden sollen. Der feste Ausgleich betrifft die verbleibenden Mengen der Posten , er kehrt aber auch die exakten Kosten des ursprünglichen Postens um, zu oder von dem Sie den Ausgleich durchführen.  
@@ -103,17 +103,17 @@ Die folgende Tabelle zeigt Lagerposten an, die aus dem Szenario resultieren.
 
 |**Buchungsdatum**|**Lagerpostenart**|**Menge**|**Einstandsbetrag (tatsächl.)**|**Lagerposten Laufnr.**|  
 |----------------------|---------------------------------------------------|------------------|----------------------------------------------------|---------------------------------------------------|  
-|01-04-20|Einkauf|10|10,00|0|  
+|01-04-20|Einkauf|10|10,00|1|  
 |01-05-20|Einkauf|10|20.00|2|  
 |01-06-20|Einkauf (Reklamation)|-10|-20.00|3|  
 
-Da ein fester Ausgleich aus der Einkaufsreklamation für den zweiten Einkaufsposten durchgeführt wird, werden die Artikel mit den richtigen Kosten zurückgegeben. Wenn der Benutzer nicht den festen Ausgleich ausgeführt hätte, dann wäre der zurückgegebene Artikel falsch mit MW 10,00 bewertet worden, da die Rückgabe gemäß dem FIFO-Prinzip auf den ersten Einkaufsposten angewendet worden wäre.  
+Da ein fester Ausgleich aus der Einkaufsreklamation für den zweiten Einkaufsposten durchgeführt wird, werden die Artikel mit den richtigen Kosten zurückgegeben. Wenn der Benutzer nicht den festen Ausgleich ausgeführt hätte, dann wäre der zurückgegebene Artikel falsch mit MW 10,00 bewertet worden, da die Rückgabe gemäss dem FIFO-Prinzip auf den ersten Einkaufsposten angewendet worden wäre.  
 
 Die folgende Tabelle zeigt den Artikelausgleichsposten, der aus dem festen Ausgleich resultiert.  
 
 |Buch. Datum|Eingeh. Lagerposten Laufnr.|Ausgeh. Lagerposten Laufnr.|Menge|Lagerposten Laufnr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-06-20|0|3|10|3|  
+|01-06-20|1|3|10|3|  
 
 Der Einstandsbetrag wird dann LCY 20.00, richtig mit der Einkaufsreklamation verknüpft.  
 
@@ -130,8 +130,8 @@ Die folgende Tabelle zeigt das Ergebnis des Szenarios auf die Wertposten des Art
 
 |Buch. Datum|Lagerpostenart|Bewertete Menge|Einstandsbetrag (tatsächl.)|Ausgleich mit Lagerposten|Bew. z. Einst.-Pr. (durchschn.)|Lagerposten Laufnr.|Postennr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Einkauf|0|200.00||Nr.|0|0|  
-|01-01-20|Einkauf|0|1000.00||Nein|2|2|  
+|01-01-20|Einkauf|1|200.00||Nr.|1|1|  
+|01-01-20|Einkauf|1|1000.00||Nein|2|2|  
 |01-01-20|Einkauf|-1|-1000|2|Nein|3|3|  
 |01-01-20|Einkauf|1|100.00||Nein|4|4|  
 |01-01-20|Verkauf|-2|-300.00||Ja|5|5|  
@@ -142,8 +142,8 @@ Die folgende Tabelle zeigt die Auswirkung auf die Wertposten des Artikels an, we
 
 |Buch. Datum|Lagerpostenart|Bewertete Menge|Einstandsbetrag (tatsächl.)|Ausgleich mit Lagerposten|Bew. z. Einst.-Pr. (durchschn.)|Lagerposten Laufnr.|Postennr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Einkauf|0|200.00||Nr.|0|0|  
-|01-01-20|Einkauf|0|1000.00||Nein|2|2|  
+|01-01-20|Einkauf|1|200.00||Nr.|1|1|  
+|01-01-20|Einkauf|1|1000.00||Nein|2|2|  
 |01-01-20|Einkauf|-1|433,33||Ja|3|3|  
 |01-01-20|Einkauf|1|100.00||Nein|4|4|  
 |01-01-20|Verkauf|-2|866,67||Ja|5|5|  
@@ -169,7 +169,7 @@ Die folgende Tabelle zeigt das Ergebnis der Szenarioschritte 1 bis 3 für die We
 
 |Buch. Datum|Lagerpostenart|Bewertete Menge|Einstandsbetrag (tatsächl.)|Ausgegl. von Lagerposten|Lagerposten Laufnr.|Postennr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Einkauf|0|1000.00||0|0|  
+|01-01-20|Einkauf|1|1000.00||1|1|  
 |02-01-20|Verkauf|-1|1000.00||2|2|  
 |03-01-20|Verkaufs&gutschrift|1|1000|2|3|3|  
 
@@ -177,16 +177,16 @@ Die folgende Tabelle enthält den Wertposten,der aus Szenarioschritt 4, Buchung 
 
 |Buch. Datum|Lagerpostenart|Bewertete Menge|Einstandsbetrag (tatsächl.)|Ausgegl. von Lagerposten|Lagerposten Laufnr.|Postennr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|04-01-20|(Artikel &Zu-/Abschlag)|0|100.00||0|4|  
+|04-01-20|(Artikel &Zu-/Abschlag)|1|100.00||1|4|  
 
 Die folgende Tabelle zeigt die Auswirkung der exakten Kostenumkehrung der Wertposten des Artikels an.  
 
 |Buch. Datum|Lagerpostenart|Bewertete Menge|Einstandsbetrag (tatsächl.)|Ausgegl. von Lagerposten|Lagerposten Laufnr.|Postennr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Einkauf|0|1000.00||0|0|  
+|01-01-20|Einkauf|1|1000.00||1|1|  
 |02-01-20|Verkauf|-1|1100.00||2|2|  
 |03-01-20|Verkaufs&gutschrift|1|1100.00|2|3|3|  
-|04-01-20|(Artikel &Zu-/Abschlag)|0|100.00||0|4|  
+|04-01-20|(Artikel &Zu-/Abschlag)|1|100.00||1|4|  
 
 Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge** ausführen, werden die erhöhten Kosten des Einkaufspostens aufgrund des Zu-/Abschlags (Artikelnummer) zum Verkaufsposten weitergeleitet (Postennummer 2). Der Verkaufsposten übergibt dann diese erhöhten Kosten an den Verkaufsgutschriftposten weiter (Postennummer 3). Das Endergebnis ist, dass die Kosten korrekt umgekehrt werden.  
 
@@ -210,8 +210,8 @@ Die folgende Tabelle zeigt die Auswirkung der Umlagerung auf die Wertposten des 
 
 |Buch. Datum|Lagerpostenart|Lagerortcode|Bewertete Menge|Einstandsbetrag (tatsächl.)|Postennr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Einkauf|BLAU|0|10,00|0|  
-|01-01-20|Einkauf|BLAU|0|20.00|2|  
+|01-01-20|Einkauf|BLAU|1|10,00|1|  
+|01-01-20|Einkauf|BLAU|1|20.00|2|  
 |02-01-20|Umlagerung|BLAU|-1|15.00|3|  
 |02-01-20|Umlagerung|ROT|1|15.00|4|  
 
@@ -225,7 +225,7 @@ Die folgende Tabelle zeigt die Auswirkung der Umlagerung auf die Wertposten des 
 
 |Buch. Datum|Lagerpostenart|Lagerortcode|Bewertete Menge|Einstandsbetrag (tatsächl.)|Postennr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Einkauf|BLAU|0|10,00|0|  
+|01-01-20|Einkauf|BLAU|1|10,00|1|  
 |02-01-20|Transfer|BLAU|-1|10,00|2|  
 |02-01-20|Umlagerung|ROT|1|10,00|3|  
 

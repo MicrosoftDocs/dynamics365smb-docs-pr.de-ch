@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7cafdcb9f6002d0732ee86b643b784d96e8c2aa1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-service-orders-and-credit-memos"></a>Vorgehensweise: Buchen von Serviceaufträgen und Gutschriften
+# <a name="post-service-orders-and-credit-memos"></a>Buchen von Serviceaufträgen und Gutschriften
 Nachdem Sie einen Serviceauftrag erstellt und eventuelle Änderungen vorgenommen haben, können Sie den Serviceauftrag buchen. Der Serviceauftrag muss mindestens eine Serviceartikelzeile und eine Servicezeile enthalten, bevor Sie den Auftrag buchen können. Sollte der Auftrag mehr als eine Serviceauftragszeile umfassen, bucht die Anwendung alle Zeilen in einem Durchgang.  
 
-Wenn Sie eine große Anzahl an Serviceaufträgen haben, können Sie Zeit sparen, wenn Sie diese mit einer Stapelverarbeitung buchen. Sie können diese Stapelverarbeitung aus jedem Serviceauftrag ausführen.
+Wenn Sie eine grosse Anzahl an Serviceaufträgen haben, können Sie Zeit sparen, wenn Sie diese mit einer Stapelverarbeitung buchen. Sie können diese Stapelverarbeitung aus jedem Serviceauftrag ausführen.
 
 > [!Tip]
 > Bevor Sie einen Servicebeleg buchen, ist es vorteilhaft, die **Bericht testen** Aktion zu nutzen, um jeden Fehler oder fehlende Informationen zu prüfen. Wenn es Fehler gibt, müssen Sie das jeweilige Problem lösen. Sie können einen neuen Testbericht ausdrucken, um die Behebung zu bestätigen, und den Beleg dann buchen.
@@ -76,8 +76,8 @@ Im folgenden Verfahren wird beschrieben, wie die Artikel, Ressourcenzeiten und/o
 
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Serviceaufträge** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Öffnen Sie den Serviceauftrag, für den der Verbrauch gebucht werden soll.  
-3. Wählen Sie den Serviceartikel aus. Wählen Sie **Aktionen** , **Auftrag**, und klicken Sie anschließend auf **Servicezeilen**.  
-4. Suchen Sie nach den entsprechenden Posten, und geben Sie im Feld **Mge. zu verbrauchen** die Mengen an, für die Sie den Verbrauch buchen. Die Menge kann nicht größer als die bereits gelieferte Menge und die nicht fakturierte Restmenge nach einer teilweisen Fakturierung dieser Lieferung sein.  
+3. Wählen Sie den Serviceartikel aus. Wählen Sie **Aktionen** , **Auftrag**, und klicken Sie anschliessend auf **Servicezeilen**.  
+4. Suchen Sie nach den entsprechenden Posten, und geben Sie im Feld **Mge. zu verbrauchen** die Mengen an, für die Sie den Verbrauch buchen. Die Menge kann nicht grösser als die bereits gelieferte Menge und die nicht fakturierte Restmenge nach einer teilweisen Fakturierung dieser Lieferung sein.  
   
     > [!NOTE]  
     >  Füllen Sie die Felder **Projektnr.**, **Projektaufgabennr.** und **Projektzeilenart** für die Servicezeile aus, um den Verbrauch in Bezug auf eine Aufgabe zu erfassen.  
@@ -99,7 +99,7 @@ Der folgende Ablauf zeigt, wie man Lieferung der Servicezeilenartikel in Lagerpl
   
 4. Wählen Sie **Aktionen**, **Buchen** und dann nochmals **Buchen** aus. Wählen Sie im daraufhin angezeigten Fenster die Option **Lieferung** aus.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)]Die Anwendung erstellt die Posten (Garantieposten, Artikelposten, Serviceposten oder Sachposten), erzeugt den gebuchten Servicelieferungsbeleg und aktualisiert die entsprechenden Felder in den Serviceauftragszeilen.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] Die Anwendung erstellt die Posten (Garantieposten, Artikelposten, Serviceposten oder Sachposten), erzeugt den gebuchten Servicelieferungsbeleg und aktualisiert die entsprechenden Felder in den Serviceauftragszeilen.  
   
 Wenn der Lagerort so eingerichtet wurde, dass ein Lagerdurchlauf erforderlich ist, dann erfolgt die Lieferung und Umlagerung der Servicezeilenartikel auf die gleichen Weise wie für andere Herkunftsbelege. Der einzige Unterschied besteht darin, dass Servicezeilenartikel extern oder intern verbraucht werden können und daher zwei unterschiedliche Freigabefunktionen benötigen.  
   
@@ -133,5 +133,5 @@ Die folgende Vorgehensweise beschreibt, wie die Lieferungsbuchung direkt aus ein
   
 ## <a name="see-also"></a>Siehe auch  
 [Buchen in der Serviceverwaltung](service-service-posting.md)  
-[Vorgehensweise: Erstellen eines Serviceauftrags](service-how-to-create-service-orders.md)  
+[Erstellen eines Serviceauftrags](service-how-to-create-service-orders.md)  
 

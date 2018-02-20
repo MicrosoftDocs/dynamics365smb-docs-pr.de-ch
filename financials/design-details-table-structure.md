@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: a1d7337abcb538ef310ea6f87312934d01540b00
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-table-structure"></a>Designdetails: Tabellenstruktur
@@ -26,7 +26,7 @@ Um zu erkennen, wie die Dimensionsposten-Einlagerungs- und Buchung neu entwickel
  Drei neue Tabellen wurden dafür entwickelt, Dimensionssatzposten zu verwalten.  
 
 ### <a name="table-480-dimension-set-entry"></a>Tabelle 480 Dimensionssatzposten  
- Tabelle 480 **Dimensionssatzposten** ist eine neue Tabelle. Sie können den Inhalt dieser Tabelle nicht ändern. Nachdem Daten in die Tabelle geschrieben wurden, können Sie sie nicht löschen oder bearbeiten. Das Löschen von Daten erfordert, dass Sie eine Prüfung aller Instanzen der Dimensionssatz-ID in der gesamten Datenbank vornehmen, einschließlich Partnerlösungen.  
+ Tabelle 480 **Dimensionssatzposten** ist eine neue Tabelle. Sie können den Inhalt dieser Tabelle nicht ändern. Nachdem Daten in die Tabelle geschrieben wurden, können Sie sie nicht löschen oder bearbeiten. Das Löschen von Daten erfordert, dass Sie eine Prüfung aller Instanzen der Dimensionssatz-ID in der gesamten Datenbank vornehmen, einschliesslich Partnerlösungen.  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
 |---------------|----------------|---------------|-------------|  

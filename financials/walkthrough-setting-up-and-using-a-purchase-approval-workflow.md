@@ -1,6 +1,6 @@
 ---
 title: 'Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows | Microsoft Docs'
-description: "Sie können den Genehmigungsprozesses für neuen oder geänderten Datensätze, z. B. Belege, Erfassungsjournalzeilen und Debitorenkarten automatisieren, indem Sie Workflows mit Schritten für die entsprechenden Genehmigungen erstellen. Bevor Sie Genehmigungsworkflows erstellen, müssen Sie einen Genehmiger und einen Stellvertreter für jeden Genehmigungsbenutzer einrichten. Sie können außerdem Grenzbeträge für die Genehmiger festlegen, um zu definieren, für welche Verkaufs- und Einkaufsdatensätze sie für eine Genehmigung qualifiziert sind. Genehmigungsanforderungen und andere Benachrichtigungen können als E-Mail oder interne Notiz gesendet werden. Für jede Genehmigungsbenutzereinrichtung können Sie angeben wann dieser Benachrichtigungen erhält."
+description: "Sie können den Genehmigungsprozesses für neuen oder geänderten Datensätze, z. B. Belege, Erfassungsjournalzeilen und Debitorenkarten automatisieren, indem Sie Workflows mit Schritten für die entsprechenden Genehmigungen erstellen. Bevor Sie Genehmigungsworkflows erstellen, müssen Sie einen Genehmiger und einen Stellvertreter für jeden Genehmigungsbenutzer einrichten. Sie können ausserdem Grenzbeträge für die Genehmiger festlegen, um zu definieren, für welche Verkaufs- und Einkaufsdatensätze sie für eine Genehmigung qualifiziert sind. Genehmigungsanforderungen und andere Benachrichtigungen können als E-Mail oder interne Notiz gesendet werden. Für jede Genehmigungsbenutzereinrichtung können Sie angeben wann dieser Benachrichtigungen erhält."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 7ce4b45d740e50bba8256e72fcf43c70ea85922c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 58c243000bea5b70666b2a08cdd5696444e22f0f
 ms.contentlocale: de-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows
-Sie können den Genehmigungsprozesses für neuen oder geänderten Datensätze, z. B. Belege, Erfassungsjournalzeilen und Debitorenkarten automatisieren, indem Sie Workflows mit Schritten für die entsprechenden Genehmigungen erstellen. Bevor Sie Genehmigungsworkflows erstellen, müssen Sie einen Genehmiger und einen Stellvertreter für jeden Genehmigungsbenutzer einrichten. Sie können außerdem Grenzbeträge für die Genehmiger festlegen, um zu definieren, für welche Verkaufs- und Einkaufsdatensätze sie für eine Genehmigung qualifiziert sind. Genehmigungsanforderungen und andere Benachrichtigungen können als E-Mail oder interne Notiz gesendet werden. Für jede Genehmigungsbenutzereinrichtung können Sie angeben wann dieser Benachrichtigungen erhält.  
+Sie können den Genehmigungsprozesses für neuen oder geänderten Datensätze, z. B. Belege, Erfassungsjournalzeilen und Debitorenkarten automatisieren, indem Sie Workflows mit Schritten für die entsprechenden Genehmigungen erstellen. Bevor Sie Genehmigungsworkflows erstellen, müssen Sie einen Genehmiger und einen Stellvertreter für jeden Genehmigungsbenutzer einrichten. Sie können ausserdem Grenzbeträge für die Genehmiger festlegen, um zu definieren, für welche Verkaufs- und Einkaufsdatensätze sie für eine Genehmigung qualifiziert sind. Genehmigungsanforderungen und andere Benachrichtigungen können als E-Mail oder interne Notiz gesendet werden. Für jede Genehmigungsbenutzereinrichtung können Sie angeben wann dieser Benachrichtigungen erhält.  
 
  Sie können Workflows einrichten und verwenden, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte. Weitere Informationen finden Sie unter [Workflow](across-workflow.md).  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
 In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
--   Einrichtung der Genehmigungsbenutzer (einschließlich Einrichten eines Benutzers in Windows und in [!INCLUDE[d365fin](includes/d365fin_md.md)]).  
+-   Einrichtung der Genehmigungsbenutzer (einschliesslich Einrichten eines Benutzers in Windows und in [!INCLUDE[d365fin](includes/d365fin_md.md)]).  
 -   Benachrichtigungen für Genehmigungsbenutzer einrichten.  
 -   Den Genehmigungsworkflow ändern und aktivierend.  
 -   Die Aufgabenwarteschlange zur Verteilung von Benachrichtigungen starten.  
@@ -35,7 +35,7 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:
 -   Empfangen einer Benachrichtigung und Genehmigung als Stephan.  
 
 ## <a name="prerequisites"></a>Voraussetzungen  
-Um diese Demonstration abzuschließen, benötigen Sie den CRONUS International Ltd.- Demomandanten.
+Um diese Demonstration abzuschliessen, benötigen Sie den CRONUS International Ltd.- Demomandanten.
 
 ## <a name="story"></a>Hintergrund  
 Sean ist einem Superuser bei CRONUS auf seinem eigenen Computer.  
@@ -49,13 +49,13 @@ Sie müssen einen neuen Benutzer auf dem lokalen Computer und in [!INCLUDE[d365f
 
 ### <a name="to-add-alicia-as-a-user-on-the-local-computer"></a>So fügen Sie Christine als Benutzer auf dem lokalen Computer hinzu  
 
-1.  Wählen Sie **Start**. Dann geben Sie im Feld **Programme/Dateien durchsuchen** den Text **Lokale Benutzer und Gruppen bearbeiten** ein, und wählen anschließend den zugehörigen Link aus.  
+1.  Wählen Sie **Start**. Dann geben Sie im Feld **Programme/Dateien durchsuchen** den Text **Lokale Benutzer und Gruppen bearbeiten** ein, und wählen anschliessend den zugehörigen Link aus.  
 2.  Öffnen Sie den Ordner **Benutzer**.  
 3.  Wählen Sie auf der Registerkarte **Aktionen** die Option **Neuer Benutzer** aus.  
 4.  Geben Sie im Feld **Benutzername** den Text "Christine" ein.  
 5.  Geben Sie in den Feldern **Kennwort** und **Kennwort bestätigen** ein gültiges Kennwort ein.  
 6.  Deaktivieren Sie das Kontrollkästchen **Benutzer muss Kennwort bei der nächsten Anmeldung ändern**.  
-7.  Schließen Sie das **Lokale Benutzer und Gruppen**-Fenster.  
+7.  Schliessen Sie das **Lokale Benutzer und Gruppen**-Fenster.  
 
 ### <a name="to-add-alicia-as-a-user-in-included365finincludesd365finmdmd"></a>So fügen Sie Alicia als Benutzer in [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzu  
 1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png " Symbol Nach Bericht suche") aus und geben Sie Benutzer. Wählen Sie dann **Benutzer**und den zugehörigen Link aus.  
@@ -115,8 +115,8 @@ Geben Sie an, wie und wann Sie über Genehmigungsanforderungen benachrichtigt we
 Stellen Sie sicher, dass die Aufgabenwarteschlange in Ihrer Installation so eingerichtet wurde, dass Workflowbenachrichtigungen verarbeitet werden.  
 
 ### <a name="to-start-the-notify-job-queue"></a>So starten Sie die Aufgabenwarteschlange für Benachrichtungen  
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen]Symbol (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **Projektwarteschlange** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Im Fenster **Projektwarteschlange** wählen Sie die Zeile für die Aufgabenwarteschlange BENACHR. aus, und wählen anschließend auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Aufgabenwarteschlange** starten aus.  
+1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen Symbol") und geben **Projektwarteschlange** ein. Wählen Sie dann den zugehörigen Link aus.  
+2.  Im Fenster **Projektwarteschlange** wählen Sie die Zeile für die Aufgabenwarteschlange BENACHR. aus, und wählen anschliessend auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Aufgabenwarteschlange** starten aus.  
 
 ## <a name="using-the-approval-workflow"></a>Nutzung des Genehmigungsworkflows  
 Verwenden Sie den Einkaufsbestellungs-Genehmigungsworkflos, indem Sie sich in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Alicia anmelden (um die Genehmigung einer Einkaufsbestellung anzufordern). Dann melden Sie sich als sie selbst an, rufen die Notiz im Rollencenter auf, folgen der Verknüpfung zur Genehmigungsanforderung, und genehmigen die Genehmigungsanforderung.  
@@ -139,7 +139,7 @@ Um sich in [!INCLUDE[d365fin](includes/d365fin_md.md)] als anderer Benutzer anzu
 
     Beachten Sie, dass sich der Wert im Feld **Status** zu **Genehmigung ausstehend** ändert.  
 
-4.  Schließen[!INCLUDE[d365fin](includes/d365fin_md.md)].  
+4.  Schliessen[!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ### <a name="to-approve-the-purchase-order-as-sean"></a>So genehmigen Sie die Einkaufsbestellung als Stephan  
 
@@ -158,14 +158,14 @@ Sie haben jetzt einen einfachen Genehmigungsworkflow auf Grundlage die ersten be
 
 Die Basisversion von [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst mehrere Workflowvorlagen für Szenarien, die durch den Anwendungscode unterstützt werden. Die meisten dieser Worflowvorlagen sind Genehmigungsworkflows. Weitere Informationen finden Sie unter Workflow Vorlagen  
 
-Sie definieren Workflowsvariationen, indem Sie die Felder in den Workflowzeilen über vordefinierte vom Anwendungscode unterstützten Listen mit Ereignissen und Reaktionen ausfüllen. Weitere Informationen finden Sie unter [Gewusst wie: Workflows erstellen](across-how-to-create-workflows.md).  
+Sie definieren Workflowsvariationen, indem Sie die Felder in den Workflowzeilen über vordefinierte vom Anwendungscode unterstützten Listen mit Ereignissen und Reaktionen ausfüllen. Weitere Informationen finden Sie unter [Workflows erstellen](across-how-to-create-workflows.md).  
 
 Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unterstützt wird, muss ein Microsoft-Partner diese implementieren, indem er den Anwendungscode anpasst. Weitere Informationen finden Sie unter [Exemplarische Vorgehensweise: Implementieren von neuen Workflowereignissen und von Kampagnenreaktionen](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) in der Entwickler- und IT-Pro-Hilfe.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Gewusst wie: Einrichten von Genehmigungsbenutzern](across-how-to-set-up-approval-users.md)   
+[Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)   
 [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)   
-[So wird's gemacht: Erstellen von Workflows](across-how-to-create-workflows.md)   
-[Gewusst wie: Genehmigungsworkflow verwenden](across-how-use-approval-workflows.md)   
+[Erstellen eines Workflows](across-how-to-create-workflows.md)   
+[Artikelgenehmigungsworkflow verwenden](across-how-use-approval-workflows.md)   
 [Workflow](across-workflow.md)
 

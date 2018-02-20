@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 9bc177d45efa1e6e772ed70cc66de393e6250def
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-inventory-posting"></a>Designdetails: Bestandsbuchung
@@ -31,14 +31,14 @@ Jede Bestandstransaktion, wie etwa eine Einkaufslieferung oder eine Verkaufslief
 
  Lagerposten, Wertposten und Artikelausgleichsposten werden durch eine Artikel Erf.-Journalzeile erstellt, entweder indirekt durch Buchen einer Auftragszeile oder direkt im Fenster Artikel Erf.-Journal.  
 
- In regelmäßigen dynamischen Abständen werden Wertposten, die im Bestandsposten erstellt werden, ins Hauptbuch gebucht, um die beiden Bücher aus Finanzkontrollgründen abzugleichen. Weitere Informationen finden Sie unter [Designdetails: Abstimmung mit der Fibu](design-details-reconciliation-with-the-general-ledger.md).  
+ In regelmässigen dynamischen Abständen werden Wertposten, die im Bestandsposten erstellt werden, ins Hauptbuch gebucht, um die beiden Bücher aus Finanzkontrollgründen abzugleichen. Weitere Informationen finden Sie unter [Designdetails: Abstimmung mit der Fibu](design-details-reconciliation-with-the-general-ledger.md).  
 
  ![Eintragsfluss zwischen Bestand und G&#47;L](media/design_details_inventory_costing_1_entry_flow.png "design_details_inventory_costing_1_entry_flow")  
 
 ## <a name="example"></a>Beispiel  
  Im folgenden Beispiel wird veranschaulicht, wie Lagerposten, Wertposten und Artikelausgleichsposten zu Fibuposten führen.  
 
- Sie buchen eine Einkaufsbestellung als erhalten und fakturiert für 10 Artikel mit einem EK-Preis von MW 7 und einem Gemeinkostensatz von MW 1. Das Buchungsdatum ist 01-01-20. Die folgenden Einträge werden folgendermaßen erzeugt:  
+ Sie buchen eine Einkaufsbestellung als erhalten und fakturiert für 10 Artikel mit einem EK-Preis von MW 7 und einem Gemeinkostensatz von MW 1. Das Buchungsdatum ist 01-01-20. Die folgenden Einträge werden folgendermassen erzeugt:  
 
  **Lagerposten**  
 
@@ -77,7 +77,7 @@ Jede Bestandstransaktion, wie etwa eine Einkaufslieferung oder eine Verkaufslief
 
 |Laufnr.|Lagerposten Laufnr.|Eingeh. Lagerposten Laufnr.|Ausgeh. Lagerposten Laufnr.|Menge|  
 |---------------|---------------------------|----------------------------|-----------------------------|--------------|  
-|2|2|0|2|-10|  
+|2|2|1|2|-10|  
 
  Am Ende der Buchhaltungsperiode führen Sie die Stapelverarbeitung **Lagerreg. buchen** aus, um diese Lagertransaktionen mit der Fibu abzustimmen.  
 

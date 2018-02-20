@@ -15,14 +15,14 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: 9739f89c45dd63d03235fef4204b2adeb48ac4d3
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
 # <a name="how-to-work-with-the-consolidated-trial-balance-report"></a>Vorgehensweise: Arbeiten mit dem konsolidierten Bilanz-Bericht
 Wenn Sie mehr als einen Mandanten haben [!INCLUDE[d365fin](includes/d365fin_md.md)], kann der konsolidierte Bilanz-Bericht im Buchhalter Rollen-Center Ihnen einen Überblick über den Finanzstatus Ihres Gesamtgeschäfts geben.  
 
-Der Bericht Fibuposten (Fibu) kombiniert aus jedem Ihrer Mandanten in einem neuen Mandanten, den erstellen, um die konsolidierten Daten zu berücksichtigen. Dieses Unternehmen wird in der Regel als "konsolidiertes Unternehmen" bezeichnet. Der Konsolidierungsmandant ist einfach ein Container für die konsolidierten Daten und hat keine Verbindung zu den aktuellen Geschäftsdaten. Die Unternehmen, die Sie im konsolidierten Unternehmen einschließen, wird zur **Geschäftseinheit** im Bericht.
+Der Bericht Fibuposten (Fibu) kombiniert aus jedem Ihrer Mandanten in einem neuen Mandanten, den erstellen, um die konsolidierten Daten zu berücksichtigen. Dieses Unternehmen wird in der Regel als "konsolidiertes Unternehmen" bezeichnet. Der Konsolidierungsmandant ist einfach ein Container für die konsolidierten Daten und hat keine Verbindung zu den aktuellen Geschäftsdaten. Die Unternehmen, die Sie im konsolidierten Unternehmen einschliessen, wird zur **Geschäftseinheit** im Bericht.
 
 Konsolidierungen können wie folgt und für Folgendes durchgeführt werden:  
 
@@ -33,7 +33,7 @@ Konsolidierungen können wie folgt und für Folgendes durchgeführt werden:
 
 Je nach Komplexität Ihrer Unternehmen, gibt es zwei Arten, den Bericht einrichten:
 
-* Wenn Sie nicht erweiterte Einstellungen benötigen, wie Einschließen eines Unternehmens, dessen Sie nur ein Teil anlegen, können Sie die Felder **Mandanten-Konsolidierung** unterstützer Setup um raschen Einrichten einer Konsolidierung nutzen. Der Leitfaden führt Sie durch die grundlegenden Schritte durch.
+* Wenn Sie nicht erweiterte Einstellungen benötigen, wie Einschliessen eines Unternehmens, dessen Sie nur ein Teil anlegen, können Sie die Felder **Mandanten-Konsolidierung** unterstützer Setup um raschen Einrichten einer Konsolidierung nutzen. Der Leitfaden führt Sie durch die grundlegenden Schritte durch.
 * Wenn Sie erweitertere Einstellungen benötigen, können Sie den Konsolidierungsmandanten und die Konzernmandanten einrichten.
 
 ## <a name="to-do-a-simple-consolidation-setup"></a>Eine einfache Konsolidierungseinrichtung tun
@@ -42,10 +42,10 @@ Wenn die Konsolidierung einfach ist, weil Sie beispielsweise die Geschäftseinhe
 * Wählen Sie aus, ob einen neuen Konsolidierungsmandanten erstellen oder ob die Daten in einem Mandanten konsolidiert werden, den Sie bereits für die Konsolidierung erstellt haben. Der Mandant sollte keine Transaktionen beinhalten.
 * Ergebnisse in Vorschau anzeigen. [!INCLUDE[d365fin](includes/d365fin_md.md)] überprüft, dass die Masterdaten und die Transaktionen in den Konsolidierungsmandanten erfolgreich übertragen werden können.
 
-Um die unterstützte Einrichtung zu starten, gehen Sie folgendermaßen vor:
+Um die unterstützte Einrichtung zu starten, gehen Sie folgendermassen vor:
 
 1. Im Feld **Buchhalter** wählen Sie Rollencenter **Unterstützte Einrichtung** Aktion aus.
-2. Wählen Sie **Einrichten Konsolidierungsberichterstellung** und schließen Sie dann jeden Schritt im unterstützten Setup ab.
+2. Wählen Sie **Einrichten Konsolidierungsberichterstellung** und schliessen Sie dann jeden Schritt im unterstützten Setup ab.
 
 ## <a name="to-do-an-advanced-consolidation-setup"></a>Um eine erweiterte Konsolidierungseinrichtung zu tun
 Wenn Sie erweitertere Einstellungen für die Konsolidierung benötigen, können Sie die Konsolidierung manuell einrichten. Wenn Sie Unternehmen haben, die Sie nur teilweise besitzen, oder Sie haben Mandanten, die nicht in der Konsolidierung enthalten sein soll. Die Einrichtung des konsolidierten Mandanten erfolgt auf die gleiche Weise wie die Einrichtung anderer Mandanten. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md).  
@@ -78,11 +78,11 @@ Die folgende Tabelle beschreibt die Wechselkursmethoden, die Sie für Konten ver
 |Gemischter Wechselkurs | Mischkurs: Die Beträge der laufenden Periode werden zum Durchschnittskurs umgerechnet und zum zuvor erfassten Saldo für den konsolidierten Mandanten addiert. Diese Methode wird meistens für Gewinn- und Verlustkonten verwendet, da diese Beträge aus unterschiedlichen Perioden umfassen und daher mit verschiedenen Umrechnungskursen bestimmte Beträge vereinen.|
 |Eigenkapitalkurs | Dieses ist ähnlich wie der **Mischkurs**. Differenzen werden gebucht, um Fibukonten zu trennen.|   
 
-Um Wechselkurse für Konzernmandanten anzugeben, gehen Sie folgendermaßen vor:
+Um Wechselkurse für Konzernmandanten anzugeben, gehen Sie folgendermassen vor:
 
 1. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Geschäftseinheit** ein und wählen Sie den zugehörigen Link aus.  
 2. Auf der Seite **Konzernmandantenliste** wählen Sie die Konzernmandanten aus, und wählen Sie die **Durchschnittskurs (manuell)** Aktion aus.   
-3. Der Inhalt des Felds **Bezug auf Wechselkursbetrag** (im Fenster **Wechselkurs ändern**) wurde aus der Tabelle **Währungswechselkurs** kopiert, kann jedoch geändert werden. Schließen Sie die Seite.  
+3. Der Inhalt des Felds **Bezug auf Wechselkursbetrag** (im Fenster **Wechselkurs ändern**) wurde aus der Tabelle **Währungswechselkurs** kopiert, kann jedoch geändert werden. Schliessen Sie die Seite.  
 4. Wählen Sie die **Ultimokurs**-Aktion aus.  
 5. In dem Feld **Kurs** geben Sie den Wechselkurs ein.
 
@@ -96,11 +96,11 @@ You can consolidate dimension information and general ledger accounts, as follow
 * To include dimension information in the consolidation, leave the **Consolidation Code** field blank. However, the consolidation will only work if the dimension values in the business unit are the same as the consolidated company.
 * To consolidate the dimension value code in the business unit with a different dimension value code in the consolidated company, fill in the **Consolidation Code**. -->
 
-### <a name="to-exclude-a-company-from-consolidation"></a>Um einen Mandanten aus der Konsolidierung auszuschließen
-Wenn Sie keinen Konzernmandanten in die Konsolidierung einbeziehen, können Sie sie ausschließen. Um das zu tun, wechseln Sie zur Konzernmandantenkarte, und löschen Sie das  Kontrollkästchen **Konsolidieren**.
+### <a name="to-exclude-a-company-from-consolidation"></a>Um einen Mandanten aus der Konsolidierung auszuschliessen
+Wenn Sie keinen Konzernmandanten in die Konsolidierung einbeziehen, können Sie sie ausschliessen. Um das zu tun, wechseln Sie zur Konzernmandantenkarte, und löschen Sie das  Kontrollkästchen **Konsolidieren**.
 
 ### <a name="to-include-a-partially-owned-company-in-consolidation"></a>Um einen teilweis-eigenen Mandant in die Konsolidierung einzubeziehen
-Wenn Sie nur einen Teil des Unternehmen anlegen, können Sie einen Prozentsatz jeder Transaktion einschließen, der dem Prozentsatz des Mandanten entspricht, den Sie besitzen. Wenn beispielsweise 70% des Unternehmen anlegen, enthält $70 Konsolidierung einer Rechnung für $100. Um den Prozentsatz des Unternehmens anzugeben, den Sie anlegen, wechseln Sie zur Konzernmandantenkarte, und geben Sie den Prozentsatz im Feld **Konsolidierung %** ein.  
+Wenn Sie nur einen Teil des Unternehmen anlegen, können Sie einen Prozentsatz jeder Transaktion einschliessen, der dem Prozentsatz des Mandanten entspricht, den Sie besitzen. Wenn beispielsweise 70% des Unternehmen anlegen, enthält $70 Konsolidierung einer Rechnung für $100. Um den Prozentsatz des Unternehmens anzugeben, den Sie anlegen, wechseln Sie zur Konzernmandantenkarte, und geben Sie den Prozentsatz im Feld **Konsolidierung %** ein.  
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Prüfen von Datenbanken vor der Konsolidierung
 Sie können Ihre Daten testen, bevor Sie sie an den Konsolidierungsmandanten übertragen. [!INCLUDE[d365fin](includes/d365fin_md.md)]So überprüfen Sie Unterschiede zwischen den Informationen in den Konzernmandanten und dem Konsolidierungsmandanten Beispielsweise ob Kontonummern oder Dimensionscodes abweichen. Sie müssen Fehler korrigieren, bevor Sie den Bericht ausführen können. Sie können prüfen, die Datenbank oder, wenn Sie Daten einer XML-Datei importiert, können Sie testen die Datei.   

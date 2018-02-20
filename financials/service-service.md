@@ -20,7 +20,7 @@ ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="service-management"></a>Service
-Kunden einen zuverlässigen Service zu bieten, ist ein wesentlicher Bestandteil der Arbeit jedes Unternehmens und eine Grundlage für Kundenzufriedenheit und Loyalität, zusätzlich zu den Einnahmen. Die Planung und Steuerung des Service ist jedoch nicht immer einfach. Daher bietet [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Reihe von Tools zur Vereinfachung dieser Maßnahmen. Diese Tools dienen zur Unterstützung der Abläufe in Werkstatt und Aussendienst und können in Geschäftsszenarien wie komplexen Kundendienst- vertriebssystemen, Industrieserviceumgebungen mit Stücklisten und beim umfassenden Einsatz von Servicetechnikern mit Anforderungen für Ersatzteilmanagement verwendet werden.  
+Kunden einen zuverlässigen Service zu bieten, ist ein wesentlicher Bestandteil der Arbeit jedes Unternehmens und eine Grundlage für Kundenzufriedenheit und Loyalität, zusätzlich zu den Einnahmen. Die Planung und Steuerung des Service ist jedoch nicht immer einfach. Daher bietet [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Reihe von Tools zur Vereinfachung dieser Massnahmen. Diese Tools dienen zur Unterstützung der Abläufe in Werkstatt und Aussendienst und können in Geschäftsszenarien wie komplexen Kundendienst- vertriebssystemen, Industrieserviceumgebungen mit Stücklisten und beim umfassenden Einsatz von Servicetechnikern mit Anforderungen für Ersatzteilmanagement verwendet werden.  
 
  Mit diesen Tools können Sie Folgendes durchführen:  
 

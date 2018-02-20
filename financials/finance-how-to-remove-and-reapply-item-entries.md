@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5ca921ba6c8ced04899b3a8cc2cd2db91e4d69a3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 12bde7fc508bb29e56ad63d76b526a80b5073f03
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-remove-and-reapply-item-ledger-entries"></a>Vorgehensweise: Entfernen und erneutes Ausgleichen von Lagerposten
+# <a name="remove-and-reapply-item-ledger-entries"></a>Entfernen und erneutes Ausgleichen von Lagerposten
 Sie können im Fenster **Ausgleichsvorschlag** bestimmte Artikelausgleichsposten, die bei Lagertransaktionen automatisch erstellt werden, anzeigen und manuell ändern.  
 
 Wenn Sie eine Transaktion buchen, in der Artikel in den oder aus dem Lagerbestand verschoben werden, wird ein Artikelausgleich zwischen jedem Lagerzugang und Lagerabgang erstellt. Diese Ausgleiche bestimmen die Richtung für die Kosten von den Waren, die in den Lagerbestand übernommen wurden, zu den Kosten der Waren, die aus dem Lagerbestand herausgenommen wurden. Wegen der Art, in der Einstandspreise berechnet werden, könnte ein fehlerhafter Artikelausgleich zu falschen Durchschnittskosten und zu falschen Einstandspreisen führen. Weitere Informationen finden Sie unter "Designdetails: Artikelverfolgung".
@@ -30,7 +30,7 @@ Der folgende Szenarios erfordern möglicherweise, dass Sie einen Ausgleich rück
 - Sie haben einen fehlerhaften festen Ausgleich vorgenommen.
 - Sie müssen einen Artikel zurücknehmen, für den bereits ein Verkauf ausgeglichen wurde.
 
-Wenn möglich, verwenden Sie einen Beleg, um einen Lagerposten erneut auszugleichen. Wenn Sie beispielsweise eine Einkaufsreklamation für einen Artikel vornehmen müssen, für den bereits ein Verkauf ausgeglichen wurde, können Sie den erneuten Ausgleich vornehmen, indem Sie einfach den Einkaufsreklamationsbeleg in der Einkaufsreklamationszeile im Feld **Ausgleich mit Artikelposten** mit dem richtigen Ausgleich erstellen und buchen. Sie können im Einkaufsreklamationsbeleg die Funktion **Zu stornierende gebuchte Belegzeilen abrufen** oder die Funktion **Beleg kopieren** verwenden, um diesen Vorgang zu vereinfachen. Wenn Sie den Beleg buchen, wird automatisch der Lagerposten erneut ausgeglichen. Weitere Informationen finden Sie unter [Vorgehensweise: Einkaufsretouren verarbeiten oder Stornieren](purchasing-how-process-purchase-returns-cancellations.md).
+Wenn möglich, verwenden Sie einen Beleg, um einen Lagerposten erneut auszugleichen. Wenn Sie beispielsweise eine Einkaufsreklamation für einen Artikel vornehmen müssen, für den bereits ein Verkauf ausgeglichen wurde, können Sie den erneuten Ausgleich vornehmen, indem Sie einfach den Einkaufsreklamationsbeleg in der Einkaufsreklamationszeile im Feld **Ausgleich mit Artikelposten** mit dem richtigen Ausgleich erstellen und buchen. Sie können im Einkaufsreklamationsbeleg die Funktion **Zu stornierende gebuchte Belegzeilen abrufen** oder die Funktion **Beleg kopieren** verwenden, um diesen Vorgang zu vereinfachen. Wenn Sie den Beleg buchen, wird automatisch der Lagerposten erneut ausgeglichen. Weitere Informationen finden Sie unter [Einkaufsretouren verarbeiten oder Stornieren](purchasing-how-process-purchase-returns-cancellations.md).
 
 Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel wenn Sie einen festen Ausgleich korrigieren müssen, verwenden Sie das Fenster **Ausgleichsvorschlag**, um einen Ausgleich zu korrigieren.
 
@@ -38,7 +38,7 @@ Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel w
 > Im Folgenden einige wichtige Überlegungen zur Arbeit mit dem Ausgleichsvorschlag:
     - Sie sollten Ausgleichsposten nicht über einen längeren Zeitraum ohne Ausgleich lassen, da andere Benutzer die Artikel erst bearbeiten können, wenn Sie die Ausgleichsposten erneut ausgeglichen oder das Fenster **Ausgleichsvorschlag** geschlossen haben. Benutzer, die versuchen, Aktionen auszuführen, die einen manuell nicht ausgeglichenen Ausgleichsposten betreffen, erhalten die folgende Fehlermeldung: "Sie können diese Aktion nicht ausführen, da Posten für Artikel XXX im Ausgleichsvorschlag vom Benutzer XXX aufgehoben wird. "
     - Sie sollten Lagerposten nur ausserhalb der Kernarbeitszeiten erneut ausgleichen, um Konflikte mit anderen Benutzern zu vermeiden, die Transaktionen zu den gleichen Artikeln buchen.
-    - Wenn Sie den Ausgleichsvorschlag schließen, führt [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Prüfung durch, um sicherzustellen, dass alle Posten ausgeglichen wurden. Wenn Sie beispielsweise einen Mengenausgleich entfernt, jedoch keinen neuen Ausgleich erstellt haben und den Ausgleichsvorschlag dann schliessen, wird ein neuer Ausgleich erzeugt. Dies trägt dazu bei, die Kosten intakt zu halten. Beim Entfernen eines festen Ausgleichs wird jedoch nicht automatisch ein neuer fester Ausgleich erstellt, wenn Sie den Ausgleichsvorschlag schliessen. Dies muss manuell erfolgen, indem Sie im Vorschlag einen neuen Ausgleich erstellen.
+    - Wenn Sie den Ausgleichsvorschlag schliessen, führt [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Prüfung durch, um sicherzustellen, dass alle Posten ausgeglichen wurden. Wenn Sie beispielsweise einen Mengenausgleich entfernt, jedoch keinen neuen Ausgleich erstellt haben und den Ausgleichsvorschlag dann schliessen, wird ein neuer Ausgleich erzeugt. Dies trägt dazu bei, die Kosten intakt zu halten. Beim Entfernen eines festen Ausgleichs wird jedoch nicht automatisch ein neuer fester Ausgleich erstellt, wenn Sie den Ausgleichsvorschlag schliessen. Dies muss manuell erfolgen, indem Sie im Vorschlag einen neuen Ausgleich erstellen.
     - Es ist möglich, einen oder mehrere Ausgleiche gleichzeitig für einen Posten im Ausgleichsvorschlag zu entfernen. Da der Ausgleich von Posten jedoch den Satz der zum Ausgleich verfügbaren Posten beeinflusst, ist es nicht möglich, einen Ausgleich für mehr als einen Posten gleichzeitig zu erstellen.
     - In der folgenden Situation kann über den Ausgleichsvorschlag kein Ausgleich erfolgen: Wenn im Lager nicht genügend Menge zum Ausgleich vorhanden ist, kann über den Ausgleichsvorschlag kein Ausgleich vorgenommen werden, wenn Sie versuchen, einen Lagerabgangsposten ohne Artikeltrackinginformationen mit einem Lagerzugangsposten mit Artikeltrackinginformationen auszugleichen.
 
@@ -64,7 +64,7 @@ Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel w
 3.  Um Posten erneut auszugleichen, die seit dem Öffnen des Ausgleichsvorschlags entfernt wurden, wählen Sie den Lagerposten aus, den Sie erneut ausgleichen möchten. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Erneut ausgleichen** aus.  
 
     > [!NOTE]  
-    >  Der erneute Ausgleich mit dem ursprünglichen Saldo erfolgt auch automatisch, wenn Sie das Fenster **Ausgleichsvorschlag** schließen.  
+    >  Der erneute Ausgleich mit dem ursprünglichen Saldo erfolgt auch automatisch, wenn Sie das Fenster **Ausgleichsvorschlag** schliessen.  
 4.  Wählen Sie zum Ausgleich eines verfügbaren offenen Lagerpostens mit einem anderen Posten den entsprechenden Lagerposten aus. Wählen Sie die Aktion **Nicht ausgeglichene Posten** aus. Das Fenster **Ausgleichsposten anzeigen - nicht ausgeglichene Posten** wird geöffnet.  
 5.  Wählen Sie einen oder mehrere Lagerposten aus, die Sie für den Posten im Fenster **Ausgleichsvorschlag.** ausgewählten Posten auswählen, und wählen Sie die Schaltfläche **OK**.  
 
@@ -75,8 +75,8 @@ Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel w
 6.  Wenn in **Lager Einrichtung** das Feld **Automatische Lagerregulierung** auf **Immer** festgelegt ist, wird die Stapelverarbeitung für Kostenregulierung automatisch ausgeführt, nachdem Sie einen erneuten Ausgleich vorgenommen haben. Führen Sie andernfalls den Batchauftrag **Lagerreg. fakt. Einst. Preise** aus, um sicherzustellen, dass alle Kosten auf dem neuesten Stand sind.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Vorgehensweise: Schliessen von offenen Lagerposten aus einem festen Ausgleich im Artikel Erfassungsjournal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
- [Vorgehensweise: Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen](purchasing-how-process-purchase-returns-cancellations.md)  
+[Schliessen von offenen Lagerposten aus einem festen Ausgleich im Artikel Erf.-Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
+ [Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen](purchasing-how-process-purchase-returns-cancellations.md)  
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)   
  [Designdetails: Artikelausgleich](design-details-item-application.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

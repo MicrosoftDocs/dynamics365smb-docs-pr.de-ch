@@ -1,6 +1,6 @@
 ---
 title: Designdetailsl- Neubewertung | Microsoft Docs
-description: "Sie können den Lagerbestand basierend auf der Bewertungsbasis, die den Lagerwert am genauesten wiedergibt, neu bewerten. Sie können eine Neubewertung auch zurückdatieren, damit der Wareneinsatz (COGS) ordnungsgemäß für Artikel aktualisiert wird, die bereits verkauft wurden. Artikel mit der Lagerabgangsmethode \"Standard\", die noch nicht vollständig fakturiert wurden, können ebenfalls neu bewertet werden."
+description: "Sie können den Lagerbestand basierend auf der Bewertungsbasis, die den Lagerwert am genauesten wiedergibt, neu bewerten. Sie können eine Neubewertung auch zurückdatieren, damit der Wareneinsatz (COGS) ordnungsgemäss für Artikel aktualisiert wird, die bereits verkauft wurden. Artikel mit der Lagerabgangsmethode \"Standard\", die noch nicht vollständig fakturiert wurden, können ebenfalls neu bewertet werden."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -16,11 +16,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: ba88be99ad8dfcecb78dfb1dd58be2d0645e85ba
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-revaluation"></a>Designdetails: Neubewertung
-Sie können den Lagerbestand basierend auf der Bewertungsbasis, die den Lagerwert am genauesten wiedergibt, neu bewerten. Sie können eine Neubewertung auch zurückdatieren, damit der Wareneinsatz (COGS) ordnungsgemäß für Artikel aktualisiert wird, die bereits verkauft wurden. Artikel mit der Lagerabgangsmethode "Standard", die noch nicht vollständig fakturiert wurden, können ebenfalls neu bewertet werden.  
+Sie können den Lagerbestand basierend auf der Bewertungsbasis, die den Lagerwert am genauesten wiedergibt, neu bewerten. Sie können eine Neubewertung auch zurückdatieren, damit der Wareneinsatz (COGS) ordnungsgemäss für Artikel aktualisiert wird, die bereits verkauft wurden. Artikel mit der Lagerabgangsmethode "Standard", die noch nicht vollständig fakturiert wurden, können ebenfalls neu bewertet werden.  
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] wird die folgende Flexibilität für die Neubewertung unterstützt:  
 
@@ -70,9 +70,9 @@ Die folgende Tabelle zeigt den sich daraus ergebenden Wertposten.
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |02-01-20|EK-Preis|02-01-20|-150.00|2|2|  
 
-Das Bewertungsdatum wird auf das Datum der Verbrauchsbuchung (02-01-20) als regelmäßiger Lagerabgang festgelegt.  
+Das Bewertungsdatum wird auf das Datum der Verbrauchsbuchung (02-01-20) als regelmässiger Lagerabgang festgelegt.  
 
-**3Q**: Der Benutzer bucht die Kette als fertig gestellt und schließt den Fertigungsauftrag ab. Die folgende Tabelle zeigt den sich daraus ergebenden Lagerposten.  
+**3Q**: Der Benutzer bucht die Kette als fertig gestellt und schliesst den Fertigungsauftrag ab. Die folgende Tabelle zeigt den sich daraus ergebenden Lagerposten.  
 
 |Buchungsdatum|Artikel|Postentyp|Menge|Postennr.|  
 |------------------|----------|----------------|--------------|---------------|  

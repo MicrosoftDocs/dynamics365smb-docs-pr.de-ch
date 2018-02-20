@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 66590eb8ce7749658bad1fc3c9e54c1dff538abd
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetails: Montageauftragsbuchung
@@ -56,7 +56,7 @@ In der folgenden Tabelle wird die Aktionsfolge illustriert.
 |Buchung|<ol><li>Erstellen Sie den gebuchten Montageauftragskopf.</li><li>Kommentarzeilen kopieren.</li><li>Beitragsmontageauftragszeilen (Verbrauch):<br /><br /> <ol><li>Erstellen Sie ein Statusfenster, um den Montageverbrauch zu berechnen.</li><li>Erhalten Sie die Restmenge, auf der die Artikel Erf.-Journalzeile basiert.</li><li>Setzen Sie die verbrauchten und die verbleibenden Mengen zurück.</li><li>Für Montageauftragszeilen des Typs Artikel:<br /><br /> <ol><li>Füllen Sie die Felder in der Erf.-Journalzeile aus.</li><li>Übertragen Sie Reservierungen die Artikel Erf.-Journalzeile.</li><li>Buchen Sie die Artikel Erf.-Journalzeilen, um die Lagerposten zu erstellen.</li><li>Erstellen Sie Logistik Buch.-Blattzeilen, und buchen Sie sie.</li></ol></li><li>Für Montageauftragszeilen des Typs Ressource:<br /><br /> <ol><li>Füllen Sie die Felder in der Erf.-Journalzeile aus.</li><li>Buchen des Artikels Erf.-Journalzeile. Dies erstellt Kapazitätsposten.</li><li>Erstellen und buchen Sie Ressourcen-Erf.-Journalzeilen.</li></ol></li><li>Übertragen Sie Feldwerte aus der Montageauftragszeile in eine neu erstellte gebuchte Montageauftragszeile.</li></ol></li><li>Buchen Sie den Montageauftragskop (Ausgang):<br /><br /> <ol><li>Füllen Sie die Felder in der Erf.-Journalzeile aus.</li><li>Übertragen Sie Reservierungen die Artikel Erf.-Journalzeile.</li><li>Buchen Sie die Artikel Erf.-Journalzeilen, um die Lagerposten zu erstellen.</li><li>Erstellen Sie Logistik Buch.-Blattzeilen, und buchen Sie sie.</li><li>Setzen Sie die Montagemengen und die verbleibenden Mengen zurück.</li></ol></li></ol>|  
 
 > [!IMPORTANT]  
->  Anders als für fertiggestellte Artikel, die zu den Soll-Kosten gebucht werden, wird Montageausstoß zu den Ist-Kosten gebucht.  
+>  Anders als für fertiggestellte Artikel, die zu den Soll-Kosten gebucht werden, wird Montageausstoss zu den Ist-Kosten gebucht.  
 
 ## <a name="cost-adjustment"></a>Regulierung Kosten  
  Sobald ein Montageauftrag gebucht wird, in der Bedeutung, dass Komponenten (Material) und Ressourcen in einen neuen Artikel montiert werden, soll die Bestimmung der Ist-Kosten dieses Montageartikels und die Kosten des aktuellen Lagerstatus der betroffenen Komponenten möglich sein. Dies wird durch Weiterleitung von Kosten von den gebuchten Posten der Quelle (den Komponenten und Ressourcen) an die gebuchten Posten des Ziels (die Montageartikel) erreicht. Die Weiterleitung der Kosten wird ausgeführt, indem neue Posten berechnet und generiert werden; diese werden als Regulierungsposten bezeichnet und den Zielposten zugeordnet.  
@@ -67,7 +67,7 @@ In der folgenden Tabelle wird die Aktionsfolge illustriert.
 Die Entdeckungsfunktion auf Auftragsebene wird in Konvertierungsszenarien, der Produktion und bei der Montage verwendet. Die Feldfunktionen funktionieren wie folgt:  
 
 -   Kostenregulierung wird erkannt, indem der Auftrag markiert wird, sobald eine Ressource oder ein Werkstoff als verbraucht/verwendet gebucht wird.  
--   Die Kostenweiterleitung entsteht durch Anwenden der Kosten aus dem Werkstoff oder der Ressource auf die Ausstoßposten, die mit dem Auftrag verknüpft sind.  
+-   Die Kostenweiterleitung entsteht durch Anwenden der Kosten aus dem Werkstoff oder der Ressource auf die Ausstossposten, die mit dem Auftrag verknüpft sind.  
 
 Die folgende Grafik zeigt die Regulierungspostenstruktur und die Regulierung der Montagekosten.  
 
@@ -94,7 +94,7 @@ Dies wird durch die folgende Datenstruktur ausgeführt.
 -   Im Feld **Art** der Artikel Buch.-Blattzeilen in den Tabellen **Kapazitätsposten** und **Wertposten** Tabellen, wird *Ressource* verwendet, um Montageressourcenposten zu identifizieren.  
 -   Im Feld **Lagerpostenart** der Artikel Erf.-Journalzeilen, in den Tabellen **Kapazitätsposten** und **Wertposten** Tabellen, werden *Montageausgabe* und *Montageverbrauch* verwendet, um die AusgabemontageLagerposten und verbrauchte Montagekomponentenposten zu identifizieren.  
 
-Darüber hinaus werden Produktbuchungsgruppen im Montageauftragskopf und in den Montageauftragszeilen standardmäßig wie folgt ausgefüllt.  
+Darüber hinaus werden Produktbuchungsgruppen im Montageauftragskopf und in den Montageauftragszeilen standardmässig wie folgt ausgefüllt.  
 
 |Einheit|Typ|Buchungsgruppe|Produktbuchungsgruppe|  
 |------------|----------|-------------------|------------------------------|  

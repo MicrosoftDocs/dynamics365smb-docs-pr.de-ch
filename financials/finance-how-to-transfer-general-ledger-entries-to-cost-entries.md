@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4e68378d7acc789a70caf9c5b0590a81bf874337
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 592f42f53593735526ccbd3ddaa69bb0778de0ac
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-transfer-general-ledger-entries-to-cost-entries"></a>Vorgehensweise: Übertragen von Sachposten in Kostenposten
+# <a name="transfer-general-ledger-entries-to-cost-entries"></a>So übertragen Sie Fibuposten in Kostenposten
 Sie können Fibuposten in Kostenposten übertragen.  
 
 Bevor Sie den Vorgang für das Übertragen von Fibuposten in Kostenposten durchführen, müssen Sie die Übertragung vorbereiten, um manuelle Korrekturbuchungen zu vermeiden.  

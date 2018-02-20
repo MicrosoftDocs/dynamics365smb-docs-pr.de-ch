@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ded6ef2b93c2ab038472609093ef7e5ad3d88
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d4ad6854c361bf254c6acec44f460afa5e100ba
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-service-contracts-and-service-contract-quotes"></a>Vorgehensweise: Arbeiten mit Serviceverträgen und Servicevertragsofferten
+# <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbeiten mit Serviceverträgen und Servicevertragsofferten
 Sie können einen Servicevertrag manuell erstellen oder aus einer Servicevertragsofferte. Sie können eine Servicevertragsofferte als Vorläufer eines Servicevertrags verwenden, in dem Ihr Unternehmen dem Kunden eine Offerte unterbreitet und die Genehmigung des Kunden erhält, bevor die Offerte in einen Servicevertrag umgewandelt wird. Die Vorgehensweisen zur Erstellung eines Servicevertrags oder einer Servicevertragsofferte sind ähnlich.  
   
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>So erstellen Sie einen Servicevertrag oder eine Servicevertragsofferte  
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen-Symbol") aus und geben Sie **Serviceverträge** oder **Servicevertragsofferten**ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen-Symbol") aus und geben Sie **Serviceverträge** oder **Servicevertragsofferten**ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Erstellen Sie einen neuen Servicevertrag oder eine neue Servicevertragsofferte.  
 3. Füllen Sie die **Felder Nr.** Feld Es wird ein Dialogfeld geöffnet, in dem Sie gefragt werden, ob Sie die allgemeinen Daten aus einer Vertragsvorlage verwenden möchten. Wenn Sie einen solchen Servicevertrag oder eine solche Servicevertragsofferte erstellen möchten, klicken Sie auf **Ja**. Das Fenster **Servicevertragsvorl.-Liste** wird angezeigt.  
 4. Wählen Sie die entsprechende Vorlage aus, und wählen Sie dann **OK** aus, um den Servicevertrag oder die Servicevertragsofferte mithilfe der Vorlage zu erstellen.  
@@ -87,7 +87,7 @@ Wenn ein Kunde einen neuen Artikel kauft und diesen in einem bestehenden Service
 2. Öffnen Sie den relevanten Servicevertrag oder die relevante Servicevertragsofferte, für den/das Sie eine neue Vertragszeile hinzufügen möchten.  
 3. Wählen Sie die Aktionen **Vertrag öffnen** aus, um den Servicevertrag oder die Servicevertragsofferte zwecks Bearbeitung zu öffnen.  
 4. Aktivieren Sie im Inforegister **Rechnungsdetails** das Feld **Nicht ausgegl. Betr. zulassen**, wenn Sie den jährlichen Betrag ändern und die Differenz des Feldes "Zu fakturieren (Jahr)" in den Vertragszeilen manuell weitergeben möchten. Ansonsten setzen Sie kein Häkchen in das Feld **Nicht ausgegl. Betr. zulassen**. Dies verteilt die Differenz des Feldes "Zu fakturieren (Jahr)" automatisch auf die Vertragszeilen, wenn Sie den jährlichen Betrag geändert haben.  
-5. Fügen Sie dem Inforegister **Zeilen** in jede Vertragszeile einen Serviceartikel, einen Artikel oder eine Textbeschreibung hinzu. Alternativ können Sie Vertragsoffertenzeilen hinzufügen. Beachten Sie, dass Sie pro Serviceartikel mehrere Verträge erzeugen können, um ihn gleichzeitig bei verschiedenen Serviceverträgen oder Vertragsofferten einzuschließen.  
+5. Fügen Sie dem Inforegister **Zeilen** in jede Vertragszeile einen Serviceartikel, einen Artikel oder eine Textbeschreibung hinzu. Alternativ können Sie Vertragsoffertenzeilen hinzufügen. Beachten Sie, dass Sie pro Serviceartikel mehrere Verträge erzeugen können, um ihn gleichzeitig bei verschiedenen Serviceverträgen oder Vertragsofferten einzuschliessen.  
 6. Prüfen und – falls notwendig – korrigieren Sie die Zahlen in den Feldern **Zeilenrabatt %**, **Zeilenrabattbetrag**, **Reaktionszeit**, **Serviceintervall** und anderen Feldern. 
 
 ## <a name="to-remove-contract-lines"></a>So entfernen Sie Vertragszeilen  
@@ -199,7 +199,7 @@ Sie müssen u. U. einen Servicevertrag kündigen, wenn dieser Vertrag ausläuft
 Sie können Serviceverträge und Vertragsofferten jederzeit archivieren, um eine Kopie des Vertrags oder der Offerte zu erfassen. [!INCLUDE[d365fin](includes/d365fin_md.md)]Ein Servicevertrag wird automatisch archiviert, wenn Sie eine Vertragsofferte in einen Servicevertrag umwandeln oder einen Servicevertrag kündigen. Sie können selbst einen Vertrag oder eine Offerte archivieren, indem Sie die **Vertrag archivieren** Aktion auf den Seiten **Serviceverträge** oder **Servicevertragsofferten** auswählen. Wenn Sie Ihre archivierten Verträge der Offerten sehen möchten, indem Sie nach **Archivierte Verträge** suchen.
 
 ## <a name="see-also"></a>Siehe auch  
-[Vorgehensweise: Einrichten von Serviceverträgen](service-how-setup-service-contracts.md)  
+[Serviceverträge einzurichten:](service-how-setup-service-contracts.md)  
 [Service](service-service.md)  
-[So geht's: Konvertieren von Serviceverträgen, die MWST-Beträge enthalten](service-how-to-convert-service-contracts.md)  
+[Konvertieren von Serviceverträgen, die MWST-Beträge enthalten](service-how-to-convert-service-contracts.md)  
 

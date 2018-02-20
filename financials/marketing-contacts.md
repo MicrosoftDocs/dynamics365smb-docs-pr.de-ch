@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f6c9b936bdd6e8b1495aaa609f3a6eaac4095ab3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9e56d4a2b609aabcd10e7ad30280a44184ca0965
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-and-managing-contacts"></a>Erstellen und Verwalten von Kontakten
@@ -28,7 +28,7 @@ Die Erfassung der Informationen kann entweder auf der Grundlage eines Unternehme
 
 In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
 
-| Aktion | Informationen |
+| An | Informationen |
 | --- | --- |
 | Richten Sie die Kontaktverwaltung vor dem Hinzufügen von Kontakten ein. |[Vorbereiten, Kontakte einzurichten](marketing-setup-contacts.md) |
 | Erstellen einer Kontaktkarte für jedes neue Unternehmen, mit dem Sie in Kontakt treten – beispielsweise für einen Debitor oder Kreditor |[Kontaktunternehmenerstellen](marketing-create-contact-companies.md) |
@@ -37,5 +37,5 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 ## <a name="see-also"></a>Siehe auch
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Marketing & Vertrieb einrichten](marketing-setup-marketing.md)  
-[Arbeiten mit Dynamics 365](ui-work-product.md)  
+[Arbeiten mit Finance and Operations, Business edition](ui-work-product.md)  
 

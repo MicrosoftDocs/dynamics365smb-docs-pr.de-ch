@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d87aa7fe44b183a823457be4448c84631cd75db6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits
@@ -36,7 +36,7 @@ Montageartikel sind durch ihre Beschaffungsmethode und die Montagestückliste ch
 -   Erstellen einer Montagestückliste, die die Montagekomponenten und die Ressource auflistet, die zu dem Montageartikel gehören.  
 
 ### <a name="selling-customized-assembly-items"></a>Verkauf von benutzerdefinierten Montageartikeln  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bietet die Flexibilität, eine Lagermenge und eine Programmfertigungsmenge in einer Verkaufsauftragszeile einzugeben. Dieser Abschnitt behandelt die folgenden Aufgaben:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  bietet die Flexibilität, eine Lagermenge und eine Programmfertigungsmenge in einer Verkaufsauftragszeile einzugeben. Dieser Abschnitt behandelt die folgenden Aufgaben:  
 
 -   Erstellen einer reinen ATO-Verkaufsauftragszeile, in der die gesamte Menge nicht verfügbar ist und vor dem Warenausgang montiert werden muss.  
 -   Anpassen von ATO-Artikeln.  
@@ -88,7 +88,7 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 
 Bereiten Sie den Lagerort WHITE folgendermassen für die Montageverarbeitung vor:  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Öffnen Sie die Lagerortkarte für den Lagerort WHITE.  
 3.  Im Inforegister **Lagerplätze** geben Sie **W-10-0001** im Feld **Mont.-Bereitst.-Lagerplatzcode** ein.  
 
@@ -100,7 +100,7 @@ Bereiten Sie den Lagerort WHITE folgendermassen für die Montageverarbeitung vor
 
 Entfernen Sie die Standard-Beschaffungszeit für interne Vorgänge, indem Sie die folgenden Schritte befolgen:  
 
-1.  Um das Fenster Marketing einzurichten, wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben **Herstellung einrichten** ein und wählen den entsprechenden Link aus.  
+1.  Um das Fenster Marketing einzurichten, wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben **Herstellung einrichten** ein und wählen den entsprechenden Link aus.  
 2.  Im Fenster **Produktion Einrichtung** im Inforegister **Planung**, löschen Sie den Wert im Feld **Vorg. Sich.-Zuschl. Besch.-Zt.** Feld.  
 
 Erstellen Sie Bestand für Montagekomponenten, indem Sie die Anweisungen im Abschnitt "Vorbereiten von Beispieldaten" in dieser Anleitung befolgen.  
@@ -158,7 +158,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
 ### <a name="creating-the-assembly-items"></a>Erstellen der Montageartikel  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Neu** aus.  
 3.  Erstellen Sie den ersten Montageartikel auf der Grundlage der folgenden Informationen.  
 
@@ -179,17 +179,17 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     |**Typ**|**Nr.**|**Komponentenmenge**|  
     |-------------------------------|------------------------------|---------------------------------------|  
-    |Option|80001|0|  
-    |Option|80011|0|  
-    |Option|80209|0|  
-    |Ressource|Linda|0|  
+    |Option|80001|1|  
+    |Option|80011|1|  
+    |Option|80209|1|  
+    |Ressource|Linda|1|  
 
 6.  Erstellen Sie den zweiten Montageartikel auf der Grundlage der folgenden Informationen.  
 
     |Feld|Wert|  
     |---------------------------------|-----------|  
     |**Beschreibung**|Kit B – Profi-PC|  
-    |**Basismaßeinheit**|PCS|  
+    |**Basismasseinheit**|PCS|  
     |**Artikelkategoriencode**|Diverses|  
     |**Beschaffungsmethode**|Montage|  
     |**Montagerichtlinie**|Programmfertigung|  
@@ -202,10 +202,10 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     |**Typ**|**Nr.**|**Komponentenmenge**|  
     |-------------------------------|------------------------------|---------------------------------------|  
-    |Option|80005|0|  
-    |Option|80014|0|  
-    |Option|80210|0|  
-    |Ressource|Linda|0|  
+    |Option|80005|1|  
+    |Option|80014|1|  
+    |Option|80210|1|  
+    |Ressource|Linda|1|  
 
 ### <a name="selling-the-assembly-items"></a>Verlaufen der Montageartikel  
 
@@ -232,12 +232,12 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 4.  Wählen Sie die Verkaufsauftragszeile für drei Einheiten von Kit B.  
 5.  Wählen Sie auf dem Inforegister **Zeilen** **Zeile** aus, wählen Sie **Auftragsmontage**, und klicken Sie anschliessend auf **Auftragsmontagezeilen**.  
 6.  Im Fenster **Programmfertigungszeilen** der Montageauftragszeile für Artikel 80014, geben Sie **2** im Feld **Komponentenmenge** ein.  
-7.  Auf der Montageauftragszeile für Artikel 80210, wählen Sie **Nr.** aus und klicken Sie anschließend auf Artikel 80209.  
+7.  Auf der Montageauftragszeile für Artikel 80210, wählen Sie **Nr.** aus und klicken Sie anschliessend auf Artikel 80209.  
 8.  Erstellen Sie eine neue Montageauftragszeile mit den folgenden Informationen.  
 
     |Art|Nr.|Komponentenmenge|  
     |----------|---------|------------------|  
-    |Option|80203|0|  
+    |Option|80203|1|  
 
 9. Schliessen Sie das Fenster **Auftragsmontagezeilen**.  
 
@@ -262,7 +262,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planen für die nicht verfügbaren ATS-Artikel  
 
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen] Symbol (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Arbeitszeitplanung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen Symbol") aus und geben Sie **Arbeitszeitplanung** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie auf der Registerkarte **Aktion** in der Gruppe **Funktionen** die Option **Neuplanung berechnen** aus.  
 3.  Stellen Sie im Fenster **Planung berechnen** die folgenden Filter ein.  
 
@@ -299,7 +299,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Führen Sie dann die Aufgaben des Komissionierers aus.  
 
-4.  Wählen Sie ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben Sie **Auswahl** ein und wählen dann den zugehörigen Link aus.  
+4.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben Sie **Auswahl** ein und wählen dann den zugehörigen Link aus.  
 5.  Öffnen Sie den Kommissionierbeleg, den Sie in Schritt 3 in diesem Abschnitt erstellt haben.  
 
     Beachten Sie den Wert im Feld **Quelldokument** und dass alle Kommissionierzeilen für Montagekomponenten gelten.  
@@ -330,7 +330,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Das Feld **Montagemenge** ist editierbar, um Situationen zu unterstützen, in denen Sie eine Lagermenge teilweise ausliefern möchten, anstatt mehr Einheiten für den Auftrag zu montieren. Weitere Informationen finden Sie im Abschnitt "Kombinationsszenarien" in [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-12. Schließen Sie das Fenster **Montageauftrag**, um zum Fenster **Warenausgang** zurückzukehren.  
+12. Schliessen Sie das Fenster **Montageauftrag**, um zum Fenster **Warenausgang** zurückzukehren.  
 13. Geben Sie auf der Ausgangszeile für drei Einheiten von Kitartikel B im Feld **Zu liefernde Menge** **3** ein.  
 14. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Buchen** die Option **Warenausgang buchen**, und wählen Sie dann die Schaltfläche **Liefern**.  
 
@@ -356,7 +356,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     Buchen Sie dann, dass der Montageauftrag abgeschlossen ist.  
 
 3.  Klicken Sie auf der Registerkarte **Navigate** in der Gruppe **Lager**, wählen Sie **Warenausgangszeile für Programmfertigung** aus.  
-4.  Geben Sie im Fenster **Warenausgangszeile für Programmfertigung**im Feld **Zu liefernde Menge** **5** ein und schließen Sie dann das Fenster.  
+4.  Geben Sie im Fenster **Warenausgangszeile für Programmfertigung**im Feld **Zu liefernde Menge** **5** ein und schliessen Sie dann das Fenster.  
 
     Beachten Sie im Fenster , dass die Felder **Montageauftrag** und **Montagemenge** jetzt mit den **Verbrauchsmengen** ausgefüllt sind, die mit der Lieferung gebucht werden.  
 
@@ -376,7 +376,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Führen Sie dann die Aufgaben des Komissionierers aus.  
 
-5.  Wählen Sie ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben Sie **Auswahl** ein und wählen dann den zugehörigen Link aus.  
+5.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben Sie **Auswahl** ein und wählen dann den zugehörigen Link aus.  
 6.  Öffnen Sie den Kommissionierbeleg, den Sie in Schritt 4 in diesem Abschnitt erstellt haben.  
 
      Registrieren Sie dann die Kommissionierung, ohne die Standardinformationen zu ändern.  
@@ -403,7 +403,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Führen Sie dann die letzte Aufgabe der Auswahl für diesen Warenausgang aus.  
 
-4.  Wählen Sie ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben Sie **Auswahl** ein und wählen dann den zugehörigen Link aus.  
+4.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben Sie **Auswahl** ein und wählen dann den zugehörigen Link aus.  
 5.  Öffnen Sie den Kommissionierbeleg, den Sie in Schritt 3 in diesem Abschnitt erstellt haben.  
 
     Beachten Sie, dass dieser Kommissionierbeleg für Montageartikel gilt, nicht für Montagekomponenten.  
@@ -432,10 +432,10 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
 ## <a name="see-also"></a>Siehe auch  
  [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md)   
- [Vorgehensweise: Artikel montieren](assembly-how-to-assemble-items.md)   
- [Vorgehensweise: Kommissionieren von Artikeln für den Warenausgang](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [Vorgehensweise: Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md)   
- [Vorgehensweise: Artikel montieren](assembly-how-to-assemble-items.md)   
+ [Artikel montieren](assembly-how-to-assemble-items.md)   
+ [Um Artikel für den Warenausgang zu kommissionieren](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+ [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md)   
+ [Artikel montieren](assembly-how-to-assemble-items.md)   
  [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md)   
  [Designdetails: Interner Lagerfluss](design-details-internal-warehouse-flows.md)   
  [Designdetails: Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md)   

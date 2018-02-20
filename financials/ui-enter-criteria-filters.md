@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 11d7ef56e980ba263dba6328b2f2f08b86410242
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="searching-filtering-and-sorting-data"></a>Ermitteln, filternd und Sortieren von Daten
@@ -38,8 +38,8 @@ Sie können allen Seiten Filter hinzufügen, indem Sie Schnellfilter oder erweit
 > [!IMPORTANT]  
 >   Der Schnellfilter bietet einen einfachen Zugriff auf Filterdaten durch die Eingabe reinen Texts, bietet aber auch zahlreiche Optionen für Suchkriterien. Abhängig davon, ob Sie Freitext oder Text mit Symbolen eingeben, verhält sich der Schnellfilter unterschiedlich.  
 
-* Wenn Sie Freitextangaben in den Suchkriterien eingeben, werden die Suchkriterien als die Groß-/Kleinschreibung nicht beachtend angesehen.  
-* Wenn Sie Text mit Symbolen in den Suchkriterien eingeben, werden die Suchkriterien genau wie angegeben interpretiert, und die Groß-/Kleinschreibung wird berücksichtigt.
+* Wenn Sie Freitextangaben in den Suchkriterien eingeben, werden die Suchkriterien als die Gross-/Kleinschreibung nicht beachtend angesehen.  
+* Wenn Sie Text mit Symbolen in den Suchkriterien eingeben, werden die Suchkriterien genau wie angegeben interpretiert, und die Gross-/Kleinschreibung wird berücksichtigt.
 
 ### <a name="quick-filter-criteria"></a>Schnelle Filterkriterien
 <!-- html syntax because symbols conflict with MarkDown syntax -->
@@ -52,31 +52,31 @@ Sie können allen Seiten Filter hinzufügen, indem Sie Schnellfilter oder erweit
   <TR>
     <TD>man</TD>
     <TD>@&#42;man&#42;</TD>
-    <TD>Alle Datensätze, die den Text <b>Mann</b> enthalten und die Groß-/Kleinschreibung nicht beachten.</TD>
+    <TD>Alle Datensätze, die den Text <b>Mann</b> enthalten und die Gross-/Kleinschreibung nicht beachten.</TD>
   </TR>
   <TR>
     <TD>se</TD>
     <TD>@&#42;se&#42;</TD>
-    <TD>Alle Datensätze, die den Text <b>se</b> enthalten und die Groß-/Kleinschreibung nicht beachten.</TD>
+    <TD>Alle Datensätze, die den Text <b>se</b> enthalten und die Gross-/Kleinschreibung nicht beachten.</TD>
   </TR>
   <TR>
     <TD>Man&#42;</TD>
-    <TD>Beginnt mit <b>Man</b> und Groß-/Kleinschreibung beachten</TD>
+    <TD>Beginnt mit <b>Man</b> und Gross-/Kleinschreibung beachten</TD>
     <TD>Alle Datensätze, die mit dem Text <b>Mann</b> beginnen.</TD>
   </TR>
   <TR>
     <TD>'man'</TD>
-    <TD>Exakter Text unter Berücksichtigung der Groß-/Kleinschreibung</TD>
+    <TD>Exakter Text unter Berücksichtigung der Gross-/Kleinschreibung</TD>
     <TD>Alle Datensätze, die mit <b>Mann</b> genau übereinstimmen.</TD>
   </TR>
   <TR>
     <TD>@man* </TD>
-    <TD>Beginnt mit, Groß-/Kleinschreibung beachtet</TD>
+    <TD>Beginnt mit, Gross-/Kleinschreibung beachtet</TD>
     <TD>Alle Datensätze, die mit <b>Mann</b> beginnen.</TD>
   </TR>
     <TR>
     <TD>@&#42;man</TD>
-    <TD>Endet mit, Groß-/Kleinschreibung beachtet</TD>
+    <TD>Endet mit, Gross-/Kleinschreibung beachtet</TD>
     <TD>Alle Datensätze, die mit <b>mann</b> enden.</TD>
   </TR>
 </TABLE>
@@ -88,7 +88,7 @@ Sie können allen Seiten Filter hinzufügen, indem Sie Schnellfilter oder erweit
 Sie können einen Filter für einen oder mehreren Spalten aus einer Liste hinzufügen. Das Filtern in Spalten ist flexibel und erhöht als den Schnellfilter. 
 
 ### <a name="to-add-a-filter-on-a-column"></a>Um einen Filter für eine Spalte hinzufügen
-1.  Bevor Sie Filter hinzufügen, wählen Sie ![Anzeigen als Liste] (media/ui_show_as_list_icon.png "Anzeigen als linken Listenpfeil"), um die Listenansicht zu ändern.
+1.  Bevor Sie Filter hinzufügen, wählen Sie ![Anzeigen als Liste](media/ui_show_as_list_icon.png "Anzeigen als linken Listenpfeil"), um die Listenansicht zu ändern.
 2. Wählen Sie den Abwärts-Pfeil in die Spaltenüberschrift, und wählen Sie dann **Filter**.
 3. Führen Sie einen der folgenden Schritte aus: 
   -  Wählen Sie *...* neben dem Feld, um einen Wert aus einer Liste auszuwählen.
@@ -153,27 +153,27 @@ Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet 
   
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
-|>200&<1200|Nummern größer 200 und Nummern kleiner 1200.|  
+|>200&<1200|Nummern grösser 200 und Nummern kleiner 1200.|  
   
 ### <a name="-an-exact-character-match"></a>(") Eine genaue Zeichenübereinstimmung  
   
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
-|'man'|Text, der genau übereinstimmt und die Groß-/Kleinschreibung berücksichtigt.|  
+|'man'|Text, der genau übereinstimmt und die Gross-/Kleinschreibung berücksichtigt.|  
   
-### <a name="-case-insensitive"></a>(@) Groß-/Kleinschreibung beachten  
+### <a name="-case-insensitive"></a>(@) Gross-/Kleinschreibung beachten  
   
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
-|@man*|Text, der mit „Man“ beginnt und die Groß-/Kleinschreibung beachtet.|  
+|@man*|Text, der mit „Man“ beginnt und die Gross-/Kleinschreibung beachtet.|  
   
 ### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Beliebig viele unbekannte Zeichen  
   
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
-|*Co*|Text, der die Zeichenfolge "Co" enthält und die Groß-/Kleinschreibung ist.|  
-|*Co|Text, der mit "Co" endet und die Groß-/Kleinschreibung ist.|  
-|Co*|Text, der mit "Co" beginnt und die Groß-/Kleinschreibung ist.|  
+|*Co*|Text, der die Zeichenfolge "Co" enthält und die Gross-/Kleinschreibung ist.|  
+|*Co|Text, der mit "Co" endet und die Gross-/Kleinschreibung ist.|  
+|Co*|Text, der mit "Co" beginnt und die Gross-/Kleinschreibung ist.|  
   
 ### <a name="-one-unknown-character"></a>(?) Ein unbekannter Buchstabe  
   

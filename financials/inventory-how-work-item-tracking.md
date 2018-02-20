@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 326c7931cc0217c72ede62d5516dba5f4ee6fa32
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f9672af6dc4f87f52773a91c587f60c6afe98b8f
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-serial-and-lot-numbers"></a>Vorgehensweise: Arbeiten mit Chargennummern und Seriennummern
+# <a name="work-with-serial-and-lot-numbers"></a>Arbeiten mit Chargennummern und Seriennummern
 Sie können Serien-/Chargennummern zu beliebigen ausgehenden oder eingehenden Belegen zuweisen, und das gebuchte Artikeltracking wird in den entsprechenden Lagerposten angezeigt. Sie führen die Arbeit im Fenster **Artikeltrackingzeilen** aus.
 
 Die Matrix der Mengenfelder im Kopf des Fensters **Artikeltrackingzeile** zeigt dynamisch die Mengen und die Summen der Artikeltrackingnummern an, die Sie auf den Zeilen des Fensters eingegeben werden. Die Mengen müssen denen in der Belegzeile entsprechen, was durch eine 0 in den Feldern **Undefiniert** angezeigt wird.
 
 Aus Leistungsgründen werden die Verfügbarkeitsinformationen, die im Fenster **Artikeltrackingzeilen** angezeigt werden, nur ein Mal zusammengestellt, wenn Sie das Fenster öffnen. Das heisst, dass die Verfügbarkeitsinformationen während der Zeit, in der das Fenster geöffnet ist, nicht geändert werden, und zwar auch dann nicht, wenn in dieser Zeit Änderungen am Lagerbestand oder an anderen Belegen vorgenommen werden.
 
-Gibt gebuchte Serien-/Chargennummern an, die in einer Lieferkette vorwärts oder rückwärts verfolgt werden können. Dies ist für allgemeine Maßnahmen für die Qualitätssicherung und für Rückrufe eines fehlerhaften Produktes nützlich. Weitere Informationen finden Sie unter [So geht's: Nachverfolgte Artikel reservieren](inventory-how-to-trace-item-tracked-items.md).
+Gibt gebuchte Serien-/Chargennummern an, die in einer Lieferkette vorwärts oder rückwärts verfolgt werden können. Dies ist für allgemeine Massnahmen für die Qualitätssicherung und für Rückrufe eines fehlerhaften Produktes nützlich. Weitere Informationen finden Sie unter [Nachverfolgte Artikel reservieren](inventory-how-to-trace-item-tracked-items.md).
 
 ## <a name="about-picking-serial-or-lot-numbers-in-the-warehouse"></a>Um in der Kommissionierung spezielle Serien-/Chargennummern zu kommissionieren:
 Die Verarbeitung von ausgehenden Serien- oder Chargennummern ist eine häufige Aktivität, die in vielen verschiedenen Lagerprozessen verwendet wird.  
@@ -52,7 +52,7 @@ Im Fenster **Chargennr./Seriennr.-Informationsliste**, im Fenster **Chargennr./S
 |**Aktuell angeforderte Menge**|Die Anzahl der angeforderten Artikel, die auf dem aktuellen Beleg verwendet wird|
 |**Total verfügbare Menge**|Die Gesamtanzahl des Artikels im Lagerbestand minus der Menge des Artikels, die zur Verwendung auf diesem sowie auf anderen Belegen angefordert ist (Total angeforderte Menge) und minus der Menge, die für diesen Beleg angefordert ist, aber noch nicht in die Datenbank übertragen wurde (Aktuell angeforderte Menge)|
 
-Wenn Sie längere Zeit im Fenster **Artikeltrackingzeilen** arbeiten und wenn es viele Aktivitäten für den Artikel gibt, mit dem Sie arbeiten, können Sie die Verfügbarkeitsinformationen durch Klicken auf die Funktion **Verfügbarkeit aktualisieren** aktualisieren. Wenn Sie das Fenster schließen, wird die Verfügbarkeit des Artikels automatisch neu überprüft, um zu bestätigen, dass es keine Verfügbarkeitsprobleme gibt.
+Wenn Sie längere Zeit im Fenster **Artikeltrackingzeilen** arbeiten und wenn es viele Aktivitäten für den Artikel gibt, mit dem Sie arbeiten, können Sie die Verfügbarkeitsinformationen durch Klicken auf die Funktion **Verfügbarkeit aktualisieren** aktualisieren. Wenn Sie das Fenster schliessen, wird die Verfügbarkeit des Artikels automatisch neu überprüft, um zu bestätigen, dass es keine Verfügbarkeitsprobleme gibt.
 
 ## <a name="to-set-up-item-tracking-codes"></a>Um Artikelverfolgungscodes einzurichten
 Ein Artikeltrackingcode spiegelt die unterschiedlichen Betrachtungen wider, die ein Unternehmen bezüglich der Verwendung von Serien- und Chargennummern von Artikeln anstellt, die sich durch das Lager bewegen.  
@@ -98,7 +98,7 @@ Falls Sie spezielle Informationen mit einer bestimmten Artikeltrackingnummer ver
 6. Aktivieren Sie das Kontrollkästchen **Gesperrt**, um die Serien- oder Chargennummer von sämtlichen Transaktionen auszuschliessen.  
 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Bestehende Serien- oder Chargennummerinformationen ändern  
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie einen Artikel, der einen Artikeltrackingcode und Serien- oder Chargennummerinformationen hat.
 3. Im Fenster **Artikelkarte** wählen Sie die **Posten** Aktion aus, und wählen Sie dann **Posten** aus.
 4. Wählen Sie das Feld **Chargennr.** oder **Seriennr.** aus. Wenn es für die Artikeltrackingnummer Informationen gibt, dann wird das Fenster **Chargennr.-Informationsliste** oder **Seriennr.-Informationsliste** geöffnet.  
@@ -236,7 +236,7 @@ Die Inhalte der Felder **Seriennr.** und **Chargennr.** können nicht geändert 
 Ein Umbuchen des Artikeltrackings für einen Artikel bedeutet, dass eine Chargen- oder Seriennummer in eine neue Chargen- oder Seriennummer oder das Ablaufdatum in ein neues Ablaufdatum geändert wird. Wenn Sie mit Chargen arbeiten, können Sie ausserdem mehrere Chargen zu einer Charge vereinigen. Das Ausführen dieser Aufgaben erfolgt mit dem Artikel-Umlagerungs-Erfassungsjournal.
 
 1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Artikel Anlagen Umbuch. Erf.-Journal** ein und wählen den zugehörenden Link aus.  
-2.  Füllen Sie die Zeile mit den relevanten Informationen aus. Weitere Informationen finden Sie unter [Vorgehensweise: Erfassen, Regulieren und Umbuchen von Lagerbestand um](inventory-how-count-adjust-reclassify.md).
+2.  Füllen Sie die Zeile mit den relevanten Informationen aus. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand](inventory-how-count-adjust-reclassify.md).
 3.  Wählen Sie die **Artikeltrackingzeilen** Aktion aus.  
 4.  Wählen Sie im Feld **Seriennr.** oder **Chargennr.** die aktuelle Serien- oder Chargennummer aus.  
 5.  Wenn Sie eine neue Artikeltrackingnummer eingeben möchten, geben Sie diese in das Feld **Neue Seriennr.** oder **Neue Chargennr.** ein. Bei Bedarf können Sie eine oder mehrere Chargen in einer oder mehreren neuen Chargen zusammenführen.  
@@ -259,10 +259,10 @@ Ein Umbuchen des Artikeltrackings für einen Artikel bedeutet, dass eine Chargen
 8.  Buchen Sie das Erf.-Journal, um die neuen Artikeltrackingnummern oder Ablaufdatumsangaben mit den entsprechenden Lagerposten zu verknüpfen.
 
 ## <a name="see-also"></a>Siehe auch
-[Vorgehensweise: Verfolgen von Artikeln mit Artikeltracking](inventory-how-to-trace-item-tracked-items.md)   
+[Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)   
 [Lagerbesttand](inventory-manage-inventory.md)  
 [Designdetails: Artikeltracking](design-details-item-tracking.md)
 [Designdetails - Artikeltracking und Reservierungen](design-details-item-tracking-and-reservations.md)  
-[Vorgehensweise: Artikel reservieren](inventory-how-to-reserve-items.md)  
+[Artikel reservieren](inventory-how-to-reserve-items.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

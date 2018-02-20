@@ -13,17 +13,17 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1c82ab613d8f1fc5e71a81e6eead60cf9c0bf196
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9b4190ca0ffbc0a922c6679fcf98367a72980eea
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-business-edition"></a>Power BI Berichte in der Listenansicht in Dynamics 365 Business edition nutzen 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] enthält einen Infoboxregler in mehreren Schlüssellistenseiten, die zusätzliche Einblick in die Daten in dieser Liste bereitstellen. Während Sie sich zwischen den Zeilen in der Liste bewegen, wird der Bericht für den Eintrag gefiltert und aktualisiert. Sie können benutzerdefinierte Berichte erstellen, aber es gibt einige Regeln, die Sie beim Erstellen der Berichte befolgen müssen, um sicherzustellen, dass das gewünschte Verhalten geliefert wird.  
+# <a name="viewing-list-data-in-power-bi-reports-in-finance-and-operations-business-edition"></a>Power BI Berichte in der Listenansicht in Finance and Operations, Business edition nutzen 
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  enthält einen Infoboxregler in mehreren Schlüssellistenseiten, die zusätzliche Einblick in die Daten in dieser Liste bereitstellen. Während Sie sich zwischen den Zeilen in der Liste bewegen, wird der Bericht für den Eintrag gefiltert und aktualisiert. Sie können benutzerdefinierte Berichte erstellen, aber es gibt einige Regeln, die Sie beim Erstellen der Berichte befolgen müssen, um sicherzustellen, dass das gewünschte Verhalten geliefert wird.  
 
 > [!NOTE]  
->   Sie müssen ein gültiges Konto mit [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Power BI haben. Zudem müssen Sie [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) herunterladen. Weitere Informationen finden Sie unter [Anwendung [!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI Datenquelle](across-how-use-financials-data-source-powerbi.md).  
+>   Sie müssen ein gültiges Konto mit  [!INCLUDE[d365fin](includes/d365fin_md.md)]mit Power BI haben. Zudem müssen Sie [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) herunterladen. Weitere Informationen finden Sie unter [Anwendung [!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI Datenquelle](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Bericht Dataset
 Wenn Sie den Bericht in Power BI Desktop erstellen, definieren Sie die Datenquelle oder den Webdienst, der die Daten enthält, die in der Liste verknüpft sind, den Sie im Bericht zuordnen möchten. Wenn Sie beispielsweise einen Bericht für die Verkaufsliste erstellen möchten, stellen Sie sicher, dass das Dataset Informationen zu den entsprechenden Verkäufen enthält.  
@@ -31,23 +31,23 @@ Wenn Sie den Bericht in Power BI Desktop erstellen, definieren Sie die Datenquel
 Um Daten in Berichten zu filtern, basierend auf dem ausgewählten Datensatz der Listenseite, muss der primäre Schlüssel als Berichtsfilter verwendet werden. Die Primärschlüssel müssen Teil des Datasets sein, um die Berichte korrekt zu filtern. In den meisten Fällen ist der Primärschlüssel für eine Liste **Nr.** Feld  
 
 ## <a name="defining-the-report-filter"></a>Definiert den Berichts-Filter
-Der Bericht wird benötigt, um einen grundlegenden Berichtsfilter (kein Seiten- oder visueller Filter und kein erweiterter Filter), um Filter in der Power BI ein Sichtfilter und keinen gewechselten Filter) haben z in der Energie BI Infosteuerung korrekt anzuzeigen. Der Filter, der zum Power BI Bericht von jeder Listenseite übergeben wird, basiert auf dem Primärschlüssel, wie im vorherigen Abschnitt erläutert.  
+Der Bericht wird benötigt, um einen grundlegenden Berichtsfilter (kein Seiten- oder visueller Filter und kein erweiterter Filter), um Filter in der Power BI  ein Sichtfilter und keinen gewechselten Filter) haben z in der Energie BI Infosteuerung korrekt anzuzeigen. Der Filter, der zum Power BI Bericht von jeder Listenseite übergeben wird, basiert auf dem Primärschlüssel, wie im vorherigen Abschnitt erläutert.  
 
 Um einen Filter für den Bericht zu definieren, wählen Sie den Primärschlüssel aus der Liste der verfügbaren Felder und ziehen dann das Feld in den Abschnitt **Berichts-Filter**.  
 
 ![Den Berichtfilter für den Verkaufsrechnungs-Tätigkeitsbericht festlegen](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
 
-## <a name="report-size-and-color"></a>Meldet Größe und Farbe
-Die Größe des Berichts muss auf 325 Pixel auf 310 Pixel festgelegt werden. Dies ist für die Skalierung des Berichts im verfügbaren Platz erforderlich, der von der Power BI Infosteuerung zugelassen wird. Um die Grösse des Berichts zu definieren, den Fokus ausserhalb des Berichts im Berichtslayoutbereich zu platzieren und um das Farbenrollensymbol zu wählen.
+## <a name="report-size-and-color"></a>Meldet Grösse und Farbe
+Die Grösse des Berichts muss auf 325 Pixel auf 310 Pixel festgelegt werden. Dies ist für die Skalierung des Berichts im verfügbaren Platz erforderlich, der von der Power BI Infosteuerung zugelassen wird. Um die Grösse des Berichts zu definieren, den Fokus ausserhalb des Berichts im Berichtslayoutbereich zu platzieren und um das Farbenrollensymbol zu wählen.
 
 ![Den Berichtfilter für die Breite und die Höhe des Verkaufsrechnungs-Tätigkeitsbericht festlegen](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
 
 Sie können die Breite und die Tiefe des Berichts ändern, indem Sie im Feld **Benutzerdefiniert** **Art** auswählen.
 
-Wenn Sie möchten, dass der Hintergrund des Bericht sich mit der Hintergrundfarbe der Power BI Infofaktenbox vermischt, definieren Sie eine benutzerdefinierte Hintergrundfarbe *E5E5E5*. Diese Angabe ist optional.  
+Wenn Sie möchten, dass der Hintergrund des Bericht sich mit der Hintergrundfarbe der Power BI Infofaktenbox vermischt, definieren Sie eine benutzerdefinierte Hintergrundfarbe*E5E5E5*. Diese Angabe ist optional.  
 
 ## <a name="reports-with-multiple-pages"></a>Berichte mit mehrere Seiten
-Mit Power BI können Sie einen Bericht mit einer oder mehreren Seiten erstellen. Die grafischen Elemente, die Sie in den [!INCLUDE[d365fin](includes/d365fin_md.md)] Listenseiten einsehen möchten, müssen auf der ersten Seite des Berichts in Power BI sein.  
+Mit Power BI können Sie einen Bericht mit einer oder mehreren Seiten erstellen. Die grafischen Elemente, die Sie in den  [!INCLUDE[d365fin](includes/d365fin_md.md)] Listenseiten einsehen möchten, müssen auf der ersten Seite des Berichts in Power BI sein.  
 
 > [!NOTE]  
 >  Die Power BI Fakten-Infobox kann nur die ersten Seite des Berichts anzeigen; wenn Sie andere Seiten anzeigen möchten, müssen Sie die Registerkarten im unteren Bereich des Berichts erweitern, um zu anderen Seiten zu navigieren.  
@@ -69,11 +69,11 @@ Dieser Abschnitt bietet eine Problemumgehung für die typischsten Probleme, die 
 
 **Bericht erscheint mit unerwünschten grauen Rändern, ist zu klein oder zu umfangreich**
 
-Vergewissern Sie sich, dass die Berichtsgröße auf 325 Pixel x 310 Pixel festgelegt wird. Speichern Sie den Bericht, und aktualisieren Sie anschliessend die Listenseite.  
+Vergewissern Sie sich, dass die Berichtsgrösse auf 325 Pixel x 310 Pixel festgelegt wird. Speichern Sie den Bericht, und aktualisieren Sie anschliessend die Listenseite.  
 
 ## <a name="see-also"></a>Siehe auch
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI Datenquelle nutzen](across-how-use-financials-data-source-powerbi.md)   
-[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)    
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-use-financials-data-source-powerbi.md)Financials als Power BI Datenquelle nutzen  
+[Willkommen bei[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)    
 [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
 [Finanzen](finance.md)  
 

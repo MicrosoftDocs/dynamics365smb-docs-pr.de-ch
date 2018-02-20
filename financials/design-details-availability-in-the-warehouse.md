@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 0b560d61d39ba22f0008e6cb5ef11d2f6c9aa9e0
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetails: Verfügbarkeit im Lager
@@ -49,7 +49,7 @@ Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager a
 ## <a name="quantity-available-to-reserve"></a>&Menge Verfügbar für Reservierung  
  Da die Konzepte des Lagerplatzinhaltes und der Reservierung gleichzeitig existieren, muss die Menge der Artikel, die zur Reservierung verfügbar sind, an die Zuordnung zu ausgehenden Lagerbelegen angepasst sein.  
 
- Eine Reservierung aller Artikel im Lager sollte mögich sein außer bei jenen, deren ausgehende Verabeitung bereits begonnen hat. Entsprechend wird die Menge, die reservierbar ist, als die Menge auf allen Belegen und an allen Lagerplatzarten definiert, ausgenommen die folgenden ausgehenden Mengen:  
+ Eine Reservierung aller Artikel im Lager sollte mögich sein ausser bei jenen, deren ausgehende Verabeitung bereits begonnen hat. Entsprechend wird die Menge, die reservierbar ist, als die Menge auf allen Belegen und an allen Lagerplatzarten definiert, ausgenommen die folgenden ausgehenden Mengen:  
 
 -   Menge für nicht registrierte Kommissionierbelege  
 -   Menge der in Lieferung enthaltenen Lagerplätze  

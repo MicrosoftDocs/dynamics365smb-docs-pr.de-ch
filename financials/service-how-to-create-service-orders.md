@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cb514fe04fd70836f640d3db4ea592680ab0fa1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5460f50c4c556a74b518976d5d5fa90203f16967
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-orders"></a>Vorgehensweise: Erstellen von Serviceaufträgen
+# <a name="create-service-orders"></a>Erstellen von Serviceaufträgen
 Im Fenster **Serviceauftrag** können Sie Belege erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Kundenanfrage eingeben.  
   
 Wenn Sie einen Serviceauftrag erstellen, müssen Sie nur einige wenige Felder ausfüllen. Einige Felder sind optional und viele werden automatisch ausgefüllt, wenn Sie die damit verknüpften Felder ausfüllen.  
@@ -74,7 +74,7 @@ Wenn Sie sicher sein müssen, dass ein Artikel für einen Serviceauftrag verfüg
 
 1. Geben Sie im Feld **Suchen** **Serviceaufträge** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie das Menü Bestellung, und wählen Sie dann **Bearbeiten**.  
-3. Wählen Sie **Aktionen** , **Auftrag**, und klicken Sie anschließend auf **Servicezeilen**.  
+3. Wählen Sie **Aktionen** , **Auftrag**, und klicken Sie anschliessend auf **Servicezeilen**.  
 4. Auf der Seite **Servicezeilen** wählen Sie den zu reservierenden Artikel und die **Reservieren** Aktion aus.  
 5. Auf der Seite **Reservierung** wählen Sie **Von aktueller Zeile reservieren** aus. 
 
@@ -92,7 +92,7 @@ Wenn Sie Standardservicecodes eingerichtet und Serviceartikelgruppen zugewiesen 
 >  Wenn das Feld **Serviceartikelgruppencode** in der Serviceartikelzeile des Belegs leer ist, weist dies darauf hin, dass der Serviceartikel nicht zu einer Serviceartikelgruppe gehört. In diesem Fall enthält das Fenster **Std.-Serviceartikelgr.-Codes** eine Liste aller Standardservicecodes. Sie sollten einen Code aus der Liste auswählen, um Standardservicezeilen in den Beleg einzufügen. Sie können auch aus einer Liste von Standardservicecodes wählen, die einer bestimmten Serviceartikelgruppe zugeordnet sind. Um die Liste anzuzeigen, wählen Sie den entsprechenden Code im Feld **Serviceartikelgruppencode** im Fenster **Standard-Serviceartikelgruppen-Codes** aus.  
 
 ## <a name="to-register-internal-or-public-comments"></a>So erfassen Sie interne oder öffentliche Bemerkungen
-Sie können Bemerkungen hinzufügen, die auf Serviceaufträgen und Serviceofferten gedruckt werden, um zusätzliche Informationen bereitzustellen. Sie können bis zu 80 Zeichen, einschließlich Leerzeichen, hinzufügen. Wenn Sie mehr Text eingeben müssen, wählen Sie eine andere Zeile aus. Um eine Bemerkung zu registrieren, wählen Sie eine Zeile und die **Bemerkungen** Aktion aus.  
+Sie können Bemerkungen hinzufügen, die auf Serviceaufträgen und Serviceofferten gedruckt werden, um zusätzliche Informationen bereitzustellen. Sie können bis zu 80 Zeichen, einschliesslich Leerzeichen, hinzufügen. Wenn Sie mehr Text eingeben müssen, wählen Sie eine andere Zeile aus. Um eine Bemerkung zu registrieren, wählen Sie eine Zeile und die **Bemerkungen** Aktion aus.  
 
 ## <a name="to-delete-invoiced-service-orders"></a>So löschen Sie fakturierte Serviceaufträge  
 Aufträge werden automatisch gelöscht, nachdem diese vollständig fakturiert wurden. Beim Buchen einer Rechnung wird ein entsprechender Posten im Fenster **Gebuchte Servicerechnungen** erstellt. Der gebuchte Beleg kann auf der Seite **Gebuchte Servicerechnung** angezeigt werden.  
@@ -106,8 +106,8 @@ Serviceaufträge werden aber nicht automatisch gelöscht, wenn die Gesamtmenge d
 
 ## <a name="see-also"></a>Siehe auch  
 [Servicebuchung](service-service-posting.md)  
-[Vorgehensweise: Buchen von Serviceaufträgen](service-how-to-post-service-orders.md)  
+[Serviceauftrag buchen](service-how-to-post-service-orders.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
-[Vorgehensweise: Bearbeiten von Serviceaufgaben](service-how-to-work-on-service-tasks.md)  
-[Gewusst wie<. Ressourcen zuweisen](service-how-to-allocate-resources.md)  
+[Mit Serviceaufgaben arbeiten](service-how-to-work-on-service-tasks.md)  
+[Ressourcen zuordnen](service-how-to-allocate-resources.md)  
 

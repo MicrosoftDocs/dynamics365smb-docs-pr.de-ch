@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 936c6a429f2b8c60499d7b2b5f1f8fba800a4e8b
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetails: Umlagerungen in Planung
@@ -42,7 +42,7 @@ Die zugehörige Bedarf und der Vorrat haben einige Ähnlichkeit mit Komponenten 
   
 Eine wichtige Ähnlichkeit besteht darin, dass der Umlagerungsbedarf so wie Komponenten abhängiger Bedarf ist. Der Bedarf aus einer Umlagerungszeile wird von der Bedarfsseite der Übertragung in dem Sinn festgelegt, dass, wenn der Vorrat geändert wird, der Bedarf direkt beeinflusst wird.  
   
-Außer wenn die Planungsflexibilität "Keine" ist, sollte eine Umlagerungszeile nicht als unabhängiger Bedarf in der Planung behandelt werden.  
+Ausser wenn die Planungsflexibilität "Keine" ist, sollte eine Umlagerungszeile nicht als unabhängiger Bedarf in der Planung behandelt werden.  
   
 Im Planungsverfahren sollte der Übergangsbedarf nur berücksichtigt werden, nachdem die Bedarfsseite vom Planungssystem verarbeitet wurde. Davor ist der tatsächliche Bedarf nicht bekannt. Die Reihenfolge der vorgenommenen Änderungen ist daher für Umlagerungsaufträge sehr wichtig.  
   
@@ -92,7 +92,7 @@ Im folgenden Beispiel ist der Ausgangspunkt eine ausgeglichene Situation mit ein
   
 ![](media/nav_app_supply_planning_7_transfers9.png "NAV_APP_supply_planning_7_transfers9")  
   
-Jetzt beschließt der Planer am Lagerort PINK, gegen den Einkauf zu reservieren.  
+Jetzt beschliesst der Planer am Lagerort PINK, gegen den Einkauf zu reservieren.  
   
 ![](media/nav_app_supply_planning_7_transfers10.png "NAV_APP_supply_planning_7_transfers10")  
   

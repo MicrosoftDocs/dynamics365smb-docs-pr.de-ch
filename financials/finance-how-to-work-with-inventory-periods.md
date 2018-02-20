@@ -13,13 +13,13 @@ ms.search.keywords: inventory, periods
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8f9c289f4fef06ef0b684dd7176630d29b2fc5d3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8f3d24dda00e3234dfcf7538c7f4fb7fbc008221
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-inventory-periods"></a>Vorgehensweise: Arbeiten mit Lagerbuchungsperioden
+# <a name="work-with-inventory-periods"></a>Arbeiten mit Lagerbuchungsperioden
 Eine Lagerbuchungsperiode definiert eine Zeitspanne, in der Sie Änderungen des Lagerbestandes buchen können. Eine Lagerbuchungsperiode ist durch das Datum definiert, an dem sie endet (wird auch als Enddatum bezeichnet). Wenn Sie eine Lagerbuchungsperiode schliessen, können Sie vor diesem Enddatum keine Änderungen des erwarteten oder in Rechnung gestellten Lagerbestandes buchen. Vor diesem Enddatum können Sie keine neuen Werte im Lager buchen. Wenn Sie in der geschlossenen Periode offene Artikelposten haben, es also positive Mengen gibt, die noch nicht für ausgehende Transaktion ausgeglichen wurden, können Sie weiterhin ausgehende Mengen mit diesen Posten verknüpfen, auch wenn die Periode geschlossen ist.  
 
 In den folgenden Abschnitten werden diese Schritte beschrieben:  
@@ -48,12 +48,12 @@ Das heisst, dass alle ausgehenden Transaktionsmengen (z. B. von Verkaufsaufträg
 1. Bevor Sie eine Lagerbuchungsperiode schliessen, sollten Sie den Batchauftrag **Lagerreg. fakt. Einst. Preise** ausführen, um sich zu vergewissern, dass alle Kostenregulierungen gebucht sind. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Kosten anpassen - Artikel** aus.  
 
      Führen Sie den Bericht **Lagerbuchungsperiode schliessen - Test** aus, um zu ermitteln, ob es in der Lagerbuchungsperiode offene ausgehende Artikelposten oder Artikel gibt, deren Preise noch nicht reguliert wurden.  
-2. Wählen Sie die Aktion **Lagerbuchungsperiode schließen - Test**.  
+2. Wählen Sie die Aktion **Lagerbuchungsperiode schliessen - Test**.  
 
      Führen Sie den Batchauftrag **Lagerregulierung buchen** aus, damit sichergestellt ist, dass alle Preise in der Finanzbuchhaltung gebucht werden.  
 3. Wählen Sie die Aktion **Lager auf Sachkonten buchen** aus.  
 4. Wählen Sie im Fenster  **Lagerbuchungsperioden** die Lagerbuchungsperiode aus, die geschlossen werden soll.  
-5. Wählen Sie die Aktion **Periode schließen**. Nachdem die Lagerbuchungsperiode geschlossen wurde, können Sie vor dem Enddatum keine Lagerbestandsänderungen mehr buchen. Die Preise aller Artikel müssen mit der Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** reguliert sein, bevor Sie die Lagerbuchungsperiode schliessen.  
+5. Wählen Sie die Aktion **Periode schliessen**. Nachdem die Lagerbuchungsperiode geschlossen wurde, können Sie vor dem Enddatum keine Lagerbestandsänderungen mehr buchen. Die Preise aller Artikel müssen mit der Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** reguliert sein, bevor Sie die Lagerbuchungsperiode schliessen.  
 6. Wählen Sie die Schaltfläche **Ja**, wenn Sie bestätigen möchten, dass die Periode geschlossen werden soll, oder wählen Sie die Schaltfläche **Nein**, wenn Sie das Schliessen abbrechen möchten.  
 7. Die Lagerbuchungsperiode wird geschlossen und nach Beendigung dieses Vorgangs wird eine Bestätigungsmeldung angezeigt.  
 

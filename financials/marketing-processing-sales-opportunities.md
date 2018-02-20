@@ -1,6 +1,6 @@
 ---
 title: Verarbeiten von Verkaufschancen in Verkaufszyklen | Microsoft Docs
-description: "Sie können Verkaufschancen anzeigen, schließen oder löschen, und Sie können auch Offertee und Aufträge für Verkaufschancen einrichten und eine Verkaufschance über die einzelnen Phasen des Verkaufsprozesses verschieben."
+description: "Sie können Verkaufschancen anzeigen, schliessen oder löschen, und Sie können auch Offertee und Aufträge für Verkaufschancen einrichten und eine Verkaufschance über die einzelnen Phasen des Verkaufsprozesses verschieben."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 78f9235e0115b75c3c479f789c76710b97a216c3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61c40317e2c45d2978118a7a6459c6a1b04ddd8f
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-sales-opportunities"></a>Vorgehensweise: Verarbeiten von Verkaufschancen
+# <a name="process-sales-opportunities"></a>Verarbeiten von Verkaufschancen
 Nachdem Sie eine Verkaufschance erstellen haben, gibt es einige Funktionen für die Verwaltung der Verkaufschance und deren Abschluss.
 
 ## <a name="to-view-opportunities"></a>Anzeigen von Verkaufschancen
@@ -29,14 +29,14 @@ Vorhandene Verkaufsverkaufschancen sind im Fenster **Verkaufschancenliste** verf
 | --- | --- |
 | Alle Verkäufer und Kontakte |Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Chancenliste** ein. Wählen Sie dann den zugehörigen Link aus. |
 | Ein bestimmter Verkäufer |Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkäufer** ein. Wählen Sie dann den zugehörigen Link aus. Wählen Sie den Verkäufer, wählen sie die Aktion **Verkaufschancen** und dann die Aktion **Liste**. |
-| Ein bestimmter Kontakt |Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Kontakte** ein. Wählen Sie dann den zugehörigen Link aus. Wählen Sie den Kontakt aus der Liste, und wählen sie die Aktion **Verkaufschancen**. |
+| Ein bestimmter Kontakt |Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Kontakte** ein. Wählen Sie dann den zugehörigen Link aus. Wählen Sie den Kontakt aus der Liste, und wählen sie die Aktion **Verkaufschancen**. |
 
 Jede dieser Aufgaben öffnet das Fenster **Verkaufschancenliste**.
 
-## <a name="to-close-opportunities"></a>Um Verkaufschancen abzuschließen
-Sie können Verkaufschancen abschliessen, wenn die Verhandlungen abgeschlossen sind. Wenn Sie eine Verkaufschance schließen, können Sie angeben, ob sie gewonnen oder verloren wurde und dafür die Gründe festlegen. Um einen Grund anzugeben, müssen Sie Verkaufschancenabschlusscodes einrichten.
+## <a name="to-close-opportunities"></a>Um Verkaufschancen abzuschliessen
+Sie können Verkaufschancen abschliessen, wenn die Verhandlungen abgeschlossen sind. Wenn Sie eine Verkaufschance schliessen, können Sie angeben, ob sie gewonnen oder verloren wurde und dafür die Gründe festlegen. Um einen Grund anzugeben, müssen Sie Verkaufschancenabschlusscodes einrichten.
 
-1. Im **Verkaufschancenliste**-Fenster wählen Sie die Verkaufschance und die **Abschluss**-Aktion aus. Der Fenster **Verkaufschance abschließen** wird geöffnet.
+1. Im **Verkaufschancenliste**-Fenster wählen Sie die Verkaufschance und die **Abschluss**-Aktion aus. Der Fenster **Verkaufschance abschliessen** wird geöffnet.
 2. Füllen Sie die relevanten Felder aus, und wählen Sie dann die Schaltfläche **OK** aus.
 
    Die Felder **Verkaufschancenabschlusscode** und **Abschlussdatum** sind erforderlich und müssen ausgefüllt werden, bevor Sie auf die Schaltfläche **Ok** klicken können.
@@ -63,7 +63,7 @@ Sie können Verkaufschancen z. B. löschen, wenn Sie ein Geschäft abgeschlossen
 
 Um abgeschlossene Verkaufschancen aus dem Fenster **Verkaufschancenliste** zu löschen, wählen Sie die Verkaufschance, und wählen Sie dann die Aktion **Löschen** aus.
 
-Um abgeschlossene Verkaufschancen über die Stapelverarbeitung **Geschlossene Verkaufschancen löschen...** zu löschen verwenden, gehen Sie folgendermaßen vor:
+Um abgeschlossene Verkaufschancen über die Stapelverarbeitung **Geschlossene Verkaufschancen löschen...** zu löschen verwenden, gehen Sie folgendermassen vor:
 
 1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Chancenliste löschen** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Im **Verkaufschance**-Abschnitt richten Sie die Filter ein, die die zu löschenden abgeschlossenen Verkaufschancen definieren.

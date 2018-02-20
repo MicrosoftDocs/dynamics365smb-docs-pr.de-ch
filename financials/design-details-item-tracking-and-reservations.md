@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 55336af5d57955ef7544aa81dba012e72ff8d52a
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetails: Artikeltracking und Reservierungen
@@ -85,7 +85,7 @@ Die Umgruppierung erfolgt automatisch, aber die eingebettete Hilfe wird unten im
   
 **XX der Gesamten Reservierten Menge sind unspezifisch und möglicherweise verfügbar.**  
   
-Darüber hinaus zeigt das Feld **Unspezifische reservierte Menge** an, wie viele Reservierungsposten unspezifisch sind. Standardmäßig ist dieses Feld für Anwender nicht sichtbar.  
+Darüber hinaus zeigt das Feld **Unspezifische reservierte Menge** an, wie viele Reservierungsposten unspezifisch sind. Standardmässig ist dieses Feld für Anwender nicht sichtbar.  
   
 ### <a name="posting-an-outbound-document-with-nonspecific-reservation-of-serial-or-lot-numbers"></a>Buchen eines ausgehenden Belegs mit unspezifischer Reservierung einer Serien- oder Chargennummer.  
 Dieses Geschäftsszenario wird durch die Late Binding-Funktionalität unterstützt, die festen Ausgleich und ausgehende Buchung dessen aktiviert, was tatsächlich kommissioniert wird, indem eine andere nicht-spezifische Reservierung einer Serien- oder Chargennummer umgruppiert wird. Wenn die Umgruppierung nicht möglich ist, dann wird folgende Standardfehlermeldung angezeigt, wenn der Benutzer versucht, die Lieferung zu buchen:  

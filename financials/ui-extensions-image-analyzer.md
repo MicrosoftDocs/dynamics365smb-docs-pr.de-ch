@@ -1,6 +1,6 @@
 ---
 title: Bild-Analyzer-Erweiterung verwenden | Microsoft Docs
-description: "Mit dieser Erweiterung können Bilder von Kontaktpersonen und Artikel analysieren und Attribute finden, damit Sie diese in Dynamics 365 rasch zuweisen können."
+description: "Mit dieser Erweiterung können Bilder von Kontaktpersonen und Artikel analysieren und Attribute finden, damit Sie diese in Finance and Operations, Business edition rasch zuweisen können."
 documentationcenter: 
 author: bholtorf
 ms.service: dynamics365-financials
@@ -12,31 +12,31 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 06/19/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 4329a54114476885285da1d28cd292a4f9684e99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6b7db51399f965f290e8871c74b30b9925553f83
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-image-analyzer-extension-for-microsoft-dynamics-365-business-edition"></a>Die Bild-Analyzer-Eweiterung für Microsoft Dynamics 365 Business edition
+# <a name="the-image-analyzer-extension-for-microsoft-finance-and-operations-business-edition"></a>Die Bild-Analyse-Erweiterung für Microsoft Finance and Operations, Business edition
 Die Bild-Analyser-Erweiterung verwendet die leistungsstarke Bildanalytik, die von der Computer Vision API for Microsoft Cognitive Servcies bereitgestellt wird, um Attribute in Bildern zu ermitteln, die Sie für Artikel und Kontaktpersonen importieren, sodass Sie sie einfach überprüfen und zuordnen können. Für Artikel können Attribute sein, ob der Artikel eine Tabelle oder ein Auto ist und und ob er rot oder blau ist. Für Personen können Attribute Geschlecht oder Alter sein.
 
-Bild-Analyser schlagen Attribute basierend auf Tags vor, die der Computer Vision API findet und einen Vertrauensbereich. Standardmäßig schlägt er Attribute vor, wenn mindestens zu 80% sichergestellt ist, dass das Attribut korrekt ist. Sie können einen anderen Vertrauensbereich festlegen, nach Bedarf. Um mehr darüber zu erfahren, wie die Kategorien und der Vertrauensbereich bestimmt wird, gehen Sie zu [Computer Vision API](https://go.microsoft.com/fwlink/?linkid=851476).  
+Bild-Analyser schlagen Attribute basierend auf Tags vor, die der Computer Vision API findet und einen Vertrauensbereich. Standardmässig schlägt er Attribute vor, wenn mindestens zu 80% sichergestellt ist, dass das Attribut korrekt ist. Sie können einen anderen Vertrauensbereich festlegen, nach Bedarf. Um mehr darüber zu erfahren, wie die Kategorien und der Vertrauensbereich bestimmt wird, gehen Sie zu[Computer Vision API](https://go.microsoft.com/fwlink/?linkid=851476).  
 
-Bild-Analyzer ist kostenlos in [!INCLUDE[d365fin](includes/d365fin_md.md)], aber es gibt einen Grenzwert der Anzahl von Artikeln, die Sie für einen bestimmten Zeitraum auswerten können. Standardmäßig können Sie 100 Bilder pro Monat analysieren.
+Bild-Analyzer ist kostenlos in[!INCLUDE[d365fin](includes/d365fin_md.md)], aber es gibt einen Grenzwert der Anzahl von Artikeln, die Sie für einen bestimmten Zeitraum auswerten können. Standardmässig können Sie 100 Bilder pro Monat analysieren.
 
 Nachdem Sie die Erweiterung ausführten, wird der Bild-Analyzer ausgeführt, wenn Sie ein Bild einem Artikel oder einer Kontaktperson importieren. Sie finden die Attribute, den Vertrauensbereich und Details sofort und können sich entscheiden, was, jedes Attribut durchzuführen. Wenn Sie Bilder importierten, bevor Sie die Bild-Analyzer-Erweiterung aktiviert haben, müssen Sie zum Artikel oder zur Kontaktkarten wechseln und **Bild analysieren** auswählen.  
 
 >   [!NOTE]  
->   Durch diese Erweiterung sind Sie damit einverstanden, dass Microsoft Ihre Daten speichern und verwenden kann, um Microsoft-Dienstleistungen wie Computer Vision API zu verbessern. Um zu helfen Ihren Daten zu schützen, unternehmen wir Schritte, um die Daten anonym zu machen und sie sicher zu halten. Wir veröffentlichen nicht Ihren Daten oder lassen zu, dass sie andere verwenden. Sie können das Bild des Artikels entfernen in [!INCLUDE[d365fin](includes/d365fin_md.md)], jedoch hat die Computer Vision API das Bild noch in der de-identifizierten Formular. Weitere Informationen finden Sie unter [Microsoft-Sicherheitscenter](https://go.microsoft.com/fwlink/?linkid=851463).
+>   Durch diese Erweiterung sind Sie damit einverstanden, dass Microsoft Ihre Daten speichern und verwenden kann, um Microsoft-Dienstleistungen wie Computer Vision API zu verbessern. Um zu helfen Ihren Daten zu schützen, unternehmen  wir Schritte, um die Daten anonym zu machen und sie sicher zu halten. Wir veröffentlichen nicht Ihren Daten oder lassen zu, dass sie andere verwenden. Sie können das Bild des Artikels entfernen in [!INCLUDE[d365fin](includes/d365fin_md.md)], jedoch hat die Computer Vision API das Bild noch in der de-identifizierten Formular. Weitere Informationen finden Sie unter [Microsoft-Sicherheitscenter](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Anforderungen
 Es gibt mehrere Anforderungen für Bilder:
 
 * Bildformate: JPEG, PNG, GIF, BMP  
-* Maximale Dateigröße: Weniger als 4 MB  
-* Bilddimensionen: Größer als 50 x 50 Pixel  
+* Maximale Dateigrösse: Weniger als 4 MB  
+* Bilddimensionen: Grösser als 50 x 50 Pixel  
 
 ## <a name="blacklisting-suggested-attributes"></a>Für die schwarze Liste aktivieren aus vorgeschlagenen Attributen
 Wenn die Analyseansicht ein Attribut vorschlägt, dass Sie nicht sehen möchten, können Sie das Umlagerungs- Attribut auf die schwarze Liste setzen. Vorsicht walten lassen. Für die schwarze Liste gesetzte Attribute werden nicht für andere Artikel oder Kontaktpersonen vorgeschlagen. Wenn Sie bedauern, ein Attribut auf die schwarze Liste gesetzt zu haben, wählen Sie **Für die schwarze Liste gesetzte Attribute** dann löschen Sie das Attribut in der Liste.
@@ -50,7 +50,7 @@ Die Bild-Analyser-Erweiterugn ist in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Um die Bild-Analyser-Erweiterung auszuführen, führen Sie einen der folgenden Schritte aus:
 
 * Öffnen Sie eine Kontaktkarte. In der Benachrichtigungsleiste wählen Sie **Bilder analysieren** und führen Sie dann die Schritte im unterstützen Einrichtungshandbuch durch.  
-* Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "") Symbol **Service-Verbindungen** und dann **Bild-Analyse einrichten** ein. In der Benachrichtigungsleiste wählen Sie **Bilder analysieren aktivieren** und führen Sie dann die Schritte im unterstützen Einrichtungshandbuch durch.  
+* Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") Symbol **Service-Verbindungen** und dann **Bild-Analyse einrichten** ein. In der Benachrichtigungsleiste wählen Sie **Bilder analysieren aktivieren** und führen Sie dann die Schritte im unterstützen Einrichtungshandbuch durch.  
 
 >   [!TIP]  
 >   Auf der Seite **Bildanalyse-Einrichtung** können Sie auch den Grad des Vertrauens für Attributvorschläge ändern. Wenn Sie beispielsweise einen höheren Prozentsatz an Vertrauen möchten, können Sie einen höheren Prozentsatz eingeben.
@@ -76,7 +76,7 @@ Die folgenden Schritte beschreiben, wie ein Bild analysiert wird, das importiert
 Sie können auch Ihr eigenes Konto für die Computer Vision API verwenden, beispielsweise wenn Sie mehr Bilder analysieren möchten als wir zulassen..  
 
 1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Bild-Analyse einrichten** ein. Wählen Sie dann den zugehörigen Link aus.  
-2. Geben Sie die **API URI** und die **API Key** ein, die Sie für die Computer Vision API erhalten.  
+2. Geben Sie die **API URI** und die **API Key** ein,  die Sie für die Computer Vision API erhalten.  
 
 >   [!NOTE]  
 >   Sie müssen am Ende **/analyze** API URIs hinzufügen hinzufügen, wenn nicht bereits vorhanden ist. Zum Beispiel: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```
@@ -88,11 +88,11 @@ Sie können die Anzahl Analysen anzeigen, die Sie durchgeführt haben, und wie v
 2. **Grenzentyp**, **Grenzwert** und **Analye ausgeführt** liefer die Verbrauchsdaten.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>Bild-Analyzer-Erweiterung beenden
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "") Symbol **Service-Verbindungen** und dann **Bild-Analyse einrichten** ein.  
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") Symbol **Service-Verbindungen** und dann **Bild-Analyse einrichten** ein.  
 2. Deaktivieren Sie das Kontrollkästchen **Bild-Analyse aktivieren**.  
 
 ## <a name="see-also"></a>Siehe auch
-[Gewusst wie: Arbeiten mit Artikelattributen](inventory-how-work-item-attributes.md)  
+[Arbeiten mit Artikelattributen](inventory-how-work-item-attributes.md)  
 [Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzenb](ui-extensions.md)  
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

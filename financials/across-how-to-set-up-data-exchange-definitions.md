@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6d5fecae58ec05f3cb3eda4ee2a43a131b267c92
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-data-exchange-definitions"></a>Vorgehensweise: Richten Sie Datenaustauschdefinitionen ein.
+# <a name="set-up-data-exchange-definitions"></a>Richten Sie Datenaustauschdefinitionen ein.
 Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] so einrichten, dass Daten in bestimmten Tabelle mit Daten in externen Dateien ausgetauscht werden, zum Beispiel zum Senden und Empfangen elektronischer Belege oder zum Importieren und Exportieren von Bankdaten und anderen Daten, wie Lohnabrechnung, Währungswechselkursen und Artikelkatalogen. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  
 
-Zur Vorbereitung für das Erstellen einer Datenaustauschdefinition für eine Datendatei oder einen Datenstrom können Sie das zugehörige XML-Schema verwenden, um zu definieren, welche Datenelemente im Inforegister **Spaltendefinitionen** berücksichtigt werden sollen. Weitere Informationen finden Sie unter Schritt 6 im Abschnitt „Die Formatierung der Zeilen und Spalten in der Datei beschreiben“. Weitere Informationen finden Sie im Thema [Vorgehensweise: Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinition](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) in der Anwendungshilfe.  
+Zur Vorbereitung für das Erstellen einer Datenaustauschdefinition für eine Datendatei oder einen Datenstrom können Sie das zugehörige XML-Schema verwenden, um zu definieren, welche Datenelemente im Inforegister **Spaltendefinitionen** berücksichtigt werden sollen. Weitere Informationen finden Sie unter Schritt 6 im Abschnitt „Die Formatierung der Zeilen und Spalten in der Datei beschreiben“. Weitere Informationen finden Sie im Thema [Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinition](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) in der Anwendungshilfe.  
 
 Normalerweise richten Sie Datenaustauschdefinitionen im Fenster **Datenaustauschdefiniton** ein. Wenn Sie jedoch eine Datenaustauschdefinition für den Service zum Aktualisieren von Wechselkursen einrichten, beginnen Sie den Vorgang im vereinfachten Fenster **Wechselkursaktualisierung Karte einrichten** .  
 
@@ -62,7 +62,7 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
     |**Spaltentrennzeichen**|Geben Sie an, wie Spalten in der Datendatei getrennt werden, wenn die Datei den Typ **Variabler Text** hat.|  
     |**Kopfzeilen**|Geben Sie an, wie viele Kopfzeilen in der Datei vorhanden sind.<br /><br /> Dadurch wird sichergestellt, dass die Kopfzeilendaten nicht importiert werden. **Hinweis:**Dieses Feld ist nur für den Import relevant.|  
     |**Kopfzeilentag**|Wenn eine Kopfzeile an verschiedenen Positionen in der Datei vorhanden ist, geben Sie den Text der ersten Spalte in der Kopfzeile ein.<br /><br /> Dadurch wird sichergestellt, dass die Kopfzeilendaten nicht importiert werden. **Hinweis:**Dieses Feld ist nur für den Import relevant.|  
-    |**Fusszeilentag**|Wenn eine Fußzeile an verschiedenen Positionen in der Datei vorhanden ist, geben Sie den Text der ersten Spalte in der Fußzeile ein.<br /><br /> Dadurch wird sichergestellt, dass die Fußzeilendaten nicht importiert werden. **Hinweis:**Dieses Feld ist nur für den Import relevant.|  
+    |**Fusszeilentag**|Wenn eine Fusszeile an verschiedenen Positionen in der Datei vorhanden ist, geben Sie den Text der ersten Spalte in der Fusszeile ein.<br /><br /> Dadurch wird sichergestellt, dass die Fusszeilendaten nicht importiert werden. **Hinweis:**Dieses Feld ist nur für den Import relevant.|  
 
 4. Im Inforegister **Zeilendefinitionen** beschreiben Sie das Formatieren der Zeilen in der Datendatei, indem Sie die Felder wie in der folgenden Tabelle beschrieben ausfüllen.  
 
@@ -81,11 +81,11 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
 
 5. Wiederholen Sie Schritt 4, um eine Zeile für jede Dateidatenart zu erstellen, die Sie exportieren möchten.  
 
-     Beschreiben Sie dann das Formatieren der Spalten in der Datendatei, indem Sie die Felder im Inforegister **Spaltendefinitionen** wie in der unten stehenden Tabelle beschrieben ausfüllen. Sie können die Strukturdatei verwenden, zum Beispiel eine XSD-Datei, damit das Inforegister mithilfe der Datendatei mit den relevanten Elementen vorab ausgefüllt wird. Weitere Informationen finden Sie im Thema [Vorgehensweise: Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinition](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) in der Anwendungshilfe.  
+     Beschreiben Sie dann das Formatieren der Spalten in der Datendatei, indem Sie die Felder im Inforegister **Spaltendefinitionen** wie in der unten stehenden Tabelle beschrieben ausfüllen. Sie können die Strukturdatei verwenden, zum Beispiel eine XSD-Datei, damit das Inforegister mithilfe der Datendatei mit den relevanten Elementen vorab ausgefüllt wird. Weitere Informationen finden Sie im Thema [Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinition](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) in der Anwendungshilfe.  
 
 6. Wählen Sie im Inforegister **Spaltendefinitionen** die Option **Dateistruktur abrufen**.  
 7. Wählen Sie im Fenster **Datenstruktur abrufen** die zugehörige Strukturdatei aus, und wählen Sie dann die Schaltfläche **OK** aus. Die Zeilen im Inforegister **Spaltendefinitionen** werden entsprechend der Struktur der Datendatei ausgefüllt.  
-8. Füllen Sie im Inforegister **Spaltendefinitionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus oder bearbeiten Sie sie.  
+8. Füllen Sie im Inforegister **Spaltendefinitionen** die Felder gemäss der Beschreibung in der folgenden Tabelle aus oder bearbeiten Sie sie.  
 
     |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
@@ -109,7 +109,7 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365finmdmd"></a>Spalten in der Datendatei Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] zuordnen  
 1. Wählen Sie im Inforegister **Zeilendefinitionen** die Zeile aus, für die Sie Spalten Feldern zuordnen möchten, und wählen Sie dann **Feldzuordnung** aus. Das Fenster **Datenaustauschzuordnung** wird geöffnet.  
-2. Spezifizieren Sie im Inforegister **Allgemein** die Zuordnungen, indem Sie die Felder gemäß der Beschreibung in der folgenden Tabelle ausfüllen.  
+2. Spezifizieren Sie im Inforegister **Allgemein** die Zuordnungen, indem Sie die Felder gemäss der Beschreibung in der folgenden Tabelle ausfüllen.  
 
     |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
@@ -154,9 +154,9 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
 
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten eines Datenaustauschs](across-set-up-data-exchange.md)  
-[Gewusst wie: Einrichten des Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[So wird's gemacht: SEPA-Kreditübertragungen einrichten](finance-how-to-set-up-sepa-credit-transfer.md)  
-[Vorgehensweise: Einrichten von SEPA-Basislastschriften](finance-how-to-set-up-sepa-direct-debit.md)  
+[Einrichten des Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Einrichten von SEPA-Kreditübertragung](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Einrichten von SEPA-Lastschriften](finance-how-to-set-up-sepa-direct-debit.md)  
 [Nemen Sie Zahlungen mit dem Bank-Datenkonvertierungs-Service- oder einer SEPA-Banküberweisung vor](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  

@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 06/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1620e69ce8018256780dcba108c31312c02166cb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3f2a1f762f9380f3cd272e78c4c2f269e9960f38
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-allocate-costs-and-income"></a>Erklärt, wie Kosten und Einnahmen zugewiesen werden.
+# <a name="allocate-costs-and-income"></a>Kosten und Einkünfte zuteilen
 Die Posten einer Fibu Erf.-Journalzeile lassen sich beim Buchen des Erf.-Journals auf verschiedene Konten verteilen. Für die Verteilung stehen drei unterschiedliche Methoden zur Verfügung:
 
 * Menge
@@ -38,7 +38,7 @@ Die Posten einer Fibu Erf.-Journalzeile lassen sich beim Erfen des Erf.-Journals
    * Um eine neue Chargennummer zu erstellen, wählen Sie die Aktion **Neu** und gehen Sie zum nächsten Schritt.
    * Um die Zuordnungen eines vorhandenen Erfassungsjournals zu ändern, wählen Sie das Erfassungsjournal und gehen Sie zum Schritt 7.    
 4. Geben Sie im Feld **Name** einen Namen für das Buch.-Blatt ein, wie beispielsweise REINIGUNG. Geben Sie im Feld **Beschreibung** eine Beschreibung ein, wie z. B. Reinigungsausgaben Erfassungsjournal.
-5. Wenn Sie fertig sind, schließen Sie das Fenster. Ein neues, leeres wiederkehrendes Erfassungsjournal wird geöffnet.
+5. Wenn Sie fertig sind, schliessen Sie das Fenster. Ein neues, leeres wiederkehrendes Erfassungsjournal wird geöffnet.
 6. Füllen Sie die Felder in der Zeile aus.
 7. Wählen Sie die Aktion **Verteilung** aus.
 8. Erstellen Sie für jede Verteilung eine Zeile. Sie müssen entweder das Feld **Verteilung %**, **Anzahl Verteilungen** oder **Betrag** ausfüllen. Sie müssen ebenfalls das Feld **Kontonr.** ausfüllen und, wenn Sie auf globale Dimensionen verteilen, auch die Felder "globale Dimensionen".

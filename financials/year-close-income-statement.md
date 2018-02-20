@@ -1,6 +1,6 @@
 ---
-title: "Schließen Sie Erfolgsrechnungsberichte | Microsoft Docs"
-description: "Am Jahresende beispielsweise müssen Sie die Stapelverarbeitung \"Erfolgsrechnungskonten Nullstellung\" laufen lassen, um dies Buchhaltungsperioden zu schließen, aus der sich das Geschäftsjahr zusammensetzt."
+title: Schliessen Sie Erfolgsrechnungsberichte | Microsoft Docs
+description: "Am Jahresende beispielsweise müssen Sie die Stapelverarbeitung \"Erfolgsrechnungskonten Nullstellung\" laufen lassen, um dies Buchhaltungsperioden zu schliessen, aus der sich das Geschäftsjahr zusammensetzt."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,17 +13,17 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6ddd7b504f6faa856e92c336f889ad08db0b3d8b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 237c03e2ba6408bde65aba5f652468a3b700fa0a
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-close-income-statement-accounts"></a>Vorgehensweise: Schließen Sie Erfolgsrechnungsberichte
+# <a name="close-income-statement-accounts"></a>Schliessen Sie Erfolgsrechnung-Konten
 Wenn ein Geschäftsjahr vorbei ist, müssen die Perioden, aus denen es besteht, geschlossen werden. Verwenden Sie dazu den Stapelverarbeitungsjob **Jahresabschluss**. Dieser Job überträgt die Ergebnisse des Jahrs auf ein Bilanzkonto und führt die Erfolgsrechnung durch. Hierfür erstellen Sie Zeilen in einem Erf.-Journal, die Sie dann buchen können.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>Verwenden Sie dazu den Stapelverarbeitungsjob Erfolgsrechnung.
-1. Schließen Sie das Geschäftsjahr ab. Das Geschäftsjahr muss geschlossen werden, bevor die Stapelverarbeitung aufgerufen werden kann. Weitere Informationen finden Sie unter [Vorgehensweise: Abschließen von Buchhaltungsperioden](year-close-account-periods.md).
+1. Schliessen Sie das Geschäftsjahr ab. Das Geschäftsjahr muss geschlossen werden, bevor die Stapelverarbeitung aufgerufen werden kann. Weitere Informationen finden Sie unter [Abschliessen von Buchhaltungsperioden](year-close-account-periods.md).
 2. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen ")und geben **GuV-Konten-Nullstellung** ein. Wählen Sie dann den zugehörigen Link aus.
 3. Wählen Sie die Schaltfläche **OK**, um den Batchauftrag zu starten.
 
@@ -37,8 +37,8 @@ Das Datum, das von dem Batchauftrag in die Zeilen eingefügt wird, ist stets das
 Die Stapelverarbeitung **Jahresabschluss** kann mehrmals aufgerufen werden. Sie können im vorigen Geschäftsjahr buchen, selbst wenn die Erfolgskonten-Nullstellung bereits vorgenommen wurde, sofern Sie die Stapelverarbeitung erneut ausführen.
 
 ## <a name="see-also"></a>Siehe auch
-[Schließen der Bücher](year-close-books.md)  
-[Vorgehensweise: Buchen des Jahresabschlusspostens](year-how-post-year-end-close-entry.md)  
-[So geht's: Ein neues Geschäftsjahr eröffnen](finance-how-open-new-fiscal-year.md)  
+[Schliessen der Bücher](year-close-books.md)  
+[So buchen Sie den Jahresabschlussposten](year-how-post-year-end-close-entry.md)  
+[Ein neues Geschäftsjahres eröffnen](finance-how-open-new-fiscal-year.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

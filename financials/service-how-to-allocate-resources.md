@@ -11,15 +11,15 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 462400f4a404592ec8f63e6a5e47e45c2158b7ea
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e975a945b878c39dc095e2e129a4ac0c02ee6c29
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-allocate-resources"></a>Gewusst wie<. Ressourcen zuweisen
-Kernstück des Servicemanagements sind die Mitarbeiter, von denen der Service bereitgestellt wird. Sie können einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)], um die geeigneten Mitarbeiter den entsprechenden Projekten zuzuweisen. Zuweisungen können auf Servicebereichen basieren, in denen Mitarbeiter tätig sind, oder in denen der Service stattfindet. Zudem können Ressourcen beim Antworten auf Serviceanforderungen zusammengruppiert werden. Weitere Informationen finden Sie unter [So gehts: Ressourcen zuweisen einrichten](service-how-setup-resource-allocation.md).
+# <a name="allocate-resources"></a>Ressourcen zuordnen
+Kernstück des Servicemanagements sind die Mitarbeiter, von denen der Service bereitgestellt wird. Sie können einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)], um die geeigneten Mitarbeiter den entsprechenden Projekten zuzuweisen. Zuweisungen können auf Servicebereichen basieren, in denen Mitarbeiter tätig sind, oder in denen der Service stattfindet. Zudem können Ressourcen beim Antworten auf Serviceanforderungen zusammengruppiert werden. Weitere Informationen finden Sie unter [Ressourcen zuweisen einrichten](service-how-setup-resource-allocation.md).
 
 Sie können Ressourcen, z B. Techniker zuweisen, indem Sie **Einsatzplanung** oder einen Serviceauftrag verwenden. Sie können Ressourcenverfügbarkeit verwenden, um Ressourcen zuzuordnen, um die Aufgaben in Aufträgen und Offerten auszuführen.
 
@@ -45,7 +45,7 @@ Sie benötigen u. U. eine Liste an Serviceaufträgen oder Serviceofferten, die 
 4. Wählen Sie **Ressourcen verfügbar** oder **Res.Gruppe Verfügbar** Aktion aus.  
 5. Im Fenster **Res. Verfügbarkeit (Service)** wählen Sie **Matrix anzeigen** aus.  
 6. Wählen Sie eine Ressource, die Sie zuweisen möchten. Sie können Ihre Auswahl darauf basieren, ob die Ressource für die Aufgabe qualifiziert ist, ob sie sich in der Nähe des Debitors befindet und/oder ob sie von diesem Debitor bevorzugt wird.  
-7. Wählen Sie ein Datum aus, an dem die Ressource genügend verfügbare Zeit zur Erledigung der Aufgabe hat. Außerdem sollte das Datum nahe der Reaktionszeit des Serviceauftrags liegen.  
+7. Wählen Sie ein Datum aus, an dem die Ressource genügend verfügbare Zeit zur Erledigung der Aufgabe hat. Ausserdem sollte das Datum nahe der Reaktionszeit des Serviceauftrags liegen.  
 8. Geben Sie im Feld **Zuzuordnende Menge** die Anzahl der Stunden ein, die Sie der Ressource für die Serviceaufgabe zuordnen möchten.  
 9. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktion** die Option **Zuordnen**, um die ausgewählte Ressource an dem ausgewählten Datum zuzuordnen.  
 
@@ -73,7 +73,7 @@ Nachdem Sie einen Serviceauftrag oder eine Serviceofferte erstellt und ausgefül
 >  Für einen Serviceartikel in einem Serviceauftrag kann es nur einen aktiven Zuordnungsposten mit einer Ressource oder Ressourcengruppe gleichzeitig geben.
 
 ## <a name="to-reallocate-resources-on-a-service-order"></a>So ordnen Sie Ressourcen in einem Serviceauftrag neu zu  
-Sie können Ressourcen direkt von einem Serviceauftrag oder einer Serviceofferte aus neu zuordnen. Der alte Posten ist noch vorhanden, aber sein Status wird folgendermaßen aktualisiert:  
+Sie können Ressourcen direkt von einem Serviceauftrag oder einer Serviceofferte aus neu zuordnen. Der alte Posten ist noch vorhanden, aber sein Status wird folgendermassen aktualisiert:  
 
 * Wenn der Service begonnen wurde, während die Zuordnung **Aktiv** war, d. h. falls der Reparaturstatus des Serviceartikels in dem Posten auf **In Bearbeitung** geändert wurde, ändert sich der Zuordnungsstatus von **Neuzuordnung notwendig** in **Erledigt**.  
 * Falls der Service nicht begonnen wurde, während die Zuordnung **Aktiv** war, ändert sich der Zuordnungsstatus von **Neuzuordnung notwendig** in **Storniert**.  
@@ -107,7 +107,7 @@ Wenn die der Serviceaufgabe zugewiesene Ressource die Arbeiten nicht zu Ende fü
 ## <a name="to-register-resource-hours"></a>So erfassen Sie Ressourcenzeiten  
 Wenn Sie in Serviceaufträgen mit Serviceartikeln arbeiten, müssen Sie die Ressourcenzeiten, die im Service verwendet werden, erfassen. Der folgende Ablauf zeigt, wie Ressourcenzeiten im Fenster **Servicearbeitsschein** erfasst werden können.  
 
-Sie können dieselbe Vorgehensweise verwenden, um die Stunden im Fenster **Servicezeilen** zu erfassen, das Sie im Fenster "Serviceauftrag" öffnen können. Öffnen Sie den entsprechenden Servicekarte, und wählen Sie **Aktionen**, dann **Auftrag**, und klicken Sie anschließend auf **Servicezeilen**.  
+Sie können dieselbe Vorgehensweise verwenden, um die Stunden im Fenster **Servicezeilen** zu erfassen, das Sie im Fenster "Serviceauftrag" öffnen können. Öffnen Sie den entsprechenden Servicekarte, und wählen Sie **Aktionen**, dann **Auftrag**, und klicken Sie anschliessend auf **Servicezeilen**.  
 
 Wenn dieselbe Ressource an allen Serviceartikeln im Serviceauftrag arbeitet, erfassen Sie die gesamte Ressourcenzeit nur für einen Serviceartikel und teilen die Ressourcenzeile auf, um die Ressourcenzeiten den anderen Serviceartikeln zuzuordnen.
 
@@ -142,6 +142,6 @@ Sie können Ressourcenzuordnungen für Serviceaufgaben stornieren, ohne die Aufg
     > Die Anwendung wählt automatisch die Option **Neuzuordnung notwendig** in dem Feld **Status** aus. Falls der Reparaturstatus des Serviceartikels in dem Posten **Anfang** ist, wird der Reparaturstatus auf **Weitergeleitet** geändert (es wurden keine Servicearbeiten ausgeführt). Steht der Reparaturstatus auf **In Bearbeitung**, ändert sich der Status in **Nicht abgeschlossen** (einige Arbeiten wurden erledigt).
 
 ## <a name="see-also"></a>Siehe auch
-[Vorgehensweise: Einrichten von Ressourcenzuordnung](service-how-setup-resource-allocation.md)  
+[Um Ressourcenzuweisung einzurichten:](service-how-setup-resource-allocation.md)  
 [Zuordnungsstatus und Reparaturstatus](service-allocation-status-and-repair-status.md)  
 

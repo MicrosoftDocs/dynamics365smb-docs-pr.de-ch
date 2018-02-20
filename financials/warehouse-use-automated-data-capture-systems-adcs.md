@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3249ed4b8bc50f7cbc577d5dc01b03029b4c06c3
 ms.contentlocale: de-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-enable-automated-data-capture-systems-adcs"></a>Vorgehensweise: Aktivieren des mobilen Datenerfassungssystems (ADCS)
+# <a name="enable-automated-data-capture-systems-adcs"></a>Aktivieren des mobilen Datenerfassungssystems (ADCS)
 Sie verwenden die mobile Datenerfassung (MDE), um die Artikelbewegungen im Lager und die Aktivitäten im Erfassungsjournal zu erfassen, wie Mengenanpassungen im Logistik Artikel Erfassungsjournal und Inventuren.  
 
 Um MDE nutzen zu können, müssen Sie für jeden im Lager vorhandenen Artikel einen Artikelbezeichner angeben. Sie müssen ausserdem Miniforms, Endgerätfunktionen, Datenaustausch einrichten und Einstellungen für Felder vornehmen, die MDE steuern. Sie legen fest, ob MDE auf der Lagerortkarte des Lagers verwendet wird.
@@ -36,14 +36,14 @@ Um MDE nutzen zu können, müssen Sie festlegen, welche Lagerorte die Technologi
 > [!NOTE]  
 >  Es ist empfehlenswert, dass Sie ein Lager nicht für die Verwendung von MDE einrichten, wenn das Lager auch eine Lagerplatzkapazitätsprüfung hat.
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.
 2.  Wählen Sie ein Lager aus der Liste aus, für das Sie MDE aktivieren möchten, und wählen die **Bearbeiten** Aktion aus.
 3. Im Fenster **Lagerortkarte** wählen Sie das Kontrollkästchen **MDE verwenden** aus.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>So geben Sie einen Artikel für die Verwendung von MDE an  
 Jedem Logistik Artikel, den Sie mit MDE verwenden möchten, muss ein Barcode zugeordnet werden, um ihn mit der Artikelnummer zu verknüpfen. Beispielsweise können Sie den Barcode des Artikels als Identifzierungscode verwenden. Ein Artikel kann also mehrere Barcodes haben. Dies kann hilfreich sein, wenn ein Artikel in verschiedenen Masseinheiten verfügbar ist, wie als Stück und als Palette. In diesem Fall weisen Sie jeder Einheit einen Barcode zu.    
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie einen Artikel aus der Liste aus, der Teil der MDE-Lösung ist, und wählen die **Bearbeiten** Aktion aus.
 3. Wählen Sie im Fenster **Artikelkarte** die Aktion **Kennzeichner** aus.
 4. Wählen Sie im Fenster **Artikelbarcodes** die Aktion **Neu** aus.
@@ -56,7 +56,7 @@ Jedem Logistik Artikel, den Sie mit MDE verwenden möchten, muss ein Barcode zug
 8.  Um die Informationen zu prüfen, wählen Sie das Feld **Artikelbarcode** aus, um das Fenster **Artikelbarcodes** zu öffnen.
 
 ## <a name="to-add-an-adcs-user"></a>Um einen MDE-Benutzer hinzufügen  
-Sie können einen beliebigen Benutzer als Benutzer eines automatisierten Datenerfassungssystems hinzufügen (ADCS). Wenn Sie dies tun, muss der Benutzer ausserdem ein Kennwort eingeben. Optional können Sie auch eine Verbindung angeben, die den MDE-Benutzer als Lagermitarbeiter identifiziert. Das MDE-Benutzerkennwort kann sich vom Windows-Anmeldungskennwort des Benutzers unterscheiden. Weitere Informationen finden Sie unter [So geht's: Verwalten von Benutzern und Berechtigungen](ui-how-users-permissions.md).
+Sie können einen beliebigen Benutzer als Benutzer eines automatisierten Datenerfassungssystems hinzufügen (ADCS). Wenn Sie dies tun, muss der Benutzer ausserdem ein Kennwort eingeben. Optional können Sie auch eine Verbindung angeben, die den MDE-Benutzer als Lagermitarbeiter identifiziert. Das MDE-Benutzerkennwort kann sich vom Windows-Anmeldungskennwort des Benutzers unterscheiden. Weitere Informationen finden Sie unter [Verwalten von Benutzern und Berechtigungen](ui-how-users-permissions.md).
 
 1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie Benutzer. Wählen Sie dann **MDE-Benutzer**und den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus.  
@@ -65,12 +65,12 @@ Sie können einen beliebigen Benutzer als Benutzer eines automatisierten Datener
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>So geben Sie an, dass ein Lagermitarbeiter ein MDE-Benutzer ist  
 1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Lagerhaus-Mitarbeiter** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Fügen Sie bei Bedarf einen neuen Lagermitarbeiter hinzu. Weitere Informationen finden Sie unter [Vorgehensweise: Lagermitarbeiter](warehouse-how-to-set-up-warehouse-employees.md)  
+2.  Fügen Sie bei Bedarf einen neuen Lagermitarbeiter hinzu. Weitere Informationen finden Sie unter [Lagermitarbeiter einrichten](warehouse-how-to-set-up-warehouse-employees.md)  
 3.  Wählen Sie die Aktion **Liste bearbeiten** aus.  
 4.  Wählen Sie einen Lagermitarbeiter in der Liste aus. Klicken Sie im Feld **MDE-Benutzer** auf den Dropdownpfeil, und wählen Sie den Namen eines MDE-Benutzers in der Liste aus.  
 
 > [!NOTE]  
->  Das standardmäßige Lager für den Mitarbeiter muss MDE verwenden.
+>  Das standardmässige Lager für den Mitarbeiter muss MDE verwenden.
 
 ## <a name="to-create-and-customize-miniforms"></a>So erstellen und passen Sie Miniforms an
 Mit Miniforms beschreiben Sie die Informationen, die Sie auf einem Endgerät präsentieren wollen. Beispielsweise können Sie Miniforms erstellen, um die Lageraktivität des Kommissionierens zu unterstützen. Nachdem Sie ein Miniform erstellt haben, können Sie Funktionen für häufige Aktionen hinzufügen, die ein Benutzer mit mobilen Geräten durchführt, wie eine Zeile nach oben oder unten verschieben.  
