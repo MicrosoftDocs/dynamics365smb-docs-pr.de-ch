@@ -13,30 +13,30 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9eb95fe46c9ffa5cc75eaf1fbad64e405accf4d6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8c506afa1f476de9413e2cf422991710dd981b0d
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-scrap-manually"></a><span data-ttu-id="9de2b-104">So wird's gemacht: Ausschuss manuell buchen</span><span class="sxs-lookup"><span data-stu-id="9de2b-104">How to: Post Scrap Manually</span></span>
-<span data-ttu-id="9de2b-105">Wenn während der Produktion Ausschuss angefallen ist, dann kann dieser im FA-Istmeldungsprotokoll eingegeben werden.</span><span class="sxs-lookup"><span data-stu-id="9de2b-105">If scrap is produced during processing, it can be entered in the output journal.</span></span> 
+# <a name="post-scrap-manually"></a><span data-ttu-id="aded4-104">Ausschuss manuell buchen</span><span class="sxs-lookup"><span data-stu-id="aded4-104">Post Scrap Manually</span></span>
+<span data-ttu-id="aded4-105">Wenn während der Produktion Ausschuss angefallen ist, dann kann dieser im FA-Istmeldungsprotokoll eingegeben werden.</span><span class="sxs-lookup"><span data-stu-id="aded4-105">If scrap is produced during processing, it can be entered in the output journal.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="9de2b-106">Beachten Sie, dass die Ausschussmenge die fertig gestellte Menge nicht erhöht.</span><span class="sxs-lookup"><span data-stu-id="9de2b-106">The scrap quantity does not increase the output quantity.</span></span>  
+> <span data-ttu-id="aded4-106">Beachten Sie, dass die Ausschussmenge die fertig gestellte Menge nicht erhöht.</span><span class="sxs-lookup"><span data-stu-id="aded4-106">The scrap quantity does not increase the output quantity.</span></span>  
 
-## <a name="to-post-scrap-manually"></a><span data-ttu-id="9de2b-107">Ausschuss manuell buchen</span><span class="sxs-lookup"><span data-stu-id="9de2b-107">To post scrap manually</span></span>  
-1. <span data-ttu-id="9de2b-108">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Ausgabe-Buchblatt** ein und wählen den zugehörenden Link aus.</span><span class="sxs-lookup"><span data-stu-id="9de2b-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Output Journal**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="9de2b-109">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="9de2b-109">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. <span data-ttu-id="9de2b-110">Geben Sie im Feld **Ausschussmenge** die Ausschussmenge ein.</span><span class="sxs-lookup"><span data-stu-id="9de2b-110">In the **Scrapped Quantity** field, enter the scrap quantity.</span></span>  
-4. <span data-ttu-id="9de2b-111">Geben Sie im Feld **Ausschusscode** den Ausschusscode ein.</span><span class="sxs-lookup"><span data-stu-id="9de2b-111">In the **Scrap Code** field, enter the scrap code.</span></span>  
-5. <span data-ttu-id="9de2b-112">Wählen Sie die **Buchen** Aktion aus, um die Zeit zu buchen, die je Arbeitsgang aufgewendet wurde.</span><span class="sxs-lookup"><span data-stu-id="9de2b-112">Choose the **Post** action to post the specified scrap per operation.</span></span>  
+## <a name="to-post-scrap-manually"></a><span data-ttu-id="aded4-107">Ausschuss manuell buchen</span><span class="sxs-lookup"><span data-stu-id="aded4-107">To post scrap manually</span></span>  
+1. <span data-ttu-id="aded4-108">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Ausgabe-Erfassungsjournal** ein und wählen den zugehörenden Link aus.</span><span class="sxs-lookup"><span data-stu-id="aded4-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Output Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="aded4-109">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="aded4-109">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="aded4-110">Geben Sie im Feld **Ausschussmenge** die Ausschussmenge ein.</span><span class="sxs-lookup"><span data-stu-id="aded4-110">In the **Scrapped Quantity** field, enter the scrap quantity.</span></span>  
+4. <span data-ttu-id="aded4-111">Geben Sie im Feld **Ausschusscode** den Ausschusscode ein.</span><span class="sxs-lookup"><span data-stu-id="aded4-111">In the **Scrap Code** field, enter the scrap code.</span></span>  
+5. <span data-ttu-id="aded4-112">Wählen Sie die **Buchen** Aktion aus, um die Zeit zu buchen, die je Arbeitsgang aufgewendet wurde.</span><span class="sxs-lookup"><span data-stu-id="aded4-112">Choose the **Post** action to post the specified scrap per operation.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="9de2b-113">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="9de2b-113">See Also</span></span>  
-<span data-ttu-id="9de2b-114">[Bearbeitungen](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="9de2b-114">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-[<span data-ttu-id="9de2b-115">Produktion einrichten</span><span class="sxs-lookup"><span data-stu-id="9de2b-115">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-<span data-ttu-id="9de2b-116">[Planung](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="9de2b-116">[Planning](production-planning.md)    </span></span>  
-[<span data-ttu-id="9de2b-117">Lagerbesttand</span><span class="sxs-lookup"><span data-stu-id="9de2b-117">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="9de2b-118">Einkauf</span><span class="sxs-lookup"><span data-stu-id="9de2b-118">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="9de2b-119">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9de2b-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="aded4-113">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="aded4-113">See Also</span></span>  
+<span data-ttu-id="aded4-114">[Bearbeitungen](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="aded4-114">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+[<span data-ttu-id="aded4-115">Produktion einrichten</span><span class="sxs-lookup"><span data-stu-id="aded4-115">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="aded4-116">[Planung](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="aded4-116">[Planning](production-planning.md)    </span></span>  
+[<span data-ttu-id="aded4-117">Lagerbesttand</span><span class="sxs-lookup"><span data-stu-id="aded4-117">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="aded4-118">Einkauf</span><span class="sxs-lookup"><span data-stu-id="aded4-118">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="aded4-119">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="aded4-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
