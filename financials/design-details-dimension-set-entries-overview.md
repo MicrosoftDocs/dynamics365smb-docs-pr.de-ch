@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
 ms.openlocfilehash: 78e98bcbc88ffb38d5da3f5089d124d915585d91
 ms.contentlocale: de-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensionssatz-Eintrags-Übersicht
@@ -38,7 +38,7 @@ Dimensionssätze werden in der Tabelle als **Dimensionssatzposten** mit derselbe
   
 Wenn Sie eine neue Erfassungsjournalzeile, einen Belegkopf oder eine Belegzeile erstellen, können Sie eine Kombination von Dimensionswerten angeben. Anstatt jeden Dimensionswert explizit in der Datenbank zu speichern, wird eine Dimensionssatz-ID der Erfassungsjournalzeile, dem Belegkopf oder der Belegzeile zugewiesen, um den Dimensionssatz anzugeben.  
   
-Wenn Sie das Fenster **Dimensionssatzeinträge bearbeiten**bearbeiten und schließen, wird eine Prüfung ausgeführt, um festzustellen, ob die Kombination aus Dimensionswerten als Dimensionssatz in der Tabelle existiert. Wenn die Kombination in der Tabelle auftritt, wird die entsprechende Dimensionssatz-ID der Erfassungsjournalzeile, dem Belegkopf oder der Belegzeile zugeordnet. Andernfalls wird ein neuer Dimensionssatz der Tabelle hinzugefügt, und die neue Dimensionssatz-ID wird der Erfassungsjournalzeile, dem Belegkopf oder der Belegzeile zugeordnet.  
+Wenn Sie das Fenster **Dimensionssatzeinträge bearbeiten**bearbeiten und schliessen, wird eine Prüfung ausgeführt, um festzustellen, ob die Kombination aus Dimensionswerten als Dimensionssatz in der Tabelle existiert. Wenn die Kombination in der Tabelle auftritt, wird die entsprechende Dimensionssatz-ID der Erfassungsjournalzeile, dem Belegkopf oder der Belegzeile zugeordnet. Andernfalls wird ein neuer Dimensionssatz der Tabelle hinzugefügt, und die neue Dimensionssatz-ID wird der Erfassungsjournalzeile, dem Belegkopf oder der Belegzeile zugeordnet.  
   
 ## <a name="performance-improvement"></a>Leistungsverbesserung  
 Durch das einmalige Speichern von Dimensionssätzen in der Datenbank wird Datenbankplatz beibehalten und die Gesamtleistung verbessert.  

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 761502b8c8e4c2b9b1b864e7316ea1130a940bb0
 ms.contentlocale: de-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Verwaltung von Aktivitäten mit Kontakten
@@ -50,7 +50,7 @@ In diesem Fenster können Sie die folgenden Aufgaben durchführen:
 * Anzeigen des Status von Aktivitäten.
 * Aktivitäten als storniert markieren.
 
-Sie können Aktivitätenprotokollposten löschen, die annulliert wurden. Um Aktivitätenprotokollposten zu löschen, wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus, geben **Stornierte Aktivitätenprotokollposten löschen** ein, und wählen Sie den zugehörigen Link aus und geben dann die Informationen ein.
+Sie können Aktivitätenprotokollposten löschen, die annulliert wurden. Um Aktivitätenprotokollposten zu löschen, wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus, geben **Stornierte Aktivitätenprotokollposten löschen** ein, und wählen Sie den zugehörigen Link aus und geben dann die Informationen ein.
 
 ## <a name="see-also"></a>Siehe auch
 [Kontakte verwalten](marketing-contacts.md)  

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 7b7b4ce9d2f464d6e2793a21fa5b321846ba9498
 ms.contentlocale: de-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="defer-revenues-and-expenses"></a>Einnahmen und Ausgaben zurückstellen
@@ -84,7 +84,7 @@ Zu einem bestimmten Aufschubkonto zu buchende Fibuposten, beispielsweise „Nich
 > [!NOTE]  
 >   Die Schritte in diesem Ablauf sind die selben, wie Sie sie sehen, wenn Sie die Zusammenfassung des Einkaufsabgrenzungsberichts ansehen.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsabgrenzungszusammenfassung** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Verkaufsabgrenzungszusammenfassung** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Geben Sie im Fenster **Verkaufsaufschubzusammenfassung** im Feld **Saldo ab** das Datum ein, bis zu welchem Sie zurückgestellte Einnahmen anzeigen möchten.
 3. Klicken Sie auf die Schaltfläche **Vorschau**.
 

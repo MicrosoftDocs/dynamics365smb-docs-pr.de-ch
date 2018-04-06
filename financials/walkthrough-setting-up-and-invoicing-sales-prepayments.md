@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: cd74d543168f1f96f55141aace571d6d701e3de1
 ms.contentlocale: de-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen
@@ -82,7 +82,7 @@ Heike legt fest, dass für alle Kunden eine Anzahlung in Höhe von 20 % für de
 2.  Öffnen Sie das Kartenfenster für Kunde 20000 (Selangorian).
 3.  Geben Sie im Feld **Vorauszahlung %** den Wert **30** ein.  
 4.  Wählen Sie die Schaltfläche **OK**, um die Debitorenkarte zu schliessen.  
-5.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
+5.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
 6.  Öffnen Sie die Karte für Kunde 1100.
 7.  Wählen Sie die **Vorauszahlungsprozentsätze** Aktion aus.  
 8.  Füllen Sie im Fenster **Verkaufsvorauszahlungs-Prozentsätze** zwei Zeilen wie folgt aus.  

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 5b6934b6ea4c07f6e3d90885dfa25d73e14bbb82
 ms.contentlocale: de-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-organizational-levels-for-contact-persons"></a>Einrichten von Position für Kontaktpersonen
@@ -27,7 +27,7 @@ Die Nutzung von Positionen zu Kontakten ist ein zwei Schritte umfassender Prozes
 ## <a name="to-define-an-organizational-level-code"></a>Um einen Organisationsstufencode zu definieren
 Der Positionscode definiert die Art oder die Kategorie der Position (z. B. CEO oder CFO). Sie können mehrere Positionscodes haben. Um die Position zu definieren, verwenden Sie das **Positionen**-Fenster.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Positionen** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Positionen** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus, und geben Sie einen Code und eine Beschreibung ein. Der Code kann maximal 11 Zeichen, sowohl Ziffern als auch Buchstaben, umfassen.
 
 ## <a name="to-assign-organizational-levels-to-a-contact-person"></a>Um Organisationsstufen einer Kontaktperson zuzuweisen

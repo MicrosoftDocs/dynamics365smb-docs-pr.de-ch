@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 7a23f0ba28ab4c7bc9e028375246ea2e57d32764
 ms.contentlocale: de-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-intercompany"></a>Intercompany einrichten
@@ -38,7 +38,7 @@ Wenn Sie Intercompany-Verkaufstransaktionen vornehmen, die Ressourcen beinhalten
 3. Füllen Sie im Fenster **Intercompanypartner** die Felder nach Bedarf aus.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Einrichten von Intercompanykreditoren und Intercompanydebitoren
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Alternativ können Sie auf den Kreditor über das Feld **Kreditorennr.** im Fenster **Intercompanypartner** zugreifen.
 3. Öffnen Sie die Karte für den Kreditor, der ein Intercompanypartner ist. Weitere Informationen finden Sie unter [Neue Kunden registrieren](purchasing-how-register-new-vendors.md).
 4. Wählen Sie im Feld **Intercompanypartnercode** den relevanten Intercompanypartnercode aus.
@@ -123,7 +123,7 @@ Wenn Intercompanydimensionen bezüglich ihres Codes mit unternehmenseigenen Dime
 5. Füllen Sie im Fenster **Intercompanydimensionswerte** das Feld **Zuordnen zu Dimensionswertcode** aus.
 
     Fahren Sie mit dem Zuordnen der Intercompanydimensionen fort, indem Sie ähnliche Schritte ausführen.
-6. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Dimensionen** ein. Wählen Sie dann den zugehörigen Link aus.
+6. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Dimensionen** ein. Wählen Sie dann den zugehörigen Link aus.
 7. Wählen Sie im Fenster **Dimensionen** die automatisch zuzuweisenden Zeilen aus, und klicken Sie anschliessend auf die Aktion **Zuordn. zu IC-Dim. m. selb. Cd**.
 8. Füllen Sie für jede Intercompany-Dimensionen, die nicht automatisch zugeordnet wird, das Feld **Zuordn. zu IC-Dimens.wertcode** aus.
 9. Wählen Sie die Aktion **Intercompanydimensionswerte** aus.

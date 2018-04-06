@@ -13,7 +13,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 97ff0418c2e3ffe2ace8412bb889fafd5788510b
 ms.contentlocale: de-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Allgemeine Anlagen-Informationen einrichten
@@ -51,7 +51,7 @@ Verteilungsschlüssel gelten für feste Anlagenklassen, nicht für einzelne Anla
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>So richten Sie Anlagen Erf.-Journalvorlagen ein
 Eine Vorlage ist ein vordefiniertes Layout für ein Erfassungsjournal. Eine Vorlage enthält Informationen über Verfolgungscodes, Berichte und Nummernserien. Weitere Informationen finden Sie unter [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt automatisch eine Anlagen Erf.-Journalvorlage, wenn Sie zum ersten Mal das Fenster **Anlagen Erf.-Journal** öffnen. Sie können aber auch zusätzliche Erf.-Journalvorlagen einrichten.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt automatisch eine Anlagen Buch.-Blattvorlage, wenn Sie zum ersten Mal das Fenster **Anlagen Buch.-Blatt** öffnen. Sie können aber auch zusätzliche Buch.-Blattvorlagen einrichten.  
 
 1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Analgen-Buchblatt** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder je nach Bedarf aus.

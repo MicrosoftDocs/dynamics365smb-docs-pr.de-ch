@@ -1,5 +1,5 @@
 ---
-title: "Übersicht der Berichte um Abschlussrechnungen vorzubereiten _=_ Microsoft Ausgleich."
+title: "Übersicht der Berichte um Abschlussrechnungen vorzubereiten | Microsoft Ausgleich."
 description: "Ihnen stehen eine Reihe von Standardberichten zur Verfügung, mit denen die benötigten Informationen zum Vorbereiten der Abschlussabrechnungen des Mandanten gesammelt werden können."
 services: project-madeira
 documentationcenter: 
@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: de-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="preparing-closing-statements"></a>Abschlussberichrte vorbereiten
@@ -34,7 +34,7 @@ Die folgende Tabelle enthält Beschreibungen zu einigen hilfreichen Berichten so
 | Drucken eines Kontenschemas zum Analysieren der Werte auf Fibukonten oder zum Vergleichen tatsächlicher Fibuposten mit Finanzbudgetposten |Kontenschema |
 | Überprüfen, ob Debitoren- und Kreditorenposten mit den entsprechenden Fibuposten ausgeglichen sind |Deb.- & Kred.-Konten abstimmen |
 
-Um einen Bericht anzuzeigen, wählen Sie das Symbol ![Suche für Seite oder Bericht](media/ui-search/search_small.png "Suche nach Seite oder Bericht") und geben Sie den Namen wie er in der Tabelle erscheint ein, und wählen Sie dann den zugehörigen Link aus.
+Um einen Bericht anzuzeigen, wählen Sie das Symbol ![Suche für Seite oder Bericht] (media/ui-search/search_small.png "Suche nach Seite oder Bericht")und geben Sie den Namen wie er in der Tabelle erscheint ein, und wählen Sie dann den zugehörigen Link aus.
 
 ## <a name="see-also"></a>Siehe auch
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  

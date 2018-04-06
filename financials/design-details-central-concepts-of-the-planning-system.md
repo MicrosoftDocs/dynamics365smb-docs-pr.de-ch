@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
 ms.openlocfilehash: 75f126b9b39e9d262bdc5f3b783c2e322b9ed801
 ms.contentlocale: de-ch
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetails: Zentrale Konzepte des Planungssystems
@@ -26,11 +26,11 @@ Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst di
 
 Der Planer eines Unternehmens, wie etwa ein Einkäufer oder ein Produktionsplaner, ist wahrscheinlich der Benutzer des Planungssystems. Das Planungssystem hilft dem Benutzer durch die Ausführung der umfangreichen aber insgesamt recht einfachen Berechnungen eines Plans. Der Benutzer kann sich dann auf die Lösung der komplizierteren Probleme konzentrieren, wenn keine Standardfälle vorliegen.  
 
-Das Planungssystem wird durch den erwarteten und den tatsächlichen Kundenbedarf gesteuert, etwa durch Planung und Verkaufsaufträge. Ein Ausführen der Planungsberechnung bewirkt, dass dem Benutzer bestimmte vorzunehmende Aktionen vorgeschlagen werden, die sich auf mögliche Beschaffungen von Kreditoren, auf die Montage oder Produktion oder auf Umlagerungen zu anderen Lagern beziehen. Diese vorgeschlagenen Aktionen sind etwa, neue Beschaffungsaufträge, wie Einkaufsbestellung oder Fertigungsaufträge zu erstellen. Wenn es bereits Beschaffungsaufträge gibt, könnten die vorgeschlagenen Aktionen so aussehen, dass die Aufträge vergrößert oder schneller erteilt werden sollen, damit den Bedarfsänderungen Rechnung getragen wird.  
+Das Planungssystem wird durch den erwarteten und den tatsächlichen Kundenbedarf gesteuert, etwa durch Planung und Verkaufsaufträge. Ein Ausführen der Planungsberechnung bewirkt, dass dem Benutzer bestimmte vorzunehmende Aktionen vorgeschlagen werden, die sich auf mögliche Beschaffungen von Kreditoren, auf die Montage oder Produktion oder auf Umlagerungen zu anderen Lagern beziehen. Diese vorgeschlagenen Aktionen sind etwa, neue Beschaffungsaufträge, wie Einkaufsbestellung oder Fertigungsaufträge zu erstellen. Wenn es bereits Beschaffungsaufträge gibt, könnten die vorgeschlagenen Aktionen so aussehen, dass die Aufträge vergrössert oder schneller erteilt werden sollen, damit den Bedarfsänderungen Rechnung getragen wird.  
 
-Ausserdem hat das Planungssystem die Aufgabe sicherzustellen, dass der Lagerbestand nicht unnötig wächst. Im Fall eines abnehmenden Bedarfs wird das Planungssystem vorschlagen, dass vorhandene Ersatzaufträge zurückgestellt, mengenmäßig verringert oder storniert werden sollten.  
+Ausserdem hat das Planungssystem die Aufgabe sicherzustellen, dass der Lagerbestand nicht unnötig wächst. Im Fall eines abnehmenden Bedarfs wird das Planungssystem vorschlagen, dass vorhandene Ersatzaufträge zurückgestellt, mengenmässig verringert oder storniert werden sollten.  
 
-Nettobedarf und Prod.-Programmplanung, Änderungsplanung berechnen und Neuplanung berechnen sind alle Funktionen innerhalb einer Codeeinheit, die die Planungslogik enthält. Die Beschaffungsplanberechnung schließt jedoch verschiedene untergeordnete Systeme mit ein.  
+Nettobedarf und Prod.-Programmplanung, Änderungsplanung berechnen und Neuplanung berechnen sind alle Funktionen innerhalb einer Codeeinheit, die die Planungslogik enthält. Die Beschaffungsplanberechnung schliesst jedoch verschiedene untergeordnete Systeme mit ein.  
 
 Beachten Sie, dass das Planungssystem keine dedizierte Logik für das Kapazitätsplanieren oder die Feinterminierung umfasst. Deshalb werden solche Planungsarbeiten als separate Disziplin ausgeführt. Der Mangel an direkter Integration zwischen den beiden Bereichen bedeutet auch, dass substanzielle Kapazitäts- oder Zeitplanänderungen erfordern, dass die Planung erneut durchgeführt wird.  
 
@@ -46,7 +46,7 @@ Um einen Beschaffungsplan zu vermeiden, der offene Aufträge in der Vergangenhei
 
 Alle Vorräte und Bedarfe vor dem Startdatum der Planungsperiode gelten als Teil des Lagerbestands oder als geliefert.  
 
-Mit anderen Worten: Es nimmt an, dass der Plan für die Vergangenheit gemäß dem vorhandenen Plan ausgeführt wurde.  
+Mit anderen Worten: Es nimmt an, dass der Plan für die Vergangenheit gemäss dem vorhandenen Plan ausgeführt wurde.  
 
 Weitere Informationen finden Sie unter [Designdetails: Umgang mit Aufträgen vor dem Planungs-Startdatum](design-details-dealing-with-orders-before-the-planning-starting-date.md)  
 
@@ -72,7 +72,7 @@ Die dynamische Auftragstracking richtet Verknüpfungen zwischen Bedarf und Vorra
 
 ![](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "NAV_APP_supply_planning_1_dynamic_order_tracking_graph")  
 
-Demgegenüber befasst sich das Planungssystem mit allen Bedarfen und Vorräten für einen bestimmten Artikel, in priorisierter Reihenfolge gemäß Fälligkeitsdaten und Auftragsarten, d.h. auf der Grundlage des Prinzips des ersten Bedarfs. Löscht alle Auftragstrackinglinks, die dynamisch erstellt wurden und stellt diese gemäß der Fälligkeitsdatumspriorität wieder her. Wenn das Planungssystem ausgeführt wurde, hat es alle gestörten Gleichgewichte zwischen Bedarf und Vorrat gelöst, wie unten für dieselben Daten angezeigt.  
+Demgegenüber befasst sich das Planungssystem mit allen Bedarfen und Vorräten für einen bestimmten Artikel, in priorisierter Reihenfolge gemäss Fälligkeitsdaten und Auftragsarten, d.h. auf der Grundlage des Prinzips des ersten Bedarfs. Löscht alle Auftragstrackinglinks, die dynamisch erstellt wurden und stellt diese gemäss der Fälligkeitsdatumspriorität wieder her. Wenn das Planungssystem ausgeführt wurde, hat es alle gestörten Gleichgewichte zwischen Bedarf und Vorrat gelöst, wie unten für dieselben Daten angezeigt.  
 
 ![](media/NAV_APP_supply_planning_1_planning_graph.png "NAV_APP_supply_planning_1_planning_graph")  
 
@@ -86,7 +86,7 @@ Wenn ein Plan eingerichtet wird, ist die Reihenfolge der Berechnungen wichtig, u
 Das Planungssystem in [!INCLUDE[d365fin](includes/d365fin_md.md)] ist bedarfsgesteuert. Artikel auf hoher Ebene sollten vor Artikeln auf niedriger Ebene geplant werden, der Plan für Artikel auf hoher Ebene weiteren Bedarf für Artikel auf niedriger Ebene generieren könnte. das bedeutet zu, Beispiel, dass die Einzelhandelsstandorte geplant werden sollten, bevor Vertriebsstellen geplant werden, da der Plan für einen Einzelhandelsstandort zusätzlichen Bedarf aus der Vertriebsstelle umfassen kann. Auf einem detaillierten Ausgleich bedeutet dies auch, dass ein Verkaufsauftrag keinen neuen Beschaffungsauftrag auslösen soll, wenn ein bereits freigegebener Beschaffungsauftrag den Verkaufsauftrag abdecken kann. Ebenso sollte ein Lagerartikel mit einer bestimmten Chargennummer nicht zugewiesen werden, um einen generischen Bedarf zu decken, wenn ein anderer Bedarf diese bestimmte Charge benötigt.  
 
 ### <a name="item-priority--low-level-code"></a>Artikelpriorität Stücklistenebene  
-In einer Produktionsumgebung wird der Bedarf für einen fertigen, verkäuflichen Artikel zu einem abgeleiteten Bedarf für Komponenten, die den produzierten fertigen Artikel enthalten, führen. Die Stücklistenstruktur steuert die Komponentenstruktur und kann mehrere Ebenen von halbfertigen Artikel enthalten. Die Absatzplanung eines Artikels in einer Ebene verursacht abgeleiteten Bedarf für Komponenten auf der nächsten Stufe, und so weiter. Schließlich führt dies zu abgeleitetem Bedarf für Einkaufsartikel. Deshalb plant das Planungssystem für Artikel nach ihrer Rangfolge in der gesamten Stücklistenhierarchie, beginnend mit den fertig gestellten absatzfähigen Artikeln oben und dann abwärts durch die Produktstruktur bis zu den Artikeln unterer Ebenen (nach dem Low-level-Code).  
+In einer Produktionsumgebung wird der Bedarf für einen fertigen, verkäuflichen Artikel zu einem abgeleiteten Bedarf für Komponenten, die den produzierten fertigen Artikel enthalten, führen. Die Stücklistenstruktur steuert die Komponentenstruktur und kann mehrere Ebenen von halbfertigen Artikel enthalten. Die Absatzplanung eines Artikels in einer Ebene verursacht abgeleiteten Bedarf für Komponenten auf der nächsten Stufe, und so weiter. Schliesslich führt dies zu abgeleitetem Bedarf für Einkaufsartikel. Deshalb plant das Planungssystem für Artikel nach ihrer Rangfolge in der gesamten Stücklistenhierarchie, beginnend mit den fertig gestellten absatzfähigen Artikeln oben und dann abwärts durch die Produktstruktur bis zu den Artikeln unterer Ebenen (nach dem Low-level-Code).  
 
 ![](media/NAV_APP_supply_planning_1_BOM_planning.png "NAV_APP_supply_planning_1_BOM_planning")  
 
@@ -135,7 +135,7 @@ Die Planungsoptionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] sind:
 -   Neuplanung berechnen – Berechnet alle ausgewählten Artikel, ob dies erforderlich ist oder nicht.  
 -   Änderungsplanung berechnen – Berechnet nur die ausgewählten Artikel, bei denen einige Änderung im Bedarf-Vorrat-Muster aufgetreten sind, und die daher zur Planung zugewiesen wurden.  
 
-Einige Benutzer sind der Meinung, dass die Änderungsplanung im Durchgang ausgeführt werden sollte, etwa, wenn Verkaufsaufträge eingegeben werden. Jedoch kann dies verwirrend sein, da die dynamische Auftragstracking und das Aktionsmessaging ebenfalls ad hoc berechnet werden. Außerdem bietet [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Echtzeit-Lieferzusagesteuerung, die beim Buchen von Verkaufsaufträgen Popupwarnungen anzeigt, wenn der Bedarf im bestehenden Beschaffungsplan nicht gedeckt werden kann.  
+Einige Benutzer sind der Meinung, dass die Änderungsplanung im Durchgang ausgeführt werden sollte, etwa, wenn Verkaufsaufträge eingegeben werden. Jedoch kann dies verwirrend sein, da die dynamische Auftragstracking und das Aktionsmessaging ebenfalls ad hoc berechnet werden. Ausserdem bietet [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Echtzeit-Lieferzusagesteuerung, die beim Buchen von Verkaufsaufträgen Popupwarnungen anzeigt, wenn der Bedarf im bestehenden Beschaffungsplan nicht gedeckt werden kann.  
 
 Zusätzlich zu diesen Fällen plant das Planungssystem nur Artikel, die der Benutzer mit entsprechenden Planungsparametern bereitgestellt hat. Andernfalls wird angenommen, dass der Benutzer die Artikel manuell oder halbautomatisch plant, indem er die Funktion "Auftragsplanung" verwendet.  
 
@@ -196,9 +196,9 @@ Wenn Auftrag-zuAuftrag-Verknüpfungen vorhanden sind, bezieht das Planungssystem
 Reservierungen und Auftragstrackinglinks schlagen fehl, wenn eine Situation unmöglich wird, etwa beim Verschieben eines Bedarfs zu einem Datum, das vor dem des Vorrats liegt. Der Auftrag-zu-Auftrag-Link passt sich allen Änderungen in dem jeweiligen Bedarf oder Vorrat an und wird daher nie unterbrochen.  
 
 ## <a name="reservations"></a>Reservierungen  
-Das Planungssystem schließt keine reservierten Mengen in die Berechnung ein. Wenn beispielsweise ein Verkaufsauftrag vollständig oder teilweise gegen die Menge im bestand reserviert wurde, kann die reservierte Menge im Bestand nicht verwendet werden, um anderen Bedarf zu decken. Das Planungssystem schließt diesen Bedarf-Vorrat-Satz nicht in seine Berechnung ein.  
+Das Planungssystem schliesst keine reservierten Mengen in die Berechnung ein. Wenn beispielsweise ein Verkaufsauftrag vollständig oder teilweise gegen die Menge im bestand reserviert wurde, kann die reservierte Menge im Bestand nicht verwendet werden, um anderen Bedarf zu decken. Das Planungssystem schliesst diesen Bedarf-Vorrat-Satz nicht in seine Berechnung ein.  
 
-Das Planungssystem schließt dennoch reservierte Mengen im Profil des voraussichtlichen Lagerbestands ein, da alle Mengen berücksichtigt werden müssen, wenn bestimmt wird, ob der Minimalbestand überschritten wurde und wie viel nachbestellt werden muss, um den Maximalbestand zu erreichen, aber nicht zu überschreiten. Deshalb führen unnötige Reservierungen zu erhöhten Risiken, dass Lagerbestände zu niedrig sind, da die Planungslogik reservierte Mengen nicht erkennt.  
+Das Planungssystem schliesst dennoch reservierte Mengen im Profil des voraussichtlichen Lagerbestands ein, da alle Mengen berücksichtigt werden müssen, wenn bestimmt wird, ob der Minimalbestand überschritten wurde und wie viel nachbestellt werden muss, um den Maximalbestand zu erreichen, aber nicht zu überschreiten. Deshalb führen unnötige Reservierungen zu erhöhten Risiken, dass Lagerbestände zu niedrig sind, da die Planungslogik reservierte Mengen nicht erkennt.  
 
 Die folgende Abbildung zeigt, wie Reservierungen den optimalen Plan behindern können.  
 
@@ -209,7 +209,7 @@ Weiter Informationen finden Sie unter [Designdetails: Reservierung, Auftrags-Tra
 ## <a name="warnings"></a>Warnungen  
 Die erste Spalte im Planungsvorschlag ist für die Warnungsfelder. In jeder für eine ungewöhnliche Situation erstellten Planungszeile wird in diesem Feld ein Warnsymbol angezeigt, auf die der Benutzer klicken kann, um weitere Informationen anzuzeigen.  
 
-Der Vorrat in Planungszeilen mit Warnungen wird normalerweise nicht gemäß den Planungsparametern geändert. Stattdessen wird vom Planungssystem nur eine Beschaffung vorgeschlagen, um die genaue Bedarfsmenge zu decken. Sie können jedoch das System so einrichten, dass bestimmte Planungsparameter für Planungszeilen mit bestimmten Warnungen berücksichtigt werden können. Weitere Informationen finden Sie in der Beschreibung dieser Optionen für **Berechnungsplan - Plan Lagerreg.** Stapelauftrag und **Planung berechnen - Bestellvorschlag** Stapelverarbeitung fest.  
+Der Vorrat in Planungszeilen mit Warnungen wird normalerweise nicht gemäss den Planungsparametern geändert. Stattdessen wird vom Planungssystem nur eine Beschaffung vorgeschlagen, um die genaue Bedarfsmenge zu decken. Sie können jedoch das System so einrichten, dass bestimmte Planungsparameter für Planungszeilen mit bestimmten Warnungen berücksichtigt werden können. Weitere Informationen finden Sie in der Beschreibung dieser Optionen für **Berechnungsplan - Plan Lagerreg.** Stapelauftrag und **Planung berechnen - Bestellvorschlag** Stapelverarbeitung fest.  
 
 Die Warnungsinformationen werden im Fenster **Planungselemente ohne Bedarfsverursacher** angezeigt, das auch verwendet wird, um Bedarfsverursacherverknüpfungen mit nicht auftragsbezogenen Netzwerkeinheiten anzuzeigen. Folgende Arten von Warnungen sind verfügbar:  
 
@@ -274,7 +274,7 @@ Das grundlegende Tool für die Beschaffungsplanung, das durch das Fenster **Auft
 
 Die vorgesehene Verwendungsweise der Funktion „Begrenzte Kapazität“ ist 1): das Verhindern der Überladung bestimmter Ressourcen und 2): die Sicherstellung, dass keine Kapazität unzugewiesen bleibt, wenn dies die Durchlaufzeit eines Fertigungsauftrags erhöhen könnte. Die Funktion umfasst keine Funktionen oder Optionen zum Priorisieren oder Optimieren von Abläufen, wie etwa in einem Dispatchingsystem. Jedoch kann sie grobe Kapazitätsinformationen zur Verfügung stellen, die, nützlich sind, um Engpässe zu identifizieren und die Überlastung von Ressourcen zu verhindern.  
 
-Beim Planen mit eingeschränkter Kapazität stellt sicher das System sicher, dass keine Ressourcen oberhalb der definierten Kapazität (Grenzbelastung) geladen werden. Dies geschieht, indem jeder Arbeitsgang dem nächsten verfügbaren Zeitfenster zugewiesen wird. Wenn das Zeitfenster nicht ausreicht, um den gesamten Arbeitsgang abzuschließen, wird der Arbeitsgang in zwei Teile aufgeteilt, die in die nächsten verfügbaren Zeitfenster gesetzt werden.  
+Beim Planen mit eingeschränkter Kapazität stellt sicher das System sicher, dass keine Ressourcen oberhalb der definierten Kapazität (Grenzbelastung) geladen werden. Dies geschieht, indem jeder Arbeitsgang dem nächsten verfügbaren Zeitfenster zugewiesen wird. Wenn das Zeitfenster nicht ausreicht, um den gesamten Arbeitsgang abzuschliessen, wird der Arbeitsgang in zwei Teile aufgeteilt, die in die nächsten verfügbaren Zeitfenster gesetzt werden.  
 
 > [!NOTE]  
 >  Im Falle der Teilung des Arbeitsgangs wird die Rüstzeit nur einmal zugeordnet, da davon ausgegangen wird, dass einige manuelle Ausgleiche vorgenommen werden, um den Plan zu optimieren.  

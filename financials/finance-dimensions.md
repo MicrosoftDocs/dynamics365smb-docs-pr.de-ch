@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f9a6d577138fcffa338ce51f0abaa45c63c520f7
 ms.contentlocale: de-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-dimensions"></a>Arbeiten mit Dimensionen
@@ -128,7 +128,7 @@ Für **BEREICH** fügen Sie die folgenden Dimensionswerte hinzu:
 | Code | Name | Dimensionswertart |
 | --- | --- | --- |
 | 10 |Amerika |Von-Summe |
-| 2.0 |Nordamerika |Standard |
+| 20 |Nordamerika |Standard |
 | 30 |Pazifik |Standard |
 | 40 |Südamerika |Standard |
 | 50 |Amerika, gesamt |Bis-Summe |

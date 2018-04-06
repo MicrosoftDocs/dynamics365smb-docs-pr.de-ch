@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: c2a6f5a214662dd5255d075a623b2039e5392e3d
 ms.contentlocale: de-ch
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="adjust-item-costs"></a>Artikelpreise justieren
@@ -63,7 +63,7 @@ Als Grundregel gilt, dass der Wert im Feld **Einstandspreis** auf der Artikelkar
  Ihre Auswahl im Feld **Kostenermittlungsmethode** hat Einfluss darauf, wie [!INCLUDE[d365fin](includes/d365fin_md.md)] den Inhalt des Feldes **Einstandspreis** in den Zeilen berechnet.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Lagerabgangsmethode "FIFO", "LIFO", "Ausgewählt" oder "Durchschnitt"  
- [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet den Inhalt des Feldes **Einstandspreis NW** in der Einkaufszeile oder den Inhalt des Feldes **Einstandspreis** in der Artikel Erf.-Journalzeile entsprechend dieser Formel:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet den Inhalt des Feldes **Einstandspreis NW** in der Einkaufszeile oder den Inhalt des Feldes **Einstandspreis** in der Artikel-Erf.-Journalzeile entsprechend dieser Formel:  
 
  Einstandspreis (MW) = (EK-Preis - (Rabattbetrag / Menge)) x (1 + Indirekte Kosten % / 100) + Gemeinkostensatz  
 
