@@ -11,8 +11,8 @@ ms.search.keywords: categories, search words, facets
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: be7d4df5614de4c9726dea7fab8e1bdbc5c333b6
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 92ee1838f977ed7a9faed32f5ad6eac6fa4626c3
 ms.contentlocale: de-ch
 ms.lasthandoff: 03/22/2018
 
@@ -39,7 +39,7 @@ Sie können den Artikelkategorien auch Artikelattribute zuordnen, die dann für 
 3. Füllen Sie im Fenster **Artikelattributwerte** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>So ordnen Sie Artikelattribute Artikeln zu:
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie im Fenster **Artikel** den Artikel, dem Sie Artikelattribute zuordnen möchten, und wählen Sie die Aktion **Attribute** aus.
 3. Wählen Sie im Fenster **Artikelattributewerte** die Aktion **Neu** aus.
 4. Klicken Sie im Feld **Attribute** auf die Schaltfläche "Suchen" und wählen Sie ein bereits vorhandenes Artikelattribut aus. Alternativ wählen Sie die Aktion **Neu**, um zuerst ein neues Artikelattribut so zu erstellen, wie es im Abschnitt "So erstellen Sie Artikelattribute" erklärt wird.
@@ -48,7 +48,7 @@ Sie können den Artikelkategorien auch Artikelattribute zuordnen, die dann für 
 7. Wiederholen Sie die Schritte 4 bis 6 für alle Artikelattribute, die Sie dem Artikel zuweisen möchten.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>So ordnen Sie ein Artikelattribut einer Artikelkategorie zu:
-1. Wählen Sie das Symbol![ Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Artikelkategorien** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol![ Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Artikelkategorien** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie im Fenster **Artikelkategorie** die Artikelkategorie, der Sie den Artikelattributen zuordnen möchten, und wählen Sie die Aktion **Bearbeiten** aus.
 3. Wählen Sie im Fenster **Artikelkategorie-Karte** im Inforegister **Attribute** die Aktion **Neu** aus.
 4. Klicken Sie im Feld **Attribute** auf die Schaltfläche "Suchen" und wählen Sie ein bereits vorhandenes Artikelattribut aus. Alternativ wählen Sie die Aktion **Neu**, um zuerst ein neues Artikelattribut so zu erstellen, wie es im Abschnitt "So erstellen Sie ein Artikelattribut" erklärt wird.

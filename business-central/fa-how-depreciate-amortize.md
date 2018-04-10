@@ -11,8 +11,8 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8d2d583ca649488f9a506362386a511743ed661b
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: c7521ded4e0857090cfa85c30d0f48af5ee36233
 ms.contentlocale: de-ch
 ms.lasthandoff: 03/22/2018
 
@@ -67,7 +67,7 @@ Falls eine Anlage von verschiedenen Abteilungen verwendet wird, kann die Abschre
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Kopiervorgänge zum Vorbereiten von Buchungen in mehrere AfA-Bücher verwenden
 Ausfüllen der Zeilen in einem Erf.-Journal für die Erfung auf ein Abschreibungsbuch und anschliessendes Kopieren der Zeilen in ein anderes Erf.-Journal, von wo aus sie auf ein anderes Abschreibungsbuch gebucht werden können Weitere Informationen finden Sie im Abschnitt "So buchen Sie Posten auf verschiedene AfA-Bücher".
 
-1. Wählen Sie in der rechten oberen Ecke ![Nach Seite oder Bericht suchen]das Symbol (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **AfA-Buchliste** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **AfA-Buchliste** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Öffnen Sie das entsprechende AfA-Buch aus und aktivieren Sie dann das Kontrollkästchen **Teil des Kopiervorgangs**.  
 
 > [!IMPORTANT]  
@@ -90,7 +90,7 @@ Ausfüllen der Zeilen in einem Erf.-Journal für die Erfung auf ein Abschreibung
 Sie können mit Hilfe der Stapelverarbeitung **AfA-Buch kopieren** Posten von einem AfA-Buch in ein anderes AfA-Buch kopieren. Die Stapelverarbeitung erstellt Buch.-Blattzeilen in dem Buch.-Blatt, das Sie in dem Fenster **Anlagen Buch.-Blatt Einr.** für das AfA-Buch angegeben haben, aus dem Sie kopieren möchten. Weitere Informationen finden Sie in der folgenden Prozedur.  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>So kopieren Sie Anlagenposten zwischen AfA-Büchern
-1. Wählen Sie in der rechten oberen Ecke ![Nach Seite oder Bericht suchen]das Symbol (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **AfA-Buchliste** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **AfA-Buchliste** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Öffnen Sie die entsprechende AfA-Buch - Karte und wählen Sie dann die Aktion **AfA-Buch kopieren**.  
 3. Füllen Sie im Fenster **AfA-Buch kopieren** die Felder nach Bedarf aus.  
 4. Wählen Sie die Schaltfläche **OK** aus.  

@@ -13,8 +13,8 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ee0615cd475d412f7380d6577bfa2965bb0cee9f
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
 ms.contentlocale: de-ch
 ms.lasthandoff: 03/22/2018
 
@@ -23,7 +23,7 @@ ms.lasthandoff: 03/22/2018
 Im Fenster **Meine Einstellungen** können Sie grundlegende Einstellungen für [!INCLUDE[d365fin](includes/d365fin_md.md)] ansehen und ändern.  
 
 ## <a name="role-center"></a>Rollencenter
-Das Rollencenter erstellt die Homepage, eine Startseite, die für die Anforderungen der Rolle entworfen wurde. Das Rollencenter bietet Ihnen eine Übersicht des Unternehmen und spiegelt die Informationen, Aufgaben und Prioritäten der Rolle. 
+Das Rollencenter stellt die Startseite dar und wurde für die Anforderungen der Rolle entworfen. Das Rollencenter bietet Ihnen eine Übersicht des Unternehmen und spiegelt die Informationen, Aufgaben und Prioritäten der Rolle.
 
 Entlang der Bereich des Rollencenters, sehen Sie eine Navigationsleiste, die Ihnen Zugriff auf typischen Einheiten für die Rolle, z Debitoren, Kreditoren, Artikel usw., gibt.
 
@@ -31,7 +31,7 @@ Was im Hauptinhaltsbereich erscheint, hängt vom jeweiligen Rollencenter ab. Bei
 
 ### <a name="to-change-role-center"></a>So ändern Sie ein Rollencenter
 Das Standardrollencenter ist der **Geschäftsführer**, aber Sie können ein anderes Rollencenter auswählen, das mit den Anforderungen besser übereinstimmt.
-1. In der oberen rechter Ecke wählen Sie das Symbol **Einstellungen** aus! ![Einstellungen] (media/ui-experience/settings_icon_small.png "Einstellungssymbol Rollencenter") und dann **Meine Einstellungen**.
+1. In der oberen rechter Ecke wählen Sie das Symbol **Einstellungen** aus! ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol Rollencenter") und dann **Meine Einstellungen**.
 2. Wählen Sie im Fenster **Meine Einstellungen** im Feld **Rollencenter** das Rollencenter aus, das Sie als Standard festlegen möchten. Wählen Sie beispielsweise **Buchhalter/in** aus.
 3. Wählen Sie die Schaltfläche **OK** aus.
 

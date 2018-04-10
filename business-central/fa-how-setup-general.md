@@ -10,8 +10,8 @@ ms.workload: na
 ms.date: 29/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30c60a7ec8d80270256536d9b0b80218b7fd1559
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d653021766b5d9dd4efa49e97525666e30c69450
 ms.contentlocale: de-ch
 ms.lasthandoff: 03/22/2018
 
@@ -33,7 +33,7 @@ Sie können Buchungsgruppen verwenden, um Gruppen von Anlagen zu definieren. Pos
 3. Füllen Sie im Fenster **Anlagenbuchungsgruppenkarte** die notwendigen Felder aus.
 
     > [!NOTE]  
->   Um sicherzustellen, dass Gegenkonten für verschiedene Anlagenbuchungen automatisch eingefügt werden, wenn Sie die Aktion **Anlagengegenkonto einfügen** in den Buch.-Blattzeilen auswählen, führen Sie den nächsten Schritt auf Grundlage der Buchung von Zuschreibungen aus.
+    >   Um sicherzustellen, dass Gegenkonten für verschiedene Anlagenbuchungen automatisch eingefügt werden, wenn Sie die Aktion **Anlagengegenkonto einfügen** in den Buch.-Blattzeilen auswählen, führen Sie den nächsten Schritt auf Grundlage der Buchung von Zuschreibungen aus.
 4. Geben Sie im Inforegister **Gegenkonto** im Feld **Gegenkto. Zuschreibung** das Sachkonto ein, auf das die Gegenposten für Zuschreibungen gebucht werden sollen.
 
 Weitere Informationen zur Verwendung der Aktion **Anlagengegenkonto einfügen** in den Anlagen Fibu Erfassungsjournalzeilen finden Sie beispielsweise unter [So geht's: Neubewerten von Anlagen](fa-how-revalue.md).
@@ -104,7 +104,7 @@ Falls Sie die Anlagen in [!INCLUDE[d365fin](includes/d365fin_md.md)] zum ersten 
 3. Richtet Abschreibungsbücher für verschiedene Abschreibungszwecke ein, z. B. für MWST-Abrechnung und Finanzberichte. Für jedes Abschreibungsbuch legen Sie Grundeinstellungen, wie z. B. die Integration in die Finanzbuchhaltung, fest.  
 
     Aktivieren Sie die Fibu-Integration, indem Sie die folgenden Schritte ausführen. Zuerst prüfen Sie, ob die Fibuintegration für alle Abschreibungsbücher deaktiviert ist, buchen Sie die Eröffnungsposten, und zum Schluss, aktivieren Sie die Fibu-Integration.  
-4. Wählen Sie in der rechten oberen Ecke ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen das Symbol") und geben **AfA-Buchliste** ein. Wählen Sie dann den zugehörigen Link aus.  
+4. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **AfA-Buchliste** ein. Wählen Sie dann den zugehörigen Link aus.  
 5. Wählen Sie das entsprechende Abschreibungsbuch aus. Wählen Sie auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Bearbeiten** aus, um das Fenster **Abschreibungsbuch - Karte** zu öffnen.
 6. Vergewissern Sie sich im Inforegister **Integration**, dass alle Felder leer sind, indem Sie alle Häkchen löschen. Sind mehrere Abschreibungsbücher vorhanden, deaktivieren Sie die Fibu-Integration für jedes Buch.  
 7. Geben Sie im Anlagen Erf.-Journal die folgenden Zeilen für jede Anlage ein:
@@ -121,6 +121,6 @@ Falls die Anlagen nicht in die Fibu integriert sind, können Sie die Schritte 6 
 [Anlagen einrichten](fa-setup.md)  
 [Anlagen](fa-manage.md)  
 [Finanzen](finance.md)  
-[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

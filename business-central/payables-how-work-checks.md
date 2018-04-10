@@ -11,8 +11,8 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cbadcd345f1df5dda886a24e058a4aad74e32fdd
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 0c1b37616b4aafc9535f2d3fbf60b915c490dd0b
 ms.contentlocale: de-ch
 ms.lasthandoff: 03/22/2018
 
@@ -52,7 +52,7 @@ Sie können nicht gebuchte Schecks stornieren, nachdem sie gedruckt wurden, inde
 ## <a name="to-void-checks"></a>Annullieren von Schecks
 Wenn Scheckzahlung gebucht wurden, können Sie Schecks aus den resultierenden Bankposten nur annullieren.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie das entsprechende Bankkonto aus, wählen Sie die **Bearbeiten**-Aktion aus, und wählen Sie dann die **Scheckposten**-Aktion aus.
 3. Im **Scheckposten**-Fenster wählen Sie die **Scheck annullieren**-Aktion aus.
 4. Wählen das Kontrollkästchen **Scheck nur annullieren**.

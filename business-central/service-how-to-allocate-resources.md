@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b81b11c9b86a8c0a8cbdb7c7cd55b353e43d806
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 5360e9d25b463673e2a1b033b9f8564d0f483301
 ms.contentlocale: de-ch
 ms.lasthandoff: 03/22/2018
 
@@ -90,7 +90,7 @@ Sie können Ressourcen direkt von einem Serviceauftrag oder einer Serviceofferte
 Wenn die der Serviceaufgabe zugewiesene Ressource die Arbeiten nicht zu Ende führen kann, muss die Serviceaufgabe neu zugeordnet werden. Normalerweise ordnen Sie ein Serviceaufgabe mithilfe der **Einsatzplanung** neu zu.  
 
 1. Wählen Sie ![Nach Seite oder Bericht sucheb](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") und geben Sie **Einsatzplanung** ein und wählen dann den zugehörigen Link aus.  
-2. Wählen Sie im Feld **Zuordnungsfilter****Neuzuordnung notwendig**. Das Fenster **Einsatzplanung** zeigt nun nur die Serviceaufträge mit Serviceaufgaben an, die eine Neuzuordnung benötigen.  
+2. Wählen Sie im Feld **Zuordnungsfilter** **Neuzuordnung notwendig**. Das Fenster **Einsatzplanung** zeigt nun nur die Serviceaufträge mit Serviceaufgaben an, die eine Neuzuordnung benötigen.  
 3. Wählen Sie den relevanten Serviceauftrag aus. Wählen Sie auf der Registerkarte **Navigieren** in der Gruppe **Planung** die Option **Ressourcenzuordnungen** aus. Das Fenster **Ressourcenzuordnungen** wird geöffnet.  
 4. Wählen Sie den Zuordnungsposten, dem Sie eine Ressource neu zuordnen wollen.  
 5. Wählen Sie im Feld **Ressourcennr.** die entsprechende Ressource aus. Die bereits im Feld vorhandene Ressourcennummer wird überschrieben.  

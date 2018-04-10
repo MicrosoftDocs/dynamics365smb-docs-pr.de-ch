@@ -13,8 +13,8 @@ ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ae2c552c4e3c43a17f481d3dce1657c5a870372d
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 1c84275357b6bf5726a7c60396ad22b4670de3e1
 ms.contentlocale: de-ch
 ms.lasthandoff: 03/22/2018
 
@@ -38,7 +38,7 @@ Eine Versicherungspolice für eine Anlage muss durch eine Versicherungskarte ang
 
 Wenn Sie Informationen über Änderungen der Deckungssumme erhalten, müssen Sie diese im Fenster **Versicherungskarte** aktualisieren, um sicherzustellen, dass Sie die Versicherungsdeckung korrekt analysieren.  
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Versicherung** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Versicherung** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus, um eine neue Karte für eine Versicherungspolice zu erstellen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Alternativ wählen Sie die Versicherungspolice, die Sie ändern möchten, und wählen die Aktion **Bearbeiten** aus.
 
@@ -58,7 +58,7 @@ Nachfolgend wird beschrieben, wie Sie eine Versicherungs Erf.-Journalzeile manue
 ## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>So aktualisieren Sie den Versicherungswert einer Anlage
 Sie können die Stapelverarbeitung **Indexiere Versicherung** verwenden, um den Wert der versicherten Anlagen zu aktualisieren.  
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Versicherung indexieren** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Versicherung indexieren** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Füllen Sie die Felder je nach Bedarf aus.
 
     > [!NOTE]  
@@ -92,13 +92,13 @@ Um zu prüfen, ob Sie vergessen haben, eine Anlage einer Versicherungspolice zuz
 ## <a name="to-view-insurance-coverage-ledger-entries"></a>So zeigen Sie Versicherungsposten an
 Sie können sich die einzelnen Posten anzeigen lassen, die Sie in den Versicherungsposten erstellt haben.  
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Versicherung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Versicherung** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die entsprechende Versicherungspolice aus, und wählen Sie dann die Aktion **Versicherungsposten**.  
 
 ## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>So zeigen Sie den gesamten Versicherungswert von Anlagen an:
 Ein dediziertes Matrixfenster zeigt die Versicherungswerte jeder Anlage und jeder Versicherungspolice als Ergebnis der versicherungsbezogenen Beträge an, die von Ihnen gebucht wurden.  
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Versicherung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Versicherung** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die entsprechende Versicherungspolice aus, und wählen Sie dann die Aktion **Versicherte Summe pro Anlage**.  
 3. Füllen Sie die Felder je nach Bedarf aus.  
 4. Wählen Sie die Aktion **Matrix anzeigen** aus.  

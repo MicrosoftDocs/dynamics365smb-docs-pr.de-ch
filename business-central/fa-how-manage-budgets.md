@@ -13,8 +13,8 @@ ms.search.keywords: forecast
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b2a1b634a96422ea48ee75b037c3292021513bce
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d83a40c2abf1cfb30d8666a620327b8d6e8a7ebe
 ms.contentlocale: de-ch
 ms.lasthandoff: 03/22/2018
 
@@ -44,14 +44,14 @@ Falls Sie innerhalb der Periode, für die Sie ein Budget erstellen, den Verkauf 
 ## <a name="to-view-projected-disposal-values"></a>So zeigen Sie geschätzte Verkaufswerte an
 Um sich die geschätzten Verkaufswerte anzeigen zu lassen und den entstehenden Gewinn oder Verlust zu berechnen, können Sie den Bericht **Anlagenvorschau** verwenden.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Anlagenvorschau** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Anlagenvorschau** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Füllen Sie die Felder je nach Bedarf aus.
 3. Klicken Sie auf die Schaltfläche **Drucken** oder **Vorschau**.
 
 ## <a name="to-budget-depreciation"></a>So budgetieren Sie Abschreibung
 Sie können den Bericht **Anlage - Vorschau** zur Kalkulation von zukünftigen Abschreibungen verwenden. Dieser Bericht zeigt den Buchwert und die kumulierte Abschreibung zum Beginn einer gewählten Periode, die Änderungen innerhalb dieser Periode und den Buchwert sowie die kumulierte Abschreibung am Ende der Periode.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Anlagenvorschau** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Anlagenvorschau** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Füllen Sie die Felder je nach Bedarf aus.
 3. Wenn Sie die Gesamtsummen für alle Anlagen anzeigen möchten, deaktivieren Sie das Kontrollkästchen **Druck pro Anlage**.
 4. Lassen Sie das Inforegister **Anlage** leer, damit alle Anlagen einbezogen werden. Geben Sie im Feld **Plananlage** die Einstellung **Nein** an, um Plananlagen auszuschliessen, oder geben Sie **Ja** an, um nur Plananlagen anzuzeigen.
@@ -61,6 +61,6 @@ Sie können den Bericht **Anlage - Vorschau** zur Kalkulation von zukünftigen A
 [Anlagen](fa-manage.md)  
 [Anlagen einrichten](fa-setup.md)  
 [Finanzen](finance.md)  
-[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
