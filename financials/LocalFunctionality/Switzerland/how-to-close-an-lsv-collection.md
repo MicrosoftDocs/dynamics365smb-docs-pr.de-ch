@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: e6ca961e4d61708d39a8938247403c927ecebe49
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 174b365c4db8155ed6e67119926aaa5981e4fd53
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="close-an-lsv-collection"></a><span data-ttu-id="22c83-104">Schliessen eines LSV-Einzugs</span><span class="sxs-lookup"><span data-stu-id="22c83-104">Close an LSV Collection</span></span>
@@ -26,17 +26,17 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-close-an-lsv-collection"></a><span data-ttu-id="22c83-113">So schliessen Sie einen LSV-Einzug</span><span class="sxs-lookup"><span data-stu-id="22c83-113">To close an LSV collection</span></span>  
 
-1.  <span data-ttu-id="22c83-114">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite ober Bericht suchen"), und öffnen Sie **LSV-Journal Liste**. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="22c83-114">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **LSV Journal List**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="22c83-115">Wählen Sie die erforderliche Erf.-Journalzeile aus und wählen Sie die Aktion **Buchungsdatum bearbeiten** aus.</span><span class="sxs-lookup"><span data-stu-id="22c83-115">Select the required journal line, and then choose the **Modify Posting Date** action.</span></span> <span data-ttu-id="22c83-116">Dadurch wird der Wert im Feld **Valutadatum** geändert, indem der während des LSV-Einzugs vorgeschlagene Wert verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="22c83-116">This will modify the value in the **Credit Date** field by using the value suggested during the LSV collection.</span></span>  
-3.  <span data-ttu-id="22c83-117">Geben Sie im Feld **Neues Datum** das neue Datum ein.</span><span class="sxs-lookup"><span data-stu-id="22c83-117">In the **New Date** field, enter the new date.</span></span>  
-4.  <span data-ttu-id="22c83-118">Wählen Sie die Aktion **Einzug beenden** aus.</span><span class="sxs-lookup"><span data-stu-id="22c83-118">Choose the **Close Collection* action*.</span></span>  
+1. <span data-ttu-id="22c83-114">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite ober Bericht suchen"), und öffnen Sie **LSV-Journal Liste**. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="22c83-114">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **LSV Journal List**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="22c83-115">Wählen Sie die erforderliche Erf.-Journalzeile aus und wählen Sie die Aktion **Buchungsdatum bearbeiten** aus.</span><span class="sxs-lookup"><span data-stu-id="22c83-115">Select the required journal line, and then choose the **Modify Posting Date** action.</span></span> <span data-ttu-id="22c83-116">Dadurch wird der Wert im Feld **Valutadatum** geändert, indem der während des LSV-Einzugs vorgeschlagene Wert verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="22c83-116">This will modify the value in the **Credit Date** field by using the value suggested during the LSV collection.</span></span>  
+3. <span data-ttu-id="22c83-117">Geben Sie im Feld **Neues Datum** das neue Datum ein.</span><span class="sxs-lookup"><span data-stu-id="22c83-117">In the **New Date** field, enter the new date.</span></span>  
+4. <span data-ttu-id="22c83-118">Wählen Sie die Aktion **Einzug beenden** aus.</span><span class="sxs-lookup"><span data-stu-id="22c83-118">Choose the **Close Collection* action*.</span></span>  
 
-    > [!NOTE]  
-    >  <span data-ttu-id="22c83-119">Die Felder auf dem Inforegister **Optionen** für die Stapelverarbeitung **LSV Einzug abschliessen** können nicht geändert werden und entsprechen der ausgewählten Erf.-Journalzeile.</span><span class="sxs-lookup"><span data-stu-id="22c83-119">The fields on the **Options** FastTab for the **LSV Close Collection** batch job cannot be modified, and correspond to the selected journal line.</span></span>  
+   > [!NOTE]  
+   >  <span data-ttu-id="22c83-119">Die Felder auf dem Inforegister **Optionen** für die Stapelverarbeitung **LSV Einzug abschliessen** können nicht geändert werden und entsprechen der ausgewählten Erf.-Journalzeile.</span><span class="sxs-lookup"><span data-stu-id="22c83-119">The fields on the **Options** FastTab for the **LSV Close Collection** batch job cannot be modified, and correspond to the selected journal line.</span></span>  
 
-5.  <span data-ttu-id="22c83-120">Wählen Sie die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="22c83-120">Choose the **OK** button.</span></span>  
+5. <span data-ttu-id="22c83-120">Wählen Sie die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="22c83-120">Choose the **OK** button.</span></span>  
 
-    <span data-ttu-id="22c83-121">Im Fenster **LSV-Journal Liste** wird der Wert im Feld **LSV-Status** von **Bearbeiten** in **Freigegeben** geändert.</span><span class="sxs-lookup"><span data-stu-id="22c83-121">In the **LSV Journal List** window, the value in the **LSV Status** field is changed from **Edit** to **Released**.</span></span> <span data-ttu-id="22c83-122">Die Erf.-Journalzeilen können nicht mehr geändert werden.</span><span class="sxs-lookup"><span data-stu-id="22c83-122">The journal lines can no longer be modified.</span></span>  
+   <span data-ttu-id="22c83-121">Im Fenster **LSV-Journal Liste** wird der Wert im Feld **LSV-Status** von **Bearbeiten** in **Freigegeben** geändert.</span><span class="sxs-lookup"><span data-stu-id="22c83-121">In the **LSV Journal List** window, the value in the **LSV Status** field is changed from **Edit** to **Released**.</span></span> <span data-ttu-id="22c83-122">Die Erf.-Journalzeilen können nicht mehr geändert werden.</span><span class="sxs-lookup"><span data-stu-id="22c83-122">The journal lines can no longer be modified.</span></span>  
 
 ## <a name="to-reopen-an-lsv-collection"></a><span data-ttu-id="22c83-123">So öffnen Sie einen LSV-Einzug erneut</span><span class="sxs-lookup"><span data-stu-id="22c83-123">To reopen an LSV collection</span></span>  
 
