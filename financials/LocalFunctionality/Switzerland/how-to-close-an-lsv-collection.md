@@ -26,17 +26,17 @@ Wenn der Einzug abgeschlossen ist, wird die aktuelle Einzugsnummer im LSV-Journa
 
 ## <a name="to-close-an-lsv-collection"></a>So schliessen Sie einen LSV-Einzug  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite ober Bericht suchen"), und öffnen Sie **LSV-Journal Liste**. Wählen Sie dann den zugehörigen Link aus.  
-2.  Wählen Sie die erforderliche Erf.-Journalzeile aus und wählen Sie die Aktion **Buchungsdatum bearbeiten** aus. Dadurch wird der Wert im Feld **Valutadatum** geändert, indem der während des LSV-Einzugs vorgeschlagene Wert verwendet wird.  
-3.  Geben Sie im Feld **Neues Datum** das neue Datum ein.  
-4.  Wählen Sie die Aktion **Einzug beenden** aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite ober Bericht suchen"), und öffnen Sie **LSV-Journal Liste**. Wählen Sie dann den zugehörigen Link aus.  
+2. Wählen Sie die erforderliche Erf.-Journalzeile aus und wählen Sie die Aktion **Buchungsdatum bearbeiten** aus. Dadurch wird der Wert im Feld **Valutadatum** geändert, indem der während des LSV-Einzugs vorgeschlagene Wert verwendet wird.  
+3. Geben Sie im Feld **Neues Datum** das neue Datum ein.  
+4. Wählen Sie die Aktion **Einzug beenden** aus.  
 
-    > [!NOTE]  
-    >  Die Felder auf dem Inforegister **Optionen** für die Stapelverarbeitung **LSV Einzug abschliessen** können nicht geändert werden und entsprechen der ausgewählten Erf.-Journalzeile.  
+   > [!NOTE]  
+   >  Die Felder auf dem Inforegister **Optionen** für die Stapelverarbeitung **LSV Einzug abschliessen** können nicht geändert werden und entsprechen der ausgewählten Erf.-Journalzeile.  
 
-5.  Wählen Sie die Schaltfläche **OK** aus.  
+5. Wählen Sie die Schaltfläche **OK** aus.  
 
-    Im Fenster **LSV-Journal Liste** wird der Wert im Feld **LSV-Status** von **Bearbeiten** in **Freigegeben** geändert. Die Erf.-Journalzeilen können nicht mehr geändert werden.  
+   Im Fenster **LSV-Journal Liste** wird der Wert im Feld **LSV-Status** von **Bearbeiten** in **Freigegeben** geändert. Die Erf.-Journalzeilen können nicht mehr geändert werden.  
 
 ## <a name="to-reopen-an-lsv-collection"></a>So öffnen Sie einen LSV-Einzug erneut  
 

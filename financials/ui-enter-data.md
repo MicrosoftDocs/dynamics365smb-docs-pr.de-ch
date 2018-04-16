@@ -75,14 +75,14 @@ Selbst wenn das Feld ein rotes Sternchen enthält, sind Sie nicht gezwungen, das
 # <a name="entering-negative-numbers"></a>Eingeben von negativen Zahlen
 Sie können negative Zahlen auf zwei Arten eingeben. Die Zahl. -20,5 kann so eingegeben werden:  
 
--   -20.5  
+- -20.5  
 
-    Oder
--   20.5-  
+  Oder
+- 20.5-  
 
- In beiden Fällen wird der Betrag als -20,5 erfasst.  
+  In beiden Fällen wird der Betrag als -20,5 erfasst.  
 
- Wenn das letzte Zeichen des Ausdrucks **+** oder **-** ist, wird der gesamte Ausdruck mit diesem Vorzeichen erfasst. Ein Beispiel, **10-20+** ergibt 10 und nicht -10.  
+  Wenn das letzte Zeichen des Ausdrucks **+** oder **-** ist, wird der gesamte Ausdruck mit diesem Vorzeichen erfasst. Ein Beispiel, **10-20+** ergibt 10 und nicht -10.  
 
 ## <a name="entering-dates-and-times"></a>Daten und Zeit eingeben
 Datums- und Uhrzeitwerte können in alle Felder eingegeben werden, die speziell für Datumswerte vorgesehen sind (Datumsfelder). Datumswerte können mit oder ohne Trennzeichen eingegeben werden.
@@ -93,15 +93,15 @@ Datums- und Uhrzeitwerte können in alle Felder eingegeben werden, die speziell 
 ### <a name="entering-dates"></a>Datumswerte eingeben  
  In einem Datumsfeld können zwei-, vier-, sechs- oder achtstellige Werte eingegeben werden:  
 
--   Wenn Sie nur zwei Ziffern eingeben, wird dies als Tagesangabe interpretiert, es gilt also der Monat und das Jahr des Arbeitsdatums.  
+- Wenn Sie nur zwei Ziffern eingeben, wird dies als Tagesangabe interpretiert, es gilt also der Monat und das Jahr des Arbeitsdatums.  
 
--   Wenn Sie vier Ziffern eingeben, wird dies als Tages- und Monatsangabe interpretiert, es gilt also das Jahr des Arbeitsdatums.  
+- Wenn Sie vier Ziffern eingeben, wird dies als Tages- und Monatsangabe interpretiert, es gilt also das Jahr des Arbeitsdatums.  
 
--   Wenn Sie ein Datum zwischen dem 01.01.1930 und dem 31.12.2029 eingeben wollen, können Sie das Jahr zweistellig eingeben; ansonsten sollten Sie das Jahr vierstellig angeben.  
+- Wenn Sie ein Datum zwischen dem 01.01.1930 und dem 31.12.2029 eingeben wollen, können Sie das Jahr zweistellig eingeben; ansonsten sollten Sie das Jahr vierstellig angeben.  
 
- Sie können auch einen Wochentag gefolgt von einer Kalenderwoche (und optional einer Jahresangabe) für das Datum verwenden (z. B. steht mo25 oder Mo25 für den Montag in der 25. Kalenderwoche).  
+  Sie können auch einen Wochentag gefolgt von einer Kalenderwoche (und optional einer Jahresangabe) für das Datum verwenden (z. B. steht mo25 oder Mo25 für den Montag in der 25. Kalenderwoche).  
 
- Anstatt ein bestimmtes Datum direkt einzugeben, können Sie auch einen der zwei folgenden Codes verwenden.  
+  Anstatt ein bestimmtes Datum direkt einzugeben, können Sie auch einen der zwei folgenden Codes verwenden.  
 
 |Code|Ergebnis|  
 |--------------|----------------|  
@@ -202,13 +202,13 @@ Datums- und Uhrzeitwerte können in alle Felder eingegeben werden, die speziell 
 
  Nachfolgend einige Beispiele wie Datumsformeln eingesetzt werden können:  
 
--   Die Datumsformel im Feld "Wiederholungsrate" in wiederkehrenden Journalen bestimmt, wie oft der Posten in der Journalzeile gebucht werden wird.  
+- Die Datumsformel im Feld "Wiederholungsrate" in wiederkehrenden Journalen bestimmt, wie oft der Posten in der Journalzeile gebucht werden wird.  
 
--   Die Datumsformel in dem Feld "Toleranzperiode" für eine Mahnstufe bestimmt die Zeit, die vom Fälligkeitsdatum (oder vom Datum der letzten Mahnung) an vergehen muss, bevor eine Mahnung erstellt wird.  
+- Die Datumsformel in dem Feld "Toleranzperiode" für eine Mahnstufe bestimmt die Zeit, die vom Fälligkeitsdatum (oder vom Datum der letzten Mahnung) an vergehen muss, bevor eine Mahnung erstellt wird.  
 
--   Anhand der Datumsformel im Feld Fälligkeitsformel wird die Berechnung des Fälligkeitsdatums auf der Mahnung bestimmt.  
+- Anhand der Datumsformel im Feld Fälligkeitsformel wird die Berechnung des Fälligkeitsdatums auf der Mahnung bestimmt.  
 
- Die Datumsberechnungsformel kann maximal 20 Zeichen (Buchstaben und Zahlen) enthalten. Für die Berechnungszeiträume können die folgenden Abkürzungen verwendet werden.  
+  Die Datumsberechnungsformel kann maximal 20 Zeichen (Buchstaben und Zahlen) enthalten. Für die Berechnungszeiträume können die folgenden Abkürzungen verwendet werden.  
 
 |||  
 |-|-|  
