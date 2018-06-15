@@ -1,8 +1,6 @@
 ---
 title: Erstellen von Kontaktpersonen| Microsoft Docs
 description: "Beschreibt, wie einer Kontaktkarte für jede neue Person oder potentielle neuen Kunden erstellt wird, mit dem Sie eine Geschäftsbeziehung haben."
-services: project-madeira
-documentationcenter: 
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 05/09/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5a5f1bc0157309c18f92253803b27ccc29263e84
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 38f42e4d44dd38fe70816035711e00561fd9e777
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="create-contact-persons"></a>Anlegen von Kontaktpersonen
@@ -26,7 +24,7 @@ Sie können für jeden Kontakt eine Kontaktkarte erstellen, der für das Unterne
 >   Bevor Sie einen Kontakt anlegen, sollten Sie die Einstellungen unter **Übernahme** im Fenster **Marketing & Vertrieb Einr.** überprüfen. Die Einrichtung der Übernahme ermöglicht das automatischer Kopieren von gleichen Informationen zu Kontaktunternehmen und Kontaktpersonen (z. B. Adressdaten) vom Kontaktunternehmen zur Kontaktperson beim Erstellen einer Kontaktperson für ein erfasstes Kontaktunternehmen.
 
 ## <a name="to-create-a-contact-card-for-a-person"></a>So erstellen Sie eine Kontaktkarte für eine Person
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Kontakte** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Kontakte** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Geben Sie im Feld **Nr.** eine Nummer für den Kontakt ein.
 
@@ -43,5 +41,6 @@ Sie können für jeden Kontakt eine Kontaktkarte erstellen, der für das Unterne
 [Einrichten von Verantwortlichkeiten für Kontakte](marketing-job-responsibilities.md)  
 [Einrichten von Position für Kontaktpersonen](marketing-organizational-levels.md)  
 [Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
+[Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren](marketing-create-contact-profile-questionnaire.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)  
 

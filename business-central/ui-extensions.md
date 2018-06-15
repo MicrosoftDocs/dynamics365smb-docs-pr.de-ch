@@ -12,10 +12,10 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 8cb2c0f8984a77b21fdf8d41875ada5506c8f4aa
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 55de1952941f6f8d01d76c657fcf8c48d7ada6b1
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="customizing-business-central-using-extensions"></a>Anpassen der Geschäfte mithilfe der Erweiterungen
@@ -25,7 +25,7 @@ Wenn Sie das [!INCLUDE[d365fin](includes/d365fin_md.md)] zuerst starten, werden 
 Beispielsweise bietet Microsoft eine Erweiterung an, die die Integration mit Standard Paypal-Zahlungen ermöglicht. Diese Erweiterung wird standardmässig eingerichtet.
 Wenn aber keine andere Erweiterung bereitgestellt wird, die die Integration mit einem anderen Zahlungsservice anbietet, können Sie die neue Erweiterung einrichten und dann auswählen, welcher der beiden Services verwendet werden soll.  
 
-Sie verwalten die Erweiterung des **Erweiterungs-Verwaltungs**-Fenster. Sie können vom Startbildschirm auf dieses Fenster zugreifen. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus**![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen")Symbol nach Seite oder Bericht suchen. Geben Sie **Erweiterung** ein und wählen Sie dann den entsprechenden Link aus.  
+Sie verwalten die Erweiterung des **Erweiterungs-Verwaltungs**-Fenster. Sie können vom Startbildschirm auf dieses Fenster zugreifen. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus**![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") Symbol nach Seite oder Bericht suchen. Geben Sie **Erweiterung** ein und wählen Sie dann den entsprechenden Link aus.  
 
 > [!NOTE]  
 >   Wenn Sie der Meinung sind, Sie sollten Zugriff zu einer Erweiterung haben, können die Funktionalität aber nicht finden, überprüfen Sie das Fenster **Erweiterungsverwaltung**, wenn die Erweiterung dort nicht aufgeführt wird, können Sie sie einrichten, wie im folgenden Abschnitt erläutert.  
@@ -71,7 +71,7 @@ Microsoft stellt die folgenden Erweiterungen bereit:
 ## <a name="see-also"></a>Siehe auch
 [Einrichten des Envestnet Yodlee Bank-Feed-Service](bank-how-setup-bank-statement-service.md)  
 [Aktivieren von Debitoren-Zahlungen durch Paypal](sales-how-enable-payment-service-extensions.md)  
-[Geschäftsdaten aus anderen Finanzsystemen migrieren](upload-data.md)  
+[Geschäftsdaten aus anderen Finanzsystemen migrieren](across-import-data-configuration-packages.md)  
 [Einrichten der britischen Postleitzahlerweiterung GetAddress.io](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]Erweiterungen für andere Anbieter](ui-extensions-other.md)E  
 [Erste Schritte](product-get-started.md)  

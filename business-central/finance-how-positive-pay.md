@@ -10,28 +10,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
-ms.date: 06/16/2017
+ms.date: 04/10/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: db5811c3ba22df76e2c0cab4b190777d0705f72a
+ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
+ms.openlocfilehash: 1f8a34fe1312627038b1f5b28b7ce7ed9f234fea
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/11/2018
 
 ---
-# <a name="export-a-positive-pay-file"></a>Eine Positive Pay-Datei zu exportieren
+# <a name="export-a-positive-pay-file"></a>Eine Positive Pay-Datei exportieren
 Um sicherzustellen, dass eine Bank nur validierte Schecks und Beträge freigibt, können Sie eine Positive Pay-Datei exportieren, die die relevanten Zahlungsinformationen enthält wie Schecknummer und Zahlungsbetrag, die Sie als Referenz an die Bank senden, wenn Sie Zahlungen verarbeiten.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] wird vorkonfiguriert, um Positive Pay-Dateien an die Bank of America und City Bank zu senden.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Um ein Bankkkonto für Positive Pay einzurichten
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Öffnen Sie die Karte des Bankkontos, für das Sie Positive Pay nutzen möchten.
 3. In dem Feld **Positive Pay-Exportcode** geben Sie POSPAYBANK ein.
 4. Schliessen Sie das Fenster.
 
 ## <a name="to-export-a-positive-pay-file"></a>Um eine Positive Pay-Datei zu exportieren
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie das Bankkonto aus, für das Sie eine Positive Pay-Datei exportieren möchten.
 3. Wählen Sie die Aktion **Positive Pay-Export** aus.
 
@@ -44,7 +44,7 @@ Um sicherzustellen, dass eine Bank nur validierte Schecks und Beträge freigibt,
 
 Um exportierte Positive Pay-Datensätze anzuzeigen
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie das Bankkonto aus, für das Sie einen Positive Pay-Datei-Export anzeigen möchten.
 3. Wählen Sie die Aktion **Positive Pay-Einträge** aus.
 
@@ -54,7 +54,7 @@ Um exportierte Positive Pay-Datensätze anzuzeigen
 
 Um Positive Pay-Dateien erneut zu exportieren
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie das Bankkonto aus, für die Sie Positive Pay-Dateien erneut exportieren möchten.
 3. Wählen Sie die Aktion **Positive Pay-Einträge** aus.
 4. Wählen Sie die Zeile für die Positive Pay Exportdatei aus, die Sie erneut  exportieren möchten.

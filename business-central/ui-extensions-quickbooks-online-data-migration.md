@@ -11,10 +11,10 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f84d2bcccb8876588e7292708ba2cc98fcbe50fb
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: a53e9b4199a133678dfa8d001875df7dcdc1a37e
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 
@@ -51,7 +51,7 @@ Wenn Transaktionen in QuickBooks online Steuerbeträge haben, müssen Sie eine M
 ## <a name="how-do-i-start-using-the-extension"></a>Wie beginne ich, die Erweiterung zu nutzen?
 Erste Schritte sind einfach. Sie müssen nur das unterstütze Einrichtungshandbuch **Datenmigration** ausführen. So geht es:
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "") Symbol **Unterstützte Einrichtung** und geben **Geschäftsdaten migrieren** ein.
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") Symbol **Unterstützte Einrichtung** und geben **Geschäftsdaten migrieren** ein.
 2. Befolgen Sie die Anweisungen für jeden Schritt im unterstützten Anleitungshandbuch.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Was tue ich, nachdem ich Daten migriert habe?
@@ -64,6 +64,6 @@ Es gibt mehrere Dinge, die Sie durchführen sollten:
 * Prüfen Sie die Startkapitale für Konten im Fibuposten. QuickBooks online speichert nicht den aktuellen Saldo für alle Konten, daher müssen Sie möglicherweise Startkapitale korrigieren.
 
 ## <a name="see-also"></a>Siehe auch
-[Geschäftsdaten aus anderen Finanzsystemen migrieren](upload-data.md)  
+[Geschäftsdaten aus anderen Finanzsystemen migrieren](across-import-data-configuration-packages.md)  
 [Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzenb](ui-extensions.md)  
 

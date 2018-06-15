@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 07/01/2017
+ms.date: 05/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 90b85a099b2b52930299a27b39ed96be9bade624
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Designdetails: Planungsparameter
@@ -44,7 +44,7 @@ Das Feld **Zeitrahmen** wird von Minimalbestandrichtlinien verwendet (**Feste Be
 
 Die Standardsicherheitsbeschaffungszeit im Feld **Herstellung einrichten** sollte mindestens auf einen Tag gesetzt werden. Das Fälligkeitsdatum des Bedarfs ist möglicherweise bekannt, nicht jedoch die Fälligkeitsuhrzeit. Die Planung plant rückwärts, um den Bruttobedarf zu decken, und, wenn kein Sicherheitszuschlag zur Beschaffungszeit definiert ist, können die Waren zu spät eintreffen, um den Bedarf zu decken.  
 
-Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode****Loskumulierungsperiode** und  **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter "Optimieren des Zeitpunktes und der Menge bei einer Neubestellung".  
+Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode** **Loskumulierungsperiode** und **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter "Optimieren des Zeitpunktes und der Menge bei einer Neubestellung".  
 
 ## <a name="define-how-much-to-reorder"></a>Definieren Sie, wie viel neu bestellt werden soll  
 Wenn das Planungssystem die Notwendigkeit einer Neubestellung erkennt, wird das ausgewählte Wiederbeschaffungsverfahren verwendet, um zu ermitteln, wann und wie viel bestellt werden soll.  
@@ -57,7 +57,7 @@ Unabhängige vom Wiederbeschaffungsverfahrens folgt das Planungssystem normalerw
 4. Wenn mehr Grobbedarf vor dem Fälligkeitsdatum des vorwärts geplanten Auftragsvorschlag besteht und dieser Bedarf den derzeit geplanten voraussichtlich verfügbaren Lagerbestand unter den Sicherheitsbestand bringt, wird die Auftragsmenge entsprechend erhöht. Die vorgeschlagene Beschaffungsauftrag wird dann vom Fälligkeitsdatum dieses Grobbedarfs, der den Sicherheitsbestand unterschritten hätte, rückwärts geplant.  
 5. Wenn das Feld **Zeitrahmen** nicht ausgefüllt ist, wird nur der Bruttobedarf am gleichen Fälligkeitsdatum hinzugefügt.  
 
-     Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode****Loskumulierungsperiode** und  **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter "Optimieren des Zeitpunktes und der Menge bei einer Neubestellung".  
+     Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode** **Loskumulierungsperiode** und **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter "Optimieren des Zeitpunktes und der Menge bei einer Neubestellung".  
 
 ### <a name="reordering-policies"></a>Wiederbeschaffungsverfahren  
 Die folgenden Wiederbeschaffungsrichtlinien beeinflussen die Menge, die nachbestellt wird.  
@@ -76,11 +76,11 @@ Um einen rationalen Beschaffungsplan zu erhalten, kann ein Planer Planungsparame
 |---------------------------------|---------------------------------------|  
 |**Neuplanungsperiode**|Dieses Feld wird verwendet, um zu ermitteln, ob die Ereignismeldung einen bestehenden Auftrags neu planen oder diesen stornieren und einen neuen Auftrag erstellen soll. Der bestehende Auftrag wird innerhalb einer Neuplanungsperiode vor dem aktuellen Vorrat und bis zu einer Neuplanungsperiode nach dem aktuellen Vorrat neu geplant.|  
 |**Loskumulierungsperiode**|Mit dem Wiederbeschaffungsverfahren Los-für-Los wird dieses Feld verwendet, um mehrere Bedarfsposten in einem Beschaffungsauftrag zusammenzufassen. Ab dem ersten geplanten Vorrat werden alle Bedarfsposten in der folgenden Loskumulierungsperiode in einen Beschaffungsauftrag zusammengefasst, der am Tag des ersten Bedarfs aufgeben wird. Ein Bedarfsposten, der ausserhalb der Loskumulierungsperiode liegt, wird nicht durch den Beschaffungsauftrag abgedeckt.|  
-|**Toleranzperiode**|Dieses Feld wird verwendet, um kleinere Neuplanungen für vorhandenen Bedarf rechtzeitig zu vermeiden. Ändert das Lieferdatum, bis eine Toleranzperiode ab dem Lieferdatum keine Ereignismeldungen mehr generiert.<br /><br /> Deshalb ist ein positives Delta zwischen dem vorgeschlagenen neuen Lieferdatum und dem ursprünglichen Lieferdatum immer grösser als die Toleranzperiode.|  
+|**Toleranzperiode**|Dieses Feld wird verwendet, um kleinere Neuplanungen für vorhandenen Bedarf rechtzeitig zu vermeiden. Ändert das Lieferdatum, bis eine Toleranzperiode ab dem Lieferdatum keine Ereignismeldungen mehr generiert.<br /><br /> Die Toleranzperiode definiert eine Zeitspanne, die das Planungssystem nicht vorschlagen soll, um bestehende Beschaffungsaufträge in der Planung vorzuverlegen. Dies schränkt die Anzahl der geringfügigen Neuplanungen für vorhandenen Bedarf auf ein späteres Datum ein, wenn dieses neue Datum innerhalb der Toleranzperiode liegt.<br /><br /> Deshalb ist ein positives Delta zwischen dem vorgeschlagenen neuen Lieferdatum und dem ursprünglichen Lieferdatum immer grösser als die Toleranzperiode.|  
 
 Die Terminierung für die Neuplanungsperiode, die Toleranzperiode und die Loskumulierungsperiode basiert auf einem Lieferdatum. Das Zeitrahmen basiert auf dem Planungsstartdatum, wie in der folgenden Abbildung gezeigt.  
 
-![Zeitrahmen-Elemente] (media/supply_planning_5_time_bucket_elements.png "supply_planning_5_time_bucket_elements")  
+![Zeitrahmen-Elemente](media/supply_planning_5_time_bucket_elements.png "supply_planning_5_time_bucket_elements")  
 
 In den folgenden Beispielen stellen die schwarzen Pfeile vorhandenen Bedarf (aufwärts) und Bedarf dar (abwärts). Rote, grüne und orange Pfeile sind Planungsvorschläge.  
 
