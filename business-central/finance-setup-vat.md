@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/20/2017
+ms.date: 05/06/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
-ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 399b1a4331431a6472ecebaad41489092d117cfa
 ms.contentlocale: de-ch
-ms.lasthandoff: 04/09/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -48,9 +48,9 @@ Um MwSt-Nr. einzurichten, gehen Sie folgendermassen vor:
 2. Wählen Sie das Land bzw. die Region, und wählen die **MwSt Reg. Nr. Formaten** Aktion aus.
 3. Im Feld **Formate** definieren Sie das Format, indem Sie einen oder mehrere der folgenden Zeichen eingeben:  
 
-* # <a name="--requires-a-single-digit-number"></a>- Erfordert eine einstellige Nummer.
-* @ - Erfordert einen Buchstaben. Die Gross-/Kleinschreibung muss für den Text nicht beachtet werden.
-* ? - Erlaubt jegliches Zeichen.
+* **#** Erfordert eine einstellige Nummer.  
+* **@** Erfordert einen Buchstaben. Die Gross-/Kleinschreibung muss für den Text nicht beachtet werden.  
+* **?** Erlaubt jegliches Zeichen.  
 
     > [!Tip]
     > Sie können andere Zeichen verwenden, sofern sie immer im Land- oder Bereichsformat vorkommen. Wenn Sie beispielsweise eine Periode oder einen Bindestrich zwischen und Nummern einfügen möchten,  enkönnen Sie ##.####.### r ##.####.### oder @@- definieren.  
@@ -104,17 +104,40 @@ Die folgenden Abschnitten beschreiben, wie die MWST.-Buchungsgruppen einzelnen E
 5. Wählen Sie die MWST.-Buchungsgruppen aus, die Sie für das Verkaufs- bzw. das Wareneingangskonto verwenden möchten.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Um MwSt-Geschäftsbuchungsgruppen Debitoren und Kreditoren zuzuweisen  
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") Symbol und geben **Kunden** oder **Verkäufer** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") und geben **Kunden** oder **Verkäufer** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Auf der Karte **Kunde** oder **Debitor** erweitern Sie das Inforegister **Fakturierung**.  
 3. Wählen Sie die MwSt-Geschäftsbuchungsgruppe aus.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Um MwSt-Produktbuchungsgruppen einzelnen Artikeln und Ressourcen zuzuweisen  
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") Symbol und geben **Artikel** oder **Ressource** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") und geben **Artikel** oder **Ressource** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Führen Sie einen der folgenden Schritte aus:  
 
 * Auf der Karte **Artikel** erweitern Sie das Inforegister **Preis und Buchung**, und wählen Sie dann **Mehr anzeigen**, um das Feld **MwSt Produktbuchungsgruppe** anzuzeigen.  
 * Erweitern Sie auf der Karte **Ressource** das Inforegister **Fakturierung**.  
 3. Wählen Sie die MwSt-Produktbuchungsgruppe aus.  
+
+## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Einrichtung von MWST-Abrechnung Vorlagen und - Abrechnung
+Steuerbehörden kann Anforderungen für die Buchung der MWST ändern und ändert diese auch. **MWST-Abrechnung Vorlagen** und **MWST-Abrechnung** können dabei behilflich sein, für ausstehende Änderungen das Vorbereiten und einen fliessenden Übergang mit den neuen Anforderungen zu erstellen. Sie können MWST-Abrechnungs-Vorlagen verwenden, um die Felder festzulegen, um in der MWST-Abrechnung zu berücksichtigen, die wiederum die Berechnungen definieren, und Sie können eine neue MWST-Abrechnung Vorlage erstellen, wenn Anforderungen ändern. Beispielsweise kann eine Vorlage die MwSt für dieses Jahre auf dem aktuellen Bedarf berechnen, und eine andere kann MwSt basierend auf Anforderungen für das nächste Jahr berechnen. Vorlagen sind auch eine Art, Aufzeichnungen von MWST-Abrechnungs-Formaten zu behalten, beispielsweise damit Sie prüfen können, wie Sie die MWST in Vorjahren berechnet haben.
+
+## <a name="how-to-define-and-preview-vat-statements"></a>Erstellen von MWST-Abrechnungen definieren und MWST Bericht anzeigen
+MWST-Abrechnungen lassen Sie den MWST-Abrechnungsbetrag für eine bestimmte Periode berechnen (zum Beispiel ein Quartal). Nachdem Sie eine MWST-Abrechnung eingeben haben, können Sie diese in der Vorschau anzeigen, um sicherzustellen, dass sie die Anforderungen erfüllt. 
+
+Um eine MWST-Abrechnung festzulegen, gehen Sie folgendermassen vor:
+
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **MwSt-Bericht** ein. Wählen Sie dann den zugehörigen Link aus.  
+2. Wählen Sie das Feld **Name**, und wählen Sie dann **Neu** auf der Seite **MWST-Abrechnungsnamen** aus. 
+3. Füllen Sie die entsprechenden Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!Tip]
+> Sie können die Informationen setzen, die in der Abrechnung enthalten sind, je nachdem, was Sie im Feld **Art** auswählen. **Kontosumme** ist hilfreich, wenn Sie die MwSt von einem bestimmten Konto möchten.
+**MWST-Summe** ruft die MWST der Konten ab, die zur Auswahl auf **Buchungsart**, **MWST Bus. Buchungsgruppe** und/oder den Feldern **MWST Prod. Buchungsgruppe** zugeordnet werden. **Rubrikensumme** ermöglicht Ihnen die Eingabe von einem schnellen Filterkriterium oder Wert im Feld **Rubrikensumme**. Weitere Informationen finden Sie unter [Suchen, filtern und sortieren von Daten](ui-enter-criteria-filters.md). **Beschreibung** ist oft verwendet, um eine Benachrichtigung der Abrechnung hinzuzufügen. Sie könnten sie beispielsweise als Überschrift verwenden, wenn Sie Zeilenzusammenzählung verwendet haben.
+
+Um eine MWST-Abrechnung anzuzeigen, gehen Sie folgendermassen vor:
+
+1. Wählen Sie **Vorschau** aus.
+2. Geben Sie einen Datumsfilter ein, um die Abrechnung auf einen bestimmten Zeitraum zu begrenzen. Weitere Informationen darüber, wie die Seite anpassen, damit der Datumsfilter angezeigt wird, finden Sie unter [Daten suchen, filtern und sortieren](ui-enter-criteria-filters.md).
+3. Sie können verschiedene Optionen wählen, um die Art der MWST-Posten zu bestimmten, die in der Abrechnung enthalten sein sollen.
+4. Für die Zeilen, für die im Feld **Art** der Eintrag **MWST-Summe** angezeigt wird, kann eine Liste der MWST-Posten angezeigt werden, wenn Sie im Feld **Spaltenbetrag** den Betrag auswählen.   
 
 ## <a name="to-set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>Einrichten von Klauseln, um die Verwendung von nichtstandardisierten MWST-Sätzen zu erklären
 Sie richten eine MWST-Klausel ein, um Informationen über die Art der MWST zu beschreiben, die angewendet wird. Die Informationen werden möglicherweise aufgrund behördlicher Regulierungen verlangt. Nachdem Sie eine MWST.-Klausel festgelegt und sie einer MWST.-Buchungsmatrix zugeordnet haben, wird die MWST.-Klausel in allen gedruckten Verkaufsbelegen, die diese MWST.-Buchungsmatrix Einrichtungsgruppe haben, wie etwa eine Verkaufsrechnung, angezeigt.
@@ -166,8 +189,7 @@ Sie finden das MWST-Registrierungsprotokoll auf den Karten Kunde, Kreditor oder 
 
 Mit dem Service sparen Sie auch Zeit, wenn Sie einen Kreditor oder Debitor erstellen. Wenn Sie die MWST-Nummer des Kunden kennen, können Sie sie in das Feld **MWST-Nr.** auf den Karten Kunde oder Kreditor eintragen. Wir tragen den Kundennamen für Sie ein. Einige Länder liefern auch Mandantenadressen in einem strukturierten Format. In jenen Ländern ergänzen wir auch die Adresse.  
 
-> [!NOTE]  
-> Es gibt mehrere Dinge zu beachten bezüglich dem VIES MwSt Überprüfungsservice:
+Es gibt mehrere Dinge zu beachten bezüglich dem VIES MwSt Überprüfungsservice:
 
 * Dieser Webdienst verwendet das HTTP-Protokoll, d. h., dass die Daten, die durch den Service übertragen werden, nicht verschlüsselt werden.  
 * Sie erfahren möglicherweise Ausfallzeiten für den Service, für die Microsoft nicht verantwortlich ist. Der Service ist Teil eines EU-Netzwerks eines nationalen MwST-Registers.

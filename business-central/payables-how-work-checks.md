@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/25/2018
+ms.date: 06/06/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
-ms.openlocfilehash: 39b48fbd34b29db56b39712fbd2cbf5dc91fefc6
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: bcd0e21bc40b63c99f37618ae3406395b3c31b10
 ms.contentlocale: de-ch
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="make-check-payments"></a>Zahlung per Scheck machen
@@ -31,6 +31,8 @@ Sie können mit zwei Arten von Schecks bezahlen Für beide Arten müssen **Bal. 
 > Um sicherzustellen, dass Ihre Bank nur Schecks und Beträge freigibt, können Sie ihr eine Datei senden, die die Daten für Kreditoren, Schecks und Zahlungsinformationen enthält. Weitere Informationen finden Sie unter [Datei Positive Pay exportieren](finance-how-positive-pay.md).
 
 Der Drucker muss für den Ausdruck von Scheckformularen eingerichtet werden, und Sie müssen festlegen welches Layout verwendet werden soll. Weitere Informationen zum Definieren von Attributen finden Sie unter [Definieren von Scheck-Layouts](finance-how-define-check-layouts.md).
+
+Sie können bis 10 Rechnungen auf einer Seite für einen Scheckabschnitt drucken. Wenn ein Häkchen in mehr als 10 Rechnungen angewendet wird, wenn Sie den Abschnitt drucken, annullieren wir den Scheck auf der ersten Seite und drucken den Begriff UNGÜLTIG auf den Scheck. Wir drucken dann die restlichen Rechnungen und den gesamten Scheckbetrags auf der zweiten Seite. 
 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Um Kreditorenrechnungen mit einem Computer Scheck zu bezahlen
 Nachfolgend wird erläutert, wie Sie einen Kreditor mit Schecks bezahlen. Die Schritte sind ähnlich, wie wenn sie Ihren Kunden Scheck zurückerstatten.
@@ -59,7 +61,7 @@ Sie können nicht gebuchte Schecks stornieren, nachdem sie gedruckt wurden, inde
 ## <a name="to-void-checks"></a>Annullieren von Schecks
 Wenn Scheckzahlung gebucht wurden, können Sie Schecks aus den resultierenden Bankposten nur annullieren.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie das entsprechende Bankkonto aus, wählen Sie die **Bearbeiten**-Aktion aus, und wählen Sie dann die **Scheckposten**-Aktion aus.
 3. Im **Scheckposten**-Fenster wählen Sie die **Scheck annullieren**-Aktion aus.
 4. Wählen das Kontrollkästchen **Scheck nur annullieren**.

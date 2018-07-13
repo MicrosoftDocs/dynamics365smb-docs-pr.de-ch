@@ -13,10 +13,10 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c62aea1e830b1b37e470fdf7ffbe8227bec41f6
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 7bab8449c957048e49b84eed53647e2921123fe7
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Einrichten von Verantwortlichkeiten von Kontaktpersonen
@@ -27,7 +27,7 @@ Die Verwendung von Verantwortlichkeiten zu Kontakten ist ein zwei Schritte umfas
 ## <a name="to-define-a-job-responsibility-code"></a>um einen Verantwortlichkeitscode zu definieren
 Der Verantwortlichkeitscode definiert die Art oder die Kategorie des Projekts (z. B. MARKETING oder EINKAUFS). Sie können mehrere Verantwortlichkeitscodes haben. Um die Verantwortlichkeit zu definieren, verwenden Sie das **Verantwortlichkeiten**-Fenster.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Verantwortlichkeiten** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verantwortlichkeiten** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus, und geben Sie einen Code und eine Beschreibung ein. Der Code kann maximal 11 Zeichen, sowohl Ziffern als auch Buchstaben, umfassen.
 
 ## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>Kontaktpersonen Verantwortlichkeiten zuordnen
@@ -46,5 +46,5 @@ Sobald Sie Ihren Kontakten Verantwortlichkeiten zugeordnet haben, können Sie di
 ## <a name="see-also"></a>Siehe auch
 [Kontaktpersonen erstellen](marketing-create-contact-persons.md)  
 [Kontaktunternehmenerstellen](marketing-create-contact-companies.md)  
-[Arbeiten mit Financials](ui-work-product.md)
+[Arbeiten mit  Business Central](ui-work-product.md)
 

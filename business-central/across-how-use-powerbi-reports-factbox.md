@@ -1,6 +1,6 @@
 ---
 title: Zeigen Sie benutzerdefinierte Power BI Berichte an| Microsoft Docs
-description: "Sie können Power BI Berichte hinzufügen, die zusätzliche Einblick in Daten in Listen in Financials geben."
+description: "Sie können Power BI-Berichte verwenden, um einen zusätzlichen Einblick in Daten in Listen zu gewinnen."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 49957527ab1b0217dab151463ccf983c5eeac7a1
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 595e6fb7cc8239ea33cf57aadfd8b0f3419323e5
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Anzeigen von Listendaten in Power BI-Berichten in Business Central 
@@ -31,7 +31,7 @@ Wenn Sie den Bericht in Power BI Desktop erstellen, definieren Sie die Datenquel
 Um Daten in Berichten zu filtern, basierend auf dem ausgewählten Datensatz der Listenseite, muss der primäre Schlüssel als Berichtsfilter verwendet werden. Die Primärschlüssel müssen Teil des Datasets sein, um die Berichte korrekt zu filtern. In den meisten Fällen ist der Primärschlüssel für eine Liste **Nr.** Feld  
 
 ## <a name="defining-the-report-filter"></a>Definiert den Berichts-Filter
-Der Bericht wird benötigt, um einen grundlegenden Berichtsfilter (kein Seiten- oder visueller Filter und kein erweiterter Filter), um Filter in der Power BI  ein Sichtfilter und keinen gewechselten Filter) haben z in der Energie BI Infosteuerung korrekt anzuzeigen. Der Filter, der zum Power BI Bericht von jeder Listenseite übergeben wird, basiert auf dem Primärschlüssel, wie im vorherigen Abschnitt erläutert.  
+Der Bericht wird benötigt, um einen grundlegenden Berichtsfilter (kein Seiten- oder visueller Filter und kein erweiterter Filter), um Filter in der Power BI  ein Sichtfilter und keinen gewechselten Filter haben z in der Energie BI Infosteuerung korrekt anzuzeigen. Der Filter, der zum Power BI Bericht von jeder Listenseite übergeben wird, basiert auf dem Primärschlüssel, wie im vorherigen Abschnitt erläutert.  
 
 Um einen Filter für den Bericht zu definieren, wählen Sie den Primärschlüssel aus der Liste der verfügbaren Felder und ziehen dann das Feld in den Abschnitt **Berichts-Filter**.  
 
