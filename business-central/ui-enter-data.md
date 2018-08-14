@@ -106,8 +106,8 @@ Datums- und Uhrzeitwerte können in alle Felder eingegeben werden, die speziell 
 
 |Code|Ergebnis|  
 |--------------|----------------|  
-|H|Dies ist das heutige Datum (das Systemdatum des Computers).|  
-|A|Dies ist das Arbeitsdatum, die in der Anwendung eingerichtet wird. Um das Arbeitsdatum zu ändern, siehe [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md). Das Arbeitsdatum ist nützlich, wenn Sie viele Transaktionen unter einem anderen als dem aktuellen Systemdatum durchführen müssen.|  
+|h|Dies ist das heutige Datum (das Systemdatum des Computers).|  
+|a|Dies ist das Arbeitsdatum, die in der Anwendung eingerichtet wird. Um das Arbeitsdatum zu ändern, siehe [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md). Das Arbeitsdatum ist nützlich, wenn Sie viele Transaktionen unter einem anderen als dem aktuellen Systemdatum durchführen müssen.|  
 
 <!--Onprem ## Closing Date  
  When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between Dec 31 and Jan 1.  
@@ -145,7 +145,7 @@ Datums- und Uhrzeitwerte können in alle Felder eingegeben werden, die speziell 
 |11 12|11-aktueller Monat-aktuelles Jahr 12:00:00|  
 |1112 12|11-12-aktuelles Jahr 12:00:00|  
 |h für heute|heutiges Datum 00:00:00|  
-|t Zeit|heutiges Datum aktuelle Zeit|  
+|h Zeit|heutiges Datum aktuelle Zeit|  
 |h 10:30|heutiges Datum 10:30:00|  
 |h 3:3:3|heutiges Datum 03:03:03|  
 |a oder Arbeitsdatum|das Arbeitsdatum 00:00:00|  

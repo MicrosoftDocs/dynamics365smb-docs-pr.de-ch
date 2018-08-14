@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f618203725ec854f3a66ef2501b16613a0394bd6
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: abf481ae651863e5ec290aacb58684980c31edbe
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/30/2018
 
 ---
 # <a name="deactivate-item-cost-tracking"></a>Deaktivieren des Artikelpreistrackings
@@ -38,6 +38,5 @@ Sie können das Artikelpreistracking für einen Artikel deaktivieren. Im Allgeme
 4.  Wählen Sie die Schaltfläche **OK** aus.  
 
 ## <a name="see-also"></a>Siehe auch  
- [Lagerverwaltung (Schweiz)](swiss-inventory-management.md)   
- [Sperren von Lagerartikeln für Verkäufe oder Einkäufe](how-to-block-inventory-items-for-sales-or-purchases.md)
+ [Lagerverwaltung (Schweiz)](swiss-inventory-management.md)
 
