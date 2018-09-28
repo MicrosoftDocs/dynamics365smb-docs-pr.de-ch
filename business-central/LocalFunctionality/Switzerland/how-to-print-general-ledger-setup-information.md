@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
@@ -24,7 +24,7 @@ Bevor Sie [!INCLUDE[d365fin](../../includes/d365fin_md.md)] im täglichen Gesch�
 
 ## <a name="to-print-general-ledger-setup-information"></a>So drucken Sie Einrichtungsinformationen zur Finanzbuchhaltung  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol "Nach Seite oder Bericht suchen"") aus, öffnen Sie **Fibu Einr.-Informationen**, und wählen Sie dann den verknüpften Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol \"Nach Seite oder Bericht suchen\"") aus, öffnen Sie **Fibu Einr.-Informationen**, und wählen Sie dann den verknüpften Link aus.  
 2.  Wählen Sie im Inforegister **Optionen** im Feld **Einrichtungsinformationen** den Masterdatenbereich wie in der folgenden Tabelle beschrieben aus.  
 
     |Option|Description|  
