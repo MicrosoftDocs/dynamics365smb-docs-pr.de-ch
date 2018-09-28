@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 02/27/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 445b27ca1464283bdbf9dffaabe3bdbc2d805835
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0e849ce0e03b6a038e11cc80f7dafe11e19bc8d4
 ms.contentlocale: de-ch
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="switzerland-local-functionality"></a><span data-ttu-id="5da93-103">Lokale Funktion (Schweiz)</span><span class="sxs-lookup"><span data-stu-id="5da93-103">Switzerland Local Functionality</span></span>

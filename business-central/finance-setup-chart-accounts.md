@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 04/16/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 9f84af8bb4ac3be9132ab621906c463cfc9b91ff
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fd943924120667256809fac0300be1c30cfeb493
 ms.contentlocale: de-ch
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a><span data-ttu-id="f42cd-103">Einrichten oder Ändern des Kontenplans</span><span class="sxs-lookup"><span data-stu-id="f42cd-103">Setting Up or Changing the Chart of Accounts</span></span>

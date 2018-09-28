@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 85724fd6f43c684007dd22b34665438bf22bf99a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 114acef8ed55bf60d7b96733e321440633037b42
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="understanding-wip-methods"></a><span data-ttu-id="2fae9-103">Verständnis - WIP-Methoden</span><span class="sxs-lookup"><span data-stu-id="2fae9-103">Understanding WIP Methods</span></span>

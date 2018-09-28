@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5c87d33bbf9d97f53e033c663532052c8aeddee9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5a5533444a47fbe1eb1d876c9dd16571d6794607
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-average-cost"></a><span data-ttu-id="b693d-103">Designdetails: Durchschnittskosten</span><span class="sxs-lookup"><span data-stu-id="b693d-103">Design Details: Average Cost</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/22/2018
 > [!NOTE]  
 >  <span data-ttu-id="b693d-125">Sie können nur eine Durchschnittskostenperiode und eine Berechnungsart für den durchschnittlichen Einstandspreis pro Geschäftsjahr verwenden.</span><span class="sxs-lookup"><span data-stu-id="b693d-125">You can only use one average cost period and one average cost calculation type in a fiscal year.</span></span>  
 >   
->  <span data-ttu-id="b693d-126">Das Fenster**-Buchhaltungsperioden**  zeigt, welche Durchschnittskostenperiode und welche Berechnungsart für diese Periode für jede Buchhaltungsperiode aktiv ist.</span><span class="sxs-lookup"><span data-stu-id="b693d-126">The **Accounting Periods** window shows which average cost period and which average cost calculation type is in effect during that period, for each accounting period.</span></span>  
+>  <span data-ttu-id="b693d-126">Das Fenster **-Buchhaltungsperioden**  zeigt, welche Durchschnittskostenperiode und welche Berechnungsart für diese Periode für jede Buchhaltungsperiode aktiv ist.</span><span class="sxs-lookup"><span data-stu-id="b693d-126">The **Accounting Periods** window shows which average cost period and which average cost calculation type is in effect during that period, for each accounting period.</span></span>  
 
 ## <a name="calculating-average-cost"></a><span data-ttu-id="b693d-127">Durchschnittskosten berechnen</span><span class="sxs-lookup"><span data-stu-id="b693d-127">Calculating Average Cost</span></span>  
  <span data-ttu-id="b693d-128">Wenn Sie eine Transaktion für einen Artikel buchen, für den die Lagerabgangsmethode "Durchschnitt" verwendet wird, erstellt die Anwendung einen Posten in der Tabelle **Einst.-Pr. (durchschn.) Regul. Startzeitpunkt**.</span><span class="sxs-lookup"><span data-stu-id="b693d-128">When you post a transaction for an item that uses the Average costing method, an entry is created in the **Avg. Cost Adjmt. Entry Point** table.</span></span> <span data-ttu-id="b693d-129">Dieser Posten enthält die Artikelnummer, den Variantencode und den Lagerortcode der Transaktion.</span><span class="sxs-lookup"><span data-stu-id="b693d-129">This entry contains the transaction’s item number, variant code, and location code.</span></span> <span data-ttu-id="b693d-130">Darüber hinaus enthält der Posten das **Bewertungsdatum**, das das letzte Datum der Durchschnittskostenperiode ist, in der die Transaktion gebucht wurde.</span><span class="sxs-lookup"><span data-stu-id="b693d-130">The entry also contains the **Valuation Date** field, which specifies the last date of the average cost period in which the transaction was posted.</span></span>  

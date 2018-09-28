@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 54e1a1c67847704e4ae211249404517cbf40760a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f9ae0951b0821cf330d22e810abce56002cd8339
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="swiss-general-ledger-accounts"></a><span data-ttu-id="61028-103">Finanzbuchhaltungskonten (Schweiz)</span><span class="sxs-lookup"><span data-stu-id="61028-103">Swiss General Ledger Accounts</span></span>
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="61028-104"> enthält Schweizer Erweiterungen für Fibuposten.</span><span class="sxs-lookup"><span data-stu-id="61028-104"> includes Swiss enhancements to general ledger accounts.</span></span>
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="61028-104">enthält Schweizer Erweiterungen für Fibuposten.</span><span class="sxs-lookup"><span data-stu-id="61028-104"> includes Swiss enhancements to general ledger accounts.</span></span>
 
 - <span data-ttu-id="61028-105">Verwalten der Fremdwährungssalden eines Bankkontos in der Finanzbuchhaltung</span><span class="sxs-lookup"><span data-stu-id="61028-105">Maintain the foreign currency balances of a bank account in the general ledger.</span></span>  
 - <span data-ttu-id="61028-106">Sortieren von Finanzbuchhaltungs-Kontonummern im Fenster **Kontenplan**</span><span class="sxs-lookup"><span data-stu-id="61028-106">Sort general ledger account numbers in the **Chart of Accounts** window.</span></span>  

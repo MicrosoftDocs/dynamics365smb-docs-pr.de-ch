@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 05/17/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 45a236dfeb7a5ce489cf8917d6a08a92ca5c4e8b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6945972dc3d41d7dc251c9ee70d305a91e0a7f10
 ms.contentlocale: de-ch
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a><span data-ttu-id="3283d-103">Geschäftsdaten aus anderen Finanzsystemen migrieren</span><span class="sxs-lookup"><span data-stu-id="3283d-103">Importing Business Data from Other Finance Systems</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 06/28/2018
 > <span data-ttu-id="3283d-115">Für umfangreichere Implementierungsarbeiten können Sie RapidStart Services nutzen für [!INCLUDE[d365fin](includes/d365fin_md.md)], der ein umfangreiches Toolkit für das Einrichten von neuen Lösungen auf Grundlage von Geschäftsanforderungen und -Einrichtungsdaten der Debitoren ist.</span><span class="sxs-lookup"><span data-stu-id="3283d-115">For larger implementation work, you can use RapidStart Services for [!INCLUDE[d365fin](includes/d365fin_md.md)], which is an extensive toolkit for setting up new solutions based on customers' business requirements and setup data.</span></span> <span data-ttu-id="3283d-116">RapidStart Services enthält auch Funktionalität für Stammdaten Importieren von Artikeln.</span><span class="sxs-lookup"><span data-stu-id="3283d-116">RapidStart Services also offers functionality for import of business data.</span></span> <span data-ttu-id="3283d-117">Weitere Informationen finden Sie unter [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md).</span><span class="sxs-lookup"><span data-stu-id="3283d-117">For more information, see [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).</span></span>
 
 ## <a name="importing-data-from-configuration-packages"></a><span data-ttu-id="3283d-118">Importieren von Daten aus den Konfigurations-Paketen</span><span class="sxs-lookup"><span data-stu-id="3283d-118">Importing Data from Configuration Packages</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="3283d-119"> umfasst ein Konfigurationspaket, das Sie dann in Excel exportieren und dort die Daten einrichten können.</span><span class="sxs-lookup"><span data-stu-id="3283d-119"> includes a configuration package that you can export to Excel and set up your data there.</span></span> <span data-ttu-id="3283d-120">Anschliessend können die wieder von Excel importiert werden.</span><span class="sxs-lookup"><span data-stu-id="3283d-120">Then, you can import the data from Excel again.</span></span> <span data-ttu-id="3283d-121">Das Paket besteht aus 27 Tabellen, einschliesslich Masterdaten wie Debitoren, Kreditoren, Artikel und Konten, andere grundsätzliche Einrichtungstabellen wie Versandarten und Transaktionstabellen wie Versandkopf und Zeilen.</span><span class="sxs-lookup"><span data-stu-id="3283d-121">The package consists of 27 tables, including master data such as customers, vendors, items, and accounts, other basic setup tables such as shipping methods, and transactions tables such as sales header and lines.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="3283d-119">umfasst ein Konfigurationspaket, das Sie dann in Excel exportieren und dort die Daten einrichten können.</span><span class="sxs-lookup"><span data-stu-id="3283d-119"> includes a configuration package that you can export to Excel and set up your data there.</span></span> <span data-ttu-id="3283d-120">Anschliessend können die wieder von Excel importiert werden.</span><span class="sxs-lookup"><span data-stu-id="3283d-120">Then, you can import the data from Excel again.</span></span> <span data-ttu-id="3283d-121">Das Paket besteht aus 27 Tabellen, einschliesslich Masterdaten wie Debitoren, Kreditoren, Artikel und Konten, andere grundsätzliche Einrichtungstabellen wie Versandarten und Transaktionstabellen wie Versandkopf und Zeilen.</span><span class="sxs-lookup"><span data-stu-id="3283d-121">The package consists of 27 tables, including master data such as customers, vendors, items, and accounts, other basic setup tables such as shipping methods, and transactions tables such as sales header and lines.</span></span>  
 
 > [!NOTE]  
 >   <span data-ttu-id="3283d-122">Das Arbeiten mit Konfigurationspaketen ist eine erweiterte Funktionalität und wir empfehlen, dass Sie sich an Ihren Administrator wenden.</span><span class="sxs-lookup"><span data-stu-id="3283d-122">Working with configuration packages is advanced functionality, and we recommend that you contact your administrator.</span></span> <span data-ttu-id="3283d-123">[Importieren von Daten aus der Vorgänger-Buchhaltungs-Software unter Verwendung eines Konfigurations-Pakets](across-import-data-configuration-packages.md)</span><span class="sxs-lookup"><span data-stu-id="3283d-123">For more information, see [Importing Data from Legacy Accounting Software using a Configuration Package](across-import-data-configuration-packages.md).</span></span>

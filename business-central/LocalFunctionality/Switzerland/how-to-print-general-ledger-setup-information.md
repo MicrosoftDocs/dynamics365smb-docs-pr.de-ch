@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1cc5b9f3526369ae7ce6bc045cc98cd2a30eb887
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6af602cda93fcc07ad17bf443f57d320d722287a
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="print-general-ledger-setup-information"></a><span data-ttu-id="08a49-103">Drucken von Finanzbuchhaltungs-Setupinformationen</span><span class="sxs-lookup"><span data-stu-id="08a49-103">Print General Ledger Setup Information</span></span>
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-print-general-ledger-setup-information"></a><span data-ttu-id="08a49-106">So drucken Sie Einrichtungsinformationen zur Finanzbuchhaltung</span><span class="sxs-lookup"><span data-stu-id="08a49-106">To print general ledger setup information</span></span>  
 
-1.  <span data-ttu-id="08a49-107">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol "Nach Seite oder Bericht suchen"") aus, öffnen Sie **Fibu Einr.-Informationen**, und wählen Sie dann den verknüpften Link aus.</span><span class="sxs-lookup"><span data-stu-id="08a49-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Setup Information**, and then choose the related link.</span></span>  
+1.  <span data-ttu-id="08a49-107">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol \"Nach Seite oder Bericht suchen\"") aus, öffnen Sie **Fibu Einr.-Informationen**, und wählen Sie dann den verknüpften Link aus.</span><span class="sxs-lookup"><span data-stu-id="08a49-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Setup Information**, and then choose the related link.</span></span>  
 2.  <span data-ttu-id="08a49-108">Wählen Sie im Inforegister **Optionen** im Feld **Einrichtungsinformationen** den Masterdatenbereich wie in der folgenden Tabelle beschrieben aus.</span><span class="sxs-lookup"><span data-stu-id="08a49-108">On the **Options** FastTab, in the **Setup Information** field, select the master data area as described in the following table.</span></span>  
 
     |<span data-ttu-id="08a49-109">Option</span><span class="sxs-lookup"><span data-stu-id="08a49-109">Option</span></span>|<span data-ttu-id="08a49-110">Description</span><span class="sxs-lookup"><span data-stu-id="08a49-110">Description</span></span>|  
