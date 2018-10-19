@@ -9,33 +9,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 08/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 19e7b8e55d3276730c16401b1d5d0d8203b7e7c9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a243df7928e6468cc3490966331b325134f6cc37
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="request-quotes"></a><span data-ttu-id="61a48-103">Offertenanforderungen</span><span class="sxs-lookup"><span data-stu-id="61a48-103">Request Quotes</span></span>
-<span data-ttu-id="61a48-104">Eine Einkaufsofferte kann als erster Entwurf für eine Bestellung verwendet werden. Die Bestellung kann dann in eine Rechnung oder einen Auftrag umgewandelt werden.</span><span class="sxs-lookup"><span data-stu-id="61a48-104">A purchase quote can be used as a preliminary draft for a purchase order, and the order can then be converted to a purchase invoice or an order.</span></span>
+# <a name="request-quotes"></a><span data-ttu-id="43139-103">Offertenanforderungen</span><span class="sxs-lookup"><span data-stu-id="43139-103">Request Quotes</span></span>
+<span data-ttu-id="43139-104">Eine Einkaufsofferte kann als erster Entwurf für eine Bestellung verwendet werden. Die Bestellung kann dann in eine Rechnung oder einen Auftrag umgewandelt werden.</span><span class="sxs-lookup"><span data-stu-id="43139-104">A purchase quote can be used as a preliminary draft for a purchase order, and the order can then be converted to a purchase invoice or an order.</span></span>
 
 
-## <a name="to-create-a-purchase-quote"></a><span data-ttu-id="61a48-105">So erstellen Sie eine Einkaufsofferte</span><span class="sxs-lookup"><span data-stu-id="61a48-105">To create a purchase quote</span></span>
-1. <span data-ttu-id="61a48-106">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Einkaufsofferten** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="61a48-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Quotes**, and then choose the related link.</span></span>
-2. <span data-ttu-id="61a48-107">Erstellen eines neuen Belegs, so wie Sie eine Bestellung erstellen.</span><span class="sxs-lookup"><span data-stu-id="61a48-107">Create a new document, in the same way as you make a purchase order.</span></span> <span data-ttu-id="61a48-108">Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="61a48-108">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
+## <a name="to-create-a-purchase-quote"></a><span data-ttu-id="43139-105">So erstellen Sie eine Einkaufsofferte</span><span class="sxs-lookup"><span data-stu-id="43139-105">To create a purchase quote</span></span>
+1. <span data-ttu-id="43139-106">Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kaufofferten** ein, und wählen dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="43139-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Quotes**, and then choose the related link.</span></span>
+2. <span data-ttu-id="43139-107">Erstellen eines neuen Belegs, so wie Sie eine Bestellung erstellen.</span><span class="sxs-lookup"><span data-stu-id="43139-107">Create a new document, in the same way as you make a purchase order.</span></span> <span data-ttu-id="43139-108">Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="43139-108">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
 
-## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a><span data-ttu-id="61a48-109">So konvertieren Sie eine Einkaufsofferte in eine Einkaufsbestellung</span><span class="sxs-lookup"><span data-stu-id="61a48-109">To convert a purchase quote to a purchase order</span></span>
-<span data-ttu-id="61a48-110">Wenn Sie die Offerte akzeptiert haben, können Sie diese mit einer Einkaufsrechnung oder einem Auftrag umwandeln, um den Einkauf zu verarbeiten.</span><span class="sxs-lookup"><span data-stu-id="61a48-110">When you have accepted the vendor's quote, you can convert it to a purchase invoice or order to process the purchase.</span></span>
+## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a><span data-ttu-id="43139-109">So konvertieren Sie eine Einkaufsofferte in eine Einkaufsbestellung</span><span class="sxs-lookup"><span data-stu-id="43139-109">To convert a purchase quote to a purchase order</span></span>
+<span data-ttu-id="43139-110">Wenn Sie die Offerte akzeptiert haben, können Sie diese mit einer Einkaufsrechnung oder einem Auftrag umwandeln, um den Einkauf zu verarbeiten.</span><span class="sxs-lookup"><span data-stu-id="43139-110">When you have accepted the vendor's quote, you can convert it to a purchase invoice or order to process the purchase.</span></span>
 
-1. <span data-ttu-id="61a48-111">Öffnen Sie eine Einkaufsofferte, die bereit ist zum umzuwandeln, und wählen Sie die **Bestellung erst.** Aktion aus.</span><span class="sxs-lookup"><span data-stu-id="61a48-111">Open a purchase quote that is ready to convert, and then choose the **Make Order** action.</span></span>
+1. <span data-ttu-id="43139-111">Öffnen Sie eine Einkaufsofferte, die bereit ist zum umzuwandeln, und wählen Sie die **Bestellung erst.** Aktion aus.</span><span class="sxs-lookup"><span data-stu-id="43139-111">Open a purchase quote that is ready to convert, and then choose the **Make Order** action.</span></span>
 
-<span data-ttu-id="61a48-112">Die Einkaufsofferte wird aus der Datenbank entfernt.</span><span class="sxs-lookup"><span data-stu-id="61a48-112">The purchase quote is removed from the database.</span></span> <span data-ttu-id="61a48-113">Eine Einkaufsrechnung oder ein Einkaufsauftrag wird auf der Basis der Informationen in der Einkaufsofferte erstellt, in der Sie den Einkauf verarbeiten können.</span><span class="sxs-lookup"><span data-stu-id="61a48-113">A purchase invoice or a purchase order is created based on the information in the purchase quote in which you can process the purchase.</span></span> <span data-ttu-id="61a48-114">In der erstellten Einkaufsrechnung bzw. -bestellung gibt das Feld **Offertennr.** die Nummer der Einkaufsofferte an, aus der sie erstellt wurde.</span><span class="sxs-lookup"><span data-stu-id="61a48-114">In the **Quote No.** field on the purchase invoice or purchase order, you can see the number of the purchase quote that it was made from.</span></span>
+<span data-ttu-id="43139-112">Die Einkaufsofferte wird aus der Datenbank entfernt.</span><span class="sxs-lookup"><span data-stu-id="43139-112">The purchase quote is removed from the database.</span></span> <span data-ttu-id="43139-113">Eine Einkaufsrechnung oder ein Einkaufsauftrag wird auf der Basis der Informationen in der Einkaufsofferte erstellt, in der Sie den Einkauf verarbeiten können.</span><span class="sxs-lookup"><span data-stu-id="43139-113">A purchase invoice or a purchase order is created based on the information in the purchase quote in which you can process the purchase.</span></span> <span data-ttu-id="43139-114">In der erstellten Einkaufsrechnung bzw. -bestellung gibt das Feld **Offertennr.** die Nummer der Einkaufsofferte an, aus der sie erstellt wurde.</span><span class="sxs-lookup"><span data-stu-id="43139-114">In the **Quote No.** field on the purchase invoice or purchase order, you can see the number of the purchase quote that it was made from.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="61a48-115">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="61a48-115">See Also</span></span>
-[<span data-ttu-id="61a48-116">Einkauf</span><span class="sxs-lookup"><span data-stu-id="61a48-116">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-[<span data-ttu-id="61a48-117">Einkaufeinrichten</span><span class="sxs-lookup"><span data-stu-id="61a48-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
-[<span data-ttu-id="61a48-118">Senden von Belegen über E-Mail</span><span class="sxs-lookup"><span data-stu-id="61a48-118">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
-<span data-ttu-id="61a48-119">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="61a48-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="43139-115">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="43139-115">See Also</span></span>
+[<span data-ttu-id="43139-116">Einkauf</span><span class="sxs-lookup"><span data-stu-id="43139-116">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="43139-117">Einkaufeinrichten</span><span class="sxs-lookup"><span data-stu-id="43139-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
+[<span data-ttu-id="43139-118">Senden von Belegen über E-Mail</span><span class="sxs-lookup"><span data-stu-id="43139-118">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
+<span data-ttu-id="43139-119">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="43139-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
