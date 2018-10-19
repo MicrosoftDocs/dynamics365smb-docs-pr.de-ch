@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 5daae157434867c07bac55310ac1b24ea34df06c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 012c7c54f1e29b91409dcce92f059c88b55e2e53
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/30/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="swiss-inventory-management"></a>Lagerverwaltung (Schweiz)
@@ -35,8 +35,7 @@ Zusätzliche Informationen, wie Debitorennummer, Lieferadresscode und Debitorenv
 Sind mehrere Lieferungen für einen Kunden gebucht worden, können Sie Sammelrechnungen mit der Funktion **Lieferzeilen abrufen** erstellen. Weitere Informationen finden Sie im Fenster Versandzeilen abrufen. Wenn Sie diese Funktion verwenden, enthält der Text, der in den Rechnungszeilen erstellt wird, die Informationen über die Nummer der Auslieferung und das Lieferdatum. Beispielsweise kann der Text als Lieferungsnummer erscheinen. 102040 von 25.01.01. Auf diese Weise können Sie Rechnungen mit mehreren Lieferungen verfolgen.  
 
 ## <a name="see-also"></a>Siehe auch  
- [Kopieren von vorhandenen Elementen in neue Elemente](how-to-copy-existing-items-to-new-items.md)   
- [Deaktivieren des Artikelpreistrackings](how-to-deactivate-item-cost-tracking.md)   
+ [Kopieren von vorhandenen Elementen in neue Elemente](how-to-copy-existing-items-to-new-items.md)  
  [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)   
  [Einrichten von Lagerorten](../../inventory-how-setup-locations.md)
 

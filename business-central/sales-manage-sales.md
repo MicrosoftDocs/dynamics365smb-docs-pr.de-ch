@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 6351f2b8a79afa201192addc4960bda6d59448eb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6c8c3f39d782a33896e531c4bfdf95b589458f99
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sales"></a>Verkauf
@@ -36,8 +36,9 @@ Für alle Verkaufsprozesse können Sie einen Genehmigungsworkflows einfügen, be
 
 In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
 
-| Aktion | Informationen |
+| Bis | Informationen |
 | --- | --- |
+|Erstellen Sie eine Debitorenkarte für jeden Debitor, an den Sie verkaufen.|[Registriert einen neuen Debitor.](sales-how-register-new-customers.md)|
 | Erstellen Sie eine Verkaufsofferte, in dem Sie Produkte auf verkäuflichen Bedingungen anbieten, bevor Sie die Offerte in eine Verkaufsrechnung umwandeln. |[Verkaufsofferten machen](sales-how-make-offers.md) |
 | Erstellen Sie eine Verkaufsrechnung, um Ihre Vereinbarung mit dem Kunden zu erfassen, um Produkte unter speziellen Lieferungs- und Zahlungsbedingungen zu verkaufen. |[Verkaufsrechnung](sales-how-invoice-sales.md) |
 | Verarbeiten Sie einen Verkaufsauftrag, der Teillieferung oder Direktlieferungen beinhaltet. |[Produkte verkaufen](sales-how-sell-products.md) |
@@ -55,11 +56,10 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Registriert einen neuen Debitor.](sales-how-register-new-customers.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
-[Verwalten von Verbindlichkeiten|](payables-manage-payables.md)  
+[Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Projektmanagement](projects-manage-projects.md)    
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

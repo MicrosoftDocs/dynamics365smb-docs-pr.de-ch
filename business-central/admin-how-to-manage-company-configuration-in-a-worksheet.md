@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cc2c7d5ecbff5d7cd0109c56e3c76ca137564d30
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>So verwalten Sie eine Mandantenkonfiguration in einem Arbeitsblatt
@@ -30,7 +30,7 @@ Die folgenden Verfahren zeigen, wie Tabelleninformationen für die Konfiguration
 
 ## <a name="to-open-the-configuration-worksheet"></a>So öffnen Sie das Konfigurationsarbeitsblatt  
 1.  Öffnen Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] den Mandanten, der die Grundlage für die Konfiguration ist, und öffnen Sie dann sein RapidStart Services-Implementierer Rollencenter.  
-2.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Konfigurations-Arbeitsblatt** ein. Wählen Sie dann den zugehörigen Link aus.  
+2.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>So fügen Sie dem Arbeitsblatt eine Tabelle hinzu  
 1.  Im Fenster **Config. Arbeitsblatt** wählen Sie die **Liste bearbeiten** Aktion aus.  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/03/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: f2b672feed3065791ad5976591c694c6435843f8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0e0ac36bb83709b766d234e34297c2b721daabad
 ms.contentlocale: de-ch
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Power BI als Datenquelle für das Erstellen von Berichten nutzen
@@ -27,7 +27,7 @@ Sie müssen ein gültiges Konto mit  [!INCLUDE[d365fin_long_md](includes/d365fin
 2. Im Fenster **Daten abrufen** wählen Sie **Onlineservices** aus, wählen Sie **Microsoft Dynamics 365 Business Central** und dann die Schaltfläche **Verbinden** aus.
 3. Power BI zeigt einen Assistenten an, der Sie durch den [Verbindungsvorgang](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md) führt. Sie werden aufgefordert, sich beim Service anzumelden. Wählen Sie **Anmelden** und wählen Sie das Konto aus, bei dem Sie sich anmelden möchten. Dieses sollte das gleiche Konto sein, bei dem Sie sich bei [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] anmelden.
 4. Klicken Sie auf die Schaltfläche **Verbinden** zum Fortfahren. Der Power BI Assistent zeigt eine Liste der Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-Unternehmen und -Datenquellen an. Diese Datenquelle ist für alle Webdienste, die Sie von jedem Unternehmen in Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] veröffentlicht haben.
-5. Sie können einen neuen Webdienst URL in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] erstellen, indem Sie die **Erstellen Dataset** Aktion der Seite **Webdienste** nutzen, indem Sie die unterstütze Hilfe **Bericht einrichten** verwenden oder die Aktion**Bearbeiten in Excel** in einer beliebigen Liste wählen.
+5. Sie können einen neuen Webdienst URL in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] erstellen, indem Sie die **Erstellen Dataset** Aktion der Seite **Webdienste** nutzen, indem Sie die unterstütze Hilfe **Bericht einrichten** verwenden oder die Aktion **Bearbeiten in Excel** in einer beliebigen Liste wählen.
 6. Geben Sie die Daten an, die Sie Ihrem Datenmodell hinzufügen möchten, und wählen Sie dann die Schaltfläche **Laden** aus.
 7. Wiederholen Sie die vorherigen Schritte, um zusätzliche Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] oder andere Daten Ihrem Power BI-Datenmodell hinzuzufügen.
 

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 015a5ff634e179dff4b51d6387a59f78ae666bc7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a5282d20a1d9add984a70bc63e93fb32c3278f30
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Einrichten des Senden und Empfangen von elektronischen Belegen
@@ -67,7 +67,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 
     |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
-    |**MWST-Schema**|Identifizieren Sie die nationale Behörde, die die MWST-IdNr. für die Länder\/Regionen ausgibt, an die elektronische Beleg gesendet werden.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format senden, wird der Wert in diesem Feld verwendet, um das **SchemeID**-Attribut für das **EndPointID**-Element unter den Knoten **AccountingSupplierParty** und **AccountingCustomerParty** in der Datei zu füllen.<br /><br /> Das Feld **MwSt-Schema** wird nur verwendet, wenn das Feld **GLN** im Fenster **Unternehmen** nicht ausgefüllt ist. **Hinweis:**Der Wert im Feld **Code** im Fenster**Länder\/Regionen** muss dem Standard ISO 3166\-1:Alpha2 entsprechen.|  
+    |**MWST-Schema**|Identifizieren Sie die nationale Behörde, die die MWST-IdNr. für die Länder\/Regionen ausgibt, an die elektronische Beleg gesendet werden.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format senden, wird der Wert in diesem Feld verwendet, um das **SchemeID**-Attribut für das **EndPointID**-Element unter den Knoten **AccountingSupplierParty** und **AccountingCustomerParty** in der Datei zu füllen.<br /><br /> Das Feld **MwSt-Schema** wird nur verwendet, wenn das Feld **GLN** im Fenster **Unternehmen** nicht ausgefüllt ist. **Hinweis:** Der Wert im Feld **Code** im Fenster**Länder\/Regionen** muss dem Standard ISO 3166\-1:Alpha2 entsprechen.|  
 
 ### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>Einrichten von Artikeln zum Senden und Empfangen von elektronischen Belegen  
 1. Geben Sie im Feld **Suchen** **Artikel** ein, und wählen Sie dann den zugehörigen Link aus.  
@@ -83,7 +83,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 
     |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
-    |**Internationaler Standardcode**|Geben Sie den Einheitencode an, der gemäss dem Standard UNECERec20 in Verbindung mit dem Senden von elektronischen Belegen verwendet wird.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format senden, wird der Wert in diesem Feld verwendet, um das **unitCode**-Attribut für das **InvoicedQuantity**-Element unter dem **InvoiceLine**-Knoten zu füllen. **Hinweis:**Wenn das Feld **Masseinheit** in der Verkaufszeile leer ist, wird der UNECERe20-Standardwert für „Stück“ \(H87\) standardmässig eingefügt. Weitere Informationen und eine Liste von gültigen Masseinheitscodes finden Sie unter [Empfehlungen Nr. 20\-Verwendete Masseinheiten im internationalen Handel](http://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
+    |**Internationaler Standardcode**|Geben Sie den Einheitencode an, der gemäss dem Standard UNECERec20 in Verbindung mit dem Senden von elektronischen Belegen verwendet wird.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format senden, wird der Wert in diesem Feld verwendet, um das **unitCode**-Attribut für das **InvoicedQuantity**-Element unter dem **InvoiceLine**-Knoten zu füllen. **Hinweis:** Wenn das Feld **Masseinheit** in der Verkaufszeile leer ist, wird der UNECERe20-Standardwert für „Stück“ \(H87\) standardmässig eingefügt. Weitere Informationen und eine Liste von gültigen Masseinheitscodes finden Sie unter [Empfehlungen Nr. 20\-Verwendete Masseinheiten im internationalen Handel](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
 ### <a name="to-set-up-customers-for-electronic-document-sending"></a>Einrichten von Debitoren zum Senden von elektronischen Belegen  
 1. Geben Sie im Feld **Suchen** **Debitoren** ein, und wählen Sie dann den zugehörigen Link aus.  
@@ -92,7 +92,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
     |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Identifizieren Sie den Debitor.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format senden, wird der Wert in diesem Feld verwendet, um das **EndPointID**-Element unter dem **AccountingCustomerParty**-Knoten zu füllen. Die Nummer basiert auf dem GS1-Standard, der mit ISO 6523 konform ist.<br /><br /> Wenn das Feld **GLN**leer ist, wird der Wert im **MWST-Registrationsnr.**-Feld verwendet.|  
-    |**USt-ID**|Geben Sie die MWST Nummer des Debitors an. **Hinweis:**Wählen Sie die DrillDown-Schaltfläche aus, um den Webdienst zu verwenden, der prüft, ob die Nummer im Handelsregister des jeweiligen Landes vorhanden ist.|  
+    |**USt-ID**|Geben Sie die MWST Nummer des Debitors an. **Hinweis:** Wählen Sie die DrillDown-Schaltfläche aus, um den Webdienst zu verwenden, der prüft, ob die Nummer im Handelsregister des jeweiligen Landes vorhanden ist.|  
     |**Zuständigkeitseinheitencode**|Wenn Ihr Unternehmen mit einer Zuständigkeitseinheit eingerichtet ist, dann stellen Sie sicher, dass das Feld **Land-/Regionencode** ausgefüllt ist.|  
 
     Sie können für jeden Debitor eine bevorzugte Methode der Übermittlung von Geschäftsbelegen einrichten, sodass Sie nicht jedes Mal eine Sendeoption auswählen müssen, wenn Sie einen Beleg an den Debitor senden. Weitere Informationen finden Sie unter [Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).  
@@ -117,7 +117,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
     |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Identifizieren Sie den Kreditor.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format emfpangen, wird der Wert in diesem Feld verwendet, um das **EndPointID**-Element unter dem **AccountingSupplierParty**-Knoten zu füllen. Die Nummer basiert auf dem GS1-Standard, der mit ISO 6523 konform ist.<br /><br /> Wenn das Feld **GLN**leer ist, wird der Wert im **MWST-Registrationsnr.**-Feld verwendet.|  
-    |**USt-ID**|Geben Sie die MWST Nummer des Kreditors an. **Hinweis:**Wählen Sie die DrillDown-Schaltfläche aus, um den Webdienst zu verwenden, der prüft, ob die Nummer im Handelsregister des jeweiligen Landes vorhanden ist.|  
+    |**USt-ID**|Geben Sie die MWST Nummer des Kreditors an. **Hinweis:** Wählen Sie die DrillDown-Schaltfläche aus, um den Webdienst zu verwenden, der prüft, ob die Nummer im Handelsregister des jeweiligen Landes vorhanden ist.|  
     |**Zuständigkeitseinheitencode**|Wenn Ihr Unternehmen mit einer Zuständigkeitseinheit eingerichtet ist, dann stellen Sie sicher, dass das Feld **Land-/Regionencode** ausgefüllt ist.|  
 
 ### <a name="to-select-the-peppol---invoice-data-exchange-definition-for-electronic-document-receiving"></a>Auswählen der Datenaustauschdefinition „PEPPOL - Rechnung“ für den Empfang von elektronischen Belegen  

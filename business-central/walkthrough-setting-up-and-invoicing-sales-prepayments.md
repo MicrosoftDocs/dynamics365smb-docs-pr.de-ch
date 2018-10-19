@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9dfee6403b451dc728c0fe37c0a5fff77d8133f6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ab76136c7f28e322bbc3b52a0fec354c6c13f3ff
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen
@@ -64,7 +64,7 @@ Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und 
 In den folgenden Verfahren wird beschrieben, wie Sie Heikes Aufgaben ausführen:  
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>So richten Sie Nummernserien für Vorauszahlungen ein  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Debit&oren && Verkauf Einr.** ein und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitoren & Verkauf einrichten** ein, und wählen dann den zugehörigen Link aus.  
 2.  Erweitern Sie im Fenster **Verkauf und Erhalt Einr.** das Inforegister **Nummerierung**.  
 3.  Vergewissern Sie sich, dass die Nummernserien für gebuchte Vorauszahlungsrechnungen im Feld **Geb. Vorauszahlungs-Rechnungsnr.** und gebuchte Verkaufsrechnungen (**Gebuchte Rechnungsnummern**) sowie die Nummernserien für gebuchte Vorauszahlungsgutschriften (**Geb. Vorauszahlungs-Gutschriftennr.**) und gebuchte Gutschriften (**Gebuchte Gutschriftennr.**) übereinstimmen.  
 
@@ -78,11 +78,11 @@ Heike legt standardmässig fest, dass für den Kunden 20000 eine Anzahlung in H�
 Heike legt fest, dass für alle Kunden eine Anzahlung in Höhe von 20 % für den Artikel 1100 fakturiert werden muss. Debitor 20000 verfügt über eine schlechte Zahlungsvergangenheit Daher verlangt sie vom Kunden 20000 eine Vorauszahlung von 40 % für die Artikel 1100. Im folgenden Beispiel wird gezeigt, wie Sie standardmässige Vorauszahlungsprozentsätze einrichten.  
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>So weisen Sie Kunden und Artikeln Standardvorauszahlungsprozentsätze zu  
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Kunden** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitor** ein, und wählen dann den zugehörigen Link aus.  
 2.  Öffnen Sie das Kartenfenster für Kunde 20000 (Selangorian).
 3.  Geben Sie im Feld **Vorauszahlung %** den Wert **30** ein.  
 4.  Wählen Sie die Schaltfläche **OK**, um die Debitorenkarte zu schliessen.  
-5.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
+5.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.  
 6.  Öffnen Sie die Karte für Kunde 1100.
 7.  Wählen Sie die **Vorauszahlungsprozentsätze** Aktion aus.  
 8.  Füllen Sie im Fenster **Verkaufsvorauszahlungs-Prozentsätze** zwei Zeilen wie folgt aus.  
@@ -98,7 +98,7 @@ Heike legt fest, dass für alle Kunden eine Anzahlung in Höhe von 20 % für de
 9. Schliessen Sie alle Fenster.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Ein Konto für Verkaufsvorauszahlung in der allgemeinen Buchungsmatrix angeben  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Buchungsmatrix Einrichtung** ein und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Allgemeine Buchungseinrichtung** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie die Zeile, in der das Feld **Geschäftsbuchungsgruppe** zu **EXPORT** und das Feld **Produktbuchungsgruppe** zu **EINZELHANDEL** festgelegt wurde, und wählen Sie dann auf der Registerkarte Start in der Gruppe Verwalten die Option **Bearbeiten** aus.  
 3.  Geben Sie im Fenster **Buchungsmatrixkarte Einricht.** im Inforegister Verkauf im Feld **Verkaufsvorauszahlungs-Konto**das gewünschte Konto an.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
@@ -111,7 +111,7 @@ Der Kunde fragt an, 35 % bezahlen zu dürfen; dem kann Martha zustimmen. Daher 
 Martha erstellt die Vorauszahlungsrechnung und sendet sie an den Kunden.  
 
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>So erstellen Sie einen Verkaufsauftrag mit einer Vorauszahlung  
-1.  Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsauftrag** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Wählen Sie im Feld **Verk. an Deb.-Nr.** Feld **20000**auswählen  
 5.  Akzeptieren Sie die angezeigte Warnung zum fälligen Saldo.  
@@ -173,7 +173,7 @@ Der Kunde bezahlt den Vorauszahlungsbetrag und Peter, der in der Debitorenabteil
 
 #### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>So gleichen Sie eine Zahlung mit den Vorauszahlungsrechnungen aus  
 
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Barbeleg-Buchblatt** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Buch.-Blätter für den Zahlungseingang** ein, und wählen dann den zugehörigen Link aus.  
 2.  Füllen Sie ein Buchhaltungsprotokoll mit den folgenden Informationen aus.  
 
     |Name des Felds|Enter|  
@@ -202,7 +202,7 @@ Peter wurde darüber informiert, dass die Artikel im Auftrag geliefert wurden un
 
 Peter kann die Historie anzeigen, um sicherzustellen, dass die Verkaufsrechnung wie beabsichtigt erstellt wurde.  
 
-1. Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Gebuchte Verkaufsrechnung** ein und wählen den zugehörenden Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Gebuchte Verkaufsrechnungen** ein, und wählen dann den zugehörigen Link aus.  
 
 ## <a name="next-steps"></a>Nächste Schritte  
 In dieser Demonstration wurde beschrieben, wie Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] zur Verarbeitung von Vorauszahlungen einrichten. Das Einrichten von standardmässigen Vorauszahlungsprozentsätzen für Kunden und Artikel wurde erläutert, und Sie haben erfahren, dass zum Berechnen der Vorauszahlungen für einen Auftrag verschiedene Methoden zur Auswahl stehen. Sie haben versucht, dem Auftrag einen Gesamtvorauszahlungsbetrag zuzuweisen, und haben den Vorauszahlungsbetrag vom Programm als Prozentsatz des gesamten Auftrags berechnen lassen.  

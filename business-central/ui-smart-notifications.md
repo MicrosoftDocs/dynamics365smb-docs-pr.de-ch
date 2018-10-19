@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/17/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c064bc8a5aaff42a75b10b133225f9d2cb87d786
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa37e68f0544325e75e3869c61e00cde0d71a520
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="smart-notifications"></a>Intelligente Benachrichtigungen
@@ -32,7 +32,7 @@ Darüber hinaus lassen gewisse Benachrichtigungen Sie die Bedingungen angeben, m
 
 Aktivieren oder deaktivieren Sie bestimmte Benachrichtigungen, die auf Sie interessieren.  
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben Sie **Meine Benachrichtigungen** ein und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Meine Benachrichtigungen** ein, und wählen dann den zugehörigen Link aus.
 2. Um eine Benachrichtigung zu aktivieren oder zu deaktivieren, markieren oder löschen Sie das Kontrollkästchen  **Aktiviert**.
 3. Um Bedingungen anzugeben, die eine Benachrichtigung auslösen, wählen Sie den Link **Filterdetails ansehen**  und füllen Sie die Felder aus.  
 

@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 07/02/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 33987f37c170af9982b86baf20f0c3e0682de2cd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 057db7c39834c7be0fb93589e4fc58d740dd259c
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Die erstellten Debitoren und Verkäufe in Dynamics 365 for Sales verwalten
@@ -99,7 +99,7 @@ Um eine vorhandene Sales-Lösung zu importieren, verwendet das Einrichtungshandb
 * Systemadministrator  
 * Lösungsanpasser  
 
-Weitere Informationen finden Sie unter [Benutzer erstellen und Microsoft Dynamics 365 (online) Sicherheitsrollen zuweisen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) u[Benutzer und Berechtigungen verwalten](ui-how-users-permissions.md).  
+Weitere Informationen finden Sie unter [Benutzer erstellen und Microsoft Dynamics 365 (online) Sicherheitsrollen zuweisen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) und [Benutzer und Berechtigungen verwalten](ui-how-users-permissions.md).  
 
 Dieses Konto wird nur bei der Einrichtung verwendet. Sobald die Lösung in [!INCLUDE[d365fin](includes/d365fin_md.md)] importiert wurde, wird das Konto nicht mehr erforderlich.
 
@@ -147,7 +147,7 @@ Wenn die Artikelbeschreibung des ursprünglichen Verkaufsauftrag sehr lang ist, 
 [Marketing & Vertrieb](marketing-relationship-management.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)  
-[Benutzer und ihre Berechtigungen verwalten.](ui-how-users-permissions.md)    
+[Benutzer und ihre Berechtigungen verwalten](ui-how-users-permissions.md)    
 [Holen Sie Ihre Organisation und Benutzer zu Dynamics 365 (Online) an Bord](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

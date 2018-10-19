@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 03/16/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7013cfa615174953660aa291abd62fa327e6f3ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6923414d6e1fb56a48c3715eaa1c2fa3c4ee9f69
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook
@@ -50,7 +50,7 @@ Im Dokumentenverknüpfungs-Add-In können Sie genauso Vorgänge für den Beleg a
 ## <a name="adding-the-add-ins-manually"></a>Das Add-In manuell hinzufügen
 In einigen Fällen werden die Add-Ins nicht automatisch hinzugefügt zu Outlook. Selbst wenn Sie oder ein Kollege die unterstützte Einrichtung im Auftrag des Unternehmens ausführen, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] möglicherweise nicht in Outlook angezeigt. Wenn Sie dieses Problem haben, können Sie die Add-Ins in [!INCLUDE[d365fin](includes/d365fin_md.md)] manuell hinzufügen.  
 
-Zuerst müssen Sie sicherstellen, dass Sie Zugriff auf die Add-Ins in Ihrem Office 365 Konto haben. Öffnen Sie einfach Ihren Outlook Web Access in einem Browser und fügen Sie dann `/owa/#path=/options/manageapps` der URL in der Adressleiste hinzu. Dadurch öffnet sich die Seite **Add-Ins verwalten**. Dort können Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] für Ihr Outlook aktivieren. Wenn Sie dann wieder zurück zu Outlook navigieren, sollte [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar sein.  
+Zuerst müssen Sie sicherstellen, dass Sie Zugriff auf die Add-Ins in Ihrem Office 365 Konto haben. Öffnen Sie einfach Ihren Outlook Web Access in einem Browser und fügen Sie dann `/owa/#path=/options/manageapps` der URL in der Adressleiste hinzu. Dadurch öffnet sich das Fenster **Add-Ins verwalten**. Dort können Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] für Ihr Outlook aktivieren. Wenn Sie dann wieder zurück zu Outlook navigieren, sollte [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar sein.  
 
 Analog ist es im Outlook-Desktopclient. Sie können überprüfen, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] im Fenster **Add-Ins verwalten** aufgeführt ist.  
 

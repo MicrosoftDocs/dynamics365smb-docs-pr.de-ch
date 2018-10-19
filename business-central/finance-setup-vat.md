@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 05/06/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: 399b1a4331431a6472ecebaad41489092d117cfa
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f23993964f0803f2153c2d190a23532113e5ddd2
 ms.contentlocale: de-ch
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -37,14 +37,14 @@ Wenn Sie MwSt-Berechnungen einrichten möchten oder einfach mehr über jeden Sch
 Es wird empfohlen, dass Sie die unterstützte Einrichtung der MwSt verwenden, um die MwSt in [!INCLUDE[d365fin](includes/d365fin_md.md)]einzurichten.
 
 Um die unterstützte Einrichtung zu starten, gehen Sie folgendermassen vor:
-1. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen Symbol") und **Unterstützte Einrichtung** eingeben.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Unterstütztes Setup** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie **MwSt Einrichtung** aus.
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>MwSt-IdNr. für Ihr Land oder Region einrichten
 Um zu helfen sicherzustellen, dass Personal gültige MwSt-IdNr. eingeben, können Sie die MwSt-IdNr für die Länder oder die Bereiche verwenden, in denen Sie Geschäfte tätigen. [!INCLUDE[d365fin](includes/d365fin_md.md)] zeigt eine Fehlermeldung an, wenn jemand einen Fehler macht oder ein Format verwendet, das für das Land bzw. die Region falsch ist.
 
 Um MwSt-Nr. einzurichten, gehen Sie folgendermassen vor:
-1. Auswählen ![nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") und **Länder/Regionen** eingeben.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Länder/Regionen** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie das Land bzw. die Region, und wählen die **MwSt Reg. Nr. Formaten** Aktion aus.
 3. Im Feld **Formate** definieren Sie das Format, indem Sie einen oder mehrere der folgenden Zeichen eingeben:  
 
@@ -62,7 +62,7 @@ Verwenden Sie aussagekräftige Codes, an die Sie sich leicht erinnern können, z
 
 Um eine MWST.-Geschäftsbuchungsgruppe einzurichten, gehen Sie folgendermassen vor:
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **MwSt Buchungsgruppe** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MwSt Business Buchungsgruppe** ein, und wählen dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder je nach Bedarf aus.
 
 Sie richten Vorgabe MWST-Geschäftsbuchungsgruppen ein, indem Sie sie mit den Geschäftsbuchungsgruppen verbinden. [!INCLUDE[d365fin](includes/d365fin_md.md)] fügt automatisch die MwSt Geschäftsbuchungsgruppe hinzu, wenn Sie die Geschäftsbuchungsgruppe einem Debitor, Kreditor oder Sachkonto zuweisen.
@@ -73,7 +73,7 @@ Es ist sinnvoll, Codes zu verwenden, an die man sich einfach erinnern kann, und 
 
 Um eine MWST.-Geschäftsbuchungsgruppe einzurichten, gehen Sie folgendermassen vor:
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **MwSt Produkt-Buchungsgruppe** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MwSt Business Buchungsgruppen** ein, und wählen dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder je nach Bedarf aus.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Kombinieren Sie MWST-Produktbuchungsgruppen in der MWST-Einrichtung
@@ -83,7 +83,7 @@ Sie können beliebig viele Codes einrichten. Wenn Sie MwSt.-Buchungsmatrixeinric
 
 Um MWST.-Buchungseinrichtungen zu kombinieren, gehen Sie folgendermassen vor:
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **MwSt Buchung einrichten** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MWST Buchungsmatrix Einr.** ein, und wählen dann den zugehörigen Link aus.
 2. Füllen Sie die Felder je nach Bedarf aus.
 
 ## <a name="to-assign-vat-posting-groups-by-default-to-multiple-entities"></a>Weisen Sie mehreren Gruppen MWST-Buchungsgruppen standardmässig zu
@@ -98,18 +98,18 @@ Die MwSt- Geschäfts- oder - Produktbuchungsgruppe wird zugewiesen, wenn Sie ein
 Die folgenden Abschnitten beschreiben, wie die MWST.-Buchungsgruppen einzelnen Einheiten zugewiesen werden.
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>So weisen Sie MWST.-Buchungsgruppen einzelnen Fibukonten zu
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben **Kontenplan** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan** ein, und wählen dann den zugehörigen Link aus.  
 2. Öffnet Sie die **Sachkontokarte** für das Konto.  
 3. Wählen Sie im Inforegister **Buchen** im Feld **Buchungsart** entweder **Verkauf** oder **Einkauf** aus.  
 5. Wählen Sie die MWST.-Buchungsgruppen aus, die Sie für das Verkaufs- bzw. das Wareneingangskonto verwenden möchten.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Um MwSt-Geschäftsbuchungsgruppen Debitoren und Kreditoren zuzuweisen  
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") und geben **Kunden** oder **Verkäufer** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") geöffnet wird. Geben Sie **Debitor** oder **Verkäufer** ein und wählen Sie den zugehörigen Link aus.  
 2. Auf der Karte **Kunde** oder **Debitor** erweitern Sie das Inforegister **Fakturierung**.  
 3. Wählen Sie die MwSt-Geschäftsbuchungsgruppe aus.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Um MwSt-Produktbuchungsgruppen einzelnen Artikeln und Ressourcen zuzuweisen  
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") und geben **Artikel** oder **Ressource** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") geöffnet wird. Geben Sie **Artikel** oder **Ressource** ein und wählen Sie den zugehörigen Link aus.  
 2. Führen Sie einen der folgenden Schritte aus:  
 
 * Auf der Karte **Artikel** erweitern Sie das Inforegister **Preis und Buchung**, und wählen Sie dann **Mehr anzeigen**, um das Feld **MwSt Produktbuchungsgruppe** anzuzeigen.  
@@ -120,12 +120,12 @@ Die folgenden Abschnitten beschreiben, wie die MWST.-Buchungsgruppen einzelnen E
 Steuerbehörden kann Anforderungen für die Buchung der MWST ändern und ändert diese auch. **MWST-Abrechnung Vorlagen** und **MWST-Abrechnung** können dabei behilflich sein, für ausstehende Änderungen das Vorbereiten und einen fliessenden Übergang mit den neuen Anforderungen zu erstellen. Sie können MWST-Abrechnungs-Vorlagen verwenden, um die Felder festzulegen, um in der MWST-Abrechnung zu berücksichtigen, die wiederum die Berechnungen definieren, und Sie können eine neue MWST-Abrechnung Vorlage erstellen, wenn Anforderungen ändern. Beispielsweise kann eine Vorlage die MwSt für dieses Jahre auf dem aktuellen Bedarf berechnen, und eine andere kann MwSt basierend auf Anforderungen für das nächste Jahr berechnen. Vorlagen sind auch eine Art, Aufzeichnungen von MWST-Abrechnungs-Formaten zu behalten, beispielsweise damit Sie prüfen können, wie Sie die MWST in Vorjahren berechnet haben.
 
 ## <a name="how-to-define-and-preview-vat-statements"></a>Erstellen von MWST-Abrechnungen definieren und MWST Bericht anzeigen
-MWST-Abrechnungen lassen Sie den MWST-Abrechnungsbetrag für eine bestimmte Periode berechnen (zum Beispiel ein Quartal). Nachdem Sie eine MWST-Abrechnung eingeben haben, können Sie diese in der Vorschau anzeigen, um sicherzustellen, dass sie die Anforderungen erfüllt. 
+MWST-Abrechnungen lassen Sie den MWST-Abrechnungsbetrag für eine bestimmte Periode berechnen (zum Beispiel ein Quartal). Nachdem Sie eine MWST-Abrechnung eingeben haben, können Sie diese in der Vorschau anzeigen, um sicherzustellen, dass sie die Anforderungen erfüllt.
 
 Um eine MWST-Abrechnung festzulegen, gehen Sie folgendermassen vor:
 
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **MwSt-Bericht** ein. Wählen Sie dann den zugehörigen Link aus.  
-2. Wählen Sie das Feld **Name**, und wählen Sie dann **Neu** auf der Seite **MWST-Abrechnungsnamen** aus. 
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MWST-Auszug** ein, und wählen dann den zugehörigen Link aus.  
+2. Wählen Sie das Feld **Name**, und wählen Sie dann **Neu** auf der Seite **MWST-Abrechnungsnamen** aus.
 3. Füllen Sie die entsprechenden Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!Tip]
@@ -147,19 +147,19 @@ Bei Bedarf können Sie auch festlegen, wie Mehrwertsteuerklauseln in andere Spra
 Sie können eine MWST-Klausel ändern oder löschen, und Ihre Änderungen werden in einem generierten Bericht angezeigt. [!INCLUDE[d365fin](includes/d365fin_md.md)] bewahrt jedoch keinen Verlauf der Änderung auf. In dem Bericht werden die MWST-Klauselbeschreibungen für alle Zeilen im Bericht neben dem MWST-Betrag und MWST-Basisbetrag gedruckt und angezeigt. Wenn eine MWST-Klausel nicht für eine oder mehrere Zeilen des Verkaufsbelegs festgelegt wurde, wird der gesamte Abschnitt weggelassen, wenn der Bericht gedruckt wird.
 
 ### <a name="to-set-up-vat-clauses"></a>Einrichten von MWST.-Klauseln
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **MwSt-Bestimmungen** ein. Wählen Sie dann den zugehörigen Link aus.  
-2. Auf der Seite **MwSt.-Klauseln** erstellen Sie eine neue Zeile.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MWST-Auszug** ein, und wählen dann den zugehörigen Link aus.  
+2. Auf der Seite **MWST-Klauseln** erstellen Sie eine neue Zeile.  
 3. Geben Sie im Feld **Code** eine Kennung für die Klausel ein. Nutzen Sie diesen Code, um die Klausel der MwSt-Buchungsgruppe zuzuweisen.  
 4. In dem Feld **Beschreibung** geben Sie den Text ein, der auf Belegen angezeigt wird, die MwSt enthalten können. Geben Sie im Feld **Beschreibung 2**zusätzlichen Text ein, falls erforderlich. Den Text auf neuen Zeilen anzeigen.  
 5. Optional: Um die Mehrwertsteuerklausel mit einer MwSt.-Buchung sofort zuzuordnen, wählen Sie **Einrichtung** und dann die Klausel. Wenn Sie warten möchten, können Sie die Klausel später der MWST.-Buchungsseite zuweisen.  
 6. Optional: Um zu bestimmen wie die Mehrwertsteuerklausel übersetzt wird, wählen Sie die Aktion **Übersetzungen**.
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>So weisen Sie eine MWST.-Klausel einer Buchungsgruppe zu
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **MwSt Buchung einrichten** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MWST Buchungsmatrix Einr.** ein, und wählen dann den zugehörigen Link aus.  
 2. In der Spalte **MwSt.-Klausel** wählen Sie die Klausel, die für jede MwSt.-Buchungseinrichtung gilt.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Um Beschreibungen für Mehrwertsteuerklauseln festzulegen
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **MwSt-Bestimmungen** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MWST-Auszug** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Übersetzung** aus.  
 3. Im **Sprachcode** Feld wählen Sie die Sprache aus, in die Sie übersetzen.  
 4. Geben Sie in den Feldern **Beschreibung**und **Beschreibung 2**den Text ein, der eine Übersetzung der Beschreibungen ist. Dieser Text wird in den übersetzten MWST.-Berichten angezeigt.  
@@ -168,9 +168,9 @@ Sie können eine MWST-Klausel ändern oder löschen, und Ihre Änderungen werden
 Die Einfuhrumsatzsteuerfunktion wird verwendet, wenn Sie einen Beleg buchen müssen, dessen gesamter Betrag als MWST. zu betrachten ist. Sie sehen dies, wenn Sie eine MWST-Rechnung für importierte Waren von der Steuerbehörde erhalten.  
 
 Gehen Sie folgendermassen vor, um Codes für die Einfuhrsteuerfelder festzulegen:  
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **MwSt Produkt-Buchungsgruppe** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MwSt Business Buchungsgruppen** ein, und wählen dann den zugehörigen Link aus.  
 2. Auf der Seite MWST Produktbuchungsgruppe richten Sie eine neue MWST.-Produktbuchungsgruppen für Einfuhrsteuer ein.  
-3. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **MwSt Buchung einrichten** ein. Wählen Sie dann den zugehörigen Link aus.  
+3. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MWST Buchungsmatrix Einr.** ein, und wählen dann den zugehörigen Link aus.  
 4. Auf der Seite MWST Buchungseinrichtung erstellen Sie eine neue Zeile oder nutzen einen bestehende MWST-Buchungsgruppe in Kombination mit der neuen MWST.-Produktbuchungsgruppe für die Einfuhrsteuer.  
 5. Wählen Sie im Feld **MwSt.-Berechnungsart** **Volle MwSt.** aus.  
 6. Geben Sie im Feld **Vorsteuerkonto** das Sachkonto an, auf das Sie Einfuhrumsatzsteuer buchen wollen. Alle anderen Konten sind optional.  
@@ -236,12 +236,12 @@ Bevor Sie das Mehrwertsteuersatz-Änderungstool einrichten, müssen Sie die folg
 * Sichern von Daten.
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>So richten Sie das Mehrwertsteuersatz-Änderungstool ein  
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **MwSt-Satzänderung einrichten** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MWST-Satzänderung einrichten** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie auf den Inforegistern **Masterdaten**, **Buch.-Erfassungsjournale** und **Belege** einen Buchungsgruppenwert aus der Liste der Optionen für erforderliche Felder aus.  
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>So richten Sie die Produktbuchungsgruppenkonvertierung ein  
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **MwSt-Satzänderung einrichten** ein. Wählen Sie dann den zugehörigen Link aus.  
-2. Wählen Sie im Fenster **MWST-Satzänderung einrichten** auf der Registerkarte **Start** in der Gruppe **Prozess** entweder **Umrech. für MWST-Produktbuchungsgruppe** oder **Umrech. für Produktbuchungsgruppe** aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MWST-Satzänderung einrichten** ein, und wählen dann den zugehörigen Link aus.  
+2. Wählen Sie im Fenster **MwSt-Satzänderung einrichten** auf der Registerkarte **Start** in der Gruppe **Prozess** entweder **Umrech. für MWST.-Produktbuchungsgruppe** oder **Umrech. für Produktbuchungsgruppe** aus.  
 3. Geben Sie im Feld **Code ab** die aktuelle Buchungsgruppe ein.  
 4. Geben Sie den neuen Standort in dem Feld **Cod zu** ein.  
 
@@ -254,7 +254,7 @@ Sie verwenden das MwSt.-Satz-Änderungstool, um Änderungen im Standard-MwSt.-Sa
 > [!IMPORTANT]  
 >  Bevor Sie die Umrechnung für MWST-Satzänderungen ausführen, können Sie die Konvertierung testen. Um dies zu tun, führen Sie die Schritte unten aus, stellen Sie aber sicher, dass Sie die Kontrollkästchen **Konvertierung durchführen** und **Tool zum Ändern des MWST-Satzes abgeschlossen** deaktivieren. Während der Testkonvertierung wird das Feld **Konvertiert** in der Tabelle **Protokollposten für MWST-Satzänderung** gelöscht und das Feld **Konvertierungsdatum** in der Tabelle **Protokollposten für MWST-Satzänderung** ist leer. Nach der Umrechnung wählen Sie auf der Registerkarte Start, in der Gruppe Prozess die Option **Änderungsprotokollposten für MWST-Satz** aus, um die Ergebnisse der Umrechnung anzuzeigen. Prüfen Sie jeden Posten, bevor Sie die Umrechnung ausführen. Insbesondere überprüfen Sie Transaktionen, die einen alten MWST-Satz verwenden.     
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **MwSt-Satzänderung einrichten** ein. Wählen Sie dann **MwSt Satzändllerung einrichten** aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") geöffnet wird. geben Sie **MwSt** ein, und wählen dann **MwSt Satzänderung einrichten**den zugehörigen Link aus.  
 2. Vergewissern Sie sich, dass Sie bereits die MWST.-Produktbuchungsgruppen-Umrechnung oder die Produktbuchungsgruppen-Umrechnung eingerichtet haben.  
 3. Wählen Sie das Kontrollkästchen **Konvertierung durchführen**.  
 

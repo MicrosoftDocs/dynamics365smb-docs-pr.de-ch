@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 55d9dbfac8cabefacffa8edd6203cc812f2debee
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 66ac3a70ee4f40ab1b4c86afcc8ad28357c7a543
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="swiss-value-added-tax"></a>Mehrwertsteuer (Schweiz)
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 - Automatische Regulierung von MWST-Beträgen für Rechnungen entsprechend dem Rabatt  
 - Zusätzliche MWST-Wechselkurse für Rechnungen in Fremdwährungen  
 
-Weitere Informationen über die Schweizer Mehrwertsteuerberichterstellung und die Codierungsanforderungen finden Sie unter [Schweizer MwSt Informationen](http://www.estv.admin.ch/mwst/dokumentation/00130/00947/00948/index.html?lang=fr), im Besonderen Beleg 605.525.01. Die Information ist für Französisch, Deutsch und Italienisch verfügbar.  
+Weitere Informationen über die Schweizer Mehrwertsteuerberichterstellung und die Codierungsanforderungen finden Sie unter [Schweizer MWST-Informationen](https://www.estv.admin.ch/estv/en/home.html). Die Information ist für Französisch, Deutsch und Italienisch verfügbar.  
 
 ## <a name="vat-amounts-and-vat-exchange-rates"></a>MWST-Beträge und MWST-Wechselkurse  
 Entsprechend den lokalen Mehrwertsteuer-Gesetzen kann der MWST Basisbetrag um den Skontobetrag reduziert werden, wenn Skonto gewährt wird. Um automatische Mehrwertsteueranpassungen für einen Zahlungsrabatt einer Rechnung zuzulassen wir das Feld **Skonto berichtigen** standardmässig im Fenster **Fibuposten Einrichtung** ausgeführt. Sie können diese Funktion in der MWST-Buchungsmatrix-Einrichtung " aktivieren. Weitere Informationen finden Sie in der Tabelle "Fibuposten einrichten" und "MWST-Buchungsmatrix einrichten".  

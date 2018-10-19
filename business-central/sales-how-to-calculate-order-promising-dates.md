@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 01/19/2019
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 09bb0425a8908b17939ebfa52258353e12f577f8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b51486a1daed9f6896424c1eefb55688aec8d16e
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Lieferterminzusagen-Daten berechnen
@@ -78,7 +78,7 @@ Der Auftragsverarbeiter beendet den CTP-Prozess, indem er die Datumsangaben akze
 Zusätzlich zu den externen Lieferterminzusagen, die Sie im Fenster **Lieferterminzusagenzeilen** durchführen können, können Sie interne oder externe Lieferdaten für Stücklistenrtikel zusagen. Weitere Informationen finden Sie unter [Die Verfügbarkeit von Artikeln anzeigen](inventory-how-availability-overview.md)
 
 ## <a name="to-set-up-order-promising"></a>Lieferterminzusagen einrichten  
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Lieferterminzusagen Einrichtung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Auftragsversprechen einrichten** ein, und wählen dann den zugehörigen Link aus.  
 2. Geben Sie eine Zahl und einen Zeiteinheitencode in das Feld **Verschiebung (Zeit)** ein. Wählen Sie einen der folgenden Codes aus.  
 
     |Code|Beschreibung|  
@@ -96,14 +96,14 @@ Zusätzlich zu den externen Lieferterminzusagen, die Sie im Fenster **Lieferterm
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Eingehende Lagerdurchlaufzeit im Einrichtungsfenster des Bestands eingeben  
 Wenn Sie die Lagerdurchlaufzeit bei der Berechnung der Lieferterminzusage in der Einkaufszeile berücksichtigen wollen, können Sie sie als Vorgabewert für das Lager und für Ihren Lagerort einrichten.    
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagereinrichtung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagereinrichtung** ein, und wählen dann den zugehörigen Link aus.  
 2. Im Inforegister **Allgemein** im Feld **Eingeh. Lagerdurchlaufzeit** geben Sie die Anzahl Tage ein, die die Anwendung bei der Berechnung der Lieferterminzusage berücksichtigen soll.  
 
 > [!NOTE]  
 >  Wenn Sie das Feld **Eingeh. Lagerdurchlaufzeit** auf der **Lagerortkarte** für Ihren Lagerort ausgefüllt haben, verwendet die Anwendung den Inhalt dieses Feldes als eingehende Vorgabelagerdurchlaufzeit.  
 
 ### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Eingehende Lagerdurchlaufzeit in Lagerortkarten eingeben  
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standort** ein, und wählen dann den zugehörigen Link aus.  
 2.  Öffnen Sie die relevante Lagerortkarte.  
 3.  Im Inforegister **Lager** im Feld **Eingeh. Lagerdurchlaufzeit** geben Sie die Anzahl Tage ein, die bei der Berechnung der Lieferterminzusage berücksichtigt werden soll.  
 
@@ -113,14 +113,14 @@ Wenn Sie die Lagerdurchlaufzeit bei der Berechnung der Lieferterminzusage in der
 ### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Ausgehende Lagerdurchlaufzeit im Einrichtungsfenster des Bestands eingeben  
 Wenn Sie eine ausgehende Lagerdurchlaufzeit bei der Berechnung der Lieferterminzusage in der Verkaufszeile berücksichtigen möchten, können Sie diese als Vorgabewert für das Lager eingeben.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagereinrichtung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagereinrichtung** ein, und wählen dann den zugehörigen Link aus.  
 2. Im Inforegister **Allgemein** im Feld **Ausgeh. Lagerdurchlaufzeit** geben Sie die Anzahl Tage ein, die die Anwendung bei der Berechnung der Lieferterminzusage berücksichtigen soll.  
 
 > [!NOTE]  
 >  Wenn Sie das Feld **Ausgeh. Lagerdurchlaufzeit** auf der Standortkarte für Ihren Standort ausgefüllt haben, wird der Inhalt dieses Feldes als ausgehende Vorgabelagerdurchlaufzeit verwendet.  
 
 ### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Ausgehende Lagerdurchlaufzeit der Logistik in Standortkarten eingeben  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standort** ein, und wählen dann den zugehörigen Link aus.  
 2.  Öffnen Sie die relevante Lagerortkarte.  
 3.  Im Inforegister **Lager** im Feld **Ausgeh. Lagerdurchlaufzeit** geben Sie die Anzahl Tage ein, die bei der Berechnung der Lieferterminzusage berücksichtigt werden soll.  
 
@@ -129,12 +129,12 @@ Wenn Sie eine ausgehende Lagerdurchlaufzeit bei der Berechnung der Lieferterminz
 
 ## <a name="to-make-an-item-critical"></a>Einen Artikel als kritisch kennzeichnen  
 Bevor ein Artikel bei der Berechnung der Lieferterminzusage berücksichtigt werden kann, muss er als kritisch markiert werden Diese Einstellungen stellen sicher, dass unkritische Artikel nicht irrelevante Lieferterminzusagen verursachen.   
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.  
 2.  Öffnen Sie die entsprechende Artikelkarte.  
 3.  Wählen Sie im Inforegister **Planung** das Feld **Kritisch** aus.  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Lieferterminzusagen berechnen  
-1.  Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsauftrag** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkaufsaufträge** ein, und wählen dann den zugehörigen Link aus.  
 2.  Öffnen Sie den relevanten Verkaufsauftrag, und wählen Sie die Verkaufszeilen aus, die berechnet werden sollen.  
 3.  Wählen Sie die **Lieferterminzusagen** Aktion aus, und wählen Sie die **Lieferterminzusagenzeilen** Aktion aus.  
 4.  Wählen Sie eine Zeile aus, und wählen Sie dann eine der folgenden Optionen aus:  

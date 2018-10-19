@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 01/12/2018
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 62eee7532e457721430cb31519b5acb23e95bfcb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e4033412560e8dc847397c4399e12985490bf78
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-inventory"></a>Bestand einrichten
@@ -31,7 +31,8 @@ Wenn Sie Ihr Lager so eingerichtet haben, können Sie verschiedene Lagervorgäng
 | Definieren Sie die allgemeinen Lagereinstellungen, wie Nummernserien und wie Lagerorte verwendet werden. |[So richten Sie allgemeine Lagerbestandsinformationen ein](inventory-how-setup-general.md) |
 |Konfigurieren Sie ein effizientes Vertriebsmodell mit einer Kombination verschiedener Lagerorte und Zuständigkeitseinheiten, die Geschäftspartnern oder Mitarbeitern zugewiesen sind.|[Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md)|
 | Organisieren Sie Ihr Lager an mehreren Lagerorten, einschliesslich Umlagerungsrouten. |[Einrichten von Lagerorten](inventory-how-register-new-items.md) |
-| Erstellen Sie Artikelkarten für Lagerartikel, mit denen Sie handeln. |[Neue Artikel registrieren](inventory-how-register-new-items.md) |
+| Erstellen einer Artikelkarte für Lager-, Nicht-Lager- oder Serviceeinheiten, mit denen Sie gerade handeln. |[Neue Artikel registrieren](inventory-how-register-new-items.md) |
+|Erfahren Sie, wie Sie das Feld **Art** entsprechend dem Geschäftszweck auf der Artikelkarte ausfüllen.|[Info zu Elementtypen](inventory-about-item-types.md)| 
 |Einrichten mehrerer Einheiten für einen Artikel, den Sie für Alternativvorrat, beispielsweise auf Verkauf, Einkauf oder Buchungen innerhalb der Fertigung verwenden können.|[Artikeleinheiten einrichten](inventory-how-setup-units-of-measure.md)|
 |Sie können Lagerhaltungsdaten verwenden, um Informationen über Ihre Artikel für einen bestimmten Lagerortcode und/oder einen bestimmten Variantencode zu speichern.|[Lagerhaltungsdaten einrichten](inventory-how-to-set-up-stockkeeping-units.md)|
 | Artikel den Kategorien zuweisen und ihnen Attribute zuweisen, damit Sie und die Kunden die Artikel finden. |[Artikel kategorisieren](inventory-how-categorize-items.md) |
