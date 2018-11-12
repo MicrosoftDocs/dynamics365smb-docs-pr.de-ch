@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
@@ -25,12 +25,12 @@ Da der Warenfluss in heutigen Lieferketten immer komplexer wird, wird die Mögli
 Ein Artikeltrackingsystem sollte für eine einfache Handhabung der Serien- und Chargennummern bieten, unter Berücksichtigung, dass jeder Artikel eine eindeutige Ware darstellt, Empfang und Eingang, Lagerort und Verkaufsdatum anzeigt. [!INCLUDE[d365fin](includes/d365fin_md.md)] hat schrittweise seine Abdeckung dieser Geschäftsanforderung erweitert und stellt heute eine breite Funktionalität und festes Kernstück in den Erweiterungen bereit.einen widerrufen Kernstück bereitstellt, in denen Erweiterungen definieren.  
 
 ## <a name="in-this-section"></a>In diesem Abschnitt  
-* [Designdetails: Artikeltrackingdesign](design-details-item-tracking-design.md)  
-* [Designdetails: Artikeltracking-Buchungsstruktur](design-details-item-tracking-posting-structure.md)  
-* [Designdetails: Aktive vs. historische Artikeltrackingposten](design-details-active-versus-historic-item-tracking-entries.md)  
-* [Designdetails: Artikelverfolgungszeilenfenster](design-details-item-tracking-lines-window.md)  
-* [Designdetails: Artikeltrackingverfügbarkeit](design-details-item-tracking-availability.md)  
-* [Designdetails: Artikeltracking und Planung](design-details-item-tracking-and-planning.md)  
-* [Designdetails: Artikeltracking und Reservierungen](design-details-item-tracking-and-reservations.md)  
-* [Designdetails: Artikeltracking im Lager](design-details-item-tracking-in-the-warehouse.md)
+[Designdetails: Artikeltrackingdesign](design-details-item-tracking-design.md)  
+[Designdetails: Artikeltracking-Buchungsstruktur](design-details-item-tracking-posting-structure.md)  
+[Designdetails: Aktive vs. historische Artikeltrackingposten](design-details-active-versus-historic-item-tracking-entries.md)  
+[Designdetails: Artikelverfolgungszeilenfenster](design-details-item-tracking-lines-window.md)  
+[Designdetails: Artikeltrackingverfügbarkeit](design-details-item-tracking-availability.md)  
+[Designdetails: Artikeltracking und Planung](design-details-item-tracking-and-planning.md)  
+[Designdetails: Artikeltracking und Reservierungen](design-details-item-tracking-and-reservations.md)  
+[Designdetails: Artikeltracking im Lager](design-details-item-tracking-in-the-warehouse.md)
 
