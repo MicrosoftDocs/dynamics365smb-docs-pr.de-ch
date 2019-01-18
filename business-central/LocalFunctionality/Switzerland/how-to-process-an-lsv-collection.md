@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f68c2c4b2b3747d341e7d99372b2e8f056a06bf1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f447e0c20081cf64709e14cbe524d80fd8075b1c
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-an-lsv-collection"></a>Verarbeiten eines LSV-Einzugs
-Mithilfe von **LSV-Journalen** können Zahlungen von LSV+-Debitoren (Lastschriftverfahren) erstellt und verarbeitet werden. Sie können diese Zahlungen im Zahlungseingangs-Erfassungsjournal erfassen, eine LSV-Datei erstellen und dann den Einzugsauftrag drucken. Weitere Informationen finden Sie unter Zahlungseingangs Erf.-Journal (Fenster) und [Exportieren von Zahlungen mit LSV](how-to-export-payments-using-lsv.md).  
+Mithilfe von **LSV-Journalen** können Zahlungen von LSV+-Debitoren (Lastschriftverfahren) erstellt und verarbeitet werden. Sie können diese Zahlungen im Zahlungseingangs-Erfassungsjournal erfassen, eine LSV-Datei erstellen und dann den Einzugsauftrag drucken. Weitere Informationen finden Sie unter Zahlungseingangs Erf.-Journal (Seite) und [Exportieren von Zahlungen mit LSV](how-to-export-payments-using-lsv.md).  
 
 Wenn Sie den Stapelverarbeitungsauftrag **LSV Einzugsvorschlag** ausführen, wird jeder vorgeschlagene Einzug in einer LSV-Journalzeile erfasst, und die offenen Rechnungen werden in die LSV-Journale übertragen. Weitere Informationen finden Sie unter LSV-Erf.-Journal – Tabelle.  
 
@@ -30,7 +30,7 @@ Sie können die vorgeschlagenen Zahlungszeilen anzeigen, bearbeiten oder lösche
 
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite ober Bericht suchen") und geben **LSV Erf.-Journal Liste** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Neu** aus.  
-3.  Füllen Sie im Fenster **LSV-Journal Liste** die erforderlichen Felder wie in der folgenden Tabelle beschrieben aus.  
+3.  Füllen Sie auf der Seite **LSV-Journal Liste** die erforderlichen Felder wie in der folgenden Tabelle beschrieben aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -38,7 +38,7 @@ Sie können die vorgeschlagenen Zahlungszeilen anzeigen, bearbeiten oder lösche
     |**LSV Journalbeschreibung**|Geben Sie eine Beschreibung für den Eintrag ein.|
 
 4.  Wählen Sie den erforderlichen LSV-Journaleintrag, und wählen die Aktion **LSV Sammlung vorschlagen** aus, um die Zahlungen automatisch von LSV zu erfassen.  
-5.  Füllen Sie im Fenster **LSV Einzugsvorschlag** die Felder auf dem Inforegister **Optionen** wie in der folgenden Tabelle beschrieben aus.  
+5.  Füllen Sie auf der Seite **LSV Einzugsvorschlag** die Felder auf dem Inforegister **Optionen** wie in der folgenden Tabelle beschrieben aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -49,13 +49,13 @@ Sie können die vorgeschlagenen Zahlungszeilen anzeigen, bearbeiten oder lösche
 
 6.  Wählen Sie die Schaltfläche **OK** aus.  
 
-Alle zugehörigen Zeilen werden in das LSV-Journal übertragen. Nach der Verarbeitung des LSV-Einzugs können Sie die vorgeschlagenen Zahlungen im Fenster **LSV Journal** anzeigen, überprüfen oder bearbeiten. Weitere Informationen finden Sie unter LSV-Erf.-Journal-Zeilen – Tabelle.  
+Alle zugehörigen Zeilen werden in das LSV-Journal übertragen. Nach der Verarbeitung des LSV-Einzugs können Sie die vorgeschlagenen Zahlungen auf der Seite **LSV Journal** anzeigen, überprüfen oder bearbeiten. Weitere Informationen finden Sie unter LSV-Erf.-Journal-Zeilen – Tabelle.  
 
 ## <a name="to-manage-suggested-payments"></a>So verwalten Sie vorgeschlagene Zahlungen  
 
-1.  Im Fenster **LSV-Erf.-Journal-Liste** wählen Sie den erforderlichen Journaleintrag, und wählen die **LSV-Erf.-Journalzeile** Aktion aus.  
+1.  Auf der Seite **LSV-Erf.-Journal-Liste** wählen Sie den erforderlichen Journaleintrag, und wählen die **LSV-Erf.-Journalzeile** Aktion aus.  
 
-    Sie können die vorgeschlagenen Zahlungen in diesem Fenster anzeigen und ändern. Dieser Wert kann bei Bedarf manuell eingegeben oder geändert werden. Für neue Erfassungsjournalzeilen wird das Feld **LSV-Status** auf **Öffnen** festgelegt, um anzugeben, dass die Rechnung unbezahlt ist.  
+    Sie können die vorgeschlagenen Zahlungen auf dieser Seite anzeigen und ändern. Dieser Wert kann bei Bedarf manuell eingegeben oder geändert werden. Für neue Erfassungsjournalzeilen wird das Feld **LSV-Status** auf **Öffnen** festgelegt, um anzugeben, dass die Rechnung unbezahlt ist.  
 
 3.  Wählen Sie die Schaltfläche **OK** aus.  
 

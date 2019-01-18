@@ -13,10 +13,10 @@ ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bde0b129455dbdd7cbc91bd50b6d993abf727100
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b2cb135991a067b86b7c5579e0386ffd199aefcf
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Designdetails: Artikeltracking-Buchungsstruktur
@@ -24,7 +24,7 @@ Um der Bestandskalkulationsfunktionen zu entsprechen und eine einfachere und rob
   
 Artikeltrackingnummern auf Auftragsnetzwerkeinheiten und nicht auftragsbezogenen Netzwerkeinheiten werden in der Tabelle **Reservierungsposten** (T337) angegeben. Artikeltrackingnummern, die mit den historischen Informationen verknüpft sind, werden direkt aus den Lagerposten abgerufen, die mit der jeweiligen Transaktion verknüpft werden. Das bedeutet, dass Lagerposten die Artikeltrackingspezifikationen der gebuchten Auftragszeile widerspiegeln.  
   
-Das Fenster **Artikeltrackingzeilen** ruft die Informationen aus T337 und den Lagerposten ab und zeigt sie in der temporären Tabelle, **Trackingspezifikation** (T336) an. T336 enthält auch die temporären Dateien im **Fenster Artikeltrackingzeilen** für Artikeltrackingmengen, die noch fakturiert werden müssen.  
+Die Seite **Artikeltrackingzeilen** ruft die Informationen aus T337 und den Lagerposten ab und zeigt sie in der temporären Tabelle **Trackingspezifikation** (T336) an. T336 enthält auch die temporären Dateien im **Fenster Artikeltrackingseiten** für Artikeltrackingmengen, die noch fakturiert werden müssen.  
   
 ## <a name="one-to-many-relation"></a>1:n-Beziehung  
 Die Tabelle **Lagerpostenverbindung**, die verwendet wird, um eine gebuchte Belegzeile mit den entsprechenden Lagerposten zu verknüpfen, besteht aus zwei Hauptteilen:  

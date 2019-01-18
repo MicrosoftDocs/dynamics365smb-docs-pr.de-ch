@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: cb399bc04180c0eeed678d2e291778d12457d785
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6fa9440a0273fd781bb88a6e8d4b65c18349bbfe
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adjust-exchange-rates"></a>Wechselkurse regulieren
@@ -27,7 +27,7 @@ Wenn diese Kurse nicht mit den Währungskursen in den Einkaufs- oder Verkaufsrec
 Sie können diese Stapelverarbeitung beliebig oft ausführen. Achten Sie aber darauf, sie immer vor der Erstellung einer MWST-Abrechnung auszuführen.  
 
 > [!NOTE]  
->  Bei Verwendung einer Berichtswährung müssen Sie sicherstellen, dass das Feld **MWST-Kursregulierung** im Fenster **Finanzbuchhaltung Einrichtung** auf **Keine Regulierung** gesetzt ist.  
+>  Bei Verwendung einer Berichtswährung müssen Sie sicherstellen, dass das Feld **MWST-Kursregulierung** auf der Seite **Finanzbuchhaltung Einrichtung** auf **Keine Regulierung** gesetzt ist.  
 
 Weitere Informationen über MWST und Fremdwährungen finden Sie auf der [ESTV](https://go.microsoft.com/fwlink/?LinkId=285999)-Website.  
 
@@ -35,7 +35,7 @@ Weitere Informationen über MWST und Fremdwährungen finden Sie auf der [ESTV](h
 
 1.  Wählen Sie ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") ein und wählen **Währungswechselkurs-Dienste** und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Wechselkurse** aus.  
-3.  Geben Sie im Fenster **Währungswechselkurse** den offiziellen MWST-Satz pro Periode für die jeweilige Währung in die Felder **Anzahl MWST-Einheiten** und **MWST-Kurs** ein.  
+3.  Geben Sie auf der Seite **Währungswechselkurse** den offiziellen MWST-Satz pro Periode für die jeweilige Währung in die Felder **Anzahl MWST-Einheiten** und **MWST-Kurs** ein.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
 5.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen"), öffnen Sie **Wechselkurse regulieren**, und wählen Sie dann den zugehörigen Link aus.  
 6.  Füllen Sie auf dem Inforegister **Optionen** die Felder wie in der folgenden Tabelle beschrieben aus.   

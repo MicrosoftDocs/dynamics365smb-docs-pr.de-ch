@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4b2879f3b913ddc554cbbbe49fedd3bc1434b0ad
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b51837e01f65241433272a3349ff3e771f593251
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Einkaufsbelege und Verkaufsbelege (Schweiz)
@@ -41,7 +41,7 @@ Sie können einen Artikel in der Verkaufsoffertenzeile als Variante angeben. So 
 Für Einkaufs- und Verkaufsrechnungen wird der Rechnungsbetrag um den Rabattbetrag reduziert und dann gerundet. Die Rechnungssumme wird ebenfalls gerundet, wenn ein Rabatt gewährt wird. Weitere Informationen finden Sie unter Fibuposten Einrichtungtabelle.  
 
 ## <a name="shipment-documents"></a>Lieferbelege  
-Im Fenster **Debitoren & Verkauf Einr.** wird das **Lieferung für Liefern und Rechnung** Feld verwendet, damit der Druck für zusätzlicher Warenausgangsbelegen für Einkaufsrechnungen und Verkaufsrechnungen ausgeschaltet werden kann. Wenn Sie einen Auftrag buchen, wird automatisch eine gebuchte Lieferung und eine gebuchte Rechnung erstellt. Wenn die ausgedruckte Rechnung auch als Lieferbeleg verwendet wird, muss die Lieferungsdokumentation nicht zusätzlich ausgedruckt werden. Sie können das Drucken von zusätzlichen Versanddokumenten für Verkaufs- und Einkaufsrechnungen deaktivieren, indem Sie das Feld **Lieferung für Liefern und Rechnung** im Fenster**Verkauf und Kauf einrichten** deaktivieren. Weitere Informationen finden Sie unter der Tabelle Debitoren & Verkauf Einr.  
+Auf der Seite **Debitoren & Verkauf Einr.** wird das Feld **Liefersch. bei Lief. und Rech.** verwendet, damit der Druck zusätzlicher Warenausgangsbelege für Einkaufsrechnungen und Verkaufsrechnungen deaktiviert werden kann. Wenn Sie einen Auftrag buchen, wird automatisch eine gebuchte Lieferung und eine gebuchte Rechnung erstellt. Wenn die ausgedruckte Rechnung auch als Lieferbeleg verwendet wird, muss die Lieferungsdokumentation nicht zusätzlich ausgedruckt werden. Sie können das Drucken von zusätzlichen Versanddokumenten für Verkaufs- und Einkaufsrechnungen deaktivieren, indem Sie das Feld **Liefersch. bei Lief. und Rech.** auf der Seite **Debitoren & Verkauf Einrichtung** deaktivieren. Weitere Informationen finden Sie unter der Tabelle Debitoren & Verkauf Einr.  
 
 ## <a name="see-also"></a>Siehe auch  
  [Importieren von Postleitzahlen (Schweiz)](how-to-import-swiss-post-codes.md)   

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c6be3692eb69e7532e6ef6fcb245a87ee7cdfe03
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f9e678e78707ced34c1d342594531f6eff547df4
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-swiss-bank-clearing-numbers"></a>Importieren von Schweizer Bankenclearingnummern
@@ -28,8 +28,8 @@ Die BC-Bankstammdatei – die offizielle Schweizer Bankenclearingnummer-Datei �
 
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen"), und öffnen Sie **Bankenstamm**. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Bankverzeichnis importieren** aus.  
-3.  Aktivieren Sie im Fenster **Bankenstamm einlesen** auf dem Inforegister **Optionen** das Feld **Clearingnummern automatisch aktualisieren**, um die Bankenclearingnummern automatisch zu aktualisieren.  
-4.  Klicken Sie auf die Schaltfläche **Drucken** oder auf **Seitenansicht**, um die Bankenclearingnummern zu importieren, und suchen Sie anschliessend im Fenster **Öffnen** die Datei, die Sie von der Website von SIX Interbank Clearing heruntergeladen haben.
+3.  Aktivieren Sie auf der Seite **Bankenstamm einlesen** auf dem Inforegister **Optionen** das Feld **Clearingnummern automatisch aktualisieren**, um die Bankenclearingnummern automatisch zu aktualisieren.  
+4.  Klicken Sie auf die Schaltfläche **Drucken** oder auf **Seitenansicht**, um die Bankenclearingnummern zu importieren, und suchen Sie anschliessend auf der Seite **Öffnen** die Datei, die Sie von der Website von SIX Interbank Clearing heruntergeladen haben.
 5. Wählen Sie die Schaltfläche **Öffnen** aus.  
 
     Falls Sie die Schaltfläche **Drucken** wählen, werden die Inhalte der Datei gedruckt. Falls Sie auf die Schaltfläche **Seitenansicht** klicken, wird die Tabelle **Bankenstamm** aktualisiert und ein Bericht, dessen Clearingnummern geändert wurden, wird angezeigt.  
@@ -38,9 +38,9 @@ Nachfolgend wird beschrieben, wie Bankfilialnummern für Debitorenbankkonten def
 
 ## <a name="to-define-bank-branch-numbers-for-customer-bank-accounts"></a>So definieren Sie Bankfilialnummern für Debitorenbankkonten  
 
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und öffnen **Kunden**. Wählen Sie dann den zugehörigen Link aus.  
+1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und öffnen **Debitoren**. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie den Debitor, für den Sie Bankkontoeninformationen erstellen möchten, und wählen die Aktion **Bankkonten**.  
-3.  Im Fenster **Debitor Bankkontenliste** wählen Sie das gewünschte Bankkonto aus, und wählen Sie die **Bearbeiten** Aktion aus.  
+3.  Auf der Seite **Debitor Bankkontenliste** wählen Sie das gewünschte Bankkonto aus, und wählen Sie die **Bearbeiten** Aktion aus.  
 4.  Wählen Sie auf dem Inforegister **Allgemein** im Feld **BLZ** die Nummer der Bankagentur oder -filiale aus.  
 5.  Wählen Sie die Schaltfläche **OK** aus.  
 

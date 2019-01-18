@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1456847f19b72636cfb95e1e66cca1091959cc07
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 753b1fb7dcade062228e1d14d5bb9a19ffd0703a
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-payments-using-lsv"></a>Exportieren von Zahlungen mit LSV
@@ -24,10 +24,10 @@ Nachdem der LSV-Einzug abgeschlossen wurde, können Sie LSV+-Dateien (Lastschrif
 
 ## <a name="to-export-payments-using-lsv"></a>So exportieren Sie Zahlungen mit LSV  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite ober Bericht suchen"), und öffnen Sie **LSV-Journal Liste**. Wählen Sie dann den zugehörigen Link aus.  
-2.  Wählen Sie im Fenster **LSV-Journal Liste** das gewünschte LSV-Journal aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite ober Bericht suchen") und geben **LSV Erf.-Journal Liste** ein. Wählen Sie dann den zugehörigen Link aus.  
+2.  Wählen Sie auf der Seite **LSV-Journal Liste** das gewünschte LSV-Journal aus.  
 3.  Wählen Sie die Aktion **LSV-Datei schreiben** aus.  
-4.  Füllen Sie im Fenster **LSV Datei schreiben** die Felder auf dem Inforegister **Optionen** wie in der folgenden Tabelle beschrieben aus.  
+4.  Füllen Sie auf der Seite **LSV Datei schreiben** die Felder auf dem Inforegister **Optionen** wie in der folgenden Tabelle beschrieben aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  

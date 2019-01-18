@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f23993964f0803f2153c2d190a23532113e5ddd2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -148,7 +148,7 @@ Sie können eine MWST-Klausel ändern oder löschen, und Ihre Änderungen werden
 
 ### <a name="to-set-up-vat-clauses"></a>Einrichten von MWST.-Klauseln
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MWST-Auszug** ein, und wählen dann den zugehörigen Link aus.  
-2. Auf der Seite **MWST-Klauseln** erstellen Sie eine neue Zeile.  
+2. Auf der Seite **MwSt.-Klauseln** erstellen Sie eine neue Zeile.  
 3. Geben Sie im Feld **Code** eine Kennung für die Klausel ein. Nutzen Sie diesen Code, um die Klausel der MwSt-Buchungsgruppe zuzuweisen.  
 4. In dem Feld **Beschreibung** geben Sie den Text ein, der auf Belegen angezeigt wird, die MwSt enthalten können. Geben Sie im Feld **Beschreibung 2**zusätzlichen Text ein, falls erforderlich. Den Text auf neuen Zeilen anzeigen.  
 5. Optional: Um die Mehrwertsteuerklausel mit einer MwSt.-Buchung sofort zuzuordnen, wählen Sie **Einrichtung** und dann die Klausel. Wenn Sie warten möchten, können Sie die Klausel später der MWST.-Buchungsseite zuweisen.  
@@ -241,7 +241,7 @@ Bevor Sie das Mehrwertsteuersatz-Änderungstool einrichten, müssen Sie die folg
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>So richten Sie die Produktbuchungsgruppenkonvertierung ein  
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MWST-Satzänderung einrichten** ein, und wählen dann den zugehörigen Link aus.  
-2. Wählen Sie im Fenster **MwSt-Satzänderung einrichten** auf der Registerkarte **Start** in der Gruppe **Prozess** entweder **Umrech. für MWST.-Produktbuchungsgruppe** oder **Umrech. für Produktbuchungsgruppe** aus.  
+2. Wählen Sie im Fenster **MWST-Satzänderung einrichten** auf der Registerkarte **Start** in der Gruppe **Prozess** entweder **Umrech. für MWST-Produktbuchungsgruppe** oder **Umrech. für Produktbuchungsgruppe** aus.  
 3. Geben Sie im Feld **Code ab** die aktuelle Buchungsgruppe ein.  
 4. Geben Sie den neuen Standort in dem Feld **Cod zu** ein.  
 

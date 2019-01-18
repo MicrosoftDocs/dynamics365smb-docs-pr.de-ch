@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c75b9eef5716379f6545494c20cbe6c7b34c1edd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 729524ce2145b4e167fb49671045b298affb862b
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,7 +26,7 @@ Es können folgende Berichte verwendet werden:
 * Der Verkaufslistenbericht **EU-Verkaufsliste** führt MWST-Beträge der Europäischen Union (EU) auf, die Sie für Verkäufe an für MWST registrierte Debitoren innerhalb der EU eingetrieben haben  
 * Der Bericht **MWST-Rückgabe** enthält die MWST für Verkäufe und Einkäufe an Debitoren in allen Ländern, die MWST verwenden.
 
-Wenn Sie den gesamten Verlauf von MWST.-Posten anzeigen möchten, erstellt jede Buchung, die Mehrwertsteuer beinhaltet, einen Posten auf der Seite **MWST-Posten**. Diese Posten werden verwendet, um Ihren MWST.-Abrechnungsbetrag (Ihrer Zahlung oder Erstattung) für eine bestimmte Periode zu berechnen. Um MwSt-Einträge zu sehen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MwSt-Einträge** ein, und wählen dann den zugehörigen Link aus.
+Wenn Sie den gesamten Verlauf von MWST-Posten anzeigen möchten, erstellt jede Buchung, die Mehrwertsteuer beinhaltet, einen Posten auf der Seite **MWST-Posten**. Diese Posten werden verwendet, um Ihren MWST.-Abrechnungsbetrag (Ihrer Zahlung oder Erstattung) für eine bestimmte Periode zu berechnen. Um MwSt-Einträge zu sehen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MwSt-Einträge** ein, und wählen dann den zugehörigen Link aus.
 
 ## <a name="about-the-ec-sales-list-report"></a>Info über den Bericht „EU-Verkaufsliste“
 In Grossbritannien müssen alle Unternehmen, die Waren und Dienstleistungen an für Mehrwertsteuer registrierte Debitoren verkaufen, einschliesslich Debitoren in anderen Ländern der Europäischen Union (EU), eine elektronische Version des Verkaufslistenberichts der MWST-Beträge der Europäischen Union (EU) im XML-Format an die HMRC-Website (Her Majesty's Revenue and Customs) senden. Der EU-Verkaufslistenbericht passt nur für Länder in der EU.
@@ -80,7 +80,7 @@ Um MwSt an eine Steuerbehörden zu übermitteln, müssen Sie den [!INCLUDE[d365f
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] prüft, ob der Bericht korrekt eingerichtet ist. Wenn die Prüfung fehlschlägt, werden die Fehler im Fenster **Fehler und Warnungen**  angezeigt, sodass Sie entsprechende Änderungen vornehmen können. Wenn die Meldung zu einer fehlenden Einstellung in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfolgt, können Sie auf die Nachricht klicken, um die Seite zu öffnen, die die Informationen zur Korrektur enthält.  
 5. Um den Bericht zu buchen, wählen Sie die **Übermitteln** Aktion.  
 
-Nachdem Sie den Bericht gesendet haben, überwacht [!INCLUDE[d365fin](includes/d365fin_md.md)] den Service und bewahrt einen Datensatz Ihrer Kommunikation auf. Das Feld **Status** gibt an, wo der Bericht in Bearbeitung ist. Beispielsweise wenn die Behörden Ihren Bericht verarbeiten, ändert sich der Status des Berichts auf **Erfolgreich**. Wenn die Steuerbehörde Fehler im Bericht finden, erhält der Bericht den Status **Fehler**. Sie können die Fehler unter **Fehler und Warnungen** anzeigen, korrigieren und den Bericht erneut senden. Um eine Liste Ihrer EU-Verkaufslisten-Berichte anzuzeigen, wechseln Sie zur Seite **EU-Verkaufslisten-Berichte**.  
+Nachdem Sie den Bericht gesendet haben, überwacht [!INCLUDE[d365fin](includes/d365fin_md.md)] den Service und bewahrt einen Datensatz Ihrer Kommunikation auf. Das Feld **Status** gibt an, wo der Bericht in Bearbeitung ist. Beispielsweise wenn die Behörden Ihren Bericht verarbeiten, ändert sich der Status des Berichts auf **Erfolgreich**. Wenn die Steuerbehörde Fehler im Bericht finden, erhält der Bericht den Status **Fehler**. Sie können die Fehler unter **Fehler und Warnungen** anzeigen, korrigieren und den Bericht erneut senden. Um eine Liste Ihrer EU-Verkaufsübersichts-Berichte anzuzeigen, wechseln Sie zur Seite **EU-Verkaufsübersichts-Berichte**.  
 
 ## <a name="viewing-communications-with-your-tax-authority"></a>Zeigt den Verlauf der Kommunikation mit der Steuerbehörde an
 In einigen Ländern tauschen Sie Meldungen mit Steuerbehörden aus, wenn Sie Berichte senden. Sie können die erste und letzte Meldung anzeigen, die Sie gebucht oder erhalten haben, indem Sie die Aktionen **Übermittlungsnachricht herunterladen** und **Antwornachricht herunterladen** gewählt haben.  
@@ -116,5 +116,5 @@ Die folgende Tabelle beschreibt Codeunits, die Sie für den Bericht erstellen m�
 [Methoden für die Berechnung und Buchung von Mehrwertsteuer einrichten](finance-setup-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Verkaufsrechnung](sales-how-invoice-sales.md)  
+[Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 11/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bdf0ab2dc31a9060bb50088e57eece26ee671985
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking"></a>Designdetails: Artikeltracking
@@ -28,7 +28,7 @@ Ein Artikeltrackingsystem sollte für eine einfache Handhabung der Serien- und C
 [Designdetails: Artikeltrackingdesign](design-details-item-tracking-design.md)  
 [Designdetails: Artikeltracking-Buchungsstruktur](design-details-item-tracking-posting-structure.md)  
 [Designdetails: Aktive vs. historische Artikeltrackingposten](design-details-active-versus-historic-item-tracking-entries.md)  
-[Designdetails: Artikelverfolgungszeilenfenster](design-details-item-tracking-lines-window.md)  
+[Designdetails – Artikeltrackingzeilenfenster-Seite](design-details-item-tracking-lines-window.md)  
 [Designdetails: Artikeltrackingverfügbarkeit](design-details-item-tracking-availability.md)  
 [Designdetails: Artikeltracking und Planung](design-details-item-tracking-and-planning.md)  
 [Designdetails: Artikeltracking und Reservierungen](design-details-item-tracking-and-reservations.md)  

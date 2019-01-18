@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cda530f1b731937c44c615cc3e0dd739c4a76754
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9f345827f1cc705727f80d21a00839f221044059
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-esr-invoices"></a>Drucken von ESR-Rechnungen
@@ -40,7 +40,7 @@ Im folgenden Verfahren wird das Drucken von ESR-Verkaufsrechnungen beschrieben, 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
     |**Anzahl Kopien**|Geben Sie die gewünschte Anzahl der Berichtskopien ein.|  
-    |**ESR Bank**|Wählen Sie die ESR-Bankleitzahl aus, die in dem Bericht gedruckt werden soll.<br /><br /> Wenn der Wert in diesem Feld <Blank> und der ESR-Zahlungsformcode nicht in der **ESR-Einrichtung** definiert ist, wird die ESR-Hauptbank, die in der **ESR-Einrichtung** ausgewählt wird, gedruckt.|  
+    |**ESR Bank**|Wählen Sie die ESR-Bankleitzahl aus, die in dem Bericht gedruckt werden soll.<br /><br /> Wenn der Wert in diesem Feld <Blank> und der ESR-Zahlungsformcode nicht auf der Seite **ESR-Einrichtung** definiert ist, wird die ESR-Hauptbank, die auf der Seite **ESR-Einrichtung** ausgewählt wird, gedruckt.|  
     |**Aktivität protokollieren**|Gibt an, ob die Aktivitäten, die Sie mit Ihren Kontakten haben, protokolliert werden.|  
     |**ESR System**|Wählen Sie das ESR-System aus, über das Sie neue ESR-Coupons an Kunden schicken können. Wählen Sie **Gemäss ESR Bank**, um das ESR-System der im Feld **ESR Bank** angegebenen Bank zu verwenden.|  
 

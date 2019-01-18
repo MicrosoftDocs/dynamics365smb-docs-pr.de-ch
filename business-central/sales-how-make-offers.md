@@ -1,6 +1,6 @@
 ---
 title: "Verkaufsangebote für einen Kunden erstellen| Microsoft Docs"
-description: Beschreibt, wie Verkaufsofferten oder eine Anforderung erstellt wird, um Ihre Offerte zu erfassen, um unter bestimmten Bedingungen einem Kunden zu verkaufen.
+description: Beschreibt, wie Verkaufsofferten oder eine Anforderung erstellt wird, um Ihre Offerte zu erfassen, um unter bestimmten Bedingungen einem Debitoren zu verkaufen.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -12,16 +12,16 @@ ms.search.keywords: rfq
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a234dee68d9c083e1ca9f72eec86e2ba1239398c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9cf65b029527dfd046223e82b92b57a48d43bb19
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-sales-quotes"></a>Verkaufsofferten machen
 Sie erstellen eine Verkaufsofferte, um Ihre Offerte für den Debitor zu erfassen, um bestimmte Produkte unter speziellen Lieferungs- und Zahlungsbedingungen zu verkaufen. Sie können die Verkaufsofferte an den Debitor senden, um die Offerte mitzuteilen. Sie können den Beleg als PDF-Dateianhang senden. Sie können den E-Mail-Text auch, der mit einer Zusammenfassung der Offerte vorab ausgefüllt wurde. Weitere Informationen finden Sie unter [Senden von Dokumenten über E-Mail](ui-how-send-documents-email.md).
 
-Während Sie mit dem Debitor verhandeln, können Sie die Verkaufsofferte ändern wie benötigt und erneut versenden. Wenn der Kunde die Offerte annimmt, wandeln Sie die Verkaufsofferte in eine Verkaufsrechnung, in der Sie den Verkauf verarbeiten. Weitere Informationen finden Sie unter [Fakturieren von Verkäufen](sales-how-invoice-sales.md) und [Neue Produkte verkaufen](sales-how-sell-products.md).
+Während Sie mit dem Debitor verhandeln, können Sie die Verkaufsofferte ändern wie benötigt und erneut versenden. Wenn der Debitor die Offerte annimmt, wandeln Sie die Verkaufsofferte in eine Verkaufsrechnung, in der Sie den Verkauf verarbeiten. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md) und [Neue Produkte verkaufen](sales-how-sell-products.md).
 
 Sie können die oberen Infoboxen der Verkaufsofferte auf zwei Arten ausfüllen, abhängig davon, ob der Debitor bereits registriert ist oder nicht. Siehe Schritt 2 und 3 im folgenden Verfahren.
 
@@ -29,15 +29,15 @@ Sie können die oberen Infoboxen der Verkaufsofferte auf zwei Arten ausfüllen, 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkaufsofferten** ein, und wählen dann den zugehörigen Link aus.
 2. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein.
 
-   Andere Felder im Fenster **Verkaufsangebot** werden nun mit den Standardinformationen vom ausgewählten Debitor ausgefüllt. Wenn der Debitor noch nicht erfasst wurde, dann führen Sie die folgenden Schritte durch:
+   Andere Felder auf der Seite **Verkaufsofferte** werden nun mit den Standardinformationen vom ausgewählten Debitor ausgefüllt. Wenn der Debitor noch nicht erfasst wurde, dann führen Sie die folgenden Schritte durch:
 3. Geben Sie im Feld **Debitor** den Namen eines neuen Debitors ein.
 4. Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**, um die Übertragung zu bestätigen.
-5. Im Fenster **Vorlage für neuen Debitor wählen** wählen Sie eine Vorlage, auf der die neue Debitorenkarte basieren soll, und dann wählen Sie die Schaltfläche **OK**.
-6. Eine neue Debitorenkarte wird geöffnet, vorausgefüllt mit Informationen auf der ausgewählten Debitorenvorlage. Füllen Sie die restlichen Felder aus. Weitere Informationen finden Sie unter [Neue Kunden registrieren](sales-how-register-new-customers.md).  
-7. Wenn Sie die Debitorenkarte abgeschlossen haben, wählen Sie die Schaltfläche **OK**, um zum Fenster **Verkaufsofferte** zurückzugehen.
+5. Auf der Seite **Eine Vorlage für einen neuen Debitor auswählen** wählen Sie eine Vorlage, auf der die neue Debitorenkarte basieren soll, und dann wählen Sie die Schaltfläche **OK**.
+6. Eine neue Debitorenkarte wird geöffnet, vorausgefüllt mit Informationen auf der ausgewählten Debitorenvorlage. Füllen Sie die restlichen Felder aus. Weitere Informationen finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).  
+7. Wenn Sie die Debitorenkarte abgeschlossen haben, wählen Sie die Schaltfläche **OK**, um zur Seite **Verkaufsofferte** zurückzugehen.
 
    Felder in der Verkaufsofferte werden mit den Informationen, die Sie festgelegt haben, in der neuen Debitorenkarte ausgefüllt.  
-8. Füllen Sie im Fenster **Verkaufsangebot** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+8. Füllen Sie auf der Seite **Verkaufsofferte** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Sie können nun die Verkaufsauftragszeilen für Produkte füllen, die Sie an den Kunden oder für jede mögliche Transaktion mit dem Kunden verkaufen, den Sie im Fibuposten buchen möchten.   
 
@@ -66,16 +66,16 @@ Sie können die oberen Infoboxen der Verkaufsofferte auf zwei Arten ausfüllen, 
     Die Summen unter den Zeilen werden berechnet, während Sie Zeilen erstellen oder ändern.  
 14. Geben Sie im Feld **Rabattbetrag in Rechnung stellen** einen Betrag ein, der vom Wert abgezogen werden soll, der im Feld **Total inklusive Mehrwertsteuer** im unteren Bereich der Rechnung angezeigt wird.
 
-    Wenn Sie Rechnungsrabatte für den Debitor eingerichtet haben, wird der angegebene Prozentwert automatisch in das Feld **Rechnungsrabatt in Prozent** eingetragen, sobald die Kriterien erfüllt sein, und der entsprechende Betrag wird im Feld **Rechnungsbetrag mit Rabatt ohne Mehrwertsteuer** eingefügt. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Skonti und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
+    Wenn Sie Rechnungsrabatte für den Debitor eingerichtet haben, wird der angegebene Prozentwert automatisch in das Feld **Rechnungsrabatt in Prozent** eingetragen, sobald die Kriterien erfüllt sein, und der entsprechende Betrag wird im Feld **Rechnungsbetrag mit Rabatt ohne Mehrwertsteuer** eingefügt. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Rabatt und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
 
     > [!TIP]
-    > Um **Offerte gültig bis Datum** haben, die automatisch mit einigen Tage nach Offertenerstellung ausgefüllt ist, können Sie die **Offertengültigkeits-Berechnung** im **Debitoren & Verkauf** ausfüllen. 
+    > Um **Offerte gültig bis Datum** haben, die automatisch mit einigen Tage nach Erstellung der Offerte ausgefüllt ist, können Sie das **Angebots-Gültigkeits-Berechnung** auf der Seite **Debitoren & Verkauf** ausfüllen. 
 
 15. Wenn die Verkaufsangebotszeilen ausgeführt werden, wählen Sie die Aktion **Per E-Mail senden** aus.
-16. Im Fenster **E-Mail senden** füllen Sie die restlichen Felder aus und überprüfen Sie das eingebettete Verkaufsangebot. Weitere Informationen finden Sie unter [Senden von Dokumenten über E-Mail](ui-how-send-documents-email.md).
-17. Wenn der Kunde die Offerte annimmt, wählen Sie **Rechnung erstellen** oder **Auftrag vornehmen** aus.
+16. Auf der Seite **E-Mail senden** füllen Sie die restlichen Felder aus und überprüfen Sie die eingebettete Verkaufsofferte. Weitere Informationen finden Sie unter [Senden von Dokumenten über E-Mail](ui-how-send-documents-email.md).
+17. Wenn der Debitor die Offerte annimmt, wählen Sie **Rechnung erstellen** oder **Auftrag vornehmen** aus.
 
-Die Verkaufsofferte wird aus der Datenbank entfernt. Eine Verkaufsrechnung oder ein Verkaufsauftrag wird auf der Basis der Informationen in der Verkaufsofferte erstellt, in der Sie den Verkauf verarbeiten können. In der erstellten Verkaufsrechnung bzw. -bestellung gibt das Feld **Offertennr.** die Nummer der Verkaufsofferte an, aus der sie erstellt wurde. Weitere Informationen finden Sie unter [Fakturieren von Verkäufen](sales-how-invoice-sales.md) und [Neue Produkte verkaufen](sales-how-sell-products.md).
+Die Verkaufsofferte wird aus der Datenbank entfernt. Eine Verkaufsrechnung oder ein Verkaufsauftrag wird auf der Basis der Informationen in der Verkaufsofferte erstellt, in der Sie den Verkauf verarbeiten können. In der erstellten Verkaufsrechnung bzw. -bestellung gibt das Feld **Offertennr.** die Nummer der Verkaufsofferte an, aus der sie erstellt wurde. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md) und [Neue Produkte verkaufen](sales-how-sell-products.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)  

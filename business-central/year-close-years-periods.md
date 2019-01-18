@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7b125edfcfd5e03882568b8ab6eb264418f15bef
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="closing-years-and-periods"></a>Beenden von Jahresabschluss und Perioden
@@ -24,8 +24,9 @@ Am Ende eines Geschäftsjahrs gibt es einige Verwaltungsaufgaben, die Sie ausfü
 
 Die folgende Tabelle enthält einen Überblick über die Aufgaben, die Sie üblicherweise ausführen, um ein Jahr und eine Periode zu schliessen.
 
-| An | Informationen |
+| Bis | Informationen |
 | --- | --- |
+| Definieren Sie Ihr Geschäftsjahr und unterteilen Sie es in Perioden, zu denen die Finanzleistung gemeldet wird. | [Mit Buchhaltungsperioden und Geschäftsjahren arbeiten](finance-accounting-periods-and-fiscal-years.md)|
 | Geben Sie systemweite und benutzerspezifische Buchungsdatumsbereiche an. Je nach Geschäftsanforderungen empfiehlt es sich, die Buchungsdatumsbereiche für Benutzer zu Beginn und am Ende des Periodenabschlusses einzugrenzen. |[Festlegen von Buchhaltungsperioden:](finance-how-specify-posting-periods.md) |
 | Verschaffen Sie sich einen Überblick über die Aktivitäten, die üblicherweise am Ende einer Periode fällig werden wie Buchen aller Belege und Erfassungsjournale oder das Ausführen eines Kontenschemas. |[Schliessen der Perioden](year-how-complete-period-end-processes.md) |
 | Aktualisieren von Wechselkursen und Anpassen der Wechselkurse gebuchter Debitoren-, Kreditoren- und Bankkontoposten |[Währungswechselkurse aktualisieren](finance-how-update-currencies.md) |

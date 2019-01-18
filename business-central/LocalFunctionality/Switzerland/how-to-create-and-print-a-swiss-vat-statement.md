@@ -1,6 +1,6 @@
 ---
 title: Erstellen und Drucken einer Schweizer MWST-Abrechnung
-description: "Auf Grundlage der Informationen, die Sie im Fenster **MWST-Buchungsmatrix Einr.** angegeben haben, kann Business Central automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Verfahren in diesem Thema fortfahren, stellen Sie sicher, dass Sie die MWST-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden."
+description: "Auf Grundlage der Informationen, die Sie auf der Seite **MWST-Buchungsmatrix Einr.** angegeben haben, kann Business Central automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Gewusst wien in diesem Thema fortfahren, stellen Sie sicher, dass Sie die MWST-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dc8a170ff464c0637d0d4504403742987a278e72
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d350488f4e060af17cc4ea4afd33e6b307306474
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-and-print-a-swiss-vat-statement"></a>Erstellen und Drucken einer Schweizer MWST-Abrechnung
-Auf Grundlage der Informationen, die Sie im Fenster **MWST-Buchungsmatrix Einr.** angegeben haben, kann [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Gewusst wien in diesem Thema fortfahren, stellen Sie sicher, dass Sie die MWST-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden.  
+Auf Grundlage der Informationen, die Sie auf der Seite **MWST-Buchungsmatrix Einr.** angegeben haben, kann [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Gewusst wien in diesem Thema fortfahren, stellen Sie sicher, dass Sie die MWST-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden.  
 
 ## <a name="to-set-up-a-swiss-vat-statement-template"></a>So richten Sie eine MWST-Abrechnungsvorlage für die Schweiz ein  
 
@@ -29,7 +29,7 @@ Auf Grundlage der Informationen, die Sie im Fenster **MWST-Buchungsmatrix Einr.*
 3.  Wählen Sie die Schaltfläche **OK** aus. Wählen Sie die Schaltfläche **Ja** aus, um zu bestätigen, dass Sie eine neue Vorlage erstellen möchten.  
 4.  Überprüfen Sie die daraus entstehende MWST-Abrechnung, und passen Sie sie bei Bedarf an.  
 
-     Die MWST-Abrechnungs-Seite enthält das Feld **MWST-Abrechnungs-Verschlüsselung**, das angibt, in welche Verschlüsselung des Berichts das Ergebnis gedruckt wird. Das Feld wird von der Stapelverarbeitung automatisch anhand der Informationen im Fenster **MWST-Buchungsmatrix Einr.** ausgefüllt. Das Feld kann bei Bedarf bearbeitet werden.  
+     Die MWST-Abrechnungs-Seite enthält das Feld **MWST-Abrechnungs-Verschlüsselung**, das angibt, in welche Verschlüsselung des Berichts das Ergebnis gedruckt wird. Das Feld wird von der Stapelverarbeitung automatisch anhand der Informationen auf der Seite **MWST-Buchungsmatrix Einr.** ausgefüllt. Das Feld kann bei Bedarf bearbeitet werden.  
 
 ## <a name="to-print-the-swiss-vat-statement"></a>So drucken Sie die MWST-Abrechnung (Schweiz)  
 

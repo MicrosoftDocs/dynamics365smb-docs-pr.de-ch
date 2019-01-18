@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d589c05f4b9805e9c8459d2da6d9099e40186aec
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e83d3d039af77772626b75052acb17abf4fb3dd7
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-test-reports-for-delivery-reminders"></a>So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen
@@ -26,9 +26,9 @@ Ein Testbericht ist ein Dokument, anhand dessen Sie eine Lieferbenachrichtigung 
 
 ## <a name="to-print-test-reports-before-issuing-delivery-reminders"></a>So drucken Sie Testberichte vor dem Ausstellen von Lieferbenachrichtigungen  
 
-1.  Wählen Sie in der rechten oberen Ecke ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") und geben **Lieferbenachrichtigungen** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Im Fenster **Lieferbenachrichtigungsliste** auf der Registerkarte Bericht, wählen Sie **Lieferbenachrichtigung** - Test aus.  
-3.  Legen Sie im Fenster **Lieferbenachrichtigung - Test** einen Filter fest, wenn Sie nur ausgewählte Lieferbenachrichtigungen drucken möchten.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen"), geben Sie **Lieferanmahnung** ein, und wählen Sie dann den zugehörigen Link.  
+2.  Wählen Sie auf der Seite **Lieferanmahnungenübersicht** die Aktion **Lieferanmahnung - Test**.  
+3.  Auf der Seite **Lieferanmahnung - Test** können Sie einen Filter, wenn nur ausgewählte Lieferanmahnungen drucken möchten.  
 4.  Wählen Sie **Drucken**, um den Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
 ## <a name="see-also"></a>Siehe auch  

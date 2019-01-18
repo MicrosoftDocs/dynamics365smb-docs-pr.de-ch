@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 67745d971d8886e41bb770873ecb6e06acad0a5a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: eae3de485286d744dbc24b9fa6c9c3ac6bed29d3
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="swiss-electronic-payments-using-lsv"></a>Elektronischer Zahlungsverkehr (Schweiz) mit LSV+
@@ -24,7 +24,7 @@ Die elektronische Zahlungsmethode Lastschrift Verfahren (LSV+) oder Einzug, eine
 
 Die LSV+-Methode ist ein Einzugsverfahren mit Recht auf Widerspruch. BDD (Business Direct Debit) ist ein Einzugsverfahren ohne Recht auf Widerspruch. Die Formate der an die Bank gesendeten Dateien sind für LSV+ und BDD identisch.  
 
-Bevor Sie das LSV-Modul verwenden, müssen die Einstellungen im Fenster **LSV Einrichtung** festgelegt werden.
+Bevor Sie das LSV-Modul verwenden, müssen die Einstellungen auf der Seite **LSV Einrichtung** festgelegt werden.
 
 ## <a name="automatic-esr-processing"></a>Automatische ESR-Verarbeitung  
 Sie können Zahlungsgutschrifttransaktionen im Einzahlungsschein mit Referenznummer (ESR)-Dateiformat von der Bank herunterladen. Wenn die ESR-Referenznummer in das LSV+-System integriert ist, können Sie verarbeitete LSV-Zahlungen in der ESR-Datei erhalten. Wenn LSV+-Zahlungen in Ihren importierten LSV-Dateien enthalten sind, werden die entsprechenden LSV-Journalzeilen automatisch geschlossen. Die automatische ESR-Verarbeitung wird nur bei Zahlungen in Schweizer Franken (CHF) durchgeführt. Hierzu müssen Sie folgende Schritte durchführen:  

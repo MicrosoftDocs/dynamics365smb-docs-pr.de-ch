@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e8072a9e21349f3a8e8f9d21f5b011bae72a69e0
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1b2a83ddbac54d5034b043c3124f698613be4642
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Melden von Kosten und Abstimmen mit der Fibu
@@ -31,7 +31,7 @@ Am Ende von (monatlichen, jährlichen oder anderen) Buchhaltungsperioden muss ei
 |Anzeigen des Lagerwerts ausgewählter Artikel, einschliesslich der tatsächlichen Kosten und der Soll-Kosten zum angegebenen Datum|Bericht **Lagerbew.-Einst.-Pr.-Ermittl.**|  
 |Verwenden eines Berichts zum Analysieren der Ursachen für Kostenschwankungen oder zum Verschaffen eines Überblicks über den Kostenanteil verkaufter Artikel (Lagerverbrauch)|Bericht **Kostenanteilsanalyse**|  
 |Periodisches Buchen der Wertposten von Artikeltransaktionen aus den Lagerposten auf die entsprechenden Fibukonten, um die beiden Bücher abzustimmen|[Abstimmen der Lagerregulierung mit dem Fibuposten](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Verwenden eines Fensters zum Überprüfen der Abstimmung zwischen den Lagerposten und der Finanzbuchhaltung|[Abstimmen der Lagerregulierung mit dem Fibuposten](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Verwenden eines Fensters zum Überprüfen der Abstimmung zwischen den Lagerposten und dem Fibuposten|[Abstimmen der Lagerregulierung mit dem Fibuposten](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Bestimmen des WIP-Betrags, der im Rahmen der Berichterstellung am Periodenende auf Bilanzkonten gebucht werden muss|[Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Siehe auch  

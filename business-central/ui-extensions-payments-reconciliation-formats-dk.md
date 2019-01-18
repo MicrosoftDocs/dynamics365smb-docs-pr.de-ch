@@ -13,10 +13,10 @@ ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c2a2fbae74dd5f6c401cfe8fa9b31c27e90a604b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a39aeebdd75c1511739eb575205b1c7c34c9df11
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ Darüber hinaus müssen Sie Kreditoren einer inländischen **Gen. Bus. Buchungsg
 
 ### <a name="to-allow-included365finincludesd365finmdmd-to-export-payment-data"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] erlauben, Zahlungsdaten zu exportieren
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Zahlungs-Erf.-Journal** ein, und wählen dann den zugehörigen Link aus.  
-2. Wählen Sie im Fenster **Zahlungsausgangs Erf.-Journal bearbeiten** den Stapel **Bank** aus.  
+2. Wählen Sie auf der Seite **Projekt Erf.-Journal bearbeiten** das Feld **Bank** Stapel aus.  
 3. Wählen Sie das Kontrollkästchen **Zahlungsexport erlauben**.  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Gibt die Zahlungsform für jeden Kreditor an.
@@ -66,9 +66,9 @@ Die folgende Tabelle zeigt die FIK- und Kombinationen von GIRO-Zahlungsformen an
 |----|---|---|---|---|
 |Girokonto-Nr. oder FIK-Gläubigerrn.? | Postkontonr. | Postkontonr. | FIK-Kreditornummer | FIK-Kreditornummer|
 |Nachricht an Empfänger zulassen? | Ja |Nein |Nein | Ja |
-|Enthält Zahlungs-Referenznummer? | Nr. | Ja, 16 Ziffern. | Ja, 15 Ziffern. | Nr.|
+|Enthält Zahlungs-Referenznummer? | Nein | Ja, 16 Ziffern. | Ja, 15 Ziffern. | Nein|
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkäufer** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kreditoren** ein, und wählen dann den zugehörigen Link aus.  
 2. Öffnen Sie die Karte, erweitern Sie die Registerkarte **Zahlungen**, im Feld **Zahlungsform** und wählen Sie die Zahlungsmethode.  
 3. Abhängig von Ihrer Wahl müssen Sie weitere Felder ausfüllen. Siehe die Tabelle oben für eine Beschreibung der Kombinationen.  
 

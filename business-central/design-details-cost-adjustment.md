@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f8f5959c25800c1a8d5ee7ed88f4e7a8599ce20a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ace9e09a1f57310e93bb86422c492383690bc04b
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetails: Kostenregulierung
@@ -71,7 +71,7 @@ Weitere Informationen finden Sie unter [Designdetails: Montageauftragsbuchung](d
 Die Kostenregulierung kann auf zwei Arten ausgeführt werden:  
 
 * Manuell durch Ausführen der Stapelverarbeitung **Kostenanpassung  Artikelposten** Stapelverarbeitung. Sie können diese Stapelverarbeitung entweder für alle Artikel oder nur für bestimmte Artikel oder Artikelkategorien ausführen. Dieser Stapelauftrag führt eine Kostenregulierung für die Artikel im Lager durch, für die eine eingehende Transaktion, etwa ein Einkauf, erstellt wurde. Für Artikel, die die Kostenberechnungsmethode Durchschnitt verwenden, nimmt die Stapelverarbeitung auch eine Regulierung vor, wenn ausgehende Transaktionen erstellt werden.  
-* Automatisch, indem die Kosten jedes Mal angepasst werden, wenn Sie eine Lagertransaktion buchen, und wenn Sie einen Fertigungsauftrag schliessen. Die Kostenregulierung wird nur für den speziellen Artikel oder die Artikel ausgeführt, die von der Buchung betroffen sind. Dieses ist eingerichtet, wenn Sie das Kontrollkästchen **Automatische Lagerregulierung** im Fenster **Lager Einrichtung** auswählen.  
+* Automatisch, indem die Kosten jedes Mal angepasst werden, wenn Sie eine Lagertransaktion buchen, und wenn Sie einen Fertigungsauftrag schliessen. Die Kostenregulierung wird nur für den speziellen Artikel oder die Artikel ausgeführt, die von der Buchung betroffen sind. Dieses ist eingerichtet, wenn Sie das Kontrollkästchen **Automatische Lagerregulierung** auf der Seite **Lager Einrichtung** auswählen.  
 
 Es ist sinnvoll, die Kostenregulierung automatisch auszuführen, wenn Sie buchen, da Einheitspreise häufiger aktualisiert werden und daher präziser sind. Der Nachteil besteht darin, dass die Leistung der Datenbank beeinflusst werden kann, wenn die Kostenregulierung so oft ausführt wird.  
 
@@ -79,7 +79,7 @@ Da es wichtig ist, den Einstandspreis eines Artikels auf dem neuesten Stand zu h
 
 Unabhängig davon, ob Sie die Kostenregulierung manuell oder automatisch erstellt wurde, der Regulierungsvorgang und seine Auswirkungen sind identisch. [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet den Wert der eingehenden Transaktion und übergibt diese Kosten an alle ausgehenden Vorgängen, wie Verkaufs- oder Verbrauch, die mit der eingehenden Transaktion ausgeglichen wurden. Die Kostenregulierung erstellt Wertposten, die Ausgleichsbeträge und Beträge enthalten, die die Rundung kompensieren.  
 
-Die neuen Ausgleichs- und Rundungswertposten haben das Buchungsdatum der zugehörigen Rechnung. Ausnahmen sind, wenn die Wertposten in eine geschlossene Buchhaltungsperiode oder Lagerbuchungsperiode fallen, oder wenn das Buchungsdatum vor dem Datum im Feld **Buchungen zugel. ab** im Fenster **Fibu Einrichtung** liegt. Wenn dies auftritt, weist die Stapelverarbeitung das Buchungsdatum als erstes Datum der nächsten offenen Periode zu.  
+Die neuen Ausgleichs- und Rundungswertposten haben das Buchungsdatum der zugehörigen Rechnung. Ausnahmen sind, wenn die Wertposten in eine geschlossene Buchhaltungsperiode oder Lagerbuchungsperiode fallen, oder wenn das Buchungsdatum vor dem Datum im **Buchen ab zulassen**-Feld auf der Seite **Finanzbuchhaltung einrichten** liegt. Wenn dies auftritt, weist die Stapelverarbeitung das Buchungsdatum als erstes Datum der nächsten offenen Periode zu.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Lagerreg. fakt. Einst. Preise (Stapelverarbeitung)  
 Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge anpassen**, haben Sie die Möglichkeit, den Batchauftrag für alle Artikel oder nur für bestimmte Artikel oder Kategorien zu aktivieren.  
@@ -143,7 +143,7 @@ Später buchen Sie einen zugehörigen Einkaufsartikelzuschlag für 2,00 MW faktu
 |01-15-20|[COGS-Konto]|7290||2.00|8|  
 
 ## <a name="automatic-cost-adjustment"></a>Automatische Kostenregulierung  
-Um einzurichten, dass Kostenregulierung automatisch ausgeführt wird, wenn Sie eine Lagertransaktion buchen, verwenden Sie das Feld **Automatische Kostenanpassung** im Fenster **Bestand-Einrichtugn**. Dieses Feld ermöglicht Ihnen, auszuwählen, wie weit zurück vom aktuellen Arbeitsdatum die automatische Lagerregulierung ausgeführt werden soll. Folgende Optionen sind verfügbar.  
+Um einzurichten, dass Kostenregulierung automatisch ausgeführt wird, wenn Sie eine Lagertransaktion buchen, verwenden Sie das Feld **Automatische Kostenanpassung** auf der Seite **Bestand-Einrichtugn**. Dieses Feld ermöglicht Ihnen, auszuwählen, wie weit zurück vom aktuellen Arbeitsdatum die automatische Lagerregulierung ausgeführt werden soll. Folgende Optionen sind verfügbar.  
 
 |Option|Description|  
 |----------------------------------|---------------------------------------|  

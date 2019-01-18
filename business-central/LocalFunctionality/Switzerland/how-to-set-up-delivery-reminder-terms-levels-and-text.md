@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6ddda815d211440dfd18982bcec5b8ae15aafc4c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: db6b7ce34061ff8cb7c657549ea65afa93976ede
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text"></a>Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text
@@ -46,7 +46,7 @@ Weitere Informationen finden Sie unter [Lieferbenachrichtigungen](delivery-remin
 
 ## <a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a>So richten Sie Lieferbenachrichtigungsstufen für Lieferbenachrichtigungsmethoden ein  
 
-1.  Klicken Sie im Fenster **Lieferbenachrichtigungsbestimmungen** in die Zeile mit der Methode, für die Sie Stufen anlegen möchten, und wählen Sie dann die Aktion **Stufen**.  
+1.  Wählen Sie auf der Seite **Lieferanmahnungsmethoden** die Lieferanmahnung aus, der Sie Stufen hinzufügen möchten, und wählen Sie dann die Aktion **Bearbeiten**.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
 
@@ -63,7 +63,7 @@ Nachfolgend wird beschrieben, wie Vortextnachrichten eingerichtet werde. Aber di
 
 ## <a name="to-set-up-delivery-reminder-text-messages"></a>Lieferbenachrichtigungstextnachrichten einrichten  
 
-1.  Im Fenster **Lieferbenachrichtigungsstufen** wählen Sie eine Ebene, und wählen die Aktion **Vortext** aus.  
+1.  Wählen Sie auf der Seite **Lieferanmahnungsstufen** eine Stufe aus, und wählen Sie dann die Aktion **Vortext**.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Geben Sie im Feld **Beschreibung** die Vortextnachricht für die Lieferbenachrichtigung ein.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  

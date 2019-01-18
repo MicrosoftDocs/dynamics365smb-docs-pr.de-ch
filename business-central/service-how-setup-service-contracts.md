@@ -13,10 +13,10 @@ ms.search.keywords: service, cost, service order
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 35dcecb6b3510101026202cb6548aa936d74b25c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a965721aef3769aa1e794c0edb9ffa48faf99541
 ms.contentlocale: de-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,7 +26,7 @@ Um mit Verträgen arbeiten zu können, müssen Sie Folgendes einrichten:
 * Die Tabelle **Servicevertragsgruppe** enthält eine Gruppe von Serviceverträgen, die miteinander in Verbindung stehen.
 * Sie können **Servicevertragskontengruppen** verwenden, um Serviceverträge zu gruppieren. Diese Gruppen können dann für die Servicerechnungen von Serviceverträgen verwendet werden. Sie können diese Gruppen anschliessend Ihren Serviceverträgen zuordnen.  
 * Sie können **Vertragsvorlagen** als eine vordefinierte Grundlage für Serviceverträge verwenden, die die gängigsten Servicevertragsdetails enthält. Wenn Sie Servicevertragsofferten erstellen, können Sie diese unter Verwendung dieser Vorlagen erstellen. Wenn Sie eine neue Vertragsofferte erstellen, enthalten die Felder automatisch den Inhalt der Vorlagenfelder.
-* **Debitorenvorlagen**, mit denen Sie Offerten für Kontakte oder potenzielle Kunden erstellen können, die nicht als Debitoren in [!INCLUDE[d365fin](includes/d365fin_md.md)] registriert sind.  
+* **Debitorenvorlagen**, mit denen Sie Offerten für Kontakte oder potenzielle Debitoren erstellen können, die nicht als Debitoren in [!INCLUDE[d365fin](includes/d365fin_md.md)] registriert sind.  
 
 ## <a name="to-set-up-a-service-contract-group"></a>So richten Sie Servicevertragsgruppen ein  
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Servicevertragsgruppen** ein, und wählen dann den zugehörigen Link aus.  
@@ -45,7 +45,7 @@ Um mit Verträgen arbeiten zu können, müssen Sie Folgendes einrichten:
 2. Erstellen Sie eine neue Servicevertragsvorlage.  
 3. Geben Sie im Feld **Nr.** eine Nummer für die Vertagsvorlage ein.  
   
-     Wenn Sie Nummernserien für Vertragsvorlagen im Fenster **Service Einrichtung** definiert haben, drücken Sie die EINGABETASTE, damit die nächste verfügbare Vertragsvorlagennummer eingefügt wird. Füllen Sie die anderen Felder aus, falls diese benötigt werden.  
+     Wenn Sie Nummernserien für Vertragsvorlagen auf der Seite **Service Einrichtung** definiert haben, drücken Sie die EINGABETASTE, damit die nächste verfügbare Vertragsvorlagennummer eingefügt wird. Füllen Sie die anderen Felder aus, falls diese benötigt werden.  
   
 4. Füllen Sie im Inforegister **Rechnung** das Feld **Servicevertragskonto-Gruppencode** aus und geben Sie das **Fakturierungsintervall** usw. an. Füllen Sie die anderen Felder aus, falls diese benötigt werden.  
 5. Wählen Sie die **Servicerabatte** Aktion aus, um Vertragsrabatte hinzuzufügen.  
