@@ -11,10 +11,10 @@ ms.search.keywords: access, right, security
 ms.date: 11/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 6cbce557e03788f760cb9f73dccf1619aa6a9e8c
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 78e83ee0740531935bd30a5988a72d1421a1fd89
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="managing-users-and-permissions"></a>Benutzer und ihre Berechtigungen verwalten
@@ -64,7 +64,7 @@ Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definie
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Benutzer einrichten** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie auf der Seite **Benutzereinrichtung** die Aktion **Neu** aus.
-3. In dem Feld **Benutzer-ID** geben Sie die ID eines Benutzers ein, oder wählen Sie das Feld aus, um alle Nutzer der aktiven Seiten im System anzuzeigen.
+3. In dem Feld **Benutzer-ID** geben Sie die ID eines Benutzers ein, oder wählen Sie das Feld aus, um alle Nutzer der aktiven Fenster im System anzuzeigen.
 4. Füllen Sie die Felder je nach Bedarf aus.
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Um ein Berechtigungssatz zu erstellen oder zu ändern
@@ -106,7 +106,7 @@ In jedem der fünf Zugriffstypfelder **Leseberechtigung**, **Einfügeberechtigun
 
 ### <a name="example---indirect-permission"></a>Beispiel - Indirekte Berechtigungen
 Sie können indirekte Berechtigungen zuweisen, um ein Objekt nur über ein anderes Objekt zu verwenden.
-Beispielsweise kann ein Benutzer die Berechtigung haben, Codeunit 80 Verkaufsbuchung auszuführen. Die Verkaufsbuchung Codeunit führt viele Aufgaben aus, einschliesslich der Bearbeitung von Tabelle 37 Verkaufsposition aus. Wenn der Benutzer ein Verkaufsbeleg bucht, überprüft die Codeunit "Vertrieb-Beitrag" [!INCLUDE[d365fin](includes/d365fin_md.md)], ob der Benutzer über die Berechtigung zum Bearbeiten der Tabelle "Verkaufszeile" verfügt. Wenn nicht, kann die Codeunit ihre Aufgaben nicht ausführen und der Benutzer erhält eine Fehlermeldung. In diesem Fall wird die Codeunit erfolgreich ausgeführt.
+Beispielsweise kann ein Benutzer die Berechtigung haben, Codeunit 80 Verkaufsbuchung auszuführen. Die Verkaufsbuchung Codeunit führt viele Aufgaben aus, einschließlich der Bearbeitung von Tabelle 37 Verkaufsposition aus. Wenn der Benutzer ein Verkaufsbeleg bucht, überprüft die Codeunit "Vertrieb-Beitrag" [!INCLUDE[d365fin](includes/d365fin_md.md)], ob der Benutzer über die Berechtigung zum Bearbeiten der Tabelle "Verkaufszeile" verfügt. Wenn nicht, kann die Codeunit ihre Aufgaben nicht ausführen und der Benutzer erhält eine Fehlermeldung. In diesem Fall wird die Codeunit erfolgreich ausgeführt.
 
 Jedoch muss der Anwender keinen vollen Zugriff auf die Tabelle Verkaufszeile haben, um Codeunit auszuführen. Wenn der Benutzer über indirekte Berechtigungen für die Tabelle "Verkaufszeile" verfügt, wird die Codeunit "Verkaufseinheit" erfolgreich ausgeführt. Wenn ein Benutzer über indirekte Berechtigungen verfügt, kann dieser Benutzer die Tabelle Verkaufszeile nur ändern, indem die Verkaufsbuchung Codeunit oder ein anderes Objekt ausgeführt wird, das die Berechtigung zum ändern der Tabelle Verkaufspositionhat. Der Benutzer kann die Tabelle Verkaufsposition nur von unterstützten Anwendungsbereichen aus ändern. Der Benutzer kann die Funktion mit anderen Methoden nicht unbeabsichtigt oder böswillig ausführen.
 

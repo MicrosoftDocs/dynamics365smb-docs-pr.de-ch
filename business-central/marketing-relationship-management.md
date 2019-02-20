@@ -13,16 +13,16 @@ ms.search.keywords: contact, prospect, client
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0e4eb532a5e4cb54d45740343a62cbd69fd742eb
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: b3c766e8a43a0d4d4348a504b5142f7b83f8537a
 ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/24/2019
 
 ---
 # <a name="managing-relationships"></a>Verwalten von Beziehungen
-Die Marketing & Vertriebsverwaltungsfeatures von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützen Sie beim Verwalten und Ausführen von Verkaufsmassnahmen. Mit diesen Features haben Sie Zugriff auf umfassende und exakte Informationen, dank derer Sie Ihre Aktivitäten auf bevorzugte Debitoren-Kontaktsegmente konzentrieren können.
+Die Marketing & Vertriebsverwaltungsfeatures von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützen Sie beim Verwalten und Ausführen von Verkaufsmaßnahmen. Mit diesen Features haben Sie Zugriff auf umfassende und exakte Informationen, dank derer Sie Ihre Aktivitäten auf bevorzugte Debitoren-Kontaktsegmente konzentrieren können.
 
-Bei Verkaufs- und Marketingmassnahmen dreht sich alles um die richtige Entscheidung und das richtige Timing. [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt eine exakte und zeitnahe Übersicht über die Kontaktinformationen bereit, die es Ihnen ermöglicht, Interessenten gegenüber effizienter aufzutreten und die Kundenzufriedenheit zu steigern.
+Bei Verkaufs- und Marketingmaßnahmen dreht sich alles um die richtige Entscheidung und das richtige Timing. [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt eine exakte und zeitnahe Übersicht über die Kontaktinformationen bereit, die es Ihnen ermöglicht, Interessenten gegenüber effizienter aufzutreten und die Kundenzufriedenheit zu steigern.
 
 Um mit der Kostenrechnung anzufangen, sehen Sie sich die folgenden Themen an.
 
@@ -35,9 +35,8 @@ Um mit der Kostenrechnung anzufangen, sehen Sie sich die folgenden Themen an.
 ## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)  
 [Marketing & Vertrieb einrichten](marketing-setup-marketing.md)  
-[Die erstellten Debitoren und Verkäufe in Dynamics 365 for Sales verwalten](marketing-integrate-dynamicscrm.md)  
+[Dynamics 365 for Sales Integration](marketing-integrate-dynamicscrm.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

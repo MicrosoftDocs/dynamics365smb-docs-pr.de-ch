@@ -1,6 +1,6 @@
 ---
 title: Importieren von Bankenclearing-Nummern (Schweiz)
-description: "Bankenclearingnummern sind eindeutige Nummern zur Kennzeichnung der einzelnen Bankagenturen oder Filialen im Bankenstamm. Diese Informationen sind Voraussetzung für elektronische Zahlung. Die Datei kann auf der Website von [SIX Interbank Clearing](https://go.microsoft.com/fwlink/?LinkId=145121) heruntergeladen werden."
+description: "Bankenclearingnummern sind eindeutige Nummern zur Kennzeichnung der einzelnen Bankagenturen oder Filialen im Bankenstamm. Diese Informationen sind Voraussetzung für elektronische Zahlung. Die Datei kann auf der Website von SIX Interbank Clearing heruntergeladen werden."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f9e678e78707ced34c1d342594531f6eff547df4
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 9c3be847165129894228a04bca9dbbc67b7091a4
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="import-swiss-bank-clearing-numbers"></a>Importieren von Schweizer Bankenclearingnummern

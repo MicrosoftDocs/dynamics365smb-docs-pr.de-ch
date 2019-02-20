@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 95264e2f011ab22a4c83343e933bfcf69b38948a
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: 396aefb64b4bc4f4555ae3a512656aa3c66bad20
 ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Exemplarische Vorgehensweise: Berechnen der WIP für ein Projekt
+
+**Hinweis**: In dieser exemplarischen Vorgehensweise muss in einem Demomandanten mit der Option **Volle Auswertung - vollständige Beispieldaten** ausgeführt werden, die in der Sandboxumgebung verfügbar ist. Weitere Informationen finden Sie unter [Erstellen einer Sandbox-Umgebung](across-how-create-sandbox-environment.md).
+
 Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen und die verschiedenen Kosten im Zusammenhang mit dem Verbrauch von Ressourcen für ein bestimmtes Projekt verfolgen. Projekte beinhalten den Verbrauch von Mitarbeiterstunden, Maschinenstunden, Bestandsposten und andere Verbrauchsarten, die während des Projekts verfolgt werden müssen. Wenn ein Projekt über einen langen Zeitraum läuft, müssen diese Kosten möglicherweise noch während des Projekts in ein Konto für unfertige Arbeit (WIP) in der Bilanz übertragen werden. So können Sie die Kosten und den Umsatz wie erforderlich in den Erfolgsrechnungskonten deklarieren.  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
@@ -40,7 +43,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
  Bevor Sie die Aufgaben in dieser Demonstration ausführen, muss [!INCLUDE[d365fin](includes/d365fin_md.md)] auf dem Computer installiert sein.  
 
 ## <a name="story"></a>Hintergrund  
- Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und Beratungsunternehmen, das neue Infrastrukturen anpasst, wie Konferenzräume mit Möblen, Zubehör und Lagereinheiten. Ein Grossteil der Arbeit am CRONUS ist projektorientiert, und Tricia, ein Projektteammitglied, verwendet Projekte, um einen Überblick über die einzelnen laufenden Projekte zu erhalten, die CRONOS  gestartet hat, und auch über die Projekte, die abgeschlossen sind. Einige der Projekte können langfristig sein und sich über Monate erstrecken. Katrin kann ein Unf.-Arbeit-Konto verwenden, um die unfertige Arbeit zu erfassen und die Kosten während des Projekts zu verfolgen.  
+ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und Beratungsunternehmen, das neue Infrastrukturen anpasst, wie Konferenzräume mit Möblen, Zubehör und Lagereinheiten. Ein Großteil der Arbeit am CRONUS ist projektorientiert, und Tricia, ein Projektteammitglied, verwendet Projekte, um einen Überblick über die einzelnen laufenden Projekte zu erhalten, die CRONOS  gestartet hat, und auch über die Projekte, die abgeschlossen sind. Einige der Projekte können langfristig sein und sich über Monate erstrecken. Katrin kann ein Unf.-Arbeit-Konto verwenden, um die unfertige Arbeit zu erfassen und die Kosten während des Projekts zu verfolgen.  
 
 ## <a name="calculating-wip"></a>Berechnen der WIP  
  CRONUS hat ein Projekt mit langer Laufzeit übernommen, das sich nun über mehrere Berichtszeiträume erstreckt. Katrin, ein Projektteammitglied, berechnet die unfertige (WIP) Arbeit, um sicherzustellen, dass die Finanzaufstellung des Unternehmens korrekt ist.  
