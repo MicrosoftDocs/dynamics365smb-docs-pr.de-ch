@@ -1,1 +1,1 @@
-<span data-ttu-id="8dd35-101">Buchhalter Portal</span><span class="sxs-lookup"><span data-stu-id="8dd35-101">Accountant Hub</span></span>
+<span data-ttu-id="6af8c-101">Accountant Hub</span><span class="sxs-lookup"><span data-stu-id="6af8c-101">Accountant Hub</span></span>

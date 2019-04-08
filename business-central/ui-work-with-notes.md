@@ -1,28 +1,28 @@
 ---
-title: "Hinzufügen von Informationen zu Datensätzen | Microsoft Docs"
-description: "Hinzufügen einer Notiz zu einem beliebigen Datensatz in der Anwendung. Falls Sie beispielsweise zusätzliche Informationen zu einem Verkaufsauftrag besitzen, die nicht vollständig in einem der Felder im Verkaufsauftrag eingegeben werden können, können Sie eine Notiz verfassen."
+title: Hinzufügen von Informationen zu Datensätzen | Microsoft Docs
+description: Hinzufügen einer Notiz zu einem beliebigen Datensatz in der Anwendung. Falls Sie beispielsweise zusätzliche Informationen zu einem Verkaufsauftrag besitzen, die nicht vollständig in einem der Felder im Verkaufsauftrag eingegeben werden können, können Sie eine Notiz verfassen.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 748e148e99a6c99a5a2ebf5f05a87350bee26ae7
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "818888"
 ---
-# <a name="add-and-view-notes-on-records"></a><span data-ttu-id="96df0-104">Notizen zu Datensätzen hinzufügen und anzeigen</span><span class="sxs-lookup"><span data-stu-id="96df0-104">Add and View Notes on Records</span></span>
- <span data-ttu-id="96df0-105">Sie <!--OnPrem and your colleagues -->können Notizen den Datensätzen in der Anwendung hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="96df0-105">You <!--OnPrem and your colleagues -->can add notes to records in the application.</span></span> <span data-ttu-id="96df0-106">Viele Seiten, insbesondere diejenigen, die eine Liste der Datensätze, wie die Seite **Verkaufsaufträge** anzeigen, enthalten die **Notizen** Aktion oder die Infobox **Notizen**.</span><span class="sxs-lookup"><span data-stu-id="96df0-106">Many pages, particularly those that display a list of records, such as the **Sales Orders** page, include the **Notes** action or the **Notes** FactBox.</span></span> <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
+# <a name="add-and-view-notes-on-records"></a><span data-ttu-id="eb74a-104">Notizen zu Datensätzen hinzufügen und anzeigen</span><span class="sxs-lookup"><span data-stu-id="eb74a-104">Add and View Notes on Records</span></span>
+ <span data-ttu-id="eb74a-105">Sie <!--OnPrem and your colleagues -->können Notizen den Datensätzen in der Anwendung hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="eb74a-105">You <!--OnPrem and your colleagues -->can add notes to records in the application.</span></span> <span data-ttu-id="eb74a-106">Viele Seiten, insbesondere diejenigen, die eine Liste der Datensätze, wie die Seite **Verkaufsaufträge** anzeigen, enthalten die **Notizen** Aktion oder die Infobox **Notizen**.</span><span class="sxs-lookup"><span data-stu-id="eb74a-106">Many pages, particularly those that display a list of records, such as the **Sales Orders** page, include the **Notes** action or the **Notes** FactBox.</span></span> <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
  > [!NOTE]  
- >  <span data-ttu-id="96df0-107">Diese Funktion ist zurzeit nicht verfügbar.</span><span class="sxs-lookup"><span data-stu-id="96df0-107">This feature is currently not available.</span></span>  
+ >  <span data-ttu-id="eb74a-107">Diese Funktion ist zurzeit nicht verfügbar.</span><span class="sxs-lookup"><span data-stu-id="eb74a-107">This feature is currently not available.</span></span>  
 
 <!--OnPrem
 > [!NOTE]  
@@ -47,6 +47,5 @@ ms.lasthandoff: 11/22/2018
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
 <!--OnPrem
 3.  Choose the **OK** button.  -->
-## <a name="see-also"></a><span data-ttu-id="96df0-108">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="96df0-108">See Also</span></span>
-<span data-ttu-id="96df0-109">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="96df0-109">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-
+## <a name="see-also"></a><span data-ttu-id="eb74a-108">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="eb74a-108">See Also</span></span>
+<span data-ttu-id="eb74a-109">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="eb74a-109">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
