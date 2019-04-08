@@ -1,8 +1,8 @@
 ---
 title: Financial Management| Microsoft Docs
-description: "Informationen zu Aufgaben, Finanzen in Ihrem Unternehmen einzurichten, um Ihrer Buchhaltung, oder Buchhaltungsanforderungen Prüfungen zu entsprechen."
+description: Informationen zu Aufgaben, Finanzen in Ihrem Unternehmen einzurichten, um Ihrer Buchhaltung, oder Buchhaltungsanforderungen Prüfungen zu entsprechen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: edupont
+ms.openlocfilehash: d095e710d33882cc39772c35a495b39e08e0c729
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: e4cda1f4770117065d1650a0c51dbd46fdf8baac
-ms.contentlocale: de-ch
-ms.lasthandoff: 05/17/2018
-
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832542"
 ---
 # <a name="finance"></a>Finanzen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
 
-Die Standardkonfiguration enthält Kontenpläne und Standardbuchungsgruppen, die das Zuordnen von standardmässigen Sachkontobuchungskonten zu Debitoren, Kreditoren und Artikeln effizienter gestalten.  
+Die Standardkonfiguration enthält Kontenpläne und Standardbuchungsgruppen, die das Zuordnen von standardmäßigen Sachkontobuchungskonten zu Debitoren, Kreditoren und Artikeln effizienter gestalten.  
 
 In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
 
@@ -33,7 +33,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Lassen Sie Ihre Debitoren zahlen, bevor Sie liefern, oder machen Sie die Zahlung an Ihre Kreditoren, bevor diese an Sie liefern.|[Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)|
 | Stimmen Sie Bankkonten ab und transferieren Sie Beträge zwischen Bankkonten. |[Verwalten von Bankkonten](bank-manage-bank-accounts.md) |
 |Einrichten von Intercompanypartner und verarbeiten von Transaktionen, manuzell oder automatisch, zwischen juristischen Personen innerhalb derselben Mandanten.|[Intercompanytransaktionen verwalten](intercompany-manage.md)|
-|Kombiniert Fibuposten aus mehreren Mandanten in einem konsolidierten virtuellen "Mandanten" für Finanzanalyse.|[Konsolidieren von Finanzdaten aus mehreren Unternehmen](finance-consolidated-company-reporting.md)|
+|Kombinieren Sie Fibuposteneinträge aus mehreren Unternehmen in einem konsolidierten virtuellen Unternehmen für die Finanzanalyse.|[Konsolidieren von Finanzdaten aus mehreren Unternehmen](finance-consolidated-company-reporting.md)|
 |Analysieren der laufenden Geschäftskosten durch das Zuordnen der tatsächlichen und budgetierten Kosten für Arbeitsgänge, Abteilungen, Produkte und Projekte zur Analyse der Rentabilität Ihres Unternehmens|[Kostenrechnung](finance-manage-cost-accounting.md)|
 |Verwalten von Lager- und Fertigungskosten, Melden von Kosten und Abstimmen von Kosten mit der Finanzbuchhaltung|[Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)|
 | Entwickeln Sie ein Verständnis für die Fibuposten und den Kontenplan |[Verständnis der Fibu und des COA](finance-general-ledger.md) |
@@ -49,7 +49,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Importieren Sie Gehaltstransaktionen von Ihrem Gehaltsabrechnungsanbieter in die Fibuposten. |[Lohntransaktionen importieren](finance-how-import-payroll-transactions.md)|
 | Überwachen Sie den Ablauf des Bargeldes für Ihr Unternehmen. |[Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md) |
 | Arbeiten mit Finanzberichten und -übersichten in Excel. |[Analysieren von Finanzauswertungen in Excel](finance-analyze-excel.md) |
-| Bereiten Sie den Abschluss eines Geschäftsjahres oder eines -zeitraums vor. |[Beenden von Jahresabschluss und Perioden](year-close-years-periods.md) |
+| Bereiten Sie den Abschluß eines Geschäftsjahres oder eines -zeitraums vor. |[Beenden von Jahresabschluss und Perioden](year-close-years-periods.md) |
 |Erfahren Sie, wie Sie einen Bericht erstellen, der die MWST aus Verkäufen in einer Zeilenliste in einer Periode darstellt, und übermitteln Sie den Bericht an die Behörden in der EU. | [Melden der MWST an die Steuerbehörden](finance-how-report-vat.md)|
 
 ## <a name="see-also"></a>Siehe auch
@@ -58,10 +58,8 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Einkauf](purchasing-manage-purchasing.md)  
 [Schliessen des Finanzzeitraums](year-close-years-periods.md)  
 [Projekte verwalten](projects-manage-projects.md)    
-[Importieren von Daten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Importieren von Daten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)A  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

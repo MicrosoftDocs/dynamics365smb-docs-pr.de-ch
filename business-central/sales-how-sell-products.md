@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 615002593edbb459b448ba75f98601e37cf59792
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "819708"
 ---
 # <a name="sell-products"></a>Produkte verkaufen
 Sie erstellen eine Verkaufsrechnung oder eine Bestellung, um Ihre Vereinbarung mit dem Debitoren zu erfassen, um bestimmte Produkte unter speziellen Liefer- und Zahlungsbedingungen zu verkaufen.
@@ -115,7 +115,7 @@ Sie können die Debitorenfelder des Verkaufsangebotes auf zwei Arten ausfüllen,
 
     Wenn Sie Rechnungsrabatte für den Debitor eingerichtet haben, wird der angegebene Prozentwert automatisch in das Feld **Rechnungsrabatt in Prozent** eingetragen, sobald die Kriterien erfüllt sein, und der entsprechende Betrag wird im Feld **Rechnungsbetrag mit Rabatt ohne Mehrwertsteuer** eingefügt. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Skonti und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
 23. Um nur einen Teil der Auftragsmenge zu liefern, geben Sie die Menge im Feld **Zu liefernde Menge** ein. Der Wert wird in das Feld **Zu fakturierende Menge** kopiert.
-24. Um nur einen Teil der Auftragsmenge zu fakturieren, geben Sie die Menge im Feld **Zu fakturierende Menge** ein. Die zu fakturierende Menge kann nicht grösser sein, als der Wert im Feld **Zu liefernde Menge**.   
+24. Um nur einen Teil der Auftragsmenge zu fakturieren, geben Sie die Menge im Feld **Zu fakturierende Menge** ein. Die zu fakturierende Menge kann nicht größer sein, als der Wert im Feld **Zu liefernde Menge**.   
 25. Wenn die Verkaufsangebotszeilen ausgeführt werden, wählen Sie die Aktion **Buchen und Senden** aus.
 
 Das Dialogfeld **Buchungs- und Sendebestätigung** zeigt die gewünschte Methode des Debitors das Empfangen von Belegen an. Sie können die Sendemethode ändern, indem Sie die Schaltfläche vom Feld **Beleg senden an** auswählen. Weitere Informationen finden Sie unter [Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).
@@ -128,4 +128,3 @@ Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst ers
 [Lagerbesttand](inventory-manage-inventory.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

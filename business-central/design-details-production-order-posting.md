@@ -1,23 +1,23 @@
 ---
 title: 'Designdetails: Fertigungsauftragsbuchung | Microsoft Docs'
-description: "Ähnlich wie bei der Montageauftragsbuchung werden die verbrauchten Komponenten und die verwendete Maschinenzeit konvertiert und als gefertigter Artikel ausgegeben, wenn der Fertigungsauftrag abgeschlossen wird."
+description: Ähnlich wie bei der Montageauftragsbuchung werden die verbrauchten Komponenten und die verwendete Maschinenzeit konvertiert und als gefertigter Artikel ausgegeben, wenn der Fertigungsauftrag abgeschlossen wird.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: b71f12ad075197f1630e681b826ec3dff1f4ddff
-ms.contentlocale: de-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "819693"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetails: Fertigungsauftragsbuchung
 Ähnlich wie bei der Montageauftragsbuchung werden die verbrauchten Komponenten und die verwendete Maschinenzeit konvertiert und als gefertigter Artikel ausgegeben, wenn der Fertigungsauftrag abgeschlossen wird. Weitere Informationen finden Sie unter [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md). Der Kostenfluss für Montageaufträge ist jedoch weniger Komplex, insbesondere da die Buchung der Montagekosten nur einmal geschieht und daher keinen WIP-Bestand generiert.
@@ -34,7 +34,7 @@ Daher muss ein Produktionsbetrieb, abgesehen von regulären Lagerkonten, drei ve
 
 |Lagerkonto|Description|  
 |-----------------------|---------------------------------------|  
-|**Rohmaterialkonto**|Schliesst die Kosten des Rohmaterials ein, das gekauft wurde, aber noch nicht der Produktion übertragen wurde. Der Saldo im Rohmaterialkonto gibt die Kosten des Rohmaterials im Lagerbestand an.<br /><br /> Wenn Rohmaterial in der Produktionsabteilung erstellt werden, werden die Kosten der Materialien vom Rohmaterialkonto in das Unf.-Arbeit-Konto übertragen.|  
+|**Rohmaterialkonto**|Schließt die Kosten des Rohmaterials ein, das gekauft wurde, aber noch nicht der Produktion übertragen wurde. Der Saldo im Rohmaterialkonto gibt die Kosten des Rohmaterials im Lagerbestand an.<br /><br /> Wenn Rohmaterial in der Produktionsabteilung erstellt werden, werden die Kosten der Materialien vom Rohmaterialkonto in das Unf.-Arbeit-Konto übertragen.|  
 |**Konto für nicht abgeschlossene Arbeit**|Akkumuliert die Kosten, die während der Produktion in der Buchhaltungsperiode anfallen. Das Unf.-Arbeit-Konto wird für die Kosten von Rohmaterialien, die aus dem Rohmateriallager übertragen werden, die Kosten der direkten durchgeführten Arbeit und die anfallenden Produktionsgemeinkosten belastet.<br /><br /> Das Unf.-Arbeit-Konto wird für die Gesamtproduktionskosten der Einheiten gutgeschrieben, die in der Fabrik abgeschlossen und zum Fertigartikel-Lager umgelagert werden.|  
 |**Fertigerzeugniswarenkonto**|Dieses Konto umfasst die Gesamtproduktionskosten der Einheiten, die abgeschlossen, aber noch nicht verkauft wurden. Zum Zeitpunkt des Verkaufs werden die Kosten der verkauften Einheiten vom Fertigerzeugniswarenkonto zum Wareneinsatzkonto übertragen.|  
 
@@ -95,7 +95,7 @@ Die tatsächlichen Kosten eines Fertigungsauftrags bestehen aus den folgenden Ko
 -   Tatsächliche Kapazitätskosten oder Fremdarbeiterkosten  
 -   Produktionsgemeinkosten  
 
-Diese Ist-Kosten werden im Produktionsauftrag gebucht und mit den Standardkosten verglichen, um Abweichungen zu berechnen. Abweichungen werden für jeden der Artikelkostenkomponenten berechnet: Rohmaterial, Kapazität, Zuliefereraufwand, Kapazitätsgemeinkosten und Produktionsgemeinkosten. Die Abweichungen können analysiert werden, um Probleme, wie übermässigen Abfall bei Fertigung zu ermitteln.  
+Diese Ist-Kosten werden im Produktionsauftrag gebucht und mit den Standardkosten verglichen, um Abweichungen zu berechnen. Abweichungen werden für jeden der Artikelkostenkomponenten berechnet: Rohmaterial, Kapazität, Zuliefereraufwand, Kapazitätsgemeinkosten und Produktionsgemeinkosten. Die Abweichungen können analysiert werden, um Probleme, wie übermäßigen Abfall bei Fertigung zu ermitteln.  
 
 In Standard-Kostenumgebungen basiert die Kalkulation eines Fertigungsauftrags auf dem folgenden Mechanismus:  
 
@@ -112,4 +112,3 @@ In Standard-Kostenumgebungen basiert die Kalkulation eines Fertigungsauftrags au
  [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md)  
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)[Finanzen](finance.md)  
  [Arbeiten mit  Business Central](ui-work-product.md)
-

@@ -1,22 +1,22 @@
 ---
 title: Designdetails | Microsoft Docs
-description: "Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwendungsbereiche in  Business Central."
+description: Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwendungsbereiche in  Business Central.
 author: SorenGP
-documentationcenter: 
+documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: f374daae5d7135324ef4fc3da4845a992aa0ccb5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 11f8ab8463270723c1974791a6ff295fd1ca31aa
-ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "819132"
 ---
 # <a name="design-details"></a>Designdetails
 Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwendungsbereiche in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -25,7 +25,7 @@ Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwe
 
 |**Bis**|**Siehe**|  
 |------------|-------------|  
-|Erhalten Sie Informationen zum Speichern und Buchen von Dimensionen, einschliesslich Codebeispiele dazu, wie Dimensionscode migriert und aktualisiert werden.|[Designdetails: Dimensionssatzposten](design-details-dimension-set-entries.md)|  
+|Erhalten Sie Informationen zum Speichern und Buchen von Dimensionen, einschließlich Codebeispiele dazu, wie Dimensionscode migriert und aktualisiert werden.|[Designdetails: Dimensionssatzposten](design-details-dimension-set-entries.md)|  
 |Erfahren Sie, wie das Planungssystem arbeitet und wie die Algorithmen angepasst werden, um Planungsbedingungen in verschiedenen Umgebungen zu erfüllen.|[Designdetails: Vorratsplanung](design-details-supply-planning.md)|  
 |Verstehen Sie Mechanismen im Kalkulationsmodul, wie Lagerabgangsmethode und Kostenregulierung, und für welche Bilanzierungsgrundsätze sie vorgesehen sind.|[Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)|  
 |Informationen zu zentralen Prinzipien hinter den erweiterten und Basislagerfunktionen und wie diese mit anderen Lieferkettenfunktionen verknüpft werden können.|[Designdetails: Logistik](design-details-warehouse-management.md)|  
@@ -41,4 +41,3 @@ Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwe
 
  ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
   
-

@@ -1,23 +1,23 @@
 ---
 title: 'Designdetails: Konten in der Fibu | Microsoft Docs'
-description: "Um Lagerbestände und Kapazitätsposten mit der Finanzbuchhaltung abzustimmen, werden die zugehörigen Wertposten auf verschiedene Konten in der Finanzbuchhaltung gebucht."
+description: Um Lagerbestände und Kapazitätsposten mit der Finanzbuchhaltung abzustimmen, werden die zugehörigen Wertposten auf verschiedene Konten in der Finanzbuchhaltung gebucht.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: e5ce2fe305d94378b2bef118237917db6bfba5b8
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 40bad9c2772627f70c0e33c8138539e88a76bdbb
-ms.contentlocale: de-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "819469"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Designdetails: Konten in der Finanzbuchhaltung
 Um Lagerbestände und Kapazitätsposten mit der Finanzbuchhaltung abzustimmen, werden die zugehörigen Wertposten auf verschiedene Konten in der Finanzbuchhaltung gebucht. Weitere Informationen finden Sie unter [Designdetails: Abstimmung mit der Fibu](design-details-reconciliation-with-the-general-ledger.md).  
@@ -56,14 +56,14 @@ Die folgende Tabelle zeigt die Beziehung zwischen den verschiedenen Arten von Be
 |(Fertig produzierte Artikel; Istmeldungen)|Abweichung|Produktionsgemeinkosten|Nr.|Lagerbest.|Prod.-Gemeinkostenabweichung|  
 |(Fertig produzierte Artikel; Istmeldungen)|Neubewertung||Nr.|Lagerbest.|Lagerkorrektur|  
 |(Fertig produzierte Artikel; Istmeldungen)|Rundung||Nr.|Lagerbest.|Lagerkorrektur|  
-|Montageausstoss|Direkte Kosten||Nr.|Lagerbest.|Lagerkorrektur|  
-|Montageausstoss|Neubewertung||Nr.|Lagerbest.|Lagerkorrektur|  
-|Montageausstoss|Indirekte Kosten||Nr.|Lagerbest.|Gemeinkosten verrechnet|  
-|Montageausstoss|Abweichung|Material|Nr.|Lagerbest.|Materialabweichung|  
-|Montageausstoss|Abweichung|Kapazität|Nr.|Lagerbest.|Kapazitätsabweichung|  
-|Montageausstoss|Abweichung|Kapazitätsgemeinkosten|Nr.|Lagerbest.|Kap.-Gemeinkostenabweichung|  
-|Montageausstoss|Abweichung|Produktionsgemeinkosten|Nr.|Lagerbest.|Prod.-Gemeinkostenabweichung|  
-|Montageausstoss|Rundung||Nr.|Lagerbest.|Lagerkorrektur|  
+|Montageausstoß|Direkte Kosten||Nr.|Lagerbest.|Lagerkorrektur|  
+|Montageausstoß|Neubewertung||Nr.|Lagerbest.|Lagerkorrektur|  
+|Montageausstoß|Indirekte Kosten||Nr.|Lagerbest.|Gemeinkosten verrechnet|  
+|Montageausstoß|Abweichung|Material|Nr.|Lagerbest.|Materialabweichung|  
+|Montageausstoß|Abweichung|Kapazität|Nr.|Lagerbest.|Kapazitätsabweichung|  
+|Montageausstoß|Abweichung|Kapazitätsgemeinkosten|Nr.|Lagerbest.|Kap.-Gemeinkostenabweichung|  
+|Montageausstoß|Abweichung|Produktionsgemeinkosten|Nr.|Lagerbest.|Prod.-Gemeinkostenabweichung|  
+|Montageausstoß|Rundung||Nr.|Lagerbest.|Lagerkorrektur|  
 
 ## <a name="from-the-capacity-ledger"></a>Vom Kapazitätsposten  
  Die folgende Tabelle zeigt die Beziehung zwischen den verschiedenen Arten von Kapazitätswertposten und die Konten und Gegenkonten im Sachkonto an. Kapazitätsposten stellen die Arbeitszeit dar, die bei Montage- oder Produktionsarbeiten verbraucht wird.  
@@ -76,7 +76,7 @@ Die folgende Tabelle zeigt die Beziehung zwischen den verschiedenen Arten von Be
 |Produktion|Arbeitsplatz/Arbeitsplatzgrupe|Kosten|Unf.-Arbeit-Konto|Gemeinkosten verrechnet|  
 
 ## <a name="assembly-costs-are-always-actual"></a>Montagekosten sind immer Ist-Kosten  
- Wie in der obigen Tabelle gezeigt, werden Montagebuchungen in Interimskonten nicht repräsentiert. Dies liegt daran, dass der Begriff Umlaufbestand (WIP) in der Montageausstossbuchung nicht gilt, anders als in der Istmeldungsbuchung. Montagekosten werden nur als Ist-Kosten gebucht, nie als erwartete Kosten.  
+ Wie in der obigen Tabelle gezeigt, werden Montagebuchungen in Interimskonten nicht repräsentiert. Dies liegt daran, dass der Begriff Umlaufbestand (WIP) in der Montageausstoßbuchung nicht gilt, anders als in der Istmeldungsbuchung. Montagekosten werden nur als Ist-Kosten gebucht, nie als erwartete Kosten.  
 
  Weitere Informationen finden Sie unter [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md).  
 
@@ -102,4 +102,3 @@ Die nachstehende Tabelle zeigt, wie die in die Finanzbuchhaltung zu buchenden Be
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

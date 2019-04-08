@@ -1,8 +1,8 @@
 ---
-title: "Designdetails: Überwachen der Ebene des voraussichtlichen Lagerbestands und des Minimalbestands | Microsoft Docs"
-description: "Erfahren, wie Lagerplanung voraussichtlichem zwischen voraussichtlichen Lagerbestand und voraussichtlich verfügbaren Lagerbestandebenen unterscheidet."
+title: 'Designdetails: Überwachen der Ebene des voraussichtlichen Lagerbestands und des Minimalbestands | Microsoft Docs'
+description: Erfahren, wie Lagerplanung voraussichtlichem zwischen voraussichtlichen Lagerbestand und voraussichtlich verfügbaren Lagerbestandebenen unterscheidet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, supply, inventory, planning
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: d26790c1c48eff8af150a72f5d5d697eb7b9dc2a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 336b5c300cf3640d7356313d2d627f6b4008c7b4
-ms.contentlocale: de-ch
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "818812"
 ---
 # <a name="design-details-monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Designdetails: Überwachen der Ebene des voraussichtlichen Lagerbestands und des Minimalbestands
 Der Bestand ist eine Art Vorrat, jedoch für Bestandsplanung unterscheidet das Planungssystem zwischen zwei Bestandsebenen:  
@@ -27,7 +27,7 @@ Der Bestand ist eine Art Vorrat, jedoch für Bestandsplanung unterscheidet das P
 * Voraussichtlich verfügbarer Lagerbestand  
 
 ## <a name="projected-inventory"></a>Voraussichtlicher Lagerbestand  
-Zuerst ist der voraussichtliche Lagerbestand die Menge des Bruttobestands, einschliesslich Vorrat und Bedarf in der Vergangenheit (selbst wenn nicht gebucht), wenn der Planungsprozess gestartet wird. Zukünftig wird dies eine bewegliche Ebene des voraussichtlichen Bestands sein, die durch Brutto-Mengen aus künftigem Vorrat und Bedarf verwaltet wird, da diese entlang der Zeitachse eingeführt werden (ob reserviert oder auf andere Weise zugewiesen).  
+Zuerst ist der voraussichtliche Lagerbestand die Menge des Bruttobestands, einschließlich Vorrat und Bedarf in der Vergangenheit (selbst wenn nicht gebucht), wenn der Planungsprozess gestartet wird. Zukünftig wird dies eine bewegliche Ebene des voraussichtlichen Bestands sein, die durch Brutto-Mengen aus künftigem Vorrat und Bedarf verwaltet wird, da diese entlang der Zeitachse eingeführt werden (ob reserviert oder auf andere Weise zugewiesen).  
 
 Der voraussichtliche Lagerbestand wird vom Planungssystem verwendet, um den Minimalbestand zu überwachen und um die Wiederbeschaffungsmenge zu bestimmen, wenn die Wiederbeschaffungsrichtlinie „Höchstmenge“ verwendet wird.  
 
@@ -61,11 +61,11 @@ Nachfolgend wird eine graphische Illustration dieses Prinzips gezeigt:
 
 4. Der nächste Vorrat **Sb** von 2 (ein anderer Auftrag) wurdet bereits in die Zeitachse platziert.  
 5. Das System prüft, ob es eine Minderungserinnerung gibt, die **Sb** vorangeht (dies ist nicht der Fall, daher keine Aktion).  
-6. Das System schliesst Vorrat **Sb** (kein Bedarf mehr vorhanden) - entweder A: durch Reduzierung auf 0 (Stornieren) oder B: durch unverändert lassen.  
+6. Das System schließt Vorrat **Sb** (kein Bedarf mehr vorhanden) - entweder A: durch Reduzierung auf 0 (Stornieren) oder B: durch unverändert lassen.  
 
      Dadurch wird der voraussichtliche Lagerbestand erhöht (A: +0 => +4 oder B: +2 = +6).  
 
-7. Das System führt eine abschliessende Prüfung durch: Gibt es eine Minderungserinnerung? Ja, es gibt eine am Datum **Da**  
+7. Das System führt eine abschließende Prüfung durch: Gibt es eine Minderungserinnerung? Ja, es gibt eine am Datum **Da**  
 8. Die Anwendung fügt die Minderungserinnerung -3 in der Ebene des voraussichtlichen Lagerbestands hinzu, entweder A: +4 -3 = 1 oder B: +6 -3 = +3.  
 9. Im Falle von A erstellt das System eine vorausplanende Bestellung ab Datum **Da**.  
 
@@ -76,4 +76,3 @@ Nachfolgend wird eine graphische Illustration dieses Prinzips gezeigt:
 [Designdetails: Planungsparameter](design-details-planning-parameters.md)   
 [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
 [Designdetails: Vorratsplanung](design-details-supply-planning.md)
-

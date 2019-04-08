@@ -1,23 +1,23 @@
 ---
 title: 'Gewusst wie: Drucken von ESR.-Rechnungen'
-description: "Sie können einen Einzahlungsschein mit Referenznummer (ESR) auf mehrere Arten drucken."
+description: Sie können einen Einzahlungsschein mit Referenznummer (ESR) auf mehrere Arten drucken.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9f345827f1cc705727f80d21a00839f221044059
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827207"
 ---
 # <a name="print-esr-invoices"></a>Drucken von ESR-Rechnungen
 Zum Drucken von Einzahlungsscheinen mit Referenznummer (ESR) stehen folgende Methoden zur Auswahl:  
@@ -40,9 +40,9 @@ Im folgenden Verfahren wird das Drucken von ESR-Verkaufsrechnungen beschrieben, 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
     |**Anzahl Kopien**|Geben Sie die gewünschte Anzahl der Berichtskopien ein.|  
-    |**ESR Bank**|Wählen Sie die ESR-Bankleitzahl aus, die in dem Bericht gedruckt werden soll.<br /><br /> Wenn der Wert in diesem Feld <Blank> und der ESR-Zahlungsformcode nicht auf der Seite **ESR-Einrichtung** definiert ist, wird die ESR-Hauptbank, die auf der Seite **ESR-Einrichtung** ausgewählt wird, gedruckt.|  
+    |**ESR-Bank**|Wählen Sie die ESR-Bankleitzahl aus, die in dem Bericht gedruckt werden soll.<br /><br /> Wenn der Wert in diesem Feld <Blank> und der ESR-Zahlungsformcode nicht auf der Seite **ESR-Einrichtung** definiert ist, wird die ESR-Hauptbank, die auf der Seite **ESR-Einrichtung** ausgewählt wird, gedruckt.|  
     |**Aktivität protokollieren**|Gibt an, ob die Aktivitäten, die Sie mit Ihren Kontakten haben, protokolliert werden.|  
-    |**ESR System**|Wählen Sie das ESR-System aus, über das Sie neue ESR-Coupons an Kunden schicken können. Wählen Sie **Gemäss ESR Bank**, um das ESR-System der im Feld **ESR Bank** angegebenen Bank zu verwenden.|  
+    |**ESR-System**|Wählen Sie das ESR-System aus, über das Sie neue ESR-Coupons an Kunden schicken können. Wählen Sie **Gemäss ESR-Bank**, um das ESR-System der im Feld **ESR-Bank** angegebenen Bank zu verwenden.|  
 
 3.  Wählen Sie die Schaltfläche **Drucken** aus, um den Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
@@ -51,4 +51,3 @@ Sie können den Bericht "Verkauf ESR Rechnung" oder "Verkauf ESR Abschnitt" auch
 ## <a name="see-also"></a>Siehe auch  
  [Elektronische Zahlungen mit ESR (Schweiz)](swiss-electronic-payments-using-esr.md)   
  [Importieren von ESR-Zahlungen](how-to-import-esr-payments.md)
-

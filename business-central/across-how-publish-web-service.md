@@ -1,21 +1,21 @@
 ---
-title: "Rückgängigmachen von Objekte als Web Services verfügbar | Microsoft Docs"
-description: "Wenn Sie Objekte als Webdienste veröffentlichen, stehen sie sofort auf dem Netzwerk zur Verfügung."
+title: Rückgängigmachen von Objekte als Web Services verfügbar | Microsoft Docs
+description: Wenn Sie Objekte als Webdienste veröffentlichen, stehen sie sofort auf dem Netzwerk zur Verfügung.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: bb9623c00aa038b387179d46e6eb8a869552569e
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "818908"
 ---
 # <a name="publish-a-web-service"></a>Webdienst veröffentlichen
 
@@ -46,7 +46,7 @@ Nachdem Sie einen Webdienst veröffentlichen, ist er für externe Seiten verfüg
 
 1.  Geben Sie in Ihrem Browser die entsprechende URL ein. Die folgende Tabelle zeigt die Arten von URLs, die Sie für unterschiedliche Webservicearten eingeben können.  
 > [!div class="mx-tdBreakAll"]
-> |Art|Syntax|Beispiel|
+> |Typ|Syntax|Beispiel|
 > |----------------|------|-------|
 > |SOAP |https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |
 > |OData |https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    Das Feld „Unternehmensname“ berücksichtigt Gross-/Kleinschreibung.|
@@ -65,4 +65,3 @@ https://localhost:7048/server/OData/Customer?company='CRONUS International Ltd.'
 
 ## <a name="see-also"></a>Siehe auch  
 [Verwaltung](admin-setup-and-administration.md)  
-

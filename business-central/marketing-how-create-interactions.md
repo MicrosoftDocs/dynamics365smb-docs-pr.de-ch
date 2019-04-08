@@ -1,8 +1,8 @@
 ---
-title: "Erstellen von Aktivitäten zu Kontakten und Segmenten | Microsoft Docs"
-description: "Sie erstellen Aktivitäten, um die Aktivitäten und Kommunikationen (z. B. E-Mails) mit Ihren Kontakten und Segmenten in Business Central zu erfassen."
+title: Erstellen von Aktivitäten zu Kontakten und Segmenten | Microsoft Docs
+description: Sie erstellen Aktivitäten, um die Aktivitäten und Kommunikationen (z. B. E-Mails) mit Ihren Kontakten und Segmenten in Business Central zu erfassen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: fc88c43e7e404c715893e11a10f0ca5fb794163a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 250e56b8bb2ced4745536092bf7cd4f3fa797dee
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820002"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Erstellen von Aktivitäten zu Kontakten und Segmenten
 Sie erstellen Aktivitäten, um die Aktivitäten und Kommunikationen (z. B. E-Mails) mit Ihren Kontakten und Segmenten zu erfassen.
@@ -30,7 +30,7 @@ Bevor Sie Aktivitäten erstellen, müssen Sie Aktivitätenvorlagen einrichten. W
 3. Füllen Sie die Felder aus, und wählen Sie dann die Schaltfläche **OK** aus.
 
 > [!NOTE]  
->   Wenn Sie eine andere Aufgabe ausführen müssen, bevor Sie die Aktivität abgeschlossen haben, können Sie **Abbrechen** auswählen und den Assistenten schliessen und die Aktivität später abschliessen. Dieses verschiebt die Aktivität.
+>   Wenn Sie eine andere Aufgabe ausführen müssen, bevor Sie die Aktivität abgeschlossen haben, können Sie **Abbrechen** auswählen und den Assistenten schließen und die Aktivität später abschließen. Dieses verschiebt die Aktivität.
 
 ## <a name="to-finish-and-delete-postponed-interactions"></a>Beenden und Löschen von zurückgestellten Aktivitäten
 1. Öffnen Sie den Kontakt, den Verkäufer oder den Aktivitätenprotokollposten.
@@ -53,6 +53,4 @@ Wenn Sie im Feld **Anschluss-Segment erstellen** ein Häkchen gesetzt haben, wir
 [Aktivitäten aufzeichnen](marketing-interactions.md)  
 [Kontakte verwalten](marketing-contacts.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
-[Marketing & Vertrieb einrichten](marketing-setup-marketing.md)  
-[Arbeiten mit  Business Central](ui-work-product.md)
-
+[Arbeiten mit Business Central](ui-work-product.md)

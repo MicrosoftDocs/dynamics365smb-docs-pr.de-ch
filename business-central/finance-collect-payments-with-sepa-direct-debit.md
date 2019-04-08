@@ -1,26 +1,26 @@
 ---
 title: SEPA Direkbelastung in Business Central | Microsoft Docs
-description: "Mit Zustimmung Ihres Kunden können Sie Zahlungen direkt vom Bankkonto des Kunden gemäss dem SEPA-Format einziehen."
+description: Mit Zustimmung Ihres Kunden können Sie Zahlungen direkt vom Bankkonto des Kunden gemäß dem SEPA-Format einziehen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/15/2018
 ms.author: sgroespe
+ms.openlocfilehash: f917bed9eedf3c0aa8227d9c207de5e38f60a791
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c732702808f807396702cef9ef0a1a22354ead15
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "819546"
 ---
-# <a name="collecting-payments-with-sepa-direct-debit"></a>Einziehen von Zahlungen per Lastschriftverfahren SEPA
+# <a name="collect-payments-with-sepa-direct-debit"></a>Erfassen von Zahlungen per Basislastschriftverfahren SEPA
 Mit Zustimmung Ihres Kunden können Sie Zahlungen direkt vom Bankkonto des Kunden gemäss dem SEPA-Format einziehen.  
 
- Richten Sie zuerst das Exportformat der Bankdatei ein, die Ihrer Bank aufträgt, eine Basislastschrift durchführen. Richten Sie dann die Zahlungsmethode des Debitors ein. Richten Sie schliesslich die Einzugsermächtigung ein, die Ihrer Übereinkunft mit dem Kunden zum Einzug seiner Zahlungen in einem bestimmten Zeitraum entspricht.  
+ Richten Sie zuerst das Exportformat der Bankdatei ein, die Ihrer Bank aufträgt, eine Basislastschrift durchführen. Richten Sie dann die Zahlungsform des Debitors ein. Richten Sie schliesslich die Einzugsermächtigung ein, die Ihrer Übereinkunft mit dem Kunden zum Einzug seiner Zahlungen in einem bestimmten Zeitraum entspricht.  
 
  Um die Bank anzuweisen, den Zahlungsbetrag vom Bankkonto des Debitors auf das Bankkonto Ihres Unternehmens zu überweisen, erstellen Sie einen Lastschrifteinzugposten mit Informationen zu Bankkonten, den betroffenen Verkaufsrechnungen und der Einzugsermächtigung. Anschliessend exportieren Sie eine XML-Datei, die auf dem Einzugseintrag basiert, und senden Sie zur Verarbeitung an Ihre Bank. Alle Zahlungen, die nicht verarbeitet werden konnten, werden Ihnen von Ihrer Bank mitgeteilt, und Sie müssen dann die jeweiligen Basislastschrifteinzugsposten manuell ablehnen.  
 
@@ -39,7 +39,7 @@ Um das Exportieren von Bankdateiformaten zu aktivieren, die nicht durch die allg
 Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im SEPA-Lastschriftformat verarbeiten können, müssen Sie die folgenden Einrichtungsschritte ausführen:  
 
 * Richten Sie zunächst das Exportformat der Bankdatei ein, wodurch Ihre Bank beauftragt wird, eine Lastschrift vom Bankkonto des Debitors auf Ihr Bankkonto durchzuführen.  
-* Richten Sie die Zahlungsmethode des Debitors ein.  
+* Richten Sie die Zahlungsform des Debitors ein.  
 * Richten Sie das Lastschriftmandat ein, das Ihrer Übereinkunft mit dem Debitor zum Einzug seiner Zahlungen in einem bestimmten Zeitraum entspricht.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Einrichten Ihres Bankkontos für die SEPA-Basislastschriftübertragung  
@@ -47,20 +47,20 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
 2. Öffnen Sie das Konto, das Sie für das Basislastschriftverfahren verwenden möchten.  
 3. Wählen Sie im Inforegister **Umlagerung**, im Feld **SEPA-Lastschrift Exportformat** SEPA Lastschrift.  
 
-### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Einrichten der Zahlungsmethode des Debitors für die SEPA-Basislastschriftübertragung  
+### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Einrichten der Zahlungsform des Debitors für die SEPA-Basislastschriftübertragung  
 1. Geben Sie im Feld **Suchen** einen Wert für **Zahlungsformen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus.  
-3. Richten Sie eine Zahlungsmethode ein. Füllen Sie die auf den Lastschrifteinzug bezüglichen Felder gemäss der Beschreibung in der folgenden Tabelle aus.  
+3. Richten Sie eine Zahlungsform ein. Füllen Sie die auf den Lastschrifteinzug bezüglichen Felder gemäss der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
-    |**Basislastschrift**|Geben Sie an, ob die Zahlungsmethode für die SEPA-Basislastschriftübertragung gilt.|  
+    |**Basislastschrift**|Geben Sie an, ob die Zahlungsform für die SEPA-Basislastschriftübertragung gilt.|  
     |**Zahlungsbedingungscode Basislastschrift**|Geben Sie die Zahlungsbedingungen an, wie etwa NICHT ZAHLEN, die auf Verkaufsrechnungen angezeigt werden, die per SEPA-Basislastschriftübertragung bezahlt werden, um den Debitor darauf hinzuweisen, dass die Zahlung automatisch eingezogen wird. Als Alternative können Sie das Feld leer lassen.|  
 
     > [!NOTE]  
     >  Geben Sie hier keinen Wert in **Bal. Kontonr.** ein  
 
-4. Wählen Sie die Schaltfläche **OK** aus, um die Seite **Genehmigungskommentare** zu schliessen.  
+4. Wählen Sie die Schaltfläche **OK** aus, um die Seite **Zahlungsform** zu schliessen.  
 5. Geben Sie im Feld **Suchen** **Debitoren** ein, und wählen Sie dann den zugehörigen Link aus.  
 6. Öffnen Sie die Debitorenkarte für den Debitor, der für die SEPA-Basislastschriften eingerichtet werden soll.  
 7. Wählen Sie das Feld , und wählen Sie dann den **Zahlungsformcode**, den Sie in Schritt 3 angegeben haben.  
@@ -158,4 +158,3 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
 
 ## <a name="see-also"></a>Siehe auch  
 [Verwalten von Forderungen](receivables-manage-receivables.md)
-

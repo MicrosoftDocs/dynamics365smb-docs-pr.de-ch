@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 97bc83c402cd8bbdc34f05035dfa6c680c2e635e
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820029"
 ---
 # <a name="design-details-average-cost"></a>Designdetails: Durchschnittskosten
 Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten Durchschnitt berechnet, basierend auf der Durchschnittskostenperiode, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] eingerichtet wurde.  
@@ -44,9 +44,9 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
  Die Durchschnittskosten einer Transaktion werden berechnet, wenn die Kosten des Artikels reguliert werden. Weitere Informationen finden Sie unter [Designdetails: Kostenanpassung](design-details-cost-adjustment.md) Eine Kostenregulierung verwendet die Posten in der Tabelle **Einst.-Pr. (durchschn.) Regul. Startzeitpunkt**, um zu ermitteln, für welche Artikel (oder Artikel, Lagerorte und Varianten) durchschnittliche Einstandspreise berechnet werden sollen. Für jeden Posten, der noch nicht reguliert wurde, geht die Einstandspreisregulierung wie folgt vor, um den durchschnittlichen Einstandspreis zu bestimmen:  
 
 -   Ermitteln des Einstandspreises des Artikels zu Beginn der Durchschnittskostenperiode.  
--   Hinzufügen der Summe der Wareneingangskosten, die während der Durchschnittskostenperiode gebucht wurden. Dazu gehören Einkäufe, Verkaufsreklamationen, Istmeldungen und Produktions- und Montageausstoss.  
+-   Hinzufügen der Summe der Wareneingangskosten, die während der Durchschnittskostenperiode gebucht wurden. Dazu gehören Einkäufe, Verkaufsreklamationen, Istmeldungen und Produktions- und Montageausstoß.  
 -   Subtrahieren der Summe der Kosten von ausgehenden Transaktionen, die in der Durchschnittskostenperiode fest auf Wareneingänge angewendet wurden. Diese können typischerweise Einkaufsreklamationen und negative Istmeldungen beinhalten.  
--   Dividiert durch die gesamte Lagerbestandsmenge für das Ende der Durchschnittskostenperiode, ausschliesslich der Bestandsreduzierungen, die bewertet werden.  
+-   Dividiert durch die gesamte Lagerbestandsmenge für das Ende der Durchschnittskostenperiode, ausschließlich der Bestandsreduzierungen, die bewertet werden.  
 
  Das Programm wendet diesen durchschnittlichen Einstandspreis dann mit den Buchungsdaten auf die Lagerabgänge für den Artikel (oder Artikel, Lagerort und Variante) an, die es in der Durchschnittskostenperiode gegeben hat. Wenn Bestandszunahmen vorhanden sind, die fest mit Bestandsminderungen in der Durchschnittskostenperiode verknüpft sind, werden die berechneten Durchschnittskosten von der Zunahme zur Minderung übertragen.  
 
@@ -57,8 +57,8 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 
 |**Buchungsdatum**|**Lagerpostenart**|**Menge**|**Einstandsbetrag (tatsächl.)**|**Postennr.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Einkauf|0|20.00|0|  
-|01-01-20|Einkauf|0|40.00|2|  
+|01-01-20|Einkauf|1|20.00|1|  
+|01-01-20|Einkauf|1|40.00|2|  
 |01-01-20|Verkauf|-1|-20.00|3|  
 |02-01-20|Verkauf|-1|-40.00|4|  
 |02-02-20|Einkauf|1|100.00|5|  
@@ -80,8 +80,8 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 
 |**Buchungsdatum**|**Lagerpostenart**|**Menge**|**Einstandsbetrag (tatsächl.)**|**Postennr.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Einkauf|0|20.00|0|  
-|01-01-20|Einkauf|0|40.00|2|  
+|01-01-20|Einkauf|1|20.00|1|  
+|01-01-20|Einkauf|1|40.00|2|  
 |01-01-20|Verkauf|-1|-30.00|3|  
 |02-01-20|Verkauf|-1|-30.00|4|  
 |02-02-20|Einkauf|1|100.00|5|  
@@ -96,8 +96,8 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 
 |**Buchungsdatum**|**Lagerpostenart**|**Menge**|**Einstandsbetrag (tatsächl.)**|**Postennr.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Einkauf|0|20.00|0|  
-|01-01-20|Einkauf|0|40.00|2|  
+|01-01-20|Einkauf|1|20.00|1|  
+|01-01-20|Einkauf|1|40.00|2|  
 |01-01-20|Verkauf|-1|-20.00|3|  
 |02-01-20|Verkauf|-1|-40.00|4|  
 |02-02-20|Einkauf|1|100.00|5|  
@@ -120,8 +120,8 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 
 |**Buchungsdatum**|**Lagerpostenart**|**Menge**|**Einstandsbetrag (tatsächl.)**|**Postennr.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Einkauf|0|20.00|0|  
-|01-01-20|Einkauf|0|40.00|2|  
+|01-01-20|Einkauf|1|20.00|1|  
+|01-01-20|Einkauf|1|40.00|2|  
 |01-01-20|Verkauf|-1|-30.00|3|  
 |02-01-20|Verkauf|-1|-65.00|4|  
 |02-02-20|Einkauf|1|100.00|5|  
@@ -138,7 +138,7 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 
 |Szenario|Buch. Datum|Bewertete Menge|Neubewertung|Bewertungsdatum|  
 |--------------|-------------------------------------|-----------------------------------------|-----------------|-----------------------------------------|  
-|0||Positiv|Nr.|Buchungsdatum des Lagerpostens|  
+|1||Positiv|Nr.|Buchungsdatum des Lagerpostens|  
 |2|Später als das letzte Bewertungsdatum von ausgeglichenen Wertposten|Negativ|Nein|Buchungsdatum des Lagerpostens|  
 |3|Früher als das letzte Bewertungsdatum von ausgeglichenen Wertposten|Positiv|Nein|Neuestes Bewertungsdatum der ausgeglichenen Wertposten|  
 |4||Negativ|Ja|Zeigt das Buchungsdatum des Neubewertungseintrags an.|  
@@ -148,7 +148,7 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 
 |Szenario|Buch. Datum|Lagerpostenart|Bewertungsdatum|Bewertete Menge|Einstandsbetrag (tatsächl.)|Lagerposten Laufnr.|Postennr.|  
 |--------------|-------------------------------------|-----------------------------------------------|-----------------------------------------|-----------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|0|01-01-20|Einkauf|01-01-20|2|20.00|0|0|  
+|1|01-01-20|Einkauf|01-01-20|2|20.00|1|1|  
 |2|01-15-20|(Artikel &Zu-/Abschlag)|01-01-20|2|8.00|1|2|  
 |3|02-01-20|Verkauf|02-01-20|-1|-14.00|2|3|  
 |4|03-01-20|(Neubewertung)|03-01-20|1|-.4.00|1|4|  
@@ -187,8 +187,8 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 
 |Bewertungsdatum|Menge|Einstandsbetrag (tatsächl.)|Postennr.|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10,00|0|  
-|01-02-20|0|20.00|2|  
+|01-01-20|1|10,00|1|  
+|01-02-20|1|20.00|2|  
 |02-15-20|-1|-15.00|3|  
 |02-16-20|-1|-15.00|4|  
 
@@ -198,9 +198,9 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 
 |Bewertungsdatum|Menge|Einstandsbetrag (tatsächl.)|Postennr.|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10,00|0|  
-|01-02-20|0|20.00|2|  
-|01-03-20|0|21.00|5|  
+|01-01-20|1|10,00|1|  
+|01-02-20|1|20.00|2|  
+|01-03-20|1|21.00|5|  
 |02-15-20|-1|-17.00|3|  
 |02-16-20|-1|-17.00|4|  
 
@@ -212,4 +212,3 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -1,24 +1,24 @@
 ---
-title: "Definieren von statischen Umlagen basierend auf dem Verteilungsverhältnis | Microsoft Docs"
-description: "Die statische Umlagemethode basiert auf einem definierten Wert, zum Beispiel die verwendeten Quadratmeter oder ein eingerichtetes Verteilungsverhältnis, wie 5:2:4."
+title: Definieren von statischen Umlagen basierend auf dem Verteilungsverhältnis | Microsoft Docs
+description: Die statische Umlagemethode basiert auf einem definierten Wert, zum Beispiel die verwendeten Quadratmeter oder ein eingerichtetes Verteilungsverhältnis, wie 5:2:4.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d35fd5de7a0583c3864268d0749384322bf947ed
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820055"
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Szenario-Beispiel: Definieren von statischen Umlagen basierend auf dem Verteilungsverhältnis
 Die statische Umlagemethode basiert auf einem definierten Wert, zum Beispiel die verwendeten Quadratmeter oder ein eingerichtetes Verteilungsverhältnis, wie 5:2:4.  
@@ -40,18 +40,18 @@ In diesem Thema wird beschrieben, wie drei neue Verteilungsziel-Kostenträger f�
 
 ## <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>So definieren Sie die Verteilungsziel-Kostenträger auf dem Inforegister "Zeilen"  
 
-1.  Wählen Sie in der ersten Rechnungszeile in dem Feld **Zielkostenart** **9903** ein.  
-2.  Wählen Sie in der ersten Rechnungszeile in dem Feld **Zielkosteobjekt** **ACCESSO**.  
+1.  Geben Sie in der ersten Rechnungszeile in dem Feld **Zielkostenart** die Zahl **9903** ein.  
+2.  Wählen Sie in der ersten Rechnungszeile in dem Feld **Zielkosteobjekt** die Option **ACCESSO** aus.  
 3.  Wählen Sie in der ersten Zeile im Feld **Zielart zuweisen** die Option **Alle Kosten** aus, um festzulegen, wie alle anfallenden Kosten zugeordnet werden.  
 4.  Wählen Sie in der ersten Zeile im Feld **Basis** die Option **Statisch** aus, um die Methode der statischen Umlage zu verwenden.  
 5.  Geben Sie in der ersten Zeile im Feld **Aktie** das Verteilungsverhältnis **5**ein.  
-6.  Wählen Sie in der zweiten Rechnungszeile in dem Feld **Zielkostenart** **9903**.  
+6.  Geben Sie in der zweiten Rechnungszeile in dem Feld **Zielkostenart** die Zahl **9903** ein.  
 7.  Wählen Sie in der zweiten Rechnungszeile in dem Feld **Zielkosteobjekt** **PAINT.**  
 8.  Wählen Sie in der zweiten Zeile im Feld **Zielart zuweisen** die Option **Alle Kosten** aus, um festzulegen, wie alle anfallenden Kosten zugeordnet werden.  
 9. Wählen Sie in der zweiten Zeile im Feld **Basis** die Option **Statisch** aus, um die Methode der statischen Umlage zu verwenden.  
 10. Geben Sie in der zweiten Zeile im Feld **Aktie** das Verteilungsverhältnis **2**ein.  
-11. Wählen Sie in der dritten Rechnungszeile in dem Feld **Zielkostenart** **9903** ein.  
-12. Wählen Sie in der dritten Rechnungszeile in dem Feld **Zielkosteobjekt** **ACCESSO**.  
+11. Geben Sie in der dritten Rechnungszeile in dem Feld **Zielkostenart** die Zahl **9903** ein.  
+12. Wählen Sie in der dritten Rechnungszeile in dem Feld **Zielkosteobjekt** die Option **ACCESSO** aus.  
 13. Wählen Sie in der dritten Zeile im Feld **Zielart zuweisen** die Option **Alle Kosten** aus, um festzulegen, wie alle anfallenden Kosten zugeordnet werden.  
 14. Wählen Sie in der dritten Zeile im Feld **Basis** die Option **Statisch** aus, um die Methode der statischen Umlage zu verwenden.  
 15. Geben Sie in der dritten Zeile im Feld **Aktie** das Verteilungsverhältnis **4**ein.  
@@ -61,4 +61,3 @@ In diesem Thema wird beschrieben, wie drei neue Verteilungsziel-Kostenträger f�
 
 ## <a name="see-also"></a>Siehe auch  
 [Definieren und Zuweisen von Kosten](finance-define-and-allocate-costs.md)   
-

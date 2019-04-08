@@ -1,7 +1,7 @@
 ---
 title: 'So gehts: Buchen der Lagerkosten in die Fibu | Microsoft Docs'
 description: Beschreibt, wie physischen Produkte verwaltet werden, die Sie im Lagerbestand in Ihrem Lager verwalten.
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0e9b610d54f955c3dec9cba6b2327a74663288a2
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820110"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Abstimmen der Lagerregulierung mit dem Fibuposten
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen oder Lagerregulierungen, werden die veränderten Artikelkosten in den Artikelwerteinträgen aufgezeichnet. Um diese Änderung des Lagerwerts in Ihren Finanzbüchern wiederzugeben, werden die Lagerkosten automatisch zu den entsprechenden Lagerkonten in der Finanzbuchhaltung gebucht. Für jede Lagertransaktion, die Sie buchen, werden die entsprechenden Werte im Fibuposten im Lagerkonto, im Korrekturkonto und im Lagerverbrauchskonto gebucht.
@@ -47,7 +47,7 @@ Die Seite **Lager – Sachpostenabstimmung** ermöglicht Folgendes:
 - Gibt Aufschluss über die Gründe für Abstimmungsdifferenzen in Form von Informationsmeldungen.
 
 
-In der Spalte **Name** (am äusserst linken Rand des Gitters) werden die verschiedenen Fibukontoarten angezeigt, die mit Lagerbestand verknüpft sind.
+In der Spalte **Name** (am äußerst linken Rand des Gitters) werden die verschiedenen Fibukontoarten angezeigt, die mit Lagerbestand verknüpft sind.
 
 Die Spalten **Lagerbestand**, **Lager (Interim)** und **Aktiviert Lager** enthalten die fakturierten, nicht fakturierten und WIP-Summen jeder Fibukontoart. Diese werden aus Wertposten berechnet, d.h., sie werden auf die Fibukontoarten übertragen, auf denen sie sich nach dem Buchen in die Finanzbuchhaltung befinden.
 
@@ -75,4 +75,3 @@ Wählen Sie in einem der Summenfelder den Betrag, damit die Lagerberichtsposten 
 [Verkauf](sales-manage-sales.md)    
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
-

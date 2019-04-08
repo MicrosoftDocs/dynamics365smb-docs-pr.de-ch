@@ -1,1 +1,1 @@
-Buchhalter Portal
+Accountant Hub

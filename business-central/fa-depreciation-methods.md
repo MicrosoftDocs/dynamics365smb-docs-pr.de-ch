@@ -2,7 +2,7 @@
 title: Abschreibungsmethoden| Microsoft Docs
 description: Erhalten von Informationen zu den unterschiedlichen Methoden, um Anlagen abzuschreiben.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "819850"
 ---
 # <a name="depreciation-methods"></a>Abschreibungsmethoden
 Es gibt acht verfügbare Abschreibungsmethoden:  
@@ -67,7 +67,7 @@ Abschreibungsbetrag = (Fester Abschreibungsbetrag x Anzahl Abschreibungstage) / 
 ### <a name="example---straight-line-depreciation"></a>Beispiel – Lineare Abschreibung
 Eine Anlage hat Anschaffungskosten von MW 100.000. Die erwartete Lebensdauer ist 8 Jahre. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt.  
 
-Für dieses Beispiel sieht der Anlagenposten folgendermassen aus:  
+Für dieses Beispiel sieht der Anlagenposten folgendermaßen aus:  
 
 | Datum | Anlagenbuchungsart | Tage | Betrag | Buchwert |
 | --- | --- | --- | --- | --- |
@@ -82,11 +82,11 @@ Für dieses Beispiel sieht der Anlagenposten folgendermassen aus:
 * Startdatum Normal-Abschreibung  
 
 ## <a name="declining-balance-1-depreciation"></a>Abschreibungsmethode "1 % degressiv"
-Hierbei handelt es sich um eine beschleunigte Abschreibungsmethode, bei der der grösste Teil der Kosten einer Anlage in den ersten Jahren der Nutzungsdauer abgeschrieben wird. Wenn Sie diese Methode verwenden, müssen Sie einen festen jährlichen Prozentsatz eingeben.  
+Hierbei handelt es sich um eine beschleunigte Abschreibungsmethode, bei der der größte Teil der Kosten einer Anlage in den ersten Jahren der Nutzungsdauer abgeschrieben wird. Wenn Sie diese Methode verwenden, müssen Sie einen festen jährlichen Prozentsatz eingeben.  
 
 Die folgende Formel zur Berechnung des Abschreibung-Betrages ist:  
 
-*AfA Betrag = (Degressive AfA % * Anzahl AfA Tage * AfA Basis) / (100 * 360)*  
+*AfA Betrag = (Degressive AfA % * Anzahl AfA Tage * AfA Basis) / (100 *360)*  
 
 Die Abschreibungsbasis wird als der Buchwert minus der gebuchten Abschreibung seit dem Startdatum des aktuellen Geschäftsjahres berechnet.  
 
@@ -163,7 +163,7 @@ Die Abschreibungswerte lauten:
 ## <a name="db1sl-depreciation"></a>Degressiv/Lineare Abschreibung 1
 "Degr1/Linear" ist eine abgekürzte Kombination von "Degressiv 1" und "Linear". Die Berechnung erfolgt bis der Buchwert gleich dem endgültigen Rundungsbetrag oder dem von Ihnen angegebenen Restwert ist.  
 
-Die Stapelverarbeitung **AfA berechnen** berechnet einen linearen Betrag und einen degressiven Betrag. Nur der grössere dieser beiden Beträge wird in das Buch.-Blatt übertragen.  
+Die Stapelverarbeitung **AfA berechnen** berechnet einen linearen Betrag und einen degressiven Betrag. Nur der größere dieser beiden Beträge wird in das Buch.-Blatt übertragen.  
 
 Die Anwendung kann die degressiven Berechnungen unter der Verwendung von verschiedenen Prozentsätzen durchführen.  
 
@@ -259,7 +259,7 @@ Die Anschaffungskosten betragen MW 100.000 und die Lebensdauer für die Abschrei
 
 Wenn Sie eine benutzerdefinierte Methode verwenden, müssen die Seiten **Startdatum Benutzerdef. Abschreibung** und **Startdatum Normal-Abschreibung** im Fenster **Anlagen-Abschreibungsbücher** ausgefüllt werden. Das Feld **Startdatum Benutzerdef. Abschreibung** und der Inhalt des Felds **Periodenlänge** auf der Seite **Abschreibungstabellen** werden verwendet, um die Zeitintervalle für Abschreibungsberechnungen festzulegen. Damit wird sichergestellt, dass die Anwendung den angegebenen Prozentsatz für alle Anlagen am gleichen Tag verwendet. Das Feld **Startdatum Normal-Abschreibung** wird verwendet, um die Anzahl der Abschreibungstage zu berechnen.  
 
-Im vorherigen Beispiel enthalten die Felder **Startdatum Benutzerdef. AfA** und **Startdatum Normal-AfA** beide den Wert "01/01/01". Hätte das Feld **Startdatum Benutzerdef. AfA** jedoch den Wert "01/01/10" und das Feld **Startdatum Normal-AfA** den Wert "01/04/11" enthalten, wäre das Ergebnis folgendermassen ausgefallen:  
+Im vorherigen Beispiel enthalten die Felder **Startdatum Benutzerdef. AfA** und **Startdatum Normal-AfA** beide den Wert "01/01/01". Hätte das Feld **Startdatum Benutzerdef. AfA** jedoch den Wert "01/01/10" und das Feld **Startdatum Normal-AfA** den Wert "01/04/11" enthalten, wäre das Ergebnis folgendermaßen ausgefallen:  
 
 | Datum | Anlagenbuchungsart | Tage | Betrag | Buchwert |
 | --- | --- | --- | --- | --- |
@@ -357,4 +357,3 @@ Wenn Sie einen Posten in B1 im Anlagen-Fibu Buch.-Blatt erstellen und ein Häkch
 [Finanzen](finance.md)  
 [Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

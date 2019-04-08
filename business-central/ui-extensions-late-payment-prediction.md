@@ -1,5 +1,5 @@
 ---
-title: "Verspätete Zahlung für Verkaufsbelege vorhersagen | Microsoft Docs"
+title: Verspätete Zahlung für Verkaufsbelege vorhersagen | Microsoft Docs
 description: Verwenden Sie unser Vorhersagemodell, um vorauszusagen, ob eine Rechnung rechtzeitig bezahlt wird.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4e47858bf1f7253f8fb8951fe8ea3cb611138852
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "819870"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Die Erweiterung "Vorhersage verspäteter Zahlungen"  
 Die effektive Verwaltung von Forderungen ist für den Gesamtfinanzstatus eines Unternehmens wichtig. Die Erweiterung "Vorhersage verspäteter Zahlungen" kann nützlich sein, um ausstehende Forderungen zu reduzieren und die Sammlungsstrategie abzustimmen, die voraussagt, ob Verkaufsrechnungen pünktlich bezahlt werden. Wenn beispielsweise vorausgesagt wird, dass eine Zahlung zu spät erfolgen wird, können Sie sich entschieden, die Zahlungsfristen oder die Zahlungsform für den Debitor anzupassen.
@@ -72,4 +72,3 @@ Wenn Sie Ihr eigenes Modell in Azure Machine Learning Studio erstellen, ohne die
 [Azure Machine Learning Studio-Dokumentation](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Anpassen von Business Central mithilfe der Erweiterungen](ui-extensions.md)  
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-

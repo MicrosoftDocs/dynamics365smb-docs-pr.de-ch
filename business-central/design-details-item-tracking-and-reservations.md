@@ -2,22 +2,22 @@
 title: 'Designdetails: Artikeltracking und Reservierungen | Microsoft Docs'
 description: Dieses Thema befasst sich mit Artikeltracking und mit Reservierungen und beschreiben die Konzepte der zwei.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1670b102aa0eba91952391ac3daa563a651de859
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "819862"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetails: Artikeltracking und Reservierungen
 Die gleichzeitige Verwendung von Reservierung und spezifischer Artikeltracking ist selten, da beide eine Kopplung zwischen Vorrat und Bedarf erstellen. Mit Ausnahme von Situationen, in denen ein Kunde oder ein Produktionsplaner eine bestimmte Charge anfragt, ist es selten sinnvoll, Lagerartikel zu reservieren, die bereits Artikeltrackingnummern für bestimmte Anwendungen tragen. Obwohl es möglich ist, Artikel zu reservieren, die eine spezifische Artikeltracking erfordern, sind spezielle Funktionen erforderlich, um Verfügbarkeitskonflikte zwischen Auftragsbearbeitern zu vermeiden, die dieselben artikelnachverfolgten Artikel anfordern.  
@@ -85,7 +85,7 @@ Die Umgruppierung erfolgt automatisch, aber die eingebettete Hilfe wird unten au
   
 **XX der Gesamten Reservierten Menge sind unspezifisch und möglicherweise verfügbar.**  
   
-Darüber hinaus zeigt das Feld **Unspezifische reservierte Menge** an, wie viele Reservierungsposten unspezifisch sind. Standardmässig ist dieses Feld für Anwender nicht sichtbar.  
+Darüber hinaus zeigt das Feld **Unspezifische reservierte Menge** an, wie viele Reservierungsposten unspezifisch sind. Standardmäßig ist dieses Feld für Anwender nicht sichtbar.  
   
 ### <a name="posting-an-outbound-document-with-nonspecific-reservation-of-serial-or-lot-numbers"></a>Buchen eines ausgehenden Belegs mit unspezifischer Reservierung einer Serien- oder Chargennummer.  
 Dieses Geschäftsszenario wird durch die Late Binding-Funktionalität unterstützt, die festen Ausgleich und ausgehende Buchung dessen aktiviert, was tatsächlich kommissioniert wird, indem eine andere nicht-spezifische Reservierung einer Serien- oder Chargennummer umgruppiert wird. Wenn die Umgruppierung nicht möglich ist, dann wird folgende Standardfehlermeldung angezeigt, wenn der Benutzer versucht, die Lieferung zu buchen:  

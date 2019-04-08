@@ -1,30 +1,30 @@
 ---
 title: 'Designdetails: Kostenmethoden | Microsoft Docs'
-description: "Die Lagerabgangsmethode legt fest, ob ein tatsächlicher oder ein budgetierter Wert gebucht und in der Berechnung des Einstandspreises verwendet werden soll. Zusammen mit dem Buchungsdatum und der -reihenfolge beeinflusst die Lagerabgangsmethode auch, wie der Kostenfluss aufgezeichnet wird."
+description: Die Lagerabgangsmethode legt fest, ob ein tatsächlicher oder ein budgetierter Wert gebucht und in der Berechnung des Einstandspreises verwendet werden soll. Zusammen mit dem Buchungsdatum und der -reihenfolge beeinflusst die Lagerabgangsmethode auch, wie der Kostenfluss aufgezeichnet wird.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: cd83ddd7dcda539327167e34489c227cd1fdb70e
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "818777"
 ---
 # <a name="design-details-costing-methods"></a>Designdetails: Kostenberechnungsmethoden
 Die Lagerabgangsmethode legt fest, ob ein tatsächlicher oder ein budgetierter Wert gebucht und in der Berechnung des Einstandspreises verwendet werden soll. Zusammen mit dem Buchungsdatum und der -reihenfolge beeinflusst die Lagerabgangsmethode auch, wie der Kostenfluss aufgezeichnet wird. Die folgenden Methoden werden in [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt:  
 
 |Lagerabgangsmethode|Description|Anwendungsbeispiele|  
 |--------------------|---------------------------------------|-----------------|  
-|FIFO|Der Einstandspreis eines Artikels ist der tatsächliche Wert jedes Eingangs des Artikels, nach der FIFO-Regel ausgewählt.<br /><br /> In der Lagerbewertung wird angenommen, dass die ersten Artikel, die im Lager platziert sind, zuerst verkauft werden.|In Unternehmensumgebungen, in denen die Produktkosten stabil sind.<br /><br /> Wenn Preise steigen, zeigt die Bilanz grösseren Wert. Das bedeutet, dass Steuerverbindlichkeiten zunehmen, aber die Bonität und die Möglichkeit, Bargeld zu borgen verbessert sich.<br /><br /> Verwendung für Artikel mit einem begrenzten Haltbarkeitsdatum, da die ältesten Waren verkauft werden müssen, bevor sie ihr Mindesthaltbarkeitsdatum überschreiten.|  
+|FIFO|Der Einstandspreis eines Artikels ist der tatsächliche Wert jedes Eingangs des Artikels, nach der FIFO-Regel ausgewählt.<br /><br /> In der Lagerbewertung wird angenommen, dass die ersten Artikel, die im Lager platziert sind, zuerst verkauft werden.|In Unternehmensumgebungen, in denen die Produktkosten stabil sind.<br /><br /> Wenn Preise steigen, zeigt die Bilanz größeren Wert. Das bedeutet, dass Steuerverbindlichkeiten zunehmen, aber die Bonität und die Möglichkeit, Bargeld zu borgen verbessert sich.<br /><br /> Verwendung für Artikel mit einem begrenzten Haltbarkeitsdatum, da die ältesten Waren verkauft werden müssen, bevor sie ihr Mindesthaltbarkeitsdatum überschreiten.|  
 |LIFO|Der Einstandspreis eines Artikels ist der tatsächliche Wert jedes Eingangs des Artikels, nach der LIFO-Regel ausgewählt.<br /><br /> In der Lagerbewertung wird angenommen, dass die letzten Artikel, die im Lager platziert sind, zuerst verkauft werden.|Nicht zugelassen in vielen Ländern/Regionen, da es verwendet werden kann, um den Deckungsbeitrag zu drücken.<br /><br /> Wenn Preise steigen, reduziert sich der Wert in den Erfolgsrechnungskonten. Das bedeutet, dass Steuerverbindlichkeiten abnehmen, aber die Möglichkeit, Bargeld zu borgen verschlechtert sich.|  
 |Durchschnitt|Der Einstandspreis eines Artikels wird, wie der durchschnittliche Einstandspreis, an jedem Zeitpunkt nach einem Kauf berechnet.<br /><br /> Für Lagerbewertung setzt man voraus, dass alle Bestände gleichzeitig verkauft werden.|In Unternehmensumgebungen, in denen die Produktkosten nicht stabil sind.<br /><br /> Vorgehensweise bei gestapelten oder miteinander kombinierten Beständen, die nicht unterschieden werden können, wie z.B. bei Chemikalien.|  
 |Ausgewählt|Der Einstandspreis eines Artikels sind die exakten Kosten, an denen die bestimmte Einheit empfangen wurden.|Verwendung in der Produktion oder Handel von einfach identifizierbaren Artikeln mit sehr hohen Einstandspreis.<br /><br /> Für Artikel, die Zu-/Abschlägen unterliegen.<br /><br /> Verwendung für Artikel mit Seriennummern.|  
@@ -128,7 +128,7 @@ Die Lagerabgangsmethode legt fest, ob ein tatsächlicher oder ein budgetierter W
 
  **Standard**  
 
- Für Artikel mit der Kostenberechnungsmethode **Standard** werden Bestandserhöhungen ähnlich wie bei der Kostenberechnungsmethode **FIFO** bewertet, ausser dass die Bewertung auf Standardkosten basiert, nicht auf den Ist-Kosten.  
+ Für Artikel mit der Kostenberechnungsmethode **Standard** werden Bestandserhöhungen ähnlich wie bei der Kostenberechnungsmethode **FIFO** bewertet, außer dass die Bewertung auf Standardkosten basiert, nicht auf den Ist-Kosten.  
 
  Die nachstehende Tabelle zeigt, wie Bestandsminderungen für die Kostenberechnungsmethode **Standard** bewertet werden.  
 
@@ -140,7 +140,7 @@ Die Lagerabgangsmethode legt fest, ob ein tatsächlicher oder ein budgetierter W
 
  **Ausgewählt**  
 
- Die Lagerabgangsmethoden bringen die Annahme zum Ausdruck, dass die Kosten von Lagerzugängen zu Lagerabgängen fliessen. Wenn genauere Informationen über den Kostenfluss vorliegen, können Sie diese Annahme jedoch überschreiben, indem Sie einen festen Ausgleich zwischen Posten erstellen. Eine feste Anwendung erstellt eine Verknüpfung zwischen einem Lagerabgang und einem bestimmten Lagerzugang und leitet den Kostenfluss entsprechend.  
+ Die Lagerabgangsmethoden bringen die Annahme zum Ausdruck, dass die Kosten von Lagerzugängen zu Lagerabgängen fließen. Wenn genauere Informationen über den Kostenfluss vorliegen, können Sie diese Annahme jedoch überschreiben, indem Sie einen festen Ausgleich zwischen Posten erstellen. Eine feste Anwendung erstellt eine Verknüpfung zwischen einem Lagerabgang und einem bestimmten Lagerzugang und leitet den Kostenfluss entsprechend.  
 
  Für Artikel mit der Kostenberechnungsmethode **Spezifisch** werden Bestandsminderungen entsprechend der Bestandserhöhung bewertet, mit der sie durch den festen Ausgleich verknüpft sind.  
 
@@ -159,4 +159,3 @@ Die Lagerabgangsmethode legt fest, ob ein tatsächlicher oder ein budgetierter W
  [Designdetails: Artikelanwendung](design-details-item-application.md) [Verwalten der Lagerkosten](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

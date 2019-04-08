@@ -1,23 +1,23 @@
 ---
 title: So verwalten Sie eine Mandantenkonfiguration in einem Arbeitsblatt | Microsoft Docs
-description: "Das Konfigurationsarbeitsblatt ist die zentrale Stelle, an der Sie Ihre Konfigurationsarbeit planen, nachverfolgen und ausführen können. Sie können ein Arbeitsblatt für jeden Mandanten erstellen, mit dem Sie arbeiten, oder ein Standardkonfigurationsarbeitsblatt erstellen, das für die Konfiguration von mehreren identischen Mandanten verwendet werden kann."
+description: Das Konfigurationsarbeitsblatt ist die zentrale Stelle, an der Sie Ihre Konfigurationsarbeit planen, nachverfolgen und ausführen können. Sie können ein Arbeitsblatt für jeden Mandanten erstellen, mit dem Sie arbeiten, oder ein Standardkonfigurationsarbeitsblatt erstellen, das für die Konfiguration von mehreren identischen Mandanten verwendet werden kann.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/07/2018
 ms.author: sgroespe
+ms.openlocfilehash: bd228a418db3b3ee0b3094a0da520dea6139281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
-ms.contentlocale: de-ch
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "819803"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>So verwalten Sie eine Mandantenkonfiguration in einem Arbeitsblatt
 Das Konfigurationsarbeitsblatt ist die zentrale Stelle, an der Sie Ihre Konfigurationsarbeit planen, nachverfolgen und ausführen können. Sie können ein Arbeitsblatt für jeden Mandanten erstellen, mit dem Sie arbeiten, oder ein Standardkonfigurationsarbeitsblatt erstellen, das für die Konfiguration von mehreren identischen Mandanten verwendet werden kann.  
@@ -74,9 +74,9 @@ Die folgenden Verfahren zeigen, wie Tabelleninformationen für die Konfiguration
     > Beispiel: Wenn Sie zugehörige Tabellen für Tabelle **Debitor** erhalten, dann wird die Tabelle **Lagerort** nicht hinzugefügt, da sie nur bedingt mit der Tabelle **Debitor** verknüpft ist, und zwar, wenn das Feld **Lagerortcode** in Tabelle **Debitor** ausgefüllt ist.  
     > - Die verknüpfte Tabelle wird gefiltert.  
     > Beispiel: Ein Feld in der zugehörigen Tabelle hat eine WHERE-Klausel. Der Grund dafür ist, dass die entsprechenden Beziehungsinformationen in der virtuellen Tabelle **Feld** gespeichert werden und nicht auf Seiten wie dem Konfigurationsarbeitsblatt für Leistungsgründe verfügbar ist.  
-    > Sie müssen Tabellen mit solchen komplexen Relationen manuell hinzufügen, indem Sie Schritt 4 im Abschnitt "So fügen Sie dem Arbeitsblatt eine Tabelle hinzu" befolgen.
+    > Sie müssen zugehörige Tabellen mit solchen komplexen Relationen manuell hinzufügen, indem Sie Schritt 4 im Abschnitt [So fügen Sie dem Arbeitsblatt eine Tabelle hinzu](admin-how-to-manage-company-configuration-in-a-worksheet.md#to-add-a-table-to-the-worksheet) befolgen.
 
-7. Um die resultierende Liste von Tabellen zu löschen, wählen Sie eine Tabelle aus, die Sie entfernen möchten, und wählen Sie auf der Registerkarte Start die Option **Löschen** aus.  
+7. Um die resultierende Liste von Tabellen zu ändern, wählen Sie eine Tabelle aus, die Sie entfernen möchten, und wählen Sie auf der Registerkarte Start die Option **Löschen** aus.  
 
 Verwenden Sie folgende Vorgehensweise, um die zu berücksichtigenden Felder anzugeben. Nachdem Sie diese Angaben gemacht haben, können Sie die Tabelle nach Excel exportieren und die Tabellenstruktur als Vorlage für das Sammeln von Debitorendaten verwenden. Weitere Informationen finden Sie unter [Gewusst wie: Debitorendaten zusammenführen](admin-use-templates-to-prepare-customer-data-for-migration.md).  
 
@@ -128,4 +128,3 @@ Wenn Sie ein Konfigurationspaket für eine Lösung erstellen, können Sie die ve
 [Richten Sie eine Unternehmenskonfiguration ein.](admin-set-up-company-configuration.md)  
 [Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)
-

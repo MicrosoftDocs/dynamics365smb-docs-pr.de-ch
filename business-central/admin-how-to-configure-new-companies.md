@@ -1,23 +1,23 @@
 ---
 title: 'Vorgehensweise: Konfigurieren neuer Unternehmen | Microsoft Docs'
-description: "Sie können ein neues Unternehmen, das Sie erstellt haben, konfigurieren und anpassen. Um Ihre Implementierung abzustimmen, gehen Sie in drei Phasen vor, um die Konfiguration abzuschliessen."
+description: Sie können ein neues Unternehmen, das Sie erstellt haben, konfigurieren und anpassen. Um Ihre Implementierung abzustimmen, gehen Sie in drei Phasen vor, um die Konfiguration abzuschliessen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1c953b0a5e1247115b26a8984a632478f80cdda
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "820192"
 ---
 # <a name="configure-new-companies"></a>So konfigurieren Sie einen neuen Mandanten.
 Um einen neuen Mandanten in der Lösungsimplementierung zu konfigurieren, folgen Sie in der Regel drei Phasen. In der ersten Phase importieren Sie das Konfigurationspaket, eine .rapidstart-Datei mit den Konfigurationsinformationen. In der zweiten Phase ändern Sie die Konfigurationsinformationen und übernehmen sie dann für Ihren neuen Mandanten. In der letzten Phase überprüfen Sie auf Fehler und korrigieren diese.  
@@ -71,10 +71,9 @@ Es gibt bestimmte Arten von Fehlern, die auftreten können, wenn Sie Daten auf e
     > [!NOTE]  
     >  Wenn Sie das gleiche Paket wieder importieren, überschreiben Sie sämtliche Datenänderungen, die Sie bereits vorgenommen haben. Aus diesem Grund sollten Sie neue Tabellen in einem neuen Paket hinzufügen und dieses stattdessen importieren.  
 
-7. Wenden Sie die Daten auf die Datenbank an, die im Abschnitt "Paketdatenen ändern und übernehmen " erläutert sind.
+7. Wenden Sie die Daten auf die Datenbank an, wie beschrieben in [So ändern Sie Paketdaten und wenden diese an](admin-how-to-configure-new-companies.md#to-modify-and-apply-package-data).
 
 ## <a name="see-also"></a>Siehe auch  
 [Übernehmen von Konfiguration in neue Mandanten](admin-apply-configuration-to-new-companies.md)  
 [Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)
-

@@ -1,23 +1,23 @@
 ---
 title: Designdetailsg Einehender Lagerfluss | Microsoft Docs
-description: "Der eingehende Fluss in ein Lager beginnt, wenn Artikel im Lager des Unternehmensstandorts ankommen, entweder aus externen Quellen oder von einem anderen Standort des Unternehmens. Ein Mitarbeiter registriert die Artikel, normalerweise, indem er einen Barcode scannt. Vom empfangenden Dock werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel in den Lagerbereich zu bringen."
+description: Der eingehende Fluss in ein Lager beginnt, wenn Artikel im Lager des Unternehmensstandorts ankommen, entweder aus externen Quellen oder von einem anderen Standort des Unternehmens. Ein Mitarbeiter registriert die Artikel, normalerweise, indem er einen Barcode scannt. Vom empfangenden Dock werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel in den Lagerbereich zu bringen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "818946"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetails: Eingehender Lagerfluss
 Der eingehende Fluss in ein Lager beginnt, wenn Artikel im Lager des Unternehmensstandorts ankommen, entweder aus externen Quellen oder von einem anderen Standort des Unternehmens. Ein Mitarbeiter registriert die Artikel, normalerweise, indem er einen Barcode scannt. Vom empfangenden Dock werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel in den Lagerbereich zu bringen.  
@@ -46,7 +46,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie die eingehenden Proze
 |L|Posteinlieferungsschein und Einlagerung aus einem Wareneingangsbeleg||X||4/5/6|  
 |T|Posteinlieferungsschein aus einem Wareneingangsbeleg und Posteinlagerung aus einem Einlagerungsbeleg||X|X|4/5/6|  
 
-Die Auswahl eines Ansatzes hängt von den akzeptierten Methoden des Unternehmens und seiner Komplexität ab. In einer Auftrag-für-Auftrag-Lagerumgebung, in der die meisten der Lagermitarbeiter direkt mit Auftragsbelegen arbeiten, entscheidet sich ein Unternehmen möglicherweise anschliessend, Methode A zu verwenden. Ein Auftrag-für-Auftrag-Lager, das einen komplexeren Einlagerungsprozess hat, oder das dedizierte Lagermitarbeiter hat, um die Lagerverwaltung durchzuführen, könnte sich entscheiden, seine Einlagerungsfunktionen von der Auftragsdokumentmethode B zu trennen. Darüber hinaus kann es für Unternehmen, die die Verarbeitung mehrerer Aufträge planen müssen, nützlich sein, Lagereingangsdokumente, Methoden C und D, zu verwenden.  
+Die Auswahl eines Ansatzes hängt von den akzeptierten Methoden des Unternehmens und seiner Komplexität ab. In einer Auftrag-für-Auftrag-Lagerumgebung, in der die meisten der Lagermitarbeiter direkt mit Auftragsbelegen arbeiten, entscheidet sich ein Unternehmen möglicherweise anschließend, Methode A zu verwenden. Ein Auftrag-für-Auftrag-Lager, das einen komplexeren Einlagerungsprozess hat, oder das dedizierte Lagermitarbeiter hat, um die Lagerverwaltung durchzuführen, könnte sich entscheiden, seine Einlagerungsfunktionen von der Auftragsdokumentmethode B zu trennen. Darüber hinaus kann es für Unternehmen, die die Verarbeitung mehrerer Aufträge planen müssen, nützlich sein, Lagereingangsdokumente, Methoden C und D, zu verwenden.  
 
 In den Methoden werden A, B und C werden die Aktionen des Eingangs und der Einlagerung in einem Schritt zusammengefasst, wenn der entsprechende Beleg als eingegangen gebucht wird. In Methode D wird der Eingang zuerst gebucht, um die Bestandszunahme zu erkennen sowie, dass Artikel zum Verkauf verfügbar sind. Der Lagermitarbeiter registriert die Einlagerung, um Artikel für die Kommissionierung bereitzustellen.  
 
@@ -89,7 +89,7 @@ Der Benutzer füllt das Feld **Verarbeitungsmenge** aus und wählt die empfangen
 Der Benutzer bucht den Wareneingang. Positive Lagerposten werden erstellt. Beispielsweise wird das Feld **Menge empfangen**auf der Zeile des eingehenden Herkunftsbelegs aktualisiert.  
 
 ### <a name="5-create-warehouse-internal-put-away"></a>5: Erstellen Sie eine neue interne Einlagerungsanforderung  
-Der Benutzer, der für die Einlagerung aus internen Vorgängen zuständig ist, erstellt eine interne Einlagerungsanforderung für Artikel, die im Lager eingelagert werden müssen Lager, wie Produktions- oder Montageausstoss. Der Benutzer gibt Menge, Zone und Lagerplatz an, aus denen Artikel eingelagert werden sollen, eventuell mit der Funktion **Lagerplatzinhalt holen**. Der Benutzer gibt die interne Einlagerungsanforderung frei, wodurch eine eingehende erwartete Lagerbewegung erstellt wird, sodass die Aufgabe in Einlagerungsbelegen oder im Einlagerungsarbeitsblatt abgerufen werden kann.  
+Der Benutzer, der für die Einlagerung aus internen Vorgängen zuständig ist, erstellt eine interne Einlagerungsanforderung für Artikel, die im Lager eingelagert werden müssen Lager, wie Produktions- oder Montageausstoß. Der Benutzer gibt Menge, Zone und Lagerplatz an, aus denen Artikel eingelagert werden sollen, eventuell mit der Funktion **Lagerplatzinhalt holen**. Der Benutzer gibt die interne Einlagerungsanforderung frei, wodurch eine eingehende erwartete Lagerbewegung erstellt wird, sodass die Aufgabe in Einlagerungsbelegen oder im Einlagerungsarbeitsblatt abgerufen werden kann.  
 
 ### <a name="6-create-put-away-request"></a>6: Einlagerungsanforderung  
 Wenn der eingehende Herkunftsbeleg gebucht wird, wird eine Einlagerungsanforderung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden. Abhängig von den Einstellungen erstellt die Ausgabe eines Fertigungsauftrags auch eine Einlagerungsanforderung, um die fertigen Artikel im Lagerbestand einzulagern.  
@@ -112,4 +112,3 @@ Lagerplatzposten werden erstellt, und die Einlagerungszeilen werden gelöscht, w
 
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Logistik](design-details-warehouse-management.md)
-

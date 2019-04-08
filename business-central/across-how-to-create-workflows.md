@@ -1,23 +1,23 @@
 ---
 title: Erstellen von Workflows | Microsoft Docs
-description: "Sie können Workflows einrichten, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte."
+description: Sie können Workflows einrichten, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b8085f02f30d28ed1362ee6cea32d398c86b1694
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "819146"
 ---
 # <a name="create-workflows"></a>Erstellen eines Workflows
 Sie können Workflows einrichten, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  
@@ -67,9 +67,9 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
         |----------------------------------|---------------------------------------|  
         |**Fälligkeitsdatumsformel**|Geben Sie an, in wievielen Tagen eine die Genehmigungsanforderung ab dem Datum, an dem sie gesendet wurde, abgeschlossen werden muss.|  
         |**Delegieren nach**|Geben Sie an, ob und wann eine Anforderung für fällige Genehmigung automatisch an den relevanten Stellvertreter delegiert wird. Sie können eine automatische Delegierung ein, zwei oder fünf Tage nach der Anforderung der Genehmigung auswählen.|  
-        |**Genehmigertyp**|Geben Sie an, wer gemäss der Einrichtung von Genehmigungsbenutzern und von Workflowbenutzern der Genehmiger ist.<br /><br /> Folgende Optionen sind verfügbar:<br /><br /> -   **Verkäufer/Einkäufer** bedeutet, dass der Benutzer, der im Feld **Verkäufer-/Einkäufercode** auf der Seite **Genehmigungsbenutzereinrichtung** definiert wurde, den Genehmiger bestimmt. Es werden dann entsprechend des Werts im Feld **Einschränkungsart Genehmiger** Genehmigungsanforderungsposten erstellt.<br />     Weitere Informationen finden Sie unter [Einrichten von Genehmigungsbenutzern.](across-how-to-set-up-workflow-users.md)|  
+        |**Genehmigertyp**|Geben Sie an, wer gemäß der Einrichtung von Genehmigungsbenutzern und von Workflowbenutzern der Genehmiger ist.<br /><br /> Folgende Optionen sind verfügbar:<br /><br /> -   **Verkäufer/Einkäufer** bedeutet, dass der Benutzer, der im Feld **Verkäufer-/Einkäufercode** auf der Seite **Genehmigungsbenutzereinrichtung** definiert wurde, den Genehmiger bestimmt. Es werden dann entsprechend des Werts im Feld **Einschränkungsart Genehmiger** Genehmigungsanforderungsposten erstellt.<br />     Weitere Informationen finden Sie unter [Einrichten von Genehmigungsbenutzern.](across-how-to-set-up-workflow-users.md)|  
         |**Bestätigungsmeldung anzeigen**|Geben Sie an, ob Benutzern eine Bestätigungsmeldung angezeigt wird, nachdem sie eine Genehmigung angefordert haben.|  
-        |**Einschränkungsart Genehmiger**|Gibt an, welchen Einfluss die Genehmigungsgrenzwerte des Genehmigers haben, wenn Genehmigungsanforderungsposten für sie erstellt werden. Ein qualifizierter Genehmiger ist ein Genehmiger, dessen Genehmigungsgrenzwert über dem Wert der Genehmigungsanforderung liegt.<br /><br /> Folgende Optionen sind verfügbar:<br /><br /> 1.  **Genehmigerkette** gibt an, dass Genehmigungsanforderungsposten für alle Genehmiger des Anforderers bis einschliesslich dem ersten qualifizierten Genehmiger erstellt werden.<br />2.  **Direkter Genehmiger** gibt an, dass ein Genehmigungsanforderungsposten nur für den direkten Genehmiger des Anforderers erstellt wird, unabhängig vom Genehmigungsgrenzwert des Genehmigers.<br />3.  **Erster qualifizierter Genehmiger** gibt an, dass ein Genehmigungsanforderungsposten nur für den ersten qualifizierten Genehmiger des Anforderers erstellt wird.<br />|  
+        |**Einschränkungsart Genehmiger**|Gibt an, welchen Einfluss die Genehmigungsgrenzwerte des Genehmigers haben, wenn Genehmigungsanforderungsposten für sie erstellt werden. Ein qualifizierter Genehmiger ist ein Genehmiger, dessen Genehmigungsgrenzwert über dem Wert der Genehmigungsanforderung liegt.<br /><br /> Folgende Optionen sind verfügbar:<br /><br /> 1.  **Genehmigerkette** gibt an, dass Genehmigungsanforderungsposten für alle Genehmiger des Anforderers bis einschließlich dem ersten qualifizierten Genehmiger erstellt werden.<br />2.  **Direkter Genehmiger** gibt an, dass ein Genehmigungsanforderungsposten nur für den direkten Genehmiger des Anforderers erstellt wird, unabhängig vom Genehmigungsgrenzwert des Genehmigers.<br />3.  **Erster qualifizierter Genehmiger** gibt an, dass ein Genehmigungsanforderungsposten nur für den ersten qualifizierten Genehmiger des Anforderers erstellt wird.<br />|  
     3.  Um Optionen für eine Workflowantwort inkl. des Erstellens von Buch.-Blattzeilen festzulegen, füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
 
         |Feld|Description|  
@@ -77,7 +77,7 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
         |**Fibu Erf.-Journalvorlagenname**|Geben Sie den Namen der Erf.-Journalvorlage an, in der die angegebenen Erfassungsjournalzeilen erstellt werden.|  
         |**Fibu Erf.-Journalname**|Geben Sie den Namen des Erf.-Journalnamens an, in dem die angegebenen Erfassungsjournalzeilen erstellt werden.|  
 
-11. Wählen Sie die Schaltflächen **Einzug vergrössern** und **Einzug verringern** aus, um den Ereignisnamen im Feld **Wenn** einzurücken und die Position des Schritts im Workflow zu definieren.  
+11. Wählen Sie die Schaltflächen **Einzug vergrößern** und **Einzug verringern** aus, um den Ereignisnamen im Feld **Wenn** einzurücken und die Position des Schritts im Workflow zu definieren.  
     1.  Geben Sie an, dass der Schritt der nächste in der Workflowsequenz ist, indem Sie den Ereignisnamen unter dem Ereignisnamen des vorangegangenen Schrittes einrücken.  
     2.  Geben Sie an, dass der Schritt einer von mehreren alternativen Schritten ist, die abhängig von seiner Bedingung beginnen können, indem Sie den Ereignisnamen an derselben Einrückung wie die anderen alternativen Schritte setzen. Sortieren Sie solche optionalen Schritte entsprechend der Priorität, indem Sie zuerst den wichtigsten Schritt setzen.  
 
@@ -103,5 +103,4 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
 [Einrichten von Workflows](across-set-up-workflows.md)   
 [Verwenden von Workflows](across-use-workflows.md)   
 [Workflow](across-workflow.md)      
-
 

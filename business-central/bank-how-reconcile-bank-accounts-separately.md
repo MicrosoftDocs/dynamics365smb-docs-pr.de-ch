@@ -2,7 +2,7 @@
 title: Bankkonten separat abstimmen| Microsoft Docs
 description: Beschreibt wie der Lagerwert mit dem Fibuposten abgestimmt wird.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: feb29e3cee1a55833566657a6a007af8854f98f5
-ms.contentlocale: de-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "818806"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Bankkonten separat abstimmen
 Um Bankkonten mit den Abrechnungen in [!INCLUDE[d365fin](includes/d365fin_md.md)] abzustimmen, die Sie von Ihrer Bank erhalten werden, beginnen Sie indem Sie im Bereich links auf der Seite **Bankkonto Abstimmen** mit Bankkontoauszugsinformationen ausfüllen die Sie anschliessend mit den Bankposten im rechten Fensterbereich abstimmen. Eine intelligente Art, Bankkontoauszugszeilen auszufüllen ist es, Bankkontoauszugsdateien Feeds  zu importieren.
@@ -100,4 +100,3 @@ Manchmal enthält ein Bankkontoauszug einen Betrag für berechnete Zinsen oder G
 [Verwalten von Bankkonten](bank-manage-bank-accounts.md)  
 [Einrichten von Banken](bank-setup-banking.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
