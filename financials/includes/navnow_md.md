@@ -1,1 +1,0 @@
-<span data-ttu-id="ab8e7-101">Microsoft Dynamics 365 for Finance and Operations, Business edition (lokal)</span><span class="sxs-lookup"><span data-stu-id="ab8e7-101">Dynamics 365 for Finance and Operations, Business edition (on-premises)</span></span>
