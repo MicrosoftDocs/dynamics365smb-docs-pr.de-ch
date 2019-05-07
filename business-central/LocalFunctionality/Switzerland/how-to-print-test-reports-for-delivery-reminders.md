@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e83d3d039af77772626b75052acb17abf4fb3dd7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: aabfee8dddb4655c9c68f41e4cf1f1a5af479f87
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827229"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941249"
 ---
 # <a name="print-test-reports-for-delivery-reminders"></a>So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen
 Nach dem Erstellen von Lieferanmahnungen und der Durchführung von ggf. notwendigen Änderungen können Sie entweder Testberichte drucken oder die Lieferanmahnungen registrieren.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/19/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9d5f3cf7aa65a4a60133545d355fe17ac6a16685
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3662736f462e488d1ac2c42e2195accf4352dcff
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827239"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937913"
 ---
 # <a name="adjust-exchange-rates"></a>Wechselkurse regulieren
 Wenn Sie steuerpflichtige Umsätze in Fremdwährung abrechnen, müssen die offiziellen Kurse der Eidg. Steuerverwaltung zur MWST-Kursumrechnung verwendet werden.  
