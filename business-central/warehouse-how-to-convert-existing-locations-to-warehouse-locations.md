@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6f5c798587c832b25ef2ead944fc5f5f8ea89644
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9996dce18755a48be903fabdfcb381a5d6ee5398
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "820048"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939214"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Konvertieren vorhandener Lagerorte in Lagerorte des Lagers
 Sie können einen vorhandenen Lagerort aktivieren, um Zonen und Lagerplätze zu verwenden und als Lagerorte zu betreiben.  
@@ -37,7 +37,7 @@ Zonen und Lagerplätze können vor oder nach der Umwandlung erstellt werden. Der
     Mit Hilfe der offenen Lagerposten für den angegebenen werden Lagerort Logistik-Erfassungsjournalzeilen erstellt, in denen sämtliche Kombinationen von Artikelnr., Variantencode, Einheitencode sowie ggf. Chargennr. und Seriennr. aus den Lagerposten zusammengefasst sind. Die Logistik Erfassungsjournalzeilen werden dann gebucht. Bei der Buchung werden Lagerplatzposten erstellt, durch die der Bestand dem Ausgleichslagerplatz zugeordnet wird. Ausserdem wird der **Ausgleichslagerplatzcode** auf der Lagerortkarte eingesetzt.  
 
 4.  Um zu sehen, welche Artikel während der Stapelverarbeitung dem Ausgleichslagerplatz hinzugefügt wurden, können Sie den Bericht  **Ausgleichslagerplatz anpassen** ausführen.  
-5.  Nachdem die Stapelverarbeitung   **Lagerort erstellen**abgeschlossen ist, muss eine Lagerinventur ausgeführt und gebucht werden. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand](inventory-how-count-adjust-reclassify.md).  
+5.  Nachdem die Stapelverarbeitung   **Lagerort erstellen**abgeschlossen ist, muss eine Lagerinventur ausgeführt und gebucht werden. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md)  
 
 > [!NOTE]  
 >  Es empfiehlt sich, den Batchauftrag **Lagerort erstellen** zu einem Zeitpunkt ausführen, zu dem er sich im System nicht auf die tägliche Arbeit auswirkt. Dieser Auftrag verarbeitet alle Einträge in der Tabelle **Lagerposten**. Wenn es viele Lagerposten gibt, kann der Auftrag mehrere Stunden dauern.  

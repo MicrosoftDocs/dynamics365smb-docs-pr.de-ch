@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "819608"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919528"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeiten mit MwSt im Verkauf und Einkauf
-Wenn Ihr Land oder Ihre Region es erfordert, die Mehrwertsteuer (MWST) in Einkaufs- und Verkaufstransaktionen zu berechnen, sodass Sie die Beträge einer Steuerbehörden melden können, können Sie festlegen, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] MWST in Einkaufs- und Verkaufsbelegen automatisch berechnet wird. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Mehrwertsteuer] (finance-setup-vat.md).
+Wenn Ihr Land oder Ihre Region es erfordert, die Mehrwertsteuer (MwSt) in Einkaufs- und Verkaufstransaktionen zu berechnen, sodass Sie die Beträge einer Steuerbehörden melden können, können Sie festlegen, dass [!INCLUDE[d365fin](includes/d365fin_md.md)]MwSt in Einkaufs- und Verkaufsbelegen automatisch berechnet wird. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Salestax](finance-setup-vat.md).
 
-Es gibt jedoch MWST-verknüpfte Aufgaben, die Sie manuell tun können. Beispielsweise müssen Sie möglicherweise einen gebuchten Betrag korrigieren, wenn Sie feststellen, dass ein Kreditor eine andere Rundungsmethode verwendet.
+Es gibt jedoch Mehrwertsteuer-verknüpfte Aufgaben, die Sie manuell tun können. Beispielsweise müssen Sie möglicherweise einen gebuchten Betrag korrigieren, wenn Sie feststellen, dass ein Kreditor eine andere Rundungsmethode verwendet.
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Berechnen und Anzeigen von MWST-Beträgen in Verkaufs- und Einkaufsbelegen  
 Je nach Debitoren- oder Kreditorenart können MWST-Beträge in Verkaufs- und Einkaufsbelegen unterschiedlich berechnet und angezeigt werden. Darüber hinaus kann der von der Anwendung berechnete MWST-Betrag ausser Kraft gesetzt werden und der von Ihrem Kreditor für ein bestimmtes Geschäft berechnete MWST-Betrag verwendet werden.  
@@ -63,7 +63,7 @@ Wenn Skonto auf der Basis einer Rechnung inklusive MWST berechnet wurde, haben S
 1. Öffnen Sie den entsprechenden Verkaufsauftrag.  
 2. Wählen Sie die Aktion **Statistik** aus.  
 3. Klicken Sie auf das Inforegister **Fakturierung**.  
-  
+
     > [!NOTE]  
     >  Der gesamte MWST-Betrag für die Rechnung wird gruppiert nach MWST ID in den Zeilen angezeigt. Sie können den Betrag manuell im Feld **MWST-Betrag** in den Zeilen für jede MWST ID anpassen. Wenn Sie das Feld **MWST-Betrag** ändern, prüft die Anwendung, ob die Mehrwertsteuer um einen höheren Betrag als die maximal zulässige Differenz geändert wurde. Liegt der Betrag ausserhalb des unter **Max. MWST-Differenz zulässig** angegebenen Bereichs, werden Sie in einer Warnmeldung über die maximal zulässige Differenz informiert. Sie können erst dann fortfahren, wenn der Betrag an die zulässigen Parameter angeglichen wurde. Klicken Sie auf **OK** , und geben Sie einen anderen **MWST-Betrag** ein, der innerhalb des zulässigen Bereichs liegt. Wenn die MWST-Differenz der zulässigen Abweichung entspricht oder höher ist, wird die MWST proportional auf die Belegzeilen mit derselben MWST ID aufgeteilt.  
 
@@ -77,7 +77,7 @@ Sie können MWST-Beträge auch in den Erfassungsjournalen Allgemein, Verkauf und
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Bevor Sie MWST.-Beträge manuell in Verkaufs- und Einkaufs-Erfassungsjournalen eingeben  
 1. Auf der Seite **Kreditoren & Einkauf Einr.** wählen Sie das Kontrollkästchen **MwSt.-Differenz zulassen**.  
 2. Nachdem Sie die oben beschriebene Einrichtung durchgeführt haben, können Sie den Betrag im Feld **MWST-Betrag** in der Fibu-Erf.-Blattzeile oder das Feld **Gegenkonto MWST-Betrag** in der Verkaufs- oder Einkaufs-Erf.-Journalzeile an den MWST-Betrag der Rechnung anpassen. [!INCLUDE[d365fin](includes/d365fin_md.md)]Die Anwendung prüft, ob die Differenz die festgelegte maximale Differenz übersteigt.  
-  
+
     > [!NOTE]  
     > Wenn die Differenz grösser ist, wird in einer Warnmeldung über die maximal zulässige Differenz informiert. Um fortfahren, müssen Sie den Betrag korrigieren. Klicken Sie auf **OK** , und geben Sie einen anderen MwSt.-Betrag ein, der innerhalb des zulässigen Bereichs liegt. Wenn die MWST-Differenz der maximal zulässigen Differenz entspricht oder höher ist, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] die Abweichung im Feld **MWST-Differenz** angezeigt.  
 
@@ -115,12 +115,12 @@ Wenn Sie Waren an einen Debitor in einem anderen EU-Land/einer anderen EU-Region
     >  Wenn bei der MWST.-Buchungsgruppen-Einrichtung nicht das Kontrollkästchen **Gelangensbestätigung erforderlich** ausgewählt ist, wird ein Datensatz erstellt und das Feld **Status** auf **Nicht anwendbar** festgelegt. Sie können das Feld automatisch aktualisieren, um die richtigen Statusinformationen widerzuspiegeln. Sie können den Status bei Bedarf manuell von **Nicht anwendbar** in **Erforderlich** und von **Erforderlich** in **Nicht anwendbar** ändern.  
 
    Wenn Sie das Feld **Status** von **Erforderlich** in **Empfangen** oder in **Nicht erhalten** aktualisieren, wird ein Zertifikat erstellt.  
-  
+
     > [!TIP]  
     >  Sie können auf der Seite **Gelangensbestätigung** verwenden, um eine Ansicht des Status aller gebuchten Lieferungen zu erhalten, für die eine Gelangensbestätigung erstellt wurde.  
 
 5. Wählen Sie **Gelangensbestätigung drucken**.  
-  
+
     > [!Note]  
     >  Sie können das Dokument in der Vorschau anzeigen oder drucken. Wenn Sie **Gelangensbestätigung drucken** auswählen und den Beleg drucken, wird das Kontrollkästchen **Gedruckt** automatisch ausgewählt. Darüber hinaus wird der Status des Zertifikats, wenn dies nicht bereits angegeben ist, zu **Erforderlich** aktualisiert. Sofern erorderlich, legen Sie das gedruckte Zertifikat der Lieferung bei.  
 

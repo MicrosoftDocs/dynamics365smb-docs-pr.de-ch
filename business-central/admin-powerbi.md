@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 26fe722a863ada2bcd017e2bc614b976a7119a25
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f51de349c4b13eaabd185cdb728d59006dfe6db6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "818839"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916388"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivieren Sie Ihre Geschäftsdaten für Power BI
 Einblicke in Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)]-Daten zu erhalten zu erhalten, ist mit Power BI und den [!INCLUDE[d365fin](includes/d365fin_md.md)]-Inhaltspaketen sehr einfach. Power BI ruft Ihre Daten ab und erstellt dann ein vorkonfiguriertes Dashboard und Berichte auf Grundlage dieser Daten.  
@@ -80,7 +80,7 @@ Um die [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Daten in Power B
 - Excel-Vorlage zur Unternehmensansicht
 - Power BI-Berichtsbezeichnungen
 
-**Microsoft Dynamics 365 Business Central – Projekte**
+**Microsoft Dynamics 365 Business Central – Jobs**
 - Projektliste
 - Projektplanzeilen
 - Projektaufgabenzeilen
@@ -94,7 +94,7 @@ Um die [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Daten in Power B
 
 ## <a name="list-page-reports"></a>Berichte für Listenseite
 
-**Microsoft Dynamics 365 Business Central – Debitorenübersicht**
+**Microsoft Dynamics 365 Business Central – Customers List**
 - Artikel-Statistik nach Debitor
 - Power BI-Artikeleinkaufsliste
 - Power BI-Artikelverkaufsliste
@@ -103,13 +103,13 @@ Um die [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Daten in Power B
 - ExcelTemplateViewCompany
 - Power BI-Berichtsbezeichnungen
 
-**Microsoft Dynamics 365 Business Central - Sachpostenübersicht**
+**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
 - Power BI-Sachkontobetragsliste
 - Power BI – budgetierter Betrag des Sachkontos
 - ExcelTemplateViewCompany
 - Power BI-Berichtsbezeichnungen
 
-**Microsoft Dynamics 365 Business Central – Artikelübersicht**
+**Microsoft Dynamics 365 Business Central – Items List**
 - Artikel-Statistik nach Debitor
 - Power BI-Artikeleinkaufsliste
 - Power BI-Artikelverkaufsliste
@@ -117,23 +117,23 @@ Um die [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Daten in Power B
 - ExcelTemplateViewCompany
 - Power BI-Berichtsbezeichnungen
 
-**Microsoft Dynamics 365 Business Central – Projektübersicht**
+**Microsoft Dynamics 365 Business Central – Jobs List**
 - Power BI-Projekte-Liste
 - ExcelTemplateViewCompany
 - Power BI-Berichtsbezeichnungen
 
-**Microsoft Dynamics 365 Business Central – Einkaufsrechnungsübersicht**
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
 - Power BI-Einkaufsliste
 - ExcelTemplateViewCompany
 - Power BI-Berichtsbezeichnungen
 
-**Microsoft Dynamics 365 Business Central – Verkaufsauftragsübersicht**
+**Microsoft Dynamics 365 Business Central – Sales Orders List**
 - Power BI-Verkaufsliste
 - ExcelTemplateViewCompany
 - Power BI-Berichtsbezeichnungen
 
 
-**Microsoft Dynamics 365 Business Central – Kreditorenübersicht**
+**Microsoft Dynamics 365 Business Central – Vendors List**
 - Power BI-Artikeleinkaufsliste
 - Power BI-Artikelverkaufsliste
 - Power BI-Kreditorenliste
