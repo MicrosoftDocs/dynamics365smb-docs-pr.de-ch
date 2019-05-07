@@ -3,60 +3,75 @@ title: Lokale Funktion (Schweiz)
 description: Die folgenden Themen beschreiben die lokale Funktion in der Schweizer Version von Business Central.
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
+author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/12/2018
-ms.author: sgroespe
-ms.openlocfilehash: 8c823809865125231129116c9c1e52b8a504469e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: soalex
+ms.openlocfilehash: 9128135404f5cf8775763967cf3d3ccd7573b9a1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827188"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "931455"
 ---
-# <a name="switzerland-local-functionality"></a><span data-ttu-id="8283f-103">Lokale Funktion (Schweiz)</span><span class="sxs-lookup"><span data-stu-id="8283f-103">Switzerland Local Functionality</span></span>
-<span data-ttu-id="8283f-104">Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="8283f-104">The following topics describe local functionality that is unique to the Swiss version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span></span>  
+# <a name="switzerland-local-functionality"></a><span data-ttu-id="162ba-103">Lokale Funktion (Schweiz)</span><span class="sxs-lookup"><span data-stu-id="162ba-103">Switzerland Local Functionality</span></span>
+<span data-ttu-id="162ba-104">Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="162ba-104">The following topics describe local functionality that is unique to the Swiss version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="8283f-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="8283f-105">In This Section</span></span>  
-[<span data-ttu-id="8283f-106">Saldo</span><span class="sxs-lookup"><span data-stu-id="8283f-106">Balance</span></span>](balance.md)  
-[<span data-ttu-id="8283f-107">Lieferanmahnungen</span><span class="sxs-lookup"><span data-stu-id="8283f-107">Delivery Reminders</span></span>](delivery-reminders.md)  
-[<span data-ttu-id="8283f-108">Wechselkurse regulieren</span><span class="sxs-lookup"><span data-stu-id="8283f-108">Adjust Exchange Rates</span></span>](how-to-adjust-exchange-rates.md)  
-[<span data-ttu-id="8283f-109">Zuweisen von Liefercodes zu Kreditoren</span><span class="sxs-lookup"><span data-stu-id="8283f-109">Assign Delivery Codes to Vendors</span></span>](how-to-assign-delivery-reminder-codes-to-vendors.md)  
-[<span data-ttu-id="8283f-110">Schliessen eines LSV-Einzugs</span><span class="sxs-lookup"><span data-stu-id="8283f-110">Close an LSV Collection</span></span>](how-to-close-an-lsv-collection.md)  
-[<span data-ttu-id="8283f-111">Erstellen und Drucken einer Schweizer MWST-Abrechnung</span><span class="sxs-lookup"><span data-stu-id="8283f-111">Create and print a Swiss VAT Statement</span></span>](how-to-create-and-print-a-swiss-vat-statement.md)  
-[<span data-ttu-id="8283f-112">So erstellen Sie Lieferanmahnungen manuell</span><span class="sxs-lookup"><span data-stu-id="8283f-112">Create Delivery Reminders Manually</span></span>](how-to-create-delivery-reminders-manually.md)  
-[<span data-ttu-id="8283f-113">Exportieren von Zahlungen mit LSV</span><span class="sxs-lookup"><span data-stu-id="8283f-113">Export Payments Using LSV</span></span>](how-to-export-payments-using-lsv.md)  
-[<span data-ttu-id="8283f-114">So erstellen Sie Lieferanmahnungen</span><span class="sxs-lookup"><span data-stu-id="8283f-114">Generate Delivery Reminders</span></span>](how-to-generate-delivery-reminders.md)  
-[<span data-ttu-id="8283f-115">Importieren von ESR-Zahlungen</span><span class="sxs-lookup"><span data-stu-id="8283f-115">Import ESR Payments</span></span>](how-to-import-esr-payments.md)  
-[<span data-ttu-id="8283f-116">Importieren von Schweizer Bankenclearingnummern</span><span class="sxs-lookup"><span data-stu-id="8283f-116">Import Swiss Bank Clearing Numbers</span></span>](how-to-import-swiss-bank-clearing-numbers.md)  
-[<span data-ttu-id="8283f-117">Importieren von Postleitzahlen (Schweiz)</span><span class="sxs-lookup"><span data-stu-id="8283f-117">Import Swiss Post Codes</span></span>](how-to-import-swiss-post-codes.md)  
-[<span data-ttu-id="8283f-118">Lieferbenachrichtigung registrieren</span><span class="sxs-lookup"><span data-stu-id="8283f-118">Issue Delivery Reminders</span></span>](how-to-issue-delivery-reminders.md)  
-[<span data-ttu-id="8283f-119">Buchen von LSV-Zahlungen</span><span class="sxs-lookup"><span data-stu-id="8283f-119">Post LSV Payments</span></span>](how-to-post-lsv-payments.md)  
-[<span data-ttu-id="8283f-120">Drucken einer Lagerkommissionierliste von einem Auftrag</span><span class="sxs-lookup"><span data-stu-id="8283f-120">Print an Inventory Picking List from a Sales Order</span></span>](how-to-print-an-inventory-picking-list-from-a-sales-order.md)  
-[<span data-ttu-id="8283f-121">Drucken von Finanzbuchhaltungs-Setupinformationen</span><span class="sxs-lookup"><span data-stu-id="8283f-121">Print General Ledger Setup Information</span></span>](how-to-print-general-ledger-setup-information.md)  
-[<span data-ttu-id="8283f-122">So drucken Sie im Verlauf von Stapelbuchungen Verkaufsaufträge und Bestellungen</span><span class="sxs-lookup"><span data-stu-id="8283f-122">Print Sales and Purchase Orders During Batch Posting</span></span>](how-to-print-sales-and-purchase-orders-during-batch-posting.md)  
-[<span data-ttu-id="8283f-123">Drucken von MWST-Abrechnungen (Schweiz) (ältere Versionen)</span><span class="sxs-lookup"><span data-stu-id="8283f-123">Print Swiss VAT Statements (Older Versions)</span></span>](how-to-print-swiss-vat-statements-older-version-.md)  
-[<span data-ttu-id="8283f-124">So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen</span><span class="sxs-lookup"><span data-stu-id="8283f-124">Print Test Reports for Delivery Reminders</span></span>](how-to-print-test-reports-for-delivery-reminders.md)  
-[<span data-ttu-id="8283f-125">Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen</span><span class="sxs-lookup"><span data-stu-id="8283f-125">Print Vendor Payments List Reports</span></span>](how-to-print-vendor-payments-list-reports.md)  
-[<span data-ttu-id="8283f-126">Verarbeiten eines LSV-Einzugs</span><span class="sxs-lookup"><span data-stu-id="8283f-126">Process an LSV Collection</span></span>](how-to-process-an-lsv-collection.md)  
-[<span data-ttu-id="8283f-127">Gewusst wie: Einrichten von Lieferbenachrichtigungen</span><span class="sxs-lookup"><span data-stu-id="8283f-127">Set Up Delivery Reminders</span></span>](how-to-set-up-delivery-reminders.md)  
-[<span data-ttu-id="8283f-128">Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Texten</span><span class="sxs-lookup"><span data-stu-id="8283f-128">Set Up Delivery Reminder Terms, Levels, and Texts</span></span>](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
-[<span data-ttu-id="8283f-129">Anzeigen temporärer Salden in Finanzbuchhaltungs-Erfassungsjournalen</span><span class="sxs-lookup"><span data-stu-id="8283f-129">View Temporary Balances in General Ledger Journals</span></span>](how-to-view-temporary-balances-in-general-ledger-journals.md)  
-[<span data-ttu-id="8283f-130">Elektronische Zahlungen (Schweiz)</span><span class="sxs-lookup"><span data-stu-id="8283f-130">Swiss Electronic Payments</span></span>](swiss-electronic-payments.md)  
-[<span data-ttu-id="8283f-131">Elektronische Zahlungen mit ESR (Schweiz)</span><span class="sxs-lookup"><span data-stu-id="8283f-131">Swiss Electronic Payments Using ESR</span></span>](swiss-electronic-payments-using-esr.md)  
-[<span data-ttu-id="8283f-132">Elektronische Zahlungen mit LSV (Schweiz)</span><span class="sxs-lookup"><span data-stu-id="8283f-132">Swiss Electronic Payments Using LSV</span></span>](swiss-electronic-payments-using-lsv-.md)  
-[<span data-ttu-id="8283f-133">Lagerverwaltung (Schweiz)</span><span class="sxs-lookup"><span data-stu-id="8283f-133">Swiss Inventory Management</span></span>](swiss-inventory-management.md)  
-[<span data-ttu-id="8283f-134">Einkaufsbelege und Verkaufsaufträge (Schweiz)</span><span class="sxs-lookup"><span data-stu-id="8283f-134">Swiss Purchase Documents and Sales Orders</span></span>](swiss-purchase-documents-and-sales-documents.md)  
-[<span data-ttu-id="8283f-135">Mehrwertsteuer (Schweiz)</span><span class="sxs-lookup"><span data-stu-id="8283f-135">Swiss Value Added Tax</span></span>](swiss-value-added-tax.md)  
-[<span data-ttu-id="8283f-136">Finanzbuchhaltungskonten (Schweiz)</span><span class="sxs-lookup"><span data-stu-id="8283f-136">Swiss General Ledger Accounts</span></span>](swiss-general-ledger-accounts.md)  
-[<span data-ttu-id="8283f-137">MWST-Sätze für die Schweiz</span><span class="sxs-lookup"><span data-stu-id="8283f-137">VAT Rates for Switzerland</span></span>](vat-rates-for-switzerland.md)
+## <a name="feature-availability"></a><span data-ttu-id="162ba-105">Verfügbarkeit der Funktion</span><span class="sxs-lookup"><span data-stu-id="162ba-105">Feature Availability</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="8283f-138">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="8283f-138">See Also</span></span>
-<span data-ttu-id="8283f-139">[Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="8283f-139">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>
+* <span data-ttu-id="162ba-106">MWST und Salestax</span><span class="sxs-lookup"><span data-stu-id="162ba-106">VAT & Tax</span></span>
+    * <span data-ttu-id="162ba-107">[Erstellen und Drucken einer Schweizer MWST-Abrechnung](how-to-create-and-print-a-swiss-vat-statement.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-107">[Create and print a Swiss VAT Statement](how-to-create-and-print-a-swiss-vat-statement.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-108">[Drucken von MWST-Abrechnungen (Schweiz) (ältere Versionen)](how-to-print-swiss-vat-statements-older-version-.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-108">[Print Swiss VAT Statements (Older Versions)](how-to-print-swiss-vat-statements-older-version-.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-109">[Mehrwertsteuer (Schweiz)](swiss-value-added-tax.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-109">[Swiss Value Added Tax](swiss-value-added-tax.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-110">[MWST-Sätze für die Schweiz](vat-rates-for-switzerland.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-110">[VAT Rates for Switzerland](vat-rates-for-switzerland.md) **Available Now**</span></span>
+
+* <span data-ttu-id="162ba-111">Bankgeschäfte und Zahlungen</span><span class="sxs-lookup"><span data-stu-id="162ba-111">Banking & Payments</span></span>
+    * <span data-ttu-id="162ba-112">QR-Code auf Zahlungsbelegen (Schweiz) **Geplant für 3. Quartal 2019**</span><span class="sxs-lookup"><span data-stu-id="162ba-112">QR Code on Swiss Payment Slips **Planned for 2019 Q3**</span></span>
+    * <span data-ttu-id="162ba-113">[Schliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-113">[Close an LSV Collection](how-to-close-an-lsv-collection.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-114">[Exportieren von Zahlungen mit LSV](how-to-export-payments-using-lsv.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-114">[Export Payments Using LSV](how-to-export-payments-using-lsv.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-115">[Importieren von ESR-Zahlungen](how-to-import-esr-payments.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-115">[Import ESR Payments](how-to-import-esr-payments.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-116">[Drucken von ESR-Rechnungen](how-to-print-esr-invoices.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-116">[Print ESR Invoices](how-to-print-esr-invoices.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-117">[Importieren von Bankenclearing-Nummern (Schweiz)](how-to-import-swiss-bank-clearing-numbers.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-117">[Import Swiss Bank Clearing Numbers](how-to-import-swiss-bank-clearing-numbers.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-118">[Buchen von LSV-Zahlungen](how-to-post-lsv-payments.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-118">[Post LSV Payments](how-to-post-lsv-payments.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-119">[Druck von Listenberichten für Kreditorenzahlungen](how-to-print-vendor-payments-list-reports.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-119">[Print Vendor Payments List Reports](how-to-print-vendor-payments-list-reports.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-120">[Verarbeiten eines LSV-Einzugs](how-to-process-an-lsv-collection.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-120">[Process an LSV Collection](how-to-process-an-lsv-collection.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-121">[Elektronische Zahlungen (Schweiz)](swiss-electronic-payments.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-121">[Swiss Electronic Payments](swiss-electronic-payments.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-122">[Elektronische Zahlungen mit ESR (Schweiz)](swiss-electronic-payments-using-esr.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-122">[Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-123">[Elektronische Zahlungen mit LSV (Schweiz)](swiss-electronic-payments-using-lsv-.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-123">[Swiss Electronic Payments Using LSV](swiss-electronic-payments-using-lsv-.md) **Available Now**</span></span>
+
+* <span data-ttu-id="162ba-124">Finanzgrundlagen</span><span class="sxs-lookup"><span data-stu-id="162ba-124">Core Finance</span></span>
+    * <span data-ttu-id="162ba-125">[Finanzbuchhaltungskonten (Schweiz)](swiss-general-ledger-accounts.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-125">[Swiss General Ledger Accounts](swiss-general-ledger-accounts.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-126">[Saldo](balance.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-126">[Balance](balance.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-127">[Wechselkurse regulieren](how-to-adjust-exchange-rates.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-127">[Adjust Exchange Rates](how-to-adjust-exchange-rates.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-128">[Anzeigen temporärer Salden in Finanzbuchhaltungs-Erfassungsjournalen](how-to-view-temporary-balances-in-general-ledger-journals.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-128">[View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-129">[Drucken von Finanzbuchhaltungs-Setupinformationen](how-to-print-general-ledger-setup-information.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-129">[Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md) **Available Now**</span></span>
+
+* <span data-ttu-id="162ba-130">Einkauf</span><span class="sxs-lookup"><span data-stu-id="162ba-130">Purchasing</span></span>
+    * <span data-ttu-id="162ba-131">[Lieferbenachrichtigungen](delivery-reminders.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-131">[Delivery Reminders](delivery-reminders.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-132">[Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-132">[Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-133">[Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Texten](how-to-set-up-delivery-reminder-terms-levels-and-text.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-133">[Set Up Delivery Reminder Terms, Levels, and Texts](how-to-set-up-delivery-reminder-terms-levels-and-text.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-134">[Zuweisen von Liefercodes zu Kreditoren](how-to-assign-delivery-reminder-codes-to-vendors.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-134">[Assign Delivery Codes to Vendors](how-to-assign-delivery-reminder-codes-to-vendors.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-135">[Manuelles Erstellen von Lieferbenachrichtigungen](how-to-create-delivery-reminders-manually.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-135">[Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-136">[Ausstellen von Lieferbenachrichtigungen](how-to-issue-delivery-reminders.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-136">[Issue Delivery Reminders](how-to-issue-delivery-reminders.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-137">[Generieren von Lieferbenachrichtigungen](how-to-generate-delivery-reminders.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-137">[Generate Delivery Reminders](how-to-generate-delivery-reminders.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-138">[So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](how-to-print-test-reports-for-delivery-reminders.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-138">[Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md) **Available Now**</span></span>
+
+* <span data-ttu-id="162ba-139">Lagerbestand</span><span class="sxs-lookup"><span data-stu-id="162ba-139">Inventory</span></span>
+    * <span data-ttu-id="162ba-140">[Lagerverwaltung (Schweiz)](swiss-inventory-management.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-140">[Swiss Inventory Management](swiss-inventory-management.md) **Available Now**</span></span>
+    * [<span data-ttu-id="162ba-141">Kopieren von vorhandenen Elementen in neue Elemente</span><span class="sxs-lookup"><span data-stu-id="162ba-141">Copy Existing Items to New Items</span></span>](how-to-copy-existing-items-to-new-items.md)
+    * <span data-ttu-id="162ba-142">[Drucken einer Lagerkommissionierliste von einem Auftrag](how-to-print-an-inventory-picking-list-from-a-sales-order.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-142">[Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md) **Available Now**</span></span>
+
+* <span data-ttu-id="162ba-143">Allgemein</span><span class="sxs-lookup"><span data-stu-id="162ba-143">General</span></span>    
+    * <span data-ttu-id="162ba-144">[Importieren von Postleitzahlen (Schweiz)](how-to-import-swiss-post-codes.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-144">[Import Swiss Post Codes](how-to-import-swiss-post-codes.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-145">[Einkaufsbelege und Verkaufsaufträge (Schweiz)](swiss-purchase-documents-and-sales-documents.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-145">[Swiss Purchase Documents and Sales Orders](swiss-purchase-documents-and-sales-documents.md) **Available Now**</span></span>
+    * <span data-ttu-id="162ba-146">[Drucken von Verkaufsaufträgen und Bestellungen während der Stapelbuchung](how-to-print-sales-and-purchase-orders-during-batch-posting.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="162ba-146">[Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md) **Available Now**</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="162ba-147">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="162ba-147">See Also</span></span>
+<span data-ttu-id="162ba-148">[Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="162ba-148">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
