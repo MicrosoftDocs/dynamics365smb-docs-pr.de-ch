@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f473e7bd203c1324f5ac33fa52fb729f990f8105
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f5b828b655740f73ba77c583e1b57d91221b8c66
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827187"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921547"
 ---
 # <a name="balance"></a>Sald&o
 Gibt einen temporären Saldo des Sachpostens an. Wenn Sie die **Saldo** Aktion auf der Seite **Fibukonten** auswählen, wird die Seite **Fibukonto Vorläufige Bilanz** geöffnet. Es enthält den Saldo der definitiv gebuchten Fibuposten sowie den Saldo der Posten, die im aktuellen Fibu-Erfassungsjournal gebucht wurden.  
