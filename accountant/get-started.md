@@ -17,7 +17,7 @@ ms.locfileid: "819032"
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Erste Schritte mit [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-Jedes Unternehmens muss seine Bücher führen und die Buchhaltung genehmigen. Einige Unternehmen verwenden einen externen Buchhalter, und andere haben einen Buchhalter als Mitarbeiter. Wenn Sie ein Buchhalter mit mehreren Clients sind, können Sie das [!INCLUDE [d365acc](includes/d365acc_md.md)] als Ihr Dashboard für einen besseren Überblick über Ihre Clients verwenden.  
+Jedes Unternehmen muss seine Bücher führen und die Buchhaltung genehmigen. Einige Unternehmen verwenden einen externen Buchhalter, und andere haben einen Buchhalter als Mitarbeiter. Wenn Sie ein Buchhalter mit mehreren Clients sind, können Sie das [!INCLUDE [d365acc](includes/d365acc_md.md)] als Ihr Dashboard für einen besseren Überblick über Ihre Clients verwenden.  
 
 Sie erhalten Zugriff auf [!INCLUDE [d365acc](includes/d365acc_md.md)], indem Sie sich unter [Dynamics 365 – Accountant Hub auf Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) anmelden  
 
