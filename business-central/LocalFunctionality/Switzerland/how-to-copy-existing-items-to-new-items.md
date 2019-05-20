@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 23a92ed5434ab8b0bd75f7e6ffcaeb93682e927e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925153"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241347"
 ---
 # <a name="copy-existing-items-to-new-items"></a>Kopieren von vorhandenen Elementen in neue Elemente
 Sie können Artikel mit ähnlichen Einstellungen in einem Artikelkatalog gruppieren. Wenn Sie einen neuen Artikel hinzufügen, können Sie zur Zeitersparnis mit der Option **Artikel kopieren** einen vorhandenen Artikel als Vorlage für einen neuen Artikel verwenden.  
