@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: b717de6bcefc774b3fb92ed440cde9f3597f34ce
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "929759"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249551"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits
 
@@ -305,7 +305,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 4.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kommissionierungen** ein, und wählen dann den zugehörigen Link aus.  
 5.  Öffnen Sie den Kommissionierbeleg, den Sie in Schritt 3 in diesem Abschnitt erstellt haben.  
 
-    Beachten Sie den Wert im Feld **Quelldokument** und dass alle Kommissionierzeilen für Montagekomponenten gelten.  
+    Beachten Sie den Wert im Feld **Quellbeleg** und dass alle Kommissionierzeilen für Montagekomponenten gelten.  
 
     Registrieren Sie dann die Kommissionierung, ohne die Standardinformationen zu ändern.  
 
@@ -372,7 +372,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Beachten Sie, dass das Feld **Montagemenge** mit der erwarteten Menge ausgefüllt wird.  
 
-    Als Nächstes erstellen Sie ein Kommissionierungsdokument, um die benötigten Komponenten abzurufen.  
+    Als Nächstes erstellen Sie einen Kommissionierungsbeleg, um die benötigten Komponenten abzurufen.  
 
 3.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Freigeben** die Option **Freigeben** aus.  
 4.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Logistik** die Option **Kommissionierung erstellen** aus, und wählen Sie anschliessend **OK** aus.  
@@ -424,7 +424,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
 9. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Buchen** die Option **Warenausgang buchen**, und wählen Sie dann die Schaltfläche **Liefern**.  
 
-    Das Warenausgangdokument wird entfernt, was angibt, dass die entsprechenden Lageraktivitäten ausgeführt wurden. Als Nächstes überprüfen Sie, dass der Verkaufsauftrag verarbeitet wurde.  
+    Der Warenausgangsbeleg wird entfernt, was angibt, dass die entsprechenden Lageraktivitäten ausgeführt wurden. Als Nächstes überprüfen Sie, dass der Verkaufsauftrag verarbeitet wurde.  
 
 10. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
 11. Öffnen Sie den Verkaufsauftrag für The Device Shop.  

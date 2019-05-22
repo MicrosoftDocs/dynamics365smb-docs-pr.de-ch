@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 688c448f920a032a0f137bab7abdb9de51af1f96
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927532"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246203"
 ---
 # <a name="design-details-table-structure"></a>Designdetails: Tabellenstruktur
 Um zu erkennen, wie die Dimensionsposten gespeichert und gebucht werden, ist es wichtig, die Tabellenstruktur zu kennen.  
@@ -81,7 +81,7 @@ Zusätzlich zu anderen Dimensionsfeldern in der Tabelle sind diese Felder wichti
 |12|**Dimensionswert-ID**|Integer|AutoIncrement. Verwendet als Referenzen in Tabelle 480 und in Tabelle 481.|  
 
 ### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tabellen, die Dimensionssatz-ID-Feld enthalten
- Das Feld **Dimensionssatz-ID** (480) ist in den folgenden Tabellen vorhanden. Für die Tabellen, die gebuchte Daten speichern, bietet das Feld nur eine nicht-bearbeitbare Anzeige von Dimensionen, die als DrillDown markiert ist. Für die Tabellen, die Arbeitsdokumente speichern, ist das Feld editierbar. Die Puffertabellen, die intern verwendet werden, benötigen keine bearbeitbaren oder nicht-bearbeitbaren Funktionen.  
+ Das Feld **Dimensionssatz-ID** (480) ist in den folgenden Tabellen vorhanden. Für die Tabellen, die gebuchte Daten speichern, bietet das Feld nur eine nicht-bearbeitbare Anzeige von Dimensionen, die als DrillDown markiert ist. Für die Tabellen, die Arbeitsbelege speichern, ist das Feld editierbar. Die Puffertabellen, die intern verwendet werden, benötigen keine bearbeitbaren oder nicht-bearbeitbaren Funktionen.  
 
  Feld 480 ist in den folgenden Tabellen nicht editierbar.  
 

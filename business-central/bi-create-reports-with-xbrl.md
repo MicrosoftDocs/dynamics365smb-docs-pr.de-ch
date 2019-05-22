@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0576f2e7b93040118d2ef31458939d9b9822a6aa
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922029"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247016"
 ---
 # <a name="create-reports-with-xbrl"></a>Berichte mit XBRL erstellen
 XBRL (eXtensible Business Reporting Language) ist eine XML-basierte Sprache zum Kennzeichnen von Finanzdaten, dies es Unternehmen ermöglicht, Daten effizient und genau zu verarbeiten und freizugeben. Die XBRL-Initiative ermöglicht die Erstellung globaler Finanzberichte durch verschiedene ERP-Softwareunternehmen und internationale Buchhaltungsorganisationen. Das Ziel der Initiative ist es, einen Standard für die einheitlichen Berichterstellung der Finanzdaten für Banken, Investoren und Regierungsbehörden bereitzustellen. Solche Geschäftsberichte können Folgendes umfassen:  
@@ -45,7 +45,7 @@ Bei den XBRL- **Linkbases** handelt es sich um physische XML-Dateien, die Inform
 
 Eine XBRL **Taxonomy** ist ein "Vokabular" oder ein "Wörterbuch", das von einer Gruppe in Einklang mit den XBRL-Spezifikationen erstellt wurde, um Geschäftsinformationen auszutauschen.  
 
-Ein XBRL **Instance Document** ist ein Geschäftsbericht, wie ein Finanzbericht, für die XBRL-Spezifikation. Die Bedeutung der Werte in dem Dokument werden durch die Taxonomy erklärt. Ein Instance Document ist so gut wie nutzlos, wenn Sie nicht wissen, für welche Taxonomy es erstellt wurde.  
+Ein XBRL **Instance Document** ist ein Geschäftsbericht, wie ein Finanzbericht, für die XBRL-Spezifikation. Die Bedeutung der Werte in dem Beleg werden durch die Taxonomy erklärt. Ein Instance Document ist so gut wie nutzlos, wenn Sie nicht wissen, für welche Taxonomy es erstellt wurde.  
 
 ## <a name="layered-taxonomies"></a>Geschichtete Taxonomies  
 Eine Taxonomy kann aus einer Grundtaxonomy, z .B. US-GAAP oder IAS, und einer oder mehreren Erweiterungen bestehen. Aus diesem Grund bezieht sich eine Taxonomy auf ein oder mehrere Schema/ta, die alle separate Taxonomies sind. Wenn die zusätzlichen Taxonomies in die Datenbank geladen werden, werden die neuen Elemente einfach an die bestehenden Elemente angehängt.  

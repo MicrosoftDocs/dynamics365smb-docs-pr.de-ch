@@ -13,17 +13,17 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 6f86df1f98d3f00405380a4e2790a5bf7919a390
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935156"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250195"
 ---
 # <a name="create-and-modify-a-custom-report-or-document-layout"></a>Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht
 Standardmässig haben Berichte ein integriertes Berichtlayout, das entweder ein RDLC-Berichtlayout oder ein Word-Berichtlayout oder beides sein kann. Sie können keine integrierten Layouts ändern. Sie können jedoch Ihren eigenen benutzerdefinierten Layouts erstellen, die Ihnen ermöglichen, die Darstellung des Berichts zu ändern, wenn dieser angezeigt, gedruckt bzw. gespeichert wird. Sie können mehrere benutzerdefinierte Berichtslayouts für den gleichen Bericht erstellen und anschließend das Layout, das durch einen Bericht verwendet wird, nach Bedarf wechseln.
 
 > [!NOTE]  
->   In [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält der Begriff "Bericht" auch für extern bestimmte  Dokumente wie Verkaufsrechnungen und Bestellungbestätigungen, die Sie den Debitoren als PDF-Dateien senden.
+>   In [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält der Begriff "Bericht" auch für extern bestimmte Belege wie Verkaufsrechnungen und Bestellungbestätigungen, die Sie den Debitoren als PDF-Dateien senden.
 
 Um ein benutzerdefiniertes Layout zu erstellen, können Sie entweder eine Kopie eines vorhandenen benutzerdefinierten Layouts erstellen oder ein neues benutzerdefiniertes Layout hinzufügen, das in den meisten Fällen auf einem integrierten Layout basiert. Wenn Sie ein neues kundenspezifisches Layout hinzufügen, können Sie wählen, einen RDLC-Berichtslayouttyp, Word-Berichtslayouttyp oder beide hinzuzufügen. Das neue benutzerdefinierte Layout basiert automatisch auf dem integrierten Layout des Berichts, falls einer verfügbar ist. Wenn für den Typ kein integriertes Layout verfügbar ist, wird ein neues leeres Layout erstellt, das Sie bearbeiten und von Grund auf neu entwerfen müssen. Weitere Informationen zu RDLC- und Word-Berichtlayouts, integrierten und benutzerdefinierten Layouts und mehr finden Sie unter [Berichtlayouts verwalten](ui-manage-report-layouts.md).  
 
@@ -63,7 +63,7 @@ Um ein Berichtslayout vom zu ändern, müssen Sie das Berichtslayout zunächst a
 
 4.  Kehren Sie zur Seite **Benutzerdefinierte Berichtslayouts** zurück, das Berichtslayout, die Sie exportiert haben und geändert haben, und wählen die **Layout importieren** Aktion aus.  
 
-5. Im **Importieren**-Dialogfeld **wählen** Sie das Dokument, das das Berichtlayout definiert, und wählen Sie dann **Öffnen**.
+5. Im **Importieren**-Dialogfeld **wählen** Sie den Beleg, der das Berichtlayout definiert, und wählen Sie dann **Öffnen**.
 
 ##  <a name="MakeChangesToLayout"></a> Durchführen von Änderungen eines bestehenden Berichtslayouts  
 Wenn Sie Word-Berichtlayouts bearbeiten, um allgemeine Formatierungs- und Layoutänderungen zu ändern, wie zum Beispiel Änderung der Textschriftarts, Ändern einer Tabelle oder Entfernen eines Datenfelds, können Sie die grundlegenden Bearbeitungsfunktionen von Word verwenden, wie Sie es bei jedem Word-Dokument tun würden.
@@ -101,6 +101,6 @@ Datenfelder aus einem Berichtsdataset hinzuzufügen, ist jedoch komplizierter un
 ## <a name="see-also"></a>Siehe auch
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Ändern, welches Layout zur Zeit in einem Bericht verwendet wird](ui-how-change-layout-currently-used-report.md)  
-[Importieren und Exportieren eines benutzerdefinierten Berichts- oder Dokumentenlayouts](ui-how-import-and-export-report-layout.md)  
+[Importieren und Exportieren eines benutzerdefinierten Berichts- oder Beleglayouts](ui-how-import-and-export-report-layout.md)  
 [Arbeiten mit Berichten und Stapelverarbeitungen](ui-work-report.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

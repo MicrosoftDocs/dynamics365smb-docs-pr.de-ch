@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: e174b56b8570f541ec10683fc8e44fb844da05c6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926030"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240143"
 ---
 # <a name="design-details-warehouse-overview"></a>Designdetails: Lagerübersicht
 Um die physische Bewegung der Artikel auf dieser Zonen- und Lagerplatzebene zu unterstützen, müssen alle Informationen für jede Transaktion oder Umlagerung im Lager nachverfolgt werden. Dies wird in der Tabelle **Lagerplatzposten** verwaltet. Jede Transaktion wird in einem Lagerplatzjournal gespeichert.  
@@ -35,14 +35,14 @@ Die folgenden Abbildung zeigt typische Warenflüsse.
 ## <a name="basic-or-advanced-warehousing"></a>Grundlegende oder erweiterte Lagerhaltung  
 Lagerfunktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] können in unterschiedlichen Komplexitätsebenen implementiert werden, abhängig von den Prozessen eines Unternehmens und dem Auftragsvolumen. Der wichtigste Unterschied besteht darin, dass Aktivitäten in der einfachen Logistik Auftrag für Auftrag durchgeführt werden, während sie in der erweiterten Logistik für mehrere Aufträge konsolidiert werden.  
 
- Um zwischen den verschiedenen Komplexitätsebenen zu unterscheiden, verwendet diese Dokumentation zwei allgemeine Bezeichnungen, grundlegende und erweiterte Lagerhaltung. Diese einfache Unterscheidung umfasst mehrere verschiedene Komplexitätsebenen, die durch definierte Produktdetails und Lagerorteinrichtung definiert sind, wobei jede durch unterschiedliche UI-Dokumente unterstützt werden. Weitere Informationen finden Sie unter [Designdetails: Lagerhaus einrichten](design-details-warehouse-setup.md).  
+ Um zwischen den verschiedenen Komplexitätsebenen zu unterscheiden, verwendet diese Dokumentation zwei allgemeine Bezeichnungen, grundlegende und erweiterte Lagerhaltung. Diese einfache Unterscheidung umfasst mehrere verschiedene Komplexitätsebenen, die durch definierte Produktdetails und Lagerorteinrichtung definiert sind, wobei jede durch unterschiedliche UI-Belege unterstützt werden. Weitere Informationen finden Sie unter [Designdetails: Lagerhaus einrichten](design-details-warehouse-setup.md).  
 
 > [!NOTE]  
 >  Die höchstentwickelte Ebene der Logistik wird in dieser Dokumentation als „WMS-Installationen“ bezeichnet, da diese Methode die höchstentwickelten Elemente und Logistiksysteme erfordert.  
 
- Die folgenden verschiedenen UI-Dokumente werden in der einfachen und der erweiterten Logistik verwendet.  
+ Die folgenden verschiedenen UI-Belege werden in der einfachen und der erweiterten Logistik verwendet.  
 
-## <a name="basic-ui-documents"></a>Grundlegende UI-Dokumente  
+## <a name="basic-ui-documents"></a>Grundlegende UI-Belege  
 
 -   **Lagereinlagerung**  
 -   **Lagerkommissionierung**  
@@ -51,7 +51,7 @@ Lagerfunktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] können in unters
 -   **Artikel Umlag. Erf.-Journal**  
 -   (Verschiedene Berichte)  
 
-## <a name="advanced-ui-documents"></a>Erweiterte UI-Dokumente  
+## <a name="advanced-ui-documents"></a>Erweiterte UI-Belege  
 
 -   **Wareneingang**  
 -   **Einlagerungsvorschlag**  

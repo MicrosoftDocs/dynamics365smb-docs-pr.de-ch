@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 03eeb13e5087e064e80d444ab373b0407f5a93be
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914555"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248148"
 ---
 # <a name="updating-report-or-document-layouts"></a>Verwaltung von Berichts- und Beleg-Layouts
 Gelegentlich müssen Sie möglicherweise ein benutzerdefiniertes Berichtslayout aktualisieren, das in einem Bericht verwendet wird. Dies ist obligatorisch, wenn es eine Entwurfsänderung an dem Datensatz des Berichts gegeben hat, wenn zum Beispiel ein Feld, das im Layout verwendet wird, aus dem Berichtsdatensatz entfernt wurde. Wenn ein Berichtlayout eine Aktualisierung benötigt, erhalten Sie eine Fehlermeldung, wenn Sie versuchen, die Berichtvorschau anzeigen, zu drucken oder zu speichern.  
@@ -60,7 +60,7 @@ Wenn keine Fehler auftreten, wird die Aktualisierung für die Berichtslayouts ü
 
  Das häufigste Problem ist, wenn ein Feld, das im Layout verwendet wird, dem Berichtsdataset entfernt wurde. In diesem Fall sehen Sie eine Zeile in der Fehlermeldung, die angibt, dass ein Artikel entfernt wurde. Um dieses Problem zu beheben, müssen Sie das Layout bearbeiten und das betreffende Feld entfernen.  
 
- Weitere Informationen finden Sie unter [Erstellen und bearbeiten  eines benutzerdefinierten Berichts- oder Dokumentenlayout](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
+ Weitere Informationen finden Sie unter [Erstellen und bearbeiten  eines benutzerdefinierten Berichts- oder Beleglayout](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
 
  Nachdem Sie das Layout ändern, versuchen Sie, das Layout erneut zu aktualisieren.  
 

@@ -11,11 +11,11 @@ ms.search.keywords: trade, sell
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 6f80d2e1a1a864d5aaff0660d21603f91c5ce229
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932257"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251529"
 ---
 # <a name="sales"></a>Verkauf
 Sie erstellen eine Verkaufsrechnung oder eine Bestellung, um Ihre Vereinbarung mit dem Kunden zu erfassen, um bestimmte Produkte unter speziellen Liefer- und Zahlungsbedingungen zu verkaufen.
@@ -30,7 +30,7 @@ Bei Verkaufs- und Marketingmaßnahmen dreht sich alles um die richtige Entscheid
 
 Im betrieblichen Umfeld, in dem der Debitor bezahlen muss, bevor Produkte, wie in der Einzelhandelsbranche, geliefert werden, müssen Sie den Zahlungseingang für die Produkte abwarten, bevor Sie die Produkte liefern. In den meisten Fällen verarbeiten Sie eingehende Zahlungen einige Wochen nach Lieferung, indem Sie die Zahlungen in ihre entsprechenden gebuchten, unbezahlten Verkaufsrechnungen übernehmen. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
-Verkaufsbelege können als PDF-Dateien als E-Mail-Anhang gesendet werden. Der E-Mail-Text enthält einen Auszug des Verkaufsbelegs, wie Produkte, Einstandsbetrag und eine Verbindung zur Paypal-Seite. Weitere Informationen finden Sie unter [Senden von Dokumenten über E-Mail](ui-how-send-documents-email.md).
+Verkaufsbelege können als PDF-Dateien als E-Mail-Anhang gesendet werden. Der E-Mail-Text enthält einen Auszug des Verkaufsbelegs, wie Produkte, Einstandsbetrag und eine Verbindung zur Paypal-Seite. Weitere Informationen finden Sie unter [Senden von Belegen über E-Mail](ui-how-send-documents-email.md).
 
 Für alle Verkaufsprozesse können Sie einen Genehmigungsworkflows einfügen, beispielsweise um grosse Verkäufe an bestimmten Debitoren vom Buchhaltungs-Manager zu genehmigen. Weitere Informationen erhalten Sie unter [Workflows verwenden](across-use-workflows.md).
 

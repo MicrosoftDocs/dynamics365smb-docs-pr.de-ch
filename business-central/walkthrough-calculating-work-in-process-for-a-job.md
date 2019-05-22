@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 16ec4ba3ab2a3b3d980015bfed04c09dd1be3e6d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916140"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249114"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Exemplarische Vorgehensweise: Berechnen der WIP für ein Projekt
 
@@ -82,7 +82,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 5.  Wählen Sie die **RIF** Aktion aus, und wählen Sie die **WIP berechnen** Aktion aus.  
 6.  Auf der Seite **WIP berechnen Projekt** können Sie ein Projekt auswählen, für das die WIP berechnet werden soll. Wählen Sie auf dem Inforegister **Projekt** die Option **Landsberg** im Feld **Nr.** aus. Feld  
 7.  Das **Buchungsdatum** liegt nach dem Arbeitsdatum. Bestätigen Sie, dass das Datum korrekt ist.
-8.  Geben Sie im Feld **Belegnr.** den Wert **1** ein. Dieses erstellt ein Dokument, das Sie später für die Verfolgbarkeit verwenden können.  
+8.  Geben Sie im Feld **Belegnr.** den Wert **1** ein. Dieses erstellt einen Beleg, das Sie später für die Verfolgbarkeit verwenden können.  
 9. Wählen Sie die Schaltfläche **OK**, um den Batchauftrag zu starten. Eine Meldung wird angezeigt. Klicken Sie zum Fortfahren auf die Schaltfläche **OK**. Schliessen Sie die Seite **Projektaufgabenzeilen**.  
 
     > [!NOTE]  

@@ -11,14 +11,14 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3b847791283820d8b9996f417e2bae1ca8c0e461
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939384"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246326"
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetails: Lagereinrichtung
-Lagerfunktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] enthalten verschiedene Komplexitätsstufen, definiert durch Lizenzberechtigungen in den angebotenen Elementen. Die Komplexitätsstufe in einer Lagerlösung ist weitgehend durch den Lagerplatz definiert, der auf Lagerortkarten eingerichtet ist, die wiederum lizenz-gesteuert ist, sodass der Zugriff auf Lagerplatzsetupfelder durch die Lizenz definiert ist. Darüber hinaus steuern die Anwendungsobjekte in der Lizenz, welche UI-Dokumente für die unterstützten Lageraktivitäten zu verwenden sind.  
+Lagerfunktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] enthalten verschiedene Komplexitätsstufen, definiert durch Lizenzberechtigungen in den angebotenen Elementen. Die Komplexitätsstufe in einer Lagerlösung ist weitgehend durch den Lagerplatz definiert, der auf Lagerortkarten eingerichtet ist, die wiederum lizenz-gesteuert ist, sodass der Zugriff auf Lagerplatzsetupfelder durch die Lizenz definiert ist. Darüber hinaus steuern die Anwendungsobjekte in der Lizenz, welche UI-Belege für die unterstützten Lageraktivitäten zu verwenden sind.  
 
 Die folgenden lagerbezogenen Elemente sind verfügbar:  
 
@@ -120,7 +120,7 @@ Ein Lagerort ist eine physische Struktur oder ein Ort, an der/dem Lagerbestand e
 ## <a name="first-expired-first-out"></a>Ausgang nach frühestem Ablaufdatum  
 Wenn Sie das Kontrollkästchen **Gemäss FEFO kommissionieren** im Inforegister **Lagerplatzprüfung** auf der Lagerortkarte wählen, werden Artikel mit Artikelverfolgung entsprechend ihrem Ablaufdatum kommissioniert. Die Artikel mit den frühesten Ablaufdaten werden zuerst kommissioniert.  
 
-Lageraktivitäten in allen Kommissionierungs- und Umlagerungsdokumenten werden gemäss FEFO sortiert, es sei denn, den fraglichen Artikel ist bereits eine Serien-/Chargennummer zugeordnet. Wenn nur einem Teil der Menge auf der Zeile bereits Chargen- oder Seriennummern zugewiesen sind, wird die verbleibende zu kommissionierende Menge nach dem FEFO-Prinzip sortiert.  
+Lageraktivitäten in allen Kommissionierungs- und Umlagerungsbelegen werden gemäss FEFO sortiert, es sei denn, den fraglichen Artikel ist bereits eine Serien-/Chargennummer zugeordnet. Wenn nur einem Teil der Menge auf der Zeile bereits Chargen- oder Seriennummern zugewiesen sind, wird die verbleibende zu kommissionierende Menge nach dem FEFO-Prinzip sortiert.  
 
 Bei der Kommissionierung über FEFO wählt die Anwendung verfügbare Artikel auf der Grundlage des Ablaufdatums aus; das Ergebnis ist eine temporäre Artikeltrackingliste, die auf dem Ablaufdatum basiert. Weisen zwei Artikel dasselbe Ablaufdatum aus, wählt die Anwendung den Artikel mit der niedrigeren Chargen- oder Seriennummer zuerst aus. Sind die Chargen- oder Seriennummern identisch, wählt die Anwendung den Artikel aus, der zuerst ausgewählt wurde. Die Standardkriterien für die Auswahl der Artikel in Kommissionierungslagerplätzen, wie z. B. nach Lagerplatzpriorität und Gebindeanbruch, werden auf diese temporäre FEFO-Artikeltrackingliste angewendet.  
 

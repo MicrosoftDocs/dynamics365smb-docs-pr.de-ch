@@ -13,17 +13,17 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: ff9e2087f832d954ae403596744990a243af80c5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934318"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249666"
 ---
 # <a name="managing-report-and-document-layouts"></a>Verwaltung von Berichts- und Beleg-Layouts
 Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfelder eines Berichtsdatasets im Bericht erscheinen und wie sie angeordnet werden, Text-Format, Bilder und mehr. Von [!INCLUDE[d365fin](includes/d365fin_md.md)] aus können Sie ändern, welches Layout in einem Bericht verwendet wird, ein neues Layout erstellen oder vorhandene Layouts ändern.
 
 > [!NOTE]  
->   In [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält der Begriff "Bericht" auch für extern bestimmte  Dokumente wie Verkaufsrechnungen und Bestellungbestätigungen, die Sie den Debitoren als PDF-Dateien senden.
+>   In [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält der Begriff "Bericht" auch für extern bestimmte Belege wie Verkaufsrechnungen und Bestellungbestätigungen, die Sie den Debitoren als PDF-Dateien senden.
 
 Insbesondere richtet ein Berichtlayout Folgendes ein:
 
@@ -32,7 +32,7 @@ Insbesondere richtet ein Berichtlayout Folgendes ein:
 * Das Firmenlogo und seine Position.
 * Allgemeine Seiteneinstellungen, wie Seitenränder und Hintergrundbilder.
 
-Ein Bericht kann mit mehreren Berichtlayouts eingerichtet werden, die bei Bedarf ausgewechselt werden können. Sie können ggf. einen der integrierten Berichtlayouts verwenden, oder Sie können angepasste Berichtlayouts erstellen und sie Ihren Berichten nach Bedarf zuordnen. Weitere Informationen finden Sie unter [Erstellen Sie eines benutzerdefinierten Berichts- oder Dokumentenlayout](ui-how-create-custom-report-layout.md).
+Ein Bericht kann mit mehreren Berichtlayouts eingerichtet werden, die bei Bedarf ausgewechselt werden können. Sie können ggf. einen der integrierten Berichtlayouts verwenden, oder Sie können angepasste Berichtlayouts erstellen und sie Ihren Berichten nach Bedarf zuordnen. Weitere Informationen finden Sie unter [Erstellen Sie eines benutzerdefinierten Berichts- oder Beleglayout](ui-how-create-custom-report-layout.md).
 
 Es gibt zwei Arten Berichtlayouts, die Sie in Berichten verwenden können, Word und RDLC.
 
@@ -62,6 +62,6 @@ Weitere Informationen darüber, wie das Layout, das verwendet wird, geändert we
 [Verwaltung von Berichts- und Beleg-Layouts](ui-update-report-layouts.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)  
-[Importieren und Exportieren eines benutzerdefinierten Berichts- oder Dokumentenlayouts](ui-how-import-and-export-report-layout.md)  
+[Importieren und Exportieren eines benutzerdefinierten Berichts- oder Beleglayouts](ui-how-import-and-export-report-layout.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 [Arbeiten mit Berichten und Stapelverarbeitungen](ui-work-report.md)  

@@ -11,11 +11,11 @@ ms.search.keywords: language, locale, localization, culture
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 9e743a51e675431dc1759a6c3a58b7eb4de1ccc5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923024"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245318"
 ---
 # <a name="changing-language-and-locale"></a>Sprache und Gebiet ändern
 
@@ -41,7 +41,7 @@ Sie können das Gebietsschema in der Browserregisterkarte ändern, die Sie verwe
 Um das Gebietsschema zu ändern, gehen Sie auf die Seite **Meine Einstellungen**. Weitere Informationen finden Sie unter [Ändern von Grundeinstellungen](ui-change-basic-settings.md).  
 
 ## <a name="languages-of-the-included365finincludesd365finmdmd-help"></a>Sprachen der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Hilfe
-Der Hilfeinhalt für die Kernfunktionalität in [!INCLUDE[d365fin](includes/d365fin_md.md)] wird auf der Microsoft Dokumentenseite veröffentlicht und ist in unterschiedlichen Sprachen verfügbar. Wenn Sie die Dokumente in [!INCLUDE[d365fin](includes/d365fin_md.md)] öffnen, wird der Inhalt in Ihrer Sprache angezeigt. Wenn eine bestimmte Seite noch nicht in der Sprache verfügbar ist, wird sie in Englisch angezeigt.
+Der Hilfeinhalt für die Kernfunktionalität in [!INCLUDE[d365fin](includes/d365fin_md.md)] wird auf der Microsoft Dokumentenseite veröffentlicht und ist in unterschiedlichen Sprachen verfügbar. Wenn Sie die Belege in [!INCLUDE[d365fin](includes/d365fin_md.md)] öffnen, wird der Inhalt in Ihrer Sprache angezeigt. Wenn eine bestimmte Seite noch nicht in der Sprache verfügbar ist, wird sie in Englisch angezeigt.
 
 ### <a name="how-do-i-change-the-language"></a>Wie ändere ich die Sprache?
 Ganz einfach - einen Bildlauf zum unteren Rand der Browserseite ausführen und das Kugelsymbol in der unteren linken Ecke auswählen.

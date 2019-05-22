@@ -13,21 +13,21 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 535a899ed43e2d7112699fff9aa3ebc6f4289292
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923826"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246751"
 ---
 # <a name="create-journal-opening-balances"></a>So erstellen Sie Erf.-Journal-Eröffnungssalden
 [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält mehrere Stapelverarbeitungsaufträge, die bereitgestellt werden, um die Übertragung von vorhandenen Kontosalden auf einen neu konfigurierten Mandanten zu unterstützen. Sie können diese Daten auf das Debitor Erf.-Journal, das Kreditor Erf.-Journal, das Artikel Erf.-Journal und das Hauptbuch Erf.-Journal übertragen.
 
 Der erste Schritt besteht darin, ein Konfigurationspaket zu erstellen, das die Einrichtungstabellen für alle Erfassungsjournale enthält. Nachfolgend wird davon ausgegangen, dass dieser Schritt abgeschlossen ist. Weitere Informationen finden Sie unter [Unternehmenskonfiguration einrichten](admin-set-up-company-configuration.md). Das Verfahren beschreibt die folgenden Schritte, die das Übernehmen des Pakets, das von einem Partner bereitgestellt wird, enthalten.  
 
-Bevor Sie den Buchungsvorgang starten, prüfen Sie, ob Sie in der RapidStart Service-Implementierungs-Rollencenterseite sind, da sie den korrekten Kontext für Ihre Konfigurationsarbeit bereitstellt. Weitere Informationen finden Sie unter [Ändern von Grundeinstellungen](ui-change-basic-settings.md).
+Bevor Sie den Buchungsvorgang starten, prüfen Sie, ob Sie in der RapidStart Services-Implementierungs-Rollencenterseite sind, da sie den korrekten Kontext für Ihre Konfigurationsarbeit bereitstellt. Weitere Informationen finden Sie unter [Ändern von Grundeinstellungen](ui-change-basic-settings.md).
 
 ## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>So übernehmen Sie die Posten in einem Erfassungsjournal für einen neuen Mandanten.  
-1. Konfigurieren Sie einen neuen Mandanten und wenden Sie ein Konfigurationspaket darauf an. Weitere Informationen finden Sie unter [Vorgehensweise: Konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
+1. Konfigurieren Sie einen neuen Mandanten und wenden Sie ein Konfigurationspaket darauf an. Weitere Informationen finden Sie unter [So konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
 
     Der neue Mandant enthält keine Informationen über Erfassungsjournal-Eröffnungssalden.  
 
@@ -42,6 +42,6 @@ Bevor Sie den Buchungsvorgang starten, prüfen Sie, ob Sie in der RapidStart Ser
 10. Wiederholen Sie die Schritte, um verschiedene Salden zu importieren und zu buchen.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Übernehmen von Konfiguration in neue Mandanten](admin-apply-configuration-to-new-companies.md)  
-[Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Konfigurationen für neue Mandanten übernehmen](admin-apply-configuration-to-new-companies.md)  
+[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)

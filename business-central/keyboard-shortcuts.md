@@ -11,11 +11,11 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 423f5098589a0df5613190517fb933d0181360dd
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "990144"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240593"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 Dieser Artikel gibt einen Überblick über einige der Tastenkombinationen, die Sie nutzen können, wenn arbeiten [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -58,7 +58,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen für das zusätzliche Navigi
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Tastenkombinationen in der Liste
 
-Die folgende Tabelle beschreibt Tastenkombinationen, die Sie in einer Listenseite verwenden können. Die Verknüpfungsaktion ist abhängig davon, ob die Seite in der Listenansicht oder der Ansicht mit nebeneinander angeordnet Fenstern angezeigt wird.
+Die folgende Tabelle beschreibt Tastenkombinationen, die Sie in einer Listenseite verwenden können. Die Verknüpfungsaktion ist abhängig davon, ob die Seite in der Listenansicht oder der Kachelansicht angezeigt wird.
 <!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).

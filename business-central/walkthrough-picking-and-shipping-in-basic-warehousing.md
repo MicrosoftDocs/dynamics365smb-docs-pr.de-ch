@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 49aa9df7ffde8e11be72a4f68feda8021bc7a349
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921859"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249206"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen
 
@@ -110,7 +110,7 @@ Auf der Seite **Lagerkommissionierung** können Sie alle ausgehenden Lageraktivi
 ### <a name="to-pick-and-ship-items"></a>So kommissionieren Sie Artikel und liefern diese aus  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagerkommissionierungen** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Neu** aus.  
-3.  Wählen Sie das Feld **Quellendokument** , und wählen Sie **Verkaufsauftrag** aus.  
+3.  Wählen Sie das Feld **Quellenbeleg** , und wählen Sie **Verkaufsauftrag** aus.  
 4.  Wählen Sie das Feld **Herkunftsnr.** aus, wählen Sie die Zeile für den Verkauf an Debitor 10000 aus, und wählen Sie dann die Schaltfläche **OK**.  
 
     Alternativ auf der Registerkarte Aktionen, in der Gruppe Funktion, wählen Sie **Herkunftsbeleg holen** und wählen Sie die Auftrag aus.  

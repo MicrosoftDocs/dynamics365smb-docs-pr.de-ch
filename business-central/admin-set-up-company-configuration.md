@@ -13,18 +13,18 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: e003f429122bd31ee35ef9b843682bfe8866407a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926477"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246713"
 ---
 # <a name="set-up-company-configuration"></a>Richten Sie eine Unternehmenskonfiguration ein.
 Der Implementierungsprozess beginnt mit dem Microsoft-Partner. Dies ist der Partner, der für die Formulierung der Konfigurationsdetails und das Erstellen eines Pakets zuständig ist, dass ein Debitor einfach anwenden kann. Bevor Sie einen neuen Mandanten erstellen, sollten Sie planen, wie dieser konfiguriert wird. Sie müssen an grundlegende Einrichtungsdaten und die Arten der Daten denken, die Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)]-Lösung benötigt. Sie bündeln alle diese Informationen in Konfigurationspakete.
 
-RapidStart Services gibt ausserdem die Werkzeuge, die Sie verwenden, um die Stammdaten zu migrieren, beispielsweise Debitoren und Kreditoren.  
+RapidStart Services gibt außerdem die Werkzeuge, die Sie verwenden, um die Stammdaten zu migrieren, beispielsweise Debitoren und Kreditoren.  
 
-Es ist empfehlenswert, dass Sie Konfigurationspakete erstellen, bei denen die meisten Einrichtungstabellen bereits ausgefüllt sind, damit Debitoren nur wenige Einstellungen ändern müssen, nachdem das Paket angewendet wurde. Wenn Sie beispielsweise einen neuen Mandanten erstellen, wird Tabelle 308 **Nr-Serien** und Tabelle 309 **Nr. Serienzeile**  mit einer Reihe von Nummernserien und Startnummern ausgefüllt. Die entsprechenden **Nummernserie**-Felder in den Einrichtungstabellen werden ebenfalls automatisch ausgefüllt. Sie müssen die Nummernserien und andere grundlegende Einrichtungsdaten nicht selbst eingeben. Sie können alle standardmässigen Daten auch manuell ändern, die mit RapidStart Services verwendet werden, indem Sie das Konfigurationsarbeitsblatt verwenden.  
+Es ist empfehlenswert, dass Sie Konfigurationspakete erstellen, bei denen die meisten Einrichtungstabellen bereits ausgefüllt sind, damit Debitoren nur wenige Einstellungen ändern müssen, nachdem das Paket angewendet wurde. Wenn Sie beispielsweise einen neuen Mandanten erstellen, wird Tabelle 308 **Nr-Serien** und Tabelle 309 **Nr. Serienzeile**  mit einer Reihe von Nummernserien und Startnummern ausgefüllt. Die entsprechenden **Nummernserie**-Felder in den Einrichtungstabellen werden ebenfalls automatisch ausgefüllt. Sie müssen die Nummernserien und andere grundlegende Einrichtungsdaten nicht selbst eingeben. Sie können alle standardmäßigen Daten auch manuell ändern, die mit RapidStart Services verwendet werden, indem Sie das Konfigurationsarbeitsblatt verwenden.  
 
 Die Konfigurationspakete werden für einen vorkonfigurierten Mandanten erstellt. Nachdem Sie einen Mandanten eingerichtet haben, der Ihre Anforderungen erfüllt, können Sie ein Konfigurationspaket erstellen, das alle relevanten Daten von diesem Mandanten enthält. Sie können sie dann verwenden, wenn Sie einen neuen Mandanten erstellen, der auf die gleiche Weise konfiguriert werden soll.  
 
@@ -38,5 +38,5 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Erstellen Sie ein Konfigurationspaket, passen Sie ein Paket an, weisen Sie einem Paket Tabellen, zu überprüfen oder Bearbeiten Sie vorhandene Debitorendaten, erstellen Sie den neuen Mandanten und bewegen Sie dann Prüfdaten auf die Fertigungsumgebungen.|[So bereiten Sie ein Konfigurationspaket vofr](admin-how-to-prepare-a-configuration-package.md)| 
 
 ## <a name="see-also"></a>Siehe auch  
-[Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)

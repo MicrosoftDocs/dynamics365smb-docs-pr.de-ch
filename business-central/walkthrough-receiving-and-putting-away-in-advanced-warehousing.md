@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 533d3b3c755294e07ca921df028f7742a388fad1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932893"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249022"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen
 
@@ -125,7 +125,7 @@ Auf der Seite **Wareneingang** können Sie mehrere eingehende Aufträge für Her
 6.  Geben Sie im Feld **Beschreibung** **Kreditoren 10000 und 20000** ein.  
 7.  Wählen Sie die Aktion **Bearbeiten** aus.  
 8.  Geben Sie im Inforegister **Einkauf** im Feld **Lieferantennr. Filter** den Wert **10000&#124;20000** ein.  
-9. Wählen Sie die Aktion **Ausführen** aus. Der Wareneingang wird mit vier Zeilen gefüllt, die Einkaufszeilen für die angegebenen Kreditoren darstellen. Das Feld **Zu liefernde Menge** wird ausgefüllt, da Sie das Kontrollkästchen **Bewegungsmenge nicht ausfüllen** auf der Seite **Filter um Herkunftsdokument abzurufen** nicht markiert haben.  
+9. Wählen Sie die Aktion **Ausführen** aus. Der Wareneingang wird mit vier Zeilen gefüllt, die Einkaufszeilen für die angegebenen Kreditoren darstellen. Das Feld **Zu liefernde Menge** wird ausgefüllt, da Sie das Kontrollkästchen **Bewegungsmenge nicht ausfüllen** auf der Seite **Filter um Herkunftsbeleg abzurufen** nicht markiert haben.  
 10. Wenn Sie einen Filter verwenden möchten, wie zuvor in diesem Abschnitt beschrieben, können Sie optional auf der Registerkarte Aktionen in der Gruppe Funktionen **Herkunftsbeleg holen** auswählen, und dann Einkaufsbestellungen aus den entsprechenden Kreditoren auswählen.  
 11. Wählen Sie die Aktion **Beleg buchen** ausn und wählen Sie dann die Schaltfläche **Ja** aus.  
 

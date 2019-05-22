@@ -11,11 +11,11 @@ ms.search.keywords: write down
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 16b1605d137401b58be3c57ae1cfcffc17f5654d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928129"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246993"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Richten Sie eine neue Anlagenabschreibung ein
  Sie können unterschiedliche Abschreibungsmethoden für Bilanzen und Steuern verwenden. Viele Grossunternehmen verwenden die lineare Abschreibung in ihren Bilanzen, da dies im Allgemeinen höhere Gewinne anzeigt. Für steuerliche Zwecke verwenden viele Unternehmen beschleunigte Abschreibungsmethoden. Weitere Informationen finden Sie unter [AfA-Methoden](fa-depreciation-methods.md).

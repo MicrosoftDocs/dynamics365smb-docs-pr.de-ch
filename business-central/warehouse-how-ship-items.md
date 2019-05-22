@@ -1,6 +1,6 @@
 ---
 title: "So geht's: Artikel versenden | Microsoft Docs"
-description: Abhängig von Ihrer Lagerkonfiguration können Sie entweder Lieferung im zugehörigen ausgehenden Geschäftsdokument, wie einem Verkaufsauftrag, direkt buchen, oder Sie können einen der Warenausgangsbelege verwenden, die einen Workflow berücksichtigen und in verschiedene Lageraktivitäten integriert werden.
+description: Abhängig von Ihrer Lagerkonfiguration können Sie entweder Lieferung im zugehörigen ausgehenden Geschäftsbeleg, wie einem Verkaufsauftrag, direkt buchen, oder Sie können einen der Warenausgangsbelege verwenden, die einen Workflow berücksichtigen und in verschiedene Lageraktivitäten integriert werden.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 188cbf7d63795167a0cbbf0b0debf904b153992d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934203"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248838"
 ---
 # <a name="ship-items"></a>Versenden von Artikeln
-Wenn Sie Artikel von einem Lager liefern, das nicht für die Bearbeitung des Warenausgangs eingerichtet wurde, können Sie den Warenausgang einfach im zugehörigen Geschäftsdokument, wie einer Verkaufsauftrag, einer Serviceauftrag, eine Einkaufsreklamation oder ein ausgehender Umlagerungsauftrag, erfassen.
+Wenn Sie Artikel von einem Lager liefern, das nicht für die Bearbeitung des Warenausgangs eingerichtet wurde, können Sie den Warenausgang einfach im zugehörigen Geschäftsbeleg, wie einer Verkaufsauftrag, einer Serviceauftrag, eine Einkaufsreklamation oder ein ausgehender Umlagerungsauftrag, erfassen.
 
 Wenn Sie Artikel aus einem Lagerort liefern, der so eingerichtet wurde, dass die Bearbeitung des Warenausgangs erforderlich ist, können Sie den Warenausgang nur auf der Basis von Herkunftsbelegen erfassen, die andere Abteilungen Ihres Unternehmens für die Bearbeitung freigegeben haben.
 

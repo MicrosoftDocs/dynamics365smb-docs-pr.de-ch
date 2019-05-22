@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 529f1c71111fd6ea0b93e7d29d2f5f6b6f1df3ae
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924700"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247520"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetails: Zentrale Konzepte des Planungssystems
 Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode für die Planung auswählt. Dann ruft die Stapelverarbeitung entsprechend der Stücklistenebene jedes Artikels (Stücklistenposition), eine Codeeinheit ab, die einen Beschaffungsplan erstellt, indem Angebot-Nachfrage-Sätze abgegeglichen und dem Benutzer mögliche Aktionen vorgeschlagen werden. Die vorgeschlagenen Aktionen erscheinen als Zeilen im Planungsvorschlag oder Bestellvorschlag.  
@@ -264,7 +264,7 @@ Das Feld kann vom Benutzer manuell festgelegt werden, in einigen Fällen wird es
 Weitere Informationen darüber, wie dieses Feld verwendet wird, finden Sie unter [Designdetails: Umlagerungen von Planung](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Auftragsplanung  
-Das grundlegende Tool für die Beschaffungsplanung, das durch die Seite **Auftragsplanung** angegeben wird, ist für die manuelle Entscheidungsfindung gedacht. Berücksichtigt keine Planungsparameter und wird daher nicht weiter in diesem Dokument erläutert. Weitere Informationen zur Auftragsplanungsfunktion finden Sie in der Hilfe in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Das grundlegende Tool für die Beschaffungsplanung, das durch die Seite **Auftragsplanung** angegeben wird, ist für die manuelle Entscheidungsfindung gedacht. Berücksichtigt keine Planungsparameter und wird daher nicht weiter in diesem Beleg erläutert. Weitere Informationen zur Auftragsplanungsfunktion finden Sie in der Hilfe in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
 >  Es wird nicht empfohlen, Auftragsplanung zu verwenden, wenn das Unternehmen bereits Planungs- oder Bestellvorschläge verwendet. Die über die Seite erstellten Beschaffungsaufträge **Auftragsplanung** können während der automatisierten Planungsläufe geändert oder gelöscht werden. Dies liegt daran, dass der automatisierte Planungslauf Planungsparameter verwendet und diese möglicherweise vom Benutzer nicht berücksichtigt werden, der den manuellen Plan auf der Seite "Auftragsplanung" erzeugt hat.  

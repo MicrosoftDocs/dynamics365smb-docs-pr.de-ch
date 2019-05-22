@@ -11,11 +11,11 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9f44b2f134d87368b61bcf3b5ac84d225b1491e7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924600"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252242"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen
 Wenn Ihre Debitoren Zahlungen an Ihr elektronisches Bankkonto getätigt haben, müssen Sie jeden gezahlten Betrag auf den zugehörigen Verkaufsbeleg anwenden und dann die Zahlung buchen, um die Debitoren-, Fibukonto- und Bankposten zu aktualisieren. Abhängig von den Unternehmensanforderungen können Sie bezahlt werden und die Zahlung auf unterschiedliche Arten erfassen: automatisch und durch Zahlungsverkehr.  
@@ -152,7 +152,7 @@ Nachfolgend wird erklärt, wie man einen bestimmten Beleg findet, indem man beid
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Zahlung erfassen** ein, und wählen dann den zugehörigen Link aus.
 2. Zeigen Sie mit dem Mauszeiger auf eine beliebige Zeile und wählen Sie **Beleg suchen**.
-3. Auf der Seite **Dokumentsuche** geben Sie einen Suchwert im Feld **Dokumentennummer** ein.  
+3. Auf der Seite **Belegsuche** geben Sie einen Suchwert im Feld **Belegnummer** ein.  
 
     > [!NOTE]  
     >   Der Wert, den Sie hier eingeben, ist in den ausgeblendeten Platzhalterzeichen enthalten. Das bedeutet, dass die Funktion in allen Belegnummern sucht, die den eingegebenen Wert enthalten.    

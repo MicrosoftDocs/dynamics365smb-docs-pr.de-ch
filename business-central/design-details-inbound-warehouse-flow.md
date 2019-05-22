@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3083b52a2345d2c5dbaa15c34c7a93afb3b9d063
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921717"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247343"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetails: Eingehender Lagerfluss
 Der eingehende Fluss in ein Lager beginnt, wenn Artikel im Lager des Unternehmensstandorts ankommen, entweder aus externen Quellen oder von einem anderen Standort des Unternehmens. Ein Mitarbeiter registriert die Artikel, normalerweise, indem er einen Barcode scannt. Vom empfangenden Dock werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel in den Lagerbereich zu bringen.  
@@ -46,7 +46,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie die eingehenden Proze
 |L|Posteinlieferungsschein und Einlagerung aus einem Wareneingangsbeleg||X||4/5/6|  
 |T|Posteinlieferungsschein aus einem Wareneingangsbeleg und Posteinlagerung aus einem Einlagerungsbeleg||X|X|4/5/6|  
 
-Die Auswahl eines Ansatzes hängt von den akzeptierten Methoden des Unternehmens und seiner Komplexität ab. In einer Auftrag-für-Auftrag-Lagerumgebung, in der die meisten der Lagermitarbeiter direkt mit Auftragsbelegen arbeiten, entscheidet sich ein Unternehmen möglicherweise anschließend, Methode A zu verwenden. Ein Auftrag-für-Auftrag-Lager, das einen komplexeren Einlagerungsprozess hat, oder das dedizierte Lagermitarbeiter hat, um die Lagerverwaltung durchzuführen, könnte sich entscheiden, seine Einlagerungsfunktionen von der Auftragsdokumentmethode B zu trennen. Darüber hinaus kann es für Unternehmen, die die Verarbeitung mehrerer Aufträge planen müssen, nützlich sein, Lagereingangsdokumente, Methoden C und D, zu verwenden.  
+Die Auswahl eines Ansatzes hängt von den akzeptierten Methoden des Unternehmens und seiner Komplexität ab. In einer Auftrag-für-Auftrag-Lagerumgebung, in der die meisten der Lagermitarbeiter direkt mit Auftragsbelegen arbeiten, entscheidet sich ein Unternehmen möglicherweise anschließend, Methode A zu verwenden. Ein Auftrag-für-Auftrag-Lager, das einen komplexeren Einlagerungsprozess hat, oder das dedizierte Lagermitarbeiter hat, um die Lagerverwaltung durchzuführen, könnte sich entscheiden, seine Einlagerungsfunktionen von der Auftragsbelegmethode B zu trennen. Darüber hinaus kann es für Unternehmen, die die Verarbeitung mehrerer Aufträge planen müssen, nützlich sein, Lagereingangsbelege, Methoden C und D, zu verwenden.  
 
 In den Methoden werden A, B und C werden die Aktionen des Eingangs und der Einlagerung in einem Schritt zusammengefasst, wenn der entsprechende Beleg als eingegangen gebucht wird. In Methode D wird der Eingang zuerst gebucht, um die Bestandszunahme zu erkennen sowie, dass Artikel zum Verkauf verfügbar sind. Der Lagermitarbeiter registriert die Einlagerung, um Artikel für die Kommissionierung bereitzustellen.  
 

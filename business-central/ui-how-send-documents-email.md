@@ -1,5 +1,5 @@
 ---
-title: Besondere-E-Mail-Dokumente einrichten | Microsoft Docs
+title: Besondere-E-Mail-Belege einrichten | Microsoft Docs
 description: Sie können Inhalt definieren, um in den Text eine E-Mail beispielsweise ein Paypal-Link einzufügen. Bestellanforderungen können auch Belege an eine E-Mail-Nachricht angehängt werden.
 documentationcenter: ''
 author: SorenGP
@@ -12,14 +12,14 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fcae17577b448b4271adee299874cf5cad9da79f
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938217"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249390"
 ---
 # <a name="send-documents-by-email"></a>Senden von Belegen über E-Mail
-Um die Inhalte von Geschäftsbelegen Ihren Geschäftspartnern rasch zu kommunizieren, wie beispielsweise Zahlungsinformationen auf Verkaufsbelegen an Debitoren, können Sie die Berichtslayoutfunktion verwenden, um dokumentspezifischen Inhalt zu definieren, der automatisch in E-Mail-Texte eingefügt wird. Weitere Informationen finden Sie unter [Berichte- und Dokumentenlayouts verwalten](ui-manage-report-layouts.md).
+Um die Inhalte von Geschäftsbelegen Ihren Geschäftspartnern rasch zu kommunizieren, wie beispielsweise Zahlungsinformationen auf Verkaufsbelegen an Debitoren, können Sie die Berichtslayoutfunktion verwenden, um belegspezifischen Inhalt zu definieren, der automatisch in E-Mail-Texte eingefügt wird. Weitere Informationen finden Sie unter [Berichte- und Beleglayouts verwalten](ui-manage-report-layouts.md).
 
 Um E-Mails aus [!INCLUDE[d365fin](includes/d365fin_md.md)] zu aktivieren starten Sie den Leitfaden zur unterstützten Einrichtung **E-Mail einrichten** im Rollencenter.
 
@@ -27,7 +27,7 @@ Sie können praktisch alle Belegarten als Dateianhänge in E-Mails direkt auf de
 
 Von allen unterstützten Belegen initiieren Sie das Übermitteln per E-Mail, indem Sie **Senden** auf gebuchten Belegen oder **Buchen und Senden** auf nicht-gebuchten Belegen auswählen.
 
-Wenn das Feld **E-Mail** auf der Seite **Dokument senden an** auf **JA festgelegt wurde (Aufforderung für Einstellungen)**, dann wird die Seite **Senden per E-Mail** geöffnet und mit der Kontaktperson im Feld **Zu** ergänzt und das Dokument als PDF-Datei angehängt. Geben Sie im Feld **Text** entweder den Text manuell ein oder Sie können definieren, dass das Feld mit einem belegspezifischen E-Mail-Text ausgefüllt wird, den Sie eingerichtet haben.
+Wenn das Feld **E-Mail** auf der Seite **Beleg senden an** auf **JA festgelegt wurde (Aufforderung für Einstellungen)**, dann wird die Seite **Senden per E-Mail** geöffnet und mit der Kontaktperson im Feld **Zu** ergänzt und der Beleg als PDF-Datei angehängt. Geben Sie im Feld **Text** entweder den Text manuell ein oder Sie können definieren, dass das Feld mit einem belegspezifischen E-Mail-Text ausgefüllt wird, den Sie eingerichtet haben.
 
 Nachfolgend wird beschrieben, wie der Bericht **Verkaufsrechnung** für belegspezifische E-Mail-Texte verwendet wird, wenn Sie gebuchte Verkaufsrechnungen senden.
 
@@ -49,7 +49,7 @@ Nachfolgend wird beschrieben, wie eine gebuchte Verkaufsrechnung als E-Mail mit 
 
 ## <a name="to-send-documents-by-email"></a>Senden von Belegen über E-Mail
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Gebuchte Verkaufsrechnungen** ein, und wählen dann den zugehörigen Link aus.
-2. Wählen Sie die relevante gebuchte Verkaufsrechnung aus und wählen Sie die Aktion **Senden**. Die Seite **Dokument senden an** wird geöffnet.
+2. Wählen Sie die relevante gebuchte Verkaufsrechnung aus und wählen Sie die Aktion **Senden**. Die Seite **Beleg senden an** wird geöffnet.
 3. Wählen Sie im Feld **E-Mail** **Ja (Aufforderung für Einstellung)** aus. Weitere Informationen finden Sie unter [Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).
 4. Wählen Sie die Schaltfläche **OK** aus. Die Seite **E-Mails senden** wird geöffnet.
 5. Im Feld **Zu** geben Sie eine gültige E-Mail-Adresse ein. Der Standardwert ist die E-Mail-Adresse des Debitors.

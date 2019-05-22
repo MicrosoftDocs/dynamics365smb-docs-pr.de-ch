@@ -11,17 +11,17 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 6a9bba4d097ca24de094f153c91d7888811cdfd4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925915"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241206"
 ---
 # <a name="set-up-a-document-exchange-service"></a>So richten Sie einen Belegaustauschdienst ein
 Sie verwenden einen externen Anbieter zum Austausch elektronischer Belege mit Ihren Handelspartnern. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>So richten Sie einen Belegaustauschdienst ein  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Dokumentenaustausch einrichten** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Belegaustausch einrichten** ein, und wählen dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder gemäss der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Beschreibung|  

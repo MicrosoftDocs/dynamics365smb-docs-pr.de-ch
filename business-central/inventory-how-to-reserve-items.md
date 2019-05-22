@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: bca330009730caf5d8f4d6d82eb6bedab5e762c0
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932186"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243169"
 ---
 # <a name="reserve-items"></a>Artikel reservieren
 Reservieren Sie Lager oder eingehenden Artikel für Verkaufsaufträge, Bestellungen, Serviceaufträge, Montageaufträge oder Fertigungsaufträge. Sie können Artikel in Lager oder eingehenden in offenen Beleg- oder Erf.-Journalzeilen reservieren. Sie führen die Arbeit auf der Seite **Reservierungen** aus.
@@ -81,7 +81,7 @@ Gelegentlich kann es erforderlich sein, eine Artikelreservierung zu stornieren.
 4.  Bestätigen Sie die nachfolgende Meldung, indem Sie die Schaltfläche **OK** auswählen.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>So reservieren Sie eine bestimmte Serien- oder Chargennummer  
-Aus ausgehenden Dokumenten für Artikel mit Artikeltracking, wie Verkaufsaufträge oder Listen mit Fertigungskomponenten, können Sie bestimmte Serien- oder Chargennummern reservieren. Dies kann beispielsweise relevant sein, wenn Sie Fertigungskomponenten aus einer bestimmten Charge benötigen, um die Konsistenz mit vorhergehenden Fertigungslosen sicherzustellen, oder weil ein Debitor eine bestimmte Seriennummer angefordert hat. Weitere Informationen finden Sie unter [Arbeiten mit Serien- und Chargennummern](inventory-how-work-item-tracking.md).
+Aus ausgehenden Belegen für Artikel mit Artikeltracking, wie Verkaufsaufträge oder Listen mit Fertigungskomponenten, können Sie bestimmte Serien- oder Chargennummern reservieren. Dies kann beispielsweise relevant sein, wenn Sie Fertigungskomponenten aus einer bestimmten Charge benötigen, um die Konsistenz mit vorhergehenden Fertigungslosen sicherzustellen, oder weil ein Debitor eine bestimmte Seriennummer angefordert hat. Weitere Informationen finden Sie unter [Arbeiten mit Serien- und Chargennummern](inventory-how-work-item-tracking.md).
 
 Dies wird als spezifische Reservierung bezeichnet, da Sie eine Menge von Artikel X reservieren, die zu Charge X gehört. Wenn Sie einfach Mengen von Artikel X reservieren, ist dies eine normale, unspezifische Reservierung. Weitere Informationen finden Sie unter [Designdetails: Artikeltracking und Reservierungen](design-details-item-tracking-and-reservations.md).
 

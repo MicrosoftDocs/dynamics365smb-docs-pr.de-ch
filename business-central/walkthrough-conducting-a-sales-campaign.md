@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 7b9bfeea6a4a3f93559d49319257053aef2f7bec
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934178"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249100"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne
 Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger Schritt beim Einrichten einer Kampagne ist die Auswahl der Zielgruppe. Zu diesem Zweck erstellen Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe von Filtern ein Segment bzw. eine Gruppe von Kontakten.  
@@ -133,7 +133,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
     >  Diese Vorlage besteht aus mehreren Anlagen, die alle in jeweils unterschiedlicher Sprache verfasst sind. Zu den Beispielsprachen gehören auch Englisch und Dänisch.  
 
 4.  Wählen Sie das Feld **Sprachcode (Standard)**, um die Seite **Segmentaktivitätensprachen** zu öffnen. Wählen Sie einen Sprachcode aus, und wählen Sie dann die Schaltfläche **OK**.  
-5.  Sie können das Dokument in der ausgewählten Sprache anzeigen. Wählen Sie die **Dateianhang** Aktion aus, und wählen Sie die **Öffnen** Aktion aus.  
+5.  Sie können den Beleg in der ausgewählten Sprache anzeigen. Wählen Sie die **Dateianhang** Aktion aus, und wählen Sie die **Öffnen** Aktion aus.  
 
      Um die Nachricht zu beantworten, die nach der Berechtigung zum Starten von Word fragt, wählen Sie die Option **Für diese Clientsitzung zulassen** aus.  
 

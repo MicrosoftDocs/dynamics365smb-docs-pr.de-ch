@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 5af662dcef893c04ea83f7051c63c53ec5d1e783
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "933946"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248286"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Hinzufügen von Feldern zu einem Word-Berichtlayout
 Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bilder anzeigen. In diesem Thema wird das Verfahren zum Hinzufügen von Feldern aus einem Berichtsdatasets in ein bestehendes Word-Berichtslayout für einen Bericht beschrieben. Fügen Sie Felder hinzu, indem Sie benutzerdefinierte XML-Abschnitt in Words für den Bericht verwenden und Inhaltssteuerelemente hinzufügen, die den Feldern des Berichtsdatasets zugeordnet sind. Beim Hinzufügen von Feldern ist es erforderlich, dass Sie einiges Wissen über das Dataset des Berichts haben, damit Sie die Felder identifizieren können, die Sie dem Layout hinzufügen möchten.  
@@ -29,7 +29,7 @@ Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bild
   
 1.  Wenn nicht bereits offen, öffnen Sie den Word-Berichtlayoutbeleg in Word.  
   
-     Weitere Informationen finden Sie unter [Erstellen und bearbeiten  eines benutzerdefinierten Berichts- oder Dokumentenlayout](ui-how-create-custom-report-layout.md).  
+     Weitere Informationen finden Sie unter [Erstellen und bearbeiten  eines benutzerdefinierten Berichts- oder Beleglayout](ui-how-create-custom-report-layout.md).  
   
 2.  Zeigen Sie die Registerkarte **Entwickler** im Menüband von Microsoft Word an.  
   

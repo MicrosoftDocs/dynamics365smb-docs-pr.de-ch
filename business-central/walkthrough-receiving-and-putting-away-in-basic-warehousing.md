@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 1738e60fe78b0ef9e11b277bb19f4e8f830ec882
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922052"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247895"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen
 
@@ -123,7 +123,7 @@ Auf der Seite **Lagerkommissionierung** können Sie alle eingehenden Lageraktivi
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagereinlagerungen** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Neu** aus.  
-3.  Wählen Sie das Feld **Herkunftsdokument** , und wählen Sie **Einkaufsauftrag** aus.  
+3.  Wählen Sie das Feld **Herkunftsbeleg** , und wählen Sie **Einkaufsauftrag** aus.  
 4.  Wählen Sie das Feld **Herkunftsnr.** aus, wählen Sie die Zeile für den Einkauf von Kreditor 10000 aus, und wählen Sie dann die Schaltfläche **OK**.  
 
     Alternativ auf der Registerkarte **Aktionen**, in der Gruppe **Funktion**, wählen Sie **Herkunftsbeleg holen** und wählen Sie die Bestellung aus.  

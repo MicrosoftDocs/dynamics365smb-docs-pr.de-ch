@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 7b6b4c31b19b85ae33eb3d4a8be0e2e3d5c14320
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935009"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247319"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetails: Ausgehender Lagerfluss
 Der ausgehende Fluss in das Lager beginnt mit einer Anforderung der freigegebenen Herkunftsbelege, die Artikel aus dem Lagerort B zu bringen, entweder, um an eine externe Partei oder an einen anderen Unternehmensstandort geliefert zu werden. Vom Lagerbereich werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel zu den Lieferdocks zu bringen.  
@@ -47,7 +47,7 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
 |L|Buchen Sie die Kommissionierung und den Warenausgang aus einem Warenausgangsbeleg|||X|4/5/6|  
 |T|Buchen Sie die Kommissionierung von einem Kommissionierbeleg und buchen Sie den Warenausgang aus einem Warenausgangsbeleg||X|X|4/5/6|  
 
- Die Auswahl eines Ansatzes hängt von den akzeptierten Methoden des Unternehmens und seiner Komplexität ab. In einer Auftrag-für-Auftrag-Umgebung mit einfachen Prozessen und einfacher Lagerplatzstruktur eignet sich Methode A, Kommissionierung und Versand von der Auftragszeile. In anderen Auftrag-für-Auftrag-Unternehmen,, in denen Artikel für einen Auftrag aus mehr als einem Lagerplatz stammen können, oder wo Lagerarbeiter nicht mit Auftragsbelegen arbeiten können, ist die Verwendung separater Kommissionierbelege sinnvoll, Methode B. Wenn der Kommissionier- und Lieferungsprozess eines Unternehmens mehrere Auftragsprozesse und daher mehr Kontrolle erfordert, könnte sich das Unternehmen entscheiden, ein Lagerlieferungsdokument und ein Lagerkommissionierdokument zu verwenden, um die Kommissionierung und die Lieferung voneinander zu trennen, Methoden C und D.  
+ Die Auswahl eines Ansatzes hängt von den akzeptierten Methoden des Unternehmens und seiner Komplexität ab. In einer Auftrag-für-Auftrag-Umgebung mit einfachen Prozessen und einfacher Lagerplatzstruktur eignet sich Methode A, Kommissionierung und Versand von der Auftragszeile. In anderen Auftrag-für-Auftrag-Unternehmen,, in denen Artikel für einen Auftrag aus mehr als einem Lagerplatz stammen können, oder wo Lagerarbeiter nicht mit Auftragsbelegen arbeiten können, ist die Verwendung separater Kommissionierbelege sinnvoll, Methode B. Wenn der Kommissionier- und Lieferungsprozess eines Unternehmens mehrere Auftragsprozesse und daher mehr Kontrolle erfordert, könnte sich das Unternehmen entscheiden, einen Lagerlieferungsbeleg und einen Lagerkommissionierbeleg zu verwenden, um die Kommissionierung und die Lieferung voneinander zu trennen, Methoden C und D.  
 
  In den Methoden werden A, B und C werden die Aktionen der Kommissionierung und der Lieferung in einem Schritt zusammengefasst, wenn der entsprechende Beleg als geliefert gebucht wird. In Methode D wird zuerst die Kommissionierung erfasst, dann wird die Lieferung zu einem späteren Zeitpunkt aus einem anderen Beleg gebucht.  
 
@@ -57,7 +57,7 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
  ![Ausgehender Fluss in der grundlegenden Lagerfunktion](media/design_details_warehouse_management_outbound_basic_flow.png "Ausgehender Fluss in der grundlegenden Lagerfunktion")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Freigeben des Herkunftsbelegs:/Kommissionierung oder Umlagerung erstellen  
- Wenn ein Benutzer, der für Herkunftsbelege zuständig ist, etwa einen Verkaufsauftragsbearbeiter oder ein Produktionsplaner, für die ausgehende Lageraktivität bereit ist, gibt er den Herkunftsbeleg frei, um den Lagermitarbeitern zu signalisieren, dass verkaufte Artikel oder Komponenten kommissioniert und in die angegebenen Lagerplätze eingelagert werden können. Alternativ erstellt der Benutzer im Push-Verfahren Lagerkommissionierungs- oder Umlagerungsdokumente für die einzelnen Auftragszeilen, basierend auf angegebenen Lagerplätzen und zu verarbeitenden Mengen.  
+ Wenn ein Benutzer, der für Herkunftsbelege zuständig ist, etwa einen Verkaufsauftragsbearbeiter oder ein Produktionsplaner, für die ausgehende Lageraktivität bereit ist, gibt er den Herkunftsbeleg frei, um den Lagermitarbeitern zu signalisieren, dass verkaufte Artikel oder Komponenten kommissioniert und in die angegebenen Lagerplätze eingelagert werden können. Alternativ erstellt der Benutzer im Push-Verfahren Lagerkommissionierungs- oder Umlagerungsbelege für die einzelnen Auftragszeilen, basierend auf angegebenen Lagerplätzen und zu verarbeitenden Mengen.  
 
 > [!NOTE]  
 >  Lagerbestandsumlagerungen werden verwendet, um Artikel in der einfachen Logistik in interne Vorgangsbereiche zu verschieben, basierend auf Herkunftsbelegen oder ad hoc.  

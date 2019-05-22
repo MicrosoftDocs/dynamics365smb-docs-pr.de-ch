@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 8f670b125532300af169cc82f318abddd768e417
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931088"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250494"
 ---
 # <a name="setup-best-practices-costing-method"></a>Bewährte Einrichtungsmethoden: Lagerabgangsmethode
 Die **Kostenmethode** auf der Artikelkarte legt fest, ob der Kostenfluss des Artikels erfasst ist und ob ein tatsächlicher und budgetierter Wert gebucht und in der Berechnung des Einstandspreises verwendet wird.  

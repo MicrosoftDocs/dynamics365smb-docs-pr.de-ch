@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 62fd9e94b810887ecb152bba5a58c2f724b4025b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913215"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252127"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Erstellen Sie eine Servicerechnung oder eine Servicegutschrift.
 Die einfache Fakturierung von Serviceaufträgen ist ein zentrales Feature von [!INCLUDE[d365fin](includes/d365fin_md.md)] Sie können Debitoren jederzeit eine Rechnung schicken oder in regelmässigen Abständen Rechnungen erstellen.  

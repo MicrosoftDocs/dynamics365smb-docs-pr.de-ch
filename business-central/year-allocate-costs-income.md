@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 60b73b5c29bca5dc85e123f5957c7f3c0917345f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928784"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248355"
 ---
 # <a name="allocate-costs-and-income"></a>Kosten und Einkünfte zuteilen
 Die Posten einer Fibu Erf.-Journalzeile lassen sich beim Buchen des Erf.-Journals auf verschiedene Konten verteilen. Für die Verteilung stehen drei unterschiedliche Methoden zur Verfügung:
@@ -55,5 +55,5 @@ Die Posten einer Fibu Erf.-Journalzeile lassen sich beim Erfen des Erf.-Journals
 ## <a name="see-also"></a>Siehe auch
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)    
-[Journale und Dokumente buchen](ui-post-documents-journals.md)    
+[Journale und Belege buchen](ui-post-documents-journals.md)    
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914446"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245157"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Richten Sie Datenaustauschdefinitionen ein.
 Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] so einrichten, dass Daten in bestimmten Tabelle mit Daten in externen Dateien ausgetauscht werden, zum Beispiel zum Senden und Empfangen elektronischer Belege oder zum Importieren und Exportieren von Bankdaten und anderen Daten, wie Lohnabrechnung, Währungswechselkursen und Artikelkatalogen. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  
@@ -136,7 +136,7 @@ Dies wird in den folgenden Verfahren beschrieben.
     |**Zielfeldbeschriftung**|Nur sichtbar, wenn das Kontrollkästchen **Als Zwischentabelle verwenden** aktiviert ist.<br /><br /> Gibt den Namen des Felds in der Zieltabelle an, der der Wert im Feld **Spaltenbezeichnung** zugeordnet wird, wenn eine Zwischentabelle für den Datenimport verwendet wird.|  
     |**Optional**|Nur sichtbar, wenn das Kontrollkästchen **Als Zwischentabelle verwenden** aktiviert ist.<br /><br /> Geben Sie an, ob die Zuordnung übersprungen werden soll, wenn das Feld leer ist. Wenn Sie dieses Kontrollkästchen nicht aktivieren, tritt ein Exportfehler auf, wenn das Feld leer ist.|  
 
-Die Datenaustauschdefinition kann jetzt für Benutzer aktiviert werden. Weitere Informationen finden Sie unter [Vorgehensweise: Sendendes und empfangendes Einrichtungs-elektronisches Dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md)[Vorgehensweise: Abbuchung der Einrichtungs-](finance-how-to-set-up-sepa-direct-debit.md), und [Anwenden Sie Zahlungen mit Bankdaten-Konvertierungsdienst- oder SEPA-Banküberweisung](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) angegebenen [Vorgehensweise: Banktransfer der Einrichtungs-](finance-how-to-set-up-sepa-credit-transfer.md).  
+Die Datenaustauschdefinition kann jetzt für Benutzer aktiviert werden. Weitere Informationen finden Sie unter [Vorgehensweise: Sendender und empfangender Einrichtungs-elektronischer Beleg](across-how-to-set-up-electronic-document-sending-and-receiving.md)[Vorgehensweise: Abbuchung der Einrichtungs-](finance-how-to-set-up-sepa-direct-debit.md), und [Anwenden Sie Zahlungen mit Bankdaten-Konvertierungsdienst- oder SEPA-Banküberweisung](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) angegebenen [Vorgehensweise: Banktransfer der Einrichtungs-](finance-how-to-set-up-sepa-credit-transfer.md).  
 
 Wenn Sie die Datenaustauschdefinition für eine bestimmte Datendatei erstellt haben, können Sie die Datenaustauschdefinition als XML-Datei exportieren, die verwendet werden kann, um ein Importieren der jeweiligen Datendatei schnell zu aktivieren. Dies wird im folgender Verfahren beschrieben.  
 
