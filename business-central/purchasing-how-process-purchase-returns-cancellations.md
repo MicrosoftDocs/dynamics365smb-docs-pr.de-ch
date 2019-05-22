@@ -13,11 +13,11 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 78a67f214de9e3d4d1df673a21c5a2c1b3ec1f64
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934387"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252541"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen
 Wenn Sie Artikel an Ihren Kreditor zurückschicken oder Dienstleistungen löschen wollen, die Sie eingekauft haben, können Sie eine Einkaufsgutschrift erstellen und buchen, die die angeforderte Änderung im Hinblick auf die ursprünglichen Einkaufsrechnung angibt. Um korrekte Verkaufsrechnungsinformationen einzuschließen, können Sie die Verkaufsgutschrift direkt aus der gebuchten Verkaufsrechnung erstellen oder neue Verkaufsgutschrift mit der Rechnungsinformationen erstellen.
@@ -74,7 +74,7 @@ Die Einkaufsgutschrift wird entfernt und durch einen neuen Beleg in der Liste de
 2. Wählen Sie **Neu**, um eine neue leere Einkaufsgutschrift zu öffnen.
 3. Geben Sie im Feld **Kreditor** den Namen eines vorhandenen Kreditors ein.
 4. Wählen Sie die **Beleg kopieren**-Aktion aus.
-5. Wählen Sie auf der Seite **Einkaufsbeleg kopieren** im Feld **Dokumenttyp** **Rechnung buchen** aus.
+5. Wählen Sie auf der Seite **Einkaufsbeleg kopieren** im Feld **Belegtyp** **Rechnung buchen** aus.
 6. Wählen Sie das Feld **Belegnr.**, um die Seite **Geb. Einkaufsrechnungen** zu öffnen, und wählen Sie die gebuchte Einkaufsrechnung aus, die Sie stornieren möchten.
 7. Wählen Sie das Kontrollkästchen **Zeilen neu berechnen**, wenn die kopierten gebuchten Einkaufsrechnungszeilen, mit einzelnen Änderungen im Artikelpreis und im Einstandspreis, aktualisiert werden sollen, da die Rechnung gebucht wurde.
 8. Wählen Sie die Schaltfläche **OK** aus. Die kopierten Rechnungszeilen werden in die Einkaufsgutschrift eingefügt.

@@ -12,14 +12,14 @@ ms.search.keywords: rfq
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 6083e5ff57ebfb57a31d294e5c565b5bc6a3f8c6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930466"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252702"
 ---
 # <a name="make-sales-quotes"></a>Verkaufsofferten machen
-Sie erstellen eine Verkaufsofferte, um Ihre Offerte für den Debitor zu erfassen, um bestimmte Produkte unter speziellen Lieferungs- und Zahlungsbedingungen zu verkaufen. Sie können die Verkaufsofferte an den Debitor senden, um die Offerte mitzuteilen. Sie können den Beleg als PDF-Dateianhang senden. Sie können den E-Mail-Text auch, der mit einer Zusammenfassung der Offerte vorab ausgefüllt wurde. Weitere Informationen finden Sie unter [Senden von Dokumenten über E-Mail](ui-how-send-documents-email.md).
+Sie erstellen eine Verkaufsofferte, um Ihre Offerte für den Debitor zu erfassen, um bestimmte Produkte unter speziellen Lieferungs- und Zahlungsbedingungen zu verkaufen. Sie können die Verkaufsofferte an den Debitor senden, um die Offerte mitzuteilen. Sie können den Beleg als PDF-Dateianhang senden. Sie können den E-Mail-Text auch, der mit einer Zusammenfassung der Offerte vorab ausgefüllt wurde. Weitere Informationen finden Sie unter [Senden von Belegen über E-Mail](ui-how-send-documents-email.md).
 
 Während Sie mit dem Debitor verhandeln, können Sie die Verkaufsofferte ändern wie benötigt und erneut versenden. Wenn der Debitor die Offerte annimmt, wandeln Sie die Verkaufsofferte in eine Verkaufsrechnung, in der Sie den Verkauf verarbeiten. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md) und [Neue Produkte verkaufen](sales-how-sell-products.md).
 
@@ -72,7 +72,7 @@ Sie können die oberen Infoboxen der Verkaufsofferte auf zwei Arten ausfüllen, 
     > Um **Offerte gültig bis Datum** haben, die automatisch mit einigen Tage nach Erstellung der Offerte ausgefüllt ist, können Sie das **Angebots-Gültigkeits-Berechnung** auf der Seite **Debitoren & Verkauf** ausfüllen. 
 
 15. Wenn die Verkaufsangebotszeilen ausgeführt werden, wählen Sie die Aktion **Per E-Mail senden** aus.
-16. Auf der Seite **E-Mail senden** füllen Sie die restlichen Felder aus und überprüfen Sie die eingebettete Verkaufsofferte. Weitere Informationen finden Sie unter [Senden von Dokumenten über E-Mail](ui-how-send-documents-email.md).
+16. Auf der Seite **E-Mail senden** füllen Sie die restlichen Felder aus und überprüfen Sie die eingebettete Verkaufsofferte. Weitere Informationen finden Sie unter [Senden von Belegen über E-Mail](ui-how-send-documents-email.md).
 17. Wenn der Debitor die Offerte annimmt, wählen Sie **Rechnung erstellen** oder **Auftrag vornehmen** aus.
 
 Die Verkaufsofferte wird aus der Datenbank entfernt. Eine Verkaufsrechnung oder ein Verkaufsauftrag wird auf der Basis der Informationen in der Verkaufsofferte erstellt, in der Sie den Verkauf verarbeiten können. In der erstellten Verkaufsrechnung bzw. -bestellung gibt das Feld **Offertennr.** die Nummer der Verkaufsofferte an, aus der sie erstellt wurde. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md) und [Neue Produkte verkaufen](sales-how-sell-products.md).

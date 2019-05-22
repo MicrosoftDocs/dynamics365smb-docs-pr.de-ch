@@ -13,11 +13,11 @@ ms.search.keywords: project management, material, purchase
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: b6f60fccd9be7dbad28b1d0e190d240602720c69
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934502"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252656"
 ---
 # <a name="manage-job-supplies"></a>Verwalten von Projektlieferungen
 Die Verwaltung von Projektlieferungen für Artikel, Services und Aufwendungen ist ein integraler und wichtiger Bestandteil der Ausführung von Projekten. Sie können entweder verfügbaren Lagerbestand verwenden oder projektspezifische Einkäufe mithilfe von Bestellungen und/oder Einkaufsrechnungen durchführen. Beispiel: Bei einem Serviceprojekt für einen Computer wird eine neue Festplatte benötigt. Sie erstellen eine Einkaufsrechnung für den Kauf einer neuen Festplatte und erfassen das Projekt, für das die Festplatte verwendet wird.
@@ -38,9 +38,9 @@ Der folgende Ablauf zeigt, wie eine Einkaufsrechnung zum Kauf von Produkten für
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.
 2. Eine relevante Projektkarte öffnen.
 
-    In der **Registerkarte** Inforegister zeigt das Feld **Ausstehende Bestellungen** den gesamten ausstehenden Betrag in Landeswährung, , den gesamten Lagerbestand und die Services für den Kauf von Dokumenten für die Projektaufgabenzeile.  
+    In der **Registerkarte** Inforegister zeigt das Feld **Ausstehende Bestellungen** den gesamten ausstehenden Betrag in Landeswährung, , den gesamten Lagerbestand und die Services für den Kauf von Belegen für die Projektaufgabenzeile.  
 
-    Das Feld **Nicht fakturierter Lieferbetrag** zeigt den Wert der Artikel, die mit Verkaufsdokumenten geliefert aber noch nicht fakturiert wurden.  
+    Das Feld **Nicht fakturierter Lieferbetrag** zeigt den Wert der Artikel, die mit Verkaufsbelegen geliefert aber noch nicht fakturiert wurden.  
 3. Klicken Sie auf eines der Felder, um die Seite **Verkaufszeilen** zu öffnen. Auf dieser Seite können Sie Informationen aus dem Auftrag nachlesen – einschliesslich Informationen zu eingegangenen Artikeln oder Ressourcen.
 
 ## <a name="to-post-a-job-related-expense"></a>Projektbezogene Aufwendung buchen

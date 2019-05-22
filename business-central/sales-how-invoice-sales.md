@@ -11,11 +11,11 @@ ms.search.keywords: bill, sale, invoice, order
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f80d98ee46f06a9c39928dcf6bcdb4f8bf203874
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916318"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252610"
 ---
 # <a name="invoice-sales"></a>Fakturieren eines Verkaufs
 Sie erstellen eine Verkaufsrechnung oder eine Bestellung, um Ihre Vereinbarung mit dem Debitoren zu erfassen, um bestimmte Produkte unter speziellen Liefer- und Zahlungsbedingungen zu verkaufen.  
@@ -29,7 +29,7 @@ In allen anderen Aspekten ist das Vorgehen bei Verkaufsaufträgen gleich wie bei
 
 Sie können mit dem Debitor verhandeln, indem Sie zuerst eine Verkaufsofferte erstellen, die Sie in eine Verkaufsrechnung umwandeln können, wenn Sie dem Verkauf zustimmen. Weitere Informationen finden Sie unter [Verkaufsofferten machen](sales-how-make-offers.md).
 
-Wenn der Debitor entscheidet zu kaufen, senden Sie die Verkaufsrechnung, um die entsprechende Menge und die Wertposten zu erstellen. Wenn Sie die Verkaufsrechnung buchen, können Sie den Beleg als PDF-Dateianhang auch senden. Sie können den E-Mail-Text haben, der mit einer Zusammenfassung der Rechnung und der Zahlungsinformationen, wie ein Link zu Paypal, vorab ausgefüllt wurde. Weitere Informationen finden Sie unter [Senden von Dokumenten über E-Mail](ui-how-send-documents-email.md). Wenn der Debitor die Rechnung gezahlt hat, können Sie die Zahlung auf verschiedene Arten ausführen, abhängig von der Grösse und dem gewünschten Workflow der Organisation. Weitere Informationen finden Sie im Abschnitt [Zahlungen erfassen](#registering-payments).  
+Wenn der Debitor entscheidet zu kaufen, senden Sie die Verkaufsrechnung, um die entsprechende Menge und die Wertposten zu erstellen. Wenn Sie die Verkaufsrechnung buchen, können Sie den Beleg als PDF-Dateianhang auch senden. Sie können den E-Mail-Text haben, der mit einer Zusammenfassung der Rechnung und der Zahlungsinformationen, wie ein Link zu Paypal, vorab ausgefüllt wurde. Weitere Informationen finden Sie unter [Senden von Belegen über E-Mail](ui-how-send-documents-email.md). Wenn der Debitor die Rechnung gezahlt hat, können Sie die Zahlung auf verschiedene Arten ausführen, abhängig von der Grösse und dem gewünschten Workflow der Organisation. Weitere Informationen finden Sie im Abschnitt [Zahlungen erfassen](#registering-payments).  
 
 
 Sie können eine gebuchte Verkaufsrechnung einfach korrigieren oder stornieren, bevor sie bezahlt wird. Dies ist nützlich, wenn Sie einen Tippfehler korrigieren möchten, oder wenn der Debitor eine Änderung früh im Bestellvorgang anfordert. Weitere Informationen finden Sie unter [Ändern oder löschen von unbezahlten Verkaufsrechnungen](sales-how-correct-cancel-sales-invoice.md). Wenn die gebuchte Verkaufsrechnung bezahlt ist, müssen Sie eine Verkaufsgutschrift erstellen, um den Verkauf zu stornieren. Weitere Informationen finden Sie unter [Retouren verarbeiten oder Stornieren](sales-how-process-sales-returns-cancellations.md).

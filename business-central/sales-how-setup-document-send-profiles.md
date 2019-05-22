@@ -13,22 +13,22 @@ ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a6521a6f67fa39ded3b3baa863fc0d4341aa0524
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916961"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252449"
 ---
 # <a name="set-up-document-sending-profiles"></a>Belegsendeprofile einrichten
 Sie können jeden Debitor mit einer bevorzugten Methode der Übermittlung von Verkaufsbelegen einrichten, sodass Sie nicht jedes Mal eine Sendeoptionen auswählen müssen, wenn Sie die Schaltfläche **Buchen und senden** auswählen.
 
-Auf der Seite **Belegsendeprofile** richten Sie verschiedene **Dokumente-Sendeprofile** ein, die Sie aus dem Feld von einer Debitorenkarte auswählen können. Im Kontrollkästchen **Standard** geben Sie an, dass das Belegsendprofil das Standardprofil für alle Debitoren gilt, außer Debitoren, bei denen das Feld **Belegsendeprofil** mit einem anderen Sendeprofil ausgefüllt ist.
+Auf der Seite **Belegsendeprofile** richten Sie verschiedene **Belegsendeprofile** ein, die Sie aus dem Feld von einer Debitorenkarte auswählen können. Im Kontrollkästchen **Standard** geben Sie an, dass das Belegsendprofil das Standardprofil für alle Debitoren gilt, außer Debitoren, bei denen das Feld **Belegsendeprofil** mit einem anderen Sendeprofil ausgefüllt ist.
 
 Wenn Sie die Schaltfläche **Buchen und senden** für einen Verkaufsbeleg auswählen, wird im Dialogfeld **Buchungs- und Sendebestätigung** das verwendete Sendeprofil angezeigt. Dabei handelt es sich entweder um das für den Debitor eingerichtete oder um Standardprofil für alle Debitoren. In diesem Dialogfeld können Sie das Sendeprofil für den Verkaufsbeleg ändern. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md).
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Einrichten von Belegsendeprofilen
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Belegsendeprofil** ein, und wählen dann den zugehörigen Link aus.
-2. Auf der Seite **Dokumentsendeprofile** wählen Sie die Aktion **Neu** aus.
+2. Auf der Seite **Belegsendeprofile** wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Sendeprofil für eine Debitorenkarte festlegen

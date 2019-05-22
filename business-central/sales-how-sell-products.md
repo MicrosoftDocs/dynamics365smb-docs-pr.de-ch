@@ -11,11 +11,11 @@ ms.search.keywords: trade
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a8e2d016cc47192bbb05439fa61bab1f246a53bd
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924746"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252633"
 ---
 # <a name="sell-products"></a>Produkte verkaufen
 Sie erstellen eine Verkaufsrechnung oder eine Bestellung, um Ihre Vereinbarung mit dem Debitoren zu erfassen, um bestimmte Produkte unter speziellen Liefer- und Zahlungsbedingungen zu verkaufen.
@@ -27,7 +27,7 @@ Sie können mit dem Debitor verhandeln, indem Sie zuerst eine Verkaufsofferte er
 
 Nachdem der Debitor die Vereinbarung bestätigt hat, beispielsweise nach dem Offertenprozess, können Sie eine Auftragsbestätigung senden, um Ihre Verpflichtung zu erfassen, die Produkte wie vereinbart zu liefern.
 
-Wenn Sie die Produkte teilweise oder gesamthaft liefern, buchen Sie die Verkaufsrechnung oder den Verkaufsauftrag als geliefert oder als geliefert und fakturiert, um den zugehörigen Artikel und die Debitorenposten im System zu erfassen. Wenn Sie den Verkaufsauftrag buchen, können Sie den Beleg auch als PDF-Dateianhang senden. Sie können den E-Mail-Text mit einer Zusammenfassung des Auftrags und der Zahlungsinformationen, wie ein Link zu Paypal automatisch ausfüllen lassen. Weitere Informationen finden Sie unter [Senden von Dokumenten über E-Mail](ui-how-send-documents-email.md).
+Wenn Sie die Produkte teilweise oder gesamthaft liefern, buchen Sie die Verkaufsrechnung oder den Verkaufsauftrag als geliefert oder als geliefert und fakturiert, um den zugehörigen Artikel und die Debitorenposten im System zu erfassen. Wenn Sie den Verkaufsauftrag buchen, können Sie den Beleg auch als PDF-Dateianhang senden. Sie können den E-Mail-Text mit einer Zusammenfassung des Auftrags und der Zahlungsinformationen, wie ein Link zu Paypal automatisch ausfüllen lassen. Weitere Informationen finden Sie unter [Senden von Belegen über E-Mail](ui-how-send-documents-email.md).
 
 Im Geschäftsumgebungen, in denen der Debitor einige Zeit nach der Lieferung bezahlt entsprechend der Zahlungsbedingung, verbleibt eine offene (unbezahlte) Verkaufsrechnung bis die Debitorenabteilung überprüft, dass die Zahlung erfolgt ist und die Zahlung der gebuchten Verkaufsrechnung ausgeglichen ist. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 

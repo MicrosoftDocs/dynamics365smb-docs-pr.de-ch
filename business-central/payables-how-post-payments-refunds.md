@@ -11,11 +11,11 @@ ms.search.keywords: payment journal, print check, vendor payment, customer refun
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 8be7de94b64cb89593df3ea028ab71dddd3d9541
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913083"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253990"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Rekordzahlungen und Erstattungen im Zahlungsausgangs Erf.-Journal
 
@@ -42,7 +42,7 @@ Das Erf.-Journal ist ein Fibu Erf.-Journal, das zum Anwenden von Zahlungen optim
 3. Wenn Sie wissen, wie die Zahlung oder Rückerstattung erfolgt, füllen Sie die Felder manuell. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Um die Zahlung mit der entsprechenden Rechnung oder Gutschrift auch anzuwenden, aktivieren Sie **Felder Ausgleich. No.** Feld auf der Seite **Kreditorenpostenausgleich** wählen Sie die relevante Rechnung oder die Gutschrift und dann die Schaltfläche **OK** aus.
 
-    Viele Felder, wie die Felder **Dokumentbetrag** und **Fälligkeitsdatum** werden nun mit Informationen aus dem ausgewählten Belegs ausgefüllt.
+    Viele Felder, wie die Felder **Belegbetrag** und **Fälligkeitsdatum** werden nun mit Informationen aus dem ausgewählten Belegs ausgefüllt.
 5. Alternativ nutzen Sie die **Zahlungsvorschlagfunktion**. Alle Informationen und Beträge werden dann auch auf die Erfassungsjournalzeilen eingegeben. Weitere Informationen finden Sie unter [Erstellen von Zahlungsvorschlägen für Kreditoren](payables-how-suggest-vendor-payments.md).
 
     Nachrichten leiten Sie, um die erforderlichen Felder korrekt auszufüllen.
