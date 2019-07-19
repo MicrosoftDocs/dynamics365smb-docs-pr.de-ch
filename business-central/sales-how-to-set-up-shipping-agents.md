@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1f6af964dad89a8a311f315f8885aaa94b92427
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6d931625ef469a0b156d2794de7eda131213f28f
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252362"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632697"
 ---
 # <a name="set-up-shipping-agents"></a>Zusteller einrichten
 Sie können einen Code für jeden Spediteur anlegen und Informationen dazu eingeben.  
@@ -36,12 +36,13 @@ Wenn Sie einer Verkaufsauftragszeile eine Spediteurtransportart zugeordnet haben
 4. In **Spediteurtransportarten** füllen Sie die Felder wie notwendig aus.
 
 > [!NOTE]  
->  Wenn Sie den Spediteur in der Auftragszeile löschen, wird auch der Spediteur Transportartcode gelöscht. Der Inhalt der Felder, die zum Teil auf der Spediteurtransportart basierten, wird neu berechnet.  
+>  Wenn Sie den Spediteur in der Auftragszeile löschen, wird auch der Spediteur Transportartcode gelöscht. Der Inhalt der Felder, die zum Teil auf der Zustellertransportart basierten, wird neu berechnet.  
 
 ## <a name="see-also"></a>Siehe auch
-[Um Pakete zu verfolgen](sales-how-track-packages.md)    
+[Liefermethoden einrichten](sales-how-set-up-shipment-methods.md)  
+[Pakete verfolgen](sales-how-track-packages.md)    
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbesttand](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  

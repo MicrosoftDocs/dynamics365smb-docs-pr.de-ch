@@ -35,7 +35,7 @@ Optional können Sie auch Folgendes angeben:
 
 * **Transaktionsspezifikationen**: Dienen der Ergänzung der Beschreibungen aus den Buchungsarten.  
 * **Regionen**: Dienen dazu, Informationen über Länder und Regionen zu ergänzen.  
-* **Häfen**: Dienen dazu, die Positionen anzugeben, wo Sie Artikel in andere Länder versenden oder aus anderen Ländern empfangen. Heathrow Airport ist ein Beispiel für einen Hafen. Sie geben Häfen auf Verkaufs- und Einkaufsbelegen des Inforegisters **Außenhandel** ein. Diese Daten werden auch aus den Lagerposten kopiert, wenn Sie das Intrastat-Erf.-Journal erstellen.  
+* **Häfen**: Dienen dazu, die Positionen anzugeben, wo Sie Artikel in andere Länder versenden oder aus anderen Ländern empfangen. Heathrow Airport ist ein Beispiel für einen Hafen. Sie geben Häfen auf Verkaufs- und Einkaufsbelegen des Inforegisters **Aussenhandel** ein. Diese Daten werden auch aus den Lagerposten kopiert, wenn Sie das Intrastat-Erf.-Journal erstellen.  
 
 ### <a name="to-set-up-intrastat-templates-and-batches"></a>So richten Sie Intrastat-Buch.-Blattvorlagen und -stapel ein
 Die Intrastat-Stapelverarbeitungsaufträge enthalten nur Lagerposten, keine Fibuposten. Sind Fibukonten vorhanden, die in die Intrastat-Berichte einbezogen werden müssen, müssen diese manuell eingegeben werden. Wenn Sie also beispielsweise aus einem anderen Land/einer anderen Region innerhalb der EU einen Computer erwerben, geht der Computer zwar nicht in den Lagerbestand ein, er wird jedoch auf ein Fibukonto gebucht. Diese Postenart muss manuell in das Intrastat-Erf.-Journal eingegeben werden.  

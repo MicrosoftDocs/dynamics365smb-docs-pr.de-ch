@@ -30,7 +30,7 @@ Sie können an eine Sandbox als Nicht-Produktionsumgebung denken, die Sie zu Ihr
 Weitere Informationen über die ersten Schritte mit einem Sandkasten finden Sie unter [Erstellen einer Sandkastenumgebung](across-how-create-sandbox-environment.md).  
 
 > [!NOTE]
-> Der Sandkasten enthält Demodaten für das fiktive CRONUS-Unternehmen. Keine Daten werden kopiert oder anderswie von der Fertigungsumgebungen während der Sandkastenerstellung transferiert.  
+> Der Sandkasten enthält Demodaten für das fiktive CRONUS-Unternehmen. Keine Daten werden kopiert oder anderweitig während der Sandkastenerstellung aus der Fertigungsumgebung übertragen.  
 
 ### <a name="building-new-solutions-and-intellectual-property"></a>Neue Lösungen und geistiges Eigentum aufbauen
 

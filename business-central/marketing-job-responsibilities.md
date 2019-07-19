@@ -38,7 +38,7 @@ Sie können keine Verantwortlichkeit zu Kontaktunternehmen zuordnen.
 2. Wählen Sie die **Person**-Aktion aus, und wählen Sie dann die **Verantwortlichkeiten**-Aktion aus. Die Seite **Kontakt Verantwortlichkeiten** wird geöffnet.
 3. Wählen Sie im Feld **Verantwortlichkeitscode** die Verantwortlichkeit aus, die Sie zuordnen möchten.
 
-Wiederholen Sie diese Schritte, um beliebig viele Verantwortlichkeiten zuzuordnen. Außerdem können Sie Verantwortlichkeiten auf die gleiche Art in der Kontaktliste zuordnen.
+Wiederholen Sie diese Schritte, um beliebig viele Verantwortlichkeiten zuzuordnen. Ausserdem können Sie Verantwortlichkeiten auf die gleiche Art in der Kontaktliste zuordnen.
 
 Die Anzahl der Verantwortlichkeiten, die Sie dem Kontakt zugeordnet haben, wird im Feld **Anzahl Verantwortlichkeit** im Inforegister **Segmentierung** auf der Seite **Kontakt** angezeigt.
 

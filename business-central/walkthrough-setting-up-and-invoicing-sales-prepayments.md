@@ -78,7 +78,7 @@ In den folgenden Verfahren wird beschrieben, wie Sie Heikes Aufgaben ausführen:
 
 Heike legt standardmässig fest, dass für den Kunden 20000 eine Anzahlung in Höhe von 30 % für alle Aufträge fakturiert werden muss. Daher gibt sie einen Standardvorauszahlungsprozentsatz in der Debitorenkarte ein.  
 
-Heike legt fest, dass für alle Kunden eine Anzahlung in Höhe von 20 % für den Artikel 1100 fakturiert werden muss. Debitor 20000 verfügt über eine schlechte Zahlungsvergangenheit Daher verlangt sie vom Kunden 20000 eine Vorauszahlung von 40 % für die Artikel 1100. Im folgenden Beispiel wird gezeigt, wie Sie standardmäßige Vorauszahlungsprozentsätze einrichten.  
+Heike legt fest, dass für alle Kunden eine Anzahlung in Höhe von 20 % für den Artikel 1100 fakturiert werden muss. Debitor 20000 verfügt über eine schlechte Zahlungsvergangenheit Daher verlangt sie vom Kunden 20000 eine Vorauszahlung von 40 % für die Artikel 1100. Im folgenden Beispiel wird gezeigt, wie Sie standardmässige Vorauszahlungsprozentsätze einrichten.  
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>So weisen Sie Debitoren und Artikeln Standardvorauszahlungsprozentsätze zu  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitor** ein, und wählen dann den zugehörigen Link aus.  
@@ -198,7 +198,7 @@ Peter wurde darüber informiert, dass die Artikel im Auftrag geliefert wurden un
 
 #### <a name="to-invoice-the-remaining-amount"></a>So fakturieren Sie den Restbetrag  
 1. Öffnen Sie den Verkaufsauftrag.  
-2. Wählen Sie die Aktion **Liefern und fakturieren**, und klicken Sie anschließend auf die Schaltfläche **OK**.  
+2. Wählen Sie die Aktion **Liefern und fakturieren**, und klicken Sie anschliessend auf die Schaltfläche **OK**.  
 
 > [!NOTE]  
 >  Normalerweise wurde die Lieferung bereits von der Versandabteilung gebucht.  

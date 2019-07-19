@@ -156,7 +156,7 @@ Nachdem die Debitorendaten in die Excel-Dateien für die Datenmigration eingegeb
 3. Suchen und öffnen Sie die Datei, aus der Sie Daten importieren möchten.
 4. Auf der Seite **Vorschau des Konfigurationspaketimports** überprüfen Sie den Inhalt, der importiert wird.
 
-    Die Seite **Vorschau des Konfigurationspaketimports** bietet einen Überblick über den Excel-Dateiinhalt, der importiert werden soll. Außerdem wird angegeben, wenn ein neues Paket erstellt oder das vorhandene aktualisiert wird und wenn neue Konfigurationspaketpositionen (Tabellen) erstellt oder vorhandene aktualisiert werden.    
+    Die Seite **Vorschau des Konfigurationspaketimports** bietet einen Überblick über den Excel-Dateiinhalt, der importiert werden soll. Ausserdem wird angegeben, wenn ein neues Paket erstellt oder das vorhandene aktualisiert wird und wenn neue Konfigurationspaketpositionen (Tabellen) erstellt oder vorhandene aktualisiert werden.    
 5. Wählen Sie die Aktion **Importieren** aus
 
 Daten aus der Datei werden in die Konfigurationspakettabellen importiert. Sie können die Anzahl der Datenbanksätzen anzeigen, die im Feld **Anzahl Datenbanksätze** importiert wurden. Darüber hinaus können Sie die Anzahl der Migrationsfehler sehen.

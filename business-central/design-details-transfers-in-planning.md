@@ -42,7 +42,7 @@ Die zugehörige Bedarf und der Vorrat haben einige Ähnlichkeit mit Komponenten 
 
 Eine wichtige Ähnlichkeit besteht darin, dass der Umlagerungsbedarf so wie Komponenten abhängiger Bedarf ist. Der Bedarf aus einer Umlagerungszeile wird von der Bedarfsseite der Übertragung in dem Sinn festgelegt, dass, wenn der Vorrat geändert wird, der Bedarf direkt beeinflusst wird.  
 
-Außer wenn die Planungsflexibilität "Keine" ist, sollte eine Umlagerungszeile nicht als unabhängiger Bedarf in der Planung behandelt werden.  
+Ausser wenn die Planungsflexibilität "Keine" ist, sollte eine Umlagerungszeile nicht als unabhängiger Bedarf in der Planung behandelt werden.  
 
 Im Planungsverfahren sollte der Übergangsbedarf nur berücksichtigt werden, nachdem die Bedarfsseite vom Planungssystem verarbeitet wurde. Davor ist der tatsächliche Bedarf nicht bekannt. Die Reihenfolge der vorgenommenen Änderungen ist daher für Umlagerungsaufträge sehr wichtig.  
 

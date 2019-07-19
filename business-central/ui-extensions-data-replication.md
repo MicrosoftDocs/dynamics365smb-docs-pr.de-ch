@@ -1,6 +1,6 @@
 ---
 title: Intelligente Cloud-Erweiterung von Business Central | Microsoft Docs
-description: Verwenden Sie die Datenreplikationserweiterung, um eine Cloud-Kopie Ihrer Daten zu erstellen, sodass Sie mit der intelligente Cloud verbunden sind.
+description: Verwenden Sie die Datenreplikationserweiterung, um eine Cloud-Kopie Ihrer Daten zu erstellen, sodass Sie mit der intelligenten Cloud verbunden sind.
 author: edupont04
 manager: edupont
 ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 05/20/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: 2daa70123a40a7d908e20e600cb8e153c6881641
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: bcb0eecc546efefdd73f5586f211064cabb0af3c
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594193"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629794"
 ---
-# <a name="business-central-intelligent-cloud-extensions"></a>Intelligente Cloud-Erweiterungen von Business Central
+# <a name="intelligent-cloud-extensions"></a>Intelligente Cloud Erweiterung
 
 Diese Erweiterung verbindet Ihre Daten von [!INCLUDE [prodshort](includes/prodshort.md)] lokal mit [!INCLUDE [prodshort](includes/prodshort.md)] online für intelligente Einblicke.  
 

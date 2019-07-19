@@ -57,9 +57,9 @@ Intercompany
 * Verarbeiten von Intercompanytransaktionen
 
 ## <a name="calculate-and-process-sales-tax"></a>Berechnen und erfassen Sie die Salestax.
-* Schließen Sie Steuer-Abrechnungen ab.  
+* Schliessen Sie Steuer-Abrechnungen ab.  
 
 ## <a name="see-also"></a>Siehe auch
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
-[Schließen der Bücher](year-close-books.md)  
+[Schliessen der Bücher](year-close-books.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

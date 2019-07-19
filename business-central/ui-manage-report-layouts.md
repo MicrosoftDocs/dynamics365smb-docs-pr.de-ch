@@ -27,8 +27,8 @@ Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfeld
 
 Insbesondere richtet ein Berichtlayout Folgendes ein:
 
-* Die Beschriftungs- und die Datenfelder, die aus dem Dataset des [!INCLUDE[d365fin](includes/d365fin_md.md)]-Berichts einzuschließen sind.
-* Das Text-Format, wie Schriftarttyp, Größe und Farbe.
+* Die Beschriftungs- und die Datenfelder, die aus dem Dataset des [!INCLUDE[d365fin](includes/d365fin_md.md)]-Berichts einzuschliessen sind.
+* Das Text-Format, wie Schriftarttyp, Grösse und Farbe.
 * Das Firmenlogo und seine Position.
 * Allgemeine Seiteneinstellungen, wie Seitenränder und Hintergrundbilder.
 
@@ -61,7 +61,7 @@ Weitere Informationen darüber, wie das Layout, das verwendet wird, geändert we
 ## <a name="see-also"></a>Siehe auch
 [Verwaltung von Berichts- und Beleg-Layouts](ui-update-report-layouts.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)  
+[Erstellen und bearbeiten Sie ein benutzerdefiniertes Berichts- oder Dokumentenlayout](ui-how-create-custom-report-layout.md)  
 [Importieren und Exportieren eines benutzerdefinierten Berichts- oder Beleglayouts](ui-how-import-and-export-report-layout.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 [Arbeiten mit Berichten und Stapelverarbeitungen](ui-work-report.md)  

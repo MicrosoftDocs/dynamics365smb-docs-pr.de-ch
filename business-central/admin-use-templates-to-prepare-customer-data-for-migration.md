@@ -19,7 +19,7 @@ ms.contentlocale: de-CH
 ms.lasthandoff: 04/29/2019
 ms.locfileid: "1247259"
 ---
-# <a name="prepare-to-migrate-customer-data"></a>Vorgehensweise: Migrieren von Debitorendaten
+# <a name="prepare-to-migrate-customer-data"></a>Migrieren von Debitorendaten
 Nachdem Sie die Einrichtungsdaten in die neue Datenbank importiert und dort angewendet haben, können Sie mit dem Migrieren der vorhandenen Stammdaten des Debitors beginnen, beispielsweise Artikel- und Debitorennummern sowie Namen. Um sicherzustellen, dass diese Daten schnell und genau im neuen Mandanten erstellt werden, sollten Sie Vorlagen verwenden, um die Daten zu strukturieren.  
 
 Normalerweise erstellen Sie Datenvorlagen für die folgenden Stammdatentabellen:  
@@ -139,4 +139,4 @@ Die Standardwerte aus der ausgewählten Debitorenvorlage werden in die Debitoren
 ## <a name="see-also"></a>Siehe auch  
 [Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)  
-[Registriert einen neuen Debitor.](sales-how-register-new-customers.md)
+[Neue Debitoren registrieren](sales-how-register-new-customers.md)

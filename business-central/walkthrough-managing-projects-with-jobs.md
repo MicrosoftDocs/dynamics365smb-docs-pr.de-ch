@@ -386,7 +386,7 @@ Im Mittelpunkt dieser exemplarischen Vorgehensweise steht die CRONUS AG, ein Des
      Indem Sie Preise, Projektaufgabenzeilen und Projektplanungszeilen für die beiden Projekte vergleichen, können Sie sehen, dass die Informationen erfolgreich kopiert wurden.  
 
 ## <a name="making-payments-by-installments"></a>Anwenden von Teilzahlungen  
- CRONUS hat gerade ein großes Projekt an Land gezogen, das über ein Jahr laufen wird. Da viele Ressourcen erforderlich sind, richtet der Projektmanager den Vertrag so ein, dass der Debitor eine Teilzahlung im Voraus, eine Teilzahlung nach der Hälfte des Projekts und schliesslich die endgültige Zahlung nach Abschluss des Projekts leistet.  
+ CRONUS hat gerade ein grosses Projekt an Land gezogen, das über ein Jahr laufen wird. Da viele Ressourcen erforderlich sind, richtet der Projektmanager den Vertrag so ein, dass der Debitor eine Teilzahlung im Voraus, eine Teilzahlung nach der Hälfte des Projekts und schliesslich die endgültige Zahlung nach Abschluss des Projekts leistet.  
 
 ### <a name="to-set-up-a-new-account"></a>So richten Sie ein neues Konto ein  
 

@@ -36,7 +36,7 @@ Um solche Zahlungen abzustimmen, können Sie die **Übergangsdifferenz zur Konto
 3. Wählen Sie **Differenz auf Konto buchen**. Die Seite **Differenz auf Konto buchen** öffnet sich.
 4. Im Feld **Kontoart** definieren Sie die Kontoart, auf die der Zahlungsbetrag gebucht werden soll.
 5. Im Feld **Kontonr.** definieren Sie die Kontoart, auf die der Zahlungsbetrag gebucht werden soll.
-6. Geben Sie im Feld **Beschreibung** den Text an, der diese direkte Zahlungsbuchung beschreibt. Standardmäßig wird der Text im Feld **Transaktionstext** auf der Zahlungsabstimmungs-Erfassungsjournalzeile eingefügt.
+6. Geben Sie im Feld **Beschreibung** den Text an, der diese direkte Zahlungsbuchung beschreibt. Standardmässig wird der Text im Feld **Transaktionstext** auf der Zahlungsabstimmungs-Erfassungsjournalzeile eingefügt.
 7. Wählen Sie die Schaltfläche **OK** aus.
 
 Wenn der Wert im Feld **Differenz** dem Wert im Feld **Transaktions-Betrag** entspricht, wenn Sie das Zahlungsabstimmungs-Erfassungsjournal buchen, werden alle Zahlungen der Erfassungsjournalzeile direkt auf das angegebene Gegenkonto gebucht.

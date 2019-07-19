@@ -26,7 +26,7 @@ Wie man sagt, Bargeld ist der König. Die Diagramme im Feld Rollencenter Buchhal
 | --- | --- |
 | Wie lange bindet der Verkaufsvorgang meine Barmittel?</br> Sollte ich den Bestand erhöhen oder verringern? |Bargeldumlauf |
 | Wann floss Bargeld in mein Unternehmen und zurück?</br> Sind bestimmten Perioden besser als andere? |Cashflow |
-| Sind die Zahlen für eine Periode außerhalb des Musters?</br> Sollte ich dies überprüfen? |Einnahmen und Ausgaben |
+| Sind die Zahlen für eine Periode ausserhalb des Musters?</br> Sollte ich dies überprüfen? |Einnahmen und Ausgaben |
 | Wann könnte ein Bargeldüberschuss oder ein Bargelddefizit auftreten?</br> Sollten ich die Schuld abzahlen oder Geld ausleihen, um bevorstehende Ausgaben zu bezahlen? |Cashflowplanungen |
 
 Im Feld Rollencenter Buchhalte unter **Finanzleistung** geben die Diagramme **Bargeldumlauf**, **Cashflow** und **Einnahmen und Ausgaben** verschiedene Möglichkeiten, den Cashflow zu analysieren:  

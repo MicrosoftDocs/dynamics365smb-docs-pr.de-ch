@@ -37,8 +37,8 @@ Um einen Filter für den Bericht zu definieren, wählen Sie den Primärschlüsse
 
 ![Den Berichtfilter für den Verkaufsrechnungs-Tätigkeitsbericht festlegen](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
 
-## <a name="report-size-and-color"></a>Meldet Größe und Farbe
-Die Größe des Berichts muss auf 325 Pixel auf 310 Pixel festgelegt werden. Dies ist für die Skalierung des Berichts im verfügbaren Platz erforderlich, der von der Power BI-Infobox-Steuerung zugelassen wird. Um die Grösse des Berichts zu definieren, den Fokus ausserhalb des Berichts im Berichtslayoutbereich zu platzieren und um das Farbenrollensymbol zu wählen.
+## <a name="report-size-and-color"></a>Meldet Grösse und Farbe
+Die Grösse des Berichts muss auf 325 Pixel auf 310 Pixel festgelegt werden. Dies ist für die Skalierung des Berichts im verfügbaren Platz erforderlich, der von der Power BI-Infobox-Steuerung zugelassen wird. Um die Grösse des Berichts zu definieren, den Fokus ausserhalb des Berichts im Berichtslayoutbereich zu platzieren und um das Farbenrollensymbol zu wählen.
 
 ![Den Berichtfilter für die Breite und die Höhe des Verkaufsrechnungs-Tätigkeitsbericht festlegen](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
 
@@ -69,7 +69,7 @@ Dieser Abschnitt bietet eine Problemumgehung für die typischsten Probleme, die 
 
 **Bericht erscheint mit unerwünschten grauen Rändern, ist zu klein oder zu umfangreich**
 
-Vergewissern Sie sich, dass die Berichtsgröße auf 325 Pixel x 310 Pixel festgelegt wird. Speichern Sie den Bericht, und aktualisieren Sie anschliessend die Seite.  
+Vergewissern Sie sich, dass die Berichtsgrösse auf 325 Pixel x 310 Pixel festgelegt wird. Speichern Sie den Bericht, und aktualisieren Sie anschliessend die Seite.  
 
 ## <a name="see-also"></a>Siehe auch
 [Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  

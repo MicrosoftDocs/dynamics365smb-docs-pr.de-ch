@@ -9,20 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: d03d1aa3910dc73dc61c61bdd66725e8e8af3c66
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: e1f7d9891be4ae31fc3f98fb768bfddcd38582ca
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621128"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629886"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Anpassen von Business Central mithilfe der Erweiterungen
 Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] ändern, indem Sie beispielsweise Erweiterungen installieren, die Funktionalität hinzufügen, das Verhalten ändern oder Zugriff auf die neuen Onlinediensten geben.
 Wenn Sie das [!INCLUDE[d365fin](includes/d365fin_md.md)] zuerst starten, werden bestimmte Erweiterungen bereits eingerichtet. Im Zeitverlauf werden mehr Erweiterungen für Sie zugänglich und Sie können auswählen, ob Sie die Erweiterung verwenden möchten oder nicht.
 
-Beispielsweise bietet Microsoft eine Erweiterung an, die die Integration mit Standard Paypal-Zahlungen ermöglicht. Diese Erweiterung wird standardmäßig eingerichtet.
+Beispielsweise bietet Microsoft eine Erweiterung an, die die Integration mit Standard Paypal-Zahlungen ermöglicht. Diese Erweiterung wird standardmässig eingerichtet.
 Wenn aber keine andere Erweiterung bereitgestellt wird, die die Integration mit einem anderen Zahlungsservice anbietet, können Sie die neue Erweiterung einrichten und dann auswählen, welcher der beiden Services verwendet werden soll.  
 
 Sie verwalten die Erweiterung auf der **Erweiterungs-Verwaltungs**-Seite. Sie können vom Startbildschirm auf diese Seite zugreifen. Wählen Sie alternativ das Symbol **Nach Seite oder Bericht suchen** aus ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") in der oberen rechter Ecke aus, geben Sie **Erweiterung** ein, und wählen Sie dann den zugehörigen Link aus.  
@@ -37,7 +37,7 @@ Sie können neue Erweiterungen vom Marketplace auf [AppSource.microsoft.com](htt
 
 Sie können auch auf den Marketplace aus [!INCLUDE[d365fin](includes/d365fin_md.md)]zugreifen. Auf der Seite **Erweiterungsverwaltung** können Sie die Erweiterungen sehen, die zur Zeit installiert sind, und Sie können die Seite **Marketplace für Erweiterungen** öffnen, die die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Erweiterungen anzeigt, die aktuell über die AppSource verfügbar sind. Wenn Sie den Link *Weitere Apps* auswählen, werden Sie auf [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) weitergeleitet.  
 
-Wenn Sie eine Erweiterung auswählen, können Sie erfahren, was die Erweiterung ausführt, und auf die Hilfe für die Erweiterung zugreifen, um mehr darüber zu erfahren. Wenn Sie eine Erweiterung erhalten möchten, müssen Sie die Nutzungsbedingungen zustimmen. Wenn Sie Erweiterungen von der AppSource-Website abrufen, werden Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] angemeldet, um die Installation abzuschließen.  
+Wenn Sie eine Erweiterung auswählen, können Sie erfahren, was die Erweiterung ausführt, und auf die Hilfe für die Erweiterung zugreifen, um mehr darüber zu erfahren. Wenn Sie eine Erweiterung erhalten möchten, müssen Sie die Nutzungsbedingungen zustimmen. Wenn Sie Erweiterungen von der AppSource-Website abrufen, werden Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] angemeldet, um die Installation abzuschliessen.  
 
 Wenn Sie eine Erweiterung installieren, müssen Sie diese möglicherweise einrichten, wie ein Konto zur Verwendung mit Erweiterung für **Paypal-Zahlungen Standard** für [!INCLUDE[d365fin](includes/d365fin_md.md)] definieren.
 Andere Erweiterungen fügen einfach Felder einer vorhandenen Seite hinzu, oder sie fügen beispielsweise eine neue Seite hinzu.   
@@ -48,24 +48,28 @@ Einige Erweiterungen werden von Microsoft bereitgestellt, und andere Erweiterung
 
 Microsoft stellt die folgenden Erweiterungen bereit:  
 
-* [Dynamics GP Datenmigration](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
-* [QuickBooks Datenmigration](ui-extensions-quickbooks-data-migration.md)  
-* [Umsatz- und Lagerbestandsplanung](ui-extensions-sales-forecast.md)  
-* [Ceridian-Gehaltsliste](ui-extensions-ceridian-payroll.md)  
-* [Import von QuickBooks-Lohndatei](ui-extensions-quickbooks-payroll.md)  
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)  
-* [GetAddress.io Postleitzahlen Großbritannien](ui-extensions-getaddressio.md)  
-* [QuickBooks Online-Datenmigration](ui-extensions-quickbooks-online-data-migration.md)  
-* [Buchhaltungsportal](ui-extensions-accountant-portal.md)  
-* [Schliffbildanalysator](ui-extensions-image-analyzer.md)  
-* [Zahlungen und gebuchte Abstimmungen (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [C5-Datenmigration](ui-extensions-c5-data-migration.md)  
-* [Wesentliche Geschäfts-Einblicke](ui-extensions-essential-business-insights.md)  
-* [Vorhersagen verspäteter Zahlungen](ui-extensions-late-payment-prediction.md  )
-* [Rimesseavis senden](ui-extensions-send-remittance-advice.md)
+* [Buchhaltungsportal für Business Central](ui-extensions-accountant-portal.md)
+* [Ceridian-Gehaltsliste](ui-extensions-ceridian-payroll.md)
+* [Dynamics GP Datenmigration](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Essential Business Insights](ui-extensions-essential-business-insights.md)
+* [Bildanalyse](ui-extensions-image-analyzer.md)
+* [Intelligente Cloud](ui-extensions-data-replication.md)
+* [Intelligente Cloud-Basis](ui-extensions-intelligent-cloud.md)
+* [Vorhersagen verspäteter Zahlungen](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [QuickBooks Datenmigration](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online-Datenmigration](ui-extensions-quickbooks-online-data-migration.md)
+* [Import von QuickBooks-Lohndatei](ui-extensions-quickbooks-payroll.md)
+* [Umsatz- und Lagerbestandsplanung](ui-extensions-sales-forecast.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK - C5-Datenmigration](ui-extensions-c5-data-migration.md)
+* [DK - Zahlungen und gebuchte Abstimmungen](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK - Steuerdateiformate](ui-extensions-tax-file-formats-dk.md)
+* [UK - GetAddress.io Postleitzahlen Grossbritannien](ui-extensions-getaddressio.md)
+* [US/CA/GB/AU/NZ/ZA – Überweisungsbestätigung senden](ui-extensions-send-remittance-advice.md)
+* [Business Central-Erweiterungen von anderen Anbietern](ui-extensions-other.md)
 
 > [!NOTE]  
 >  Neue Erweiterungen sind nicht direkt in AppSource verfügbar, nachdem ein Update angekündigt wurde. Halten Sie unter [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) Ausschau nach der Erweiterung.
@@ -73,7 +77,7 @@ Microsoft stellt die folgenden Erweiterungen bereit:
 ## <a name="see-also"></a>Siehe auch
 [Erweitern von Dynamics 365 Business Central](about-develop-extensions.md)  
 [Business Central-Erweiterungen von anderen Anbietern](ui-extensions-other.md)  
-[Einrichten des Diensts „Envestnet Yodlee Bank Feeds“](bank-how-setup-bank-statement-service.md)  
+[Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md)  
 [Aktivieren von Debitoren-Zahlungen durch Paypal](sales-how-enable-payment-service-extensions.md)  
 [Geschäftsdaten aus anderen Finanzsystemen migrieren](across-import-data-configuration-packages.md)  
 [Einrichten der britischen Postleitzahlerweiterung GetAddress.io](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  

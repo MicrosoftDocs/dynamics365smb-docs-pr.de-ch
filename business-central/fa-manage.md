@@ -20,7 +20,7 @@ ms.lasthandoff: 04/29/2019
 ms.locfileid: "1243862"
 ---
 # <a name="fixed-assets"></a>Anlagevermögen
-Die Anlagenfunktion in [!INCLUDE[d365fin](includes/d365fin_md.md)] gibt Ihnen einen Überblick über Ihre Anlagen und stellt die korrekten periodischen Abschreibungen sicher. Außerdem erhalten Sie dort einen Überblick über die Wartungskosten, können die Versicherungen verwalten, Anlagentransaktionen buchen und verschiedene Berichte und Statistiken generieren.
+Die Anlagenfunktion in [!INCLUDE[d365fin](includes/d365fin_md.md)] gibt Ihnen einen Überblick über Ihre Anlagen und stellt die korrekten periodischen Abschreibungen sicher. Ausserdem erhalten Sie dort einen Überblick über die Wartungskosten, können die Versicherungen verwalten, Anlagentransaktionen buchen und verschiedene Berichte und Statistiken generieren.
 
 Sie müssen für jede Anlage eine Karte mit den entsprechenden Informationen über die Anlage einrichten. Sie können Gebäude oder Produktionseinrichtungen als Hauptanlage mit einer Komponentenliste einrichten und sie unterschiedlich gruppieren, z. B. nach Klasse, Abteilung oder Standort. Dann können Sie beginnen, die Anlagen zu erwerben, zu verwalten und zu verkaufen. Sie können auch Plananlagen einrichten. Dadurch haben Sie die Möglichkeit, geplante Anschaffungen und Verkäufe in Berichten zu berücksichtigen.
 

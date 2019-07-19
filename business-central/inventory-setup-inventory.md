@@ -1,6 +1,6 @@
 ---
 title: Einrichten von Bestand | Microsoft Docs
-description: Beschreibt, wie Lagervorgänge und Lagerorte eingerichtet werden, einschließlich Umlagerungsrouten und Standorte wie Lagerorte.
+description: Beschreibt, wie Lagervorgänge und Lagerorte eingerichtet werden, einschliesslich Umlagerungsrouten und Standorte wie Lagerorte.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

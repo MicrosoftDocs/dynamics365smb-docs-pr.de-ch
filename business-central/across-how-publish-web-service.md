@@ -53,7 +53,7 @@ Nachdem Sie einen Webdienst veröffentlichen, ist er für externe Seiten verfüg
     > |Typ|Syntax|Beispiel|
     > |----------------|------|-------|
     > |SOAP |https://api.businesscentral.dynamics.com/*Version*/*Tenant*/WS/*CompanyName*/*Einheit*/ |`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
-    > |OData-V4|https://api.businesscentral.dynamics.com/*Version*/*Tenant*/ODataV4/Unternehmen('*CompanyName*')/*Einheit*|`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    Das Feld „Unternehmensname“ berücksichtigt Groß-/Kleinschreibung.|
+    > |OData-V4|https://api.businesscentral.dynamics.com/*Version*/*Tenant*/ODataV4/Unternehmen('*CompanyName*')/*Einheit*|`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    Das Feld „Unternehmensname“ berücksichtigt Gross-/Kleinschreibung.|
 
 2. Überprüfen Sie die Informationen, die im Browser angezeigt werden. Vergewissern Sie sich, dass Sie den Namen des Webdienstes sehen, den Sie erstellt haben.  
 

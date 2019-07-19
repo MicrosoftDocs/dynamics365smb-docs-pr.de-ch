@@ -22,7 +22,7 @@ ms.locfileid: "1238333"
 # <a name="create-interactions-on-contacts-and-segments"></a>Erstellen von Aktivitäten zu Kontakten und Segmenten
 Sie erstellen Aktivitäten, um die Aktivitäten und Kommunikationen (z. B. E-Mails) mit Ihren Kontakten und Segmenten zu erfassen.
 
-Bevor Sie Aktivitäten erstellen, müssen Sie Aktivitätenvorlagen einrichten. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Aktivitätvorlagen](marketing-interactions.md).
+Bevor Sie Aktivitäten erstellen, müssen Sie Aktivitätenvorlagen einrichten. Weitere Informationen finden Sie unter [Einrichten von Aktivitätvorlagen](marketing-interactions.md).
 
 ## <a name="to-create-an-interaction"></a>So erstellen Sie eine Aktivität
 1. Öffnen Sie den Kontakt, den Verkäufer oder den Aktivitätenprotokollposten.
@@ -30,7 +30,7 @@ Bevor Sie Aktivitäten erstellen, müssen Sie Aktivitätenvorlagen einrichten. W
 3. Füllen Sie die Felder aus, und wählen Sie dann die Schaltfläche **OK** aus.
 
 > [!NOTE]  
->   Wenn Sie eine andere Aufgabe ausführen müssen, bevor Sie die Aktivität abgeschlossen haben, können Sie **Abbrechen** auswählen und den Assistenten schließen und die Aktivität später abschließen. Dieses verschiebt die Aktivität.
+>   Wenn Sie eine andere Aufgabe ausführen müssen, bevor Sie die Aktivität abgeschlossen haben, können Sie **Abbrechen** auswählen und den Assistenten schliessen und die Aktivität später abschliessen. Dieses verschiebt die Aktivität.
 
 ## <a name="to-finish-and-delete-postponed-interactions"></a>Beenden und Löschen von zurückgestellten Aktivitäten
 1. Öffnen Sie den Kontakt, den Verkäufer oder den Aktivitätenprotokollposten.

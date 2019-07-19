@@ -28,7 +28,7 @@ Um Bankkonten mit den Abrechnungen in [!INCLUDE[d365fin](includes/d365fin_md.md)
 > [!TIP]  
 > Sie können Bankkonten auch auf der Seite **Zahlungsabstimmungserf.-Journal** abstimmen. Alle offnen Bankposten, die sich auf ausgeglichene Debitoren- oder Kreditorenposten beziehen, werden geschlossen, wenn Sie die Aktion **Zahlungen buchen und Bankkonto abstimmen** auswählen. Dies bedeutet, dass das Bankkonto mit Zahlungen abgestimmt wird, die Sie mit dem Erfassungsjournal buchen. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
-Um den Import von Bankkontoauszügen als Bankfeed zu aktivieren, müssen Sie den Dienst „Envestnet Yodlee Bank Feeds“ einrichten und aktivieren und dann Ihr Bankkonto mit den entsprechenden Onlinebankkonten verbinden. Für weitere Informationen, siehe [Einrichten des Diensts „Envestnet Yodlee Bank Feeds“](bank-how-setup-bank-statement-service.md).
+Um den Import von Bankkontoauszügen als Bankfeed zu aktivieren, müssen Sie den Dienst „Envestnet Yodlee Bank Feeds“ einrichten und aktivieren und dann Ihr Bankkonto mit den entsprechenden Onlinebankkonten verbinden. Weitere Informationen finden Sie unter [Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md).
 
 Die Zeilen auf der Seite **Bankkontoabstimmung** sind in zwei Bereiche unterteilt. Der Bereich **Bankauszugspositionen** zeigt entweder importierte Banktransaktionen oder Posten mit ausstehenden Zahlungen an. Der Bereich **Bankposten** zeigt die Posten im Bankkonto an.
 

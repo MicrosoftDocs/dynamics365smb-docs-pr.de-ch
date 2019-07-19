@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 06/03/2019
+ms.date: 06/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: fc9cefd33f6ca11ee4f2936671a84071e142a1bd
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: f0c86cd9018caa59106468121e1d763d0974c96e
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621197"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629932"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortieren, Durchsuchen und Filtern von Listen
 Es gibt mehrere Möglichkeiten, wie Sie das tun können und die dabei helfen, Datensätze in einer Liste zu scannen, zu suchen und einzugrenzen. Diese umfassen die Sortierung, Suche und Filterung. Sie können einige oder alle davon gleichzeitig anwenden, um die Daten schnell zu finden oder zu analysieren.
@@ -42,7 +42,7 @@ Am Anfang jeder Liste befindet sich ein ![Suchliste](media/ui-search/search-list
 Zur Suche wählen Sie einfach das Suchsymbol aus und geben dann im Feld den Text ein, nach dem Sie suchen. Sie können Buchstaben, Ziffern und andere Symbole eingeben.
 
 ### <a name="fine-tuning-the-search"></a>Feinabstimmung der Suche
-Grundsätzlich versucht die Suche Treffer im Text aller Feldern zu finden. Dabei werden zwischen groß und klein geschriebene Zeichen nicht unterschieden (d. h., die Groß-/Kleinschreibung wird nicht beachtet). Text an jeder Stelle im Feld (am Anfang, am Ende oder in der Mitte) wird durchsucht.
+Grundsätzlich versucht die Suche Treffer im Text aller Felder zu finden. Dabei wird nicht zwischen gross und klein geschriebenen Zeichen unterschieden (d. h., die Gross-/Kleinschreibung wird nicht beachtet). Text an jeder Stelle im Feld (am Anfang, am Ende oder in der Mitte) wird durchsucht.
 
 Sie können jedoch eine genauere Suche vornehmen, indem Sie die folgenden Sonderzeichen verwenden:
 
@@ -221,8 +221,8 @@ Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
 |`5999|8100..8490`|Alle Datensätze mit der Nummer 5999 oder zwischen 8100 bis 8490.|  
-|`..1299|1400..`|Alle Datensätze mit Nummern kleiner als bzw. gleich 1299 oder mit Nummern größer als bzw. gleich 1400, d. h. alle Datensatznummern außer 1300 bis 1399.|  
-|`>50&<100`|Alle Datensätze mit Nummern größer als 50 und kleiner als 100, d. h. mit Nummern zwischen 51 und 99.|  
+|`..1299|1400..`|Alle Datensätze mit Nummern kleiner als bzw. gleich 1299 oder mit Nummern grösser als bzw. gleich 1400, d. h. alle Datensatznummern ausser 1300 bis 1399.|  
+|`>50&<100`|Alle Datensätze mit Nummern grösser als 50 und kleiner als 100, d. h. mit Nummern zwischen 51 und 99.|  
 
 
 ## <a name="FilterTokens"> </a>Filtertoken

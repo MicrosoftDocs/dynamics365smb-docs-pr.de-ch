@@ -39,7 +39,7 @@ Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für 
 
     Die Inforegisterliste **Zugehörige Tabellen** zeigt Tabellen auf, in denen es Felder mit einer Verbindung zu beiden Debitoren gibt. Die Felder **Aktuelle Anzahl** und **Doppelte Anzahl** zeigen die Anzahl der Felder in den verknüpften Tabellen, bei denen der Wert **Nr.** sowohl des aktuellen als auch des doppelten Kunden verwendet wird. Auf der Seite **Doppelte Datensätze zusammenführen** dient der entsprechende Abschnitt nur der Information. Wenn jedoch Zusammenführungskonflikte vorhanden sind, lösen Sie sie auf der Seite **Doppelte Konflikte zusammenführen**. Siehe Schritte 8 bis 12.   
 
-5. Für jedes Feld, in dem Sie einen anderen Wert als den aktuellen verwenden möchten, wählen Sie das Kontrollkästchen **Außer Kraft setzen** aus. Der Wert im Feld **Alternativer Wert** wird dann in den aktuellen Datensatz übertragen, wenn Sie diesen Vorgang abschließen.
+5. Für jedes Feld, in dem Sie einen anderen Wert als den aktuellen verwenden möchten, wählen Sie das Kontrollkästchen **Ausser Kraft setzen** aus. Der Wert im Feld **Alternativer Wert** wird dann in den aktuellen Datensatz übertragen, wenn Sie diesen Vorgang abschliessen.
 6. Wenn Sie die Auswahl abgeschlossen haben, welche Werte behalten oder überschrieben werden sollen, wählen Sie die Aktion **Zusammenführen** aus.
 
     Das System prüft, ob die Zusammenführung von Werten für den doppelten Debitor in den aktuellen Debitor Konflikte verursacht. Es gibt Konflikte, wenn ein Wert in mindestens einem Primärschlüsselfeld für beide Debitoren übereinstimmt, während der Wert im Feld **Nr.** für die zwei Debitoren übereinstimmt.
@@ -51,11 +51,11 @@ Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für 
 9. Wählen Sie auf der Seite **Doppelte Konflikte zusammenführen** die Zeile für eine zugehörige Tabelle mit einem Konflikt aus, und wählen Sie die Aktion **Details anzeigen** aus.
 
     Auf der Seite **Doppelte Datensätze zusammenführen** werden jetzt die Felder in der ausgewählten Tabelle angezeigt, die einen Zusammenführungskonflikt zwischen den beiden Debitorendatensätzen verursachen. Beachten Sie bei beiden zusammengefassten Werten in den Feldern **Aktuell** und **Steht im Konflikt mit** und in den Zeilen, bei denen mindestens ein Primärschlüsselfeld für beide Debitoren übereinstimmt und der Wert des Felds **Nr.** sich für die beiden Debitoren unterscheidet.   
-10. Wenn Sie den doppelten Debitorendatensatz nicht behalten möchten, wählen Sie die Aktion **Dublette entfernen** und dann die Schaltfläche **Schließen** aus.
+10. Wenn Sie den doppelten Debitorendatensatz nicht behalten möchten, wählen Sie die Aktion **Dublette entfernen** und dann die Schaltfläche **Schliessen** aus.
 
     Identische Feldwerte werden im Gegensatz zu dem Wert im Feld **Nr.** aus dem doppelten Datensatz entfernt und in den aktuellen Datensatz eingefügt.
 11. Wenn Sie den doppelten Debitorendatensatz nach der Zusammenführung behalten möchten, wählen Sie **Dublette umbenennen** aus.
-12. Ändern Sie in den Zeilen, nicht für das Feld **Nr.**, in dem das Feld den gleichen Wert bei beiden Datensätzen hat, den Wert im Feld **Alternativer Wert**, und wählen Sie dann die Schaltfläche **Schließen** aus.
+12. Ändern Sie in den Zeilen, nicht für das Feld **Nr.**, in dem das Feld den gleichen Wert bei beiden Datensätzen hat, den Wert im Feld **Alternativer Wert**, und wählen Sie dann die Schaltfläche **Schliessen** aus.
 
     Der in Konflikt stehende Feldwert wird im doppelten Datensatz aktualisiert, sodass er mit dem aktuellen Datensatz zusammengeführt werden kann. Der doppelte Datensatz existiert auch weiterhin nach der Zusammenführung.
 13. Wiederholen Sie die Schritte 8 bis 12, bis alle Konflikte gelöst sind. Das Inforegister **Konflikte** wird nicht mehr angezeigt.

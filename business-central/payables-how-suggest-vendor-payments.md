@@ -53,7 +53,7 @@ Alternativ können Sie Zahlungspositionen mithilfe des Fälligkeitsdatums manuel
 >   Wenn die Einkaufsrechnung überfällig ist, wird das Buchungsdatum auf das Arbeitsdatum festgelegt, und die Schrift auf der Zeile wird in roter Farbe angezeigt.  
 
 ## <a name="see-also"></a>Siehe auch
-[Verwalten von Verbindlichkeiten|](payables-manage-payables.md)  
+[Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Zahlungen vornehmen](payables-make-payments.md)  
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)A  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -1,5 +1,5 @@
 ---
-title: 'Vorgehensweise: Einrichten und Veröffentlichen von KPI-Webdiensten auf der Basis von Kontenschema | Microsoft Docs'
+title: Einrichten und Veröffentlichen von KPI-Webdiensten auf der Basis von Kontenschema | Microsoft Docs
 description: Dieses Thema beschreibt, wie die KPI-Daten Kontenschema basierend auf bestimmte Kontenschema angezeigt werden.
 services: project-madeira
 documentationcenter: ''

@@ -41,7 +41,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)    
 [Verwenden von Business Central als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
-[Schließen des Finanzzeitraums](year-close-years-periods.md)  
+[Schliessen des Finanzzeitraums](year-close-years-periods.md)  
 [Daten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

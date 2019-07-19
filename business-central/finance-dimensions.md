@@ -143,10 +143,10 @@ Für **BEREICH** fügen Sie die folgenden Dimensionswerte hinzu:
 | 80 |Nicht-EU |Standard |
 | 90 |Europa, gesamt |Bis-Summe |
 
-Um die beiden hauptgeografischen Gebiete Amerika und Europa, fügen Sie bei Bedarf Unterkategorien für Bereiche hinzu, indem Sie die Dimensionswerte einrücken. Dadurch können Sie über Verkäufe oder Ausgaben in den Regionen berichten und Summen für die größeren geographischen Gebiete erhalten. Sie können auch wählen, dass Länder oder Regionen als Ihre Dimensionswerte oder Kantonen bzw. Städten gewählt werden, abhängig von Ihrem Geschäft.
+Um die beiden hauptgeografischen Gebiete Amerika und Europa, fügen Sie bei Bedarf Unterkategorien für Bereiche hinzu, indem Sie die Dimensionswerte einrücken. Dadurch können Sie über Verkäufe oder Ausgaben in den Regionen berichten und Summen für die grösseren geographischen Gebiete erhalten. Sie können auch wählen, dass Länder oder Regionen als Ihre Dimensionswerte oder Kantonen bzw. Städten gewählt werden, abhängig von Ihrem Geschäft.
 
 > [!NOTE]  
->   Um eine Hierarchie einzurichten, muss der Code in alphabetischer Reihenfolge sein. Dies umfasst die Codes der standardmäßigen Dimensionswerte in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+>   Um eine Hierarchie einzurichten, muss der Code in alphabetischer Reihenfolge sein. Dies umfasst die Codes der standardmässigen Dimensionswerte in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 Für **ABTEILUNG** fügen Sie die folgenden Dimensionswerte hinzu:
 

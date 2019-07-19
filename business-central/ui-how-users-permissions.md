@@ -18,7 +18,7 @@ ms.lasthandoff: 04/29/2019
 ms.locfileid: "1250126"
 ---
 # <a name="managing-users-and-permissions"></a>Benutzer und ihre Berechtigungen verwalten
-Um Benutzer in [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen, muss der Office 365-Administrator Ihres Unternehmens zuerst einen Benutzer im Office 365-Admin Center erstellen. Weitere Informationen sind hier verfügbar [Benutzer zu Office 365 for Business hinzufügen](https://aka.ms/CreateOffice365Users).
+Um Benutzer in [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen, muss der Office 365-Administrator Ihres Unternehmens zuerst einen Benutzer im Office 365-Administrationscenter erstellen. Weitere Informationen sind hier verfügbar [Benutzer zu Office 365 for Business hinzufügen](https://aka.ms/CreateOffice365Users).
 
 Sobald Benutzer in Office 365 erstellt sind, können diese auf die **Benutzer**-Seite in [!INCLUDE[d365fin](includes/d365fin_md.md)] importiert werden. Benutzer werden Berechtigungssätze abhängig vom Plan, der dem Benutzer in Office 365 zugewiesen. Für ausführliche Informationen über Lizenzierung siehe [Microsoft Dynamics 365 Business Central-Lizenzierungshandbuch](https://aka.ms/BusinessCentralLicensing).
 
@@ -28,7 +28,7 @@ Ein Zugriffsrechtsatz ist eine Sammlung von Berechtigungen für bestimmte Objekt
 
 Auf der Seite **Benutzerkarte** können Sie das Fenster **Effektive Berechtigungen** öffnen, um festzustellen, welche Berechtigungen der Benutzer hat und mit welchen Berechtigungssätzen sie gewährt werden. Hier können Sie zudem die Berechtigungsdetails für Berechtigungssätze des Typs **Benutzerdefiniert** ändern. Weitere Informationen finden Sie unter [So erhalten Sie eine Übersicht der Benutzerberechtigungen](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-Administratoren nutzen die Seite **Benutzer einrichten**, um Zeiträume zu definieren, in denen die angegebenen Benutzer Buchungen durchführen können. Außerdem können sie angeben, ob die Zeitdauer erfasst, während der angegebene Benutzer angemeldet sind.
+Administratoren nutzen die Seite **Benutzer einrichten**, um Zeiträume zu definieren, in denen die angegebenen Benutzer Buchungen durchführen können. Ausserdem können sie angeben, ob die Zeitdauer erfasst, während der angegebene Benutzer angemeldet sind.
 
 Ein anderes System, das definiert, welche Benutzer zugreifen können, ist das Festlegen von Erfahrungen. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).
 
@@ -60,7 +60,7 @@ Die Mitglieder der Benutzergruppe werden nicht in die neue Benutzergruppe kopier
 Die neue Benutzergruppe wird die Seite **Benutzergruppen** hinzugefügt. Fahren Sie fort, um Benutzer hinzuzufügen. Weitere Informationen finden Sie unter [So ordnen Sie Benutzer in Benutzergruppen](ui-how-users-permissions.md#to-group-users-in-user-groups).  
 
 ## <a name="to-set-up-user-time-constraints"></a>So richten Sie Zeiteinschränkungen ein
-Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definieren, in denen die angegebenen Benutzer Buchungen durchführen können. Außerdem können sie angeben, ob die Zeitdauer erfasst, während der angegebene Benutzer angemeldet sind. Administratoren können Benutzern Zuständigkeitseinheiten zuordnen. Weitere Informationen finden Sie unter [Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md).
+Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definieren, in denen die angegebenen Benutzer Buchungen durchführen können. Ausserdem können sie angeben, ob die Zeitdauer erfasst, während der angegebene Benutzer angemeldet sind. Administratoren können Benutzern Zuständigkeitseinheiten zuordnen. Weitere Informationen finden Sie unter [Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md).
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Benutzer einrichten** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie auf der Seite **Benutzereinrichtung** die Aktion **Neu** aus.
@@ -106,7 +106,7 @@ In jedem der fünf Zugriffstypfelder **Leseberechtigung**, **Einfügeberechtigun
 
 ### <a name="example---indirect-permission"></a>Beispiel - Indirekte Berechtigungen
 Sie können indirekte Berechtigungen zuweisen, um ein Objekt nur über ein anderes Objekt zu verwenden.
-Beispielsweise kann ein Benutzer die Berechtigung haben, Codeunit 80 Verkaufsbuchung auszuführen. Die Verkaufsbuchung Codeunit führt viele Aufgaben aus, einschließlich der Bearbeitung von Tabelle 37 Verkaufsposition aus. Wenn der Benutzer ein Verkaufsbeleg bucht, überprüft die Codeunit "Vertrieb-Beitrag" [!INCLUDE[d365fin](includes/d365fin_md.md)], ob der Benutzer über die Berechtigung zum Bearbeiten der Tabelle "Verkaufszeile" verfügt. Wenn nicht, kann die Codeunit ihre Aufgaben nicht ausführen und der Benutzer erhält eine Fehlermeldung. In diesem Fall wird die Codeunit erfolgreich ausgeführt.
+Beispielsweise kann ein Benutzer die Berechtigung haben, Codeunit 80 Verkaufsbuchung auszuführen. Die Verkaufsbuchung Codeunit führt viele Aufgaben aus, einschliesslich der Bearbeitung von Tabelle 37 Verkaufsposition aus. Wenn der Benutzer ein Verkaufsbeleg bucht, überprüft die Codeunit "Vertrieb-Beitrag" [!INCLUDE[d365fin](includes/d365fin_md.md)], ob der Benutzer über die Berechtigung zum Bearbeiten der Tabelle "Verkaufszeile" verfügt. Wenn nicht, kann die Codeunit ihre Aufgaben nicht ausführen und der Benutzer erhält eine Fehlermeldung. In diesem Fall wird die Codeunit erfolgreich ausgeführt.
 
 Jedoch muss der Anwender keinen vollen Zugriff auf die Tabelle Verkaufszeile haben, um Codeunit auszuführen. Wenn der Benutzer über indirekte Berechtigungen für die Tabelle "Verkaufszeile" verfügt, wird die Codeunit "Verkaufseinheit" erfolgreich ausgeführt. Wenn ein Benutzer über indirekte Berechtigungen verfügt, kann dieser Benutzer die Tabelle Verkaufszeile nur ändern, indem die Verkaufsbuchung Codeunit oder ein anderes Objekt ausgeführt wird, das die Berechtigung zum ändern der Tabelle Verkaufspositionhat. Der Benutzer kann die Tabelle Verkaufsposition nur von unterstützten Anwendungsbereichen aus ändern. Der Benutzer kann die Funktion mit anderen Methoden nicht unbeabsichtigt oder böswillig ausführen.
 
@@ -165,7 +165,7 @@ Der nachfolgende Vorgang erklärt, wie einem Benutzer auf der Seite **Benutzerbe
 
     > [!NOTE]  
     > Nur Berechtigungssätze vom Typ **Benutzerdefiniert** können bearbeitet werden.<br /><br />
-    > Zeilen des Quellrechtsanspruchs stammen aus dem Abonnementplan. Die Berechtigungswerte des Anspruchs setzen Werte in anderen Berechtigungssätzen ausser Kraft, wenn Ihre Priorität höher ist. Ein Wert in einem Berechtigungssatz ohne Anspruch mit einer höheren Priorität als der zugehörige Wert im Anspruch, wird in Klammern gesetzt, um anzugeben, dass er nicht wirksam ist, da er durch den Anspruch außer Kraft gesetzt wurde. Eine Erklärung der Priorität finden Sie unter [So erstellen oder bearbeiten Sie Berechtigungen manuell](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
+    > Zeilen des Quellrechtsanspruchs stammen aus dem Abonnementplan. Die Berechtigungswerte des Anspruchs setzen Werte in anderen Berechtigungssätzen ausser Kraft, wenn Ihre Priorität höher ist. Ein Wert in einem Berechtigungssatz ohne Anspruch mit einer höheren Priorität als der zugehörige Wert im Anspruch, wird in Klammern gesetzt, um anzugeben, dass er nicht wirksam ist, da er durch den Anspruch ausser Kraft gesetzt wurde. Eine Erklärung der Priorität finden Sie unter [So erstellen oder bearbeiten Sie Berechtigungen manuell](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 4. Wenn Sie einen Berechtigungssatz bearbeiten möchten, wählen Sie im Teil **Nach Berechtigungssatz** in der Zeile für einen entsprechenden Berechtigungssatz vom Typ **Benutzerdefiniert** eins der fünf Zugriffstypfelder und einen anderen Wert aus.
 

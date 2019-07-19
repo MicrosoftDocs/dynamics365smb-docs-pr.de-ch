@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: b7f41e3630b818607dee18ad2b8afe6ba5daa3de
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4a71cb7574898e4c7d76188f7ea068bf8f8651c7
+ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245850"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1737065"
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Richten Sie E-Mail Nachricht manuell oder mit der unterstützten Einrichtung ein
 Um E-Mails aus [!INCLUDE[d365fin](includes/d365fin_md.md)] zu senden und zu erhalten, müssen Sie die Felder auf der Seite **SMTP-Mail-Einrichtung** ausfüllen.
@@ -33,10 +33,19 @@ Sie können E-Mails entweder manuell einrichten oder Sie können den Leitfaden f
 4. Wenn alle korrekt Felder ausgefüllt sind, wählen Sie die Aktion **Test-E-Mail-Einrichtung** aus.
 5. Wenn der Test erfolgreich war, schliessen Sie die Seite.
 
+## <a name="sending-email-messages-from-a-send-as-email-address"></a>Senden von E-Mail-Nachrichten von einer E-Mail-Adresse vom Typ „Senden als“
+Sie können mehr Benutzern erlauben, E-Mail-Nachrichten von einer E-Mail-Adresse in Ihrem Besitz zu senden, die von ihrer normalen Adresse abweicht. Beispiel: Falls Sie eine Verkaufskampagne durchführen, ist es möglicherweise erwünscht, dass Personen Nachrichten von derselben Adresse senden, wie etwa verkauf@ihrunternehmensname.de. Um dies so einzurichten, geben Sie die Adresse zum Senden an zwei Orten an:
+
+* Geben Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] auf der Seite **SMTP E-Mail einrichten** die Adresse in das Feld **Senden als** ein.   
+* Geben Sie im **Exchange Admin Center** für Ihr Office 365-Konto im Feld **Senden als** die Adresse für jeden Benutzer an, der Nachrichten von der Adresse senden kann. Weitere Informationen finden Sie unter [Verwalten von Berechtigungen für Empfänger](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+
+ > [!Note] 
+ > Nach dem Festlegen des Kontos, unter dem Nachrichten versendet werden, wird die Adresse für jeden Benutzer im Office 365-Administrationscenter angezeigt, dient aber nur zu Informationszwecken. Sie können das Konto im Exchange Admin Center nur ändern oder entfernen.
+
 ## <a name="see-also"></a>Siehe auch  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzenb](ui-extensions.md)  
+[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Nutzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)  
 [Abrufen von [!INCLUDE[d365fin](includes/d365fin_md.md)] auf meinem mobilen Gerät](install-mobile-app.md)

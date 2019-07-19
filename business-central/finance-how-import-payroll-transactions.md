@@ -36,5 +36,5 @@ Um Gehaltszahlungen und verwandte Transaktionen zu berücksichtigen, müssen Sie
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzenb](ui-extensions.md)  
+[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)A  

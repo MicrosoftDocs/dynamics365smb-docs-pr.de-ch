@@ -20,7 +20,7 @@ ms.lasthandoff: 04/29/2019
 ms.locfileid: "1242758"
 ---
 # <a name="design-details-dimension-set-entries"></a>Designdetails: Dimensionssatzposten
-Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien der Dimensionsposten-Einlagerungs- und Buchungsfunktion in [!INCLUDE[d365fin](includes/d365fin_md.md)] dar. Die Dokumentation beginnt mit der Beschreibung der konzeptionellen Übersichten. Dann wird die technische Architektur erklärt. Schließlich bietet sie Codebeispiele, die Sie für Dimensionscodemigration und -Upgrade von Versionen vor Dynamics NAV 2013R2 vorbereiten.  
+Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien der Dimensionsposten-Einlagerungs- und Buchungsfunktion in [!INCLUDE[d365fin](includes/d365fin_md.md)] dar. Die Dokumentation beginnt mit der Beschreibung der konzeptionellen Übersichten. Dann wird die technische Architektur erklärt. Schliesslich bietet sie Codebeispiele, die Sie für Dimensionscodemigration und -Upgrade von Versionen vor Dynamics NAV 2013R2 vorbereiten.  
 
 ## <a name="in-this-section"></a>In diesem Abschnitt  
 [Dimensionssatz-Eintrags-Übersicht](design-details-dimension-set-entries-overview.md)  

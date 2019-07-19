@@ -48,7 +48,7 @@ Standardmässig wird das aktuelle Datum (Systemdatum) verwendet. Um Aufgaben wie
 >   Tippen Sie **a**, um rasch das Arbeitsdatum in ein Datumsfeld einzugeben. Schreiben Sie **h**, um rasch das aktuelle Datum in das Datumsfeld einzugeben.
 
 > [!IMPORTANT]  
->   Wenn Sie sich abmelden oder zu einem anderen Unternehmen wechseln, nachdem Sie das Arbeitsdatum geändert haben, werden die Arbeitsdaten auf das standardmäßige Arbeitsdatum zurückgesetzt. Wenn Sie sich daher das nächste Mal anmelden in zum ursprünglichen Unternehmen zurückkehren, muss Sie das Arbeitsdatum ggf. erneut einstellen. 
+>   Wenn Sie sich abmelden oder zu einem anderen Unternehmen wechseln, nachdem Sie das Arbeitsdatum geändert haben, werden die Arbeitsdaten auf das standardmässige Arbeitsdatum zurückgesetzt. Wenn Sie sich daher das nächste Mal anmelden in zum ursprünglichen Unternehmen zurückkehren, muss Sie das Arbeitsdatum ggf. erneut einstellen. 
 
 ### <a name="work-date-indication"></a>Arbeitsdatumsangabe
 <!--

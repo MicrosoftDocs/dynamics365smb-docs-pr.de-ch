@@ -1,6 +1,6 @@
 ---
 title: Zuweisen und Verwalten von Aufgaben | Microsoft Docs
-description: Erfahren Sie, wie Benutzern, einschließlich Ihres Buchhalters, Aufgaben in Business Central zugewiesen werden
+description: Erfahren Sie, wie Benutzern, einschliesslich Ihres Buchhalters, Aufgaben in Business Central zugewiesen werden
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article

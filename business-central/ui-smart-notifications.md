@@ -21,7 +21,7 @@ ms.locfileid: "1249229"
 # <a name="managing-notifications"></a>Verwalten von Benachrichtigungen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kann nützlich sein, um intelligenter zu arbeiten, indem es Sie beispielsweise informiert, wenn Sie einen Debitoren fakturieren wollen, der einen überfälligen Saldo hat oder der verfügbare Lagerbestand geringer ist als die Menge, die Sie verkaufen wollen. Diese Benachrichtigungen werden als diskrete Tipps im Kontext der Aufgabe angezeigt, die Sie durchführen, und Sie können wählen, ob Sie die Benachrichtigung ignorieren oder Details zu dem Problem anzeigen wollen.  
 
-Wenn Sie das Anzeigen der Benachrichtigungsdetails auswählen, können Sie Maßnahmen ergreifen, um das Problem zu lösen, beispielsweise den Debitor kontaktieren, mehr Lagerbestand kaufen, usw. Sie können auswählen. was Sie tun wollen und [!INCLUDE[d365fin](includes/d365fin_md.md)] gibt Ihnen Hinweise und Empfehlungen.  
+Wenn Sie das Anzeigen der Benachrichtigungsdetails auswählen, können Sie Massnahmen ergreifen, um das Problem zu lösen, beispielsweise den Debitor kontaktieren, mehr Lagerbestand kaufen, usw. Sie können auswählen. was Sie tun wollen und [!INCLUDE[d365fin](includes/d365fin_md.md)] gibt Ihnen Hinweise und Empfehlungen.  
 
 Die Benachrichtigungen helfen dem ungeübten Nutzer dabei, nicht vertraute Aufgaben abzuschliessen und reduzieren nicht die Produktivität des geschulten Benutzer.  
 

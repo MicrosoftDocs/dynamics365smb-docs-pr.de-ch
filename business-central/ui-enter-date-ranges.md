@@ -130,7 +130,7 @@ In Listen, Summen und Berichten können Sie Filter für Datumsangaben, Uhrzeiten
 |-----------|---------------------|--------------------|
 |Intervall|`12 15 00..01 15 01`<br /><br />`..12 15 00`<br /><br />`p1..p4`|Datensätze mit Datumsangaben zwischen und einschliesslich dem 15.12.00 und dem 15.01.01.<br /><br />Datensätze mit Datumsangaben vom 12 15 00 oder früher.<br /><br />Datumsbereich, der die zweite, dritte und vierte Buchhaltungsperioden enthält, z. B. `01/01/20..04/30/20`.|
 |Entweder/oder|`12 15 00|12 16 00`|Datensätze mit den Datumsangaben 12 15 00 oder 12 16 00. Wenn es sowohl Datensätze mit Datumsangaben für beide Tage gibt, werden alle angezeigt.|
-|Kombination|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Datensätze mit Datumsangaben vom 15.12.00 oder zwischen dem 01.12.00 und dem 10.12.00 einschließlich.  \nDatensätze mit einem Datum von 14.12.00 oder früher, oder mit einem Datum von 30.12.00 und später, d. h. alle Datensätze außer solchen mit Datumsangaben zwischen dem 15.12.00 und dem 29.12.00 (jeweils einschließlich).|
+|Kombination|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Datensätze mit Datumsangaben vom 15.12.00 oder zwischen dem 01.12.00 und dem 10.12.00 einschliesslich.  \nDatensätze mit einem Datum von 14.12.00 oder früher, oder mit einem Datum von 30.12.00 und später, d. h. alle Datensätze ausser solchen mit Datumsangaben zwischen dem 15.12.00 und dem 29.12.00 (jeweils einschliesslich).|
 
 Sie können jedes der gültigen Formate in den Datumsbereichsfiltern verwenden. Beispielsweise ergibt `mon14 3..t 4p` bei einem Datums-/Zeitangabenfeld einen Filter von 3 Uhr morgens am Montag in der Woche 14 des Jahr des aktuellen Arbeitsdatums bis heute um 4 Uhr nachmittags.
 

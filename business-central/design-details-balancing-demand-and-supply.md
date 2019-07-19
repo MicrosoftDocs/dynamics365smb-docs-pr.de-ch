@@ -56,14 +56,14 @@ Entsprechend schlägt das Planungssystem, mit wenigen Ausnahmen, keine Änderung
 
 Die Ausnahmen dieser Regel sind die folgenden:  
 
-   * Wenn der voraussichtlich verfügbare Lagerbestand, einschließlich die Summe von Bedarf und Vorrat in der fixierten Zone, geringer als Null ist.  
+   * Wenn der voraussichtlich verfügbare Lagerbestand, einschliesslich die Summe von Bedarf und Vorrat in der fixierten Zone, geringer als Null ist.  
    * Wenn Serien-/Chargennummern auf den zurückdatierten Aufträgen erforderlich sind.  
    * Wenn der Vorrat-Bedarf-Satz durch eine Auftrag-zu-Auftrag-Richtlinie verknüpft ist.  
 
 Wenn der anfänglich verfügbare Lagerbestand geringer als Null ist, schlägt das Planungssystem einen Notfallbeschaffungsauftrag am Tag vor der Planperiode vor, um die fehlende Menge zu decken. Deshalb ist der voraussichtliche und der verfügbare Lagerbestand immer mindestens Null, wenn die Planung für die zukünftige Periode beginnt. Die Planungszeile für diesen Beschaffungsauftrag zeigt ein Notwarnsymbol an , und zusätzliche Informationen werden beim Lookup angezeigt.  
 
 ### <a name="seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone"></a>Serien-/Chargennummern und Auftrag-zu-Auftrag-Links sind von der fixierten Zone ausgenommen  
-   Wenn Serien-/Chargennummern erforderlich sind, oder ein Auftrag-zu-Auftrag-Link vorhanden ist, beachtet das Planungssystem die fixierte Zone nicht und berücksichtigt solche Mengen, die vom dem Startdatum zurückdatiert sind und möglicherweise Korrekturmaßnahmen erfordern, wenn bedarf und Vorrat nicht synchronisiert sind. Der Geschäftsgrund für dieses Prinzip ist, dass solche bestimmten bedarf-Vorrat-Sätze übereinstimmen müssen, um sicherzustellen, dass dieser bestimmte Bedarf erfüllt wird.
+   Wenn Serien-/Chargennummern erforderlich sind, oder ein Auftrag-zu-Auftrag-Link vorhanden ist, beachtet das Planungssystem die fixierte Zone nicht und berücksichtigt solche Mengen, die vom dem Startdatum zurückdatiert sind und möglicherweise Korrekturmassnahmen erfordern, wenn bedarf und Vorrat nicht synchronisiert sind. Der Geschäftsgrund für dieses Prinzip ist, dass solche bestimmten bedarf-Vorrat-Sätze übereinstimmen müssen, um sicherzustellen, dass dieser bestimmte Bedarf erfüllt wird.
 
 ## <a name="loading-the-inventory-profiles"></a>Bestand Laden von Profilen
 Um die vielen Quellen von Nachfrage und Angebot zu sortieren, organisiert das Planungssystem sie auf zwei Zeitachsen, die Bestandsprofile genannt werden.  
@@ -95,7 +95,7 @@ Attribute in Form von Serien-/Chargennummern werden in die Bestandsprofile zusam
 Bedarfs- und Vorratsattribute werden nach Auftragspriorität sowie nach Spezifikationsebene angeordnet. Da Serien-/Chargennummernübereinstimmungen die Ebene der Spezifikation widerspiegeln, gilt: Der spezifischere Bestand, wie etwa eine Chargennummer, die speziell nach Verkaufszeile ausgewählt wurde, sucht eine Übereinstimmung vor einem weniger spezifischen Bestand, etwa einem Verkauf aus einer beliebigen ausgewählten Chargennummer.  
 
 > [!NOTE]  
->  Es gibt keine dedizierten Prioritisierungsregeln für serien-/chargennummerierten Bedarf und Vorrat, außer den Ebenen der Spezifikation, die durch ihre Kombinationen von Serien- und der Chargennummern und die Artikeltrackingeinrichtung der einbezogenen Artikel definiert sind.  
+>  Es gibt keine dedizierten Prioritisierungsregeln für serien-/chargennummerierten Bedarf und Vorrat, ausser den Ebenen der Spezifikation, die durch ihre Kombinationen von Serien- und der Chargennummern und die Artikeltrackingeinrichtung der einbezogenen Artikel definiert sind.  
 
 Während des Ausgleichs betrachtet das Planungssystem Vorrat mit Serien-/Chargennummern als nicht flexibel und versucht nicht, diese Beschaffungsaufträge zu erhöhen oder umzuplanen (sofern sie nicht in einer Auftrag-zu-Auftrag-Beziehung verwendet werden). Vgl. Auftrag-zu-Auftrags-Link werden nie unterbrochen). Diese schützt das Vorrat davor, mehrere und möglicherweise widersprüchliche Ereignismeldungen zu erhalten, wenn eine Bedarfssicherung unterschiedliche Attribute hat, etwa eine Sammlung verschiedener Seriennummern.  
 
@@ -111,12 +111,12 @@ Auftrag-zu-Auftrag-Bedarfe und Angebot müssen sich genau ausgleichen. Das Planu
 Dieser Ausgleich beeinflusst auch die zeitliche Steuerung. Der begrenzte Zeitraum, der durch den Zeitrahmen gewährt wird, wird nicht berücksichtigt; der Vorrat wird neu geplant, wenn die zeitliche Steuerung des Bedarfs geändert wurde. Es wird jedoch die Toleranzzeit berücksichtigt und Auftrag-zu-Auftrag-Vorrat wird nicht ausgeplant, ausgenommen interner Vorrat eines mehrstufigen Fertigungsauftrags (Projektauftrag).  
 
 > [!NOTE]  
->  Serien-/Chargennummern können auch auf Auftrag-zu-Auftrag-Bedarfen angegeben werden. In diesem Fall gilt der Vorrat nicht standardmäßig als inflexibel, wie dies normalerweise der Fall ist für Serien-/Chargennummern. In diesem Fall erhöht/mindert das System gemäß den Änderungen des Bedarfs. Darüber hinaus gilt: Wenn ein Bedarf variierende Serien-/Chargennummern enthält (etwa mehr als eine Chargennummer), wird ein Beschaffungsauftrag pro Charge vorgeschlagen.  
+>  Serien-/Chargennummern können auch auf Auftrag-zu-Auftrag-Bedarfen angegeben werden. In diesem Fall gilt der Vorrat nicht standardmässig als inflexibel, wie dies normalerweise der Fall ist für Serien-/Chargennummern. In diesem Fall erhöht/mindert das System gemäss den Änderungen des Bedarfs. Darüber hinaus gilt: Wenn ein Bedarf variierende Serien-/Chargennummern enthält (etwa mehr als eine Chargennummer), wird ein Beschaffungsauftrag pro Charge vorgeschlagen.  
 
 > [!NOTE]  
 >  Planungen sollten nicht dazu führen, dass Beschaffungsaufträge erstellt werden, die durch eine Auftrag-zu-Auftrag-Verknüpfung gebunden sind. Wenn der Plan verwendet wird, sollte er nur als Generator des abhängigen Bedarfs in einer Produktionsumgebung verwendet werden.  
 
-### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Der Komponentenbedarf wird gemäß den Fertigungsauftragsänderungen geladen  
+### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Der Komponentenbedarf wird gemäss den Fertigungsauftragsänderungen geladen  
 Wenn es Fertigungsaufträge bearbeitet, muss das Planungssystem die benötigten Komponenten überwachen, bevor es sie in das Anforderungsprofil lädt. Komponentenzeilen, die aus einem ergänzten Fertigungsauftrag resultieren, ersetzen die des ursprünglichen Auftrags. Dadurch ist sichergestellt, dass das Planungssystem festlegt, dass Planungszeilen für Komponentenbedarf nicht dupliziert werden.  
 
 ###  <a name="BKMK_SafetyStockMayBeConsumed"></a>Sicherheitsbestand kann verbraucht werden  
@@ -127,7 +127,7 @@ Der Sicherheitsbestand ist eine Bestandsmenge, die beiseite gelegt wird, um Unge
 ### <a name="forecast-demand-is-reduced-by-sales-orders"></a>Planungsbedarf wird durch Verkaufsaufträge reduziert  
 Der Produktionsplan drückt den erwarteten künftigen Bedarf aus. Während der Eingabe des tatsächlichen Bedarfs, üblicherweise als Verkaufsaufträge für Fertigungsartikel, verbraucht er die Planung.  
 
-Die Planung selbst wird durch Verkaufsaufträge nicht reduziert; sie bleibt unverändert. Jedoch werden die geplanten Mengen, die in der Planungsberechnung verwendet werden, reduziert (über die Verkaufsauftragsmengen), bevor die eventuelle Restmenge in das Bedarfsbestandsprofil eingeht. Wenn das Planungssystem tatsächliche Verkäufe für eine Periode prüft, schließt dies sowohl Verkaufsaufträge als auch Lagerposten von gelieferten Verkäufen ein, es sei denn, sie ergeben sich aus einem Rahmenauftrag.  
+Die Planung selbst wird durch Verkaufsaufträge nicht reduziert; sie bleibt unverändert. Jedoch werden die geplanten Mengen, die in der Planungsberechnung verwendet werden, reduziert (über die Verkaufsauftragsmengen), bevor die eventuelle Restmenge in das Bedarfsbestandsprofil eingeht. Wenn das Planungssystem tatsächliche Verkäufe für eine Periode prüft, schliesst dies sowohl Verkaufsaufträge als auch Lagerposten von gelieferten Verkäufen ein, es sei denn, sie ergeben sich aus einem Rahmenauftrag.  
 
 Ein Benutzer muss eine gültige Planungsperiode definieren. Das Datum auf der Planungsmenge definiert den Anfang der Periode, und das Datum auf der nächsten Planung definiert das Ende der Periode.  
 
@@ -141,7 +141,7 @@ Die Planung wird durch den Rahmenauftrag als Mittel zur Angabe des zukünftigen 
 Die Planungsberechnung berücksichtigt offene Verkaufsaufträge, die mit dieser bestimmten Rahmenauftragszeile verbunden sind, nicht jedoch Gültigkeitszeiträume. Es berücksichtigt auch nicht gebuchte Aufträge, da das Buchungsverfahren bereits die ausstehende Rahmenauftragsmenge reduziert hat.
 
 ## <a name="prioritizing-orders"></a>Aufträge mit Priorität
-In bestimmten Lagerhaltungsdaten zeigt das angeforderte oder verfügbare Datum die höchste Priorität an; mit dem Bedarf des heutigen Tages soll vor dem Bedarf der nächsten Woche verfahren werden. Zusätzlich zu dieser allgemeinen Priorität schlägt das Planungssystem jedoch auch vor, welche Art von Bedarf vor anderen Bedarfen erfüllt werden soll. Ebenso empfiehlt es eine auszugleichende Versorgungsquelle vor anderen Versorgungsquellen. Dieses wird gemäß Auftragsprioritäten durchgeführt.  
+In bestimmten Lagerhaltungsdaten zeigt das angeforderte oder verfügbare Datum die höchste Priorität an; mit dem Bedarf des heutigen Tages soll vor dem Bedarf der nächsten Woche verfahren werden. Zusätzlich zu dieser allgemeinen Priorität schlägt das Planungssystem jedoch auch vor, welche Art von Bedarf vor anderen Bedarfen erfüllt werden soll. Ebenso empfiehlt es eine auszugleichende Versorgungsquelle vor anderen Versorgungsquellen. Dieses wird gemäss Auftragsprioritäten durchgeführt.  
 
 Geladener Bedarf und Vorrat tragen zu einem Profil für den voraussichtlichen Lagerbestand entsprechend den folgenden Prioritäten bei:  
 
@@ -195,19 +195,19 @@ Stellen Sie sich vor, dass jedes Lagerprofil eine Zeichenfolge aus den Bedarfser
     Sobald die Zeitplanung erfolgt ist, kann die entsprechende bereitzustellende Menge wie folgt berechnet werden:  
 
     1.  Wenn die Vorratsmenge kleiner als der Bedarf ist, ist es möglich, dass die Vorratsmenge erhöht werden kann (oder nicht, wenn Sie durch eine Höchstmengenrichtlinie begrenzt ist).  
-    2.  Wenn die Vorratsmenge größer als der Bedarf ist, ist es möglich, dass die Vorratsmenge reduziert werden kann (oder nicht, wenn Sie durch eine Mindestmengenrichtlinie begrenzt ist).  
+    2.  Wenn die Vorratsmenge grösser als der Bedarf ist, ist es möglich, dass die Vorratsmenge reduziert werden kann (oder nicht, wenn Sie durch eine Mindestmengenrichtlinie begrenzt ist).  
 
     An dieser Stelle besteht eine von zwei Situationen:  
 
     1.  Der aktuelle Bedarf kann abgedeckt werden, in welchem Fall er geschlossen werden kann und die Planung für den folgenden Bedarf begonnen werden kann.  
-    2.  Das Vorrat hat sein Maximum erreicht, ein Teil der Bedarfsmenge wurde nicht abgedeckt. In diesem Fall kann das Planungssystem den aktuellen Vorrat schließen und mit dem nächsten fortfahren.  
+    2.  Das Vorrat hat sein Maximum erreicht, ein Teil der Bedarfsmenge wurde nicht abgedeckt. In diesem Fall kann das Planungssystem den aktuellen Vorrat schliessen und mit dem nächsten fortfahren.  
 
  Der Vorgang beginnt von vorn mit dem folgenden Bedarf und dem folgenden Vorrat oder umgekehrt. Der aktuelle Vorrat kann möglicherweise auch diesen nächsten Bedarf abdecken, oder der aktuelle Bedarf wurde noch nicht vollständig abgedeckt.  
 
 ### <a name="rules-concerning-actions-for-supply-events"></a>Regeln im Hinblick auf Aktionen für Vorratsereignisse  
-Wenn das Planungssystem eine top-down Berechnung ausführt, in der der Vorrat den Bedarf erfüllen muss, gilt der Bedarf als entnommen, d.h. es liegt außerhalb des Steuererung des Planungssystems. Jedoch kann die Vorratsseite verwaltet werden. Daher wird vom Planungssystem vorgeschlagen, neue Beschaffungsaufträge zu erstellen, bestehenden neu zu planen und/oder die Bestellmenge zu ändern. Wenn ein vorhandener Beschaffungsauftrag überflüssig wird, schlägt das System dem Benutzer vor, ihn zu stornieren.  
+Wenn das Planungssystem eine top-down Berechnung ausführt, in der der Vorrat den Bedarf erfüllen muss, gilt der Bedarf als entnommen, d.h. es liegt ausserhalb des Steuererung des Planungssystems. Jedoch kann die Vorratsseite verwaltet werden. Daher wird vom Planungssystem vorgeschlagen, neue Beschaffungsaufträge zu erstellen, bestehenden neu zu planen und/oder die Bestellmenge zu ändern. Wenn ein vorhandener Beschaffungsauftrag überflüssig wird, schlägt das System dem Benutzer vor, ihn zu stornieren.  
 
-Wenn der Benutzer einen vorhandenen Beschaffungsauftrag aus den Planungsvorschlägen ausschließen möchte, kann er angeben, dass keine Planungsflexibilität besteht (Planungsflexibilität = Keine). Dann wird überschüssiger Vorrat aus diesem Auftrag verwendet, um Bedarf zu decken, aber keine Aktion wird vorgeschlagen.  
+Wenn der Benutzer einen vorhandenen Beschaffungsauftrag aus den Planungsvorschlägen ausschliessen möchte, kann er angeben, dass keine Planungsflexibilität besteht (Planungsflexibilität = Keine). Dann wird überschüssiger Vorrat aus diesem Auftrag verwendet, um Bedarf zu decken, aber keine Aktion wird vorgeschlagen.  
 
 Im Allgemeinen haben alle Vorräte eine Planungsflexibilität, die durch den Zustand der einzelnen vorgeschlagenen Aktionen eingeschränkt ist.  
 
@@ -232,7 +232,7 @@ Im Allgemeinen haben alle Vorräte eine Planungsflexibilität, die durch den Zus
 -   **Zugangs-Menge**: Die Menge eines vorhandenen Beschaffungsauftrags kann erhöht werden, damit der Bedarf erfüllt werden kann, es sei denn, der Beschaffungsauftrag ist direkt mit einem Bedarf durch einen Auftrag-zu-Auftrag-Link verknüpft.  
 
 > [!NOTE]  
->  Obwohl es möglich ist, den Beschaffungsauftrag zu erhöhen, kann dies durch eine maximale Auftragsgröße eingeschränkt sein.  
+>  Obwohl es möglich ist, den Beschaffungsauftrag zu erhöhen, kann dies durch eine maximale Auftragsgrösse eingeschränkt sein.  
 
 -   **Menge reduzieren**: Ein vorhandener Beschaffungsauftrag mit einem Überschuss im Vergleich zu einem vorhandenen Bedarf kann reduziert werden, damit der Bedarf erfüllt werden kann.  
 
@@ -253,7 +253,7 @@ Wenn ein Maximalbestand oder eine feste Auftragsmenge ausgewählt werden, wird d
 
 1. Bis zur maximalen Auftragsmenge (falls vorhanden).  
 2. Aufwärts bis zur Mindestbestellmenge.  
-3. Aufwärts bis zum nächsten Losgrößenrundungsfaktor. (Im Falle fehlerhafter Einstellungen verstößt dies möglicherweise gegen die maximale Auftragsmenge.)  
+3. Aufwärts bis zum nächsten Losgrössenrundungsfaktor. (Im Falle fehlerhafter Einstellungen verstösst dies möglicherweise gegen die maximale Auftragsmenge.)  
 
 ### <a name="order-tracking-links-during-planning"></a>Bedarfsverursacherverknüpfungen bei der Planung  
 Hinsichtlich des Auftragstracking während der Planung ist es wichtig zu erwähnen, dass das Planungssystem die dynamisch erstellten Auftragstrackingverknüpfungen für die Artikel-/Varianten-/Lagerortkombinationen neu anordnet.  
@@ -261,7 +261,7 @@ Hinsichtlich des Auftragstracking während der Planung ist es wichtig zu erwähn
 Hierfür gibt es zwei Gründe:  
 
 -   Das Planungssystem muss in der Lage sein, seine Vorschläge zu begründen; dass der Gesamtbedarf gedeckt wurde und dass keine Beschaffungsaufträge überflüssig sind.  
--   Dynamisch erstellte Auftragstrackinglinks müssen regelmäßig nachjustiert werden.  
+-   Dynamisch erstellte Auftragstrackinglinks müssen regelmässig nachjustiert werden.  
 
 Im Laufe der Zeit geraten dynamische Bedarfsverursacherverknüpfungen aus der Balance, da das gesamte Bedarfsverursachernetzwerk erst dann wiederhergestellt wird, wenn ein Bedarf- oder Vorratsereignis tatsächlich geschlossen ist.  
 
@@ -276,7 +276,7 @@ Wenn die Zubehör-Ausgleichsverfahren ausgeführt wurden, gibt es drei mögliche
 * Der Beschaffungsauftrag kann nicht geändert werden, um den gesamten Bedarf zu decken. Das Bedarfsereignis ist noch offen, mit einigen nicht abgedeckten Mengen, die möglicherweise vom nächsten Bedarfsereignis abgedeckt werden. Daher wird das aktuelle Vorratsereignis geschlossen, sodass der Ausgleichsvorgang mit dem aktuellen Bedarfs- und dem nächsten Vorratsereignis erneut beginnen kann.  
 * Der gesamte Bedarf ist abgedeckt; es gibt keinen folgenden Bedarf (oder es gab überhaupt keinen Bedarf). Wenn überschüssiger Vorrat vorhanden ist, kann dieser vermindert (oder storniert) und dann geschlossen werden. Es ist möglich, dass zusätzliche Zubehörereignisse weiter entlang der Kette vorhanden sind, und diese sollten ebenfalls annulliert werden.  
 
-Schließlich erstellt das Planungssystem ein Auftragstrackinglink zwischen dem Vorrat und dem Bedarf.  
+Schliesslich erstellt das Planungssystem ein Auftragstrackinglink zwischen dem Vorrat und dem Bedarf.  
 
 ### <a name="creating-the-planning-line-suggested-action"></a>Die Planungszeile (vorgeschlagene Aktion) erstellen  
 Wenn eine Aktion – Neu, Menge ändern, Neuplanen, Neuplanen und Menge ändern oder Stornieren – für die Revision des Beschaffungsauftrags vorgeschlagen wird, erstellt das Planungssystem, eine Planung auf dem Planungsvorschlag. Aufgrund der Auftragstracking wird die Planungszeile nicht nur erstellt, wenn das Vorratsereignis geschlossen wird, sondern auch, wenn das Nachfrageereignis geschlossen wird, auch wenn das Vorratsereignis möglicherweise noch offen und abhängig von zusätzlichen Änderungen ist, wenn das nächste Nachfrageereignis verarbeitet wird. Dies bedeutet, dass die Planungszeile, wenn sie zuerst erstellt wird, möglicherweise erneut geändert wird.  
@@ -284,8 +284,8 @@ Wenn eine Aktion – Neu, Menge ändern, Neuplanen, Neuplanen und Menge ändern 
 Um Datenbankzugriff zu minimieren, wenn Sie Fertigungsaufträge bearbeiten, können Sie die Planungszeile in drei Ebenen verwalten, mit dem Ziel, das am wenigsten anspruchsvolle Bestanderhaltungsniveau auszuführen:  
 
 * Erstellen Sie nur die Planungszeile mit dem aktuellen Fälligkeitsdatum und der Menge, aber ohne Arbeitsplan und Komponenten.  
-* Arbeitsplan einschließen: Der geplante Arbeitsplan wird einschließlich Berechnung des Start- und Enddatum und -Zeiten ausgebreitet. Dieses ist anspruchvoll in Bezug auf Datenbankzugriffe. Um das End- und die Fälligkeitsdatum zu bestimmen, kann es notwendig sein, dies zu berechnen, auch wenn das Vorratsereignis nicht abgeschlossen wurde (im Fall der Vorwärtsterminierung).  
-* Strukturstückliste einschließen: Dies kann warten bis kurz vor dem Abschluss des Vorratsereignisses.  
+* Arbeitsplan einschliessen: Der geplante Arbeitsplan wird einschliesslich Berechnung des Start- und Enddatum und -Zeiten ausgebreitet. Dieses ist anspruchvoll in Bezug auf Datenbankzugriffe. Um das End- und die Fälligkeitsdatum zu bestimmen, kann es notwendig sein, dies zu berechnen, auch wenn das Vorratsereignis nicht abgeschlossen wurde (im Fall der Vorwärtsterminierung).  
+* Strukturstückliste einschliessen: Dies kann warten bis kurz vor dem Abschluss des Vorratsereignisses.  
 
 Damit sind die Beschreibungen dazu, wie Bedarf und Vorrat vom Planungssystem geladen, priorisiert und ausgeglichen werden, abgeschlossen. In der Integration mit dieser Beschaffungsplanungsaktivität muss das System sicherstellen, dass der erforderliche Lagerbestand jedes geplanten Artikels entsprechend den jeweiligen Wiederbeschaffungsverfahren verwaltet wird.
 

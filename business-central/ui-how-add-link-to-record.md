@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/12/2019
 ms.author: jswymer
-ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 781f43daf6482c7e29696dc7a03aa021550cde7d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250356"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629771"
 ---
 # <a name="add-links-to-websites-documents-or-programs-on-records"></a>Hinzufügen von Links zu Websites, Belegen oder Programmen in Datensätzen
 An einem bestimmten Datensatz, beispielsweise einem Debitoren Beleg oder Verkaufsauftrag, können Sie einen Link einem externen Beleg, einer Website oder einer Anwendung hinzufügen. Möglicherweise möchten Sie einen Link einrichten, durch den eine neue leere E-Mail an einen bestimmten Empfänger geöffnet wird, wenn darauf geklickt wird. Die Kartenseite für einige Einträge wie Debitoren- und Kreditorenkarten beinhalten ein Feld mit der Bezeichnung **Homepage**, in dem eine URL eingegeben werden kann. Wenn Sie andere Links einbeziehen möchten, können Sie die Methode verwenden, die in diesem Artikel beschrieben wird.  
@@ -23,7 +23,7 @@ An einem bestimmten Datensatz, beispielsweise einem Debitoren Beleg oder Verkauf
 > [!IMPORTANT]
 > Derzeit ist diese Funktion nur in [!INCLUDE [prodshort](includes/prodshort.md)] lokalen Bereitstellungen mit dem bisherigen Dynamics NAV-Windows-Client verfügbar.  
 
-Ein anderes Beispiel könnte sein, wenn Sie gedruckte Rechnungen von Kreditoren erhalten. Sie können diese durchsuchen und als .pdf-Datei auf einer SharePoint-Site speichern. Anschließend kann eine Einkaufsrechnung in [!INCLUDE[d365fin_md](includes/d365fin_md.md)] mit der entsprechenden Rechnung in SharePoint verknüpft werden. Zudem besteht die Möglichkeit, eine Artikelkarte mit der entsprechenden Seite im Onlinekatalog des Kreditors zu verknüpfen.
+Ein anderes Beispiel könnte sein, wenn Sie gedruckte Rechnungen von Kreditoren erhalten. Sie können diese durchsuchen und als .pdf-Datei auf einer SharePoint-Site speichern. Anschliessend kann eine Einkaufsrechnung in [!INCLUDE[d365fin_md](includes/d365fin_md.md)] mit der entsprechenden Rechnung in SharePoint verknüpft werden. Zudem besteht die Möglichkeit, eine Artikelkarte mit der entsprechenden Seite im Onlinekatalog des Kreditors zu verknüpfen.
 
 ## <a name="to-add-a-link-on-a-record"></a>Um einen Link aus einem Datensatz zu entfernen:   
 
@@ -35,10 +35,9 @@ Ein anderes Beispiel könnte sein, wenn Sie gedruckte Rechnungen von Kreditoren 
 
 4.  Geben Sie im Feld **Link Adresse** ein
 
-    -   Um eine Datei auf dem Computer oder dem Netzwerk zu verknüpfen, geben Sie den vollständigen Pfad und den Dateinamen, wie **C:My Documentsinvoice1.doc** ein.
-    -   Um auf die Website zu verknüpfen, geben Sie die Internetadresse (URL), wie **www.microsoft.com** ein.
-    -   Um auf die Website zu verknüpfen, geben Sie die Internetadresse (URL), wie **www.microsoft.com** ein.
-    -   Um eine Anwendung zu verknüpfen, Sie geben eine bestimmte Zeichenfolge ein, um die Anwendung zu öffnen. Zum Beispiel, um OneNote mit einer bestimmten Seite zu öffnen, geben Sie **onenote:///C:\Eigene Dateien\test.one** ein. Um Outlook mit einer neuen leeren E-Mail an en bestimmtes Alias zu öffnen, geben Sie **mailto:testalias** ein.  
+    -   Um eine Datei auf dem Computer oder dem Netzwerk zu verknüpfen, geben Sie den vollständigen Pfad und den Dateinamen wie **C:\Eigene Dokumente\invoice1.doc** ein.
+    -   Um auf die Website zu verknüpfen, geben Sie die Internetadresse (URL) wie **www.microsoft.com** ein.
+    -   Um eine Anwendung zu verknüpfen, Sie geben eine bestimmte Zeichenfolge ein, um die Anwendung zu öffnen. Um OneNote beispielsweise mit einer bestimmten Seite zu öffnen, geben Sie **onenote:///C:\Eigene Dateien\test.one** ein. Um Outlook mit einer neuen leeren E-Mail an ein bestimmtes Alias zu öffnen, geben Sie **mailto:testalias** ein.  
 
 5.  Geben Sie in das Feld **Beschreibung** Informationen zu dem Link ein.  
 

@@ -19,7 +19,7 @@ ms.lasthandoff: 04/29/2019
 ms.locfileid: "1241039"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Von einer QuickBooks-App zu Dynamics 365 Business Central wechseln
-Mehr und mehr zunehmende Geschäfte wechseln von Finanz-Apps, wie QuickBooks Desktop und QuickBooks Online, die für Startups und andere Kleinunternehmen vorgesehen sind, zu [!INCLUDE[d365fin](includes/d365fin_md.md)], das auch größere komplexere Organisationen unterstützt. 
+Mehr und mehr zunehmende Geschäfte wechseln von Finanz-Apps, wie QuickBooks Desktop und QuickBooks Online, die für Startups und andere Kleinunternehmen vorgesehen sind, zu [!INCLUDE[d365fin](includes/d365fin_md.md)], das auch grössere komplexere Organisationen unterstützt. 
 
 Beim Wechsel möchten Unternehmen die Geschäftsdaten in der Regel mitnehmen, um nicht von Vorne beginnen zu müssen. Zur Datenübertragung bietet [!INCLUDE[d365fin](includes/d365fin_md.md)] integrierte Erweiterungen, die Daten, wie Debitoren, Kreditoren, Lagerartikel und Fibukonten, migrieren. Die folgenden Erweiterungen sind eingerichtet und vorbereitet, um als integrierter Teil des unterstützten Setups bei der **Datenmigration** zu helfen.
 

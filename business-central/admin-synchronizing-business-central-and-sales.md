@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a2adf188f616f3a9cbb0e0d3135ee79d238c453b
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: b5a3b83d21390711ff0517df67bf9912ece57f6b
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540237"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629633"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synchronisieren von Daten in Business Central und Dynamics 365 for Sales
 Wenn Sie [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)] integrieren, können Sie entscheiden, ob die Daten der ausgewählten Felder von [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datensätzen (wie Debitoren, Kontakten und Vertriebsmitarbeitern) mit entsprechenden Datensätzen in [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisieren (beispielsweise Konten, Kontakte und Benutzer). Je nach Art des Datensatzes können Sie Daten von [!INCLUDE[crm_md](includes/crm_md.md)] nach [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisieren oder umgekehrt. Weitere Informationen finden Sie unter [Integrieren in Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -40,7 +40,7 @@ Wenn die Synchronisierung eingerichtet ist, können Sie die [!INCLUDE[d365fin](i
 ## <a name="standard-sales-entity-mapping-for-synchronization"></a>Standard-Sales-Entitätszuordnungen für die Synchronisierung
 Entitäten in [!INCLUDE[crm_md](includes/crm_md.md)] wie beispielsweise Konten, werden mit äquivalenten Arten von Entitäten in [!INCLUDE[d365fin](includes/d365fin_md.md)] wie beispielsweise Debitoren integriert. Um mit [!INCLUDE[crm_md](includes/crm_md.md)]-Daten zu arbeiten, richten Sie Verknüpfungen, auch Kopplungen genannt, zwischen Einheiten in [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[d365fin](includes/d365fin_md.md)] ein.
 
-Die folgende Tabelle zeigt die standardmäßige Zuordnung zwischen Einheiten in [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[d365fin](includes/d365fin_md.md)], die [!INCLUDE[crm_md](includes/crm_md.md)] bietet.
+Die folgende Tabelle zeigt die standardmässige Zuordnung zwischen Einheiten in [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[d365fin](includes/d365fin_md.md)], die [!INCLUDE[crm_md](includes/crm_md.md)] bietet.
 
 |[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[crm_md](includes/crm_md.md)]|Synchronisierungsrichtung|Standardfilter|
 |-------------------------------------------|-----|-------------------------|--------------|
@@ -48,7 +48,7 @@ Die folgende Tabelle zeigt die standardmäßige Zuordnung zwischen Einheiten in 
 |Debitor|Konto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-Kontenfilter: **Verhältnisart** ist **Debitor** und **Status** ist **Aktiv**.|
 |Kontakt|Kontakt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] Kontaktfilter: **Type** ist **Person** und der Kontakt wird einem Unternehmen zugewiesen. Sales Kontaktfilter: Kontakt wird einem Unternehmen zugeordnet und die übergeordnete Debitorenart ist **Konto**.|
 |Währung|Transaktionswährung|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Maßeinheit|Einheiten-Gruppe|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+|Masseinheit|Einheiten-Gruppe|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Artikel|Produkt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Vertriebskontaktfilter: **Produkt-Typ** ist **Verkaufs-Lager**|
 |Ressource|Produkt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Vertriebskontaktfilter: **Produkt-Typ** ist **Service**|
 |Debitorenpreisgruppe|VK-Preisliste|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
@@ -77,14 +77,14 @@ Die folgende Tabelle zeigt Zuordnungen der [!INCLUDE[d365fin](includes/d365fin_m
 Die folgende Tabelle beschreibt Regeln, die die Synchronisierung zwischen den Anwendungen steuern.
 
 > [!NOTE]  
-> Ändert an Daten in [!INCLUDE[crm_md](includes/crm_md.md)], die durch das [!INCLUDE[crm_md](includes/crm_md.md)]-Verbindungsbenutzerkonto vorgenommen wurden, werden nicht synchronisiert. Daher empfiehlt es sich, bei der Nutzung dieses Kontos keine Daten zu ändern. Weitere Informationen finden Sie unter [Einrichten der Integration mit Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> Ändert an Daten in [!INCLUDE[crm_md](includes/crm_md.md)], die durch das [!INCLUDE[crm_md](includes/crm_md.md)]-Verbindungsbenutzerkonto vorgenommen wurden, werden nicht synchronisiert. Daher empfiehlt es sich, bei der Nutzung dieses Kontos keine Daten zu ändern. Weitere Informationen finden Sie unter [Einrichten des Benutzerkontos für die Integration in Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
-|Tisch|Regel|
+|Tabelle|Regel|
 |-----|----|
 |Debitoren|Bevor ein Debitor mit einem Konto synchronisiert werden kann, muss der Verkäufer, der dem Debitor zugewiesen ist, mit einem Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)] gekoppelt werden. Wenn Sie den „DEBITOREN – Dynamics 365 for Sales-Synchronisierungsauftrag“ ausführen und wenn Sie es so einrichten, dass neue Datensätze erstellt werden, achten Sie darauf, dass Sie Verkäufer mit [!INCLUDE[crm_md](includes/crm_md.md)]-Benutzern synchronisieren, bevor Sie Debitoren mit [!INCLUDE[crm_md](includes/crm_md.md)]-Konten synchronisieren. <br /> <br />Der „DEBITOREN – Dynamics 365 for Sales-Synchronisierungsauftrag“ synchronisiert nur Sales-Konten, die den Beziehungstyp „Debitor“ haben.|
 |Kontakte|Nur Kontakte in [!INCLUDE[crm_md](includes/crm_md.md)], die mit einem Konto verknüpft sind, werden in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt. Der Verkäufer-Codewert definiert den Besitzer der gekoppelten Einheit in [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Währungen|Währungen werden an Transaktionswährungen in [!INCLUDE[crm_md](includes/crm_md.md)] basierend auf ISO-Codes gekoppelt. Nur Währungen, die einen Standard-ISO-Code haben, werden mit Transaktionswährungen gekoppelt und synchronisiert.|
-|Einheiten|Maßeinheiten werden mit Einheitengruppen in [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert. Es kann nur eine Einheit in der Einheitengruppe definiert sein.|
+|Einheiten|Masseinheiten werden mit Einheitengruppen in [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert. Es kann nur eine Einheit in der Einheitengruppe definiert sein.|
 |Artikel|Wenn Artikel mit [!INCLUDE[crm_md](includes/crm_md.md)]-Produkten synchronisiert werden, erstellt [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch eine Preisliste in [!INCLUDE[crm_md](includes/crm_md.md)]. Um Synchronisationsfehler zu vermeiden, sollten Sie diese Preisliste nicht manuell ändern.|
 |Verkäufer|Verkäufer werden mit den Systembenutzern in [!INCLUDE[crm_md](includes/crm_md.md)] gekoppelt. Der Benutzer muss aktiviert werden und lizenziert werden und darf nicht der integrierte Benutzer sein. Die Notiz, dass dies die erste Tabelle ist, die synchronisiert werden muss, weil sie Debitoren, Kontakten, Verkaufschancen und in den Verkaufsrechnungen verwendet wird.|
 |Ressourcen|Ressourcen werden mit [!INCLUDE[crm_md](includes/crm_md.md)]-Produkten synchronisiert, die den Produkttyp-Service haben.|

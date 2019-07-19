@@ -29,8 +29,8 @@ Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwe
 |Verstehen Sie Mechanismen im Kalkulationsmodul, wie Lagerabgangsmethode und Kostenregulierung, und für welche Bilanzierungsgrundsätze sie vorgesehen sind.|[Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)|  
 |Informationen zu zentralen Prinzipien hinter den erweiterten und Basislagerfunktionen und wie diese mit anderen Lieferkettenfunktionen verknüpft werden können.|[Designdetails: Logistik](design-details-warehouse-management.md)|  
 |Informationen zu historischen und aktuellen Darstellungsarten von Artikeltrackingfunktionen und wie diese mit dem Reservierungssystem verknüpft werden können, um Serien-/Chargennummern bei der Verfügbarkeitsberechnung zu berücksichtigen.|[Designdetails: Artikeltracking](design-details-item-tracking.md)|  
-|Erhalten Sie Informationen zur Fibu Erf.-Journal-Buchungs-Zeilenfunktion, einschließlich neuer Vereinfachungen beim Design von Codeunit 12.|[Designdetails: Fibu Erf.-Journal-Beitrags-Zeile](design-details-general-journal-post-line.md)|
-|Erhalten Sie Informationen zum Speichern und Buchen von Dimensionen, einschließlich Codebeispiele dazu, wie Dimensionscode migriert und aktualisiert werden.|[Designdetails: Dimensionssatzposten](design-details-dimension-set-entries.md)| 
+|Erhalten Sie Informationen zur Fibu Erf.-Journal-Buchungs-Zeilenfunktion, einschliesslich neuer Vereinfachungen beim Design von Codeunit 12.|[Designdetails: Fibu Erf.-Journal-Beitrags-Zeile](design-details-general-journal-post-line.md)|
+|Erhalten Sie Informationen zum Speichern und Buchen von Dimensionen, einschliesslich Codebeispiele dazu, wie Dimensionscode migriert und aktualisiert werden.|[Designdetails: Dimensionssatzposten](design-details-dimension-set-entries.md)| 
 
 ## <a name="see-also"></a>Siehe auch  
  [Planung](production-planning.md)   

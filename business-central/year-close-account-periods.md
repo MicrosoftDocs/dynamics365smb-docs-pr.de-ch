@@ -1,5 +1,5 @@
 ---
-title: Abschließen der Buchhaltungsperioden für ein Geschäftsjahr | Microsoft Docs
+title: Abschliessen der Buchhaltungsperioden für ein Geschäftsjahr | Microsoft Docs
 description: Beschreibt, wie Sie die Buchhaltungsperioden schliessen, die das Geschäftsjahr ausmachen.
 services: project-madeira
 documentationcenter: ''

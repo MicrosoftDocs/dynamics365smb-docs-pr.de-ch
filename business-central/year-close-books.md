@@ -1,6 +1,6 @@
 ---
-title: Überblick über die erforderlichen Aufgaben für das Schließen der Bücher| Microsoft Docs
-description: Erhalten von Informationen über das Schließens der Bücher für ein Geschäftsjahr oder für eine Periode, und was passiert, nachdem Sie das Jahr abgeschloßen haben.
+title: Überblick über die erforderlichen Aufgaben für das Schliessen der Bücher| Microsoft Docs
+description: Erhalten von Informationen über das Schliessens der Bücher für ein Geschäftsjahr oder für eine Periode, und was passiert, nachdem Sie das Jahr abgeschlossen haben.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -19,15 +19,15 @@ ms.contentlocale: de-CH
 ms.lasthandoff: 04/29/2019
 ms.locfileid: "1248677"
 ---
-# <a name="closing-the-books"></a>Bucher schließen
+# <a name="closing-the-books"></a>Bucher schliessen
 Nachdem sichergestellt wurde, dass sich alle Konten auf dem neuesten Stand befinden und Kosten und Umsatz verteilt wurden, können die Bücher für ein Geschäftsjahr oder für eine Periode abgeschlossen werden.
 
 Ein Jahresabschluss muss nicht zwingend durchgeführt werden, erleichtert Ihnen aber die Arbeit im System, da Sie auf diese Weise die Vorteile der benutzerfreundlichen Filteroptionen nutzen können. Es besteht auch kein Anlass zur Sorge, dass beim Jahresabschluss Details der Transaktionen verloren gehen, da alle Details auch nach Abschluss eines Jahrs beibehalten werden.
 
-## <a name="closing-book-process"></a>Prozess zum Abschließen der Bücher
+## <a name="closing-book-process"></a>Prozess zum Abschliessen der Bücher
 Der Prozess für den Abschluss der Bücher umfasst diese Hauptaufgaben:
 
-1. Abschließen der Buchhaltungsperiode.
+1. Abschliessen der Buchhaltungsperiode.
 
     Ein Geschäftsjahr ist definiert als mindestens eine offene Periode entsprechend der Definition auf der Seite **Buchhaltungsperioden**. Üblicherweise umfasst ein Geschäftsjahr 12 Perioden von jeweils einem Monat, das Jahr kann jedoch auch auf andere Weise definiert werden.
 

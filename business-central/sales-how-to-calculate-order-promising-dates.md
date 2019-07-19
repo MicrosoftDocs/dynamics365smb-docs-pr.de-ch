@@ -37,7 +37,7 @@ Wenn Sie kein angefordertes Lieferdatum auf der Verkaufsauftragszeile angeben od
 - Geplantes Warenausgangsdatum + Transportzeit = Geplantes Lieferdatum  
 
 ## <a name="about-order-promising"></a>Über Lieferterminzusagen
-Die Funktion Lieferzusagen ermöglicht Ihnen, den Versand oder die Lieferung eines Auftrags zu einem bestimmten Datum zuzusagen. Das Datum, zu dem der Artikel verfügbar oder geeignet für eine Zusage ist, wird berechnet und Auftragszeilen für das Datum, welches Sie akzeptiert haben, erstellt. Die Funktion "Lieferterminzusagen" ist ein Werkzeug zur Berechnung des frühestmöglichen Datums, an dem ein Artikel zum Versand oder zur Lieferung verfügbar ist. Sie erstellt außerdem Bestellvorschlagszeilen, falls die Artikel zuerst gekauft werden müssen, für das Datum, welches Sie akzeptiert haben.
+Die Funktion Lieferzusagen ermöglicht Ihnen, den Versand oder die Lieferung eines Auftrags zu einem bestimmten Datum zuzusagen. Das Datum, zu dem der Artikel verfügbar oder geeignet für eine Zusage ist, wird berechnet und Auftragszeilen für das Datum, welches Sie akzeptiert haben, erstellt. Die Funktion "Lieferterminzusagen" ist ein Werkzeug zur Berechnung des frühestmöglichen Datums, an dem ein Artikel zum Versand oder zur Lieferung verfügbar ist. Sie erstellt ausserdem Bestellvorschlagszeilen, falls die Artikel zuerst gekauft werden müssen, für das Datum, welches Sie akzeptiert haben.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet zwei grundlegende Konzepte:  
 

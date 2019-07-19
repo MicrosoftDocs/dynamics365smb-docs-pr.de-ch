@@ -34,7 +34,7 @@ Vorhandene Verkaufsverkaufschancen sind auf der Seite **Verkaufschancenliste** v
 Jede dieser Aufgaben öffnet die Seite **Verkaufschancenliste**.
 
 ## <a name="to-close-opportunities"></a>Um Verkaufschancen abzuschliessen
-Sie können Verkaufschancen abschliessen, wenn die Verhandlungen abgeschlossen sind. Wenn Sie eine Verkaufschance schließen, können Sie angeben, ob sie gewonnen oder verloren wurde und dafür die Gründe festlegen. Um einen Grund anzugeben, müssen Sie Verkaufschancenabschlusscodes einrichten.
+Sie können Verkaufschancen abschliessen, wenn die Verhandlungen abgeschlossen sind. Wenn Sie eine Verkaufschance schliessen, können Sie angeben, ob sie gewonnen oder verloren wurde und dafür die Gründe festlegen. Um einen Grund anzugeben, müssen Sie Verkaufschancenabschlusscodes einrichten.
 
 1. Auf der Seite **Verkaufschancenliste** wählen Sie die Verkaufschance und die **Abschluss**-Aktion aus. Die Seite **Verkaufschance abschliessen** wird geöffnet.
 2. Füllen Sie die relevanten Felder aus, und wählen Sie dann die Schaltfläche **OK** aus.

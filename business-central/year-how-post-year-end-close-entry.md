@@ -1,5 +1,5 @@
 ---
-title: 'Vorgehensweise: Buchen und überprüfen des Jahresabschlusspostens | Microsoft Docs'
+title: Buchen und überprüfen des Jahresabschlusspostens | Microsoft Docs
 description: Beschreibt, wie Sie das Erf.-Journal öffnen, dass Sie in der Stapelverarbeitung "Jahresabschluss" definiert haben und dann den Jahresabschlusseintrag überprüfen und buchen.
 services: project-madeira
 documentationcenter: ''

@@ -33,8 +33,8 @@ Die Tabelle **Planungszuweisung** überwacht Bedarf und Vorrat und ordnet die en
 * Ein neuer Verkaufsauftrag, eine Planung, eine Komponente, eine Bestellung, ein Fertigungsauftrag, ein Montageauftrag oder ein Umlagerungsauftrag.  
 * Änderung von Artikel, Menge, Lagerort, Variante oder Datum auf einem Verkaufsauftrag, Plan, einer Komponente, einem Einkaufsauftrag, einem Produktionsauftrag, einem Montageauftrag oder einem Umlagerungsauftrag.  
 * Stornierung eines Verkaufsauftrags, einer Planung, einer Komponente, einer Bestellung, eines Fertigungsauftrags, eines Montageauftrags oder eines Umlagerungsauftrags.  
-* Verbrauch von Artikeln außerhalb der Planung.  
-* Istmeldungen von Artikeln außerhalb der Planung.  
+* Verbrauch von Artikeln ausserhalb der Planung.  
+* Istmeldungen von Artikeln ausserhalb der Planung.  
 * Ungeplante Bestandänderungen.  
 
 Für diese direkten Vorrat-Bedarf-Verschiebungen wahrt das Auftragstracking- und Aktionsmeldungssystem die Planungs-Zuordnungstabelle und gibt einen Planungsgrund als Aktionsmeldung aus.  

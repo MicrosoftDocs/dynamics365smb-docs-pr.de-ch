@@ -1,5 +1,5 @@
 ---
-title: 'Vorgehensweise: Verkaufen von Auftragsmontageartikeln und Lagerartikeln zusammen | Microsoft Docs'
+title: Verkaufen von Auftragsmontageartikeln und Lagerartikeln zusammen | Microsoft Docs
 description: Wenn ein Montageartikels für die Lagermontage eingerichtet ist, dann nimmt der Standard-Verkaufsauftragsprozess an, dass der Artikel bereits montiert wird und aus dem Lager entnommen werden kann, wenn er verfügbar ist. Wenn jedoch ein Teil oder die gesamte Menge nicht verfügbar ist, dann Sie haben Sie die Flexibilität, einen Montageauftrag für die Restmenge dynamisch zu erstellen.
 services: project-madeira
 documentationcenter: ''

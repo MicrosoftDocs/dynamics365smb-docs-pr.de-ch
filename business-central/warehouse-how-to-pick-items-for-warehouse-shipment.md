@@ -37,7 +37,7 @@ Sie können Kommissionierungsbelege auch Push-artig im Fenster **Warenausgang** 
 >   
 >  Weitere Informationen finden Sie im Abschnitt "Verwenden von Auftragsmontageartikeln in Warenausgängen".  
 >   
->  Allgemeine Informationen über das Kommissionieren von Komponenten für Montageaufträge, einschliesslich von Situationen, in denen der Montageartikel nicht mit einer Verkaufslieferung fällig ist, finden Sie unter [Vorgehensweise: Kommissionierung für die Produktion oder Montage](warehouse-how-to-pick-for-production.md).  
+>  Allgemeine Informationen über das Kommissionieren von Komponenten für Montageaufträge, einschliesslich von Situationen, in denen der Montageartikel nicht mit einer Verkaufslieferung fällig ist, finden Sie unter [Kommissionierung für die Produktion oder Montage](warehouse-how-to-pick-for-production.md).  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Um Artikel für den Warenausgang zu kommissionieren  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kommissionierungen** ein, und wählen dann den zugehörigen Link aus.  

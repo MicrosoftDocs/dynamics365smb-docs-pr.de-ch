@@ -54,7 +54,7 @@ Sie können den Bericht **Anlage - Vorschau** zur Kalkulation von zukünftigen A
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Anlage angenommener Wert** ein, und wählen dann den zugehörigen Link aus.
 2. Füllen Sie die Felder je nach Bedarf aus.
 3. Wenn Sie die Gesamtsummen für alle Anlagen anzeigen möchten, deaktivieren Sie das Kontrollkästchen **Druck pro Anlage**.
-4. Lassen Sie das Inforegister **Anlage** leer, damit alle Anlagen einbezogen werden. Geben Sie im Feld **Plananlage** die Einstellung **Nein** an, um Plananlagen auszuschließen, oder geben Sie **Ja** an, um nur Plananlagen anzuzeigen.
+4. Lassen Sie das Inforegister **Anlage** leer, damit alle Anlagen einbezogen werden. Geben Sie im Feld **Plananlage** die Einstellung **Nein** an, um Plananlagen auszuschliessen, oder geben Sie **Ja** an, um nur Plananlagen anzuzeigen.
 5. Klicken Sie auf die Schaltfläche **Drucken** oder **Vorschau**.
 
 ## <a name="see-also"></a>Siehe auch

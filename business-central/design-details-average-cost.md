@@ -44,9 +44,9 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
  Die Durchschnittskosten einer Transaktion werden berechnet, wenn die Kosten des Artikels reguliert werden. Weitere Informationen finden Sie unter [Designdetails: Kostenanpassung](design-details-cost-adjustment.md) Eine Kostenregulierung verwendet die Posten in der Tabelle **Einst.-Pr. (durchschn.) Regul. Startzeitpunkt**, um zu ermitteln, für welche Artikel (oder Artikel, Lagerorte und Varianten) durchschnittliche Einstandspreise berechnet werden sollen. Für jeden Posten, der noch nicht reguliert wurde, geht die Einstandspreisregulierung wie folgt vor, um den durchschnittlichen Einstandspreis zu bestimmen:  
 
 -   Ermitteln des Einstandspreises des Artikels zu Beginn der Durchschnittskostenperiode.  
--   Hinzufügen der Summe der Wareneingangskosten, die während der Durchschnittskostenperiode gebucht wurden. Dazu gehören Einkäufe, Verkaufsreklamationen, Istmeldungen und Produktions- und Montageausstoß.  
+-   Hinzufügen der Summe der Wareneingangskosten, die während der Durchschnittskostenperiode gebucht wurden. Dazu gehören Einkäufe, Verkaufsreklamationen, Istmeldungen und Produktions- und Montageausstoss.  
 -   Subtrahieren der Summe der Kosten von ausgehenden Transaktionen, die in der Durchschnittskostenperiode fest auf Wareneingänge angewendet wurden. Diese können typischerweise Einkaufsreklamationen und negative Istmeldungen beinhalten.  
--   Dividiert durch die gesamte Lagerbestandsmenge für das Ende der Durchschnittskostenperiode, ausschließlich der Bestandsreduzierungen, die bewertet werden.  
+-   Dividiert durch die gesamte Lagerbestandsmenge für das Ende der Durchschnittskostenperiode, ausschliesslich der Bestandsreduzierungen, die bewertet werden.  
 
  Das Programm wendet diesen durchschnittlichen Einstandspreis dann mit den Buchungsdaten auf die Lagerabgänge für den Artikel (oder Artikel, Lagerort und Variante) an, die es in der Durchschnittskostenperiode gegeben hat. Wenn Bestandszunahmen vorhanden sind, die fest mit Bestandsminderungen in der Durchschnittskostenperiode verknüpft sind, werden die berechneten Durchschnittskosten von der Zunahme zur Minderung übertragen.  
 

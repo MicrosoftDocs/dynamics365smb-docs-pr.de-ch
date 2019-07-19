@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Verbindlichkeiten| Microsoft Docs
+title: Verwalten von Verbindlichkeiten Microsoft Docs
 description: Überblick darüber, wie Sie Verbindlichkeiten inklusive Kreditorenzahlungen, Gläubiger, Schulden und den fälligen Saldo verwalten.
 services: project-madeira
 documentationcenter: ''

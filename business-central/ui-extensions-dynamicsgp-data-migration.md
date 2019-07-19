@@ -59,4 +59,4 @@ Die letzte Option, die im Datenmigrationsassistenten für Dynamics GP angezeigt 
 
 ## <a name="see-also"></a>Siehe auch
 [Geschäftsdaten aus anderen Finanzsystemen migrieren](across-import-data-configuration-packages.md)  
-[Anpassen [!INCLUDE[prodshort](includes/prodshort.md)] Erweiterungen nutzenb](ui-extensions.md)  
+[Anpassen [!INCLUDE[prodshort](includes/prodshort.md)] Erweiterungen nutzen](ui-extensions.md)  

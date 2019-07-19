@@ -33,7 +33,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
  Das Planungsergebnis wird zum Teil aus den Bedarf-Bestand-Sätzen in der Datenbank und zum Teil durch die Einrichtung von Lagerhaltungsdatenkarten oder Artikelkarten, Fertigungsstücklisten und Arbeitsplänen berechnet.  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
- In dieser exemplarischen Vorgehensweise wird beschrieben, wie Sie das Beschaffungsplanungssystem verwenden, um alle Bestellungen und Fertigungsaufträge automatisch zu planen, die erforderlich sind, um 15 Tourenräder zu produzieren, die in verschiedenen Verkaufsaufträgen angefordert wurden. Um eine klare und realistische exemplarische Vorgehensweise zu bieten, wurde die Anzahl der Planungszeilen begrenzt, indem alle anderen Nachfrage-Angebots-Sätze im Demounternehmen CRONUS AG außer dem Verkaufsbedarf am Standort BLUE herausgefiltert wurden.  
+ In dieser exemplarischen Vorgehensweise wird beschrieben, wie Sie das Beschaffungsplanungssystem verwenden, um alle Bestellungen und Fertigungsaufträge automatisch zu planen, die erforderlich sind, um 15 Tourenräder zu produzieren, die in verschiedenen Verkaufsaufträgen angefordert wurden. Um eine klare und realistische exemplarische Vorgehensweise zu bieten, wurde die Anzahl der Planungszeilen begrenzt, indem alle anderen Nachfrage-Angebots-Sätze im Demounternehmen CRONUS AG ausser dem Verkaufsbedarf am Standort BLUE herausgefiltert wurden.  
 
  In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
@@ -56,7 +56,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
 ## <a name="story"></a>Hintergrund  
  Der Kunde, Möbel-Meller KG, bestellt fünf Rennräder mit Liefertermin am 05.02.2014 (5. Februar).  
 
- Jürgen, der Produktionsplaner, führt die routinemäßige Beschaffungsplanung für die erste Woche im Februar 2014 aus. Er filtert nach seinem eigenen Standort, BLAU, und gibt als Planungsintervall 01.03.2010 bis 05.03.2010 ein, bevor er den ersten Beschaffungsplan berechnet.  
+ Jürgen, der Produktionsplaner, führt die routinemässige Beschaffungsplanung für die erste Woche im Februar 2014 aus. Er filtert nach seinem eigenen Standort, BLAU, und gibt als Planungsintervall 01.03.2010 bis 05.03.2010 ein, bevor er den ersten Beschaffungsplan berechnet.  
 
  In dieser Woche ist nur für den Verkaufsauftrag der Möbel-Meller KG ein Bedarf vorhanden. Jürgen sieht, dass für keine der Planungszeilen Warnungen vorliegen, und fährt mit der Erstellung von Beschaffungsaufträgen für die vorgeschlagenen Planungszeilen ohne Änderungen fort.  
 
@@ -184,7 +184,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
 
      Der Seite **Planungselemente ohne Bedarfsverursacher** können Sie entnehmen, dass der Artikel 1150 einen Planungsparameter, Losgrössenrundungsfaktor von 2,00 verwendet, der angibt, dass der Artikel bestellt wird, er muss in eine Menge sein, die durch 2 teilbar ist. Die fünf am nächsten liegende durch zwei teilbare Zahl ist sechs.  
 
-     Das gleiche Auftrags-Tracking gilt für die Planungszeilen für die vorderen Hubkomponenten, Artikel 1151 und 1155, außer dass jeder Bedarf durch den Prozentsatzes des Ausschusses multipliziert wird, der für Artikel 1150 im Feld **Ausschuss Prozent** auf der Artikelkarte definiert ist.  
+     Das gleiche Auftrags-Tracking gilt für die Planungszeilen für die vorderen Hubkomponenten, Artikel 1151 und 1155, ausser dass jeder Bedarf durch den Prozentsatzes des Ausschusses multipliziert wird, der für Artikel 1150 im Feld **Ausschuss Prozent** auf der Artikelkarte definiert ist.  
 
  Damit ist die Analyse des anfänglichen Beschaffungsplans abgeschlossen. Beachten Sie, dass das Kontrollkästchen **Aktionsnachricht akzeptieren** in allen Planungszeilen aktiviert ist. Dadurch wird angegeben, dass sie nun in Beschaffungsaufträge übernommen werden können.  
 
@@ -207,7 +207,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
  Damit ist die erste Berechnung, Analyse und Erstellung eines Beschaffungsplans für den Bedarf am Standort BLAU in der ersten Februarwoche abgeschlossen. Im folgenden Abschnitt bestellt ein weiterer Kunde zehn Rennräder und Jürgen muss neu planen.  
 
 ## <a name="creating-a-net-change-plan"></a>Erstellen eines Änderungsplans  
- Am nächsten Tag (noch bevor Beschaffungsaufträge gestartet oder gebucht wurden) geht ein neuer Verkaufsauftrag von Libros S.A. für zehn Rennräder mit Liefertermin am 12.02.2014 ein. Jürgen wird über den neuen Bedarf benachrichtigt und beginnt mit der Neuplanung, um den aktuellen Beschaffungsplan anzupassen. Jürgen verwendet die Funktion "Änderungsplanung", um nur die Änderungen zu berechnen, die seit dem letzten Planungslauf am Bedarf oder Bestand vorgenommen wurden. Zudem verlängert er den Planungszeitraum bis zum 14. 02. 2014, um das zweite Bedarfsdatum (12.02.2014) einzuschließen.  
+ Am nächsten Tag (noch bevor Beschaffungsaufträge gestartet oder gebucht wurden) geht ein neuer Verkaufsauftrag von Libros S.A. für zehn Rennräder mit Liefertermin am 12.02.2014 ein. Jürgen wird über den neuen Bedarf benachrichtigt und beginnt mit der Neuplanung, um den aktuellen Beschaffungsplan anzupassen. Jürgen verwendet die Funktion "Änderungsplanung", um nur die Änderungen zu berechnen, die seit dem letzten Planungslauf am Bedarf oder Bestand vorgenommen wurden. Zudem verlängert er den Planungszeitraum bis zum 14. 02. 2014, um das zweite Bedarfsdatum (12.02.2014) einzuschliessen.  
 
  Das Planungssystem berechnet, wie der Bedarf für diese beiden identischen Produkte am besten gedeckt werden kann. Zu diesem Zweck werden einige Bestellungen und Fertigungsaufträge konsolidiert, andere Aufträge neu geplant und bei Bedarf neue Aufträge erstellt.  
 
@@ -234,7 +234,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
 
  Insgesamt werden 14 Planungszeilen erstellt. Beachten Sie, dass auf der ersten Planungszeile das Feld **Aktionsnachricht** **Neu** enthält, das Feld **Menge** 10 anzeigt, und das Feld **Fälligkeitsdatum** 12.02.2014 enthält. Diese neue Zeile für den obersten übergeordneten Artikel, 1001, Rennrad, wird erstellt, weil der Artikel ein Wiederbeschaffungsverfahren aus **Auftrag** verwendet, d.h., dass er in einer Eins-zu-Eins-Beziehung zu dem Bedarf geliefert werden muss, dem Verkaufsauftrag von zehn Stück.  
 
- Die nächsten beiden Planungszeilen enthalten die Fertigungsaufträge für die Rennradräder. Jede bestehende Menge von 5 im Feld **Originalmenge** wird mit 15 erhöht im Feld **Menge**. Beide Fertigungsaufträge haben unverändert Fälligkeitsdaten, wie im **Aktionsnachricht**-Feld, das **Menge ändern** enthält. Dies ist auch der Fall für die Planungszeile für Artikel 1300, außer seinem Losgrößenrundungsfaktor mit 10,00 Rundungen, der Nachfrageverfolgung von 15 Stück bis zu 20 Stück.  
+ Die nächsten beiden Planungszeilen enthalten die Fertigungsaufträge für die Rennradräder. Jede bestehende Menge von 5 im Feld **Originalmenge** wird mit 15 erhöht im Feld **Menge**. Beide Fertigungsaufträge haben unverändert Fälligkeitsdaten, wie im **Aktionsnachricht**-Feld, das **Menge ändern** enthält. Dies ist auch der Fall für die Planungszeile für Artikel 1300, ausser seinem Losgrössenrundungsfaktor mit 10,00 Rundungen, der Nachfrageverfolgung von 15 Stück bis zu 20 Stück.  
 
  Alle anderen Planungszeilen enthalten die Ereignismeldung **Neu berechnen & Menge ändern**. Das bedeutet, dass neben der Erhöhung der Menge die Fälligkeitsdaten in Bezug auf den Beschaffungsplan verschoben werden, damit die zusätzliche Menge in der verfügbaren Fertigungszeit (Kapazität) berücksichtigt wird. Eingekaufte Komponenten werden neu geplant und erhöht, um die Fertigungsaufträge zu erzeugen. Fahren Sie fort, um den neuen Plan zu analysieren.  
 

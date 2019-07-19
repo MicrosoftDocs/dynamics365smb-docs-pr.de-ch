@@ -53,7 +53,7 @@ Der Verteilercode definiert die Art oder die Kategorie der Gruppe, z. B. UMZUG f
 2. Wählen Sie die **Verteiler**-Aktion aus. Die Seite **Kontakt Verteiler** wird geöffnet.
 3. Wählen Sie im Feld **Verteilercode** den Verteiler aus, den Sie zuordnen möchten.
 
-Wiederholen Sie diese Schritte, um beliebig viele Verteiler einzurichten. Außerdem können Sie Verteiler auf die gleiche Art in dem Fenster Kontaktliste zuordnen.
+Wiederholen Sie diese Schritte, um beliebig viele Verteiler einzurichten. Ausserdem können Sie Verteiler auf die gleiche Art in dem Fenster Kontaktliste zuordnen.
 
 Die Anzahl der dem Kontakt zugeordneten Verteiler wird im Feld **Anzahl Verteiler** im Abschnitt **Segmentierung** auf der Seite **Kontaktkarte** angezeigt.
 
@@ -82,7 +82,7 @@ Der Verantwortlichkeitscode definiert die Art oder die Kategorie des Projekts (z
 2. Wählen Sie die **Person**-Aktion aus, und wählen Sie dann die **Verantwortlichkeiten**-Aktion aus. Die Seite **Kontakt Verantwortlichkeiten** wird geöffnet.
 3. Wählen Sie im Feld **Verantwortlichkeitscode** die Verantwortlichkeit aus, die Sie zuordnen möchten.
 
-Wiederholen Sie diese Schritte, um beliebig viele Verantwortlichkeiten zuzuordnen. Außerdem können Sie Verantwortlichkeiten auf die gleiche Art in der Kontaktliste zuordnen.
+Wiederholen Sie diese Schritte, um beliebig viele Verantwortlichkeiten zuzuordnen. Ausserdem können Sie Verantwortlichkeiten auf die gleiche Art in der Kontaktliste zuordnen.
 
 Die Anzahl der Verantwortlichkeiten, die Sie dem Kontakt zugeordnet haben, wird im Feld **Anzahl Verantwortlichkeit** im Inforegister **Segmentierung** auf der Seite **Kontakt** angezeigt.
 

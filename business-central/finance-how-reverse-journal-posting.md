@@ -28,7 +28,7 @@ Weitere Informationen zum Erfassen eines Fibu Erf.-Journals finden Sie unter [Tr
 
 Wenn Sie eine inkorrekte negative Mengenbuchung durchgeführt haben, das heisst, wenn Sie eine Einkaufsbestellung mit der falschen Artikelmenge erstellt und als Wareneingang gebucht (aber nicht fakturiert) haben, können Sie die Buchung umkehren.
 
-Wenn Sie eine inkorrekte positive Mengenbuchung durchgeführt haben, das heißt, wenn Sie einen Rückgabeauftrag mit der falschen Artikelmenge erstellt und als Warenausgang gebucht (aber nicht fakturiert) haben, können Sie die Buchung umkehren.   
+Wenn Sie eine inkorrekte positive Mengenbuchung durchgeführt haben, das heisst, wenn Sie einen Rückgabeauftrag mit der falschen Artikelmenge erstellt und als Warenausgang gebucht (aber nicht fakturiert) haben, können Sie die Buchung umkehren.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Um die Erf.-Jounral-Erfung eines Fibupostens zu annullieren
 Posten können in allen Seiten **Posten** storniert werden. Das folgende Verfahren basiert auf der Seite **Fibuposten**.

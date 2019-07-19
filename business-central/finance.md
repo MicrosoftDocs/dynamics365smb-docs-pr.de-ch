@@ -22,14 +22,14 @@ ms.locfileid: "1446982"
 # <a name="finance"></a>Finanzen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
 
-Die Standardkonfiguration enthält Kontenpläne und Standardbuchungsgruppen, die das Zuordnen von standardmäßigen Sachkontobuchungskonten zu Debitoren, Kreditoren und Artikeln effizienter gestalten.  
+Die Standardkonfiguration enthält Kontenpläne und Standardbuchungsgruppen, die das Zuordnen von standardmässigen Sachkontobuchungskonten zu Debitoren, Kreditoren und Artikeln effizienter gestalten.  
 
 In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
 
 | Aktion | Informationen |
 | --- | --- |
 | Ordnen Sie eingehende Zahlungen zu, stimmen Bankkonten während des Zahlungsausgleichs ab und erfassen Sie offene Salden. |[Verwalten von Forderungen](receivables-manage-receivables.md) |
-| Verarbeiten Sie Zahlungen, ordnen Sie ausgehende Zahlungen zu und bearbeiten Sie Schecks. |[Verwalten von Verbindlichkeiten|](payables-manage-payables.md) |
+| Verarbeiten Sie Zahlungen, ordnen Sie ausgehende Zahlungen zu und bearbeiten Sie Schecks. |[Verwalten von Verbindlichkeiten](payables-manage-payables.md) |
 |Lassen Sie Ihre Debitoren zahlen, bevor Sie liefern, oder machen Sie die Zahlung an Ihre Kreditoren, bevor diese an Sie liefern.|[Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)|
 | Stimmen Sie Bankkonten ab und transferieren Sie Beträge zwischen Bankkonten. |[Verwalten von Bankkonten](bank-manage-bank-accounts.md) |
 |Einrichten von Intercompanypartner und verarbeiten von Transaktionen, manuzell oder automatisch, zwischen juristischen Personen innerhalb derselben Mandanten.|[Intercompanytransaktionen verwalten](intercompany-manage.md)|
@@ -59,7 +59,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Finanzen einrichten](finance-setup-finance.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Schließen des Finanzzeitraums](year-close-years-periods.md)  
+[Schliessen des Finanzzeitraums](year-close-years-periods.md)  
 [Projekte verwalten](projects-manage-projects.md)    
 [Daten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  

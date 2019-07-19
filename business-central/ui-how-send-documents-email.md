@@ -38,7 +38,7 @@ Nachfolgend wird beschrieben, wie der Bericht **Verkaufsrechnung** für belegspe
 4. Wählen Sie das Kontrollkästchen **Für E-Mail-Text verwenden**.
 5. Wählen Sie das Feld **E-Mail-Text-Layout-Code** und wählen Sie ein Layout aus der Liste aus.
 
-    Berichtslayouts definieren das Format und den Inhalt des E-Mail-Texts, einschließlich den Standardtext, der den Kernbeleginformationen im E-Mail-Text vorangeht. Sie können alle verfügbaren Berichtslayouts sehen, wenn Sie die Schaltfläche **Aus vollständiger Liste auswählen** in der Liste auswählen.
+    Berichtslayouts definieren das Format und den Inhalt des E-Mail-Texts, einschliesslich den Standardtext, der den Kernbeleginformationen im E-Mail-Text vorangeht. Sie können alle verfügbaren Berichtslayouts sehen, wenn Sie die Schaltfläche **Aus vollständiger Liste auswählen** in der Liste auswählen.
 6. Um das Layout anzusehen oder zu bearbeiten, auf dem der E-Mail-Text basiert, gehen Sie zur Seite **Benutzerdefinierte Berichtslayouts** und wählen die Aktion **Layout bearbeiten** aus.
 7. Um Ihren Debitoren anzubieten, für Verkäufe unter Verwendung eines Zahlungsservice wie Paypal elektronisch zu bezahlen, können Sie die Paypal-Informationen und -Links auch in den E-Mail-Text einfügen. Weitere Informationen finden Sie unter [Aktivieren Sie Debitoren-Zahlung durch Paypal](sales-how-enable-payment-service-extensions.md)
 8. Wählen Sie die Schaltfläche **OK** aus.
@@ -54,7 +54,7 @@ Nachfolgend wird beschrieben, wie eine gebuchte Verkaufsrechnung als E-Mail mit 
 4. Wählen Sie die Schaltfläche **OK** aus. Die Seite **E-Mails senden** wird geöffnet.
 5. Im Feld **Zu** geben Sie eine gültige E-Mail-Adresse ein. Der Standardwert ist die E-Mail-Adresse des Debitors.
 6. Geben Sie im Feld **Betreff** einen beschreibenden Betreff ein. Der Standardwert ist der Debitorennamen und die Rechnungsnummer.
-7. Im Feld **Anhang** wird die generierte Rechnung standardmäßig als PDF\_Datei angehängt.
+7. Im Feld **Anhang** wird die generierte Rechnung standardmässig als PDF\_Datei angehängt.
 8. Geben Sie im **Nachrichtentext**-Feld eine kurze Mitteilung an den Empfänger ein.
 
     Wenn ein belegspezifischer E-Mail-Text auf der Seite **Berichts-Auswahl - Verkauf** eingerichtet wird, wird das Feld **Text** automatisch ausgefüllt. Weitere Informationen finden Sie unter [Einrichten eines belegspezifischen E-Mail-Texts für Verkaufsrechnungen](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).

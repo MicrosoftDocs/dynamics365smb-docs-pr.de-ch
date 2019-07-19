@@ -10,23 +10,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 04/01/2019
+ms.date: 06/25/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1c27575cd218b4f7c3ac5098eaca96d9ab9a4a1b
+ms.sourcegitcommit: 73e955b8fec819e5212b6ca7d8bfff42fe2d5eb8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246667"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702896"
 ---
-# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Einrichten des Diensts „Envestnet Yodlee Bank Feeds“
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Den Envestnet Yodlee Bank Feeds Service einrichten
 Sie können elektronische Bankauszüge von Ihrer Bank importieren, um die Seite **Zahlungsabstimmungserf.-Journal** schnell auszufüllen und so Zahlungen zu begleichen und das Bankkonto auszugleichen. Weitere Informationen finden Sie unter [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]
-> Der Dienst „Envestnet Yodlee Bank Feeds“ wird nur in der Onlineversion von Business Central unterstützt. Um diese Funktionalität lokal nutzen zu können, müssen Sie ein Co-Brand-Konto von Envestnet Yodlee erhalten.<br /><br />
-> Der Dienst „Envestnet Yodlee Bank Feeds“ wird nur in den USA, in Kanada und in Großbritannien unterstützt.
+> Der Envestnet Yodlee Bank Feeds Service wird nur in der Online-Version von Business Central unterstützt. Um diese Funktionalität lokal nutzen zu können, müssen Sie ein Co-Brand-Konto von Envestnet Yodlee erhalten.<br /><br />
+> Der Envestnet Yodlee Bank Feeds Service wird nur in den USA, in Kanada und in Grossbritannien unterstützt.
 
-Der Dienst „Envestnet Yodlee Bank Feeds“ wird als eine Erweiterung zum [!INCLUDE[d365fin](includes/d365fin_md.md)] online eingerichtet und steht zur Aktivierung in den unterstützten Ländern bereit. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-extensions.md) mithilfe der Erweiterungen .
+> [!IMPORTANT]
+> Wenden Sie sich an den Microsoft Support, um technische Unterstützung für die Envestnet Yodlee-Funktionalität zu erhalten. Wenden Sie sich nicht an Envestnet Yodlee. Weitere Informationen finden Sie unter [Konfigurieren des technischen Supports für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).
+
+Der Envestnet Yodlee Bank Feeds Service wird als eine Erweiterung zum [!INCLUDE[d365fin](includes/d365fin_md.md)] online eingerichtet und steht zur Aktivierung in den unterstützten Ländern bereit. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-extensions.md) mithilfe der Erweiterungen .
 
 Wenn Sie den Bankfeeddienst aktiviert haben, müssen Sie das beteiligte Bankkonto mit dem Onlinebankkonto verknüpfen, von dem der Feed stammt. In den folgenden unterschiedlichen Szenarios verknüpfen Sie Bankkonten mit Onlinebankkonten:
 
@@ -52,10 +55,10 @@ Der Bankfeeddienst wird aktiviert, wenn Sie ein Bankkonto mit den dazugehörigen
 
 ## <a name="to-create-a-new-linked-bank-account"></a>So erstellen Sie ein neues verknüpftes Bankkonto
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Bankkonten** ein, und wählen dann den zugehörigen Link aus.
-2. Wählen Sie das entsprechende Bankkonto aus, und wählen Sie dann **Neues verknüpftes Bankkonto erstellen**. auf der Seite **Bankkontenverknüpfung** wird nach wenigen Augenblicken geöffnet.
+2. Wählen Sie das entsprechende Bankkonto aus, und wählen Sie dann **Neues verknüpftes Bankkonto erstellen**. Die Seite **Bankkontenverknüpfung** wird nach wenigen Augenblicken geöffnet.
 
     > [!NOTE]  
-    > Diese Seite zeigt die tatsächliche Webseite des Diensts „Envestnet Yodlee Bank Feeds“ an. Die Terminologie und die Funktionen auf der Seite weichen möglicherweise von den Anweisungen ab, die in diesem Thema bereitgestellt werden.  
+    > Diese Seite zeigt die tatsächliche Webseite des Envestnet Yodlee Bank Feeds Service an. Die Terminologie und die Funktionen auf der Seite weichen möglicherweise von den Anweisungen ab, die in diesem Thema bereitgestellt werden.  
 3. Verwenden Sie die Suchfunktion auf der Seite **Onlinebankkonto-Verknüpfung** im Bereich **Konto verknüpfen**, um die Bank zu suchen, bei der Sie ein oder mehrere Onlinebankkonten haben.
 4. Wählen Sie den Banknamen aus. Der Bereich **Anmeldung** wird geöffnet.
 5. Geben Sie den Benutzernamen und das Kennwort, das Sie für die Ameldung bei der Onlinebank verwenden, an, und wählen Sie dann die Schaltfläche **Weiter** .  
@@ -122,5 +125,5 @@ Jede Stunde wird die Seite **Zahlungsabstimmungserf.-Journal** mit allen neuen Z
 [Einrichten von Banken](bank-setup-banking.md)  
 [Verwalten von Bankkonten](bank-manage-bank-accounts.md)  
 [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzenb](ui-extensions.md)  
+[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

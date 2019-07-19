@@ -1,5 +1,5 @@
 ---
-title: 'Vorgehensweise: Automatisches Teilen von Gebindeeinheiten mit gesteuerter Einlagerung und Kommissionierung | Microsoft Docs'
+title: Automatisches Teilen von Gebindeeinheiten mit gesteuerter Einlagerung und Kommissionierung | Microsoft Docs
 description: Bei Lagerorten, die die gesteuerte Einlagerung und Kommissionierung verwenden, können Sie eine grössere Einheit in kleinere Einheiten aufteilen, wenn Logistikanweisungen erstellt werden, die die Anforderungen von Herkunftsbelegen, Fertigungsaufträgen oder internen Einlagerungs- und Kommissionierungsanforderungen erfüllen.
 services: project-madeira
 documentationcenter: ''

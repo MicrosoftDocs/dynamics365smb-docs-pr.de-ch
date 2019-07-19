@@ -24,5 +24,5 @@ Unter [AppSource.microsoft.com](https://appsource.microsoft.com/) können Sie Er
 Die Liste der Erweiterungen durch andere Unternehmen wächst jeden Monat. Halten Sie Ausschau für [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) und holen Sie sich die Apps, die Ihnen die Arbeit in [!INCLUDE[d365fin](includes/d365fin_md.md)] vereinfachen.  
 
 ## <a name="see-also"></a>Siehe auch
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzenb](ui-extensions.md)  
+[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Erste Schritte](product-get-started.md)  

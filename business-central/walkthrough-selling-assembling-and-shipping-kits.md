@@ -27,7 +27,7 @@ Um eine Just-In-Time-Logistik sowie die Möglichkeit, Produkte an Debitorenanfra
 
 Es sind spezielle Funktionen vorhanden, um die Lieferung von Auftragsmontagemengen zu steuern, sowohl in einfachen als auch in erweiterten Lagerkonfigurationen. Wenn Arbeiter für montagefertige Teile oder für die gesamte Auftragsmontagemenge zuständig sind, erfassen sie diese im Feld **Zu liefernde Menge** in der Warenausgangszeile, in erweiterten Konfigurationen, und wählen dann **Warenausgang buchen**. Das Ergebnis ist, dass der entsprechende Montageausstoss, einschliesslich des zugehörigen Komponentenverbrauchs, gebucht wird und eine Verkaufslieferung für die Menge für den verknüpften Verkaufsauftrag gebucht wird. Diese Anleitung illustriert den erweiterten Lagerprozess.  
 
-In Basis-Lagerkonfigurationen bucht der zuständige Lagermitarbeiter für die jeweiligen Verkaufsauftragszeilen eine Lagerkommissionierung, wenn eine Auftragsmontagemenge für die Lieferung bereitsteht. Dies erstellt eine Lagerbestandsumlagerung für die Komponenten und bucht den Montageausstoß und die Verkaufsauftragslieferung. Weitere Informationen finden Sie unter [Verwenden von Auftragsmontageartikeln in Lagerkommissionierungen](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
+In Basis-Lagerkonfigurationen bucht der zuständige Lagermitarbeiter für die jeweiligen Verkaufsauftragszeilen eine Lagerkommissionierung, wenn eine Auftragsmontagemenge für die Lieferung bereitsteht. Dies erstellt eine Lagerbestandsumlagerung für die Komponenten und bucht den Montageausstoss und die Verkaufsauftragslieferung. Weitere Informationen finden Sie unter [Verwenden von Auftragsmontageartikeln in Lagerkommissionierungen](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
 In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
@@ -235,7 +235,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 4.  Wählen Sie die Verkaufsauftragszeile für drei Einheiten von Kit B.  
 5.  Wählen Sie auf dem Inforegister **Zeilen** **Zeile** aus, wählen Sie **Auftragsmontage**, und klicken Sie anschliessend auf **Auftragsmontagezeilen**.  
 6.  Auf der Seite **Programmfertigungszeilen** der Montageauftragszeile für Artikel 80014, geben Sie **2** im Feld **Komponentenmenge** ein.  
-7.  Auf der Montageauftragszeile für Artikel 80210, wählen Sie **Nr.** aus und klicken Sie anschließend auf Artikel 80209.  
+7.  Auf der Montageauftragszeile für Artikel 80210, wählen Sie **Nr.** aus und klicken Sie anschliessend auf Artikel 80209.  
 8.  Erstellen Sie eine neue Montageauftragszeile mit den folgenden Informationen.  
 
     |Art|Nr.|Komponentenmenge|  

@@ -57,11 +57,11 @@ Wenn Sie wiederkehrende Verkaufszeilen für den Debitor vorhanden sind, können 
 4. Auf der Seite **Wiederkehrende Verkaufszeilen** wählen Sie die Suchschaltfläche im Feld **Code**, und wählen einen Satz von Standardverkaufszeilen aus.
 
     > [!NOTE]
-    > Um wiederkehrenden die Verkaufszeilen zu verwenden, die bei der Stapelverarbeitung **Wiederkehrende Verkaufsrechnungen erstellen** festgelegt werden, müssen Sie die Felder **Gültig ab-Datum** und **Gültig bis-Datum** auf der Seite **Wiederkehrende Verkaufszeilen** ausfüllen. Weitere Informationen finden Sie unter [Vorgehensweise: Mehrere Verkaufsrechnungen auf der Grundlage von Standardverkaufscodes erstellen](sales-how-work-standard-lines.md#to-create-multiple-sales-invoices-based-on-standard-sales-lines)
+    > Um wiederkehrenden die Verkaufszeilen zu verwenden, die bei der Stapelverarbeitung **Wiederkehrende Verkaufsrechnungen erstellen** festgelegt werden, müssen Sie die Felder **Gültig ab-Datum** und **Gültig bis-Datum** auf der Seite **Wiederkehrende Verkaufszeilen** ausfüllen. Weitere Informationen finden Sie unter [Mehrere Verkaufsrechnungen auf der Grundlage von Standardverkaufscodes erstellen](sales-how-work-standard-lines.md#to-create-multiple-sales-invoices-based-on-standard-sales-lines)
 
 5. Wählen Sie die Schaltfläche **OK**, um die Standardverkaufszeilen in die Rechnung einzufügen, in die Sie Informationen verwenden ist beim oder bearbeiten können.
 
-## <a name="to-create-multiple-sales-invoices-based-on-standard-sales-lines"></a>Vorgehensweise: Mehrere Verkaufsrechnungen auf der Grundlage von Standardverkaufscodes erstellen
+## <a name="to-create-multiple-sales-invoices-based-on-standard-sales-lines"></a>Mehrere Verkaufsrechnungen auf der Grundlage von Standardverkaufscodes erstellen
 Sie können mit der Stapelverarbeitung **Wiederkehrende Verkaufsrechnungen erstellen** die Verkaufsrechnungen gemäss Standardverkaufscodes erstellen, die den Debitoren zugeordnet sind und Buchungsdaten enthalten, die innerhalb der Gültigkeitszeiträume liegen, die Sie im Standardverkaufscode festgelegt haben.
 
 > [!NOTE]

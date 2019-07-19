@@ -60,7 +60,7 @@ Wenn Sie einen Zonenparameter ändern, werden alle Lagerplätze, die von diesem 
 > [!NOTE]  
 >  Wenn Sie ohne Zonen arbeiten möchten, müssen Sie dennoch eine Zone erstellen, die ausser für den Code undefiniert ist.  
 
-Der nächste Schritt beim Einrichten des Lagers ist die Definition von Lagerplätzen. Weitere Informationen finden Sie unter [Vorgehensweise: Lagerorte für die Verwendung von Lagerplätzen einrichten](warehouse-how-to-set-up-locations-to-use-bins.md).  
+Der nächste Schritt beim Einrichten des Lagers ist die Definition von Lagerplätzen. Weitere Informationen finden Sie unter [Lagerorte für die Verwendung von Lagerplätzen einrichten](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
 Darüber hinaus müssen Sie Einlagerungsvorlagen und Inventurhäufigkeiten erstellen. Weitere Informationen finden Sie unter [Einrichten von Aktivitätvorlagen](warehouse-how-to-set-up-put-away-templates.md).  
 

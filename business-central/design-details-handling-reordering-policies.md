@@ -32,7 +32,7 @@ Feste Bestellmenge und Höchstmenge, Richtlinien für die Bestandsplanung. Obwoh
 ## <a name="the-role-of-the-reorder-point"></a>Die Rolle des Meldebestands
 Zusätzlich zur allgemeinen Anpassung von Angebot und Nachfrage muss das Planungssystem auch Lagerbestände für die betroffenen Artikel überwachen, um die definierten Wiederbeschaffungsverfahren zu berücksichtigen.  
 
-Ein Minimalbestand repräsentiert den Bedarf während der Beschaffungszeit. Wenn die Durchläufe des voraussichtlichen Lagerstatus unter den Lagerbestand gerät, der durch den Minimalbestand definiert ist, muss eine grössere Menge bestellt werden. Unterdessen schrumpft der Lagerbestand erfahrungsgemäß schrittweise und erreicht wahrscheinlich den Punkt Null (oder den Sicherheitsbestand), bis der Vorrat aufgestockt wird.  
+Ein Minimalbestand repräsentiert den Bedarf während der Beschaffungszeit. Wenn die Durchläufe des voraussichtlichen Lagerstatus unter den Lagerbestand gerät, der durch den Minimalbestand definiert ist, muss eine grössere Menge bestellt werden. Unterdessen schrumpft der Lagerbestand erfahrungsgemäss schrittweise und erreicht wahrscheinlich den Punkt Null (oder den Sicherheitsbestand), bis der Vorrat aufgestockt wird.  
 
 Entsprechend schlägt das Planungssystem einen vorwärtsgeplanten Beschaffungsauftrag an dem Zeitpunkt vor, an dem der geplante Bestand unter den Minimalbestand sinkt.  
 
@@ -45,7 +45,7 @@ Der Bestand ist eine Art Vorrat, jedoch für Bestandsplanung unterscheidet das P
 * Voraussichtlich verfügbarer Lagerbestand  
 
 ### <a name="projected-inventory"></a>Voraussichtlicher Lagerbestand  
-Zuerst ist der voraussichtliche Lagerbestand die Menge des Bruttobestands, einschließlich Vorrat und Bedarf in der Vergangenheit (selbst wenn nicht gebucht), wenn der Planungsprozess gestartet wird. Zukünftig wird dies eine bewegliche Ebene des voraussichtlichen Bestands sein, die durch Brutto-Mengen aus künftigem Vorrat und Bedarf verwaltet wird, da diese entlang der Zeitachse eingeführt werden (ob reserviert oder auf andere Weise zugewiesen).  
+Zuerst ist der voraussichtliche Lagerbestand die Menge des Bruttobestands, einschliesslich Vorrat und Bedarf in der Vergangenheit (selbst wenn nicht gebucht), wenn der Planungsprozess gestartet wird. Zukünftig wird dies eine bewegliche Ebene des voraussichtlichen Bestands sein, die durch Brutto-Mengen aus künftigem Vorrat und Bedarf verwaltet wird, da diese entlang der Zeitachse eingeführt werden (ob reserviert oder auf andere Weise zugewiesen).  
 
 Der voraussichtliche Lagerbestand wird vom Planungssystem verwendet, um den Minimalbestand zu überwachen und um die Wiederbeschaffungsmenge zu bestimmen, wenn die Wiederbeschaffungsrichtlinie „Höchstmenge“ verwendet wird.  
 
@@ -79,11 +79,11 @@ Nachfolgend wird eine graphische Illustration dieses Prinzips gezeigt:
 
 4. Der nächste Vorrat **Sb** von 2 (ein anderer Auftrag) wurdet bereits in die Zeitachse platziert.  
 5. Das System prüft, ob es eine Minderungserinnerung gibt, die **Sb** vorangeht (dies ist nicht der Fall, daher keine Aktion).  
-6. Das System schließt Vorrat **Sb** (kein Bedarf mehr vorhanden) - entweder A: durch Reduzierung auf 0 (Stornieren) oder B: durch unverändert lassen.  
+6. Das System schliesst Vorrat **Sb** (kein Bedarf mehr vorhanden) - entweder A: durch Reduzierung auf 0 (Stornieren) oder B: durch unverändert lassen.  
 
      Dadurch wird der voraussichtliche Lagerbestand erhöht (A: +0 => +4 oder B: +2 = +6).  
 
-7. Das System führt eine abschließende Prüfung durch: Gibt es eine Minderungserinnerung? Ja, es gibt eine am Datum **Da**  
+7. Das System führt eine abschliessende Prüfung durch: Gibt es eine Minderungserinnerung? Ja, es gibt eine am Datum **Da**  
 8. Die Anwendung fügt die Minderungserinnerung -3 in der Ebene des voraussichtlichen Lagerbestands hinzu, entweder A: +4 -3 = 1 oder B: +6 -3 = +3.  
 9. Im Falle von A erstellt das System eine vorausplanende Bestellung ab Datum **Da**.  
 
@@ -187,9 +187,9 @@ In diesem Szenario ändert ein Debitor einen Verkaufsauftrag von 70 zu 40 Stück
 >  Ohne die Sammelfunktion werden keine Warnmeldungen erstellt, wenn der voraussichtliche Lagerbestand über Maximalbestand ist. Dies kann einen überflüssigen Vorrat von 30 verursachen.
 
 ## <a name="handling-projected-negative-inventory"></a>Bestandvoraussichtlich negativ behandeln
-Der Minimalbestand drückt den voraussichtlichen Bedarf während der Beschaffungszeit des Artikels aus. Wenn der Minimalbestand überschritten wird, ist es an der Zeit, mehr zu bestellen. Der voraussichtliche Lagerbestand muss jedoch groß genug sein, um den Bedarf zu decken, bis der neue Auftrag eingegangen ist. Unterdessen gleicht der Sicherheitsbestand Schwankungen im Bedarf bis zu einem anvisierten Servicelevel aus.  
+Der Minimalbestand drückt den voraussichtlichen Bedarf während der Beschaffungszeit des Artikels aus. Wenn der Minimalbestand überschritten wird, ist es an der Zeit, mehr zu bestellen. Der voraussichtliche Lagerbestand muss jedoch gross genug sein, um den Bedarf zu decken, bis der neue Auftrag eingegangen ist. Unterdessen gleicht der Sicherheitsbestand Schwankungen im Bedarf bis zu einem anvisierten Servicelevel aus.  
 
- Deshalb betrachtet das Planungssystem es als einen Notfall, wenn ein zukünftiger Bedarf nicht aus dem voraussichtlichen Lagerbestand abgedeckt werden kann, oder anders ausgedrückt: wenn der voraussichtliche Lagerbestand negativ wird. Die Anwendung behandelt eine solche Ausnahme, indem es einen neuen Beschaffungsauftrag vorschlägt, um den Teil des Bedarf einzuhalten, der nicht durch Lagerbestand oder anderen Vorrat befriedigt werden kann. Die Auftragsgröße des neuen Beschaffungsauftrags berücksichtigt nicht den Höchstbestand oder die Wiederbeschaffungsmenge, und auch nicht die Auftragsmodifikatoren maximale Auftragsmenge, minimale Auftragsmenge und Auftragsvielfaches. Stattdessen spiegelt sie den genauen Mangel wider.  
+ Deshalb betrachtet das Planungssystem es als einen Notfall, wenn ein zukünftiger Bedarf nicht aus dem voraussichtlichen Lagerbestand abgedeckt werden kann, oder anders ausgedrückt: wenn der voraussichtliche Lagerbestand negativ wird. Die Anwendung behandelt eine solche Ausnahme, indem es einen neuen Beschaffungsauftrag vorschlägt, um den Teil des Bedarf einzuhalten, der nicht durch Lagerbestand oder anderen Vorrat befriedigt werden kann. Die Auftragsgrösse des neuen Beschaffungsauftrags berücksichtigt nicht den Höchstbestand oder die Wiederbeschaffungsmenge, und auch nicht die Auftragsmodifikatoren maximale Auftragsmenge, minimale Auftragsmenge und Auftragsvielfaches. Stattdessen spiegelt sie den genauen Mangel wider.  
 
  Die Planungszeile für diese Art von Beschaffungsauftrag zeigt ein Notwarnsymbol an , und zusätzliche Informationen werden beim Lookup angezeigt, um den Benutzer über die Situation zu informieren..  
 
@@ -209,7 +209,7 @@ Der Minimalbestand drückt den voraussichtlichen Bedarf während der Beschaffung
 6.  Das neue Vorrat **D** wird geschlossen.  
 7.  Voraussichtlicher Lagerbestand wird geprüft; Minimalbestand wurde nicht überschritten.  
 8.  Vorrat **C** ist geschlossen (kein Bedarf mehr vorhanden).  
-9. Abschließende Prüfung: Keine ausstehenden Erinnerungen auf Bestandsebene sind vorhanden.  
+9. Abschliessende Prüfung: Keine ausstehenden Erinnerungen auf Bestandsebene sind vorhanden.  
 
 > [!NOTE]  
 >  Schritt 4 zeigt, wie das System in Versionen vor Microsoft Dynamics NAV 2009 SP1 reagiert.  
@@ -233,7 +233,7 @@ Bevor ein neuer Beschaffungsauftrag gemacht wird, um einen Minimalbestand einzuh
 Beschaffungsaufträge, die speziell erstellt werden, um einen Minimalbestand zu erfüllen, werden aus dem normalen Vorratsausgleich ausgeschlossen und werden auch nachher in keiner Weise geändert. Deshalb gilt: Wenn ein Artikel mithilfe des Minimalbestands abgewickelt werden soll (d.h. nicht mehr aufgefüllt wird), sollten Sie ausstehende Beschaffungsaufträge manuell überprüfen oder die Wiederbeschaffungsrichtlinie Charge für Charge ändern, wodurch das System überflüssigen Vorrat reduziert oder storniert.  
 
 #### <a name="combines-with-order-modifiers"></a>Wird mit anderen Auftragsmodifizierern kombiniert  
-Die Auftragsmodifikatoren minimale Auftragsmenge, maximale Auftragsmenge und Auftragsvielfaches sollten keine große Rolle spielen, wenn die feste Nachbestellungsmengenrichtlinie verwendet wird. Das Planungssystem berücksichtigt jedoch diese Modifizierer und vermindert die Menge auf die angegebene Auftragshöchstmenge (und erstellt zwei oder mehr Vorräte, um die Gesamtauftragsmenge zu erreichen), erhöht den Auftrag auf die angegebene Auftragsmindestmenge oder rundet die Auftragsmenge auf, um ein angegebenes Auftragsvielfaches zu erreichen.  
+Die Auftragsmodifikatoren minimale Auftragsmenge, maximale Auftragsmenge und Auftragsvielfaches sollten keine grosse Rolle spielen, wenn die feste Nachbestellungsmengenrichtlinie verwendet wird. Das Planungssystem berücksichtigt jedoch diese Modifizierer und vermindert die Menge auf die angegebene Auftragshöchstmenge (und erstellt zwei oder mehr Vorräte, um die Gesamtauftragsmenge zu erreichen), erhöht den Auftrag auf die angegebene Auftragsmindestmenge oder rundet die Auftragsmenge auf, um ein angegebenes Auftragsvielfaches zu erreichen.  
 
 #### <a name="combines-with-calendars"></a>Zusammenfassen mit Kalendern  
 Bevor ein neuer Beschaffungsauftrag vorgeschlagen wird, einen Minimalbestand einzuhalten, überprüft das Planungssystem, ob der Auftrag für einen nicht freien Tag entsprechend dem Kalender geplant ist, die im Feld **Basiskalendercode** auf den Seiten **Firmendaten** und **Lagerortkarten** festgelegt werden.  

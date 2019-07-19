@@ -34,7 +34,7 @@ Wenn das Kontrollkästchen **Autom. Versicherungsbuchung** auf der Seite **Anlag
 Nachdem Sie eine Anlage einer Versicherungspolice zugewiesen haben, wird das Kontrollkästchen **Versichert** auf der Anlagenkarte aktiviert. Wenn Sie die Anlage verkaufen, wird das Kontrollkästchen automatisch deaktiviert.
 
 ## <a name="to-create-or-modify-an-insurance-card"></a>So erstellen oder ändern Sie eine Versicherungskarte
-Eine Versicherungspolice für eine Anlage muß durch eine Versicherungskarte angezeigt werden.
+Eine Versicherungspolice für eine Anlage muss durch eine Versicherungskarte angezeigt werden.
 
 Wenn Sie Informationen über Änderungen in der Deckungssumme erhalten, müssen Sie diese in der **Versicherungskarte**aktualisieren, um sicherzustellen, dass die Versicherungsdeckung korrekt angezeigt wird.  
 

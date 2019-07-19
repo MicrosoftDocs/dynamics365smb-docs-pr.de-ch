@@ -36,7 +36,7 @@ Sie können Workflows einrichten und verwenden, die Geschäftsprozessaufgaben vo
 |**Aufgabe**|**Informationen**|  
 |------------|-------------|  
 |Richten Sie Workflowbenutzer ein, geben Sie an, wie Benutzer benachrichtigt werden, und erstellen Sie neue Workflows. Implementieren Sie für neue Workflow für nicht unterstützte Szenarien die erforderlichen Workflowelemente, indem Sie den Anwendungscode anpassen.|[Einrichten von Workflows](across-set-up-workflows.md)|  
-|Aktivieren Sie Workflows, reagieren Sie auf Workflowbenachrichtigungen, einschließlich Anfragegenehmigungen und genehmigen Sie Anforderungen, um einen Workflowschritt auszuführen. Archivieren und löschen Sie Workflows.|[Verwenden von Workflows](across-use-workflows.md)|  
+|Aktivieren Sie Workflows, reagieren Sie auf Workflowbenachrichtigungen, einschliesslich Anfragegenehmigungen und genehmigen Sie Anforderungen, um einen Workflowschritt auszuführen. Archivieren und löschen Sie Workflows.|[Verwenden von Workflows](across-use-workflows.md)|  
 
 ## <a name="see-also"></a>Siehe auch  
 [Verkauf](sales-manage-sales.md)  

@@ -22,7 +22,7 @@ ms.locfileid: "1447097"
 # <a name="managing-interactions"></a>Interaktionen verwalten
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] versteht man unter Aktivitäten alle Arten der Kommunikation zwischen Ihrem Unternehmen und Ihren Kontakten. Kommunikationen können zum Beispiel per Brief, E-Mail, Telefon, Besprechungen usw. erfolgen.
 
-Sie können alle Aktivitäten, die Sie mit Ihren Kontakten durchführen, speichern, um die Verkaufs- und Marketingmaßnahmen überblicken zu können, die Sie gegenüber Ihren Kontakten unternommen haben, um zukünftige Geschäftsaktivitäten mit ihnen zu verbessern.
+Sie können alle Aktivitäten, die Sie mit Ihren Kontakten durchführen, speichern, um die Verkaufs- und Marketingmassnahmen überblicken zu können, die Sie gegenüber Ihren Kontakten unternommen haben, um zukünftige Geschäftsaktivitäten mit ihnen zu verbessern.
 
 In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert
 

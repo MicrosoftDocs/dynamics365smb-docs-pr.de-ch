@@ -27,7 +27,7 @@ Der Bestand ist eine Art Vorrat, jedoch für Bestandsplanung unterscheidet das P
 * Voraussichtlich verfügbarer Lagerbestand  
 
 ## <a name="projected-inventory"></a>Voraussichtlicher Lagerbestand  
-Zuerst ist der voraussichtliche Lagerbestand die Menge des Bruttobestands, einschließlich Vorrat und Bedarf in der Vergangenheit (selbst wenn nicht gebucht), wenn der Planungsprozess gestartet wird. Zukünftig wird dies eine bewegliche Ebene des voraussichtlichen Bestands sein, die durch Brutto-Mengen aus künftigem Vorrat und Bedarf verwaltet wird, da diese entlang der Zeitachse eingeführt werden (ob reserviert oder auf andere Weise zugewiesen).  
+Zuerst ist der voraussichtliche Lagerbestand die Menge des Bruttobestands, einschliesslich Vorrat und Bedarf in der Vergangenheit (selbst wenn nicht gebucht), wenn der Planungsprozess gestartet wird. Zukünftig wird dies eine bewegliche Ebene des voraussichtlichen Bestands sein, die durch Brutto-Mengen aus künftigem Vorrat und Bedarf verwaltet wird, da diese entlang der Zeitachse eingeführt werden (ob reserviert oder auf andere Weise zugewiesen).  
 
 Der voraussichtliche Lagerbestand wird vom Planungssystem verwendet, um den Minimalbestand zu überwachen und um die Wiederbeschaffungsmenge zu bestimmen, wenn die Wiederbeschaffungsrichtlinie „Höchstmenge“ verwendet wird.  
 
@@ -61,11 +61,11 @@ Nachfolgend wird eine graphische Illustration dieses Prinzips gezeigt:
 
 4. Der nächste Vorrat **Sb** von 2 (ein anderer Auftrag) wurdet bereits in die Zeitachse platziert.  
 5. Das System prüft, ob es eine Minderungserinnerung gibt, die **Sb** vorangeht (dies ist nicht der Fall, daher keine Aktion).  
-6. Das System schließt Vorrat **Sb** (kein Bedarf mehr vorhanden) - entweder A: durch Reduzierung auf 0 (Stornieren) oder B: durch unverändert lassen.  
+6. Das System schliesst Vorrat **Sb** (kein Bedarf mehr vorhanden) - entweder A: durch Reduzierung auf 0 (Stornieren) oder B: durch unverändert lassen.  
 
      Dadurch wird der voraussichtliche Lagerbestand erhöht (A: +0 => +4 oder B: +2 = +6).  
 
-7. Das System führt eine abschließende Prüfung durch: Gibt es eine Minderungserinnerung? Ja, es gibt eine am Datum **Da**  
+7. Das System führt eine abschliessende Prüfung durch: Gibt es eine Minderungserinnerung? Ja, es gibt eine am Datum **Da**  
 8. Die Anwendung fügt die Minderungserinnerung -3 in der Ebene des voraussichtlichen Lagerbestands hinzu, entweder A: +4 -3 = 1 oder B: +6 -3 = +3.  
 9. Im Falle von A erstellt das System eine vorausplanende Bestellung ab Datum **Da**.  
 

@@ -39,7 +39,7 @@ Sie können Buchungsgruppen verwenden, um Gruppen von Anlagen zu definieren. Pos
 Weitere Informationen zur Verwendung der Aktion **Anlagengegenkonto einfügen** in den Anlagen Fibu Erfassungsjournalzeilen finden Sie beispielsweise unter [So geht's: Neubewerten von Anlagen](fa-how-revalue.md).
 
 ## <a name="to-set-up-fixed-asset-allocation-keys"></a>So richten Sie Anlagenverteilungsschlüssel ein
-Transaktionen können auf verschiedene Kostenstellen und/oder Kostenträger verteilt werden, abhängig von benutzerdefinierten Verteilungsschlüsseln. Sie können z. B. einen Umlageschlüssel einrichten, um die Abschreibungsbeträge von Autos zu 35 Prozent auf die Verwaltung und zu 65 Prozent auf den Verkauf zu verteilen. Weitere Informationen finden Sie unter [Vorgehensweise: Kosten und Einnahmen zuweisen](year-allocate-costs-income.md)
+Transaktionen können auf verschiedene Kostenstellen und/oder Kostenträger verteilt werden, abhängig von benutzerdefinierten Verteilungsschlüsseln. Sie können z. B. einen Umlageschlüssel einrichten, um die Abschreibungsbeträge von Autos zu 35 Prozent auf die Verwaltung und zu 65 Prozent auf den Verkauf zu verteilen. Weitere Informationen finden Sie unter [Kosten und Einnahmen zuweisen](year-allocate-costs-income.md)
 
 Verteilungsschlüssel gelten für feste Anlagenklassen, nicht für einzelne Anlagen.
 

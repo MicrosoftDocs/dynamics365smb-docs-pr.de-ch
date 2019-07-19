@@ -34,7 +34,7 @@ Daher muss ein Produktionsbetrieb, abgesehen von regulären Lagerkonten, drei ve
 
 |Lagerkonto|Description|  
 |-----------------------|---------------------------------------|  
-|**Rohmaterialkonto**|Schließt die Kosten des Rohmaterials ein, das gekauft wurde, aber noch nicht der Produktion übertragen wurde. Der Saldo im Rohmaterialkonto gibt die Kosten des Rohmaterials im Lagerbestand an.<br /><br /> Wenn Rohmaterial in der Produktionsabteilung erstellt werden, werden die Kosten der Materialien vom Rohmaterialkonto in das Unf.-Arbeit-Konto übertragen.|  
+|**Rohmaterialkonto**|Schliesst die Kosten des Rohmaterials ein, das gekauft wurde, aber noch nicht der Produktion übertragen wurde. Der Saldo im Rohmaterialkonto gibt die Kosten des Rohmaterials im Lagerbestand an.<br /><br /> Wenn Rohmaterial in der Produktionsabteilung erstellt werden, werden die Kosten der Materialien vom Rohmaterialkonto in das Unf.-Arbeit-Konto übertragen.|  
 |**Konto für nicht abgeschlossene Arbeit**|Akkumuliert die Kosten, die während der Produktion in der Buchhaltungsperiode anfallen. Das Unf.-Arbeit-Konto wird für die Kosten von Rohmaterialien, die aus dem Rohmateriallager übertragen werden, die Kosten der direkten durchgeführten Arbeit und die anfallenden Produktionsgemeinkosten belastet.<br /><br /> Das Unf.-Arbeit-Konto wird für die Gesamtproduktionskosten der Einheiten gutgeschrieben, die in der Fabrik abgeschlossen und zum Fertigartikel-Lager umgelagert werden.|  
 |**Fertigerzeugniswarenkonto**|Dieses Konto umfasst die Gesamtproduktionskosten der Einheiten, die abgeschlossen, aber noch nicht verkauft wurden. Zum Zeitpunkt des Verkaufs werden die Kosten der verkauften Einheiten vom Fertigerzeugniswarenkonto zum Wareneinsatzkonto übertragen.|  
 
@@ -95,7 +95,7 @@ Die tatsächlichen Kosten eines Fertigungsauftrags bestehen aus den folgenden Ko
 -   Tatsächliche Kapazitätskosten oder Fremdarbeiterkosten  
 -   Produktionsgemeinkosten  
 
-Diese Ist-Kosten werden im Produktionsauftrag gebucht und mit den Standardkosten verglichen, um Abweichungen zu berechnen. Abweichungen werden für jeden der Artikelkostenkomponenten berechnet: Rohmaterial, Kapazität, Zuliefereraufwand, Kapazitätsgemeinkosten und Produktionsgemeinkosten. Die Abweichungen können analysiert werden, um Probleme, wie übermäßigen Abfall bei Fertigung zu ermitteln.  
+Diese Ist-Kosten werden im Produktionsauftrag gebucht und mit den Standardkosten verglichen, um Abweichungen zu berechnen. Abweichungen werden für jeden der Artikelkostenkomponenten berechnet: Rohmaterial, Kapazität, Zuliefereraufwand, Kapazitätsgemeinkosten und Produktionsgemeinkosten. Die Abweichungen können analysiert werden, um Probleme, wie übermässigen Abfall bei Fertigung zu ermitteln.  
 
 In Standard-Kostenumgebungen basiert die Kalkulation eines Fertigungsauftrags auf dem folgenden Mechanismus:  
 

@@ -47,7 +47,7 @@ Die Seite **Lager – Sachpostenabstimmung** ermöglicht Folgendes:
 - Gibt Aufschluss über die Gründe für Abstimmungsdifferenzen in Form von Informationsmeldungen.
 
 
-In der Spalte **Name** (am äußerst linken Rand des Gitters) werden die verschiedenen Fibukontoarten angezeigt, die mit Lagerbestand verknüpft sind.
+In der Spalte **Name** (am äusserst linken Rand des Gitters) werden die verschiedenen Fibukontoarten angezeigt, die mit Lagerbestand verknüpft sind.
 
 Die Spalten **Lagerbestand**, **Lager (Interim)** und **Aktiviert Lager** enthalten die fakturierten, nicht fakturierten und WIP-Summen jeder Fibukontoart. Diese werden aus Wertposten berechnet, d.h., sie werden auf die Fibukontoarten übertragen, auf denen sie sich nach dem Buchen in die Finanzbuchhaltung befinden.
 

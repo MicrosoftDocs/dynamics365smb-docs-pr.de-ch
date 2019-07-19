@@ -30,7 +30,7 @@ In der neuesten Version von  machen wir es Ihnen ganz einfach, Ihren externen Bu
 ![Ihren Buchhalter einladen](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
->  Dies setzt voraus, dass Sie SMPT-E-Mail eingerichtet haben. Dies können Sie selbst machen, oder Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)]-Partner darum bitten. Zudem müssen als [!INCLUDE[d365fin](includes/d365fin_md.md)] Benutzeradministrator, nicht als der Geschäftsinhaber oder andere Benutzer angemeldet sind. Schließlich müssen Sie das Testunternehmen verlassen haben, sodass Sie einen Azure Active Directory-Administrator haben.  
+>  Dies setzt voraus, dass Sie SMPT-E-Mail eingerichtet haben. Dies können Sie selbst machen, oder Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)]-Partner darum bitten. Zudem müssen als [!INCLUDE[d365fin](includes/d365fin_md.md)] Benutzeradministrator, nicht als der Geschäftsinhaber oder andere Benutzer angemeldet sind. Schliesslich müssen Sie das Testunternehmen verlassen haben, sodass Sie einen Azure Active Directory-Administrator haben.  
 
 > [!IMPORTANT]  
 > Die E-Mail-Adresse des Buchhalters muss eine Arbeitsadresse sein, die auf Azure Active Directory basiert. Wenn der Buchhalter eine andere Art von E-Mail verwendet, kann die Einladung nicht gesendet werden.  

@@ -1,5 +1,5 @@
 ---
-title: 'Vorgehensweise: Arbeiten mit Stücklisten| Microsoft Docs'
+title: Arbeiten mit Stücklisten| Microsoft Docs
 description: Sie erstellen eine Montagestückliste oder eine Fertigungsstückliste, um die Komponenten und Ressourcen anzuzeigeb, die benötigt werden, um den Artikel zusammenzufügen, die die Stückliste darstellt.
 documentationcenter: ''
 author: SorenGP
@@ -73,7 +73,7 @@ Das folgende Verfahren basiert auf einer Verkaufsrechnung. Die gleichen Schritte
 2. Öffnen Sie eine Verkaufsrechnung, die eine Zeile für einen Montageartikel enthält.
 3. Wählen Sie die Zeile für einen Montageartikel und dann **Stückliste entfalten** Zeilenaktion aus.
 
-Alle Felder in der Verkaufsrechnungszeile für den Montageartikel werden außer für den **Artikel** **Beschreibung** gelöscht. Vollständige Verkaufsrechnungszeilen werden für die Komponenten und möglichen Ressourcen eingefügt, aus denen der Montageartikel besteht.
+Alle Felder in der Verkaufsrechnungszeile für den Montageartikel werden ausser für den **Artikel** **Beschreibung** gelöscht. Vollständige Verkaufsrechnungszeilen werden für die Komponenten und möglichen Ressourcen eingefügt, aus denen der Montageartikel besteht.
 
 **Hinweis**: Die entfaltete Stücklistenfunktion ist auf der Seite **Montagestückliste** verfügbar.
 

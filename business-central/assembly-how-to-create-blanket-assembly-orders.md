@@ -1,6 +1,6 @@
 ---
 title: 'Vorgehensweise: Erstellen von Montageaufträgen| Microsoft Docs'
-description: Erstellen Sie Rahmenaufträge für benutzerdefinierte Montageartikel, bevor Sie die tatsächlichen Verkaufsaufträge in regelmäßigen Abständen entsprechend der Rahmenbestellung erstellen.
+description: Erstellen Sie Rahmenaufträge für benutzerdefinierte Montageartikel, bevor Sie die tatsächlichen Verkaufsaufträge in regelmässigen Abständen entsprechend der Rahmenbestellung erstellen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -37,7 +37,7 @@ Sie können Montageverwaltung verwenden, um einen Montageartikel auf Anforderung
 
 4. Wählen Sie auf dem Inforegister Zeilen die Option **Auftragsmontage** aus, und wählen Sie dann **Auftragsmontagezeilen**. Wählen Sie das Feld **Menge für Auftragsmontage** aus.  
 5. Prüfen und ändern Sie bei Bedarf im Fenster **Auftragsmontagezeilen** die Auftragsmontagezeilen entsprechend der Rahmenauftragsvereinbarung, die Sie mit dem Debitor getroffen haben. Wenn Sie weitere Informationen wünschen, wählen Sie die Aktion **Beleg anzeigen**, um den vollständigen Rahmenangebotsauftrag zu öffnen. Sie können den Inhalt der meisten Felder nicht ändern, und Sie können nicht buchen.  
-6. Wenn Sie die Montageauftragszeilen entsprechend der Rahmenauftragsvereinbarung angepasst haben, schließen Sie das Fenster **Auftragsmontagezeilen**, um zum Fenster **Rahmenauftrag** zurückzukehren.  
+6. Wenn Sie die Montageauftragszeilen entsprechend der Rahmenauftragsvereinbarung angepasst haben, schliessen Sie das Fenster **Auftragsmontagezeilen**, um zum Fenster **Rahmenauftrag** zurückzukehren.  
 7. Wenn der Kunde anfragt, einen Verkaufsauftrag basierend auf dem vereinbarten Rahmenauftrag zu erstellen, erstellen Sie einen Verkaufsauftrag für die vereinbarten Montageartikel oder Artikel. Weitere Informationen hierzu finden Sie unter [Rahmenaufträge erstellen](sales-how-to-create-blanket-sales-orders.md).
 
 Der verknüpfte Montagerahmenauftrag und alle eventuellen Anpassungen werden mit dem neuen Verkaufsauftrag verknüpft, um die Montage des/der zu verkaufenden Artikel vorzubereiten.  

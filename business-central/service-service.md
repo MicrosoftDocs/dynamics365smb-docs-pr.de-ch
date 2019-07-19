@@ -44,7 +44,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Bereitstellen von Service, Debitoren und Fakturieren von Serviceaufträgen.|[Bereitstellen von Service](service-deliver-service.md)|  
 
 ## <a name="see-also"></a>Siehe auch  
-[Debitoren verwalten](receivables-manage-receivables.md)   
+[Verwalten von Forderungen](receivables-manage-receivables.md)   
 [Projekte](projects-how-create-jobs.md)   
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
 

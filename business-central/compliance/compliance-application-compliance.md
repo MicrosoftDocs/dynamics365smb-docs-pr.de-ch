@@ -34,7 +34,7 @@ Unternehmen sehen sich jedes Jahr steigernden Anforderungen in der Buchhaltung g
 - Das neue Basel-Abkommen (Basel II) aus dem Jahre 2006, das Probleme der Finanzrisiken adressiert und eine stärkere Stabilität im Gesamtfinanzsystem fördert.
 
 ## <a name="good-practices-with-technology"></a>Gute Praktiken mit Technologie	
-Kompatibilität hängt nicht nur von der exakten Informationen und den entsprechenden Buchhaltungsvorgängen ab sondern auch von Personen, die diese Prozesse einrichten und verwalten. Eine effektive Unternehmensverwaltungslösung kann Kompatibilität vereinfachen, indem sie hilft, gültige und zugänglichen Informationen aus transparente Prozesse zu verwalten, die gemäß Branche und gesetzlichen Vorgaben eingerichtet wurden.
+Kompatibilität hängt nicht nur von der exakten Informationen und den entsprechenden Buchhaltungsvorgängen ab sondern auch von Personen, die diese Prozesse einrichten und verwalten. Eine effektive Unternehmensverwaltungslösung kann Kompatibilität vereinfachen, indem sie hilft, gültige und zugänglichen Informationen aus transparente Prozesse zu verwalten, die gemäss Branche und gesetzlichen Vorgaben eingerichtet wurden.
 
 ## <a name="realize-the-benefits-of-an-integrated-business-management-solution"></a>Realisieren Sie Mitarbeitervergünstigungen einer integrierten Unternehmensverwaltungslösung  
 Business Central liefert Betriebs- und Finanzdaten in Echtzeit von der gesamten Organisation, so können Sie:
@@ -50,7 +50,7 @@ Stellen Sie integrierte Informationen, abgestimmte Prozesse und benutzerfreundli
 
 ### <a name="tailor-account-schedules-to-your-needs"></a>Kontenschema auf die Bedürfnisse anpassen
 - Definieren die Struktur im Kontenplan Ihres Mandanten auf Grundlage von Geschäftsanforderungen und anwendbaren gesetzlichen Vorgaben
-- Erstellen Sie die Konten und behandeln Sie komplexe Prozesse in Bezug auf das Spektrum der Geschäftsaktivitäten einschließlich Lagerbewertung, Fremdwährungen, Segmentberichterstattung und Anforderungen lokaler GAAPs.
+- Erstellen Sie die Konten und behandeln Sie komplexe Prozesse in Bezug auf das Spektrum der Geschäftsaktivitäten einschliesslich Lagerbewertung, Fremdwährungen, Segmentberichterstattung und Anforderungen lokaler GAAPs.
 - Überwachen Sie den Ausführlichkeitsgrad für jede Transaktion und wählen Sie detaillierte Budgetierung für bestimmte Arten von Transaktionen aus, wie und Anlagen und Debitoren.
 - Beachten Sie Planberechnungen und -Anzeigen für das Finanzberichtswesen oder exportieren Sie die Informationen in Microsoft® Office Excel® zur weiteren Analyse.
 
@@ -66,12 +66,12 @@ Stellen Sie integrierte Informationen, abgestimmte Prozesse und benutzerfreundli
 - Sapren Sie Zeit, wenn Sie Standardberichte erstellen, die allgemeine Geschäftsparameter und die Kriterien verwenden, um Berichtsanforderungen zu erfüllen, angefangen bei Auftragszusammenfassungen bis zu Debitorenkonten.
 - Führen Sie komplexe Überprüfungen mit erweiterter oder grundlegender Geschäftsanalytikfunktionalität aus.
 - Erstellen Sie benutzerdefinierte Berichte und Produktanzeigen und nutzen Sie die Integration von Microsoft POWERBI.
-- Beschleunigen Sie die Übertragung der Finanzdaten zu Debitoren, Aktionären, Aufsichtsbehörden und der Öffentlichkeit MIT XML-basierten XBRL-Belegen, die den Austausch der Finanzdaten über Software und Technologien unterstützen, einschließlich dem Internet.
+- Beschleunigen Sie die Übertragung der Finanzdaten zu Debitoren, Aktionären, Aufsichtsbehörden und der Öffentlichkeit MIT XML-basierten XBRL-Belegen, die den Austausch der Finanzdaten über Software und Technologien unterstützen, einschliesslich dem Internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Stellen Sie klare Protokolle sicher
 - Verfolgen von Belegen und Informationen sowohl vorwärts und rückwärts über das System, von der ursprünglichen Herkunft bis hin zur letzten Finanzauswertung und zurück.
 - Identifizieren Sie, wie, ob und durch wen Informationen eingegeben  oder bearbeitet und auf die Kontoenfinanzposten gebucht wurden.
-- Sehen Sie Datenbankänderungen, einschließlich der vorhergegangenen und überarbeiteten Daten im Änderungsprotokoll der Lösung.
+- Sehen Sie Datenbankänderungen, einschliesslich der vorhergegangenen und überarbeiteten Daten im Änderungsprotokoll der Lösung.
 - Passen Sie Überwachungspfadtransparenz und -Benutzerfreundlichkeit für raschen Informationszugriff für Auditoren von Drittanbietern mit Dropdown, Suchen, Filterung, Journal und Navigation.
 
 ## <a name="compliance-and-local-functionality"></a>Kompatibilitäts-Erweiterung der lokalen Variable
@@ -79,7 +79,7 @@ Microsoft erstellt lokalisierte Versionen von Business Central für mehrere Län
 
 > [!NOTE]  
 >  **Sarbanes-Oxley: Prüfen von Daten und von Prozessen**  
-> Sarbanes-Oxley Act erstellt Standardwerte für alle US-Aktiengesellschaftskarten, Verwaltung und öffentlichen Wirtschaftsprüfungsfirmen, einschließlich der Auswertung und Offenlegung der Angemessenheit der internen Steuerelemente des Unternehmens über das Finanzberichtswesen. Die Dokumentation und das Testen wichtiger und manuellen automatisierten Steuerelemente stellt einen umfangreichen Aufwand an Zeit und Ressourcen für Mandanten an. Business Central ist besonders für Niederlassungen größerer Organisationen und kann helfen, die Gechäfte kleiner und mittlerer Unternehmen bei der Erfüllung von Sarbanes-Oxley zu unterstützen
+> Sarbanes-Oxley Act erstellt Standardwerte für alle US-Aktiengesellschaftskarten, Verwaltung und öffentlichen Wirtschaftsprüfungsfirmen, einschliesslich der Auswertung und Offenlegung der Angemessenheit der internen Steuerelemente des Unternehmens über das Finanzberichtswesen. Die Dokumentation und das Testen wichtiger und manuellen automatisierten Steuerelemente stellt einen umfangreichen Aufwand an Zeit und Ressourcen für Mandanten an. Business Central ist besonders für Niederlassungen grösserer Organisationen und kann helfen, die Gechäfte kleiner und mittlerer Unternehmen bei der Erfüllung von Sarbanes-Oxley zu unterstützen
 
 > [!NOTE]  
 > **IAS/IFRS: Messnormen und Umsatzrealisierung**  

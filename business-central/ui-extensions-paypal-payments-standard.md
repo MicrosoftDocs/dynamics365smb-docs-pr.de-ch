@@ -29,7 +29,7 @@ Der Paypal-Zahlungsstandard-Service hat folgende Vorteile:
 * Debitorenzahlungen sind schneller auf Ihrem Bankkonto.
 * Debitoren haben mehr Arten, Rechnungen zu bezahlen.
 * Paypal bietet einen vertrauenswürdigen Zahlungsservice an, den Debitoren gegenüber der Eingabe von Kreditkarteninformationen auf der Websites bevorzugen.
-* Paypal bietet mehrere Arten zur Zahlungsabwicklung an, einschließlich Kreditkartenverarbeitung, Paypal-Konten und andere Quellen.
+* Paypal bietet mehrere Arten zur Zahlungsabwicklung an, einschliesslich Kreditkartenverarbeitung, Paypal-Konten und andere Quellen.
 * Der Paypal-Link kann automatisch allen Verkaufsbelegen oder manuell vom Benutzer hinzugefügt werden.
 * Der Paypal-Zahlungsstandard-Service kostet keine Monatsgebühren oder Gebühren für die Einrichtung.
 * Da dies eine Erweiterung ist, können Sie den Paypal-Zahlungsstandard-Service einfach aktivieren wenn und wenn Ihr Geschäft sie benötigt.  
@@ -37,6 +37,6 @@ Der Paypal-Zahlungsstandard-Service hat folgende Vorteile:
 Weitere Informationen finden Sie unter [Aktivieren Sie Debitoren-Zahlung durch Paypal](sales-how-enable-payment-service-extensions.md)
 
 ## <a name="see-also"></a>Siehe auch
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzenb](ui-extensions.md)  
+[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

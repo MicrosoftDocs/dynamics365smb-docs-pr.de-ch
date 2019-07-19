@@ -24,7 +24,7 @@ Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager a
 
 Die Verfügbarkeit variiert je nach Zuordnungen auf Lagerplatzebene, wenn Lageraktivitäten wie Kommissionierungen und Lagerplatzumlagerungen auftreten, und wenn das Bestandsreservierungssystem Einschränkungen erforderlich macht, die einzuhalten sind. Ein komplexer Algorithmus prüft, ob alle Bedingungen erfüllt sind, bevor Mengen auf Kommissionierungen für ausgehende Ströme zugewiesen werden.
 
-Wenn eine oder mehrere Bedingungen nicht erfüllt werden, können verschiedene Fehlermeldungen, einschließlich der generischen Meldung "Nichts zu behandeln" angezeigt werden. Meldung. Die "Nichts zu behandeln" Meldung kann für viele verschiedenen Ursachen, in den eingehenden und ausgehenden Flüssen auftreten, in denen eine direkt oder indirekt betroffene Belegzeile das Feld **Menge. zu behandeln** enthält.
+Wenn eine oder mehrere Bedingungen nicht erfüllt werden, können verschiedene Fehlermeldungen, einschliesslich der generischen Meldung "Nichts zu behandeln" angezeigt werden. Meldung. Die "Nichts zu behandeln" Meldung kann für viele verschiedenen Ursachen, in den eingehenden und ausgehenden Flüssen auftreten, in denen eine direkt oder indirekt betroffene Belegzeile das Feld **Menge. zu behandeln** enthält.
 
 > [!NOTE]
 > Informationen werden in Kürze hier über mögliche Ursachen und Lösungen veröffentlicht, dass das "nichts zu behandeln" umfasst. Nachricht
@@ -54,7 +54,7 @@ Wenn eine oder mehrere Bedingungen nicht erfüllt werden, können verschiedene F
 ## <a name="quantity-available-to-reserve"></a>&Menge Verfügbar für Reservierung  
  Da die Konzepte des Lagerplatzinhaltes und der Reservierung gleichzeitig existieren, muss die Menge der Artikel, die zur Reservierung verfügbar sind, an die Zuordnung zu ausgehenden Lagerbelegen angepasst sein.  
 
- Eine Reservierung aller Artikel im Lager sollte mögich sein außer bei jenen, deren ausgehende Verabeitung bereits begonnen hat. Entsprechend wird die Menge, die reservierbar ist, als die Menge auf allen Belegen und an allen Lagerplatzarten definiert, ausgenommen die folgenden ausgehenden Mengen:  
+ Eine Reservierung aller Artikel im Lager sollte mögich sein ausser bei jenen, deren ausgehende Verabeitung bereits begonnen hat. Entsprechend wird die Menge, die reservierbar ist, als die Menge auf allen Belegen und an allen Lagerplatzarten definiert, ausgenommen die folgenden ausgehenden Mengen:  
 
 -   Menge für nicht registrierte Kommissionierbelege  
 -   Menge der in Lieferung enthaltenen Lagerplätze  

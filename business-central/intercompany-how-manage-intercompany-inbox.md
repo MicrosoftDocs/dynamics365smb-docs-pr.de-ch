@@ -72,7 +72,7 @@ Wenn Intercompanypartner Intercompanytransaktionen an Sie senden, werden diese T
 3. Füllen Sie auf der Seite **IC-Eingangsvorgang abschl.** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie die Schaltfläche **OK** aus.  
 
-Für Zeilen, die bei der Aktion **Akzeptieren** verarbeitet wurden, werden Beleg- oder Erfassungsjournalzeilen in Ihrem Unternehmen erstellt. Öffnen Sie die Belege oder Erfassungsjournale, nehmen Sie die erforderlichen Änderungen vor, und buchen Sie sie anschließend.  
+Für Zeilen, die bei der Aktion **Akzeptieren** verarbeitet wurden, werden Beleg- oder Erfassungsjournalzeilen in Ihrem Unternehmen erstellt. Öffnen Sie die Belege oder Erfassungsjournale, nehmen Sie die erforderlichen Änderungen vor, und buchen Sie sie anschliessend.  
 
 Zeilen, die Sie mit der **n Partner zurück**-Aktion verarbeitet haben, werden in den Ausgang verschoben, von dem aus diese dann an Ihren Partner gesendet werden kann.
 

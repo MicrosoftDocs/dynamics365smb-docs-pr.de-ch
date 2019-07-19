@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Umlageschlüsseln in Fibu Buch.-Blättern | Microsoft Docs
+title: Verwenden von Umlageschlüsseln in Fibu Erf.-Journals | Microsoft Docs
 description: Erfahren Sie, wie Sie Verteilungsschlüssel in Buch.-Blättern verwenden können.
 services: project-madeira
 documentationcenter: ''
@@ -19,7 +19,7 @@ ms.contentlocale: de-CH
 ms.lasthandoff: 04/29/2019
 ms.locfileid: "1249252"
 ---
-# <a name="use-allocation-keys-in-general-journals"></a>Verwenden von Umlageschlüsseln in Fibu Buch.-Blättern
+# <a name="use-allocation-keys-in-general-journals"></a>Verwenden von Umlageschlüsseln in Fibu Erf.-Journals
 Die Posten einer Fibu Erf.-Journalzeile lassen sich beim Buchen des Erf.-Journals auf verschiedene Konten verteilen. Die Verteilung kann nach Anzahl, Prozent oder Betrag vorgenommen werden.
 
 ## <a name="to-set-up-allocation-keys"></a>Einrichten von Verteilungsschlüsseln

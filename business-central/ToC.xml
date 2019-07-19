@@ -142,7 +142,7 @@
       <Node Name="" DisplayName="Vorgehensweise: Verwenden von Artikelzuschlägen für zusätzliche Kosten" Page="payables-how-assign-item-charges.html"/>
       <Node Name="" DisplayName="Vorgehensweise: Mit Zahlungstoleranzen und Skontotoleranzen arbeiten" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
     </Node>
-    <Node Name="" DisplayName="Verwalten von Verbindlichkeiten|" Page="payables-manage-payables.html">
+    <Node Name="" DisplayName="Verwalten von Verbindlichkeiten" Page="payables-manage-payables.html">
       <Node Name="" DisplayName="Zahlungen vornehmen" Page="payables-make-payments.html"/>
       <Node Name="" DisplayName="Zahlungen automatisch vornehmen und Bankkonten abstimmen" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
       <Node Name="" DisplayName="Vorgehensweise: Manuelle Abstimmung von Debitorenzahlungen" Page="payables-how-apply-purchase-transactions-manually.html"/>
@@ -198,7 +198,7 @@
     <Node Name="" DisplayName="Analysieren von Cashflow in Ihren Mandanten" Page="finance-analyze-cash-flow.html"/>
     <Node Name="" DisplayName="Beenden von Jahresabschluss und Perioden" Page="year-close-years-periods.html">
       <Node Name="" DisplayName="So geht's: Buchhaltungsperioden festlegen" Page="finance-how-specify-posting-periods.html"/>
-      <Node Name="" DisplayName="Schließen der Perioden" Page="year-how-complete-period-end-processes.html"/>
+      <Node Name="" DisplayName="Schliessen der Perioden" Page="year-how-complete-period-end-processes.html"/>
       <Node Name="" DisplayName="Vorgehensweise: Aktualisieren von Währungswechselkursen" Page="finance-how-update-currencies.html"/>
       <Node Name="" DisplayName="Erklärt, wie Kosten und Einnahmen zugewiesen werden." Page="year-allocate-costs-income.html"/>
       <Node Name="" DisplayName="So gehts: Melden von MwSt. an die Steuerbehörden" Page="finance-how-report-vat.html"/>
@@ -269,7 +269,7 @@
     <Node Name="" DisplayName="So geht's: Übertragen, Teilen oder Kombinieren von Anlagen." Page="fa-how-trans-split-combine.html"/>
     <Node Name="" DisplayName="So geht's: Anlagen neu bewerten" Page="fa-how-revalue.html"/>
     <Node Name="" DisplayName="So geht's: Anlagen abschreiben oder amortisieren" Page="fa-how-depreciate-amortize.html"/>
-    <Node Name="" DisplayName="So geht's: Anlagen entsorgen oder außer Dienst stellen" Page="fa-how-dispose-retire.html"/>
+    <Node Name="" DisplayName="So geht's: Anlagen entsorgen oder ausser Dienst stellen" Page="fa-how-dispose-retire.html"/>
     <Node Name="" DisplayName="So geht's: Budgets für Anlagen verwalten" Page="fa-how-manage-budgets.html"/>
   </Node>
   <Node Name="" DisplayName="Marketing &amp; Vertrieb" Page="marketing-relationship-management.html">
@@ -398,7 +398,7 @@
     <Node Name="" DisplayName="Spanien" Page="LocalFunctionality/Spain/spain-local-functionality.html"/>
     <Node Name="" DisplayName="Schweden" Page="LocalFunctionality/Sweden/sweden-local-functionality.html"/>
     <Node Name="" DisplayName="Schweiz" Page="LocalFunctionality/Switzerland/switzerland-local-functionality.html"/>
-    <Node Name="" DisplayName="Großbritannien" Page="LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.html"/>
+    <Node Name="" DisplayName="Grossbritannien" Page="LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.html"/>
     <Node Name="" DisplayName="Vereinigte Staaten" Page="LocalFunctionality/UnitedStates/united-states-local-functionality.html"/>
   </Node>
 </Node>

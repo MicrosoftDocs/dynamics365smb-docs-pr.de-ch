@@ -32,7 +32,7 @@ Die Art, in der das Planungssystem Artikelzubehör steuert, wird durch verschied
 |Abgrenzen des geplanten Artikels|Produktionsart:<br /><br /> -   Lagerfertigung<br />-   Auftragsfertigung|  
 
 ## <a name="define-if-the-item-will-be-planned"></a>Definieren Sie, ob der Artikel geplant werden soll  
-Um einen Artikel/SKU in den Planungsprozess einzuschließen, muss er über ein Wiederbeschaffungsverfahren verfügen, andernfalls muss es manuell geplant werden, beispielsweise mit der Funktion "Auftragsplanung".  
+Um einen Artikel/SKU in den Planungsprozess einzuschliessen, muss er über ein Wiederbeschaffungsverfahren verfügen, andernfalls muss es manuell geplant werden, beispielsweise mit der Funktion "Auftragsplanung".  
 
 ## <a name="define-when-to-reorder"></a>Definieren Sie, wann neu bestellt werden soll  
 Nachbestellungsvorschläge werden generell nur freigegeben, wenn die voraussichtliche verfügbare Menge unter eine bestimmten Menge gefallen ist. Diese Menge wird durch den Minimalbestand definiert. Andernfalls ist sie Null. Null kann angepasst werden, indem ein Sicherheitsbestand eingegeben wird. Wenn der Benutzer einen Sicherheitszuschlag zur Beschaffungszeit festgelegt hat, führt dies dazu, dass der Vorschlag in der Periode vor dem erforderlichen Fälligkeitsdatum gemacht wird.  
@@ -75,7 +75,7 @@ Um einen rationalen Beschaffungsplan zu erhalten, kann ein Planer Planungsparame
 |Feld|Description|  
 |---------------------------------|---------------------------------------|  
 |**Neuplanungsperiode**|Dieses Feld wird verwendet, um zu ermitteln, ob die Ereignismeldung einen bestehenden Auftrags neu planen oder diesen stornieren und einen neuen Auftrag erstellen soll. Der bestehende Auftrag wird innerhalb einer Neuplanungsperiode vor dem aktuellen Vorrat und bis zu einer Neuplanungsperiode nach dem aktuellen Vorrat neu geplant.|  
-|**Loskumulierungsperiode**|Mit dem Wiederbeschaffungsverfahren Los-für-Los wird dieses Feld verwendet, um mehrere Bedarfsposten in einem Beschaffungsauftrag zusammenzufassen. Ab dem ersten geplanten Vorrat werden alle Bedarfsposten in der folgenden Loskumulierungsperiode in einen Beschaffungsauftrag zusammengefasst, der am Tag des ersten Bedarfs aufgeben wird. Ein Bedarfsposten, der außerhalb der Loskumulierungsperiode liegt, wird nicht durch den Beschaffungsauftrag abgedeckt.|  
+|**Loskumulierungsperiode**|Mit dem Wiederbeschaffungsverfahren Los-für-Los wird dieses Feld verwendet, um mehrere Bedarfsposten in einem Beschaffungsauftrag zusammenzufassen. Ab dem ersten geplanten Vorrat werden alle Bedarfsposten in der folgenden Loskumulierungsperiode in einen Beschaffungsauftrag zusammengefasst, der am Tag des ersten Bedarfs aufgeben wird. Ein Bedarfsposten, der ausserhalb der Loskumulierungsperiode liegt, wird nicht durch den Beschaffungsauftrag abgedeckt.|  
 |**Toleranzperiode**|Dieses Feld wird verwendet, um kleinere Neuplanungen für vorhandenen Bedarf rechtzeitig zu vermeiden. Ändert das Lieferdatum, bis eine Toleranzperiode ab dem Lieferdatum keine Ereignismeldungen mehr generiert.<br /><br /> Die Toleranzperiode definiert eine Zeitspanne, die das Planungssystem nicht vorschlagen soll, um bestehende Beschaffungsaufträge in der Planung vorzuverlegen. Dies schränkt die Anzahl der geringfügigen Neuplanungen für vorhandenen Bedarf auf ein späteres Datum ein, wenn dieses neue Datum innerhalb der Toleranzperiode liegt.<br /><br /> Deshalb ist ein positives Delta zwischen dem vorgeschlagenen neuen Lieferdatum und dem ursprünglichen Lieferdatum immer grösser als die Toleranzperiode.|  
 
 Die Terminierung für die Neuplanungsperiode, die Toleranzperiode und die Loskumulierungsperiode basiert auf einem Lieferdatum. Das Zeitrahmen basiert auf dem Planungsstartdatum, wie in der folgenden Abbildung gezeigt.  
@@ -84,7 +84,7 @@ Die Terminierung für die Neuplanungsperiode, die Toleranzperiode und die Loskum
 
 In den folgenden Beispielen stellen die schwarzen Pfeile vorhandenen Bedarf (aufwärts) und Bedarf dar (abwärts). Rote, grüne und orange Pfeile sind Planungsvorschläge.  
 
-**Beispiel 1**: Das geänderte Datum liegt außerhalb der Neuplanungsperiode, wodurch der bestehende Vorrat storniert wird. Ein neuer Vorrat wird vorgeschlagen, um den Bedarf in der Loskumulierungsperiode zu decken.  
+**Beispiel 1**: Das geänderte Datum liegt ausserhalb der Neuplanungsperiode, wodurch der bestehende Vorrat storniert wird. Ein neuer Vorrat wird vorgeschlagen, um den Bedarf in der Loskumulierungsperiode zu decken.  
 
 ![Neuplanungsperiode und Loskumulierungsperiode](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Neuplanungsperiode und Loskumulierungsperiode")  
 
@@ -103,9 +103,9 @@ In den folgenden Beispielen stellen die schwarzen Pfeile vorhandenen Bedarf (auf
 **Vorgabewerte**: Der Vorgabewert des **Zeitrahmen**-Feldes und der drei Nachbestellungsperiodenfelder ist leer. Für alle Felder mit Ausnahme des Felds **Toleranzperiode** bedeutet dies 0D (Null Tage). Wenn das Feld **Toleranzperiode** leer ist, wird der Wert im Feld **Standardtoleranzperiode** auf der Seite **Produktion Einrichtung** verwendet.  
 
 ## <a name="modify-the-supply-orders"></a>Ändern Sie die Beschaffungsaufträge  
-Wenn die Menge des Bestellvorschlags berechnet wurde, können eine oder mehrere der Auftragsmodifikationen ihn anpassen. Beispielsweise ist die maximale Auftragsgröße größer als oder gleich der minimale Auftragsgröße, die größer als oder gleich dem Auftragsvielfachen ist.  
+Wenn die Menge des Bestellvorschlags berechnet wurde, können eine oder mehrere der Auftragsmodifikationen ihn anpassen. Beispielsweise ist die maximale Auftragsgrösse grösser als oder gleich der minimale Auftragsgrösse, die grösser als oder gleich dem Auftragsvielfachen ist.  
 
-Die Menge wird verringert, wenn sie die maximale Auftragsmenge übersteigt. Dann wird sie erhöht, wenn sie unter der Mindestbestellgröße liegt. Schließlich wird sie aufgerundet, sodass sie einem angegebenen Auftragsvielfachen entspricht. Alle Restmengen verwenden die gleichen Regulierungen, bis der Gesamtbedarf in Bestellvorschläge umgewandelt wurde.  
+Die Menge wird verringert, wenn sie die maximale Auftragsmenge übersteigt. Dann wird sie erhöht, wenn sie unter der Mindestbestellgrösse liegt. Schliesslich wird sie aufgerundet, sodass sie einem angegebenen Auftragsvielfachen entspricht. Alle Restmengen verwenden die gleichen Regulierungen, bis der Gesamtbedarf in Bestellvorschläge umgewandelt wurde.  
 
 ## <a name="delimit-the-item"></a>Abgrenzen des Artikels  
 Die Option **Produktionsart** definiert, welche zusätzlichen Aufträge die Nettobedarfsberechnung vorschlagen wird.  

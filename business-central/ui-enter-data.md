@@ -25,7 +25,7 @@ Es gibt eine Vielzahl allgemeiner Funktionen, die Ihnen dabei helfen, die Daten 
 
 ## <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
-Es gibt mehrere Tastenkombinationen, mit denen Sie ohne Maus arbeiten und Ihre Dateneingabe beschleunigen können, insbesondere bei Posten im großen Umfangs und wiederkehrenden Tippaufgaben.
+Es gibt mehrere Tastenkombinationen, mit denen Sie ohne Maus arbeiten und Ihre Dateneingabe beschleunigen können, insbesondere bei Posten im grossen Umfangs und wiederkehrenden Tippaufgaben.
 
 Weitere Informationen zu diesen Tastenkombinationen finden Sie unter [Tastenkombinationen](keyboard-shortcuts.md). Einige der Tastenkombinationen werden in diesem erläutert Artikel.
 
@@ -49,14 +49,14 @@ Es folgen einige nützliche Informationen zur Anwendung der Schnelleingabe.
 - Sie verhindert nicht den Zugriff auf andere Elemente einer Seite wie Aktionen. Auf diese kann noch mit TAB und SHIFT+TAB zugegriffen werden.  
 - Inforegister müssen nicht erweitert werden, damit die Schnelleingabe funktioniert. Wenn sich das nächste Feld der Schnelleingabe in einem reduzierten Inforegister befindet, wird das Inforegister automatisch mit Fokus auf dem festgelegten Feld erweitert.
 - Schnelleingabe funktioniert ungeachtet davon, ob Felder erforderlich sind. Daher ist es vorteilhaft, sicherzustellen, dass erforderliche Felder in der Schnelleingabe enthalten sind.
-- Standardmäßig sind die meisten Felder automatisch im der Schnelleingabe enthalten. Daher wird die Aufgabe höchstwahrscheinlich zunächst darin bestehen, Felder aus der Schnelleingabe auszuschließen.
+- Standardmässig sind die meisten Felder automatisch im der Schnelleingabe enthalten. Daher wird die Aufgabe höchstwahrscheinlich zunächst darin bestehen, Felder aus der Schnelleingabe auszuschliessen.
 
 ### <a name="how-to-change-quick-entry-fields"></a>So ändern Sie Felder der Schnelleingabe
 
 Um zu ändern, welche Felder einer Seite in die Schnelleingabe eingeschlossen oder daraus ausgeschlossen werden, verwenden Sie die Personalisierung.
 
 1. Beginnen Sie mit der Personalisierung, indem Sie das ![Einstellungen](media/ui-experience/settings_icon_small.png "Symbol für Rollencenter einstellen") und dann **Personalisieren** auswählen.
-2. Wählen Sie ein Feld, das Sie ändern möchten, oder wählen Sie in Listen die entsprechende Spaltenüberschrift und dann entweder **In Schnelleingabe einschließen** oder **Aus Schnellausgabe ausschließen** aus.
+2. Wählen Sie ein Feld, das Sie ändern möchten, oder wählen Sie in Listen die entsprechende Spaltenüberschrift und dann entweder **In Schnelleingabe einschliessen** oder **Aus Schnellausgabe ausschliessen** aus.
 
 Weitere Informationen zur Personalisierung finden Sie unter [Personalisieren Ihres Arbeitsbereichs](ui-personalization-user.md).
 
@@ -86,7 +86,7 @@ Weitere Informationen finden Sie unter [Kopieren und Einfügen in Business Centr
 
 ## <a name="Focus"></a>Fokussieren auf Positionsartikel
 
-Wenn Sie in Belegen arbeiten, die einen Positionsartikelteil haben, wie Verkaufsauftrag oder Rechnungsseite, können Sie die Ansicht umschalten, um nur auf die Positionsartikel zu fokussieren und den Positionsartikelteil gewissermaßen zu erweitern, damit er fast den gesamten Arbeitsbereich ausfüllt - dabei werden andere Teile der Seite außer dem Aktionsbereich oben ausgeblendet. Damit erhalten Sie einen besseren Überblick über die Positionsartikel und mehr Platz, um daran zu arbeiten. Dies ist besonders nützlich, wenn Sie mit großen Positionsartikellisten arbeiten und schnelle Dateneingabe erforderlich ist.
+Wenn Sie in Belegen arbeiten, die einen Positionsartikelteil haben, wie Verkaufsauftrag oder Rechnungsseite, können Sie die Ansicht umschalten, um nur auf die Positionsartikel zu fokussieren und den Positionsartikelteil gewissermassen zu erweitern, damit er fast den gesamten Arbeitsbereich ausfüllt - dabei werden andere Teile der Seite ausser dem Aktionsbereich oben ausgeblendet. Damit erhalten Sie einen besseren Überblick über die Positionsartikel und mehr Platz, um daran zu arbeiten. Dies ist besonders nützlich, wenn Sie mit grossen Positionsartikellisten arbeiten und schnelle Dateneingabe erforderlich ist.
 
 Ein anderer Vorteil besteht darin, dass auch erweiterte Filterungsfunktion, wie auf anderen Listen, bereitgestellt werden, sodass Durchsuchen und Suchen nach Belegpositionen sogar einfacher wird.
 

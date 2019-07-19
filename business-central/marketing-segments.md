@@ -33,7 +33,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | --- | --- |
 | Erstellen von Segmenten, um die Auswahl einer Gruppe von Kontakten zu ermöglichen. Beispielsweise Direktwerbung. |[Segmente erstellen](marketing-how-create-segment.md) |
 | Verwalten von Kontakten, die Segmenten zugewiesen sind. |[Kontakte zu Segementen hinzuzufügen:](marketing-add-contact-segment.md) |
-| Erhalten Sie Informationen zur Verwendung der Aktivitäten und Segmenten, einschließlich Protokollierung. |[Verwalten von Aktivitäten für Segmente](marketing-interaction-segments.md) |
+| Erhalten Sie Informationen zur Verwendung der Aktivitäten und Segmenten, einschliesslich Protokollierung. |[Verwalten von Aktivitäten für Segmente](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>Siehe auch
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  

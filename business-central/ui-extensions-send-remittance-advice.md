@@ -21,7 +21,7 @@ ms.locfileid: "1621266"
 Wenn Zahlungsanzeigen verwendet werden, um Kreditoren über die Zahlungen zu benachrichtigen, die erstellt werden, können Sie Zahlungsanzeige als Massenvorgang aus dem Zahlungsausgangs-Erf.-Journal buchen und erneut senden, nachdem die Zahlungen von Kreditorenposten getätigt werden, indem Sie Belegsendeprofile verwenden.
 
 > [!NOTE]
-> Diese Funktionalität wird nur in Business Central online und lokal in folgenden Ländern unterstützt: Großbritannien, USA, Kanada, Australien Neuseeland, und Südafrika.  
+> Diese Funktionalität wird nur in Business Central online und lokal in folgenden Ländern unterstützt: Grossbritannien, USA, Kanada, Australien Neuseeland, und Südafrika.  
 
 Sie können Zahlungsanzeigen auf zwei verschiedene Arten senden:
 

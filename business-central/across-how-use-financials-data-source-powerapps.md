@@ -36,7 +36,7 @@ Sie können die Daten [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquell
 
     Wenn Sie Daten aus anderen Tabellen in Ihrer [!INCLUDE [prodshort](includes/prodshort.md)] App hinzufügen möchten, dann müssen Sie mit einem Entwickler arbeiten, um benutzerdefinierte API in [!INCLUDE [prodshort](includes/prodshort.md)] zu definieren und diese benutzerdefinierte API durch einen benutzerdefinierten Connector in PowerApps zu verbrauchen. Weitere Informationen finden Sie unter [Erstellen Sie einen benutzerdefinierten Connector von Grund auf neu](/connectors/custom-connectors/define-blank).  
 
-Zu diesem Zeitpunkt haben Sie erfolgreich Ihre [!INCLUDE [prodshort](includes/prodshort.md)]-Daten verbunden und sind bereit, Ihre Power App zu erstellen. Sie können zusätzliche Bildschirme hinzufügen und an weitere Daten von Ihrem  [!INCLUDE [prodshort](includes/prodshort.md)] anschließen. Weitere Informationen finden Sie unter [Erstellen Sie eine Canvas-App aus einer Vorlage in PowerApps](/powerapps/maker/canvas-apps/get-started-test-drive).  
+Zu diesem Zeitpunkt haben Sie erfolgreich Ihre [!INCLUDE [prodshort](includes/prodshort.md)]-Daten verbunden und sind bereit, Ihre Power App zu erstellen. Sie können zusätzliche Bildschirme hinzufügen und an weitere Daten von Ihrem  [!INCLUDE [prodshort](includes/prodshort.md)] anschliessen. Weitere Informationen finden Sie unter [Erstellen Sie eine Canvas-App aus einer Vorlage in PowerApps](/powerapps/maker/canvas-apps/get-started-test-drive).  
 
 Wenn Sie Ihre App entworfen und erstellt haben, können Sie diese mit Ihre Kollegen teilen. Weitere Informationen finden Sie unter [Speichern und veröffentlichen Sie eine Canvas-App in PowerApps](/powerapps/maker/canvas-apps/save-publish-app).  
 

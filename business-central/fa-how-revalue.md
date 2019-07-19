@@ -21,9 +21,9 @@ ms.locfileid: "1239834"
 # <a name="revalue-fixed-assets"></a>Anlagen neu bewerten
 Eine Neubewertung von Anlagen kann aus Abschreibungen, erhöhter AfA oder allgemeinen Wertanpassungen bestehen.
 
-Wenn sich der Wert einer Anlage erhöht hat, buchen Sie eine Erf.-Journalzeile mit einem höheren Betrag, einer Abschreibung, auf das Abschreibungsbuch. Der neue Betrag wird als Abschreibung gemäß der Anlagebuchung eingerichtet.
+Wenn sich der Wert einer Anlage erhöht hat, buchen Sie eine Erf.-Journalzeile mit einem höheren Betrag, einer Abschreibung, auf das Abschreibungsbuch. Der neue Betrag wird als Abschreibung gemäss der Anlagebuchung eingerichtet.
 
-Wenn sich der Wert einer Anlage verringert hat, buchen Sie eine Erf.-Journalzeile mit einem niedrigen Betrag, einer erhöhten Abschreibung, auf das Abschreibungsbuch. Der neue Betrag wird als erhöhte AfA gemäß der Anlagebuchung eingerichtet.
+Wenn sich der Wert einer Anlage verringert hat, buchen Sie eine Erf.-Journalzeile mit einem niedrigen Betrag, einer erhöhten Abschreibung, auf das Abschreibungsbuch. Der neue Betrag wird als erhöhte AfA gemäss der Anlagebuchung eingerichtet.
 
 Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispielsweise allgemeinen Preisänderungen, anzupassen. Die Stapelverarbeitung **Anlagen indexieren** kann verwendet werden, um verschiedene Beträge (wie erhöhte AfA und Zuschreibungen) zu ändern.
 
@@ -54,7 +54,7 @@ Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispiels
 2. Füllen Sie die Felder je nach Bedarf aus.
 3. Wählen Sie die Schaltfläche **OK** aus.
 
-    Neubewertungszeilen werden in Schritt 2 gemäß Ihrer Einstellungen erstellt. Die Zeilen werden entweder im Anlagen Erf.-Journal oder im Anlagen Fibu Erf.-Journal, abhängig von Ihren Vorlagen und Stapeln, die auf der Seite **Anlagen Erf.-Journal Einr.** installiert sind, erstellt. Weitere Informationen finden Sie unter [Allgemeine Anlageninformationen einrichten](fa-how-setup-general.md).
+    Neubewertungszeilen werden in Schritt 2 gemäss Ihrer Einstellungen erstellt. Die Zeilen werden entweder im Anlagen Erf.-Journal oder im Anlagen Fibu Erf.-Journal, abhängig von Ihren Vorlagen und Stapeln, die auf der Seite **Anlagen Erf.-Journal Einr.** installiert sind, erstellt. Weitere Informationen finden Sie unter [Allgemeine Anlageninformationen einrichten](fa-how-setup-general.md).
 4. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **FA Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus.  
 5. Wählen Sie das Buch.-Blatt mit den Anlagen, die Sie neu bewerten möchten und wählen die Aktion **Posten** aus.  
 6. Prüfen Sie die erstellten Posten und wählen Sie dann die Aktion **Buchen** aus, um das Buch.-Blatt zu buchen.

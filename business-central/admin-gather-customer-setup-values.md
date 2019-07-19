@@ -65,7 +65,7 @@ Bei Bedarf können Sie Fragen auch löschen, die nicht im Fragebogen berücksich
 >   
 >  Bei Bedarf können Sie im Feld **Antworten** auch Standardantworten definieren. Diese Werte werden standardmässig für benutzerdefinierte Einrichtungen verwendet. Jedoch kann die Person, die den Fragebogen ausfüllt, die Antwort ändern und aktualisieren.  
 
-## <a name="to-complete-the-configuration-questionnaire"></a>Vorgehensweise: Abschliessen des Konfigurationsfragebogens
+## <a name="to-complete-the-configuration-questionnaire"></a>Abschliessen des Konfigurationsfragebogens
 Verwenden Sie den Einrichtungsfragebogen, um eine detaillierte Erörterung der speziellen Anforderungen des Debitors zu strukturieren und zu dokumentieren. Verwenden Sie sie auch, um Einrichtungsdaten vom Debitoren zu erfassen, um die relevanten [!INCLUDE[d365fin](includes/d365fin_md.md)]-Einrichtungstabellen, wie die Fibuposten, die Lagerbestandsdaten und die Debitoren zu konfigurieren.  
 
 > [!NOTE]  
@@ -86,7 +86,7 @@ Das nächste Verfahren ist eine alternative Möglichkeit für den Zugriff auf Ko
 3. Beantworten Sie die Fragen, und wählen Sie die **Antworten übernehmen** Aktion aus.  
 4. Wählen Sie die Schaltfläche **OK**, um den Fragebogen zu schliessen.
 
-## <a name="to-validate-the-configuration-questionnaire"></a>Vorgehensweise: Überprüfen des Konfigurationsfragebogens
+## <a name="to-validate-the-configuration-questionnaire"></a>Überprüfen des Konfigurationsfragebogens
 Es ist wichtig, dass der Konfigurationsfragebogen geprüft wird, bevor Sie ihn auf das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Format anwenden. Damit prüfen Sie auch, ob die Datenformatierung während des Imports aus Excel beibehalten wurde.  
 
 Ein typischer Validierungsvorgang ist die Prüfung, ob keine Textzeichenfolgen in Datumsfelder eingegeben wurden. Dieser Reviewprozess ist notwendig, da das Format der Antwort im Fragebogen nicht automatisch überprüft wird, wenn die Funktion **Antworten übernehmen** ausgeführt wird.  

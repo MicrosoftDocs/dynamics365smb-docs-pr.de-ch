@@ -67,7 +67,7 @@ Abschreibungsbetrag = (Fester Abschreibungsbetrag x Anzahl Abschreibungstage) / 
 ### <a name="example---straight-line-depreciation"></a>Beispiel – Lineare Abschreibung
 Eine Anlage hat Anschaffungskosten von MW 100.000. Die erwartete Lebensdauer ist 8 Jahre. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt.  
 
-Für dieses Beispiel sieht der Anlagenposten folgendermaßen aus:  
+Für dieses Beispiel sieht der Anlagenposten folgendermassen aus:  
 
 | Datum | Anlagenbuchungsart | Tage | Betrag | Buchwert |
 | --- | --- | --- | --- | --- |
@@ -82,7 +82,7 @@ Für dieses Beispiel sieht der Anlagenposten folgendermaßen aus:
 * Startdatum Normal-Abschreibung  
 
 ## <a name="declining-balance-1-depreciation"></a>Abschreibungsmethode "1 % degressiv"
-Hierbei handelt es sich um eine beschleunigte Abschreibungsmethode, bei der der größte Teil der Kosten einer Anlage in den ersten Jahren der Nutzungsdauer abgeschrieben wird. Wenn Sie diese Methode verwenden, müssen Sie einen festen jährlichen Prozentsatz eingeben.  
+Hierbei handelt es sich um eine beschleunigte Abschreibungsmethode, bei der der grösste Teil der Kosten einer Anlage in den ersten Jahren der Nutzungsdauer abgeschrieben wird. Wenn Sie diese Methode verwenden, müssen Sie einen festen jährlichen Prozentsatz eingeben.  
 
 Die folgende Formel zur Berechnung des Abschreibung-Betrages ist:  
 
@@ -163,7 +163,7 @@ Die Abschreibungswerte lauten:
 ## <a name="db1sl-depreciation"></a>Degressiv/Lineare Abschreibung 1
 "Degr1/Linear" ist eine abgekürzte Kombination von "Degressiv 1" und "Linear". Die Berechnung erfolgt bis der Buchwert gleich dem endgültigen Rundungsbetrag oder dem von Ihnen angegebenen Restwert ist.  
 
-Die Stapelverarbeitung **AfA berechnen** berechnet einen linearen Betrag und einen degressiven Betrag. Nur der größere dieser beiden Beträge wird in das Buch.-Blatt übertragen.  
+Die Stapelverarbeitung **AfA berechnen** berechnet einen linearen Betrag und einen degressiven Betrag. Nur der grössere dieser beiden Beträge wird in das Buch.-Blatt übertragen.  
 
 Die Anwendung kann die degressiven Berechnungen unter der Verwendung von verschiedenen Prozentsätzen durchführen.  
 
@@ -259,7 +259,7 @@ Die Anschaffungskosten betragen MW 100.000 und die Lebensdauer für die Abschrei
 
 Wenn Sie eine benutzerdefinierte Methode verwenden, müssen die Seiten **Startdatum Benutzerdef. Abschreibung** und **Startdatum Normal-Abschreibung** im Fenster **Anlagen-Abschreibungsbücher** ausgefüllt werden. Das Feld **Startdatum Benutzerdef. Abschreibung** und der Inhalt des Felds **Periodenlänge** auf der Seite **Abschreibungstabellen** werden verwendet, um die Zeitintervalle für Abschreibungsberechnungen festzulegen. Damit wird sichergestellt, dass die Anwendung den angegebenen Prozentsatz für alle Anlagen am gleichen Tag verwendet. Das Feld **Startdatum Normal-Abschreibung** wird verwendet, um die Anzahl der Abschreibungstage zu berechnen.  
 
-Im vorherigen Beispiel enthalten die Felder **Startdatum Benutzerdef. AfA** und **Startdatum Normal-AfA** beide den Wert "01/01/01". Hätte das Feld **Startdatum Benutzerdef. AfA** jedoch den Wert "01/01/10" und das Feld **Startdatum Normal-AfA** den Wert "01/04/11" enthalten, wäre das Ergebnis folgendermaßen ausgefallen:  
+Im vorherigen Beispiel enthalten die Felder **Startdatum Benutzerdef. AfA** und **Startdatum Normal-AfA** beide den Wert "01/01/01". Hätte das Feld **Startdatum Benutzerdef. AfA** jedoch den Wert "01/01/10" und das Feld **Startdatum Normal-AfA** den Wert "01/04/11" enthalten, wäre das Ergebnis folgendermassen ausgefallen:  
 
 | Datum | Anlagenbuchungsart | Tage | Betrag | Buchwert |
 | --- | --- | --- | --- | --- |

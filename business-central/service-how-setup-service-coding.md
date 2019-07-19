@@ -1,5 +1,5 @@
 ---
-title: 'Vorgehensweise: Einrichten von Codes für Standardservices | Microsoft Docs'
+title: Einrichten von Codes für Standardservices | Microsoft Docs
 description: Erfahren Sie, wie Codes für Dienstaktivitäten eingerichtet werden, die Sie häufig ausführen.
 services: project-madeira
 documentationcenter: ''

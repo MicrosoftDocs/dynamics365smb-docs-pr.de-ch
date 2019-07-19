@@ -37,4 +37,4 @@ Die folgende Tabelle beschreibt die Einblicke, die diese Erweiterung für jedes 
 |Administrator| Zeigt eine Anrede und Verbindung zur Produktinformationen an.|
 
 ## <a name="see-also"></a>Siehe auch
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzenb](ui-extensions.md)
+[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)

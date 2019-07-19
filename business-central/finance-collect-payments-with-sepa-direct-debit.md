@@ -1,6 +1,6 @@
 ---
 title: SEPA Direkbelastung in Business Central | Microsoft Docs
-description: Mit Zustimmung Ihres Kunden können Sie Zahlungen direkt vom Bankkonto des Kunden gemäß dem SEPA-Format einziehen.
+description: Mit Zustimmung Ihres Kunden können Sie Zahlungen direkt vom Bankkonto des Kunden gemäss dem SEPA-Format einziehen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: 'Vorgehensweise: Elektronische Belege empfangen und konvertieren | Microsoft Docs'
+title: Elektronische Belege empfangen und konvertieren | Microsoft Docs
 description: -Sie können elektronische Belege direkt aus den Handelspartnern oder einem OCR-Dienst erhalten.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -17,7 +17,7 @@ ms.contentlocale: de-CH
 ms.lasthandoff: 04/29/2019
 ms.locfileid: "1252196"
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Vorgehensweise: Elektronische Belege empfangen und konvertieren
+# <a name="receive-and-convert-electronic-documents"></a>Elektronische Belege empfangen und konvertieren
 Die generische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt das Empfangen von elektronischen Rechnungen und Gutschriften im PEPPOL-Format, das von den wichtigsten Anbietern von Belegaustauschdiensten unterstützt wird. Um beispielsweise eine Rechnung von einem Kreditor in Form eines elektronischen PEPPOL-Belegs zu erhalten, verarbeiten Sie den Beleg auf der Seite Eingehende Belege, um diesen in eine Einkaufsrechnung oder Fibu Erf.-Journalzeile in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu konvertieren.
 
  Zusätzlich zur Empfangen von elektronischen Belegen direkt von Handelspartnern können Sie elektronische Belege von einem OCR-Dienst erhalten, der Ihre PDF- oder Bilddateien in elektronische Belege umgewandelt hat.  

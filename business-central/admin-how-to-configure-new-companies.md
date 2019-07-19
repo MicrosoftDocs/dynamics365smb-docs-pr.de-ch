@@ -22,7 +22,7 @@ ms.locfileid: "1245454"
 # <a name="configure-new-companies"></a>So konfigurieren Sie einen neuen Mandanten.
 Um einen neuen Mandanten in der Lösungsimplementierung zu konfigurieren, folgen Sie in der Regel drei Phasen. In der ersten Phase importieren Sie das Konfigurationspaket, eine .rapidstart-Datei mit den Konfigurationsinformationen. In der zweiten Phase ändern Sie die Konfigurationsinformationen und übernehmen sie dann für Ihren neuen Mandanten. In der letzten Phase überprüfen Sie auf Fehler und korrigieren diese.  
 
-In den folgenden Verfahren wird davon ausgegangen, dass Sie ein Konfigurationspaket erstellt und gespeichert haben. Weitere Informationen finden Sie unter [Vorgehensweise: Erstellen eines Konfigurations-Paket](admin-how-to-prepare-a-configuration-package.md).  
+In den folgenden Verfahren wird davon ausgegangen, dass Sie ein Konfigurationspaket erstellt und gespeichert haben. Weitere Informationen finden Sie unter [Erstellen eines Konfigurations-Paket](admin-how-to-prepare-a-configuration-package.md).  
 
 Bevor Sie den folgenden Verfahren übernehmen, vergewissern Sie sich, dass Ihr neues Unternehmen initialisiert ist und Sie das RapidStart Services-Implementierungs-Rollencenter nutzen.
 
@@ -64,7 +64,7 @@ Es gibt bestimmte Arten von Fehlern, die auftreten können, wenn Sie Daten auf e
 1. Öffnen Sie den Mandanten, auf dem Sie Ihr Konfigurationspaket basierten.  
 2. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
 3. Korrigieren Sie Fehler und fügen Sie dem Arbeitsblatt fehlende verknüpfte Tabellen hinzu.  
-4. Fügen Sie die Tabellen dem bestehenden Konfigurationspaket hinzu, oder erstellen Sie ein neues Paket, das nur die neuen Tabellen enthält. Weitere Informationen finden Sie unter [Vorgehensweise: Erstellen eines Konfigurations-Paket](admin-how-to-prepare-a-configuration-package.md).  
+4. Fügen Sie die Tabellen dem bestehenden Konfigurationspaket hinzu, oder erstellen Sie ein neues Paket, das nur die neuen Tabellen enthält. Weitere Informationen finden Sie unter [Erstellen eines Konfigurations-Paket](admin-how-to-prepare-a-configuration-package.md).  
 5. Öffnen Sie den neuen Mandanten, für den Sie die Konfiguration übernehmen, erneut.  
 6. So importieren Sie das Konfigurationspaket.  
 

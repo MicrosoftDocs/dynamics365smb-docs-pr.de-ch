@@ -32,5 +32,5 @@ Verwenden Sie Buchhaltungsperioden, um anzugeben, wenn Benutzer die Fibuposten b
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  
-[Abschließen von Periodenabschlüssen](year-how-complete-period-end-processes.md)  
+[Abschliessen von Periodenabschlüssen](year-how-complete-period-end-processes.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

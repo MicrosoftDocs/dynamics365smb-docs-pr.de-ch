@@ -31,7 +31,7 @@ Darüber hinaus wird ein Artikelausgleich erstellt, um den Kostenempfänger mit 
 |Mengenausgleich|Erstellt für alle Bestandstransaktionen|  
 |Ausgleich Lagerwert reguliert|Erstellt für eingehende Posten zusammen mit einem Mengenausgleich als Folge eines Benutzereingriffs in speziellen Prozessen.|  
   
-Artikelausgleiche können folgendermaßen vorgenommen werden.  
+Artikelausgleiche können folgendermassen vorgenommen werden.  
   
 |Methode|Description|Anwendungstyp|  
 |------------|---------------------------------------|----------------------|  
@@ -40,7 +40,7 @@ Artikelausgleiche können folgendermaßen vorgenommen werden.
   
 Ob Mengen-Anwendungen oder Kostenanträge gemacht werden, hängt von der Richtung der Lagertransaktion und auch davon ab, ob der Artikelausgleich in Verbindung mit Systemprozessen automatisch gesetzt oder korrigiert wird.  
   
-Die nachstehende Tabelle zeigt, basierend auf den zentralen Ausgleichsfeldern auf Lagertransaktionzeilen, wie die Kosten je nach Transaktionsrichtung fließen. Gibt auch an, wann und warum der Artikelausgleich den Typ Menge oder Kosten hat.  
+Die nachstehende Tabelle zeigt, basierend auf den zentralen Ausgleichsfeldern auf Lagertransaktionzeilen, wie die Kosten je nach Transaktionsrichtung fliessen. Gibt auch an, wann und warum der Artikelausgleich den Typ Menge oder Kosten hat.  
   
 ||Ausgleich mit Artikelpostenfeld|Ausgegl. von Artikelpostenfeld|  
 |-|--------------------------------|----------------------------------|  
@@ -75,7 +75,7 @@ Die folgende Tabelle zeigt den Artikelausgleichsposten, der erstellt wird, wenn 
 ## <a name="inventory-decrease"></a>Lagerabgänge  
 Wenn Sie einen Lagerabgang buchen, wird ein Artikelausgleichsposten erfasst, der den Lagerbagang mit einem Lagerzugang verknüpft. Diese verknüpfung wird erstellt, indem die Lagerabgangsmethode des Artikels verwendet wird. Für Artikel mit den Kostenberechnungsmethoden FIFO, Standard und Durchschnitt basiert die Verknüpfung auf dem FIFO-Prinzip. Die Bestandsminderung wird auf die Bestandserhöhung mit dem frühesten Buchungsdatum angewendet. Für Artikel mit der Kostenberechnungsmethode LIFO basiert die Verknüpfung auf dem LIFO-Prinzip. Die Bestandsminderung wird auf die Bestandserhöhung mit dem neuesten Buchungsdatum angewendet.  
   
-In der Tabelle **Lagerposten** enthält das Feld **Restmenge die Menge**, für die es noch keine Verknüpfung gibt. Wenn die Restmenge größer als 0 ist, wird das Kontrollkästchen **Offen** aktiviert.  
+In der Tabelle **Lagerposten** enthält das Feld **Restmenge die Menge**, für die es noch keine Verknüpfung gibt. Wenn die Restmenge grösser als 0 ist, wird das Kontrollkästchen **Offen** aktiviert.  
   
 ### <a name="example"></a>Beispiel  
 Das folgende Beispiel zeigt einen Artikelausgleichsposten, der erstellt wird, wenn Sie eine Verkaufslieferung buchen, die 5 Einheiten der Artikel umfasst, die im vorherigen Beispiel eingegangen sind. Der erste Artikelausgleichsposten ist der Einkaufseingang. Der zweite Ausgleichsposten ist die Verkaufslieferung.  
@@ -107,7 +107,7 @@ Die folgende Tabelle zeigt Lagerposten an, die aus dem Szenario resultieren.
 |01-05-20|Einkauf|10|20.00|2|  
 |01-06-20|Einkauf (Reklamation)|-10|-20.00|3|  
   
-Da ein fester Ausgleich aus der Einkaufsreklamation für den zweiten Einkaufsposten durchgeführt wird, werden die Artikel mit den richtigen Kosten zurückgegeben. Wenn der Benutzer nicht den festen Ausgleich ausgeführt hätte, dann wäre der zurückgegebene Artikel falsch mit MW 10,00 bewertet worden, da die Rückgabe gemäß dem FIFO-Prinzip auf den ersten Einkaufsposten angewendet worden wäre.  
+Da ein fester Ausgleich aus der Einkaufsreklamation für den zweiten Einkaufsposten durchgeführt wird, werden die Artikel mit den richtigen Kosten zurückgegeben. Wenn der Benutzer nicht den festen Ausgleich ausgeführt hätte, dann wäre der zurückgegebene Artikel falsch mit MW 10,00 bewertet worden, da die Rückgabe gemäss dem FIFO-Prinzip auf den ersten Einkaufsposten angewendet worden wäre.  
   
 Die folgende Tabelle zeigt den Artikelausgleichsposten, der aus dem festen Ausgleich resultiert.  
   

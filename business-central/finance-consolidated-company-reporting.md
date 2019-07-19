@@ -34,7 +34,7 @@ Konsolidierungen können wie folgt und für Folgendes durchgeführt werden:
 
 Je nach Komplexität Ihrer Unternehmen, gibt es zwei Arten, den Bericht einrichten:
 
-* Wenn Sie nicht erweiterte Einstellungen benötigen, wie Einschließen eines Unternehmens, dessen Sie nur ein Teil anlegen, können Sie die Felder **Mandanten-Konsolidierung** unterstützer Setup um raschen Einrichten einer Konsolidierung nutzen. Der Leitfaden führt Sie durch die grundlegenden Schritte durch.
+* Wenn Sie nicht erweiterte Einstellungen benötigen, wie Einschliessen eines Unternehmens, dessen Sie nur ein Teil anlegen, können Sie die Felder **Mandanten-Konsolidierung** unterstützer Setup um raschen Einrichten einer Konsolidierung nutzen. Der Leitfaden führt Sie durch die grundlegenden Schritte durch.
 * Wenn Sie erweitertere Einstellungen benötigen, können Sie den Konsolidierungsmandanten und die Konzernmandanten einrichten.
 
 ## <a name="to-do-a-simple-consolidation-setup"></a>Eine einfache Konsolidierungseinrichtung tun

@@ -33,7 +33,7 @@ Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bild
   
 2.  Zeigen Sie die Registerkarte **Entwickler** im Menüband von Microsoft Word an.  
   
-     Standardmäßig wird die Registerkarte **Entwickler** nicht im Menüband angezeigt. Weitere Informationen finden Sie unter [Anzeigen der Entwickler-Registerkarte auf dem Menüband](https://go.microsoft.com/fwlink/?LinkID=389631).  
+     Standardmässig wird die Registerkarte **Entwickler** nicht im Menüband angezeigt. Weitere Informationen finden Sie unter [Anzeigen der Entwickler-Registerkarte auf dem Menüband](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  Wählen Sie auf der Registerkarte **Entwickler** die Option **XML-Zuordnungs-Bereich** aus.  
   
@@ -124,4 +124,4 @@ Die folgende Tabelle enthält eine vereinfachte Übersicht der XML eines benutze
 -   Die Sprache der Beschriftung, die angezeigt wird, wenn Sie den Bericht ausführen, hängt von der Spracheneinstellung des Berichtsobjekts ab. <!--OnPrem For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).-->  
   
 ## <a name="see-also"></a>Siehe auch  
- [Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)   
+ [Erstellen und bearbeiten Sie ein benutzerdefiniertes Berichtslayout](ui-how-create-custom-report-layout.md)   

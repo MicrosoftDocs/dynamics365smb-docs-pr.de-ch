@@ -43,7 +43,7 @@ Sie können Geschäftsbeziehungen nicht zu Personen zuordnen – nur zu Unterneh
     Die Seite **Kontakt Geschäftsbeziehungen** wird angezeigt.
 3. Wählen Sie im Feld **Geschäftsbeziehungscode** die Geschäftsbeziehung aus, die Sie zuordnen möchten.
 
-Wiederholen Sie diese Schritte, um beliebig viele Geschäftsbeziehungen zuzuordnen. Außerdem können Sie Geschäftsbeziehungen auf die gleiche Art in dem Fenster Kontaktliste zuordnen.
+Wiederholen Sie diese Schritte, um beliebig viele Geschäftsbeziehungen zuzuordnen. Ausserdem können Sie Geschäftsbeziehungen auf die gleiche Art in dem Fenster Kontaktliste zuordnen.
 
 Die Anzahl der Geschäftsbeziehungen, die Sie dem Kontakt auf der Kontaktkarte zugeordnet haben, wird im Feld **Anzahl Geschäftsbeziehungen** im Abschnitt **Segmentierung** auf der Seite **Kontakt** angezeigt.
 

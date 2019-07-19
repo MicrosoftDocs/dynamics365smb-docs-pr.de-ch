@@ -47,7 +47,7 @@ Der folgende Ablauf zeigt, wie eine Einkaufsrechnung zum Kauf von Produkten für
 Wenn Sie die ausserordentlichen oder einmalige Projektausgaben verursachen, können Sie die Seite **Projekt Erf.-Journal** verwenden, um diese direkt auf das Konto des entsprechenden Projekts zu buchen.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Job Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus.  
-2. Erstellen Sie eine neue Zeile, und geben Sie Informationen zur Aufwendung einschließlich  **Projektnr.** und **Projektaufgabennr.** ein.  
+2. Erstellen Sie eine neue Zeile, und geben Sie Informationen zur Aufwendung einschliesslich  **Projektnr.** und **Projektaufgabennr.** ein.  
 3. Wenn der Verkaufsauftrag ausgeführt wurde, wählen Sie die Aktion **Buchen** aus.
 
 ## <a name="see-also"></a>Siehe auch

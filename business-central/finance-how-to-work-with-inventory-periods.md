@@ -48,7 +48,7 @@ Das heisst, dass alle ausgehenden Transaktionsmengen (z. B. von Verkaufsaufträg
 1. Bevor Sie eine Lagerbuchungsperiode schliessen, sollten Sie den Batchauftrag **Lagerreg. fakt. Einst. Preise** ausführen, um sich zu vergewissern, dass alle Kostenregulierungen gebucht sind. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Kosten anpassen - Artikel** aus.  
 
      Führen Sie den Bericht **Lagerbuchungsperiode schliessen - Test** aus, um zu ermitteln, ob es in der Lagerbuchungsperiode offene ausgehende Artikelposten oder Artikel gibt, deren Preise noch nicht reguliert wurden.  
-2. Wählen Sie die Aktion **Lagerbuchungsperiode schließen - Test**.  
+2. Wählen Sie die Aktion **Lagerbuchungsperiode schliessen - Test**.  
 
      Führen Sie den Batchauftrag **Lagerregulierung buchen** aus, damit sichergestellt ist, dass alle Preise in der Finanzbuchhaltung gebucht werden.  
 3. Wählen Sie die Aktion **Lager auf Sachkonten buchen** aus.  

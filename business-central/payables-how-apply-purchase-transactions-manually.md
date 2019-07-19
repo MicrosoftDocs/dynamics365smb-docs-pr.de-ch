@@ -34,7 +34,7 @@ Sie können Kreditorenposten auf drei verschiedene Arten übernehmen:
 > [!NOTE]  
 >   Wenn das Feld **Ausgleichsmethode** auf der Kreditorenkarte **Auf älteste anwenden** enthält, dann wird die Zahlung automatisch mit der ältesten offenen Rechnung abgeglichen, wenn Sie nicht explizit angeben, auf welchen Habenposten sie sich bezieht. Ist die Ausgleichsmethode eines Debitors auf **Manuell** festgelegt, müssen die Posten manuell ausgeglichen werden.
 
-Sie können Kreditorenzahlungen manuell auf die entsprechenden Einkaufsbelege anwenden, wenn Sie die Zahlungen auf der **Zahlung Erf.-Journal**-Seite buchen. Informationen zum Ausfüllen des Zahlungsausgangs-Erf.-Journals finden Sie in [Vorgehensweise: Anwenden von Zahlungen](payables-make-payments.md).
+Sie können Kreditorenzahlungen manuell auf die entsprechenden Einkaufsbelege anwenden, wenn Sie die Zahlungen auf der **Zahlung Erf.-Journal**-Seite buchen. Informationen zum Ausfüllen des Zahlungsausgangs-Erf.-Journals finden Sie in [Anwenden von Zahlungen](payables-make-payments.md).
 
 Sie können Kreditorenzahlungen und Debitorenzahlungen anwenden nachdem die Zahlungen als negative Banktransaktionen in Ihrer Bank erscheinen. Auf der **Zahlungs-Abstimmungs-Erf.-Journal**-Seite können Sie Funktionen für den Bankkontoauszugsimport, die automatische Anwendung und die Bankkontoabstimmung verwenden. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 

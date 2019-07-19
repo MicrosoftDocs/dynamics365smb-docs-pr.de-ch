@@ -29,7 +29,7 @@ ms.locfileid: "1250609"
 
 ## <a name="EnablePersonalization"></a> So aktivieren oder deaktivieren Sie Personalisierung (nur lokal)
 
-Standardmäßig ist die Personalisierung im Client nicht aktiviert. Sie aktivieren oder deaktivieren die Personalisierung, indem Sie die Konfigurationsdatei (navsettings.json) der Business Central-Web Server-Instanz ändern, die dem Clients dient.
+Standardmässig ist die Personalisierung im Client nicht aktiviert. Sie aktivieren oder deaktivieren die Personalisierung, indem Sie die Konfigurationsdatei (navsettings.json) der Business Central-Web Server-Instanz ändern, die dem Clients dient.
 
 1. Um die Personalisierung zu aktivieren, müssen Sie die folgende Zeile in der navsettings.json-Datei hinzufügen:
 
@@ -37,7 +37,7 @@ Standardmäßig ist die Personalisierung im Client nicht aktiviert. Sie aktivier
     "PersonalizationEnabled": "true"
     ```
 
-    Um die Personalisierung zu deaktivieren, entfernen Sie diese Zeile oder bearbeiten sie folgendermaßen:
+    Um die Personalisierung zu deaktivieren, entfernen Sie diese Zeile oder bearbeiten sie folgendermassen:
 
     ```
     "PersonalizationEnabled": "false"

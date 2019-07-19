@@ -31,7 +31,7 @@ Eine Integrationstabellenzuordnung verknüpft eine Tabelle in [!INCLUDE[d365fin]
 3.  Um die [!INCLUDE[crm_md](includes/crm_md.md)]-Datensätze zu filtern, legen Sie das Feld **Integrationstabellenfilter** fest.  
 
 ## <a name="creating-new-records"></a>Neue Datensätze erstellen  
- Standardmäßig werden nur Datensätze in [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)], die gekoppelt sind, durch die Integrationssynchronisierungsprojekte synchronisiert. Sie können Tabellenzuordnungen einrichten, sodass für jeden Datensatz am Quellort (z. B. [!INCLUDE[d365fin](includes/d365fin_md.md)]), der nicht bereits gekoppelt ist, neue Datensätze am Zielort (z. B. [!INCLUDE[crm_md](includes/crm_md.md)]) erstellt werden.  
+ Standardmässig werden nur Datensätze in [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)], die gekoppelt sind, durch die Integrationssynchronisierungsprojekte synchronisiert. Sie können Tabellenzuordnungen einrichten, sodass für jeden Datensatz am Quellort (z. B. [!INCLUDE[d365fin](includes/d365fin_md.md)]), der nicht bereits gekoppelt ist, neue Datensätze am Zielort (z. B. [!INCLUDE[crm_md](includes/crm_md.md)]) erstellt werden.  
 
  Das Dynamics 365 for Sales-Synchronisierungsprojekt VERKÄUFER verwendet zum Beispiel die Tabellenzuordnung VERKÄUFER. Das Synchronisierungsprojekt kopiert Daten aus Benutzerdatensätzen in [!INCLUDE[crm_md](includes/crm_md.md)] in Verkäuferdatensätze in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wenn Sie die Tabellenzuordnung einrichten, um neue Datensätze zu erstellen, wird für jeden Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)], der nicht bereits an einen Verkäufer in [!INCLUDE[d365fin](includes/d365fin_md.md)] gekoppelt ist, ein neuer Verkäuferdatensatz in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt.  
 
@@ -43,7 +43,7 @@ Eine Integrationstabellenzuordnung verknüpft eine Tabelle in [!INCLUDE[d365fin]
 ## <a name="using-configuration-templates-on-table-mappings"></a>Konfigurationsvorlagen für Tabellenzuordnungen verwenden
 Sie können den Tabellenzuordnungen Konfigurationsvorlagen zur Verwendung für neue Datensätze zuweisen, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] oder [!INCLUDE[crm_md](includes/crm_md.md)] erstellt werden. Für jede Tabellenzuordnung können Sie eine Konfigurationsvorlage zur Verwendung für neue [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datensätze und eine andere Vorlage zur Verwendung für neue [!INCLUDE[crm_md](includes/crm_md.md)]-Datensätze angeben.  
 
-Wenn Sie die standardmäßige Synchronisierungskonfiguration einrichten, werden meistens zwei Konfigurationsvorlagen automatisch erstellt und in der Tabellenzuordnung für [!INCLUDE[d365fin](includes/d365fin_md.md)]-Debitoren und [!INCLUDE[crm_md](includes/crm_md.md)]-Konten verwendet: **CRMCUST** und **CRMACCOUNT**.  
+Wenn Sie die standardmässige Synchronisierungskonfiguration einrichten, werden meistens zwei Konfigurationsvorlagen automatisch erstellt und in der Tabellenzuordnung für [!INCLUDE[d365fin](includes/d365fin_md.md)]-Debitoren und [!INCLUDE[crm_md](includes/crm_md.md)]-Konten verwendet: **CRMCUST** und **CRMACCOUNT**.  
 
 -   **CRMCUST** wird verwendet, um neue Debitoren in [!INCLUDE[d365fin](includes/d365fin_md.md)] auf der Basis eines Kontos in [!INCLUDE[crm_md](includes/crm_md.md)] zu erstellen und zu synchronisieren.  
 

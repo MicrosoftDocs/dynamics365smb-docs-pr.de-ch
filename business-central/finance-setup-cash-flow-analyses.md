@@ -1,6 +1,6 @@
 ---
 title: Cashflow-Analyse einrichten | Microsoft Docs
-description: Einrichten der Diagramme im Feld Konto-Rollencenter, die Ihnen helfen, die Richtung des Geldes in Ihrem Unternehmen, einschließlich Ausgaben und Umsatz, Liquidität und Zahlungseingänge minus der Barzahlungen zu analysieren.
+description: Einrichten der Diagramme im Feld Konto-Rollencenter, die Ihnen helfen, die Richtung des Geldes in Ihrem Unternehmen, einschliesslich Ausgaben und Umsatz, Liquidität und Zahlungseingänge minus der Barzahlungen zu analysieren.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -81,7 +81,7 @@ Um einen manuellen Vorgang zu verwenden:
 >   Beachten Sie die Länge der Perioden, die der Service in den Berechnungen verwendet. Je mehr Daten Sie liefern, umso genauer wird die Vorhersage sein. Halten Sie auch nach umfangreichen Abweichungen in Perioden Ausschau. Sie werden ebenfalls Auswirkungen auf die Vorhersagen haben. Wenn Cortana Intelligence nicht genügend Daten findet oder die Daten stark abweichen, wird der Service keine Vorhersage machen.  
 
 ## <a name="AnchorText"></a>erstellt und verwendet Ihren eigenen vorhersagenden Webdienst für Cashflowplanungen.
-Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Modell erzeugen, dem **Prognosemodell für Microsoft Business Central**. Dieses vorhersagende Modell ist online im Cortana Intelligence-Katalog verfügbar. Um das Modell zu verwenden, gehen folgendermaßen vor:  
+Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Modell erzeugen, dem **Prognosemodell für Microsoft Business Central**. Dieses vorhersagende Modell ist online im Cortana Intelligence-Katalog verfügbar. Um das Modell zu verwenden, gehen folgendermassen vor:  
 
 1. Öffnen Sie einen Browser und gehen Sie zum [Cortana Intelligence-Katalog](https://go.microsoft.com/fwlink/?linkid=828352)  
 2. Suchen Sie nach dem **Vorhersagemodell für Microsoft Business Central** und öffnen Sie dann das Modell im Azure Machine Learning Studio.  

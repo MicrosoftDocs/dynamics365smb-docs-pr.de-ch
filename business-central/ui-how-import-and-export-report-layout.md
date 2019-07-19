@@ -52,6 +52,6 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
  Das ursprüngliche benutzerdefinierte Berichtslayout wird durch das importierte Berichtslayout ersetzt.  
 
 ## <a name="see-also"></a>Siehe auch  
- [Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)   
+ [Erstellen und bearbeiten Sie ein benutzerdefiniertes Berichtslayout](ui-how-create-custom-report-layout.md)   
  [Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md)  
  [Arbeiten mit Berichten und Stapelverarbeitungen](ui-work-report.md)    

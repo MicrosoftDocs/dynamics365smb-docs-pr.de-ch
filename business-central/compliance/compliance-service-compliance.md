@@ -21,7 +21,7 @@ ms.locfileid: "1244621"
 # <a name="service-compliance"></a>Dienst-Kompatibilität
 Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
-Business Central ist ein Clouddienst mit einem globalen Reichweiten- und Skalabetrieb in einer der größten hyperskalierten Infrastrukturen, Microsoft Azure mit Datencentern in den Regionen weltweit. Einen Clouddienst ausführen bringt auch die Anforderung, bestimmte Standardvorgaben bezüglich Sicherheit und Kompatibilität einzuhalten, sodass von einer Dienstperspektive Business Central die strikten Anforderungen in mehreren ISO- und Branchen spezifischen Zertifizierungen gerecht wird.
+Business Central ist ein Clouddienst mit einem globalen Reichweiten- und Skalabetrieb in einer der grössten hyperskalierten Infrastrukturen, Microsoft Azure mit Datencentern in den Regionen weltweit. Einen Clouddienst ausführen bringt auch die Anforderung, bestimmte Standardvorgaben bezüglich Sicherheit und Kompatibilität einzuhalten, sodass von einer Dienstperspektive Business Central die strikten Anforderungen in mehreren ISO- und Branchen spezifischen Zertifizierungen gerecht wird.
 
 Hier finden Sie die detaillierten [Cloudkompatibilitätsanforderungen für Business Central](https://aka.ms/d365-compliance-list) Liste.
 

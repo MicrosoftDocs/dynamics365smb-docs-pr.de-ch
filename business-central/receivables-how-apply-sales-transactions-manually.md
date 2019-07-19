@@ -76,7 +76,7 @@ Ein Zahlungseingangs Erfassungsjournal ist eine Art von Fibu Erfassungsjournal. 
 6. Wählen Sie im Feld **Gegenkontoart** die Option **Bankkonto** aus.
 7. Geben Sie im Feld **Betrag** die vollständige Zahlung als negativen Betrag ein.
 8. Wenn Sie die Zahlung bei der Buchung mit mehreren Kreditorenposten ausgleichen möchten, klicken Sie auf die Aktionen **Einträge anwenden**.  
-9. Wählen Sie die Zeilen mit den Posten aus, die mit dem Ausgleichsposten ausgeglichen werden sollen, und klicken Sie anschließend auf **Ausgleichs-ID setzen anwenden**.  
+9. Wählen Sie die Zeilen mit den Posten aus, die mit dem Ausgleichsposten ausgeglichen werden sollen, und klicken Sie anschliessend auf **Ausgleichs-ID setzen anwenden**.  
 10. Geben Sie in jeder Zeile im Feld **Ausgleichsbetrag** den Betrag ein, mit dem Sie den entsprechenden Posten ausgleichen möchten. Wenn Sie keinen Betrag eingeben, wird automatisch mit dem Höchstbetrag ausgeglichen.
 
     Am unteren Rand der Seite **Debitorenpostenausgleich** sehen Sie einen spezifischen Betrag im Fenster **Angewendeter Betrag** und auch, ob die Buchung ausgeglichen ist.  
@@ -97,7 +97,7 @@ Ein Zahlungseingangs Erfassungsjournal ist eine Art von Fibu Erfassungsjournal. 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkaufsgutschriftsmemo** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie die relevante Verkaufsgutschrift.
 3. Wenn Sie die Zahlung bei der Buchung mit mehreren Kreditorenposten ausgleichen möchten, klicken Sie auf die Aktionen **Einträge anwenden**.
-4. Wählen Sie die Zeilen mit den Posten aus, die mit dem Ausgleichsposten ausgeglichen werden sollen, und klicken Sie anschließend auf **Ausgleichs-ID setzen anwenden**.
+4. Wählen Sie die Zeilen mit den Posten aus, die mit dem Ausgleichsposten ausgeglichen werden sollen, und klicken Sie anschliessend auf **Ausgleichs-ID setzen anwenden**.
 5. Geben Sie in jeder Zeile im Feld **Ausgleichsbetrag** den Betrag ein, mit dem Sie den entsprechenden Posten ausgleichen möchten. Wenn Sie keinen Betrag eingeben, wird automatisch mit dem Höchstbetrag ausgeglichen.  
 
     Am unteren Rand der Seite **Debitorenpostenausgleich** sehen Sie einen spezifischen Betrag im Fenster **Angewendeter Betrag** und auch, ob die Buchung ausgeglichen ist.  

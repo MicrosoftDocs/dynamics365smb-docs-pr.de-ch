@@ -21,7 +21,7 @@ ms.locfileid: "1240898"
 Fügen Sie Bilder, Belege und andere Arten von Dateien an alle Karten, wie der Artikelkarte und der Projektkarte, an, und fügen Sie Dateien an alle Arten von Einkaufs- und Verkaufsbelegen an.
 
 > [!Note]
-> Im Allgemeinen ist die maximale Dateigröße für Anhänge 150 MB. Jedoch kann die Grenze bei manchen Funktionen darunter liegen. 
+> Im Allgemeinen ist die maximale Dateigrösse für Anhänge 150 MB. Jedoch kann die Grenze bei manchen Funktionen darunter liegen. 
 
 ## <a name="to-attach-a-file-to-a-sales-order"></a>So fügen Sie eine Datei einem Verkaufsauftrag an
 Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind für alle anderen Einkaufs- und Verkaufsbelege und für alle Karten ähnlich.

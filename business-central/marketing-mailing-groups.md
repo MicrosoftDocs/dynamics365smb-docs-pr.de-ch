@@ -36,7 +36,7 @@ Der Verteilercode definiert die Art oder die Kategorie der Gruppe, z. B. UMZUG f
 2. Wählen Sie die **Verteiler**-Aktion aus. Die Seite **Kontakt Verteiler** wird geöffnet.
 3. Wählen Sie im Feld **Verteilercode** den Verteiler aus, den Sie zuordnen möchten.
 
-Wiederholen Sie diese Schritte, um beliebig viele Verteiler einzurichten. Außerdem können Sie Verteiler auf die gleiche Art in dem Fenster Kontaktliste zuordnen.
+Wiederholen Sie diese Schritte, um beliebig viele Verteiler einzurichten. Ausserdem können Sie Verteiler auf die gleiche Art in dem Fenster Kontaktliste zuordnen.
 
 Die Anzahl der dem Kontakt zugeordneten Verteiler wird im Feld **Anzahl Verteiler** im Abschnitt **Segmentierung** auf der Seite **Kontakt** angezeigt.
 
