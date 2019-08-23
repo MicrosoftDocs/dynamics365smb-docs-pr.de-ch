@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: bholtorf
-ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238914"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796863"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeiten mit MwSt im Verkauf und Einkauf
 Wenn Ihr Land oder Ihre Region es erfordert, die Mehrwertsteuer (MwSt) in Einkaufs- und Verkaufstransaktionen zu berechnen, sodass Sie die Beträge einer Steuerbehörden melden können, können Sie festlegen, dass [!INCLUDE[d365fin](includes/d365fin_md.md)]MwSt in Einkaufs- und Verkaufsbelegen automatisch berechnet wird. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Salestax](finance-setup-vat.md).
@@ -32,7 +32,7 @@ Wenn Sie eine  Artikelnummer im **Nr.** Feld in einem Verkaufsbeleg auswählen, 
 
 Wenn Sie an einen Einzelhandelskunden verkaufen, möchten Sie möglicherweise, dass die Preise in Verkaufsbelegen MWST enthalten. Um dies zu tun, aktivieren Sie das Kontrollkästchen **Preise inkl. MwSt.** im Beleg.  
 
-### <a name="including-or-excluding-vat-on-prices"></a>Mit oder ohne MWST auf Preise
+### <a name="including-or-excluding-vat-on-prices"></a>Mit oder ohne Mehrwertsteuer auf Preise
 Ist das Feld **Preise inkl. MWST** aktiviert, werden die Felder **VK-Preis** und **Zeilenbetrag** mit der MWST berechnet und der Feldname zeigt dies ebenfalls. Standardmässig ist die MwSt nicht in diesen Feldern enthalten.  
 
 Ist das Feld nicht aktiviert, wird in die Felder **VK-Preis** und **Zeilenbetrag** ein Betrag ohne MWST. eingegeben. Dies wird auch durch die Feldnamen wiedergegeben.  
@@ -53,36 +53,44 @@ An gebuchten MWST-Posten können Korrekturen durchgeführt werden. Auf diese Wei
 
 Auch wenn Sie möglicherweise bereits eine oder mehrere Kombinationen für die Verarbeitung der Einfuhrumsatzsteuer eingerichtet haben, müssen Sie mindestens einen MWST-Produktbuchungsgruppencode einrichten. Beispielsweise können Sie den Namen **RICHTIG** für Korrekturen angeben, es sei denn, Sie können dasselbe Fibukonto im Feld **Vorsteuerkonto** in der MWST.-Buchungsmatrixzeile verwenden. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md).
 
-Wenn Skonto auf der Basis einer Rechnung inklusive MWST berechnet wurde, haben Sie die Möglichkeit, den Skontoanteil des MWST-Betrages zu berichtigen, wenn Skonto gewährt wird. Beachten Sie, dass Sie das Feld **Skonto berichtigen** sowohl in der Finanzbuchhaltung Einrichtung allgemein als auch in der MWST.-Buchungsmatrix Einrichtung für bestimmte Kombinationen von MWST.-Geschäftsbuchungsgruppe und MWST.-Produktbuchungsgruppe aktivieren müssen.  
+Wenn Skonto auf der Basis einer Rechnung inklusive MWST berechnet wurde, haben Sie die Möglichkeit, den Skontoanteil des MWST-Betrages zu berichtigen, wenn Skonto gewährt wird. Beachten Sie, dass Sie das Feld **Skonto berichtigen** sowohl in der Finanzbuchhaltungs-Einrichtung: allgemein als auch in der MWST-Buchungsmatrix Einrichtung für bestimmte Kombinationen von MWST-Geschäftsbuchungsgruppe und MWST-Produktbuchungsgruppe aktivieren müssen.  
 
-#### <a name="to-manually-enter-vat-in-sales-documents"></a>So geben Sie die MWST. in Verkaufsbelegen manuell ein  
-1. Geben Sie im Fenster **Fibuposten Einrichtung** eine **maximal zulässige MWST-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Einrichtung des Systems für die manuelle MWST-Posten in Verkaufsbelegen
+Im Folgenden wird beschrieben, wie manuelle MWST-Änderungen auf Verkaufsbelegen aktiviert werden. Die Schritte sind auf der Seite **Einrichten von Einkäufen und Verbindlichkeiten** gleich.
+
+1. Geben Sie im Fenster **Finanzbuchhaltungs-Einrichtung:** eine **maximal zulässige MWST-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
 2. Versehen Sie im Fenster **Debitoren & Verkauf Einr.** das Feld **MwSt.-Differenz zulassen** mit einem Häkchen.  
 
-#### <a name="to-adjust-vat-for-a-sales-document"></a>Die MWST. für einen Verkaufsbeleg anpassen:  
+### <a name="to-adjust-vat-for-a-sales-document"></a>Die MWST. für einen Verkaufsbeleg anpassen:  
 1. Öffnen Sie den entsprechenden Verkaufsauftrag.  
 2. Wählen Sie die Aktion **Statistik** aus.  
-3. Klicken Sie auf das Inforegister **Fakturierung**.  
+3. Auf dem Inforegister **Fakturierung** wählen Sie im Feld den Wert **Anzahl der Steuerpositionen** aus.
+4. Füllen Sie das Feld **MWST-Betrag** aus.   
 
-    > [!NOTE]  
-    >  Der gesamte MWST-Betrag für die Rechnung wird gruppiert nach MWST ID in den Zeilen angezeigt. Sie können den Betrag manuell im Feld **MWST-Betrag** in den Zeilen für jede MWST ID anpassen. Wenn Sie das Feld **MWST-Betrag** ändern, prüft die Anwendung, ob die Mehrwertsteuer um einen höheren Betrag als die maximal zulässige Differenz geändert wurde. Liegt der Betrag ausserhalb des unter **Max. MWST-Differenz zulässig** angegebenen Bereichs, werden Sie in einer Warnmeldung über die maximal zulässige Differenz informiert. Sie können erst dann fortfahren, wenn der Betrag an die zulässigen Parameter angeglichen wurde. Klicken Sie auf **OK** , und geben Sie einen anderen **MWST-Betrag** ein, der innerhalb des zulässigen Bereichs liegt. Wenn die MWST-Differenz der zulässigen Abweichung entspricht oder höher ist, wird die MWST proportional auf die Belegzeilen mit derselben MWST ID aufgeteilt.  
+> [!NOTE]  
+> Der gesamte MWST-Betrag für die Rechnung wird gruppiert nach MWST ID in den Zeilen angezeigt. Sie können den Betrag manuell im Feld **MWST-Betrag** in den Zeilen für jede MWST ID anpassen. Wenn Sie das Feld **MWST-Betrag** ändern, prüft die Anwendung, ob die Mehrwertsteuer um einen höheren Betrag als die maximal zulässige Differenz geändert wurde. Liegt der Betrag ausserhalb des unter **Max. MWST-Differenz zulässig** angegebenen Bereichs, werden Sie in einer Warnmeldung über die maximal zulässige Differenz informiert. Sie können erst dann fortfahren, wenn der Betrag an die zulässigen Parameter angeglichen wurde. Klicken Sie auf **OK** , und geben Sie einen anderen **MWST-Betrag** ein, der innerhalb des zulässigen Bereichs liegt. Wenn die MWST-Differenz der zulässigen Abweichung entspricht oder höher ist, wird die MWST proportional auf die Belegzeilen mit derselben MWST ID aufgeteilt.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>MWST-Berechnung mithilfe von Erf.-Journalen manuell berechnen  
 Sie können MWST-Beträge auch in den Erfassungsjournalen Allgemein, Verkauf und Einkauf anpassen. Dies ist unter Umständen dann erforderlich, wenn Sie eine Kreditorenrechnung in das Erf.-Journal eingeben und zwischen der von der [!INCLUDE[d365fin](includes/d365fin_md.md)] Anwendung berechneten MWST und dem MWST-Betrag auf der erhaltenen Kreditorenrechnung eine Differenz besteht.  
 
-#### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Bevor Sie MWST.-Beträge manuell in einem Fibu-Erfassungsjournal eingeben  
-1. Geben Sie im Fenster **Fibuposten Einrichtung** eine **maximal zulässige MWST-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
-2. Wählen Sie auf der Seite **Fibu Erf.-Journalvorlagen** das Kontrollkästchen **MWST-Differenz zulassen** mit einem Häkchen.  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Einrichtung des Systems für die manuelle MWST-Posten in Fibu Erf.-Journalen
+Sie müssen die folgenden Schritte ausführen, bevor Sie die Mehrwertsteuer manuell in ein Fibu Erf.-Journal eingeben.  
 
-#### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Bevor Sie MWST.-Beträge manuell in Verkaufs- und Einkaufs-Erfassungsjournalen eingeben  
-1. Auf der Seite **Kreditoren & Einkauf Einr.** wählen Sie das Kontrollkästchen **MwSt.-Differenz zulassen**.  
-2. Nachdem Sie die oben beschriebene Einrichtung durchgeführt haben, können Sie den Betrag im Feld **MWST-Betrag** in der Fibu-Erf.-Blattzeile oder das Feld **Gegenkonto MWST-Betrag** in der Verkaufs- oder Einkaufs-Erf.-Journalzeile an den MWST-Betrag der Rechnung anpassen. [!INCLUDE[d365fin](includes/d365fin_md.md)]Die Anwendung prüft, ob die Differenz die festgelegte maximale Differenz übersteigt.  
+1. Geben Sie im Fenster **Finanzbuchhaltungs-Einrichtung:** eine **maximal zulässige MWST-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
+2. Wählen Sie auf der Seite **Allgemeine Erf.-Journal Vorlage** das Kontrollkästchen **MWST-Differenz zulassen** mit einem Häkchen.  
+
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Einrichtung des Systems für die manuellen MWST-Posten in einem Verkaufs- und Einkaufs-Erf.-Journal
+Sie müssen die folgenden Schritte ausführen, bevor Sie die Mehrwertsteuer manuell in ein Verkaufs- oder Einkaufs-Fibu Erf.-Journal eingeben.
+
+1. Auf der Seite **Kreditoren & Einkauf Einr.** wählen Sie das Kontrollkästchen **MWST-Differenz zulassen**.  
+2. Wiederholen Sie Schritt 1 für die Seite**Einkäufe und Verkäufe einrichten**.
+3. Nachdem Sie die oben beschriebene Einrichtung durchgeführt haben, können Sie den Betrag im Feld **MWST-Betrag** in der Fibu-Erf.-Journalzeile oder das Feld **Gegenkonto MWST-Betrag** in der Verkaufs- oder Einkaufs-Erf.-Journalzeile an den MWST-Betrag der Rechnung anpassen. [!INCLUDE[d365fin](includes/d365fin_md.md)]Die Anwendung prüft, ob die Differenz die festgelegte maximale Differenz übersteigt.  
 
     > [!NOTE]  
     > Wenn die Differenz grösser ist, wird in einer Warnmeldung über die maximal zulässige Differenz informiert. Um fortfahren, müssen Sie den Betrag korrigieren. Klicken Sie auf **OK** , und geben Sie einen anderen MwSt.-Betrag ein, der innerhalb des zulässigen Bereichs liegt. Wenn die MWST-Differenz der maximal zulässigen Differenz entspricht oder höher ist, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] die Abweichung im Feld **MWST-Differenz** angezeigt.  
 
-## <a name="to-post-import-vat-with-purchase-invoices"></a>Import-MwSt mit Einkaufsrechnungen buchen
-Zur Buchung einer Rechnung mit Einfuhrumsatzsteuer kann anstelle eines Fibu-Erfassungsjournals auch eine Einkaufsrechnung verwendet werden.  
+## <a name="posting-import-vat-with-purchase-invoices"></a>Einfuhrsteuer mit Einkaufsrechnungen buchen
+Für die Buchung einer Rechnung mit Einfuhrumsatzsteuer kann anstelle eines Fibu-Erf.-Journals auch eine Einkaufsrechnung verwendet werden.  
 
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Einkauf für die Buchung von Rechnungen mit Einfuhrumsatzsteuer einrichten  
 1. Richten Sie eine Kreditorenkarte für die Einfuhrbehörde ein, die Ihnen die Einfuhrumsatzsteuerrechnung sendet. Die **Geschäftsbuchungsgruppe** und **MwSt.-Geschäftsbuchungsgruppe** werden genauso eingerichtet, wir das Fibukonto für die Einfuhrumsatzsteuer.  
@@ -99,10 +107,10 @@ Zur Buchung einer Rechnung mit Einfuhrumsatzsteuer kann anstelle eines Fibu-Erfa
 3. Wählen Sie im Feld **Kreditorennr.** die als Kreditor fungierende Einfuhrbehörde, und klicken Sie danach auf **OK**.  
 4. Klicken Sie in der ersten Einkaufszeile im Feld **Art**und wählen Sie **Fibukonto** und dann das **Nr.** Feld, wählen das Fibukonto Einfuhr-MWST aus.  
 5. Geben Sie im Feld **Menge** den Wert **1** ein.  
-6. Geben Sie im Feld **EK-Preis ohne MWST.** den MWST.-Betrag an.  
+6. Geben Sie im Feld **EK-Preis ohne MWST** den MWST-Betrag an.  
 7. Buchen Sie die Rechnung.  
 
-## <a name="to-process-certificates-of-supply"></a>Verarbeiten von Gelangensbestätigungen
+## <a name="processing-certificates-of-supply"></a>Versorgungszertifikate verarbeiten
 Wenn Sie Waren an einen Debitor in einem anderen EU-Land/einer anderen EU-Region verkaufen, müssen Sie dem Debitoren eine Gelangensbestätigung zusenden, die dieser unterschreiben und an Sie zurücksenden muss. Die folgenden Verfahren sind für die Bearbeitung von Zertifikaten von Vorrat für Verkaufslieferungen gedacht, dieselben Schritte gelten jedoch auch für Servicelieferungen von Artikeln und Rücklieferungen an Kreditoren.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>So zeigen Sie die Details der Gelangensbestätigung an  

@@ -8,27 +8,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 07/08/2019
+ms.date: 07/12/2019
 ms.author: edupont
-ms.openlocfilehash: 5052e612a42edac27d08e0c70e0121ae47e45f00
-ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
+ms.openlocfilehash: 578f33dace52383ce588494d35c875ceaf6ffc21
+ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1737088"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1740470"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt die Möglichkeit vor, Geschäftsaktivitäten mit Ihren Debitoren und Kreditoren direkt in Microsoft Outlook zu verwalten. Mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-Add-In können Sie die Finanzdaten sehen, die mit den Debitoren und Kreditoren verknüpft sind, sowie Finanzbelege wie beispielsweise Offerten und Rechnungen erstellen und versenden.  
 
 ## <a name="getting-the-add-in"></a>Das Add-in abrufen
-Die ersten Schritte sind einfach mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-In für Outlook. Mit dem Leitfaden für das unterstützte Setup **Ihren Unternehmensposteingang in Outlook einrichten** können Sie die Verbindung für sich oder für Ihre Organisation einrichten, wenn Ihre Organisation Office 365 verwendet. Geben Sie einfach Ihren Office 365 Benutzernamen und Ihr Kennwort an. Die [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-Ins werden dann automatisch Outlook hinzugefügt. Weitere Informationen finden Sie unter [Mindestanforderungen für Outlook](product-requirements.md#outlook).  
+Die ersten Schritte sind einfach mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-In für Outlook. Mit dem unterstützten Setup Richten Sie Ihren **Geschäfts-Eingang in Outlook** ein können Sie die Verbindung für sich oder für Ihre Organisation einrichten, wenn Ihre Organisation Office 365 verwendet. Geben Sie einfach Ihren Office 365 Benutzername und Passwort ein, wenn Sie dazu aufgefordert werden, und teilen Sie uns mit, ob Sie eine Beispiel-E-Mail-Nachricht erhalten möchten. Die [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-Ins werden dann automatisch Outlook hinzugefügt. Weitere Informationen finden Sie unter [Mindestanforderungen für Outlook](product-requirements.md#outlook).  
 
-Wenn Sie Outlook öffnen, sehen Sie eine E-Mail-Nachricht von Dynamics 365 Business Central Admin. Das neue Add-In wird dem Outlook-Menüband und Outlook Web Access hinzugefügt. Sie können die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Add-Ins unmittelbar über oder unter dem Text der E-Mail sehen. Das Add-In selbst wird regelmässig aktualisiert, und Sie werden benachrichtigt, wenn eine neue Version in Outlook bereit ist.  
+Wenn Sie Outlook öffnen, sehen Sie eine E-Mail-Nachricht vom *Dynamics 365 Business Central Admin*. Das neue Add-In wird dem Outlook-Menüband und Outlook Web Access hinzugefügt. Sie können die [!INCLUDE[prodshort](includes/prodshort.md)]-Add-Ins unmittelbar über oder unter dem Text der E-Mail sehen. Das Add-In selbst wird regelmässig aktualisiert, und Sie werden benachrichtigt, wenn eine neue Version in Outlook bereit ist.  
 
-Einige Unternehmen, die Office 365 verwenden, grenzen die Berechtigungen der Benutzer ein, Add-Ins bereitzustellen. Daher müssen Sie sicherstellen, ob Sie ein Office 365-Abonnement haben, die E-Mail enthält und Ihnen ermöglicht, Add-Ins bereitzustellen. Wenn Sie das Add-In testen möchten, können Sie es in  Ve [Office 365 kostenlos testen](https://products.office.com/try).  
+> [!TIP]
+> Wenn Sie das neue Outlook in einem Browser verwenden, können die [!INCLUDE [prodshort](includes/prodshort.md)] Add-Ins unter **Mehr Aktionen** ausgeblendet werden.
+
+Einige Unternehmen, die Office 365 verwenden, grenzen die Berechtigungen der Benutzer ein, Add-Ins bereitzustellen. Daher müssen Sie sicherstellen, ob Sie ein Office 365-Abonnement haben, die E-Mail enthält und Ihnen ermöglicht, Add-Ins bereitzustellen. Wenn Sie das Add-In testen möchten, können Sie es in [Office 365 kostenlos testen](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Nutzung des Contact Insights Add-In
-Angenommen  Sie erhalten eine E-Mail von einem Debitor, der für einige Artikel ein Offerte möchte. Sie können direkt in Outlook das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Add-In öffnen, das den Sender als Debitoren identifiziert und die Debitorenkarte für das Unternehmen öffnet. Auf diesem Dashboard können Sie Übersichtsinformationen zum Debitor sehen, sowie weitere Details zu bestimmten Belegen anzeigen. Sie können sich auch die Verkaufshistorie für den Debitor anzeigen lassen. Wenn es ein neuer Debitor ist, können Sie ihn als neuen Debitor in Outlook erstellen, [!INCLUDE[d365fin](includes/d365fin_md.md)] ohne Outlook zu verlassen.  
+Angenommen  Sie erhalten eine E-Mail von einem Debitor, der für einige Artikel ein Offerte möchte. Sie können direkt in Outlook das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Add-In öffnen, das den Sender als Debitoren identifiziert und die Debitorenkarte für das Unternehmen öffnet. Auf diesem Dashboard können Sie Übersichtsinformationen zum Debitor sehen, sowie weitere Details zu bestimmten Belegen anzeigen. Sie können sich auch die Verkaufshistorie für den Debitor anzeigen lassen. Wenn es ein neuer Kontakt ist, können Sie ihn als neuen Debitor in Outlook erstellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] ohne Outlook zu verlassen.  
 
 Im Add-In können Sie eine Verkaufsofferte erstellen und sie diesem Kunden zusenden, ohne Outlook zu verlassen. Alle Informationen, die Sie zum Versenden der Verkaufsofferte benötigen, sind in Ihrem Geschäftseingang in Outlook verfügbar.  
 Sobald Sie die Daten einmal eingeben haben, können Sie die Offerte buchen. Sie können es dann per E-Mail senden. [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt eine .PDF-Datei mit dem Verkaufsangebot und fügt sie der E-Mail-Nachricht hinzu, deren Entwurf Sie im Add-In erstellt haben.  

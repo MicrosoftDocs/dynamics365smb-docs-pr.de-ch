@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2019
+ms.date: 07/12/2019
 ms.author: edupont
-ms.openlocfilehash: 4a71cb7574898e4c7d76188f7ea068bf8f8651c7
-ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
+ms.openlocfilehash: 5f1afacec447e645136321b73b6dd3fab8b36fe0
+ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1737065"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1740493"
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Richten Sie E-Mail Nachricht manuell oder mit der unterstützten Einrichtung ein
 Um E-Mails aus [!INCLUDE[d365fin](includes/d365fin_md.md)] zu senden und zu erhalten, müssen Sie die Felder auf der Seite **SMTP-Mail-Einrichtung** ausfüllen.
@@ -33,19 +33,40 @@ Sie können E-Mails entweder manuell einrichten oder Sie können den Leitfaden f
 4. Wenn alle korrekt Felder ausgefüllt sind, wählen Sie die Aktion **Test-E-Mail-Einrichtung** aus.
 5. Wenn der Test erfolgreich war, schliessen Sie die Seite.
 
-## <a name="sending-email-messages-from-a-send-as-email-address"></a>Senden von E-Mail-Nachrichten von einer E-Mail-Adresse vom Typ „Senden als“
-Sie können mehr Benutzern erlauben, E-Mail-Nachrichten von einer E-Mail-Adresse in Ihrem Besitz zu senden, die von ihrer normalen Adresse abweicht. Beispiel: Falls Sie eine Verkaufskampagne durchführen, ist es möglicherweise erwünscht, dass Personen Nachrichten von derselben Adresse senden, wie etwa verkauf@ihrunternehmensname.de. Um dies so einzurichten, geben Sie die Adresse zum Senden an zwei Orten an:
+## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Verwenden eine Ersatz-Absenderadresse für ausgehende E-Mail-Nachrichten
+Alle ausgehenden E-Mail-Nachrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden die Standardadresse für das Konto, das Sie wie oben beschrieben auf der Seite SMTP-E-Mail-Setup angegeben haben. Sie können jedoch die **Senden Als** oder **Senden im Auftrag von** Funktionen auf Ihrem Exchange-Server zum Ändern der Absenderadresse für ausgehende Nachrichten verwenden. [!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet das Standardkonto zur Authentifizierung bei Exchange, ersetzt jedoch entweder die Absenderadresse durch die von Ihnen angegebene oder ändert sie durch im Namen von. 
 
-* Geben Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] auf der Seite **SMTP E-Mail einrichten** die Adresse in das Feld **Senden als** ein.   
-* Geben Sie im **Exchange Admin Center** für Ihr Office 365-Konto im Feld **Senden als** die Adresse für jeden Benutzer an, der Nachrichten von der Adresse senden kann. Weitere Informationen finden Sie unter [Verwalten von Berechtigungen für Empfänger](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+Im Folgenden finden Sie Beispiele für die Verwendung von Senden als und Senden im Namen von [!INCLUDE[d365fin](includes/d365fin_md.md)].:
 
- > [!Note] 
- > Nach dem Festlegen des Kontos, unter dem Nachrichten versendet werden, wird die Adresse für jeden Benutzer im Office 365-Administrationscenter angezeigt, dient aber nur zu Informationszwecken. Sie können das Konto im Exchange Admin Center nur ändern oder entfernen.
+ * Wenn Sie Belege wie Kauf- oder Verkaufsaufträge an Lieferanten und Kunden senden, möchten Sie möglicherweise, dass sie von einer Adresse _noreply@yourcompanyname.com_ stammen. 
+ * Wenn Ihr Workflow eine Genehmigungsanfrage per E-Mail unter Verwendung der E-Mail-Adresse des Antragstellers sendet.
+
+> [!Note]
+> Sie können nur ein Konto verwenden, um Absenderadressen zu ersetzen. Das heisst, Sie können nicht eine Ersatzadresse für Einkaufsprozesse und eine andere für Verkaufsprozesse haben.
+
+### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Um eine Ersatz-Senderadresse einzurichgen für alle ausgehenden E-Mail-Nachrichten
+1. In dem **Exchange Admin Center** für Ihr Office 365 Konto suchen Sie das Postfach, das als Ersatzadresse verwendet werden soll, und kopieren Sie die Adress oder notieren Sie sie. Wenn Sie eine neue Adresse benötigen, rufen Sie Ihr Microsoft 365 Admin Center auf, um einen neuen Benutzer zu erstellen und dessen Postfach einzurichten. 
+2. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wählen Sie die ![Glühlampe, die die Funktion öffnet „Wie möchten Sie weiter verfahren“](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren"). Geben Sie **SMTP E-Mail einrichten** ein, und wählen dann den zugehörigen Link aus.
+3. In dem Feld **Senden als** geben Sie in das Feld die Ersatzadresse ein.
+4. Kopieren oder notieren Sie die Adresse im Feld **Benutzeridentifikation**.
+5. In dem **Exchange Admin Center** suchen Sie die Mailbox, die als Ersatzadresse verwendet werden soll, und geben Sie die Adresse in das Feld **Benutzeridentifikation** im Feld **Senden Als** ein. Weitere Informationen finden Sie unter [Verwalten von Berechtigungen für Empfänger](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+
+### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Verwendung der Ersatzadresse in Genehmigungsworkflows
+1. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wählen Sie die ![Glühlampe, die die Funktion öffnet „Wie möchten Sie weiter verfahren“](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren"). Geben Sie **SMTP E-Mail einrichten** ein, und wählen dann den zugehörigen Link aus.
+2. Kopieren oder notieren Sie die Adresse im Feld **Benutzeridentifikation**.
+3. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Genehmigungsbenutzer Einrichtung** ein, und wählen dann den zugehörigen Link aus.
+4. In dem **Exchange Admin Center** finden Sie die Postfächer für jeden Benutzer auf der Seite **Genehmigungsbenutzer einrichten** und im Feld **Senden Als** geben Sie die Adresse aus dem Bereich **Benutzeridentifikation** der Seite **SMTP-E-Mail einrichten** in [!INCLUDE[d365fin](includes/d365fin_md.md)] ein. Weitere Informationen finden Sie unter [Verwalten von Berechtigungen für Empfänger](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+5. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wählen Sie die ![Glühlampe, die die Funktion öffnet „Wie möchten Sie weiter verfahren“](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren"). Geben Sie **SMTP E-Mail einrichten** ein, und wählen dann den zugehörigen Link aus.
+6. Um die Ersetzung zu aktivieren, aktivieren Sie das Kontrollkästchen **Erlaube Absenderersetzung**.
+
+> [!Note]
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] legt fest, welche Adresse in der folgenden Reihenfolge angezeigt werden soll: <br><br> 1. Die Adrsse, die im Feld **E-Mail** auf der Seite **Genehmigungsbenutzer einrichten** für Nachrichten in einem Workflow angegeben ist. <br> 2. Die Adresse im Feld **Senden Als** auf der Seite **SMTP-E-Mail-Setup** einrichten. <br> 3. Die Adresse im Feld **Benutzeer-ID** auf der Seite **SMTP-E-Mail einrichten**.
+
 
 ## <a name="see-also"></a>Siehe auch  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
+[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzenb](ui-extensions.md)  
 [Nutzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)  
 [Abrufen von [!INCLUDE[d365fin](includes/d365fin_md.md)] auf meinem mobilen Gerät](install-mobile-app.md)
