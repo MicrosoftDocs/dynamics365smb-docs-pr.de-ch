@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: ab4ff824d3580fec45b5f25fb5a77fc276dbbb16
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: 4711c052d7a878329d9b4890ff891c4fa0f7fb2f
+ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594149"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870571"
 ---
 # <a name="switzerland-local-functionality"></a>Lokale Funktion (Schweiz)
 Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -63,7 +63,6 @@ Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version
 
 * Lagerbestand
     * [Lagerverwaltung (Schweiz)](swiss-inventory-management.md) **Jetzt erhältlich**
-    * [Kopieren von vorhandenen Elementen in neue Elemente](how-to-copy-existing-items-to-new-items.md)
     * [Drucken einer Lagerkommissionierliste von einem Auftrag](how-to-print-an-inventory-picking-list-from-a-sales-order.md) **Jetzt erhältlich**
 
 * Allgemein    
