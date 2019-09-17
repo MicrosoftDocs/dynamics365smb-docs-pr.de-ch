@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 08/30/2019
 ms.author: soalex
-ms.openlocfilehash: 4711c052d7a878329d9b4890ff891c4fa0f7fb2f
-ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
+ms.openlocfilehash: f28ed2ae21308d87f295c1d75973073c3bdf1596
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870571"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985806"
 ---
 # <a name="switzerland-local-functionality"></a>Lokale Funktion (Schweiz)
 Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -30,8 +30,8 @@ Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version
     * [Mehrwertsteuer (Schweiz)](swiss-value-added-tax.md) **Jetzt erhältlich**
     * [MWST-Sätze für die Schweiz](vat-rates-for-switzerland.md) **Jetzt erhältlich**
 
-* Bankgeschäfte und Zahlungen
-    * QR-Code auf Zahlungsbelegen (Schweiz) **Geplant für 3. Quartal 2019**
+* Banking und Zahlungen
+    * QR-Code auf Schweizer Zahlungsscheinen **Geplant für 2020 Q1/Q2**
     * [Schliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md) **Jetzt erhältlich**
     * [Exportieren von Zahlungen mit LSV](how-to-export-payments-using-lsv.md) **Jetzt erhältlich**
     * [Importieren von ESR-Zahlungen](how-to-import-esr-payments.md) **Jetzt erhältlich**
