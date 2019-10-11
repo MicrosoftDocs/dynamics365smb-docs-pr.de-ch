@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 99dcddbc7b071a1cd397be7465f996b6fb6f5bd7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6bd65080387b7c2368672d1735a045a999cc49f2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241299"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301004"
 ---
 # <a name="process-an-lsv-collection"></a>Verarbeiten eines LSV-Einzugs
 Mithilfe der **LSV-Erf.-Journal**-Seite können Zahlungen von LSV+-Debitoren (Lastschriftverfahren) erstellt und verarbeitet werden. Sie können diese Zahlungen im Zahlungseingangs-Erfassungsjournal erfassen, eine LSV-Datei erstellen und dann den Einzugsauftrag drucken. Weitere Informationen finden Sie unter Zahlungseingangs Erf.-Journal (Seite) und [Exportieren von Zahlungen mit LSV](how-to-export-payments-using-lsv.md).  

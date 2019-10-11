@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/30/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: f28ed2ae21308d87f295c1d75973073c3bdf1596
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: 8c13ef213f5f0ca3169bfcbdb595839a5e3d3250
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985806"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300972"
 ---
 # <a name="switzerland-local-functionality"></a>Lokale Funktion (Schweiz)
 Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -68,7 +68,6 @@ Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version
 * Allgemein    
     * [Importieren von Postleitzahlen (Schweiz)](how-to-import-swiss-post-codes.md) **Jetzt erhältlich**
     * [Einkaufsbelege und Verkaufsaufträge (Schweiz)](swiss-purchase-documents-and-sales-documents.md) **Jetzt erhältlich**
-    * [Drucken von Verkaufsaufträgen und Bestellungen während der Stapelbuchung](how-to-print-sales-and-purchase-orders-during-batch-posting.md) **Jetzt erhältlich**
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)

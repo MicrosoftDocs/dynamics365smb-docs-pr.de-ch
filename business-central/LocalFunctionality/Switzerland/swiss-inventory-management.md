@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3659380a67f7b16a8b44400d4d4691ff0935aa06
-ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
+ms.openlocfilehash: 53386804f286b3cfff882c647240dfa9cca2c161
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870565"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300958"
 ---
 # <a name="swiss-inventory-management"></a>Lagerverwaltung (Schweiz)
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enthält Schweizer Erweiterungen für Lagerverwaltung. Dies beinhaltet Folgendes:  
@@ -35,5 +35,5 @@ Zusätzliche Informationen, wie Debitorennummer, Lieferadresscode und Debitorenv
 Sind mehrere Lieferungen für einen Debitoren gebucht worden, können Sie Sammelrechnungen mit der Funktion **Lieferzeilen abrufen** erstellen. Weitere Informationen finden Sie auf der Seite „Versandzeilen abrufen“. Wenn Sie diese Funktion verwenden, enthält der Text, der in den Rechnungszeilen erstellt wird, die Informationen über die Nummer der Auslieferung und das Lieferdatum. Beispielsweise kann der Text als Lieferungsnummer erscheinen. 102040 von 25.01.01. Auf diese Weise können Sie Rechnungen mit mehreren Lieferungen verfolgen.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Lokale Funktion (Schweiz)](switzerland-local-functionality.md)   
-[Einrichten von Lagerorten](../../inventory-how-setup-locations.md)
+ [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)   
+ [Einrichten von Lagerorten](../../inventory-how-setup-locations.md)
