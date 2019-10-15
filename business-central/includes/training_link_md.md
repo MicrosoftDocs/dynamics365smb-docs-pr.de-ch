@@ -1,1 +1,1 @@
-<span data-ttu-id="ecfae-101">Erhalten Sie [Training!](/dynamics365/get-started/training/)</span><span class="sxs-lookup"><span data-stu-id="ecfae-101">Get [training!](/dynamics365/get-started/training/)</span></span>
+<span data-ttu-id="66d41-101">Erhalten Sie [Training!](/learn/browse/?products=dynamics-business-central)</span><span class="sxs-lookup"><span data-stu-id="66d41-101">Get [training!](/learn/browse/?products=dynamics-business-central)</span></span>
