@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 06/19/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: e100350322a1cf840b4428868f77b104e07c23c1
-ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
+ms.openlocfilehash: 095d8ba53bce25df66bcb8c5daa1e06479b68f0c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "1701235"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315314"
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 Glückwünsche, Sie haben soeben Ihren ersten Mandanten in [!INCLUDE[d365fin](includes/d365fin_md.md)]  eingerichtet.
 
-Für Unterstützung zum Tätigen vom Geschäften erhalten, können Sie die Seite **Geschäfts-Hilfe** aufsuchen. Dort können Sie die unterstützte Hilfe starten oder Hilfethemen für ausgewählte Einrichtungsaufgaben aufrufen. Sie rufen die Seite aus dem Diagramm im Rollencenter zu **Geschäftsführer** auf, indem Sie das Steuerelement **Geschäfts-Hilfe** auswählen, und dann die Aktion **Einrichtungs- und Hilfe-Ressourcen anzeigen** auswählen. Wenn Sie die Seite aktualisieren, wird das Diagramm der Einrichtungs- und Hilferessourcen ersetzt.
+Für Unterstützung zum Tätigen vom Geschäften erhalten, können Sie die Seite **Geschäfts-Hilfe** aufsuchen. Dort können Sie die unterstützte Hilfe starten oder Hilfethemen für ausgewählte Einrichtungsaufgaben aufrufen. Sie rufen die Seite aus dem Diagramm im Rollencenter zu **Geschäftsführer** auf, indem Sie den Dropdownpfeil **Geschäfts-Hilfe** auswählen, und dann die Aktion **Einrichtungs- und Hilfe-Ressourcen anzeigen** auswählen. Wenn Sie die Seite aktualisieren, wird das Diagramm der Einrichtungs- und Hilferessourcen ersetzt.
 
 Um eine vollständige Liste von unterstützten Einrichtungs-Leitfäden zu öffnen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion Wie möchten Sie weiter verfahren](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") geöffnet wird und geben Sie **Unterstützte Einrichtung** ein und wählen dann den zugehörigen Link aus.
 
@@ -31,7 +31,7 @@ Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt wird, wäh
 
 > [!NOTE]  
 > Die Liste der Leitfäden für das unterstützte Setup, Erweiterungen und Diensten, die verfügbar sind, unterscheidet sich abhängig von der Benutzerumgebung, die Sie für Ihr Unternehmen auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Premium**.<br /><br />
-> Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung **Standard**. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).
+> Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung **Standard**. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
 
 Wenn Sie einen Leitfaden für das unterstützte Setup ausgeführt haben, wird er als **Abgeschlossen** markiert. Um die unterstützte Einrichtung auszuführen, wählen Sie die drei Punkte, die auch als Kontextmenü bezeichnet werden, und wählen Sie **Einrichtung starten** aus.
 
@@ -60,6 +60,6 @@ Auf Grundlage Ihrer migrierten Daten können Sie jetzt fortfahren, um neue Verk�
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Benutzer und ihre Berechtigungen verwalten](ui-how-users-permissions.md)
+[Benutzer und Berechtigungen verwalten](ui-how-users-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

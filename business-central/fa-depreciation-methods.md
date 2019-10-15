@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9c9d01e54aa43cbba722c459a2bf60be26433727
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 261fc147c4e940e4fce69e5a302d1d501f9c5597
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240990"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302898"
 ---
 # <a name="depreciation-methods"></a>Abschreibungsmethoden
 Es gibt acht verfügbare Abschreibungsmethoden:  
@@ -55,12 +55,12 @@ Die verbleibenden Abschreibungstage werden als die Gesamtzahl der Abschreibungst
 Der Buchwert kann durch gebuchte Zuschreibungen, AfA, Sonderabschreibungsbeträge oder benutzerdef. Abschr.beträge reduziert werden; abhängig davon, ob das Feld **In AfA-Berechnung enthalten** deaktiviert ist und ob das Feld **Teil d. Buchwerts** auf der Seite **Anlagenbuchungsart Einr.** aktiviert ist. Diese Berechnung stellt sicher, dass die Anlage zum angegebenen Enddatum vollständig abgeschrieben ist.  
 
 ### <a name="fixed-yearly-percentage"></a>Fester jährlicher Prozentsatz
-Wenn Sie einen festen jährlichen Prozentsatz angeben, verwendet die Anwendung die folgende Formel, um den Abschreibungsbetrag zu berechnen:  
+Wenn Sie einen festen jährlichen Prozentsatz angeben, verwendet die Anwendung die folgende Formel für die Berechnung des Abschreibungssatzes.  
 
 Abschreibungsbetrag = (Linear % x Abschreibungsbasis x Anzahl Abschreibungstage) / (100 x 360)  
 
 ### <a name="fixed-yearly-amount"></a>Fester jährlicher Betrag
-Wenn Sie einen festen jährlichen Betrag angeben, verwendet die Anwendung die folgende Formel, um den Abschreibungsbetrag zu berechnen:  
+Wenn Sie einen festen jährlichen Betrag angeben, verwendet die Anwendung die folgende Formel, um den Abschreibungssatz zu berechnen:  
 
 Abschreibungsbetrag = (Fester Abschreibungsbetrag x Anzahl Abschreibungstage) / 360  
 
@@ -217,7 +217,7 @@ Jahr (2015):
 Es wird der lineare Betrag verwendet, da es sich um den grösseren Betrag handelt.  
 
 ## <a name="user-defined-depreciation"></a>Benutzerdefinierte Abschreibung
-Die Anwendung verfügt über Funktionen, mit denen Sie benutzerdefinierte Abschreibungsmethoden definieren können.  
+Die Anwendung hat Funktionen, mit denen Sie benutzerdefinierte Abschreibungsmethoden definieren können.  
 
 Mit einer benutzerdefinierten Methode können Sie die Seite **Abschreibungstabellen** verwenden, in dem Sie einen Abschreibung Prozentsatz für jede Periode angeben müssen (Monat, Quartal, Jahr oder Buchhaltungsperiode).  
 
@@ -257,7 +257,7 @@ Die Anschaffungskosten betragen MW 100.000 und die Lebensdauer für die Abschrei
 
 * Startdatum Normal-Abschreibung  
 
-Wenn Sie eine benutzerdefinierte Methode verwenden, müssen die Seiten **Startdatum Benutzerdef. Abschreibung** und **Startdatum Normal-Abschreibung** im Fenster **Anlagen-Abschreibungsbücher** ausgefüllt werden. Das Feld **Startdatum Benutzerdef. Abschreibung** und der Inhalt des Felds **Periodenlänge** auf der Seite **Abschreibungstabellen** werden verwendet, um die Zeitintervalle für Abschreibungsberechnungen festzulegen. Damit wird sichergestellt, dass die Anwendung den angegebenen Prozentsatz für alle Anlagen am gleichen Tag verwendet. Das Feld **Startdatum Normal-Abschreibung** wird verwendet, um die Anzahl der Abschreibungstage zu berechnen.  
+Wenn Sie eine benutzerdefinierte Methode verwenden, müssen die Seiten **Startdatum Benutzerdef. Abschreibung** und **Startdatum Normal-Abschreibung** im Fenster **Anlagen-Abschreibungsbücher** ausgefüllt werden. Das Feld **Startdatum Benutzerdef. Abschreibung** und der Inhalt des Felds **Periodenlänge** auf der Seite **Abschreibungstabellen** werden verwendet, um die Zeitintervalle für Abschreibungsberechnungen festzulegen. Damit wird sichergestellt, dass die Anwendung den angegebenen Prozentsatz für sämtliche Anlagen am gleichen Tag verwendet. Das Feld **Startdatum Normal-Abschreibung** wird verwendet, um die Anzahl der Abschreibungstage zu berechnen.  
 
 Im vorherigen Beispiel enthalten die Felder **Startdatum Benutzerdef. AfA** und **Startdatum Normal-AfA** beide den Wert "01/01/01". Hätte das Feld **Startdatum Benutzerdef. AfA** jedoch den Wert "01/01/10" und das Feld **Startdatum Normal-AfA** den Wert "01/04/11" enthalten, wäre das Ergebnis folgendermassen ausgefallen:  
 
@@ -275,7 +275,7 @@ Im vorherigen Beispiel enthalten die Felder **Startdatum Benutzerdef. AfA** und 
 ## <a name="half-year-convention-depreciation"></a>Abschreibung 1 unter Verwendung der US-Halbjahresregel
 Die US-Halbjahresregel wird nur dann angewendet, wenn Sie ein Häkchen auf der Seite **US-Halbjahresregel verwenden** im **Anlagen-Abschreibungsbuch** gesetzt haben.  
 
-Diese Abschreibungsmethode kann im Zusammenhang mit den folgenden Abschreibungsmethoden in der Anwendung verwendet werden:  
+Diese Abschreibung-Methode kann im Zusammenhang mit folgenden Abschreibungsmethoden in der Anwendung verwendet werden:  
 
 * Linear  
 * Degressiv 1  
@@ -343,7 +343,7 @@ Es wird der lineare Betrag verwendet, da es sich um den grösseren Betrag handel
 ## <a name="duplicating-entries-to-more-depreciation-books"></a>Kopieren von Posten in weitere AfA-Bücher
 Falls Sie über 3 Abschreibungsbücher B1, B2 und B3 verfügen und Sie Posten aus B1 in B2 und B3 kopieren möchten, können Sie ein Häkchen in dem Feld **Kopien ermöglichen** in der Abschreibungsbuchkarte von B2 und B3 setzen. Dies kann hilfreich sein, wenn das Abschreibungsbuch B1 in die Fibuposten integriert ist und das Anlagen-Fibu Erf.-Journal verwendet, während die Abschreibungsbücher B2 und B3 nicht in der Fibuposten integriert sind und das Anlagen Erf.-Journal verwenden.  
 
-Wenn Sie einen Posten in B1 im Anlagen-Fibu Buch.-Blatt erstellen und ein Häkchen in dem Feld **Kopiervorgang aktivieren** gesetzt haben, kopiert die Anwendung den Posten in die Bücher B2 und B3 im Anlagen Buch.-Blatt, wenn Sie den Posten buchen.  
+Wenn Sie einen Posten in B1 im Anlagen-Fibu Erf.-Journal erstellen und dann ein Häkchen in dem Feld **Kopiervorgang aktivieren** gesetzt haben, kopiert die Anwendung den Posten in die Bücher B2 und B3 im Anlagen Erf.-Journal, wenn Sie den Posten buchen.  
 
 > [!NOTE]  
 >   Es ist nicht möglich in dem gleichen Erf.-Journal und der gleichen Erf.-Journalvorlage zu kopieren, aus der Sie kopieren. Wenn Sie Posten im Fibu Erf.-Journal buchen, können Sie diese über eine weitere Stapelverarbeitung in ein Anlagen Erf.-Journal oder ein Anlagen Fibu Erf.-Journal kopieren.  

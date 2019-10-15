@@ -185,7 +185,7 @@
     <Node Name="" DisplayName="Arbeiten mit Dimensionen" Page="finance-dimensions.html"/>
     <Node Name="" DisplayName="So wird's gemacht: neue Budgets erzeugen" Page="finance-how-create-budgets.html"/>
     <Node Name="" DisplayName="Vorgehensweise: Transaktionen direkt in die Finanzbuchhaltung buchen" Page="finance-how-post-transactions-directly.html"/>
-    <Node Name="" DisplayName="So geht's: Buchungen stornieren" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Erf.-Journalbuchungen stornieren und Belege/Lieferungen rückgängig machen" Page="finance-how-reverse-journal-posting.html"/>
     <Node Name="" DisplayName="Erklärt, wie Kosten und Einnahmen zugewiesen werden." Page="year-allocate-costs-income.html"/>
     <Node Name="" DisplayName="Vorgehensweise: Verwenden von Artikelzuschlägen für zusätzliche Kosten" Page="payables-how-assign-item-charges.html"/>
     <Node Name="" DisplayName="Vorgehensweise: Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen" Page="finance-how-record-reimburse-employee-expenses.html"/>

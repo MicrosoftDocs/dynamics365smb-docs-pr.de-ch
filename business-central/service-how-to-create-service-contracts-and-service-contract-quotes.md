@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d3c3a460cd13d0af16e38564d4b2fb0de367ed53
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252219"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311706"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbeiten mit Serviceverträgen und Servicevertragsofferten
 Sie können einen Servicevertrag manuell erstellen oder aus einer Servicevertragsofferte. Sie können eine Servicevertragsofferte als Vorläufer eines Servicevertrags verwenden, in dem Ihr Unternehmen dem Debitoren eine Offerte unterbreitet und die Genehmigung des Debitoren erhält, bevor die Offerte in einen Servicevertrag umgewandelt wird. Die Vorgehensweisen zur Erstellung eines Servicevertrags oder einer Servicevertragsofferte sind ähnlich.  
@@ -28,7 +28,7 @@ Sie können einen Servicevertrag manuell erstellen oder aus einer Servicevertrag
 3. Füllen Sie die **Felder Nr.** Feld Es wird ein Dialogfeld geöffnet, in dem Sie gefragt werden, ob Sie die allgemeinen Daten aus einer Vertragsvorlage verwenden möchten. Wenn Sie einen solchen Servicevertrag oder eine solche Servicevertragsofferte erstellen möchten, klicken Sie auf **Ja**. Die Seite **Servicevertragsvorl.-Liste** wird angezeigt.  
 4. Wählen Sie die entsprechende Vorlage aus, und wählen Sie dann **OK** aus, um den Servicevertrag oder die Servicevertragsofferte mithilfe der Vorlage zu erstellen.  
 5. Klicken Sie im Feld **Debitorennr.** auf den Debitor.  
-6. Wenn die Differenz der jährlichen Beträge nicht automatisch verteilt werden soll, wählen Sie das Kontrollkästchen **Nicht ausgegl. Betr. zulassen** aus. Die Werte in den Feldern **Zu fakturieren (Jahr)** und **Berech. zu fakturieren (Jahr)** werden nicht automatisch ausgeglichen. Wenn Sie aber möchten, dass Differenzen der jährlichen Beträge, die sich aus einer Änderung im Servicevertrag ergeben, ausgeglichen werden, aktivieren Sie **Nicht ausgegl. Betr. zulassen** nicht.  
+6. Wenn die Differenz der jährlichen Beträge nicht automatisch verteilt werden soll, wählen Sie das Kontrollkästchen **Nicht ausgegl. Betr. zulassen** aus. Die Werte in den Feldern **Zu fakturieren (Jahr)** und **Berech. zu fakturieren (Jahr)** werden nicht automatisch ausgeglichen. Wenn Sie aber möchten, dass Die Anwendung die Differenzen der jährlichen Beträge, die sich aus einer Änderung im Servicevertrag ergeben, automatisch ausgleicht, aktivieren Sie **Nicht ausgegl. Betr. zulassen** nicht.  
 7. Vertragszeilen einem Servicevertrag oder einer Servicevertragsofferte hinzufügen.  
 8. Füllen Sie die restlichen Felder aus, soweit dies erforderlich ist.  
 

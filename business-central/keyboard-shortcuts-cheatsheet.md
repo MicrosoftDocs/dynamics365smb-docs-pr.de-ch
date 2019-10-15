@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 05/22/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f23d1ffd1d9f000578269d0ed89c355bc2edb291
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 8712e38d2de04cbaebe810367cfe9aa4f8cf9410
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629748"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309570"
 ---
-# <a name="keyboard-shortcuts-pc-only"></a>PC-Tastenkombinationen (nur PC)
+# <a name="keyboard-quick-reference---pc-only"></a>Nur PC-Tastenkombinationskurzübersicht
 
 ||||  
 |----------------|-----------|----------------|
-|**Allgemein**|Alt+F2<br />ALT+N<br />ALT+Q<br />ALT+NACH-OBEN-TASTE<br />ALT+NACH-UNTEN-TASTE<br />Alt+NACH-RECHTS-TASTE<br />ALT+T<br />CTRL+ALT+F1<br />CTRL+F1<br />F5/CTRL+F5<br />TAB/UMSCHALT+TAB<br />|Infoboxbereich anzeigen und ausblenden.<br />Erstellen eines neuen Datensatzes<br />Öffnen Sie **Mitteilen**<br />Öffnen Sie QuickInfo oder Überprüfungsfehler<br />Dropdown oder Suche öffnen<br />Transaktionen für berechnete Werte anzeigen<br />Öffnen der Seite **Meine Einstellungen**.<br />Die Seite prüfen<br />Hilfe für die Seite öffnen<br />Die Seite aktualisieren/neu laden.<br />Fokus auf das nächste/vorherige Element richten|
+|**Allgemein**|Alt+F2<br />ALT+N<br />ALT+SHIFT+N<br />ALT+O<br />ALT+Q<br />ALT+NACH-OBEN-TASTE<br />ALT+NACH-UNTEN-TASTE<br />ALT+T<br />ALT+SHIFT+W<br />Ctrl+Ins<br />CTRL+DEL<br />Ctrl+Shift+F12<br />CTRL+F1<br />Ctrl+Click<br />Shift+F12<br />F5/CTRL+F5<br />TAB/UMSCHALT+TAB<br />|Infoboxbereich anzeigen und ausblenden.<br />Erstellen eines neuen Datensatzes<br />Schliessen Sie einen neu erstellten Datensatz und erstellen Sie einen neuen Datensatz.<br />Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu<br />Öffnen Sie **Mitteilen**<br />Öffnen Sie QuickInfo oder Überprüfungsfehler<br />Dropdown oder Suche öffnen<br />Öffnen der Seite **Meine Einstellungen**.<br />Öffnen Sie die aktuelle Karte oder das Beleg in einem neuen Fenster<br />Fügen Sie eine neue Zeile in einem Beleg hinzu<br />Löschen Sie die Zeile in einem Beleg, Erf.-Journal oder Arbeitsblatt<br />Maximieren Sie den Werbebuchungsteil auf einer Belegseite<br />Hilfe für die Seite öffnen<br />Navigieren Sie beim Personalisieren und Anpassen<br />Öffnen Sie die Funktionsübersicht<br />Die Seite aktualisieren/neu laden.<br />Fokus auf das nächste/vorherige Element richten|
 |**Zeilen navigieren und<br />auswählen**| Start/Ende<br />CTRL+HOME/END <br />CTRL+NACH UNTEN/NACH OBEN<br />CTRL+A <br />CTRL+LEERTASTE<br />Ctrl/Shift+Click<br />SHIFT+NACH OBEN/UNTEN<br />SHIFT+SEITE NACH UNTEN/OBEN<br />Ctrl+Enter| Zum ersten/letzten Feld gehen.<br />Zur ersten/letzten Zeile.<br />Navigieren Sie ohne die Auswahl zu verlieren<br />Alles auswählen<br />Toggle-Zeilen-Auswahl<br /> Fügen Sie die Zeile/Zeilen der Angaben hinzu<br />Fügen Sie Zeilen über/unter der Auswahl hinzu<br />Sichtbare Zeilen darüber/darunter auswählen <br />Fokus weg von der Liste|
 |**Kopieren und einfügen**|CTRL+C/V<br />F8|Zeilen kopieren/einfügen<br />Feld in aktuellen Zeile kopieren|
 |**Suchen, filtern <br />und sortieren**|F6<br />Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Navigieren zum nächsten Inforegister<br />Sortieren Sie die ausgewählte Spalte in aufsteigender/absteigender Reihenfolge.<br />Suche umschalten<br />Zwischen Filterbereichen umschalten; Fokus auf Feldfilter<br />Zwischen Filterbereichen umschalten; Fokus auf Feldfilter<br />Filtern Sie ausgewählte Zellwerte<br />Filter auf ausgewählten Felder hinzufügen<br />Filter zurücksetzen|

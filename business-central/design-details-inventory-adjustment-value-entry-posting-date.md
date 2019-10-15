@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b08864a4cf7f7f198d692a6658ae437856860a51
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2595efa188aed593bf1d112f984acf411446959b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247573"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307146"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designdetails: Buchungsdatum auf Ausgleichs-Wertposten
 Dieser Artikel setzt Anleitung für Benutzer der Lager-Kostenberechnungsfunktionalität fest in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Der spezifische Artikel informiert, wie die Stapelverarbeitung **Lagerreg. fakt. Einst.-Preise** kennzeichnet und ein Buchungsdatum auf Wertposten zuweist, die die Stapelverarbeitung erstellt.  
@@ -351,7 +351,7 @@ Die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** bestimmt, ob das urspr�
  Im Anforderungsformular der Stapelverarbeitung Lagerreg muss vom Benutzer ein Buchungsdatum eingegeben werden. Die Stapelverarbeitung wird für alle Wertposten im Filter durchgeführt und erstellt ggf. Fibuposten mit dem Buchungsdatum, das im Anforderungsfenster eingegeben wird.  
 
 ### <a name="version-370b40"></a>Version 3.70.B..4.0  
- Im Anforderungsformular der Stapelverarbeitung Lagerreg muss vom Benutzer ein Buchungsdatum eingegeben werden. Die Anwendung verwendet das Datum, das Sie eingeben, wie auch das Buchungsdatum für die Fibuposten für Wertposten, deren Buchungsdatum in abgeschlossenen Buchhaltungsperioden liegt. Das Buchungsdatum der Fibuposten ist das gleiche wie für die zugehörigen Wertposten. Ein Datum wird als in einer geschlossenen Periode angeschaut, wenn es vor dem Datum des Feldes Buchungen zugel im Fibuposten liegt. Wenn Sie GL\/pro Buchungsgruppe buchen, haben die Fibuposten das Buchungsdatum, das Sie in dem Feld "Buchungsdatum" des Anforderungsformulars angegeben haben.  
+ Im Anforderungsformular der Stapelverarbeitung Lagerreg muss vom Benutzer ein Buchungsdatum eingegeben werden. Die Anwendung verwendet das Datum, das Sie eingeben, wie auch das Buchungsdatum für die Fibuposten für die Finanzbuchhaltung, deren Buchungsdatum in abgeschlossenen Buchhaltungsperioden liegt. Das Buchungsdatum der Fibuposten ist das gleiche wie für die zugehörigen Wertposten. Ein Datum wird als in einer geschlossenen Periode angeschaut, wenn es vor dem Datum des Feldes Buchungen zugel im Fibuposten liegt. Wenn Sie GL\/pro Buchungsgruppe buchen, haben die Fibuposten das Buchungsdatum, das Sie in dem Feld "Buchungsdatum" des Anforderungsformulars angegeben haben.  
 
  In Version 3 und 4 scannt die Stapelverarbeitung alle Wertposteneinträge, um zu erkennen, ob es Wertposten gibt, bei denen der Kostenbetrag (tatsächl) von den gebuchten Kosten in der Finanzbuchhaltung abweicht. Wenn eine Differenz erkannt wird, wird der Unterschied in einem Fibuposten gebucht. Wenn die erwartete Kostenbuchung verwendet wird, werden die entsprechenden Felder gleich verarbeitet.  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 046d2469c13358942fec767b58f6e9ffe46e7799
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6fab25e6f8a3e840dd0b40f616b2a21abe13a9ad
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243471"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302352"
 ---
 # <a name="defer-revenues-and-expenses"></a>Einnahmen und Ausgaben abgrenzen
 Um Einnahmen und Ausgaben in einer anderen Periode als in jener, in der die Transaktion gebucht wurde, zu erkennen, können Sie die Funktionen verwenden, um Einnahmen und Ausgaben über einen bestimmten Zeitplan automatisch abzugrenzen.
@@ -42,7 +42,7 @@ Für beide Arten Abgrenzung wählen Sie im Feld **Art** **Bilanz** aus und benen
    * **Gleich pro Periode**: Die regelmässigen Abgrenzungsbeträge werden entsprechend der Anzahl der Perioden berechnet, gleichmässig nach Perioden verteilt.
    * **Tage pro Periode**: Die regelmässigen Abgrenzungsbeträge werden entsprechend der Anzahl der Tage in der Periode berechnet.
    * **Benutzerdefiniert**: Die regelmässig Abgrenzungsbeträge werden nicht berechnet. Sie müssen das Feld **Betrag** für jede Periode auf der Abgrenzungsplanseite manuell ausfüllen. Weitere Informationen finden Sie im Abschnitt „So ändern Sie einen Aufschubzeitplan aus einer Verkaufsrechnung”.
-5. Im Feld **Periodenbeschr.** geben Sie eine Beschreibung an, die bei Einträgen für die Abgrenzungsbuchung angezeigt wird. Sie können die folgenden Platzhaltercodes für typische Werte eingeben, die automatisch eingefügt werden, wenn die Periodenbeschreibung angezeigt wird.
+5. In der **Periodenbeschr.** Feld geben Sie eine Beschreibung an, die bei Einträgen für die Abgrenzungsbuchung angezeigt wird. Sie können die folgenden Platzhaltercodes für typische Werte eingeben, die automatisch eingefügt werden, wenn die Periodenbeschreibung angezeigt wird.
 
    * %1 = Die Tagesnummer des Periodenbuchungsdatums
    * %2 = Die Wochennummer des Periodenbuchungsdatums
@@ -78,7 +78,7 @@ Beispiel: Das Buchungsdatum ist 02.06.2016. Wenn Sie „Abgrenzungsausgabe für 
 1. Auf der Seite **Gebuchte Verkaufsrechnung** wählen Sie die Aktion **Buchung ansehen** aus.
 2. Wählen Sie auf der Seite **Buchungsvorschau** die Option **Fibukonteneintrag** aus und wählen Sie dann **Zugehörige Einträge anzeigen** aus.
 
-Zu einem bestimmten Aufschubkonto zu buchende Fibuposten, beispielsweise „Nicht verdiente Erträge”, werden von der Beschreibung bezeichnet, die Sie im Feld **Periodenbeschreibung** in der Aufschubvorlage eingegeben haben, beispielsweise „Einnahmeaufschub für Februar 2016“.
+Fibukonteneinträge, die im entsprechenden Abgrenzungskonto gebucht werden müssen, wie beispielsweise "Nicht verdiente Erträge" werden durch die Beschreibung bezeichnet, die Sie unter **Perioden Beschr.** eingegeben haben. Feld in der Abgrenzungsvorlage beispielsweise "Ausgaben abgegrenzt für Februar 2016".
 
 ## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>So überprüfen Sie gebuchte Aufschübe im Bericht „Verkaufsaufschubzusammenfassung” .
 > [!NOTE]  

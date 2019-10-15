@@ -1,5 +1,5 @@
 ---
-title: Wie Sie Daten in die Felder eingeben| Microsoft Docs
+title: Eingeben von Daten in Business Central | Microsoft Docs
 description: Informationen zu allgemeinen Funktionen, die Ihnen dabei helfen, Daten in die Felder einzugeben.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83bf26c7059146978d46820144e5701fdbb3aa31
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000801"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311394"
 ---
 # <a name="entering-data"></a>Eingeben von Daten
 
@@ -39,7 +39,7 @@ Sie sind möglicherweise bereits mit der Anwendung die TAB-TASTE vertraut, um vo
 
 Jedes Feld kann als *in Schnelleingabe enthalten* oder *aus Schnelleingabe ausgeschlossen* markiert werden. Felder, die in der Schnelleingabe enthalten sind, sind im Pfad enthalten, wenn Sie ENTER drücken; Felder, die aus der Schnelleingabe ausgeschlossen sind, nicht.
 
-Wenn Sie die Dateneingabe in einem Feld beendet haben, drücken Sie einfach ENTER, um die Änderungen zu bestätigen und zum nächsten Feld zu wechseln. Wenn Sie die Richtung umkehren und zum vorherigen Feld gehen möchten, drücken SHIFT+ENTER. Weitere Informationen zu diesen Tastenkombinationen finden Sie unter [Tastenkombinationen der Schnelleingabe für Felder](keyboard-shortcuts.md#QuickEntry).
+Wenn Sie die Dateneingabe in einem Feld beendet haben, drücken Sie einfach ENTER, um die Änderungen zu bestätigen und zum nächsten Feld zu wechseln. Wenn Sie die Richtung umkehren und zum vorherigen Feld gehen möchten, drücken SHIFT+ENTER. Weitere Informationen zu diesen Tastenkombinationen unter [Tastenkombinationen der Schnelleingabe für Felder](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Tipps und Tricks
 Es folgen einige nützliche Informationen zur Anwendung der Schnelleingabe.
@@ -51,11 +51,11 @@ Es folgen einige nützliche Informationen zur Anwendung der Schnelleingabe.
 - Schnelleingabe funktioniert ungeachtet davon, ob Felder erforderlich sind. Daher ist es vorteilhaft, sicherzustellen, dass erforderliche Felder in der Schnelleingabe enthalten sind.
 - Standardmässig sind die meisten Felder automatisch im der Schnelleingabe enthalten. Daher wird die Aufgabe höchstwahrscheinlich zunächst darin bestehen, Felder aus der Schnelleingabe auszuschliessen.
 
-### <a name="how-to-change-quick-entry-fields"></a>So ändern Sie Felder der Schnelleingabe
+### <a name="to-change-quick-entry-fields"></a>Um Felder der Schnelleingabe zu ändern
 
 Um zu ändern, welche Felder einer Seite in die Schnelleingabe eingeschlossen oder daraus ausgeschlossen werden, verwenden Sie die Personalisierung.
 
-1. Beginnen Sie mit der Personalisierung, indem Sie das ![Einstellungen](media/ui-experience/settings_icon_small.png "Symbol für Rollencenter einstellen") und dann **Personalisieren** auswählen.
+1. Beginnen Sie mit der Personalisierung, indem Sie das ![Einstellungen](media/ui-experience/settings_icon_small.png "Symbol für Rollencenter einstellen") und dann die Aktion **Personalisieren** auswählen.
 2. Wählen Sie ein Feld, das Sie ändern möchten, oder wählen Sie in Listen die entsprechende Spaltenüberschrift und dann entweder **In Schnelleingabe einschliessen** oder **Aus Schnellausgabe ausschliessen** aus.
 
 Weitere Informationen zur Personalisierung finden Sie unter [Personalisieren Ihres Arbeitsbereichs](ui-personalization-user.md).
@@ -76,19 +76,25 @@ Selbst wenn das Feld ein rotes Sternchen enthält, sind Sie nicht gezwungen, das
 
 -   Dropdown – Zeigt die Optionen an, die für das Feld verfügbar sind. Sie können nur eine der Optionen auswählen.  
 
-## <a name="copying-and-pasting-fields-and-lines"></a>Felder und Zeilen kopieren und einfügen
+## <a name="copying-and-pasting-faq-fields-and-lines"></a>FAQ Felder und Zeilen kopieren und einfügen
 
 Sie können eine oder mehrere Zeilen aus einer Liste oder einem einzelnen Feld auf einer Seite kopieren und die kopierten Daten dann auf der gleichen Seite, einer andere Seite oder einem externen Beleg (wie Microsoft Excel und Outlook-E-Mail) einfügen. Kurz gesagt, zum Kopieren drücken Sie CTRL+C (cmd+C in Mac Os) auf Ihrer Tastatur. Zum Einfügen drücken Sie CTRL+V (cmd+V in Mac Os).
 
 Um das Feld in einer Liste in der gleichen Spalte der Zeile darüber zu kopieren, und es in die aktuelle Zeile einzufügen, drücken Sie einfach F8.
 
-Weitere Informationen finden Sie unter [Kopieren und Einfügen in Business Central](ui-copy-paste.md).
+Weitere Informationen finden Sie unter [FAQ zum Kopieren und Einfügen](ui-copy-paste.md).
+
+## <a name="filtering-line-items"></a>Filtern von Positionsartikel
+
+Um mit dem Filtern zu beginnen, wählen Sie ![Filterbereichssymbol](media/open-filter-pane-icon.png "Filterbereichssymbol") in der Liste oben, oder drücken Sie SHIFT+F3, um den Filterbereich zu öffnen. Sie arbeiten mit Filterbereich, wie in jeder anderen Liste. Weitere Informationen finden Sie unter [Filterung](ui-enter-criteria-filters.md#Filtering).
+
+Filterung ist besonders dann von Nutzen, wenn längere Belege anzeigt und analysiert werden. Stellen Sie sich beispielsweise vor, dass Sie eine gebuchte Verkaufsrechnung öffnen und filtern, dass alle Positionsartikel mit einem Einzelrabatt von 5 % haben, oder Sie filtern, dass nur Fahrradzubehör mit "Pro" im Namen angezeigt wird.
 
 ## <a name="Focus"></a>Fokussieren auf Positionsartikel
 
-Wenn Sie in Belegen arbeiten, die einen Positionsartikelteil haben, wie Verkaufsauftrag oder Rechnungsseite, können Sie die Ansicht umschalten, um nur auf die Positionsartikel zu fokussieren und den Positionsartikelteil gewissermassen zu erweitern, damit er fast den gesamten Arbeitsbereich ausfüllt - dabei werden andere Teile der Seite ausser dem Aktionsbereich oben ausgeblendet. Damit erhalten Sie einen besseren Überblick über die Positionsartikel und mehr Platz, um daran zu arbeiten. Dies ist besonders nützlich, wenn Sie mit grossen Positionsartikellisten arbeiten und schnelle Dateneingabe erforderlich ist.
+Wenn Sie an Belegen arbeiten, die einen Zeilenartikelteil enthalten, z. B. eine Kundenauftrags- oder Rechnungsseite, können Sie die Ansicht so ändern, dass nur die Werbebuchungen angezeigt werden. Der Zeilenartikelbereich wird dann so erweitert, dass er fast den gesamten Arbeitsbereich einnimmt und andere Teile der Seite mit Ausnahme des Aktionsbereichs oben verbirgt. Damit erhalten Sie einen besseren Überblick über die Positionsartikel und mehr Platz, um daran zu arbeiten.
 
-Ein anderer Vorteil besteht darin, dass auch erweiterte Filterungsfunktion, wie auf anderen Listen, bereitgestellt werden, sodass Durchsuchen und Suchen nach Belegpositionen sogar einfacher wird.
+Dies ist besonders nützlich, wenn Sie mit grossen Positionsartikellisten arbeiten und eine schnelle Dateneingabe erforderlich ist. Ein anderer Vorteil besteht darin, dass auch erweiterte Filterungsfunktion, wie auf anderen Listen, bereitgestellt werden, sodass Durchsuchen und Suchen nach Belegpositionen sogar einfacher wird.
 
 ### <a name="switching-the-focus-on-and-off"></a>Den Fokus zwischen An- und Ausschalten wechseln
 
@@ -96,11 +102,16 @@ Um sich auf Positionsartikel zu konzentrieren, wählen Sie einen beliebigen Bere
 
 Um zur Normalansicht zurückzukehren, wählen Sie das ![Fokusmodussymbol](media/focus-mode.png "Fokusmodussymbol") aus oder drücken Sie CTRL+SHIFT+F12 erneut.
 
-### <a name="filtering-the-line-items"></a>Filtern der Positionsartikel
+## <a name="multitasking-across-multiple-pages"></a>Multitasking über mehrere Seiten
+Wenn Sie an mehreren Aufgaben gleichzeitig arbeiten oder Unterbrechungen der aktuellen Aufgabe verwalten, z. B. einen eingehenden Anruf entgegennehmen, können Sie eine Karten- oder Belegseite in einem neuen Fenster öffnen. Auf diese Weise können Sie ein Fenster für eine laufende Aufgabe geöffnet lassen, während Sie eine andere Aufgabe in einem oder mehreren anderen Fenstern starten oder abschliessen.
 
-Um mit dem Filtern zu beginnen, wählen Sie ![Filterbereichssymbol](media/open-filter-pane-icon.png "Filterbereichssymbol") in der Liste, oder drücken Sie auf **Shift+F3**, um den Filterbereich zu öffnen. Sie arbeiten mit Filterbereich, wie in jeder anderen Liste. Weitere Informationen finden Sie unter [Filterung](ui-enter-criteria-filters.md#Filtering).
+Um die aktuelle Karte oder den aktuellen Beleg in einem neuen Fenster zu öffnen, wählen Sie ![Neues Fenster öffnen](media/open-new-window-icon.png "Neues Fenstersymbol öffnen") in der oberen rechten Ecke, oder drücken Sie ALT+SHIFT+W.
 
-Filterung ist besonders dann von Nutzen, wenn längere Belege anzeigt und analysiert werden. Stellen Sie sich beispielsweise vor, dass Sie eine gebuchte Verkaufsrechnung öffnen und filtern, dass alle Positionsartikel mit einem Einzelrabatt von 5 % haben, oder Sie filtern, dass nur Fahrradzubehör mit "Pro" im Namen angezeigt wird.
+> [!NOTE]
+> Wenn Sie andere Seiten von einer Karte oder einem Beleg aus öffnen, die bzw. das in einem neuen Fenster geöffnet wird, werden diese Seiten in einem neuen Fenster geöffnet, auch wenn Sie keine Auswahl treffen ![Neues Fenster öffnen](media/open-new-window-icon.png "Neues Fenstersymbol öffnen").
+
+> [!NOTE]
+> Wenn Sie im Safari-Browser arbeiten, kann ein Popupblocker dazu führen, dass das neue Fenster nicht geöffnet wird. In diesem Fall geben Sie die Produkt-URL als zulässige Website an. Weitere Informationen finden Sie unter [Ändern Sie die Einstellungen in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
 
 ## <a name="entering-quantities-by-calculation"></a>Eingeben von Mengen durch Berechnung
 
@@ -134,7 +145,7 @@ Sie können negative Zahlen auf zwei Arten eingeben. Die Zahl. -20,5 kann so ein
 Datums- und Uhrzeitwerte können in alle Felder eingegeben werden, die speziell für Datumswerte vorgesehen sind (Datumsfelder). Datumswerte können mit oder ohne Trennzeichen eingegeben werden.
 
 > [!NOTE]  
-> Wie Sie Daten und Uhrzeiten eingeben, hängt von Ihren Einstellungen in Ihrer**Region** ab. Weitere Informationen finden Sie unter [Ändern von Grundeinstellungen](ui-change-basic-settings.md).  
+> Wie Sie Daten und Uhrzeiten eingeben, hängt von Ihren Einstellungen in Ihrer**Region** ab. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Eingeben von Datumswerten
 
@@ -185,7 +196,7 @@ In der folgenden Tabelle finden Sie eine Liste über die Möglichkeiten zum Eing
 
 |Eingabe|Interpretation|  
 |---------------|------------------------|  
-|131202 132455|13.12.02 13:24:55|  
+|`131202` 132455|13.12.02 13:24:55|  
 |1-12-02 10|01.12.02 10:00:00|  
 |1.12.02 5|01.12.02 05:00:00|  
 |1.12.02|01.12.02 00:00:00|  

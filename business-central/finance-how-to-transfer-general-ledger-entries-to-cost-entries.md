@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
-ms.openlocfilehash: a33fb434cc239de951d18783911c879587a3ace0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c6eace42d460432df8ab4b72964408469fa0b563
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242620"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305893"
 ---
 # <a name="transfer-general-ledger-entries-to-cost-entries"></a>So übertragen Sie Fibuposten in Kostenposten
 Sie können Fibuposten in Kostenposten übertragen.  

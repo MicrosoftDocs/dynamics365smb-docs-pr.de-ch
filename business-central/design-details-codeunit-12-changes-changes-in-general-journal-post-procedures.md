@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8daa5d57ed2f12daf3f3eef3572b2f7dbd39d92c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f27bb652009c740066dfa0ef3659bb9e53cfb0e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243425"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307362"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Codeunit 12 Änderungen: Änderungen in Fibu Erf.-Journal-Beitrags-Verfahren
 Die folgenden Änderungen wurden in dieser Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] implementiert.  
@@ -139,19 +139,19 @@ Die folgenden Änderungen wurden in dieser Version von [!INCLUDE[d365fin](includ
 |CheckCalcPmtDiscCVVend||Verschoben zu Codeunit 426 Zahlungstoleranz-Verwaltung|  
 |CheckCalcPmtDiscVend||Verschoben zu Codeunit 426 Zahlungstoleranz-Verwaltung|  
 |CheckCalcPmtDiscGenJnlVend||Verschoben zu Codeunit 426 Zahlungstoleranz-Verwaltung|  
-|Reverse|Reverse|Verschoben zu Codeunit 17 Fibu Erf.-Journal Storno|  
-|ReverseCustLedgEntry|ReverseCustLedgEntry|Verschoben zu Codeunit 17 Fibu Erf.-Journal Storno|  
-|ReverseVendLedgEntry|ReverseVendLedgEntry|Verschoben zu Codeunit 17 Fibu Erf.-Journal Storno|  
-|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Verschoben zu Codeunit 17 Fibu Erf.-Journal Storno|  
-|ReverseVAT|ReverseVAT|Verschoben zu Codeunit 17 Fibu Erf.-Journal Storno|  
-|SetReversalDescription|SetReversalDescription|Verschoben zu Codeunit 17 Fibu Erf.-Journal Storno|  
-|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Verschoben zu Codeunit 17 Fibu Erf.-Journal Storno|  
-|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Verschoben zu Codeunit 17 Fibu Erf.-Journal Storno|  
-|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Verschoben zu Codeunit 17 Fibu Erf.-Journal Storno|  
-||CheckDimComb|Hinzugefügt in Codeunit 17 Fibu Erf.-Journal Storno|  
-||CopyCustLedgEntry|Hinzugefügt in Codeunit 17 Fibu Erf.-Journal Storno|  
-||CopyVendLedgEntry|Hinzugefügt in Codeunit 17 Fibu Erf.-Journal Storno|  
-||CopyBankAccLedgEntry|Hinzugefügt in Codeunit 17 Fibu Erf.-Journal Storno|  
+|Reverse|Reverse|Verschoben zu Codeunit 17 Gen. Erf.-Jrn.-Post Reverse|  
+|ReverseCustLedgEntry|ReverseCustLedgEntry|Verschoben zu Codeunit 17 Gen. Erf.-Jrn.-Post Reverse|  
+|ReverseVendLedgEntry|ReverseVendLedgEntry|Verschoben zu Codeunit 17 Gen. Erf.-Jrn.-Post Reverse|  
+|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Verschoben zu Codeunit 17 Gen. Erf.-Jrn.-Post Reverse|  
+|ReverseVAT|ReverseVAT|Verschoben zu Codeunit 17 Gen. Erf.-Jrn.-Post Reverse|  
+|SetReversalDescription|SetReversalDescription|Verschoben zu Codeunit 17 Gen. Erf.-Jrn.-Post Reverse|  
+|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Verschoben zu Codeunit 17 Gen. Erf.-Jrn.-Post Reverse|  
+|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Verschoben zu Codeunit 17 Gen. Erf.-Jrn.-Post Reverse|  
+|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Verschoben zu Codeunit 17 Gen. Erf.-Jrn.-Post Reverse|  
+||CheckDimComb|Hinzugefügt in Codeunit 17 Gen. Erf.-Jrn.-Post Reverse|  
+||CopyCustLedgEntry|Hinzugefügt in Codeunit 17 Gen. Erf.-Jrn.-Post Reverse|  
+||CopyVendLedgEntry|Hinzugefügt in Codeunit 17 Gen. Erf.-Jrn.-Post Reverse|  
+||CopyBankAccLedgEntry|Hinzugefügt in Codeunit 17 Gen. Erf.-Jrn.-Post Reverse|  
 |HandlDtlAddjustment|HandleDtldAdjustment|Aktualisiert|  
 |CollectAddjustment|CollectAdjustment|Aktualisiert|  
 |SetOverDimErr|SetOverDimErr|Aktualisiert|  
@@ -163,7 +163,7 @@ Die folgenden Änderungen wurden in dieser Version von [!INCLUDE[d365fin](includ
 |GetApplnRoundPrecision|GetApplnRoundPrecision|Aktualisiert|  
 |CheckDimValueForDisposal|CheckDimValueForDisposal|Aktualisiert|  
 |CalculateCurrentBalance|CalculateCurrentBalance|Aktualisiert|  
-|IncludeVATAmount||Verschoben zu Tabelle 81 Fibu Erf.-Journalzeile|  
+|IncludeVATAmount||Verschoben zu Tabelle 81 Gen. Erf.-Journalzeile|  
 |CalcVATAmountFromVATEntry|CalcVATAmountFromVATEntry|Aktualisiert|  
 ||TotalVATAmountOnJnlLines|Teil(e) hinzugefügt|  
 ||SetGLRegReverse|Teil(e) hinzugefügt|  
