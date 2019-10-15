@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: ca99b44b7c96037d07c00902df3411db81745d86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985900"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316658"
 ---
 # <a name="collect-outstanding-balances"></a>Einziehen von Restbeträgen
 Im Rahmen der Debitorenverwaltung muss auch geprüft werden, ob fällige Beträge pünktlich bezahlt werden. Wenn Debitoren überfällige Zahlungen haben, können Sie den Debitoren-Abrechnungsbericht als Mahnung senden. Sie können auch Mahnungen ausgeben.
@@ -161,6 +161,11 @@ Zusätzlich kann das Registrieren der Mahnung zu MWST-Posten führen.
 
 Die Mahnung wird entweder gedruckt oder an eine festgelegte E-Mail als PDF-Dateianhang gesendet.
 
+### <a name="to-cancel-an-issued-reminder"></a>Zum Stornieren der registrierten Mahnung.
+Wenn fälschlicherweise Erinnerungen ausgegeben wurden, können Sie diese vor dem Versenden stornieren. Sie können dies entweder einzeln oder als Stapel ausführen.
+1. Auf der Seite **Profilanpassungen** wählen Sie mindestens eine Zeile für die Seitenanpassungen aus, die Sie löschen möchten, und wählen Sie danach die Aktion **Löschen** aus.
+2. Auf der Seite **Ausgestellte Manung stornieren** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
+
 ## <a name="to-set-up-finance-charge-terms"></a>Um Bedingungen für Gebühren festzulegen
 Sie müssen für jede Zinskondition einen eigenen Code einrichten. Danach können Sie den Code in das Feld **Zinskonditionencode** auf den Debitorenkarten eingeben.
 
@@ -243,6 +248,11 @@ Zusätzlich kann das Registrieren der Mahnung zu MWST-Posten führen.
 4. Wählen Sie die Schaltfläche **OK**.
 
 Das Zinsgebührenmemo wird entweder gedruckt oder an eine festgelegte E-Mail als PDF-Dateianhang gesendet.
+
+### <a name="to-cancel-an-issued-finance-charge-memo"></a>Um die ausgestellte Zinsrechnung zu stornieren
+Wenn fälschlicherweise Zinsrechnungen ausgegeben wurden, können Sie diese vor dem Versenden stornieren. Sie können dies entweder einzeln oder als Stapel ausführen.
+1. Auf der Seite **Ausgestellte Zinsrechnung** wählen Sie mindestens eine Zeile für die Seitenanpassungen aus, die Sie löschen möchten, und wählen Sie danach die Aktion **Löschen** aus.
+2. Auf der Seite **Ausgestellte Zinsrechnungs-Memos stornieren** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>So zeigen Sie Mahnungs- und Zinsrechnungsposten an:  
 Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debitorenposten enthält, ein Mahnungsposten auf der Seite **Mahnung/Zinsrechnung Posten** erstellt. Sie können sich einen Überblick über die erstellten Mahnungsposten für einen bestimmten Debitor anzeigen lassen.    
