@@ -10,16 +10,19 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 97db6065f405397dbc4a077f571883a28bda8c3c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b31bc4fb174c78092986c14f97232d8498974834
+ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300051"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "2764494"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Einrichten oder Ändern des Kontenplans
 Der Kontenplan zeigt die Sachkonten an, die Ihre Finanzdaten speichern. [!INCLUDE[d365fin](includes/d365fin_md.md)]umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
-Sie können jedoch die Standardkonten ändern und neue Konten hinzufügen.  
+Sie können jedoch die Standardkonten ändern und neue Konten hinzufügen. 
+<br><br>  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE43KO9]
+
 
 ## <a name="adding-or-changing-accounts"></a>Konten hinzufügen oder ändern
 Im Kontenplan können Sie jedes Fibukonto öffnen und Einstellungen hinzufügen oder ändern.
@@ -31,10 +34,10 @@ Im Kontenplan können Sie jedes Fibukonto öffnen und Einstellungen hinzufügen 
 >   * Das Feld **Löschen v. Fibukonten zul. vor** auf der Seite **Finanzbuchhaltungs-Einrichtung:** muss ausgefüllt sein, und das Konto darf keine Posten an oder nach diesem Datum enthalten.  
 >   * Ist das Feld **Fibukontoverwendung prüfen** auf der Seite **Finanzbuchhaltungs-Einrichtung:** ausgewählt, darf dieses Konto nicht in Buchungsgruppen oder der Buchungsmatrix Einrichtung verwendet werden.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]verhindert, dass Sie ein Sachkonto löschen, in dem Daten gespeichert werden, die im Kontenplan erforderlich sind.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]verhindert, dass Sie ein Fibukonto löschen, in dem Daten gespeichert werden, die im Kontenplan erforderlich sind.  
 
 ## <a name="see-also"></a>Siehe auch
-[Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
+[Die Fibuposten und der Kontenplan](finance-general-ledger.md)  
 [Verwalten von Bankkonten](bank-manage-bank-accounts.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
 [Daten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  

@@ -10,21 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2019
+ms.date: 11/12/2019
 ms.author: SorenGP
-ms.openlocfilehash: bf81f57aad5178a7f875381b274e43cab50899ad
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 36c5446a2297dd0208104d22a7d2fd96077b3590
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309894"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798415"
 ---
 # <a name="set-up-general-inventory-information"></a>So richten Sie allgemeine Lagerbestandsinformationen ein
 Sie geben Ihre allgemeine Lagerbestandseinrichtung auf der Seite **Lager Einrichtung** an.
 
 ## <a name="to-set-up-general-inventory-information"></a>So richten Sie allgemeine Lagerbestandsinformationen ein
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagereinrichtung** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Bestandseinrichtung** ein und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie auf der Seite **Lager Einrichtung** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+Detaillierte Informationen zu den Kalkulationsfeldern **Automatische Kostenbuchung** und **Erwartete Kostenbuchung in Fibukonten** finden Sie unter [Bestandskosten mit dem Hauptbuch](finance-how-to-post-inventory-costs-to-the-general-ledger.md) und [Design Details: Erwartete Kostenbuchung](design-details-expected-cost-posting.md).
 
 Wenn Sie möchten, dass die Anwendung die Lagerdurchlaufzeit bei der Berechnung der Lieferterminzusage in der Einkaufszeile berücksichtigt, können Sie sie als Vorgabewert für das Lager und für Ihren Lagerort im **Lager einrichten** einrichten. Weitere Informationen finden Sie unter [Berechnen von Lieferterminzusagen](sales-how-to-calculate-order-promising-dates.md).  
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ab408bbef4e2fc9535eaa64e61a9e93d2d87378c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 24f9720c0dfb1641db347d6eca37d7e4f4c3a2ab
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301578"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554196"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeiten mit MwSt im Verkauf und Einkauf
 Wenn Ihr Land oder Ihre Region es erfordert, die Mehrwertsteuer (MwSt) in Einkaufs- und Verkaufstransaktionen zu berechnen, sodass Sie die Beträge einer Steuerbehörden melden können, können Sie festlegen, dass [!INCLUDE[d365fin](includes/d365fin_md.md)]MwSt in Einkaufs- und Verkaufsbelegen automatisch berechnet wird. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Salestax](finance-setup-vat.md).
@@ -51,7 +51,7 @@ Die folgende Tabelle bietet einen Überblick darüber, wie in der Anwendung Verk
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>MWST-Beträgen in Verkaufs- und Einkaufsbelegen manuell korrigieren  
 An gebuchten MWST-Posten können Korrekturen durchgeführt werden. Auf diese Weise können Sie die MWST-Beträge sämtlicher Einkäufe oder Verkäufe ändern, ohne die MWST-Basis zu verändern. Sie werden dies beispielsweise tun wollen, wenn Sie eine Rechnung von einem Kreditor bekommen, der die MWST nicht korrekt berechnet hat.  
 
-Auch wenn Sie möglicherweise bereits eine oder mehrere Kombinationen für die Verarbeitung der Einfuhrumsatzsteuer eingerichtet haben, müssen Sie mindestens einen MWST-Produktbuchungsgruppencode einrichten. Beispielsweise können Sie den Namen **RICHTIG** für Korrekturen angeben, es sei denn, Sie können dasselbe Fibukonto im Feld **Vorsteuerkonto** in der MWST.-Buchungsmatrixzeile verwenden. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md).
+Auch wenn Sie möglicherweise bereits eine oder mehrere Kombinationen für die Verarbeitung der Einfuhrumsatzsteuer eingerichtet haben, müssen Sie mindestens einen MWST-Produktbuchungsgruppencode einrichten. Beispielsweise können Sie den Namen **RICHTIG** für Korrekturen angeben, es sei denn, Sie können dasselbe Fibukonto im Feld **Vorsteuerkonto** in der MWST-Buchungsmatrixzeile verwenden. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md).
 
 Wenn Skonto auf der Basis einer Rechnung inklusive MWST berechnet wurde, haben Sie die Möglichkeit, den Skontoanteil des MWST-Betrages zu berichtigen, wenn Skonto gewährt wird. Beachten Sie, dass Sie das Feld **Skonto berichtigen** sowohl in der Finanzbuchhaltungs-Einrichtung: allgemein als auch in der MWST-Buchungsmatrix Einrichtung für bestimmte Kombinationen von MWST-Geschäftsbuchungsgruppe und MWST-Produktbuchungsgruppe aktivieren müssen.  
 
@@ -93,10 +93,10 @@ Sie müssen die folgenden Schritte ausführen, bevor Sie die Mehrwertsteuer manu
 Für die Buchung einer Rechnung mit Einfuhrumsatzsteuer kann anstelle eines Fibu-Erf.-Journals auch eine Einkaufsrechnung verwendet werden.  
 
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Einkauf für die Buchung von Rechnungen mit Einfuhrumsatzsteuer einrichten  
-1. Richten Sie eine Kreditorenkarte für die Einfuhrbehörde ein, die Ihnen die Einfuhrumsatzsteuerrechnung sendet. Die **Geschäftsbuchungsgruppe** und **MwSt.-Geschäftsbuchungsgruppe** werden genauso eingerichtet, wir das Fibukonto für die Einfuhrumsatzsteuer.  
+1. Richten Sie eine Kreditorenkarte für die Einfuhrbehörde ein, die Ihnen die Einfuhrumsatzsteuerrechnung sendet. Die **Geschäftsbuchungsgruppe** und **MWST-Geschäftsbuchungsgruppe** werden genauso eingerichtet, wie das Fibukonto für die Einfuhrumsatzsteuer.  
 2. Erstellen Sie eine **Produktbuchungsgruppe** für die Einfuhrumsatzsteuer, und richten Sie eine **Vorg.-MWST.-Produktbuchungsgruppe** für die Einfuhrumsatzsteuer für die zugehörige **Produktbuchungsgruppe** ein.  
 3. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan** ein, und wählen dann den zugehörigen Link aus.  
-4. Wählen Sie das Fibukonto Einfuhrumsatzsteuer aus. Wählen Sie dann auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Bearbeiten** aus.  
+4. Markieren Sie das Hauptbuchkonto Einfuhrumsatzsteuer und wählen Sie dann die Aktion **Bearbeiten**.  
 5. Wählen Sie auf dem Inforegister **Buchung** im Feld **Produktbuchungsgruppe** die Option MWST aus. [!INCLUDE[d365fin](includes/d365fin_md.md)] wird automatisch das Feld **MWST Prod. Buchungsgruppe** ausfüllen.  
 6. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Allgemeine Buchungseinrichtung** ein, und wählen dann den zugehörigen Link aus.  
 7. Im Fenster erstellen Sie eine Kombination **Gen. Bus. Buchungsgruppe** für die MWST-Behörde und der **Gen. Prod. Buchungsgruppe** für die Einfuhrumsatzsteuer. Für diese neue Kombination im Feld **Einkaufskonten**, wählen Sie den Fibuposten für die Einfuhrumsatzsteuer aus.  
@@ -181,4 +181,4 @@ Um eine Gruppe von Zertifikaten anzuzeigen, beginnen Sie auf der Seite **Gelange
 
 ## <a name="see-also"></a>Siehe auch  
 [Methoden für die Berechnung und Buchung von Mehrwertsteuer einrichten](finance-setup-vat.md)   
-[So gehts: Melden von MWST an eine Steuerbehörde](finance-how-report-vat.md)   
+[MWST an die Steuerbehörde melden](finance-how-report-vat.md)   

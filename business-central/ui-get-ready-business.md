@@ -11,19 +11,19 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 095d8ba53bce25df66bcb8c5daa1e06479b68f0c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e78f5151694ce2fe5c37e6cfcc78ac69e5954dc1
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315314"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775609"
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 Glückwünsche, Sie haben soeben Ihren ersten Mandanten in [!INCLUDE[d365fin](includes/d365fin_md.md)]  eingerichtet.
 
 Für Unterstützung zum Tätigen vom Geschäften erhalten, können Sie die Seite **Geschäfts-Hilfe** aufsuchen. Dort können Sie die unterstützte Hilfe starten oder Hilfethemen für ausgewählte Einrichtungsaufgaben aufrufen. Sie rufen die Seite aus dem Diagramm im Rollencenter zu **Geschäftsführer** auf, indem Sie den Dropdownpfeil **Geschäfts-Hilfe** auswählen, und dann die Aktion **Einrichtungs- und Hilfe-Ressourcen anzeigen** auswählen. Wenn Sie die Seite aktualisieren, wird das Diagramm der Einrichtungs- und Hilferessourcen ersetzt.
 
-Um eine vollständige Liste von unterstützten Einrichtungs-Leitfäden zu öffnen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion Wie möchten Sie weiter verfahren](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") geöffnet wird und geben Sie **Unterstützte Einrichtung** ein und wählen dann den zugehörigen Link aus.
+Um die Liste der unterstützten Einrichtungsanleitungen zu öffnen, wählen Sie alternativ die ![Glühbirne, die das Symbol Tell Me](media/ui-search/search_small.png "Tell Me-Funktion") öffnet, geben Sie **Unterstützes Setup** ein und wählen Sie dann den entsprechenden Link.
 
 Im Rollencenter am unteren Rand des Navigationsbereichs finden Sie das Menü **Einrichtung und Erweiterungen**. Hier sehen Sie eine Liste des Leitfadens für das unterstützte Setup, das Ihnen bei den ersten Schritten helfen kann. Sobald Sie Daten wie Debitoren, Kreditoren und Artikel von Ihrem vorhandenen Finanzsystem migriert haben, können Sie bereit damit zu beginnen. Je nach Ihrem Bedarf sollten Sie in Betracht ziehen, ob die unterstützte Einrichtung Ihnen helfen kann.
 
@@ -49,7 +49,7 @@ Verwenden Sie die Pfeile, um einen Teil der Seite zu verkleinern und mehr Platz 
 Unter **Mandanten-Einstellungen** können Sie Informationen über den aktuellen Mandanten anzeigen und einrichten. Vieles davon wurde bereits beim **Einrichten des Mandanten** ausgefüllt bei der Anmeldung zu Pro[!INCLUDE[d365fin](includes/d365fin_md.md)]. Wenn Sie das Firmenlogo, die Kontaktinformation, die Bankeinstellungen oder die Steuerdaten ändern möchten, können Sie dies auf der Seite tun.    
 
 ## <a name="adding-users-and-permissions"></a>Hinzufügen von Benutzern und von Berechtigungen
-Wenn Sie mehrere Benutzer hinzufügen müssen, wird dieses vom Office 365-Administrationscenter durchgeführt. Weitere Informationen sind hier verfügbar [Benutzer zu Office 365 for Business hinzufügen](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Sobald der Benutzer im Office 365 erzeugt wurde, können sie auf die Seite **Benutzer** importiert werden, und zwar mithilfe der Aktion **Benutzer von Office 365 abrufen**. Sie können dann fortfahren, Berechtigungen Benutzern und Benutzergruppen zuzuordnen. Weitere Informationen finden Sie unter [Verwalten von Benutzern und Berechtigungen](ui-how-users-permissions.md).  
+Wenn Sie mehrere Benutzer hinzufügen müssen, wird dieses vom Office 365-Administrationscenter durchgeführt. Weitere Informationen sind hier verfügbar [Benutzer zu Office 365 for Business hinzufügen](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Sobald der Benutzer im Office 365 erzeugt wurde, können sie auf die Seite **Benutzer** importiert werden, und zwar mithilfe der Aktion **Benutzer von Office 365 abrufen**. Sie können dann fortfahren, Berechtigungen Benutzern und Benutzergruppen zuzuordnen. Weitere Informationen finden Sie unter [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
 
 ## <a name="getting-help"></a>Abrufen von Hilfe
 Im [!INCLUDE[d365fin](includes/d365fin_md.md)] finden Sie die Hilfethemen, die Sie durch die einzelnen Geschäftsvorgänge führen. Für jede Feld-Quickinfo können Sie CTRL+F1 drücken oder den Link **Weitere Informationen** auswählen, um die Hilfe der jeweiligen Seite zu öffnen. Das Fragezeichen in der rechten oberen Ecke bringt Sie ebenfalls zum Hilfethema.
@@ -60,6 +60,6 @@ Auf Grundlage Ihrer migrierten Daten können Sie jetzt fortfahren, um neue Verk�
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Benutzer und Berechtigungen verwalten](ui-how-users-permissions.md)
+[Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 43bad71f76fc441fee84c14d1890572130d3948a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314834"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554730"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Exemplarische Vorgehensweise: Verwalten von Projekten
 
@@ -34,7 +34,7 @@ In dieser exemplarischen Vorgehensweise erhalten Sie eine Einführung in die Pro
  Wenn die Budgetstruktur für Projekte eingerichtet ist, ist ein Projekt einfach zu erstellen. Diese exemplarische Vorgehensweise umfasst folgende Verfahren:  
 
 -   Einrichten von Projektaufgabenzeilen und Planungszeilen  
--   Erstellen projektspezifischer Preise für Artikel, Ressourcen und Sachkonten  
+-   Erstellen projektspezifischer Preise für Artikel, Ressourcen und Fibuposten  
 -   Fakturieren eines Projekts  
 
 ### <a name="handling-fixed-prices"></a>Verwenden von Festpreisen  
@@ -173,7 +173,7 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Katrin, um d
     |1020|Entwicklung|Buchen|  
     |1090|Beratung insgesamt|Bis-Summe|  
 
-3.  Um zu zeigen, dass einige Aufgaben Unterkategorien anderer Aufgaben sind, wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktion** die Option **Projektaufgaben einrücken**.  
+3.  Um anzuzeigen, dass einige Aufgaben Unterkategorien anderer Aufgaben sind, wählen Sie die Aktion **Projektaufgaben einrücken**.  
 
  Eine Planungszeile kann von einer der folgenden Arten sein:  
 
@@ -234,7 +234,7 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Katrin, um d
 4.  Schliessen Sie die Seite. Die Summen werden auf der Seite **Projektaufgabenzeilen** aktualisiert.  
 
 ## <a name="calculating-remaining-usage"></a>Berechnen des Restverbrauchs  
- Katrin, das Teamprojektmitglied, arbeitet seit einiger Zeit an dem Projekt und möchte ihre Stunden und ihren Verbrauch für das Projekt erfassen. Sie hat nicht mehr gearbeitet, als vorab mit dem Kunden vereinbart wurde. Sie verwendet den Batchauftrag **Restverbrauch berechnen**, um den Restverbrauch für das Projekt in einem Projektbuchhaltungsblatt zu berechnen. Mithilfe der Stapelverarbeitung wird für jede Projektaufgabe die Differenz zwischen dem geplanten Verbrauch von Artikeln, Ressourcen und Aufwandssachposten und dem in Projektposten gebuchten tatsächlichen Verbrauch berechnet. Der Restverbrauch wird dann im Projektbuchungsblatt angezeigt, von dem aus sie eine Buchung vornehmen kann.  
+ Katrin, das Teamprojektmitglied, arbeitet seit einiger Zeit an dem Projekt und möchte ihre Stunden und ihren Verbrauch für das Projekt erfassen. Sie hat nicht mehr gearbeitet, als vorab mit dem Kunden vereinbart wurde. Sie verwendet den Batchauftrag **Restverbrauch berechnen**, um den Restverbrauch für das Projekt in einem Projektbuchhaltungsblatt zu berechnen. Mithilfe der Stapelverarbeitung wird für jede Projektaufgabe die Differenz zwischen dem geplanten Verbrauch von Artikeln, Ressourcen und Aufwandsfibuposten und dem in Projektposten gebuchten tatsächlichen Verbrauch berechnet. Der Restverbrauch wird dann im Projektbuchungsblatt angezeigt, von dem aus sie eine Buchung vornehmen kann.  
 
 ### <a name="to-calculate-remaining-usage"></a>So berechnen Sie den Restverbrauch  
 
@@ -261,7 +261,7 @@ Die Zeilen werden gebucht.
 4.  Geben Sie im Inforegister **Optionen** das Buchungsdatum ein, und definieren Sie, ob eine Rechnung pro Aufgabe oder eine einzige Rechnung für alle Aufgaben erstellt werden soll.  
 5.  Wählen Sie die Schaltfläche **OK** aus, um die Rechnung zu erstellen, und wählen Sie dann die Schaltfläche **OK** auf der Bestätigungsseite.  
 
- Nachdem Katrin die Rechnung erstellt hat, kann sie von **Verkauf und Marketing** unter **Auftragsabwicklung** darauf zugreifen und sie weiter bearbeiten.  
+ Nachdem Tricia die Rechnung erstellt hat, kann sie diese z.B. aus dem **Kundenauftragsabwickler**Rollencenter aufrufen. 
 
 ### <a name="to-post-a-new-sales-invoice"></a>So buchen Sie eine neue Verkaufsrechnung  
 
