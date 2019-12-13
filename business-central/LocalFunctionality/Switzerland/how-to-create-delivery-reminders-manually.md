@@ -1,8 +1,6 @@
 ---
 title: Manuelles Erstellen von Lieferbenachrichtigungen
 description: In Business Central können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde. Sie können eine einzelne Lieferbenachrichtigung manuell erstellen oder Sie können Lieferbenachrichtigungen für alle überfälligen Lieferungen erstellen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 11c148c12bb4a34a8704455b070110ba1f742094
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: dacadd79eb162f6ac5ff9643a833d7e904d454b9
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301034"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881316"
 ---
 # <a name="create-delivery-reminders-manually"></a>So erstellen Sie Lieferanmahnungen manuell
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde. Sie können eine einzelne Lieferbenachrichtigung manuell erstellen oder Sie können Lieferbenachrichtigungen für alle überfälligen Lieferungen erstellen. Weitere Informationen finden Sie unter [Lieferbenachrichtigungen erstellen](how-to-generate-delivery-reminders.md).
@@ -27,7 +25,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], können Sie Lieferbenachri
 
 ## <a name="to-create-a-delivery-reminder-manually"></a>So erstellen Sie eine Lieferbenachrichtigung manuell  
 
-1.  Wählen Sie in der rechten oberen Ecke ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") und geben **Lieferbenachrichtigungen** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **Lieferbenachrichtigungsnummern** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Füllen Sie auf der Seite **Lieferbenachrichtigung** im Inforegister **Allgemein** die erforderlichen Felder gemäss der Beschreibung in der folgenden Tabelle aus.  
 

@@ -1,8 +1,6 @@
 ---
 title: Erstellen und Drucken einer Schweizer MWST-Abrechnung
 description: Auf Grundlage der Informationen, die Sie auf der Seite MWST-Buchungsmatrix Einr. angegeben haben, kann Business Central automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Gewusst wien in diesem Thema fortfahren, stellen Sie sicher, dass Sie die MWST-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 642364e59ddcb6cd6b886047e51380c290492e44
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 63f1b49422a567b1b92b6a0f6d29d8ec3ae1cf9d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301040"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878815"
 ---
 # <a name="create-and-print-a-swiss-vat-statement"></a>Erstellen und Drucken einer Schweizer MWST-Abrechnung
 Auf Grundlage der Informationen, die Sie auf der Seite **MWST-Buchungsmatrix Einr.** angegeben haben, kann [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Gewusst wien in diesem Thema fortfahren, stellen Sie sicher, dass Sie die MWST-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden.  
 
 ## <a name="to-set-up-a-swiss-vat-statement-template"></a>So richten Sie eine MWST-Abrechnungsvorlage für die Schweiz ein  
 
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und öffnen **MWST-Abrechnung Vorlage aktualisieren**. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **MWST-Abrechnung Vorlage aktualisieren** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie eine Vorlage im Feld **Name für MWST-Abrechnung Vorlage**.
 3.  Wählen Sie die Schaltfläche **OK** aus. Wählen Sie die Schaltfläche **Ja** aus, um zu bestätigen, dass Sie eine neue Vorlage erstellen möchten.  
 4.  Überprüfen Sie die daraus entstehende MWST-Abrechnung, und passen Sie sie bei Bedarf an.  
@@ -33,7 +31,7 @@ Auf Grundlage der Informationen, die Sie auf der Seite **MWST-Buchungsmatrix Ein
 
 ## <a name="to-print-the-swiss-vat-statement"></a>So drucken Sie die MWST-Abrechnung (Schweiz)  
 
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und öffnen **MWST-Abrechnung Schweiz**. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **Schweizer MWST-Abrechnung** ein und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie auf dem Inforegister **Optionen** die Felder wie in der folgenden Tabelle beschrieben aus.  
 
     |Feld|Description|  
@@ -52,4 +50,4 @@ Auf Grundlage der Informationen, die Sie auf der Seite **MWST-Buchungsmatrix Ein
     |**Beträge in Berichtswährung anzeigen**|Option, um Beträge in einer zusätzlichen Berichtswährung anzuzeigen.|  
 
 ## <a name="see-also"></a>Siehe auch  
- [Mehrwertsteuer (Schweiz)](swiss-value-added-tax.md)
+ [Schweizer Salestax](swiss-value-added-tax.md)

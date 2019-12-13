@@ -1,8 +1,6 @@
 ---
 title: 'Gewusst wie: Drucken von MWST-Abrechnungen (Schweiz) (ältere Version)'
 description: Die Schweizer MWST-Abrechnung ist der Standardberechnungsbericht für die Realisierung der MWST Sie können diesen Bericht drucken und ihn für die quartalsweise Steuerberichterstellung verwenden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 19ab19375d3cfdc9ddba8a28afe6fce6d43b5b4f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 84de1625e8929869bbaa37099b38c7495ac24e68
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301007"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878809"
 ---
 # <a name="print-swiss-vat-statements-older-version"></a>Drucken von MWST-Abrechnungen (Schweiz) (ältere Version)
 
@@ -32,7 +30,7 @@ Die **Schweizer MWST-Abrechnung** ist der Standardberechnungsbericht für die Re
 
 ## <a name="to-print-the-swiss-vat-statement"></a>So drucken Sie die MWST-Abrechnung (Schweiz)  
 
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und öffnen **MWST-Abrechnung Schweiz**. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **Schweizer MWST-Abrechnung** ein und wählen Sie dann den entsprechenden Link.  
 
     > [!NOTE]  
     >  Sie erhalten eine Meldung die angibt, dass **Schweizer MWST-Abrechnung** in der Landessprache geöffnet wird.  
@@ -57,4 +55,4 @@ Die **Schweizer MWST-Abrechnung** ist der Standardberechnungsbericht für die Re
 
 ## <a name="see-also"></a>Siehe auch  
  [Mehrwertsteuer (Schweiz)](swiss-value-added-tax.md)   
- [MWST-Sätze für die Schweiz](vat-rates-for-switzerland.md)
+ [Mehrwertsteuersätze der Schweiz](vat-rates-for-switzerland.md)

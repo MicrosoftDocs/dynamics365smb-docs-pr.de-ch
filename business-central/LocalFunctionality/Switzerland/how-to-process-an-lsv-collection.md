@@ -1,8 +1,6 @@
 ---
 title: 'Gewusst wie: Verarbeiten eines LSV-Einzugs'
 description: Mithilfe von LSV-Journalen können Zahlungen von LSV+-Debitoren (Lastschriftverfahren) erstellt und verarbeitet werden. Sie können diese Zahlungen im Zahlungseingangs-Erfassungsjournal erfassen, eine LSV-Datei erstellen und dann den Einzugsauftrag drucken.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6bd65080387b7c2368672d1735a045a999cc49f2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a12c4fd1f8d5576d25be1487e0dae002161c1766
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301004"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881301"
 ---
 # <a name="process-an-lsv-collection"></a>Verarbeiten eines LSV-Einzugs
 Mithilfe der **LSV-Erf.-Journal**-Seite können Zahlungen von LSV+-Debitoren (Lastschriftverfahren) erstellt und verarbeitet werden. Sie können diese Zahlungen im Zahlungseingangs-Erfassungsjournal erfassen, eine LSV-Datei erstellen und dann den Einzugsauftrag drucken. Weitere Informationen finden Sie unter Zahlungseingangs Erf.-Journal (Seite) und [Exportieren von Zahlungen mit LSV](how-to-export-payments-using-lsv.md).  
@@ -28,7 +26,7 @@ Sie können die vorgeschlagenen Zahlungszeilen anzeigen, bearbeiten oder lösche
 
 ## <a name="to-create-an-lsv-collection"></a>So erstellen Sie einen LSV-Einzug  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite ober Bericht suchen") und geben **LSV Erf.-Journal Liste** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **LSV-Journal Liste** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Füllen Sie auf der Seite **LSV-Journal Liste** die erforderlichen Felder wie in der folgenden Tabelle beschrieben aus.  
 

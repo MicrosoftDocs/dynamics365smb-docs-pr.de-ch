@@ -1,8 +1,6 @@
 ---
 title: Drucken des Berichts "Kreditorenzahlungen - Liste"
 description: Der Bericht Kreditorenzahlungen - Liste zeigt eine Liste von Zahlungen für jeden Kreditor an. Der Bericht kann Zahlungen chronologisch oder nach Kreditor gruppiert sortieren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d31b86b9a746391244ae915629b24d51e35eed64
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 77fd2f37c9770ca2a17ade1311fd002210b5f629
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300998"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878806"
 ---
 # <a name="print-vendor-payments-list-reports"></a>Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen
 Die Liste **Kreditorenzahlungen** zeigt eine Liste von Zahlungen für jeden Kreditor an. Der Bericht kann Zahlungen chronologisch oder nach Kreditor gruppiert sortieren.  
 
 ## <a name="to-print-the-vendor-payments-list-report"></a>So drucken Sie den Bericht "Kreditorenzahlungen - Liste"  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen"), öffnen Sie **Kreditorenzahlungen - Liste**, und wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **Liste Kreditorenzahlungen** ein und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie auf dem Inforegister **Optionen** die Felder wie in der folgenden Tabelle beschrieben aus.  
 
     |Feld|Description|  

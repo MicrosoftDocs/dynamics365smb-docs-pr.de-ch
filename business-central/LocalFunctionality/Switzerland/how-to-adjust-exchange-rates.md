@@ -1,8 +1,6 @@
 ---
 title: Regulieren von Wechselkursen
 description: Wenn Sie steuerpflichtige Umsätze in Fremdwährung abrechnen, müssen die offiziellen Kurse der Eidg. Steuerverwaltung zur MWST-Kursumrechnung verwendet werden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a2ac0ae057f13bb3ab522bd9c542b66bba1d5304
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 89c431200ebdf1daf658f59ec368216af35506ba
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301061"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881319"
 ---
 # <a name="adjust-exchange-rates"></a>Wechselkurse regulieren
 Wenn Sie steuerpflichtige Umsätze in Fremdwährung abrechnen, müssen die offiziellen Kurse der Eidg. Steuerverwaltung zur MWST-Kursumrechnung verwendet werden.  
@@ -33,11 +31,11 @@ Weitere Informationen über MWST und Fremdwährungen finden Sie auf der [ESTV](h
 
 ## <a name="to-adjust-an-exchange-rate"></a>So regulieren Sie einen Wechselkurs  
 
-1.  Wählen Sie ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") ein und wählen **Währungswechselkurs-Dienste** und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **Währungen** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Wechselkurse** aus.  
 3.  Geben Sie auf der Seite **Währungswechselkurse** den offiziellen MWST-Satz pro Periode für die jeweilige Währung in die Felder **Anzahl MWST-Einheiten** und **MWST-Kurs** ein.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
-5.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen"), öffnen Sie **Wechselkurse regulieren**, und wählen Sie dann den zugehörigen Link aus.  
+5.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **Wechselkurse regulieren** ein und wählen Sie dann den entsprechenden Link.  
 6.  Füllen Sie auf dem Inforegister **Optionen** die Felder wie in der folgenden Tabelle beschrieben aus.   
 
     |Feld|Description|  

@@ -1,8 +1,6 @@
 ---
 title: 'Gewusst wie: Drucken einer Lager-Kommissionierliste aus Verkaufsaufträgen'
 description: Eine Lagerkommissionierliste kann direkt von einem Verkaufsauftrag gedruckt werden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: db4afff3219f98a7dc24533bf1dfe5b4e93dd57a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7e6a4073cf74acecd91a842d3aa0d0e88d8be85a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301019"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881307"
 ---
 # <a name="print-an-inventory-picking-list-from-a-sales-order"></a>Drucken einer Lagerkommissionierliste von einem Auftrag
 Eine Lagerkommissionierliste kann direkt von einem Verkaufsauftrag gedruckt werden. Die Kommissionierliste enthält eine Liste von Artikeln mit den folgenden Informationen:  
@@ -31,7 +29,7 @@ Die Kommissionierliste enthält nur die Artikel, deren Versandmenge grösser als
 
 ## <a name="to-print-an-inventory-picking-list-from-a-sales-order"></a>So drucken Sie eine Lagerkommissionierliste von einem Auftrag  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsauftrag** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie den relevanten Verkaufsauftrag aus und wählen Sie dann auf der Registerkarte Start **Bearbeiten** aus.  
 3.  Wählen Sie die Aktion **Liste auswählen** aus.  
 4.  Geben Sie auf dem Inforegister **Optionen** im Feld **Anzahl Kopien** die erforderliche Anzahl von Kopien ein.  

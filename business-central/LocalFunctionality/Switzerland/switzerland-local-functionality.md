@@ -1,8 +1,6 @@
 ---
 title: Lokale Funktion (Schweiz)
 description: Die folgenden Themen beschreiben die lokale Funktion in der Schweizer Version von Business Central.
-services: project-madeira
-documentationcenter: ''
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: 8c13ef213f5f0ca3169bfcbdb595839a5e3d3250
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 84b0a9e66a75e5bde1d45409c54ef1eac0d1b562
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300972"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878797"
 ---
 # <a name="switzerland-local-functionality"></a>Lokale Funktion (Schweiz)
 Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  

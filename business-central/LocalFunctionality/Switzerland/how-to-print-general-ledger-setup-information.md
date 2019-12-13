@@ -1,8 +1,6 @@
 ---
 title: Drucken von Einrichtungsinformationen zur Finanzbuchhaltung
 description: Bevor Sie Business Central im täglichen Geschäft verwenden können, können Sie Finanzbuchhaltungseinrichtungs-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8c77437487ebba06a6e0000ef7b1f7418807b7e3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 11b3d59c233b893ab1bb2159e895462e8a56ac4b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301013"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881304"
 ---
 # <a name="print-general-ledger-setup-information"></a>Drucken von Finanzbuchhaltungs-Setupinformationen
 Bevor Sie [!INCLUDE[d365fin](../../includes/d365fin_md.md)] im täglichen Geschäft verwenden, können Sie den Bericht **Fibu Einr.-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Masterdaten überprüfen, damit Sie eine Grundlage für einen Vergleich haben, und anschliessend verifizieren, dass beispielsweise die Buchungsgruppen ordnungsgemäss eingerichtet sind.  
 
 ## <a name="to-print-general-ledger-setup-information"></a>So drucken Sie Einrichtungsinformationen zur Finanzbuchhaltung  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol \"Nach Seite oder Bericht suchen\"") aus, öffnen Sie **Fibu Einr.-Informationen**, und wählen Sie dann den verknüpften Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **Fibu Einr.-Informationen** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie im Inforegister **Optionen** im Feld **Einrichtungsinformationen** den Masterdatenbereich wie in der folgenden Tabelle beschrieben aus.  
 
     |Option|Description|  
@@ -39,4 +37,4 @@ Bevor Sie [!INCLUDE[d365fin](../../includes/d365fin_md.md)] im täglichen Gesch�
 3.  Wählen Sie die Schaltfläche **Drucken** aus, um den Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Finance einrichten](../../finance-setup-finance.md)
+[Finanzen einrichten](../../finance-setup-finance.md)
