@@ -1,8 +1,6 @@
 ---
 title: Zahlungstoleranz und Skontotoleranz | Microsoft Docs
 description: Sie können Zahlungstoleranz einrichten, um eine Rechnung zu schliessen, wenn die Zahlung nicht vollständig den Betrag der Rechnung umfasst.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3bed8b9298b668e627691be11598ca8c78238db
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 229602a4ca5eb7b2da926171a7ba86a8d103b133
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305754"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879622"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Mit Zahlungstoleranzen und Skontotoleranzen arbeiten
 Sie können eine Zahlungstoleranz einrichten, um eine Rechnung zu schliessen, wenn die Zahlung nicht vollständig den Betrag der Rechnung umfasst. Die eingerichtete Skontotoleranz erlaubt Ihnen, Skonto nach Ablauf des Skontodatums zu gewähren.  
@@ -44,13 +42,13 @@ Weitere Informationen finden Sie unter [So aktivieren oder deaktivieren Sie die 
 Toleranz auf Tage und Beträge erlaubt Ihnen, eine Rechnung auszugleichen, selbst wenn die Zahlung nicht vollständig den Rechnungsbetrag abdeckt, sei es aufgrund eines überschrittenen Skontodatums, weil Waren abgezogen wurden oder aufgrund eines kleineren Fehlers. Dies gilt auch für Gutschriften und Erstattungen.  
 
 Um diese Toleranz einzurichten, müssen Sie verschiedene Toleranzkonten einrichten, das Skontokonto und die Zahlungstoleranzbuchungsmethode spezifizieren und die Stapelverarbeitung **Zahlungstoleranz ändern** laufen lassen.  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Allgemeine Buchungseinrichtung** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Buchungsmatrix** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie die Seite  **Buchungsmatrix Einrichtung**. Richten Sie ein Haben- und ein Soll-Verkaufszahlungstoleranzkonto sowie ein Haben- und ein Soll-Einkaufszahlungstoleranzkonto ein.  
-3. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitorenbuchungsruppen** ein, und wählen dann den zugehörigen Link aus.    
+3. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Debitorenbuchungsgruppen** ein und wählen Sie dann den entsprechenden Link.    
 4. Öffnen Sie die Seite  **Debitorenbuchungsgruppen**. Richten Sie ein Haben- und ein Soll-Zahlungstoleranzkonto ein. Weitere Informationen finden Sie unter [Einrichten von Buchungsgruppen](finance-posting-groups.md).  
-5. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkäufer-Buchungseinrichtung** ein, und wählen dann den zugehörigen Link aus.  
+5. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Kreditorenbuchungsmatrix** ein und wählen Sie dann den entsprechenden Link.  
 6. Öffnen Sie die Seite  **Debitorenbuchungsgruppen**. Richten Sie ein Haben- und ein Soll-Zahlungstoleranzkonto ein.  
-7. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Fibuposten einrichten** ein, und wählen dann den zugehörigen Link aus.  
+7. Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Fibuposteneinrichtung** ein und wählen Sie dann den entsprechenden Link.  
 8. Öffnen Sie die Seite **Fibuposten einrichten**.  
 9. Füllen Sie im Inforegister **Anwendung** die Felder **Skontotoleranzbuchung**, **Skontotoleranzperiode** und **Zahlungstoleranzbuchung**.   
 10. Wählen Sie die Aktion **Zahlungstoleranz ändern** aus.
@@ -68,7 +66,7 @@ Um diese Toleranz einzurichten, müssen Sie verschiedene Toleranzkonten einricht
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>So aktivieren oder deaktivieren Sie die Zahlungstoleranzwarnungen
 Die Zahlungstoleranzwarnung erscheint, wenn Sie einen Ausgleich mit einem Saldo innerhalb der erlaubten Toleranz buchen. Sie können dann wählen, wie Sie den Saldo buchen und dokumentieren wollen.    
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Fibuposten einrichten** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Fibuposteneinrichtung** ein und wählen Sie dann den entsprechenden Link.  
 2. Versehen Sie auf der Seite **Fibuposten einrichten** im Inforegister **Anwendung** das Feld **Zahlungstoleranzwarnung** mit einem Häkchen, um die Warnung zu aktivieren. Um die Warnung zu deaktivieren, entfernen Sie das Häkchen.  
 
 > [!NOTE]  
@@ -77,7 +75,7 @@ Die Zahlungstoleranzwarnung erscheint, wenn Sie einen Ausgleich mit einem Saldo 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Zahlungstoleranz für Debitoren sperren:  
 Die Standardeinrichtung für die Zahlungstoleranz ist zulässig. Um eine Zahlungstoleranz für einen bestimmten Kreditor oder Debitor zu sperren, müssen Sie auf der entsprechenden Debitoren- oder Kreditorenkarte die Toleranz sperren. Wie dies für einen Debitoren stattfindet, wird im Folgendem beschrieben: Die Schritte sind für einen Kreditor ähnlich.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") geöffnet wird. Geben Sie **Debitor** oder **Verkäufer** ein und wählen Sie den zugehörigen Link aus.  
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Kunde** oder **Lieferant** ein und wählen Sie dann den entsprechenden Link.  
 2. Aktivieren Sie auf dem Inforegister **Zahlungen** das Kontrollkästchen **Zahlungstoleranz sperren**.  
 
 > [!NOTE]  
@@ -124,7 +122,7 @@ Restbetrag gemäss
 
 Normale Ausgleichsvorschirften  
 
-![Einzelne Zahlungstoleranzregel 1](media/singlePmtTolRules(Pre1503).gif "Einzelne Zahlungstoleranzregel 1")  
+![Einmalzahlungstoleranz-Regeln 1](media/singlePmtTolRules(Pre1503).gif "Einmahlzahlungstoleranz-Regeln 1")  
 
 (1) Fällt die Zahlung in diesen Zeitraum, können alle Posten mit oder ohne Toleranz geschlossen werden.  
 
@@ -135,7 +133,7 @@ Restbetrag gemäss
 
 Normale Ausgleichsvorschirften  
 
-![Einzelne Zahlungstoleranzregel 2](media/singlePmtTolRules(GracePeriod).gif "Einzelne Zahlungstoleranzregel 2")  
+![Einmalzahlungstoleranz-Regeln 2](media/singlePmtTolRules(GracePeriod).gif "Einmahlzahlungstoleranz-Regeln 2")  
 
 (1) Fällt die Zahlung in diesen Zeitraum, können alle Posten mit oder ohne Toleranz geschlossen werden.  
 
@@ -146,7 +144,7 @@ Restbetrag gemäss
 
 Normale Ausgleichsvorschirften  
 
-![Einzelne Zahlungstoleranzregel 3](media/singlePmtTolRules(Post0120).gif "Einzelne Zahlungstoleranzregel 3")  
+![Einmalzahlungstoleranz-Regeln 3](media/singlePmtTolRules(Post0120).gif "Einmalzahlungstoleranz-Regeln 3")  
 
 (1) Fällt die Zahlung in diesen Zeitraum, können alle Posten mit oder ohne Toleranz geschlossen werden.  
 
@@ -207,7 +205,7 @@ Restbetrag gemäss
 
 Normale Ausgleichsvorschirften  
 
-![Mehrfache Zahlungstoleranzregel 1](media/multiplePmtTolRules(Pre1503).gif "Mehrfache Zahlungstoleranzregel 1")  
+![Mehrfachzahlungstoleranz-Regeln 1](media/multiplePmtTolRules(Pre1503).gif "Mehrfachzahlungstoleranz-Regeln 1")  
 
 (1) Fällt die Zahlung in diesen Zeitraum, können alle Posten mit oder ohne Toleranz geschlossen werden.  
 
@@ -218,7 +216,7 @@ Restbetrag gemäss
 
 Normale Ausgleichsvorschirften  
 
-![Mehrfache Zahlungstoleranzregel 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Mehrfache Zahlungstoleranzregel 2")  
+![Mehrfachzahlungstoleranz-Regeln 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Mehrfachzahlungstoleranz-Regeln 2")  
 
 (1) Fällt die Zahlung in diesen Zeitraum, können alle Posten mit oder ohne Toleranz geschlossen werden.  
 
@@ -229,7 +227,7 @@ Restbetrag gemäss
 
 Normale Ausgleichsvorschirften  
 
-![Mehrfache Zahlungstoleranzregel 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Mehrfache Zahlungstoleranzregel 3")  
+![Mehrfachzahlungstoleranz-Regeln 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Mehrfachzahlungstoleranz-Regeln 3")  
 
 (1) Fällt die Zahlung in diesen Zeitraum, können alle Posten mit oder ohne Toleranz geschlossen werden.  
 
@@ -240,7 +238,7 @@ Restbetrag gemäss
 
 Normale Ausgleichsvorschirften  
 
-![Mehrfache Zahlungstoleranzregel 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Mehrfache Zahlungstoleranzregel 4")  
+![Mehrfachzahlungstoleranz-Regeln 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Mehrfachzahlungstoleranz-Regeln 4")  
 
 (1) Fällt die Zahlung in diesen Zeitraum, können alle Posten mit oder ohne Toleranz geschlossen werden.  
 
@@ -251,7 +249,7 @@ Restbetrag gemäss
 
 Normale Ausgleichsvorschirften  
 
-![Mehrfache Zahlungstoleranzregel 5](media/multiplePmtTolRules(Post0122).gif "Mehrfache Zahlungstoleranzregel 5")  
+![Mehrfachzahlungstoleranz-Regeln 5](media/multiplePmtTolRules(Post0122).gif "Mehrfachzahlungstoleranz-Regeln 5")  
 
 (1) Fällt die Zahlung in diesen Zeitraum, können alle Posten mit oder ohne Toleranz geschlossen werden.  
 
@@ -259,6 +257,6 @@ Normale Ausgleichsvorschirften
 
 ## <a name="see-also"></a>Siehe auch  
 [Finanzen](finance.md)  
-[Finance einrichten](finance-setup-finance.md)  
+[Finanzen einrichten](finance-setup-finance.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

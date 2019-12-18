@@ -1,8 +1,6 @@
 ---
 title: Designdetails - Artikeltracking-Buchungsstruktur | Microsoft Docs
 description: Erfahren Sie, wie der Lagerposten als primäre Transportmitteln von Artikeltrackingnummern verwendet wird.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 082c5c70ce0fc060b5a3d87c325e1762873113ee
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a016863dc7dd5667074060a21e352ce4a56444cd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303258"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880174"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Designdetails: Artikeltracking-Buchungsstruktur
 Um der Bestandskalkulationsfunktionen zu entsprechen und eine einfachere und robustere Lösung zu erhalten, werden Lagerposten als der primäre Träger von Artikeltrackingnummern verwendet.  

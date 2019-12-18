@@ -1,8 +1,6 @@
 ---
 title: Dfinieren und Zuweisen von Kosten | Microsoft Docs
 description: Kostenumlagen verschieben Kosten und Einnahmen zwischen Kostenarten, Kostenstellen und Kostenträgern. Sie können so viele Zuteilungen wie notwendig definieren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8261dee0b2ba56d9aec707b5614999697e19ef62
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7e66411200823961936e5c596461a9f227a85d9f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306402"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879814"
 ---
 # <a name="defining-and-allocating-costs"></a>Definieren und Zuweisen von Kosten
 Kostenumlagen verschieben Kosten und Einnahmen zwischen Kostenarten, Kostenstellen und Kostenträgern. Sie können so viele Zuteilungen wie notwendig definieren. Jede Zuteilung besteht aus:  
@@ -40,7 +38,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 Jede Zuordnung besteht aus einer Zuordnungsquelle und einer oder mehreren Zuordnungszielen. Die Zuordnungsquelle definiert, welche Kosten zugeordnet werden. Die Zuordnungsziele bestimmen, wie die Kosten zugeordnet werden.  
 
 ### <a name="to-set-up-cost-allocations"></a>So richten Sie Kostenzuordnungen ein  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kostenumlage** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Kostenumlage** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie auf der Seite **Kostenumlage** die Aktion **Bearbeiten** aus.  
 3.  Geben Sie eine ID für die Zuordnungsquelle in das Feld **ID** ein.  
 4.  Definieren Sie eine **Ebene** als Zahl zwischen 1 und 99 im Feld . Die Verteilungsbuchung richtet sich nach der Reihenfolge der Stufen.  
@@ -84,7 +82,7 @@ In diesem Thema wird beschrieben, wie drei neue Verteilungsziel-Kostenträger f�
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>So definieren die die Kostenstelle der Verteilungsquelle PROD auf dem Inforegister "Allgemein"  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kostenumlage** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Kostenumlage** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie auf der Seite **Kostenumlage** die Aktion **Neu** aus.  
 3.  Drücken Sie im Feld **ID** die EINGABETASTE, oder geben Sie eine ID ein.  
 4.  Geben Sie in dem Feld **Menge** **1** ein.  
@@ -121,7 +119,7 @@ Dieses Thema zeigt ein Beispiel für das Definieren von Zuordnungen mithilfe der
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>So definieren Sie dynamische Zuteilungen auf der Basis der im Vorjahr verkauften Artikel  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kostenumlage** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Kostenumlagen** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie auf der Seite **Kostenumlage** die Aktion **Neu** aus.  
 3.  Drücken Sie im Feld **ID** die EINGABETASTE, oder geben Sie eine ID ein.  
 4.  Geben Sie in dem Feld **Menge** **1** ein.  

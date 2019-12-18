@@ -1,8 +1,6 @@
 ---
 title: Informationen zur Kostenrechnung | Microsoft Docs
 description: Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 053a0ca21ff26b53cabcc8894ed1cd0e48c904b0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ab142468f152b6430d5454c29a5b663be954412
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302682"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879886"
 ---
 # <a name="about-cost-accounting"></a>Informationen zur Kostenrechnung
 Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Kostenrechnungsinformationen sollen Folgendes analysieren:  
@@ -44,18 +42,18 @@ Das folgende Diagramm zeigt den Workflow der Kostenrechnung.
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Kostenarten, Kostenstellen und Kostenträger  
 Sie definieren Kostenarten, Kostenstellen und Kostenträger, um zu analysieren, worin die Kosten bestehen, woher die Kosten stammen und wer die Kosten trägt.  
 
-Sie definieren einen Kostenartenplan mit einer Struktur und Funktion ähnlich dem Sachkontenplan. Sie können die Erfolgsrechnungskonten des Fibukontos übertragen oder Ihren eigenen Kostenartenplan erstellen.  
+Sie definieren einen Kostenartenplan mit einer Struktur und Funktion ähnlich dem Fibukontenplan. Sie können die Erfolgsrechnungskonten des Fibukontos übertragen oder Ihren eigenen Kostenartenplan erstellen.  
 
-Kostenstellen sind Abteilungen und Profiteinheiten, die für die Kosten und die Einnahmen zuständig sind. Häufig sind mehr Kostenstellen in der Kostenrechnung als in jeder Dimension eingerichtet, die im Sachkonto eingerichtet ist. Im Sachkonto werden normalerweise nur die Kostenstellen der ersten Ebene für direkte Kosten und die ursprünglichen Kosten verwendet. In der Kostenrechnung werden zusätzliche Kostenstellen für zusätzliche Zuteilungsebenen erstellt.  
+Kostenstellen sind Abteilungen und Profiteinheiten, die für die Kosten und die Einnahmen zuständig sind. Häufig sind mehr Kostenstellen in der Kostenrechnung als in jeder Dimension eingerichtet, die im Fibukonto eingerichtet ist. Im Fibukonto werden normalerweise nur die Kostenstellen der ersten Ebene für direkte Kosten und die ursprünglichen Kosten verwendet. In der Kostenrechnung werden zusätzliche Kostenstellen für zusätzliche Zuteilungsebenen erstellt.  
 
 Kostenträger sind Produkte, Produktgruppen oder Services eines Unternehmens. Dies sind die Fertigartikel eines Unternehmens, die die Kosten tragen.  
 
-Sie können Kostenstellen mit Abteilungen und Kostenträger mit Projekten in Ihrem Unternehmen verknüpfen. Sie können jedoch Kostenstellen und Kostenträger mit sämtlichen Dimensionen im Sachkonto verknüpfen und sie mit Zwischensummen und Titeln ergänzen.  
+Sie können Kostenstellen mit Abteilungen und Kostenträger mit Projekten in Ihrem Unternehmen verknüpfen. Sie können jedoch Kostenstellen und Kostenträger mit sämtlichen Dimensionen im Fibukonto verknüpfen und sie mit Zwischensummen und Titeln ergänzen.  
 
 ## <a name="cost-entries-and-cost-journals"></a>Kostenposten und Kosten-Erfassungsjournale  
-Betriebskosten können aus dem Sachkonto übertragen werden. Sie können die Kostenposten aus dem Sachkonto automatisch auf Kostenposten bei jeder Buchung übertragen. Sie können einen Batchauftrag auch verwenden, um die Fibuposten auf die Kostenposten basierend auf täglichen oder monatlichen Sammelbuchungen zu übertragen.  
+Betriebskosten können aus dem Fibukonto übertragen werden. Sie können die Kostenposten aus dem Fibukonto automatisch auf Kostenposten bei jeder Buchung übertragen. Sie können einen Batchauftrag auch verwenden, um die Fibuposten auf die Kostenposten basierend auf täglichen oder monatlichen Sammelbuchungen zu übertragen.  
 
-In Kosten-Erfassungsjournalen können Sie Kosten und Aktivitäten buchen, die weder aus dem Sachkonto stammen noch durch Verteilungen erzeugt werden. Beispielsweise können Sie reine Betriebskosten, Inlandsabgaben, Zuordnungen und Korrekturposten einzeln zwischen Kostenarten, Kostenstellen und Kostenträgern oder auf wiederkehrender Basis buchen.  
+In Kosten-Erfassungsjournalen können Sie Kosten und Aktivitäten buchen, die weder aus dem Fibukonto stammen noch durch Verteilungen erzeugt werden. Beispielsweise können Sie reine Betriebskosten, Inlandsabgaben, Zuordnungen und Korrekturposten einzeln zwischen Kostenarten, Kostenstellen und Kostenträgern oder auf wiederkehrender Basis buchen.  
 
 ## <a name="cost-allocations"></a>Kostenumlage  
 Zuteilungen verschieben Kosten und Einnahmen zwischen Kostenarten, Kostenstellen und Kostenträgern. Gemeinkosten werden zuerst auf den Kostenstellen gebucht und zu einem späteren Zeitpunkt auf Kostenträger berechnet. Dies kann beispielsweise in einer Verkaufsabteilung ausgeführt werden, die eine Reihe von Produkten gleichzeitig verkauft. Direkte Kosten sind die Kosten, die einem Kostenträger direkt zugeordnet werden können, zum Beispiel der Materialeinkauf für ein bestimmtes Produkt.  
@@ -65,7 +63,7 @@ Die verwendete Zuteilungsgrundlage und die Genauigkeit der Zuteilungsdefinition 
 Jede Zuordnung besteht aus einer Zuordnungsquelle und einer oder mehreren Zuordnungszielen. Sie können tatsächliche Werte oder geplante Werte zuordnen, indem Sie die Methode der statischen Umlage verwenden, die auf einem bestimmten Wert basiert, wie Fläche oder ein eingerichtetes Zuteilungsverhältnis von 5:2:4. Sie können auch tatsächliche Werte oder geplante Werte zuordnen, indem Sie die Methode der dynamischen Umlage mit neun vordefinierten Zuteilungsgrundlagen und 12 dynamischen Datenbereichen verwenden.  
 
 ## <a name="cost-budgets"></a>Kostenbudgets  
-Sie können beliebig viele Kostenbudgets erstellen. Sie können das Kostenbudget ins Sachkontobudget kopieren und umgekehrt. Sie können geplante Kosten als Ist-Kosten übertragen.  
+Sie können beliebig viele Kostenbudgets erstellen. Sie können das Kostenbudget ins Fibukontobudget kopieren und umgekehrt. Sie können geplante Kosten als Ist-Kosten übertragen.  
 
 ## <a name="cost-reporting"></a>Kostenberichte  
 Die meisten Berichte und Statistiken basieren auf den gebuchten Kostenposten. Sie können die Sortierung der Ergebnisse einrichten und Filter verwenden, um zu definieren, welche Daten angezeigt werden müssen. Sie können Berichte für eine Kostenaufteilungsanalyse erstellen. Darüber hinaus können Sie die Standard-Kontenschema verwenden, um festzulegen, wie die Berichte für den Kostenartenplan angezeigt werden sollen.  

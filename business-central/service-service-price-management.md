@@ -1,8 +1,6 @@
 ---
 title: Servicepreismanagement | Microsoft Docs
 description: In diesem Thema wird beschrieben, wie Sie den Serviceaufträgen die besten Preise zuzuordnen, individuelle Preisvereinbarungen mit Kunden einzurichten, die Effizienz der Servicemitarbeiter zu verbessern und den Rechnungsstellungsprozess zu beschleunigen.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 14ea816e6614a3e47cbc9e47a1adccf8eeddffbd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 81670627f8658296da7c6c5b0f3e269b78228b0f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311586"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882316"
 ---
 # <a name="service-price-management"></a>Servicepreismanagement
 Die Funktionalität "Servicepreismanagement" erlaubt Ihnen, den Serviceaufträgen die besten Preise zuzuordnen, individuelle Preisvereinbarungen mit Kunden einzurichten, die Effizienz der Servicemitarbeiter zu verbessern und den Rechnungsstellungsprozess zu beschleunigen.  
@@ -52,7 +50,7 @@ Sie richten die eigentlichen Servicepreisarten (Preiskorrekturart und Preis) fü
 Sie können z. B. Arten von Servicepreisen für eine Radioservicepreisgruppe einrichten. Für Debitoren, die keiner Preisgruppe zugewiesen wurden, können Sie festlegen, dass für Serviceleistungen ein maximaler Preis berechnet werden soll (= Preiskorrekturgruppe für Serviceleistungen). Für Debitoren, die einer bestimmten Preisgruppe zugewiesen wurden, können Sie festlegen, dass für Serviceleistungen ein fixer Preis berechnet werden soll (= dieselbe Preiskorrekturgruppe für Serviceleistungen).  
   
 ## <a name="service-price-adjustment"></a>Servicepreiskorrekturen  
-Die Servicepreiskorrektur ermöglicht Ihnen, die Preise für Artikel, Ressourcen, dem Sachkonto oder den Kosten in einem Serviceauftrag zu korrigieren.  
+Die Servicepreiskorrektur ermöglicht Ihnen, die Preise für Artikel, Ressourcen, dem Fibukonto oder den Kosten in einem Serviceauftrag zu korrigieren.  
   
 Nachdem Sie einen Artikel in die Serviceartikelzeile eingegeben haben, erfassen Sie alle Informationen über die Kosten für diesen Artikel in den Servicezeilen. Wenn Sie die Funktion "Servicepreis korrigieren" ausführen, können Sie die Preiskorrekturen in der Vorschau sehen. Sie können hier bei Bedarf Änderungen vornehmen. Wenn Sie die Änderungen bestätigen, werden die Korrekturen berechnet und in die Servicezeilen übertragen. Dann buchen Sie den Serviceauftrag.  
   
@@ -62,7 +60,7 @@ Die Berechnungen sind in der folgenden Tabelle beschrieben.
   
 |Option | Description |  
 |----------------------------------|---------------------------------------|  
-|**Fester Preis**|Das bedeutet, dass Sie einen festen Preis für Serviceartikel, Ressourcen, das Sachkonto oder die Kosten in Rechnung stellen, ungeachtet der tatsächlichen Kosten. Mit dieser Option wird die Servicepreiskorrektur genau auf den angegebenen Betrag in der Servicepreisgruppe durchgeführt.|  
+|**Fester Preis**|Das bedeutet, dass Sie einen festen Preis für Serviceartikel, Ressourcen, das Fibukonto oder die Kosten in Rechnung stellen, ungeachtet der tatsächlichen Kosten. Mit dieser Option wird die Servicepreiskorrektur genau auf den angegebenen Betrag in der Servicepreisgruppe durchgeführt.|  
 |**Maximum**|Damit legen Sie, ungeachtet der tatsächlichen Kosten, einen Höchstbetrag für den Rechnungsbetrag für den Kunden fest. Bei dieser Option wird nur dann eine Servicepreiskorrektur durchgeführt, wenn der Gesamtbetrag den in der Servicepreisgruppe angegebenen Betrag übersteigt.|  
 |**Minimum**|Das bedeutet, dass Sie, ungeachtet der tatsächlichen Kosten, eine Untergrenze definieren. Bei dieser Option werden Servicepreiskorrekturen nur durchgeführt, wenn der Gesamtbetrag geringer ist als der Betrag, der in der Servicepreisgruppe angegeben wurde.|  
   

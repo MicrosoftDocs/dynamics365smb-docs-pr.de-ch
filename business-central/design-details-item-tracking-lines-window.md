@@ -1,8 +1,6 @@
 ---
 title: 'Designdetails: Artikeltrackingzeilenseite | Microsoft Docs'
 description: Lesen, wie der Fluss der Serien- und Chargennummern in Ihrem Lager verwaltet wird.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a5629a5995516b6c3b1e15d98e20c83769f5b73c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ba606fdea9ab9fd75513ec05e54a63e60fa6c9ec
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303282"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880150"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Designdetails – Artikeltrackingzeilenfenster-Seite
 Artikeltrackingdatensätze und Reservierungsdatensätze werden im Reservierungssystem erstellt, und ihre Verfügbarkeit wird dynamisch berechnet. Daten, die auf der **Artikeltrackingzeilen**-Seite eingegeben werden, werden in einer temporären Version der Tabelle **Trackingspezifikation** verwaltet. Wenn die Seite geschlossen wird, werden die aktiven Daten in der Tabelle **Reservierungsposten** bestätigt und die historischen Daten werden in der Tabelle **Trackingspezifikation** bestimmt. Weitere Informationen finden Sie unter [Designdetails: Aktive vs. historische Artikeltrackingposten](design-details-active-versus-historic-item-tracking-entries.md).  

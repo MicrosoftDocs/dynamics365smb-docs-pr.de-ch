@@ -1,8 +1,6 @@
 ---
 title: Designdetailsl- Neubewertung | Microsoft Docs
 description: Sie können den Lagerbestand basierend auf der Bewertungsbasis, die den Lagerwert am genauesten wiedergibt, neu bewerten. Sie können eine Neubewertung auch zurückdatieren, damit der Wareneinsatz (COGS) ordnungsgemäss für Artikel aktualisiert wird, die bereits verkauft wurden. Artikel mit der Lagerabgangsmethode "Standard", die noch nicht vollständig fakturiert wurden, können ebenfalls neu bewertet werden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a15b1f36bccc733a8de8c846da7cffbfae7c5af6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c60dddbf5e559fbbcf7990cd4a5cc62da2459e63
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303045"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880054"
 ---
 # <a name="design-details-revaluation"></a>Designdetails: Neubewertung
 Sie können den Lagerbestand basierend auf der Bewertungsbasis, die den Lagerwert am genauesten wiedergibt, neu bewerten. Sie können eine Neubewertung auch zurückdatieren, damit der Wareneinsatz (COGS) ordnungsgemäss für Artikel aktualisiert wird, die bereits verkauft wurden. Artikel mit der Lagerabgangsmethode "Standard", die noch nicht vollständig fakturiert wurden, können ebenfalls neu bewertet werden.  
@@ -41,7 +39,7 @@ Da die Neubewertung an jedem beliebigen Datum erstellt werden kann, müssen Sie 
 ### <a name="example"></a>Beispiel  
 Im folgenden Beispiel wird gezeigt, wann ein WIP-Artikel Teil des Bestands wird. Das Beispiel basiert auf der Produktion einer Kette mit 150 Gliedern.  
 
-![Produktionslager und Neubewertung](media/design_details_inventory_costing_10_revaluation_wip.png "Produktionslager und Neubewertung")  
+![“RIF-Lagerbestand und Neubewertung](media/design_details_inventory_costing_10_revaluation_wip.png "“RIF-Lagerbestand und Neubewertung")  
 
 **1Q**: Der Benutzer bucht die eingekauften Links als erhalten. Die folgende Tabelle zeigt den sich daraus ergebenden Lagerposten.  
 

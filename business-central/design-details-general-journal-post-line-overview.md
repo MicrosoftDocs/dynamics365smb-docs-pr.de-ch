@@ -1,8 +1,6 @@
 ---
 title: Fibu-Erf.-Journal-Buchungszeile - Überblick | Microsoft Docs
 description: Dieses Thema enthält Änderungen für Codeunit 12, **Jnl.-Beitrags-Zeile**, welche das grösste Anwendungsobjekt für Fibupostenbuchung ist und der einzige Bereich, um Fibuposten, MWST und Debitoren- und Kreditorenposten einzufügen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +10,15 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5589aa476662a9dff69e95d70367ae4c5e45aaba
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9de46d66fe13a798dda812b74f19b9ed247b84fd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303570"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880414"
 ---
 # <a name="general-journal-post-line-overview"></a>Fibu-Buchungszeile - Überblick
-Codeunit 12, **Das. Jnl.-Beitrags-Zeile**, ist das grösse Anwendungsobjekt für Fibupostenbuchung und ist der einzige Bereich, um die Finanzbuchhaltung, MWST. und Debitoren- und Kreditorenposten einzufügen. Diese Codeunit wird auch für Ausgleich-, Ausgleich aufheben- und Zurücksetzen-Arbeitsgänge verwendet.  
+Codeunit 12, **Das. Jnl.-Beitrags-Zeile**, ist das grosse Anwendungsobjekt für Fibupostenbuchung und ist der einzige Bereich, um die Fibuposten, MWST und Debitoren- und Kreditorenposten einzufügen. Diese Codeunit wird auch für Ausgleich-, Ausgleich aufheben- und Zurücksetzen-Arbeitsgänge verwendet.  
   
 Während die Codeunit in jeder Version in den letzten zehn Jahre verbessert wurde, blieb die Architektur im Wesentlichen unverändert. Die Codeunit wurde mit ungefähr 7.600 Codezeilen sehr umfangreich. Mit dieser Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] wird die Architektur geändert und die Codeunit wurde einfacher und leichter zu verwalten. Diese Dokumentation stellt die Änderungen vor und enthält Informationen, die Sie für das Upgrade benötigen.  
   
@@ -31,7 +29,7 @@ Die alte Architektur hatte die folgenden Funktionen:
 * Es gab viele lange Verfahren (mit mehr als 100 Codezeilen), die auch hohe zyklomatische Komplexität haten (das heisst, viele geschachtelte CASE, REPEAT-, IF-Anweisungen), durch die der Code sehr schwierig zu lesen und zu warten wurde.  
 * Einige Verfahren, die nur lokal verwendet wurdne und nur lokal verwendet werden sollten, wurden nicht als lokale Variable markiert.  
 * Die meisten Verfahren hatten keine Parameter und verwendeten globale Variablen. Einige verwendeten Parameter und setzten globale Variablen durch lokale Variablen ausser Kraft.  
-* Codeschemata für das Auffinden der Sachkonten und die Erstellung der Finanzbuchhaltung und MWST.-Posten waren nicht standardisiert und variierten von Ort zu Ort. Darüber gab es viele Codeverdopplung und unterbrochene Symmetrie zwischen Debitoren- und Kreditorencode.  
+* Codeschema für das Auffinden der Fibukonten und die Erstellung der Fibuposten und MWST-Posten waren nicht standardisiert und variierten von Ort zu Ort. Darüber gab es viele Codeverdopplung und unterbrochene Symmetrie zwischen Debitoren- und Kreditorencode.  
 * Ein grosser Teil des Codes in Codeunit 12, in etwa 30 Prozent, bezog sich auf Rabatt- und Toleranzberechnungen, obwohl Diese Funktion in vielen Ländern oder Regionen nicht benötigt werden.  
 * Buchen, Ausgleichen, Ausgleich aufheben, Zahlungsrabatt und -Toleranz und Wechselkursregulierung wurden in Codeunit 12 unter Verwendung einer langen Liste von globalen Variablen vereint.  
   
@@ -39,8 +37,8 @@ Die alte Architektur hatte die folgenden Funktionen:
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] hat Codeunit 12 die folgenden Verbesserungen:  
   
 * Codeunit 12 ist in kleinere Verfahren umgestaltet worden (insgesamt weniger als 100 Codezeilen).  
-* Standardisierte Muster für die Suche von Sachkonten wurden implementiert, indem Hilfsfunktionen aus den Buchungsgruppen verwendet wurden.  
-* Ein Buchungs-Modul-Framework wurde implementiert, um den Startund das Ende von Transaktionen zu verwalten und die Erstellung auf Sach- und MWST.-Posten zu isolieren, die Sammlung von MWST.-Ausgleich und die Berechnung von zusätzlichen Währungsbeträgen.  
+* Standardisierte Muster für die Suche von Fibukonten wurden implementiert, indem Hilfsfunktionen aus den Buchungsgruppen verwendet wurden.  
+* Ein Buchungs-Modul-Framework wurde implementiert, um den Start und das Ende von Transaktionen zu verwalten und die Erstellung auf Fibu- und MWST-Posten zu isolieren, die Sammlung von MWST-Ausgleich und die Berechnung von zusätzlichen Währungsbeträgen.  
 * Codeverdopplung ist gelöscht worden.  
 * Viele Hilfsfunktionen wurden zu den entsprechenden Debitoren- und Kreditorenpostentabellen übertragen.  
 * Die Verwendung von globalen Variablen ist minimiert worden, sodass jedes Verfahren Parameter verwendet und eine eigene Anwendungslogik enthält.  

@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac77368b30d442d6524b5231252ba5f370d50233
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774737"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809362"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Zuweisen von Berechtigungen zu Benutzern und Gruppen
 Mit dem Sicherheitssystem [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie steuern, auf welche Objekte ein Benutzer innerhalb jeder Datenbank oder Umgebung zugreifen darf. Sie können für jeden Benutzer festlegen, ob er Daten in den ausgewählten Datenbankobjekten lesen, ändern oder eingeben darf. Detaillierte Informationen finden Sie unter [Datensicherheit](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in der Hilfe für Entwickler und ITPro für [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Bevor Sie Benutzern und Benutzergruppen Berechtigungen zuweisen, müssen Sie festlegen, bei wem Sie sich anmelden können, indem Sie Benutzer entsprechend der im Office 365 Administrationscenter definierten Lizenz anlegen. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
+Bevor Sie Benutzern und Benutzergruppen Berechtigungen zuweisen, müssen Sie festlegen, wer sich anmelden kann, indem Sie Benutzer gemäss der Lizenz erstellen, wie im Microsoft 365 Admin Center definiert. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] gibt es zwei Ebenen von Berechtigungen für Datenbankobjekte:
 - Gesamt-Berechtigungen gemäss der Lizenz, auch als Berechtigung bezeichnet.

@@ -1,8 +1,6 @@
 ---
 title: 'Designdetails: Artikeltracking und -planung | Microsoft Docs'
 description: Da sie im Reservierungssystem gespeichert werden, werden Artikeltrackingnummern vollständig mit Auftragstrackingdatensätzen abgestimmt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0b83cc4daea4e37dae1e1ef7437276205b76cbe5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bc6b919a2c54fc4c500f46b1ad7972350b72e1e0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303370"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880270"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Designdetails: Artikeltracking und Planung
 Da sie im Reservierungssystem gespeichert werden, werden Artikeltrackingnummern vollständig mit Auftragstrackingdatensätzen abgestimmt. Dies bedeutet, dass Artikel mit Auftragstrackingdatensätzen Artikeltrackingnummern zugeordnet werden können. Andererseits können Artikel, die Artikeltrackingnummern haben, zu Auftragstrackingdatensätzen werden. Weitere Informationen finden Sie unter [Designdetails: Artikeltrackingdesign](design-details-item-tracking-design.md).

@@ -1,8 +1,6 @@
 ---
 title: Erstellen von Kostenbudgets| Microsoft Docs
 description: Dieses Thema enthält eine Übersicht, wo Kostenbudgets erstellt und analysiert werden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,23 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c107daa3725cf2f8b06039655738e8763cc0f6b1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 33999778898c671a87638ef5868103ea34875ff8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306426"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879838"
 ---
 # <a name="creating-cost-budgets"></a>Erstellen von Kostenbudgets
-Die Budgetierung in der Kostenrechnung entspricht der Budgetierung im Sachkonto. Ein Kostenbudget wird ausgehend von Kostenarten erstellt, wie ein Budget für das Fibukonto basierend auf Fibukonten erstellt wird.  
+Die Budgetierung in der Kostenrechnung entspricht der Budgetierung im Fibukonto. Ein Kostenbudget wird ausgehend von Kostenarten erstellt, wie ein Budget für das Fibukonto basierend auf Fibukonten erstellt wird.  
 
 Ein Kostenbudget wird für eine bestimmten Zeitraum erstellt, zum Beispiel für ein Geschäftsjahr. Sie können beliebig viele Kostenbudgets erstellen. Sie können ein neues Kostenbudget manuell erstellen, indem Sie ein Kostenbudget importieren oder indem Sie ein vorhandenes Kostenbudget als Budgetbasis kopieren. Weitere Informationen finden Sie unter [Sachkonto-Budgets erstellen](finance-how-create-budgets.md).
 
-Sie verwenden die folgenden Seiten, um Kostenbudgets zu erstellen und zu analysieren. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") um eine Seite zu finden und lesen Sie für jeden den entsprechenden Hinweis.
+Sie verwenden die folgenden Seiten, um Kostenbudgets zu erstellen und zu analysieren. Wählen Sie das Symbol ![Glühlampe, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, um eine Seite zu finden, und lesen Sie dann die jeweilige QuickInfo.
 
-|Bis|Informationen|  
+|Bis|Siehe|  
 |--------|---------|  
-|Übertragen Sie Budgets aus dem Sachkonto.|Stapelverarbeitung **Finanzbudget in Kostenrechnung kopieren**|  
+|Übertragen Sie Budgets aus dem Fibukonto.|Stapelverarbeitung **Finanzbudget in Kostenrechnung kopieren**|  
 |Kostenbudgets kopieren.|Stapelverarbeitung **Kostenbudget kopieren**|  
 |Budgets zuteilen.|Seite **Kostenumlage**|  
 |Sehen Sie sich die Kostenbudgeterfassungen und Kostenbudgetposten an.|**<Kostenbudgeterfassungen**|  

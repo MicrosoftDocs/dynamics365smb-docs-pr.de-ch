@@ -1,8 +1,6 @@
 ---
 title: 'Exemplarische Vorgehensweise: Berechnen des Umlaufbestandes | Microsoft Docs'
 description: Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen und die verschiedenen Kosten im Zusammenhang mit dem Verbrauch von Ressourcen für ein bestimmtes Projekt verfolgen. Projekte beinhalten den Verbrauch von Mitarbeiterstunden, Maschinenstunden, Bestandsposten und andere Verbrauchsarten, die während des Projekts verfolgt werden müssen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 98ecc7dad5857d36ca662d1b35d4e1d066e8f851
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1ba3bb79978d9635239183e7bbfc14722951b222
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314882"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877005"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Exemplarische Vorgehensweise: Berechnen der WIP für ein Projekt
 
@@ -31,7 +29,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 -   Berechnen der WIP  
 -   Auswählen einer WIP-Berechnungsmethode  
 -   Ausschliessen von Teilen des Projekts von der WIP  
--   Buchen der WIP auf das Sachkonto  
+-   Buchen der WIP auf den Fibuposten  
 -   Stornieren einer WIP-Buchung  
 
  In jedem Schritt des Prozesses wird der Wert berechnet, und die Projekttransaktionen werden in die Finanzbuchhaltung übertragen. Die Berechnungs- und Buchungsschritte erfolgen getrennt voneinander, sodass Sie die Daten überprüfen und vor dem Buchen in die Finanzbuchhaltung Änderungen vornehmen können. Sie müssen daher nach der Stapelverarbeitung für die Berechnung und vor der Stapelverarbeitung für die Buchung sicherstellen, dass alle Informationen korrekt sind.  
@@ -62,7 +60,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
 ### <a name="to-calculate-wip"></a>So berechnen Sie die WIP  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
 2.  In der Liste **Projekte** wählen Sie das Projekt **Deerfield** aus, und wählen Sie die **Bearbeiten** Aktion aus. Die Projektkarte wird im Bearbeitungsmodus geöffnet.  
 
      Die WIP kann basierend auf Einstandswert, Verkaufswert, Vertriebskosten, Prozentsatz der Fertigung oder bei Abschluss berechnet werden. In diesem Beispiel verwendet CRONUS das Einstandswertverfahren.  
@@ -88,13 +86,13 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
     > [!NOTE]  
     >  Die Benachrichtigung weist darauf hin, dass Warnungen im Zusammenhang mit der WIP-Berechnung vorliegen. Im folgenden Verfahren werden Sie die Warnungen überprüfen.  
 
-10. Erweitern Sie auf der Karte **Projekt** das Inforegister **WIP und Umsatzrealisierung**, um die berechneten Werte anzuzeigen. Sie können auch das **WIP-Buchungsdatum** und die im Sachkonto gebuchten Werte anzeigen, soweit vorhanden.  
+10. Erweitern Sie auf der Karte **Projekt** das Inforegister **WIP und Umsatzrealisierung**, um die berechneten Werte anzuzeigen. Sie können auch das **WIP-Buchungsdatum** und die im Fibuposten gebuchten Werte anzeigen, soweit vorhanden.  
 
  Beachten Sie, dass der Wert für **Deaktivierter Einstandsbetrag** 215,60 in der Spalte **Zu buchen** ist. Dieses spiegelt die Gesamtkosten von zwei Artikeln in der Projektaufgabengruppe 1110 – 1130 wieder. Der dritte Artikel wurde auf **Ausschliesslich** gesetzt und ist daher nicht in die WIP-Berechnung einbezogen.  
 
 ### <a name="to-review-wip-warnings"></a>WIP-Warnungen überprüfen  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **WIP-Cockpit für Projekte** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **WIP-Cockpit für Projekte** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die entsprechende Projekte **Deerfield**und wählen Sie dann die Aktion **Warnung anzeigen** aus.  
 3.  Überprüfen Sie auf der Seite **Job-WIP-Warnungen** die Warnung, die dem Projekt zugeordnet ist.  
 
@@ -110,18 +108,18 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 3.  Schliessen Sie die Seite.  
 
 > [!NOTE]  
->  Nur WIP und Umsatzrealisierung wird berechnet. Er wird nicht auf das Sachkonto gebucht. Führen Sie nach der Berechnung von "WIP und Umsatzrealisierung" den Stapelverarbeitungsauftrag **WIP auf Fibukonten buchen** aus, um diese Werte zu buchen.
+>  Nur WIP und Umsatzrealisierung wird berechnet. Er wird nicht auf den Fibuposten gebucht. Führen Sie nach der Berechnung von "WIP und Umsatzrealisierung" den Stapelverarbeitungsauftrag **WIP auf Fibukonten buchen** aus, um diese Werte zu buchen.
 
 ## <a name="posting-wip-to-general-ledger"></a>Buchen der WIP in die Finanzbuchhaltung  
- Nachdem Katrin die WIP für dieses Projekt berechnet hat, kann sie sie auf das Sachkonto buchen.  
+ Nachdem Katrin die WIP für dieses Projekt berechnet hat, kann sie sie auf den Fibuposten buchen.  
 
-### <a name="to-post-wip-to-general-ledger"></a>So buchen Sie die WIP auf das Sachkonto  
+### <a name="to-post-wip-to-general-ledger"></a>So buchen Sie die WIP auf den Fibuposten  
 
 1.  Wählen Sie in der Liste **Projekte** das Projekt **Landsberg** aus.  
 2.  Wählen Sie die **RIF** Aktion aus, und wählen Sie die **WIP auf Sachkonto buchen** Aktion aus.  
 3.  Wählen Sie auf der Seite **WIP auf Sachkonten buchen Projekt** auf dem Inforegister **Projekt** die Option **Landsberg** unter **Nr.** aus. Feld  
 4.  Geben Sie auf dem Inforegister **Optionen** im Feld **Stornobelegnr.** den Wert **1** ein.  
-5.  Wählen Sie die Schaltfläche **OK**, um WIP auf das Sachkonto zu buchen.  
+5.  Wählen Sie die Schaltfläche **OK**, um WIP auf den Fibuposten zu buchen.  
 6.  Klicken Sie auf **OK**, um die Bestätigungsseite zu schliessen.  
 
      Nachdem Sie die Buchung abgeschlossen haben, können Sie die Buchungsdaten auf der Seite **WIP-Fibuposten** anzeigen.  
@@ -145,20 +143,20 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 3.  Wählen Sie auf der Seite **WIP auf Sachkonten buchen Projekt** auf dem Inforegister **Projekt** die Option **Landsberg** unter **Nr.** aus. Feld  
 4.  Geben Sie auf dem Inforegister **Optionen** im Feld **Stornobelegnr.** den Wert **1** ein.  
 5.  Geben Sie in dem Feld **Stornobuchungsdatum** das ursprüngliche Buchungsdatum an. Dies sollte dasselbe Datum sein, das Sie für die erste Berechnung von WIP verwendet haben.  
-6.  Aktivieren Sie das Kontrollkästchen **Nur stornieren**. Dadurch wird die zuvor gebuchte WIP storniert, die neue WIP wird jedoch nicht auf das Sachkonto gebucht.  
+6.  Aktivieren Sie das Kontrollkästchen **Nur stornieren**. Dadurch wird die zuvor gebuchte WIP storniert, die neue WIP wird jedoch nicht auf den Fibuposten gebucht.  
 7.  Wählen Sie die Schaltfläche **OK**, um den Stapelauftrag auszuführen, und wählen Sie dann die Schaltfläche **OK**, um die Bestätigungsseite zu schliessen.  
 8.  Öffnen Sie die **Projektkarte** für **Landsberg**.  
 9. Überprüfen Sie im Inforegister **WIP und Umsatzrealisierung**, dass keine gebuchten WIP-Posten vorhanden sind.  
 10. Schliessen Sie diese Seite.  
 11. Wählen Sie in der Liste **Projekte** das Projekt **Deerfield**, wählen Sie die Registerkarte Navigieren, wählen Sie die Option **WIP** und dann **WIP-Fibuposten** aus. In den WIP-Posten ist das Kontrollkästchen **Storniert** aktiviert.  
 12. Schliessen Sie diese Seite.  
-13. Öffnen Sie **Projektaufgabenzeilen** für das Projekt, schliessen Sie die in die WIP-Berechnung einzubeziehenden Teile des Projekts ein, und berechnen und buchen Sie dann den neuen Wert auf das Sachkonto.  
+13. Öffnen Sie **Projektaufgabenzeilen** für das Projekt, schliessen Sie die in die WIP-Berechnung einzubeziehenden Teile des Projekts ein, und berechnen und buchen Sie dann den neuen Wert auf den Fibuposten.  
 
     > [!NOTE]  
-    >  Gesetzt den Fall, Katrin hat WIP für ein Projekt mit falschen Datumsangaben berechnet und gebucht. Nach der zuvor erläuterten Methode kann sie die falschen Buchungen stornieren, die Datumsangaben korrigieren und erneut auf das Sachkonto buchen.  
+    >  Gesetzt den Fall, Katrin hat WIP für ein Projekt mit falschen Datumsangaben berechnet und gebucht. Nach der zuvor erläuterten Methode kann sie die falschen Buchungen stornieren, die Datumsangaben korrigieren und erneut auf den Fibuposten buchen.  
 
 ## <a name="next-steps"></a>Nächste Schritte  
- In dieser exemplarischen Vorgehensweise wurden die Schritte zum Berechnen der unfertigen Arbeit (WIP) in [!INCLUDE[d365fin](includes/d365fin_md.md)] erläutert. Bei grösseren Projekten kann es hilfreich sein, die Kosten periodisch in ein Konto für unfertige Arbeit zu übertragen, während das Projekt fertig gestellt wird. In dieser exemplarischen Vorgehensweise wurde gezeigt, wie Sie Aufgabenzeilen von einer Berechnung ausschliessen. Zudem wurden Fälle vorgestellt, in denen eine Neuberechnung erforderlich ist. Die und zum Schluss, zeigt dieser exemplarischen Vorgehensweise, wie die WIP auf das Sachkonto gebucht wird. Ein Beispiel zum Stornieren einer WIP-Buchung in der Finanzbuchhaltung wurde ebenfalls berücksichtigt.  
+ In dieser exemplarischen Vorgehensweise wurden die Schritte zum Berechnen der unfertigen Arbeit (WIP) in [!INCLUDE[d365fin](includes/d365fin_md.md)] erläutert. Bei grösseren Projekten kann es hilfreich sein, die Kosten periodisch in ein Konto für unfertige Arbeit zu übertragen, während das Projekt fertig gestellt wird. In dieser exemplarischen Vorgehensweise wurde gezeigt, wie Sie Aufgabenzeilen von einer Berechnung ausschliessen. Zudem wurden Fälle vorgestellt, in denen eine Neuberechnung erforderlich ist. Die und zum Schluss, zeigt dieser exemplarischen Vorgehensweise, wie die WIP auf den Fibuposten gebucht wird. Ein Beispiel zum Stornieren einer WIP-Buchung in der Finanzbuchhaltung wurde ebenfalls berücksichtigt.  
 
 ## <a name="see-also"></a>Siehe auch  
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  

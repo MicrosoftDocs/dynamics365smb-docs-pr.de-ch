@@ -1,8 +1,6 @@
 ---
 title: Designdetails - Bestandbewertung | Microsoft Docs
 description: Die Lagerbewertung ist die Identifizierung der Kosten, die einem Lagerartikel zugewiesen sind, wie durch folgende Formel dargestellt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f83c00da396b87eb90f7c03f8c673fb3cd2d1aaf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a734d4b270fcce9959bd720f923fc1fd990559ff
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307074"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880294"
 ---
 # <a name="design-details-inventory-valuation"></a>Designdetails: Bestandsbewertung
 Die Lagerbewertung ist die Identifizierung der Kosten, die einem Lagerartikel zugewiesen sind, wie durch folgende Formel dargestellt.  
@@ -34,7 +32,7 @@ Um den Lagerwert im Bericht **Lagerwert berechnen** zu berechnen, beginnt der Be
 Der gedruckte Bericht zeigt immer tatsächliche (fakturierte) Beträge an, d. h. Einstandspreise von Posten, die als fakturiert gebucht wurden. Der Bericht enthält darüber hinaus die Soll-Kosten von Posten, die als geliefert gebucht wurden, wenn Sie auf dem Inforegister Optionen das Feld Inklusive Soll-Kosten durch ein Häkchen aktivieren.  
 
 > [!IMPORTANT]  
->  Werte im Bericht **Lagerwert berechnen** wird mit dem Lagerkonto im Sachkonto abgestimmt, was bedeutet, dass die betreffenden Wertposten in der Finanzbuchhaltung gebucht wurden.  
+>  Werte im Bericht **Lagerwert berechnen** wird mit dem Lagerkonto im Fibukonto abgestimmt, was bedeutet, dass die betreffenden Wertposten in der Finanzbuchhaltung gebucht wurden.  
 
 > [!IMPORTANT]  
 >  Beträge in den **Wert**-Spalten des Berichts basieren auf dem Buchungsdatum der Transaktionen für einen Artikel.  

@@ -1,8 +1,6 @@
 ---
 title: Designdetails - Abwicklung on Wiederbeschaffungsrichtlinien | Microsoft Docs
 description: Übersicht über Aufgaben für das Definieren einer Wiederbestellungsrichtlinie in die Beschaffungsplanung.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53d9d0ff2d9d1f42bb7f9c05ed49aa4df20f2a92
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0708a78be4dbd70d8555b8c088fedd88d3fb5459
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307170"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880486"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Designdetails: Umgang mit Wiederbeschaffungsverfahren
 Damit ein Artikel an der Beschaffungsplanung teilnehmen kann, muss eine Wiederbeschaffungsrichtlinie festgelegt werden. Die folgenden vier Wiederbeschaffungsrichtlinien sind verfügbar:  
@@ -69,7 +67,7 @@ Die folgende Sequenz beschreibt, wie der voraussichtliche Lagerbestand bestimmt 
 
 Nachfolgend wird eine graphische Illustration dieses Prinzips gezeigt:  
 
-![Die voraussichtliche Lagerstatusebene bestimmen](media/nav_app_supply_planning_2_projected_inventory.png "Die voraussichtliche Lagerstatusebene bestimmen")  
+![Bestimmen des voraussichtlichen Lagerbestands](media/nav_app_supply_planning_2_projected_inventory.png "Bestimmen des voraussichtlichen Lagerbestands")  
 
 1. Vorrat **Sa** von 4 (fest) schliesst Bedarf **Da** von -3.  
 2. CloseDemand: Erstellen Sie eine Minderungserinnerung von -3 (nicht angezeigt).  
@@ -96,7 +94,7 @@ Für Wiederbeschaffungsverfahren, die einen Minimalbestand verwenden, können Si
 
 Der Zeitrahmenkonzept spiegelt den manuellen Vorgang des Überprüfens des Lagerbestands auf häufiger Basis anstatt für jede Transaktion. Die Anwender muss die Häufigkeit (den Zeitrahmen) festlegen. Beispielsweise erfasst der Benutzer alle Artikelanforderungen von einem Kreditor, um einen wöchentlichen Auftrag zu platzieren.  
 
-![Beispiel des Zeitrahmens in der Planung](media/nav_app_supply_planning_2_reorder_cycle.png "Beispiel des Zeitrahmens in der Planung")  
+![Beispiel eines Zeitrahmens in der Planung](media/nav_app_supply_planning_2_reorder_cycle.png "Beispiel eines Zeitrahmens in der Planung")  
 
 Das Zeitrahmen wird im Allgemeinen verwendet, um einen Kaskadeneffekt zu vermeiden. Zum Beispiel eine eine ausgeglichene Zeile von Bedarf und Vorrat, bei der ein frühzeitiger Bedarf storniert oder ein neuer Bedarf erstellt wird. Das Ergebnis würde sein, dass jeder Beschaffungsauftrag (mit Ausnahme des letzten) umgeplant würde.
 
@@ -105,7 +103,7 @@ Wenn die Funktionen Auffüllen auf Maximalbestand Feste Bestellmenge verwendet w
 
 *Achtung: Der voraussichtliche Lagerbestand [xx] ist höher als das Überlauflevel [xx] am Fälligkeitsdatum [xx].*  
 
-![Lagerüberlaufmenge](media/supplyplanning_2_overflow1_new.png "Lagerüberlaufmenge")  
+![Lagerbestand-Überlaufmenge](media/supplyplanning_2_overflow1_new.png "Lagerbestand-Überlaufmenge")  
 
 ###  <a name="calculating-the-overflow-level"></a>Berechnung des Überlauflevels  
 Das Überlauflevel wird auf verschiedene Arten abhängig vom Planungssetup berechnet.  
@@ -181,7 +179,7 @@ In diesem Szenario ändert ein Debitor einen Verkaufsauftrag von 70 zu 40 Stück
 #### <a name="resulting-planning-lines"></a>Planzeilen erstellen  
  Eine Planungszeile (Warnen) wird erstellt, um den Einkauf mit 30 von 90 auf 60 zu verringern, um den voraussichtlichen Lagerstatus auf 100 entsprechend dem Überlauflevel festzuhalten.  
 
-![Planung entsprechender Überlaufmenge](media/nav_app_supply_planning_2_overflow2.png "Planung entsprechender Überlaufmenge")  
+![Plan gemäss Überlaufmenge](media/nav_app_supply_planning_2_overflow2.png "Plan gemäss Überlaufmenge")  
 
 > [!NOTE]  
 >  Ohne die Sammelfunktion werden keine Warnmeldungen erstellt, wenn der voraussichtliche Lagerbestand über Maximalbestand ist. Dies kann einen überflüssigen Vorrat von 30 verursachen.
@@ -195,7 +193,7 @@ Der Minimalbestand drückt den voraussichtlichen Bedarf während der Beschaffung
 
  In der folgenden Abbildung zeigt Vorrat D eine Notfallbestellung an, um negativen Bestand auszugleichen.  
 
- ![Notfallplanungsvorschlag, verhindern von negativem Lagerbestand](media/nav_app_supply_planning_2_negative_inventory.png "Notfallplanungsvorschlag, verhindern von negativem Lagerbestand")  
+ ![Notfallplanungsvorschlag zur Vermeidung von negativem Lagerbestand](media/nav_app_supply_planning_2_negative_inventory.png "Notfallplanungsvorschlag zur Vermeidung von negativem Lagerbestand")  
 
 1.  Vorrat **A** anfänglicher voraussichtlicher Lagerbestand, liegt unter Minimalbestand.  
 2.  Ein neuer voraus geplanter Vorrat wurde erstellt (**C**).  

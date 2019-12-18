@@ -1,8 +1,6 @@
 ---
 title: Designdetails - Bestandbuchung | Microsoft Docs
 description: Jede Bestandstransaktion, wie etwa eine Einkaufslieferung oder eine Verkaufslieferung, bucht zwei Posten unterschiedlichen Typs.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71ee3624868f546ec7b45f5177dcc61acc5b7a21
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: dc3e997d0ca29c680cd6a915751a368dd77a5433
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303425"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880318"
 ---
 # <a name="design-details-inventory-posting"></a>Designdetails: Bestandsbuchung
 Jede Bestandstransaktion, wie etwa eine Einkaufslieferung oder eine Verkaufslieferung, bucht zwei Posten unterschiedlichen Typs.  
@@ -31,9 +29,9 @@ Jede Bestandstransaktion, wie etwa eine Einkaufslieferung oder eine Verkaufslief
 
  Lagerposten, Wertposten und Artikelausgleichsposten werden durch eine Artikel Erf.-Journalzeile erstellt, entweder indirekt durch Erfassen einer Auftragszeile oder direkt auf der Seite Fenster Artikel Erf.-Journal.  
 
- In regelmässigen dynamischen Abständen werden Wertposten, die im Bestandsposten erstellt werden, ins Hauptbuch gebucht, um die beiden Bücher aus Finanzkontrollgründen abzugleichen. Weitere Informationen finden Sie unter [Designdetails: Abstimmung mit der Fibu](design-details-reconciliation-with-the-general-ledger.md).  
+ In regelmässigen dynamischen Abständen werden Wertposten, die im Bestandsposten erstellt werden, in die Finanzbuchhaltung gebucht, um die beiden Bücher aus Finanzkontrollgründen abzugleichen. Weitere Informationen finden Sie unter [Designdetails: Abstimmung mit der Fibu](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Postenfluss, wenn Lager mit der Finanzbuchhaltung abgestimmt wird](media/design_details_inventory_costing_1_entry_flow.png "Postenfluss, wenn Lager mit der Finanzbuchhaltung abgestimmt wird")  
+ ![Eintragsfluss beim Abgleich des Lagerbestands mit dem Sachkonto](media/design_details_inventory_costing_1_entry_flow.png "Eintragsfluss beim Abgleich des Lagerbestands mit dem Sachkonto")  
 
 ## <a name="example"></a>Beispiel  
  Im folgenden Beispiel wird veranschaulicht, wie Lagerposten, Wertposten und Artikelausgleichsposten zu Fibuposten führen.  
@@ -93,7 +91,7 @@ Jede Bestandstransaktion, wie etwa eine Einkaufslieferung oder eine Verkaufslief
 |01-01-20|Kosten|10,00|10,00|1|2|  
 |01-15-20|EK-Preis|-80.00|-80.00|2|3|  
 
- **Sachposten**  
+ **Fibuposten**  
 
 |Buchungsdatum|Fibukonto|Kontonr. (En-US-Demo)||Betrag|Laufnr.|  
 |------------------|------------------|---------------------------------|-|------------|---------------|  
@@ -105,7 +103,7 @@ Jede Bestandstransaktion, wie etwa eine Einkaufslieferung oder eine Verkaufslief
 |01-15-20|[COGS-Konto]|7290||80.00|6|  
 
 > [!NOTE]  
->  Das Buchungsdatum der Sachposten ist das gleiche wie für die zugehörigen Wertposten.  
+>  Das Buchungsdatum der Fibuposten ist das gleiche wie für die zugehörigen Wertposten.  
 >   
 >  Das Feld Im S**achbuch gebuchte Kosten** in der Tabelle **Wertposten** wird ausgefüllt.  
 

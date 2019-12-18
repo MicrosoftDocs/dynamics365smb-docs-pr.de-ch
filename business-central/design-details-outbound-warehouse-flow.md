@@ -1,8 +1,6 @@
 ---
 title: 'Designdetails: Ausgehender Lagerfluss | Microsoft Docs'
 description: Der ausgehende Fluss in das Lager beginnt mit einer Anforderung der freigegebenen Herkunftsbelege, die Artikel aus dem Lagerort B zu bringen, entweder, um an eine externe Partei oder an einen anderen Unternehmensstandort geliefert zu werden. Vom Lagerbereich werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel zu den Lieferdocks zu bringen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c5a3ce2049b1686da04842f7c73abb2255369ffa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 973c248473f2f2eebc10e095f619b51e48de7886
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307002"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880126"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetails: Ausgehender Lagerfluss
 Der ausgehende Fluss in das Lager beginnt mit einer Anforderung der freigegebenen Herkunftsbelege, die Artikel aus dem Lagerort B zu bringen, entweder, um an eine externe Partei oder an einen anderen Unternehmensstandort geliefert zu werden. Vom Lagerbereich werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel zu den Lieferdocks zu bringen.  
@@ -54,7 +52,7 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
 ## <a name="basic-warehouse-configurations"></a>Grundlegende Lagerhauskonfigurationen  
  Das folgende Diagramm zeigt die ausgehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
- ![Ausgehender Fluss in der grundlegenden Lagerfunktion](media/design_details_warehouse_management_outbound_basic_flow.png "Ausgehender Fluss in der grundlegenden Lagerfunktion")  
+ ![Ausgehender Fluss bei einfachen Lagerkonfigurationen](media/design_details_warehouse_management_outbound_basic_flow.png "Ausgehender Fluss bei einfachen Lagerkonfigurationen")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Freigeben des Herkunftsbelegs:/Kommissionierung oder Umlagerung erstellen  
  Wenn ein Benutzer, der für Herkunftsbelege zuständig ist, etwa einen Verkaufsauftragsbearbeiter oder ein Produktionsplaner, für die ausgehende Lageraktivität bereit ist, gibt er den Herkunftsbeleg frei, um den Lagermitarbeitern zu signalisieren, dass verkaufte Artikel oder Komponenten kommissioniert und in die angegebenen Lagerplätze eingelagert werden können. Alternativ erstellt der Benutzer im Push-Verfahren Lagerkommissionierungs- oder Umlagerungsbelege für die einzelnen Auftragszeilen, basierend auf angegebenen Lagerplätzen und zu verarbeitenden Mengen.  
@@ -76,7 +74,7 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
 ## <a name="advanced-warehouse-configurations"></a>Erweiterte Lagerhauskonfigurationen  
  Das folgende Diagramm zeigt die ausgehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
- ![Ausgehender Fluss in der erweiterten Lagerfunktion](media/design_details_warehouse_management_outbound_advanced_flow.png "Ausgehender Fluss in der erweiterten Lagerfunktion")  
+ ![Ausgehender Fluss bei erweiterten Lagerkonfigurationen](media/design_details_warehouse_management_outbound_advanced_flow.png "Ausgehender Fluss bei erweiterten Lagerkonfigurationen")  
 
 ### <a name="1-release-source-document"></a>1: Freigeben des Herkunftsbelegs  
  Wenn ein Benutzer, der für Herkunftsbelege verantwortlich ist, etwa ein Verkaufsauftragsbearbeiter oder ein Produktionsplaner, für eine ausgehende Lageraktivität bereit ist, gibt er den Herkunftsbeleg frei, um den Lagermitarbeitern zu signalisieren, das verkaufte Artikel oder Komponenten kommissiooniert und in die angegebenen Lagerplätze eingelagert werden können.  

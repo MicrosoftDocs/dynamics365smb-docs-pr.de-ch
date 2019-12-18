@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Versandagenten | Microsoft Docs'
 description: Sie können einen Code für jeden Spediteur anlegen und Informationen dazu eingeben.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 27b362c9c9aabec842e28e631ca2b93c1515f2fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b1c5b0940998531601f0ab1c604c31328ce2bd66
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311994"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882868"
 ---
 # <a name="set-up-shipping-agents"></a>Zusteller einrichten
 Sie können einen Code für jeden Spediteur anlegen und Informationen dazu eingeben.  
@@ -30,13 +28,13 @@ Für jeden Spediteur können Sie eine unbegrenzte Anzahl von Transportarten anle
 Wenn Sie einer Verkaufsauftragszeile eine Spediteurtransportart zugeordnet haben, wird die Transportzeit für diese Zeile in den Lieferterminzusagen berücksichtigt. Weitere Informationen finden Sie unter [Berechnen von Lieferterminzusagen](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>So richten Sie einen Spediteur ein  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Versandagent** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Zusteller** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Wählen Sie die Aktion **Spediteurtransportarten**.
 4. In **Spediteurtransportarten** füllen Sie die Felder wie notwendig aus.
 
 > [!NOTE]  
->  Wenn Sie den Spediteur in der Auftragszeile löschen, wird auch der Spediteur Transportartcode gelöscht. Der Inhalt der Felder, die zum Teil auf der Zustellertransportart basierten, wird neu berechnet.  
+>  Wenn Sie den Spediteur in der Auftragszeile löschen, wird auch der Spediteur Transportartcode gelöscht. Der Inhalt der Felder, die zum Teil auf der Spediteurtransportart basierten, wird neu berechnet.  
 
 ## <a name="see-also"></a>Siehe auch
 [Liefermethoden einrichten](sales-how-set-up-shipment-methods.md)  

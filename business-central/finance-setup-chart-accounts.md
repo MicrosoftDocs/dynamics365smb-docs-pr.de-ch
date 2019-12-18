@@ -10,18 +10,19 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b31bc4fb174c78092986c14f97232d8498974834
-ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
+ms.openlocfilehash: ee789f35118c054fec8129106db0ad60cc48141c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "2764494"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879479"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Einrichten oder Ändern des Kontenplans
 Der Kontenplan zeigt die Sachkonten an, die Ihre Finanzdaten speichern. [!INCLUDE[d365fin](includes/d365fin_md.md)]umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
 Sie können jedoch die Standardkonten ändern und neue Konten hinzufügen. 
 <br><br>  
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE43KO9]
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9]
 
 
 ## <a name="adding-or-changing-accounts"></a>Konten hinzufügen oder ändern
@@ -34,7 +35,7 @@ Im Kontenplan können Sie jedes Fibukonto öffnen und Einstellungen hinzufügen 
 >   * Das Feld **Löschen v. Fibukonten zul. vor** auf der Seite **Finanzbuchhaltungs-Einrichtung:** muss ausgefüllt sein, und das Konto darf keine Posten an oder nach diesem Datum enthalten.  
 >   * Ist das Feld **Fibukontoverwendung prüfen** auf der Seite **Finanzbuchhaltungs-Einrichtung:** ausgewählt, darf dieses Konto nicht in Buchungsgruppen oder der Buchungsmatrix Einrichtung verwendet werden.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]verhindert, dass Sie ein Fibukonto löschen, in dem Daten gespeichert werden, die im Kontenplan erforderlich sind.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] verhindert, dass Sie ein Fibukonto löschen, in dem Daten gespeichert werden, die im Kontenplan erforderlich sind.  
 
 ## <a name="see-also"></a>Siehe auch
 [Die Fibuposten und der Kontenplan](finance-general-ledger.md)  
