@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: acdac865286577b30f9fe036cca8a50eb7e143a0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 890a6e87ec25293232f089b68e57a577fec6aa56
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879000"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918180"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Tipps und Tricks: RapidStart Services
 Wenn Sie Unternehmen mit RapidStart Services konfigurieren, gibt es einige Tipps und Tricks, die Sie für eine reibungslose Implementierung nutzen können.  
@@ -30,10 +30,10 @@ Um das Ausfüllen eines Konfigurationsfragebogens zu unterstützen, erwägen Sie
 Es wird empfohlen, die Datenmigrationswerkzeuge für die Migration von Blatteinträgen zu verwenden. Bei der Erstellung von Erfassungsjournalzeilen mit der Stapelverarbeitung steht andernfalls nur ein begrenzter Bereich zur Verfügung, und es werden nur Verzugsfelder in einem Erfassungsjournal generiert. Der Rest des Erfassungsjournals muss anschliessend manuell ausgefüllt werden werden.  
 
 ## <a name="migrating-transactions"></a>Migrierung von Transaktionen  
-Es wird empfohlen, Eröffnungssalden in der folgenden Reihenfolge in mehreren Schritten zu migrieren.  
+Es wird empfohlen, Eröffnungssalden in der folgenden Reihenfolge in mehreren Schritten zu migrieren. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines--> 
 
 1.  Migrieren Sie die Eröffnungssalden des Fibukontos, ohne die untergeordneten Konten des Fibukontos zu verwenden. Verwenden Sie bestimmte Ausgleichskonten für Eröffnungssalden, wobei pro untergeordnetes Sachkonto eines eingerichtet werden sollte. Richten Sie für direkte Buchungen Ausgleichskonten ein.  
-2.  Migrieren Sie offene Debitorenposten.  
+2.  Migrieren Sie offene Debitorenposten.  <!--work on these-->
 3.  Migrieren Sie offene Lagerposten.  
 4.  Migrieren Sie offene Anlagenposten.  
 
