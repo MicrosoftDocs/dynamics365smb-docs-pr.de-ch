@@ -1,39 +1,39 @@
 ---
-title: Intelligente Cloud-Erweiterung von Business Central | Microsoft Docs
-description: Verwenden Sie die Datenreplikationserweiterung, um eine Cloud-Kopie Ihrer Daten zu erstellen, sodass Sie mit der intelligenten Cloud verbunden sind.
-author: edupont04
-manager: edupont
+title: Business Central Intelligente Cloud-Erweiterungen für Cloudmigration | Microsoft-Dokumentation
+description: Verwenden Sie die Cloudmigrationserweiterungen, um Ihre lokalen Daten zu Business Central online zu migrieren. Diese Erweiterungen verschieben Ihre lokalen Daten in die Cloud, sodass Sie Business Central online mit Ihren vorhandenen Daten verwenden können.
+author: jenolson
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
-ms.author: edupont
-ms.openlocfilehash: 7f218983e4269c1e35bc7713883bea0fa5195d4b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.reviewer: edupont
+ms.date: 01/30/2020
+ms.author: jenolson
+ms.openlocfilehash: 17bcc754612782903ca0a977f6cd3e80e0e1c6b1
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311322"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999609"
 ---
-# <a name="intelligent-cloud-extensions"></a><span data-ttu-id="06b64-103">Intelligente Cloud Erweiterung</span><span class="sxs-lookup"><span data-stu-id="06b64-103">Intelligent Cloud Extensions</span></span>
+# <a name="intelligent-cloud-extensions"></a><span data-ttu-id="6f806-104">Intelligente Cloud Erweiterung</span><span class="sxs-lookup"><span data-stu-id="6f806-104">Intelligent Cloud Extensions</span></span>
 
-<span data-ttu-id="06b64-104">Diese Erweiterung verbindet Ihre Daten von [!INCLUDE [prodshort](includes/prodshort.md)] lokal mit [!INCLUDE [prodshort](includes/prodshort.md)] online für intelligente Einblicke.</span><span class="sxs-lookup"><span data-stu-id="06b64-104">This extension will connect your data from [!INCLUDE [prodshort](includes/prodshort.md)] on-premises with [!INCLUDE [prodshort](includes/prodshort.md)] online for intelligent insights.</span></span>  
+<span data-ttu-id="6f806-105">Diese Erweiterung verbindet Ihre Daten von [!INCLUDE [prodshort](includes/prodshort.md)] on-premises mit [!INCLUDE [prodshort](includes/prodshort.md)] online, um Ihre Lösung in die Cloud zu migrieren.</span><span class="sxs-lookup"><span data-stu-id="6f806-105">This extension will connect your data from [!INCLUDE [prodshort](includes/prodshort.md)] on-premises with [!INCLUDE [prodshort](includes/prodshort.md)] online for purposes of migrating your solution to the cloud.</span></span>  
 
-<span data-ttu-id="06b64-105">Wenn Sie eines der unterstützten lokalen Produkte verwenden, können Sie Ihre intelligente Cloud-Umgebung auf Basis einer produktspezifische Erweiterung konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="06b64-105">If you are using one of the supported on-premises products, you can configure your intelligent cloud environment based on a product-specific extension.</span></span><span data-ttu-id="06b64-106">Sobald die intelligente Cloud-Umgebung konfiguriert ist, haben Sie die Möglichkeit, Daten von Ihrer lokalen Lösung zu Ihrem [!INCLUDE[prodshort](includes/prodshort.md)]-Cloud-Tenant zu replizieren.</span><span class="sxs-lookup"><span data-stu-id="06b64-106"> Once your intelligent cloud environment is configured, you will be able to replicate data from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant.</span></span> <span data-ttu-id="06b64-107">Dadurch können Sie die Möglichkeiten, die die Cloud Ihrem Unternehmen zu bieten hat, in vollen Umfang nutzen, z. B. , erhöhte Einblicke in Ihr Unternehmen, künstliche Intelligenz mehrfacher Gerätzugriff und Zugriff überall und jederzeit.</span><span class="sxs-lookup"><span data-stu-id="06b64-107">This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.</span></span>  
+<span data-ttu-id="6f806-106">Wenn Sie eines der unterstützten lokalen Produkte verwenden, können Sie Ihre Cloudumgebung auf Basis einer produktspezifische Erweiterung konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="6f806-106">If you are using one of the supported on-premises products, you can configure your cloud environment based on a product-specific extension.</span></span><span data-ttu-id="6f806-107"> Sobald Ihre Cloudumgebung konfiguriert ist, haben Sie die Möglichkeit, Daten von Ihrer lokalen Lösung nach [!INCLUDE[prodshort](includes/prodshort.md)] zu migrieren.</span><span class="sxs-lookup"><span data-stu-id="6f806-107"> Once your cloud environment is configured, you will be able to migrate data from your on-premises solution to [!INCLUDE[prodshort](includes/prodshort.md)].</span></span> <span data-ttu-id="6f806-108">Dadurch können Sie die Möglichkeiten, die die Cloud Ihrem Unternehmen zu bieten hat, in vollen Umfang nutzen, z. B. , erhöhte Einblicke in Ihr Unternehmen, künstliche Intelligenz mehrfacher Gerätzugriff und Zugriff überall und jederzeit.</span><span class="sxs-lookup"><span data-stu-id="6f806-108">This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.</span></span>  
 
-## <a name="business-central-on-premises"></a><span data-ttu-id="06b64-108">Lokales Business Central</span><span class="sxs-lookup"><span data-stu-id="06b64-108">Business Central on-premises</span></span>
-<span data-ttu-id="06b64-109">Wenn Sie eine lokale Bereitstellung von [!INCLUDE[prodshort](includes/prodshort.md)] verwenden, holen Sie sich die **Intelligente Cloud Base**-Erweiterung und die **Intelligente Cloud-Erweiterung von Business Central**, und führen Sie dann die unterstütze Einrichtung für das **Setup der intelligenten Cloud** durch.</span><span class="sxs-lookup"><span data-stu-id="06b64-109">If you are using an on-premises deployment of [!INCLUDE[prodshort](includes/prodshort.md)], get the **Intelligent Cloud Base** extension and the **Business Central Intelligent Cloud** extension, and then run the **Intelligent Cloud Setup** assisted setup guide.</span></span>  
+## <a name="business-central-on-premises"></a><span data-ttu-id="6f806-109">Lokales Business Central</span><span class="sxs-lookup"><span data-stu-id="6f806-109">Business Central on-premises</span></span>
+<span data-ttu-id="6f806-110">Wenn Sie eine lokale Bereitstellung von [!INCLUDE[prodshort](includes/prodshort.md)] verwenden, rufen Sie die Erweiterung **Intelligente Cloud Basis** und die Erweiterung **Business Central intelligente Cloud** ab, und führen Sie dann den Anleitung für die unterstützte Einrichtung von **Cloudmigrationseinrichtung** durch.</span><span class="sxs-lookup"><span data-stu-id="6f806-110">If you are using an on-premises deployment of [!INCLUDE[prodshort](includes/prodshort.md)], get the **Intelligent Cloud Base** extension and the **Business Central Intelligent Cloud** extension, and then run the **Cloud Migration Setup** assisted setup guide.</span></span>  
 
-## <a name="dynamics-gp"></a><span data-ttu-id="06b64-110">Dynamics GP</span><span class="sxs-lookup"><span data-stu-id="06b64-110">Dynamics GP</span></span>
-<span data-ttu-id="06b64-111">Wenn Sie Dynamics GP verwenden, holen Sie sich die **Intelligente Cloud Base-Erweiterung**, die **Dynamics GP Datenmigration**-Erweiterung und die **intelligente Dynamics GP-Cloud**-Erweiterung, und führen Sie dann die unterstützte Einrichtung für das **Setup der intelligenten Cloud** aus.</span><span class="sxs-lookup"><span data-stu-id="06b64-111">If you are using Dynamics GP, get the **Intelligent Cloud Base Extension** extension, the **Dynamics GP Data Migration** extension, and the **Dynamics GP Intelligent Cloud** extension, and then run the **Intelligent Cloud Setup** assisted setup guide.</span></span>  
+## <a name="dynamics-gp"></a><span data-ttu-id="6f806-111">Dynamics GP</span><span class="sxs-lookup"><span data-stu-id="6f806-111">Dynamics GP</span></span>
+<span data-ttu-id="6f806-112">Wenn Sie Dynamics GP verwenden, holen Sie sich die Erweiterung **Intelligente Cloud Basis-Erweiterung** und die Erweiterung **Dynamics GP Intelligente Cloud**, und führen Sie dann die Anleitung für die unterstützte Einrichtung der **Cloudmigrationseinrichtung** aus.</span><span class="sxs-lookup"><span data-stu-id="6f806-112">If you are using Dynamics GP,  get the **Intelligent Cloud Base Extension** extension and the **Dynamics GP Intelligent Cloud** extension, and then run the **Cloud Migration Setup** assisted setup guide.</span></span>  
 
-## <a name="dynamics-nav"></a><span data-ttu-id="06b64-112">Dynamics NAV</span><span class="sxs-lookup"><span data-stu-id="06b64-112">Dynamics NAV</span></span>
-<span data-ttu-id="06b64-113">Wenn Sie eine lokale Bereitstellung von Dynamics NAV verwenden, holen Sie sich die **Intelligente Cloud Base-Erweiterung** und die **intelligente Dynamics NAV Cloud**-Erweiterung, und führen Sie die unterstützte Einrichtung für das **Setup der intelligenten Cloud** durch.</span><span class="sxs-lookup"><span data-stu-id="06b64-113">If you are using Dynamics NAV, get the **Intelligent Cloud Base Extension** extension and the **Dynamics NAV Intelligent Cloud** extension, and then run the **Intelligent Cloud Setup** assisted setup guide.</span></span>  
+## <a name="dynamics-sl"></a><span data-ttu-id="6f806-113">Dynamics SL</span><span class="sxs-lookup"><span data-stu-id="6f806-113">Dynamics SL</span></span>
+<span data-ttu-id="6f806-114">Wenn Sie Dynamics SL verwenden, holen Sie sich die Erweiterung **Intelligente Cloud Basis-Erweiterung**, die Erweiterung **Microsoft Dynamics SL Intelligent Cloud** und die Erweiterung **Microsoft Dynamics SL-Verlauf-SmartLists**, und führen Sie dann die Anleitung für die unterstützte Einrichtung der **Cloudmigrationseinrichtung** aus.</span><span class="sxs-lookup"><span data-stu-id="6f806-114">If you are using Dynamics SL, get the **Intelligent Cloud Base Extension** extension, the **Microsoft Dynamics SL Intelligent Cloud** extension and the **Microsoft Dynamics SL History Smartlists** extension, and then run the **Cloud Migration Setup** assisted setup guide.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="06b64-114">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="06b64-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6f806-115">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="6f806-115">See Also</span></span>
 
-[<span data-ttu-id="06b64-115">Intelligente Einblicke</span><span class="sxs-lookup"><span data-stu-id="06b64-115">Intelligent Insights</span></span>](about-intelligent-cloud.md)  
-[<span data-ttu-id="06b64-116">Intelligente Cloud Base-Erweiterung</span><span class="sxs-lookup"><span data-stu-id="06b64-116">Intelligent Cloud Base Extension</span></span>](ui-extensions-intelligent-cloud.md)  
+[<span data-ttu-id="6f806-116">Intelligente Einblicke</span><span class="sxs-lookup"><span data-stu-id="6f806-116">Intelligent Insights</span></span>](about-intelligent-cloud.md)  
+[<span data-ttu-id="6f806-117">Intelligente Cloud Base-Erweiterung</span><span class="sxs-lookup"><span data-stu-id="6f806-117">Intelligent Cloud Base Extension</span></span>](ui-extensions-intelligent-cloud.md)  
