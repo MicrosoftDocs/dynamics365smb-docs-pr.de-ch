@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: dc88bfaac0fe65bfa5e5053529c5724b76787cac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92e2ad3723e2cb2b3b24f179d39462a98e9cc106
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308818"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076601"
 ---
 # <a name="process-sales-opportunities"></a>Verarbeiten von Verkaufschancen
 Nachdem Sie eine Verkaufschance erstellen haben, gibt es einige Funktionen für die Verwaltung der Verkaufschance und deren Abschluss.
@@ -27,9 +27,9 @@ Vorhandene Verkaufsverkaufschancen sind auf der Seite **Verkaufschancenliste** v
 
 | Verkaufschancen anzeigen für | Dann |
 | --- | --- |
-| Alle Verkäufer und Kontakte |Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkaufschancenliste** ein, und wählen dann den zugehörigen Link aus. |
-| Ein bestimmter Verkäufer |Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkäufer** ein, und wählen dann den zugehörigen Link aus. Wählen Sie den Verkäufer, wählen sie die Aktion **Verkaufschancen** und dann die Aktion **Liste**. |
-| Ein bestimmter Kontakt |Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontakte** ein, und wählen dann den zugehörigen Link aus. Wählen Sie den Kontakt aus der Liste, und wählen sie die Aktion **Verkaufschancen**. |
+| Alle Verkäufer und Kontakte |Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Verkaufschancenliste** ein, und wählen Sie dann den entsprechenden Link aus. |
+| Ein bestimmter Verkäufer |Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkäufer** ein und wählen Sie dann den entsprechenden Link. Wählen Sie den Verkäufer, wählen sie die Aktion **Verkaufschancen** und dann die Aktion **Liste**. |
+| Ein bestimmter Kontakt |Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Kontakte** ein und wählen Sie dann den entsprechenden Link. Wählen Sie den Kontakt aus der Liste, und wählen sie die Aktion **Verkaufschancen**. |
 
 Jede dieser Aufgaben öffnet die Seite **Verkaufschancenliste**.
 
@@ -50,7 +50,7 @@ Sie können Verkaufsangebote für Kontakte erstellen, die nicht als Debitoren er
 2. Füllen Sie die entsprechenden Felder aus.
 
 ## <a name="to-create-sales-orders-for-opportunities"></a>Verkaufsaufträge für Verkaufschancen erstellen
-Sie können Verkaufsaufträge aus Verkaufsofferten erstellen, die Sie für Ihre Verkaufschancen erfasst haben. Bevor Sie Verkaufsaufträge für Ihre Kontakte erstellen können, müssen Sie den Kontakt als Debitor erstellen. Weitere Informationen finden Sie unter [Debitor, Kreditor oder Bankkonto über einen Kontakt erstellen](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
+Sie können Verkaufsaufträge aus Verkaufsofferten erstellen, die Sie für Ihre Verkaufschancen erfasst haben. Bevor Sie Verkaufsaufträge für Ihre Kontakte erstellen können, müssen Sie den Kontakt als Debitor erstellen. Weitere Informationen finden Sie unter [Kontakte erstellen](marketing-create-contact-companies.md).
 
 1. Suchen Sie auf der Seite **Verkaufschancenliste** die Verkaufschance, für die Sie eine Verkaufsofferte erstellt haben.
 2. Wählen Sie die Aktion **Verkaufsangebot zuweisen** aus. Die Seite **Verkaufsofferte** wird geöffnet. Es enthält die Verkaufsofferte, die der Verkaufschance zugewiesen wurde.
@@ -65,7 +65,7 @@ Um abgeschlossene Verkaufschancen aus der Seite **Verkaufschancenliste** zu lös
 
 Um abgeschlossene Verkaufschancen über die Stapelverarbeitung **Geschlossene Verkaufschancen löschen...** zu löschen verwenden, gehen Sie folgendermassen vor:
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Chancen löschen** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Verkaufschancen löschen** ein, und wählen Sie dann den entsprechenden Link aus.
 2. Im **Verkaufschance**-Abschnitt richten Sie die Filter ein, die die zu löschenden abgeschlossenen Verkaufschancen definieren.
 3. Wählen Sie die Schaltfläche **OK** aus.
 

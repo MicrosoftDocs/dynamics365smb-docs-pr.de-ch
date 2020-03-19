@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f179075a63ee42ba2cb61c3647b116536afd5a65
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878451"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076963"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetails: Reservierung, Auftragstracking und Aktionsmeldungen
 Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden und parallelen Funktionen der Auftragstracking und des Aktionsmessagings.  
@@ -80,7 +80,7 @@ Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden u
 
 -   Ein mehrstufiger Fertigungsauftrag, in dem das Feld **Produktionsart** der betreffenden übergeordneten und untergeordneten Artikel auf **Auftragsfertigung** festgelegt wurde. Das Planungssystem erstellt Reservierungen zwischen dem übergeordneten Fertigungsauftrag und den zugrunde liegenden Fertigungsaufträgen, um sicherzustellen, dass sie zusammen verarbeitet werden. Eine solche Reservierungsbindung überschreibt die Standard-Kostenberechnungs- und -ausgleichsmethode des Artikels.  
 
--   Ein Produktions-, Montage- oder ein Einkaufsauftrag, in dem das Feld **Wiederbeschaffungsverfahren** des betreffenden Artikels auf **Auftrag** festgelegt wurde. Das Planungssystem erstellt Reservierungen zwischen dem Bedarf und dem geplanten Vorrat, um sicherzustellen, dass der bestimmte Vorrat erstellt wird. [Weitere Informationen finden Sie unter Designdetails: Auftrag](design-details-order.md)  
+-   Ein Produktions-, Montage- oder ein Einkaufsauftrag, in dem das Feld **Wiederbeschaffungsverfahren** des betreffenden Artikels auf **Auftrag** festgelegt wurde. Das Planungssystem erstellt Reservierungen zwischen dem Bedarf und dem geplanten Vorrat, um sicherzustellen, dass der bestimmte Vorrat erstellt wird. Weitere Informationen finden Sie unter [Auftrag](design-details-handling-reordering-policies.md#order).  
 
 -   Ein Fertigungsauftrag, der aus einem Verkaufsauftrag mit der Funktion **Verkaufsauftragsplanung** erstellt wird, wird mit dem Verkaufsauftrag mit einer automatischen Reservierung verknüpft.  
 

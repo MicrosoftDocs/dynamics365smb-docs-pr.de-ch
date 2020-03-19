@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 97d299372bc140c29138d6b83c34ec18254c4fcd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e128e5a4f08364ccea9ae0aa4e284943688404c4
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882244"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076452"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Bewährte Einrichtungsmethoden: Wiederbeschaffungsverfahren
 Das Feld **Nachbestellungs-Richtlinie** auf Artikelkarten umfasst vier verschiedene Planungsmethoden, die bestimmen, wie die einzelnen Planungsparameter interagieren.  
@@ -43,10 +43,6 @@ Die folgende Tabelle enthält bewährte Methoden für die Auswahl zwischen den v
 
 ## <a name="see-also"></a>Siehe auch  
  [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)   
- [Designdetails: Wiederbeschaffungsverfahren](design-details-reordering-policies.md)   
- [Designdetails: Auftrag](design-details-order.md)   
- [Designdetails: Charge für Charge](design-details-lot-for-lot.md)   
- [Designdetails: Feste Nachbestellmenge](design-details-fixed-reorder-qty.md)   
- [Designdetails: Höchstmenge](design-details-maximum-qty.md)   
+ [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
  [Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
