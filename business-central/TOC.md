@@ -28,7 +28,7 @@
 
 # Arbeiten mit Business Central
 ## [Matrix](ui-work-product.md)
-## [Druckfreundlicher Spickzettel](ui-work-product.md)
+## [Druckfreundlicher Spickzettel](ui-work-product.md#cheatsheet)
 ## [Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md)
 ## [Suche nach Seiten mit dem Rollen-Explorer](ui-role-explorer.md)
 ## [Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“](ui-search-faq.md)
@@ -43,6 +43,7 @@
 ## [Verwalten von Anhängen, Links und Notizen zu Karten und Belegen](ui-how-add-link-to-record.md)
 ## [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)
 ## [Verwalten von Benachrichtigungen](ui-smart-notifications.md)
+## [Performance-Tipps für Geschäftsanwender](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Business Central personalisieren
 ### [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)
 ### [Warum ist die Seite vom Personalisieren gesperrt?](ui-personalization-locked.md)
@@ -51,7 +52,7 @@
 ### [Anzeigen von Listen in verschiedenen Ansichten](across-display-lists-different-views.md)
 ## Drucken von Berichten und Ausführen von Stapelverarbeitungen und XMLports
 ### [Arbeiten mit Berichten, Stapelverarbeitungen und XMLports](ui-work-report.md)
-### [Angeben der Druckerauswahl für Berichte](ui-specify-printer-selection-reports.md)
+### [Drucker einrichten](ui-specify-printer-selection-reports.md)
 ### [Planen der Ausführung eines Berichts](ui-work-report.md#ScheduleReport)
 ### [Gespeicherte Einstellungen für Berichte und Stapelaufträge verwalten](reports-saving-reusing-settings.md)
 ### [Anzeigen von Testberichten vor dem Buchen](ui-how-view-test-reports-posting.md)
@@ -78,7 +79,7 @@
 ### [Buchungsgruppen einrichten](finance-posting-groups.md)
 ### [Bereiten Sie Finanzberichte mit Kontenschema und Kontengruppen vor](bi-how-work-account-schedule.md)
 ### [Arbeiten mit Zahlungstoleranzen und Skontotoleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)
-### [Ein neues Geschäftsjahres eröffnen](finance-how-open-new-fiscal-year.md)
+### [Arbeiten mit Buchhaltungsperioden und Geschäftsjahren](finance-accounting-periods-and-fiscal-years.md)
 ### [Mehrwertsteuer (MWST) einrichten](finance-setup-vat.md)
 ### [Einrichten unrealisierter MWST. für Einnahmen- und Ausgabenrechnung](finance-setup-unrealized-vat.md)
 ### [Anwendung von Kreditorenposten in unterschiedlichen Währungen aktivieren](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -228,7 +229,7 @@
 ## Verwenden von Power Automate mit Business Central
 ### [Business Central  in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md)
 ## Verwenden von Power Apps mit Business Central
-### [Verknüpfung mit Business Central daten, um eine Geschäfts-App mithilfe von Power Apps](across-how-use-financials-data-source-powerapps.md) zu erstellen
+### [Verknüpfung mit Business Central daten, um eine Geschäfts-App mithilfe von Power Apps zu erstellen](across-how-use-financials-data-source-powerapps.md)
 ## [Von QuickBooks-App zu Business Central wechseln](across-quickbooks-to-business-edition.md)
 ## [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)
 ## [Massenrechnungsstellung für Microsoft Bookings](finance-bookings.md)
@@ -322,6 +323,7 @@
 ## [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md)
 ## [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)
 ## [Profile verwalten](admin-users-profiles-roles.md)
+## [Drucker einrichten](ui-specify-printer-selection-reports.md)
 ## [Datensensitivität klassieren](admin-classifying-data-sensitivity.md)
 ## [Antworten auf Anforderungen zu Personendaten](admin-responding-to-requests-about-personal-data.md)
 ## [Neue Unternehmen anlegen](about-new-company.md)
@@ -367,13 +369,17 @@
 #### [Business Central-Erweiterungen von anderen Anbietern](ui-extensions-other.md)
 ## Integration mit Dynamics 365 Sales
 ### [Matrix](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Einrichten des Benutzerkontos für die Integration in Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Dynamics 365 Sales Verbindung einrichten](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synchronisieren von Business Central und Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+## Integrieren in Common Data Service
+### [Matrix](admin-common-data-service.md)
+### [Dateneigentumsmodelle](admin-cds-company-concept.md)
+### [Einrichten des Benutzerkontos für die Integration in Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
+### [Verbindung zu Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synchronisieren von Business Central und Common Data Service](admin-synchronizing-business-central-and-sales.md)
 ### [Zu synchronisierende Tabellen und Felder zuordnen](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Synchronisieren Sie Tabellenzuordnungen manuell](admin-manual-synchronization-of-table-mappings.md)
 ### [Planen einer Synchronisierung](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Fehlerbehebung bei Synchronisationsfehlern](admin-troubleshoot-sales-synchronization.md)
+<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Finanzen
 ## [Matrix](finance.md)
@@ -511,10 +517,11 @@
 ## [Analysieren von Daten nach Dimensionen](bi-how-analyze-data-dimension.md)
 ## [Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)
 ## [Berichte mit XBRL erstellen](bi-create-reports-with-xbrl.md)
+## [Absicht auf Datenbankzugriff verwalten](admin-data-access-intent.md)
 
 # Verkauf
 ## [Matrix](sales-manage-sales.md)
-## [Neue Debitoren registrieren](sales-how-register-new-customers.md)
+## [Registriert einen neuen Debitor.](sales-how-register-new-customers.md)
 ## [Verkaufsofferten machen](sales-how-make-offers.md)
 ## [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)
 ## [Produkte verkaufen](sales-how-sell-products.md)
@@ -799,7 +806,7 @@
 ### [Designdetails: Codeunit 12 Änderungen: Änderungen in Fibu Erf.-Journal-Beitrags-Verfahren](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 ## Designdetails: Dimensionssatzposten
 ### [Matrix](design-details-dimension-set-entries.md)
-### [Designdetails: Dimensionssatzposten-Übersicht](design-details-dimension-set-entries-overview.md).  
+### [Designdetails: Dimensionssatzposten-Übersicht](design-details-dimension-set-entries-overview.md)  
 ### [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)  
 ### [Designdetails: Tabellenstruktur](design-details-table-structure.md)  
 
@@ -868,7 +875,7 @@
 #### [Einrichten belgischer Zollpositionen](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 #### [Belgische Intrastat-Berichte](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
 #### [Einrichten von Intrastat-Einrichtungspositionen](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)    
-#### [Intrastat-Formularerklärung drucken](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md).
+#### [Intrastat-Formularerklärung drucken](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 #### [Meldungsarten einrichten](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 #### [Exportieren von Intrastat-Drittanbieter-Deklarationen](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 ### Banking und Zahlungen
@@ -1390,7 +1397,7 @@
 #### [Schweizer Salestax](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [Mehrwertsteuersätze der Schweiz](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Banking und Zahlungen
-#### QR-Code auf schweizer Zahlungsbelegen
+#### QR-Rechnungsverwaltung (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Eine LSV-Sammlung schliessen](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Zahlungen mit LSV exportieren](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Importieren von ESR-Zahlungen](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)
