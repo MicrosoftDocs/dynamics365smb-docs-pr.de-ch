@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 99da82d54a2e769c2ebbaf7d4c103791119517d9
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 30fc4c4cc4e29a817e8c5fe98782c0f00f1fecfa
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076476"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190217"
 ---
 # <a name="making-payments"></a>Zahlungen vornehmen
 
@@ -33,7 +33,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 
 | Bis | Informationen |
 | --- | --- |
-|Verwenden Sie die Seite **Zahlungsausgangs Erf.-Journal**, das auf dem Fibu Erf.-Journal basiert, um Zahlungen an Kreditoren oder für Mitarbeiter zu buchen.|[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)A|
+|Verwenden Sie die Seite **Zahlungsausgangs Erf.-Journal**, das auf dem Fibu Erf.-Journal basiert, um Zahlungen an Kreditoren oder für Mitarbeiter zu buchen.|[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)|
 |Buchen Sie Zahlungen an Kreditoren oder Mitarbeiter und Erstattungen an Debitoren und wenden Sie optional die Zahlungen für die verwandten unbezahlten Rechnungen/Gutschriften an, um sie als bezahlt abzuschliessen.|[Zahlungsbelege und Erstattungen](payables-how-post-payments-refunds.md)|
 | Verwenden Sie die Funktion auf der Seite **Zahlung Erf.-Journal** um Kriterien, wie Fälligkeitsdatum, Skontoeignung und Ihrer Liquidität vorzuschlagen. |[Zahlungsvorschlag](payables-how-suggest-vendor-payments.md) |
 | Stellen Sie Schecks für Zahlungen entweder als Ausdruck oder als Computer Schecks aus. Annullieren Sie Schecks vor oder nach dem Buchen. |[Zahlung per Scheck machen](payables-how-work-checks.md) |

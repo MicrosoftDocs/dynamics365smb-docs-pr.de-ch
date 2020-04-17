@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 01/17/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: aa8433735f1f09d71e4597485abfd4d48e2292ea
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 4686f509f81ba31e3215687630cc14f0a6e45402
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991966"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181744"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Nur PC-Tastenkombinationskurzübersicht
 
 #### <a name="general"></a>Allgemein
 |||  
 |-|-|
-|Alt+F2<br />ALT+N<br />ALT+SHIFT+N<br />ALT+O<br />ALT+Q<br />ALT+NACH-OBEN-TASTE<br />ALT+NACH-UNTEN-TASTE<br />ALT+T<br />ALT+SHIFT+W<br />Ctrl+Ins<br />CTRL+DEL<br />Ctrl+Shift+F12<br />CTRL+F1<br />Ctrl+Click<br />Shift+F12<br />F5/CTRL+F5<br />TAB/UMSCHALT+TAB<br />|Infoboxbereich anzeigen und ausblenden.<br />Erstellen eines neuen Datensatzes<br />Schliessen Sie einen neu erstellten Datensatz und erstellen Sie einen neuen Datensatz.<br />Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu<br />Öffnen Sie **Mitteilen**<br />Öffnen Sie QuickInfo oder Überprüfungsfehler<br />Dropdown oder Suche öffnen<br />Öffnen der Seite **Meine Einstellungen**.<br />Öffnen Sie die aktuelle Karte oder das Beleg in einem neuen Fenster<br />Fügen Sie eine neue Zeile in einem Beleg hinzu<br />Löschen Sie die Zeile in einem Beleg, Erf.-Journal oder Arbeitsblatt<br />Maximieren Sie den Werbebuchungsteil auf einer Belegseite<br />Hilfe für die Seite öffnen<br />Navigieren Sie beim Personalisieren und Anpassen<br />Öffnen Sie den Rollen-Explorer, eine Funktionsübersicht.<br />Die Seite aktualisieren/neu laden.<br />Fokus auf das nächste/vorherige Element richten|
+|Alt+F2<br />ALT+N<br />ALT+SHIFT+N<br />ALT+O<br />ALT+Q<br />ALT+NACH-OBEN-TASTE<br />ALT+NACH-UNTEN-TASTE<br />ALT+T<br />ALT+SHIFT+W<br />Ctrl+Ins<br />CTRL+DEL<br />Ctrl+Shift+F12<br />CTRL+F1<br />Ctrl+Click<br />Shift+F12<br />F5/CTRL+F5<br />TAB/UMSCHALT+TAB<br />F6/Shift+F6<br />|Infoboxbereich anzeigen und ausblenden.<br />Erstellen eines neuen Datensatzes<br />Schliessen Sie einen neu erstellten Datensatz und erstellen Sie einen neuen Datensatz.<br />Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu<br />Öffnen Sie **Mitteilen**<br />Öffnen Sie QuickInfo oder Überprüfungsfehler<br />Dropdown oder Suche öffnen<br />Öffnen der Seite **Meine Einstellungen**.<br />Öffnen Sie die aktuelle Karte oder das Beleg in einem neuen Fenster<br />Fügen Sie eine neue Zeile in einem Beleg hinzu<br />Löschen Sie die Zeile in einem Beleg, Erf.-Journal oder Arbeitsblatt<br />Maximieren Sie den Werbebuchungsteil auf einer Belegseite<br />Hilfe für die Seite öffnen<br />Navigieren Sie beim Personalisieren und Anpassen<br />Öffnen Sie den Rollen-Explorer, eine Funktionsübersicht.<br />Die Seite aktualisieren/neu laden.<br />Fokus auf das nächste/vorherige Element richten<br />Weiter zum nächsten Inforegister/Teil|
 
 #### <a name="navigate--select-rows"></a>Navigieren und Zeilen auswählen
 |||
@@ -37,7 +37,7 @@ ms.locfileid: "2991966"
 #### <a name="search-filter--sort"></a>Suchen, filtern und sortieren
 |||
 |-|-|
-|F6<br />Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Navigieren zum nächsten Inforegister<br />Sortieren Sie die ausgewählte Spalte in aufsteigender/absteigender Reihenfolge.<br />Suche umschalten<br />Zwischen Filterbereichen umschalten; Fokus auf Feldfilter<br />Zwischen Filterbereichen umschalten; Fokus auf Feldfilter<br />Filtern Sie ausgewählte Zellwerte<br />Filter auf ausgewählten Felder hinzufügen<br />Filter zurücksetzen|
+|Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Sortieren Sie die ausgewählte Spalte in aufsteigender/absteigender Reihenfolge.<br />Suche umschalten<br />Zwischen Filterbereichen umschalten; Fokus auf Feldfilter<br />Zwischen Filterbereichen umschalten; Fokus auf Feldfilter<br />Filtern Sie ausgewählte Zellwerte<br />Filter auf ausgewählten Felder hinzufügen<br />Filter zurücksetzen|
 
 #### <a name="quick-entry"></a>Schnelleingabe
 |||

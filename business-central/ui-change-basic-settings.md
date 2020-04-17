@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f6f62e146f6799cad552e60b399f74636091ea7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953336"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194609"
 ---
 # <a name="change-basic-settings"></a>Ändern von grundlegenden Einstellungen
 
 Au der Seite **Meine Einstellungen** können Sie grundlegende Einstellungen für [!INCLUDE[d365fin](includes/d365fin_md.md)] ansehen und ändern. Änderungen, die Sie durchführen, betreffen nur den Arbeitsbereich, nicht die Arbeitsbereiche anderer Benutzer.  
 
-## <a name="role-center"></a> Rollencenter
+## <a name="role-center"></a><a name="role-center"></a> Rollencenter
 Das Rollencenter erstellt die Homepage, eine Startseite, die für die Anforderungen der Rolle entworfen wurde. Abhängig von der Rolle gibt das Rollencenter Ihnen einen Überblick über das Unternehmen, Ihre Abteilung oder Ihre persönlichen Aufgaben. Es hilft Ihnen auch, zu Ihren Tagewerken zu navigieren und Arbeit zu finden, die Ihnen zugeordnet wird.
 
 -   Oben erlaubt es Ihnen die Navigation, zwischen Debitoren, Kreditoren, Artikeln sowie anderen wichtigen Listen von Informationen zu wechseln. Ebenso können Sie Aufgaben einleiten, wie eine neue Verkaufsrechnung direkt im Rollencenter zu erstellen.
@@ -34,7 +34,7 @@ Das Standardrollencenter ist der **Geschäftsführer**, aber Sie können eine an
 2. Wählen Sie auf der Seite **Meine Einstellungen** im Feld **Rollencenter** das Rollencenter aus, das Sie als den Standard festlegen möchten. Wählen Sie beispielsweise **Buchhalter/in** aus.
 3. Wählen Sie die Schaltfläche **OK** aus.
 
-## <a name="company"></a>Unternehmen
+## <a name="company"></a><a name="company"></a>Unternehmen
 Ein Unternehmen dient als Container für Daten im Project .[!INCLUDE[d365fin](includes/d365fin_md.md)] Es kann mehrere Unternehmen in einer Datenbank geben, aber nur eine kann gleichzeitig ausgewählt werden.
 
 Der Standardmandant wird CRONUS bezeichnet und enthält nur Demodaten enthält. Sie können eine neue Firma mit benutzerdefinierten Daten erstellen. Weitere Informationen finden Sie unter [Neue Mandanten erstellen](about-new-company.md).
@@ -42,7 +42,7 @@ Der Standardmandant wird CRONUS bezeichnet und enthält nur Demodaten enthält. 
 ## <a name="to-change-the-company-name"></a>Um den Firmennamen zu ändern
 Der Firmenname wird immer in der oberen linken Ecke angezeigt und fungiert als Aktion, die Sie auswählen können, um zum Rollencenter zurückzukehren. Diesen Namen können Sie auf der Seite **Firmeninformation** ändern.
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Firmeninformationen** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Zahnrad, um das Einstellungsmenü zu öffnen](media/ui-experience/settings_icon_small.png), und wählen Sie dann die Aktion **Firmeninformationen**.
 2. Geben Sie im Feld **Namen** den neuen Namen des Unternehmens ein.
 3. Verlassen Sie die Seite. Das System startet neu und zeigt die neue Firma in der oberen linken Ecke an.
 
@@ -55,7 +55,7 @@ In der oberen rechten Ecke können Sie ein benutzerdefiniertes Abzeichen hinzuf�
 > [!NOTE]
 > Wenn ein Firmenausweis definiert ist, können Sie den Firmennamen nicht wie beschrieben in [Um Firmennamen zu ändern](ui-change-basic-settings.md#to-change-the-company-name) ändern
 
-## <a name="work-date"></a>Arbeitsdatum
+## <a name="work-date"></a><a name="work-date"></a>Arbeitsdatum
 Das am häufigsten verwendete Arbeitsdatum ist das heutige Datum. Um Aufgaben wie das Abschliessen von Transaktionen für ein Datum auszuführen, das nicht das aktuelle Datum ist, müssen Sie vielleicht vorübergehend das Arbeitsdatum ändern.
 
 > [!TIP]  
@@ -72,19 +72,21 @@ Wann immer das Arbeitsdatum nicht auf das heutige Datum gesetzt ist, erscheinen 
 - Wenn Sie die Erinnerung verwerfen, wird das Arbeitsdatum im Titel der Seite angezeigt.  
 --> Wenn das Arbeitsdatum nicht auf den aktuellen Tag (heute) festgelegt ist, wird das aktuelle Arbeitsdatum auf allen Seiten, auf denen Sie Daten bearbeiten können, in der oberen linken Ecke der Seite angezeigt.
 
-## <a name="region"></a> Region
+## <a name="region"></a><a name="region"></a> Region
 
 Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währungen angezeigt oder formatiert werden.
 
-## <a name="language"></a> Sprache
+## <a name="language"></a><a name="language"></a> Sprache
 Ändert die Anzeigensprache. Dieses Feld erscheint nur, wenn es mehr als einer Sprache, gibt zum Auswählen.
 
 Die ursprüngliche Sprache wird entweder vom Administrator oder durch die Browsereinstellungen bestimmt, wenn Sie sich anmelden bei [!INCLUDE[d365fin](includes/d365fin_md.md)]. Die Sprache, die Sie festlegen, wird in allen Geräten verwendet werden, bei denen Sie sich anmelden wie Telefon oder Tablet.
 
+Zusätzliche Sprachen für [!INCLUDE[prodshort](includes/prodshort.md)] können von AppSource aus installiert werden. Während alle unterstützten Anzeigesprachen in der Liste angezeigt werden, muss der Administrator die entsprechende Sprachapplikation für den Mandanten installieren, bevor die Benutzer auf die neue Sprache in [!INCLUDE[prodshort](includes/prodshort.md)] wechseln können.  
+
 ## <a name="changing-when-i-receive-notifications"></a>Ändern, wann I Benachrichtigungen erhalten.
 Wählen Sie diesen Link, um Benachrichtigungen zu ändern oder anzuzeigen, die Sie zu bestimmten Ereignissen oder Veränderungen im Status erhalten, wie wenn Sie einen Debitoren fakturieren wollen, der einen überfälligen Saldo hat oder der verfügbare Lagerbestand geringer ist als die Menge, die Sie verkaufen wollen. Weitere Informationen finden Sie unter [Benachrichtigungen verwalten](ui-smart-notifications.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 [Neue Unternehmen anlegen](about-new-company.md)  

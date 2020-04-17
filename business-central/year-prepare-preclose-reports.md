@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: dbd14c11d726aae802d5008c681eeb9ffcd55438
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b45fe3d89502e5a4e42bc43cc4679afe1b13699d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314342"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191705"
 ---
 # <a name="using-pre-closing-reports"></a>Vorabschlussberichte verwenden
 Ihnen stehen eine Vielzahl von Standardberichten zur Verfügung, um die Fehlerfreiheit der Konten zu prüfen, bevor die Bücher am Jahres- oder Periodenende abgeschlossen werden. So können Sie sich beispielsweise mithilfe des Berichts **Debitor - Bilanz** vergewissern, dass an einem bestimmten Datum der Saldo einer Debitorenbuchungsgruppe dem Saldo des zugehörigen Fibukontos entspricht.
@@ -35,7 +35,7 @@ Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Proz
 | Drucken eines Bilanzberichts mit Salden und Bewegungen für Fibukonten |Bilanz |
 | Drucken einer Bilanz für einen konsolidierten Mandanten |Konsolidierung Bilanz |
 
-Zur Anzeige eines Berichts wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie den Namen win der Tabelle angezeigt ein, und wählen dann den zugehörigen Link aus.
+Um einen Bericht anzuzeigen, wählen Sie das Symbol ![Leuchtbirne, das das Symbol Tell Me feature](media/ui-search/search_small.png "Tell Me-Funktion") öffnet, geben Sie den Namen so ein, wie er in der Tabelle erscheint, und wählen Sie dann den entsprechenden Link.
 
 ## <a name="see-also"></a>Siehe auch
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  

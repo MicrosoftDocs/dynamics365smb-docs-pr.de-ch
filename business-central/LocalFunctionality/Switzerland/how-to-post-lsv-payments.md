@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5207c328997f68bfc752550ad4138c1a9b5bcf7e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d80b1f5ade4778b71b79dcddfd347587869e16a7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301025"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189108"
 ---
 # <a name="post-lsv-payments"></a>Buchen von LSV+-Zahlungen
 Zahlungen können nach Empfang einer LSV+ (Lastschrift Verfahren)-Zahlungsanzeige von der Bank gebucht werden.  
 
 ## <a name="to-post-lsv-payments"></a>So buchen Sie LSV+-Zahlungen  
 
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Barbeleg-Buchblatt** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") und geben Sie **Zlg.-Eing. Erfassungsjournale** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie das entsprechende Journal aus und wählen Sie dass **Journal bearbeiten** aus.  
 
     > [!NOTE]  

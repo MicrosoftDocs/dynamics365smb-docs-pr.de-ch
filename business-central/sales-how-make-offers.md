@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2ee57d1faf3603229e9ef9017a47c681bd78336c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a8db87b7dd365123a21633e4905d56dd13bf7b40
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316442"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193625"
 ---
 # <a name="make-sales-quotes"></a>Verkaufsofferten machen
 Sie erstellen eine Verkaufsofferte, um Ihre Offerte für den Debitor zu erfassen, um bestimmte Produkte unter speziellen Lieferungs- und Zahlungsbedingungen zu verkaufen. Sie können die Verkaufsofferte an den Debitor senden, um die Offerte mitzuteilen. Sie können den Beleg als PDF-Dateianhang senden. Sie können den E-Mail-Text auch, der mit einer Zusammenfassung der Offerte vorab ausgefüllt wurde. Weitere Informationen finden Sie unter [Senden von Belegen über E-Mail](ui-how-send-documents-email.md).
@@ -26,7 +26,7 @@ Während Sie mit dem Debitor verhandeln, können Sie die Verkaufsofferte ändern
 Sie können die oberen Infoboxen der Verkaufsofferte auf zwei Arten ausfüllen, abhängig davon, ob der Debitor bereits registriert ist oder nicht. Siehe Schritt 2 und 3 im folgenden Verfahren.
 
 ## <a name="to-create-a-sales-quote"></a>So erstellen Sie Verkaufsofferten:
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkaufsofferten** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Offerten** ein und wählen Sie dann den entsprechenden Link.
 2. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein.
 
    Andere Felder auf der Seite **Verkaufsofferte** werden nun mit den Standardinformationen vom ausgewählten Debitor ausgefüllt. Wenn der Debitor noch nicht erfasst wurde, dann führen Sie die folgenden Schritte durch:

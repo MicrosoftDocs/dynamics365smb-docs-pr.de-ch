@@ -9,20 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f65708a0827a0e428c8bd7e0369c26268bb6ed32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4dfb4a530ebcbfd9bcede5e6280fa33360b952a6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316274"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192641"
 ---
 # <a name="track-packages"></a>Pakete verfolgen
 Eine Anzahl von Spediteuren bietet einen Service im Internet, der es Ihnen erlaubt, Pakete zu verfolgen, die Sie ihm übergeben haben. Wenn Sie einen oder mehrere dieser Spediteur verwenden, können Sie bestimmte Basisinformationen hinterlegen und die Funktionalität der automatischen Paketverfolgung von gebuchten Lieferungen aus nutzen. Weitere Informationen finden Sie unter [Versand-Agenten](sales-how-to-set-up-shipping-agents.md).  
 
 ## <a name="to-track-a-package"></a>So verfolgen Sie ein Paket:
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Gebuchte Warenversände** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Verkaufslieferung gebucht** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die relevante Verkaufslieferung.
 3. In der **Pakettrackingnr.** Feld geben Sie die Paketnummer ein, die Sie vom Spediteur erhalten haben.
 4. Wählen Sie die **Paketverfolgung**-Aktion aus.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: dab63f26489e6e99937a6c4cea222abb1c6962ea
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e1c1b86f002d0bcb945701897cc8b832b447fcfa
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301043"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189141"
 ---
 # <a name="close-an-lsv-collection"></a>Schliessen eines LSV-Einzugs
 LSV+ (Lastschrift Verfahren)-Einzüge müssen abgeschlossen werden, um LSV-Dateien zu schreiben, die zum Zahlungseinzug an die Bank gesendet werden können. Wenn Sie einen Einzug abschliessen, ist dieser beendet, und die Buchungen im LSV-Journal werden kombiniert.  
@@ -26,7 +26,7 @@ Wenn der Einzug abgeschlossen ist, wird die aktuelle Einzugsnummer im LSV-Journa
 
 ## <a name="to-close-an-lsv-collection"></a>So schliessen Sie einen LSV-Einzug  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite ober Bericht suchen"), und öffnen Sie **LSV-Journal Liste**. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") und geben **LSV-Journal Liste** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die erforderliche Erf.-Journalzeile aus und wählen Sie die Aktion **Buchungsdatum bearbeiten** aus. Dadurch wird der Wert im Feld **Valutadatum** geändert, indem der während des LSV-Einzugs vorgeschlagene Wert verwendet wird.  
 3.  Geben Sie im Feld **Neues Datum** das neue Datum ein.  
 4.  Wählen Sie die Aktion **Einzug beenden** aus.  
@@ -40,7 +40,7 @@ Wenn der Einzug abgeschlossen ist, wird die aktuelle Einzugsnummer im LSV-Journa
 
 ## <a name="to-reopen-an-lsv-collection"></a>So öffnen Sie einen LSV-Einzug erneut  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite ober Bericht suchen"), und öffnen Sie **LSV-Journal Liste**. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'"), geben Sie **LSV-Journal Liste** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die erforderliche Erf.-Journalzeile, für die Sie die Sammlung erneut öffnen möchten und wählen Sie dann die Aktion **Sammlung erneut öffnen** aus.  
 
     > [!NOTE]  

@@ -1,8 +1,6 @@
 ---
 title: Elektronische Zahlungen (Schweiz)
 description: Schweizer Erweiterungen ermöglichen Ihnen, elektronisch Rechnungen an Debitoren zu senden. Sie können Rechnungen direkt mithilfe der Onlinebankingsoftware des Debitors ausstellen und bezahlen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 859d1a9a6fd654e798fd42aef1e43abe3bd28cf6
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 59eb5996d4b3bb2e89faaf09482beb32dbdf7887
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076774"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189072"
 ---
 # <a name="swiss-electronic-payments"></a>Elektronische Zahlungen (Schweiz)
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)]ermöglicht Ihnen, elektronisch Rechnungen an Debitoren zu senden. Sie können Rechnungen direkt mithilfe der Onlinebankingsoftware des Debitors ausstellen und bezahlen.  
@@ -30,17 +28,18 @@ Elektronische Zahlungen können mithilfe der folgenden Zahlungsformen durchgefü
 - SEPA Kreditübertragungen  
 
 ## <a name="esr"></a>ESR  
-ESR ist ein elektronischer Kreditorendienst, der Zahlungsscheine zum Einziehen von Geld verwendet. Es ist das elektronische Standardzahlungssystem, das von Swiss Post ins Leben gerufen wurde. ESR-Zahlungsscheine können als Rechnungsanlage gedruckt, ESR-Referenznummern berechnet und ESR-Dateien, die Zahlungsinformationen von Banken enthalten, importiert werden. Weitere Informationen erhalten Sie unter [Elektronische Zahlungen mit ESR (Schweiz)](how-to-print-esr-invoices.md). Sie können auch ESR- und ESR+-Zahlungen mithilfe der Version dieser Zahlungsform der Bank machen, die Bank-ESR (BESR) heisst.  
+ESR ist ein elektronischer Kreditorendienst, der Zahlungsscheine zum Einziehen von Geld verwendet. Es ist das elektronische Standardzahlungssystem, das von Swiss Post ins Leben gerufen wurde. ESR-Zahlungsscheine können als Rechnungsanlage gedruckt, ESR-Referenznummern berechnet und ESR-Dateien, die Zahlungsinformationen von Banken enthalten, importiert werden. Weitere Informationen erhalten Sie unter [Elektronische Zahlungen mit ESR (Schweiz)](how-to-print-esr-invoices.md). ESR- und ESR+-Zahlungen können auch mithilfe der Bankversion dieser Zahlungsmethode mit der Bezeichnung Bank-ESR (BESR) durchgeführt werden.  
 
 ## <a name="lsv"></a>LSV+  
 LSV+ ist ein Abbuchungsdienst, der für das Bearbeiten von Zahlungen verwendet wird. Unternehmen können Debitorenzahlungen direkt von der Bank des Debitors mit der Abbuchung freigeben. Debitorenzahlungen per Lastschrift können im LSV+-Bankformat oder im DebitDirect PostFinance-Format angefordert bzw. eingezogen werden. Weitere Informationen erhalten Sie unter [Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md).  
 
 ## <a name="sepa-credit-transfers"></a>SEPA Kreditübertragungen  
-Um Zahlungsvorschläge entsprechend dem SEPA-Standard zu exportieren, müssen Sie ein Bankkonto verwenden. Um sicherzustellen, dass die entsprechenden Fibuposten mit den generierten für lokale Schweizer Zahlungsformen übereinstimmen (siehe oben), muss der Wert im Feld **Bankkonto Buchungsgruppe** auf der Seite **Bankkontokarte** auf das jeweilige Fibukonto weisen. Weitere Informationen zum Exportieren von SEPA-Zahlungen finden Sie unter [SEPA-Lastschrifteinzugsposten erstellen und in eine Bankdatei exportieren](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  
+Um Zahlungsvorschläge entsprechend dem SEPA-Standard zu exportieren, müssen Sie ein Bankkonto verwenden. Um sicherzustellen, dass die entsprechenden Fibuposten mit den generierten für lokale Schweizer Zahlungsformen übereinstimmen (siehe oben), muss der Wert im Feld **Bankkonto Buchungsgruppe** auf der Seite **Bankkontokarte** auf das jeweilige Fibukonto weisen. Weitere Informationen finden Sie unter [SEPA-Lastschrifteinzugsposten erstellen und in eine Bankdatei exportieren](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)  
 
 ## <a name="see-also"></a>Siehe auch  
- [Importieren von Schweizer Bankenclearingnummern](how-to-import-swiss-bank-clearing-numbers.md)   
- [Elektronische Zahlungen mit ESR (Schweiz)](swiss-electronic-payments-using-esr.md)   
- [Drucken von ESR-Rechnungen](how-to-print-esr-invoices.md)   
- [Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md)   
- [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)  ' [Zahlungen vornehmen](../../payables-make-payments.md)
+ [Importieren von Schweizer Bankenclearingnummern](how-to-import-swiss-bank-clearing-numbers.md)  
+ [Elektronische Zahlungen mit ESR (Schweiz)](swiss-electronic-payments-using-esr.md)  
+ [Drucken von ESR-Rechnungen](how-to-print-esr-invoices.md)  
+ [Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md)  
+ [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)  
+ [Zahlungen vornehmen](../../payables-make-payments.md)

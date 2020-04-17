@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 99be988a8e5cdea5392e9f105acade41f19e6da3
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 39e31cad30c1e55c651abd818a52ea8b0a6941cf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910726"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186250"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Den Envestnet Yodlee Bank Feeds Service einrichten
 Sie können elektronische Bankauszüge von Ihrer Bank importieren, um die Seite **Zahlungsabstimmungserf.-Journal** schnell auszufüllen und so Zahlungen zu begleichen und das Bankkonto auszugleichen. Weitere Informationen finden Sie unter [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
