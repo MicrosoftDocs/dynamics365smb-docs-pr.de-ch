@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
-ms.date: 04/01/2020
+ms.date: 05/05/2020
 ms.author: soalex
-ms.openlocfilehash: 6cf85170efe4f2d415adc1b1db83699730a6ea60
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d331be04eefa0f6f3786bb43fed94682b2c11ff1
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196418"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333927"
 ---
 # <a name="qr-bill-management-in-d365fin"></a>QR-Bill Management in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]
 Ab dem 1. Juli 2020 müssen Unternehmen in der Schweiz QR-Rechnungen empfangen können. QR-Rechnungen sind Zahlungsscheine für Rechnungen und eine landesweite Initiative zur Optimierung von Zahlungsprozessen. QR-Rechnungen ersetzen alle vorhandenen Zahlungsscheine und ESR-bezogene Funktionen. Sie enthalten alle erforderlichen Informationen zum Vornehmen von Zahlungen. Ein QR-Code auf dem Zahlungsschein erleichtert das Importieren der Informationen in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Alle relevanten Informationen werden importiert und zum Generieren von Zahlungen für den Kreditor verwendet, der die QR-Rechnung gesendet hat, einschliesslich der Zahlungsreferenz, die automatisch in Kreditorenposten eingefügt und in Zahlungsdateien an die Bank exportiert wird.
@@ -57,8 +57,8 @@ Zum Scannen oder Importieren einer QR-Rechnung müssen Sie einen der folgenden T
 Sie können QR-Rechnungen an mehreren Orten in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] empfangen:
 
 * **Eingehende Belege**, wenn eine QR-Rechnung das Erstellen eines neuen Kaufbelegs oder eines Einkauf Erf.-Journals initiieren soll.
-* **Einkaufsbestellungen und Einkaufsrechnungen**, wenn Sie Informationen aus einer QR-Rechnung in einen vorhandenen Einkaufsbeleg importieren und zur Überprüfung von Betrag und Währung sowie zum Aufbewahren der Zahlungsreferenz verwenden möchten (Diese Funktion ist für das Update von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] im Mai 2020 geplant).
-* **Einkaufserfassungsjournale**, wenn Sie neue Einkaufserfassungsjournalzeilen auf Grundlage von QR-Rechnungen erstellen möchten (Diese Funktion ist für das Update von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] im Mai 2020 geplant). 
+* **Einkaufsbestellungen und Einkaufsrechnungen**, wenn Sie Informationen aus einer QR-Rechnung in einen vorhandenen Einkaufsbeleg importieren und zur Überprüfung von Betrag und Währung sowie zum Aufbewahren der Zahlungsreferenz verwenden möchten.
+* **Einkaufserfassungsjournale**, wenn Sie neue Einkaufserfassungsjournalzeilen auf Grundlage von QR-Rechnungen erstellen möchten. 
 
 ### <a name="to-receive-a-qr-bill-through-an-incoming-documents"></a>So empfangen Sie eine QR-Rechnung über eingehende Belege
 Der Empfang einer QR-Rechnung über eingehende Belege ist insbesondere hilfreich, wenn der Prozess automatisiert ist. Sie können QR-Rechnungen durch eingehende Belege allerdings auch manuell empfangen.
@@ -76,16 +76,14 @@ Im eingehenden Beleg können Sie ein Einkauf Erf.-Journal oder eine Einkaufsrech
 > [!Note]
 > Beim Importieren von QR-Rechnungen versucht [!INCLUDE[d365fin](../../includes/d365fin_md.md)], ein Kreditorenbankkonto mit übereinstimmender IBAN oder QR-IBAN zu finden. Beim Importieren von QR-Rechnungen in eingehenden Belegen und damit verbundenen Erstellen eines Belegs oder Einkauf Erf.-Journals bestimmt das Kreditorenbankkonto den zu verwendenden Kreditor. Der Ansatz mit dem eingehenden Beleg hilft zu gewährleisten, dass der richtige Kreditor zugewiesen ist.
 
-<!--
+### <a name="receiving-a-qr-bill-through-purchase-order-or-purchase-invoice"></a>Empfang einer QR-Rechnung über Einkaufsbestellung oder Einkaufsrechnung
+Beim Empfang einer QR-Rechnung über eine Einkaufsbestellung oder eine Einkaufsrechnung wird der Rechnungsbetrag überprüft und die Zahlungsreferenz zu den Posten hinzugefügt. Sie können eine QR-Rechnung wie eingehende Belege scannen oder in eine vorhandene Einkaufsbestellung oder eine Einkaufsrechnung importieren. Dieser Prozess verwendet die QR-IBAN oder IBAN aus der QR-Rechnung, um den Kreditor mit einer übereinstimmenden Nummer zu finden. Falls keine Übereinstimmung gefunden wird, können Sie die QR-Rechnung nicht scannen oder importieren. Falls das geschieht, können Sie das Kreditorenbankkonto erstellen und dann das Hinzufügen der QR-Rechnung zum Kaufbeleg erlauben. Wenn die QR-Rechnung gescannt oder in den Kaufbeleg importiert wird, werden der Betrag, die Zahlungsreferenz und weitere Informationen aus der QR-Rechnung hinzugefügt. Diese werden zur Überprüfung verwendet, bevor der Kaufbeleg gebucht wird. Die Buchung wird gesperrt, wenn der Betrag der Bestellung oder der Rechnung nicht mit dem Betrag der QR-Rechnung übereinstimmt. Die Überprüfung erfolgt ebenso, wenn Sie die QR-Rechnung scannen oder importieren. Falls die Zahlungsreferenz bereits in einem Kreditorenposten für einen Kreditor verwendet wird, wird ein Fehler angezeigt. Kreditoren können nicht mehrere QR-Rechnungen mit derselben Zahlungsreferenz ausstellen. Entsprechend wird ein Fehler angezeigt, wenn die QR-Rechnung und die Zahlungsreferenz bereits in einen offenen Kaufbeleg importiert wurden. 
 
-### Receiving a QR-Bill through Purchase Order or Purchase Invoice (Planned for May, 2020)
-Receiving a QR-bill through a purchase order or purchase invoice validates the invoice amount and adds the payment reference to the ledgers. Like incoming documents, you can scan or import a QR-bill to an existing purchase order or invoice. This process uses the QR-IBAN or IBAN from the QR-bill to find the vendor with a matching number. If no match is found you cannot scan or import the QR-bill. If that happens, you can create the vendor bank account and then allow the QR-bill to be attached to the purchase document. When the QR-bill is scanned or imported to the purchase document it will add the amount, payment reference, and other information from the QR-bill. This is used for validation before posting the purchase document. Posting will be blocked if the amount of the order or invoice does not match the amount from the QR-bill. Validation also happens when you scan or import the QR-bill. If the payment reference is already used on a vendor ledger entry for a vendor, an error will display. Vendors cannot issue multiple QR-bills with the same payment reference. Similarly, an error will display if the QR-bill and payment reference has already been imported to an open purchase document. 
-
-### Receiving a QR-Bill through a Purchase Journal (Planned for May, 2020)
-You can scan or import QR-bills directly into a **Purchase Journal**. This is useful when you want to create new journal lines based on a QR-bill. Scanning or importing directly into a purchase journal creates a new **Purchase Journal Line** using the vendor and amount from the QR-bill, and tries to identify the vendor by finding a **Vendor Bank Account** that has a matching IBAN or QR-IBAN. For example, using purchase journals is useful if you do not want to use purchase orders or invoices.  -->
+### <a name="receiving-a-qr-bill-through-a-purchase-journal"></a>Empfang einer QR-Rechnung über ein Einkauf Erf.-Journal
+Sie können QR-Rechnungen direkt in ein **Einkauf Erf.-Journal** scannen oder importieren. Dies ist hilfreich, wenn Sie neue Einkauf Erf.-Journale auf Grundlage einer QR-Rechnung erstellen möchten. Durch direktes Scannen oder Importieren in ein Einkauf Erf.-Journal wird eine neue **Einkaufserfassungsjournalzeile** mithilfe des Kreditors und des Betrags aus der QR-Rechnung erstellt. Zudem wird versucht, den Kreditor zu erkennen, indem ein **Kreditor Bankkonto** mit übereinstimmender IBAN oder QR-IBAN gesucht wird. Beispiel: Die Verwendung von Einkaufserfassungsjournalen ist hilfreich, wenn Sie keine Einkaufsbestellungen oder Einkaufsrechnungen verwenden möchten.
 
 ## <a name="reconciliation"></a>Abstimmen
-Beim Importieren von Banktransaktionen (camt) auf der Seite 'Zahlungsabstimmungserfassungsjournal' wird davon ausgegangen, dass die Datei <!--not sure what "assumed to include" means--> die Zahlungsreferenz enthält, die automatisch die entsprechenden **Debitorenposten** findet, die ausgeglichen werden sollen.    
+Beim Importieren von Banktransaktionen (camt) auf der Seite "Zahlungsabstimmungserfassungsjournal" wird angenommen, dass die Datei die Zahlungsreferenz enthält, die automatisch die entsprechenden **Debitorenposten** sucht, die ausgeglichen werden müssen.    
 
 ## <a name="upcoming-capabilities-for-qr-bills"></a>Zukünftige Funktionen für QR-Rechnungen
 Wir planen, der QR-Bill Management-Erweiterung in den kommenden Updates der 1. Veröffentlichungsrunde 2020 weitere Funktionen hinzuzufügen. Beispiel: Sie können QR-Rechnungen durch Einkaufsbelege und Einkaufserfassungsjournale empfangen. Dies ermöglicht zusätzliche Validierungen sowie die Automatisierung und Optimierung von Empfangsprozessen. Informationen dazu finden Sie im [Veröffentlichungsplan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-business-central/qr-bill-management-switzerland).
