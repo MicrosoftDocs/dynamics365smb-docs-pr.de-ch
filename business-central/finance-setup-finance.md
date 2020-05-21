@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 400506fe0b39944e683fd5e65e6b710ffdb9089b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b7a272d916182fda7815e04bb314a5c29942ca98
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182746"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372582"
 ---
 # <a name="setting-up-finance"></a>Finance einrichten
 Bevor Sie mit der Geschäftstätigkeit beginnen können, müssen Sie Regeln und Standardeinstellungen für die Verwaltung der Finanzprozesse für dieses Unternehmen festlegen. Richten Sie zunächst den Kern der Buchhaltungsdatensätze des Mandanten ein, den Kontenplan. Anschliessend werden Buchungsgruppen eingerichtet, um das Zuordnen von standardmässigen Fibukontobuchungskonten zu Debitoren, Kreditoren und Artikeln effizienter zu gestalten.
@@ -47,10 +47,12 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Aktivierung der Rechnungstellung für einen Debitoren, der nicht im System eingerichtet ist.|[Bargelddebitoren einrichten](finance-how-to-set-up-cash-customers.md)|
 | Einrichtung von Intrastat-Berichten und Übermitteln des Berichts an eine Behörde | [Einrichten und Berichten von Intrastat](finance-how-setup-report-intrastat.md)|
 |Stellen Sie sicher, dass ein Posten eines Fibu Erf.-Journal beim Buchen des Erf.-Journals auf verschiedene Konten verteilt wird, und zwar nach Anzahl, Prozent oder Betrag.|[Verwenden von Umlageschlüsseln in Fibu Erf.-Journals](ui-how-use-allocation-keys-general-journals.md)|
+|Einrichten von Buchungsspurcodes und Ursachencodes, mit denen Sie Audit-Trails verfolgen können|[Buchungsspurcodes und Ursachencodes für Audit Trails einrichten](finance-setup-trail-codes.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
+
 [Finanzen](finance.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
