@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d80b1f5ade4778b71b79dcddfd347587869e16a7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 17b29e5ed357f139b6bbcef96204c78736404762
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189108"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676641"
 ---
 # <a name="post-lsv-payments"></a>Buchen von LSV+-Zahlungen
 Zahlungen können nach Empfang einer LSV+ (Lastschrift Verfahren)-Zahlungsanzeige von der Bank gebucht werden.  
 
 ## <a name="to-post-lsv-payments"></a>So buchen Sie LSV+-Zahlungen  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") und geben Sie **Zlg.-Eing. Erfassungsjournale** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](../../media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zlg.-Eing. Erfassungsjournale** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie das entsprechende Journal aus und wählen Sie dass **Journal bearbeiten** aus.  
 
     > [!NOTE]  
@@ -47,5 +47,5 @@ Zahlungen können nach Empfang einer LSV+ (Lastschrift Verfahren)-Zahlungsanzeig
 ## <a name="see-also"></a>Siehe auch  
  [Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md)   
  [Verarbeiten eines LSV-Einzugs](how-to-process-an-lsv-collection.md)   
- [Schliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md)   
+ [Abschliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md)   
  [Exportieren von Zahlungen mit LSV](how-to-export-payments-using-lsv.md) 

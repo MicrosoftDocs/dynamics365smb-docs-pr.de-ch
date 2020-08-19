@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: cdeacc9cded87cbf9e5724ea477740c6dd46eef1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eafefdbd89ff769e8c36d432f47bc146ec02065e
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189144"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676742"
 ---
 # <a name="adjust-exchange-rates"></a>Wechselkurse regulieren
 Wenn Sie steuerpflichtige Umsätze in Fremdwährung abrechnen, müssen die offiziellen Kurse der Eidg. Steuerverwaltung zur MWST-Kursumrechnung verwendet werden.  
@@ -31,11 +31,11 @@ Weitere Informationen über MWST und Fremdwährungen finden Sie auf der [ESTV](h
 
 ## <a name="to-adjust-an-exchange-rate"></a>So regulieren Sie einen Wechselkurs  
 
-1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **Währungen** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Währungen** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Wechselkurse** aus.  
 3.  Geben Sie auf der Seite **Währungswechselkurse** den offiziellen MWST-Satz pro Periode für die jeweilige Währung in die Felder **Anzahl MWST-Einheiten** und **MWST-Kurs** ein.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
-5.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **Wechselkurse regulieren** ein und wählen Sie dann den entsprechenden Link.  
+5.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](../../media/ui-search/search_small.png "Tell me-Funktion") Symbol öffnet, geben Sie **Wechselkurs anpassen** ein und wählen Sie dann den entsprechenden Link.  
 6.  Füllen Sie auf dem Inforegister **Optionen** die Felder wie in der folgenden Tabelle beschrieben aus.   
 
     |Feld|Description|  
