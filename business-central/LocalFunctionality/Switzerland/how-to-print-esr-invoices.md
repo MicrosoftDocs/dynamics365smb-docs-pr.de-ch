@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 735866474cb18f7924e7edc90046ba1a3239205f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: e3ca0d58e1fdd5e22f21a3d103d7ac7aa6513b9e
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189093"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676728"
 ---
 # <a name="print-esr-invoices"></a>Drucken von ESR-Rechnungen
 Zum Drucken von Einzahlungsscheinen mit Referenznummer (ESR) stehen folgende Methoden zur Auswahl:  
@@ -34,7 +34,7 @@ Im folgenden Verfahren wird das Drucken von ESR-Verkaufsrechnungen beschrieben, 
 
 ## <a name="to-print-esr-invoices"></a>So drucken Sie ESR-Rechnungen  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") und geben Sie **ESR Rechnung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](../../media/ui-search/search_small.png "Tell me-Funktion"), geben Sie **Rechnungs-ESR** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie im Stapelverarbeitungsauftrag **Verkauf ESR Rechnung** die Felder auf dem Inforegister **Optionen** wie in der folgenden Tabelle beschrieben aus.  
 
     |Feld|Description|  
