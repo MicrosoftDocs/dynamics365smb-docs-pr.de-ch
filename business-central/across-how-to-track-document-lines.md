@@ -8,28 +8,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: d6440c4cf2f7b5e41f320fcbb1d72d353ae4f5e9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 48d8e3baf3adfbd4836cadb638949e54555a39c9
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188050"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577392"
 ---
-# <a name="track-document-lines"></a><span data-ttu-id="0c419-105">Nachverfolgen von Belegzeilen</span><span class="sxs-lookup"><span data-stu-id="0c419-105">Track Document Lines</span></span>
-<span data-ttu-id="0c419-106">Mit der Belegverfolgung können Belege angezeigt werden, die sich auf Verkaufsauftrags- und Bestellzeilen für Aufträge und archivierte Aufträge beziehen.</span><span class="sxs-lookup"><span data-stu-id="0c419-106">You can view documents that are related to sales order lines and purchase order lines, including from archived order lines.</span></span> <span data-ttu-id="0c419-107">Zugehörige Belege, die Sie nachverfolgen können, enthalten Offerten, Lieferungen, Wareneingänge und Rahmenaufträge.</span><span class="sxs-lookup"><span data-stu-id="0c419-107">Related documents that you can track include quotes, shipments, receipts, and blanket orders.</span></span> <span data-ttu-id="0c419-108">Dies hilft bei der Erkennung der Belege, die zum Verarbeiten der Aufträge verwendet wurden.</span><span class="sxs-lookup"><span data-stu-id="0c419-108">This helps you to identify documents used to process orders.</span></span>  
+# <a name="track-document-lines"></a><span data-ttu-id="a1898-105">Nachverfolgen von Belegzeilen</span><span class="sxs-lookup"><span data-stu-id="a1898-105">Track Document Lines</span></span>
+<span data-ttu-id="a1898-106">Mit der Belegverfolgung können Belege angezeigt werden, die sich auf Verkaufsauftrags- und Bestellzeilen für Aufträge und archivierte Aufträge beziehen.</span><span class="sxs-lookup"><span data-stu-id="a1898-106">You can view documents that are related to sales order lines and purchase order lines, including from archived order lines.</span></span> <span data-ttu-id="a1898-107">Zugehörige Belege, die Sie nachverfolgen können, enthalten Offerten, Lieferungen, Wareneingänge und Rahmenaufträge.</span><span class="sxs-lookup"><span data-stu-id="a1898-107">Related documents that you can track include quotes, shipments, receipts, and blanket orders.</span></span> <span data-ttu-id="a1898-108">Dies hilft bei der Erkennung der Belege, die zum Verarbeiten der Aufträge verwendet wurden.</span><span class="sxs-lookup"><span data-stu-id="a1898-108">This helps you to identify documents used to process orders.</span></span>  
 
-## <a name="to-track-documents-related-to-a-sales-order-line"></a><span data-ttu-id="0c419-109">Zusammenhängenden Beleg mit einer Verkaufsauftragszeile verfolgen</span><span class="sxs-lookup"><span data-stu-id="0c419-109">To track documents related to a sales order line</span></span>
-<span data-ttu-id="0c419-110">Nachfolgend wird beschrieben, wie Sie einen Verkaufsauftragszeile nachverfolgen.</span><span class="sxs-lookup"><span data-stu-id="0c419-110">The following procedure describes how to track from a sales order line.</span></span> <span data-ttu-id="0c419-111">Die Schritte sind gleich für Einkaufs- und Bestandsanalyseansichten.</span><span class="sxs-lookup"><span data-stu-id="0c419-111">The steps are similar for purchase order and blanket order lines.</span></span>
+## <a name="to-track-documents-related-to-a-sales-order-line"></a><span data-ttu-id="a1898-109">Zusammenhängenden Beleg mit einer Verkaufsauftragszeile verfolgen</span><span class="sxs-lookup"><span data-stu-id="a1898-109">To track documents related to a sales order line</span></span>
+<span data-ttu-id="a1898-110">Nachfolgend wird beschrieben, wie Sie einen Verkaufsauftragszeile nachverfolgen.</span><span class="sxs-lookup"><span data-stu-id="a1898-110">The following procedure describes how to track from a sales order line.</span></span> <span data-ttu-id="a1898-111">Die Schritte sind gleich für Einkaufs- und Bestandsanalyseansichten.</span><span class="sxs-lookup"><span data-stu-id="a1898-111">The steps are similar for purchase order and blanket order lines.</span></span>
 
-1.  <span data-ttu-id="0c419-112">Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="0c419-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="0c419-113">Öffnen Sie einen Verkaufsauftrag, den Sie nachverfolgen möchten.</span><span class="sxs-lookup"><span data-stu-id="0c419-113">Open a sales order that you want to track from.</span></span>  
-3.  <span data-ttu-id="0c419-114">Wählen Sie eine Zeile und wählen Sie dann die Aktion **Belegzeilentracking** aus.</span><span class="sxs-lookup"><span data-stu-id="0c419-114">Select a line, and then choose the **Document Line Tracking** action.</span></span>
-4. <span data-ttu-id="0c419-115">Auf der Seite **Belegzeilentracking** wählen Sie den Beleg, den Sie anzeigen möchten, und dann, auf der Registerkarte Start, in der Gruppe Verarbeiten wählen Sie **Anzeigen** aus, um die zugehörige Zeile anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="0c419-115">On the **Document Lines Tracking** page, select the document that you want to view, and then choose the **Show** action to see the related line.</span></span>
-5. <span data-ttu-id="0c419-116">Zum Anzeigen des gesamten Belegs für die ausgewählte Belegzeile klicken Sie auf **Beleg anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="0c419-116">To view the entire document for the selected document line, choose the **Show Document** action.</span></span>
+1.  <span data-ttu-id="a1898-112">Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="a1898-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="a1898-113">Öffnen Sie einen Verkaufsauftrag, den Sie nachverfolgen möchten.</span><span class="sxs-lookup"><span data-stu-id="a1898-113">Open a sales order that you want to track from.</span></span>  
+3.  <span data-ttu-id="a1898-114">Wählen Sie eine Zeile und wählen Sie dann die Aktion **Belegzeilentracking** aus.</span><span class="sxs-lookup"><span data-stu-id="a1898-114">Select a line, and then choose the **Document Line Tracking** action.</span></span>
+4. <span data-ttu-id="a1898-115">Auf der Seite **Belegzeilentracking** wählen Sie den Beleg, den Sie anzeigen möchten, und dann, auf der Registerkarte Start, in der Gruppe Verarbeiten wählen Sie **Anzeigen** aus, um die zugehörige Zeile anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="a1898-115">On the **Document Lines Tracking** page, select the document that you want to view, and then choose the **Show** action to see the related line.</span></span>
+5. <span data-ttu-id="a1898-116">Zum Anzeigen des gesamten Belegs für die ausgewählte Belegzeile klicken Sie auf **Beleg anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="a1898-116">To view the entire document for the selected document line, choose the **Show Document** action.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="0c419-117">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="0c419-117">See Also</span></span>
-[<span data-ttu-id="0c419-118">Verkauf</span><span class="sxs-lookup"><span data-stu-id="0c419-118">Sales</span></span>](sales-manage-sales.md)  
-[<span data-ttu-id="0c419-119">Allgemeine Geschäftsfunktionen</span><span class="sxs-lookup"><span data-stu-id="0c419-119">General Business Functionality</span></span>](ui-across-business-areas.md)  
-<span data-ttu-id="0c419-120">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0c419-120">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
+
+## <a name="see-also"></a><span data-ttu-id="a1898-117">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="a1898-117">See Also</span></span>
+[<span data-ttu-id="a1898-118">Verkauf</span><span class="sxs-lookup"><span data-stu-id="a1898-118">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="a1898-119">Allgemeine Geschäftsfunktionen</span><span class="sxs-lookup"><span data-stu-id="a1898-119">General Business Functionality</span></span>](ui-across-business-areas.md)  
+<span data-ttu-id="a1898-120">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a1898-120">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
