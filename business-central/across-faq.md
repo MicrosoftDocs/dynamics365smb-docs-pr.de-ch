@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 06/25/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528099"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611598"
 ---
 # <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
 Dieser Abschnitt enthält Antworten auf häufig gestellte Fragen zur Registrierung für eine Testversion, zum Kauf eines Abonnements und zur Verwendung von [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sie können auch erfahren, wie Sie technischen Support erhalten.  
 
-## <a name="is-d365fin-available-in-my-country"></a>Ist [!INCLUDE[d365fin](includes/d365fin_md.md)] in meinem Land verfügbar?
+## <a name="is-d365fin-available-in-my-countryregion"></a>Ist [!INCLUDE[d365fin](includes/d365fin_md.md)] in meinem Land/meiner Region verfügbar?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist in einer begrenzten Anzahl von Märkten verfügbar. Neue Länder werden über eine von Microsoft geführte Lokalisation oder durch partnergeführte Lokalisation quartalsweise hinzugefügt. Weitere Informationen finden Sie unter [Verfügbarkeit nach Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (nur in Englisch verfügbar).  
 
@@ -108,6 +108,10 @@ Wenn Sie soweit sind, [!INCLUDE[prodshort](includes/prodshort.md)] zu kaufen, k�
 Wenn Sie Unterstützung von Microsoft wünschen, wenden Sie sich an das [Microsoft Sales Team](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 Ihr Reselling-Partner übernimmt auch den technischen Support für Sie. Weitere Informationen finden Sie unter [Ressourcen für Hilfe und Support](product-help-and-support.md).  
+
+## <a name="where-do-i-find-that-line-number"></a>Wo finde ich diese Zeilennummer?
+
+Belege wie Kundenaufträge oder Eingangsrechnungen bestehen aus Kopfzeilen und Zeilen. Jede Zeile hat eine Nummer, die [!INCLUDE [prodshort](includes/prodshort.md)] verwendet, um diese bestimmte Zeile zu identifizieren. Infolgedessen wird möglicherweise eine Warnung oder eine Fehlermeldung angezeigt, dass beispielsweise in Zeile 1000 etwas nicht stimmt. In der Standardversion von [!INCLUDE [prodshort](includes/prodshort.md)] sind Zeilennummern ausgeblendet. Wenn Sie die Zeilennummern sehen möchten, müssen Sie die aktuelle Seite personalisieren und die **Zeilennr.** hinzufügen. Feld eingetragen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
 
 ## <a name="why-is-new-information-not-available-in-my-language"></a>Warum sind neue Informationen in meiner Sprache nicht verfügbar?
 
