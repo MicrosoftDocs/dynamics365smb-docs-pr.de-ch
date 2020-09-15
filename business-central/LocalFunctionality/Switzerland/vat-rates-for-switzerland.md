@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3128171503324f340e3bae6272ab464a3b2bc925
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: ba33bd983d37cd8b517fadbdf532a4d2c5412567
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189053"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778154"
 ---
 # <a name="vat-rates-for-switzerland"></a>MWST-Sätze für die Schweiz
 Falls sich die MWST-Sätze ändern, müssen Sie das Mehrwertsteuersatz-Änderungstool verwenden. In früheren Versionen von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] konnten Sie abhängig vom Lieferdatum vorübergehend sowohl die neuen als auch die alten MWST-Sätze für Transaktionen verwenden. Diese Funktion ist veraltet.  

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cabed6f6946e10cb50f75dc3183f078c6007d380
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 9c2023b2115132376adb527e71df8c61d4815d9f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676929"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778214"
 ---
 # <a name="print-general-ledger-setup-information"></a>Drucken von Finanzbuchhaltungs-Setupinformationen
 Bevor Sie [!INCLUDE[d365fin](../../includes/d365fin_md.md)] im täglichen Geschäft verwenden, können Sie den Bericht **Fibu Einr.-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Masterdaten überprüfen, damit Sie eine Grundlage für einen Vergleich haben, und anschliessend verifizieren, dass beispielsweise die Buchungsgruppen ordnungsgemäss eingerichtet sind.  
@@ -32,7 +32,7 @@ Bevor Sie [!INCLUDE[d365fin](../../includes/d365fin_md.md)] im täglichen Gesch�
     |**Buchungsmatrix**|Zeigt allgemeine Geschäftsbuchungsgruppen-Tabellen, allgemeine Produktbuchungsgruppen-Tabellen und allgemeine Buchungsgruppen-Tabellen an.|  
     |**VAT Einrichtung**|Zeigt MWST-Geschäftsbuchungsgruppen-Tabellen, MWST-Produktbuchungsgruppen-Tabellen und MWST-Buchungseinrichtungstabellen an.|  
     |**Buchungsspurcode - Ursachencode**|Zeigt Ausgangstabellen, Buchungsspurcode-Tabellen und Ursachencode-Tabellen an.|  
-    |**Nummernserie überprüfen**|Option zum Bereitstellen einer Übersicht über die Nutzung der Nummernserie, damit Sie Nummernserien erkennen können, die für den Datenexport für die Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen (GDPdU) problematisch sein können. Der Bericht zeigt die Nummernserie mit einem der folgenden Probleme:<br /><br /> -   Die Nummernserie erlaubt manuelle Belegnummern.<br />-   Es besteht eine Lücke in der Nr.-Serie.<br />-   Die Nummernserie wird in mehr als einer Tabelle oder mehr als einem Feld verwendet.|  
+    |**Nummernserie überprüfen**|Option zum Bereitstellen einer Übersicht über die Nutzung der Nummernserie, damit Sie Nummernserien erkennen können, die für den Datenexport für die Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen (GDPdU) problematisch sein können. Der Bericht zeigt die Nummernserie mit einem der folgenden Probleme:<br /><br /> -   Die Nummernserie erlaubt manuelle Belegnummern.<br />-   Die Nummernserie ist nicht chronologisch.<br />-   Die Nummernserie wird in mehreren Tabellen oder Feldern verwendet.|  
 
 3.  Wählen Sie die Schaltfläche **Drucken** aus, um den Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
