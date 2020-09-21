@@ -11,29 +11,29 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d17575523f74ceb4cb11fb7756fff56135d50966
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 86f8a20a2d42b7b84f062ddce702930d89bcbd75
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182554"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777630"
 ---
-# <a name="manage-human-resources"></a><span data-ttu-id="91823-103">Personalwesen verwalten</span><span class="sxs-lookup"><span data-stu-id="91823-103">Manage Human Resources</span></span>
-<span data-ttu-id="91823-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie ausführliche Datensätze über Ihre Mitarbeiter anlegen.</span><span class="sxs-lookup"><span data-stu-id="91823-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees.</span></span> <span data-ttu-id="91823-105">Sie haben die Möglichkeit zum Erfassen und Pflegen von Mitarbeiterinformationen wie Arbeitsverträgen, vertraulichen Informationen, Qualifikationen oder Mitarbeiterkontakten.</span><span class="sxs-lookup"><span data-stu-id="91823-105">You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.</span></span>
+# <a name="manage-human-resources"></a><span data-ttu-id="13794-103">Personalwesen verwalten</span><span class="sxs-lookup"><span data-stu-id="13794-103">Manage Human Resources</span></span>
+<span data-ttu-id="13794-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie ausführliche Datensätze über Ihre Mitarbeiter anlegen.</span><span class="sxs-lookup"><span data-stu-id="13794-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees.</span></span> <span data-ttu-id="13794-105">Sie haben die Möglichkeit zum Erfassen und Pflegen von Mitarbeiterinformationen wie Arbeitsverträgen, vertraulichen Informationen, Qualifikationen oder Mitarbeiterkontakten.</span><span class="sxs-lookup"><span data-stu-id="13794-105">You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.</span></span>
 
-<span data-ttu-id="91823-106">Sie können auch Fehlzeiten von Mitarbeitern erfassen, was die Analyse der erfassten Abwesenheiten nach Bedarf ermöglicht.</span><span class="sxs-lookup"><span data-stu-id="91823-106">You can also register employee absences, which allows you to analyze registered absences as necessary.</span></span>
+<span data-ttu-id="13794-106">Sie können auch Fehlzeiten von Mitarbeitern erfassen, was die Analyse der erfassten Abwesenheiten nach Bedarf ermöglicht.</span><span class="sxs-lookup"><span data-stu-id="13794-106">You can also register employee absences, which allows you to analyze registered absences as necessary.</span></span>
 
-<span data-ttu-id="91823-107">Zum Verwenden der Funktionalität „Personalwesen” müssen zunächst Mitarbeiter und andere Basisdaten eingerichtet werden.</span><span class="sxs-lookup"><span data-stu-id="91823-107">To start using the Human Resources functionality, you must set up employees and other basic information.</span></span> <span data-ttu-id="91823-108">Dann lassen sich einem Mitarbeiter verschiedene Codes zuordnen, anhand derer Informationen für bestimmte Mitarbeiter gefiltert werden können.</span><span class="sxs-lookup"><span data-stu-id="91823-108">You can then associate various codes to an employee, which allows you to filter information for specific employees.</span></span>
+<span data-ttu-id="13794-107">Zum Verwenden der Funktionalität „Personalwesen” müssen zunächst Mitarbeiter und andere Basisdaten eingerichtet werden.</span><span class="sxs-lookup"><span data-stu-id="13794-107">To start using the Human Resources functionality, you must set up employees and other basic information.</span></span> <span data-ttu-id="13794-108">Dann lassen sich einem Mitarbeiter verschiedene Codes zuordnen, anhand derer Informationen für bestimmte Mitarbeiter gefiltert werden können.</span><span class="sxs-lookup"><span data-stu-id="13794-108">You can then associate various codes to an employee, which allows you to filter information for specific employees.</span></span>
 
-<span data-ttu-id="91823-109">In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.</span><span class="sxs-lookup"><span data-stu-id="91823-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="13794-109">In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.</span><span class="sxs-lookup"><span data-stu-id="13794-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| <span data-ttu-id="91823-110">An</span><span class="sxs-lookup"><span data-stu-id="91823-110">To</span></span> | <span data-ttu-id="91823-111">Informationen</span><span class="sxs-lookup"><span data-stu-id="91823-111">See</span></span> |
+| <span data-ttu-id="13794-110">An</span><span class="sxs-lookup"><span data-stu-id="13794-110">To</span></span> | <span data-ttu-id="13794-111">Informationen</span><span class="sxs-lookup"><span data-stu-id="13794-111">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="91823-112">Erfassen Sie neue Mitarbeiter oder bearbeiten Sie Datensätze für vorhandene Mitarbeiter, und fügen Sie zugehörige Informationen hinzu, wie Verträge und Artikel.</span><span class="sxs-lookup"><span data-stu-id="91823-112">Register new employees or edit records for existing employees, and attach related information, such as contracts and articles.</span></span> |[<span data-ttu-id="91823-113">Erfassen eines Mitarbeiters</span><span class="sxs-lookup"><span data-stu-id="91823-113">Register Employees</span></span>](hr-how-register-employees.md) |
-| <span data-ttu-id="91823-114">Erfassen Sie die Abwesenheit von Mitarbeitern und zeigen Sie die Abwesenheitsstatistik anhand verschiedener Filter an.</span><span class="sxs-lookup"><span data-stu-id="91823-114">Record employees' absence and view absence statistics by various filters.</span></span> |[<span data-ttu-id="91823-115">Analysiert die Fehlzeiten der Mitarbeiter.</span><span class="sxs-lookup"><span data-stu-id="91823-115">Manage Employee Absence</span></span>](hr-how-manage-absence.md) |
+| <span data-ttu-id="13794-112">Erfassen Sie neue Mitarbeiter oder bearbeiten Sie Datensätze für vorhandene Mitarbeiter, und fügen Sie zugehörige Informationen hinzu, wie Verträge und Artikel.</span><span class="sxs-lookup"><span data-stu-id="13794-112">Register new employees or edit records for existing employees, and attach related information, such as contracts and articles.</span></span> |[<span data-ttu-id="13794-113">Erfassen eines Mitarbeiters</span><span class="sxs-lookup"><span data-stu-id="13794-113">Register Employees</span></span>](hr-how-register-employees.md) |
+| <span data-ttu-id="13794-114">Erfassen Sie die Abwesenheit von Mitarbeitern und zeigen Sie die Abwesenheitsstatistik anhand verschiedener Filter an.</span><span class="sxs-lookup"><span data-stu-id="13794-114">Record employees' absence and view absence statistics by various filters.</span></span> |[<span data-ttu-id="13794-115">Analysiert die Fehlzeiten der Mitarbeiter.</span><span class="sxs-lookup"><span data-stu-id="13794-115">Manage Employee Absence</span></span>](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a><span data-ttu-id="91823-116">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="91823-116">See Also</span></span>
-[<span data-ttu-id="91823-117">Finanzen</span><span class="sxs-lookup"><span data-stu-id="91823-117">Finance</span></span>](finance.md)  
-<span data-ttu-id="91823-118">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="91823-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="91823-119">Funktionen, die angezeigt werden ändern</span><span class="sxs-lookup"><span data-stu-id="91823-119">Change Which Features are Displayed</span></span>](ui-experiences.md)        
+## <a name="see-also"></a><span data-ttu-id="13794-116">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="13794-116">See Also</span></span>
+[<span data-ttu-id="13794-117">Finanzen</span><span class="sxs-lookup"><span data-stu-id="13794-117">Finance</span></span>](finance.md)  
+<span data-ttu-id="13794-118">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="13794-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="13794-119">Funktionen, die angezeigt werden ändern</span><span class="sxs-lookup"><span data-stu-id="13794-119">Change Which Features are Displayed</span></span>](ui-experiences.md)        
