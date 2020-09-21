@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6720f207b3bca2e74bccb9b82a5661d98292163d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: cee71cea69468a45b2e731632fce3827c54794c1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195425"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781349"
 ---
 # <a name="customize-pages-for-profiles"></a>Seiten für Profile anpassen
 Benutzer können Seiten für ihren Arbeitsbereich personalisieren, um ihren Bedürfnissen zu entsprechen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
@@ -34,14 +34,14 @@ Die Seitenanpassung beginnt mit **Profile (Rollen)** Seite, Ausgangspunkt des Ad
 2. Wählen Sie dir Zeile für die Personalisierungsseite, die Sie löschen möchten, und wählen die Aktion **Bearbeiten** aus.
 3. Wählen Sie die Aktion **Seiten anpassen**.
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] öffnet eine neue Browser-Registerkarte für das ausgewählte Profil mit dem Banner **Anpassen** Banner aktiviert. Das **Anpassen** Banner bietet die gleiche Funktionalität wie das **Personalisierung** Banner, das den Benutzern zur Verfügung steht.
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] öffnet eine neue Browser-Registerkarte für das ausgewählte Profil mit dem Banner **Anpanssen** Banner aktiviert. Das **Anpassen** Banner bietet die gleiche Funktionalität wie das **Personalisierung** Banner, das den Benutzern zur Verfügung steht.
 
 4. Passen Sie die Seiten an die Anforderungen der jeweiligen Rolle oder Abteilung an, so wie es ein Benutzer bei der Personalisierung tun würde. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
     > [!NOTE]
     > Um während der Personalisierung zu navigieren, verwenden Sie CTRL+Klicken für eine Aktion, wenn diese durch die Pfeilspitze hervorgehoben ist.
 
-5. Wenn Sie das Layout einer oder mehrerer Seiten geändert haben, wählen Sie die Schaltfläche **Fertig** im Banner **Anpassen**.
+5. Wenn Sie das Layout einer oder mehrerer Seiten geändert haben, wählen Sie die Schaltfläche **Fertig** im Banner **Anpassung**.
 6. Schliessen Sie die Browser-Registerkarte.
 
 Die Anpassung von Seiten wird jetzt für das Profil aufgezeichnet.

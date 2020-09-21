@@ -10,13 +10,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a8db87b7dd365123a21633e4905d56dd13bf7b40
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 7cad06a00b5afcff00d382620bf157c22a19cf26
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193625"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781699"
 ---
 # <a name="make-sales-quotes"></a>Verkaufsofferten machen
 Sie erstellen eine Verkaufsofferte, um Ihre Offerte für den Debitor zu erfassen, um bestimmte Produkte unter speziellen Lieferungs- und Zahlungsbedingungen zu verkaufen. Sie können die Verkaufsofferte an den Debitor senden, um die Offerte mitzuteilen. Sie können den Beleg als PDF-Dateianhang senden. Sie können den E-Mail-Text auch, der mit einer Zusammenfassung der Offerte vorab ausgefüllt wurde. Weitere Informationen finden Sie unter [Senden von Belegen über E-Mail](ui-how-send-documents-email.md).

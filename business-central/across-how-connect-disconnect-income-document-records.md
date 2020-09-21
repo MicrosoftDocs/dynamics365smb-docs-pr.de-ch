@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b6866e8b60eda67ce28b7d67517f3f7d1ecab059
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 58da32ce111ef69dd73dfdcbb7fffd9c9684ac59
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188621"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780674"
 ---
 # <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Erstellen und Verknüpfen von eingehenden Belegen aus Belegen und Posten
 Sie können externe Geschäftsbelege in [!INCLUDE[d365fin](includes/d365fin_md.md)] speichern, indem Sie die Belegdateien mit den entsprechenden eingehenden Belegen verknüpfen. Auch wenn der Beleg, beispielsweise eine Einkaufsrechnung, ursprünglich nicht als eingehender Beleg erfasst wurde, können Sie trotzdem später einen eingehenden Beleg erstellen und diesen zuordnen. Sie können eingehende Belegdateien auch an gebuchte Einkaufs- und Verkaufsbelege und an Kreditor-, Debitor- und Fibuposten anfügen, indem Sie die Infobox **Eingehende Belegdateien** verwenden, zum Beispiel auf der Seite **Geb. Einkaufsrechnungen** und **Kreditorenposten**.
