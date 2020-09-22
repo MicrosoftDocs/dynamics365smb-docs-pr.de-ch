@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ffe7e29d26b386f0a69cc3a7377bf9ff58f93abf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 3891d97788cbb4751a9ee9e06baab39f7088f67f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185458"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787960"
 ---
 # <a name="general-journal-post-line-overview"></a>Fibu-Buchungszeile - Überblick
 Codeunit 12, **Das. Jnl.-Beitrags-Zeile**, ist das grosse Anwendungsobjekt für Fibupostenbuchung und ist der einzige Bereich, um die Fibuposten, MWST und Debitoren- und Kreditorenposten einzufügen. Diese Codeunit wird auch für Ausgleich-, Ausgleich aufheben- und Zurücksetzen-Arbeitsgänge verwendet.  
