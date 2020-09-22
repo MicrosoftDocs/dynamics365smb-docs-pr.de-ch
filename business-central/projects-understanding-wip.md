@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 24dc65182bba549f624f8a66e7eecb1341f1aee1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: a5c20fec2faa891fef76a6890cae6f03b52c3ecf
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192809"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783163"
 ---
 # <a name="understanding-wip-methods"></a>Verständnis - WIP-Methoden
 Im Laufe eines Projekts werden Material sowie Ressourcen und andere Aufwendungen verbraucht und müssen auf das Projekt gebucht werden. Umlaufbestand (WIP) ist eine Funktion, mit der Sie den finanziellen Wert im Fibuposten schätzen können, solange die Projekte noch nicht abgeschlossen sind. In vielen Fällen werden die Aufwendungen für ein Projekt vor der Fakturierung des Projekts gebucht. Wurden ausschliesslich Aufwendungen gebucht, ergibt sich eine inkorrekte Finanzauswertung.
