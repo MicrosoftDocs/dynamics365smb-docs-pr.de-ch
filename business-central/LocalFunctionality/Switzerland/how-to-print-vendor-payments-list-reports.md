@@ -8,22 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 35f867b1aaf62ee41abc96a4caa1d8ce32730edb
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6e9f0c1e880cdc37f35d534bc20073837d3af1c3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778202"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916399"
 ---
 # <a name="print-vendor-payments-list-reports"></a>Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen
+
 Die Liste **Kreditorenzahlungen** zeigt eine Liste von Zahlungen für jeden Kreditor an. Der Bericht kann Zahlungen chronologisch oder nach Kreditor gruppiert sortieren.  
+
+> [!NOTE]
+> Der Bericht **Liste für Kreditorenzahlungen** ist auf den folgenden Märkten verfügbar: Österreich, Deutschland, Schweiz.
 
 ## <a name="to-print-the-vendor-payments-list-report"></a>So drucken Sie den Bericht "Kreditorenzahlungen - Liste"  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Kreditorenzahlungsliste** ein und wählen Sie dann den entsprechenden Link.  
-2.  Füllen Sie auf dem Inforegister **Optionen** die Felder wie in der folgenden Tabelle beschrieben aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Kreditorenzahlungsliste** ein und wählen Sie dann den entsprechenden Link.  
+2. Füllen Sie auf dem Inforegister **Optionen** die Felder wie in der folgenden Tabelle beschrieben aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -32,5 +36,6 @@ Die Liste **Kreditorenzahlungen** zeigt eine Liste von Zahlungen für jeden Kred
 
  Am Ende des Berichts wird die Anzahl der verarbeiteten Zahlungen angezeigt.  
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Siehe auch
+
 [Zahlungen vornehmen](../../payables-make-payments.md)

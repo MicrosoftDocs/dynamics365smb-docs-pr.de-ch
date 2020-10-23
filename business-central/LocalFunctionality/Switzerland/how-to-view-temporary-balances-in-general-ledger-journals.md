@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8af8b4968aa48be41fe796048061cc9b0ec51420
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: fe2c8f9f490eb1b2d4dce62e497b2c6d22a17414
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778186"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916387"
 ---
 # <a name="view-temporary-balances-in-general-ledger-journals"></a>Anzeigen temporärer Salden in Finanzbuchhaltungs-Erfassungsjournalen
 Beim Eingeben einer neuen Transaktion in das Fibu Erf.-Journal können Sie temporäre Salden eingeben, die anzeigen, welche Auswirkungen das Buchen des Erf.-Journals auf die Fibu Erf.-Journal-Kontensalden hätte. Die Saldodetails des Kontos und des Gegenkontos für die aktive Erf.-Journalzeile können angezeigt werden. Die ungebuchten Werte für das aktuelle Erf.-Journal können ebenfalls angezeigt werden.  
