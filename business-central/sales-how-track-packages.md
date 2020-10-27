@@ -5,35 +5,35 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: rfq
-ms.date: 05/28/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a655768234c262ff98a753b28dfbbd53d1bc1749
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: 6b0cf72609a180d271604dd276f840efbc6b1aa6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410706"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910669"
 ---
-# <a name="track-packages"></a><span data-ttu-id="19dbc-103">Pakete verfolgen</span><span class="sxs-lookup"><span data-stu-id="19dbc-103">Track Packages</span></span>
+# <a name="track-packages"></a><span data-ttu-id="383b5-103">Pakete verfolgen</span><span class="sxs-lookup"><span data-stu-id="383b5-103">Track Packages</span></span>
 
-<span data-ttu-id="19dbc-104">Eine Anzahl von Spediteuren bietet einen Service im Internet, der es Ihnen erlaubt, Pakete zu verfolgen, die Sie ihm übergeben haben.</span><span class="sxs-lookup"><span data-stu-id="19dbc-104">A number of shipping agents provide services on the Internet that allow you to track parcels you have handed over to the agent.</span></span> <span data-ttu-id="19dbc-105">Wenn Sie einen oder mehrere dieser Zusteller verwenden, können Sie bestimmte Basisinformationen hinterlegen und die Funktionalität des automatischen Pakettrackings von gebuchten Lieferungen, gebuchten Verkaufsrechnungen, gebuchten Verkaufsgutschriften und gebuchten Rücksendungen aus nutzen.</span><span class="sxs-lookup"><span data-stu-id="19dbc-105">If you use one or more of these shipping agents, you can set up certain basic information and use the automatic tracking feature from posted shipments, posted sales invoices, posted sales credit memos, and posted return receipts.</span></span> <span data-ttu-id="19dbc-106">Weitere Informationen finden Sie unter [Versand-Agenten](sales-how-to-set-up-shipping-agents.md).</span><span class="sxs-lookup"><span data-stu-id="19dbc-106">For more information, see [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md).</span></span>  
+<span data-ttu-id="383b5-104">Eine Anzahl von Spediteuren bietet einen Service im Internet, der es Ihnen erlaubt, Pakete zu verfolgen, die Sie ihm übergeben haben.</span><span class="sxs-lookup"><span data-stu-id="383b5-104">A number of shipping agents provide services on the Internet that allow you to track parcels you have handed over to the agent.</span></span> <span data-ttu-id="383b5-105">Wenn Sie einen oder mehrere dieser Zusteller verwenden, können Sie bestimmte Basisinformationen hinterlegen und die Funktionalität des automatischen Pakettrackings von gebuchten Lieferungen, gebuchten Verkaufsrechnungen, gebuchten Verkaufsgutschriften und gebuchten Rücksendungen aus nutzen.</span><span class="sxs-lookup"><span data-stu-id="383b5-105">If you use one or more of these shipping agents, you can set up certain basic information and use the automatic tracking feature from posted shipments, posted sales invoices, posted sales credit memos, and posted return receipts.</span></span> <span data-ttu-id="383b5-106">Weitere Informationen finden Sie unter [Versand-Agenten](sales-how-to-set-up-shipping-agents.md).</span><span class="sxs-lookup"><span data-stu-id="383b5-106">For more information, see [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md).</span></span>  
 
-<span data-ttu-id="19dbc-107">Das folgende Verfahren zeigt, wie Sie ein Paket aus einer gebuchten Verkaufslieferung verfolgen. Die gleichen Schritte gelten jedoch auch, um das Pakettracking auf den Seiten „Gebuchte Verkaufsrechnung“, „Gebuchte Verkaufsgutschrift“ und „Gebuchte Rücksendung“ zu aktivieren.</span><span class="sxs-lookup"><span data-stu-id="19dbc-107">The following procedure shows how to track a package from a posted sales shipment, but the same steps apply to enable package tracking from the Posted Sales Invoice, Posted Sales Credit Memo, and Posted Return Receipt pages.</span></span>  
+<span data-ttu-id="383b5-107">Das folgende Verfahren zeigt, wie Sie ein Paket aus einer gebuchten Verkaufslieferung verfolgen. Die gleichen Schritte gelten jedoch auch, um das Pakettracking auf den Seiten „Gebuchte Verkaufsrechnung“, „Gebuchte Verkaufsgutschrift“ und „Gebuchte Rücksendung“ zu aktivieren.</span><span class="sxs-lookup"><span data-stu-id="383b5-107">The following procedure shows how to track a package from a posted sales shipment, but the same steps apply to enable package tracking from the Posted Sales Invoice, Posted Sales Credit Memo, and Posted Return Receipt pages.</span></span>  
 
-## <a name="to-track-a-package"></a><span data-ttu-id="19dbc-108">So verfolgen Sie ein Paket:</span><span class="sxs-lookup"><span data-stu-id="19dbc-108">To track a package</span></span>
+## <a name="to-track-a-package"></a><span data-ttu-id="383b5-108">So verfolgen Sie ein Paket:</span><span class="sxs-lookup"><span data-stu-id="383b5-108">To track a package</span></span>
 
-1. <span data-ttu-id="19dbc-109">Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Verkaufslieferung gebucht** ein, und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="19dbc-109">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipment**, and then choose the related link.</span></span>
-2. <span data-ttu-id="19dbc-110">Öffnen Sie die relevante Verkaufslieferung.</span><span class="sxs-lookup"><span data-stu-id="19dbc-110">Open the relevant shipment.</span></span>
-3. <span data-ttu-id="19dbc-111">Wählen Sie die Aktion **Dokument aktualisieren** aus.</span><span class="sxs-lookup"><span data-stu-id="19dbc-111">Choose the **Update Document** action.</span></span>
-4. <span data-ttu-id="19dbc-112">In der **Pakettrackingnr.**</span><span class="sxs-lookup"><span data-stu-id="19dbc-112">In the **Package Tracking No.**</span></span> <span data-ttu-id="19dbc-113">Feld geben Sie die Paketnummer ein, die Sie vom Spediteur erhalten haben.</span><span class="sxs-lookup"><span data-stu-id="19dbc-113">field, enter the package number you have received from the shipping agent.</span></span> <span data-ttu-id="19dbc-114">Aktualisieren Sie bei Bedarf **Spediteur**, und schliessen Sie die Seite.</span><span class="sxs-lookup"><span data-stu-id="19dbc-114">Update **Shipping Agent** if needed and close the page.</span></span>
-5. <span data-ttu-id="19dbc-115">Wählen Sie die **Paketverfolgung**-Aktion aus.</span><span class="sxs-lookup"><span data-stu-id="19dbc-115">Choose the **Track Package** action.</span></span>
+1. <span data-ttu-id="383b5-109">Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Verkaufslieferung gebucht** ein, und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="383b5-109">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipment** , and then choose the related link.</span></span>
+2. <span data-ttu-id="383b5-110">Öffnen Sie die relevante Verkaufslieferung.</span><span class="sxs-lookup"><span data-stu-id="383b5-110">Open the relevant shipment.</span></span>
+3. <span data-ttu-id="383b5-111">Wählen Sie die Aktion **Dokument aktualisieren** aus.</span><span class="sxs-lookup"><span data-stu-id="383b5-111">Choose the **Update Document** action.</span></span>
+4. <span data-ttu-id="383b5-112">In der **Pakettrackingnr.**</span><span class="sxs-lookup"><span data-stu-id="383b5-112">In the **Package Tracking No.**</span></span> <span data-ttu-id="383b5-113">Feld geben Sie die Paketnummer ein, die Sie vom Spediteur erhalten haben.</span><span class="sxs-lookup"><span data-stu-id="383b5-113">field, enter the package number you have received from the shipping agent.</span></span> <span data-ttu-id="383b5-114">Aktualisieren Sie bei Bedarf **Spediteur** , und schliessen Sie die Seite.</span><span class="sxs-lookup"><span data-stu-id="383b5-114">Update **Shipping Agent** if needed and close the page.</span></span>
+5. <span data-ttu-id="383b5-115">Wählen Sie die **Paketverfolgung** -Aktion aus.</span><span class="sxs-lookup"><span data-stu-id="383b5-115">Choose the **Track Package** action.</span></span>
 
-<span data-ttu-id="19dbc-116">Ihr Standardbrowser öffnet die Nachverfolgungsseite des Spediteurs.</span><span class="sxs-lookup"><span data-stu-id="19dbc-116">Your default browser opens the shipping agent's tracking page.</span></span>
+<span data-ttu-id="383b5-116">Ihr Standardbrowser öffnet die Nachverfolgungsseite des Spediteurs.</span><span class="sxs-lookup"><span data-stu-id="383b5-116">Your default browser opens the shipping agent's tracking page.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="19dbc-117">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="19dbc-117">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="383b5-117">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="383b5-117">See Also</span></span>
 
-[<span data-ttu-id="19dbc-118">Zusteller einrichten</span><span class="sxs-lookup"><span data-stu-id="19dbc-118">Set Up Shipping Agents</span></span>](sales-how-to-set-up-shipping-agents.md)  
-[<span data-ttu-id="19dbc-119">Verkauf</span><span class="sxs-lookup"><span data-stu-id="19dbc-119">Sales</span></span>](sales-manage-sales.md)  
-[<span data-ttu-id="19dbc-120">Einrichten von Verkäufen</span><span class="sxs-lookup"><span data-stu-id="19dbc-120">Setting Up Sales</span></span>](sales-setup-sales.md)  
-[<span data-ttu-id="19dbc-121">Senden von Belegen über E-Mail</span><span class="sxs-lookup"><span data-stu-id="19dbc-121">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
-<span data-ttu-id="19dbc-122">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="19dbc-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+[<span data-ttu-id="383b5-118">Zusteller einrichten</span><span class="sxs-lookup"><span data-stu-id="383b5-118">Set Up Shipping Agents</span></span>](sales-how-to-set-up-shipping-agents.md)  
+[<span data-ttu-id="383b5-119">Verkauf</span><span class="sxs-lookup"><span data-stu-id="383b5-119">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="383b5-120">Einrichten von Verkäufen</span><span class="sxs-lookup"><span data-stu-id="383b5-120">Setting Up Sales</span></span>](sales-setup-sales.md)  
+[<span data-ttu-id="383b5-121">Senden von Belegen über E-Mail</span><span class="sxs-lookup"><span data-stu-id="383b5-121">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
+<span data-ttu-id="383b5-122">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="383b5-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
