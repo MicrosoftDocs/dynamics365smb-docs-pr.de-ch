@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2647ff245ae891eb069b448f8a8192f78b5bfbc3
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8686b0d7f739b292f733239b7348428dbed56be3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780974"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920761"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Anlagen abschreiben oder amortisieren
 Abschreibung wird verwendet, um die Anschaffungskosten von Anlagen, wie z. B. Maschinen und Ausrüstung, über die Nutzungsdauer zu verteilen. Sie müssen für jede Anlage definieren, wie diese abgeschrieben wird.  
@@ -50,9 +50,9 @@ Einmal monatlich oder in beliebigen anderen Intervallen können Sie die Stapelve
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>So buchen Sie eine Abschreibung aus dem Anlagen Fibu Erf.-Journal
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anlagen-Fibu Erf.-Journal** ein, und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie eine ursprüngliche Erf.-Journalzeile und füllen Sie die notwendigen Felder aus.  
-3. Wählen Sie im Feld **Anlagenbuchungsart** die **AfA**.  
-4. Wählen Sie die Aktion **Anlagengegenkonto einfügen**. Eine zweite Erf.-Journalzeile wird für das Gegenkonto erstellt, das für die Abschreibungsbuchung eingerichtet ist. Weitere Informationen finden Sie unter [So richten Sie Anlagenbuchungsgruppen ein](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
-5. Wählen Sie die Aktion **Buchen**, um das Journal zu buchen.  
+3. Wählen Sie im Feld **Anlagenbuchungsart** die **AfA** .  
+4. Wählen Sie die Aktion **Anlagengegenkonto einfügen** . Eine zweite Erf.-Journalzeile wird für das Gegenkonto erstellt, das für die Abschreibungsbuchung eingerichtet ist. Weitere Informationen finden Sie unter [So richten Sie Anlagenbuchungsgruppen ein](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
+5. Wählen Sie die Aktion **Buchen** , um das Journal zu buchen.  
 
 Das Feld **Buchwert** auf der Seite **Anlagenkarte** wird entsprechend aktualisiert.
 
@@ -70,22 +70,22 @@ Falls eine Anlage von verschiedenen Abteilungen verwendet wird, kann die Abschre
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anlagen-Fibu Erf.-Journal** ein, und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie eine ursprüngliche Zeile und füllen Sie die notwendigen Felder aus.
-3. Wählen Sie im Feld **Anlagenbuchungsart** die **Verteilung**.  
-4. Wählen Sie die Aktion **Anlagengegenkonto einfügen**. Eine zweite Erf.-Journalzeile wird für das Gegenkonto erstellt, das für die Buchung einer Verteilung eingerichtet wird.  
-5. Wählen Sie die Aktion **Buchen**, um das Journal zu buchen.  
+3. Wählen Sie im Feld **Anlagenbuchungsart** die **Verteilung** .  
+4. Wählen Sie die Aktion **Anlagengegenkonto einfügen** . Eine zweite Erf.-Journalzeile wird für das Gegenkonto erstellt, das für die Buchung einer Verteilung eingerichtet wird.  
+5. Wählen Sie die Aktion **Buchen** , um das Journal zu buchen.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Kopiervorgänge zum Vorbereiten von Buchungen in mehrere AfA-Bücher verwenden
 Ausfüllen der Zeilen in einem Erf.-Journal für die Buchung auf ein Abschreibungsbuch und anschliessendes Kopieren der Zeilen in ein anderes Erf.-Journal, von wo aus sie auf ein anderes Abschreibungsbuch gebucht werden können Weitere Informationen finden Sie unter [So buchen Sie Posten auf verschiedene Abschreibungsbücher](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Abschreibungsbücher** ein, und wählen Sie dann den zugehörigen Link.  
-2. Öffnen Sie das entsprechende AfA-Buch aus und aktivieren Sie dann das Kontrollkästchen **Teil des Kopiervorgangs**.  
+2. Öffnen Sie das entsprechende AfA-Buch aus und aktivieren Sie dann das Kontrollkästchen **Teil des Kopiervorgangs** .  
 
 > [!IMPORTANT]  
 >   Wenn Sie das Feld **Kopiervorgang aktivieren** aktiviert haben, dürfen Sie im Erfassungsjournal keine Nummernserien verwenden. Der Grund dafür ist, dass die Nummernserie für das Anlagen Fibu Erf.-Journal nicht der Nummernserie im Anlagen Erf.-Journal entspricht.  
 
 ## <a name="to-post-entries-to-different-depreciation-books"></a>So buchen Sie Posten auf verschiedene AfA-Bücher
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anlagen-Fibu Erf.-Journal** ein, und wählen Sie dann den entsprechenden Link.  
-2. Aktivieren Sie im Buch.-Blatt, das Sie zum Buchen der AfA verwenden möchten, das Kontrollkästchen **Kopiervorgang aktivieren**.  
+2. Aktivieren Sie im Buch.-Blatt, das Sie zum Buchen der AfA verwenden möchten, das Kontrollkästchen **Kopiervorgang aktivieren** .  
 3. Füllen Sie die verbleibenden Felder je nach Bedarf aus.  
 4. Wählen Sie die Aktion **Buchen** aus.  
 5. Wählen Sie das Symbol ![Glühbirne , das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anlagen Erfassungsjournale** ein und wählen Sie dann den entsprechenden Link.  
@@ -101,7 +101,7 @@ Sie können mit Hilfe der Stapelverarbeitung **AfA-Buch kopieren** Posten von ei
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>So kopieren Sie Anlagenposten zwischen AfA-Büchern
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Abschreibungsbücher** ein, und wählen Sie dann den zugehörigen Link.  
-2. Öffnen Sie die entsprechende AfA-Buch - Karte und wählen Sie dann die Aktion **AfA-Buch kopieren**.  
+2. Öffnen Sie die entsprechende AfA-Buch - Karte und wählen Sie dann die Aktion **AfA-Buch kopieren** .  
 3. Füllen Sie im Inforegister **Anlagen-Abschreibungsbuch** die Seite nach Bedarf aus.  
 4. Wählen Sie die Schaltfläche **OK** aus.  
 

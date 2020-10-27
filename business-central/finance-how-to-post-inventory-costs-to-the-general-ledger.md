@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c837d3c4c1fd4ba1922ee90611dcec3b15ba9233
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4e760818349cf59a9c85d0a0d22b72baefd99af6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785485"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919502"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Abstimmen der Lagerregulierung mit dem Fibuposten
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen oder Lagerregulierungen, werden die veränderten Artikelkosten in den Artikelwerteinträgen aufgezeichnet. Um diese Änderung des Lagerwerts in Ihren Finanzbüchern wiederzugeben, werden die Lagerkosten automatisch zu den entsprechenden Lagerkonten in der Finanzbuchhaltung gebucht. Für jede Lagertransaktion, die Sie buchen, werden die entsprechenden Werte im Fibuposten im Lagerkonto, im Korrekturkonto und im Lagerverbrauchskonto gebucht.
@@ -49,19 +49,19 @@ Die Seite **Lager – Sachpostenabstimmung** ermöglicht Folgendes:
 
 In der Spalte **Name** (am äusserst linken Rand des Gitters) werden die verschiedenen Fibukontoarten angezeigt, die mit Lagerbestand verknüpft sind.
 
-Die Spalten **Lagerbestand**, **Lager (Interim)** und **Aktiviert Lager** enthalten die fakturierten, nicht fakturierten und WIP-Summen jeder Fibukontoart. Diese werden aus Wertposten berechnet, d.h., sie werden auf die Fibukontoarten übertragen, auf denen sie sich nach dem Buchen in die Finanzbuchhaltung befinden.
+Die Spalten **Lagerbestand** , **Lager (Interim)** und **Aktiviert Lager** enthalten die fakturierten, nicht fakturierten und WIP-Summen jeder Fibukontoart. Diese werden aus Wertposten berechnet, d.h., sie werden auf die Fibukontoarten übertragen, auf denen sie sich nach dem Buchen in die Finanzbuchhaltung befinden.
 
 Die Spalte **Gesamt** enthält die (fett formatierte) Summe der Wertpostenbeträge in den drei Lagerbestandsspalten.
 
 Die Spalte **Fibu gesamt** enthält die (fett formatierten) Beträge für die einzelnen, in der Fibu vorhandenen Fibukontoarten. Diese Werte werden auf der Grundlage von Fibuposten berechnet, stellen also die Lagerkosten dar, die bereits in die Finanzbuchhaltung gebucht wurden.
 
-Die Spalte **Differenz** enthält die Differenz zwischen **Fibu gesamt** und **Gesamt**.
+Die Spalte **Differenz** enthält die Differenz zwischen **Fibu gesamt** und **Gesamt** .
 
 Am oberen Rand der Seite **Lager - Sachpostenabstimmung** können Sie mithilfe von Filtern beispielsweise die Periode eingrenzen, für die Sie Informationen ermitteln möchten.
 
 Wenn Sie ein Häkchen im Kontrollkästchen **Warnung anzeigen** setzen und wenn es Abweichungen zwischen den Lagerbestandssummen und den Werten in der Fibu gesamt gibt, werden im Feld **Warnung** des Gitters Meldungen angezeigt, in denen die jeweilige Abweichung beschrieben wird. Wenn Sie das Feld "Warnung" auswählen, gibt die Anwendung weitere Informationen zum Inhalt der Warnung.
 
-Wenn Sie alle entsprechenden Filter eingegeben haben, wählhen Sie die Aktion **Matrix anzeigen**. Die Daten werden berechnet, und die Matrixseite wird geöffnet.
+Wenn Sie alle entsprechenden Filter eingegeben haben, wählhen Sie die Aktion **Matrix anzeigen** . Die Daten werden berechnet, und die Matrixseite wird geöffnet.
 
 In der äusserst linken Spalte des Gitters werden die verschiedenen Kontoarten der Finanzbuchhaltung angezeigt, die mit dem Lagerbestand verknüpft sind. Für jede dieser Kontoarten werden im Gitter die fakturierten, nicht fakturierten (Interims-) und WIP-Lagerbestandssummen angezeigt. Diese Summen wurden aus den Wertposten berechnet.
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0b5370b8babf000b1dc2f5b1980ada383788067
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b0442a935442890d0edaec4fa803e887da47477f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785760"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920561"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Einrichten einer zusätzlichen Berichtswährung
 Da die Anzahl der Länder, in denen Unternehmen Geschäftsbeziehungen unterhalten, ständig wächst, wird es immer wichtiger, dass Finanzdaten in mehreren Währungen erfasst und angezeigt werden können.
@@ -78,7 +78,7 @@ Für jedes Sachkonto müssen Sie angeben, wie Beträge für dieses Konto hinsich
 
     Wechselkursgewinne und -verluste werden erstmals bei Ausführung der Stapelverarbeitung **Wechselkurse regulieren** gebucht. In diesem Batchauftrag wird der regulierte Wechselkurs im Fenster **Währungswechselkurs** gefunden, und die Beträge in den Feldern **Betrag** und **Betrag (BW)** des Fibupostens werden anschliessend verglichen, um zu ermitteln, ob ein Kursgewinn oder -verlust vorliegt. Im Batchauftrag wird mithilfe der im Feld **Kursregulierung** ausgewählten Option bestimmt, ob Wechselkursgewinne oder -verluste für Fibukonten berechnet und gebucht werden.  
 
-4.  Schliessen Sie das Fenster**Fibukontokarte**.  
+4.  Schliessen Sie das Fenster **Fibukontokarte** .  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Die Kursregulierungsmethode für MWST.-Posten festlegen:  
 1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Fibuposteneinrichtung** ein und wählen Sie dann den entsprechenden Link.  
@@ -97,14 +97,14 @@ Für jedes Sachkonto müssen Sie angeben, wie Beträge für dieses Konto hinsich
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>Berichtswährung aktivieren:  
 1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Fibuposteneinrichtung** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie auf der Seite **Fibuposten Einrichtung** das Feld **Berichtswährung**, um die Berichtswährung auszuwählen, in der Sie Daten erfassen möchten.  
+2. Wählen Sie auf der Seite **Fibuposten Einrichtung** das Feld **Berichtswährung** , um die Berichtswährung auszuwählen, in der Sie Daten erfassen möchten.  
 3. Beim Verlassen des Felds zeigt [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Bestätigungsmeldung an, die Sie über die Auswirkungen der Aktivierung der Berichtswährung informiert.  
 4. Wählen Sie die Schaltfläche **Ja** aus, um zu bestätigen, dass Sie die Währung aktivieren möchten.  
 5. Der Batchauftrag **Berichtswährung regulieren** wird geöffnet.
 
-    Für die Stapelverarbeitung wird ein Standardwechselkurs verwendet. Dies ist der am Arbeitsdatum gültige Wechselkurs aus dem Fenster **Währungswechselkurse**. Rundungsbeträge, die bei der Umrechnung der Mandantenwährung in die Berichtswährung entstehen, werden auf die im Fenster **Währungen** angegebenen Differenzkonten für Gewinne und Verluste gebucht. Das Buchungsdatum und die Belegnummer dieser Posten ist mit denen des ursprünglichen Fibupostens identisch. Nachdem sämtliche Rundungsposten gebucht wurden, wird bei der Stapelverarbeitung ein Rundungsposten am Ultimodatum jedes abgeschlossenen Jahres auf das Abschlusskonto für die GuV gebucht. Hierdurch wird sichergestellt, dass der Endsaldo der GuV-Konten für alle abgeschlossenen Jahre in der Mandantenwährung und der Berichtswährung 0 ist.
+    Für die Stapelverarbeitung wird ein Standardwechselkurs verwendet. Dies ist der am Arbeitsdatum gültige Wechselkurs aus dem Fenster **Währungswechselkurse** . Rundungsbeträge, die bei der Umrechnung der Mandantenwährung in die Berichtswährung entstehen, werden auf die im Fenster **Währungen** angegebenen Differenzkonten für Gewinne und Verluste gebucht. Das Buchungsdatum und die Belegnummer dieser Posten ist mit denen des ursprünglichen Fibupostens identisch. Nachdem sämtliche Rundungsposten gebucht wurden, wird bei der Stapelverarbeitung ein Rundungsposten am Ultimodatum jedes abgeschlossenen Jahres auf das Abschlusskonto für die GuV gebucht. Hierdurch wird sichergestellt, dass der Endsaldo der GuV-Konten für alle abgeschlossenen Jahre in der Mandantenwährung und der Berichtswährung 0 ist.
 6. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
-7. Wählen Sie die Schaltfläche **OK**, um den Batchauftrag zu starten.  
+7. Wählen Sie die Schaltfläche **OK** , um den Batchauftrag zu starten.  
 
 Nach die Stapelverarbeitung ausgeführt wurde, sind die Beträge in den folgenden bereits vorhandenen Posten in der Mandantenwährung und der Berichtswährung angegeben:  
 

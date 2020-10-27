@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8346e8a868f73d3de729a56e86530048c58229aa
-ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
+ms.openlocfilehash: 31a3df66b3b82e7901a494c7ef552c27b317ba99
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "3458947"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917090"
 ---
 # <a name="select-a-check-layout"></a>Ein Schecklayout auswählen
 Sie können Ihre Schecks entwerfen, um sie den Vorgaben anzupassen, die von den lokalen Behörden festgelegt werden. Scheckbilder können in Englisch, Französisch oder Spanisch gedruckt werden.
@@ -24,7 +24,7 @@ Schecks können sowohl im US-amerikanischen als auch im kanadischen Schecklayout
 
 ## <a name="to-select-a-check-layout"></a>So wählen Sie ein Schecklayout aus
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Berichtsauswahlen – Bankkonto** ein, und wählen Sie dann den entsprechenden Link.
-2. Auf der Seite **Berichts-Auswahl - Bankkonto** unter **Verwendung** wählen Sie **Scheck**.
+2. Auf der Seite **Berichts-Auswahl - Bankkonto** unter **Verwendung** wählen Sie **Scheck** .
 3. Wählen Sie eine der folgenden Berichts-IDs:
 
 | Berichts-ID | Berichtsname | Beschreibung |

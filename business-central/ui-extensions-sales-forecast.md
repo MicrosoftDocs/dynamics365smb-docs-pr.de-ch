@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: daff9e471ce62f4885703a1fd11bbf35620360f9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6a9db4249cdf5814bc04653a1987d17f8f94ecb2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189689"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918627"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Die Verkaufs- und Bestandprognosen-Erweiterung
 Lagerverwaltung ist ein Austausch zwischen Serviceabteilung und Verwaltung der Kosten. Auf der einen Seite benötigt ein niedriger Bestand weniger Betriebskapital, andererseits führen fehlende Lagerbestände evtl. zu entgangenen Verkäufen. Die Erweiterung "Geplanter voraussichtlicher Verkauf und Lagerbestand" sagt potenzielle Verkäufe anhand der historischen Daten voraus und gibt eine klare Übersicht über erwartete fehlende Lagerbestände. Auf Grundlage der Planung helfen die Erweiterungen dabei, Beschaffungsanfragen an Ihre Kreditoren zu stellen und Zeit zu spraren.  
@@ -42,14 +42,14 @@ Diese Webdienste sind zustandslos, d.h. sie verwenden Daten nur zur Berechnung v
 >   Sie können auch Ihren eigenen Vorhersage-Webdienst anstelle von unserem verwenden. Weitere Informationen finden Sie unter [Erstellen und verwenden Sie Ihren eigenen Prognose-Webservice für Verkaufs- und Bestandsprognosen](#AnchorText). 
 
 ### <a name="data-required-for-forecast"></a>Für die Prognose erforderliche Daten
-Um Vorhersagen über zukünftige Verkäufe machen zu können, benötigt der Webservice quantitative Daten über vergangene Verkäufe. Diese Daten stammen aus den Feldern **Buchungsdatum**, **Positionsnummer** und **Menge** auf der Seite **Lagerposten**, wobei folgendes gilt:
+Um Vorhersagen über zukünftige Verkäufe machen zu können, benötigt der Webservice quantitative Daten über vergangene Verkäufe. Diese Daten stammen aus den Feldern **Buchungsdatum** , **Positionsnummer** und **Menge** auf der Seite **Lagerposten** , wobei folgendes gilt:
 -    Die Eintragsart ist „Verkauf“.
 - Das Buchungsdatum liegt zwischen dem Datum, das auf der Grundlage der Werte in den Feldern **Historische Perioden** und **Periodentyp** auf der Seite **Verkaufs- und Bestandsprognoseeinrichtung** berechnet wird, und dem Arbeitsdatum.
 
-Vor der Verwendung des Webdienstes komprimiert [!INCLUDE[d365fin](includes/d365fin_md.md)] Transaktionen um **Positionsnummer** und **Buchungsdatum** basierend auf dem Wert im Feld **Periodentyp** auf der Seite **Verkaufs- und Bestandsprognoseeinrichtung**.
+Vor der Verwendung des Webdienstes komprimiert [!INCLUDE[d365fin](includes/d365fin_md.md)] Transaktionen um **Positionsnummer** und **Buchungsdatum** basierend auf dem Wert im Feld **Periodentyp** auf der Seite **Verkaufs- und Bestandsprognoseeinrichtung** .
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-sales-and-inventory-forecasts"></a><a name="AnchorText"> </a>Erstellen und verwenden Sie Ihren eigenen Prognose-Webdienst für Verkaufs- und Bestandsprognosen
-Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Modell erzeugen, dem **Prognosemodell für Microsoft Business Central**. Dieses vorhersagende Modell ist online im Azure AI Katalog verfügbar. Um das Modell zu verwenden, gehen folgendermassen vor:  
+Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Modell erzeugen, dem **Prognosemodell für Microsoft Business Central** . Dieses vorhersagende Modell ist online im Azure AI Katalog verfügbar. Um das Modell zu verwenden, gehen folgendermassen vor:  
 
 1. Öffnen Sie einem Browser und gehen Sie zum [Azure AI Katalog](https://go.microsoft.com/fwlink/?linkid=828352)  
 2. Suchen Sie nach dem **Vorhersagemodell für Microsoft Business Central** und öffnen Sie dann das Modell im Azure Machine Learning Studio.  

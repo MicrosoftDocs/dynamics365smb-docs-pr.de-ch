@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 17293912658cc60a35ba4d54156d48eda3db32dc
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9a8a7967bdb0947fbfb0b86cc073fc4f96ea0595
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788485"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920610"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Erf.-Journalbuchungen stornieren und Belege/Lieferungen rückgängig machen
 Zum Stornieren (Rückgängig machen) fehlerhafter Erf.-Journalbuchungen wählen Sie einen Posten und erstellen einen Korrekturposten (ein Posten, die mit dem ursprünglichen Posten identisch ist, jedoch im Betragsfeld ein umgekehrtes Vorzeichen aufweist) mit derselben Belegnummer und demselben Belegdatum wie der ursprüngliche Posten. Nachdem Sie einen Posten storniert haben, müssen Sie den Korrekturposten erstellen.
@@ -31,7 +31,7 @@ Wenn Sie eine inkorrekte negative Mengenbuchung durchgeführt haben, das heisst,
 Wenn Sie eine inkorrekte positive Mengenbuchung durchgeführt haben, wie eine Verkaufslieferung oder eine Rücklieferung mit der falschen Artikelmenge erstellt und als Warenausgang gebucht (aber nicht fakturiert) haben, können Sie die Buchung umkehren.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Um die Erf.-Jounral-Erfung eines Fibupostens zu annullieren
-Posten können in allen Seiten **Posten** storniert werden. Das folgende Verfahren basiert auf der Seite **Fibuposten**.
+Posten können in allen Seiten **Posten** storniert werden. Das folgende Verfahren basiert auf der Seite **Fibuposten** .
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Fibuposten** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Posten, den Sie stornieren möchten, und wählen die **Transaktion stornieren** Aktion aus. Beachten Sie, das sie aus einer Erf.-Journal-Erfung stammen muss.
 3. Auf der Seite **Transaktionsposten stornieren** wählen Sie die Aktion **Stornieren** aus.
@@ -46,8 +46,8 @@ Im Feld **Storno** kann ein negativer Soll- anstelle eines Habenbetrags oder ein
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Fibu Erfassungsjournale** ein und wählen Sie dann den entsprechenden Link  
 2.  Wählen Sie im Feld **Buch.-Blattname** den erforderlichen Buch.-Blattnamen aus.  
 3.  Geben Sie die Informationen in die entsprechenden Felder ein.  
-4.  Aktivieren Sie in der Erf.-Journalzeile, die Sie für negative Posten aktivieren möchten, das Kontrollkästchen **Storno**.  
-5.  Prüfen Sie die erstellten Posten und wählen Sie dann die Aktion **Buchen** und dann **Ja**aus.
+4.  Aktivieren Sie in der Erf.-Journalzeile, die Sie für negative Posten aktivieren möchten, das Kontrollkästchen **Storno** .  
+5.  Prüfen Sie die erstellten Posten und wählen Sie dann die Aktion **Buchen** und dann **Ja** aus.
 
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>So stornieren Sie eine Mengenbuchung einer gebuchten Einkaufslieferzeile  
 Im Folgenden wird beschrieben, wie Sie einen gebuchten Beleg von Artikeln oder Ressourcen rückgängig machen. Die Schritte sind ähnlich wie für eine Einkaufsbestellung.
@@ -68,15 +68,15 @@ Im Folgenden wird beschrieben, wie Sie eine gebuchte Rücksendung von Artikeln u
 2.  Öffnen Sie die gebuchte Rücklieferung, den Sie rückgängig machen möchten.
 3. Wählen Sie die Zeile oder Zeilen aus, die Sie rückgängig machen möchten.  
 
-4.  Wählen Sie die Aktion **Rücklieferung stornieren**.  
+4.  Wählen Sie die Aktion **Rücklieferung stornieren** .  
 
     Eine Korrekturzeile wird in den gebuchten Beleg eingefügt, und die Mengen, die in der Reklamation in den Feldern **Rücklieferungsmenge geliefert** und **Lief. n. fakt. Rückl.-Betrag** enthalten sind, werden auf Null gesetzt.  
 
     Gehen Sie jetzt zurück zu der Einkaufsreklamation, um die Buchung erneut durchzuführen.  
 
-5.  Beachten Sie auf der Seite **Gebuchte Rücklieferung** die Nummer im Feld **Reklamationsnr.**. Feld eingetragen.  
+5.  Beachten Sie auf der Seite **Gebuchte Rücklieferung** die Nummer im Feld **Reklamationsnr.** . Feld eingetragen.  
 6.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Einkaufsreklamationen** ein und wählen Sie dann den entsprechenden Link.  
-7.  Öffnen Sie die betreffende Rücklieferung und wählen Sie die Aktion **Erneut öffnen**.  
+7.  Öffnen Sie die betreffende Rücklieferung und wählen Sie die Aktion **Erneut öffnen** .  
 8.  Korrigieren Sie den Eintrag im Feld **Menge** und buchen Sie die Rücklieferung erneut.  
 
 ## <a name="see-also"></a>Siehe auch

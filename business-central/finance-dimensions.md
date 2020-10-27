@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05c187adbe7a471a5ba2f240ad4e61e083aa0346
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b0e5a74db148e0c33eeb87bd006f3c136bc8ee33
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786385"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917190"
 ---
 # <a name="working-with-dimensions"></a>Arbeiten mit Dimensionen
 Um Analyse in Belegen wie Verkaufsaufträgen einfacher durchzuführen, können Sie Dimensionen verwenden. Dimensionen sind Attribute und Werte, die Posten kategorisieren, sodass Sie sie verfolgen und analysieren können. So können Sie beispielsweise Dimensionen einrichten, mit denen angegeben wird, aus welchem Projekt oder aus welcher Abteilung ein Posten stammt.  
@@ -36,7 +36,7 @@ Je mehr Dimensionen Sie einrichten und verwenden, auf desto detaillierteren Beri
 Die Funktionalität Dimensionen wird eine wichtige Rolle in der Business Intelligence spielen, wie auch beim Definieren von Analyseansichten. Weitere Informationen finden Sie unter [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md).
 
 > [!TIP]
-> Als schnelle Möglichkeit, Transaktionsdaten nach Dimensionen zu analysieren, können Sie Summen im Kostenplan und Posten in allen **Posten**-Seiten nach Dimensionen filtern. Suchen Sie nach der Aktion **Dimensionsfilter festlegen**.
+> Als schnelle Möglichkeit, Transaktionsdaten nach Dimensionen zu analysieren, können Sie Summen im Kostenplan und Posten in allen **Posten** -Seiten nach Dimensionen filtern. Suchen Sie nach der Aktion **Dimensionsfilter festlegen** .
 
 ## <a name="dimension-sets"></a>Dimensionssätze
 Ein Dimensionssatz ist eine eindeutige Kombination von Dimensionswerten. Er wird als Dimensionssatzposten in die Datenbank gespeichert. Jeder Dimensionssatzposten stellt einen einzelnen Dimensionswert dar. Der Dimensionssatz wird durch eine allgemeine Dimensionssatz-ID identifiziert, die jedem Dimensionssatzposten zugewiesen wird, der zum Dimensionssatz gehört.  
@@ -44,7 +44,7 @@ Ein Dimensionssatz ist eine eindeutige Kombination von Dimensionswerten. Er wird
 Wenn Sie eine neue Erf.-Journalzeile, einen Belegkopf oder eine Belegzeile erstellen, können Sie eine Kombination von Dimensionswerten angeben. Anstatt jeden Dimensionswert explizit in der Datenbank zu speichern, wird eine Dimensionssatz-ID der Erfassungsjournalzeile, dem Belegkopf oder der Belegzeile zugewiesen, um den Dimensionssatz anzugeben.  
 
 ## <a name="setting-up-dimensions"></a>Einrichtung von Dimensionen
-Sie können die Dimensionen und die Dimensionswerte, die Sie verwenden möchten, definieren, um Buch.-Blätter und Belege zu kategorisieren, wie Verkaufsaufträge und Bestellungen einrichten. Sie errichten Dimensionen auf der Seite **Dimensionen**, wo Sie eine Zeile für jede Dimension erstellen, wie *Projekt*, *Abteilung*, *Bereich* und *Verkäufer*.
+Sie können die Dimensionen und die Dimensionswerte, die Sie verwenden möchten, definieren, um Buch.-Blätter und Belege zu kategorisieren, wie Verkaufsaufträge und Bestellungen einrichten. Sie errichten Dimensionen auf der Seite **Dimensionen** , wo Sie eine Zeile für jede Dimension erstellen, wie *Projekt* , *Abteilung* , *Bereich* und *Verkäufer* .
 
 Sie erstellen auch Einrichtungswerte für Dimensionen. Beispielsweise könnten Werte Abteilungen Ihres Unternehmens darstellen. Dimensionswerte können in einer hierarchischen Struktur eingerichtet werden, die der Struktur des Kontenplans gleicht, sodass die Daten in unterschiedlichen Granularitätsstufen aufgeschlüsselt und Untergruppen von Dimensionswerten summiert werden können. Sie können beliebig viele Dimensionen und Dimensionswerte in Ihrem Mandanten definieren und Sie können eine unbegrenzte Anzahl von Dimensionswerten für jede Dimension festlegen.
 
@@ -64,7 +64,7 @@ Sie können eine Standarddimension für ein bestimmtes Konto einrichten. Die Dim
 >  Wenn Sie eine Dimension zwar erforderlich machen, ihr aber keinen Standardwert zuordnen möchten, lassen Sie das Feld **Dimensionswertcode** leer, und wählen Sie im Feld **Dimensionswertbuchung** die Option **Code notwendig** aus.  
 
 > [!WARNING]  
->  Wenn ein Konto in der Stapelverarbeitung **Wechselkurs anpassen** oder **Lagerkosten in Buch.-Blatt buchen** verwendet wird, wählen Sie nicht **Code zwingend** oder  **Gleicher Code**. Diese Stapelverarbeitungen können keine Dimensionscodes verwenden.  
+>  Wenn ein Konto in der Stapelverarbeitung **Wechselkurs anpassen** oder **Lagerkosten in Buch.-Blatt buchen** verwendet wird, wählen Sie nicht **Code zwingend** oder  **Gleicher Code** . Diese Stapelverarbeitungen können keine Dimensionscodes verwenden.  
 
 > [!NOTE]  
 >  Wenn einem Konto eine andere Standarddimension zugewiesen werden muss als die Standarddimension, die bereits für die Tabelle eingerichtet wurde, dann müssen Sie eine Standarddimension für dieses Konto einrichten. Die Standarddimension für das einzelne Konto ersetzt dann die Standarddimension für die Tabelle.  
@@ -100,7 +100,7 @@ Um das Buchen von Posten mit widersprüchlichen oder irrelevanten Dimensionen zu
 >   
 >  Die gewählte Option wird erst beim Verlassen des Feldes sichtbar.  
 >   
->  Um anstelle des Codes den Namen der Dimension anzeigen zu lassen, wählen Sie das Feld **Spaltennamen anzeigen**.
+>  Um anstelle des Codes den Namen der Dimension anzeigen zu lassen, wählen Sie das Feld **Spaltennamen anzeigen** .
 
 ### <a name="to-set-up-global-and-shortcut-dimensions"></a>So richten Sie globale und Shortcut-Dimensionen ein
 Globale und Shortcut-Dimensionen können überall in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Filter verwendet werden, auch in Berichten, Batchaufträgen und Analyseansichten. Globale und Shortcutdimensionen können immer direkt eingefügt werden, ohne erst die Seite **Dimensionen** zu öffnen. In Erfassungsjournalzeilen und Belegzeilen können Sie globale und Shortcutdimensionen in einem Feld der Zeile auswählen. Sie können zwei globale und acht Shortcutdimensionen einrichten. Wählen Sie die Dimensionen, die Sie am häufigsten verwenden.
@@ -124,8 +124,8 @@ Wenn Sie eine globale oder Shortcutdimension ändern, werden alle mit der betref
 
     |Option|Beschreibung|
     |-|-|
-    |**Sequenziell**|(Standard) Die gesamte Dimensionsänderung wird in einer Transaktion durchgeführt, wobei alle Einträge auf die Dimensionen zurückgesetzt werden, die sie vor der Änderung hatten.<br /><br />Diese Option wird empfohlen, wenn das Unternehmen relativ wenige gebuchte Posten enthält, die am schnellsten abgeschlossen werden können. Der Prozess sperrt mehrere Tabellen und blockiert andere Benutzer, bis er abgeschlossen ist. Beachten Sie, dass der Prozess in grossen Datenbanken in diesem Modus möglicherweise überhaupt nicht abgeschlossen werden kann. Verwenden Sie in diesem Fall die Option **Parallel**.|
-    |**Parallel**|(Aktivieren Sie das Kontrollkästchen **Parallele Verarbeitung**.) Die Dimensionsänderung erfolgt in mehreren Hintergrundsitzungen, und der Vorgang wird in mehrere Transaktionen aufgeteilt.<br /><br />Diese Option wird für grosse Datenbanken oder Unternehmen mit vielen gebuchten Posten empfohlen, die am schnellsten abgeschlossen werden können. Beachten Sie, dass bei diesem Modus der Aktualisierungsprozess nicht gestartet wird, wenn mehrere Datenbanksitzungen aktiv sind.|  
+    |**Sequenziell**|(Standard) Die gesamte Dimensionsänderung wird in einer Transaktion durchgeführt, wobei alle Einträge auf die Dimensionen zurückgesetzt werden, die sie vor der Änderung hatten.<br /><br />Diese Option wird empfohlen, wenn das Unternehmen relativ wenige gebuchte Posten enthält, die am schnellsten abgeschlossen werden können. Der Prozess sperrt mehrere Tabellen und blockiert andere Benutzer, bis er abgeschlossen ist. Beachten Sie, dass der Prozess in grossen Datenbanken in diesem Modus möglicherweise überhaupt nicht abgeschlossen werden kann. Verwenden Sie in diesem Fall die Option **Parallel** .|
+    |**Parallel**|(Aktivieren Sie das Kontrollkästchen **Parallele Verarbeitung** .) Die Dimensionsänderung erfolgt in mehreren Hintergrundsitzungen, und der Vorgang wird in mehrere Transaktionen aufgeteilt.<br /><br />Diese Option wird für grosse Datenbanken oder Unternehmen mit vielen gebuchten Posten empfohlen, die am schnellsten abgeschlossen werden können. Beachten Sie, dass bei diesem Modus der Aktualisierungsprozess nicht gestartet wird, wenn mehrere Datenbanksitzungen aktiv sind.|  
 
 4. Geben Sie in den Feldern **Globaler Dimensionscode 1** und/oder **Globaler Dimensionscode 2** die neue(n) Dimension(en) ein. Die aktuellen Dimensionen werden hinter den Feldern grau dargestellt.
 5. Wenn Sie den Modus **Sequenziell** ausgewählt haben, wählen Sie die Aktion **Start** aus.
@@ -194,14 +194,14 @@ Wenn Sie stattdessen in einem Erf.-Journal arbeiten, können Sie auf dieselbe Ar
 Sie können Standarddimensionen für Konten oder Kontenarten festlegen, sodass Dimensionen und Dimensionswerte automatisch ausgefüllt werden.
 
 ### <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Einsehen von Globalen Dimensionen in Postenseiten  
-Beachten Sie, dass globale Dimensionen immer vom Unternehmen \- definiert und benannt werden. Um die globalen Dimensionen für das Unternehmen anzuzeigen, öffnen Sie die Seite  **Fibuposten Einrichtung**.  
+Beachten Sie, dass globale Dimensionen immer vom Unternehmen \- definiert und benannt werden. Um die globalen Dimensionen für das Unternehmen anzuzeigen, öffnen Sie die Seite  **Fibuposten Einrichtung** .  
 
 Auf einer Postenseite können Sie sehen, ob für Posten globale Dimensionen vorhanden sind. Die beiden globalen Dimensionen unterscheiden sich von den anderen Dimensionen dadurch, dass Sie diese beiden Dimensionen überall in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Filter verwenden können.  
 
 1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Kontenplan** ein und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie auf der Seite **Kontenplan** die **Ressourcenposten**-Aktion aus.  
+2.  Wählen Sie auf der Seite **Kontenplan** die **Ressourcenposten** -Aktion aus.  
 3.  Setzen Sie einen oder mehrere Filter, um lediglich die relevanten Posten auf der Seite anzuzeigen.  
-4.  Um alle Dimensionen eines Postens anzuzeigen, wählen Sie den Posten aus, und klicken Sie auf  **Dimensionen**.  
+4.  Um alle Dimensionen eines Postens anzuzeigen, wählen Sie den Posten aus, und klicken Sie auf  **Dimensionen** .  
 
 > [!NOTE]  
 >  Die Seite **Postendimensionen** zeigt die Dimensionen für jeweils einen Posten. Wenn Sie sich durch die Posten bewegen, verändert sich der Inhalt der Seite **Postendimensionen** dementsprechend.
@@ -210,7 +210,7 @@ Auf einer Postenseite können Sie sehen, ob für Posten globale Dimensionen vorh
 Wenn Sie Belege oder Erfassungsjournalzeilen buchen, die Dimensionen enthalten, treten möglicherweise unterschiedliche Fehler auf, die in der Regel auf eine falsche Dimensionseinrichtung oder Zuweisung zurückgehen.
 
 > [!NOTE]
-> In der folgenden Liste der möglichen Fehlermeldungen stehen die *%X*-Codes als Ersatzzeichen für die Datenvariablen, die abhängig vom Kontext in der eigentlichen Nachricht in der Benutzeroberfläche enthalten sind. Beispielsweise könnte *%1 %2 ist blockiert.* in der Benutzeroberfläche als "Dimensionscode BEREICH blockiert" angezeigt werden.  
+> In der folgenden Liste der möglichen Fehlermeldungen stehen die *%X* -Codes als Ersatzzeichen für die Datenvariablen, die abhängig vom Kontext in der eigentlichen Nachricht in der Benutzeroberfläche enthalten sind. Beispielsweise könnte *%1 %2 ist blockiert.* in der Benutzeroberfläche als "Dimensionscode BEREICH blockiert" angezeigt werden.  
 
 |Problem|Fehlermeldung|Mögliche Lösung|
 |-----|-------------|-----------------|
@@ -218,13 +218,13 @@ Wenn Sie Belege oder Erfassungsjournalzeilen buchen, die Dimensionen enthalten, 
 |Gelöschte Dimension|%1 %2 kann nicht gefunden werden.|-Erstellen Sie die fehlende Dimension neu.<br />- Suchen Sie nicht gebuchte Belege, die den Dimensionssatz mit der fehlenden Dimension enthalten und fügen Sie sie hinzu.<br />- Entfernen Sie die Dimensionssatzposition für die fehlende Dimension.|
 |Blockierter Dimensionswert|%1 %2 - %3 ist gesperrt.|- Suchen Sie nicht gebuchte Belege, die den Dimensionssatz mit dem blockierten Dimensionswert enthalten und heben Sie die Blockierung auf.<br />- Entfernen Sie die Dimensionssatzposition für den blockierten Dimensionswert.|
 |Gelöschter Dimensionswert|   %1 für %2 fehlt.|-Erstellen Sie den fehlenden Dimensionswert neu.<br />- Suchen Sie nicht gebuchte Belege, die den Dimensionssatz mit dem fehlenden Dimensionswert enthalten und fügen Sie ihn hinzu.<br />- Entfernen Sie die Dimensionssatzposition für den fehlenden Dimensionswert.|
-|Nicht zugelassener Dimensionswert|Dimensionswerttyp für %1 %2 – %3 darf nicht %4 sein.|- Ändern Sie das Feld **Dimensionswerttyp** auf der Seite **Dimensionswerte** zu **Standard** oder **Von-Summe**.<br />- Entfernen Sie die Dimensionssatzposition für den blockierten Dimensionswert.|
+|Nicht zugelassener Dimensionswert|Dimensionswerttyp für %1 %2 – %3 darf nicht %4 sein.|- Ändern Sie das Feld **Dimensionswerttyp** auf der Seite **Dimensionswerte** zu **Standard** oder **Von-Summe** .<br />- Entfernen Sie die Dimensionssatzposition für den blockierten Dimensionswert.|
 |Blockierte Dimensionskombination|Dimensionen %1 und %2 können nicht gleichzeitig verwendet werden.|- Suchen Sie nicht gebuchte Belege, die den Dimensionssatz mit der blockierten Dimensionskombination enthalten und heben Sie die Blockierung auf.<br />- Ändern Sie eine der konfliktverursachenden Berechtigungssatzzeilen für die Dimensionskombination.|
 |Blockierte Dimensionswertkombination|Dimensionskombinationen %1 - %2 und %3 - %4 können nicht gleichzeitig verwendet werden.|- Suchen Sie nicht gebuchte Belege, die den Dimensionssatz mit der blockierten Dimensionswertkombination enthalten und heben Sie die Blockierung auf.<br />- Ändern Sie eine der konfliktverursachenden Berechtigungssatzzeilen für die Dimensionswertkombination.|
-|Leerer Dimensionswertcode für Standarddimension, bei der das Feld **Wertbuchung** die Angabe **Code notwendig** enthält.|-Wählen Sie einen %1 für den %2 %3 aus.<br />-Wählen Sie einen %1 für den %2 %3 für %4 %5 aus.|-Ändern Sie das Feld **Wertbuchung** auf der Seite **Standarddimension**.<br />-Geben Sie einen nicht leeren Dimensionswert für die widersprüchliche Dimension in den Dimensionssatz ein.|
-|Falscher Dimensionswertcode für Standarddimension, bei der das Feld **Wertbuchung** die Angabe **Gleicher Code** enthält.|-Wählen Sie einen %1 %2 für den %3 %4 aus.<br />-Wählen Sie einen %1 %2 für den %3 %4 für %5 %6 aus.|-Ändern Sie das Feld **Wertbuchung** auf der Seite **Standarddimension**.<br />-Geben Sie den erforderlichen Dimensionswert für die widersprüchliche Dimension in den Dimensionssatz ein.|
-|Nicht leerer Dimensionswertcode für leere Standarddimension, bei der das Feld **Wertbuchung** die Angabe **Gleicher Code** enthält.|-%1 %2 muss leer sein.<br />-%1 %2 muss für %3 %4 leer sein.|-Ändern Sie das Feld **Wertbuchung** auf der Seite **Standarddimension**.<br />-Geben Sie einen leeren Dimensionswertcode für die widersprüchliche Dimension in den Dimensionssatz ein.|
-|Unerwarteter Dimensionswert für Standarddimension, bei der das Feld **Wertbuchung** die Angabe **Kein Code** enthält.|-%1 %2 darf nicht angegeben werden.<br />-%1 %2 darf für %3 %4 nicht angegeben werden.|-Ändern Sie das Feld **Wertbuchung** auf der Seite **Standarddimension**.<br />- Entfernen Sie die widersprüchliche Zeile aus dem Dimensionssatz.|
+|Leerer Dimensionswertcode für Standarddimension, bei der das Feld **Wertbuchung** die Angabe **Code notwendig** enthält.|-Wählen Sie einen %1 für den %2 %3 aus.<br />-Wählen Sie einen %1 für den %2 %3 für %4 %5 aus.|-Ändern Sie das Feld **Wertbuchung** auf der Seite **Standarddimension** .<br />-Geben Sie einen nicht leeren Dimensionswert für die widersprüchliche Dimension in den Dimensionssatz ein.|
+|Falscher Dimensionswertcode für Standarddimension, bei der das Feld **Wertbuchung** die Angabe **Gleicher Code** enthält.|-Wählen Sie einen %1 %2 für den %3 %4 aus.<br />-Wählen Sie einen %1 %2 für den %3 %4 für %5 %6 aus.|-Ändern Sie das Feld **Wertbuchung** auf der Seite **Standarddimension** .<br />-Geben Sie den erforderlichen Dimensionswert für die widersprüchliche Dimension in den Dimensionssatz ein.|
+|Nicht leerer Dimensionswertcode für leere Standarddimension, bei der das Feld **Wertbuchung** die Angabe **Gleicher Code** enthält.|-%1 %2 muss leer sein.<br />-%1 %2 muss für %3 %4 leer sein.|-Ändern Sie das Feld **Wertbuchung** auf der Seite **Standarddimension** .<br />-Geben Sie einen leeren Dimensionswertcode für die widersprüchliche Dimension in den Dimensionssatz ein.|
+|Unerwarteter Dimensionswert für Standarddimension, bei der das Feld **Wertbuchung** die Angabe **Kein Code** enthält.|-%1 %2 darf nicht angegeben werden.<br />-%1 %2 darf für %3 %4 nicht angegeben werden.|-Ändern Sie das Feld **Wertbuchung** auf der Seite **Standarddimension** .<br />- Entfernen Sie die widersprüchliche Zeile aus dem Dimensionssatz.|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 185e35e9b9f44e8cc18b10adf0dc359c3dce1ef0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b04f9edd37c96efb9ee6b215d85335c743de6214
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784246"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916332"
 ---
 # <a name="enable-workflows"></a>Aktivieren von Workflows
 Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu starten, müssen Sie den Workflow aktivieren.  
@@ -25,7 +25,7 @@ Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu st
 ## <a name="to-enable-a-workflow"></a>So aktivieren Sie einen Workflow  
 1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Workflows** ein und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie den Workflow, den Sie aktivieren möchten.  
-3.  Deaktivieren Sie auf der Seite **Workflow** das Kontrollkästchen **Aktiviert**.  
+3.  Deaktivieren Sie auf der Seite **Workflow** das Kontrollkästchen **Aktiviert** .  
 
 ## <a name="see-also"></a>Siehe auch  
  [Erstellen eines Workflows](across-how-to-create-workflows.md)   

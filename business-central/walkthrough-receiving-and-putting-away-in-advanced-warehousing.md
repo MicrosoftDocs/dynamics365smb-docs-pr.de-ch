@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9a54bcb1131e2b5df0fd98ece66701c9f601ce41
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c200d178a00716de99bd88475346ff4396c9bebf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786760"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918402"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen
 
@@ -73,11 +73,11 @@ Das Einrichten der Seite **Standortkarte** definiert die Warenflüsse des Untern
 
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Lagerorte** ein und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie die WHITE Lagerortkarte.  
-3.  Beachten Sie im Inforegister **Lager**, dass das Kontrollkästchen **Gesteuerte Einlag. u. Kommiss.** ausgewählt ist.  
+3.  Beachten Sie im Inforegister **Lager** , dass das Kontrollkästchen **Gesteuerte Einlag. u. Kommiss.** ausgewählt ist.  
 
     Dies bedeutet, dass der Ort für die höchste Komplexitätsebene eingerichtet wird, widergespiegelt durch die Tatsache, dass alle Lagerdurchlaufzeitkontrollkästchen im Inforegister aktiviert sind.  
 
-4.  Beachten Sie im Inforegister **Lagerplätze**, dass Lagerplätze in den Feldern **Wareneingangslagerplatzcode** und **Warenausgangslagerplatzcode** angegeben sind.  
+4.  Beachten Sie im Inforegister **Lagerplätze** , dass Lagerplätze in den Feldern **Wareneingangslagerplatzcode** und **Warenausgangslagerplatzcode** angegeben sind.  
 
 Das bedeutet, dass beim Erstellen eines Wareneingangs dieser Lagerplatzcode standardmässig zum Kopf des Wareneingangsbelegs und zu den Zeilen der resultierenden Einlagerung kopiert wird.  
 
@@ -136,7 +136,7 @@ Auf der Seite **Lagereinlagerung** können Sie Einlagerungen für einen spezifis
 
 ### <a name="to-put-the-items-away"></a>So lagern Sie die Artikel ein  
 1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Einlagerungen** ein, und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie den einzigen Lager-Einlagerungsbeleg in der Liste aus und wählen Sie dann die Aktion **Bearbeiten**.  
+2.  Wählen Sie den einzigen Lager-Einlagerungsbeleg in der Liste aus und wählen Sie dann die Aktion **Bearbeiten** .  
 
     Der Einlagerungsbeleg wird geöffnet mit insgesamt acht Take- oder Place-Zeilen für die vier Einkaufsauftragszeilen.
 
@@ -144,7 +144,7 @@ Auf der Seite **Lagereinlagerung** können Sie Einlagerungen für einen spezifis
 
 3.  Wählen Sie die zweite Zeile auf der Seite **Lagereinlagerung** aus, die Einlagerungszeile für Artikel 70200.  
 4.  Ändern Sie den Wert im Feld **Zu verarbeitende Menge** von 100 zu 60.  
-5.  Wählen Sie auf dem Inforegister **Zeilen** die Option **Funktionen**, und klicken Sie dann auf **Zeile aufteilen**. Eine neue Zeile wird für Artikel 70200 mit 40 in Feld **Zu verarbeitende Menge** eingefügt.  
+5.  Wählen Sie auf dem Inforegister **Zeilen** die Option **Funktionen** , und klicken Sie dann auf **Zeile aufteilen** . Eine neue Zeile wird für Artikel 70200 mit 40 in Feld **Zu verarbeitende Menge** eingefügt.  
 6.  Geben Sie im Feld **Lagerplatzcode** W-02-0001 ein. Das Feld **Gebietscode** wird automatisch ausgefüllt.  
 
     Fahren Sie fort mit dem Registrieren der Einlagerung.  

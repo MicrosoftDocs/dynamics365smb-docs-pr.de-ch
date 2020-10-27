@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c8a1fb9e6491eb70d71ba86381c5925f939addf2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bb6abdb25db5567a49e394b3f13f257e3a97cf1d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785560"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921186"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Richten Sie Datenaustauschdefinitionen ein.
 Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] so einrichten, dass Daten in bestimmten Tabelle mit Daten in externen Dateien ausgetauscht werden, zum Beispiel zum Senden und Empfangen elektronischer Belege oder zum Importieren und Exportieren von Bankdaten und anderen Daten, wie Lohnabrechnung, Währungswechselkursen und Artikelkatalogen. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  
@@ -42,7 +42,7 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
 Dies wird in den folgenden Verfahren beschrieben.  
 
 > [!TIP]
-> Um zu sehen welche Codeunits Microsoft in bestehenden Definitionen im Standardprodukt verwendet, überprüfen Sie die drei **Codeunit**-Felder in der Kopfzeile der Seite **Feldzuordnung** für jede Definition.
+> Um zu sehen welche Codeunits Microsoft in bestehenden Definitionen im Standardprodukt verwendet, überprüfen Sie die drei **Codeunit** -Felder in der Kopfzeile der Seite **Feldzuordnung** für jede Definition.
 
 #### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a>Die Formatierung der Zeilen und Spalten in der Datei beschreiben  
 1. Geben Sie im Feld **Suchen** einen Wert für **Datenaustauschdefinitionen** ein, und wählen Sie dann den zugehörigen Link aus.  
@@ -53,8 +53,8 @@ Dies wird in den folgenden Verfahren beschrieben.
     |---------------------------------|---------------------------------------|  
     |**Code**|Geben Sie einen Code zur Identifizierung der Datenaustauschdefinition ein.|  
     |**Name**|Geben Sie einen Namen für die Datenaustauschdefinition ein.|  
-    |**Dateityp**|Geben Sie an, für welche Art von Datei die Datenaustauschdefinition verwendet wird. Sie können zwischen vier Dateitypen auswählen:<br /><br /> -   **XML**: Geschichtete Zeichenfolgen des Inhalts und des Aufschlags, die von Tags, die die Funktion angeben, umgeben sind.<br />-   **Variabler Text**: Datensätze haben eine variable Länge und sind durch ein Zeichen, z. B. ein Komma oder Semikolon geteilt. Auch bekannt als *Datei mit Trennzeichen*.<br />-   **Fester Text**: Datensätze haben dieselbe Länge, unter Verwendung von Auffüllzeichen, und mit jedem Datensatz auf einer separaten Zeile. Auch bekannt als *Datei mit fester Breite*.<br />- **Json**: Geschichtete Zeichenfolgen des Inhalts in JavaScript.|  
-    |**Art**|Geben Sie an, für welche Art von Geschäftstätigkeit die Datenaustauschdefinition verwendet wird, zum Beispiel **Zahlungsexport**.|  
+    |**Dateityp**|Geben Sie an, für welche Art von Datei die Datenaustauschdefinition verwendet wird. Sie können zwischen vier Dateitypen auswählen:<br /><br /> -   **XML** : Geschichtete Zeichenfolgen des Inhalts und des Aufschlags, die von Tags, die die Funktion angeben, umgeben sind.<br />-   **Variabler Text** : Datensätze haben eine variable Länge und sind durch ein Zeichen, z. B. ein Komma oder Semikolon geteilt. Auch bekannt als *Datei mit Trennzeichen* .<br />-   **Fester Text** : Datensätze haben dieselbe Länge, unter Verwendung von Auffüllzeichen, und mit jedem Datensatz auf einer separaten Zeile. Auch bekannt als *Datei mit fester Breite* .<br />- **Json** : Geschichtete Zeichenfolgen des Inhalts in JavaScript.|  
+    |**Art**|Geben Sie an, für welche Art von Geschäftstätigkeit die Datenaustauschdefinition verwendet wird, zum Beispiel **Zahlungsexport** .|  
     |**Codeunit zur Datenverarbeitung**|Geben Sie die Codeunit an, die Daten in und aus Tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] überträgt.|  
     |**Überprüfungs-Codeunit**|Geben Sie die Codeunit an, die verwendet wird, um Daten gegen vordefinierte Geschäftsregeln zu validieren.|  
     |**Lese-/Schreibe-Codeunit**|Geben Sie die Codeunit an, die importierte Daten vor der Zuordnung und exportierte Daten nach der Zuordnung verarbeitet.|  
@@ -86,7 +86,7 @@ Dies wird in den folgenden Verfahren beschrieben.
 
      Beschreiben Sie dann das Formatieren der Spalten in der Datendatei, indem Sie die Felder im Inforegister **Spaltendefinitionen** wie in der unten stehenden Tabelle beschrieben ausfüllen. Sie können die Strukturdatei verwenden, zum Beispiel eine XSD-Datei, damit das Inforegister mithilfe der Datendatei mit den relevanten Elementen vorab ausgefüllt wird. Weitere Informationen finden Sie im Thema [Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinition](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) in der Anwendungshilfe.  
 
-6. Wählen Sie im Inforegister **Spaltendefinitionen** die Option **Dateistruktur abrufen**.  
+6. Wählen Sie im Inforegister **Spaltendefinitionen** die Option **Dateistruktur abrufen** .  
 7. Wählen Sie auf der Seite **Datenstruktur abrufen** die zugehörige Strukturdatei aus, und wählen Sie dann die Schaltfläche **OK** aus. Die Zeilen im Inforegister **Spaltendefinitionen** werden entsprechend der Struktur der Datendatei ausgefüllt.  
 8. Füllen Sie im Inforegister **Spaltendefinitionen** die Felder gemäss der Beschreibung in der folgenden Tabelle aus oder bearbeiten Sie sie.  
 
@@ -94,9 +94,9 @@ Dies wird in den folgenden Verfahren beschrieben.
     |---------------------------------|---------------------------------------|  
     |**Spaltennr.**|Geben Sie die Nummer an, die die Spaltenposition auf der Zeile in der Datei wiedergibt.<br /><br /> Für XML-Dateien geben Sie die Nummer an, die den Elementtyp in der Datei widergespiegelt, die die Daten enthält.|  
     |**Name**|Geben Sie den Namen der Spalte an.<br /><br /> Für XML-Dateien geben Sie die Markierung an, die die auszutauschenden Daten markiert.|  
-    |**Datentyp**|Geben Sie an, ob die auszutauschenden Daten den Typ **Text**, **Datum** oder **Dezimal** haben.|  
-    |**Datenformat**|Geben Sie das Format der Daten an, sofern vorhanden. Beispielsweise **MM-tt-jjjj**, wenn der Datentyp **Datum** ist. **Hinweis:** Für den Export geben Sie das Datenformat entsprechend [!INCLUDE[d365fin](includes/d365fin_md.md)] an. Für den Import geben Sie das Datenformat entsprechend .Net Framework an. Weitere Informationen finden Sie unter [Standardformatzeichenfolgen für Datum und Uhrzeiten](https://go.microsoft.com/fwlink/?LinkID=323466).|  
-    |**Datenformatierungskultur**|Geben Sie die Kultur des Datenformats an, sofern vorhanden. Beispielsweise **en-US**, wenn der Datentyp **Dezimal** ist, um sicherzustellen, dass ein Komma als Dezimaltrennzeichen verwendet wird, entsprechend dem US-Format. Weitere Informationen finden Sie unter [Standardformatzeichenfolgen für Datum und Uhrzeiten](https://go.microsoft.com/fwlink/?LinkID=323466). **Hinweis:** Dieses Feld ist nur für den Import relevant.|  
+    |**Datentyp**|Geben Sie an, ob die auszutauschenden Daten den Typ **Text** , **Datum** oder **Dezimal** haben.|  
+    |**Datenformat**|Geben Sie das Format der Daten an, sofern vorhanden. Beispielsweise **MM-tt-jjjj** , wenn der Datentyp **Datum** ist. **Hinweis:** Für den Export geben Sie das Datenformat entsprechend [!INCLUDE[d365fin](includes/d365fin_md.md)] an. Für den Import geben Sie das Datenformat entsprechend .Net Framework an. Weitere Informationen finden Sie unter [Standardformatzeichenfolgen für Datum und Uhrzeiten](https://go.microsoft.com/fwlink/?LinkID=323466).|  
+    |**Datenformatierungskultur**|Geben Sie die Kultur des Datenformats an, sofern vorhanden. Beispielsweise **en-US** , wenn der Datentyp **Dezimal** ist, um sicherzustellen, dass ein Komma als Dezimaltrennzeichen verwendet wird, entsprechend dem US-Format. Weitere Informationen finden Sie unter [Standardformatzeichenfolgen für Datum und Uhrzeiten](https://go.microsoft.com/fwlink/?LinkID=323466). **Hinweis:** Dieses Feld ist nur für den Import relevant.|  
     |**Länge**|Geben Sie die Länge der Zeile mit fester Breite an, die diese Spalte enthält, wenn die Datendatei den Typ **Fester Text** hat.|  
     |**Beschreibung**|Geben Sie eine Beschreibung der Spalte zur Information ein.|  
     |**Pfad**|Geben Sie die Position des Elements im zugehörigen XML-Schema an.|  
@@ -108,7 +108,7 @@ Dies wird in den folgenden Verfahren beschrieben.
  Der nächste Schritt bei der Erstellung einer Datenaustauschdefinition besteht darin, zu entscheiden, welche Spalten oder XML-Elemente welchen Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] zugeordnet werden sollen.  
 
 > [!NOTE]  
->  Die spezielle Zuordnung hängt vom Geschäftszweck der Datendatei ab, die ausgetauscht werden soll, sowie von lokalen Variationen. Selbst der SEPA-Bankstandard verfügt über lokale Variationen. [!INCLUDE[d365fin](includes/d365fin_md.md)] Stützimport von SEPA Bankkontoauszug CAMT archiviert Out\-of\-the\-Box. Dies wird durch den **SEPA CAMT**-Datenaustausch-Definitionsdatensatzcode auf der Seite **Datenaustauschdefintion** angezeigt. Informationen über die bestimmte Feldzuordnung dieser SEPA CAMT Unterstützung, siehe. [Feld-Zuordnung, wenn sie SEPA CAMT Dateien importieren](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  Die spezielle Zuordnung hängt vom Geschäftszweck der Datendatei ab, die ausgetauscht werden soll, sowie von lokalen Variationen. Selbst der SEPA-Bankstandard verfügt über lokale Variationen. [!INCLUDE[d365fin](includes/d365fin_md.md)] Stützimport von SEPA Bankkontoauszug CAMT archiviert Out\-of\-the\-Box. Dies wird durch den **SEPA CAMT** -Datenaustausch-Definitionsdatensatzcode auf der Seite **Datenaustauschdefintion** angezeigt. Informationen über die bestimmte Feldzuordnung dieser SEPA CAMT Unterstützung, siehe. [Feld-Zuordnung, wenn sie SEPA CAMT Dateien importieren](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-d365fin"></a>Spalten in der Datendatei Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] zuordnen  
 > [!TIP]
@@ -124,7 +124,7 @@ Dies wird in den folgenden Verfahren beschrieben.
     |**Name**|Geben Sie einen Namen für den Zuordnungssetup ein.|  
     |**Vorabzuordnungs-Codeunit**|Geben Sie die Codeunit an, die die Zuordnung zwischen Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] und externen Daten vorbereitet.|  
     |**Zuordnungs-Codeunit**|Geben Sie die Codeunit an, die verwendet wird, um die angegebenen Spalten oder XML-Datenelemente den Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] zuzuordnen.|  
-    |**Codeunit für die Zuordnung im Nachhinein**|Geben Sie die Codeunit an, die die Zuordnung zwischen Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] und externen Daten vervollständigt. **Hinweis**: Bei Verwendung der Funktion der AMC Banking 365 Fundamentals-Erweiterung wandelt codeunit exportierte Daten aus [!INCLUDE[d365fin](includes/d365fin_md.md)] in ein für den Export bereitstehendes generisches Format um. Für den Import konvertiert die Codeunit externe Daten zu einem für den Import zu [!INCLUDE[d365fin](includes/d365fin_md.md)] geeigneten Format.|  
+    |**Codeunit für die Zuordnung im Nachhinein**|Geben Sie die Codeunit an, die die Zuordnung zwischen Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] und externen Daten vervollständigt. **Hinweis** : Bei Verwendung der Funktion der AMC Banking 365 Fundamentals-Erweiterung wandelt codeunit exportierte Daten aus [!INCLUDE[d365fin](includes/d365fin_md.md)] in ein für den Export bereitstehendes generisches Format um. Für den Import konvertiert die Codeunit externe Daten zu einem für den Import zu [!INCLUDE[d365fin](includes/d365fin_md.md)] geeigneten Format.|  
 
 3.  Geben Sie im Inforegister **Feldzuordnung** an, welche Spalten welchen Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] zugeordnet sind, indem Sie die Felder wie in der folgenden Tabelle beschrieben ausfüllen.  
 
@@ -142,7 +142,7 @@ Dies wird in den folgenden Verfahren beschrieben.
 Die Datenaustauschdefinition kann jetzt für Benutzer aktiviert werden. Weitere Informationen finden Sie unter [Elektronischen Dokumentenversand und -empfang einrichten](across-how-to-set-up-electronic-document-sending-and-receiving.md), [SEPA-Überweisung einrichten](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Zahlungen mit SEPA-Lastschrift einziehen](finance-collect-payments-with-sepa-direct-debit.md) und [Zahlungen mit der AMC Banking 365 Fundamentals-Erweiterung oder per SEPA-Überweisung durchführen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### <a name="transformation-rules"></a>Transformationsregeln
-Wenn die Werte in den Feldern, die Sie zuordnen, unterschiedlich sind, müssen Sie Transformationsregeln für Datenaustauschdefinitionen verwenden, um sie anzugleichen. Sie definieren Transformationsregeln für Datenaustauschdefinitionen, indem Sie eine vorhandene Definition öffnen oder eine neue Definition erstellen, dann auf dem Inforegister **Zeilendefinitionen** die Option **Verwalten**, und dann **Feldzuordnung** wählen. Vordefinierte Regeln werden bereitgestellt, aber Sie können auch eigene Regeln erstellen. In der folgenden Tabelle werden die Transformationstypen beschrieben, die Sie ausführen können.
+Wenn die Werte in den Feldern, die Sie zuordnen, unterschiedlich sind, müssen Sie Transformationsregeln für Datenaustauschdefinitionen verwenden, um sie anzugleichen. Sie definieren Transformationsregeln für Datenaustauschdefinitionen, indem Sie eine vorhandene Definition öffnen oder eine neue Definition erstellen, dann auf dem Inforegister **Zeilendefinitionen** die Option **Verwalten** , und dann **Feldzuordnung** wählen. Vordefinierte Regeln werden bereitgestellt, aber Sie können auch eigene Regeln erstellen. In der folgenden Tabelle werden die Transformationstypen beschrieben, die Sie ausführen können.
 
 |Option|Beschreibung|
 |---------|---------|
@@ -150,7 +150,7 @@ Wenn die Werte in den Feldern, die Sie zuordnen, unterschiedlich sind, müssen S
 |**Kleinbuchstaben**|Kleinschreibung aller Buchstaben.|
 |**Titelschreibung**|Grossschreibung des ersten Buchstabens jedes Wortes.|
 |**Kürzen**|Leerzeichen vor und nach dem Wert entfernen.|
-|**Unterzeichenfolge**|Transformation eines bestimmten Teilwerts. Um anzugeben, wo die Umwandlung gestartet werden soll, wählen Sie entweder eine **Startposition** oder einen **Starttext**. Die Startposition ist eine Zahl, die das erste umzuwandelnde Zeichen darstellt. Der Anfangstext ist der Buchstabe unmittelbar vor dem zu ersetzenden Buchstaben. Wenn Sie mit dem ersten Buchstaben des Werts beginnen möchten, verwenden Sie stattdessen eine Startposition. Um anzugeben, wo die Umwandlung gestoppt werden soll, wählen Sie entweder **Länge**, was die Anzahl der zu ersetzenden Zeichen ist, oder **Nachtext** aus, was das Zeichen unmittelbar nach dem letzten zu transformierenden Zeichen ist.|
+|**Unterzeichenfolge**|Transformation eines bestimmten Teilwerts. Um anzugeben, wo die Umwandlung gestartet werden soll, wählen Sie entweder eine **Startposition** oder einen **Starttext** . Die Startposition ist eine Zahl, die das erste umzuwandelnde Zeichen darstellt. Der Anfangstext ist der Buchstabe unmittelbar vor dem zu ersetzenden Buchstaben. Wenn Sie mit dem ersten Buchstaben des Werts beginnen möchten, verwenden Sie stattdessen eine Startposition. Um anzugeben, wo die Umwandlung gestoppt werden soll, wählen Sie entweder **Länge** , was die Anzahl der zu ersetzenden Zeichen ist, oder **Nachtext** aus, was das Zeichen unmittelbar nach dem letzten zu transformierenden Zeichen ist.|
 |**Ersetzen**|Suchen Sie einen Wert und ersetzen Sie ihn durch einen anderen. Dies ist nützlich, um einfache Werte wie ein bestimmtes Wort zu ersetzen.|
 |**Regulärer Ausdruck – Ersetzen**|Verwenden Sie einen regulären Ausdruck als Teil einer Such- und Ersetzungsoperation. Dies ist nützlich, um mehrere oder komplexere Werte zu ersetzen.|
 |**Entfernen von nicht alphanumerischen Zeichen**|Löschen Sie Zeichen, die keine Buchstaben oder Zahlen sind, z. B. Symbole oder Sonderzeichen.|

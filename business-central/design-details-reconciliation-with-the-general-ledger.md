@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 73005b4c9886e44cf7a9e23e75c247c3739d19ec
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1d65156d46749e7d06bb746899cee4aa439a1e93
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787310"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917290"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetails: Abgleich mit der Finanzbuchhaltung
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen, Fertigprodukte aus der Produktion oder Abgängen, werden die Mengen- und die Wertänderungen des Lagerbestandes in den Lagerposten bzw. in den Wertposten festgehalten. Verkaufslieferungen, Einkaufsrechnungen, Fertigprodukte aus der Produktion oder Abgänge, werden die Mengen- und die Wertänderungen des Lagerbestandes in den Lagerposten bzw. in den Fibuposten festgehalten.  
@@ -26,14 +26,14 @@ Es gibt zwei Möglichkeiten, Inventurposten mit der Fibuposten abzustimmen:
 * Automatisch, bei jeder Buchung einer Lagertransaktion.  
 
 ## <a name="post-inventory-cost-to-gl-batch-job"></a>Buchen der Stapelverarbeitung "Lagerregulierung buchen"  
-Wenn Sie diesen **Lagerreg. buchen**-Batchauftrag ausführen, werden auf Basis der Wertposten allgemeine Fibuposten erstellt. Sie können Fibuposten für die einzelnen Wertposten summieren oder Fibuposten für jede Kombination aus Buchungsdatum, Lagerortcode, Lagerbuchungsgruppe, Geschäftsbuchungsgruppe und Produktbuchungsgruppe erstellen.  
+Wenn Sie diesen **Lagerreg. buchen** -Batchauftrag ausführen, werden auf Basis der Wertposten allgemeine Fibuposten erstellt. Sie können Fibuposten für die einzelnen Wertposten summieren oder Fibuposten für jede Kombination aus Buchungsdatum, Lagerortcode, Lagerbuchungsgruppe, Geschäftsbuchungsgruppe und Produktbuchungsgruppe erstellen.  
 
 Die Buchungsdaten der Fibuposten werden auf das Buchungsdatum des entsprechenden Wertpostens gesetzt, ausser wenn der Wertposten in eine geschlossene Buchhaltungsperiode fällt. In diesem Fall wird der Wertposten übersprungen, und Sie müssen entweder die Fibuposten-Einrichtung oder die Benutzereinrichtung ändern, um Buchungen in dem Datumsbereich zu ermöglichen.  
 
-Während Sie die Stapelverarbeitung **Lagerreg. buchen** ausführen, könnten Sie auf Fehler treffen, die ihre Ursache in fehlender Einrichtung oder nicht kompatibler Dimensionseinrichtung haben. Wenn die Stapelverarbeitung auf Fehler in der Dimensionseinrichtung stösst, setzt sie diese Fehler ausser Kraft und verwendet die Dimensionen des Wertpostens. Bei anderen Fehlern überspringt die Stapelverarbeitung das Buchen der Wertposten und listet die Fehler am Ende des Berichts im Abschnitt **Übersprungene Artikel**auf. Um diese Artikel buchen zu können, müssen Sie zunächst die Fehler beheben. Wenn Sie eine Liste der Fehler anzeigen möchten, bevor Sie die Stapelverarbeitung **Lagerreg. buchen** ausführen, führen Sie den Bericht  Lagereinstandspreise buchen - Test aus. In dem Testbericht werden alle Fehler aufgelistet, die während der Testbuchung aufgetreten sind. Sie können die Fehler dann beheben und die Stapelverarbeitung zum Buchen der Lagerregulierung ausführen, ohne dass Posten übersprungen werden.  
+Während Sie die Stapelverarbeitung **Lagerreg. buchen** ausführen, könnten Sie auf Fehler treffen, die ihre Ursache in fehlender Einrichtung oder nicht kompatibler Dimensionseinrichtung haben. Wenn die Stapelverarbeitung auf Fehler in der Dimensionseinrichtung stösst, setzt sie diese Fehler ausser Kraft und verwendet die Dimensionen des Wertpostens. Bei anderen Fehlern überspringt die Stapelverarbeitung das Buchen der Wertposten und listet die Fehler am Ende des Berichts im Abschnitt **Übersprungene Artikel** auf. Um diese Artikel buchen zu können, müssen Sie zunächst die Fehler beheben. Wenn Sie eine Liste der Fehler anzeigen möchten, bevor Sie die Stapelverarbeitung **Lagerreg. buchen** ausführen, führen Sie den Bericht  Lagereinstandspreise buchen - Test aus. In dem Testbericht werden alle Fehler aufgelistet, die während der Testbuchung aufgetreten sind. Sie können die Fehler dann beheben und die Stapelverarbeitung zum Buchen der Lagerregulierung ausführen, ohne dass Posten übersprungen werden.  
 
 ## <a name="automatic-cost-posting"></a>Automatische Kostenbuchung  
-Um einzurichten, dass die Kostenbuchung im Fibuposten automatisch ausgeführt wird, wenn Sie eine Lagertransaktion buchen, wählen Sie das **Kosten automatisch buchen**-Kontrollkästchen auf der Seite **Bestand einrichten** aus. Das Buchungsdatum des Fibupostens ist das gleiche wie das Buchungsdatum des Lagerpostens.  
+Um einzurichten, dass die Kostenbuchung im Fibuposten automatisch ausgeführt wird, wenn Sie eine Lagertransaktion buchen, wählen Sie das **Kosten automatisch buchen** -Kontrollkästchen auf der Seite **Bestand einrichten** aus. Das Buchungsdatum des Fibupostens ist das gleiche wie das Buchungsdatum des Lagerpostens.  
 
 ## <a name="account-types"></a>Kontoarten  
 Während der Abstimmung werden Bestandswerte zum Bestandskonto auf der Bilanz gebucht. Der gleiche Betrag, aber mit umgekehrtem Vorzeichen, wird in das entsprechende Gegenkonto gebucht. Normalerweise ist das Gegenkonto ein Erfolgsrechnungskonto. Wenn Sie direkte Kosten im Zusammenhang mit Verbrauch oder Ausgabe buchen, ist das Gegenkonto jedoch ein Bilanzkonto. Die Art des Lagerpostens und des Wertpostens bestimmt, auf welches Fibukonto gebucht wird.  
@@ -43,7 +43,7 @@ Die Postenart gibt an, in welches Fibukonto die Buchung vorgenommen werden soll.
 ### <a name="example"></a>Beispiel  
 Das folgende Beispiel zeigt eine Fahrradkette, die aus eingekauften Gliedern gefertigt ist. In diesem Beispiel wird gezeigt, wie die verschiedenen Fibukontoarten in einem typischen Szenario verwendet werden.  
 
-Das Kontrollkästchen **Erwartete Soll-Kosten**, die auf der Seite **Lager-Einrichtung** ausgewählt ist und die folgenden Einstellungen werden festgelegt.  
+Das Kontrollkästchen **Erwartete Soll-Kosten** , die auf der Seite **Lager-Einrichtung** ausgewählt ist und die folgenden Einstellungen werden festgelegt.  
 
 Die nachstehende Tabelle zeigt, wie das Glied auf der Artikelkarte eingerichtet wird.  
 

@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0f2b5a2ce4fd53d9d487d20f7139d7b36c5387b5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0479efcd967c7188e38fff2fb1da76e461a1bda6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780499"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919602"
 ---
 # <a name="archive-documents"></a>Beleg archivieren
 Sie können Verkaufs- und Einkaufsaufträge, Offerten und Rücklieferungen sowie Rahmenaufträge archivieren, beispielsweise weil Sie eine Kopie eines Belegs zur späteren Wiederverwendung speichern möchten. Sie können ein Verkaufs- oder Einkaufsbeleg mehrmals archivieren, wobei Sie jedes Mal eine andere archivierte Version speichern.
 
 Für archivierte Belege, bei denen das Original immer noch vorhanden und nicht gebucht ist, können Sie die Funktion **Wiederherstellen** verwenden, um das Original mit der archivierten Version des Belegs zu überschreiben. Dies ist nützlich, wenn Sie die Inhalte eines Belegs auf einen früheren Zustand wiederherstellen müssen.
 
-Bei archivierten Belegen, bei denen das Original gelöscht ist, können Sie den Inhalt nur durch Kopieren der Daten wiederverwenden, z. B. mit der Funktion **Aus Beleg kopieren**.   
+Bei archivierten Belegen, bei denen das Original gelöscht ist, können Sie den Inhalt nur durch Kopieren der Daten wiederverwenden, z. B. mit der Funktion **Aus Beleg kopieren** .   
 
 ## <a name="to-set-up-automatic-document-archiving"></a>So richten Sie die automatische Archivierung von Belegen ein  
 Sie können die automatische Archivierung von Verkaufs- und Einkaufsbelegen einrichten – beispielsweise Offerten, Rahmenbestellungen und Aufträge – bevor Sie Belege löschen.
@@ -33,7 +33,7 @@ Nachfolgend wird beschrieben, wie die automatische Archivierung von Verkaufsbele
 
 |Feld|Description|
 |-----|-----------|
-|**Verkaufsofferten archivieren**|**Nie**, wenn Verkaufsbelege beim Löschen nie archiviert werden sollen. **Frage**, wenn der Benutzer angeben soll, ob er Verkaufsbelege beim Löschen archivieren möchte. **Immer**, wenn Verkaufsofferten automatisch beim Löschen archiviert werden sollen.|
+|**Verkaufsofferten archivieren**|**Nie** , wenn Verkaufsbelege beim Löschen nie archiviert werden sollen. **Frage** , wenn der Benutzer angeben soll, ob er Verkaufsbelege beim Löschen archivieren möchte. **Immer** , wenn Verkaufsofferten automatisch beim Löschen archiviert werden sollen.|
 |**Rahmenaufträge archivieren**|Wählen Sie diese Option aus, um Rahmenaufträge bei jedem Löschen automatisch zu archivieren.|
 |**Aufträge und Reklamationen archivieren**|Wählen Sie diese Option aus, um Verkaufsaufträge bei jedem Löschen automatisch zu archivieren.|
 
@@ -42,7 +42,7 @@ Nachfolgend wird beschrieben, wie Sie einen Auftrag archivieren Die Schritte fü
 
 1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie einen Verkaufsauftrag für Artikel, die Sie archivierne möchten.  
-3.  Wählen Sie die **Beleg archivieren**-Aktion aus.
+3.  Wählen Sie die **Beleg archivieren** -Aktion aus.
 
 Der Auftrag ist archiviert. Sie können sie auf der Seite **Archivierte Verkaufsaufträge** anzeigen.
 

@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9763f513f4c80247f246cd835c30335ffd0d64b2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ac580a9ffebc8d8a3587a9802855af41ca7402cc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787610"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922056"
 ---
 # <a name="design-details-item-tracking-availability"></a>Designdetails: Artikeltrackingverfügbarkeit
 Die Seiten **Artikeltrackingzeilen** und **Artikeltracking-Zusammenfassung** stellen dynamische Verfügbarkeitsinformationen für Serien- oder Chargennummern bereit. Der Zweck besteht darin, die Transparenz für Benutzer bei ausgehenden Belegen, wie etwa Verkaufsaufträgen, zu erhöhen, indem ihnen gezeigt wird, welche Seriennummern oder wie viele Einheiten einer Charge derzeit auf anderen offenen Belegen zugewiesen sind. Dadurch wird die Ungewissheit reduziert, die durch doppelte Zuteilung entsteht und den Auftragsbearbeiter wird das Vertrauen vermittelt, dass die Artikeltrackingnummern und die Daten, die sie in nicht gebuchten Verkaufsaufträgen versprechen, erfüllt werden können. Weitere Informationen finden Sie unter [Designdetails: Artikeltrackingzeilenseite](design-details-item-tracking-lines-window.md).  
 
- Bei Öffnen der Seite **Artikeltrackingzeilen** werden Daten aus den Tabellen **Lagerposten** und **Reservierungsposten** abgerufen, jedoch ohne Datumsfilter. Wenn Sie das Feld **Seriennr**. oder das Feld **Chargennr**. auswählen, wird die Seite geöffnet und eine Zusammenfassung der **Artikeltrackinginformationen** in der Tabelle **Reservierungsposten** angezeigt. Die Zusammenfassung enthält die folgenden Informationen über jede Serien- oder Chargennummer auf der Artikeltrackingzeile:  
+ Bei Öffnen der Seite **Artikeltrackingzeilen** werden Daten aus den Tabellen **Lagerposten** und **Reservierungsposten** abgerufen, jedoch ohne Datumsfilter. Wenn Sie das Feld **Seriennr** . oder das Feld **Chargennr** . auswählen, wird die Seite geöffnet und eine Zusammenfassung der **Artikeltrackinginformationen** in der Tabelle **Reservierungsposten** angezeigt. Die Zusammenfassung enthält die folgenden Informationen über jede Serien- oder Chargennummer auf der Artikeltrackingzeile:  
 
 |Feld|Description|  
 |---------------------------------|---------------------------------------|  
@@ -32,7 +32,7 @@ Die Seiten **Artikeltrackingzeilen** und **Artikeltracking-Zusammenfassung** ste
 > [!NOTE]  
 >  Sie können die Informationen in der vorangehenden Tabelle anzeigen, indem Sie die Funktion **Einträge auswählen** auf der Seite **Artikeltrackingzeile** verwenden.  
 
- Um die Datenbankleistung beizubehalten, werden Verfügbarkeitsdaten nur einmal aus der Datenbank abgerufen, wenn Sie die Seite **Artikeltrackingzeilen** öffnen und die **Verfügbarkeit aktualisieren**-Funktion im Fenster verwenden.  
+ Um die Datenbankleistung beizubehalten, werden Verfügbarkeitsdaten nur einmal aus der Datenbank abgerufen, wenn Sie die Seite **Artikeltrackingzeilen** öffnen und die **Verfügbarkeit aktualisieren** -Funktion im Fenster verwenden.  
 
 ## <a name="calculation-formula"></a>Formel  
  Wie in der vorangehenden Tabelle beschrieben, wird die Verfügbarkeit einer bestimmten Serien- oder Chargennummer wie folgt berechnet.  

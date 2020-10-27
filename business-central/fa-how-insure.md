@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f101f644e861f681ca96336882bdce91e4a25a61
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 38e983f1491d4836db6a2d3f294d29e1b03c53d9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780999"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920686"
 ---
 # <a name="insure-fixed-assets"></a>Versichern von Anlagen
 Eine Versicherungspolice für eine Anlage wird durch eine Versicherungskarte angezeigt. Sie können eine Anlage einer Versicherungspolice oder mehreren Anlagen einer Versicherungspolice zuzuordnen.
@@ -36,7 +36,7 @@ Nachdem Sie eine Anlage einer Versicherungspolice zugewiesen haben, wird das Kon
 ## <a name="to-create-or-modify-an-insurance-card"></a>So erstellen oder ändern Sie eine Versicherungskarte
 Eine Versicherungspolice für eine Anlage muss durch eine Versicherungskarte angezeigt werden.
 
-Wenn Sie Informationen über Änderungen in der Deckungssumme erhalten, müssen Sie diese in der **Versicherungskarte**aktualisieren, um sicherzustellen, dass die Versicherungsdeckung korrekt angezeigt wird.  
+Wenn Sie Informationen über Änderungen in der Deckungssumme erhalten, müssen Sie diese in der **Versicherungskarte** aktualisieren, um sicherzustellen, dass die Versicherungsdeckung korrekt angezeigt wird.  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Versicherung** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu** aus, um eine neue Karte für eine Versicherungspolice zu erstellen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -73,7 +73,7 @@ Sie können die Stapelverarbeitung **Indexiere Versicherung** verwenden, um den 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bietet dedizierte Berichte und Statistikseiten, die dazu verwendet werden können, Versicherungspolicen zu analysieren und zu überprüfen, ob Ihre Anlagen über- oder unterversichert sind.  
 
 ### <a name="overview-of-insurance-policies"></a>Übersicht der Versicherungspolicen
-Gibt einen Überblicks über die Versicherungspolicen durch Drucken des Berichts **Versicherung-Liste**. Der Bericht zeigt die einzelnen Policen und die wichtigsten Felder der Versicherungskarten an.  
+Gibt einen Überblicks über die Versicherungspolicen durch Drucken des Berichts **Versicherung-Liste** . Der Bericht zeigt die einzelnen Policen und die wichtigsten Felder der Versicherungskarten an.  
 
 ### <a name="insurance-coverage"></a>Versicherungsdeckung
 Um zu sehen, welche Versicherungspolicen welche Anlagen in welcher Höhe abdecken, können Sie den Bericht **Versicherung – Vers. Summe** ausdrucken oder anzeigen.  
@@ -81,10 +81,10 @@ Um zu sehen, welche Versicherungspolicen welche Anlagen in welcher Höhe abdecke
 ### <a name="overunder-coverage"></a>Unter-/Überversicherung
 Folgendermassen können Sie prüfen, ob Anlagen über- oder unterversichert sind:  
 
-* Die Seite **Versicherungsstatistik**. Ein positiver Betrag in dem Feld **Über-/Unterversichert** bedeutet, dass die Anlage überversichert ist. Ein negativer Betrag zeigt eine Unterversicherung an.  
-* Die Seite **Anlagenstatistik**. Wählen Sie das Feld **Versicherte Summe**, um die Seite **Versicherungsposten** anzuzeigen.  
-* Der Bericht **Unter-/Überversicherung**.  
-* Der Bericht **Versicherungsanalyse**.  
+* Die Seite **Versicherungsstatistik** . Ein positiver Betrag in dem Feld **Über-/Unterversichert** bedeutet, dass die Anlage überversichert ist. Ein negativer Betrag zeigt eine Unterversicherung an.  
+* Die Seite **Anlagenstatistik** . Wählen Sie das Feld **Versicherte Summe** , um die Seite **Versicherungsposten** anzuzeigen.  
+* Der Bericht **Unter-/Überversicherung** .  
+* Der Bericht **Versicherungsanalyse** .  
 
 ### <a name="uninsured-fixed-assets"></a>Unversicherte Anlagen
 Um zu prüfen, ob Sie vergessen haben, eine Anlage einer Versicherungspolice zuzuweisen, können Sie den Bericht **Versicherung - Unvers. Anlagen** drucken oder anzeigen. Dieser Bericht zeigt Anlagen an, für die noch keine Beträge in den Versicherungsposten gebucht wurden.  
@@ -93,13 +93,13 @@ Um zu prüfen, ob Sie vergessen haben, eine Anlage einer Versicherungspolice zuz
 Sie können sich die einzelnen Posten anzeigen lassen, die Sie in den Versicherungsposten erstellt haben.  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Versicherung** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie die entsprechende Versicherungspolice aus, und wählen Sie dann die Aktion **Versicherungsposten**.  
+2. Wählen Sie die entsprechende Versicherungspolice aus, und wählen Sie dann die Aktion **Versicherungsposten** .  
 
 ## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>So zeigen Sie den gesamten Versicherungswert von Anlagen an:
 Eine dedizierte Matrixseite zeigt die Versicherungswerte jeder Anlage und jeder Versicherungspolice als Ergebnis der versicherungsbezogenen Beträge an, die von Ihnen gebucht wurden.  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Versicherung** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie die entsprechende Versicherungspolice aus, und wählen Sie dann die Aktion **Versicherte Summe pro Anlage**.  
+2. Wählen Sie die entsprechende Versicherungspolice aus, und wählen Sie dann die Aktion **Versicherte Summe pro Anlage** .  
 3. Füllen Sie die Felder je nach Bedarf aus.  
 4. Wählen Sie die Aktion **Matrix anzeigen** aus.  
 5. Um die zu Grunde liegenden Versicherungsposten anzuzeigen, aktivieren Sie einen Wert in der Matrix.  

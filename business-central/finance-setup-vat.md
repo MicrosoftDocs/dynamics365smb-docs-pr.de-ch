@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bbaf458e39ec45dcbcb34bd50e38feb70fd8426b
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: fe12cf42dd2f7b763c5a2940e70f6db4617e1005
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611681"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919552"
 ---
 # <a name="set-up-value-added-tax"></a>Mehrwertsteuer einrichten
 
@@ -61,9 +61,9 @@ Um MwSt-Nr. einzurichten, gehen Sie folgendermassen vor:
     > Sie können andere Zeichen verwenden, sofern sie immer im Land- oder Bereichsformat vorkommen. Wenn Sie beispielsweise eine Periode oder einen Bindestrich zwischen und Nummern einfügen möchten, können Sie ##.####.### oder @@-###-### definieren.  
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>MWST.-Geschäftsbuchungsgruppen einrichten:
-MWST.-Geschäftsbuchungsgruppen sollten die Märkte darstellen, in denen Sie Geschäfte mit Debitoren und Kreditoren tätigen, und definieren, wie die Mehrwertsteuer in jedem Zielmarkt berechnet und gebucht werden. Beispiele von MwSt.-Produktbuchungsgruppen sind **Inland** und **Europäischen Union (EU)**.  
+MWST.-Geschäftsbuchungsgruppen sollten die Märkte darstellen, in denen Sie Geschäfte mit Debitoren und Kreditoren tätigen, und definieren, wie die Mehrwertsteuer in jedem Zielmarkt berechnet und gebucht werden. Beispiele von MwSt.-Produktbuchungsgruppen sind **Inland** und **Europäischen Union (EU)** .  
 
-Verwenden Sie aussagekräftige Codes, an die Sie sich leicht erinnern können, z. B. **EU** **Nicht-EU** oder **Inland**. Dieser Code muss eindeutig sein. Sie können beliebig viele Codes einrichten, aber es ist nicht möglich, denselben Code zweimal in einer Tabelle zu verwenden.
+Verwenden Sie aussagekräftige Codes, an die Sie sich leicht erinnern können, z. B. **EU** **Nicht-EU** oder **Inland** . Dieser Code muss eindeutig sein. Sie können beliebig viele Codes einrichten, aber es ist nicht möglich, denselben Code zweimal in einer Tabelle zu verwenden.
 
 Um eine MWST.-Geschäftsbuchungsgruppe einzurichten, gehen Sie folgendermassen vor:
 
@@ -74,7 +74,7 @@ Sie richten Vorgabe MWST-Geschäftsbuchungsgruppen ein, indem Sie sie mit den Ge
 
 ## <a name="to-set-up-vat-product-posting-groups"></a>MWST.-Produktbuchungsgruppen einrichten:
 Mithilfe der MWST.-Produktbuchungsgruppencodes wird die Berechnung und Buchung der MWST. gemäss der Art des gekauften Artikels oder der Art der verkauften Ressourcen bestimmt.  
-Es ist sinnvoll, Codes zu verwenden, an die man sich einfach erinnern kann, und die die Werte, wie **Keine MwSt** oder **Null**, **MwSt** oder **Reduziert** für 10% MwSt beschreiben, und **MwSt 25** oder **Standard** für 25% zu verwenden.
+Es ist sinnvoll, Codes zu verwenden, an die man sich einfach erinnern kann, und die die Werte, wie **Keine MwSt** oder **Null** , **MwSt** oder **Reduziert** für 10% MwSt beschreiben, und **MwSt 25** oder **Standard** für 25% zu verwenden.
 
 Um eine MWST.-Geschäftsbuchungsgruppe einzurichten, gehen Sie folgendermassen vor:
 
@@ -110,15 +110,15 @@ Die folgenden Abschnitten beschreiben, wie die MWST.-Buchungsgruppen einzelnen E
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Um MwSt-Geschäftsbuchungsgruppen Debitoren und Kreditoren zuzuweisen  
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Kunde** oder **Lieferant** ein und wählen Sie dann den entsprechenden Link.  
-2. Auf der Karte **Kunde** oder **Debitor** erweitern Sie das Inforegister **Fakturierung**.  
+2. Auf der Karte **Kunde** oder **Debitor** erweitern Sie das Inforegister **Fakturierung** .  
 3. Wählen Sie die MwSt-Geschäftsbuchungsgruppe aus.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Um MwSt-Produktbuchungsgruppen einzelnen Artikeln und Ressourcen zuzuweisen  
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Eintrag** oder **Ressource** ein, und wählen Sie dann den entsprechenden Link.  
 2. Führen Sie einen der folgenden Schritte aus:  
 
-* Auf der Karte **Artikel** erweitern Sie das Inforegister **Preis und Buchung**, und wählen Sie dann **Mehr anzeigen**, um das Feld **MwSt Produktbuchungsgruppe** anzuzeigen.  
-* Erweitern Sie auf der Karte **Ressource** das Inforegister **Fakturierung**.  
+* Auf der Karte **Artikel** erweitern Sie das Inforegister **Preis und Buchung** , und wählen Sie dann **Mehr anzeigen** , um das Feld **MwSt Produktbuchungsgruppe** anzuzeigen.  
+* Erweitern Sie auf der Karte **Ressource** das Inforegister **Fakturierung** .  
 3. Wählen Sie die MwSt-Produktbuchungsgruppe aus.  
 
 ## <a name="setting-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Einrichten von Klauseln zur Erläuterung der Mehrwertsteuerbefreiung oder nicht standardisierter Mehrwertsteuersätze
@@ -134,11 +134,11 @@ Sie können eine MWST-Klausel ändern oder löschen, und Ihre Änderungen werden
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **MwSt-Klauseln** ein und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **MwSt.-Klauseln** erstellen Sie eine neue Zeile.  
 3. Geben Sie im Feld **Code** eine Kennung für die Klausel ein. Nutzen Sie diesen Code, um die Klausel der MwSt-Buchungsgruppe zuzuweisen.  
-4. Geben Sie im Feld **Beschreibung** den Text für die Mehrwertsteuerbefreiung ein, den Sie für Belege, die Mehrwertsteuer enthalten können, anzeigen möchten. Geben Sie im Feld **Beschreibung 2**zusätzlichen Text ein, falls erforderlich. Der Text wird auf neuen Belegzeilen angezeigt.
-5. Wählen Sie die Aktion **Beschreibung nach Dokumenttyp**.
+4. Geben Sie im Feld **Beschreibung** den Text für die Mehrwertsteuerbefreiung ein, den Sie für Belege, die Mehrwertsteuer enthalten können, anzeigen möchten. Geben Sie im Feld **Beschreibung 2** zusätzlichen Text ein, falls erforderlich. Der Text wird auf neuen Belegzeilen angezeigt.
+5. Wählen Sie die Aktion **Beschreibung nach Dokumenttyp** .
 6. Über die **MWST-Klausel von Doc. Typ** Seite, füllen Sie die Felder aus, um festzulegen, welcher MWST-Befreiungstext für welche Dokumentart angezeigt werden soll.  
-7. Optional: Um die MWST-Klausel sofort einem Setup für die Mehrwertsteuerbuchung zuzuordnen, wählen Sie **Einrichtung**, und wählen Sie dann die Klausel. Wenn Sie warten möchten, können Sie die Klausel später auf der Seite **MWST Buchungsmatrix Einr.** zuordnen.  
-8. Optional: Um zu bestimmen wie die Mehrwertsteuerklausel übersetzt wird, wählen Sie die Aktion **Übersetzungen**.
+7. Optional: Um die MWST-Klausel sofort einem Setup für die Mehrwertsteuerbuchung zuzuordnen, wählen Sie **Einrichtung** , und wählen Sie dann die Klausel. Wenn Sie warten möchten, können Sie die Klausel später auf der Seite **MWST Buchungsmatrix Einr.** zuordnen.  
+8. Optional: Um zu bestimmen wie die Mehrwertsteuerklausel übersetzt wird, wählen Sie die Aktion **Übersetzungen** .
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>So weisen Sie eine MWST.-Klausel einer Buchungsgruppe zu
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **MWST-Buchungsmatrix** ein und wählen Sie dann den entsprechenden Link.  
@@ -148,7 +148,7 @@ Sie können eine MWST-Klausel ändern oder löschen, und Ihre Änderungen werden
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **MwSt-Klauseln** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Übersetzung** aus.  
 3. Im **Sprachcode** Feld wählen Sie die Sprache aus, in die Sie übersetzen.  
-4. Geben Sie in den Feldern **Beschreibung**und **Beschreibung 2**den Text ein, der eine Übersetzung der Beschreibungen ist. Dieser Text wird in den übersetzten MWST.-Berichten angezeigt.  
+4. Geben Sie in den Feldern **Beschreibung** und **Beschreibung 2** den Text ein, der eine Übersetzung der Beschreibungen ist. Dieser Text wird in den übersetzten MWST.-Berichten angezeigt.  
 
 ## <a name="to-create-a-vat-posting-setup-to-handle-import-vat"></a>Erstellen Sie eine MWST-Buchungsmatrix, um Einfuhrumsatzsteuer zu verarbeiten
 Die Einfuhrumsatzsteuerfunktion wird verwendet, wenn Sie einen Beleg buchen müssen, dessen gesamter Betrag als MWST. zu betrachten ist. Sie sehen dies, wenn Sie eine MWST-Rechnung für importierte Waren von der Steuerbehörde erhalten.  
@@ -169,7 +169,7 @@ Gewisse Unternehmen müssen Erwerbssteuer abführen, wenn Sie Handel mit anderen
 > Diese Regel gilt für den Handel mit Unternehmen, die in einem anderen EU-Land/in einer anderen EU-Region als umsatzsteuerpflichtig registriert sind. Wenn Sie direkt mit Verbrauchern in anderen EU-Ländern/-Regionen Geschäfte tätigen, sollten Sie sich bei den Salestaxbehörden über die geltenden Regeln für die MWST. informieren.  
 
 > [!TIP]  
-> Sie können überprüfen, ob ein Unternehmen als umsatzsteuerpflichtig registriert ist, wenn Sie den EU-MWST-Nummer-Überprüfungsdienst verwenden. Der Service ist in [!INCLUDE[d365fin](includes/d365fin_md.md)] kostenlos verfügbar. Weitere Informationen finden Sie im Abschnitt _MwSt-Registrierungsnummern in diesem Thema_.
+> Sie können überprüfen, ob ein Unternehmen als umsatzsteuerpflichtig registriert ist, wenn Sie den EU-MWST-Nummer-Überprüfungsdienst verwenden. Der Service ist in [!INCLUDE[d365fin](includes/d365fin_md.md)] kostenlos verfügbar. Weitere Informationen finden Sie im Abschnitt _MwSt-Registrierungsnummern in diesem Thema_ .
 
 ### <a name="sales-to-eu-countries-or-regions"></a>Verkäufe in EU-Länder oder Regionen
 Auf Verkäufe an umsatzsteuerpflichtige Unternehmen in anderen EU-Ländern/-Regionen wird keine MWST berechnet. Der Wert derartiger Verkäufe an EU-Länder/-Regionen muss separat auf der MWST.-Abrechnung ausgewiesen werden.  

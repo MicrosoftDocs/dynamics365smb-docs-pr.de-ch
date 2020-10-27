@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/07/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aa12b250f404f149d790b0768560cad958c26d31
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 83bb0691baada420d8360736b613d1fbb33690e4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787435"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922081"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetails: Ausgehender Lagerfluss
 
@@ -73,7 +73,7 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
 
 ### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Kommissionierung buchen oder Lagerbestandsumlagerung registrieren
 
- In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld**Menge** aus und bucht die Lagerkommissionierung oder registriert die Lagerbestandsumlagerung. Herkunftsbelege, die mit der Kommissionierung verknüpft sind, werden als geliefert oder verbraucht gebucht. Herkunftsbelege, die mit Lagerbestandsumlagerungen verknüpft sind, werden nicht gebucht.  
+ In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld **Menge** aus und bucht die Lagerkommissionierung oder registriert die Lagerbestandsumlagerung. Herkunftsbelege, die mit der Kommissionierung verknüpft sind, werden als geliefert oder verbraucht gebucht. Herkunftsbelege, die mit Lagerbestandsumlagerungen verknüpft sind, werden nicht gebucht.  
 
  Für Bestandskommissionierungen werden negative Lagerposten erstellt, es werden Lagerposten erstellt, und die Kommissionieranforderung wird gelöscht, wenn sie vollständig bearbeitet ist. Beispielsweise wird das Feld **Menge versendet** auf der Zeile des ausgehenden Herkunftsbelegs aktualisiert. Ein Beleg der gebuchten Lieferung wird erstellt, der beispielsweise den Verkaufsauftrag und die gelieferten Artikel angezeigt.  
 
@@ -93,7 +93,7 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
 
 ### <a name="3-create-warehouse-shipment"></a>3: Erstellen Sie einen neuen Warenausgang
 
- Auf der Seite **Lagerhaus Versand**erhält der Lieferungsmitarbeiter, der verantwortlich ist, die offenen Herkunftsbelegzeilen basierend auf der ausgehenden Lageranfrage. Einige Herkunftsbelegzeilen können zu einem Lieferungsbeleg zusammengefasst werden.  
+ Auf der Seite **Lagerhaus Versand** erhält der Lieferungsmitarbeiter, der verantwortlich ist, die offenen Herkunftsbelegzeilen basierend auf der ausgehenden Lageranfrage. Einige Herkunftsbelegzeilen können zu einem Lieferungsbeleg zusammengefasst werden.  
 
 ### <a name="4-release-shipment--create-warehouse-pick"></a>4: Lieferung freigeben/Kommissionierung erstellen
 
@@ -115,7 +115,7 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
 
  Der Benutzer, der für das Koordinieren von Kommissionierungen zuständig ist, ruft Kommissionierzeilen im **Kommissioniervorschlag** basierend auf Entnahmeanforderungen von Warenausgängen oder internen Arbeitsgänge mit Komponentenverbrauch ab. Der Benutzer wählt die zu kommissionierenden Zeilen und bereitet die Kommissionierungen vor, indem er angibt, aus welchen Lagerplätzen entnommen und in welche Lagerplätze eingelagert wird, und wie viele Einheiten bewegt werden. Die Lagerplätze können durch Einrichtung des Lagerorts oder der Arbeitsgangsressource vordefiniert werden.  
 
- Der Benutzer gibt Entnahmemethoden für optimierte Lagerdurchlaufzeit an und verwendet dann eine Funktion, um die entsprechenden Kommissionierungsbelege zu erstellen, die verschiedenen Lagermitarbeitern zugeordnet werden, die Kommissionierungen ausführen. Wenn die Kommissionierungen vollständig zugeordnet sind, werden die Zeilen im **Kommissioniervorschlag**gelöscht.  
+ Der Benutzer gibt Entnahmemethoden für optimierte Lagerdurchlaufzeit an und verwendet dann eine Funktion, um die entsprechenden Kommissionierungsbelege zu erstellen, die verschiedenen Lagermitarbeitern zugeordnet werden, die Kommissionierungen ausführen. Wenn die Kommissionierungen vollständig zugeordnet sind, werden die Zeilen im **Kommissioniervorschlag** gelöscht.  
 
 ### <a name="8-create-warehouse-pick-documents"></a>8: Kommissionierungsbelege erstellen
 

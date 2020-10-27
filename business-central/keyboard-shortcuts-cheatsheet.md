@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f5faf39d37081fc2afd15f23a6101580cdff66e6
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: c27d350ae95df7f07caa145bdde12a9762292fe8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617875"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921731"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Nur PC-Tastenkombinationskurzübersicht
 
@@ -23,7 +23,7 @@ ms.locfileid: "3617875"
 
 |Drücken Sie diese Tasten|Vorgehensweise|  
 |-|-|
-|Alt+F2<br />ALT+N<br />ALT+SHIFT+N<br />ALT+O<br />ALT+Q<br />ALT+NACH-OBEN-TASTE<br />ALT+NACH-UNTEN-TASTE<br />ALT+T<br />ALT+SHIFT+W<br />Ctrl+Ins<br />CTRL+DEL<br />Ctrl+Shift+F12<br />CTRL+F1<br />Ctrl+Click<br />Shift+F12<br />F5/CTRL+F5<br />TAB/UMSCHALT+TAB<br />F6/Shift+F6<br />|Infoboxbereich anzeigen und ausblenden.<br />Erstellen eines neuen Datensatzes<br />Schliessen Sie einen neu erstellten Datensatz und erstellen Sie einen neuen Datensatz.<br />Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu<br />Öffnen Sie **Mitteilen**<br />Öffnen Sie QuickInfo oder Überprüfungsfehler<br />Dropdown oder Suche öffnen<br />Öffnen der Seite **Meine Einstellungen**.<br />Öffnen Sie die aktuelle Karte oder das Beleg in einem neuen Fenster<br />Fügen Sie eine neue Zeile in einem Beleg hinzu<br />Löschen Sie die Zeile in einem Beleg, Erf.-Journal oder Arbeitsblatt<br />Maximieren Sie den Werbebuchungsteil auf einer Belegseite<br />Hilfe für die Seite öffnen<br />Navigieren Sie beim Personalisieren und Anpassen<br />Öffnen Sie den Rollen-Explorer, eine Funktionsübersicht.<br />Die Seite aktualisieren/neu laden.<br />Fokus auf das nächste/vorherige Element richten<br />Weiter zum nächsten Inforegister/Teil|
+|Alt+F2<br />ALT+N<br />ALT+SHIFT+N<br />ALT+O<br />ALT+Q<br />ALT+NACH-OBEN-TASTE<br />ALT+NACH-UNTEN-TASTE<br />ALT+T<br />ALT+SHIFT+W<br />Ctrl+Ins<br />CTRL+DEL<br />Ctrl+Shift+F12<br />CTRL+F1<br />Ctrl+Click<br />Shift+F12<br />F5/CTRL+F5<br />TAB/UMSCHALT+TAB<br />F6/Shift+F6<br />|Infoboxbereich anzeigen und ausblenden.<br />Erstellen eines neuen Datensatzes<br />Schliessen Sie einen neu erstellten Datensatz und erstellen Sie einen neuen Datensatz.<br />Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu<br />Öffnen Sie **Mitteilen**<br />Öffnen Sie QuickInfo oder Überprüfungsfehler<br />Dropdown oder Suche öffnen<br />Öffnen der Seite **Meine Einstellungen** .<br />Öffnen Sie die aktuelle Karte oder das Beleg in einem neuen Fenster<br />Fügen Sie eine neue Zeile in einem Beleg hinzu<br />Löschen Sie die Zeile in einem Beleg, Erf.-Journal oder Arbeitsblatt<br />Maximieren Sie den Werbebuchungsteil auf einer Belegseite<br />Hilfe für die Seite öffnen<br />Navigieren Sie beim Personalisieren und Anpassen<br />Öffnen Sie den Rollen-Explorer, eine Funktionsübersicht.<br />Die Seite aktualisieren/neu laden.<br />Fokus auf das nächste/vorherige Element richten<br />Weiter zum nächsten Inforegister/Teil|
 
 #### <a name="navigate--select-rows"></a>Navigieren und Zeilen auswählen
 

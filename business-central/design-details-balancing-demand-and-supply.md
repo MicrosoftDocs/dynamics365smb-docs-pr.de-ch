@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b039c15a3e55135576dfe6341248bde936d58093
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 30c78ba04d58a2e2c2227ec638724c85cb1236c7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788160"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917565"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetails: Ausgleich von Bedarf und Vorrat
 Um zu erkennen wie das Planungssystem funktioniert, ist es notwendig, die priorisierten Ziele des Planungssystems zu kennen, von denen die wichtigsten sind, Folgendes sicherzustellen:  
@@ -99,7 +99,7 @@ Während des Ausgleichs betrachtet das Planungssystem Vorrat mit Serien-/Chargen
 
 Ein weiterer Grund dafür, dass Serien-/Chargen-nummerierter Vorrat unflexibel ist, besteht darin, dass Serien-/Chargennummern allgemein so spät im Prozess zugewiesen werden, dass Änderungsvorschläge verwirrend wären.  
 
-Der Ausgleich von Serien-/Losnummern respektiert nicht die Aktion *Fixierte Zone*. Wenn Bedarf und Vorrat nicht synchronisiert sind, schlägt das Planungssystem Änderungen vor oder neue Aufträge, unabhängig vom Startdatum der Planung.  
+Der Ausgleich von Serien-/Losnummern respektiert nicht die Aktion *Fixierte Zone* . Wenn Bedarf und Vorrat nicht synchronisiert sind, schlägt das Planungssystem Änderungen vor oder neue Aufträge, unabhängig vom Startdatum der Planung.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Auftrag-zu-Auftrag-Links werden nie unterbrochen.  
 Wenn ein Auftrag-zu-Auftrag-Artikel geplant wird, darf der verknüpfte Vorrat nicht für einen anderen Bedarf verwendet werden, als den, für den er ursprünglich gedacht war. Der verknüpfte Bedarf sollte nicht durch einen anderen zufälligen Vorrat abgedeckt werden, selbst wenn er in der derzeitigen Situation nach Zeit und Menge verfügbar ist. Beispielsweise kann ein Montageauftrag, der mit einem Verkaufsauftrag in einem Auftragsfertigungsszenario verknüpft ist, nicht verwendet werden, um anderen Bedarf zu decken.  
@@ -209,7 +209,7 @@ Wenn der Benutzer einen vorhandenen Beschaffungsauftrag aus den Planungsvorschl�
 
 Im Allgemeinen haben alle Vorräte eine Planungsflexibilität, die durch den Zustand der einzelnen vorgeschlagenen Aktionen eingeschränkt ist.  
 
--   **Neuplanung Aus**: Das Datum eines vorhandenen Beschaffungsauftrags kann ausgeplant werden, um das Fälligkeitsdatum des Bedarfs zu erfüllen, es sei denn:  
+-   **Neuplanung Aus** : Das Datum eines vorhandenen Beschaffungsauftrags kann ausgeplant werden, um das Fälligkeitsdatum des Bedarfs zu erfüllen, es sei denn:  
 
     -   Es stellt den Lagerbestand dar (immer mit Tag Null).  
     -   Es enthält einen Auftrag-zu-Auftrag-Link zu einem anderen Bedarf.  
@@ -219,7 +219,7 @@ Im Allgemeinen haben alle Vorräte eine Planungsflexibilität, die durch den Zus
     -   Der Beschaffungsauftrag wurde bereits an einem früheren Datum mit einem anderen Bedarf verbunden.  
     -   Das erforderliche Neuplanung ist so minimal, dass der Benutzer sie als geringfügig ansehen wird.  
 
--   **Neuplanung Ein**: Das Datum eines vorhandenen Beschaffungsauftrags kann eingeplant werden, ausgenommen unter den folgenden Bedingungen:  
+-   **Neuplanung Ein** : Das Datum eines vorhandenen Beschaffungsauftrags kann eingeplant werden, ausgenommen unter den folgenden Bedingungen:  
 
     -   Es wird direkt mit einem anderen Bedarf verknüpft.  
     -   Es liegt ausserhalb der durch den Zeitrahmen definierten, neu geplanten Seite.  
@@ -227,18 +227,18 @@ Im Allgemeinen haben alle Vorräte eine Planungsflexibilität, die durch den Zus
 > [!NOTE]  
 >  Wenn ein Artikel unter Verwendung eines Minimalbestands geplant wird, kann der Beschaffungsauftrag immer bei Bedarf geplant werden. Dies ist häufig in den vorwärtsgeplanten Beschaffungsaufträgen, die durch einen Minimalbestand gestartet werden.  
 
--   **Zugangs-Menge**: Die Menge eines vorhandenen Beschaffungsauftrags kann erhöht werden, damit der Bedarf erfüllt werden kann, es sei denn, der Beschaffungsauftrag ist direkt mit einem Bedarf durch einen Auftrag-zu-Auftrag-Link verknüpft.  
+-   **Zugangs-Menge** : Die Menge eines vorhandenen Beschaffungsauftrags kann erhöht werden, damit der Bedarf erfüllt werden kann, es sei denn, der Beschaffungsauftrag ist direkt mit einem Bedarf durch einen Auftrag-zu-Auftrag-Link verknüpft.  
 
 > [!NOTE]  
 >  Obwohl es möglich ist, den Beschaffungsauftrag zu erhöhen, kann dies durch eine maximale Auftragsgrösse eingeschränkt sein.  
 
--   **Menge reduzieren**: Ein vorhandener Beschaffungsauftrag mit einem Überschuss im Vergleich zu einem vorhandenen Bedarf kann reduziert werden, damit der Bedarf erfüllt werden kann.  
+-   **Menge reduzieren** : Ein vorhandener Beschaffungsauftrag mit einem Überschuss im Vergleich zu einem vorhandenen Bedarf kann reduziert werden, damit der Bedarf erfüllt werden kann.  
 
 > [!NOTE]  
 >  Obwohl die Menge verringert werden kann, ist möglicherweise immer noch Überschuss im Vergleich zum Bedarf vorhanden, und zwar aufgrund einer Mindestauftragsmenge oder eines Auftragsvielfachen.  
 
--   **Abbrechen**: Als spezieller Vorfall der Mengenverminderungsaktion könnte der Beschaffungsauftrag storniert werden, wenn er bis auf Null verringert wurde.  
--   **Neu**: Wenn kein Beschaffungsauftrag existiert oder jedoch ein existierender, der nicht geändert werden kann, um der erforderlichen Menge im angeforderten Fälligkeitsdatum zu genügen, wird ein neuer Beschaffungsauftrag vorgeschlagen.  
+-   **Abbrechen** : Als spezieller Vorfall der Mengenverminderungsaktion könnte der Beschaffungsauftrag storniert werden, wenn er bis auf Null verringert wurde.  
+-   **Neu** : Wenn kein Beschaffungsauftrag existiert oder jedoch ein existierender, der nicht geändert werden kann, um der erforderlichen Menge im angeforderten Fälligkeitsdatum zu genügen, wird ein neuer Beschaffungsauftrag vorgeschlagen.  
 
 ### <a name="determining-the-supply-quantity"></a>Bestimmen der Vorratsmenge  
 Durch den Benutzer definierte Planungsparameter steuern die vorgeschlagene Menge eines jeden Beschaffungsauftrags.  
