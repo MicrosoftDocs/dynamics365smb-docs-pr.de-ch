@@ -7,40 +7,40 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/08/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cf0418f4182e9d66da88af9262dd807a34dd3572
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1dd6c3085c0cb8696b6e7011fbea3c3cd9a1c86e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782332"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920461"
 ---
-# <a name="add-extended-text"></a><span data-ttu-id="c10f5-103">Zusatztext hinzufügen</span><span class="sxs-lookup"><span data-stu-id="c10f5-103">Add Extended Text</span></span>
+# <a name="add-extended-text"></a><span data-ttu-id="48820-103">Zusatztext hinzufügen</span><span class="sxs-lookup"><span data-stu-id="48820-103">Add Extended Text</span></span>
 
-<span data-ttu-id="c10f5-104">Sie können die Beschreibung für Artikel, Lagerhaltungsdaten, Fibukonten und Ressourcen erweitern, indem Sie zusätzliche Zeilen als Zusatztext hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="c10f5-104">You can extend the description for items, stock-keeping units, general ledger accounts, and resources by adding extra lines as extended text.</span></span> <span data-ttu-id="c10f5-105">Sie können auch Bedingungen für die Verwendung der zusätzlichen Zeilen festlegen.</span><span class="sxs-lookup"><span data-stu-id="c10f5-105">You can also set up conditions for use of the extra lines.</span></span>  
+<span data-ttu-id="48820-104">Sie können die Beschreibung für Artikel, Lagerhaltungsdaten, Fibukonten und Ressourcen erweitern, indem Sie zusätzliche Zeilen als Zusatztext hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="48820-104">You can extend the description for items, stock-keeping units, general ledger accounts, and resources by adding extra lines as extended text.</span></span> <span data-ttu-id="48820-105">Sie können auch Bedingungen für die Verwendung der zusätzlichen Zeilen festlegen.</span><span class="sxs-lookup"><span data-stu-id="48820-105">You can also set up conditions for use of the extra lines.</span></span>  
 
-<span data-ttu-id="c10f5-106">Im folgenden Abschnitt wird beschrieben, wie Sie einer Beschreibung eines Elements einen Zusatztext hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="c10f5-106">The following section describes how to add extended text to a description of an item.</span></span> <span data-ttu-id="c10f5-107">Die gleichen Schritte gelten jedoch für Lagerhaltungsdaten, Sachkonten und Ressourcen.</span><span class="sxs-lookup"><span data-stu-id="c10f5-107">But the same steps apply to stock-keeping units, general ledger accounts, and resources.</span></span>  
+<span data-ttu-id="48820-106">Im folgenden Abschnitt wird beschrieben, wie Sie einer Beschreibung eines Elements einen Zusatztext hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="48820-106">The following section describes how to add extended text to a description of an item.</span></span> <span data-ttu-id="48820-107">Die gleichen Schritte gelten jedoch für Lagerhaltungsdaten, Sachkonten und Ressourcen.</span><span class="sxs-lookup"><span data-stu-id="48820-107">But the same steps apply to stock-keeping units, general ledger accounts, and resources.</span></span>  
 
-## <a name="to-define-extended-text-for-an-description"></a><span data-ttu-id="c10f5-108">So definieren Sie Zusatztexte für eine Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c10f5-108">To define extended text for an description</span></span>
+## <a name="to-define-extended-text-for-an-description"></a><span data-ttu-id="48820-108">So definieren Sie Zusatztexte für eine Beschreibung</span><span class="sxs-lookup"><span data-stu-id="48820-108">To define extended text for an description</span></span>
 
-1. <span data-ttu-id="c10f5-109">Öffnen Sie die Karte eines Artikels, dem Sie den Zusatztext hinzufügen möchten, und wählen Sie dann die Aktion **Zusatztext** aus.</span><span class="sxs-lookup"><span data-stu-id="c10f5-109">Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.</span></span>
-2. <span data-ttu-id="c10f5-110">Füllen Sie die Felder **Code** und **Beschreibung** aus.</span><span class="sxs-lookup"><span data-stu-id="c10f5-110">Fill in the **Code** and **Description** fields.</span></span>
-3. <span data-ttu-id="c10f5-111">Wählen Sie **Neu** aus.</span><span class="sxs-lookup"><span data-stu-id="c10f5-111">Choose the **New**.</span></span>
-4. <span data-ttu-id="c10f5-112">Füllen Sie das Feld **Sprachcode** oder das Kontrollkästchen **Alle Sprachcodes** aus, wenn Sie mit Sprachcodes arbeiten.</span><span class="sxs-lookup"><span data-stu-id="c10f5-112">Fill in the **Language Code** field or select the **All Language Codes** check box if you use language codes.</span></span>
-5. <span data-ttu-id="c10f5-113">Füllen Sie die Felder **Startdatum** und/oder **Enddatum** aus, wenn Sie die Verwendung des Zusatztexts zeitlich einschränken möchten.</span><span class="sxs-lookup"><span data-stu-id="c10f5-113">Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.</span></span>
-6. <span data-ttu-id="c10f5-114">Geben Sie im Feld **Text** den Zusatztext ein.</span><span class="sxs-lookup"><span data-stu-id="c10f5-114">In the **Text** field, write the extended text.</span></span>
-7. <span data-ttu-id="c10f5-115">Wählen Sie die entsprechenden Kontrollkästchen für die Belegarten, für die die Zusatztexte gedruckt werden sollen.</span><span class="sxs-lookup"><span data-stu-id="c10f5-115">Select relevant check boxes for the document types where you want the extended text printed.</span></span>
-8. <span data-ttu-id="c10f5-116">Schliessen Sie die Seite.</span><span class="sxs-lookup"><span data-stu-id="c10f5-116">Close the page.</span></span>
+1. <span data-ttu-id="48820-109">Öffnen Sie die Karte eines Artikels, dem Sie den Zusatztext hinzufügen möchten, und wählen Sie dann die Aktion **Zusatztext** aus.</span><span class="sxs-lookup"><span data-stu-id="48820-109">Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.</span></span>
+2. <span data-ttu-id="48820-110">Füllen Sie die Felder **Code** und **Beschreibung** aus.</span><span class="sxs-lookup"><span data-stu-id="48820-110">Fill in the **Code** and **Description** fields.</span></span>
+3. <span data-ttu-id="48820-111">Wählen Sie **Neu** aus.</span><span class="sxs-lookup"><span data-stu-id="48820-111">Choose the **New** .</span></span>
+4. <span data-ttu-id="48820-112">Füllen Sie das Feld **Sprachcode** oder das Kontrollkästchen **Alle Sprachcodes** aus, wenn Sie mit Sprachcodes arbeiten.</span><span class="sxs-lookup"><span data-stu-id="48820-112">Fill in the **Language Code** field or select the **All Language Codes** check box if you use language codes.</span></span>
+5. <span data-ttu-id="48820-113">Füllen Sie die Felder **Startdatum** und/oder **Enddatum** aus, wenn Sie die Verwendung des Zusatztexts zeitlich einschränken möchten.</span><span class="sxs-lookup"><span data-stu-id="48820-113">Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.</span></span>
+6. <span data-ttu-id="48820-114">Geben Sie im Feld **Text** den Zusatztext ein.</span><span class="sxs-lookup"><span data-stu-id="48820-114">In the **Text** field, write the extended text.</span></span>
+7. <span data-ttu-id="48820-115">Wählen Sie die entsprechenden Kontrollkästchen für die Belegarten, für die die Zusatztexte gedruckt werden sollen.</span><span class="sxs-lookup"><span data-stu-id="48820-115">Select relevant check boxes for the document types where you want the extended text printed.</span></span>
+8. <span data-ttu-id="48820-116">Schliessen Sie die Seite.</span><span class="sxs-lookup"><span data-stu-id="48820-116">Close the page.</span></span>
 
-<span data-ttu-id="c10f5-117">Sie können diesen Zusatztext jetzt Belegen hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="c10f5-117">You can now add this extended text to documents.</span></span> <span data-ttu-id="c10f5-118">Im folgenden Verfahren wird erläutert, wie Sie einem Verkaufsauftrag einen Zusatztext hinzufügen. Die gleichen Schritte gelten jedoch auch für alle anderen Dokumente, die Sie für den Zusatztext angegeben haben.</span><span class="sxs-lookup"><span data-stu-id="c10f5-118">The following procedure explains how to add extended text to a sales order, but the same steps apply to any other document that you specified for the extended text.</span></span>  
+<span data-ttu-id="48820-117">Sie können diesen Zusatztext jetzt Belegen hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="48820-117">You can now add this extended text to documents.</span></span> <span data-ttu-id="48820-118">Im folgenden Verfahren wird erläutert, wie Sie einem Verkaufsauftrag einen Zusatztext hinzufügen. Die gleichen Schritte gelten jedoch auch für alle anderen Dokumente, die Sie für den Zusatztext angegeben haben.</span><span class="sxs-lookup"><span data-stu-id="48820-118">The following procedure explains how to add extended text to a sales order, but the same steps apply to any other document that you specified for the extended text.</span></span>  
 
-## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a><span data-ttu-id="c10f5-119">Einen erweiterten Elementtext in einer Verkaufsauftragszeile hinzufügen</span><span class="sxs-lookup"><span data-stu-id="c10f5-119">To add an extended item text on a sales order line</span></span>
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a><span data-ttu-id="48820-119">Einen erweiterten Elementtext in einer Verkaufsauftragszeile hinzufügen</span><span class="sxs-lookup"><span data-stu-id="48820-119">To add an extended item text on a sales order line</span></span>
 
-1. <span data-ttu-id="c10f5-120">Öffnen Sie einen Verkaufsauftrag mit einer Verkaufszeile für einen Artikel, die den Zusatztext definiert hat.</span><span class="sxs-lookup"><span data-stu-id="c10f5-120">Open a sales order with a sales line for an item that has extended text defined.</span></span> <span data-ttu-id="c10f5-121">Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)</span><span class="sxs-lookup"><span data-stu-id="c10f5-121">For more information, see [Sell Products](sales-how-sell-products.md).</span></span>
-2. <span data-ttu-id="c10f5-122">Wählen Sie die betreffende Zeile aus, und wählen Sie die **Textbaustein einfügen** Aktion aus.</span><span class="sxs-lookup"><span data-stu-id="c10f5-122">Select the line in question, and then choose the **Insert Ext. Text** action.</span></span>
+1. <span data-ttu-id="48820-120">Öffnen Sie einen Verkaufsauftrag mit einer Verkaufszeile für einen Artikel, die den Zusatztext definiert hat.</span><span class="sxs-lookup"><span data-stu-id="48820-120">Open a sales order with a sales line for an item that has extended text defined.</span></span> <span data-ttu-id="48820-121">Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)</span><span class="sxs-lookup"><span data-stu-id="48820-121">For more information, see [Sell Products](sales-how-sell-products.md).</span></span>
+2. <span data-ttu-id="48820-122">Wählen Sie die betreffende Zeile aus, und wählen Sie die **Textbaustein einfügen** Aktion aus.</span><span class="sxs-lookup"><span data-stu-id="48820-122">Select the line in question, and then choose the **Insert Ext. Text** action.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c10f5-123">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="c10f5-123">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="48820-123">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="48820-123">See Also</span></span>
 
-[<span data-ttu-id="c10f5-124">Bestand einrichten</span><span class="sxs-lookup"><span data-stu-id="c10f5-124">Setting Up Inventory</span></span>](inventory-setup-inventory.md)  
-<span data-ttu-id="c10f5-125">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c10f5-125">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+[<span data-ttu-id="48820-124">Bestand einrichten</span><span class="sxs-lookup"><span data-stu-id="48820-124">Setting Up Inventory</span></span>](inventory-setup-inventory.md)  
+<span data-ttu-id="48820-125">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="48820-125">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
