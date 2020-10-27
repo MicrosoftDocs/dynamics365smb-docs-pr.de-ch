@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: da7eedc909425b9f09da8d68c1b697974ec8fba4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f158499f0c93e1a991b1f092676f653cf067a46e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779325"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910044"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Einlagern von Artikeln mit Lagereinlagerungen
 Wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist, verwenden Sie die Funktion "Einlagerungsbelege", um die Einlagerung der Artikel zu steuern.  
@@ -32,7 +32,7 @@ Zusätzlich zu den Standardoptionen für das Erstellen von Lagereinlagerungen, d
 
     Sie können den Einlagerungszeilen nach verschiedenen Kriterien sortieren, beispielsweise nach Artikel, Regalnummer, Lagerplatz oder Fälligkeitsdatum, wodurch Sie den Einlagerungsprozess optimieren können.  
 3.  Geben Sie in jeder Zeile im Feld **Bewegungsmenge** die Menge ein, die Sie einlagern möchten.  
-4.  Nachdem Sie das Einlagern der Artikel abgeschlossen haben, wählen Sie die Aktion **Einlagerung registrieren**aus, um den Abschluss der Aktivität zu speichern und die Artikel zur Kommissionierung verfügbar zu machen.  
+4.  Nachdem Sie das Einlagern der Artikel abgeschlossen haben, wählen Sie die Aktion **Einlagerung registrieren** aus, um den Abschluss der Aktivität zu speichern und die Artikel zur Kommissionierung verfügbar zu machen.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>So lagern Sie Artikel mit der gesteuerten Einlagerung und Kommissionierung ein:  
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Einlagerungen** ein und wählen Sie dann den entsprechenden Link.
@@ -70,7 +70,7 @@ Die Lagerplatzpriorität wird berücksichtigt, wenn mehr als ein Lagerplatz den 
     Wenn das Feld **Belegstatus** leer ist, wurde der Wareneingang noch nicht eingelagert. Sonst zeigt das Feld an, dass der Wareneingang teilweise oder komplett eingelagert wurde.  
 
 4.  Wenn der Wareneingang teilweise oder überhaupt nicht eingelagert wurde, wählen Sie die Aktion **Einlagerung erstellen** aus.  
-5.  Füllen Sie die Anforderungsseite der Stapelverarbeitung zum Erstellen der Einlagerung so aus, wie Sie es für geeignet halten, und wählen Sie **OK**.   
+5.  Füllen Sie die Anforderungsseite der Stapelverarbeitung zum Erstellen der Einlagerung so aus, wie Sie es für geeignet halten, und wählen Sie **OK** .   
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eac9b5268cda8671a7189a429dedd9eb3cbfbc53
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: e39de1d4656b272c5c6cf5c01f54d5d6ebeca05b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372701"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914228"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Buchungsspurcodes und Ursachencodes für Audit Trails einrichten
 
@@ -29,7 +29,7 @@ Gelegentlich möchten Sie nachvollziehen, wie ein bestimmter Posten entstanden i
 
 Beim Buchen von Erfassungsjournalen, Aufträgen, Rechnungen oder Gutschriften sowie beim Ausführen bestimmter Stapelverarbeitungen werden Posten in den Finanzaufstellungen erstellt. Die Seite **Buchungsspurcode Einrichtung** enthält für jeden Anwendungsbereich mehrere Inforegister. Jedes Inforegister enthält die Buchungsspurcodes, die für diesen Anwendungsbereich anwendbar sind.
 
-Beim Buchen oder Ausführen einer Stapelverarbeitung wird dem Posten automatisch der richtige Buchungsspurcode zugeordnet. Wenn Sie z. B. von einem Fibu Erf.-Journal aus buchen, erhält der Posten den Code *FIBUBUCHBL*. Sie können dann die Seite **Fibuposten** filtern, um anzuzeigen, welche Einträge beispielsweise aus dem Fibu Erf.-Journal oder aus Verkaufsbelegen gebucht wurden.
+Beim Buchen oder Ausführen einer Stapelverarbeitung wird dem Posten automatisch der richtige Buchungsspurcode zugeordnet. Wenn Sie z. B. von einem Fibu Erf.-Journal aus buchen, erhält der Posten den Code *FIBUBUCHBL* . Sie können dann die Seite **Fibuposten** filtern, um anzuzeigen, welche Einträge beispielsweise aus dem Fibu Erf.-Journal oder aus Verkaufsbelegen gebucht wurden.
 
 ### <a name="to-define-source-codes"></a>So definieren Sie Buchungsspurcodes
 
@@ -49,7 +49,7 @@ Sie können einen Buchungsspurcode ändern. Sie können den Buchungsspurcode *FI
 
 2. Wählen Sie in der Zeile mit dem zu ändernden den Code im Feld **Code** aus.
 
-3. Geben Sie den neuen Code ein, und klicken Sie dann auf die Schaltfläche **Ja**. Sie können auch den Inhalt des Feldes **Beschreibung** ändern.
+3. Geben Sie den neuen Code ein, und klicken Sie dann auf die Schaltfläche **Ja** . Sie können auch den Inhalt des Feldes **Beschreibung** ändern.
 
 Alle neuen Posten, die über das Fibu Erf.-Journal gebucht werden, weisen den neuen Buchungsspurcode auf.
 

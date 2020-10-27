@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc25efa746e7dd3282159b13ecea66ec66ac5e82
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1e4de0f59788bb49ebaead7a4ee2516ff32147eb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785410"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912460"
 ---
 # <a name="change-which-features-are-displayed"></a>Funktionen, die angezeigt werden ändern
 [!INCLUDE[d365fin](includes/d365fin_md.md)] wurde entwickelt, um Ihnen zu helfen, Ihr Unternehmen unabhängig von Grösse und Komplexität zu führen. Im Mittelpunkt des Produkts stehen wesentliche Funktionen wie Finanzberichterstattung, Vertrieb, Einkauf und Lagerverwaltung. Mit zunehmender Komplexität des Unternehmens können Sie z.B. Funktionen für das Fertigungs- und Servicemanagement aktivieren.
@@ -40,7 +40,7 @@ Bevor Sie die Benutzereinstellungen eines Unternehmens definieren, definieren Si
 Die Einstellung **Erfahrung** gilt für alle Benutzer in einem Unternehmen, aber jeder Benutzer kann seine eigene Erfahrung durch Ändern von Seitenlayouts und Inhalten weiter personalisieren. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Erstklassige Funktionen ausführen, nachdem ein Plan aktualisiert wurde
-Benutzer werden Plänen in Microsoft 365 Admin Center in Verbindung mit allgemeiner Arbeit zugewiesen, um die Business Central-Benutzer zu erstellen. Weitere Informationen finden Sie unter [Benutzer einzeln oder in grossen Mengen zu Office 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc) hinzufügen.
+Benutzer werden Plänen in Microsoft 365 Admin Center in Verbindung mit allgemeiner Arbeit zugewiesen, um die Business Central-Benutzer zu erstellen. Weitere Informationen finden Sie unter [Benutzer einzeln oder in grossen Mengen zu Microsoft 365 hinzufügen](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Um Planänderungen der Benutzergruppen zu aktualisieren
 Wenn Sie eine Änderung in den Benutzerplänen in Microsoft 365 Admin Center vorgenommen haben, wie mehr Benutzer dem Premium-Plan hinzuzufügen, muss die Änderung in [!INCLUDE[d365fin](includes/d365fin_md.md)] vorgenommen werden.
@@ -57,7 +57,7 @@ Sie können jetzt fortfahren, die neuen Benutzeroberfläche auszuwählen.
 2. Auf der Seite **Unternehmensinformation** können Sie die **Benutzerfreundlichkeit** für Ihren Mandanten im Feld **Inforegister** festlegen.
 
 ## <a name="help-assumes-premium-experience"></a>Die Hilfe geht von der Premium-Umgebung aus
-Alle Funktionsbeschreibungen in der Dokumentation behandeln [!INCLUDE[d365fin](includes/d365fin_md.md)] die **Premium**-Umgebung, decken also den gesamten Umfang der Benutzeroberflächenelemente ab.
+Alle Funktionsbeschreibungen in der Dokumentation behandeln [!INCLUDE[d365fin](includes/d365fin_md.md)] die **Premium** -Umgebung, decken also den gesamten Umfang der Benutzeroberflächenelemente ab.
 
 ## <a name="see-also"></a>Siehe auch
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  

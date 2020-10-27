@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a014a3c75ab0e0b2f27b519287651bf55a572157
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a0d0e5f18acf9830fe77a87f9e1c8982da47c257
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789289"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913135"
 ---
 # <a name="service-posting"></a>Servicebuchung
 Mit der Funktion "Servicebuchung" können Sie Belege effizient verarbeiten und damit eine erfolgreiche Debitorenservicepolitik sicherstellen. Sie können Belege erstellen und gebuchte Belege aktualisieren und Posten sowohl im Servicebereich als auch in anderen Modulen erstellen, um eine ordnungsgemässe Aktualisierung sicherzustellen.  
@@ -42,10 +42,10 @@ Mit der Option "Liefern und Verbrauchen" können Artikel, Einstandspreise oder S
 > [!NOTE]  
 >  Im Rahmen des Servicebuchungsverfahrens können Sie auch eine teilweise Buchung vornehmen. Sie können eine Teillieferung oder eine Teilrechnung erstellen, indem Sie vor dem Buchen die Felder **Zu liefernde Menge** und/oder **Zu fakturierende Menge** der einzelnen Servicezeilen der Serviceaufträge ausfüllen. Beachten Sie, dass Sie keine Rechnung für etwas erstellen können, das Sie nicht geliefert haben. Dies bedeutet, dass Sie eine Lieferung bereits erfasst haben müssen oder Lieferung und Rechnung zur gleichen Zeit erstellen müssen.  
 
-Nach Abschluss des Buchungsvorgangs können Sie die gebuchten Servicebelege auf den entsprechenden Seiten **Gebuchte Servicelieferung** und **Gebuchte Servicerechnung** anzeigen. Die erstellten gebuchten Posten können auf unterschiedlichen Seiten angezeigt werden, die gebuchte Posten enthalten, wie z. B. **Fibuposten**, **Lagerposten**, **Lagerplatzposten**, **Serviceposten**, **Projektposten** und **Garantieposten**.  
+Nach Abschluss des Buchungsvorgangs können Sie die gebuchten Servicebelege auf den entsprechenden Seiten **Gebuchte Servicelieferung** und **Gebuchte Servicerechnung** anzeigen. Die erstellten gebuchten Posten können auf unterschiedlichen Seiten angezeigt werden, die gebuchte Posten enthalten, wie z. B. **Fibuposten** , **Lagerposten** , **Lagerplatzposten** , **Serviceposten** , **Projektposten** und **Garantieposten** .  
 
 ## <a name="to-view-information-about-a-posted-service-document"></a>So zeigen Sie zusätzliche Informationen zu einem gebuchten Servicebeleg an  
-Wenn Sie eine Servicerechnung, eine Servicelieferung oder eine Servicegutschrift buchen, werden die Informationen im Beleg in die Seite **Gebuchte Servicerechnung**, **Gebuchte Dienstlieferung** bzw. **Gebuchte Servicegutschrift** übertragen. Auf diesen Seiten können keine Einträge eingegeben, geändert oder gelöscht werden. Sie können aus diesen Seiten einen Lieferschein, eine Rechnung oder eine Gutschrift drucken.  
+Wenn Sie eine Servicerechnung, eine Servicelieferung oder eine Servicegutschrift buchen, werden die Informationen im Beleg in die Seite **Gebuchte Servicerechnung** , **Gebuchte Dienstlieferung** bzw. **Gebuchte Servicegutschrift** übertragen. Auf diesen Seiten können keine Einträge eingegeben, geändert oder gelöscht werden. Sie können aus diesen Seiten einen Lieferschein, eine Rechnung oder eine Gutschrift drucken.  
 
 Die folgende Vorgehensweise verwendet eine gebuchte Servicerechnung als Beispiel, Sie können jedoch dieselben Schritte auf gebuchte Servicelieferungen und gebuchte Gutschriften anwenden.  
 

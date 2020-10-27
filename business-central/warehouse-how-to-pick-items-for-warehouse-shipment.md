@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 718df42f71fe5fd23877ce6660b7e3715c3bccb8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8da226a21e795228efa253f994d817f60ac5616b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779500"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910069"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Um Artikel für den Warenausgang zu kommissionieren
 Wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung der Kommissionierung und des Warenausgangs erforderlich ist, verwenden Sie die Kommissionierbelege, um Kommissionierinformationen vor dem Buchen des Warenausgangs zu erstellen und zu bearbeiten.  
@@ -59,7 +59,7 @@ In den Auftragsmontageszenarien wird das Feld **Zu liefernde Menge** in Warenaus
 
 Für andere Warenausgangszeilen ist der Wert im Feld **Zu liefernde Menge** von Anfang an Null.
 
-Wenn Arbeiter für montagefertige Teile oder für die gesamte Auftragsmontagemenge zuständig sind, erfassen sie diese im Feld **Zu liefernde Menge** in der Warenausgangszeile und wählen dann die Aktion **Warenausgang buchen**. Das Ergebnis ist, dass der entsprechende Montageausstoss gebucht wird, einschliesslich des Komponentenverbrauchs. Eine Verkaufslieferung für die Menge wird für den Verkaufsauftrag gebucht.
+Wenn Arbeiter für montagefertige Teile oder für die gesamte Auftragsmontagemenge zuständig sind, erfassen sie diese im Feld **Zu liefernde Menge** in der Warenausgangszeile und wählen dann die Aktion **Warenausgang buchen** . Das Ergebnis ist, dass der entsprechende Montageausstoss gebucht wird, einschliesslich des Komponentenverbrauchs. Eine Verkaufslieferung für die Menge wird für den Verkaufsauftrag gebucht.
 
 Vom Montageauftrag aus können Sie **Warenausgangszeile für Programmfertigung** wählen, um auf die Warenausgangszeile zuzugreifen. Dies ist für Arbeiter hilfreich, die die Seite **Warenausgang** üblicherweise nicht verwenden.
 

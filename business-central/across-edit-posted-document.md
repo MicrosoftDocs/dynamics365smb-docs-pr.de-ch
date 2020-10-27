@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 867fddce799fb7e005a5a34a4c22975336375801
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: eedfa2a0c0f519f5ea22eb51a779f6f2a090d9bf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780749"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914353"
 ---
 # <a name="edit-posted-documents"></a>Gebuchte Belege bearbeiten
 
 Manchmal müssen Sie einen gebuchten Beleg aktualisieren, da sich die für den Beleg relevanten Informationen geändert haben. Bei einem gebuchten Verkaufsbeleg kann dies beispielsweise die Paketverfolgungsnummer des Spediteurs sein. Bei einem gebuchten Einkaufsbeleg kann es sich um einen Zahlungsreferenztext handeln.
 
-Sie führen die Änderung an einer bearbeitbaren Version des Originalbelegs durch, was durch „**- Update**“ im Seitentitel angegeben wird. Die Seite enthält eine Teilmenge der Felder im Originalbeleg, von denen einige nicht bearbeitbare Felder sind, die nur zu Informationszwecken angezeigt werden.
+Sie führen die Änderung an einer bearbeitbaren Version des Originalbelegs durch, was durch „ **- Update** “ im Seitentitel angegeben wird. Die Seite enthält eine Teilmenge der Felder im Originalbeleg, von denen einige nicht bearbeitbare Felder sind, die nur zu Informationszwecken angezeigt werden.
 
 Die Funktionalität ist für folgende Belege in allen unterstützten Märkten verfügbar:
 

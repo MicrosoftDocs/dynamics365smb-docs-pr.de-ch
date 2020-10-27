@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 7e21da444f8dc8858ebe0e5f65335311dfb2a5e7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: e87809d33fb7fd511912cf6d384db0e488a8ff2d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187402"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911619"
 ---
 # <a name="configuring-api-templates"></a>API Vorlagen konfigurieren
 Die API-Bibliothek für [!INCLUDE[d365fin_md](includes/d365fin_md.md)] bietet eine vereinfachte Darstellung der zugrunde liegenden Einheiten. Alle Eigenschaften der Anwendung werden nicht durch die zugeordnete API bereitgestellt. Die Seite **API Einrichten** ermöglicht Ihnen, Vorlagen festzulegen, die verwendet werden, um leere Eigenschaften auf eine Einheit zu füllen, wenn Sie eine Beitragsaktion durch die API erstellen. 
@@ -36,7 +36,7 @@ Um eine Vorlage zu einer API zuzuordnen, müssen Sie folgende Schritte durchfüh
 Wenn es mehr als eine Vorlage gibt, die für eine API ausgewählt wird (Seiten-ID), werden die Vorlagen im Auftrag angewendet, der in der Spalte **Auftrag** definiert ist.   
 Wenn jeder Vorlage übernommen wird, werden die Feldwerte, die in der Vorlage definiert werden, nur zu den Feldern, die nicht bereits einen explizit definierten Wert aufweisen, entweder explizit der API oder einer zuvor zugewiesenen Vorlage im Auftrag zugeordnent. 
 3. Wählen Sie einen **PageID** Wert. aus.  
-Dieses ist die Seite für die API, für die die Vorlage angewendet wird. Die **Seiten-ID**-Suche bietet eine Liste aller APIs, die in derselben Bibliothek verfügbar sind.
+Dieses ist die Seite für die API, für die die Vorlage angewendet wird. Die **Seiten-ID** -Suche bietet eine Liste aller APIs, die in derselben Bibliothek verfügbar sind.
 4. Wählen Sie im Feld **Vorlagencode** einen Wert aus.  
 Der Vorlagencode ist der Code für die Vorlage, die auf der Seite **Konfigurationsvorlagen** definiert wurde. Die definierten Vorlagenwerte werden auf die API übernommen. 
 5. In dem Feld **Bedingungen** geben Sie an, welche Vorlage ausgeglichen werden soll.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 258e17fc2ddd698f0ab74c2ee7afec7b78c63c6e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f90f17fa962bc8a18ea3ba1c30b01af52463ede4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788666"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915599"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Entfernen und erneutes Ausgleichen von Lagerposten
 Sie können auf der Seite **Ausgleichsvorschlag** bestimmte Artikelausgleichsposten, die bei Lagertransaktionen automatisch erstellt werden, anzeigen und manuell ändern.  
@@ -30,7 +30,7 @@ Der folgende Szenarios erfordern möglicherweise, dass Sie einen Ausgleich rück
 
 Wenn möglich, verwenden Sie einen Beleg, um einen Lagerposten erneut auszugleichen. Wenn Sie beispielsweise eine Einkaufsreklamation für einen Artikel vornehmen müssen, für den bereits ein Verkauf ausgeglichen wurde, können Sie den erneuten Ausgleich vornehmen, indem Sie einfach den Einkaufsreklamationsbeleg in der Einkaufsreklamationszeile im Feld **Ausgleich mit Artikelposten** mit dem richtigen Ausgleich erstellen und buchen. Sie können die Funktion **Gebuchte Belegzeilen zum Stornieren holen** oder die Funktion **Aus Beleg kopieren** im Rückkaufsbeleg verwenden, um dies zu erleichtern. Wenn Sie den Beleg buchen, wird automatisch der Lagerposten erneut ausgeglichen. Weitere Informationen finden Sie unter [Einkaufsretouren verarbeiten oder Stornieren](purchasing-how-process-purchase-returns-cancellations.md).
 
-Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel wenn Sie einen festen Ausgleich korrigieren müssen, verwenden Sie die Seite **Ausgleichsvorschlag**, um einen Ausgleich zu korrigieren.
+Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel wenn Sie einen festen Ausgleich korrigieren müssen, verwenden Sie die Seite **Ausgleichsvorschlag** , um einen Ausgleich zu korrigieren.
 
 > [!Warning]  
 > Im Folgenden einige wichtige Überlegungen zur Arbeit mit dem Ausgleichsvorschlag:
@@ -44,10 +44,10 @@ Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel w
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anwendungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Die Seite **Ausgleichsvorschlag** wird geöffnet und zeigt bestehende Lagerposten für alle Artikel an.  
 3.  Geben Sie im Inforegister **Allgemein** Filter ein, um die Suche nach dem Lagerposten, für den Sie den Ausgleich ändern möchten, zu erleichtern.  
-4.  Wählen Sie den Lagerposten aus, und wählen Sie die Aktionen **Ausgeglichene Posten**. Die Seite **Ausgeglichene Posten anzeigen – Ausgeglichene Posten** wird geöffnet und zeigt den/die Lagerposten für den Ausgleich mit dem ausgewählten Posten an.  
+4.  Wählen Sie den Lagerposten aus, und wählen Sie die Aktionen **Ausgeglichene Posten** . Die Seite **Ausgeglichene Posten anzeigen – Ausgeglichene Posten** wird geöffnet und zeigt den/die Lagerposten für den Ausgleich mit dem ausgewählten Posten an.  
 5.  Wählen Sie den Lagerposten aus, für den Sie den Ausgleich entfernen möchten.  
 6.  Wählen Sie die Aktion **Ausgleich entfernen** aus. Dadurch wird der Artikelausgleichsposten, der die beiden Lagerposten verknüpft, entfernt und auf der Seite **Ausgleichsposten anzeigen - nicht ausgeglichene Posten** verschoben.  
-7.  Schliessen Sie die Seite **Ausgeglichene Posten anzeigen – Ausgeglichene Posten**.  
+7.  Schliessen Sie die Seite **Ausgeglichene Posten anzeigen – Ausgeglichene Posten** .  
 
  Für beide Lagerposten wird das jeweilige Feld **Restmenge** um die Menge erhöht, deren Ausgleich aufgehoben wurde. Der entfernte Lagerposten ist jetzt für den erneuten Ausgleich auf der Seite **Ausgeglichene Posten anzeigen – Nicht ausgeglichene Posten** verfügbar.  
 
@@ -59,12 +59,12 @@ Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel w
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Artikelausgleich mit dem Ausgleichsformular erneut ausgleichen  
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anwendungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Die Seite **Ausgleichsvorschlag** wird geöffnet und zeigt bestehende Lagerposten für alle Artikel an.  
-3.  Um Einträge, die seit dem Öffnen des Arbeitsblattes entfernt wurden, erneut zu übernehmen, markieren Sie den Lagerposten, den Sie erneut übernehmen möchten, und wählen Sie dann die Aktion **Erneut anwenden**.  
+3.  Um Einträge, die seit dem Öffnen des Arbeitsblattes entfernt wurden, erneut zu übernehmen, markieren Sie den Lagerposten, den Sie erneut übernehmen möchten, und wählen Sie dann die Aktion **Erneut anwenden** .  
 
     > [!NOTE]  
     >  Der erneute Ausgleich mit dem ursprünglichen Saldo erfolgt auch automatisch, wenn Sie die Seite **Anwendungsvorschlag** schliessen.  
 4.  Wählen Sie zum Ausgleich eines verfügbaren offenen Lagerpostens mit einem anderen Posten den entsprechenden Lagerposten aus. Wählen Sie die Aktion **Nicht ausgeglichene Posten** aus. Die Seite **Ausgleichsposten anzeigen - nicht ausgeglichene Posten** wird geöffnet.  
-5.  Wählen Sie einen oder mehrere Lagerposten aus, die Sie für den Posten auf der Seite **Ausgleichsvorschlag.** ausgewählten Posten auswählen, und wählen Sie die Schaltfläche **OK**.  
+5.  Wählen Sie einen oder mehrere Lagerposten aus, die Sie für den Posten auf der Seite **Ausgleichsvorschlag.** ausgewählten Posten auswählen, und wählen Sie die Schaltfläche **OK** .  
 
      Es wird ein Artikelausgleichsposten zwischen den beiden Lagerposten erstellt. Das Feld **Restmenge** der beiden Post wird jeweils um die für den Ausgleich verwendete Menge verringert.  
 

@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 06/30/2020
-ms.openlocfilehash: 278797e8a1647fff8fd607cf075657c960004e65
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.date: 10/01/2020
+ms.openlocfilehash: 85823e93b1d239bf4e59ec6a8872cdc4a2cef9c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529402"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911594"
 ---
 # <a name="integrating-with-common-data-service"></a>Integrieren in Common Data Service
 
@@ -53,8 +53,8 @@ Das Administratorkonto wird aufgrund von Konfigurationsänderungen, die die Basi
 
 Zusätzlich zur Anpassung von [!INCLUDE[d365fin](includes/cds_long_md.md)] erstellt die Lösung auch die folgenden Rollen in [!INCLUDE[d365fin](includes/cds_long_md.md)] für die Integration:
 
-* **Integrationsadministrator** – Ermöglicht es Benutzern, die Verbindung zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[d365fin](includes/cds_long_md.md)] zu verwalten. Normalerweise wird diese nur dem automatisch erstellten Benutzerkonto für die Synchronisierung zugewiesen.  
-* **Integrationsbenutzer** – Ermöglicht es Benutzern, auf synchronisierte Daten zuzugreifen. In der Regel wird dies dem automatisch erstellten Benutzerkonto für die Synchronisierung und anderen Benutzern zugewiesen, die die synchronisierten Daten anzeigen oder auf sie zugreifen müssen.
+* **Integrationsadministrator**  – Ermöglicht es Benutzern, die Verbindung zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[d365fin](includes/cds_long_md.md)] zu verwalten. Normalerweise wird diese nur dem automatisch erstellten Benutzerkonto für die Synchronisierung zugewiesen.  
+* **Integrationsbenutzer**  – Ermöglicht es Benutzern, auf synchronisierte Daten zuzugreifen. In der Regel wird dies dem automatisch erstellten Benutzerkonto für die Synchronisierung und anderen Benutzern zugewiesen, die die synchronisierten Daten anzeigen oder auf sie zugreifen müssen.
 
 Weitere Informationen zu den einzelnen Rollen, z. B. zu Berechtigungen und Zugriffsebenen, finden Sie unter [Einrichten von Benutzerkonten für die Integration mit [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md).
 

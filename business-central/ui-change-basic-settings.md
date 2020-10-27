@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fa091993d64aeba6982a871aeb794c97be3e81d9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3f98cd6423b67fd9bbcc6081d06eca4cb21e81c7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782457"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912685"
 ---
 # <a name="change-basic-settings"></a>Ändern von grundlegenden Einstellungen
 
@@ -26,11 +26,11 @@ Das Rollencenter erstellt die Homepage, eine Startseite, die für die Anforderun
 
 -   Oben erlaubt es Ihnen die Navigation, zwischen Debitoren, Kreditoren, Artikeln sowie anderen wichtigen Listen von Informationen zu wechseln. Ebenso können Sie Aufgaben einleiten, wie eine neue Verkaufsrechnung direkt im Rollencenter zu erstellen.
 
--   In der Mitte finden Sie den Bereich **Aktivitäten**, in dem aktuelle Daten angezeigt werden und auf den Sie klicken oder tippen können, um detailliertere Informationen anzuzeigen. Die zentralen Leistungs-Indikatoren können eingerichtet werden, um ein ausgewähltes Diagramm für eine visuelle Darstellung anzuzeigen, zum Beispiel, Cashflow oder Einnahmen und Ausgaben. Sie können eine Liste von Lieblingsdebitoren im Rollencenter auch für Konten einrichten, mit denen Sie häufig Geschäfte tätigen oder denen sie besondere Aufmerksamkeit geben müssen.
+-   In der Mitte finden Sie den Bereich **Aktivitäten** , in dem aktuelle Daten angezeigt werden und auf den Sie klicken oder tippen können, um detailliertere Informationen anzuzeigen. Die zentralen Leistungs-Indikatoren können eingerichtet werden, um ein ausgewähltes Diagramm für eine visuelle Darstellung anzuzeigen, zum Beispiel, Cashflow oder Einnahmen und Ausgaben. Sie können eine Liste von Lieblingsdebitoren im Rollencenter auch für Konten einrichten, mit denen Sie häufig Geschäfte tätigen oder denen sie besondere Aufmerksamkeit geben müssen.
 
 ### <a name="to-change-the-role"></a>So ändern Sie die Rolle
-Das Standardrollencenter ist der **Geschäftsführer**, aber Sie können eine andere Rolle auswählen, um das Rollencenter zu nutzen, dass besser mit Ihren Anforderungen übereinstimmt.
-1. In der oberen rechter Ecke wählen Sie das Symbol **Einstellungen** aus ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") und wählen dann die Aktion **Meine Einstellungen**.
+Das Standardrollencenter ist der **Geschäftsführer** , aber Sie können eine andere Rolle auswählen, um das Rollencenter zu nutzen, dass besser mit Ihren Anforderungen übereinstimmt.
+1. In der oberen rechter Ecke wählen Sie das Symbol **Einstellungen** aus ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") und wählen dann die Aktion **Meine Einstellungen** .
 2. Wählen Sie auf der Seite **Meine Einstellungen** im Feld **Rollencenter** das Rollencenter aus, das Sie als den Standard festlegen möchten. Wählen Sie beispielsweise **Buchhalter/in** aus.
 3. Wählen Sie die Schaltfläche **OK** aus.
 
@@ -42,7 +42,7 @@ Der Standardmandant wird CRONUS bezeichnet und enthält nur Demodaten enthält. 
 ## <a name="to-change-the-company-name"></a>Um den Firmennamen zu ändern
 Der Firmenname wird immer in der oberen linken Ecke angezeigt und fungiert als Aktion, die Sie auswählen können, um zum Rollencenter zurückzukehren. Diesen Namen können Sie auf der Seite **Firmeninformation** ändern.
 
-1. Wählen Sie das Symbol ![Zahnrad, um das Einstellungsmenü zu öffnen](media/ui-experience/settings_icon_small.png), und wählen Sie dann die Aktion **Firmeninformationen**.
+1. Wählen Sie das Symbol ![Zahnrad, um das Einstellungsmenü zu öffnen](media/ui-experience/settings_icon_small.png), und wählen Sie dann die Aktion **Firmeninformationen** .
 2. Geben Sie im Feld **Namen** den neuen Namen des Unternehmens ein.
 3. Verlassen Sie die Seite. Das System startet neu und zeigt die neue Firma in der oberen linken Ecke an.
 

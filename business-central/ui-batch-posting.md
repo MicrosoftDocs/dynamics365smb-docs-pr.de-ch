@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c04dac37b043995a9b78e2f662f9411c3cf9ae1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1fd25f8b07a359414f62ef4757162f8a73889c27
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782532"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912735"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Mehrere Belege gleichzeitig buchen
 
@@ -46,7 +46,7 @@ Das folgende Verfahren erläutert, wie Sie mehrere Einkaufsbestellungen buchen. 
 5. Wählen Sie die zu **buchende** Aktion aus, und wählen Sie dann die Aktion **Stapelbuchung** aus.
 6. Füllen Sie auf der Seite **Stapelbuchung Einkaufsbestellung** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Wählen Sie die Schaltfläche **OK** aus.
-8. Um mögliche Probleme anzuzeigen, die bei der Stapelbuchung von Belegen aufgetreten sind, öffnen Sie die Seite **Fehlermeldungsregister**.
+8. Um mögliche Probleme anzuzeigen, die bei der Stapelbuchung von Belegen aufgetreten sind, öffnen Sie die Seite **Fehlermeldungsregister** .
 
 Die Bestellungen werden nun zu einem dedizierten Auftragswarteschlangeneintrag hinzugefügt, der festlegt, wann die Belege gebucht werden. Weitere Informationen finden Sie unter [Projektwarteschlangen nutzen, um Aufgaben zu planen](admin-job-queues-schedule-tasks.md)
 

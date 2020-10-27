@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7e8a56492c1c848f4f3b371e1411c11f159c3cf3
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496764"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912335"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Die Zahlungs- und Abstimmungs-Erweiterung
 
@@ -57,7 +57,7 @@ Darüber hinaus müssen Sie Kreditoren einer inländischen **Gen. Bus. Buchungsg
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsausgangs Erf.-Journal** ein, und wählen Sie dann den entsprechenden Link aus.  
 2. Wählen Sie auf der Seite **Projekt Erf.-Journal bearbeiten** das Feld **Bank** Stapel aus.  
-3. Wählen Sie das Kontrollkästchen **Zahlungsexport erlauben**.  
+3. Wählen Sie das Kontrollkästchen **Zahlungsexport erlauben** .  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Gibt die Zahlungsform für jeden Kreditor an.
 
@@ -70,7 +70,7 @@ Die folgende Tabelle zeigt die FIK- und Kombinationen von GIRO-Zahlungsformen an
 |Enthält Zahlungs-Referenznummer? | Nein | Ja, 16 Ziffern. | Ja, 15 Ziffern. | Nein|
 
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Anbieter** ein und wählen Sie dann den entsprechenden Link.  
-2. Öffnen Sie die Karte, erweitern Sie die Registerkarte **Zahlungen**, im Feld **Zahlungsform** und wählen Sie die Zahlungsform.  
+2. Öffnen Sie die Karte, erweitern Sie die Registerkarte **Zahlungen** , im Feld **Zahlungsform** und wählen Sie die Zahlungsform.  
 3. Abhängig von Ihrer Wahl müssen Sie weitere Felder ausfüllen. Siehe die Tabelle oben für eine Beschreibung der Kombinationen.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Das Adressformat definieren, um ein Bankkonto zu verwenden

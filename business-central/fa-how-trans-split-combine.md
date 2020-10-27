@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/04/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0232ef89cd708c33d1db716a337edc8cb97c58d3
-ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
+ms.openlocfilehash: f874548d0d84a3fbb215dfb8c81d4b7daeb5edfe
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435197"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915649"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Übertragen, Teilen oder Kombinieren von Anlagen.
 
@@ -45,7 +45,7 @@ Sie können eine Anlage in mehrere Anlagen aufteilen, zum Beispiel wenn Sie eine
 4. Erstellen Sie zwei Umlagerungs Buch.-Blattzeilen, eine für jede neue Anlage.
 5. Wählen Sie in der ersten Zeile die zweiten Anlage im Feld **Neue Anlagennr.** und 25 im Feld **Buchen Sie Anschaffungskosten um %** Feld ein.
 6. Wählen Sie in der ersten Zeile die zweiten Anlage im Feld **Neue Anlagennr.** und 40 im Feld **Buchen Sie Anschaffungskosten um %** Feld ein.
-7. In beiden Zeilen aktivieren Sie die Kontrollkästchen **Anschaffung umbuchen** und **Normal-AfA umbuchen**.  
+7. In beiden Zeilen aktivieren Sie die Kontrollkästchen **Anschaffung umbuchen** und **Normal-AfA umbuchen** .  
 8. Wählen Sie die Aktion **Umbuchen** aus.  
 
     Es werden zwei Zeilen im Anlagen Fibu Erf.-Journal unter Verwendung der Vorlage und dem Erf.-Journalnamen, die Sie auf der Seite **Anlagen Erf.-Journal Einr.** für das gewählte Abschreibungsbuch angegeben haben, erstellt. Weitere Informationen finden Sie unter [Anlagen-Abschreibungsbücher automatisch einrichten](fa-how-setup-depreciation.md).    
@@ -59,7 +59,7 @@ Sie können mehrere Anlage in einer Anlagen zusammenfassen, wenn Sie zum Beispie
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anlagen Umbuch. Erf.-Journale** ein und wählen Sie dann den entsprechenden Link aus.
 2. Erstellt das Umlagerungs-Erf.-Journal, in dem das **Anlagennr.** Feld die urspr. Anlage enthält, und das Feld **Neue Anlagennr.** die neue Anlage enthält, mit der sie kombiniert werden soll.
 3. Lassen Sie das Feld **Anschaffung % umbuchen** leer, um die gesamten Anschaffungskosten zu verschieben/zusammenzufassen.  
-4. Aktivieren Sie die Kontrollkästchen **Anschaffung umbuchen** und **Normal-AfA umbuchen**.
+4. Aktivieren Sie die Kontrollkästchen **Anschaffung umbuchen** und **Normal-AfA umbuchen** .
 5. Wählen Sie die Aktion **Umbuchen** aus.
 
     Es werden zwei Zeilen im Anlagen Fibu Erf.-Journal unter Verwendung der Vorlage und dem Erf.-Journalnamen, die Sie auf der Seite **Anlagen Erf.-Journal Einr.** für das gewählte Abschreibungsbuch angegeben haben, erstellt. Weitere Informationen finden Sie unter [Anlagen-Abschreibungsbücher automatisch einrichten](fa-how-setup-depreciation.md).   
@@ -70,7 +70,7 @@ Sie können mehrere Anlage in einer Anlagen zusammenfassen, wenn Sie zum Beispie
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anlagenspiegel** ein und wählen Sie dann die entsprechende Verknüpfung aus.
 2. Füllen Sie die Felder je nach Bedarf aus.
-3. Klicken Sie auf die Schaltfläche **Drucken** oder **Vorschau**.  
+3. Klicken Sie auf die Schaltfläche **Drucken** oder **Vorschau** .  
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9beffaa8e881717506d0c471b9e8bfb9feaf3168
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0ff9dd0851b220b9e3e4888e43ffa070397b8943
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779148"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911935"
 ---
 # <a name="ship-items"></a>Versenden von Artikeln
 
@@ -34,7 +34,7 @@ Nachfolgend wird erläutert, wie Artikel aus einem Verkaufsauftrag geliefert wer
 2. Öffnen Sie einen Auftrag oder erstellen Sie einen neuen. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)
 3. Geben Sie in dem Feld **Zu liefernde Menge** die gelieferte Menge an.
 
-    Der Wert im Feld **Menge geliefert** wird aktualisiert. Wenn dieses eine Teillieferung ist, ist der Wert niedriger als der Wert im Feld **Menge**.
+    Der Wert im Feld **Menge geliefert** wird aktualisiert. Wenn dieses eine Teillieferung ist, ist der Wert niedriger als der Wert im Feld **Menge** .
 4. Wählen Sie die Aktion **Buchen** aus.
 
 > [!NOTE]
@@ -62,7 +62,7 @@ Normalerweise erstellt der Mitarbeiter, der für die Lieferung verantwortlich is
     Aus einem neuen oder offenen Warenausgang können Sie die Seite **Filter z. Holen v. Herk.-Bel.** nutzen, um die Zeilen des freigegebenen Herkunftsbelegs zu erhalten, die festlegen, welche Artikel geliefert werden sollen.
 
     1. Wählen Sie die **Filter zum Holen von Herk.-Belegen verwenden** Aktion aus.  
-    2. Um einen neuen Filter einzurichten, geben Sie einen beschreibenden Code in das Feld **Code** ein, und klicken Sie auf Aktionen **Bearbeiten**.  
+    2. Um einen neuen Filter einzurichten, geben Sie einen beschreibenden Code in das Feld **Code** ein, und klicken Sie auf Aktionen **Bearbeiten** .  
     3. Legen Sie die Art von Herkunftsbelegzeilen fest, die Sie abrufen möchten, indem Sie die jeweiligen Filterfelder ausfüllen.  
     4. Wählen Sie die Aktion **Ausführen** aus.  
 
@@ -70,7 +70,7 @@ Normalerweise erstellt der Mitarbeiter, der für die Lieferung verantwortlich is
 
     Die Filterkombinationen, die Sie definieren, werden auf der Seite **Filter z. Holen v. Herk.-Bel.** gespeichert, bis das nächste Mal benötigt werden. Sie können eine unbegrenzte Anzahl von Filterkombinationen erstellen. Sie können die Kriterien jederzeit ändern, indem Sie die Aktion **Bearbeiten** auswählen.
 
-4. Wählen Sie die Herkunftsbelege, für die Sie Artikel liefern möchten, und bestätigen Sie dann mit **OK**.  
+4. Wählen Sie die Herkunftsbelege, für die Sie Artikel liefern möchten, und bestätigen Sie dann mit **OK** .  
 
 Die Zeilen der Herkunftsbelege werden auf der Seite **Warenausgang** angezeigt. Das Feld **Zu liefernde Menge** ist für jede Zeile gefüllt, Sie können die Menge jedoch bei Bedarf ändern. Wenn Sie den Inhalt des Feldes **Lagerplatzcode** m Inforegister **Allgemein** löschen, bevor Sie die Zeilen abrufen, muss in jeder Warenausgangszeile ein geeigneter Lagerplatzcode eingetragen werden.  
 

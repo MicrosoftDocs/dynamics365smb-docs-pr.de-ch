@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2ea5d9fce1c10cf3c07c833efbe19b208f0c5a7c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0144c5283d6c5b860cb14522c08acec2f769df8d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788889"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910569"
 ---
 # <a name="set-up-shipping-agents"></a>Zusteller einrichten
 Sie können einen Code für jeden Spediteur anlegen und Informationen dazu eingeben.  
@@ -30,7 +30,7 @@ Wenn Sie einer Verkaufsauftragszeile eine Spediteurtransportart zugeordnet haben
 ## <a name="to-set-up-a-shipping-agent"></a>So richten Sie einen Spediteur ein  
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Zusteller** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
-3.  Wählen Sie die Aktion **Spediteurtransportarten**.
+3.  Wählen Sie die Aktion **Spediteurtransportarten** .
 4. In **Spediteurtransportarten** füllen Sie die Felder wie notwendig aus.
 
 > [!NOTE]  

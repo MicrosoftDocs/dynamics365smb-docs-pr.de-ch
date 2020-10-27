@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f82b0a8f6734a9711cb0a6e2cc5a96c9f0dd1b34
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6e620772e5e83777d0ef48cc2b86bfbdc372daf8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786410"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913335"
 ---
 # <a name="defining-and-allocating-costs"></a>Definieren und Zuweisen von Kosten
 Kostenumlagen verschieben Kosten und Einnahmen zwischen Kostenarten, Kostenstellen und Kostenträgern. Sie können so viele Zuteilungen wie notwendig definieren. Jede Zuteilung besteht aus:  
@@ -52,13 +52,13 @@ Jede Zuordnung besteht aus einer Zuordnungsquelle und einer oder mehreren Zuordn
 12. Nach dem Einrichten der Zuordnungsziele und -quellen wählen Sie auf der Registerkarte Start in der Gruppe Prozess die Aktion **Umlageschlüssel berechnen** aus, um die gesamten Aktienwerte zu berechnen.  
 
 > [!NOTE]  
->  Aktivieren Sie das Kontrollkästchen **Gesperrt**, um die Verteilungseinrichtung zu deaktivieren.
+>  Aktivieren Sie das Kontrollkästchen **Gesperrt** , um die Verteilungseinrichtung zu deaktivieren.
 
 ## <a name="setting-filters-for-dynamic-allocation-bases"></a>Setzen von Filtern für dynamische Zuteilungsgrundlagen
 Die Methode der dynamischen Zuteilung basiert auf veränderbaren Werten. Zum Beispiel die Anzahl der Mitarbeiter in einer Kostenstelle oder die Artikel eines Kostenträgers, die in einem bestimmten Zeitraum verkauft wurden. Es gibt neun vordefinierte Zuteilungsgrundlagen und zwölf dynamische Datumsbereiche. Die verschiedenen Filter werden basierend auf der Zuteilungsgrundlage eingestellt.  
 
 ### <a name="setting-filters-for-dynamic-allocation-bases"></a>Setzen von Filtern für dynamische Zuteilungsgrundlagen  
- Die nachstehende Tabelle zeigt, welche Filter für verschiedene Zuteilungsgrundlagen möglich sind und welche Werte in den Feldern **Filter-Nr.** und **Gruppenfilter** gültig sind. Drücken Sie F1 im Feld **Datenfiltercode**, um detaillierte Beschreibungen zu lesen.  
+ Die nachstehende Tabelle zeigt, welche Filter für verschiedene Zuteilungsgrundlagen möglich sind und welche Werte in den Feldern **Filter-Nr.** und **Gruppenfilter** gültig sind. Drücken Sie F1 im Feld **Datenfiltercode** , um detaillierte Beschreibungen zu lesen.  
 
 |**Basis**|**Nr. Filter**|**Datumsfiltercode**|**Kostenstellenfilter**|**Kostenträgerfilter**|**Gruppenfilter**|  
 |--------------|----------------------------------------|----------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------|  
@@ -96,20 +96,20 @@ In diesem Thema wird beschrieben, wie drei neue Verteilungsziel-Kostenträger f�
 2.  Wählen Sie in der ersten Rechnungszeile in dem Feld **Zielkosteobjekt** die Option **ACCESSO** aus.  
 3.  Wählen Sie in der ersten Zeile im Feld **Zielart zuweisen** die Option **Alle Kosten** aus, um festzulegen, wie alle anfallenden Kosten zugeordnet werden.  
 4.  Wählen Sie in der ersten Zeile im Feld **Basis** die Option **Statisch** aus, um die Methode der statischen Umlage zu verwenden.  
-5.  Geben Sie in der ersten Zeile im Feld **Aktie** das Verteilungsverhältnis **5**ein.  
+5.  Geben Sie in der ersten Zeile im Feld **Aktie** das Verteilungsverhältnis **5** ein.  
 6.  Geben Sie in der zweiten Rechnungszeile in dem Feld **Zielkostenart** die Zahl **9903** ein.  
 7.  Wählen Sie in der zweiten Rechnungszeile in dem Feld **Zielkosteobjekt** **PAINT.**  
 8.  Wählen Sie in der zweiten Zeile im Feld **Zielart zuweisen** die Option **Alle Kosten** aus, um festzulegen, wie alle anfallenden Kosten zugeordnet werden.  
 9. Wählen Sie in der zweiten Zeile im Feld **Basis** die Option **Statisch** aus, um die Methode der statischen Umlage zu verwenden.  
-10. Geben Sie in der zweiten Zeile im Feld **Aktie** das Verteilungsverhältnis **2**ein.  
+10. Geben Sie in der zweiten Zeile im Feld **Aktie** das Verteilungsverhältnis **2** ein.  
 11. Geben Sie in der dritten Rechnungszeile in dem Feld **Zielkostenart** die Zahl **9903** ein.  
 12. Wählen Sie in der dritten Rechnungszeile in dem Feld **Zielkosteobjekt** die Option **ACCESSO** aus.  
 13. Wählen Sie in der dritten Zeile im Feld **Zielart zuweisen** die Option **Alle Kosten** aus, um festzulegen, wie alle anfallenden Kosten zugeordnet werden.  
 14. Wählen Sie in der dritten Zeile im Feld **Basis** die Option **Statisch** aus, um die Methode der statischen Umlage zu verwenden.  
-15. Geben Sie in der dritten Zeile im Feld **Aktie** das Verteilungsverhältnis **4**ein.  
+15. Geben Sie in der dritten Zeile im Feld **Aktie** das Verteilungsverhältnis **4** ein.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet automatisch das Feld  unter Verwendung eines **Prozentsatzes**, der von allen drei Zuteilungsverhältnissen abhängt, die im Feld **Aktie** für alle drei Zeilen eingegeben werden.
+>  [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet automatisch das Feld  unter Verwendung eines **Prozentsatzes** , der von allen drei Zuteilungsverhältnissen abhängt, die im Feld **Aktie** für alle drei Zeilen eingegeben werden.
 
 ## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Szenario 2: Definieren von dynamischen Zuteilungen auf der Basis der verkauften Artikel
 Dieses Thema zeigt ein Beispiel für das Definieren von Zuordnungen mithilfe der Methode der dynamischen Verteilung. In dem Beispiel ändern Sie die dynamische Verteilung der Kosten für die VERKAUF-Kostenstelle, sodass der neue Kostenträger COMPUTERAUSSTATTUNG unterstützt wird. COMPUTERAUSSTATTUNG-Pakete haben Artikelnummern im Bereich von 8904-W bis 8924-W. Sie verwenden die Verkaufszahlen des Vorjahres, um den Anteil zu berechnen. Die Verteilung wird auf die helfende Kostenart 9903 gebucht.  
@@ -132,7 +132,7 @@ Dieses Thema zeigt ein Beispiel für das Definieren von Zuordnungen mithilfe der
 11. Wählen Sie im Feld **Basis** die Verteilungsgrundlage **Verkaufte Artikel (Betrag)** aus.  
 12. Geben Sie im Feld **Nummernfilter** den Wert **8904-W..8924-W** ein.  
 13. In dem Feld **Datumsfiltercode** geben Sie **Vorjahr** ein.  
-14. Damit der Vorschlag berechnet wird, klicken Sie auf Aktionen **Umlageschlüssel berechnen**.  
+14. Damit der Vorschlag berechnet wird, klicken Sie auf Aktionen **Umlageschlüssel berechnen** .  
 
 > [!IMPORTANT]  
 >  [!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet die Verkaufszahlen der Vorjahre, um einen Anteil von 1596,50 MW mit 100 Prozent für die COMPUTERAUSSTATTUNG-Pakete zu berechnen. Das bedeutet, dass alle Artikel, die letztes Jahr verkauft wurden, dem Kostenträger COMPUTERAUSSTATTUNG zugeordnet werden.
