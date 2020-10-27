@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97e65ebb534072cd7f8423a6b7454afd9eb1451b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 00ffaf4cefa87ad530a94495386998d65be4fdc5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781574"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923534"
 ---
 # <a name="managing-relationships"></a>Verwalten von Beziehungen
 Die Marketing & Vertriebsverwaltungsfeatures von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützen Sie beim Verwalten und Ausführen von Verkaufsmassnahmen. Mit diesen Features haben Sie Zugriff auf umfassende und exakte Informationen, dank derer Sie Ihre Aktivitäten auf bevorzugte Debitoren-Kontaktsegmente konzentrieren können.

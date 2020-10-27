@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 08/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 342ffb57090aa78e10b8448b6316c610f6485040
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: d20b1814e6b5a21efee145223b42c703d65a6c2e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693113"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924667"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Testversionen und Abonnements
 
@@ -53,7 +53,7 @@ Um Ihnen beim Einrichten Ihres Unternehmens zu helfen, listet die Seite **Unters
 | Debitorengenehmigungsworkflow einrichten |Sie können Genehmigungsworkflows so erstellen, dass sie einen Genehmiger automatisch benachrichtigen, wenn ein Benutzer versucht, eine Debitorenkarte zu erstellen oder zu ändern. |
 | Zahlungsgenehmigungsworkflow einrichten |Sie können einen Genehmigungsworkflow erstellen, der einen Genehmiger benachrichtigt, wenn ein Benutzer Zahlungs-Buch.-Blattzeilen sendet. |
 | Dynamics 365 Sales-Verbindung einrichten |Richtet eine Verbindung zu Dynamics 365 Sales ein, die es Ihnen erlaubt, Daten wie Kontakte und Verkaufsauftragsinformationen zu synchronisieren. |
-| Cashflowplanung einrichten |Richter das Cashflowplanungsdiagramm ein, sodass Sie die vorausgesagte Umlagerungen von ein- und ausgehendem Bargeldes in Ihrem Unternehmen anzeigen können. Das Diagramm basiert auf dem **Buchhalter Rollencenter**. |
+| Cashflowplanung einrichten |Richter das Cashflowplanungsdiagramm ein, sodass Sie die vorausgesagte Umlagerungen von ein- und ausgehendem Bargeldes in Ihrem Unternehmen anzeigen können. Das Diagramm basiert auf dem **Buchhalter Rollencenter** . |
 | Berichtdaten einrichten|Datensets einrichten, die Sie verwenden können, um leistungsstarke Berichte mithilfe von Excel oder Power BI zu erstellen. |
 | Externen Buchhalter einladen |Wenn Sie eines externen Buchhalter verwenden, um Ihre Buch und Berichte zu verwalten, können Sie sie für Ihr [!INCLUDE[prodshort](includes/prodshort.md)] einladen, damit sie mit Ihnen an Ihren steuerlichen Daten arbeiten. |
 
@@ -61,7 +61,7 @@ Die Seite **Unterstützte Einrichtung** enthält möglicherweise andere Einträg
 
 ### <a name="resetting-your-prodshort-trial-experience"></a>Zurücksetzen Ihrer [!INCLUDE[prodshort](includes/prodshort.md)]-Testversionsumgebung
 
-Wenn Sie Ihrer [!INCLUDE[prodshort](includes/prodshort.md)]-Testversion Daten hinzugefügt haben und Sie möchten nochmal von vorn anfangen, können Sie ein neues Bewertungsunternehmen erstellen und dann das ersten Unternehmen löschen. Öffnen Sie die Seite **Unternehmen** und wählen Sie **Neu**, um die Anleitung **Neues Unternehmen anlegen** unterstützte Einrichtung zu starten. Der Leitfaden kann Ihnen helfen, eine neue Auswertungsfirma mit Beispieldaten einzurichten. Sie können auch eine Kopie Ihres aktuellen Unternehmens erstellen, sich abmelden und sich dann bei Ihrem neuen Unternehmen anmelden.  
+Wenn Sie Ihrer [!INCLUDE[prodshort](includes/prodshort.md)]-Testversion Daten hinzugefügt haben und Sie möchten nochmal von vorn anfangen, können Sie ein neues Bewertungsunternehmen erstellen und dann das ersten Unternehmen löschen. Öffnen Sie die Seite **Unternehmen** und wählen Sie **Neu** , um die Anleitung **Neues Unternehmen anlegen** unterstützte Einrichtung zu starten. Der Leitfaden kann Ihnen helfen, eine neue Auswertungsfirma mit Beispieldaten einzurichten. Sie können auch eine Kopie Ihres aktuellen Unternehmens erstellen, sich abmelden und sich dann bei Ihrem neuen Unternehmen anmelden.  
 
 > [!IMPORTANT]
 > Wenn Sie [!INCLUDE[prodshort](includes/prodshort.md)] mit anderen Personen in Ihrer Organisation gemeinsam nutzen, müssen Sie sicherstellen, dass keine anderen Personen angemeldet sind, wenn Sie ein Unternehmen löschen.  
@@ -70,7 +70,7 @@ Wenn Sie Ihrer [!INCLUDE[prodshort](includes/prodshort.md)]-Testversion Daten hi
 
 Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich entscheiden, zu abonnieren, suchen Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)]-Partner. Weitere Informationen finden Sie unter [Wie finde ich einen Reselling-Partner?](across-faq.md#findpartner). Der Wiederverkaufspartner kann Ihnen helfen, [!INCLUDE[prodshort](includes/prodshort.md)] so einzurichten, dass es zu Ihrem Unternehmen passt, einschliesslich des Imports Ihrer Daten aus Ihrem früheren System. Sie können [!INCLUDE[prodshort](includes/prodshort.md)] auch anpassen, indem Sie Anwendungen aus [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646) hinzufügen.  
 
-[!INCLUDE[prodshort](includes/prodshort.md)] online verwendet Office 365. Wenn Ihr Unternehmen eine andere Art der E-Mail-Einrichtung verwendet, kann der Weiterverkaufspartner Ihnen bei der Entscheidung helfen, wie Sie migrieren möchten oder ob Sie [!INCLUDE[prodshort](includes/prodshort.md)] lokal verwenden sollten.  
+[!INCLUDE[prodshort](includes/prodshort.md)] Online verwendet Microsoft 365. Wenn Ihr Unternehmen eine andere Art der E-Mail-Einrichtung verwendet, kann der Weiterverkaufspartner Ihnen bei der Entscheidung helfen, wie Sie migrieren möchten oder ob Sie [!INCLUDE[prodshort](includes/prodshort.md)] lokal verwenden sollten.  
 
 Sie können sich auch an das [[!INCLUDE[d365fin](includes/d365fin_md.md)]Vertreiebsteam](https://go.microsoft.com/fwlink/?linkid=828707) wenden.  
 

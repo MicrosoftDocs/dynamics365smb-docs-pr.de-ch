@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0c1e0e2d39d1af618397fa07f0057f745d32d6e2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 09dfddfe26ee0e9b1cc6ca01661657a3b7fff411
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781924"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924917"
 ---
 # <a name="use-approval-workflows"></a>Artikelgenehmigungsworkflow verwenden
 Wenn ein Datensatz, wie ein Einkaufsbeleg oder eine Debitorenkarte, von einer Person in Ihrer Organisation genehmigt werden muss, senden Sie eine Genehmigungsanforderung als Teil eines Workflows. Je nachdem, wie der Workflow eingerichtet ist, wird der entsprechende Genehmiger dann benachrichtigt, dass der Datensatz genehmigt werden muss.
@@ -30,19 +30,19 @@ Wesentliche Genehmigungsworkflows für Einkaufsbelege, Verkaufsbelege, Zahlungsa
 ## <a name="to-request-approval-of-a-record"></a>So fordern Sie die Genehmigung eines Datensatzes an
 Die nächste Aufgabe wird durch einen genehmigenden Benutzer ausgeführt.
 
-1. Wählen Sie auf der Seite, das den Datensatz anzeigt, die Aktion **Genehmigungsanforderung senden**.
+1. Wählen Sie auf der Seite, das den Datensatz anzeigt, die Aktion **Genehmigungsanforderung senden** .
 2. Um alle Ihre Genehmigungsanfragen zu sehen, wählen Sie die Funktion ![Glühbirne, die das Symbol Tell Me feature](media/ui-search/search_small.png "Tell Me-Funktion") öffnet, geben Sie **Genehmigungsanfrageeinträge** ein und wählen Sie dann den entsprechenden Link.  
 
 Der Status des Genehmigungspostens wird von **Erstellt** in **Offen** aktualisiert. Der Status des Datensatzes, z. B. einer Einkaufsrechnung wird von **Offen** zu **Ausstehende Genehmigung** aktualisiert und ist für eine Bearbeitung gesperrt, bis alle Genehmiger den Datensatz genehmigt haben.
 
-Wenn der Genehmiger den Datensatz genehmigt hat, ändert sich der Status zu **Freigegeben**. Sie können dann Ihre Aufgaben für diesen Datensatz fortsetzen.
+Wenn der Genehmiger den Datensatz genehmigt hat, ändert sich der Status zu **Freigegeben** . Sie können dann Ihre Aufgaben für diesen Datensatz fortsetzen.
 
 ## <a name="to-cancel-requests-for-approval"></a>So stornieren Sie Genehmigungsanforderungen
 Die nächste Aufgabe wird durch einen genehmigenden Benutzer mit Genehmigerrechten ausgeführt.
 
 Ein Debitor möchte möglicherweise Änderungen an einem Auftrag vornehmen, nachdem dieser zur Genehmigung übermittelt wurde. In diesem Fall können Sie den Genehmigungsvorgang abbrechen und die notwendigen Änderungen an dem Auftrag durchführen, bevor Sie eine erneute Genehmigung anfordern.
 
-- Wählen Sie auf der Seite, das den Datensatz anzeigt, die Aktion **Genehmigungsanforderung stornieren**.
+- Wählen Sie auf der Seite, das den Datensatz anzeigt, die Aktion **Genehmigungsanforderung stornieren** .
 
 Wenn die Genehmigungsanforderung storniert wurde, wird der Status des entsprechenden Genehmigungspostens zu **Storniert** geändert. Der Status des Datensatzes wird von **Ausstehende Genehmigung** in **Offen** aktualisiert. Der Genehmigungsvorgang kann dann von vorne begonnen werden.
 
@@ -53,13 +53,13 @@ Sie können Genehmigungsanforderungen auf der Seite **Zu genehmigende Anforderun
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Genehmigungsanfragen** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie mindestens eine Zeile für den Datensatz (oder die Datensätze) zur Genehmigung oder Ablehnung aus.
-3. Wählen Sie die Aktion **Genehmigen**, **Ablehnen**, oder **Delegieren** aus.
+3. Wählen Sie die Aktion **Genehmigen** , **Ablehnen** , oder **Delegieren** aus.
 
-Wenn ein Datensatz genehmigt oder abgelehnt wurde, ändert sich der Genehmigungsstatus im Feld **Status** zu **Genehmigt** oder **Abgelehnt**.
+Wenn ein Datensatz genehmigt oder abgelehnt wurde, ändert sich der Genehmigungsstatus im Feld **Status** zu **Genehmigt** oder **Abgelehnt** .
 
-Wenn eine Genehmigerhierarchie eingerichtet wurde, bleibt der Datensatzstatus auf **Ausstehende Genehmigung**, bis alle Genehmiger den Datensatz genehmigt haben. Dann ändert sich der Datensatzstatus zu **Freigegeben**.
+Wenn eine Genehmigerhierarchie eingerichtet wurde, bleibt der Datensatzstatus auf **Ausstehende Genehmigung** , bis alle Genehmiger den Datensatz genehmigt haben. Dann ändert sich der Datensatzstatus zu **Freigegeben** .
 
-Gleichzeitig ändert sich der Genehmigungsstatus von **Erstellt** zu **Offen**, sobald eine Genehmigungsanforderung für den Datensatz erstellt wird. Wenn die Anforderung abgelehnt wurde, ändert sich der Genehmigungsstatus zu **Abgelehnt**. Der Status bleibt **Offen** oder **Abgelehnt**, bis alle Genehmiger die Anforderung genehmigt haben.
+Gleichzeitig ändert sich der Genehmigungsstatus von **Erstellt** zu **Offen** , sobald eine Genehmigungsanforderung für den Datensatz erstellt wird. Wenn die Anforderung abgelehnt wurde, ändert sich der Genehmigungsstatus zu **Abgelehnt** . Der Status bleibt **Offen** oder **Abgelehnt** , bis alle Genehmiger die Anforderung genehmigt haben.
 
 ## <a name="to-delegate-requests-for-approval"></a>So delegieren Sie Genehmigungsanforderungen
 Die nächste Aufgabe wird durch einen genehmigenden Benutzer mit Genehmigerrechten ausgeführt.
@@ -67,14 +67,14 @@ Die nächste Aufgabe wird durch einen genehmigenden Benutzer mit Genehmigerrecht
 Damit verhindert wird, dass sich Belege ansammeln oder anderweitig den Workflow blockieren, können der Genehmiger und der Genehmigungsadministrator eine Genehmigungsanforderung an einen stellvertretenden Genehmiger delegieren. Der Ersatz kann entweder ein festgelegter Ersatz, der direkte Genehmiger oder der Genehmigungsadministrator sein (in dieser Prioritätenreihenfolge). In der Regel nutzen Sie diese Funktion dann, wenn sich ein Genehmiger ausser Haus befindet und Anforderungen nicht vor dem Fälligkeitsdatum genehmigen kann.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Genehmigungsanfragen** ein, und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie mindestens eine Zeile für die Genehmigungsanforderungen aus, die Sie an einen Ersatzgenehmiger delegieren möchten, und wählen Sie dann die Aktion **Delegieren**.
+2. Wählen Sie mindestens eine Zeile für die Genehmigungsanforderungen aus, die Sie an einen Ersatzgenehmiger delegieren möchten, und wählen Sie dann die Aktion **Delegieren** .
 
 Eine Benachrichtigung zur Genehmigung der Anforderung wird an den stellvertretenden Genehmiger gesendet.
 
 ## <a name="to-manage-overdue-approval-requests"></a>So verwalten Sie fällige Genehmigungsanforderungen
 Die nächste Aufgabe wird durch einen genehmigenden Benutzer mit Genehmigerrechten ausgeführt.
 
-In regelmässigen Abständen müssen Sie Genehmigungs-Workflowbenutzer an überfällige Genehmigungsanforderungen erinnern, auf die sie reagieren müssen. Dazu verwenden Sie die Funktion **Fällige Genehmigungsbenachrichtigungen senden**.
+In regelmässigen Abständen müssen Sie Genehmigungs-Workflowbenutzer an überfällige Genehmigungsanforderungen erinnern, auf die sie reagieren müssen. Dazu verwenden Sie die Funktion **Fällige Genehmigungsbenachrichtigungen senden** .
 
 Die Funktion **Fällige Genehmigungsbenachrichtigungen senden** ermittelt alle offenen Genehmigungsanforderungen, die zurzeit fällig sind. Jeder Genehmiger, für den mindestens ein fälliger Genehmigungsposten vorhanden ist, erhält eine Benachrichtigung mit der Liste aller fälligen Genehmigungsanforderungen. Die Benachrichtigung wird auch an den Genehmiger und an alle Anforderer der fälligen Genehmigungen gesendet. Dies ist hilfreich, wenn der fällige Genehmigungsposten an einen Stellvertreter delegiert werden muss.
 

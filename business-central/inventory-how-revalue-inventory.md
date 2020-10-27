@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3570d5e7347745763c8d8e18dfdf65166e7839e0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b29e93d248e939eb9eb1cea97e53cd1718304e80
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782057"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923809"
 ---
 # <a name="revalue-inventory"></a>Neubewerten von Lagerbestand
 Wenn Sie den Lagerwert eines Artikels oder den eines bestimmten Lagerpostens nach oben oder unten verändern möchten, müssen Sie das Neubewertungs Erf.-Journal verwenden.
@@ -29,7 +29,7 @@ Wenn Sie den Lagerwert eines Artikels oder den eines bestimmten Lagerpostens nac
 4. Wählen Sie die Schaltfläche **OK** aus.
 5. In jeder Zeile auf der Seite **Neubewertungs-Erf.-Journal** im Feld **Einheitskosten (neu bewertet)** geben Sie den neuen Einstandspreis ein. Oder geben Sie den Gesamtbetrag im Feld **Lagerwert (neu bewertet)** ein.
 
-    Die entsprechenden Felder werden automatisch aktualisiert. Beachten Sie, dass das Feld **Betrag** die tatsächliche Änderung des Lagerwertes für den ausgewählten Lagerposten zeigt. Es berechnet die Differenz zwischen den Feldern **Lagerwert (berechnet)** und **Lagerwert (neu bewertet)**.
+    Die entsprechenden Felder werden automatisch aktualisiert. Beachten Sie, dass das Feld **Betrag** die tatsächliche Änderung des Lagerwertes für den ausgewählten Lagerposten zeigt. Es berechnet die Differenz zwischen den Feldern **Lagerwert (berechnet)** und **Lagerwert (neu bewertet)** .
 6. Wenn Sie das Einlagern der Artikel abgeschlossen haben, wählen Sie die Aktion **Buchen** aus.
 
 Neue Wertposten werden nun erstellt, um die Neubewertungen abzubilden, die Sie gebucht haben. Sie können die neuen Werte in der entsprechenden Artikelkarten sehen.

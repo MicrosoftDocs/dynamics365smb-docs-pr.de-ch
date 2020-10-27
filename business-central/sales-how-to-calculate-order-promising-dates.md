@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2cc3fd679909e51422afe75ee4a1436f5ad8cb9c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5e9609ae65cd2cd23abad5680e576c3c16d89493
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789014"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926011"
 ---
 # <a name="calculate-order-promising-dates"></a>Lieferterminzusagen-Daten berechnen
 Ein Mandant muss in der Lage sein, seine Debitoren über Auftragslieferdaten zu informieren. Die Seite **Lieferzusagenzeilen** ermöglicht Ihnen, dies von einer Verkaufsauftragszeile aus zu tun.  
@@ -106,7 +106,7 @@ Wenn Sie die Lagerdurchlaufzeit bei der Berechnung der Lieferterminzusage in der
 3.  Im Inforegister **Lager** im Feld **Eingeh. Lagerdurchlaufzeit** geben Sie die Anzahl Tage ein, die bei der Berechnung der Lieferterminzusage berücksichtigt werden soll.  
 
 > [!NOTE]  
->  Wenn Sie das Feld **Eingeh. Lagerdurchlaufzeit** leer lassen, verwendet die Berechnung den Wert auf der Seite **Lager Einrichtung**.
+>  Wenn Sie das Feld **Eingeh. Lagerdurchlaufzeit** leer lassen, verwendet die Berechnung den Wert auf der Seite **Lager Einrichtung** .
 
 ### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Ausgehende Lagerdurchlaufzeit auf der Einrichtungsseite des Bestands eingeben  
 Wenn Sie eine ausgehende Lagerdurchlaufzeit bei der Berechnung der Lieferterminzusage in der Verkaufszeile berücksichtigen möchten, können Sie diese als Vorgabewert für das Lager eingeben.
@@ -123,7 +123,7 @@ Wenn Sie eine ausgehende Lagerdurchlaufzeit bei der Berechnung der Lieferterminz
 3.  Im Inforegister **Lager** im Feld **Ausgeh. Lagerdurchlaufzeit** geben Sie die Anzahl Tage ein, die bei der Berechnung der Lieferterminzusage berücksichtigt werden soll.  
 
 > [!NOTE]  
->  Wenn Sie das Feld **Ausgeh. Lagerdurchlaufzeit** leer lassen, verwendet die Berechnung den Wert auf der Seite **Lager Einrichtung**.
+>  Wenn Sie das Feld **Ausgeh. Lagerdurchlaufzeit** leer lassen, verwendet die Berechnung den Wert auf der Seite **Lager Einrichtung** .
 
 ## <a name="to-make-an-item-critical"></a>Einen Artikel als kritisch kennzeichnen  
 Bevor ein Artikel bei der Berechnung der Lieferterminzusage berücksichtigt werden kann, muss er als kritisch markiert werden Diese Einstellungen stellen sicher, dass unkritische Artikel nicht irrelevante Lieferterminzusagen verursachen.   
@@ -137,9 +137,9 @@ Bevor ein Artikel bei der Berechnung der Lieferterminzusage berücksichtigt werd
 3.  Wählen Sie die **Lieferterminzusagen** Aktion aus, und wählen Sie die **Lieferterminzusagenzeilen** Aktion aus.  
 4.  Wählen Sie eine Zeile aus, und wählen Sie dann eine der folgenden Optionen aus:  
 
-    - Wählen Sie **Verfügbar für Zusage**, wenn die Anwendung das früheste Verfügbarkeitsdatum des Artikels unter Berücksichtigung des Lagerbestands der geplanten Zugänge und des Bruttobedarfs berechnen soll.  
-    - Wählen Sie **Geeignet für Zusage**, wenn Sie wissen, dass der Artikel aktuell nicht an Lager ist und das früheste Datum, zu dem der Artikel durch neue Lagerzugänge verfügbar sein wird, errechnen wollen.  
-5.  Wählen Sie die Schaltfläche **Akzeptieren**, um das früheste verfügbare Lieferdatum zu akzeptieren.  
+    - Wählen Sie **Verfügbar für Zusage** , wenn die Anwendung das früheste Verfügbarkeitsdatum des Artikels unter Berücksichtigung des Lagerbestands der geplanten Zugänge und des Bruttobedarfs berechnen soll.  
+    - Wählen Sie **Geeignet für Zusage** , wenn Sie wissen, dass der Artikel aktuell nicht an Lager ist und das früheste Datum, zu dem der Artikel durch neue Lagerzugänge verfügbar sein wird, errechnen wollen.  
+5.  Wählen Sie die Schaltfläche **Akzeptieren** , um das früheste verfügbare Lieferdatum zu akzeptieren.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Verkauf](sales-manage-sales.md)  

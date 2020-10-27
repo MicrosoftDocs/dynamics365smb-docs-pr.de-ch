@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d61e599b9e86f28de6edcf4ccff5b245503880fe
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d9ae0f8e45c940d2a78d4d383a733ad378e90650
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784623"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926361"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Gespeicherte Einstellungen für Berichte und Stapelaufträge verwalten
 Abhängig vom ausgeführten Bericht, erhalten Benutzer in der Regel eine Seite, für die Sie bestimmte Optionen wählen und Filter festlegen können, um Daten zu ändern, die im erstellten Bericht enthalten sind. Dies ist die Berichtanfordearungsseite. Ein Bericht kann eine oder mehrere *Gespeicherte Einstellungen* enthalten, die Benutzer auf den Bericht von der Anforderungsseite anwenden können. *Gespeicherte Einstellungen* sind grundsätzlich vordefinierte Optionen und Filter. Die Verwendung von gespeicherten Einstellungen ist eine schnelle und zuverlässige Art, Berichte zu erstellen, die die richtigen Daten enthalten. Weitere Informationen finden Sie unter [Gespeicherte Einstellungen verwenden](ui-work-report.md#SavedSettings).
@@ -45,14 +45,14 @@ Die Seitendarstellungen zeigt alle gespeicherten Einstellungseingaben für alle 
 
 Von der Seite **Berichts-Einstellungen** können Sie:
 -   Die Aktion **Neu** auswählen, um neue gespeicherte Einstellungen von Grund auf neu zu erstellen.
--   Wählen Sie einen Einstellungsposten aus der Liste aus, und wählen Sie die Aktion **Kopieren**, um eine Kopie zu erstellen.
--   Wählen Sie einen Einstellungsposten aus der Liste aus, und wählen Sie die Aktion **Bearbeiten**, um einen gespeicherten Einstellungsposten zu ändern.
+-   Wählen Sie einen Einstellungsposten aus der Liste aus, und wählen Sie die Aktion **Kopieren** , um eine Kopie zu erstellen.
+-   Wählen Sie einen Einstellungsposten aus der Liste aus, und wählen Sie die Aktion **Bearbeiten** , um einen gespeicherten Einstellungsposten zu ändern.
 
 > [!Important]
 > Berücksichtigt den Namen, den Sie einem gespeicherten Einstellungsposten geben. Wenn Sie einen gespeicherten Einstellungsartikel für alle Benutzer erstellen und er denselben Namen wie bestehende gespeicherte Einstellungen für einen bestimmten Benutzer hat, ist dieser Benutzer nicht dazu in der Lage, die gespeicherten Einstellungen zu verwenden, die jedem zugeordnet sind.  Im Abschnitt **Gespeicherte Einstellungen** auf der Berichtsanforderungsseite werden dem Benutzer auch zwei Optionen gespeicherter Einstellungen mit demselben Namen angezeigt. Jedoch gleichgültig welche Option sie auswählen, werden die benutzerspezifischen gespeicherten Einstellungen verwendet.
 
 > [!NOTE]
-> Die gespeicherte Einstellungsfunktion in Berichten ist nur relevant, wenn die [SaveValues-Eigenschaft](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) der Anforderungsseite mit **Ja** festgelegt ist. Die **SaveValues**-Eigenschaft wird in der Entwicklungsumgebung festgelegt.  
+> Die gespeicherte Einstellungsfunktion in Berichten ist nur relevant, wenn die [SaveValues-Eigenschaft](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) der Anforderungsseite mit **Ja** festgelegt ist. Die **SaveValues** -Eigenschaft wird in der Entwicklungsumgebung festgelegt.  
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit Berichten, Stapelverarbeitungen und XMLports](ui-work-report.md)  

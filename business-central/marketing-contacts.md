@@ -1,8 +1,6 @@
 ---
 title: Erstellen und Verwalten von Unternehmenskontakten | Microsoft Docs
 description: Sie richten alle externen Entitäten ein, mit denen Sie Geschäftsbeziehungen haben (wie Debitoren, Interessenten, Kreditoren und Berater).
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e1c951a3eb0a8b519ac5c0f7c5112cb40272219
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ea0bf893088694115e5cb54f2b9500bb4eacf6ac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779275"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922783"
 ---
 # <a name="managing-contacts"></a>Kontakte verwalten
+
 Mitarbeiter in Ihrem Unternehmen treffen regelmässig mit möglichen Geschäftsbeziehungen zusammen. Aus diesen Zusammentreffen können sich formale Beziehungen ergeben. All diese externen Kontakte und ihre detaillierten Informationen sollten im System aufgezeichnet werden, damit die Kommunikation erfolgreicher ist und sie problemlos in formale Debitor-, Kreditor- oder Bankbeziehungen umgewandelt werden können.
+
+Verwenden Sie die Liste **Kontakte** , um Ihre Kontakte zu verwalten. Von dort aus können Sie Verkaufschancen erstellen und andere Interaktionen mit einzelnen Kontakten verwalten. Sie können auch Statistiken zu einem Kontakt anzeigen und auf eine Reihe von Berichten zugreifen. Informationen dazu, wie Sie den richtigen Kontakt in der Liste finden, finden Sie unter [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md).  
 
 In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert
 
@@ -32,5 +33,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Lösen Sie auf Verwirrung auf, wenn zwei oder mehr Datensätze für denselben Kontakt vorhanden sind.|[Doppelt Datensätze zusammenführen](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Siehe auch
+
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
-[Arbeiten mit  Business Central](ui-work-product.md)  
+[Sortieren, Durchsuchen und Filtern](ui-enter-criteria-filters.md)  
+[Arbeiten mit Business Central](ui-work-product.md)  

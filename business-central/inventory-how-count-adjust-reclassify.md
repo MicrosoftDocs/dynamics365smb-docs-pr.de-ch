@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/20/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 63d7157bc25aa97e1963efdfeb75364db04a0c95
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 056ed7dd978d4c9cc5c3745997912bd32c40bed8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782157"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922933"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern
 Mindestens einmal im Geschäftsjahr muss eine Inventur durchgeführt werden, d. h. alle Artikel im Lager müssen gezählt werden, um festzustellen, ob die in der Datenbank geführten Mengen denen entsprechen, die tatsächlich physisch im Lager vorhanden sind. Ist die tatsächliche physische Menge bekannt, wird diese im Hauptbuch als Teil der Lagerbewertung am Ende eines Zeitraums gebucht.
@@ -45,7 +45,7 @@ Neben der physischen Zählaufgabe umfasst der gesamte Vorgang die folgenden drei
 Sie können eine physische Inventur, abhängig von Ihren Lagereinstellungen, nach einer der folgenden Methoden durchführen. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).  
 
 -   Wenn Ihr Lagerort keine gesteuerte Einlagerung und Kommissionierung nutzt, verwenden Sie das **Inventur Erf.-Journal** im Menü **Lager** und das Vorgehen ist fast dasselbe, als wenn Sie eine Inventur ohne zyklische Zählung durchführen.  
--   Wenn Ihr Lagerort die gesteuerte Einlagerung und Kommissionierung nutzt (erweiterte Lagerortkonfiguration) verwenden Sie zunächst das Fenster **Logistik Inventur Erf.-Journal** und dann das Fenster **Artikel Erf.-Journal**, um die Funktion **Ausgleich berechnen** auszuführen.
+-   Wenn Ihr Lagerort die gesteuerte Einlagerung und Kommissionierung nutzt (erweiterte Lagerortkonfiguration) verwenden Sie zunächst das Fenster **Logistik Inventur Erf.-Journal** und dann das Fenster **Artikel Erf.-Journal** , um die Funktion **Ausgleich berechnen** auszuführen.
 
 ### <a name="to-calculate-the-expected-inventory-in-basic-warehouse-configurations"></a>Um den erwarteten Lagerbestand in den Basislagerkonfigurationen zu berechnen
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Inventur Erf.-Journale** ein und wählen Sie dann den entsprechenden Link.
@@ -61,12 +61,12 @@ Sie können eine physische Inventur, abhängig von Ihren Lagereinstellungen, nac
 1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Positions-Erf.-Journal** ein und wählen Sie den entsprechenden Link.  
 2.  Wählen Sie die **Lagerortanpassung berechnen** Aktion aus.  
 3.  Tragen Sie in die Anforderungsseite die Nummern der Artikel ein, die Sie zählen möchten und geben Sie den Lagerort ein.
-4. Wählen Sie die Schaltfläche **OK**, und buchen Sie - falls vorhanden - die Regulierung.
+4. Wählen Sie die Schaltfläche **OK** , und buchen Sie - falls vorhanden - die Regulierung.
 
     Buchen Sie – falls vorhanden – die Regulierung. Wenn Sie dies nicht tun, bevor Sie eine Logistik- Inventur durchführen, werden die Ergebnisse, die Sie im zweiten Teil des Prozesses im Inventur-Erfassungsjournal und als Artikelposten buchen, die mit anderen Logistikanpassungen der gezählten Artikel kombinierten Inventurergebnisse sein.  
 5.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), und geben Sie **Logistik Inventur Erf.-Journal** ein, und wählen Sie den entsprechenden Link.  
 6. Wählen Sie die Aktion **Lager berechnen** aus. Die Batchauftrags-Anforderungfsseite **Logistik Lagerbestand berech.** wird geöffnet.  
-7.  Legen Sie Filter fest, um die Artikel zu begrenzen, die im Erfassungsjournal gezählt werden sollen, und wählen Sie die Schaltfläche **OK**.
+7.  Legen Sie Filter fest, um die Artikel zu begrenzen, die im Erfassungsjournal gezählt werden sollen, und wählen Sie die Schaltfläche **OK** .
 
     Die Anwendung erstellt für jeden Lagerplatz, der die Filtervorgaben erfüllt, eine Zeile. Sie können zu diesem Zeitpunkt noch einige der Zeilen löschen. Wenn Sie die Ergebnisse aber als Inventur buchen möchten, müssen Sie den Artikel an allen Lagerplätzen zählen, an denen er vorhanden ist.  
 
@@ -78,7 +78,7 @@ Sie können eine physische Inventur, abhängig von Ihren Lagereinstellungen, nac
     > [!NOTE]  
     >  Im Logistik Inventur Erfassungsjournal wird automatisch das Feld **Menge (berechnet)** auf der Basis der Lagerplatzposten ausgefüllt, und diese Mengen werden in das Feld **Inventurmenge** jeder Zeile kopiert. Wenn die vom Lagermitarbeiter gezählte Menge von der Menge abweicht, die die Anwendung in das Feld "Inventurmenge" eingetragen hat, müssen Sie die tatsächlich gezählte Menge eintragen.  
 
-11. Eenn Sie alle gezählten Mengen eingegeben haben wählen Sie die Aktion **Erfassen**.  
+11. Eenn Sie alle gezählten Mengen eingegeben haben wählen Sie die Aktion **Erfassen** .  
 
     Wenn Sie das Erf.-Journal registrieren, erstellt die Anwendung zwei Lagerplatzposten im Logistikjournal für jede Zeile, die gezählt und registriert wurde:  
 
@@ -88,7 +88,7 @@ Sie können eine physische Inventur, abhängig von Ihren Lagereinstellungen, nac
 Wenn Sie die Logistik Inventur registrieren, erzeugen Sie keine Lagerposten, Inventurposten oder Wertposten, die Datensätze stehen jedoch jederzeit für eine Abstimmung zur Verfügung. Wenn Sie jedoch ganz genau nachvollziehen möchten, was im Lager passiert, und Sie alle Lagerplätze gezählt haben, in denen die Artikel registriert waren, sollten Sie die Logistikergebnisse sofort als Inventur im Modul "Lager" buchen. Weitere Informationen finden Sie unter [Um den tatsächlichen gezählten Lagerbestands in den erweiterten Lagerkonfigurationen einzugeben und zu buchen](inventory-how-count-adjust-reclassify.md#to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations).
 
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>Drucken des Berichts, der beim Zählen verwendet werden soll
-1. Auf der Seite **Inventur Erf.-Journal**, das den berechneten erwarteten Lagerbestand enthält, wählen Sie auf der Registerkarte Aktionen in der Gruppe Allgemein die Option **Drucken** aus.
+1. Auf der Seite **Inventur Erf.-Journal** , das den berechneten erwarteten Lagerbestand enthält, wählen Sie auf der Registerkarte Aktionen in der Gruppe Allgemein die Option **Drucken** aus.
 2. Geben Sie auf der Seite **Inventurliste** im Inforegister Optionen an, ob der Bericht die berechnete Mengen ausweisen soll und ob der Bericht Lagerartikel nach Serien-/Chargennummern aufführen soll.
 3. Setzen Sie Filter, wenn Sie nur den Bericht für bestimmte Artikel, Lagerplätze, Lagerorte oder Dimensionen berechnen möchten.
 4. Wählen Sie die Schaltfläche **Drucken** aus.
@@ -117,7 +117,7 @@ Mitarbeiter können nun mit dem Zählen des Lagerbestands fortfahren und alle Ab
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Positions-Erf.-Journal** ein und wählen Sie den entsprechenden Link.  
 2.  Wählen Sie die **Lagerortanpassung berechnen** Aktion aus.  
-3.  Wählen Sie dieselben Artikel aus, die Sie in der zyklischen Inventur gezählt haben, die Sie gerade durchgeführt haben, und alle anderen Artikel, die einen Ausgleich benötigen, und klicken Sie anschliessend auf die Schaltfläche **OK**.  
+3.  Wählen Sie dieselben Artikel aus, die Sie in der zyklischen Inventur gezählt haben, die Sie gerade durchgeführt haben, und alle anderen Artikel, die einen Ausgleich benötigen, und klicken Sie anschliessend auf die Schaltfläche **OK** .  
 
      Die Seite **Phys. Inventur Erf.-Journal** wird geöffnet und die Zeilen für diese Artikel werden erstellt. Beachten Sie, dass die Nettosummen , die Sie gerade Lagerort für Lagerort gezählt und registriert haben, jetzt bereit sind, als Lagerposten konsolidiert und synchronisiert zu werden.  
 
@@ -131,7 +131,7 @@ Obwohl Sie alle Artikel am Lager mindestens einmal im Jahr zählen, haben Sie si
 Sie können eine zyklische Inventur, abhängig von Ihren Lagereinstellungen, nach einer der folgenden Methoden durchführen. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).  
 
 -   Wenn Ihr Lagerort keine gesteuerte Einlagerung und Kommissionierung nutzt, verwenden Sie das **Inventur Erf.-Journal** im Menü **Lager** und das Vorgehen ist fast dasselbe, als wenn Sie eine Inventur ohne zyklische Zählung durchführen.  
--   Wenn Ihr Lagerort die gesteuerte Einlagerung und Kommissionierung nutzt (erweiterte Lagerortkonfiguration) verwenden Sie zunächst das Fenster **Logistik Inventur Erf.-Journal** und dann das Fenster **Artikel Erf.-Journal**, um die Funktion **Ausgleich berechnen** auszuführen.  
+-   Wenn Ihr Lagerort die gesteuerte Einlagerung und Kommissionierung nutzt (erweiterte Lagerortkonfiguration) verwenden Sie zunächst das Fenster **Logistik Inventur Erf.-Journal** und dann das Fenster **Artikel Erf.-Journal** , um die Funktion **Ausgleich berechnen** auszuführen.  
 
 ### <a name="to-set-up-counting-periods"></a>So richten Sie Inventurhäufigkeiten ein:
 Eine Inventur wird normalerweise in regelmässigen Intervallen durchgeführt, z. B. monatlich, vierteljährlich oder jährlich. Sie können die benötigten Inventurhäufigkeiten einrichten.
@@ -145,18 +145,18 @@ Sie richten die Inventurhäufigkeiten ein, die Sie verwenden möchten, und ordne
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie den Artikel aus, dem Sie eine Inventurhäufigkeit zuweisen möchten.  
 3. Geben Sie im Feld **Inventurhäufigkeitscode** die passende Inventurhäufigkeit aus.  
-4. Wählen Sie die Schaltfläche **Ja** aus, um den Code zu ändern und das erste Inventurdatum für den Artikel zu berechnen. Wenn Sie das nächste Mal die Berechnung einer Inventurhäufigkeit im Logistik Inventur Erf.-Journal auswählen, erscheint der Artikel als Zeile auf der Seite **Inventurartikelauswahl**. Sie können jetzt beginnen, den Artikel in regelmässigen Abständen zu zählen.
+4. Wählen Sie die Schaltfläche **Ja** aus, um den Code zu ändern und das erste Inventurdatum für den Artikel zu berechnen. Wenn Sie das nächste Mal die Berechnung einer Inventurhäufigkeit im Logistik Inventur Erf.-Journal auswählen, erscheint der Artikel als Zeile auf der Seite **Inventurartikelauswahl** . Sie können jetzt beginnen, den Artikel in regelmässigen Abständen zu zählen.
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-basic-warehouse-configurations"></a>Eine Zählung auf Grundlage der Zählperioden in den Basislagerkonfigurationen initiieren
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Inventur Erf.-Journal** ein und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie die Aktion **Inventurdatum berechnen**.
+2. Wählen Sie die Aktion **Inventurdatum berechnen** .
 
     Die Seite **Inventurartikelauswahl** wird geöffnet, das die Artikel enthält, für die Inventurhäufigkeiten eingerichtet wurden, die gezählt werden müssen, entsprechend ihren Inventurhäufigkeiten.
 3. Eine physische Inventur durchzuführen. Weitere Informationen finden Sie unter [Eine physische Inventur durchzuführen](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Eine Zählung auf Grundlage der Zählperioden in den erweiterten Lagerkonfigurationen initiieren
 1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), und geben Sie **Logistik Inventur Erf.-Journal** ein, und wählen Sie den entsprechenden Link.  
-2. Wählen Sie die Aktion **Inventurdatum berechnen**.
+2. Wählen Sie die Aktion **Inventurdatum berechnen** .
 
     Die Seite **Inventurartikelauswahl** wird geöffnet, das die Artikel enthält, für die Inventurhäufigkeiten eingerichtet wurden, die gezählt werden müssen, entsprechend ihren Inventurhäufigkeiten.
 3. Eine physische Inventur durchzuführen. Weitere Informationen finden Sie unter [Eine physische Inventur durchzuführen](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).  

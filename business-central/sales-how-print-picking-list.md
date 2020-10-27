@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/27/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fadf974c41b34a5beb7b3b313847cc6a5bfcec78
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c89cb40559a570605401108d7560f6b989e06773
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781649"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926161"
 ---
 # <a name="print-the-picking-list"></a>Kommissionierliste drucken
 Sie können eine Lager-Kommissionierliste direkt aus einem Verkaufsauftragsbeleg, Verkaufsbeleg, Rechnungsbeleg und anderen ausgehenden Verkaufsauftragsbelegen drucken.
@@ -28,7 +28,7 @@ Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind f
 1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'"), geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie den Verkaufsauftrag, für den Sie Artikel auswählen möchten.  
 3. Wählen Sie die Aktion **Bericht** und dann die Aktion **Kommissionierliste nach Bestellung** aus.  
-4. Wählen Sie die Schaltfläche **Drucken** aus, um die Auswahlliste zu drucken oder wählen Sie die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.
+4. Wählen Sie die Schaltfläche **Drucken** aus, um die Auswahlliste zu drucken oder wählen Sie die Schaltfläche **Vorschau** , um den Bericht auf dem Bildschirm anzuzeigen.
 
 Sie können die Kommissionierliste auch als Dokument speichern, um sie beispielsweise an jemanden zu senden oder dem Verkaufsauftrag als Anhang hinzuzufügen. Weitere Informationen finden Sie unter [Verwalten von Anhängen, Links und Notizen zu Karten und Belegen](ui-how-add-link-to-record.md).
 

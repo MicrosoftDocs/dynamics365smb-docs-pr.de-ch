@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 249565d7a351cc2064c5bc0daa16d96f30ce24b8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5fee9631f984c8d9a54c42c63359af2386ea17c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782257"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924517"
 ---
 # <a name="assemble-items"></a>Artikel montieren
 Wenn das Feld **Beschaffungsmethode** auf der Artikelkarte **Montage** enthält, besteht die Standardmethode zur Bereitstellung des Artikels darin, es aus definierten Komponenten und eventuell mit einer definierten Ressource zu montieren.  
@@ -60,7 +60,7 @@ In diesem Verfahren erstellen und verarbeiten Sie einen Montageauftrag für Arti
     > [!NOTE]  
     >  Um sicherzustellen, dass die Buchung des Komponentenverbrauchs der Istmeldungsbuchung des Montageartikels entspricht, werden die Mengenfelder in den Montageauftragszeilen automatisch an den Wert angepasst, den Sie im Feld **Menge für Montage** eingeben.  
 7.  Geben Sie in Montageauftragszeilen vom Typ **Artikel** oder **Ressource** im Feld **Verbrauchsmenge** ein, wie viele Einheiten Sie als Verbrauch buchen möchten, wenn Sie den Montageauftrag das nächste Mal buchen.
-8.  Wenn Sie bereit sind, die Teil- oder die vollständige Buchung durchzuführen, wählen Sie die Aktion **Buchen**.  
+8.  Wenn Sie bereit sind, die Teil- oder die vollständige Buchung durchzuführen, wählen Sie die Aktion **Buchen** .  
 
     > [!NOTE]  
     >  Falls in den einzelnen Montageauftragszeilen noch Warnungen vorhanden sind, wird die Buchungen gesperrt. Eine Meldung über die Komponenten, die nicht im Lager sind, wird angezeigt.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0fb173ee064b5b62ff110fb33dc8ecbc82d0afcd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f4927fb91195e88e71a73a6fce774d9dfb0ff685
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783263"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924442"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Den Envestnet Yodlee Bank Feeds Service einrichten
 
@@ -59,11 +59,11 @@ Der Bankfeeddienst wird aktiviert, wenn Sie ein Bankkonto mit den dazugehörigen
 
 ## <a name="to-create-a-new-linked-bank-account"></a>So erstellen Sie ein neues verknüpftes Bankkonto
 1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me](media/ui-search/search_small.png "Tell Me-Funktion") öffnet, geben Sie **Bankkonten** ein, und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie das entsprechende Bankkonto aus, und wählen Sie dann **Neues verknüpftes Bankkonto erstellen**. Die Seite **Bankkontenverknüpfung** wird nach wenigen Augenblicken geöffnet.
+2. Wählen Sie das entsprechende Bankkonto aus, und wählen Sie dann **Neues verknüpftes Bankkonto erstellen** . Die Seite **Bankkontenverknüpfung** wird nach wenigen Augenblicken geöffnet.
 
     > [!NOTE]  
     > Diese Seite zeigt die tatsächliche Webseite des Envestnet Yodlee Bank Feeds Service an. Die Terminologie und die Funktionen auf der Seite weichen möglicherweise von den Anweisungen ab, die in diesem Thema bereitgestellt werden.  
-3. Verwenden Sie die Suchfunktion auf der Seite **Onlinebankkonto-Verknüpfung** im Bereich **Konto verknüpfen**, um die Bank zu suchen, bei der Sie ein oder mehrere Onlinebankkonten haben.
+3. Verwenden Sie die Suchfunktion auf der Seite **Onlinebankkonto-Verknüpfung** im Bereich **Konto verknüpfen** , um die Bank zu suchen, bei der Sie ein oder mehrere Onlinebankkonten haben.
 4. Wählen Sie den Banknamen aus. Der Bereich **Anmeldung** wird geöffnet.
 5. Geben Sie den Benutzernamen und das Kennwort, das Sie für die Ameldung bei der Onlinebank verwenden, an, und wählen Sie dann die Schaltfläche **Weiter** .  
 6. Der Bankfeeddienst bereitet die Verknüpfung des ersten Onlinebankkontos der angegebenen Bank mit einem neuen Bankkonto in [!INCLUDE[d365fin](includes/d365fin_md.md)] vor.
@@ -77,13 +77,13 @@ Der Bankfeeddienst wird aktiviert, wenn Sie ein Bankkonto mit den dazugehörigen
     Wenn Sie nur ein Onlinebankkonto verknüpfen, wird die Seite **Bankkontokarte** geöffnet und zeigt den Namen des Onlinebankkontos an. In diesem Fall ist die Bankkontoverknüpfung abgeschlossen. Jetzt müssen Sie nur noch das Bankkonto einrichten. Weitere Informationen finden Sie unter [So geht's: Einrichten von Bankkonten](bank-how-setup-bank-accounts.md).
 
     Wenn Sie mehr als ein Onlinebankkonto verknüpfen, öffnet sich die Seite **Bankkontenverknüpfung** und die zusätzlichen Onlinebankkonten, die noch nicht mit den Bankkonten in [!INCLUDE[d365fin](includes/d365fin_md.md)] verknüpft sind, werden aufgelistet. In diesem Fall, folgen Sie dem nächsten Schritt.  
-8. Wählen Sie die Seite **Bankkontenverknüpfung** die Zeile für ein Onlinebankkonto aus, und wählen Sie dann die Aktion **Mit neuem Onlinebankkonto verknüpfen**.  
+8. Wählen Sie die Seite **Bankkontenverknüpfung** die Zeile für ein Onlinebankkonto aus, und wählen Sie dann die Aktion **Mit neuem Onlinebankkonto verknüpfen** .  
 
     Die Seite **Bankkontokarte** wird für ein neues Bankkonto geöffnet und der Name des Onlinebankkontos wird angezeigt.
 
     Wenn in [!INCLUDE[d365fin](includes/d365fin_md.md)] bereits ein Bankkonto vorhanden ist, mit dem Sie das zusätzliche Onlinebankkonto verknüpfen möchten, folgen Sie dem nächsten Schritt.  
-9. Wählen Sie die Seite **Bankkontenverknüpfung** die Zeile für ein Onlinebankkonto aus, und wählen Sie dann die Aktion **Mit bestehendem Onlinebankkonto verknüpfen**.
-10. Wählen Sie auf der Seite **Bankkontenliste** das Bankkonto aus, mit dem Sie eine Verknüpfung erstellen möchten, und klicken Sie anschliessend auf **OK**.
+9. Wählen Sie die Seite **Bankkontenverknüpfung** die Zeile für ein Onlinebankkonto aus, und wählen Sie dann die Aktion **Mit bestehendem Onlinebankkonto verknüpfen** .
+10. Wählen Sie auf der Seite **Bankkontenliste** das Bankkonto aus, mit dem Sie eine Verknüpfung erstellen möchten, und klicken Sie anschliessend auf **OK** .
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>So verknüpfen Sie ein Bankkonto mit einem Onlinebankkonto
 1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me](media/ui-search/search_small.png "Tell Me-Funktion") öffnet, geben Sie **Bankkonten** ein, und wählen Sie dann den entsprechenden Link.
@@ -100,14 +100,14 @@ Auf der Seite **Bankkontenliste** ist das Kontrollkästchen **Verknüpft** aktiv
 
 ## <a name="to-unlink-a-bank-account"></a>So heben Sie die Verknüpfung mit dem Bankkonto auf
 1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me](media/ui-search/search_small.png "Tell Me-Funktion") öffnet, geben Sie **Bankkonten** ein, und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie die Zeile des verknüpften Bankkontos aus, dessen Verknüpfung mit einem Onlinebankkonto aufgehoben werden soll, und wählen Sie dann die Aktion **Verknüpfung mit Onlinebankkonto aufheben**.
+2. Wählen Sie die Zeile des verknüpften Bankkontos aus, dessen Verknüpfung mit einem Onlinebankkonto aufgehoben werden soll, und wählen Sie dann die Aktion **Verknüpfung mit Onlinebankkonto aufheben** .
 
 > [!NOTE]  
 > Wenn Sie **Ja** im Bestätigungsdialogfeld auswählen, wird die Verknüpfung mit dem Onlinebankkonto entfernt und die Anmeldedaten gelöscht. Um das Bankkonto wieder mit dem Onlinebankkonto zu verknüpfen, müssen Sie sich erneut bei der Bank anmelden. Weitere Informationen finden Sie im Abschnitt “So verknüpfen Sie ein Bankkonto mit einem Onlinebankkonto“.
 
 ## <a name="to-update-bank-account-linking"></a>So aktualisieren Sie die Bankkontoverknüpfung
 1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me](media/ui-search/search_small.png "Tell Me-Funktion") öffnet, geben Sie **Bankkonten** ein, und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie das entsprechende Bankkonto aus, und wählen Sie dann die Aktion **Bankkontoverknüpfung aktualisieren**.
+2. Wählen Sie das entsprechende Bankkonto aus, und wählen Sie dann die Aktion **Bankkontoverknüpfung aktualisieren** .
 
 Wenn Probleme für ein oder mehrere der verknüpften Bankkonten auf der Seite **Bankkontenliste** vorhanden sind, wird das Fenster **Bankkontenverknüpfung** geöffnet und zeigt an, welche der Bankkonten Probleme haben. Probleme werden am besten gelöst, indem sie die Verknüpfung mit dem Onlinebankkonto entfernen und dann die Verknüpfung neu erstellen. Weitere Informationen finden Sie im Abschnitt “So verknüpfen Sie ein Bankkonto mit einem Onlinebankkonto“.
 
@@ -118,7 +118,7 @@ Wenn Probleme für ein oder mehrere der verknüpften Bankkonten auf der Seite **
 
     > [!NOTE]  
     > Es wird empfohlen diesen Wert auf 7 Tage oder mehr festzulegen.  
-4. Aktivieren Sie das Kontrollkästchen **Aktiviert**.  
+4. Aktivieren Sie das Kontrollkästchen **Aktiviert** .  
 
 Jede Stunde wird die Seite **Zahlungsabstimmungserf.-Journal** mit allen neuen Zahlungen ausgefüllt, die auf dem Onlinebankkonto getätigt wurden.
 

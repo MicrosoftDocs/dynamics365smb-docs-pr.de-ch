@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1083edff26c6f0cc896e2506b6b02512d72e2bff
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 104049b15cb379e65f84b9d1280ee52c4b2215f0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782738"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926386"
 ---
 # <a name="managing-receivables"></a>Debitoren verwalten
 
@@ -27,9 +27,9 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] ist einer der schnellsten Arten, 
 
 Andere Seiten gibt es, wo Sie entweder Zahlungen anwenden oder Bankkonten abstimmen können:
 
-* Die Seite **Bankkontoabstimmung**, in dem Sie Bankkonten abstimmen, indem Sie Bankkontoauszugszeilen importierten mit Ihren Systembankposten. Hier können Sie auch Scheckzahlungen ausgleichen. Weitere Informationen finden Sie unter [Abstimmen von Bankkonten](bank-how-reconcile-bank-accounts-separately.md). Hier können Sie Zahlungen nicht übernehmen.
-* Die Seite **Zahlungs-Registrierung**, wo Sie manuell Zahlungseingänge wie Kasse, Scheck oder Bankbuchung für eine generierte Liste der unbezahlten Verkaufsbelege überprüfen können. Beachten Sie, dass diese Funktionen nur für Verkaufsbelege verfügbar sind. Hier können Sie ausgehende Zahlungen nicht übernehmen, und Sie können keine Bankkonten abstimmen.
-* Die Seite **Zahlungseingangserf.-Journal**, in der Sie manuell Belege der relevanten Fibukonten, Debitoren oder anderer Konten durch Eingabe einer Zahlungsposition buchen können. In diesem Fall können Sie entweder den Wareneingang oder die Rückerstattung mit einem oder mehreren offenen Posten anwenden, bevor Sie das Zahlungseingangs Erf.-Journal buchen, oder Sie können sie aus den erstellten Debitorenposten erstellen. Hier können Sie Bankkonten nicht ausgeglichen.
+* Die Seite **Bankkontoabstimmung** , in dem Sie Bankkonten abstimmen, indem Sie Bankkontoauszugszeilen importierten mit Ihren Systembankposten. Hier können Sie auch Scheckzahlungen ausgleichen. Weitere Informationen finden Sie unter [Abstimmen von Bankkonten](bank-how-reconcile-bank-accounts-separately.md). Hier können Sie Zahlungen nicht übernehmen.
+* Die Seite **Zahlungs-Registrierung** , wo Sie manuell Zahlungseingänge wie Kasse, Scheck oder Bankbuchung für eine generierte Liste der unbezahlten Verkaufsbelege überprüfen können. Beachten Sie, dass diese Funktionen nur für Verkaufsbelege verfügbar sind. Hier können Sie ausgehende Zahlungen nicht übernehmen, und Sie können keine Bankkonten abstimmen.
+* Die Seite **Zahlungseingangserf.-Journal** , in der Sie manuell Belege der relevanten Fibukonten, Debitoren oder anderer Konten durch Eingabe einer Zahlungsposition buchen können. In diesem Fall können Sie entweder den Wareneingang oder die Rückerstattung mit einem oder mehreren offenen Posten anwenden, bevor Sie das Zahlungseingangs Erf.-Journal buchen, oder Sie können sie aus den erstellten Debitorenposten erstellen. Hier können Sie Bankkonten nicht ausgeglichen.
 
 Die Seite **Zahlungsabstimmungserf.-Journal** verwendet eine automatische Abgleichslogik, die Sie auf der Seite **Zahlungsausgleichsvorschriften** einrichten können. Weitere Informationen finden Sie unter [Einrichten von Regeln für die automatische Anwendung von Zahlungen](receivables-how-set-up-payment-application-rules.md).  
 
@@ -40,7 +40,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Aktion | Informationen |
 | --- | --- |
 | Zahlungen verwenden, um Debitoren- oder Kreditorenposten zu öffnen, indem Sie einen Bankkontoauszug importieren und das Bankkonto abstimmen, wenn alle Zahlungen ausgeglichen werden. |[Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Wenden Sie Zahlungen auf offene Debitorenposten basierend auf einer Liste der unbezahlten Verkaufsbelege auf der Seite**Zahlungs-Registrierung** an. |[Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
+| Wenden Sie Zahlungen auf offene Debitorenposten basierend auf einer Liste der unbezahlten Verkaufsbelege auf der Seite **Zahlungs-Registrierung** an. |[Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
 | Buchen Sie Zahlungseingänge oder Erstattungen für Debitoren im Zahlungseingangs Erfassungsjournal für Debitorenposten, entweder aus dem Erfassungsjournal oder von gebuchten Posten. |[Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Erf.-Journal oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md) |
 | Erinnern von Debitoren an überfällige Beträge, Berechnen von Zinsen und Gebühren sowie Verwalten von Debitoren |[Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md) |
 |Mit Zustimmung Ihres Kunden können Sie Zahlungen direkt vom Bankkonto des Kunden nur in europäischen Währung einziehen.|[Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)|

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f1269ad2503806669209d642d929bc8b712a5115
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8027465189507ce9ad78ebadea9dcc086e512ea4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783063"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926836"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Besondere Verkaufspreise und Rabatte aufzeichnen
 Definieren Sie die verschiedenen Preis- und Rabattvereinbarungen, die beim Artikeleinkauf von unterschiedlichen Kreditoren gelten, damit die vereinbarten Regeln und Werte auf die für den Kreditor erstellten Einkaufsbelege angewendet werden.
@@ -35,17 +35,17 @@ Da Einkaufszeilenrabatte und Einkaufspreise auf einer Kombination aus Artikel un
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Einen Speziellen Einkaufspreis für einen Kreditor einrichten
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Anbieter** ein und wählen Sie dann den entsprechenden Link.
-2. Öffnen Sie die relevante Kreditorenkarte, und klicken Sie dann auf die Aktion **Preise**.
+2. Öffnen Sie die relevante Kreditorenkarte, und klicken Sie dann auf die Aktion **Preise** .
 
-    Das **Einkaufstyp**-Feld ist mit **Kreditor** vorausgefüllt und das Feld **Einkaufscode** ist mit der Kreditorennummer vorausgefüllt.
+    Das **Einkaufstyp** -Feld ist mit **Kreditor** vorausgefüllt und das Feld **Einkaufscode** ist mit der Kreditorennummer vorausgefüllt.
 3. Füllen Sie die Felder in der Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Füllen Sie eine Zeile für jede Kombination aus, für die Sie dem Kreditor einen Einkaufszeilenrabatt gewähren.
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Um einen Zeilenrabatt für einen Kreditor einzurichten
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Anbieter** ein und wählen Sie dann den entsprechenden Link.
-2. Öffnen Sie die relevante Kreditorenkarte, und klicken Sie dann auf die Aktion **Zeilenrabatte**.
+2. Öffnen Sie die relevante Kreditorenkarte, und klicken Sie dann auf die Aktion **Zeilenrabatte** .
 
-    Das **Einkaufstyp**-Feld ist mit **Kreditor** vorausgefüllt und das Feld **Einkaufscode** ist mit der Kreditorennummer vorausgefüllt.
+    Das **Einkaufstyp** -Feld ist mit **Kreditor** vorausgefüllt und das Feld **Einkaufscode** ist mit der Kreditorennummer vorausgefüllt.
 3. Füllen Sie die Felder in der Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Füllen Sie eine Zeile für jede Kombination aus, für die Sie dem Kreditor einen Einkaufszeilenrabatt gewähren.
 
@@ -74,7 +74,7 @@ Wenn Sie eine Einkaufsrechnung buchen, die einen oder mehrere Rabatte enthält, 
 Hierzu müssen Sie vorher die notwendigen Konten für die Buchung der Rabattbeträge im Kontenplan einrichten. Sie müssen auch überprüfen, ob Sie die richtigen Kontonummern in der Buchungsmatrix-Einrichtung in den Feldern **Eink.-Zeilenrabattkonto** und **Eink.-Rechnungsrabattkonto** eingegeben haben.
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Einrichten von Einkäufen und Verbindlichkeiten** ein, und wählen Sie dann den zugehörigen Link aus.
-2. Klicken Sie in das Feld  **Rabattbuchung**, um ein Prinzip für die Buchung von Rabatten auszuwählen.
+2. Klicken Sie in das Feld  **Rabattbuchung** , um ein Prinzip für die Buchung von Rabatten auszuwählen.
 
 |**Rabattbuchungsprinzip**|**Rechnungsrabatt**|**Zeilenrabatt**|  
 |------------------------------------|--------------------------|-----------------------|  
@@ -88,7 +88,7 @@ Wenn Sie feste Konditionen für Rechnungsrabatte mit einzelnen Kreditoren haben,
 
  Bevor Sie die Rechnungsrabatte für Einkäufe verwenden können, müssen Sie die Kreditoren angeben, die Ihnen Rabatte anbieten.  
 
- Sie verknüpfen Rabattprozentsätze mit bestimmten Rechnungsbeträgen auf den Seiten **Kreditorenrechnungsrabatte**. Sie können eine beliebige Anzahl von Prozentsätzen auf jeder Seite eingeben. Jeder Kreditor kann eine eigene Seite haben, oder Sie können verschiedene Kreditoren mit der gleichen Seite verknüpfen.  
+ Sie verknüpfen Rabattprozentsätze mit bestimmten Rechnungsbeträgen auf den Seiten **Kreditorenrechnungsrabatte** . Sie können eine beliebige Anzahl von Prozentsätzen auf jeder Seite eingeben. Jeder Kreditor kann eine eigene Seite haben, oder Sie können verschiedene Kreditoren mit der gleichen Seite verknüpfen.  
 
  Zusätzlich zu einem Rabattprozentsatz können Sie einen Zuschlag mit einem bestimmten Rechnungsbetrag verknüpfen.  
 

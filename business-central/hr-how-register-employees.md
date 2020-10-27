@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ec9f187985a7deb58329a9301d3215a25e9f0fa5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 75c3c6a59e951052f59f4100688ace92af16b50f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777656"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922983"
 ---
 # <a name="register-employees"></a>Erfassen eines Mitarbeiters
 Um die Personalwesenfunktionalität zu verwenden, müssen Sie jeden Mitarbeiter zuerst erfassen, indem Sie eine Karte mit allen wesentlichen und zugehörigen Informationen erstellen.
@@ -39,11 +39,11 @@ Falls Ihnen ein Bild eines Mitarbeiters im .bmp Format vorliegt,  können Sie di
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Mitarbeiter** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die entsprechende Mitarbeiterkarte.
-3. In der Infobox **Mitarbeiter Bild** wählen die Dropdownschaltfläche, und wählen Sie dann **Importieren**.
+3. In der Infobox **Mitarbeiter Bild** wählen die Dropdownschaltfläche, und wählen Sie dann **Importieren** .
 4. Auf der Seite **Ein Bild zum Hochladen auswählen** wählen Sie die Schaltfläche **Auswählen** aus.
 5. Wählen Sie die Datei aus und wählen Sie dann **Öffnen** aus.
 
-Das Bild wurde jetzt in die Inforbox**Mitarbeiter Bild** importiert.
+Das Bild wurde jetzt in die Inforbox **Mitarbeiter Bild** importiert.
 
 ## <a name="to-register-various-information-about-an-employee"></a>Erfassen von verschiedenen Informationen über einen Mitarbeiter
 Auf der Mitarbeiterkarte können Sie Informationen ablegen wie beispielsweise Personalverbandsangehörigkeit, Verwandte oder Verträge für den Mitarbeiter. Nachfolgend ist beschrieben, wie eine alternative Adresse eingerichtet wird. Für alle anderen Informationen, die Sie auf einer Mitarbeiterkarte ablegen können, sind die Schritte vergleichbar.

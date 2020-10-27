@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: UOM
-ms.date: 07/06/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 52d1846ce71a651dabfd099ced203648c0242082
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e6a9465f13e272d653ec9a0544618b243928af03
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777805"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923734"
 ---
 # <a name="set-up-units-of-measure"></a>Einheiten einrichten
 
@@ -34,7 +34,7 @@ Wenn ein Artikel in einer Einheit am Lager geführt, aber in einer anderen Einhe
 2. Wählen Sie die Aktion **Neu** aus. Eine neue leere Zeile wird eingefügt.  
 3. Füllen Sie die Felder aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. Wenn Sie wissen, dass Ihre Organisation Artikel mit dieser Einheit an Kunden in anderen Ländern verkauft, können Sie Übersetzungen hinzufügen.  
-    1. Wählen Sie den Code aus, für den Sie Übersetzungen einrichten möchten und klicken Sie auf **Übersetzungen**.
+    1. Wählen Sie den Code aus, für den Sie Übersetzungen einrichten möchten und klicken Sie auf **Übersetzungen** .
     2. Wählen Sie im Feld **Sprachcode** auf den Dropdown-Pfeil, um eine Liste über die verfügbaren Sprachcodes anzuzeigen. Wählen Sie den Sprachcode, für den Sie eine Übersetzung eingeben möchten, und wählen Sie dann die Schaltfläche OK, um den Code in das Feld zu kopieren.
     3. Geben Sie in dem Feld **Beschreibung** den entsprechenden Text ein.
 5. Wiederholen Sie die vorherigen Schritte für alle zusätzlichen Einheiten, die Sie hinzufügen möchten.  
@@ -50,7 +50,7 @@ Wenn Sie einen neuen Artikel registrieren, können Sie die Einheit aus der Liste
 5. Wählen Sie die Aktion **Neu** aus. Eine neue leere Zeile wird eingefügt.
 6. Geben Sie im Feld **Code** den Namen des Einheitencodes ein. Alternativ aktivieren Sie das Feld, um in den Einheitencodes auszuwählen, die in der Datenbank sind.
 7. Geben Sie in das Feld **Menge per Basismasseinheit** ein, wie viele der Einheiten der Basiseinheit die neue Masseinheit enthält.
-8. Geben Sie in den Feldern **Höhe**, **Breite**, **Länge** und **Gewicht** optional detaillierte Informationen zur Grösse einer Einheit ein, sodass [!INCLUDE [prodshort](includes/prodshort.md)] berechnen kann, wie viele Artikeleinheiten in bestimmte Lagerplätze eingelagert werden können. Das Feld **Volumen** wird automatisch basierend auf **Höhe**, **Breite** und **Länge** berechnet.
+8. Geben Sie in den Feldern **Höhe** , **Breite** , **Länge** und **Gewicht** optional detaillierte Informationen zur Grösse einer Einheit ein, sodass [!INCLUDE [prodshort](includes/prodshort.md)] berechnen kann, wie viele Artikeleinheiten in bestimmte Lagerplätze eingelagert werden können. Das Feld **Volumen** wird automatisch basierend auf **Höhe** , **Breite** und **Länge** berechnet.
 
     Wenn eines dieser Felder einen anderen Wert als 0 enthält, wird diese Abmessung bei allen Prozessen verwendet, die die Einlagerung von Artikeln in Lagerplätzen betreffen: Einlagerung, Umlagerungen, Zugänge, Lieferungen, Kommissionierungen und Regulierungen. [!INCLUDE [prodshort](includes/prodshort.md)] überprüft die Summe jeder physischen Abmessung der einzulagernden und der bereits am Lagerplatz befindlichen Artikel anhand der maximalen Grösse oder einer anderen Abmessung, die an einem Lagerplatz eingelagert werden kann, gemäss der Lagerplatzkapazitätsrichtlinie auf der Lagerortkarte für diesen Artikel. Somit müssen Sie für jede Dimension über alle Artikeleinheiten hinweg dieselbe Einheit verwenden, z. B. Kilogramm oder Pfund für Gewicht, und dies jedoch konsistent.
 9. Wiederholen Sie die Schritte 5 und 7, um alle alternativen Einheiten einzurichten, die Sie in den verschiedenen Prozessen für diesen Artikel verwenden möchten.
@@ -64,7 +64,7 @@ Sie können jetzt die alternativen Einheiten für Einkaufs-, Produktions- und Ve
 Wenn Sie Artikel an ausländische Debitoren verkaufen, können Sie die Einheit in der Sprache des Debitors angeben. Dies können Sie tun, nachdem Sie die erforderlichen Einheitenübersetzungen eingerichtet haben.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Masseinheiten** ein, und wählen Sie dann die entsprechende Verknüpfung.
-2. Wählen Sie den Code aus, für den Sie Übersetzungen einrichten möchten und klicken Sie auf **Übersetzungen**.
+2. Wählen Sie den Code aus, für den Sie Übersetzungen einrichten möchten und klicken Sie auf **Übersetzungen** .
 3. Wählen Sie im Feld **Sprachcode** auf den Dropdown-Pfeil, um eine Liste über die verfügbaren Sprachcodes anzuzeigen. Wählen Sie den Sprachcode, für den Sie eine Übersetzung eingeben möchten, und wählen Sie dann die Schaltfläche OK, um den Code in das Feld zu kopieren.
 4. Geben Sie in dem Feld **Beschreibung** den entsprechenden Text ein.
 5. Wiederholen Sie die Schritte 2 bis 4 für die Einheitencodes und die Sprachen, für die Sie Übersetzungen eingeben möchten.
@@ -75,8 +75,8 @@ Wenn Sie normalerweise in Einheiten kaufen und verkaufen, die von der Basiseinhe
 
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die entsprechende Artikelkarte, für die Sie einen Vorgabe-Einheitencode für Einkaufs- oder Verkaufsvorgänge festlegen möchten.
-3. Öffnen Sie im Inforegister **Fakturierung** im Feld **Verkaufseinheitencode** die Seite **Artikeleinheiten**.
-4. Öffnen Sie im Inforegister **Beschaffung** im Feld **Einkaufseinheitencode** die Seite **Artikeleinheiten**.
+3. Öffnen Sie im Inforegister **Fakturierung** im Feld **Verkaufseinheitencode** die Seite **Artikeleinheiten** .
+4. Öffnen Sie im Inforegister **Beschaffung** im Feld **Einkaufseinheitencode** die Seite **Artikeleinheiten** .
 5. Wählen Sie den Code, den Sie als Standardeinheit für Verkäufe oder Einkäufe entsprechend einrichten möchten, und wählen Sie dann die Schaltfläche **OK** aus.
 
 ## <a name="see-also"></a>Siehe auch

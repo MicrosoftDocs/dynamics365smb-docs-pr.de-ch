@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c58a62b34a203503ea186af0d85dd76475356625
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 59830cc2e9b90f9ee6c6fd61cb9715ce60208ad1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779375"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923209"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Einlagerung der fertiggestellten Produktion oder Montage
 Wie Sie Ihre Fertigprodukte aus der Produktion einlagern, hängt davon ab, wie Ihr Lagerort eingerichtet wurde. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).  
 
-Bei Basis-Lagerkonfigurationen, bei denen für den Lagerort die Bearbeitung der Einlagerung erforderlich ist, jedoch nicht die des Wareneingangs, verwenden Sie den Beleg **Lagereinlagerung**, um die Einlagerung der Fertigprodukte zu organisieren und zu erfassen.  
+Bei Basis-Lagerkonfigurationen, bei denen für den Lagerort die Bearbeitung der Einlagerung erforderlich ist, jedoch nicht die des Wareneingangs, verwenden Sie den Beleg **Lagereinlagerung** , um die Einlagerung der Fertigprodukte zu organisieren und zu erfassen.  
 
 Wenn für Ihren Lagerort in den Basis-Lagerkonfigurationen die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist, können Sie entweder eine interne Einlagerungsanforderung oder eine Lagerplatzumlagerung erstellen, um die Fertigprodukte einzulagern.  
 

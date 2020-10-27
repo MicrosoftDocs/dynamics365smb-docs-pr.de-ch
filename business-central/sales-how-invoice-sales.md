@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 08fcc6ff958b7ac756d75b12e1558add936fe9b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2613a328ad1274a690d3d394fef054527e5a75de
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781724"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926236"
 ---
 # <a name="invoice-sales"></a>Fakturieren eines Verkaufs
 
@@ -36,7 +36,7 @@ Wenn der Debitor entscheidet zu kaufen, senden Sie die Verkaufsrechnung, um die 
 
 Sie können eine gebuchte Verkaufsrechnung einfach korrigieren oder stornieren, bevor sie bezahlt wird. Dies ist nützlich, wenn Sie einen Tippfehler korrigieren möchten, oder wenn der Debitor eine Änderung früh im Bestellvorgang anfordert. Weitere Informationen finden Sie unter [Ändern oder löschen von unbezahlten Verkaufsrechnungen](sales-how-correct-cancel-sales-invoice.md). Wenn die gebuchte Verkaufsrechnung bezahlt ist, müssen Sie eine Verkaufsgutschrift erstellen, um den Verkauf zu stornieren. Weitere Informationen finden Sie unter [Retouren verarbeiten oder Stornieren](sales-how-process-sales-returns-cancellations.md).
 
-Gibt an, ob die Artikelkarte einen **Bestand**, **Service** und **Nicht-Bestand** ist, wenn die Einheit eine physische Einheit ist, die nicht im Lagerbestand verfolgt wird. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md). Der Verkaufsrechnungsprozess ist derselbe für alle drei Artikeltypen.
+Gibt an, ob die Artikelkarte einen **Bestand** , **Service** und **Nicht-Bestand** ist, wenn die Einheit eine physische Einheit ist, die nicht im Lagerbestand verfolgt wird. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md). Der Verkaufsrechnungsprozess ist derselbe für alle drei Artikeltypen.
 
 Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen, abhängig davon, ob der Debitor bereits registriert ist. Siehe Schritt 2 und 3 im folgenden Verfahren.
 
@@ -46,10 +46,10 @@ Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen
 
    Andere Felder auf der Seite **Verkaufsrechnung** werden nun mit den Standardinformationen vom ausgewählten Debitor ausgefüllt. Wenn der Debitor noch nicht erfasst wurde, dann führen Sie die folgenden Schritte durch:
 3. Geben Sie im Feld **Debitor** den Namen eines neuen Debitors ein.
-4. Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**, um die Übertragung zu bestätigen.
-5. Auf der Seite **Eine Vorlage für einen neuen Debitor auswählen** wählen Sie eine Vorlage, auf der die neue Debitorenkarte basieren soll, und dann wählen Sie die Schaltfläche **OK**.
+4. Klicken Sie im Dialogfeld auf die Schaltfläche **Ja** , um die Übertragung zu bestätigen.
+5. Auf der Seite **Eine Vorlage für einen neuen Debitor auswählen** wählen Sie eine Vorlage, auf der die neue Debitorenkarte basieren soll, und dann wählen Sie die Schaltfläche **OK** .
 6. Eine neue Debitorenkarte wird geöffnet, vorausgefüllt mit Informationen auf der ausgewählten Debitorenvorlage. Füllen Sie die restlichen Felder aus. Weitere Informationen finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).  
-7. Wenn Sie die Debitorenkarte abgeschlossen haben, wählen Sie die Schaltfläche **OK**, um zur Seite **Verkaufsrechnung** zurückzugehen.
+7. Wenn Sie die Debitorenkarte abgeschlossen haben, wählen Sie die Schaltfläche **OK** , um zur Seite **Verkaufsrechnung** zurückzugehen.
 
    Felder im Verkaufsrechnungskopf werden mit den Informationen, die Sie festgelegt haben, in der neuen Debitorenkarte ausgefüllt.  
 8. Füllen Sie auf der Seite **Verkaufsrechnung** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -66,12 +66,12 @@ Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen
     Sie lassen das **Nr.** Feld ist in folgenden Fällen leer:
 
     * Wenn die Zeile für einen Kommentar ist. Die Bemerkung im Feld **Beschreibung** enthalten ist.
-    * Wenn die Zeile für einen Katalogartikel ist. Wählen Sie die Aktion **Katalogartikel auswählen**. Weitere Informationen finden Sie unter [Arbeiten mit Katalogelementen](inventory-how-work-nonstock-items.md).
+    * Wenn die Zeile für einen Katalogartikel ist. Wählen Sie die Aktion **Katalogartikel auswählen** . Weitere Informationen finden Sie unter [Arbeiten mit Katalogelementen](inventory-how-work-nonstock-items.md).
 
 11. Geben Sie im Feld **Menge** ein, wie viele Einheiten des Produkts, der Kosten oder der Transaktion, in der Zeile des Debitors gespeichert werden soll.  
 
     > [!NOTE]  
-    > Wenn Artikel vom Typ **Service** sind, oder das **Typ**-Feld **Ressource** enthält, ist die Menge eine Zeiteinheit wie Stunden, wie im Feld **Einheit des Messcodes** der Zeile angegeben. Weitere Informationen finden Sie unter [Einrichten von Einheiten](inventory-how-setup-units-of-measure.md)
+    > Wenn Artikel vom Typ **Service** sind, oder das **Typ** -Feld **Ressource** enthält, ist die Menge eine Zeiteinheit wie Stunden, wie im Feld **Einheit des Messcodes** der Zeile angegeben. Weitere Informationen finden Sie unter [Einrichten von Einheiten](inventory-how-setup-units-of-measure.md)
 
     Der Wert im Feld **Zeilenbetrag** Feld wird als *VK-Preis* x *Menge* berechnet.  
 
@@ -84,7 +84,7 @@ Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen
     Die Summenfelder unter den Positionen werden automatisch aktualisiert, wenn Sie Positionen erstellen oder ändern, um die Beträge anzuzeigen, die auf die Sachkonten gebucht werden.
 
     > [!NOTE]
-    > In sehr seltenen Fällen können die gebuchten Beträge von den in den Summenfeldern angezeigten Beträgen abweichen. Dies ist in der Regel auf Rundungsrechnungen in Bezug auf Mehrwertsteuer oder Salestax zurückzuführen.<br /><br />Um die tatsächlich gebuchten Beträge zu überprüfen, können Sie die **Statistiken**-Seite verwenden, die die Rundungsberechnungen berücksichtigt. Auch wenn Sie die Aktion **Freigabe** auswählen, werden die Summenfelder aktualisiert, sodass sie die Rundungsberechnungen enthalten.
+    > In sehr seltenen Fällen können die gebuchten Beträge von den in den Summenfeldern angezeigten Beträgen abweichen. Dies ist in der Regel auf Rundungsrechnungen in Bezug auf Mehrwertsteuer oder Salestax zurückzuführen.<br /><br />Um die tatsächlich gebuchten Beträge zu überprüfen, können Sie die **Statistiken** -Seite verwenden, die die Rundungsberechnungen berücksichtigt. Auch wenn Sie die Aktion **Freigabe** auswählen, werden die Summenfelder aktualisiert, sodass sie die Rundungsberechnungen enthalten.
 14. Geben Sie im Feld **Rabattbetrag in Rechnung stellen** einen Betrag ein, der vom Wert abgezogen werden soll, der im Feld **Total inklusive Salestax** angezeigt wird.
 
     Wenn Sie Rechnungsrabatte für den Debitor eingerichtet haben, wird der angegebene Prozentwert automatisch in das Feld **Rechnungsrabatt in Prozent** eingetragen, sobald die Kriterien erfüllt sein, und der entsprechende Betrag wird im Feld **Rechnungsbetrag mit Rabatt ohne Mehrwertsteuer** eingefügt. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Skonti und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)  
@@ -98,7 +98,7 @@ Der zugehörige Artikel und die Debitorenposten werden nun im System erstellt, u
 
 Abhängig von den Unternehmensanforderungen können Sie bezahlt werden und die Zahlung auf unterschiedliche Arten erfassen: automatisch und durch Zahlungsverkehr.  
 
-Sie können Zahlungen direkt auf der Debitorenkarte verarbeiten. Verwenden Sie die Aktion **Debitorenzahlungen registrieren**, um eine Übersicht nicht geleisteten Rechnungen für diesen Debitor zu erhalten. Dann markieren Sie die Rechnung, als teilweise oder vollständig bezahlt. Verarbeitet die Zahlungen Ihrer Debitoren, indem die auf Ihrem Konto eingegangenen Beträge den entsprechenden unbezahlten Verkaufsrechnungen zugeordnet und anschliessend die Zahlungen gebucht werden. Weitere Informationen finden Sie unter [Zahlungen individuell abstimmen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
+Sie können Zahlungen direkt auf der Debitorenkarte verarbeiten. Verwenden Sie die Aktion **Debitorenzahlungen registrieren** , um eine Übersicht nicht geleisteten Rechnungen für diesen Debitor zu erhalten. Dann markieren Sie die Rechnung, als teilweise oder vollständig bezahlt. Verarbeitet die Zahlungen Ihrer Debitoren, indem die auf Ihrem Konto eingegangenen Beträge den entsprechenden unbezahlten Verkaufsrechnungen zugeordnet und anschliessend die Zahlungen gebucht werden. Weitere Informationen finden Sie unter [Zahlungen individuell abstimmen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
 Im Geschäftsumgebungen, in denen der Debitor einige Zeit nach der Lieferung bezahlt entsprechend der Zahlungsbedingung, verbleibt eine offene (unbezahlte) Verkaufsrechnung bis die Debitorenabteilung überprüft, dass die Zahlung erfolgt ist und die Zahlung der gebuchten Verkaufsrechnung ausgeglichen ist. Der Text kann manuell oder automatisch eingefügt werden. Weitere Informationen finden Sie unter [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Erf.-Journal oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md) und [Zahlungen mit automatischem Ausgleich abstimmen](receivables-how-reconcile-payments-auto-application.md).  
 

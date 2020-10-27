@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3360dff32fab445a5dafe825a48f5745ad6479f3
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5fe40d26a9128b9f689c5ec4502af929d0af04c2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786285"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925361"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Automatisierte Datenerfassung (MDE) verwenden
 
@@ -45,9 +45,9 @@ Um das automatisierte Datenerfassungssystem verwenden zu können, müssen Sie de
     |---------------------------------|-----------|  
     |**Objekttyp**|Codeunit|  
     |**Objekt-ID**|7714|  
-    |**Dienstname**|ADCS **Wichtig**: Sie müssen **ADCS** als Namen für den Dienst festlegen.|  
+    |**Dienstname**|ADCS **Wichtig** : Sie müssen **ADCS** als Namen für den Dienst festlegen.|  
 
-5. Aktivieren Sie das Kontrollkästchen **Veröffentlicht**.  
+5. Aktivieren Sie das Kontrollkästchen **Veröffentlicht** .  
 6. Wählen Sie die Schaltfläche **OK** aus.  
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>So richten Sie ein Lager für die Verwendung von MDE ein:  
@@ -81,7 +81,7 @@ Sie können einen beliebigen Benutzer als Benutzer eines automatisierten Datener
 1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **ADCS Benutzer** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3.  Geben Sie im Feld **Namen** einen Namen für den Benutzer ein. Der Name darf einschliesslich Leerzeichen maximal 20 Zeichen lang sein.  
-4.  Geben Sie im **Kennwort**Feld ein Kennwort ein. Das Kennwort wird maskiert.  
+4.  Geben Sie im **Kennwort** Feld ein Kennwort ein. Das Kennwort wird maskiert.  
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>So geben Sie an, dass ein Lagermitarbeiter ein MDE-Benutzer ist  
 1.  Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion") Symbol, geben Sie **Lagerort-Mitarbeiter** ein und wählen Sie dann den entsprechenden Link.  
@@ -103,7 +103,7 @@ Mit Miniforms beschreiben Sie die Informationen, die Sie auf einem Endgerät pr�
 2. Wählen Sie die Aktion **Neu** aus.  
 3.  In dem Feld **Code** geben Sie einen Code für die Miniform ein. Geben Sie optional in allen anderen Feldern Werte ein.  
 
-    Aktivieren Sie das Kontrollkästchen **Miniformular starten**, um anzugeben, dass das Miniform das erste Formular ist, das der Benutzer bei der Anmeldung sieht.  
+    Aktivieren Sie das Kontrollkästchen **Miniformular starten** , um anzugeben, dass das Miniform das erste Formular ist, das der Benutzer bei der Anmeldung sieht.  
 
 4.  Definieren Sie im Inforegister **Zeilen** die Felder, die im Miniform erscheinen. Die Reihenfolge, in der Sie Zeilen eingeben, ist die Reihenfolge, in der die Zeilen auf dem Endgerät angezeigt werden.  
 
