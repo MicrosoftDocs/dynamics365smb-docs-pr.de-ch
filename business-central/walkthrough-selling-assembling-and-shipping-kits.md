@@ -23,7 +23,7 @@ ms.locfileid: "3918427"
 
 Um eine Just-In-Time-Logistik sowie die Möglichkeit, Produkte an Debitorenanfragen anzupassen, zu unterstützen, können Montageaufträge automatisch erstellt und verknüpft werden, sobald die Verkaufsauftragszeile erstellt wird. Der Verknüpfung zwischen dem Verkaufsbedarf und dem Montagezubehör ermöglicht Verkaufsauftragsverarbeitern die Anpassung des Montageartikels und die Zusage von Lieferungsdaten auf der Grundlage der Verfügbarkeit von Komponenten. Darüber hinaus werden der Montageverbrauch und die Ausgabe automatisch mit der Lieferung des verknüpften Verkaufsauftrags gebucht.  
 
-Es sind spezielle Funktionen vorhanden, um die Lieferung von Auftragsmontagemengen zu steuern, sowohl in einfachen als auch in erweiterten Lagerkonfigurationen. Wenn Arbeiter für montagefertige Teile oder für die gesamte Auftragsmontagemenge zuständig sind, erfassen sie diese im Feld **Zu liefernde Menge** in der Warenausgangszeile, in erweiterten Konfigurationen, und wählen dann **Warenausgang buchen** . Das Ergebnis ist, dass der entsprechende Montageausstoss, einschliesslich des zugehörigen Komponentenverbrauchs, gebucht wird und eine Verkaufslieferung für die Menge für den verknüpften Verkaufsauftrag gebucht wird. Diese Anleitung illustriert den erweiterten Lagerprozess.  
+Es sind spezielle Funktionen vorhanden, um die Lieferung von Auftragsmontagemengen zu steuern, sowohl in einfachen als auch in erweiterten Lagerkonfigurationen. Wenn Arbeiter für montagefertige Teile oder für die gesamte Auftragsmontagemenge zuständig sind, erfassen sie diese im Feld **Zu liefernde Menge** in der Warenausgangszeile, in erweiterten Konfigurationen, und wählen dann **Warenausgang buchen**. Das Ergebnis ist, dass der entsprechende Montageausstoss, einschliesslich des zugehörigen Komponentenverbrauchs, gebucht wird und eine Verkaufslieferung für die Menge für den verknüpften Verkaufsauftrag gebucht wird. Diese Anleitung illustriert den erweiterten Lagerprozess.  
 
 In Basis-Lagerkonfigurationen bucht der zuständige Lagermitarbeiter für die jeweiligen Verkaufsauftragszeilen eine Lagerkommissionierung, wenn eine Auftragsmontagemenge für die Lieferung bereitsteht. Dies erstellt eine Lagerbestandsumlagerung für die Komponenten und bucht den Montageausstoss und die Verkaufsauftragslieferung. Weitere Informationen finden Sie unter [Verwenden von Auftragsmontageartikeln in Lagerkommissionierungen](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
@@ -102,7 +102,7 @@ Bereiten Sie den Lagerort WHITE folgendermassen für die Montageverarbeitung vor
 Entfernen Sie die Standard-Beschaffungszeit für interne Vorgänge, indem Sie die folgenden Schritte befolgen:  
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Produktion Einrichtung** ein und wählen Sie dann den entsprechenden Link.  
-2.  Auf der Seite **Fertigung Einrichtung** im Inforegister **Planung** , löschen Sie den Wert im Feld **Vorg. Sich.-Zuschl. Besch.-Zt.** Feld.  
+2.  Auf der Seite **Fertigung Einrichtung** im Inforegister **Planung**, löschen Sie den Wert im Feld **Vorg. Sich.-Zuschl. Besch.-Zt.** Feld.  
 
 Erstellen Sie Bestand für Montagekomponenten, indem Sie die Anweisungen in [Vorbereiten von Beispieldaten](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data) befolgen.  
 
@@ -136,7 +136,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 ## <a name="prepare-sample-data"></a>Vorbereiten der Beispieldaten  
 
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Logistik Artikel Erfassungsjournale** ein und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie das Feld **Erfassungsjournalname** , und wählen Sie anschliessend das Standardjournal aus.  
+2.  Wählen Sie das Feld **Erfassungsjournalname**, und wählen Sie anschliessend das Standardjournal aus.  
 3.  Erstellen Sie positive Lagerregulierungen am Lagerort WHITE am Arbeitsdatum 23. Januar, indem Sie die folgenden Informationen eingeben.  
 
     |**Artikelnr.**|**Zonencode**|**Lagerplatzcode**|**Menge**|  
@@ -148,18 +148,18 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     |80203|KOMMISS|W-01-0001|20|  
     |80209|KOMMISS|W-01-0001|20|  
 
-4.  Wählen Sie die Aktion **Registrieren** und dann die Schaltfläche **Ja** .  
+4.  Wählen Sie die Aktion **Registrieren** und dann die Schaltfläche **Ja**.  
 
     Synchronisieren Sie anschliessend die neuen Lagereinträge mit dem Bestand.  
 
 5.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Artikel Erfassungsjournale** ein und wählen Sie dann den entsprechenden Link. Die Seite **Artikel Erf.-Journal** wird geöffnet.  
 6.  Wählen Sie die **Lagerortanpassung berechnen** Aktion aus.  
 7.  Auf der Seite **Ausgleich berechnen** auszuführen, wählen Sie die Schaltfläche **OK** aus.  
-8.  Wählen Sie auf der Seite **Einzelpostenjournal** die Aktion **Post** und anschliessend die Schaltfläche **Ja** .  
+8.  Wählen Sie auf der Seite **Einzelpostenjournal** die Aktion **Post** und anschliessend die Schaltfläche **Ja**.  
 
 ### <a name="creating-the-assembly-items"></a>Erstellen der Montageartikel  
 
-1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Erstellen Sie den ersten Montageartikel auf der Grundlage der folgenden Informationen.  
 
@@ -175,7 +175,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     > [!NOTE]  
     >  Kit A wird in der Regel durch Bestandsmontage geliefert und verfügt daher über ein Wiederbeschaffungsverfahren, durch das es zum Teil der allgemeinen Wiederbeschaffungsplanung wird.  
 
-4.  Wählen Sie die Aktion **Montage** und dann **Montage-Stückliste** .  
+4.  Wählen Sie die Aktion **Montage** und dann **Montage-Stückliste**.  
 5.  Definieren Sie eine Montagestückliste für Kit A mit den folgenden Informationen.  
 
     |**Typ**|**Nr.**|**Komponentenmenge**|  
@@ -198,7 +198,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     > [!NOTE]  
     >  Kit B wird normalerweise als Montageartikel geliefert und verfügt daher über kein Wiederbeschaffungsverfahren, da es nicht zur allgemeinen Wiederbeschaffungsplanung gehören soll.  
 
-7.  Wählen Sie die Aktion **Montage** und dann **Montage-Stückliste** .  
+7.  Wählen Sie die Aktion **Montage** und dann **Montage-Stückliste**.  
 8.  Definieren Sie eine Montagestückliste für Kit B mit den folgenden Informationen.  
 
     |**Typ**|**Nr.**|**Komponentenmenge**|  
@@ -231,7 +231,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     Passen Sie anschliessend den Verkaufsauftrag an.  
 
 4.  Wählen Sie die Verkaufsauftragszeile für drei Einheiten von Kit B.  
-5.  Wählen Sie auf dem Inforegister **Zeilen** **Zeile** aus, wählen Sie **Auftragsmontage** , und klicken Sie anschliessend auf **Auftragsmontagezeilen** .  
+5.  Wählen Sie auf dem Inforegister **Zeilen** **Zeile** aus, wählen Sie **Auftragsmontage**, und klicken Sie anschliessend auf **Auftragsmontagezeilen**.  
 6.  Auf der Seite **Programmfertigungszeilen** der Montageauftragszeile für Artikel 80014, geben Sie **2** im Feld **Komponentenmenge** ein.  
 7.  Auf der Montageauftragszeile für Artikel 80210, wählen Sie **Nr.** aus und klicken Sie anschliessend auf Artikel 80209.  
 8.  Erstellen Sie eine neue Montageauftragszeile mit den folgenden Informationen.  
@@ -240,14 +240,14 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     |----------|---------|------------------|  
     |Option|80203|1|  
 
-9. Schliessen Sie die Seite **Auftragsmontagezeilen** .  
+9. Schliessen Sie die Seite **Auftragsmontagezeilen**.  
 
-    Aktualisieren Sie dann den VK-Preis von Kit B entsprechend der Anpassung, die Sie gerade durchgeführt haben. Beachten Sie den aktuellen Wert im Feld **VK-Preis ohne MWST.** .  
+    Aktualisieren Sie dann den VK-Preis von Kit B entsprechend der Anpassung, die Sie gerade durchgeführt haben. Beachten Sie den aktuellen Wert im Feld **VK-Preis ohne MWST.**.  
 
-10. Wählen Sie auf dem Inforegister **Zeilen** **Zeile** aus, wählen Sie **Auftragsmontage** , und klicken Sie anschliessend auf **Mehrstufigen Preis berechnen** .  
-11. Wählen Sie die Schaltfläche **Ja** aus. Beachten Sie den höheren Wert im Feld **VK-Preis ohne MWST.** .  
+10. Wählen Sie auf dem Inforegister **Zeilen** **Zeile** aus, wählen Sie **Auftragsmontage**, und klicken Sie anschliessend auf **Mehrstufigen Preis berechnen**.  
+11. Wählen Sie die Schaltfläche **Ja** aus. Beachten Sie den höheren Wert im Feld **VK-Preis ohne MWST.**.  
 12. Wählen Sie die Verkaufsauftragszeile für 15 Einheiten von Kit A.  
-13. Wählen Sie auf dem Inforegister **Zeilen** **Zeile** aus, wählen Sie **Auftragsmontage** , und klicken Sie anschliessend auf **Auftragsmontagezeilen** .  
+13. Wählen Sie auf dem Inforegister **Zeilen** **Zeile** aus, wählen Sie **Auftragsmontage**, und klicken Sie anschliessend auf **Auftragsmontagezeilen**.  
 14. Erstellen Sie auf der Seite **Auftragsmontagezeile** eine neue Montageauftragszeile mit den folgenden Informationen.  
 
     |Typ|Nr.|Komponentenmenge|  
@@ -276,7 +276,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     Eine neue Planungszeile wird für den erforderlichen Montageauftrag über zehn Stück fällig am 27. Januar erstellt. Es muss keine Änderung vorgenommen werden, sodass Sie nun einen Auftrag anlegen können.  
 
 5.  Wählen Sie die **Ereignismeldung durchführen** Aktion aus.  
-6.  Wählen Sie auf der Seite **Ereignismeld. durchf.** das Feld **Montageauftrag** und dann **Montageaufträge erstellen** .  
+6.  Wählen Sie auf der Seite **Ereignismeld. durchf.** das Feld **Montageauftrag** und dann **Montageaufträge erstellen**.  
 7.  Wählen Sie die Schaltfläche **OK** aus.  
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Montieren und Versenden der ersten ATO-Menge  
@@ -296,7 +296,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Erstellen Sie dann einen Kommissionierbeleg für alle ATO-Montagekomponenten, die für den Warenausgang benötigt werden.  
 
-3.  Wählen Sie die Aktion **Pick erstellen** und dann die Schaltfläche **OK** .  
+3.  Wählen Sie die Aktion **Pick erstellen** und dann die Schaltfläche **OK**.  
 
     Führen Sie dann die Aufgaben des Komissionierers aus.  
 
@@ -312,14 +312,14 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Kehren Sie zum Ausführen der Versandaufgaben zurück.  
 
-8.  Öffnen Sie wieder die Seite **Warenausgangsübersicht** .  
+8.  Öffnen Sie wieder die Seite **Warenausgangsübersicht**.  
 
     Beachten Sie, dass das Feld **Ausgewählte Menge** auf allen Zeilen noch leer ist. Dies liegt daran, dass Sie die zu liefernden Artikel noch nicht kommissioniert haben, sondern nur die Komponenten, die benötigt werden, um die ATO-Mengen zu montieren.  
 
     Fahren Sie fort, um den verknüpften Montageauftrag zu prüfen.  
 
 9. Wählen Sie die Warenausgangszeile für drei Einheiten von Kit B.  
-10. Wählen Sie auf dem Inforegister **Zeilen** **Zeile** aus, und wählen Sie dann **Auftragsmontage** . Die Seite **Montageauftrag** wird geöffnet.  
+10. Wählen Sie auf dem Inforegister **Zeilen** **Zeile** aus, und wählen Sie dann **Auftragsmontage**. Die Seite **Montageauftrag** wird geöffnet.  
 
     Beachten Sie, dass einige Felder auf dem Montageauftrag nicht verfügbar sind, da der Auftrag mit einem Verkaufsauftrag verbunden ist.  
 
@@ -331,9 +331,9 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Das Feld **Montagemenge** ist editierbar, um Situationen zu unterstützen, in denen Sie eine Lagermenge teilweise ausliefern möchten, anstatt mehr Einheiten für den Auftrag zu montieren. Weitere Informationen finden Sie im Abschnitt "Kombinationsszenarien" in [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-12. Schliessen Sie die Seite **Montageauftrag** , um zur Seite **Warenausgang** zurückzukehren.  
+12. Schliessen Sie die Seite **Montageauftrag**, um zur Seite **Warenausgang** zurückzukehren.  
 13. Geben Sie auf der Ausgangszeile für drei Einheiten von Kitartikel B im Feld **Zu liefernde Menge** **3** ein.  
-14. Wählen Sie die Aktion **Postversand** und dann die Schaltfläche **Senden** .  
+14. Wählen Sie die Aktion **Postversand** und dann die Schaltfläche **Senden**.  
 
     Zusammen mit dieser Warenausgangbuchung werden die vollständige Verbrauchs- und Ausgabemenge des zugehörigen Montageauftrags gebucht, und das Feld **Verbleibende Menge** ist leer. Die Verkaufsauftragszeile für Kit B wird aktualisiert, um zu zeigen, dass die drei Einheiten geliefert werden.  
 
@@ -361,7 +361,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Beachten Sie auf der Seite, dass die Felder **Montageauftrag** und **Montagemenge** jetzt mit den **Verbrauchsmengen** ausgefüllt sind, die mit der Lieferung gebucht werden.  
 
-5.  Schliessen Sie die Seite **Montageauftrag** .  
+5.  Schliessen Sie die Seite **Montageauftrag**.  
 
 ### <a name="assembling-the-ats-quantity"></a>Montieren der ATS-Menge  
 
@@ -373,7 +373,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     Als Nächstes erstellen Sie einen Kommissionierungsbeleg, um die benötigten Komponenten abzurufen.  
 
 3.  Wählen Sie die Aktion **Freigabe** aus.  
-4.  Wählen Sie die **Kommissionierung erstellen** Aktion, und wählen Sie die Schaltfläche **OK** .  
+4.  Wählen Sie die **Kommissionierung erstellen** Aktion, und wählen Sie die Schaltfläche **OK**.  
 
     Führen Sie dann die Aufgaben des Komissionierers aus.  
 
@@ -387,7 +387,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Kehren Sie zum Montageauftrag zurück, um die letzte Montageaufgabe auszuführen.  
 
-9. Wählen Sie in der **Montageauftrag** die Aktion **Buchen** und dann die Schaltfläche **Ja** .  
+9. Wählen Sie in der **Montageauftrag** die Aktion **Buchen** und dann die Schaltfläche **Ja**.  
 
     Beachten Sie, dass der Montageauftrag aus der Liste der offenen Aufträge entfernt wurde.  
 
@@ -400,7 +400,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Kommissionieren Sie dann alle übrigen Artikel.  
 
-3.  Wählen Sie die Aktion **Pick erstellen** und dann die Schaltfläche **OK** .  
+3.  Wählen Sie die Aktion **Pick erstellen** und dann die Schaltfläche **OK**.  
 
     Führen Sie dann die letzte Aufgabe der Auswahl für diesen Warenausgang aus.  
 
@@ -412,15 +412,15 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     Registrieren Sie dann die Kommissionierung, ohne die Standardinformationen zu ändern.  
 
 6.  Wählen Sie die **Die zu verarbeitende Menge automatisch ausfüllen** Aktion aus.  
-7.  Wählen Sie die Aktion **Auswahl registrieren** und dann die Schaltfläche **Ja** .  
+7.  Wählen Sie die Aktion **Auswahl registrieren** und dann die Schaltfläche **Ja**.  
 
     Kehren Sie zum Warenausgang zurück, um die letzte Aufgabe auszuführen.  
 
-8.  Öffnen Sie wieder die Seite **Warenausgangsübersicht** .  
+8.  Öffnen Sie wieder die Seite **Warenausgangsübersicht**.  
 
     Beachten Sie, dass auf der Seite **Lagerhausversand** in der Zeile für zehn Einheiten von Kit A die Felder **Zu liefernde Menge** und **Ausgewählte Menge** jetzt **10** enthalten.  
 
-9. Wählen Sie die Aktion **Postversand** und wählen Sie **Senden** .  
+9. Wählen Sie die Aktion **Postversand** und wählen Sie **Senden**.  
 
     Der Warenausgangsbeleg wird entfernt, was angibt, dass die entsprechenden Lageraktivitäten ausgeführt wurden. Als Nächstes überprüfen Sie, dass der Verkaufsauftrag verarbeitet wurde.  
 

@@ -45,9 +45,9 @@ Um das automatisierte Datenerfassungssystem verwenden zu können, müssen Sie de
     |---------------------------------|-----------|  
     |**Objekttyp**|Codeunit|  
     |**Objekt-ID**|7714|  
-    |**Dienstname**|ADCS **Wichtig** : Sie müssen **ADCS** als Namen für den Dienst festlegen.|  
+    |**Dienstname**|ADCS **Wichtig**: Sie müssen **ADCS** als Namen für den Dienst festlegen.|  
 
-5. Aktivieren Sie das Kontrollkästchen **Veröffentlicht** .  
+5. Aktivieren Sie das Kontrollkästchen **Veröffentlicht**.  
 6. Wählen Sie die Schaltfläche **OK** aus.  
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>So richten Sie ein Lager für die Verwendung von MDE ein:  
@@ -63,7 +63,7 @@ Um MDE nutzen zu können, müssen Sie festlegen, welche Lagerorte die Technologi
 ## <a name="to-specify-an-item-to-use-adcs"></a>So geben Sie einen Artikel für die Verwendung von MDE an  
 Jedem Logistik Artikel, den Sie mit MDE verwenden möchten, muss ein Barcode zugeordnet werden, um ihn mit der Artikelnummer zu verknüpfen. Beispielsweise können Sie den Barcode des Artikels als Identifzierungscode verwenden. Ein Artikel kann also mehrere Barcodes haben. Dies kann hilfreich sein, wenn ein Artikel in verschiedenen Masseinheiten verfügbar ist, wie als Stück und als Palette. In diesem Fall weisen Sie jeder Einheit einen Barcode zu.    
 
-1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie einen Artikel aus der Liste aus, der Teil der MDE-Lösung ist, und wählen die **Bearbeiten** Aktion aus.
 3. Wählen Sie auf der Seite **Artikelkarte** die Aktion **Kennzeichner** aus.
 4. Wählen Sie auf der Seite **Artikelbarcodes** die Aktion **Neu** aus.
@@ -103,7 +103,7 @@ Mit Miniforms beschreiben Sie die Informationen, die Sie auf einem Endgerät pr�
 2. Wählen Sie die Aktion **Neu** aus.  
 3.  In dem Feld **Code** geben Sie einen Code für die Miniform ein. Geben Sie optional in allen anderen Feldern Werte ein.  
 
-    Aktivieren Sie das Kontrollkästchen **Miniformular starten** , um anzugeben, dass das Miniform das erste Formular ist, das der Benutzer bei der Anmeldung sieht.  
+    Aktivieren Sie das Kontrollkästchen **Miniformular starten**, um anzugeben, dass das Miniform das erste Formular ist, das der Benutzer bei der Anmeldung sieht.  
 
 4.  Definieren Sie im Inforegister **Zeilen** die Felder, die im Miniform erscheinen. Die Reihenfolge, in der Sie Zeilen eingeben, ist die Reihenfolge, in der die Zeilen auf dem Endgerät angezeigt werden.  
 
