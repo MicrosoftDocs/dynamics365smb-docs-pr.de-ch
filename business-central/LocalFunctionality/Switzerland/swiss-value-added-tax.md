@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2cd460881259d0c95e3d9870bad860aeccca30e0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 67617e389d20e2e57cf13dd5ecb6031341509dca
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911700"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753149"
 ---
 # <a name="swiss-value-added-tax"></a>Mehrwertsteuer (Schweiz)
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enthält die folgenden Erweiterungen für die Schweizer Mehrwertsteuerberichterstellung:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] enthält die folgenden Erweiterungen für die Schweizer Mehrwertsteuerberichterstellung:  
 
 - Automatische Regulierung von MWST-Beträgen für Rechnungen entsprechend dem Skonto  
 - Zusätzliche MWST-Wechselkurse für Rechnungen in Fremdwährungen  

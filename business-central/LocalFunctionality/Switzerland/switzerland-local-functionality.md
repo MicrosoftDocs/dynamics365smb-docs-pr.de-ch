@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 09e452b33b6f9c254277699b2f8c410a8c608087
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e63531e19a8b981067f40eba209f7dad0217eb32
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913572"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753153"
 ---
 # <a name="switzerland-local-functionality"></a>Lokale Funktion (Schweiz)
 
-Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version von [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Verfügbarkeit der Funktion
 
@@ -70,7 +70,7 @@ Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version
 
 ## <a name="see-also"></a>Siehe auch
 
-[Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

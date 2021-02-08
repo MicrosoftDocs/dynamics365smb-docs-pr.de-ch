@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4a5549b39b5f24d68bc790d213c1a59c35909f63
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 86ec9c8f1e5513534075bb70163c2f3242a94e3c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916375"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753157"
 ---
 # <a name="swiss-electronic-payments"></a>Elektronische Zahlungen (Schweiz)
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]ermöglicht Ihnen, elektronisch Rechnungen an Debitoren zu senden. Sie können Rechnungen direkt mithilfe der Onlinebankingsoftware des Debitors ausstellen und bezahlen.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)]ermöglicht Ihnen, elektronisch Rechnungen an Debitoren zu senden. Sie können Rechnungen direkt mithilfe der Onlinebankingsoftware des Debitors ausstellen und bezahlen.  
 
 ## <a name="electronic-payment-methods"></a>Elektronische Zahlungsformen  
 Elektronische Zahlungen können mithilfe der folgenden Zahlungsformen durchgeführt werden:  

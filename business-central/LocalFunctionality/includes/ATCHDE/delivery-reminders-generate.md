@@ -4,14 +4,14 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5c09014f024d7e0f31876ea2b5aaf2ed9ad63f6c
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 12f5979046ead56c5ca614f748571b246ce0bed3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3959641"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747538"
 ---
-In [!INCLUDE[d365fin](../../../includes/d365fin_md.md)], können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde. Sie können Lieferanmahnungen für alle überfälligen Lieferungen generieren lassen oder manuell eine einzelne Lieferanmahnung erstellen.  
+In [!INCLUDE[prod_short](../../../includes/prod_short.md)], können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde. Sie können Lieferanmahnungen für alle überfälligen Lieferungen generieren lassen oder manuell eine einzelne Lieferanmahnung erstellen.  
 
 > [!NOTE]  
 > Um Lieferanmahnungen zu erstellen, müssen Sie die Lieferanmahnungsbestimmungen, -stufen und -texte eingerichtet haben.  

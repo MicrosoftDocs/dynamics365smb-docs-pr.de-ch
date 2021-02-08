@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9321e0c337d5870363529fdab511ccdd93a793d5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 979b69f58d49c6389a3c5e68326104feb2fb411b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925202"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753173"
 ---
 # <a name="print-general-ledger-setup-information"></a>Drucken von Finanzbuchhaltungs-Setupinformationen
-Bevor Sie [!INCLUDE[d365fin](../../includes/d365fin_md.md)] im täglichen Geschäft verwenden, können Sie den Bericht **Fibu Einr.-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Masterdaten überprüfen, damit Sie eine Grundlage für einen Vergleich haben, und anschliessend verifizieren, dass beispielsweise die Buchungsgruppen ordnungsgemäss eingerichtet sind.  
+Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] im täglichen Geschäft verwenden, können Sie den Bericht **Fibu Einr.-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Masterdaten überprüfen, damit Sie eine Grundlage für einen Vergleich haben, und anschliessend verifizieren, dass beispielsweise die Buchungsgruppen ordnungsgemäss eingerichtet sind.  
 
 ## <a name="to-print-general-ledger-setup-information"></a>So drucken Sie Einrichtungsinformationen zur Finanzbuchhaltung  
 
