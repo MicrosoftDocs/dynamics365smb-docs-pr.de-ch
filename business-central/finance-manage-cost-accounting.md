@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4137064ddb61039a2f748076c415b595e9750bc9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2b4d785697d12f00e6a2621d914d696e444faab5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914303"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750619"
 ---
 # <a name="accounting-for-costs"></a>Kostenrechnung
 Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Um mit der Kostenrechnung anzufangen, sehen Sie sich die folgenden Themen an.  
@@ -28,11 +28,11 @@ Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs
 |So übertragen Sie Fibuposten in Kostenposten.|[Übertragung und Buchung von Kostenzuteilungen](finance-transfer-and-post-cost-entries.md)|  
 |Kosten zuordnen.|[Definieren und Zuweisen von Kosten](finance-define-and-allocate-costs.md)|  
 |Erlernen Sie die Prozesse beim Erstellen von Kostenbudgets.|[Erstellen von Kostenbudgets](finance-create-cost-budgets.md)|
-|Wenn Sie Kostenposten aus dem Kostenjournal stornieren.|[Kostenbu&dgetposten löschen](finance-how-to-delete-cost-budget-entries.md)|
+|Wenn Sie Kostenposten aus dem Kostenjournal stornieren.|[Kostenbudgetposten löschen](finance-how-to-delete-cost-budget-entries.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch  
 [Finanzen](finance.md)  
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

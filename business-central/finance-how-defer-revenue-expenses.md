@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d87d2e635bbe0872fac0c98d93481b71e16d15f4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b9d936cffabaea38571fe755ca43ed0cd9a961b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917065"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750894"
 ---
 # <a name="defer-revenues-and-expenses"></a>Einnahmen und Ausgaben abgrenzen
 Um Einnahmen und Ausgaben in einer anderen Periode als in jener, in der die Transaktion gebucht wurde, zu erkennen, können Sie die Funktionen verwenden, um Einnahmen und Ausgaben über einen bestimmten Zeitplan automatisch abzugrenzen.
@@ -37,10 +37,10 @@ Für beide Arten Abgrenzung wählen Sie im Feld **Art** **Bilanz** aus und benen
 3. Füllen Sie die Felder je nach Bedarf aus.
 4. Geben Sie auf der Seite **Berechnungsmethode** an, wie das Feld **Betrag** für jede Periode auf der Seite **Abgrenzungsplan** berechnet wird. Sie haben die Wahl zwischen den folgenden Optionen:
 
-   * **Linear** : Die regelmässigen Abgrenzungsbeträge werden entsprechend der Anzahl der Perioden berechnet, verteilt entsprechend der Periodenlänge.
-   * **Gleich pro Periode** : Die regelmässigen Abgrenzungsbeträge werden entsprechend der Anzahl der Perioden berechnet, gleichmässig nach Perioden verteilt.
-   * **Tage pro Periode** : Die regelmässigen Abgrenzungsbeträge werden entsprechend der Anzahl der Tage in der Periode berechnet.
-   * **Benutzerdefiniert** : Die regelmässig Abgrenzungsbeträge werden nicht berechnet. Sie müssen das Feld **Betrag** für jede Periode auf der Abgrenzungsplanseite manuell ausfüllen. Weitere Informationen finden Sie im Abschnitt „So ändern Sie einen Aufschubzeitplan aus einer Verkaufsrechnung”.
+   * **Linear**: Die regelmässigen Abgrenzungsbeträge werden entsprechend der Anzahl der Perioden berechnet, verteilt entsprechend der Periodenlänge.
+   * **Gleich pro Periode**: Die regelmässigen Abgrenzungsbeträge werden entsprechend der Anzahl der Perioden berechnet, gleichmässig nach Perioden verteilt.
+   * **Tage pro Periode**: Die regelmässigen Abgrenzungsbeträge werden entsprechend der Anzahl der Tage in der Periode berechnet.
+   * **Benutzerdefiniert**: Die regelmässig Abgrenzungsbeträge werden nicht berechnet. Sie müssen das Feld **Betrag** für jede Periode auf der Abgrenzungsplanseite manuell ausfüllen. Weitere Informationen finden Sie im Abschnitt „So ändern Sie einen Aufschubzeitplan aus einer Verkaufsrechnung”.
 5. In der **Periodenbeschr.** Feld geben Sie eine Beschreibung an, die bei Einträgen für die Abgrenzungsbuchung angezeigt wird. Sie können die folgenden Platzhaltercodes für typische Werte eingeben, die automatisch eingefügt werden, wenn die Periodenbeschreibung angezeigt wird.
 
    * %1 = Die Tagesnummer des Periodenbuchungsdatums
@@ -87,10 +87,10 @@ Fibukonteneinträge, die im entsprechenden Abgrenzungskonto gebucht werden müss
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zusammenfassung zum Aufschub des Verkaufs** ein, und wählen Sie dann den entsprechenden Link.
 2. Geben Sie auf der Seite **Verkaufsabgrenzungszusammenfassung** im Feld **Saldo ab** das Datum ein, bis zu welchem Sie abgegrenzte Einnahmen anzeigen möchten.
-3. Klicken Sie auf die Schaltfläche **Vorschau** .
+3. Klicken Sie auf die Schaltfläche **Vorschau**.
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

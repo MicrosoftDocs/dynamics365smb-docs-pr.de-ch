@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: repair, service
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 79f893007ab2c81140744a042fed24d1b932a4da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 60080b0a8982420ff2f3a6654d496395733bc425
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917239"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749232"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Um Anlagenwartung einzurichten:
 Um die Anlagenwartung zu verwalten, müssen Sie erst einige allgemeine Wartungsinformationen einrichten, ein Buchungskonto für Wartungskosten und Wartungscodes für die Arten von Arbeit, beispielsweise Instandhaltung oder Reparatur.
@@ -49,4 +49,4 @@ Um Wartungskosten zu buchen, müssen Sie erst eine Kontonummer auf der Seite **A
 [Anlagen](fa-manage.md)  
 [Finanzen](finance.md)  
 [Erste Schritte](product-get-started.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

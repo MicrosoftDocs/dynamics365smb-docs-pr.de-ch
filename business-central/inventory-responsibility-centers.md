@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.date: 11/03/2020
 ms.author: edupont
-ms.openlocfilehash: 97904add0f97be5a93bec5e53b45179fadfddffb
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: cb9586e207f3eda516d11dd4f184351ff66ca4b2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968348"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749969"
 ---
 # <a name="work-with-responsibility-centers"></a>Arbeiten mit Zuständigkeitseinheiten
 
@@ -49,11 +49,11 @@ Um dies einzurichten, weisen Sie Benutzern Zuständigkeitseinheiten in drei Basi
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Benutzereinrichtung** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie im Fenster **Benutzer einrichten** den Benutzer, dem Sie eine Zuständigkeitseinheit zuweisen wollen. Wenn sich der Benutzer nicht in der Liste befindet, müssen Sie eine Benutzer-ID im Feld **Benutzer-ID** eingeben.  
 3. Im Feld **Verk.-Zuständigk.-Einh. Filter** geben Sie die Zuständigkeitseinheit ein, in der der Benutzer Aufgaben haben wird, die mit "Debitoren & Verkauf" verbunden sind.  
-4. Im Feld  **Eink.-Zuständigk.-Einh. Filter** geben Sie die Zuständigkeitseinheit ein, in der der Benutzer Aufgaben haben wird, die mit "Kreditoren &amp; Einkauf" verknüpft sind.  
+4. Im Feld **Eink.-Zuständigk.-Einh. Filter** geben Sie die Zuständigkeitseinheit ein, in der der Benutzer Aufgaben haben wird, die mit "Kreditoren & Einkauf" verknüpft sind.  
 5. Im Feld **Serv.-Zuständigk.-Einh. Filter** geben Sie die Zuständigkeitseinheit ein, in der der Benutzer Aufgaben haben wird, die mit Serviceverwaltung verknüpft sind.  
 
 > [!NOTE]  
-> Benutzer werden weiterhin in der Lage sein, alle gebuchten Belege und Posten einzusehen, nicht nur diejenigen, die mit ihrer eigenen Zuständigkeitseinheit verbunden sind.
+> Benutzer können nur die gebuchten Belege anzeigen, die sich auf ihr eigenes Verantwortungszentrum beziehen. Sie können jedoch alle Ledger-Einträge anzeigen und aus den Ledger-Einträgen zu anderen gebuchten Belegen navigieren.
 
 ## <a name="see-also"></a>Siehe auch
 
@@ -62,4 +62,4 @@ Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse
 [Bestand](inventory-manage-inventory.md)[Lagerortverwaltung](warehouse-manage-warehouse.md).  
 [Logistik](warehouse-manage-warehouse.md)  
 [Designdetails: Logistik](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 510958f185f748f1c8d122d2f199e164b7e45fba
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f0136c253e38f4950837bc0fdafae5f5c35cab28
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921881"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746105"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbeiten mit Chargennummern und Seriennummern
 Sie können Serien-/Chargennummern zu beliebigen ausgehenden oder eingehenden Belegen zuweisen, und das gebuchte Artikeltracking wird in den entsprechenden Buchungsposten angezeigt. Sie führen die Arbeit auf der Seite **Artikeltrackingzeilen** aus, die Sie über einen eingehenden und ausgehenden Beleg öffnen können.
@@ -36,7 +36,7 @@ In den einfachen Prozessen haben die Lagerartikel bereits Serien- oder Chargennu
 In den bestimmten Fällen werden für Serien- oder Charge-numeriertes Lager, bestimmte Serien- oder Chargennummern im Herkunftsbeleg, wie einem Verkaufsauftrag definiert, den der Lagermitarbeiter während der Ausgangsaktivitäten berücksichtigen muss. Dies kann beispielsweise den Grund haben, dass der Debitor während des Bestellvorgangs eine bestimmte Charge fordert. Wenn der Lagerkommissionierungs- oder Kommissionierungsbeleg aus einem ausgehenden Herkunftsbeleg erstellt wird, in dem bereits Artikeltrackingnummern definiert sind, sind auf der Seite **Artikeltrackingzeilen** alle Felder unter der Lagerkommissionierung schreibgeschützt, ausgenommen das **Feld Bewegungsmenge**. Die Lagerkommissionierzeilen legen die Artikeltrackingnummern der individuellen Zeilen für Lagerentnahme/Einlagerung fest. Die Menge wurde bereits in einzelne Serien- oder Chargennummer-Kombinationen aufgeteilt, da der Verkaufsauftrag die zu liefernden Artikeltrackingnummern enthalten hat.  
 
 ## <a name="item-tracking-availability"></a>Verfügbarkeit des Artikeltrackings
-Wenn Sie mit Chargen- oder Seriennummern arbeiten, berechnet [!INCLUDE[d365fin](includes/d365fin_md.md)] die Verfügbarkeitsinformationen für Chargen- und Seriennummern und zeigt sie in den verschiedenen Artikeltrackingseiten an. Dadurch können Sie erkennen, welche Chargen- oder Seriennummer derzeit auf anderen Belegen verwendet wird. Dadurch werden Fehler und Unsicherheiten aufgrund von Doppelzuordnungen verringert.
+Wenn Sie mit Chargen- oder Seriennummern arbeiten, berechnet [!INCLUDE[prod_short](includes/prod_short.md)] die Verfügbarkeitsinformationen für Chargen- und Seriennummern und zeigt sie in den verschiedenen Artikeltrackingseiten an. Dadurch können Sie erkennen, welche Chargen- oder Seriennummer derzeit auf anderen Belegen verwendet wird. Dadurch werden Fehler und Unsicherheiten aufgrund von Doppelzuordnungen verringert.
 
 Auf der Seite **Artikeltrackingzeilen** wird in den Feldern **Verfügbarkeit, Chargennr.** oder **Verfügbarkeit, Seriennr.** ein Warnsymbol angezeigt, wenn die gesamte Menge oder Teile der Menge, die Sie ausgewählt haben, bereits auf anderen Belegen verwendet wurden oder wenn die Chargen- oder Seriennummer nicht verfügbar ist.
 
@@ -88,28 +88,6 @@ Für einige Artikel möchten Sie möglicherweise spezielle Garantievereinbarunge
     |---------------------------------|---------------------------------------|  
     |**Garantiedatumsformel**|Gibt das letzte Garantiedatum für den Artikel an.|  
     |**Gar.-Datum - Manuelle Eingabe**|Zeigt an, dass Sie in der Artikeltrackingzeile manuell ein Garantiedatum eingeben müssen.|  
-
-## <a name="to-record-serial-or-lot-number-information"></a>Serien- oder Chargennummerinformationen aufzeichnen  
-Falls Sie spezielle Informationen mit einer bestimmten Artikeltrackingnummer verknüpfen müssen, z. B. für die Qualitätssicherung, können Sie dies in einer Serien- oder Chargennummer-Informationskarte vornehmen.
-
-1. Öffnen eines Belegs, der die Serien- oder Chargennummern ist, die zugeordnet werden.
-2. Öffnen Sie die Seite **Artikeltrackingzeilen** für den Beleg.
-3. Wählen Sie z. B. die **Seriennr.-Informationskarte** Aktion aus.  
-
-    Die Felder **Seriennr.** und **Chargennr.** werden aus der Artikeltrackingzeile vorab ausgefüllt.  
-4. Geben Sie im Feld **Beschreibung** eine kurze Beschreibung ein, zum Beispiel über den Zustand des Artikels.  
-5. Wählen Sie  **Bemerkung**, um einen separaten Bemerkungsdatensatz zu erstellen.  
-6. Aktivieren Sie das Kontrollkästchen **Gesperrt**, um die Serien- oder Chargennummer von sämtlichen Transaktionen auszuschliessen.  
-
-## <a name="to-modify-existing-serial-or-lot-number-information"></a>Bestehende Serien- oder Chargennummerinformationen ändern  
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie einen Artikel, der einen Artikeltrackingcode und Serien- oder Chargennummerinformationen hat.
-3. Auf der Seite **Artikelkarte** wählen Sie die **Posten** Aktion aus, und wählen Sie dann **Posten** aus.
-4. Wählen Sie das Feld **Chargennr.** oder **Seriennr.** aus. Wenn es für die Artikeltrackingnummer Informationen gibt, dann wird die Seite **Chargennr.-Informationsliste** oder **Seriennr.-Informationsliste** geöffnet.  
-5. Wählen Sie eine Karte aus, und wählen Sie die **Chargennr./Seriennummer Informationskarte** Aktion aus.  
-6. Ändern Sie den Kurzbeschreibungstext, den Bemerkungsdatensatz oder das Feld **Gesperrt**.  
-
-Sie können die Serien- oder Chargennummern und auch die Mengen nicht ändern. Um dies zu tun, müssen Sie den betreffenden Lagerposten umbuchen. Weitere Informationen hierzu finden Sie unter [Chargen- oder Seriennummern umbuchen](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
 ## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Serien- oder Chargennummern während einer eingehenden Transaktion zuzuordnen:  
 Unternehmen möchten eventuell ihre Artikel von dem Moment an verfolgen, an dem diese das Unternehmen erreichen. In dieser Situation ist die Einkaufsbestellung oft der zentrale Beleg, obwohl das Artikeltracking von jedem beliebigen eingehenden Beleg aus gesteuert werden kann und die gebuchten Posten in den entsprechenden Lagerposten angezeigt werden können.  
@@ -236,6 +214,34 @@ In diesen Situationen werden die existierenden Artikeltrackingzeilen automatisch
 
 Die Inhalte der Felder **Seriennr.** und **Chargennr.** können nicht geändert werden. Sie können allerdings ganze Zeilen löschen oder die Mengen verändern, um Veränderungen in der Herkunftszeile auszugleichen.  
 
+## <a name="to-record-serial-or-lot-number-information"></a>Serien- oder Chargennummerinformationen aufzeichnen  
+Falls Sie spezielle Informationen mit einer bestimmten Artikeltrackingnummer verknüpfen müssen, z. B. für die Qualitätssicherung, können Sie dies in einer Serien- oder Chargennummer-Informationskarte vornehmen.
+
+1. Öffnen eines Belegs, der die Serien- oder Chargennummern ist, die zugeordnet werden.
+2. Öffnen Sie die Seite **Artikeltrackingzeilen** für den Beleg.
+3. Wählen Sie z. B. die **Seriennr.-Informationskarte** Aktion aus.  
+
+    Die Felder **Seriennr.** und **Chargennr.** werden aus der Artikeltrackingzeile vorab ausgefüllt.  
+4. Geben Sie im Feld **Beschreibung** eine kurze Beschreibung ein, zum Beispiel über den Zustand des Artikels.  
+5. Wählen Sie  **Bemerkung**, um einen separaten Bemerkungsdatensatz zu erstellen.  
+6. Aktivieren Sie das Kontrollkästchen **Gesperrt**, um die Serien- oder Chargennummer von sämtlichen Transaktionen auszuschliessen.  
+
+Wenn Sie Seriennummern in grossen Mengen erstellen, indem Sie die **Erstellen Sie eine benutzerdefinierte SN** oder **Seriennummer zuweisen** Aktionen verwenden, können Sie **Erstellen Sie SN-Informationen** aktivieren. Es wird eine Informationskarte für jede Trackingkarte erstellt.
+
+Alternativ können Sie eine Informationskarte erstellen, wenn Sie Zeitschriften oder Belege buchen. Auf der Seite **Artikeltrackingcode** aktivieren Sie die Umschaltung **SN-Info erstellen beim Buchen** oder **SN-Info beim Buchen**. 
+
+Sie können Serien- oder Losinformationskarten später ändern.
+
+## <a name="to-modify-existing-serial-or-lot-number-information"></a>Bestehende Serien- oder Chargennummerinformationen ändern  
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie einen Artikel, der einen Artikeltrackingcode und Serien- oder Chargennummerinformationen hat.
+3. Auf der Seite **Artikelkarte** wählen Sie die **Posten** Aktion aus, und wählen Sie dann **Posten** aus.
+4. Wählen Sie das Feld **Chargennr.** oder **Seriennr.** aus. Wenn es für die Artikeltrackingnummer Informationen gibt, dann wird die Seite **Chargennr.-Informationsliste** oder **Seriennr.-Informationsliste** geöffnet.  
+5. Wählen Sie eine Karte aus, und wählen Sie die **Chargennr./Seriennummer Informationskarte** Aktion aus.  
+6. Ändern Sie den Kurzbeschreibungstext, den Bemerkungsdatensatz oder das Feld **Gesperrt**.  
+
+Sie können die Serien- oder Chargennummern und auch die Mengen nicht ändern. Um dies zu tun, müssen Sie den betreffenden Lagerposten umbuchen. Weitere Informationen hierzu finden Sie unter [Chargen- oder Seriennummern umbuchen](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
+
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Um Chargen- oder Seriennummern zu ändern  
 Ein Umbuchen des Artikeltrackings für einen Artikel bedeutet, dass eine Chargen- oder Seriennummer in eine neue Chargen- oder Seriennummer oder das Ablaufdatum in ein neues Ablaufdatum geändert wird. Wenn Sie mit Chargen arbeiten, können Sie ausserdem mehrere Chargen zu einer Charge vereinigen. Das Ausführen dieser Aufgaben erfolgt mit dem Artikel-Umlagerungs-Erfassungsjournal.
 
@@ -268,4 +274,4 @@ Ein Umbuchen des Artikeltrackings für einen Artikel bedeutet, dass eine Chargen
 [Designdetails: Artikeltracking](design-details-item-tracking.md)
 [Designdetails - Artikeltracking und Reservierungen](design-details-item-tracking-and-reservations.md)  
 [Artikel reservieren](inventory-how-to-reserve-items.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
