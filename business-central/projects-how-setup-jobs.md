@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0309ea14145758b4ae07ee034679fa4a0ef497db
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915349"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758656"
 ---
 # <a name="set-up-jobs"></a>Einrichten von Projekten
 
-Als Projekt-Manager können Sie Projekte einrichten, die jedes der Projekte definieren, das Sie in [!INCLUDE[prodshort](includes/prodshort.md)] verwalten. Auf der Seite **Projekteinrichtung** müssen Sie festlegen, wie Sie bestimmte Projektfunktionen verwenden möchten.
+Als Projekt-Manager können Sie Projekte einrichten, die jedes der Projekte definieren, das Sie in [!INCLUDE[prod_short](includes/prod_short.md)] verwalten. Auf der Seite **Projekteinrichtung** müssen Sie festlegen, wie Sie bestimmte Projektfunktionen verwenden möchten.
 
 Für jedes Projekt geben Sie dann die einzelnen Projektkarten mit Informationen zu Preisen für Projektressourcen Projektartikel, Projekt und Fibukonten an, und Sie müssen Projektbuchungsgruppen einrichten.
 
@@ -30,7 +30,7 @@ Für jedes Projekt geben Sie dann die einzelnen Projektkarten mit Informationen 
 
 ### <a name="to-set-up-job-usage-tracking"></a>Projektverbrauch-Tracking einrichten
 
-Wenn Sie ein Projekt erstellen, werden Sie wissen wollen, ob Ihr Verbrauch mit dem Plan übereinstimmt. Um diesen Vorgang zu vereinfachen, können Sie einen Link zwischen Ihren Projektplanungszeilen und dem tatsächlichen Verbrauch erstellen. So können Sie Ihre Kosten verfolgen und schnell sehen, wie viel Arbeit noch zu tun ist. Standardmässig ist de Projektplanungszeilentyp **Plan** , aber die Verwendung der Zeilenart **Plan und fakturierbar** hat ähnliche Effekte.
+Wenn Sie ein Projekt erstellen, werden Sie wissen wollen, ob Ihr Verbrauch mit dem Plan übereinstimmt. Um diesen Vorgang zu vereinfachen, können Sie einen Link zwischen Ihren Projektplanungszeilen und dem tatsächlichen Verbrauch erstellen. So können Sie Ihre Kosten verfolgen und schnell sehen, wie viel Arbeit noch zu tun ist. Standardmässig ist de Projektplanungszeilentyp **Plan**, aber die Verwendung der Zeilenart **Plan und fakturierbar** hat ähnliche Effekte.
 
 Wenn Sie das Feld **Verbraucherlink standardmässig anwenden** ausgewählt haben, können Sie die Projektplanungszeile überprüfen. Sie können die Menge der Ressource, des Artikels oder des Fibukontos einrichten und dann festlegen, welche Menge Sie in das Projekterfassungsjournal übertragen möchten. Das Feld **Restmenge** auf der Projektplanungszeile zeigt Ihnen an, was noch übertragen und im Erfassungsjournal gebucht werden muss.
 
@@ -45,16 +45,16 @@ Wenn das Kontrollkästchen **Verbrauchslink standardmässig anwenden** aktiviert
 > Wenn Projektverbrauch-Tracking *nicht* aktiviert ist, entweder auf der Seite **Projekteinrichtung** oder im einzelnen Projekt, und das Feld **Projekttyp** in der Projektjournalzeile leer ist, dann werden keine Projektplanungszeilen erstellt, wenn Sie Projektjournalzeilen buchen. Weitere Informationen finden Sie unter [Nutzung von Projekten](projects-how-record-job-usage.md).
 
 1. Wählen Sie das Symbol ![Seite suchen oder Bericht](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **Jobs einrichten** ein und wählen Sie dann den entsprechenden Link.
-2. Aktivieren sie das Kontrollkästen **Verbrauchslink standardmässig anwenden** .
+2. Aktivieren sie das Kontrollkästen **Verbrauchslink standardmässig anwenden**.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>So richten Sie Verkaufspreise für Projektressourcen ein
-Sie können bestimmte Verkaufspreise für Ressourcen für ein Projekt einrichten. Dazu verwenden Sie die Seite **Res.-VK-Preise Projekt** .
+Sie können bestimmte Verkaufspreise für Ressourcen für ein Projekt einrichten. Dazu verwenden Sie die Seite **Res.-VK-Preise Projekt**.
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Ressource** aus.
 3. Füllen Sie auf der Seite **Projektressourcen-Preise** die notwendigen Felder aus.
 
-Die optionalen Informationen in den Feldern **Projektaufgabennr.** , **Arbeitstyp** , **Währungscode** , **Zeilenrabatt %** und **Einstandspreisfaktor** werden auf den Projektplanungszeilen und Verbrauchsbuchungsblättern verwendet, wenn diese Ressource eingegeben und dem Projekt hinzugefügt wird.  
+Die optionalen Informationen in den Feldern **Projektaufgabennr.**, **Arbeitstyp**, **Währungscode**, **Zeilenrabatt %** und **Einstandspreisfaktor** werden auf den Projektplanungszeilen und Verbrauchsbuchungsblättern verwendet, wenn diese Ressource eingegeben und dem Projekt hinzugefügt wird.  
 
 Der Wert im Feld **Einheitspreis** für die Ressource wird in den Projektplanungszeilen und Projektbuchungsblättern verwendet, wenn diese Ressource, eine der Ressourcengruppe zugeordnete Ressource bzw. eine beliebige Ressource eingegeben wird.  
 
@@ -62,13 +62,13 @@ Der Wert im Feld **Einheitspreis** für die Ressource wird in den Projektplanung
 >   Dieser Preis hat immer Vorrang vor allen Preisen, auf der vorhandenen Seite des Typs **Ressourcen-VK-Preis/Ressourcengruppen-VK-Preise** eingerichtet sind.
 
 ## <a name="to-set-up-prices-for-job-items"></a>So richten Sie Preise für Projektartikel ein
-Sie können bestimmte Preise für Artikel für ein Projekt einrichten. Dazu verwenden Sie die Seite **Projektartikelpreise** .
+Sie können bestimmte Preise für Artikel für ein Projekt einrichten. Dazu verwenden Sie die Seite **Projektartikelpreise**.
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Artikel** aus.
 3. Füllen Sie auf der Seite **Projektartikelpreise** die notwendigen Felder aus.
 
-Die optionalen Informationen in den Feldern **Projektaufgabennummer** , **Währungscode** und **Zeilenrabatt %** werden in den Projektplanungszeilen und Projektbuchungsblättern verwendet, wenn dieser Artikel eingegeben wird.  
+Die optionalen Informationen in den Feldern **Projektaufgabennummer**, **Währungscode** und **Zeilenrabatt %** werden in den Projektplanungszeilen und Projektbuchungsblättern verwendet, wenn dieser Artikel eingegeben wird.  
 
 Dies ist der Wert im Feld **Einheitspreis** der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieser Artikel eingegeben wird.  
 
@@ -76,13 +76,13 @@ Dies ist der Wert im Feld **Einheitspreis** der in den Projektplanungszeilen und
 >   Dieser Preis hat immer Vorrang vor dem regulären Kundenpreis (Mechanismus für "bester Preis") für Artikel. Wenn Sie den Mechanismus für den regulären Kundenpreis verwendet wollen, erstellen Sie keine Projektartikelpreise für das Projekt.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Preise für Projektbuchungskonten einrichten
-Sie können bestimmte Preise für die Aufwandsfibuposten eines Projekts einrichten. Dazu verwenden Sie die Seite **Projekt-Fibukontopreise** .
+Sie können bestimmte Preise für die Aufwandsfibuposten eines Projekts einrichten. Dazu verwenden Sie die Seite **Projekt-Fibukontopreise**.
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Sachkonto** aus.  
 3. Füllen Sie auf der Seite **Fibukonto-Preise** die notwendigen Felder aus.
 
-Die optionalen Informationen in den Feldern **Projektaufgabennr.** , **Währungscode** , **Zeilenrabatt %** , **Einheitskostenfaktor** und **Einheitskosten** werden auf den Projektplanungszeilen und Verbrauchsbuchungsblättern verwendet, wenn diese Ressource eingegeben und dem Projekt hinzugefügt wird.  
+Die optionalen Informationen in den Feldern **Projektaufgabennr.**, **Währungscode**, **Zeilenrabatt %**, **Einheitskostenfaktor** und **Einheitskosten** werden auf den Projektplanungszeilen und Verbrauchsbuchungsblättern verwendet, wenn diese Ressource eingegeben und dem Projekt hinzugefügt wird.  
 
 Füllen Sie das Feld **Einheits-Preis** für das Aufwandssachkonto aus. Dies ist der Verkaufspreis, der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieses Sachkonto eingegeben wird.
 
@@ -121,4 +121,4 @@ Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungsko
 [Finanzen](finance.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verkauf](sales-manage-sales.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

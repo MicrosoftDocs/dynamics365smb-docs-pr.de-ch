@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920711"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760133"
 ---
 # <a name="working-with-general-journals"></a>Arbeiten mit Fibu Buch.-Blättern
 
-Die meisten Finanztransaktionen werden in den Fibuposten von Geschäftsbelegen wie Einkaufsrechnungen und Verkaufsaufträge gebucht. Sie können auch Geschäftsaktivitäten wie Einkauf, Zahlung, die Verwendung wiederkehrender Erfassungsjournale, um Abgrenzungen zu buchen, oder Rückerstattung von Mitarbeiterausgaben verarbeiten, indem Sie Erfassungsjournalzeilen in den verschiedenen Erfassungsjournalen in [!INCLUDE[d365fin](includes/d365fin_md.md)] buchen.  
+Die meisten Finanztransaktionen werden in den Fibuposten von Geschäftsbelegen wie Einkaufsrechnungen und Verkaufsaufträge gebucht. Sie können auch Geschäftsaktivitäten wie Einkauf, Zahlung, die Verwendung wiederkehrender Erfassungsjournale, um Abgrenzungen zu buchen, oder Rückerstattung von Mitarbeiterausgaben verarbeiten, indem Sie Erfassungsjournalzeilen in den verschiedenen Erfassungsjournalen in [!INCLUDE[prod_short](includes/prod_short.md)] buchen.  
 
-Die meisten Erfassungsjournale basieren auf dem *Fibu Erf.-Journal* , und Sie können alle Transaktionen auf der Seite **Fibu Erf.-Journal** bearbeiten. Weitere Informationen finden Sie unter [Transaktionen direkt im Fibuposten buchen](finance-how-post-transactions-directly.md).  
+Die meisten Erfassungsjournale basieren auf dem *Fibu Erf.-Journal*, und Sie können alle Transaktionen auf der Seite **Fibu Erf.-Journal** bearbeiten. Weitere Informationen finden Sie unter [Transaktionen direkt im Fibuposten buchen](finance-how-post-transactions-directly.md).  
 
 Beispielsweise können Sie die Kosten der Mitarbeiter, die sie selber bezahlt haben, verwenden, um später zurückzuahlen. Weitere Informationen finden Sie unter [Erstatten Sie die Ausgaben der Mitarbeiter zurück](finance-how-record-reimburse-employee-expenses.md).
 
@@ -36,20 +36,20 @@ Die in ein Erf.-Journal eingegebenen Informationen sind temporär und können ge
 
 ## <a name="using-journal-templates-and-batches"></a>Buch-Blattvorlagen und Stapel nutzen
 
-Es gibt mehrere Fibu Erfassungsjournalvorlagen. Jede Erf.-Journalvorlage wird durch eine spezifisches Seite mit bestimmten Funktionen und den Feldern dargestellt, die benötigt werden, um diese Funktionen zu unterstützen, wie die Seite **Zahlungs-Abstimmungs-Erf.-Journal** , um Bankzahlungen zu verarbeiten, und die Seite **Zahlungsausgangs Erf.-Journal** , um Ihre Mitarbeiter zu bezahlen. Weitere Informationen finden Sie unter [Zahlungen vornehmen](payables-make-payments.md) und [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Erf.-Journal oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md).
+Es gibt mehrere Fibu Erfassungsjournalvorlagen. Jede Erf.-Journalvorlage wird durch eine spezifisches Seite mit bestimmten Funktionen und den Feldern dargestellt, die benötigt werden, um diese Funktionen zu unterstützen, wie die Seite **Zahlungs-Abstimmungs-Erf.-Journal**, um Bankzahlungen zu verarbeiten, und die Seite **Zahlungsausgangs Erf.-Journal**, um Ihre Mitarbeiter zu bezahlen. Weitere Informationen finden Sie unter [Zahlungen vornehmen](payables-make-payments.md) und [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Erf.-Journal oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md).
 
 Sie können zu jeder Erfassungsjournalvorlage mehrere Erfassungsjournalnamen als Journal-Stapel erstellen. Beispielsweise können Sie Ihre eigenen Buch-Stapel für das Zahlungserfassungsjournal erstellen, das Ihr persönliches Layout und Ihre Einstellungen hat. Der nächste Tipp ist ein Beispiel, wie Sie ein Erf.-Journal anpassen.
 
 > [!TIP]  
-> Wenn Sie das Kontrollkästchen **Ausgleichsbetrag vorschlagen** in der Zeile für Ihren Stapel auf der Seite **Fibu Erf.-Journalnamen** -Seite auswählen, dann werden das Feld **Betrag** , beispielsweise Fibu Erfassungsjournalzeilen für dieselbe Belegnummer automatisch mit dem Wert, der zum Ausgleichen des Belegs erforderlich ist, ausgefüllt. Weitere Informationen finden Sie unter[[!INCLUDE[d365fin](includes/d365fin_md.md)]Werte Vorschlagen](ui-let-system-suggest-values.md).
+> Wenn Sie das Kontrollkästchen **Ausgleichsbetrag vorschlagen** in der Zeile für Ihren Stapel auf der Seite **Fibu Erf.-Journalnamen**-Seite auswählen, dann werden das Feld **Betrag**, beispielsweise Fibu Erfassungsjournalzeilen für dieselbe Belegnummer automatisch mit dem Wert, der zum Ausgleichen des Belegs erforderlich ist, ausgefüllt. Weitere Informationen finden Sie unter[[!INCLUDE[prod_short](includes/prod_short.md)]Werte Vorschlagen](ui-let-system-suggest-values.md).
 
 > [!TIP]
-> Verwenden Sie zum Hinzufügen oder Entfernen von Feldern in Erfassungsjournalen das Banner **Personalisieren** . Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
+> Verwenden Sie zum Hinzufügen oder Entfernen von Feldern in Erfassungsjournalen das Banner **Personalisieren**. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
 ### <a name="validating-general-journal-batches"></a>Fibu Erf.-Journal-Stapelverarbeitungen überprüfen
-Um Verzögerungen beim Buchen zu vermeiden, können Sie eine Hintergrundüberprüfung aktivieren, die Sie benachrichtigt, wenn in dem Finanz Erf.-Journal, an dem Sie arbeiten, ein Fehler vorliegt, der Sie daran hindert, das Erf.-Journal zu veröffentlichen. Auf der Seite **Fibu Erf.-Journal** können Sie **Hintergrundfehlerprüfung** wählen, damit [!INCLUDE[d365fin](includes/d365fin_md.md)] Finanz Erfassungsjournale überprüft, wie z. B. Fibu Erfassungsjournale oder Zahlungsausgangs Erfassungsjournale, während Sie an ihnen arbeiten. 
+Um Verzögerungen beim Buchen zu vermeiden, können Sie eine Hintergrundüberprüfung aktivieren, die Sie benachrichtigt, wenn in dem Finanz Erf.-Journal, an dem Sie arbeiten, ein Fehler vorliegt, der Sie daran hindert, das Erf.-Journal zu veröffentlichen. Auf der Seite **Fibu Erf.-Journal** können Sie **Hintergrundfehlerprüfung** wählen, damit [!INCLUDE[prod_short](includes/prod_short.md)] Finanz Erfassungsjournale überprüft, wie z. B. Fibu Erfassungsjournale oder Zahlungsausgangs Erfassungsjournale, während Sie an ihnen arbeiten. 
 
-Wenn Sie die Überprüfung aktivieren, wird die Infobox **Erf.-Journal-Prüfung** neben den Erfassungsjournalzeilen angezeigt und zeigt Probleme in der aktuellen Zeile und im gesamten Stapel an. Die Überprüfung erfolgt, wenn Sie einen Finanz-Erf.-Journalnamen laden und eine andere Erf.-Journalzeile auswählen. Die Kachel **Probleme insgesamt** in der Infobox zeigt die Gesamtanzahl von Problemen, die [!INCLUDE[d365fin](includes/d365fin_md.md)] gefunden hat, und Sie können sie auswählen, um eine Übersicht über die Probleme zu öffnen. 
+Wenn Sie die Überprüfung aktivieren, wird die Infobox **Erf.-Journal-Prüfung** neben den Erfassungsjournalzeilen angezeigt und zeigt Probleme in der aktuellen Zeile und im gesamten Stapel an. Die Überprüfung erfolgt, wenn Sie einen Finanz-Erf.-Journalnamen laden und eine andere Erf.-Journalzeile auswählen. Die Kachel **Probleme insgesamt** in der Infobox zeigt die Gesamtanzahl von Problemen, die [!INCLUDE[prod_short](includes/prod_short.md)] gefunden hat, und Sie können sie auswählen, um eine Übersicht über die Probleme zu öffnen. 
 
 Sie können die Aktionen **Zeilen mit Problemen anzeigen** und **Alle Zeilen anzeigen** anzeigen, um zwischen Erfassungsjournalzeilen umzuschalten, die Probleme haben oder keine. Die neue Infobox **Erfassungsjournalzeilendetails** bietet einen schnellen Überblick und Zugriff auf Daten aus Erfassungsjournalzeilen, wie z. B. Fibukonto, Debitor oder Kreditor sowie zur Buchungseinrichtung für bestimmte Konten.     
 
@@ -65,7 +65,7 @@ Mit diesen Aktionen können Sie eine Kopie einer Fibu Erf.-Journalzeile oder ein
 * Ob mit entgegengesetzten Zeichen (ein Stornierungs-Erf.-Journal)
 * Ein anderes Buchungsdatum oder eine andere Belegnummer
 
-Damit Erfassungsjournale in gebuchte Fibu Erfassungsjournale kopiert werden können, wählen Sie auf der Seite **Fibu Erf.-Journal-Vorlagen** das Kontrollkästchen **In gebuchte Erf.-Journalzeilen kopieren** . Nachdem Sie Personen das Kopieren gebuchter Fibu Erfassungsjournale erlauben, können Sie, falls notwendig, das Kopieren für bestimmte Stapel deaktivieren.
+Damit Erfassungsjournale in gebuchte Fibu Erfassungsjournale kopiert werden können, wählen Sie auf der Seite **Fibu Erf.-Journal-Vorlagen** das Kontrollkästchen **In gebuchte Erf.-Journalzeilen kopieren**. Nachdem Sie Personen das Kopieren gebuchter Fibu Erfassungsjournale erlauben, können Sie, falls notwendig, das Kopieren für bestimmte Stapel deaktivieren.
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Hauptkonten und Gegenkonten und Saldokonten verstehen
 Wurden auf der Seite **Erfassungsjournale** Standardgegenkonten für die Erf.-Journalnamen eingerichtet, wird das Gegenkonto beim Ausfüllen des Felds **Kontonr.** automatisch ausgefüllt. Andernfalls müssen die Felder **Kontonr.** und **Gegenkontonr.** manuell ausgefüllt werden. Bei einem positiven Betrag im Feld **Betrag** wird das Hauptkonto belastet, und auf dem Gegenkonto erfolgt eine Gutschrift. Bei einem negativen Betrag erfolgt eine Gutschrift auf dem Hauptkonto, und das Gegenkonto wird entsprechend belastet.
@@ -148,7 +148,7 @@ Wenn Sie Erfassungsjournalzeilen erstellt haben, die Sie wahrscheinlich zu einem
 5. Auf der Anforderungsseite **Als Standard Artikel Erf.-Journal speichern** müssen Sie ein neues oder vorhandenes Standard Erf.-Journal eingeben, in dem die Zeilen gespeichert werden sollen:
 
     Wenn Sie bereits mindestens ein Standard-Artikel Erfassungsjournal erstellt haben und es durch eine neue Zusammenstellung von Artikel Erfassungsjournalzeilen ersetzen möchten, können Sie Feld Code den gewünschten Code auszuwählen.
-6. Wählen Sie die Schaltfläche **OK** , um zu bestätigen, dass Sie das vorhandene Standard-Artikel-Erfassungsjournal überschreiben und seinen gesamten Inhalt ersetzen möchten.
+6. Wählen Sie die Schaltfläche **OK**, um zu bestätigen, dass Sie das vorhandene Standard-Artikel-Erfassungsjournal überschreiben und seinen gesamten Inhalt ersetzen möchten.
 7. Wählen Sie das Feld **Stückpreis speichern** aus, wenn Sie die Werte im Feld **Stückpreis** im Standard Artikel Erfassungsjournal speichern möchten.
 8. Wählen Sie das Feld **Menge speichern** aus, wenn die Anwendung die Werte im Feld **Menge** speichern muss.
 9. Wählen Sie **OK** aus, um das Standard Artikel Erfassungsjournal zu speichern.
@@ -160,10 +160,10 @@ Wenn Sie das Standard-Artikel-Erf.-Journal gespeichert haben, wird die Seite "Ar
 2. Wählen Sie die **Standard Buch.-Blatt abrufen** Aktion aus.
 
     Die Seite "Standard Artikel Buch.-Blätter" wird geöffnet und zeigt Codes und Beschreibungen für alle vorhandenen Standard Artikel Buch.-Blätter an.
-3. Zum Überprüfen eines Standard Artikel Buch.-Blatts vor dem Auswählen für die Wiederverwendung klicken Sie auf **Buch.-Blatt anzeigen** .
+3. Zum Überprüfen eines Standard Artikel Buch.-Blatts vor dem Auswählen für die Wiederverwendung klicken Sie auf **Buch.-Blatt anzeigen**.
 
     Alle Änderungen, die an einem Standard Artikel Erfassungsjournal vorgenommen werden, werden sofort implementiert. Sie sind beim nächsten Mal, wenn Sie das betreffenden Standard Artikel Erfassungsjournal öffnen oder verwenden. Daher sollten Sie sicher sein, dass die Änderung gewichtig genug ist, um sie allgemein zu übernehmen. Nehmen Sie andernfalls die spezifische Änderung am Artikel Erf.-Journal vor, nachdem die Zeilen im Standard Artikel Erf.-Journal eingefügt wurden. Siehe dazu auch Schritt 4 unten.
-4. Auf der Seite **Standard Artikel Erf.-Journals** wählen Sie das Standard Artikel Erf.-Journal aus, das Sie erneut verwenden möchten, und klicken Sie auf **OK** .
+4. Auf der Seite **Standard Artikel Erf.-Journals** wählen Sie das Standard Artikel Erf.-Journal aus, das Sie erneut verwenden möchten, und klicken Sie auf **OK**.
 
     Jetzt wird das Artikel Erf.-Journal mit den Zeilen aufgefüllt, die Sie als Standard Artikel Erf.-Journal gespeichert haben. Wenn Erf.-Journalzeilen bereits im Artikel Erf.-Journal vorhanden sind, werden die eingefügten Zeilen unterhalb der vorhandenen Erf.-Journalzeilen eingefügt.
 
@@ -188,10 +188,10 @@ Diese Funktion funktioniert auch bei gefilterten Ansichten.
 
 Jede Neunummerierung der Belegnummern berücksichtigt verwandte Anwendungen, wie etwa eine Zahlungsanwendung, die von dem Beleg auf der Erf.-Journalzeile an ein Kreditorenkonto durchgeführt wurde. Entsprechend werden die Felder **Ausgleichs-ID** und **Ausgleich mit Belegnr.** in den betroffenen Posten aktualisiert.
 
-Die folgende Prozedur basiert auf der Seite **Fibu Erf.-Journal** , gilt aber für alle anderen Erf.-Journals, die auf dem Hauptbuch basieren, wie etwa die Seite **Zahlungs Erf.-Journal** .
+Die folgende Prozedur basiert auf der Seite **Fibu Erf.-Journal**, gilt aber für alle anderen Erf.-Journals, die auf dem Hauptbuch basieren, wie etwa die Seite **Zahlungs Erf.-Journal**.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Fibu Erfassungsjournale** ein und wählen Sie dann den entsprechenden Link.
-2. Wenn Sie zum Buchen des Buchs bereit sind, wählen Sie auf der Registerkarte Aktionen, in der Gruppe Funktionen, die Option **Belegnummern neu nummerieren** .
+2. Wenn Sie zum Buchen des Buchs bereit sind, wählen Sie auf der Registerkarte Aktionen, in der Gruppe Funktionen, die Option **Belegnummern neu nummerieren**.
 
 Werte im Feld **Belegnr.** werden geändert, wo erforderlich, sodass die Belegnummern auf einzelnen oder gruppierten Erfassungsjournalzeilen in sequenzieller Reihenfolge stehen. Nach der Neunummerierung der Belege können Sie mit der Buchung des Erf.-Journals fortfahren.
 
@@ -203,7 +203,7 @@ Werte im Feld **Belegnr.** werden geändert, wo erforderlich, sodass die Belegnu
 [Erf.-Journalbuchungen stornieren und Belege/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md)  
 [Kosten und Einkünfte zuteilen](year-allocate-costs-income.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Schliessen von offenen Lagerposten aus einem festen Ausgleich im Artikel Erf.-Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Lager im Neubewertungsjournal neu bewerten](inventory-how-revalue-inventory.md)  
 [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md)  

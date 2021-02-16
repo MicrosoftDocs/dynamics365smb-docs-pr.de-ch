@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c05456ca45b4508be0ba44acedf81997a92b56bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3815e0e928041ca9fcef09b1c7410e45ebb57a1
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918503"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035770"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] können die ausgehenden Prozesse für die Komissionierung und Lieferung auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] können die ausgehenden Prozesse für die Komissionierung und Lieferung auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.  
 
 |Art|Eingangsprozess|Lagerplätze|Kommissionierungen|Lieferungen|Komplexitätsebene anzeigen (siehe [Designdetails: Lagerhaus-Einrichtung](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -34,9 +34,12 @@ Weitere Informationen finden Sie unter [Designdetails: Ausgehender Lagerfluss](d
 
 In der folgenden Vorgehensweise wird Methode B in der vorhergegangenen Tabelle beschrieben.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
 
-Bei Basis-Lagerkonfigurationen gilt Folgendes: Wenn ein Lagerort so eingerichtet wurde, dass Kommissionierung erforderlich ist, jedoch Warenausgang nicht erforderlich ist, verwenden Sie die Seite **Lagerkommissionierung** , um Kommissionier- und Warenausgangsinformationen für Ihre Herkunftsbelege zu erfassen und zu buchen. Der ausgehende Herkunftsbeleg kann ein Verkaufsauftrag, eine Einkaufsreklamation, ein ausgehender Umlagerungsauftrag, ein Fertigungsauftrag oder ein Komponentenbedarf sein.  
+Bei Basis-Lagerkonfigurationen gilt Folgendes: Wenn ein Lagerort so eingerichtet wurde, dass Kommissionierung erforderlich ist, jedoch Warenausgang nicht erforderlich ist, verwenden Sie die Seite **Lagerkommissionierung**, um Kommissionier- und Warenausgangsinformationen für Ihre Herkunftsbelege zu erfassen und zu buchen. Der ausgehende Herkunftsbeleg kann ein Verkaufsauftrag, eine Einkaufsreklamation, ein ausgehender Umlagerungsauftrag, ein Fertigungsauftrag oder ein Komponentenbedarf sein.  
 
 In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
@@ -45,6 +48,9 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:
 - Freigeben des Verkaufsauftrags für Lagerdurchlaufzeit.  
 - Erstellen einer Lagerkommissionierung basierend auf einem freigegebenen Herkunftsbeleg.  
 - Erfassen der Lagerplatzumlagerung aus dem Lager und gleichzeitig Buchen der Verkaufslieferung für den ursprünglichen Verkaufsauftrag.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="roles"></a>Rollen
 
@@ -58,7 +64,7 @@ Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen aus
 
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
-- Für [!INCLUDE[prodshort](includes/prodshort.md)] Online ein Unternehmen basierend auf der Option **Erweiterte Bewertung – Vollständige Beispieldaten** in einer Sandbox-Umgebung Für [!INCLUDE[prodshort](includes/prodshort.md)] (lokal) CRONUS International Ltd. installiert  
+- Für [!INCLUDE[prod_short](includes/prod_short.md)] Online ein Unternehmen basierend auf der Option **Erweiterte Bewertung – Vollständige Beispieldaten** in einer Sandbox-Umgebung Für [!INCLUDE[prod_short](includes/prod_short.md)] (lokal) CRONUS International Ltd. installiert  
 - Machen Sie sich selbst zum Lagerarbeiter am Standort SILVER, indem Sie die folgenden Schritte ausführen:  
 
   1. Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion") Symbol, geben Sie **Lagerort-Mitarbeiter** ein und wählen Sie dann den entsprechenden Link.  
@@ -80,17 +86,17 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 
 ## <a name="story"></a>Hintergrund
 
-Ellen, die Lagermanagerin bei CRONUS, richtet das SILBER-Lager für grundlegende Komissionierungshandlung ein, in dem Lagermitarbeiter ausgehende Aufträge einzeln verarbeiten. Martha, die Verkaufsauftragsbearbeiterin, erstellt einen Verkaufsauftrag für 30 Einheiten des Artikels LS-81, die dem Debitor 10000 aus dem SILBERNEN Lager geliefert werden. John, der Lagermitarbeiter muss sicherstellen, dass die Lieferung an den Debitor vorbereitet und geliefert wird. John verwaltet alle beteiligten Aufgaben auf der Seite **Lagerkommissionierung** , das automatisch auf die Lagerplätze verweist, in denen LS-81 gespeichert wird.  
+Ellen, die Lagermanagerin bei CRONUS, richtet das SILBER-Lager für grundlegende Komissionierungshandlung ein, in dem Lagermitarbeiter ausgehende Aufträge einzeln verarbeiten. Martha, die Verkaufsauftragsbearbeiterin, erstellt einen Verkaufsauftrag für 30 Einheiten des Artikels LS-81, die dem Debitor 10000 aus dem SILBERNEN Lager geliefert werden. John, der Lagermitarbeiter muss sicherstellen, dass die Lieferung an den Debitor vorbereitet und geliefert wird. John verwaltet alle beteiligten Aufgaben auf der Seite **Lagerkommissionierung**, das automatisch auf die Lagerplätze verweist, in denen LS-81 gespeichert wird.  
 
 ## <a name="setting-up-the-location"></a>Einrichten des Lagerorts
 
-Das Einrichten der Seite **Standortkarte** definiert die Warenflüsse des Unternehmens.  
+Das Einrichten der Seite **Lagerortkarte** definiert die Warenflüsse des Unternehmens.  
 
 ### <a name="to-set-up-the-location"></a>So richten Sie den Lagerort ein
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Lagerorte** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie die SILBERNE Lagerortkarte.  
-3. Aktivieren Sie im Inforegister **Lager** das Kontrollkästchen **Kommissionierung erforderlich** .  
+3. Aktivieren Sie im Inforegister **Lager** das Kontrollkästchen **Kommissionierung erforderlich**.  
 
 ## <a name="creating-the-sales-order"></a>Erstellen des Verkaufsauftrags
 
@@ -123,13 +129,13 @@ Auf der Seite **Lagerkommissionierung** können Sie alle ausgehenden Lageraktivi
 
     Stellen Sie sicher, dass das Feld **Nr.** auf dem Inforegister **Allgemein** ausgefüllt ist.
 3. Wählen Sie das Feld **Quellenbeleg** , und wählen Sie **Verkaufsauftrag** aus.  
-4. Wählen Sie das Feld **Herkunftsnr.** aus, wählen Sie die Zeile für den Verkauf an Debitor 10000 aus, und wählen Sie dann die Schaltfläche **OK** .  
+4. Wählen Sie das Feld **Herkunftsnr.** aus, wählen Sie die Zeile für den Verkauf an Debitor 10000 aus, und wählen Sie dann die Schaltfläche **OK**.  
 
     Alternativ auf der Registerkarte Aktionen, in der Gruppe Funktion, wählen Sie **Herkunftsbeleg holen** und wählen Sie die Auftrag aus.  
 5. Wählen Sie die **Die zu verarbeitende Menge automatisch ausfüllen** Aktion aus.  
 
     Alternativ im Feld **Menge zu verarbeiten** geben Sie 10 und 20 jeweils auf den zwei Lagerkommissionierzeilen ein.  
-6. Wählen Sie die Aktion **Buchen** und **Versand** und klicken Sie anschliessend auf die Schaltfläche **OK** .  
+6. Wählen Sie die Aktion **Buchen** und **Versand** und klicken Sie anschliessend auf die Schaltfläche **OK**.  
 
     Die 30 Lautsprecher werden nun erfasst, wie von den Lagerplätzen S-01-0001 und S-01-0002 kommissioniert, und ein negativer Lagerposten wird, die gebuchte Verkaufslieferung reflektierend, erstellt.  
 
@@ -143,4 +149,4 @@ Auf der Seite **Lagerkommissionierung** können Sie alle ausgehenden Lageraktivi
 [Ad-hoc-Umlagerung von Artikeln in Basis-Lagerkonfigurationen](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
 [Designdetails: Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md)  
 [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

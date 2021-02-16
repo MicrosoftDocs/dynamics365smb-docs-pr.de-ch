@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c67f55e1de336e7a191b1d10affe0134110a70b5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 558b93677d4045f68bdc6fea0b68936658816b92
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923270"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759856"
 ---
 # <a name="cross-dock-items"></a>Crossdock für Artikel
 Die Crossdocking-Funktionalität ist verfügbar, wenn Sie Ihren Lagerort so eingerichtet haben, dass die Bearbeitung des Wareneingangs und der Einlagerung erforderlich ist.  
@@ -42,10 +42,10 @@ Die Anwendung speichert keine eigenen Datensätze von Artikeln, die zugeordnet w
     Wenn Sie Zonen verwenden, erstellen Sie eine Zone für Ihre Crossdocklagerplätze, und wählen Sie das Feld **Crossdocklagerplatzzone** aus. Weitere Informationen finden Sie unter [Einrichten von Lagerplätzen](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
 2.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Lagerort** ein und wählen Sie dann den entsprechenden Link.  
-3.  Öffnen Sie die Seite **Lagerort** , und wählen Sie den Lagerort aus, den Sie für das Lager bezüglich Zuordnungen einrichten möchten, und wählen Sie die Aktion **Bearbeiten** aus.  
+3.  Öffnen Sie die Seite **Lagerort**, und wählen Sie den Lagerort aus, den Sie für das Lager bezüglich Zuordnungen einrichten möchten, und wählen Sie die Aktion **Bearbeiten** aus.  
 4.  Wählen Sie im Inforegister **Lager** das Kontrollkästchen **Crossdocking verwenden** aus, und tragen Sie im Feld **Crossd.-Fälligkeitsdatum ber.** die Zeit für die Suche nach Crossdockmöglichkeiten ein.
 
-    Die Option **Crossdocking verwenden** ist nur verfügbar, wenn die Felder **Wareneingang erforderlich** , **Warenausgang erforderlich** , **Kommissionierung erforderlich** und **Einlagerung erforderlich** ausgewählt sind.  
+    Die Option **Crossdocking verwenden** ist nur verfügbar, wenn die Felder **Wareneingang erforderlich**, **Warenausgang erforderlich**, **Kommissionierung erforderlich** und **Einlagerung erforderlich** ausgewählt sind.  
 
 5.  Wenn Sie Lagerplätze verwenden, tragen Sie im Inforegister **Lagerplätze** in das Feld **Crossdocklagerplatzcode** den Code des Lagerplatzes ein, der als Vorgabelagerplatz für Zuordnungen verwendet werden soll.  
 6.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Lagermengeneinheit** ein und wählen Sie dann den entsprechenden Link aus.  
@@ -60,7 +60,7 @@ Die Anwendung speichert keine eigenen Datensätze von Artikeln, die zugeordnet w
 2.  Erstellen Sie Wareneingänge für einen Artikel, der angekommen ist und möglicherweise in Crossdockings einbezogen werden kann. Weitere Informationen finden Sie unter [Entnahme von Artikeln](warehouse-how-receive-items.md).  
 3.  Füllen Sie das Feld **Zu liefernde Menge** aus, und wählen Sie dann die Aktion **Crossdocking berechnen** aus.  
 
-    Ausgehende Herkunftsbelege, die die Artikel benötigen und die das Lager innerhalb der Datumsformelperiode verlassen sollen, werden identifiziert.  [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet Mengen, damit Sie soviel wie möglich zuordnen und auf diese Art vermeiden können, Artikel einzulagern, ohne zu viele Artikel im Crossdockbereich anzusammeln. Der Wert im Feld **Menge für Crossdocking** ist die Summe aller ausgehenden Zeilen, die den Artikel in der Vorausschauperiode benötigen, abzüglich der Menge der Artikel, die bereits in den Crossdockbereich eingelagert wurden. Oder es ist der Wert im Feld **Zu liefernde Menge** in der Lieferzeile, je nachdem, welcher geringer ist. Sie können nicht mehr Crossdockings durchführen, als Sie erhalten haben.  
+    Ausgehende Herkunftsbelege, die die Artikel benötigen und die das Lager innerhalb der Datumsformelperiode verlassen sollen, werden identifiziert.  [!INCLUDE[prod_short](includes/prod_short.md)] berechnet Mengen, damit Sie soviel wie möglich zuordnen und auf diese Art vermeiden können, Artikel einzulagern, ohne zu viele Artikel im Crossdockbereich anzusammeln. Der Wert im Feld **Menge für Crossdocking** ist die Summe aller ausgehenden Zeilen, die den Artikel in der Vorausschauperiode benötigen, abzüglich der Menge der Artikel, die bereits in den Crossdockbereich eingelagert wurden. Oder es ist der Wert im Feld **Zu liefernde Menge** in der Lieferzeile, je nachdem, welcher geringer ist. Sie können nicht mehr Crossdockings durchführen, als Sie erhalten haben.  
 
 4.  Wenn Sie für die Menge wie vorgeschlagen Crossdockings durchführen möchten, buchen Sie den Wareneingang. Sie können sich auch entscheiden, die zuzuordnende Menge auf einen höheren oder niedrigeren Wert zu setzen, und dann den Wareneingang zu buchen.  
 
@@ -83,7 +83,7 @@ Die Anwendung speichert keine eigenen Datensätze von Artikeln, die zugeordnet w
 
 4.  Wählen Sie die Aktion **Menge für Crossdocking autom. ausfüllen** aus, um anzeigen zu lassen, wie die die Mengen in den Wareneingangszeilen berechnet werden. Wenn Sie die Anzahl der Artikel im Feld **Menge für Crossdocking** in den einzelnen Zeilen ändern, wird die Berechnung aktualisiert, während Sie Änderungen vornehmen. Dies bedeutet nicht, dass der spezielle Warenausgang oder Fertigungsauftrag tatsächlich die Artikel, die für das Crossdocking vorgeschlagen wurden, erhalten wird, da diese Veränderungen nur zu Testzwecken vorgenommen werden. Der Prozess kann jedoch informativ sein, wenn mehr als eine Einheit beteiligt ist.  
 5.  Wenn Sie eine Menge für den Artikel einer bestimmten Auftragszeile reservieren möchten, setzen Sie Ihren Cursor in diese Zeile und wählen Sie dann die Aktion **Reservieren** aus. Auf der Seite **Reservierung** können Sie jetzt eine verfügbare Menge des Artikels für diesen speziellen Auftrag reservieren. Diese Reservierung ist wie jede andere Reservierung und hat keine höhere Priorität, weil sie im Zusammenhang mit einem Crossdocking erstellt wurde. Weitere Informationen finden Sie unter [Entnahme von Artikeln](inventory-how-to-reserve-items.md).   
-6.  Wenn Sie mit der Neuberechnung oder der Reservierung fertig sind, wählen Sie **OK** , um die überprüfte Berechnung in das Feld **Menge für Crossdocking** in der Wareneingangszeile zu bringen, oder klicken Sie auf **Abbrechen** , wenn Sie zum Wareneingang zurückkehren möchten, wo Sie das Crossdocking noch einmal berechnen können, wenn Sie möchten.  
+6.  Wenn Sie mit der Neuberechnung oder der Reservierung fertig sind, wählen Sie **OK**, um die überprüfte Berechnung in das Feld **Menge für Crossdocking** in der Wareneingangszeile zu bringen, oder klicken Sie auf **Abbrechen**, wenn Sie zum Wareneingang zurückkehren möchten, wo Sie das Crossdocking noch einmal berechnen können, wenn Sie möchten.  
 7.  Buchen Sie jetzt den Wareneingang. Danach können Sie mit der Einlagerungsanweisung fortfahren, wie in den Schritten 3 bis 7 im Abschnitt "Um Artikel zuzuordnen, ohne sich die Möglichkeiten anzeigen zu lassen" beschrieben.  
 
 > [!NOTE]  
@@ -104,4 +104,4 @@ Wenn Sie keine Lagerplätze verwenden, müssen Sie daran denken, den Crossdockbe
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

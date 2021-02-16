@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 280915af533d27efd5067518cd5492815662371d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 71f6109c7e4fc2a66896cd14352c19e2e08b51c4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910094"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756081"
 ---
 # <a name="restructure-warehouses"></a>Lager umstrukturieren
 Es kann sein, dass Sie Ihr Lager neu strukturieren und dabei neue Lagerplatzcodes und Eigenschaften von Zonen berücksichtigen möchten. Diese Art von Aktivität werden Sie nicht oft ausführen. Es können jedoch Situationen auftreten, in denen eine Neustrukturierung notwendig ist, um effektivere Arbeitsabläufe zu erreichen. Beispiel:  
@@ -28,13 +28,13 @@ Wenn Ihr Lager so eingerichtet wurde, dass es Lagerplätze verwendet, aber keine
 
 ## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Um ein Basislager neu zu strukturieren, das nur Lagerplätze verwendet  
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Lagerorte** ein und wählen Sie dann den entsprechenden Link.  
-2.  Setzen Sie im Inforegister **Logistik** das Feld **Vorg.-Lagerplatzauswahl** auf **Zuletzt verwendeter Lagerplatz** .  
+2.  Setzen Sie im Inforegister **Logistik** das Feld **Vorg.-Lagerplatzauswahl** auf **Zuletzt verwendeter Lagerplatz**.  
 3.  Lagern Sie alle Inhalte Ihrer aktuellen Lagerplätze in die neuen Lagerplätze um, die Sie gerade angelegt haben.  
 
     1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Artikel Umlag. Erf.-Journal** ein, und wählen Sie dann den zugehörigen Link.  
     2.  Wählen Sie eine Erf.-Journalzeile aus, und wählen Sie die **Lagerplatzinhalt holen** Aktion aus.  
-    3.  Legen Sie im Inforegister **Lagerplatzinhalt** in den Feldern **Lagerortcode** , **Lagerplatzcode** und **Artikelnr.** Filter fest, um den Inhalt anzugeben, den Sie umlagern möchten.  
-    4.  Klicken Sie auf die Schaltfläche **OK** , um eine Erfassungsjournalzeile zu füllen.  
+    3.  Legen Sie im Inforegister **Lagerplatzinhalt** in den Feldern **Lagerortcode**, **Lagerplatzcode** und **Artikelnr.** Filter fest, um den Inhalt anzugeben, den Sie umlagern möchten.  
+    4.  Klicken Sie auf die Schaltfläche **OK**, um eine Erfassungsjournalzeile zu füllen.  
     5.  Wählen Sie im Feld **Neuer Lagerplatzcode** den Lagerplatz aus, in den Sie die Artikel umlagern möchten.  
     6.  Wiederholen Sie die Schritte b bis e für alle Lagerplatzinhalte, die Sie umlagern möchten.  
     7.  Wählen Sie die Aktion **Buchen** aus.  
@@ -47,8 +47,8 @@ Sie haben jetzt die Lagerplätze geleert, an denen die Artikel bisher gelagert w
 2.  Lagern Sie alle Inhalte Ihrer aktuellen Lagerplätze in die neuen Lagerplätze um, die Sie gerade angelegt haben.  
 
     1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Logistik Umlag. Erf.-Journal** ein, und wählen Sie dann den zugehörigen Link.  
-    2.  Für die Lagerplätze, bei denen keine tatsächliche Artikelumlagerung stattfindet, erstellen Sie eine Zeile für jeden der aktuellen Lagerplätze im **Logistik Umlagerungs Erfassungsjournal** mit dem alten Lagerplatzcode ( **Von Lagerplatzcode** ) und dem neuen Lagerplatzcode ( **Nach Lagerplatzcode)** .  
-    3.  Wenn einige der Umlagerungen tatsächliche physische Umlagerungen beinhalten, die die Lagermitarbeiter durchführen sollen, verwenden Sie den **Lagerplatzumlagerungsvorschlag** , um die Umlagerungsanweisungen vorzubereiten, anstatt das Umlagerungs Erfassungsjournal zu verwenden. Weitere Informationen finden Sie unter [Umlagern von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+    2.  Für die Lagerplätze, bei denen keine tatsächliche Artikelumlagerung stattfindet, erstellen Sie eine Zeile für jeden der aktuellen Lagerplätze im **Logistik Umlagerungs Erfassungsjournal** mit dem alten Lagerplatzcode (**Von Lagerplatzcode**) und dem neuen Lagerplatzcode (**Nach Lagerplatzcode)**.  
+    3.  Wenn einige der Umlagerungen tatsächliche physische Umlagerungen beinhalten, die die Lagermitarbeiter durchführen sollen, verwenden Sie den **Lagerplatzumlagerungsvorschlag**, um die Umlagerungsanweisungen vorzubereiten, anstatt das Umlagerungs Erfassungsjournal zu verwenden. Weitere Informationen finden Sie unter [Umlagern von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  Wenn die alten Lagerplätze geleert sind, buchen Sie diese als Lagerplätze vom Typ **QK** um, um sicherzustellen, dass sie nicht in den Artikelströmen enthalten sind.  
 
@@ -87,4 +87,4 @@ Wenn Sie einen Lagerplatz umbenennen möchten, so dass alle Datensätze zu diese
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

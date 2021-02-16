@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b6999be84e2fdaca2eefef41c339c366c330a3dc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 12ab5bbc374e40d029acaec27c7eb3596fe19d1a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925044"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759481"
 ---
 # <a name="about-planning-functionality"></a>Info zu Planungsfunktionen
 
@@ -97,7 +97,7 @@ Weitere Informationen finden Sie unter [Designdetails: Planungsparameter](design
 In den meisten Beschaffungsaufträgen wie Fertigungsaufträge, können Sie **Unbeschränkt** oder **Keine** im Feld **Planungsflexibilität** auf den Zeilen auswählen.
 
 Gibt an, ob die durch die Fertigungsauftragszeile dargestellte Lieferung bei der Berechnung von Ereignismeldungen vom Planungssystem berücksichtigt wird.
-Enthält das Feld die Option **Unbeschränkt** , wird die Zeile beim Berechnen von Ereignismeldungen berücksichtigt. Wenn das Feld die Option **Keine** enthält, ist die Zeile unveränderlich und wird bei der Berechnung von Aktionsmeldungen nicht berücksichtigt.
+Enthält das Feld die Option **Unbeschränkt**, wird die Zeile beim Berechnen von Ereignismeldungen berücksichtigt. Wenn das Feld die Option **Keine** enthält, ist die Zeile unveränderlich und wird bei der Berechnung von Aktionsmeldungen nicht berücksichtigt.
 
 ### <a name="warning"></a>Warnung
 
@@ -148,13 +148,13 @@ Auf der Seite **Anforderungsarbeitsblatt** sind die Artikel aufgelistet, die Sie
 
 - Geben Sie die Artikel manuell in das Arbeitsblatt ein, und füllen Sie die entsprechenden Felder aus.
 
-- Verwenden Sie die Stapelverarbeitung **Plan berechnen** . Diese berechnet eine Planung für Artikel und Lagerhaltungsdaten, die mit dem Dispositonsmethodencode **Einkauf** oder **Umlagerung** eingerichtet wurden. Wenn Sie diese Stapelverarbeitung verwenden, füllt die Anwendung automatisch das Feld **Ereignismeldung** mit einem Vorschlag, wie Sie die Artikel wiederbeschaffen können. Dabei kann es sich z. B. um die Erhöhung der Artikelmenge in einer bestehenden Bestellung oder um die Erstellung einer neuen Bestellung handeln.
+- Verwenden Sie die Stapelverarbeitung **Plan berechnen**. Diese berechnet eine Planung für Artikel und Lagerhaltungsdaten, die mit dem Dispositonsmethodencode **Einkauf** oder **Umlagerung** eingerichtet wurden. Wenn Sie diese Stapelverarbeitung verwenden, füllt die Anwendung automatisch das Feld **Ereignismeldung** mit einem Vorschlag, wie Sie die Artikel wiederbeschaffen können. Dabei kann es sich z. B. um die Erhöhung der Artikelmenge in einer bestehenden Bestellung oder um die Erstellung einer neuen Bestellung handeln.
 
 - Wenn Sie die Stapelverarbeitung **Plan berechnen** auf der Seite **Planungsarbeitsblatt** zur Berechnung eines Nachschubplans verwendet haben, können Sie die Stapelverarbeitung **Ereignismeldung durchführen** verwenden, um Bestell- und Umlagerungsvorschläge aus dem Planungsarbeitsblatt in das Anforderungsarbeitsblatt zu kopieren. Dies ist dann nützlich, wenn unterschiedliche Anwender für die Abwicklung der Fertigungsaufträge und Einkaufsbestellungen/Umlagerungsaufträge zuständig sind.
 
-- Sie können die Aktion **Direktlieferung** verwenden, um die Anforderungsarbeitsblattszeilen zu füllen. Diese Aktion verwendet die Stapelverarbeitung **Aufträge holen** , um die Verkaufsauftragszeilen zu ermitteln, die für eine Direktlieferung vorgesehen sind.
+- Sie können die Aktion **Direktlieferung** verwenden, um die Anforderungsarbeitsblattszeilen zu füllen. Diese Aktion verwendet die Stapelverarbeitung **Aufträge holen**, um die Verkaufsauftragszeilen zu ermitteln, die für eine Direktlieferung vorgesehen sind.
 
-- Sie können die Aktion **Spezialauftrag** verwenden, um die Anforderungsarbeitsblattszeilen zu füllen. Diese Aktion verwendet die Stapelverarbeitung **Aufträge holen** , um die Verkaufsauftragszeilen zu ermitteln, die für einen Spezialauftrag vorgesehen sind.
+- Sie können die Aktion **Spezialauftrag** verwenden, um die Anforderungsarbeitsblattszeilen zu füllen. Diese Aktion verwendet die Stapelverarbeitung **Aufträge holen**, um die Verkaufsauftragszeilen zu ermitteln, die für einen Spezialauftrag vorgesehen sind.
 
 Anforderungsarbeitsblattzeilen enthalten detaillierte Informationen über die Artikel, die wiederbestellt werden müssen. Sie können die Zeilen bearbeiten und löschen, um Ihren Bestellvorschlag anzupassen, und Sie können die Zeilen auch mit der Stapelverarbeitung **Ereignismeldung durchführen** weiterverarbeiten.
 
@@ -169,4 +169,4 @@ Einzelheiten zur Planung mit Standorten und Transfers finden Sie unter [Planen m
 [Lagerbesttand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
