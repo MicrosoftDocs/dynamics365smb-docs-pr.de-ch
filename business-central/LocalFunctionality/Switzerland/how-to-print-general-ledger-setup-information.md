@@ -38,3 +38,6 @@ Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] im täglichen Ges
 
 ## <a name="see-also"></a>Siehe auch  
 [Finanzen einrichten](../../finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

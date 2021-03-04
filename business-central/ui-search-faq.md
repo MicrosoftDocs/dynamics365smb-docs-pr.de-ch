@@ -50,3 +50,6 @@ Das Lesezeichensymbol wird im Benachrichtigungsfenster nicht angezeigt, wenn die
 [Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md)  
 [Suche nach Seiten mit dem Rollen-Explorer](ui-role-explorer.md)  
 [Erstellen eines Lesezeichens für eine Seite oder einen Bericht im Rollencenter](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

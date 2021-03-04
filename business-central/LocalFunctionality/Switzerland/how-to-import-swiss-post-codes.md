@@ -46,3 +46,6 @@ Nachfolgend wird beschrieben, wie PLZ für Debitoren definiert werden, doch bei 
  [Einkaufsbelege und Verkaufsbelege (Schweiz)](swiss-purchase-documents-and-sales-documents.md)   
  [Drucken einer Lagerkommissionierliste von einem Auftrag](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Registriert einen neuen Kreditor](../../purchasing-how-register-new-vendors.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -31,3 +31,6 @@ Sie können häufig verwendete Werte aus einem vorhandenen Mandanten in einen ne
 [Konfigurationen für neue Mandanten übernehmen](admin-apply-configuration-to-new-companies.md)  
 [Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

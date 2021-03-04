@@ -29,3 +29,5 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
   
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten der Serviceverwaltung](service-setup-service.md)   
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

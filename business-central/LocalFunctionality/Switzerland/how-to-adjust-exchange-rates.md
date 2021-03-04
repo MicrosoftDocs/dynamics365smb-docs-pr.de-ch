@@ -51,3 +51,6 @@ Weitere Informationen über MWST und Fremdwährungen finden Sie auf der [ESTV](h
  [MWST-Sätze für die Schweiz](vat-rates-for-switzerland.md)   
 [Währungswechselkurse aktualisieren](../../finance-how-update-currencies.md)  
 [Einrichten einer Berichtswährung](../../finance-how-setup-additional-currencies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

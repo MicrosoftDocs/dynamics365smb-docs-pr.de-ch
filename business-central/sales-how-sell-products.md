@@ -133,3 +133,6 @@ Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst ers
 [Lagerbestand](inventory-manage-inventory.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

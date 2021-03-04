@@ -71,3 +71,6 @@ Wenn Sie das nächste Mal ein Kontenschema auf Grundlage Ihre Änderungen erstel
 [Finanzen](finance.md)  
 [Einrichten oder Ändern des Kontenplans](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

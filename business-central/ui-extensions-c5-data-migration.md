@@ -161,3 +161,6 @@ Sie können Datenmigration unterbrechen, indem Sie **Automatisches Beenden alle 
 
 [Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Erste Schritte](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

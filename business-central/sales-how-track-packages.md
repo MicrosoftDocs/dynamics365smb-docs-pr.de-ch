@@ -37,3 +37,6 @@ Ihr Standardbrowser öffnet die Nachverfolgungsseite des Spediteurs.
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -39,3 +39,6 @@ In die MWST-Posten werden weitere Angaben übertragen, z. B. der MWST-Satz und 
  [MWST-Sätze für die Schweiz](vat-rates-for-switzerland.md)   
  [Erstellen und Drucken einer Schweizer MWST-Abrechnung](how-to-create-and-print-a-swiss-vat-statement.md)   
  [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

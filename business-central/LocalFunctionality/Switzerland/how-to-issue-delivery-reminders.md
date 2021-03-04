@@ -27,3 +27,6 @@ ms.locfileid: "3931417"
 [Lieferanmahnungen](delivery-reminders.md)  
 [So erstellen Sie Lieferanmahnungen](how-to-generate-delivery-reminders.md)  
 [So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

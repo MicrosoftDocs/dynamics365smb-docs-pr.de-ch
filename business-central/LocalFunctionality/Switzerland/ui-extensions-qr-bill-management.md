@@ -90,3 +90,6 @@ Wir planen, der QR-Bill Management-Erweiterung in den kommenden Updates der 1. V
 
 ## <a name="see-also"></a>Siehe auch
 [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

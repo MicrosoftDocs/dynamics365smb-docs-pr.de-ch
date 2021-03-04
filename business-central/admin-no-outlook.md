@@ -29,3 +29,6 @@ Sie können Belege wie Rechnungen als E-Mail über Ihre geschäftliche E-Mail Ad
 [Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)  
 [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

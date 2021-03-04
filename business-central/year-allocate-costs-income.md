@@ -57,3 +57,6 @@ Die Posten einer Fibu Erf.-Journalzeile lassen sich beim Erfen des Erf.-Journals
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)    
 [Journale und Belege buchen](ui-post-documents-journals.md)    
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

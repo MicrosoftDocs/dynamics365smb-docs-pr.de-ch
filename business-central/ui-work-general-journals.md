@@ -210,3 +210,6 @@ Werte im Feld **Belegnr.** werden geändert, wo erforderlich, sodass die Belegnu
 [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Erf.-Journal oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md)  
 [Abstimmen von Kreditorenzahlungen mit dem Zahlungsjournal oder aus Kreditorenposten](payables-how-apply-purchase-transactions-manually.md)  
 [Arbeiten mit Intercompany-Belegen und -Erfassungsjournalen](intercompany-how-work-documents-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

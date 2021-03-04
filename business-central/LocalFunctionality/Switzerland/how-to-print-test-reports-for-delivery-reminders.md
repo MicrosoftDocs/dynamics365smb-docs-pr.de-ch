@@ -35,3 +35,6 @@ Ein Testbericht ist ein Dokument, anhand dessen Sie eine Lieferbenachrichtigung 
  [Lieferanmahnungen](delivery-reminders.md)   
  [So erstellen Sie Lieferanmahnungen](how-to-generate-delivery-reminders.md)   
  [Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

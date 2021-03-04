@@ -45,3 +45,6 @@ Nachfolgend wird beschrieben, wie Bankfilialnummern für Debitorenbankkonten def
 ## <a name="see-also"></a>Siehe auch  
  [Elektronische Zahlungen (Schweiz)](swiss-electronic-payments.md)   
  [Bankkonten einrichten](../../bank-how-setup-bank-accounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

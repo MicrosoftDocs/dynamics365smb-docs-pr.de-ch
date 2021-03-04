@@ -49,3 +49,6 @@ Zahlungen können nach Empfang einer LSV+ (Lastschrift Verfahren)-Zahlungsanzeig
  [Verarbeiten eines LSV-Einzugs](how-to-process-an-lsv-collection.md)   
  [Abschliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md)   
  [Exportieren von Zahlungen mit LSV](how-to-export-payments-using-lsv.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

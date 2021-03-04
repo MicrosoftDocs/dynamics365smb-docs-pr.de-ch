@@ -45,3 +45,6 @@ Die Aktionen, die Seiten öffnen, sind unter Knoten organisiert, die nach den Fe
 [Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md)  
 [Profile verwalten](admin-users-profiles-roles.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

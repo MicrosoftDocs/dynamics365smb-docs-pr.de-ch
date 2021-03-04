@@ -48,3 +48,6 @@ Auf der Seite **Debitoren & Verkauf Einr.** wird das Feld **Liefersch. bei Lief.
  [Importieren von Postleitzahlen (Schweiz)](how-to-import-swiss-post-codes.md)   
  [Drucken einer Lagerkommissionierliste von einem Auftrag](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

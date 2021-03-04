@@ -39,3 +39,6 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Kontakte verwalten](marketing-contacts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

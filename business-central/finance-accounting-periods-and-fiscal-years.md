@@ -70,3 +70,6 @@ Auch wenn ein Geschäftsjahr abgeschlossen wurde, können hierfür noch Fibupost
 [Bucher schliessen](year-close-books.md)  
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
 [Vorgehensweise: Arbeiten mit Kontenschema](bi-how-work-account-schedule.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

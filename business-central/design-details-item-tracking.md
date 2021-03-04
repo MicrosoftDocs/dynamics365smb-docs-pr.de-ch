@@ -31,3 +31,6 @@ Ein Artikeltrackingsystem sollte für eine einfache Handhabung der Serien- und C
 [Designdetails: Artikeltracking und Planung](design-details-item-tracking-and-planning.md)  
 [Designdetails: Artikeltracking und Reservierungen](design-details-item-tracking-and-reservations.md)  
 [Designdetails: Artikeltracking im Lager](design-details-item-tracking-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

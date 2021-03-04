@@ -85,3 +85,6 @@ Sie können für jedes Abschreibungsbuch Vorgaben für Vorlagen und Erfassungsjo
 [Finanzen](finance.md)  
 [Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Sobald ein Unternehmen erstellt wurde, können Sie seinen Namen nicht mehr ände
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Erste Schritte](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

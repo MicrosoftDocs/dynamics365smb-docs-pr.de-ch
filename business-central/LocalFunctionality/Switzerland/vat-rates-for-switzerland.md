@@ -25,3 +25,6 @@ Weitere Informationen finden Sie unter [MWST Bericht an die Steuerbehörden meld
 ## <a name="see-also"></a>Siehe auch  
  [Mehrwertsteuer (Schweiz)](swiss-value-added-tax.md)   
  [Drucken von MWST-Abrechnungen (Schweiz) (ältere Version)](how-to-print-swiss-vat-statements-older-version-.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

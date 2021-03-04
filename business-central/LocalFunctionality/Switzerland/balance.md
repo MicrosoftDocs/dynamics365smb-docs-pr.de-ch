@@ -24,3 +24,6 @@ Gibt einen temporären Saldo des Sachpostens an. Wenn Sie die **Saldo** Aktion a
 
 ## <a name="see-also"></a>Siehe auch  
  [Anzeigen temporärer Salden in Finanzbuchhaltungs-Erfassungsjournalen](how-to-view-temporary-balances-in-general-ledger-journals.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

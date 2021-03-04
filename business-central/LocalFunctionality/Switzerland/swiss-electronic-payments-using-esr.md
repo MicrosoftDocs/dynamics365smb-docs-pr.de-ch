@@ -45,3 +45,6 @@ Beachten Sie beim Einrichten von Nummernserien für Rechnungen die folgenden Ric
  [Importieren von ESR-Zahlungen](how-to-import-esr-payments.md)   
  [Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md)   
  [Zahlungen vornehmen](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

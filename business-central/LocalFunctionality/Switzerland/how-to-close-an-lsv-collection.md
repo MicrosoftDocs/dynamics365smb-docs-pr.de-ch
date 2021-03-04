@@ -53,3 +53,6 @@ Wenn der Einzug abgeschlossen ist, wird die aktuelle Einzugsnummer im LSV-Journa
  [Verarbeiten eines LSV-Einzugs](how-to-process-an-lsv-collection.md)   
  [Buchen von LSV+ Zahlungen](how-to-post-lsv-payments.md)   
  [Exportieren von Zahlungen mit LSV](how-to-export-payments-using-lsv.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

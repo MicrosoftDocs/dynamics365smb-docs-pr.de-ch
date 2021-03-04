@@ -70,3 +70,6 @@ Prüfen Sie die Startkapitale für Konten im Fibuposten. QuickBooks speichert ni
 
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

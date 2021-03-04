@@ -48,3 +48,6 @@ Wenn Sie die Funktion **Aus Beleg kopieren** verwenden, um neue Belege auf der G
 ## <a name="see-also"></a>Siehe auch  
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -48,3 +48,5 @@ Codeunit 22 durchläuft die Artikeltrackingnummern und teilt die Posten in die e
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Artikeltracking](design-details-item-tracking.md)   
 [Designdetails: Artikeltrackingdesign](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

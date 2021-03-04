@@ -45,3 +45,6 @@ Bevor Sie ein Finanzbuchhaltungs-Erfassungsjournal buchen, können Sie eine Vors
 
 [Anzeigen temporärer Salden in Finanzbuchhaltungs-Erfassungsjournalen](how-to-view-temporary-balances-in-general-ledger-journals.md)  
 [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -114,3 +114,6 @@ Wenn sich eine Taxonomy ändert, müssen Sie die aktuelle Taxonomy dementspreche
 [Finanzen](finance.md)    
 [Business Intelligence](bi.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Der Wert im Feld **Wechselkurs** wird auf der Seite **Währung** mit dem aktuell
 [Einrichten einer zusätzlichen Berichtswährung](finance-how-setup-additional-currencies.md)  
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Die Stapelverarbeitung **Jahresabschluss** kann mehrmals aufgerufen werden. Sie 
 [So buchen Sie den Jahresabschlussposten](year-how-post-year-end-close-entry.md)  
 [Arbeiten mit Buchhaltungsperioden und Geschäftsjahren](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

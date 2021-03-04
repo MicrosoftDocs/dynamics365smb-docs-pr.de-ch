@@ -44,3 +44,6 @@ Die Zahlungsinformationen werden in die Journalzeilen importiert. Die Zahlungen 
 ## <a name="see-also"></a>Siehe auch  
  [Elektronische Zahlungen mit ESR (Schweiz)](swiss-electronic-payments-using-esr.md)   
  [Drucken von ESR-Rechnungen](how-to-print-esr-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

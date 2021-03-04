@@ -44,3 +44,6 @@ Sie können Zahlungsgutschrifttransaktionen im Einzahlungsschein mit Referenznum
  [Elektronische Zahlungen (Schweiz)](swiss-electronic-payments.md)   
  [Elektronische Zahlungen mit ESR (Schweiz)](swiss-electronic-payments-using-esr.md)   
  [Zahlungen vornehmen](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

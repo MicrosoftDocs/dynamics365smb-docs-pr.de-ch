@@ -35,3 +35,6 @@ Sind mehrere Lieferungen für einen Debitoren gebucht worden, können Sie Sammel
 ## <a name="see-also"></a>Siehe auch  
  [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)   
  [Einrichten von Lagerorten](../../inventory-how-setup-locations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

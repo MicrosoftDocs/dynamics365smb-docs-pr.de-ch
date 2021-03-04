@@ -60,3 +60,6 @@ Bei Microsoft achten wir stets auf das Feedback aus unserer breitgefächerten Be
 [Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md)  
 [Suche nach Seiten mit dem Rollen-Explorer](ui-role-explorer.md)  
 [Erste Schritte](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

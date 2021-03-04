@@ -56,3 +56,6 @@ Sie können Aktivitätenprotokollposten löschen, die annulliert wurden. Um Inte
 [Kontakte verwalten](marketing-contacts.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Arbeiten mit Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

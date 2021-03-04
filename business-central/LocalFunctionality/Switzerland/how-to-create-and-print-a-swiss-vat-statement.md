@@ -51,3 +51,6 @@ Auf Grundlage der Informationen, die Sie auf der Seite **MWST-Buchungsmatrix Ein
 
 ## <a name="see-also"></a>Siehe auch  
  [Schweizer Salestax](swiss-value-added-tax.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

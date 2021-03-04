@@ -57,3 +57,6 @@ Das Erf.-Journal ist ein Fibu Erf.-Journal, das zum Anwenden von Zahlungen optim
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

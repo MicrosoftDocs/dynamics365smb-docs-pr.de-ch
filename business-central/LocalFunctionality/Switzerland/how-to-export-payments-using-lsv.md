@@ -41,3 +41,6 @@ Nachdem der LSV-Einzug abgeschlossen wurde, können Sie LSV+-Dateien (Lastschrif
  [Verarbeiten eines LSV-Einzugs](how-to-process-an-lsv-collection.md)   
  [Abschliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md)   
  [Buchen von LSV+-Zahlungen](how-to-post-lsv-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Alle zugehörigen Zeilen werden in das LSV-Journal übertragen. Nach der Verarbe
  [Abschliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md)   
  [Buchen von LSV+ Zahlungen](how-to-post-lsv-payments.md)   
  [Exportieren von Zahlungen mit LSV](how-to-export-payments-using-lsv.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

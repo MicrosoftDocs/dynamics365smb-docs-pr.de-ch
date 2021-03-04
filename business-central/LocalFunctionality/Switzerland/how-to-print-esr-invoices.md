@@ -51,3 +51,6 @@ Sie können den Bericht "Verkauf ESR Rechnung" oder "Verkauf ESR Abschnitt" auch
 ## <a name="see-also"></a>Siehe auch  
  [Elektronische Zahlungen mit ESR (Schweiz)](swiss-electronic-payments-using-esr.md)   
  [Importieren von ESR-Zahlungen](how-to-import-esr-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

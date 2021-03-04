@@ -29,3 +29,6 @@ ms.locfileid: "3931377"
 [Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
 [So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)  
 [Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

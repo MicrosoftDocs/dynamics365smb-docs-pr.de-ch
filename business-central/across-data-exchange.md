@@ -39,3 +39,6 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Austausch von Daten](across-exchange-data.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

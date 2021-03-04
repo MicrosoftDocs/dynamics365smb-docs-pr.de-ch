@@ -56,3 +56,6 @@ Die **Schweizer MWST-Abrechnung** ist der Standardberechnungsbericht für die Re
 ## <a name="see-also"></a>Siehe auch  
  [Mehrwertsteuer (Schweiz)](swiss-value-added-tax.md)   
  [Mehrwertsteuersätze der Schweiz](vat-rates-for-switzerland.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

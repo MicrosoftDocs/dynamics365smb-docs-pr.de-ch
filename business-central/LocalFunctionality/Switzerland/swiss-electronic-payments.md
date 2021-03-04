@@ -43,3 +43,6 @@ Um Zahlungsvorschläge entsprechend dem SEPA-Standard zu exportieren, müssen Si
  [Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md)  
  [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)  
  [Zahlungen vornehmen](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

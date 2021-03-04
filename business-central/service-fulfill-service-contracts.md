@@ -37,3 +37,6 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Bereitstellen von Service](service-deliver-service.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Erstellen von Serviceverträgen und Servicevertragsofferten](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

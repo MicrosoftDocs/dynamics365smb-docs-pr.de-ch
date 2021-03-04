@@ -35,3 +35,6 @@ Wenn Sie in Finanzbuchhaltungskonten Fremdwährung verwenden, wird auch der Sald
 
 ## <a name="see-also"></a>Siehe auch  
  [Finanzbuchhaltungskonten (Schweiz)](swiss-general-ledger-accounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

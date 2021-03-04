@@ -67,3 +67,6 @@ Nachdem Sie das Layout ändern, versuchen Sie, das Layout erneut zu aktualisiere
 ## <a name="see-also"></a>Siehe auch  
  [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
  [Arbeiten mit Berichten, Stapelverarbeitungen und XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

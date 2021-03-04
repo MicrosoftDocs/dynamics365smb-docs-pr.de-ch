@@ -34,3 +34,6 @@ Verwenden Sie Buchhaltungsperioden, um anzugeben, wenn Benutzer die Fibuposten b
 [Finanzen](finance.md)  
 [Abschliessen von Periodenabschlüssen](year-how-complete-period-end-processes.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

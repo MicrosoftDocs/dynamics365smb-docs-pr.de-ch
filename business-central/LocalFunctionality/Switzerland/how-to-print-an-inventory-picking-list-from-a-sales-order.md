@@ -40,3 +40,6 @@ Die Kommissionierliste enthält nur die Artikel, deren Versandmenge grösser als
 
 [Einkaufsbelege und Verkaufsbelege (Schweiz)](swiss-purchase-documents-and-sales-documents.md)  
 [Importieren von Postleitzahlen (Schweiz)](how-to-import-swiss-post-codes.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

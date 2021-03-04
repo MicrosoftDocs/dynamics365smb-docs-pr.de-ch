@@ -44,3 +44,6 @@ Bevor Sie elektronische Belege senden und empfangen oder Bankdateien importieren
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

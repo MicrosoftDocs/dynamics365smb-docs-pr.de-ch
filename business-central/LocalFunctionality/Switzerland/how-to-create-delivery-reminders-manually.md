@@ -30,3 +30,6 @@ ms.locfileid: "3931327"
 [So werden Lieferanmahnungscodes zu Kreditoren zugewiesen](how-to-assign-delivery-reminder-codes-to-vendors.md)  
 [Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md)  
 [So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](how-to-print-test-reports-for-delivery-reminders.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
