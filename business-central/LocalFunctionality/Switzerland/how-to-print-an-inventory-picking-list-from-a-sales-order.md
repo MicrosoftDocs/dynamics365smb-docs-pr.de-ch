@@ -3,19 +3,19 @@ title: Drucken einer Lagerkommissionierliste aus Verkaufsaufträgen in der Schwe
 description: Erfahren Sie, wie Sie in der Schweizer Version von Business Central eine Lagerkommissionierliste direkt aus einem Verkaufsauftrag drucken.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: abbab8f71e73bb0bec84497266a0e505b354ddbc
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 8868de1bcb5d702324ba3f6dadbee3c40119150d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013992"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383965"
 ---
 # <a name="print-an-inventory-picking-list-from-a-sales-order-in-the-swiss-version"></a>In der Schweizer Version eine Lager-Kommissionierliste aus einem Verkaufsauftrag drucken
 

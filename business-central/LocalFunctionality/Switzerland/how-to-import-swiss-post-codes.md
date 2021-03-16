@@ -3,19 +3,19 @@ title: 'Gewusst wie: Importieren von Schweizer Postleitzahlen'
 description: Sie können die aktuelle PLZ importieren und damit die Tabelle PLZ aktualisieren. Die PLZ-Datei kann von der Website der Schweizer Post heruntergeladen werden. Nach dem Import der letzten PLZ können PLZ für Debitoren oder Kreditoren definiert werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b4ec2094c212a72f805e356b61e0d5ba24b7b3fd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 278ed697f3380633d6d35387ed7eeb3ed6b15c6c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923097"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383977"
 ---
 # <a name="import-swiss-post-codes"></a>Importieren von Postleitzahlen (Schweiz)
 Sie können die aktuelle PLZ importieren und damit die Tabelle **PLZ** aktualisieren. Die PLZ-Datei kann von der Website der [Schweizer Post](https://go.microsoft.com/fwlink/?LinkId=150292) heruntergeladen werden. Nach dem Import der letzten PLZ können PLZ für Debitoren oder Kreditoren definiert werden. Weitere Informationen finden Sie unter [Neue Kreditoren registrieren](../../purchasing-how-register-new-vendors.md).  
@@ -23,7 +23,7 @@ Sie können die aktuelle PLZ importieren und damit die Tabelle **PLZ** aktualisi
 ## <a name="to-import-post-codes"></a>So importieren Sie PLZ  
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **PLZ** ein und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie die Aktion**PLZ importieren** aus.  
+2.  Wählen Sie die Aktion **PLZ importieren** aus.  
 3.  Geben Sie auf der Seite **Postleitzahlen Import** im Feld **Dateiname** den Namen der PLZ-Datei ein, die Sie in die Tabelle **PLZ** importieren möchten.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
 
