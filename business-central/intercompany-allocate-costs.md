@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4c83569cf8aaa53e733754f05704d8b258d8dc50
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 0ebed6a95212fdcf00b54af823684ae139e29638
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750219"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388488"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Kosten den Intercompanypartnern zuordnen
 Wenn Sie konzerninterne Buchungen verwenden, um Belege zwischen Partnerunternehmen zu übertragen, steuern die den Kunden- oder Lieferantenkonten (dem konzerninternen Partner zugeordneten) zugewiesenen umsatzsteuerlichen Einstellungen (hauptsächlich die Umsatzsteuer-Geschäftsbuchungsgruppe), ob und wie die Mehrwertsteuer berechnet und registriert wird. Sie können Kostenverteilungen auch direkt von einer Bestellung an Partnerunternehmen durchführen. Wenn Sie beispielsweise eine Kaufrechnung von einem externen Anbieter registrieren und einen Teil oder die gesamten Kosten an einen oder mehrere konzerninterne Partner verteilen möchten.
@@ -44,7 +44,7 @@ Führen Sie die folgenden Schritte aus, um eine Zeile in ein Intercompany Fibu E
    3. In dem Feld **Dokument Nr.** geben Sie eine andere Nummer als die im Feld **Externe Dokument Nr.** angegebene Nummer ein. Die Kostenverteilung wird als eine andere Transaktion betrachtet.
    4. Wählen Sie im Feld **Kontoart** die Option **IC Partner** aus.
    5. In dem Feld **Konto Nr.** wählen Sie den Intercompany-Partner aus, dem die Kosten zugeordnet werden sollen.
-   6. Geben Sie im Feld **Gegenkontoart** **Fibukonto** ein.
+   6. Geben Sie im Feld **Gegenkontoart****Fibukonto** ein.
    7. In dem Feld **Gegenkontonummer** wählen Sie das Fibukonto aus, auf das der vom Intercompany-Partner erhaltene Betrag gebucht werden soll.
    1. In dem Feld **Menge** geben Sie den Rechnungsbetrag ein, der dem Intercompany-Partner zugeordnet werden soll.
    1. In dem Feld **Fibukonto IC Partner** wählen Sie das Fibukonto aus, auf das der vom Intercompany-Partner erhaltene Betrag gebucht werden soll. 

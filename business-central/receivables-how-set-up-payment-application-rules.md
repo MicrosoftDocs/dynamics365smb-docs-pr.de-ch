@@ -3,19 +3,19 @@ title: Einrichten von Regeln für die automatische Anwendung von Zahlungen
 description: Auf der Seite „Zahlungsausgleichsvorschriften“ richten Sie die Regeln ein, um zu steuern, wie Zahlungen/Banktransaktionen automatisch mit ihren entsprechenden offenen Fibuposten ausgeglichen werden, wenn Sie die Funktion Automatisch anwenden auf der Seite Zahlungsabstimmungserf.-Journal verwenden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a0aad6bce483dba6edf7c6d5ab37033475413d4b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758356"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392613"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Einrichten von Regeln für die automatische Anwendung von Zahlungen
 
@@ -48,10 +48,11 @@ Neben den Zuordnungskriterien gilt Folgendes hinsichtlich des Vorzeichens des Za
 |**Übereinstimmungsgenauigkeit**|Gibt Ihr Vertrauen in die Ausgleichsregel an, die Sie in der Zeile definieren. <br /></br>Ein Wert, den Sie in diesem Feld angeben, wird im Feld **Übereinstimmungsgenauigkeit** auf der Seite **Zahlungsabstimmungserf.-Journal** entsprechend der Qualität des automatischen Zahlungsausgleichs der Erf.-Journalzeile angezeigt.|
 |**Priorität**|Gibt die Priorität der Anwendungsregel in Bezug auf andere Anwendungsregeln an, die als Zeilen auf der Seite **Zahlungsausgleichsvorschriften** definiert sind. 1 stellt die höchste Priorität dar.|
 |**Übereinstimmende zugehörige Partei**|Gibt an, wie viele Informationen über den Debitor oder Kreditor (wie Adresse, Ortsname und Bankkontonummer) auf der Zahlungsabstimmungserf.-Journalzeile mit Daten in dem offenen Posten übereinstimmen müssen, bevor die Ausgleichsregel verwendet wird, um die Zahlung automatisch mit dem offenen Eintrag auszugleichen.|
-|**Belegnummer/übereinstimmende ext. Belegnummer**|Gibt an, ob der Text in der Zahlungsabstimmungserf.-Journalzeile mit dem Wert im Feld **Belegnr.** oder im Feld **Externe Belegnummer** für den offenen Posten übereinstimmen muss, bevor die Ausgleichsregel zum automatischen Ausgleich der Zahlung des offenen Postens verwendet wird.|
+|**Belegnummer/übereinstimmende ext. Belegnummer**|Gibt an, ob der Text in der ZahlungsabstimmungsErf.-Journalzeile mit dem Wert im Feld **Belegnr.** oder im Feld **Externe Belegnummer** für den offenen Posten übereinstimmen muss, bevor die Ausgleichsregel zum automatischen Ausgleich der Zahlung des offenen Postens verwendet wird.|
 |**Übereinstimmender Betrag einschliesslich Toleranz**|Gibt an, wie viele Posten für einen Debitor oder Kreditor den Betrag einschliesslich Zahlungstoleranz übereinstimmen müssen, bevor die Ausgleichsregel verwendet wird, um die Zahlung eines offenen Postens automatisch auszugleichen.|
+|**Überprüfung erforderlich**|Gibt an, ob die automatische Zahlungsanwendung für die manuelle Überprüfung durch den Benutzer vor dem Posten empfohlen wird. Durch Auswahl des Felds **Zu überprüfende Zeilen** auf der Seite **Zahlungsausgleichsjournal** startet eine geführte Erfahrung, bei der Sie problemlos mehrere Anwendungen in einer Sequenz auf der Website **Überprüfung des Zahlungsantrags** überprüfen können.|
 
-Die folgende Tabelle zeigt, welche Zahlungsausgleichsregeln in der generischen Version von [!INCLUDE[prod_short](includes/prod_short.md)] eingerichtet sind.
+In der folgenden Tabelle werden die Standardregeln für Zahlungsanwendungen in [!INCLUDE[prod_short](includes/prod_short.md)] beschrieben.
 
 > [!Important]
 > Die Zahlungsausgleichsregeln können anders sein als in Ihrer Implementierung von [!INCLUDE[prod_short](includes/prod_short.md)].

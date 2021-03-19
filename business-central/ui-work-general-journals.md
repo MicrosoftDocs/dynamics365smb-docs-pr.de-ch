@@ -1,21 +1,21 @@
 ---
-title: Mithilfe von Fibu Buch.-Blätern direkt in die Finanzbuchhaltung buchen| Microsoft Docs
-description: Mehr über die Nutzung von Buchungsblättern erfahren, um auf Fibukonten sowie auf andere Konten wie Bank-, Debitoren-, Kreditoren- oder Anlagekonten zu buchen.
+title: Mithilfe von Fibu-Erfassungsjournalen direkt in die Finanzbuchhaltung buchen
+description: Mehr über die Nutzung von Buchungsblättern erfahren, um auf Fibukonten sowie auf andere Konten wie Bank-, Debitoren-, Kreditoren- oder Anlagekonten zu buchen. Verwenden Sie wiederkehrende Erfassungsjournale, um Rückstellungen zu buchen und Salden nach Dimensionswerten zuzuordnen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual
-ms.date: 10/01/2020
+ms.date: 02/15/2021
 ms.author: edupont
-ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c6a2c6ed0c3fe163f64a3eb7d55f8e128f53a50d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760133"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393613"
 ---
 # <a name="working-with-general-journals"></a>Arbeiten mit Fibu Buch.-Blättern
 
@@ -74,24 +74,27 @@ Wurden auf der Seite **Erfassungsjournale** Standardgegenkonten für die Erf.-Jo
 >   Die MWST für Haupt- und Gegenkonto wird getrennt berechnet, damit für die Konten unterschiedliche MWST-Prozentsätze verwendet werden können.
 
 ## <a name="working-with-recurring-journals"></a>Arbeiten mit wiederkehrenden Erfassungsjournalen
-Bei einem wiederkehrenden Erf.-Journal handelt es sich um ein Fibu Erf.-Journal mit speziellen Feldern für die Verwaltung von Transaktionen, die häufig und ohne oder und mit geringen Änderungen gebucht werden. Mithilfe dieser speziellen Felder für wiederkehrende Transaktionen können Sie feste und variable Beträge buchen. Sie können auch ein automatisches Storno für den Tag nach dem Buchungsdatum festlegen und wiederkehrende Posten zusammen mit Verteilungsschlüsseln verwenden. Sie können auch Umlageschlüssel verwenden, um wiederkehrende Posten mit einem einzigen Vorgang zwischen verschiedenen Konten aufteilen zu können. Weitere Informationen finden Sie unter [Zuordnung von Beträgen des wiederkehrenden Erf.-Journals auf mehrere Konten](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
+Bei einem wiederkehrenden Erf.-Journal handelt es sich um ein Fibu Erf.-Journal mit speziellen Feldern für die Verwaltung von Transaktionen, die häufig und ohne oder und mit geringen Änderungen gebucht werden. Mithilfe dieser speziellen Felder für wiederkehrende Transaktionen können Sie feste und variable Beträge buchen. Sie können auch ein automatisches Storno für den Tag nach dem Buchungsdatum festlegen und wiederkehrende Posten zusammen mit Verteilungsschlüsseln verwenden. Sie können auch Umlageschlüssel verwenden, um wiederkehrende Posten mit einem einzigen Vorgang zwischen verschiedenen Konten aufteilen zu können. Weitere Informationen finden Sie unter [Zuordnung von Beträgen des wiederkehrenden Erf.-Journals auf mehrere Konten](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Regelmässig gebuchte Transaktionen müssen in einem wiederkehrenden Erf.-Journal nur einmal eingegeben werden. Das bedeutet, dass Einträge wie Konten, Dimensionen oder Dimensionswerte nach der Buchung im Erfassungsjournal verbleiben. Eventuelle Änderungen können Sie bei jeder Buchung vornehmen.
 
 ### <a name="recurring-method-field"></a>Feld Wiederholungsmethode
+
 Dieses Feld legt fest, wie der in der Erf.-Journalzeile angegebene Betrag nach der Erfassung bearbeitet werden soll. Wenn Sie z. B. bei jeder Buchung der Zeile den gleichen Betrag verwenden, können Sie den Betrag unverändert lassen. Wenn Sie dagegen immer den Betrag ändern, jedoch Konto und Text unverändert lassen, können Sie den Betrag nach der Buchung löschen lassen.
 
-| Bis | Informationen |
+| Bis | Siehe |
 | --- | --- |
-|Fixiert|Der Betrag in der Erf.-Journalzeile wird nach der Buchung nicht geändert.|
-|Variabel|Der Betrag wird nach dem Buchen aus der Erf.-Journalzeile gelöscht.|
-|Saldo|Der gebuchte Betrag des Kontos in der Zeile wird Konten zugewiesen, die für die Zeile in der Tabelle Gen angegeben werden. Fibu Erf.-Jrn. Tabelle. Der Saldo auf dem Konto beträgt somit Null. Denken Sie daran, das Feld **Verteilung %** auf der Seite **Verteilungsübersicht** auszufüllen. Weitere Informationen finden Sie unter [Zuordnung von Beträgen des wiederkehrenden Erf.-Journals auf mehrere Konten](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
-|Umgekehrt fix|Der Betrag in der Erf.-Journalzeile bleibt nach der Buchung erhalten und für den folgenden Tag wird ein Gegenposten gebucht.|
-|Umgekehrt variabel|Der Betrag in der Erf.-Journalzeile wird nach der Buchung gelöscht und für den folgenden Tag wird ein Gegenposten gebucht.|
-|Umgekehrt Ausgleich|Der gebuchte Betrag des Kontos in der Zeile wird Konten zugewiesen, die für die Zeile auf der Seite **Zuweisungen** angegeben werden. Der Saldo auf dem Konto wird auf Null gesetzt, und ein Gegenposten wird am folgenden Tag gebucht.|
+|F Fest|Der Betrag in der Erf.-Journalzeile wird nach der Buchung nicht geändert.|
+|V Variabel|Der Betrag wird nach dem Buchen aus der Erf.-Journalzeile gelöscht.|
+|B Saldo|Der gebuchte Betrag des Kontos in der Zeile wird Konten zugewiesen, die für die Zeile in der Tabelle Gen angegeben werden. Fibu Erf.-Jrn. Tabelle. Der Saldo auf dem Konto beträgt somit Null. Denken Sie daran, das Feld **Verteilung %** auf der Seite **Verteilungsübersicht** auszufüllen. Weitere Informationen finden Sie unter [Zuordnung von Beträgen des wiederkehrenden Erf.-Journals auf mehrere Konten](#allocating-recurring-journal-amounts-to-several-accounts).|
+|RF Umgekehrt fix|Der Betrag in der Erf.-Journalzeile bleibt nach der Buchung erhalten und für den folgenden Tag wird ein Gegenposten gebucht.|
+|RV Umgekehrt variabel|Der Betrag in der Erf.-Journalzeile wird nach der Buchung gelöscht und für den folgenden Tag wird ein Gegenposten gebucht.|
+|RB Umgekehrt Ausgleich|Der gebuchte Betrag des Kontos in der Zeile wird Konten zugewiesen, die für die Zeile auf der Seite **Zuweisungen** angegeben werden. Der Saldo auf dem Konto wird auf Null gesetzt, und ein Gegenposten wird am folgenden Tag gebucht.|
+|Saldo nach Dimension|Die Erf.-Journalzeile ordnet die Kosten basierend auf dem Saldo eines Fibukontos nach Dimensionen zu. Sie werden aufgefordert, die Dimensionsfilter festzulegen, die zur Berechnung des Kontostands des Fibukontos nach Dimension verwendet werden sollen, aus der Sie die Kosten zuordnen möchten. Alternativ wählen Sie die **Bemassungsfilter einstellen** Aktion später.|
+|Rückbuchungssaldo nach Dimension|Die Erf.-Journalzeile ordnet die Kosten basierend auf dem umgekehrten Ausgleich eines Fibukontos nach Dimensionen zu. Sie werden aufgefordert, die Dimensionsfilter festzulegen, die zur Berechnung des Kontostands des Fibukontos nach Dimension verwendet werden sollen, aus der Sie die Kosten zuordnen möchten. Alternativ wählen Sie die **Bemassungsfilter einstellen** Aktion später.|
 
 > [!NOTE]  
->  Sie können die Mehrwertsteuerfelder entweder in der wiederkehrenden Erfassungsjournalzeile oder in der Verteilungs Erf.-Journalzeile, aber niemals in beiden gleichzeitig, ausfüllen. Das heisst, sie können auf der Seite **Zuweisungen** nur passende Zeilen eintragen, wenn die entsprechenden Zeilen nicht im wiederkehrenden Erf.-Journal eingetragen werden.
+> Sie können die Mehrwertsteuerfelder entweder in der wiederkehrenden Erfassungsjournalzeile oder in der Verteilungs Erf.-Journalzeile, aber niemals in beiden gleichzeitig, ausfüllen. Das heisst, sie können auf der Seite **Zuweisungen** nur passende Zeilen eintragen, wenn die entsprechenden Zeilen nicht im wiederkehrenden Erf.-Journal eingetragen werden.
 
 ### <a name="recurring-frequency-field"></a>Feld Wiederholungsrate
 Das Feld legt fest, wie oft der Posten in der Erf.-Journalzeile gebucht wird. Das ist ein Datumsformelfeld, und es muss für andere Zeilen des wiederkehrenden Erf.-Journals ausgefüllt werden. Weitere Informationen zu finden Sie unter [Verwenden von Datumsformeln](ui-enter-date-ranges.md#using-date-formulas).
@@ -113,11 +116,19 @@ Dieses Feld bietet den Vorteil, dass die Zeile nicht sofort aus dem Erf.-Journal
 Wenn das Feld leer ist, wird die Zeile bei jeder Buchung mitgebucht, bis sie aus dem Erfassungsjournal gelöscht wird.
 
 ### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Zuordnung von Beträgen des wiederkehrenden Erf.-Journals auf mehrere Konten
+
 Auf der Seite **Wiederk. Fibu Erf.-Journal** können Sie die **Verteilungen** Aktion auswählen, anzeigen oder verwalten und bestimmen, wie Beträge der Zeile des wiederkehrenden Erf.-Journals auf mehrere Konten und Dimensionen zugeordnet werden. Das heisst, die Verteilung ist eine Gegenkontozeile für die Zeile des wiederkehrenden Erf.-Journals.
 
 Genau wie in einem wiederkehrenden Erfassungsjournal müssen Sie die Angaben für eine Verteilung nur einmal eingeben. Nach der Buchung verbleibt die Verteilung im Erf.-Journal, so dass Sie die Beträge und Verteilungen nicht bei jeder Buchung der wiederkehrenden Erfassungsjournalzeile erneut eingeben müssen.
 
-Wenn die Wiederholungsart im Wiederk. Erf.-Journal auf **Ausgleich** oder **Umgekehrt Ausgleich** gesetzt ist, werden keine Dimensionswertcodes im Wiederk. Erf.-Journal berücksichtigt, wenn das Konto auf Null gesetzt ist. Anders ausgedrückt, wenn Sie auf der Seite **Zuordnungen** eine wiederkehrende Zeile auf die verschiedenen Dimensionswerte verteilen, wird nur eine Umkehrbuchung erstellt. Wenn Sie also im Verteilungsbuch eine Zeile des wiederkehrenden Erf.-Journals zuordnen, die einen Wertcode der Dimension enthält, dürfen Sie denselben Code nicht auf der Seite **Zuordnungen** eingeben. Andernfalls sind die Zahlen für die Dimensionswerte falsch.
+Wenn die *Wiederholungsart* im wiederkehrenden Erfassungsjournal auf **Ausgleich** oder **Umgekehrter Ausgleich** gesetzt ist, werden keine Dimensionswertcodes im wiederkehrenden Erfassungsjournal berücksichtigt, wenn das Konto auf Null gesetzt ist. Anders ausgedrückt, wenn Sie auf der Seite **Zuordnungen** eine wiederkehrende Zeile auf die verschiedenen Dimensionswerte verteilen, wird nur eine Umkehrbuchung erstellt. Wenn Sie also im Verteilungsbuch eine Zeile des wiederkehrenden Erf.-Journals zuordnen, die einen Wertcode der Dimension enthält, dürfen Sie denselben Code nicht auf der Seite **Zuordnungen** eingeben. Andernfalls sind die Zahlen für die Dimensionswerte falsch.  
+
+Um wiederkehrende Erfassungsjournalbeträge basierend auf Dimensionen zuzuweisen, legen Sie das Feld **Wiederkehrende Methode** stattdessen auf **Saldo nach Dimension** oder **Rückbuchungssaldo nach Dimension**. Wenn die Wiederholungsart im wiederkehrenden Erfassungsjournal auf **Ausgleich nach Dimension** oder **Umgekehrt Ausgleich nach Dimension** gesetzt ist, werden Dimensionswertcodes im wiederkehrenden Erfassungsjournal berücksichtigt, wenn das Konto auf Null gesetzt ist. Wenn Sie also verschiedenen Dimensionswerten eine wiederkehrende Zeile auf der Seite **Zuweisungen** zuweisen, wird dann eine Anzahl von Umkehreinträgen erstellt, die mit der Anzahl der Dimensionswertkombinationen übereinstimmen, aus denen der Saldo besteht. Wenn Sie den Kontostand über das wiederkehrende Erfassungsjournal zuordnen, das einen Dimensionswertcode enthält, denken Sie daran, **Saldo nach Dimension** oder **Umkehren des Saldos nach Dimension** zu verwenden, um sicherzustellen, dass die Dimensionswerte vom Quellkonto korrekt ausgeglichen oder umgekehrt werden.  
+
+Ihr Unternehmen verfügt beispielsweise über einige Geschäftsbereiche und eine Handvoll Abteilungen, die Ihre Controller als Dimensionen eingerichtet haben. Um den Prozess der Buchungserfassung zu beschleunigen, müssen die Sachbearbeiter nur die Dimensionen der Geschäftsbereiche eingeben. Da jeder Geschäftsbereich über spezifische Umlageschlüssel für die Abteilungsdimension verfügt, z. B. basierend auf der Anzahl der Mitarbeiter, können Sie die wiederkehrenden Methoden **Saldo nach Dimension** oder **Rückbuchungssaldo nach Dimension** zur Neuzuordnung von Ausgaben für jeden Geschäftsbereich zu den richtigen Abteilungen basierend auf den Zuordnungsschlüsseln verwenden.  
+
+> [!NOTE]
+> Bemassungen, die Sie in Zuordnungszeilen festlegen, werden nicht automatisch berechnet, und Sie müssen angeben, welche Bemassungswerte in den Zuordnungskonten festgelegt werden müssen. Wenn Sie die Verknüpfung zwischen der Quellkontodimension und der Zuordnungskontodimension beibehalten möchten, empfehlen wir die Verwendung der Funktionen [Kostenrechnung](finance-about-cost-accounting.md).
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Beispiel: Zuordnen von Mietzahlungen auf verschiedene Abteilungen
 Sie zahlen jeden Monat Miete, daher haben Sie den Vertragsrabattbetrag auf das Kassenkonto in einer Zeile des wiederkehrenden Erfassungsjournals eingegeben. Auf der Seite **Zuordnungen** können Sie die Kosten auf die Kostenstellen entsprechend der jeweils belegten Quadratmeterzahlen aufteilen. Die Berechnung erfolgt aufgrund der Verteilungsprozente für jede Verteilungs-Buch.-Blattzeile. Sie können verschiedene Konten für jede Zeile des Buch.-Blattes Verteilungen eingeben (wenn die Miete auch auf verschiedene Konten aufgeteilt werden soll) oder Sie können dasselbe Konto mit verschiedenen Dimensionswertcodes für die Dimension "Kostenstelle" auf jeder Zeile eingeben.
@@ -167,7 +178,7 @@ Wenn Sie das Standard-Artikel-Erf.-Journal gespeichert haben, wird die Seite "Ar
 
     Jetzt wird das Artikel Erf.-Journal mit den Zeilen aufgefüllt, die Sie als Standard Artikel Erf.-Journal gespeichert haben. Wenn Erf.-Journalzeilen bereits im Artikel Erf.-Journal vorhanden sind, werden die eingefügten Zeilen unterhalb der vorhandenen Erf.-Journalzeilen eingefügt.
 
-    Normalerweise, d.h., wenn das Feld **Stückpreis speichern** während der Funktion **Als Standard Buch.-Blatt speichern** nicht markiert war, wird das Feld **Stückpreis** in den eingefügten Zeilen automatisch mit dem aktuellen Wert des Artikels gefüllt (der aus dem Feld **Einstandspreis** auf der Artikelkarte kopiert wird).
+    Normalerweise, d.h., wenn das Feld **Stückpreis speichern** während der Funktion **Als Standard Erf.-Journal speichern** nicht markiert war, wird das Feld **Stückpreis** in den eingefügten Zeilen automatisch mit dem aktuellen Wert des Artikels gefüllt (der aus dem Feld **Einstandspreis** auf der Artikelkarte kopiert wird).
 
     > [!NOTE]  
     >   Wenn Sie eines der Felder **Stückzahl speichern** oder **Menge speichern** ausgewählt haben, sollten Sie jetzt überprüfen, ob die eingefügten Werte für diese bestimmte Lagerregulierung richtig sind, bevor Sie das Artikelprotokoll speichern.

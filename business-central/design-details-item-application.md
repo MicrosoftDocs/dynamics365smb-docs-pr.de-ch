@@ -3,19 +3,19 @@ title: Designdetailsl- Artikelausgleich | Microsoft Docs
 description: Dieses Thema beschreibt, woher Lagermenge und Wert erfasst werden, wenn Sie eine Lagertransaktion buchen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: df1baacad6a1bca50c3d1891ab69e920fd375b12
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: b0b73731584ee844706180d2127c65369fe74e82
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035496"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380645"
 ---
 # <a name="design-details-item-application"></a>Designdetails: Artikelausgleich
 
@@ -172,13 +172,13 @@ Die folgende Tabelle zeigt das Ergebnis der Szenarioschritte 1 bis 3 für die We
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Einkauf|1|1000.00||1|1|  
 |02-01-20|Verkauf|-1|1000.00||2|2|  
-|03-01-20|Verkaufsgutschrift|1|1000|2|3|3|  
+|03-01-20|Verkaufs&gutschrift|1|1000|2|3|3|  
 
 Die folgende Tabelle enthält den Wertposten,der aus Szenarioschritt 4, Buchung der Artikelkosten, resultiert.  
 
 |Buch. Datum|Lagerpostenart|Bewertete Menge|Einstandsbetrag (tatsächl.)|Ausgegl. von Lagerposten|Lagerposten Laufnr.|Postennr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|04-01-20|(Artikel Zu-/Abschlag)|1|100.00||1|4|  
+|04-01-20|(Artikel &Zu-/Abschlag)|1|100.00||1|4|  
 
 Die folgende Tabelle zeigt die Auswirkung der exakten Kostenumkehrung der Wertposten des Artikels an.  
 
@@ -186,8 +186,8 @@ Die folgende Tabelle zeigt die Auswirkung der exakten Kostenumkehrung der Wertpo
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Einkauf|1|1000.00||1|1|  
 |02-01-20|Verkauf|-1|1100.00||2|2|  
-|03-01-20|Verkaufsgutschrift|1|1100.00|2|3|3|  
-|04-01-20|(Artikel Zu-/Abschlag)|1|100.00||1|4|  
+|03-01-20|Verkaufs&gutschrift|1|1100.00|2|3|3|  
+|04-01-20|(Artikel &Zu-/Abschlag)|1|100.00||1|4|  
 
 Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge** ausführen, werden die erhöhten Kosten des Einkaufspostens aufgrund des Zu-/Abschlags (Artikelnummer) zum Verkaufsposten weitergeleitet (Postennummer 2). Der Verkaufsposten übergibt dann diese erhöhten Kosten an den Verkaufsgutschriftposten weiter (Postennummer 3). Das Endergebnis ist, dass die Kosten korrekt umgekehrt werden.  
 
