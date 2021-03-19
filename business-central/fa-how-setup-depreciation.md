@@ -1,30 +1,29 @@
 ---
-title: Abschreibungsmethoden einrichten| Microsoft Docs
+title: Anlagenabschreibung einrichten
 description: Sie geben in einem Abschreibungsbuch an, wie Sie Anlagen abschreiben oder anzeigen möchten.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 10/01/2020
+ms.date: 02/22/2021
 ms.author: edupont
-ms.openlocfilehash: c9eea613db52d327caa1c3d5449864900fc867d1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e5d000b1ff7d1b83188449c80a9a9eefe79e8676
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749283"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493242"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Richten Sie eine neue Anlagenabschreibung ein
- Sie können unterschiedliche Abschreibungsmethoden für Bilanzen und Steuern verwenden. Viele Grossunternehmen verwenden die lineare Abschreibung in ihren Bilanzen, da dies im Allgemeinen höhere Gewinne anzeigt. Für Einkommenssteuerzwecke verwenden viele Unternehmen jedoch eine beschleunigte Abschreibungsmethode, wie z. B. die degressive Abschreibung. Sie definieren die Abschreibungsmethode einer Anlage mit dem Feld **Abschreibungsmethode** auf der Seite **Anlagenkarte**. Weitere Informationen zu den verschiedenen Methoden finden Sie unter [Abschreibungsmethoden](fa-depreciation-methods.md).
 
- In Abschreibungsbüchern definieren Sie die verschiedenen Arten, wie die Abschreibungen für Ihr unterschiedliches Anlagen berechnet werden müssen. In jedem Buch können Sie individuelle Abschreibungsbedingungen angeben. Es ist zum Beispiel möglich, dass eine Anlage in einem Buch über einen Zeitraum von drei Jahren abgeschrieben wird und in einem anderen über fünf Jahre.
+Sie können unterschiedliche Abschreibungsmethoden für Bilanzen und Steuern verwenden. Viele Grossunternehmen verwenden die lineare Abschreibung in ihren Bilanzen, da dies im Allgemeinen höhere Gewinne anzeigt. Für Einkommenssteuerzwecke verwenden viele Unternehmen jedoch eine beschleunigte Abschreibungsmethode, wie z. B. die degressive Abschreibung. Sie definieren die Abschreibungsmethode einer Anlage mit dem Feld **Abschreibungsmethode** auf der Seite **Anlagenkarte**. Weitere Informationen zu den verschiedenen Methoden finden Sie unter [Abschreibungsmethoden](fa-depreciation-methods.md).
 
- Nachdem Sie die erforderlichen AfA-Bücher erstellt haben, müssen Sie jeder Anlage mindestens ein AfA-Buch zuweisen. Ein Abschreibungsbuch, das einer Anlage zugewiesen ist, wird als Anlagen-Abschreibungsbuch bezeichnet. Sie können beliebig viele Abschreibungsbücher für eine Anlage einrichten. 
+Sie definieren Abschreibungsbücher, in denen Sie die verschiedenen Arten, wie die Abschreibungen für unterschiedliche Typen von Anlagen berechnet werden müssen, definieren. In jedem Abschreibungsbuch werden individuelle Abschreibungsbedingungen festgelegt. Es ist zum Beispiel möglich, dass eine Anlage in einem Buch über einen Zeitraum von drei Jahren abgeschrieben wird und in einem anderen über fünf Jahre.
+
+Nachdem Sie die erforderlichen AfA-Bücher erstellt haben, müssen Sie jeder Anlage mindestens ein AfA-Buch zuweisen. Ein Abschreibungsbuch, das einer Anlage zugewiesen ist, wird als Anlagen-Abschreibungsbuch bezeichnet. Sie können beliebig viele Abschreibungsbücher für eine Anlage einrichten.  
 
 ## <a name="to-create-a-depreciation-book"></a>So erstellen Sie ein Anlagen-Abschreibungsbuch
+
 In einem Abschreibungsbuch können Sie festlegen, wie eine Anlage abgeschrieben wird. Sie können mehrere Abschreibungsbücher einrichten, um die verschiedenen Abschreibungsarten zu erleichtern.  
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Abschreibungsbücher** ein, und wählen Sie dann den zugehörigen Link.
@@ -32,9 +31,14 @@ In einem Abschreibungsbuch können Sie festlegen, wie eine Anlage abgeschrieben 
 3. Füllen Sie im Inforegister **Abschreibungsbuchkarte** die Seite nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Hinweis: Sie können Anlagentransaktionen auf der Seite **Anlagen Fibu Erf.-Journal** oder auf der Seite **Anlagen Erf.-Journal** erfassen, abhängig davon, ob die Transaktionen für Finanzberichte oder zur internen Verwaltung bestimmt sind. Führen Sie den nächsten Schritt aus, um festzulegen, welche Art von Erf.-Journal für die verschiedenen Anlagenaktivitäten standardmässig verwendet wird.
+    > Hinweis: Sie können Anlagentransaktionen auf der Seite **Anlagen Fibu Erf.-Journal** oder auf der Seite **Anlagen Erf.-Journal** erfassen, abhängig davon, ob die Transaktionen für Finanzberichte oder zur internen Verwaltung bestimmt sind. Führen Sie den nächsten Schritt aus, um festzulegen, welche Art von Erf.-Journal für die verschiedenen Anlagenaktivitäten standardmässig verwendet wird.
 4. Aktivieren Sie im Inforregister **Integration** das Kontrollkästchen für jede Anlagenaktivität, deren Transaktionen Sie mithilfe der Seite **Anlagen Fibu Erf.-Journal** buchen möchten.
 5. Wiederholen Sie die Schritte 2 bis 4 für jede Abschreibungs- oder Buchungsmethode, die Sie den Anlagen als Abschreibungsbuch zuweisen möchten.
+
+> [!IMPORTANT]
+> Wählen Sie das Feld **Period. Abschreibung runden** zum Runden der berechneten periodischen Abschreibungsbeträge auf ganze Zahlen. Zum Beispiel, wenn Ihr Unternehmen auch die Rechnungsrundung auf ganze Zahlen auf der Seite **Fibu Einrichtung** verwendet, kann das Runden von Abschreibungsbeträgen auf ganze Zahlen zur Transparenz beitragen.
+
+Wenn Sie beispielsweise ein Anlagevermögen veräussern, in dem im Abschreibungsbuch keine Rundung angegeben ist, die Einrichtung der Finanzbuchhaltung Ihres Unternehmens jedoch eine Rundung erfordert, wird bei der Veräusserung des Anlagevermögens die Fehlermeldung angezeigt, dass ein Betrag in einem Posten gerundet werden muss.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>So verknüpfen Sie ein Abschreibungsbuch mit einer Anlage
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anlagen** ein, und wählen Sie dann den entsprechenden Link.
