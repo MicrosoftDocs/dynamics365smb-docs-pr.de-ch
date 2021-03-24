@@ -21,7 +21,7 @@ ms.locfileid: "5383064"
 
 Ein Rahmenauftrag stellt ein Gerüst für eine langfristige Vereinbarung zwischen Ihnen und einem Debitor dar. In ähnlicher Weise verwenden Sie Einkauf Rahmenbestellungen, um langfristige Vereinbarungen zwischen Ihnen und Ihrem Kreditor zu verwalten.
 
-Ein Rahmenauftrag wird in der Regel erstellt, wenn sich ein Debitor verpflichtet hat, grössere Mengen abzunehmen, die über einen längeren Zeitraum in mehreren kleineren bereitgestellt werden. Rahmenaufträge umfassen häufig nur einen Artikel mit im Vorfeld festgelegten Lieferterminen. Der Hauptgrund für die Verwendung von Rahmenaufträgen anstelle von normalen Aufträgen ist, dass Mengen, die für einen Rahmenauftrag eingegeben werden, keine Auswirkungen auf die Artikelverfügbarkeit haben, sodass der Rahmenauftrag als Arbeitsvorlage zum Überwachen und Planen verwendet werden kann.
+Ein Rahmenauftrag wird in der Regel erstellt, wenn sich ein Debitor verpflichtet hat, grössere Mengen abzunehmen, die über einen längeren Zeitraum in mehreren kleineren bereitgestellt werden. Rahmenaufträge umfassen häufig nur einen Artikel mit im Vorfeld festgelegten Lieferterminen. Der Hauptgrund für die Verwendung von Rahmenaufträgen anstelle von normalen Aufträgen ist, dass Mengen, die für einen Rahmenauftrag eingegeben werden, keine Auswirkungen auf die Artikelverfügbarkeit haben, sodass der Rahmenauftrag als Arbeitsblatt zum Überwachen und Planen verwendet werden kann.
 
 In einem Rahmenauftrag kann jede einzelne Lieferung als Auftragszeile eingerichtet werden, die dann zum Zeitpunkt der Lieferung in einen Auftrag umgewandelt werden kann.
 

@@ -101,7 +101,7 @@ Enthält das Feld die Option **Unbeschränkt**, wird die Zeile beim Berechnen vo
 
 ### <a name="warning"></a>Warnung
 
-Das Feld **Warnung** auf der **Planungsvorschlag** Seite informiert Sie über jede mögliche Planungszeile, die für eine ungewöhnliche Situation mit einen Text erstellt wird, den der Benutzer klicken kann, um weitere Informationen anzuzeigen. Folgende Arten von Warnungen sind verfügbar:
+Das Feld **Warnung** auf der **Planungsarbeitsblatt** Seite informiert Sie über jede mögliche Planungszeile, die für eine ungewöhnliche Situation mit einen Text erstellt wird, den der Benutzer klicken kann, um weitere Informationen anzuzeigen. Folgende Arten von Warnungen sind verfügbar:
 
 - Notfall
 - Ausnahme
@@ -156,7 +156,7 @@ Auf der Seite **Anforderungsarbeitsblatt** sind die Artikel aufgelistet, die Sie
 
 - Sie können die Aktion **Spezialauftrag** verwenden, um die Anforderungsarbeitsblattszeilen zu füllen. Diese Aktion verwendet die Stapelverarbeitung **Aufträge holen**, um die Verkaufsauftragszeilen zu ermitteln, die für einen Spezialauftrag vorgesehen sind.
 
-Anforderungsarbeitsblattzeilen enthalten detaillierte Informationen über die Artikel, die wiederbestellt werden müssen. Sie können die Zeilen bearbeiten und löschen, um Ihren Bestellvorschlag anzupassen, und Sie können die Zeilen auch mit der Stapelverarbeitung **Ereignismeldung durchführen** weiterverarbeiten.
+Anforderungsarbeitsblattzeilen enthalten detaillierte Informationen über die Artikel, die wiederbestellt werden müssen. Sie können die Zeilen bearbeiten und löschen, um Ihren Bestellarbeitsblatt anzupassen, und Sie können die Zeilen auch mit der Stapelverarbeitung **Ereignismeldung durchführen** weiterverarbeiten.
 
 Einzelheiten zur Planung mit Standorten und Transfers finden Sie unter [Planen mit oder ohne Standorte](production-planning-with-without-locations.md).
 

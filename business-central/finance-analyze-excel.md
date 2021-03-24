@@ -31,9 +31,9 @@ Im Menüband wählen Sie den entsprechenden Excel-Bericht aus und lassen ihn öf
 - Kreditor - Saldenrückblick  
 - Debitor - Saldenrückblick  
 
-Nehmen wir mal an, Sie möchten den Cashflow vertiefter ansehen. Vom Geschäftsleiter- oder dem Buchhalter-Rollencenter aus können Sie den Bericht **Cashflowauszug** in Excel öffnen, tatsächlich exportieren wir aber die relevanten Daten für Sie und erstellen eine Excel-Arbeitsmappe auf Grundlage einer vordefinierte Vorlage. Abhängig von Ihrem Browser werden Sie aufgefordert, möglicherweise die Arbeitsmappe zu öffnen oder zu speichern.  
+Nehmen wir mal an, Sie möchten den Cashflow vertiefter ansehen. Vom Geschäftsleiter- oder dem Buchhalter-Rollencenter aus können Sie den Bericht **Cashflowauszug** in Excel öffnen, tatsächlich exportieren wir aber die relevanten Daten für Sie und erstellen ein Excel-Arbeitsblatt auf Grundlage einer vordefinierte Vorlage. Abhängig von Ihrem Browser werden Sie aufgefordert, möglicherweise das Arbeitsblatt zu öffnen oder zu speichern.  
 
-Dort finden Sie eine Registerkarte, in der die Daten für Sie im ersten Fenster ausgebreitet werden. Alle Daten, die exportiert wurden, sind ebenfalls in anderen Arbeitsblättern vorhanden, wenn Sie sie benötigen. Sie können den Bericht sofort drucken, oder Sie können das Feld ändern, solange Sie die Übersicht und die Details haben, die Sie anzeigen möchten. Verwenden Sie das [!INCLUDE [prod_short](includes/prod_short.md)] Excel-Add-In, um Daten zu filtern und zu analysieren.  
+Dort finden Sie eine Registerkarte, in der die Daten für Sie im ersten Arbeitsblatt ausgebreitet werden. Alle Daten, die exportiert wurden, sind ebenfalls in anderen Arbeitsblättern vorhanden, wenn Sie sie benötigen. Sie können den Bericht sofort drucken, oder Sie können das Feld ändern, solange Sie die Übersicht und die Details haben, die Sie anzeigen möchten. Verwenden Sie das [!INCLUDE [prod_short](includes/prod_short.md)] Excel-Add-In, um Daten zu filtern und zu analysieren.  
 
 ### <a name="understanding-the-excel-templates"></a>Grundlegendes zu den Excel-Vorlagen
 

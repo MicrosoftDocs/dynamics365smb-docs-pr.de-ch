@@ -51,7 +51,7 @@ Wenn das Planungssystem die Notwendigkeit einer Neubestellung erkennt, wird das 
 
 Unabhängige vom Wiederbeschaffungsverfahrens folgt das Planungssystem normalerweise dieser Logik:  
 
-1. Die Menge des Bestellvorschlags wird berechnet, um den angegebenen minimalen Bestand des Artikels zu erfüllen; dies ist normalerweise der Sicherheitsbestand. Wenn nichts angegeben ist, ist der minimale Lagerbestand Null.  
+1. Die Menge des Bestellarbeitsblatts wird berechnet, um den angegebenen minimalen Bestand des Artikels zu erfüllen; dies ist normalerweise der Sicherheitsbestand. Wenn nichts angegeben ist, ist der minimale Lagerbestand Null.  
 2. Wenn der voraussichtlich verfügbare Lagerbestand den Sicherheitsbestand unterschreitet, wird ein rückwärts-geplanter Beschaffungsauftrag vorgeschlagen. Die Auftragsmenge füllt mindestens den Sicherheitsbestand und kann durch den Bruttobedarf innerhalb des Zeitrahmens, durch die Wiederbeschaffungsrichtlinie oder die Auftragsmodifikatoren erhöht werden.  
 3. Wenn der voraussichtliche Lagerbestand den Minimalbestand (berechnet aus den aggregierten Änderungen innerhalb des Zeitrahmens) erreicht oder unterschreitet und über dem Sicherheitsbestand liegt, wird ein vorwärtsgeplanter Ausnahmeauftrag vorgeschlagen. Sowohl der zu erfüllende Bruttobedarf, als auch das Wiederbeschaffungsverfahren bestimmen die Bestellmenge. Mindestens entspricht die Bestellmenge dem Minimalbestand.  
 4. Wenn mehr Grobbedarf vor dem Fälligkeitsdatum des vorwärts geplanten Auftragsvorschlag besteht und dieser Bedarf den derzeit geplanten voraussichtlich verfügbaren Lagerbestand unter den Sicherheitsbestand bringt, wird die Auftragsmenge entsprechend erhöht. Die vorgeschlagene Beschaffungsauftrag wird dann vom Fälligkeitsdatum dieses Grobbedarfs, der den Sicherheitsbestand unterschritten hätte, rückwärts geplant.  
@@ -105,7 +105,7 @@ In den folgenden Beispielen stellen die schwarzen Pfeile vorhandenen Bedarf (auf
 **Vorgabewerte**: Der Vorgabewert des **Zeitrahmen**-Feldes und der drei Nachbestellungsperiodenfelder ist leer. Für alle Felder mit Ausnahme des Felds **Toleranzperiode** bedeutet dies 0D (Null Tage). Wenn das Feld **Toleranzperiode** leer ist, wird der Wert im Feld **Standardtoleranzperiode** auf der Seite **Produktion Einrichtung** verwendet.  
 
 ## <a name="modify-the-supply-orders"></a>Ändern Sie die Beschaffungsaufträge  
-Wenn die Menge des Bestellvorschlags berechnet wurde, können eine oder mehrere der Auftragsmodifikationen ihn anpassen. Beispielsweise ist die maximale Auftragsgrösse grösser als oder gleich der minimale Auftragsgrösse, die grösser als oder gleich dem Auftragsvielfachen ist.  
+Wenn die Menge des Bestellarbeitsblatts berechnet wurde, können eine oder mehrere der Auftragsmodifikationen ihn anpassen. Beispielsweise ist die maximale Auftragsgrösse grösser als oder gleich der minimale Auftragsgrösse, die grösser als oder gleich dem Auftragsvielfachen ist.  
 
 Die Menge wird verringert, wenn sie die maximale Auftragsmenge übersteigt. Dann wird sie erhöht, wenn sie unter der Mindestbestellgrösse liegt. Schliesslich wird sie aufgerundet, sodass sie einem angegebenen Auftragsvielfachen entspricht. Alle Restmengen verwenden die gleichen Regulierungen, bis der Gesamtbedarf in Bestellvorschläge umgewandelt wurde.  
 

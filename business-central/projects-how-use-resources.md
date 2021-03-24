@@ -58,7 +58,7 @@ Wenn Sie einen oder mehrere alternative Ressourcenpreise basierend auf den Stand
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Ressourcenpreisänderungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Res. Preisänderung (Res) vorschlagen** aus. Füllen Sie dann die Felder wie notwendig aus.  
 3. Wählen Sie die Schaltfläche **OK** aus.  
-4. Wenn die Stapelverarbeitung beendet ist, öffnen Sie die Seite **Ressourcen-VK-Preisvorschläge**, um die Ergebnisse der Stapelverarbeitung anzuzeigen.
+4. Wenn die Stapelverarbeitung beendet ist, öffnen Sie die Seite **Ressourcen-VK-Preisarbeitsblatt**, um die Ergebnisse der Stapelverarbeitung anzuzeigen.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Um Ressourcenpreisvorschläge auf Basis alternierender Preise zu erhalten
 Wenn Sie bereits alternative Ressourcenpreise für mehrere Ressourcen eingerichtet haben, können Sie den Batchauftrag verwenden, um alternative Ressourcenpreise einzurichten.
@@ -66,7 +66,7 @@ Wenn Sie bereits alternative Ressourcenpreise für mehrere Ressourcen eingericht
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Res. Preisänderung (Preis) vorschlagen.** ein, und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie die Felder je nach Bedarf aus.
 3. Wählen Sie die Schaltfläche **OK** aus.  
-4. Wenn die Stapelverarbeitung beendet ist, öffnen Sie die Seite **Ressourcen-VK-Preisvorschläge**, um die Ergebnisse der Stapelverarbeitung anzuzeigen.
+4. Wenn die Stapelverarbeitung beendet ist, öffnen Sie die Seite **Ressourcen-VK-Preisarbeitsblatt**, um die Ergebnisse der Stapelverarbeitung anzuzeigen.
 
 ## <a name="see-also"></a>Siehe auch
 [Projektmanagement](projects-manage-projects.md)  

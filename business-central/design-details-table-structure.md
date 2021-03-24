@@ -150,7 +150,7 @@ Feld 480 ist in den folgenden Tabellen editierbar.
 |207|**Res. Erf.-Journalzeile**|  
 |210|**Projekt Erf.-Journalzeile**|  
 |221|**Fibu Erf.-Journal Verteilungen**|  
-|246|**Bestellvorschlagszeile**|  
+|246|**Bestellarbeitsblattzeile**|  
 |295|**Mahnungskopf**|  
 |302|**Zinsrechnungskopf**|  
 |5405|**Fertigungsauftrag**|  

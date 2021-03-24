@@ -22,7 +22,7 @@ ms.locfileid: "5391538"
 # <a name="update-standard-costs"></a>Standardkosten aktualisieren
 Sie müssen die festen Einstandspreise von Komponenten in regelmässigen Abständen aktualisieren und die neuen Einstandspreise auf den übergeordneten Artikel übertragen. Der Prozess besteht in der Regel aus den folgenden vier Schritten:  
 
-1.  Aktualisieren von Kosten auf der Komponenten- und Kapazitätsebene. Weitere Informationen finden Sie unter dem Stapelverarbeitungsauftrag **Artikel Einst.-Preis (fest) vorschlagen**.  
+1.  Aktualisieren von Kosten auf der Komponenten- und Kapazitätsebene. Weitere Informationen finden Sie unter dem Stapelverarbeitungsauftrag **Artikel Einst.-Preis (fest) Arbeitsblatten**.  
 2.  Konsolidieren Sie und rollen Sie Komponenten- und Kapazitätskosten auf, um die Gesamtkosten für Herstellung oder Montage der Artikel zu berechnen.  
 3.  Implementieren der festen Einstandspreise, die bei der Ausführung der obigen Batchaufträge eingegeben werden. Die festen Einstandspreise treten erst in Kraft, wenn Sie implementiert werden. Weitere Informationen finden Sie unter Mehrstufigen Einstandspreisänderungen implementieren.  
 4.  Implementieren der Änderungen, um das Feld **Einstandspreis** auf der Artikelkarte zu aktualisieren und eine Lagerneubewertung durchzuführen. Weitere Informationen finden Sie unter [Neubewerten von Lagerbestand](inventory-how-revalue-inventory.md).  
@@ -31,7 +31,7 @@ Weitere Informationen finden Sie unter [Über das Berechnen von festen Einstands
 ## <a name="to-update-standard-costs"></a>Einstandspreise aktualisieren  
 1.  Führen Sie die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** aus.  
 2.  Aufruf der Stapelverarbeitung **Lagerregulierung buchen**.  
-3.  Öffnen Sie den **Einst.-Preis (fest) Vorschlag** und verwenden Sie eine oder mehrere der folgenden Funktionen:  
+3.  Öffnen Sie den **Einst.-Preis (fest) Arbeitsblatt** und verwenden Sie eine oder mehrere der folgenden Funktionen:  
 
     1.  Führen Sie die Stapelverarbeitung **Art. Einst.-Pr. (fest) vorschlagen** aus.  
     2.  Sehen Sie sich die Ergebnisse an, und nehmen Sie ggf. Änderungen vor.  
@@ -39,7 +39,7 @@ Weitere Informationen finden Sie unter [Über das Berechnen von festen Einstands
     4.  Sehen Sie sich die Ergebnisse an, und nehmen Sie ggf. Änderungen vor.
     5. Führen Sie die Stapelverarbeitung **Mehrstufigen Einstandspreis berechnen** aus.
     6.  Sehen Sie sich die Ergebnisse an, und nehmen Sie ggf. Änderungen vor.
-    7.  Führen Sie die Stapelverarbeitung **Einst.-Preis (fest) Vorschlag übernehmen** aus.  
+    7.  Führen Sie die Stapelverarbeitung **Einst.-Preis (fest) Arbeitsblatt übernehmen** aus.  
 4.  Sehen Sie sich das  **Neubewertungs Erf.-Journal** an, das mit Posten aus vorherigen Schritten in diesem Verfahren gefüllt wurde, und buchen Sie es.  
 
 ## <a name="see-also"></a>Siehe auch  
