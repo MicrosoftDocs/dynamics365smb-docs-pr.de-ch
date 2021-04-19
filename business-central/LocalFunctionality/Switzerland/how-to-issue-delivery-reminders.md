@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 122931b0f56f67d57ddbcd1b2892ae0e12629220
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b3196041da0ec8e593ca651b0b98fb19928c4fa2
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383972"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777591"
 ---
-# <a name="issue-delivery-reminders-in-the-swiss-version"></a><span data-ttu-id="a6430-104">Lieferanmahnungen in der Schweizer Version ausstellen</span><span class="sxs-lookup"><span data-stu-id="a6430-104">Issue Delivery Reminders in the Swiss Version</span></span>
+# <a name="issue-delivery-reminders-in-the-swiss-version"></a><span data-ttu-id="c6c7c-104">Lieferanmahnungen in der Schweizer Version ausstellen</span><span class="sxs-lookup"><span data-stu-id="c6c7c-104">Issue Delivery Reminders in the Swiss Version</span></span>
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)]
 
-## <a name="see-also"></a><span data-ttu-id="a6430-105">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="a6430-105">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c6c7c-105">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="c6c7c-105">See Also</span></span>
 
-[<span data-ttu-id="a6430-106">So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen</span><span class="sxs-lookup"><span data-stu-id="a6430-106">Print Test Reports for Delivery Reminders</span></span>](how-to-print-test-reports-for-delivery-reminders.md)  
-[<span data-ttu-id="a6430-107">Lieferanmahnungen</span><span class="sxs-lookup"><span data-stu-id="a6430-107">Delivery Reminders</span></span>](delivery-reminders.md)  
-[<span data-ttu-id="a6430-108">So erstellen Sie Lieferanmahnungen</span><span class="sxs-lookup"><span data-stu-id="a6430-108">Generate Delivery Reminders</span></span>](how-to-generate-delivery-reminders.md)  
-[<span data-ttu-id="a6430-109">So erstellen Sie Lieferanmahnungen manuell</span><span class="sxs-lookup"><span data-stu-id="a6430-109">Create Delivery Reminders Manually</span></span>](how-to-create-delivery-reminders-manually.md)  
+[<span data-ttu-id="c6c7c-106">So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen</span><span class="sxs-lookup"><span data-stu-id="c6c7c-106">Print Test Reports for Delivery Reminders</span></span>](how-to-print-test-reports-for-delivery-reminders.md)  
+[<span data-ttu-id="c6c7c-107">Lieferanmahnungen</span><span class="sxs-lookup"><span data-stu-id="c6c7c-107">Delivery Reminders</span></span>](delivery-reminders.md)  
+[<span data-ttu-id="c6c7c-108">So erstellen Sie Lieferanmahnungen</span><span class="sxs-lookup"><span data-stu-id="c6c7c-108">Generate Delivery Reminders</span></span>](how-to-generate-delivery-reminders.md)  
+[<span data-ttu-id="c6c7c-109">So erstellen Sie Lieferanmahnungen manuell</span><span class="sxs-lookup"><span data-stu-id="c6c7c-109">Create Delivery Reminders Manually</span></span>](how-to-create-delivery-reminders-manually.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
