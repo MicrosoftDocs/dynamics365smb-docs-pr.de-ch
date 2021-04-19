@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 96000c2229ea987c36336457dfefbf98d0cbf9ff
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e8c896e9b25843ad1b272a7ff07e66e6bfe2536c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382665"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776517"
 ---
 # <a name="vat-rates-for-switzerland"></a>MWST-Sätze für die Schweiz
 Falls sich die MWST-Sätze ändern, müssen Sie das Mehrwertsteuersatz-Änderungstool verwenden. In früheren Versionen von [!INCLUDE[prod_short](../../includes/prod_short.md)] konnten Sie abhängig vom Lieferdatum vorübergehend sowohl die neuen als auch die alten MWST-Sätze für Transaktionen verwenden. Diese Funktion ist veraltet.  

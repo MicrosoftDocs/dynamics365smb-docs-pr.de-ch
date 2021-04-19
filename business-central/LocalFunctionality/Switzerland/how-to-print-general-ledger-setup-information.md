@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 53db045d040371cf7a50246627bc12854b9db404
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1c39ebde2206524d81f9beccecc80b1b385cc6ca
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383957"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776558"
 ---
 # <a name="print-general-ledger-setup-information"></a>Drucken von Finanzbuchhaltungs-Setupinformationen
 Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] im täglichen Geschäft verwenden, können Sie den Bericht **Fibu Einr.-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Masterdaten überprüfen, damit Sie eine Grundlage für einen Vergleich haben, und anschliessend verifizieren, dass beispielsweise die Buchungsgruppen ordnungsgemäss eingerichtet sind.  

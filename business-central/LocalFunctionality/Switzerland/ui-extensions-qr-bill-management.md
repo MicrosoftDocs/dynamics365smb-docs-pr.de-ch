@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 78ac68690cb72c6f33208dc185b4085bacf510ea
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 229738071822ae68328adaa542e671f03e623b51
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382669"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788206"
 ---
 # <a name="qr-bill-management-in-prod_short"></a>QR-Bill Management in [!INCLUDE[prod_short](../../includes/prod_short.md)]
 Ab dem 1. Juli 2020 müssen Unternehmen in der Schweiz QR-Rechnungen empfangen können. QR-Rechnungen sind Zahlungsscheine für Rechnungen und eine landesweite Initiative zur Optimierung von Zahlungsprozessen. QR-Rechnungen ersetzen alle vorhandenen Zahlungsscheine und ESR-bezogene Funktionen. Sie enthalten alle erforderlichen Informationen zum Vornehmen von Zahlungen. Ein QR-Code auf dem Zahlungsschein erleichtert das Importieren der Informationen in [!INCLUDE[prod_short](../../includes/prod_short.md)]. Alle relevanten Informationen werden importiert und zum Generieren von Zahlungen für den Kreditor verwendet, der die QR-Rechnung gesendet hat, einschliesslich der Zahlungsreferenz, die automatisch in Kreditorenposten eingefügt und in Zahlungsdateien an die Bank exportiert wird.
@@ -86,7 +86,7 @@ Sie können QR-Rechnungen direkt in ein **Einkauf Erf.-Journal** scannen oder im
 Beim Importieren von Banktransaktionen (camt) auf der Seite "Zahlungsabstimmungserfassungsjournal" wird angenommen, dass die Datei die Zahlungsreferenz enthält, die automatisch die entsprechenden **Debitorenposten** sucht, die ausgeglichen werden müssen.    
 
 ## <a name="upcoming-capabilities-for-qr-bills"></a>Zukünftige Funktionen für QR-Rechnungen
-Wir planen, der QR-Bill Management-Erweiterung in den kommenden Updates der 1. Veröffentlichungsrunde 2020 weitere Funktionen hinzuzufügen. Beispiel: Sie können QR-Rechnungen durch Einkaufsbelege und Einkaufserfassungsjournale empfangen. Dies ermöglicht zusätzliche Validierungen sowie die Automatisierung und Optimierung von Empfangsprozessen. Informationen dazu finden Sie im [Veröffentlichungsplan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-business-central/qr-bill-management-switzerland).
+Wir planen, der QR-Bill Management-Erweiterung in den kommenden Updates der 1. Veröffentlichungsrunde 2020 weitere Funktionen hinzuzufügen. Beispiel: Sie können QR-Rechnungen durch Einkaufsbelege und Einkaufserfassungsjournale empfangen. Dies ermöglicht zusätzliche Validierungen sowie die Automatisierung und Optimierung von Empfangsprozessen. Informationen dazu finden Sie im [Veröffentlichungsplan](/dynamics365-release-plan/2020wave1/dynamics365-business-central/qr-bill-management-switzerland).
 
 ## <a name="see-also"></a>Siehe auch
 [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)  
