@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 8c631dcbb2c6afa6abec9ace86df0f0babb23b2d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 386025d90301f780f8bf5927de495658a100825f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385513"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775289"
 ---
 # <a name="detecting-mandatory-fields"></a>Pflichtfelder erkennen
 Wenn Sie Daten auf Seiten in  [!INCLUDE[prod_short](includes/prod_short.md)] eingeben, werden bestimmte Felder mit einem roten Sternchen markiert. Das rote Sternchen bedeutet, dass das Feld ausgefüllt werden muss, um einen bestimmten Prozess, der das Feld verwendet, abzuschliessen (Beispiel: Buchung einer Transaktion, die den Wert in dem Feld verwendet).

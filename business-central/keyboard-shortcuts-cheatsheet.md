@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 33365f7cd9abe8844b1ba9387c908d7189c28bde
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 34494802f001e78c56cb2eeab997f60cda320472
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392988"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784531"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Nur PC-Tastenkombinationskurzübersicht
 
@@ -23,32 +23,63 @@ ms.locfileid: "5392988"
 
 |Drücken Sie diese Tasten|Vorgehensweise|  
 |-|-|
-|Alt+F2<br />ALT+N<br />ALT+SHIFT+N<br />ALT+O<br />ALT+Q<br />ALT+NACH-OBEN-TASTE<br />ALT+NACH-UNTEN-TASTE<br />ALT+T<br />ALT+SHIFT+W<br />Ctrl+Ins<br />CTRL+DEL<br />Ctrl+Shift+F12<br />CTRL+F1<br />Ctrl+Click<br />Shift+F12<br />F5/CTRL+F5<br />TAB/UMSCHALT+TAB<br />F6/Shift+F6<br />|Infoboxbereich anzeigen und ausblenden.<br />Erstellen eines neuen Datensatzes<br />Schliessen Sie einen neu erstellten Datensatz und erstellen Sie einen neuen Datensatz.<br />Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu<br />Öffnen Sie **Mitteilen**<br />Öffnen Sie QuickInfo oder Überprüfungsfehler<br />Dropdown oder Suche öffnen<br />Öffnen der Seite **Meine Einstellungen**.<br />Öffnen Sie die aktuelle Karte oder das Beleg in einem neuen Fenster<br />Fügen Sie eine neue Zeile in einem Beleg hinzu<br />Löschen Sie die Zeile in einem Beleg, Erf.-Journal oder Arbeitsblatt<br />Maximieren Sie den Werbebuchungsteil auf einer Belegseite<br />Hilfe für die Seite öffnen<br />Navigieren Sie beim Personalisieren und Anpassen<br />Öffnen Sie den Rollen-Explorer, eine Funktionsübersicht.<br />Die Seite aktualisieren/neu laden.<br />Fokus auf das nächste/vorherige Element richten<br />Weiter zum nächsten Inforegister/Teil|
+|Alt+F2|Infoboxbereich anzeigen und ausblenden.|
+|ALT+N|Erstellen eines neuen Datensatzes|
+|ALT+SHIFT+N|Schliessen Sie einen neu erstellten Datensatz und erstellen Sie einen neuen Datensatz.|
+|ALT+O|Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu|
+|ALT+Q|Öffnen Sie **Mitteilen**|
+|ALT+NACH-OBEN-TASTE|Öffnen Sie QuickInfo oder Überprüfungsfehler|
+|ALT+NACH-UNTEN-TASTE|Dropdown oder Suche öffnen|
+|ALT+T|Öffnen der Seite **Meine Einstellungen**.|
+|ALT+SHIFT+W|Öffnen Sie die aktuelle Karte oder das Beleg in einem neuen Fenster|
+|Ctrl+Ins|Fügen Sie eine neue Zeile in einem Beleg hinzu|
+|CTRL+DEL|Löschen Sie die Zeile in einem Beleg, Erf.-Journal oder Arbeitsblatt|
+|Ctrl+Shift+F12|Maximieren Sie den Werbebuchungsteil auf einer Belegseite|
+|CTRL+F1|Hilfe für die Seite öffnen<br />Navigieren Sie beim Personalisieren und Anpassen|
+|Ctrl+Click|Navigieren Sie beim Personalisieren und Anpassen|
+|Shift+F12|Öffnen Sie den Rollen-Explorer, eine Funktionsübersicht.|
+|F5/CTRL+F5|Die Seite aktualisieren/neu laden.|
+|TAB/UMSCHALT+TAB|Fokus auf das nächste/vorherige Element richten|
+|F6/Shift+F6|Weiter zum nächsten Inforegister/Teil|
 
 #### <a name="navigate--select-rows"></a>Navigieren und Zeilen auswählen
 
 |Drücken Sie diese Tasten|Vorgehensweise|
 |-|-|
-|Start/Ende<br />CTRL+HOME/END <br />CTRL+NACH UNTEN/NACH OBEN<br />CTRL+A <br />CTRL+LEERTASTE<br />Ctrl/Shift+Click<br />SHIFT+NACH OBEN/UNTEN<br />SHIFT+SEITE NACH UNTEN/OBEN<br />Ctrl+Enter|Zum ersten/letzten Feld gehen.<br />Zur ersten/letzten Zeile.<br />Navigieren Sie ohne die Auswahl zu verlieren<br />Alles auswählen<br />Toggle-Zeilen-Auswahl<br /> Fügen Sie die Zeile/Zeilen der Angaben hinzu<br />Fügen Sie Zeilen über/unter der Auswahl hinzu<br />Sichtbare Zeilen darüber/darunter auswählen <br />Fokus weg von der Liste|
+|Start/Ende|Zum ersten/letzten Feld gehen.|
+|CTRL+HOME/END |Zur ersten/letzten Zeile.|
+|CTRL+NACH UNTEN/NACH OBEN|Navigieren Sie ohne die Auswahl zu verlieren|
+|CTRL+A |Alles auswählen|
+|CTRL+LEERTASTE|Toggle-Zeilen-Auswahl|
+|Ctrl/Shift+Click|Fügen Sie die Zeile/Zeilen der Angaben hinzu|
+|SHIFT+NACH OBEN/UNTEN|Fügen Sie Zeilen über/unter der Auswahl hinzu|
+|SHIFT+SEITE NACH UNTEN/OBEN|Sichtbare Zeilen darüber/darunter auswählen|
+|Ctrl+Enter|Fokus weg von der Liste|
 
 #### <a name="copy--paste"></a>Kopieren und einfügen
 
 |Drücken Sie diese Tasten|Vorgehensweise|
 |-|-|
-|CTRL+C/V<br />F8|Zeilen kopieren/einfügen<br />Feld in aktuellen Zeile kopieren|
+|CTRL+C/V|Zeilen kopieren/einfügen|
+|F8|Feld in aktuellen Zeile kopieren|
 
 #### <a name="search-filter--sort"></a>Suchen, filtern und sortieren
 
 |Drücken Sie diese Tasten|Vorgehensweise|
 |-|-|
-|Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Sortieren Sie die ausgewählte Spalte in aufsteigender/absteigender Reihenfolge.<br />Suche umschalten<br />Zwischen Filterbereichen umschalten; Fokus auf Feldfilter<br />Zwischen Filterbereichen umschalten; Fokus auf Feldfilter<br />Filtern Sie ausgewählte Zellwerte<br />Filter auf ausgewählten Felder hinzufügen<br />Filter zurücksetzen|
+|Alt+F7|Sortieren Sie die ausgewählte Spalte in aufsteigender/absteigender Reihenfolge.|
+|F3|Suche umschalten|
+|Shift+F3|Zwischen Filterbereichen umschalten; Fokus auf Feldfilter|
+|Alt+F3|Filtern Sie ausgewählte Zellwerte|
+|Shift+Alt+F3|Filter auf ausgewählten Felder hinzufügen|
+|Ctrl+Alt+Shift+F3|Filter zurücksetzen|
 
 #### <a name="quick-entry"></a>Schnelleingabe
 
 |Drücken Sie diese Tasten|Vorgehensweise|
 |-|-|
-|CTRL+SHIFT+ENTER<br />ENTER/SHIFT+ENTER|Zum nächsten Schnelleingabefeld ausserhalb einer Liste navigieren<br />Zum nächsten/vorherigen Schnelleingabefeld navigieren|
-
+|CTRL+SHIFT+ENTER|Zum nächsten Schnelleingabefeld ausserhalb einer Liste navigieren|
+|ENTER/SHIFT+ENTER|Zum nächsten/vorherigen Schnelleingabefeld navigieren|
 ##### <a name="report-preview"></a>Berichtvorschau
 
 |Drücken Sie diese Tasten|Vorgehensweise|

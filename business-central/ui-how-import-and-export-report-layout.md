@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d718553661c7fcfa44c010b7b9dbc4d0d2716d14
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 00fab887fa5680560ddcf4d612889be91c842fcf
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385813"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784679"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importieren und Exportieren von benutzerdefinierten Berichtslayouts
 Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem Speicherort auf dem Computer oder im Netzwerk speichern und exportieren sowie von dort aus wieder importieren. Beispielsweise können Sie ein Berichtlayout exportieren und dann die Datei an eine andere Person senden, die diese dann ändern kann. Diese Person kann die Änderungen am Layout vornehmen und Ihnen die Datei zurücksenden, damit Sie sie zurückimportieren können.  

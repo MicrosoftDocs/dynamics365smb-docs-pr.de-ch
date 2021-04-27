@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5d3d39cc721f5157487fbe55f799a5a462a2be10
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4e9a121efe984e075c54c747fc426bf9a4519b81
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386188"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787416"
 ---
 # <a name="the-c5-data-migration-extension"></a>Die C5-Datenmigrations-Erweiterung
 
@@ -107,7 +107,7 @@ Die maximale Dateigrösse, die Sie zu [!INCLUDE[prod_short](includes/prod_short.
 Es gibt nur einige wenige Schritte, um die Daten aus C5 zu exportieren und sie in [!INCLUDE[prod_short](includes/prod_short.md)] zu importieren:  
 
 1. In C5 verwenden Sie die Funktion **Datenbank exportieren**, um die Daten zu exportieren. Senden Sie dann den Exportordner an einen komprimierten (gezippten) Ordner.  
-2. Wählen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die Option ![Glühbirne, die das Tell Me-Feature öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Datenmigration** ein und wählen Sie dann **Datenmigration**.  
+2. Wählen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die Option ![Glühbirne, die das Tell Me-Feature öffnet](media/ui-search/search_small.png "Tell me-Funktion"), geben Sie **Datenmigration** ein und wählen Sie dann **Datenmigration**.  
 3. Schliessen Sie die Schritte im unterstützten Setup ab. Stellen Sie sicher, dass Sie **Importieren aus Microsoft Dynamcis C5 2012** als die Datenquelle auswählen.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Zeigt den Status der Datenmigration an
@@ -160,7 +160,7 @@ Sie können Datenmigration unterbrechen, indem Sie **Automatisches Beenden alle 
 ## <a name="see-also"></a>Siehe auch
 
 [Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

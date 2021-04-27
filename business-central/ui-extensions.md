@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/02/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 805350a7b1213ec0e0d0550e5c5b63c557ee470a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493292"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771353"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Anpassen von Business Central Online mithilfe der Erweiterungen
 
@@ -31,7 +31,7 @@ Wenn Sie das [!INCLUDE[prod_short](includes/prod_short.md)] zuerst starten, werd
 Beispielsweise bietet Microsoft eine Erweiterung an, die die Integration mit Standard Paypal-Zahlungen ermöglicht. Diese Erweiterung wird standardmässig eingerichtet.
 Wenn aber keine andere Erweiterung bereitgestellt wird, die die Integration mit einem anderen Zahlungsservice anbietet, können Sie die neue Erweiterung einrichten und dann auswählen, welcher der beiden Services verwendet werden soll.  
 
-Sie verwalten die Erweiterung auf der **Erweiterungs-Verwaltungs**-Seite. Sie können vom Startbildschirm auf diese Seite zugreifen. Wählen Sie alternativ das Symbol **Nach Seite oder Bericht suchen** aus ![Glühlampe, mit der die Funktion „Sie wünschen“ geöffnet wird](media/ui-search/search_small.png "Tell Me-Funktion") in der oberen rechter Ecke, geben Sie **Erweiterung** ein, und wählen Sie dann den zugehörigen Link aus. Weitere Informationen finden Sie unter [Installieren und Deinstallieren von Erweiterungen](ui-extensions-install-uninstall.md).
+Sie verwalten die Erweiterung auf der **Erweiterungs-Verwaltungs**-Seite. Sie können vom Startbildschirm auf diese Seite zugreifen. Wählen Sie alternativ das Symbol **Nach Seite oder Bericht suchen** aus ![Glühlampe, mit der die Funktion „Sie wünschen“ geöffnet wird](media/ui-search/search_small.png "Tell me-Funktion") in der oberen rechter Ecke, geben Sie **Erweiterung** ein, und wählen Sie dann den zugehörigen Link aus. Weitere Informationen finden Sie unter [Installieren und Deinstallieren von Erweiterungen](ui-extensions-install-uninstall.md).
 
 > [!NOTE]  
 > Wenn Sie der Meinung sind, Sie sollten Zugriff zu einer Erweiterung haben, können die Funktionalität aber nicht finden, überprüfen Sie die Seite **Erweiterungsverwaltung**, wenn die Erweiterung dort nicht aufgeführt wird, können Sie sie einrichten, wie im folgenden Abschnitt erläutert.  
@@ -79,6 +79,27 @@ Microsoft stellt die folgenden Erweiterungen bereit:
 > [!NOTE]  
 > Sie können nach neuen Erweiterungen von Microsoft und anderen Anbietern unter [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) Ausschau halten.
 
+
+## <a name="extensions-and-data-transfer"></a>Erweiterungen und Datenübertragung
+
+Da die folgenden Erweiterungen mit anderen Diensten kommunizieren, können sie Daten aus der Geografie der [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebung übertragen:
+
+* AMC Banking 365 Fundamentals-Erweiterung
+* Bild-Analyse
+* Vorhersage verspäteter Zahlungen
+* PayPal Payments Standard
+* Verkaufs‑ und Lagerbestandsplanung
+* WorldPay Payments Standard
+
+Dies gilt auch für einige Funktionen in der Basisanwendung, z. B. die folgenden Funktionen:
+
+* Cashflowplanung
+* Belegaustauschdienst
+* Dataverse-Verbindungen
+* OCR-Dienst
+* Online Map
+* EU MWST Reg.-Nr. Dienst
+
 ## <a name="see-also"></a>Siehe auch
 
 [Anpassen von Business Central](ui-customizing-overview.md)  
@@ -88,7 +109,7 @@ Microsoft stellt die folgenden Erweiterungen bereit:
 [Geschäftsdaten aus anderen Finanzsystemen migrieren](across-import-data-configuration-packages.md)  
 [Einrichten der britischen Postleitzahlerweiterung GetAddress.io](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]Erweiterungen für andere Anbieter](ui-extensions-other.md)E  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

@@ -1,17 +1,17 @@
 ---
-title: Warnungen und Fehlermeldungen | Microsoft Docs
+title: Warnungen und Fehlermeldungen
 description: Erfahren Sie, wie Sie Fehler beheben und Lösungen für Fehlermeldungen finden können, wenn Sie in Business Central arbeiten.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d57ffe82cefb3e15d9b175c3ac17631e75a3edb3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387188"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779496"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Warnungen und Fehlermeldungen in Dynamics 365 Business Central
 
@@ -19,7 +19,7 @@ Während Ihres Arbeitstages werden möglicherweise Benachrichtigungen in [!INCLU
 
 ## <a name="in-product-user-assistance"></a>Produktinterne Benutzerunterstützung
 
-Die Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] enthält Beschreibungen für die meisten Felder, Spalten und Aktionen, auf die bei Auswahl des Namens zugegriffen werden kann. In Kombination mit beschreibenden Beschriftungen und Anweisungstexten sind diese Tooltips oder Callouts unsere aktuelle Implementierung von *eingebetteter Benutzerunterstützung*. Dies ist ein wichtiges Prinzip in der heutigen Welt des Softwaredesigns.  
+Die Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] enthält Beschreibungen für die meisten Felder, Spalten und Aktionen, auf die bei Auswahl des Namens zugegriffen werden kann. In Kombination mit Unterrichtstipps für wichtige Seiten, beschreibenden Beschriftungen und Anweisungstexten sind diese QuickInfos oder Callouts unsere aktuelle Implementierung von *eingebetteter Benutzerunterstützung*. Dies ist ein wichtiges Prinzip in der heutigen Welt des Softwaredesigns.  
 
 Wenn Sie eine Frage zu einem Feld oder einem anderen Element der Benutzeroberfläche haben, wählen Sie den Namen. Eine kurze Beschreibung wird angezeigt. Wählen Sie den Link *Mehr erfahren*, wenn das nicht genug ist.  
 
@@ -41,7 +41,7 @@ Wenn Sie ein Administrator oder Superuser sind, können Sie anderen helfen, inde
 [Suchen und Filtern – FAQs](ui-search-filter-faq.md)  
 [Kopieren und einfügen FAQ](faq-copy-paste.yml)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

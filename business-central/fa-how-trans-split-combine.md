@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0836482d1949c66fd1efb1c97d11df61d97000c3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 40dcb4a758f2ac98903e61df27863b9fee854922
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380141"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770330"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Übertragen, Teilen oder Kombinieren von Anlagen.
 
@@ -26,12 +26,12 @@ Es kann erforderlich sein, Anlagen an andere Kostenstellen zu transferieren, wen
 
 1. Richten Sie eine neue Anlage ein. Geben Sie die neue Abteilung als Dimension ein.  
 2. Weisen Sie der neuen Anlage ein Anlagen-Abschreibungsbuch zu. Weitere Informationen finden Sie unter [Anschaffen von Anlagen](fa-how-acquire.md).
-3. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anlagen Umbuch. Erf.-Journale** ein und wählen Sie dann den entsprechenden Link aus.
+3. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Anlagen Umbuch. Erf.-Journale** ein und wählen Sie dann den entsprechenden Link aus.
 4. Erstellen Sie eine Erf.-Journalzeile, in der das Feld **Anlagennr.** die ursprüngliche Anlage enthält und das Feld **Neue Anlagennr.** die neue Anlage, die verschoben werden soll. Füllen Sie die anderen Felder aus entsprechend aus.  
 5. Wählen Sie die Aktion **Umbuchen** aus.
 
     Es werden zwei Zeilen im Anlagen Fibu Erf.-Journal unter Verwendung der Vorlage und dem Erf.-Journalnamen, die Sie auf der Seite **Anlagen Erf.-Journal Einr.** für das gewählte Abschreibungsbuch angegeben haben, erstellt. Weitere Informationen finden Sie unter [Anlagen-Abschreibungsbücher automatisch einrichten](fa-how-setup-depreciation.md).
-6. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anlagen-Fibu Erfassungsjournale** ein und wählen Sie dann den entsprechenden Link.    
+6. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Anlagen-Fibu Erfassungsjournale** ein und wählen Sie dann den entsprechenden Link.    
 7. Auf der Seite **Anlagen Fibu Erf.-Journal** wählen Sie die Aktion **Buchen** aus, um die Umlagerungen zu buchen, die Sie in Schritt 4 und 5 ausgeführt haben.
 
 Falls Sie Anschaffungskosten für eine Anlage gebucht haben, können Sie das Anlagen Umlagerungserfassungsjournal verwenden, um die Anschaffungskosten auf mehrere Anlagen aufzusplitten.  
@@ -77,7 +77,7 @@ Sie können mehrere Anlage in einer Anlagen zusammenfassen, wenn Sie zum Beispie
 [Anlagen](fa-manage.md)  
 [Anlagen einrichten](fa-setup.md)  
 [Finanzen](finance.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

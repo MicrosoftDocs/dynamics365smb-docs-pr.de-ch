@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 02/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59bf311e24f11e062a243026ec35ca4c7b779952
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493342"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774169"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Abschreibungsmethoden für Anlagen
 
@@ -154,16 +154,16 @@ Berechnungsmethode:
 
 Die Formel zur Berechnung des Abschreibungsbetrages ist:  
 
-*DA* = *BV* x (1 – (1 –P)<sup>D<sup> 
+*DA* = *BV* x (1 – (1 –P)<sup>D</sup>)
 
 Die Abschreibungswerte lauten:  
 
 | Datum | Berechnung |
 | --- | --- |
-| 06/30/20 |AB = 100.000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 13.397,46 |
-| 12/31/20 |AB = 86.602,54 x (1 - (1 - 0,25)<sup>0,5<sup>) = 11.602,54 |
-| 06/30/21 |AB = 75.000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 10.048,09 |
-| 12/31/21 |AB = 64.951,91 x (1 - (1 - 0,25)<sup>0,5<sup>) = 8.701,91 |
+| 06/30/20 |DA = 100.000,00 x (1 -(1 - 0,25)<sup>0,5</sup>) = 13.397,46 |
+| 12/31/20 |DA = 86.602,54 x (1 -(1 - 0,25)<sup>0,5</sup>) = 11.602,54 |
+| 06/30/21 |DA = 75.000,00 x (1 -(1 - 0,25)<sup>0,5</sup>) = 10.048,09 |
+| 12/31/21 |DA = 64.951,91 x (1 -(1 - 0,25)<sup>0,5</sup>) = 8.701,91 |
 
 ## <a name="db1sl-depreciation"></a>Degressiv/Lineare Abschreibung 1
 
@@ -205,7 +205,7 @@ Die Anlagenposten sehen folgendermassen aus:
 
 Berechnungsmethode:  
 
-* Jahr 1:  
+* Jahr 1 (2020):  
 
     *Degressiv Betrag: 25% von 100.000 = 25.000=12.500+12.500*  
 
@@ -239,7 +239,7 @@ Diese benutzerdefinierte Methode kann auch verwendet werden, um eine Abschreibun
 
 Auf der Seite **Abschreibungstabelle** können Sie benutzerdefinierte Abschreibungsmethoden einrichten. Beispielsweise können Sie die Abschreibung basierend auf der Stückzahl einrichten.  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Abschreibungstabellen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell me-Funktion"), geben Sie **Abschreibungstabellen** ein und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Abschreibung-Tabelle Übersicht** wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie auf der Seite **Abschreibungstabelle - Karte** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -373,7 +373,7 @@ Wenn Sie einen Posten in B1 im Anlagen-Fibu Erf.-Journal erstellen und dann ein 
 [Anlagen](fa-manage.md)  
 [Anlagen einrichten](fa-setup.md)  
 [Finanzen](finance.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

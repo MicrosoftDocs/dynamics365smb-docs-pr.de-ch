@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 19331b3897c6ca0ec848298a105729ecda1d3a87
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e9c7e20f73b154eeb4c9f47d9100222e0723c42f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377026"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773519"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>Verwenden der AMC Banking 365 Fundamentals-Erweiterung
-Die AMC Banking 365 Fundamentals-Erweiterung macht es einfacher und genauer, Daten an Ihre Banken zu senden. Die Erweiterung verbindet [!INCLUDE[prod_short](includes/prod_short.md)] mit dem AMC Banking 365 Fundamentals for Microsoft Dynamics 365 Business Central-Dienst, der Bankdaten von [!INCLUDE[prod_short](includes/prod_short.md)] in Formate konvertieren kann, die von über 600 Banken weltweit benötigt werden. Dies erleichtert z.B. die Übertragung von Zahlungen und Gutschriften an Lieferanten, indem Sie die Zahlungen auf [!INCLUDE[prod_short](includes/prod_short.md)] eingeben und dann auf Ihre Bank hochladen. Die Formate können auch die Prozesse der Bankabstimmung glätten. Weitere Informationen finden Sie unter [AMC Banking für Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
+Die AMC Banking 365 Fundamentals-Erweiterung macht es einfacher und genauer, Daten an Ihre Banken zu senden. Die Erweiterung verbindet [!INCLUDE[prod_short](includes/prod_short.md)] mit dem AMC Banking 365 Fundamentals for Microsoft Dynamics 365 Business Central-Dienst, der Bankdaten von [!INCLUDE[prod_short](includes/prod_short.md)] in Formate konvertieren kann, die von über 600 Banken weltweit benötigt werden. Dies erleichtert z.B. die Übertragung von Zahlungen und Gutschriften an Lieferanten, indem Sie die Zahlungen auf [!INCLUDE[prod_short](includes/prod_short.md)] eingeben und dann auf Ihre Bank hochladen. Die Formate können auch die Prozesse der Bankabstimmung glätten. Weitere Informationen finden Sie unter [AMC Banking für Microsoft Dynamics 365 Business Central](https://www.amcbanking.com/bc-fundamentals/).
 
 > [!Note]
 > AMC Banking hat zusätzliche Erweiterungen gebaut, die mit [!INCLUDE[prod_short](includes/prod_short.md)] funktionieren. Dieses Thema beschreibt nur die grundlegende Erweiterung.
@@ -48,12 +48,12 @@ Erteilen Sie für jeden neuen Berechtigungssatz nur die Berechtigung **Lesen** f
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>So verbinden Sie die Erweiterung mit AMC Banking.
 1. Besorgen Sie sich ein Modul und einen Serviceplan für AMC Banking. Um dies zu tun, besuchen Sie die Seite [AMC Lizenz](https://license.amcbanking.com/register).
-2. Wählen Sie unter [!INCLUDE[prod_short](includes/prod_short.md)] die ![Glühbirne , die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **AMC Banking Setup** ein und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie unter [!INCLUDE[prod_short](includes/prod_short.md)] die ![Glühbirne , die das Tell Me Feature](media/ui-search/search_small.png "Tell me-Funktion") Symbol öffnet, geben Sie **AMC Banking Setup** ein und wählen Sie dann den entsprechenden Link.  
 3. Wählen Sie auf der Seite **AMC Banking Setup** die Aktion **Unterstütztes Setup**.
 4. Schliessen Sie die Schritte im unterstützten Setup ab.
 
 ### <a name="to-connect-bank-accounts-to-the-extension"></a>So verbinden Sie Bankkonten mit der Erweiterung
-1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me](media/ui-search/search_small.png "Tell Me-Funktion") öffnet, geben Sie **Bankkonten** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me](media/ui-search/search_small.png "Tell me-Funktion") öffnet, geben Sie **Bankkonten** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Karte für das Bankkonto, das Sie mit dem Dienst verbinden möchten.
 3. Wählen Sie im Feld **Bankname** das Format, das Ihre Bank benötigt.  
 
@@ -71,7 +71,7 @@ Die Verwendung dieser Erweiterung ist nur eine Frage des Exports von Daten auf d
 > [!CAUTION]  
 >  Wenn Sie Daten mithilfe der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden einige Ihrer Geschäftsdaten dem Anbieter des Dienstes zugänglich gemacht. Der Dienstanbieter, AMC Consult A/S, ist für den Schutz dieser Daten verantwortlich. Weitere Informationen finden Sie unter [AMC-Datenschutzrichtlinie.](https://go.microsoft.com/fwlink/?LinkId=510158)
 
-1. Wählen Sie die ![Glühbirne , die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsjournale** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne , die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Tell me-Funktion"), geben Sie **Zahlungsjournale** ein und wählen Sie dann den entsprechenden Link.
 2. Erstellen Sie die Journalzeilen, die Sie exportieren möchten.  
 
    > [!Note]
@@ -86,7 +86,7 @@ Die Verwendung dieser Erweiterung ist nur eine Frage des Exports von Daten auf d
 
 ## <a name="see-also"></a>Siehe auch
 [Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
-[Erste Schritte](product-get-started.md)
+[Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

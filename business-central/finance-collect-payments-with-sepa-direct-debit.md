@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 31614ffce745213f8af7b3440e886d96a02d39a6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f18bc08a6bb0a2581c8e0983ffa029c07a34cb64
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380545"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786362"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Erfassen von Zahlungen per Basislastschriftverfahren SEPA
 Mit dem Einverständnis Ihres Debitors können Sie Zahlungen nach dem SEPA-Format direkt vom Bankkonto des Debitors einziehen.  
