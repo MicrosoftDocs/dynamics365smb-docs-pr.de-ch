@@ -1,0 +1,1 @@
+<span data-ttu-id="605d2-101"><Token> **GILT FÜR:** Business Central Online 2021 Veröffentlichungszyklus 1 und höher</Token></span><span class="sxs-lookup"><span data-stu-id="605d2-101"><Token> **APPLIES TO:** Business Central 2021 release wave 1 and later</Token></span></span>

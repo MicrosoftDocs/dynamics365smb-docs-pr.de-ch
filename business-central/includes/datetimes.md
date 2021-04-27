@@ -1,0 +1,48 @@
+---
+author: edupont04
+ms.service: dynamics365-business-central
+ms.topic: include
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 7ead218d289668d893a659f730a4c64e31195f10
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788659"
+---
+<span data-ttu-id="a8680-101">Wenn Sie Datums-/Uhrzeitangaben eingeben, die aus einem kombinierten Datum und einer Uhrzeit in einem Feld bestehen, müssen Sie ein Leerzeichen zwischen dem Datum und der Uhrzeit eingeben.</span><span class="sxs-lookup"><span data-stu-id="a8680-101">When you enter datetimes, which are a date and time combined into one field, you must enter a space between the date and the time.</span></span> <span data-ttu-id="a8680-102">Der Datumsteil kann nur Stellen in Form von den offiziellen Datumstrennzeichen Ihrer Regionseinstellung enthalten.</span><span class="sxs-lookup"><span data-stu-id="a8680-102">The date part can only contain spaces in the form of the official date separator of your region settings.</span></span> <span data-ttu-id="a8680-103">Die Uhrzeit kann Stellen um die AM/AM-Angabe enthalten in relevanten regionalen Einstellungen.</span><span class="sxs-lookup"><span data-stu-id="a8680-103">The time can contain spaces around the AM/PM indicator in relevant regional settings.</span></span>
+
+<!--It is also possible to enter only a date in a datetime field, but it is not possible to enter only a time.-->
+
+<span data-ttu-id="a8680-104">In der folgenden Tabelle finden Sie eine Übersicht über die Möglichkeiten zum Eingeben von Datums-/Uhrzeitangaben sowie die Interpretation der jeweiligen Angabe.</span><span class="sxs-lookup"><span data-stu-id="a8680-104">The following table lists the various ways in which you can enter datetimes and how they're interpreted.</span></span>  
+
+|<span data-ttu-id="a8680-105">Eingabe</span><span class="sxs-lookup"><span data-stu-id="a8680-105">Entry</span></span>|<span data-ttu-id="a8680-106">Interpretation</span><span class="sxs-lookup"><span data-stu-id="a8680-106">Interpretation</span></span>|
+|---------------|------------------------|
+|<span data-ttu-id="a8680-107">08-01-2022 05:48:12 PM</span><span class="sxs-lookup"><span data-stu-id="a8680-107">08-01-2022 05:48:12 PM</span></span>|<span data-ttu-id="a8680-108">08\-01\-2022 05:48:12 PM</span><span class="sxs-lookup"><span data-stu-id="a8680-108">08\-01\-2022 05:48:12 PM</span></span>|
+|<span data-ttu-id="a8680-109">131222 132455</span><span class="sxs-lookup"><span data-stu-id="a8680-109">131222 132455</span></span>|<span data-ttu-id="a8680-110">13-12-22 13:24:55</span><span class="sxs-lookup"><span data-stu-id="a8680-110">13-12-22 13:24:55</span></span>|
+|<span data-ttu-id="a8680-111">1-12-22 10</span><span class="sxs-lookup"><span data-stu-id="a8680-111">1-12-22 10</span></span>|<span data-ttu-id="a8680-112">01-12-22 10:00:00</span><span class="sxs-lookup"><span data-stu-id="a8680-112">01-12-22 10:00:00</span></span>|
+|<span data-ttu-id="a8680-113">1.12.22 5</span><span class="sxs-lookup"><span data-stu-id="a8680-113">1.12.22 5</span></span>|<span data-ttu-id="a8680-114">01-12-22 05:00:00</span><span class="sxs-lookup"><span data-stu-id="a8680-114">01-12-22 05:00:00</span></span>|
+|<span data-ttu-id="a8680-115">1.12.22</span><span class="sxs-lookup"><span data-stu-id="a8680-115">1.12.22</span></span>|<span data-ttu-id="a8680-116">01-12-22 00:00:00</span><span class="sxs-lookup"><span data-stu-id="a8680-116">01-12-22 00:00:00</span></span>|
+|<span data-ttu-id="a8680-117">11 12</span><span class="sxs-lookup"><span data-stu-id="a8680-117">11 12</span></span>|<span data-ttu-id="a8680-118">11.aktueller Monat.aktuelles Jahr 12:00:00</span><span class="sxs-lookup"><span data-stu-id="a8680-118">11-current month-current year 12:00:00</span></span>|
+|<span data-ttu-id="a8680-119">1112 12</span><span class="sxs-lookup"><span data-stu-id="a8680-119">1112 12</span></span>|<span data-ttu-id="a8680-120">11.12.aktuelles Jahr 12:00:00</span><span class="sxs-lookup"><span data-stu-id="a8680-120">11-12-current year 12:00:00</span></span>|
+|<span data-ttu-id="a8680-121">h für heute</span><span class="sxs-lookup"><span data-stu-id="a8680-121">t or today</span></span>|<span data-ttu-id="a8680-122">heutiges Datum 00:00:00</span><span class="sxs-lookup"><span data-stu-id="a8680-122">today's date 00:00:00</span></span>|
+|<span data-ttu-id="a8680-123">t Zeit</span><span class="sxs-lookup"><span data-stu-id="a8680-123">t time</span></span>|<span data-ttu-id="a8680-124">heutiges Datum aktuelle Zeit</span><span class="sxs-lookup"><span data-stu-id="a8680-124">today's date actual time</span></span>|
+|<span data-ttu-id="a8680-125">h 10:30</span><span class="sxs-lookup"><span data-stu-id="a8680-125">t 10:30</span></span>|<span data-ttu-id="a8680-126">heutiges Datum 10:30:00</span><span class="sxs-lookup"><span data-stu-id="a8680-126">today's date 10:30:00</span></span>|
+|<span data-ttu-id="a8680-127">h 3:3:3</span><span class="sxs-lookup"><span data-stu-id="a8680-127">t 3:3:3</span></span>|<span data-ttu-id="a8680-128">heutiges Datum 03:03:03</span><span class="sxs-lookup"><span data-stu-id="a8680-128">today's date 03:03:03</span></span>|
+|<span data-ttu-id="a8680-129">a oder Arbeitsdatum</span><span class="sxs-lookup"><span data-stu-id="a8680-129">w or workdate</span></span>|<span data-ttu-id="a8680-130">das Arbeitsdatum 00:00:00</span><span class="sxs-lookup"><span data-stu-id="a8680-130">the working date 00:00:00</span></span>|
+|<span data-ttu-id="a8680-131">"m" oder "Montag"</span><span class="sxs-lookup"><span data-stu-id="a8680-131">m or Monday</span></span>|<span data-ttu-id="a8680-132">Montag der aktuellen Woche 00:00:00</span><span class="sxs-lookup"><span data-stu-id="a8680-132">Monday of the current week 00:00:00</span></span>|
+|<span data-ttu-id="a8680-133">"d" oder "Dienstag"</span><span class="sxs-lookup"><span data-stu-id="a8680-133">tu or Tuesday</span></span>|<span data-ttu-id="a8680-134">Dienstag der aktuellen Woche 00:00:00</span><span class="sxs-lookup"><span data-stu-id="a8680-134">Tuesday of the current week 00:00:00</span></span>|
+|<span data-ttu-id="a8680-135">"mi" oder "Mittwoch"</span><span class="sxs-lookup"><span data-stu-id="a8680-135">we or Wednesday</span></span>|<span data-ttu-id="a8680-136">Mittwoch der aktuellen Woche 00:00:00</span><span class="sxs-lookup"><span data-stu-id="a8680-136">Wednesday of the current week 00:00:00</span></span>|
+|<span data-ttu-id="a8680-137">"do" oder "Donnerstag"</span><span class="sxs-lookup"><span data-stu-id="a8680-137">th or Thursday</span></span>|<span data-ttu-id="a8680-138">Donnerstag der aktuellen Woche 00:00:00</span><span class="sxs-lookup"><span data-stu-id="a8680-138">Thursday of the current week 00:00:00</span></span>|
+|<span data-ttu-id="a8680-139">"f" oder "Freitag"</span><span class="sxs-lookup"><span data-stu-id="a8680-139">f or Friday</span></span>|<span data-ttu-id="a8680-140">Freitag der aktuellen Woche 00:00:00</span><span class="sxs-lookup"><span data-stu-id="a8680-140">Friday of the current week 00:00:00</span></span>|
+|<span data-ttu-id="a8680-141">"s" oder "Sonnabend"</span><span class="sxs-lookup"><span data-stu-id="a8680-141">s or Saturday</span></span>|<span data-ttu-id="a8680-142">Samstag der aktuellen Woche 00:00:00</span><span class="sxs-lookup"><span data-stu-id="a8680-142">Saturday of the current week 00:00:00</span></span>|
+|<span data-ttu-id="a8680-143">"so" oder "Sonntag"</span><span class="sxs-lookup"><span data-stu-id="a8680-143">su or Sunday</span></span>|<span data-ttu-id="a8680-144">Sonntag der aktuellen Woche 00:00:00</span><span class="sxs-lookup"><span data-stu-id="a8680-144">Sunday of the current week 00:00:00</span></span>|
+|<span data-ttu-id="a8680-145">di 10:30</span><span class="sxs-lookup"><span data-stu-id="a8680-145">tu 10:30</span></span>|<span data-ttu-id="a8680-146">Dienstag der aktuellen Woche 10:30:00</span><span class="sxs-lookup"><span data-stu-id="a8680-146">Tuesday of the current week 10:30:00</span></span>|
+|<span data-ttu-id="a8680-147">d 3:3:3</span><span class="sxs-lookup"><span data-stu-id="a8680-147">tu 3:3:3</span></span>|<span data-ttu-id="a8680-148">Dienstag der aktuellen Woche 03:03:03</span><span class="sxs-lookup"><span data-stu-id="a8680-148">Tuesday of the current week 03:03:03</span></span>|
+|<span data-ttu-id="a8680-149">h23 h</span><span class="sxs-lookup"><span data-stu-id="a8680-149">t23 t</span></span>|<span data-ttu-id="a8680-150">Dienstag der Woche 23 des Jahres des Arbeitsdatums, aktuelle Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="a8680-150">Tuesday of week 23 of the work date year, current time of day</span></span>|
+|<span data-ttu-id="a8680-151">H23</span><span class="sxs-lookup"><span data-stu-id="a8680-151">t23</span></span>|<span data-ttu-id="a8680-152">Dienstag von Woche 23 des Arbeitsjahres</span><span class="sxs-lookup"><span data-stu-id="a8680-152">Tuesday of week 23 of the work date year</span></span>|
+|<span data-ttu-id="a8680-153">h 23</span><span class="sxs-lookup"><span data-stu-id="a8680-153">t 23</span></span>|<span data-ttu-id="a8680-154">Heute 23:00:00</span><span class="sxs-lookup"><span data-stu-id="a8680-154">Today 23:00:00</span></span>|
+|<span data-ttu-id="a8680-155">h-1</span><span class="sxs-lookup"><span data-stu-id="a8680-155">t-1</span></span>|<span data-ttu-id="a8680-156">Dienstag von Woche 1 des Arbeitsjahres</span><span class="sxs-lookup"><span data-stu-id="a8680-156">Tuesday of week 1 of the work date year</span></span>|
+
+

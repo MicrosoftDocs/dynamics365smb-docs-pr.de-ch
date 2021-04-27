@@ -2,17 +2,17 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4577e4614dc068d7a790b2e257d528d3e52a169f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8c9cb9d74242f379cee0ba13cec5cade9ae48a27
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925195"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788041"
 ---
 > [!IMPORTANT]
 >
-> <span data-ttu-id="09c27-101">Sie möchten Informationen über kommende und kürzlich freigegebene Funktionen in Dynamics 365 Business Central?</span><span class="sxs-lookup"><span data-stu-id="09c27-101">Wondering about upcoming and recently released capabilities in Dynamics 365 Business Central?</span></span>
+> <span data-ttu-id="89727-101">Sie möchten Informationen über kommende und kürzlich freigegebene Funktionen in Dynamics 365 Business Central?</span><span class="sxs-lookup"><span data-stu-id="89727-101">Wondering about upcoming and recently released capabilities in Dynamics 365 Business Central?</span></span>
 >
-> <span data-ttu-id="09c27-102">[Prüfen Sie sich die letzte Version der Anmerkungen zu diesem Veröffentlichungsplan](https://go.microsoft.com/fwlink/?linkid=2047422).</span><span class="sxs-lookup"><span data-stu-id="09c27-102">[Check out the latest version of the release plan](https://go.microsoft.com/fwlink/?linkid=2047422).</span></span> <span data-ttu-id="09c27-103">Wir haben alle Details erfasset und vom Anfang bis zum Ende in einem einzigen PDF zusammengefasst, die Sie für die Planung verwenden können.</span><span class="sxs-lookup"><span data-stu-id="09c27-103">We've captured all the details, end to end, top to bottom, which you can use for planning.</span></span> <span data-ttu-id="09c27-104">Für jede Version können Sie den Versionenplan als einzelnes PDF erhalten.</span><span class="sxs-lookup"><span data-stu-id="09c27-104">For each version, you can get the release plan as a single PDF.</span></span>  
+> <span data-ttu-id="89727-102">[Prüfen Sie sich die letzte Version der Anmerkungen zu diesem Veröffentlichungsplan](/dynamics365/release-plans/).</span><span class="sxs-lookup"><span data-stu-id="89727-102">[Check out the latest version of the release plan](/dynamics365/release-plans/).</span></span> <span data-ttu-id="89727-103">Wir haben alle Details erfasset und vom Anfang bis zum Ende in einem einzigen PDF zusammengefasst, die Sie für die Planung verwenden können.</span><span class="sxs-lookup"><span data-stu-id="89727-103">We've captured all the details, end to end, top to bottom, which you can use for planning.</span></span> <span data-ttu-id="89727-104">Für jede Version können Sie den Versionenplan als einzelnes PDF erhalten.</span><span class="sxs-lookup"><span data-stu-id="89727-104">For each version, you can get the release plan as a single PDF.</span></span>
