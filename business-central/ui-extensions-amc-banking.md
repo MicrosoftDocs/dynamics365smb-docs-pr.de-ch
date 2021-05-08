@@ -69,7 +69,7 @@ Die Verwendung dieser Erweiterung ist nur eine Frage des Exports von Daten auf d
 
 ### <a name="to-export-data-and-submit-it-to-your-bank"></a>So exportieren Sie Daten und übermitteln sie an Ihre Bank
 > [!CAUTION]  
->  Wenn Sie Daten mithilfe der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden einige Ihrer Geschäftsdaten dem Anbieter des Dienstes zugänglich gemacht. Der Dienstanbieter, AMC Consult A/S, ist für den Schutz dieser Daten verantwortlich. Weitere Informationen finden Sie unter [AMC-Datenschutzrichtlinie.](https://go.microsoft.com/fwlink/?LinkId=510158)
+>  Wenn Sie Daten mithilfe der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden einige Ihrer Geschäftsdaten dem Anbieter des Dienstes zugänglich gemacht. Der Dienstanbieter, AMC Consult A/S, ist für den Schutz dieser Daten verantwortlich. Weitere Informationen finden Sie unter [AMC-Datenschutzrichtlinie](https://go.microsoft.com/fwlink/?LinkId=510158).
 
 1. Wählen Sie die ![Glühbirne , die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Tell me-Funktion"), geben Sie **Zahlungsjournale** ein und wählen Sie dann den entsprechenden Link.
 2. Erstellen Sie die Journalzeilen, die Sie exportieren möchten.  

@@ -36,7 +36,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Verstehen Sie, wie Fertigungsaufträge arbeiten.|[Info zu Fertigungsaufträgen](production-about-production-orders.md)|
 |Manuelles Erstellen von Produktionsaufträgen.|[Fertigungsauftrag erstellen](production-how-to-create-production-orders.md)|
 |Lagern Sie alle oder ausgewählte Arbeitsgänge im Fertigungsauftrag an einen Subunternehmer aus.|[Fertigung durch Fremdarbeitsvertrag](production-how-to-subcontract-manufacturing.md)|
-|Erfassen und Buchen der fertig gestellten Menge – zusammen mit Materialverbrauch und Zeitaufwand – für eine einzelne freigegebene Fertigungsauftragszeile.|[Verbrauch und Ausgabe für den freigegebenen Fertigungsauftrag buchen.](production-how-to-register-consumption-and-output.md)|  
+|Erfassen und Buchen der fertig gestellten Menge – zusammen mit Materialverbrauch und Zeitaufwand – für eine einzelne freigegebene Fertigungsauftragszeile.|[Verbrauch und Ausgabe für den freigegebenen Fertigungsauftrag buchen](production-how-to-register-consumption-and-output.md)|  
 |Stapelbuchung der Komponenten pro Arbeitsgang in einem Erf.-Journal, die verschiedene Fertigungsaufträge verarbeiten kann.|[Buchen Sie den Verbrauch über Stapelverarbeitung.](production-how-to-post-consumption.md)|
 |Stapelbuchung der Komponenten pro Arbeitsgang in einem Erf.-Journal, die verschiedene Fertigungsaufträge verarbeiten kann, buchen.|[Ausgabe über Stapelverarbeitung buchen und Bearbeitungszeiten prüfen](production-how-to-post-output-quantity.md)|
 |Machen Sie die Ausgabe rückgängig, zum Beispiel aufgrund eines Dateneingabefehlers und eines falschen Betrags.  |[Gebuchte fertig gestellte Menge stornieren](production-how-to-reverse-output-posting.md)|  

@@ -62,7 +62,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 
 ## <a name="see-also"></a>Siehe auch
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Registriert einen neuen Debitor.](sales-how-register-new-customers.md)  
+[Registriert einen neuen Debitor](sales-how-register-new-customers.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Projektmanagement](projects-manage-projects.md)    

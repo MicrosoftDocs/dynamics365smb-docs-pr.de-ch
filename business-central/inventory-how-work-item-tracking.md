@@ -270,7 +270,7 @@ Ein Umbuchen des Artikeltrackings für einen Artikel bedeutet, dass eine Chargen
 5. Wenn Sie eine neue Artikeltrackingnummer eingeben möchten, geben Sie diese in das Feld **Neue Seriennr.** oder **Neue Chargennr.** ein. Bei Bedarf können Sie eine oder mehrere Chargen in einer oder mehreren neuen Chargen zusammenführen.  
 
     > [!NOTE]  
-    >  Beachten Sie beim Umbuchen von Ablaufdatumsangaben, dass die Artikel mit den frühesten Ablaufdatumsangaben für ausgehende Transaktionen zuerst vorgeschlagen werden. Weitere Informationen finden Sie unter[ Korrigieren der FEFO..](warehouse-picking-by-fefo.md)  
+    >  Beachten Sie beim Umbuchen von Ablaufdatumsangaben, dass die Artikel mit den frühesten Ablaufdatumsangaben für ausgehende Transaktionen zuerst vorgeschlagen werden. Weitere Informationen finden Sie unter [Korrigieren der FEFO](warehouse-picking-by-fefo.md).  
 
 6. Wenn Sie ein neues Ablaufdatum für eine Serien- oder Chargennummer eingeben möchten, geben Sie dieses in das Feld **Neues Ablaufdatum** ein.  
 

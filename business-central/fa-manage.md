@@ -42,11 +42,11 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Erstellen von Anlagen, Zuordnen von Abschreibungsmethoden, Buchen von Anschaffungen und Restwerten sowie Drucken von Anlagenlisten |[Erworbene Anlagen](fa-how-acquire.md) |
 | Erfassen von Servicebesuchen, Buchen und Überwachen von Wartungskosten. |[Anlagen verwalten](fa-how-maintain.md) |
 | Aktualisieren von Versicherungsinformationen, Buchen von Anschaffungskosten auf Versicherungspolicen, Anpassen der Versicherungsdeckung, Anzeigen der Versicherungsstatistik und Auflisten von Versicherungspolicen |[Versichern von Anlagen](fa-how-insure.md) |
-| Umbuchen von Anlagen, Transferieren von Anlagen an verschiedene Standorte sowie Aufteilen oder Zusammenfassen von Anlagen |[Übertragen, Teilen oder Kombinieren von Anlagen.](fa-how-trans-split-combine.md) |
+| Umbuchen von Anlagen, Transferieren von Anlagen an verschiedene Standorte sowie Aufteilen oder Zusammenfassen von Anlagen |[Übertragen, Teilen oder Kombinieren von Anlagen](fa-how-trans-split-combine.md) |
 | Anpassen der Werte von Anlagen, Buchen von Zuschreibungen und Buchen von erhöhten Abschreibungstransationen |[Anlagen neu bewerten](fa-how-revalue.md) |
 | Berechnen und Buchen der Abschreibung und Analysieren der Abschreibung in Anlagenberichten. |[Anlagen abschreiben oder amortisieren](fa-how-depreciate-amortize.md) |
 | Buchen von Verkaufstransaktionen, Anzeigen von Verkaufsposten und Buchen von Teilverkäufen |[Anlagen entsorgen oder ausser Dienst stellen](fa-how-dispose-retire.md) |
-| Verwalten von Anlagenbudgets, Budgetieren von Anschaffungskosten, Budgetieren von Anlagenverkäufen und Budgetieren der Abschreibung. |[Budgets für Anlagen verwalten.](fa-how-manage-budgets.md) |
+| Verwalten von Anlagenbudgets, Budgetieren von Anschaffungskosten, Budgetieren von Anlagenverkäufen und Budgetieren der Abschreibung. |[Budgets für Anlagen verwalten](fa-how-manage-budgets.md) |
 
 ## <a name="video-overview"></a>Videoübersicht
 Das folgende Video behandelt die Grundlagen des Anlagevermögens.
