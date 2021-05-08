@@ -116,7 +116,7 @@
 #### [Anwendung von Kreditorenposten in unterschiedlichen Währungen aktivieren](finance-how-enable-application-ledger-entries-different-currencies.md)
 #### [Einrichten einer zusätzlichen Berichtswährung](finance-how-setup-additional-currencies.md)
 #### [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)
-#### [Dient zum Einrichten mehrerer Zinssätze.](finance-how-to-set-up-multiple-interest-rates.md)
+#### [Dient zum Einrichten mehrerer Zinssätze](finance-how-to-set-up-multiple-interest-rates.md)
 #### [Einrichten der Rechnungsrundung](finance-set-up-invoice-rounding.md)
 #### [Einrichten des Kontenplans](finance-setup-chart-accounts.md)
 #### [Einrichten der Cashflowanalyse](finance-setup-cash-flow-analyses.md)
@@ -131,7 +131,7 @@
 #### [Ein Schecklayout auswählen](finance-how-define-check-layouts.md)
 ### Einrichten von Verkäufen
 #### [Einrichten von Verkäufen](sales-setup-sales.md)
-#### [Registriert einen neuen Debitor.](sales-how-register-new-customers.md)
+#### [Registriert einen neuen Debitor](sales-how-register-new-customers.md)
 #### [Aktivieren von Debitoren-Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
 #### [Spezielle Verkaufspreise und Rabatte aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Verkäufer einrichten](sales-how-setup-salespeople.md)
@@ -157,7 +157,7 @@
 #### [Lagerhaltungsdaten einrichten](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Artikel kategorisieren](inventory-how-categorize-items.md)
 #### [Mehrere Artikelbilder importieren](inventory-how-import-item-pictures.md)
-### Richten Sie Ihr Projektmanagement ein.
+### Projektmanagement einrichten
 #### [Projekte einrichten](projects-setup-projects.md)
 #### [Ressourcen einrichten](projects-how-setup-resources.md)
 #### [Einrichten von Arbeitszeittabellen](projects-how-setup-time-sheets.md)
@@ -229,10 +229,10 @@
 ##### [So bereiten Sie ein Konfigurationspaket vofr](admin-how-to-prepare-a-configuration-package.md)
 #### Anwenden von Konfigurationen auf neue Mandanten
 ##### [Konfigurationen für neue Mandanten übernehmen](admin-apply-configuration-to-new-companies.md)
-##### [Erstellen eines neuen Mandanten.](admin-how-to-create-a-new-company.md)
-##### [So konfigurieren Sie einen neuen Mandanten.](admin-how-to-configure-new-companies.md)
+##### [Erstellen eines neuen Mandanten](admin-how-to-create-a-new-company.md)
+##### [So konfigurieren Sie einen neuen Mandanten](admin-how-to-configure-new-companies.md)
 ##### [So konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
-##### [So kopieren Sie Daten in neue Mandanten.](admin-how-to-copy-data-to-new-companies.md)
+##### [So kopieren Sie Daten in neue Mandanten](admin-how-to-copy-data-to-new-companies.md)
 ##### [So erstellen Sie Erf.-Journal-Eröffnungssalden](admin-how-to-create-journal-opening-balances.md)
 #### [Sammeln von Einrichtungswerten für Debitoren](admin-gather-customer-setup-values.md)
 #### [Migration von Debitorendaten mit Vorlagen vorbereiten](admin-use-templates-to-prepare-customer-data-for-migration.md)
@@ -450,7 +450,7 @@
 #### Zahlungen automatisch vornehmen und Bankkonten abstimmen
 ##### [Zahlungsausgleich – Übersicht](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Zahlungen mit automatischem Ausgleich abstimmen](receivables-how-reconcile-payments-auto-application.md)
-##### [Zahlungen manuell zuordnen oder überprüfen nach der automatischen Zuordnung.](receivables-how-review-apply-payments-auto-application.md)
+##### [Zahlungen manuell zuordnen oder überprüfen nach der automatischen Zuordnung](receivables-how-review-apply-payments-auto-application.md)
 ##### [Zahlungen abstimmen, die nicht automatisch ausgeglichen werden können](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Zuordnen von Text auf sich wiederholenden Zahlungen an Konten für automatische Abstimmung](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 ##### [Einrichten von Regeln für die automatische Anwendung von Zahlungen](receivables-how-set-up-payment-application-rules.md)
@@ -476,7 +476,7 @@
 #### Zahlungen automatisch vornehmen und Bankkonten abstimmen
 ##### [Ausgleich von Zahlungen – Übersicht](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Zahlungen mit automatischem Ausgleich abstimmen](receivables-how-reconcile-payments-auto-application.md)
-##### [Zahlungen manuell zuordnen oder überprüfen nach der automatischen Zuordnung.](receivables-how-review-apply-payments-auto-application.md)
+##### [Zahlungen manuell zuordnen oder überprüfen nach der automatischen Zuordnung](receivables-how-review-apply-payments-auto-application.md)
 ##### [Zahlungen abstimmen, die nicht automatisch ausgeglichen werden können](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Zuordnen von Text auf sich wiederholenden Zahlungen an Konten für automatische Abstimmung](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 #### [Abstimmen von Kreditorenzahlungen mit dem Zahlungsjournal oder aus Kreditorenposten](payables-how-apply-purchase-transactions-manually.md)
@@ -583,7 +583,7 @@
 ### [Vertrieb – Übersicht](sales-manage-sales.md)
 ### [Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne](walkthrough-conducting-a-sales-campaign.md)
 ### [Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
-### [Registriert einen neuen Debitor.](sales-how-register-new-customers.md)
+### [Registriert einen neuen Debitor](sales-how-register-new-customers.md)
 ### [Verkaufsofferten machen](sales-how-make-offers.md)
 ### [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)
 ### [Produkte verkaufen](sales-how-sell-products.md)
@@ -652,11 +652,11 @@
 ### [Erworbene Anlagen](fa-how-acquire.md)
 ### [Anlagen verwalten](fa-how-maintain.md)
 ### [Versichern von Anlagen](fa-how-insure.md)
-### [Übertragen, Teilen oder Kombinieren von Anlagen.](fa-how-trans-split-combine.md)
+### [Übertragen, Teilen oder Kombinieren von Anlagen](fa-how-trans-split-combine.md)
 ### [Anlagen neu bewerten](fa-how-revalue.md)
 ### [Anlagen abschreiben oder amortisieren](fa-how-depreciate-amortize.md)
 ### [Anlagen entsorgen oder ausser Dienst stellen](fa-how-dispose-retire.md)
-### [Budgets für Anlagen verwalten.](fa-how-manage-budgets.md)
+### [Budgets für Anlagen verwalten](fa-how-manage-budgets.md)
 
 ## Marketing & Vertrieb
 ### [Marketing und Vertrieb – Übersicht](marketing-relationship-management.md)
@@ -691,7 +691,7 @@
 ## Personalwesen
 ### [PW-Übersicht](hr-manage-human-resources.md)
 ### [Erfassen eines Mitarbeiters](hr-how-register-employees.md)
-### [Analysiert die Fehlzeiten der Mitarbeiter.](hr-how-manage-absence.md)
+### [Analysiert die Fehlzeiten der Mitarbeiter](hr-how-manage-absence.md)
 
 ## Planung
 ### [Fertigungsplanung](production-planning.md)
@@ -704,7 +704,7 @@
 ### [Planung der Bestellung eines neuen Bedarfs von Auftrag](production-how-to-plan-for-new-demand.md)
 ### [Führen Sie eine vollständige Planung, Prod.-Programmplanung oder Nettobedarf aus](production-how-to-run-mps-and-mrp.md)
 ### [Neugestaltungs- oder direkt Aktualisierung von Fertigungsaufträgen](production-how-to-replan-refresh-production-orders.md)
-### [Nachverfolgen von Beziehungen zwischen Bedarf und Vorrat.](production-how-track-demand-supply.md)
+### [Nachverfolgen von Beziehungen zwischen Bedarf und Vorrat](production-how-track-demand-supply.md)
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Montageverwaltung
@@ -725,7 +725,7 @@
 ### [Info zu Fertigungsaufträgen](production-about-production-orders.md)
 ### [Fertigungsauftrag erstellen](production-how-to-create-production-orders.md)
 ### [Fertigung durch Fremdarbeitsvertrag](production-how-to-subcontract-manufacturing.md)
-### [Verbrauch und Ausgabe für den freigegebenen Fertigungsauftrag buchen.](production-how-to-register-consumption-and-output.md)
+### [Verbrauch und Ausgabe für den freigegebenen Fertigungsauftrag buchen](production-how-to-register-consumption-and-output.md)
 ### [Buchen Sie den Verbrauch über Stapelverarbeitung.](production-how-to-post-consumption.md)
 ### [Ausgabe über Stapelverarbeitung buchen und Bearbeitungszeiten prüfen](production-how-to-post-output-quantity.md)
 ### [Gebuchte fertig gestellte Menge stornieren](production-how-to-reverse-output-posting.md)
@@ -1024,7 +1024,7 @@
 ##### [Richten Sie Berichte für MwSt ein.](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 ##### [Richten Sie die MWST-Berichte ein.](LocalFunctionality/Germany/how-to-set-up-vat-reports.md)
 ##### [MWST-Abrechnung](LocalFunctionality/Germany/vat-reporting.md)
-##### [Erstellen von MwsT-Berichten.](LocalFunctionality/Germany/how-to-create-vat-reports.md)
+##### [Erstellen von MwsT-Berichten](LocalFunctionality/Germany/how-to-create-vat-reports.md)
 ##### [Zu korrigierender MWST-Bericht](LocalFunctionality/Germany/how-to-correct-vat-reports.md)  
 ##### [Umsatzsteuervoranmeldungen](LocalFunctionality\Germany\how-to-set-up-and-export-sales-vat-advance-notifications.md)
 ##### [MWST-VIES-Salestax angeben](LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md)
