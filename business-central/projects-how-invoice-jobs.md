@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f9290bda4437ea43edcaa19d7759f2fdee24e8c4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 873135d2fa6053b7101a999981fb3117ee8689ab
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775079"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938160"
 ---
 # <a name="invoice-jobs"></a>Fakturieren von Projekten
 Im Laufe des Projekts können Projektkosten wie Ressourcenverbrauch, Material oder projektbezogene Einkäufe anfallen. Diese Transaktionen werden im weiteren Verlauf des Projekts auf das Projekt Erf.-Journal gebucht. Dabei ist es wichtig, dass alle Kosten im Projekt Erf.-Journal erfasst werden, bevor die Rechnung an den Debitor erstellt wird.
@@ -33,7 +33,7 @@ Sie können eine Rechnung für ein Projekt oder für eine oder mehrere Projektun
 
 Der folgende Ablauf zeigt, wie eine Stapelverarbeitung verwendet wird, um mehrere Projekte zu fakturieren.  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Job Verkaufsrechnung erstellen** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell me-Funktion"), geben Sie **Job Verkaufsrechnung erstellen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Legt Filter fest, wenn Sie die Projekte einschränken möchten, die die Stapelverarbeitung verarbeiten soll.
 4. Wählen Sie die Schaltfläche **OK**, um die Rechnung zu erstellen.  
@@ -46,10 +46,10 @@ Sie können erstellte Rechnungen im Fenster **Verkaufsrechnungen** überprüfen 
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>So erstellen und buchen Sie eine Projektverkaufsrechnung aus Projektplanzeilen
 Sie können eine Rechnung aus Projektplanungszeilen erstellen, und dabei die Menge des Artikels, der Ressource oder des Fibupostens angeben, die Sie fakturieren möchten.
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.
 2. Ein relevantes Projekt öffnen.
 3. Wählen Sie eine Projektaufgabe aus, deren Wert für das Feld **Projektaufgabenart** **Buchen** enthält und klicken Sie anschliessend auf die Aktion **Projektplanzeilen**.  
-4. In einer Projektplanungszeile im Feld **In Rechnung zu übertragende Menge** geben Sie die Menge des Artikels, der Ressource, Sachkontoart ein, die fakturiert werden soll.  
+4. In einer Projektplanungszeile im Feld **In Rechnung zu übertragende Menge** geben Sie die Menge des Artikels, der Ressource, Fibukontoart ein, die fakturiert werden soll.  
 5. Wählen Sie die Aktion **Verkaufsrechnung erstellen**.
 6. Auf der Seite **Projekt-Verkaufsrechnung erstellen** geben Sie das Buchungsdatum an und ob Sie eine neue Rechnung erstellen oder diese Rechnung einer bestehenden Rechnung hinzufügen möchten.
 7. Wählen Sie die Schaltfläche **OK** aus.  
@@ -61,21 +61,6 @@ Sie können eine Rechnung aus Projektplanungszeilen erstellen, und dabei die Men
 > [!NOTE]  
 >   Das obige Verfahren dient zum Erstellen, Prüfen und Buchen einer projektbezogenen Verkaufsgutschrift.
 
-## <a name="to-calculate-and-post-job-completion-entries"></a>Berechnen und Buchen von Projekt-Abschlussposten
-Nachdem alle Aktivitäten für ein Projekt – einschliesslich Buchung des Verbrauchs und Fakturierung – abgeschlossen wurden, muss das Projekt aktualisiert werden, damit es den **Status** **Abgeschlossen** erhält. Dann annullieren Sie alle WIPs, die im Fibuposten gebucht wurden.
-
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie ein offenes Projekte und wählen Sie dann die Aktion **Bearbeiten** aus.
-3. Wählen Sie im Feld **Status** **Abgeschlossen**.
-4. Folgen Sie den Hilfeschritten, um WIP zu berechnen und zu buchen. Alternativ folgen Sie den Schritten 5 und 6, um dies manuell zu tun.  
-5. Wählen Sie die Aktion **WIP berechnen** aus.
-6. Geben Sie auf der Seite **WIP für Projekt berechnen** die notwendigen Felder ein.  
-
-     Die WIP-Projektposten, die beim Ausführen der Stapelverarbeitung erstellt wurden, weisen nun ein Häkchen im Feld **Auftrag abgeschlossen** auf, um anzugeben, dass es sich hierbei um Abschlussposten handelt.  
-7. Wählen Sie die Aktion **WIP nach Sachkonten Projekt** aus.
-8. Füllen Sie auf der Seite **WIP nach Sachkonten Projekt buchen** aus und füllen Sie die Felder wie erforderlich aus.  
-
-     Die WIP-Hauptbuchungsposten, die beim Ausführen der Stapelverarbeitung erstellt wurden, weisen nun ein Häkchen im Feld **Auftrag abgeschlossen** auf, um anzugeben, dass es sich hierbei um Abschlussposten handelt.
 
 ## <a name="see-also"></a>Siehe auch
 [Projekte verwalten](projects-manage-projects.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0267d4af029410da2107fbb4bbbde2e27c364e31
-ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
+ms.openlocfilehash: d94ecf2314e28dafbcf73a816446d6e3b929aedc
+ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5869987"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947377"
 ---
 # <a name="available-fonts"></a>Verfügbare Schriftarten
 
@@ -43,7 +43,7 @@ Die folgenden Schriftarten sind installiert und können in Word- und RDLC-Berich
 
 MICR-Schriftarten (Magnetic Ink Character Recognition) sind installiert und können verwendet werden. Es werden sowohl der E-13B- als auch der CMC-7-Standard unterstützt.  
 
-Zusätzlich zu MICR-Schriftarten stehen spezielle Sicherheitsschriftarten zur Verfügung, mit denen Text, Namen, Beträge und die Währungssymbole Dollar, Euro, Pfund und Yen generiert werden können, die nach dem Drucken eines Schecks nur schwer zu manipulieren sind.  
+Zusätzlich zu MICR-Schriftarten stehen spezielle Sicherheitsschriftarten zur Verfügung, mit denen Text, Namen, Beträge und die Währungssymbole Dollar, Schweizer Franken, Pfund und Yen generiert werden können, die nach dem Drucken eines Schecks nur schwer zu manipulieren sind.  
 
 Weitere Informationen finden Sie unter [Scheck-Layout auswählen](finance-how-define-check-layouts.md).  
 
@@ -58,7 +58,7 @@ Die folgenden Barcode-Symbologien werden unterstützt:
 * MSI
 * Interleaved 2 von 5
 
-Weitere Informationen finden Sie unter [Schriftarten für Barcodes mit Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md).
+Weitere Informationen finden Sie unter [Barcode-Schriftarten mit Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
 ## <a name="see-also"></a>Siehe auch
 

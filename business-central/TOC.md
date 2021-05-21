@@ -133,7 +133,7 @@
 #### [Einrichten von Verkäufen](sales-setup-sales.md)
 #### [Registriert einen neuen Debitor](sales-how-register-new-customers.md)
 #### [Aktivieren von Debitoren-Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
-#### [Spezielle Verkaufspreise und Rabatte aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md)
+#### [Spezielle Verkaufspreise und Skonti aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Verkäufer einrichten](sales-how-setup-salespeople.md)
 #### [Belegsendeprofile einrichten](sales-how-setup-document-send-profiles.md)
 #### [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)
@@ -142,7 +142,7 @@
 ### Einkauf einrichten
 #### [Einkaufeinrichten](purchasing-setup-purchasing.md)
 #### [Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)
-#### [Besondere Verkaufspreise und Rabatte aufzeichnen](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Besondere Verkaufspreise und Skonti aufzeichnen](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Kreditoren priorisieren](purchasing-how-prioritize-vendors.md)
 #### [Einkäufer einrichten](purchasing-how-setup-purchasers.md)
 ### Bestand einrichten
@@ -204,7 +204,7 @@
 #### [So richten Sie Standardservicecodes ein](service-how-setup-service-coding.md)
 #### [Konfigurieren von Serviceprozessen](service-setup-service-processes.md)
 #### [Fehlerberichte einrichten](service-how-setup-fault-reporting.md)
-#### [Um Serviceangebote einzurichten:](service-how-setup-service-offerings.md)
+#### [Um Serviceofferten einzurichten:](service-how-setup-service-offerings.md)
 #### [Lösungsanleitung Einrichtung](service-how-setup-troubleshooting.md)
 #### [Um Ressourcenzuweisung einzurichten:](service-how-setup-resource-allocation.md)
 #### [Einrichten von Preisen und zusätzlichen Kosten für Services](service-how-setup-service-costs-pricing.md)
@@ -273,6 +273,7 @@
 ###### [Arbeiten mit Power BI-Berichten in Business Central](across-working-with-powerbi.md)
 ###### [Arbeiten mit Business Central-Daten in Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Verwenden der Business Central-Apps in Power BI](across-powerbi-business-central-apps.md)
+##### [FAQ](power-bi-faq.md)
 #### Verwenden von Power Automate mit Business Central
 ##### [Business Central  in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md)
 #### Verwenden von Power Apps mit Business Central
@@ -288,8 +289,8 @@
 ## Häufig gestellte Fragen
 ### [Häufig gestellte Fragen](across-faq.md)
 ### [Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“](ui-search-faq.md)
-### [Suchen und Filtern – FAQs](ui-search-filter-faq.md)
-### [FAQ zu Listenansichten](ui-views-faq.md)
+### [Suchen und Filtern FAQ](ui-search-filter-faq.yml)
+### [Listenansichten FAQ](ui-views-faq.yml)
 ### [Kopieren und einfügen FAQ](faq-copy-paste.yml)
 ### [Mobile Apps FAQ](ui-mobile-faq.md)
 ### [Teams FAQ](teams-faq.md)
@@ -321,7 +322,7 @@
 ## [Suche nach Seiten mit dem Rollen-Explorer](ui-role-explorer.md)
 ## [Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“](ui-search-faq.md)
 ## [Sortieren, Durchsuchen und Filtern](ui-enter-criteria-filters.md)
-## [Suchen und Filtern – FAQs](ui-search-filter-faq.md)
+## [Suchen und Filtern FAQ](ui-search-filter-faq.yml)
 ## [Eingeben von Daten](ui-enter-data.md)
 ## [Kopieren und einfügen FAQ](faq-copy-paste.yml)
 ## [Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md)
@@ -356,10 +357,11 @@
 ### [Beleglayouts für Debitoren und Kreditoren definieren](ui-define-customer-vendor-document-layouts.md)
 ### [Hinzufügen von Feldern zu einem Word-Berichtlayout](ui-how-add-fields-word-report-layout.md)
 ### [Verfügbare Schriftarten](ui-fonts.md)
-## Tastenkombinationen verwenden
-### [Eingabehilfe und Tastenkombinationen](ui-accessibility.md)
+## Zugänglichkeit, Tastaturkürzel und Touch-Gesten
+### [Barrierefreiheit](ui-accessibility.md)
 ### [Tastenkombinationen](keyboard-shortcuts.md)
 ### [Nur PC-Tastenkombinationskurzübersicht](keyboard-shortcuts-cheatsheet.md)
+### [Touch- und Stiftgesten](touch-gestures.md)
 ## [Problembehebung: Auf Kamera und Standort zugreifen](ui-troubleshooting-camera-location.md)
 ## [Intelligente Einblicke (nur online)](about-intelligent-cloud.md)
 # Geschäftsfunktionen
@@ -429,9 +431,10 @@
 ##### [Einrichten des Bankauszugservice](bank-how-setup-bank-statement-service.md)
 ##### [Bankkonten einrichten](bank-how-setup-bank-accounts.md)
 ##### [Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinitionen](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-##### [Richten Sie Datenaustauschdefinitionen ein.](across-how-to-set-up-data-exchange-definitions.md)
+
 #### Austausch von Daten
 ##### [Daten austauschen](across-exchange-data.md)
+##### [Richten Sie Datenaustauschdefinitionen ein.](across-how-to-set-up-data-exchange-definitions.md)
 ##### [Elektronische Belege senden](sales-how-to-send-electronic-documents.md)
 ##### [Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln](across-how-use-ocr-pdf-images-files.md)
 ##### [Elektronische Belege empfangen und konvertieren](purchasing-how-to-receive-and-convert-electronic-documents.md)
@@ -550,6 +553,7 @@
 #### [Unternehmenskonsolidierung einrichten](finance-consolidated-company-reporting-setup.md)
 ### [Verständnis der Fibu und des COA](finance-general-ledger.md)
 ### [Arbeiten mit Dimensionen](finance-dimensions.md)
+### [Fehlerbehebung und Korrektur von Dimensionen](finance-troubleshooting-correcting-dimensions.md)
 ### [Sachkontenbudgets erstellen](finance-how-create-budgets.md)
 ### [Buchen von Transaktionen direkt im Fibuposten](finance-how-post-transactions-directly.md)
 ### [Erf.-Journalbuchungen stornieren und Belege/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md)
@@ -567,6 +571,7 @@
 ### [Finanzauswertungen in Excel analysieren](finance-analyze-excel.md)
 ### [Bank-Geldmittel überweisen](bank-how-transfer-bank-funds.md)
 ### [Buchhaltungs-Erfahrung in Business Central](finance-accounting.md)
+### [Multi-Site und internationale Organisationen](finance-multi-site-organizations.md)
 
 ## Business Intelligence und Financial Reporting
 ### [Business Intelligence und Financial Reporting – Übersicht](bi.md)
@@ -705,6 +710,8 @@
 ### [Führen Sie eine vollständige Planung, Prod.-Programmplanung oder Nettobedarf aus](production-how-to-run-mps-and-mrp.md)
 ### [Neugestaltungs- oder direkt Aktualisierung von Fertigungsaufträgen](production-how-to-replan-refresh-production-orders.md)
 ### [Nachverfolgen von Beziehungen zwischen Bedarf und Vorrat](production-how-track-demand-supply.md)
+### [Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung](walkthrough-planning-supplies-manually.md)
+### [Exemplarische Vorgehensweise: Automatische Beschaffungsplanung](walkthrough-planning-supplies-automatically.md)
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Montageverwaltung
@@ -745,8 +752,6 @@
 #### [Einlagerung der fertiggestellten Produktion oder Montage](warehouse-how-to-put-away-production-output.md)
 #### [Planen von Einlagerungen in Arbeitsblättern](warehouse-how-to-plan-put-aways-in-worksheets.md)
 #### [Wählen und setzen Sie die Einlagerung verwendet ohne Herkunftsbeleg](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-#### [Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
-#### [Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 ### Umlagern von Artikeln
 #### [Umlagern von Artikeln](warehouse-move-items.md)
 #### [Ad-hoc-Umlagerung von Artikeln in Basis-Lagerkonfigurationen](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -770,8 +775,6 @@
 ### [Automatisierte Datenerfassung (MDE) verwenden](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ### [Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-### [Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung](walkthrough-planning-supplies-manually.md)
-### [Exemplarische Vorgehensweise: Automatische Beschaffungsplanung](walkthrough-planning-supplies-automatically.md)
 
 ## Service
 ### [Service](service-service.md)
@@ -974,7 +977,7 @@
 ##### [Zahlungsdateien erstellen](LocalFunctionality/Finland/how-to-generate-payment-files.md)
 ##### [Einrichten von Bankreferenzdaten](LocalFunctionality/Finland/how-to-set-up-bank-reference-files.md)
 ##### [SEPA-Überweisungszahlungen](LocalFunctionality/Finland/sepa-credit-transfer-payments.md)
-##### [Skonto verwerfen](LocalFunctionality/Finland/how-to-disregard-payment-discounts.md)
+##### [Skonti verwerfen](LocalFunctionality/Finland/how-to-disregard-payment-discounts.md)
 #### Kernfinanzierung
 ##### [Einrichten von automatischen Kontobuchungsgruppen](LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups.md)
 ##### [Automatische Kontocodes](LocalFunctionality/Finland/automatic-account-codes.md)

@@ -1,5 +1,5 @@
 ---
-title: Einrichten von Intercompanytransaktionsbuchungen | Microsoft Docs
+title: Buchung von Intercompany-Transaktionen festlegen
 description: Erstellen Sie Ihre Intercompanykreditoren und -debitoren als so genannte Intercompanypartner, und richten Sie einen Intercompanykontenplan ein.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c323aee8139912e103b09066f2f6a7a25e2832c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 79c204a6c8a173985a5d3558d5ce1af5a2d8fc39
+ms.sourcegitcommit: 6add995f289c56e5497409308825c73eeaa4f62f
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786212"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941531"
 ---
-# <a name="set-up-intercompany"></a>Intercompany einrichten
+# <a name="set-up-intercompany-transaction-posting"></a>Buchung von Intercompany-Transaktionen festlegen
 
 Wenn Sie eine Transaktion (beispielsweise eine Verkaufs-Erf.-Journalzeile) von einem Unternehmen an ein anderes Unternehmen senden möchten und im Partnerunternehmen automatisch die entsprechende Transaktion (beispielsweise eine Einkaufs-Erf.-Journalzeile) erstellt werden soll, müssen sich die Unternehmen auf einen gemeinsamen Kontenplan sowie auf eine Gruppe von Dimensionen für Intercompanytransaktionen einigen. Bei dem Intercompanykontenplan kann es sich beispielsweise um eine vereinfachte Version des Kontenplans der Muttergesellschaft handeln. In jedem Unternehmen wird der eigene vollständige Kontenplan dem gemeinsam genutzten Intercompanykontenplan zugeordnet, und auch die Dimensionen des jeweiligen Unternehmens werden den Intercompanydimensionen zugeordnet.  
 
@@ -34,7 +34,7 @@ Wenn Sie Intercompany-Verkaufstransaktionen vornehmen, die Ressourcen beinhalten
 ## <a name="to-set-intercompany-partners"></a>So legen Sie Intercompanypartner fest
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Intercompanypartner** ein, und wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus.
-3. Füllen Sie auf der Seite **Intercompanypartner** die Felder nach Bedarf aus.
+3. Füllen Sie auf der Seite **Intercompany Partner** die Felder wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > In [!INCLUDE[prod_short](includes/prod_short.md)] online können Sie keine Dateispeicherorte verwenden, um Transaktionen an Ihre Partner zu übertragen, da [!INCLUDE[prod_short](includes/prod_short.md)] keinen Zugriff auf Ihr lokales Netzwerk hat. Daher ist bei Auswahl von **Dateispeicherort** im Feld **Transfertyp** das Feld **Ordnerpfad** nicht verfügbar. Stattdessen wird die Datei in den Ordner „Downloads“ auf Ihrem Computer heruntergeladen. Anschliessend senden Sie die Datei per E-Mail an eine Person in der Partnerfirma. Für einen direkteren Prozess empfehlen wir stattdessen die Auswahl von **E-Mail**.
@@ -81,7 +81,7 @@ Wenn die Kontonummern im Intercompanykontenplan mit Kontonummern des unternehmen
 2. Wählen Sie die Zeilen aus, die automatisch zugeordnet werden sollen, und klicken Sie auf die Aktion **Zuordn. zu Kto. m. selb. Nr.**.  
 3. Für jedes Intercompanyfibukonto, das nicht automatisch zugeordnet werden kann, füllen Sie das Feld **Zuordnen zu Fibukontonr.** aus.  
 
-## <a name="to-set-up-default-intercompany-partner-general-ledger-accounts"></a>Vorgegebene IC-Partner-Sachkonten einrichten:  
+## <a name="to-set-up-default-intercompany-partner-general-ledger-accounts"></a>Vorgegebene IC-Partner-Fibukonten einrichten  
 Bei der Erstellung von Intercompanyverkaufs- oder -einkaufszeilen, die als ausgehende Transaktion gesendet werden sollen, geben Sie ein Konto aus dem Intercompanykontenplan vor, auf das der Betrag im Partnerunternehmen gebucht werden soll. Auf der Seite **Kontenplan** können Konten, die häufig für ausgehende Intercompanyverkaufs- oder -einkaufszeilen verwendet werden, als vorgegebene Intercompanypartner-Fibukonten festgelegt werden. Für Debitorensammelkonten können beispielsweise die zugeordneten Kreditorensammelkonten aus dem Intercompanykontenplan als vorgegebene Konten festgelegt werden.  
 
 Wenn Sie jetzt im Feld **Gegenkontonr.** in einer Intercompanyzeile mit dem Eintrag **Intercompanypartner** im Feld **Kontoart** ein Fibukonto eingeben, wird das Feld **IC-Partner-Fibukonto** automatisch ausgefüllt.  
