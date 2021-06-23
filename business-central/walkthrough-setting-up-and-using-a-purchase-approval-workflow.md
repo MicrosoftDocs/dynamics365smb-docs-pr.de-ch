@@ -1,5 +1,5 @@
 ---
-title: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows | Microsoft Docs
+title: Einrichten und Verwenden eines Einkaufsanfrage-Genehmigungsworkflows
 description: Sie können den Genehmigungsprozesses für neuen oder geänderten Datensätze, z. B. Belege, Erfassungsjournalzeilen und Debitorenkarten automatisieren, indem Sie Workflows mit Schritten für die entsprechenden Genehmigungen erstellen. Bevor Sie Genehmigungsworkflows erstellen, müssen Sie einen Genehmiger und einen Stellvertreter für jeden Genehmigungsbenutzer einrichten. Sie können ausserdem die Grenzbeträge für die Genehmiger festlegen, um zu definieren, für welche Verkaufs- und Einkaufsdatensätze sie für eine Genehmigung qualifiziert sind. Genehmigungsanforderungen und andere Benachrichtigungen können als E-Mail oder interne Notiz gesendet werden. Für jede Genehmigungsbenutzereinrichtung können Sie angeben wann dieser Benachrichtigungen erhält.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/26/2021
 ms.author: edupont
-ms.openlocfilehash: 11a4bd84395d50a1b39417c5c3abab0dd757e7ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 964e1dae3dc754198777c703a15c1ef0b6fe82a7
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782823"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110993"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows
 
@@ -30,11 +30,11 @@ Sie können den Genehmigungsprozesses für neuen oder geänderten Datensätze, z
 
 In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
-- Einrichten von Genehmigungsbenutzern.  
-- Benachrichtigungen für Genehmigungsbenutzer einrichten.  
-- Den Genehmigungsworkflow ändern und aktivierend.  
-- Die Genehmigung einer Einkaufsbestellung als Christine.  
-- Empfangen einer Benachrichtigung und Genehmigung als Stephan.  
+- Einrichten von Genehmigungsbenutzern  
+- Benachrichtigungen für Genehmigungsbenutzer einrichten  
+- Genehmigungsworkflow ändern und aktivieren  
+- Genehmigung einer Einkaufsbestellung als Christine anfordern  
+- Empfangen einer Benachrichtigung und anschliessende Genehmigung als Stephan  
 
 ## <a name="story"></a>Hintergrund
 
@@ -87,8 +87,8 @@ Erstellen Sie den Einkaufsbestellungs-Genehmigungsworkflow, indem Sie die Schrit
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>So erstellen und aktivieren Sie einen Einkaufsbestellungs-Genehmigungsworkflow
 
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Workflows** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie auf der Seite **Workflows** die Aktion **Neuer Workflow aus Vorlage**.  
-3. Wählen Sie auf der Seite **Workflow-Vorlage** die Worklow-Vorlage **Einkaufsbestellung-Genehmigungsworkflow** aus, und wählen Sie dann die Schaltfläche **OK** aus.  
+2. Wählen Sie auf der Seite **Arbeitsabläufe** die Option **Aktionen**, **Neu** und dann die Aktion **Neuer Workflow aus Vorlage** aus.  
+3. Wählen Sie auf der Seite **Workflow-Vorlage** die Worklow-Vorlage **Einkaufsbestellung-Genehmigungsworkflow** aus.  
 
     Die Seite **Workflow** wird für einen neuen Workflow geöffnet, der alle Informationen der ausgewählten Vorlage enthält. Der Wert im Feld **Code** wird mit **-01** erweitert. Dies zeigt an, dass dies der erste Workflow ist, der von der *Einkaufsbestellungs-Genehmigungsworkflow*-Workflow-Vorlage erstellt wurde.  
 4. Aktivieren Sie im Kopfbereich der **Workflow**-Seite das **Aktiviert**-Kontrollkästchen.  
@@ -101,8 +101,8 @@ Verwenden Sie den neuen Workflow zur Genehmigung von Bestellungen, indem Sie sic
 
 1. Melden Sie sich als Alicia an.
 2. Wählen Sie die ![Glühbirne, die das Tell Me Feature öffnet](media/ui-search/search_small.png "Tell Me-Funktion") Symbol, geben Sie **Bestellungen** ein und wählen Sie dann den entsprechenden Link.  
-3. Wählen Sie die Zeile für offene Bestellung 106001 und die **Bearbeiten** Aktion aus.  
-4. Auf der Seite **Bestellung** wählen Sie die **Genehmigungsanforderung senden** Aktion aus.  
+3. Wählen Sie die Zeile aus, um die Bestellung 106001 zu öffnen.  
+4. Wählen Sie auf der Seite **Einkaufsbestellung** die Option **Aktionen**, **Genehmigungsanforderung** und anschliessend die Aktion **Genehmigungsanforderung senden** aus.  
 
 Beachten Sie, dass sich der Wert im Feld **Status** zu **Genehmigung ausstehend** ändert.  
 

@@ -10,17 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d1448b9105426103d70abfb820bd38b6adb41db8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 82d5148bd99870b623a0b37693e105bcf8b862b2
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779267"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115879"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Komponenten entsprechend dem Arbeitsgangs-Ausstoss leeren
 Sie können verschiedene Buchungsmethoden definieren, um die Registrierung des Verbrauchs von Komponenten zu automatisieren. 
-
-Wenn beispielsweise ein Fertigungsauftrag, 800 Meter zu produzieren, 8 Kilogramm einer Komponente benötigt, dann werden, wenn Sie 200 Meter buchen, wie ausgegeben, 2 Kilogramm automatisch als Verbrauch gebucht. 
 
 Diese Funktionalität ist aus folgenden Ursachen nützlich:  
 
@@ -34,7 +32,62 @@ Diese Funktionalität ist aus folgenden Ursachen nützlich:
 
     Mit der Möglichkeit, Produkte an Debitorenanfragen anzupassen, können Sie Abfall minimieren, indem Sie sicherstellen, dass Arbeits- und Systemänderungen nur eintreten, wenn es erforderlich ist.  
 
-Sie können dies durch Kombination der Rückwärtsbuchen und der Verbindungscodes erreichen, sodass die Menge, die je Arbeitsgang geleert wird, zur aktuellen Isteffektivität des abgeschlossenen Arbeitsgangs proportional ist. Für Artikel, die mit der Rückwärtsbuchungsmethode erstellt wurden, ist das Standardverhalten, Komponentenverbrauch zu berechnen und zu buchen, wenn Sie den Status eines freigegebenen Fertigungsauftrags in **Erledigt** ändern. Wenn Sie auch Verbindungscodes definieren, dann erfolgt die Berechnung und Buchung, wenn jeder Arbeitsgang beendet ist, und die Menge, die tatsächlich im Arbeitsgang verbraucht wurde, wird gebucht. Weitere Informationen finden Sie unter [Arbeitspläne erstellen](production-how-to-create-routings.md).  
+- **Dateneingabe reduzieren**
+
+    Durch die Möglichkeit, einen Arbeitsgang automatisch zu buchen, kann der gesamte Erfassungsprozess für Verbrauch und fertige Artikel automatisiert werden. Der Nachteil des automatischen Buchens besteht darin, dass Ausschuss möglicherweise nicht richtig oder sogar gar nicht erfasst wird.
+
+## <a name="automatic-consumption-posting-flushing-methods"></a>Methoden für das automatische Buchen des Verbrauchs  
+
+- "Vorwärts"-Buchen des gesamten Auftrags  
+- "Vorwärts"-Buchen pro Arbeitsgang  
+- "Rückwärts"-Buchen pro Arbeitsgang  
+- "Rückwärts"-Buchen des gesamten Auftrags  
+
+### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automatisches Berichtswesen - "Vorwärts"-Buchen des gesamten Auftrags  
+Wenn Sie den Fertigungsauftrag zu Beginn des Projekts mit der Methode "Vorwärts" buchen, verhält sich die Anwendung ähnlich wie bei einem manuellen Verbrauch. Der Hauptunterschied besteht darin, dass der Verbrauch automatisch auftritt.  
+
+- Der gesamte Inhalt der Fertigungsstückliste wird zu dem Zeitpunkt verbraucht und dem Lagerbestand entnommen, zu dem der freigegebene Fertigungsauftrag aktualisiert wird.  
+- Die Verbrauchsmenge entspricht der Menge pro Stück, die in der Fertigungsstückliste angegeben ist, multipliziert mit der Anzahl der übergeordneten Artikel, die gefertigt werden.  
+- Es ist nicht erforderlich, irgendwelche Informationen im FA-Verbrauchs Erf.-Journal zu erfassen, wenn für alle Artikel festgelegt ist, dass sie gebucht werden müssen.  
+- Wenn Artikel aus dem Lagerbestand verbraucht werden, spielt es keine Rolle, wann die Einträge in das FA-Istmeldungs Erf.-Journal vorgenommen werden, weil sich das FA-Istmeldungs Erf.-Journal nicht auf diesen Modus des Buchens des Verbrauchs auswirkt.  
+- Es können keine Verbindungscodes festgelegt werden.  
+
+Das "Vorwärts"-Buchen eines gesamten Auftrags ist für Fertigungsumgebungen mit folgenden Eigenschaften geeignet:  
+
+-   Es gibt nur wenige Defekte.  
+-   Es gibt nur wenige Arbeitsgänge.  
+-   Es gibt einen hohen Komponentenverbrauch in frühen Arbeitsgängen.  
+
+### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automatisches Berichtswesen - "Vorwärts"-Buchen pro Arbeitsgang  
+Buchen pro Arbeitsgang versetzt Sie in die Lage, den Lagerbestand zu aktualisieren, während ein bestimmter Arbeitsgang aus dem Arbeitsplan des übergeordneten Artikels ausgeführt wird. Die Materialien sind mit dem Arbeitsplan über Verbindungscodes verknüpft, die den Verbindungscodes entsprechen, die auf Komponenten in der Fertigungsstückliste angewendet werden.  
+
+Die Buchung erfolgt, wenn der Arbeitsgang gestartet wurde, der denselben Verbindungscode hat. Gestartet bedeutet, dass mindestens eine Aktivität im FA-Istmeldungs Erf.-Journal des Arbeitsgangs erfasst wurde. Diese Aktivität kann z. B. lediglich darin bestehen, dass eine Rüstzeit eingegeben wird.  
+
+Die Mengenangabe für die Buchung ergibt sich aus der Menge pro Stück, die in der Fertigungsstückliste angegeben ist, multipliziert mit der Anzahl der übergeordneten Artikel, die gefertigt werden (erwartete Menge).  
+
+Diese Methode ist am besten geeignet, wenn es viele Arbeitsgänge gibt und bestimmte Komponenten erst spät im Fertigungsablauf benötigt werden. Tatsächlich kann es sein, dass bei einer JIT-Einrichtung (Just-in-Time) die Artikel noch nicht einmal verfügbar sind, wenn die Neuplanung des Fertigungsauftrags gestartet wird.  
+
+Materialien können im Verlauf von Arbeitsgängen verbraucht werden, indem Verbindungscodes verwendet werden. Einige Komponenten werden möglicherweise erst bei den Endmontagearbeitsgängen benötigt und sollten bis dahin nicht aus dem Lager entnommen werden.  
+
+### <a name="automatic-reporting---back-flushing-by-operation"></a>Automatisches Berichtswesen - "Rückwärts"-Buchen pro Arbeitsgang  
+Beim "Rückwärts"-Buchen pro Arbeitsgang wird der Verbrauch erfasst, nachdem der Arbeitsgang im FA-Istmeldungs Erf.-Journal gebucht wurde.  
+
+Der Vorteil dieser Methode liegt darin, dass die Anzahl der übergeordneten Teile, die im Arbeitsgang fertig gestellt wurden, bekannt ist.  
+
+Material in der Fertigungsstückliste ist über Verbindungscodes mit den Arbeitsplandatensätzen verbunden. Die "Rückwärts"-Buchung erfolgt, wenn ein Arbeitsgang mit einem bestimmten Verbindungscode zusammen mit einem fertigen Teil gebucht wird.  
+
+Die Mengenangabe für die Buchung ergibt sich aus der Menge pro Stück, die in der Fertigungsstückliste angegeben ist, multipliziert mit der Zahl der übergeordneten Artikel, die für diesen Arbeitsgang als fertig gestellte Menge gebucht wurden. Diese Mengenangabe kann von der erwarteten Menge unterscheiden.  
+
+### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automatisches Berichtswesen - "Rückwärts"-Buchen des gesamten Auftrags  
+Bei dieser Berichterstellungsmethode werden keine Verbindungscodes berücksichtigt.  
+
+Komponenten werden erst entnommen, wenn sich der Status des freigegebenen Fertigungsauftrags in *Beendet* geändert hat. Die Mengenangabe für die Buchung ergibt sich aus der Menge pro Stück, die in der Fertigungsstückliste angegeben ist, multipliziert mit der Zahl der übergeordneten Artikel, die fertig gestellt und in den Lagerbestand übernommen wurden.  
+
+Soll ein gesamter Fertigungsauftrag nach der Methode "Rückwärts" gebucht werden, ist die gleiche Einrichtung wie für die Buchungsmethode "Vorwärts" erforderlich: Die Berichterstellungsmethode muss auf jeder Artikelkarte auf "Rückwärts" festgelegt sein, damit alle Artikel in der übergeordneten Stückliste bei der Berichterstellung berücksichtigt werden. Ausserdem müssen alle Verbindungscodes aus der Produktionsstückliste entfernt worden sein. 
+
+
+
+Wenn beispielsweise ein Fertigungsauftrag, 800 Meter zu produzieren, 8 Kilogramm einer Komponente benötigt, dann werden, wenn Sie 200 Meter buchen, wie ausgegeben, 2 Kilogramm automatisch als Verbrauch gebucht. Sie können dies durch Kombination der Rückwärtsbuchen und der Verbindungscodes erreichen, sodass die Menge, die je Arbeitsgang geleert wird, zur aktuellen Isteffektivität des abgeschlossenen Arbeitsgangs proportional ist. Für Artikel, die mit der Rückwärtsbuchungsmethode erstellt wurden, ist das Standardverhalten, Komponentenverbrauch zu berechnen und zu buchen, wenn Sie den Status eines freigegebenen Fertigungsauftrags in **Erledigt** ändern. Wenn Sie auch Verbindungscodes definieren, dann erfolgt die Berechnung und Buchung, wenn jeder Arbeitsgang beendet ist, und die Menge, die tatsächlich im Arbeitsgang verbraucht wurde, wird gebucht. Weitere Informationen finden Sie unter [Arbeitspläne erstellen](production-how-to-create-routings.md).  
 
 ## <a name="to-flush-components-according-to-operation-output"></a>Komponenten entsprechend dem Arbeitsgangs-Ausstoss leeren
 

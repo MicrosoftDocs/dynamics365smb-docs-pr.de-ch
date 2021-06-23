@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ac53955d897e8c69da5136c6326353999460625
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889166"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063441"
 ---
 # <a name="set-up-email"></a>E-Mail einrichten
 Menschen in Unternehmen senden täglich Informationen und Belege wie Verkaufsbelege und Bestellungen sowie Rechnungen per E-Mail. Administratoren können dies vereinfachen, indem sie ein oder mehrere E-Mail-Konten mit [!INCLUDE[prod_short](includes/prod_short.md)] verbinden. So können Sie Belege senden, ohne eine E-Mail-App öffnen zu müssen. Sie können jede Nachricht einzeln mit grundlegenden Formatierungswerkzeugen wie Schriftarten, Stilen, Farben usw. zusammenstellen und Anhänge mit bis zu 100 MB hinzufügen. Administratoren können auch Berichtslayouts einrichten, die nur die wichtigsten Informationen aus Belegen enthalten. Weitere Informationen finden Sie unter [Senden von Belegen über E-Mail](ui-how-send-documents-email.md).
@@ -53,7 +53,7 @@ Wenn Sie bereits [!INCLUDE[prod_short](includes/prod_short.md)] verwenden und E-
 > Wenn Sie Anpassungen haben, die auf der alten SMTP-E-Mail-Einrichtung basieren, besteht die Möglichkeit, dass bei Ihren Anpassungen ein Fehler auftritt, wenn Sie E-Mail-Erweiterungen verwenden. Wir empfehlen, dass Sie die Erweiterungen einrichten und testen, bevor Sie den Funktionsschalter für erweiterte E-Mail-Funktionen aktivieren.
 
 > [!IMPORTANT]
-> Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] Online verwenden, können Sie die OAuth 2.0-Authentifizierungsmethode nicht verwenden.<br> Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] vor Ort verwenden, können Sie OAuth 2.0 zur Authentifizierung verwenden. Sie müssen jedoch eine Anwendungsregistrierung im Azure-Portal erstellen und dann das unterstützte Setup **Azure Active Directory einrichten** in [!INCLUDE[prod_short](includes/prod_short.md)] für die Verbindung zu Azure AD verwenden. Weitere Informationen finden Sie unter [Eine App-Registrierung für Business Central im Azure-Portal erstellen](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] vor Ort verwenden, können Sie OAuth 2.0 zur Authentifizierung verwenden. Sie müssen jedoch eine Anwendungsregistrierung im Azure-Portal erstellen und dann das unterstützte Setup **Azure Active Directory einrichten** in [!INCLUDE[prod_short](includes/prod_short.md)] für die Verbindung zu Azure AD verwenden. Weitere Informationen finden Sie unter [Eine App-Registrierung für Business Central im Azure-Portal erstellen](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>E-Mail-Konten hinzufügen
 Die unterstützte Einrichtungsanleitung für das **Einrichten von E-Mails** kann Ihnen helfen, rasch mit dem Senden von E-Mails zu beginnen.

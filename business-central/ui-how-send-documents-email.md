@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 978989e12fc8c5ac236bb1dda1a8a5d1c2687de2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a4304b80e453296a3012d9e68ecc416371ee0ad3
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772293"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063416"
 ---
 # <a name="send-documents-and-emails"></a>Senden von Belegen und E-Mails
 Sie können Informationen und Belege wie Verkaufs- und Einkaufsrechnungen sowie Rechnungen ganz einfach per E-Mail direkt von [!INCLUDE[prod_short](includes/prod_short.md)]] austauschen, ohne eine E-Mail-App öffnen zu müssen. 
@@ -56,7 +56,7 @@ In diesem Verfahren wird beschrieben, wie Sie eine gebuchte Verkaufsrechnung als
 Einige Belege in [!INCLUDE[prod_short](includes/prod_short.md)] verfügen über ein Feld, das angibt, wie oft der Beleg gedruckt worden ist. Die Nummer in diesem Feld <!--"that field?" need a name...--> wird auch aktualisiert, wenn Sie das Dokument per E-Mail senden, da eine PDF-Datei dafür generiert wird. Die Nummer wird aktualisiert, auch wenn Sie die E-Mail nicht senden. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
 ## <a name="sent-emails-and-your-email-outbox"></a>Gesendete E-Mails und Ihr E-Mail-Postausgang
-[!INCLUDE[prod_short](includes/prod_short.md)]] speichert die E-Mails, die Sie auf der Seite **Gesendete Objekte** senden. Damit können Sie E-Mails erneut senden oder an eine andere Person weiterleiten. Wenn Sie in Ihren gesendeten Artikeln keine E-Mail finden können, suchen Sie diese auf der Seite **E-Mail-Postausgang**. 
+[!INCLUDE[prod_short](includes/prod_short.md)] speichert die E-Mails, die Sie auf der Seite **Gesendete Objekte** senden. Damit können Sie E-Mails erneut senden oder an eine andere Person weiterleiten. Wenn Sie in Ihren gesendeten Artikeln keine E-Mail finden können, suchen Sie diese auf der Seite **E-Mail-Postausgang**. 
 
 > [!NOTE]
 > Abhängig von der Erweiterung, die Ihr Unternehmen für E-Mails verwendet, können Administratoren eine Liste der von allen gesendeten Nachrichten anzeigen, jedoch nicht den Inhalt der Nachrichten

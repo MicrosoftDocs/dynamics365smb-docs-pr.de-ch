@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 04/01/2021
+ms.date: 05/17/2021
 ms.author: jswymer
-ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985426"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063466"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 
@@ -38,7 +38,7 @@ Universal Print ist ein auf Abonnements basierender Microsoft 365-Dienst, der vo
 
 ![Universelles Drucken einrichten](media/Universal-Print-arch.png)
 
-Für die vollständige Einrichtung müssen Sie in Microsoft Azure mit Verwendung vom [Azure-Portal](https://posrtal.azure.com) und in [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten.
+Für die vollständige Einrichtung müssen Sie in Microsoft Azure über das [Azure-Portal](https://portal.azure.com) und in [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten.
 
 ### <a name="supported-printers"></a>Unterstützte Drucker
 
@@ -78,7 +78,7 @@ Für die vollständige Einrichtung müssen Sie in Microsoft Azure mit Verwendung
 
 Bevor Sie mit der Verwaltung von Universal Print-Druckern in Business Central beginnen können, müssen Sie einige Aufgaben ausführen, um Universal Print in Azure mit den gewünschten Druckern zum Laufen zu bringen.
 
-Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Universal Print einrichten](https://docs.microsoft.com/universal-print/fundamentals/universal-print-getting-started) in der Universal Print-Dokumentation. Hier ist eine Übersicht über die Schritte, die Sie ausführen müssen. Die meisten dieser Schritte werden im Azure-Portal ausgeführt.
+Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Universal Print einrichten](/universal-print/fundamentals/universal-print-getting-started) in der Universal Print-Dokumentation. Hier ist eine Übersicht über die Schritte, die Sie ausführen müssen. Die meisten dieser Schritte werden im Azure-Portal ausgeführt.
 
 1. Weisen Sie sich und anderen Benutzern Universal Print-Lizenzen zu.
 
@@ -104,29 +104,34 @@ Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Unive
 
     - Registrieren Sie bei anderen Druckern die Drucker über den Universal Print-Konnektor. 
 
-      Weitere Informationen finden Sie unter [Druckerregistrierung](/universal-print-connector-printer-registration).
+      Weitere Informationen finden Sie unter [Druckerregistrierung](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Druckereigenschaften ändern (optional)
 
     Nachdem ein Drucker registriert wurde, können Sie Druckereigenschaften wie Standardeinstellungen anzeigen und ändern.
 
-    Weitere Informationen finden Sie unter [Einstellungen für Druckermetadaten verwalten](/universal-print/fundamentals/universal-print-printer-property-settings).
+    Weitere Informationen finden Sie unter [Verwalten der Druckereinstellungen über das Universal Print-Portal](/universal-print/portal/configure-printer-settings).
 
-5. Geben Sie den Benutzern die Berechtigung für die Drucker.
-
-    Weitere Informationen finden Sie unter [Druckerberechtigungen](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).
-
-6. Teilen Sie die Drucker.
+5. Teilen Sie die Drucker.
 
     Jeder Drucker, in dem Sie [!INCLUDE[prod_short](includes/prod_short.md)] verwenden möchten, muss in Universal Print geteilt werden.
 
-    Weitere Informationen finden Sie unter [Einen Drucker teilen](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer).
+    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+
+    Weitere Informationen finden Sie unter [Drucker freigeben](/universal-print/portal/share-printers).
+
+6. Geben Sie den Benutzern die Berechtigung für freigegebene Drucker.
+
+    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+
+    Weitere Informationen finden Sie unter [Druckerberechtigungen](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+
 
 7. Aktivieren Sie die Dokumentkonvertierung.
 
     Universal Print rendert Inhalte für den Druck im XPS-Format. Einige ältere marktübliche Drucker unterstützen das Rendern von XPS-Inhalten in vielen Fällen nicht &mdash;, sondern nur das PDF-Format. Das Drucken auf diesen Druckern schlägt fehl, es sei denn, Universal Print ist so eingerichtet, dass Belege in das vom Drucker unterstützte Format konvertiert werden.
 
-    Weitere Informationen finden Sie unter [Dokumentkonvertierung – Übersicht](/universal-print/fundamentals/universal-print-document-conversion).
+    Weitere Informationen finden Sie unter [Dokumentkonvertierung – Übersicht](/universal-print/portal/document-conversion).
 
     > [!TIP]
     > Wenn keiner Ihrer Drucker das Renderformat für PDF-Inhalte benötigt, empfehlen wir, die Dokumentkonvertierung nicht zu aktivieren, da dies die Druckausgabequalität beeinträchtigen kann.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
 ms.date: 04/29/2021
 ms.author: jswymer
-ms.openlocfilehash: 5de8096338cef264b599701abf2e21a906417bac
-ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
+ms.openlocfilehash: 5a9b99b367ca732f5b6347462a07b0d0c3f5c522
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961566"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115904"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Eingabehilfe und Tastenkombinationen
 
@@ -34,7 +34,7 @@ In diesem Artikel finden Sie Informationen zu den Funktionen, die [!INCLUDE[prod
   
 Sie können verschiedene Kombinationen der Tabulator-, Shift- und Pfeiltasten Ihrer Tastatur verwenden, um zwischen Elementen auf einer Seite zu wechseln. Zu den Elementen gehören Aktionen, Felder und Spalten, Teile und andere Steuerelemente. Allgemein gilt: Drücken Sie die Tabulatortaste oder Shift+Tab, um zum nächsten oder vorherigen Element zu wechseln.
 
-Wenn Sie den Fokus auf einen Bereich legen, der Aktionen enthält, wie die Navigationsleiste oben im Rollencenter oder die Aktionsleiste auf anderen Seiten, verwenden Sie die Pfeiltasten, um sich durch die verschiedenen Aktionen und Gruppen zu bewegen. Drücken Sie die Eingabetaste bei einer Gruppe, um die darunter liegenden Aktionen zu öffnen, und fahren Sie dann mit den Pfeiltasten fort. Drücken Sie die Tabulatortaste oder Shift+Tab, um sich aus dem Aktionsbereich herauszubewegen.
+Wenn Sie den Fokus auf einen Bereich legen, der Aktionen enthält, wie die Navigationsleiste oben im Rollencenter oder die Aktionsleiste auf anderen Seiten, verwenden Sie die Pfeiltasten, um sich durch die verschiedenen Aktionen und Gruppen zu bewegen. Eingabetaste drücken bei einer Gruppe, um die darunter liegenden Aktionen zu öffnen, und fahren Sie dann mit den Pfeiltasten fort. Drücken Sie die Tabulatortaste oder Shift+Tab, um sich aus dem Aktionsbereich herauszubewegen.
 
 Mit Hilfe der Tabulatorreihenfolge können Sie auch zwischen der Hauptseite des Browsers und Dialogfeldern, die z. B. eine Bestätigung anfordern, oder der Anmeldeseite wechseln.  
 
@@ -85,6 +85,6 @@ Sie können zusätzliche Informationen über Eingabehilfen mit Microsoft-Produkt
 
 [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Häufig gestellte Fragen](across-faq.md)  
+[Häufig gestellte Fragen](across-faq.yml)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

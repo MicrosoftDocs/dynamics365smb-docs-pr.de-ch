@@ -10,15 +10,18 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 118d8db1266bb7150965ec4d1ce44ece77638764
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788660"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110968"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Verwenden von Word-Vorlagen für die Kommunikation
 Microsoft Word-Vorlagen können die Massenkommunikation mit Entitäten wie Debitoren und Kreditoren vereinfachen. Sie können beispielsweise Broschüren erstellen, um Debitoren über eine Verkaufskampagne zu informieren, Briefe, um Kreditoren über eine neue Einkaufsrichtlinie zu informieren, oder Einladungen, um Kontakte zu einer bevorstehenden Veranstaltung zu gewinnen.
+
+> [!NOTE]
+> Sie können Word-Vorlagen nur auf Geräten mit Microsoft Word 2019 und installiertem Windows-Betriebssystem verwenden.
 
 Sie können Entitäten in [!INCLUDE[prod_short](includes/prod_short.md)] als Datenquelle für die Vorlage verwenden und die Zusammenführungsfelder hinzufügen, um Belege für jede Entität zu personalisieren. Die Zusammenführungsfelder stammen von der Entität in [!INCLUDE[prod_short](includes/prod_short.md)]. Wenn Sie eine Word-Vorlage auf eine Entität anwenden, werden Daten aus den Zusammenführungsfeldern in das Dokument eingefügt.
 
