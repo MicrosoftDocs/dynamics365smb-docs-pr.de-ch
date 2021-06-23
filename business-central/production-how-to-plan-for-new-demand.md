@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab3929a410a280494d806e7aeea5c54ce966769e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bed73380344c0900a00d6d704ee2d853a1bf165d
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787991"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216244"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planung der Bestellung eines neuen Bedarfs von Auftrag
 Diese Planungsaufgabe kann auf der Seite **Auftragsplanung** ausgeführt werden, in dem der gesamte neue Bedarf sowie Informationen über die Verfügbarkeit und Beschaffungsvorschläge angezeigt werden. Das Fenster bietet eine Übersicht und die erforderlichen Tools für eine effektive Bedarfsplanung anhand der Verkaufs- und Komponentenzeilen, auf deren Grundlage dann verschiedene Arten von Beschaffungsaufträgen direkt erstellt werden können.  
@@ -109,11 +109,11 @@ Nachdem Sie die Planung auf der Seite **Auftragsplanung** abgeschlossen haben, a
 >  Aus den erstellten Beschaffungsaufträgen kann sich neuer, von diesen Beschaffungsaufträgen abhängiger Bedarf ergeben, und für diesen Fall wählen Sie noch einmal **Planung berechnen**, um diese zu ermitteln und zu bearbeiten, bevor Sie in der Liste fortfahren.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung](walkthrough-planning-supplies-manually.md)  
+<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Planung](production-planning.md)  
 [Produktion einrichten](production-configure-production-processes.md)  
 [Bearbeitungen](production-manage-manufacturing.md)    
-[Lagerbestand](inventory-manage-inventory.md)  
+[Lagerbesttand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Designdetails: Vorratsplanung](design-details-supply-planning.md)   
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 0786aeafd1c796b33885f72b2e73a744f80a651b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e855a7c1392b84a45c588c8a7dbe01de389a3377
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775664"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216017"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetails: Montageauftragsbuchung
 Die Montageauftragsbuchung basiert auf demselben Prinzip wie das Buchen ähnlicher Aktivitäten von Verkaufsaufträgen und von Produktionsverbrauch/-aushabe. Die Prinzipien werden jedoch insofern kombiniert, als Montageaufträge ihre eigene Buchungsbenutzeroberfläche, wie für Verkaufsaufträge, haben, während die tatsächliche Postenbuchung im Hintergrund als direkte Artikel- und Ressourcen Erf.-Journalbuchung, wie für den Fertigungsverbrauch, Ausgabe und Kapazität geschieht.  
@@ -82,7 +82,7 @@ Die Verteilung erkannter Regulierungen von Material- und Ressourcenkosten zu den
 > [!NOTE]  
 >  Das Element „WIP-Regulierungen“ auf den Zeilen 7 und 8 ist für die Weiterleitung von Produktionsmaterial und Kapazitätsnutzung an die Ausgabe nicht abgeschlossener Fertigungsaufträge verantwortlich. Dies wird nicht verwendet, wenn Montageauftragskosten reguliert werden, da der Begriff WIP nicht auf Montage angewendet wird.  
 
-Weitere Informationen darüber, wie Kosten aus der Montage und aus der Produktion in die Fibu gebucht werden, finden Sie unter [Designdetails: Bestandesbuchung](design-details-inventory-posting.md).  
+Weitere Informationen darüber, wie Kosten aus der Montage und aus der Produktion in die Fibu gebucht werden, finden Sie unter [Designdetails: Bestandsbuchung](design-details-inventory-posting.md).  
 
 ## <a name="assembly-costs-are-always-actual"></a>Montagekosten sind immer Ist-Kosten  
  Das Umlaufbestand- (WIP) Konzept gilt nicht in der Montageauftragsbuchung. Montagekosten werden nur als Ist-Kosten gebucht, nie als erwartete Kosten. Weitere Informationen finden Sie unter [Designdetails: Erwartete Kostenbuchung](design-details-expected-cost-posting.md).  

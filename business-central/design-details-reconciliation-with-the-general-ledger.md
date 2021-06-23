@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 3b912ff8eea32c35db4eb96333336e80d819e0c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ad155e604780af087c93e4e245002f3511d3d5a9
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786501"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215816"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetails: Abgleich mit der Finanzbuchhaltung
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen, Fertigprodukte aus der Produktion oder Abgängen, werden die Mengen- und die Wertänderungen des Lagerbestandes in den Lagerposten bzw. in den Wertposten festgehalten. Verkaufslieferungen, Einkaufsrechnungen, Fertigprodukte aus der Produktion oder Abgänge, werden die Mengen- und die Wertänderungen des Lagerbestandes in den Lagerposten bzw. in den Fibuposten festgehalten.  
@@ -38,7 +38,7 @@ Um einzurichten, dass die Kostenbuchung im Fibuposten automatisch ausgeführt wi
 ## <a name="account-types"></a>Kontoarten  
 Während der Abstimmung werden Bestandswerte zum Bestandskonto auf der Bilanz gebucht. Der gleiche Betrag, aber mit umgekehrtem Vorzeichen, wird in das entsprechende Gegenkonto gebucht. Normalerweise ist das Gegenkonto ein Erfolgsrechnungskonto. Wenn Sie direkte Kosten im Zusammenhang mit Verbrauch oder Ausgabe buchen, ist das Gegenkonto jedoch ein Bilanzkonto. Die Art des Lagerpostens und des Wertpostens bestimmt, auf welches Fibukonto gebucht wird.  
 
-Die Postenart gibt an, in welches Fibukonto die Buchung vorgenommen werden soll. Dieses wird entweder durch das Vorzeichen der Menge im Lagerposten oder der bewerteten Menge im Wertposten bestimmt, da die Mengen immer das gleiche Vorzeichen haben. Beispielsweise beschreibt ein Verkaufsposten mit einer positiven Menge eine Bestandsabnahme durch einen Verkauf, und ein Verkaufsposten mit negativer Menge beschreibt eine Bestandszunahme durch eine Verkaufsreklamation.  
+Die Postenart gibt an, in welchem Fibukonto die Buchung vorgenommen werden soll. Dieses wird entweder durch das Vorzeichen der Menge im Lagerposten oder der bewerteten Menge im Wertposten bestimmt, da die Mengen immer das gleiche Vorzeichen haben. Beispielsweise beschreibt ein Verkaufsposten mit einer positiven Menge eine Bestandsabnahme durch einen Verkauf, und ein Verkaufsposten mit negativer Menge beschreibt eine Bestandszunahme durch eine Verkaufsreklamation.  
 
 ### <a name="example"></a>Beispiel  
 Das folgende Beispiel zeigt eine Fahrradkette, die aus eingekauften Gliedern gefertigt ist. In diesem Beispiel wird gezeigt, wie die verschiedenen Fibukontoarten in einem typischen Szenario verwendet werden.  
