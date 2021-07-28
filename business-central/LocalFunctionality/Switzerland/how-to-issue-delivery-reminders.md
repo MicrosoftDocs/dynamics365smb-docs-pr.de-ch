@@ -1,6 +1,6 @@
 ---
-title: So erstellen Sie Lieferanmahnungen in der Schweizer Version aus
-description: Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrucken, sodass Sie Mahnungen an Kreditoren verschicken können. Vor dem Ausstellen von Lieferbenachrichtigungen können Sie einen Testbericht drucken.
+title: 'Gewusst wie: Lieferbenachrichtigungen ausstellen [CH]'
+description: Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrucken, sodass Sie Mahnungen an Kreditoren verschicken können.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b3196041da0ec8e593ca651b0b98fb19928c4fa2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 51e3e49b8db669d17e5ac4bd9c4f1dfc04aa4264
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777591"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320752"
 ---
 # <a name="issue-delivery-reminders-in-the-swiss-version"></a>Lieferanmahnungen in der Schweizer Version ausstellen
 

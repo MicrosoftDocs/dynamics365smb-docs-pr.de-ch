@@ -1,6 +1,6 @@
 ---
-title: Mehrwertsteuer (Schweiz)
-description: Schweizer Erweiterungen enthalten spezielle Mehrwertsteuerberichterstellungsfunktionen.
+title: Schweizer Salestax [CH]
+description: In diesem Artikel werden mehrere Verbesserungen an den Schweizer Mehrwertsteuerberichterstellungsfunktionen vorgenommen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c8c80de7708105add47c6cbe73a3e63855b799ea
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b8ebca2f78a70b1cceab1825bfa1d54fd91628ed
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784017"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319294"
 ---
 # <a name="swiss-value-added-tax"></a>Mehrwertsteuer (Schweiz)
 [!INCLUDE[prod_short](../../includes/prod_short.md)] enthält die folgenden Erweiterungen für die Schweizer Mehrwertsteuerberichterstellung:  

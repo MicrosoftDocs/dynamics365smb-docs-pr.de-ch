@@ -1,6 +1,6 @@
 ---
-title: Lagerverwaltung (Schweiz)
-description: Schweizer Erweiterungen enthalten spezielle Lagerverwaltungsfunktionen.
+title: Lagerverwaltung [CH]
+description: In diesem Artikel werden die Schweizer Erweiterungen der speziellen Lagerverwaltungsfunktionen in Business Central beschrieben.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 61501236fc923dca608fce50a2b6cef65a3d569d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8986455ccbab0adc26a17605fdb7f4889732d950
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784021"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319302"
 ---
 # <a name="swiss-inventory-management"></a>Lagerverwaltung (Schweiz)
 [!INCLUDE[prod_short](../../includes/prod_short.md)] enthält Schweizer Erweiterungen für Lagerverwaltung. Dies beinhaltet Folgendes:  

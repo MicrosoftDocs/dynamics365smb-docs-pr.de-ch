@@ -1,6 +1,6 @@
 ---
 title: Einkaufsbelege und Verkaufsbelege (Schweiz)
-description: Schweizer Erweiterungen enthalten Sonderkauf- und Verkaufsbelegfunktionen.
+description: In diesem Artikel werden die an der Schweizer Version von Business Central vorgenommenen Verbesserungen erläutert, einschliesslich Schweizer Sonderkauf- und Verkaufsbelegfunktionen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 5072ddb1a494fc90699fe9f82c680b7fd744bc47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb47e4ca19a8f0a4b65f16de4ff36c597d4005d9
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785180"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319298"
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Einkaufsbelege und Verkaufsbelege (Schweiz)
 [!INCLUDE[prod_short](../../includes/prod_short.md)]Enthält Schweizer Erweiterungen für Kauf- und Verkaufsbelege. Dies beinhaltet Folgendes:  
