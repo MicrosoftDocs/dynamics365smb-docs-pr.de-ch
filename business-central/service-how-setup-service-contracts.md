@@ -1,6 +1,6 @@
 ---
-title: Einrichten von Serviceverträgen | Microsoft Docs
-description: 'Vorgehensweise: Einrichten von Serviceverträgen.'
+title: Serviceverträge einrichten
+description: Erfahren Sie, wie Sie Serviceverträge mit den erforderlichen Voraussetzungen festlegen, einschliesslich Servicevertragsgruppen, Vertragsvorlagen und Debitorenvorlagen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 216bbd775c66fca619d792ff578d198405fc7612
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 65bee9492ebf24eb90ef8b22025a09e36d3602fa
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781545"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436590"
 ---
 # <a name="set-up-service-contracts"></a>Serviceverträge einrichten
 Um mit Verträgen arbeiten zu können, müssen Sie Folgendes einrichten: 
@@ -26,19 +26,19 @@ Um mit Verträgen arbeiten zu können, müssen Sie Folgendes einrichten:
 * **Debitorenvorlagen**, mit denen Sie Offerten für Kontakte oder potenzielle Debitoren erstellen können, die nicht als Debitoren in [!INCLUDE[prod_short](includes/prod_short.md)] registriert sind.  
 
 ## <a name="to-set-up-a-service-contract-group"></a>So richten Sie Servicevertragsgruppen ein  
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Servicevertragsgruppen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Servicevertragsgruppen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Aktivieren Sie das Feld **Rabatt nur auf Vertr.-Aufträge**, wenn Vertrags- oder Servicerabatte nur für Vertragsaufträge, wie z. B. Wartung, gültig sein sollen.  
 
 ## <a name="to-set-up-a-service-contract-account-group"></a>So richten Sie eine Servicevertragskontengruppe ein  
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Servicevertragskontengruppen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Serv. Vertragskontogruppen** ein und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine neue Servicevertragskontengruppe.   
 3. Füllen Sie die Felder **Code** und **Beschreibung** aus. Diese Felder beschreiben die Servicekontengruppe.  
 4. Füllen Sie das Feld **Nicht vorausbez. Vertragskonto** aus. Dieses Feld enthält die Fibukontennummer des Kontos, auf das nicht vorausbezahlte Beträge gebucht werden.  
 5. Füllen Sie das Feld **Vorausbez. Vertragskonto** aus. Dieses Feld enthält die Fibukontennummer des Kontos, auf das nicht vorausbezahlte Beträge gebucht werden.  
 
 ## <a name="to-set-up-a-contract-template"></a>So richten Sie Vertragsvorlagen ein  
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Servicevertragsvorlagen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Servicevertragsvorlagen** ein und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine neue Servicevertragsvorlage.  
 3. Geben Sie im Feld **Nr.** eine Nummer für die Vertagsvorlage ein.  
   
@@ -48,7 +48,7 @@ Um mit Verträgen arbeiten zu können, müssen Sie Folgendes einrichten:
 5. Wählen Sie die **Servicerabatte** Aktion aus, um Vertragsrabatte hinzuzufügen.  
 
 ## <a name="to-set-up-a-customer-template"></a>So richten Sie Debitorenvorlagen ein  
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Debitorenvorlagen** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kundenvorlagen** ein und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine neue Debitorenvorlagenkarte.  
 3. Geben Sie auf dem Inforegister **Allgemein** der Debitorenvorlagenkarte im Feld **Code** einen Code und im Feld **Beschreibung** eine Beschreibung für die Debitorenvorlage ein. 
 4. Die anderen Felder, z. B. **Länder-/Regionscode**, **Gebietscode** und **Sprachcode**, werden als Suchkriterien verwendet und können ausgefüllt werden.  

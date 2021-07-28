@@ -1,5 +1,5 @@
 ---
-title: Regulieren von Wechselkursen
+title: Regulieren von Wechselkursen [CH]
 description: Wenn Sie steuerpflichtige Umsätze in Fremdwährung abrechnen, müssen die offiziellen Kurse der Eidg. Steuerverwaltung zur MWST-Kursumrechnung verwendet werden.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: f903b7d739e870a65ed5c523eaa23dc45ce6579b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b603a6b18f47f139d0dcd70d985065adac8702b3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787306"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437515"
 ---
-# <a name="adjust-exchange-rates"></a>Wechselkurse regulieren
+# <a name="adjust-exchange-rates-in-the-swiss-version"></a>Wechselkurse regulieren in der Schweizer Version
 Wenn Sie steuerpflichtige Umsätze in Fremdwährung abrechnen, müssen die offiziellen Kurse der Eidg. Steuerverwaltung zur MWST-Kursumrechnung verwendet werden.  
 
 Wenn diese Kurse nicht mit den Währungskursen in den Einkaufs- oder Verkaufsrechnungen übereinstimmen, müssen Sie die MWST-Sätze später mit einer Stapelverarbeitung regulieren. Diese Regulierungen können nur mit einem autorisierten MWST-Satz durchgeführt werden.  
@@ -31,11 +31,11 @@ Weitere Informationen über MWST und Fremdwährungen finden Sie auf der [ESTV](h
 
 ## <a name="to-adjust-an-exchange-rate"></a>So regulieren Sie einen Wechselkurs  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Währungen** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Währungen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Wechselkurse** aus.  
 3.  Geben Sie auf der Seite **Währungswechselkurse** den offiziellen MWST-Satz pro Periode für die jeweilige Währung in die Felder **Anzahl MWST-Einheiten** und **MWST-Kurs** ein.  
-4.  Wählen Sie die Schaltfläche **OK** aus.  
-5.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](../../media/ui-search/search_small.png "Tell me-Funktion") Symbol öffnet, geben Sie **Wechselkurs anpassen** ein und wählen Sie dann den entsprechenden Link.  
+4.  Wählen Sie die Schaltfläche **OK**.  
+5.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Wechselkurse regulieren** ein, und wählen Sie dann den zugehörigen Link aus.  
 6.  Füllen Sie auf dem Inforegister **Optionen** die Felder wie in der folgenden Tabelle beschrieben aus.   
 
     |Feld|Description|  

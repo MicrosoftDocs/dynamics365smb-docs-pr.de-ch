@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 718131ab06bd81a2394d82b9645a9e70be3f95a0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb4fa7b9d75afa49846247b1fdce3fa25f19334a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775339"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436465"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ändern des jährlichen Betrags für Serviceverträge oder Vertragsofferten
 Sie können den Betrag "Zu fakturieren (Jahr)" des Servicevertrags oder der Vertragsofferte ändern, um den jährlich fakturierten Betrag zu korrigieren.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>So ändern Sie den Betrag "Zu fakturieren (Jahr)" eines Servicevertrags oder einer Vertragsofferte  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Serviceverträge** oder **Servicevertragsofferten** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Serviceverträge** oder **ServiceVertragsofferten** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie den Vertrag oder die Vertragsofferte aus.  
 3. Wählen Sie die Aktionen **Vertrag öffnen** aus, um den Vertrag oder die Vertragsofferte zwecks Bearbeitung zu öffnen.  
 4. Wählen Sie das Kontrollkästchen **Nicht ausgegl. Betr. zulassen** aus, wenn Sie den jährlichen Betrag ändern und die Differenz manuell in den Vertragszeilen ausgleichen möchten. Falls Sie das nicht möchten, deaktivieren Sie das Kontrollkästchen, um die Differenz in den Vertragszeilen automatisch ausgleichen zu lassen, wenn Sie den jährlichen Betrag ändern.  
@@ -41,9 +41,9 @@ Wenn Sie den jährlichen Betrag für den Servicevertrag oder die Servicevertrags
 
 1. Die Differenz zwischen dem neuen Betrag **Zu fakturieren (Jahr)** und dem **Berech. zu fakturieren (Jahr)** wird durch die Anzahl der Vertragszeilen im Servicevertrag oder in der Serviceofferte geteilt.  
 2. Der **Zeilenbetrag** wird aktualisiert, indem das Ergebnis des vorherigen Schrittes hinzuaddiert wird.  
-3. Der Inhalt der Felder **Zeilenrabattbetrag**, **Zeilenrabatt %** und **DB** wird hinsichtlich des neuen Werts im Feld **Zeilenbetrag** wie folgt aktualisiert:   
-    * Zeilenrabattbetrag = Zeilenwert - Zeilenbetrag.  
-    * Zeilenrabatt % = Zeilenrabattbetrag / Zeilenwert * 100.  
+3. Der Inhalt der Felder **ZeilenSkontobetrag**, **ZeilenSkonto %** und **DB** wird hinsichtlich des neuen Werts im Feld **Zeilenbetrag** wie folgt aktualisiert:   
+    * ZeilenSkontobetrag = Zeilenwert - Zeilenbetrag.  
+    * ZeilenSkonto % = ZeilenSkontobetrag / Zeilenwert * 100.  
     * DB = Zeilenbetrag – Zeileneinstandspreis.  
 
  Die Schritte werden für jede Vertragszeile wiederholt.  
@@ -51,7 +51,7 @@ Wenn Sie den jährlichen Betrag für den Servicevertrag oder die Servicevertrags
 #### <a name="example"></a>Beispiel  
 Das Feld **Nicht ausgegl. Betr. zulassen** ist nicht im Servicevertrag aktiviert, wenn dieser drei Vertragszeilen mit folgenden Daten enthält.  
 
-|Artikel|Zeileneinstandspreis|Zeilenwert|Zeilenrabatt %|Zeilenrabattbetrag|Zeilenbetrag|DB|  
+|Artikel|Zeileneinstandspreis|Zeilenwert|ZeilenSkonto %|ZeilenSkontobetrag|Zeilenbetrag|DB|  
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
 |Artikel 1|30,00|40,00|0.00|0.00|40,00|10,00|  
 |Artikel 2|40,00|50.00|10,00|5.00|45.00|5.00|  
@@ -59,11 +59,11 @@ Das Feld **Nicht ausgegl. Betr. zulassen** ist nicht im Servicevertrag aktiviert
 
 Das Feld **Zu fakturieren (Jahr)** entspricht dem Wert des Feldes **Berech. zu fakturieren (Jahr)**, das immer der Summe der Zeilenbeträge entspricht. In diesem Fall entspricht es 40 + 45 + 63 = 148.  
 
-Wenn Sie den **Betrag zu fakturieren (Jahr)** auf 139 ändern, wird der Betrag berechnet, der zu jedem Feld **Zeilenbetrag** addiert werden sollte. Dieser Betrag wird berechnet, indem die Differenz aus dem neuen Wert **Zu fakturieren (Jahr)** und dem Wert **Berech. zu fakturieren (Jahr)** durch die Anzahl der Vertragszeilen im Servicevertrag geteilt wird. In diesem Fall entspricht es (139 - 148) / 3 = -3. Dann wird die zuletzt berechnete Zahl zum Feld **Zeilenbetrag** hinzugefügt, und die Felder **Zeilenrabatt %**, **Zeilenrabattbetrag** und **DB** werden mithilfe der Formeln im oben beschriebenen Verfahren aktualisiert.  
+Wenn Sie den **Betrag zu fakturieren (Jahr)** auf 139 ändern, wird der Betrag berechnet, der zu jedem Feld **Zeilenbetrag** addiert werden sollte. Dieser Betrag wird berechnet, indem die Differenz aus dem neuen Wert **Zu fakturieren (Jahr)** und dem Wert **Berech. zu fakturieren (Jahr)** durch die Anzahl der Vertragszeilen im Servicevertrag geteilt wird. In diesem Fall entspricht es (139 - 148) / 3 = -3. Dann wird die zuletzt berechnete Zahl zum Feld **Zeilenbetrag** hinzugefügt, und die Felder **ZeilenSkonto %**, **ZeilenSkontobetrag** und **DB** werden mithilfe der Formeln im oben beschriebenen Verfahren aktualisiert.  
 
 Zum Schluss werden die Vertragszeilen die folgenden Daten enthalten.  
 
-|Artikel|Zeileneinstandspreis|Zeilenwert|Zeilenrabatt %|Zeilenrabattbetrag|Zeilenbetrag|DB|  
+|Artikel|Zeileneinstandspreis|Zeilenwert|ZeilenSkonto %|ZeilenSkontobetrag|Zeilenbetrag|DB|  
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
 |Artikel 1|30,00|40,00|7.50|3.00|37.00|7.00|  
 |Artikel 2|40,00|50.00|16.00|8.00|42.00|2.00|  
@@ -74,10 +74,10 @@ Wenn Sie den jährlichen Betrag für den Servicevertrag oder die Servicevertrags
 
 1. Der Zeilenbetragsprozentanteil wird wie folgt berechnet: Der Inhalt des Felds **Zeilenbetrag** wird in allen Vertragszeilen durch die Werte des Felds **Berech. zu fakturieren (Jahr)** dividiert.  
 2. Der Wert des Felds **Zeilenbetrag** wird aktualisiert, indem die Differenz zwischen dem neuen und dem berechneten jährlich zu fakturierenden Betrag hinzuaddiert wird, dann wird mit dem Zeilenbetragsprozentanteil multipliziert.  
-3. Der Inhalt der Felder **Zeilenrabattbetrag**, **Zeilenrabatt %** und **DB** wird hinsichtlich des neuen Werts im Feld **Zeilenrabattbetrag** wie folgt aktualisiert:  
+3. Der Inhalt der Felder **ZeilenSkontobetrag**, **ZeilenSkonto %** und **DB** wird hinsichtlich des neuen Werts im Feld **ZeilenSkontobetrag** wie folgt aktualisiert:  
 
-    * Zeilenrabattbetrag = Zeilenwert - Zeilenbetrag  
-    * Zeilenrabatt % = Zeilenrabattbetrag / Zeilenwert * 100  
+    * ZeilenSkontobetrag = Zeilenwert - Zeilenbetrag  
+    * ZeilenSkonto % = ZeilenSkontobetrag / Zeilenwert * 100  
     * DB = Zeilenbetrag - Zeileneinstandspreis  
 
 Die Schritte werden für jede Vertragszeile wiederholt.  
@@ -85,7 +85,7 @@ Die Schritte werden für jede Vertragszeile wiederholt.
 #### <a name="example"></a>Beispiel  
 Das Feld **Nicht ausgegl. Betr. zulassen** ist nicht im Servicevertrag aktiviert, wenn dieser drei Vertragszeilen mit folgenden Daten enthält.  
 
-|Artikel|Zeileneinstandspreis|Zeilenwert|Zeilenrabatt %|Zeilenrabattbetrag|Zeilenbetrag|DB|  
+|Artikel|Zeileneinstandspreis|Zeilenwert|ZeilenSkonto %|ZeilenSkontobetrag|Zeilenbetrag|DB|  
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
 |Artikel 1|15.00|17.00|3.00|0.51|25.00|1.49|  
 |Artikel 2|20,00|23.00|keine|0.00|55.10|3.00|  
@@ -99,11 +99,11 @@ Wenn Sie den Wert von **Zu fakturieren (Jahr)** auf 60 ändern, werden die DB-Pr
 * Artikel 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
 * Artikel 3 – 12.7 / (5 + 5,1 +12,7) = 0,557 %  
 
-Der Wert des Felds **Zeilenbetrag** wird in jeder Vertragszeile aktualisiert. Dabei wird folgende Formel verwendet: Zeilenbetrag + Differenz zwischen dem neuen und dem berechneten Betrag zu fakturieren (Jahr) * Prozentanteil des Beitrags. Danach werden die Felder **Zeilenrabattbetrag**, **Zeilenrabatt %** und **DB** aktualisiert, indem die Formeln aus den o. a. Schritten verwendet werden.  
+Der Wert des Felds **Zeilenbetrag** wird in jeder Vertragszeile aktualisiert. Dabei wird folgende Formel verwendet: Zeilenbetrag + Differenz zwischen dem neuen und dem berechneten Betrag zu fakturieren (Jahr) * Prozentanteil des Beitrags. Danach werden die Felder **ZeilenSkontobetrag**, **ZeilenSkonto %** und **DB** aktualisiert, indem die Formeln aus den o. a. Schritten verwendet werden.  
 
 Zum Schluss werden die Vertragszeilen die folgenden Daten enthalten.  
 
-|Artikel|Zeileneinstandspreis|Zeilenwert|Zeilenrabatt %|Zeilenrabattbetrag|Zeilenbetrag|DB|  
+|Artikel|Zeileneinstandspreis|Zeilenwert|ZeilenSkonto %|ZeilenSkontobetrag|Zeilenbetrag|DB|  
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
 |Artikel 1|15.00|17.00|11.41|1.94|15.06|0.06|  
 |Artikel 2|20,00|23.00|8.65|1.99|21.01|1.01|  
@@ -114,16 +114,16 @@ Wenn Sie den jährlichen Betrag für den Servicevertrag oder die Servicevertrags
 
 1. Der DB %-Anteil wird wie folgt berechnet: Der Inhalt des Felds **DB** wird durch die Summe aller Feldwerte **DB** aller Vertragszeilen geteilt.  
 2. Der **Zeilenbetrag** wird aktualisiert, indem die Differenz zwischen dem neuen und dem berechneten Betrag zu fakturieren (Jahr) hinzuaddiert wird, dann wird mit dem DB-Prozentanteil multipliziert.  
-3. Der Inhalt der Felder Zeilenrabattbetrag, Zeilenrabatt % und DB wird hinsichtlich des neuen Werts im Feld **Zeilenbetrag** wie folgt aktualisiert:  
+3. Der Inhalt der Felder ZeilenSkontobetrag, ZeilenSkonto % und DB wird hinsichtlich des neuen Werts im Feld **Zeilenbetrag** wie folgt aktualisiert:  
 
-    * Zeilenrabattbetrag = Zeilenwert - Zeilenbetrag  
-    * Zeilenrabatt % = Zeilenrabattbetrag / Zeilenwert * 100  
+    * ZeilenSkontobetrag = Zeilenwert - Zeilenbetrag  
+    * ZeilenSkonto % = ZeilenSkontobetrag / Zeilenwert * 100  
     * DB = Zeilenbetrag - Zeileneinstandspreis  
 
 #### <a name="example"></a>Beispiel  
 Das Feld **Nicht ausgegl. Betr. zulassen** ist nicht im Servicevertrag aktiviert, wenn dieser drei Vertragszeilen mit folgenden Daten enthält.  
 
-|Artikel|Zeileneinstandspreis|Zeilenwert|Zeilenrabatt %|Zeilenrabattbetrag|Zeilenbetrag|DB|  
+|Artikel|Zeileneinstandspreis|Zeilenwert|ZeilenSkonto %|ZeilenSkontobetrag|Zeilenbetrag|DB|  
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
 |Artikel 1|20,00|25.00|0.00|0.00|25.00|5.00|  
 |Artikel 2|50.00|58.00|5.00|2.90|55.10|5.10|  
@@ -137,11 +137,11 @@ Das Feld **Zu fakturieren (Jahr)** entspricht dem Wert des Feldes **Berech. zu f
 * Artikel 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
 * Artikel 3 – 12.7 / (5 + 5,1 +12,7) = 0,557 %  
 
-Der Wert des Felds **Zeilenbetrag** wird in jeder Vertragszeile aktualisiert. Dabei wird folgende Formel verwendet: Zeilenbetrag + Differenz zwischen dem neuen und dem berechneten Betrag zu fakturieren (Jahr) * Prozentanteil des Beitrags. Danach werden die Felder **Zeilenrabattbetrag**, **Zeilenrabatt %** und **DB** aktualisiert, indem die Formeln von Schritt 3 aus den o. a. Schritten verwendet werden.  
+Der Wert des Felds **Zeilenbetrag** wird in jeder Vertragszeile aktualisiert. Dabei wird folgende Formel verwendet: Zeilenbetrag + Differenz zwischen dem neuen und dem berechneten Betrag zu fakturieren (Jahr) * Prozentanteil des Beitrags. Danach werden die Felder **ZeilenSkontobetrag**, **ZeilenSkonto %** und **DB** aktualisiert, indem die Formeln von Schritt 3 aus den o. a. Schritten verwendet werden.  
 
 Zum Schluss werden die Vertragszeilen die folgenden Daten enthalten.  
 
-|Artikel|Zeileneinstandspreis|Zeilenwert|Zeilenrabatt %|Zeilenrabattbetrag|Zeilenbetrag|DB|  
+|Artikel|Zeileneinstandspreis|Zeilenwert|ZeilenSkonto %|ZeilenSkontobetrag|Zeilenbetrag|DB|  
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
 |Artikel 1|20,00|25.00|11.24|2.81|22.19|2.19|  
 |Artikel 2|50.00|58.00|9.93|5.76|52.24|2.24|  
