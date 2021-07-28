@@ -1,21 +1,21 @@
 ---
-title: Über das Datenaustauschframework | Microsoft Docs
-description: Das Format von Dateien zum Austausch von Daten in den Bankdateien, die elektronischen Belegen, die Währungsumrechnungsraten und anderen mit ERP-Systemen variieren abhängig vom Anbieter der Datendatei oder des Streams und dem Land/der Region.
+title: Über das Datenaustauschframework
+description: Dieses Thema erklärt, wie Sie das Datenaustausch-Framework verwenden, um den Austausch von Daten in geschäftlichen Belegen wie Rechnungen mit Ihren Geschäftspartnern zu verwalten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 6ae76aa8f8522b7d93dd442d6d8cc748f1d2dac4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 53c0bcbf03f989175783ebb93228815712c25552
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776336"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439132"
 ---
 # <a name="about-the-data-exchange-framework"></a>Über das Datenaustauschframework
 
@@ -25,9 +25,9 @@ Als Administrator oder Microsoft-Partner können Sie das Framework in neuen Inte
 
  Die folgenden Diagramme zeigen die Architektur des Daten-Exchange-Frameworks an.  
 
- ![Import von Datenaustauschframework &#45;](media/across-data-exchange/dataexchangeframework_import.png)  
+ ![Datenaustausch-Framework &#45; Import.](media/across-data-exchange/dataexchangeframework_import.png)  
 
- ![Export von Datenaustauschframework &#45;](media/across-data-exchange/dataexchangeframework_export.png)  
+ ![Datenaustausch-Framework &#45; Export.](media/across-data-exchange/dataexchangeframework_export.png)  
 
 ## <a name="electronic-documents"></a>Elektronische Belege
 
@@ -43,7 +43,7 @@ Als Alternative zu E-Mail-Dateianhängen können Sie Geschäftsbelege elektronis
 
 ## <a name="bank-files"></a>Bankdateien
 
-Die Formate der Dateien für den Austausch von Bankdaten mit ERP-Systemen variieren je nach Anbieter der Datei und Land oder Region. [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt den Import und Export von SEPA-Bankdateien (Single Euro Payments Area) und die AMC Banking 365 Fundamentals-Erweiterung ermöglicht die Verbindung zu einer AMC Banking 365 Fundamentals-Erweiterung des externen Anbieters AMC Consult. Um Unterstützung für andere elektronische Belegformate zu bieten, verwenden Sie das Datenaustauschframework.  
+Die Formate der Dateien für den Austausch von Bankdaten mit ERP-Systemen variieren je nach Anbieter der Datei und Land oder Region. [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt den Import und Export von SEPA-Bankdateien (Single Schweizer Franken Payments Area) und die AMC Banking 365 Fundamentals-Erweiterung ermöglicht die Verbindung zu einer AMC Banking 365 Fundamentals-Erweiterung des externen Anbieters AMC Consult. Um Unterstützung für andere elektronische Belegformate zu bieten, verwenden Sie das Datenaustauschframework.  
 
 Um SEPA-Gutschriftübertragungen zu exportieren, wählen Sie die Schaltfläche **Zahlungen in Datei exportieren** auf der Seite **Zahlungs-Erf.-Journal** aus und laden die Datei dann hoch, um die Zahlungen bei Ihrer Bank in Auftrag zu geben. Zuerst müssen Sie verschiedene Stammdaten einrichten, wie Bankkonto, Kreditoren und Zahlungsformen. Die Datenkonvertierung und der Export von SEPA-Bankdaten erfolgen durch eine dedizierte Codeunit und XMLport, die durch das Bank-Export-/Import-Setup **SEPA-Kreditübertragung** dargestellt werden. Alternativ können Sie die AMC Banking 365 Fundamentals-Erweiterung für den Export einrichten, dargestellt durch die **AMC Banking 365 Fundamentals-Erweiterung – Kreditübertragung** Datenaustauschdefinition.  
 

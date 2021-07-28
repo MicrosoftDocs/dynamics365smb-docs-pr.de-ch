@@ -1,5 +1,5 @@
 ---
-title: Drucken des Berichts "Kreditorenzahlungen - Liste"
+title: 'Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen [CH]'
 description: Der Bericht Kreditorenzahlungen - Liste zeigt eine Liste von Zahlungen für jeden Kreditor an. Der Bericht kann Zahlungen chronologisch oder nach Kreditor gruppiert sortieren.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: a9c3c80fcbca4c948543c3cf6f78f31df25d1469
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fa75ffd98ce360276665b8e70f575df67d868efd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776546"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439736"
 ---
-# <a name="print-vendor-payments-list-reports"></a>Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen
+# <a name="print-vendor-payments-list-reports-in-the-swiss-version"></a>Drucken des Berichts "Kreditorenzahlungen - Liste" in der Schweizer Version
 
 Die Liste **Kreditorenzahlungen** zeigt eine Liste von Zahlungen für jeden Kreditor an. Der Bericht kann Zahlungen chronologisch oder nach Kreditor gruppiert sortieren.  
 
@@ -26,7 +26,7 @@ Die Liste **Kreditorenzahlungen** zeigt eine Liste von Zahlungen für jeden Kred
 
 ## <a name="to-print-the-vendor-payments-list-report"></a>So drucken Sie den Bericht "Kreditorenzahlungen - Liste"  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Kreditorenzahlungsliste** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Kreditorenzahlungen - Liste** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Füllen Sie auf dem Inforegister **Optionen** die Felder wie in der folgenden Tabelle beschrieben aus.  
 
     |Feld|Description|  

@@ -1,6 +1,6 @@
 ---
-title: QR-Bill Management | Microsoft Docs
-description: QR-Bill Management-Erweiterung einrichten und QR-Rechnungen einfach generieren, senden und importieren.
+title: QR-Bill Management [CH]
+description: Dieser Artikel beschreibt die Verbesserungen an der QR-Bill Management-Erweiterung und wie Sie Business Central zum einfachen Generieren, Senden und Importieren Ihrer QR-Rechnungen verwenden können.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: soalex
-ms.openlocfilehash: 229738071822ae68328adaa542e671f03e623b51
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3eecd93dbb2a8ca750568f9a9d576054b322644b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788206"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440481"
 ---
-# <a name="qr-bill-management-in-prod_short"></a>QR-Bill Management in [!INCLUDE[prod_short](../../includes/prod_short.md)]
+# <a name="qr-bill-management-in-the-swiss-version-of-business-central"></a>QR-Bill Management in der Schweizer Version von Business Central
 Ab dem 1. Juli 2020 müssen Unternehmen in der Schweiz QR-Rechnungen empfangen können. QR-Rechnungen sind Zahlungsscheine für Rechnungen und eine landesweite Initiative zur Optimierung von Zahlungsprozessen. QR-Rechnungen ersetzen alle vorhandenen Zahlungsscheine und ESR-bezogene Funktionen. Sie enthalten alle erforderlichen Informationen zum Vornehmen von Zahlungen. Ein QR-Code auf dem Zahlungsschein erleichtert das Importieren der Informationen in [!INCLUDE[prod_short](../../includes/prod_short.md)]. Alle relevanten Informationen werden importiert und zum Generieren von Zahlungen für den Kreditor verwendet, der die QR-Rechnung gesendet hat, einschliesslich der Zahlungsreferenz, die automatisch in Kreditorenposten eingefügt und in Zahlungsdateien an die Bank exportiert wird.
 
 ## <a name="get-started-with-the-qr-bill-management-extension"></a>Erste Schritte mit der QR-Bill Management-Erweiterung
@@ -63,7 +63,7 @@ Sie können QR-Rechnungen an mehreren Orten in [!INCLUDE[prod_short](../../inclu
 ### <a name="to-receive-a-qr-bill-through-an-incoming-documents"></a>So empfangen Sie eine QR-Rechnung über eingehende Belege
 Der Empfang einer QR-Rechnung über eingehende Belege ist insbesondere hilfreich, wenn der Prozess automatisiert ist. Sie können QR-Rechnungen durch eingehende Belege allerdings auch manuell empfangen.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Eingehende Belege** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Eingehende Belege** ein, und wählen Sie dann den zugehörigen Link aus.
 2. Erstellen Sie in der Liste **Eingehende Belege** einen neuen Eintrag, indem Sie **Neu** und dann **Neu** wählen. 
 3. Geben Sie auf der Seite **Eingehender Beleg** eine Beschreibung in das Feld **Beschreibung** ein.
 4. Zum Importieren der QR-Rechnung wählen Sie **Aktionen**, **QR-Rechnung** und dann **QR-Rechnung scannen** aus, um eine QR-Rechnung in den Eintrag des eingehenden Belegs zu scannen.

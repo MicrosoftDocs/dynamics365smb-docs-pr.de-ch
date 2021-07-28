@@ -1,6 +1,6 @@
 ---
-title: 'Gewusst wie: Drucken von ESR.-Rechnungen'
-description: Sie können einen Einzahlungsschein mit Referenznummer (ESR) auf mehrere Arten drucken.
+title: 'Gewusst wie: Drucken von ESR-Rechnungen [CH]'
+description: 'In diesem Thema wird erläutert, wie Sie Zahlungsscheinrechnungen und -gutschriften für einen Einzahlungsschein mit Referenznummer (ESR) drucken können:'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 7d05e3c011951e4187fed9cc5081cb1a60ad6bec
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 62801f8ad609fdd746123a32c6866c5773949af3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777585"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439752"
 ---
-# <a name="print-esr-invoices"></a>Drucken von ESR-Rechnungen
+# <a name="print-esr-invoices-in-the-swiss-version"></a>ESR-Rechnungen drucken in der Schweizer Version
 Zum Drucken von Einzahlungsscheinen mit Referenznummer (ESR) stehen folgende Methoden zur Auswahl:  
 
 - Als Teil der Verkaufsrechnung ESR.  
@@ -34,7 +34,7 @@ Im folgenden Verfahren wird das Drucken von ESR-Verkaufsrechnungen beschrieben, 
 
 ## <a name="to-print-esr-invoices"></a>So drucken Sie ESR-Rechnungen  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](../../media/ui-search/search_small.png "Tell me-Funktion"), geben Sie **Rechnungs-ESR** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **ESR Rechnung** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Füllen Sie im Stapelverarbeitungsauftrag **Verkauf ESR Rechnung** die Felder auf dem Inforegister **Optionen** wie in der folgenden Tabelle beschrieben aus.  
 
     |Feld|Description|  
