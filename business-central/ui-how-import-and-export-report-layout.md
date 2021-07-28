@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 00fab887fa5680560ddcf4d612889be91c842fcf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784679"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441082"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importieren und Exportieren von benutzerdefinierten Berichtslayouts
 Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem Speicherort auf dem Computer oder im Netzwerk speichern und exportieren sowie von dort aus wieder importieren. Beispielsweise können Sie ein Berichtlayout exportieren und dann die Datei an eine andere Person senden, die diese dann ändern kann. Diese Person kann die Änderungen am Layout vornehmen und Ihnen die Datei zurücksenden, damit Sie sie zurückimportieren können.  
@@ -25,7 +25,7 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>So exportieren Sie ein Berichtslayout in eine Datei.  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Berichtslayoutauswahl** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.  
 
 2.  Markieren Sie die Zeile für den Bericht, die das benutzerdefinierte Berichtslayout enthält, das Sie exportieren möchten, und wählen Sie dann die Aktion **Angepasste Layouts**.  
 
@@ -39,7 +39,7 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
 
      Eine Word-Berichtslayoutdatei muss die Erweiterung .docx haben. eine RDLC-Layoutdatei muss die die Erweiterung .rdlc oder .rdl haben.  
 
-2.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Berichtslayoutauswahl** ein, und wählen Sie dann den zugehörigen Link.  
+2.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.  
 
 3.  Markieren Sie die Zeile für den Bericht, in den Sie das Berichtslayout importieren möchten, und wählen Sie dann die Aktion **Angepasste Layouts**.  
 

@@ -11,18 +11,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 5f2ba1b65f92e2415ae67a3ee4b4c48bebbde9be
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc137cb8c45d935be28d5ededc435d2d4648f8bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772318"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441058"
 ---
 # <a name="preview-posting-results"></a>Vorschau-Buchungs-Ergebnisse
 Auf jedem Beleg und Erfassungsjournal, die gebucht werden können, können Sie die Schaltfläche **Vorschau-Buchung** auswählen, um verschiedene Arten von Posten zu überprüfen, die erstellt werden, wenn Sie den Beleg oder das Erfassungsjournal buchen.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Um Fibuposten in der Vorschau anzeigen, die aus dem Buchen einer Einkaufsrechnung resultieren
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Kaufrechnungen** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Erstellen Sie eine Einkaufsrechnung. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 3. **Buchungsvorschau** wählen.
 4. Wählen Sie auf der Seite **Buchungsvorschau** die Option **Fibukonteneintrag** aus und wählen Sie dann **Zugehörige Einträge anzeigen** aus.  
