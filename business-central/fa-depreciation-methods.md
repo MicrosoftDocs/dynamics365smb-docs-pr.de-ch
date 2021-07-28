@@ -1,6 +1,6 @@
 ---
 title: Abschreibungsmethoden für Anlagen
-description: Erfahren Sie mehr über die verschiedenen integrierten Methoden zur Abschreibung oder Abschreibung von Anlagevermögen in der Standardversion von Business Central.
+description: Erfahren Sie mehr über die verschiedenen integrierten Methoden zur Abschreibung von Anlagen in der Standardversion von Business Central, die acht Methoden enthält.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 649a60f815da072a1a2794492c4e957ca74d8e08
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774169"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343388"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Abschreibungsmethoden für Anlagen
 
@@ -29,7 +29,7 @@ In der Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] stehe
 * Tabelle  
 
   > [!NOTE]  
-  > Geben Sie Ihre eigene Abschreibungsmethode an, indem Sie Abschreibungstabellen definieren.
+  > Geben Sie Ihre eigene Abschreibungsmethode an, indem Sie Abschreibungstabellen definieren. Informationen zur Anwendung einer benutzerdefinierten Abschreibungsmethode finden Sie unter [Benutzerdefinierte Abschreibungsmethode festlegen](fa-how-setup-user-defined-depreciation-method.md).
 * "Manuell"  
 
   > [!NOTE]  
@@ -220,74 +220,6 @@ Berechnungsmethode:
     *Linearer Betrag = 23,730.46/3 = 7,910.15 = 3,995.07 + 3,995.08*  
 
     Es wird der lineare Betrag verwendet, da es sich um den grösseren Betrag handelt.  
-
-## <a name="user-defined-depreciation"></a>Benutzerdefinierte Abschreibung
-
-Die Anwendung hat Funktionen, mit denen Sie benutzerdefinierte Abschreibungsmethoden definieren können.  
-
-Mit einer benutzerdefinierten Methode können Sie die Seite **Abschreibungstabellen** verwenden, in dem Sie einen Abschreibung Prozentsatz für jede Periode angeben müssen (Monat, Quartal, Jahr oder Buchhaltungsperiode). Wenn Sie dann einem Anlagevermögen ein Abschreibungsbuch mit einer benutzerdefinierten Methode zuweisen, müssen Sie die Felder **Startdat. Benutzerdef. Abschr.** und **Startdatum Normal-Abschreibung** auf der Seite **Anlagen-Abschreibungsbücher** für das jeweilige Anlagevermögen festlegen.  
-
-Die Formel zur Berechnung des Abschreibungsbetrages ist:  
-
-*Abschreibungsbetrag = (Abschreibung % x Anzahl Abschreibungstage x Abschreibungsbasis) / (100 x 360)*  
-
-### <a name="depreciation-based-on-number-of-units"></a>Abschreibung basierend auf der Stückzahl
-
-Diese benutzerdefinierte Methode kann auch verwendet werden, um eine Abschreibung nach der produzierten Stückzahl durchzuführen, zum Beispiel für Produktionsmaschinen, die eine von der Stückzahl abhängige Lebensdauer haben. Auf der Seite **Abschreibungstabellen** können Sie die Stückzahl eingeben, die innerhalb einer Periode (Monat, Quartal, Jahr oder Buchhaltungsperiode) produziert werden kann.  
-
-### <a name="to-set-up-user-defined-depreciation-methods"></a>So richten Sie benutzerdefinierte Abschreibungsmethoden ein
-
-Auf der Seite **Abschreibungstabelle** können Sie benutzerdefinierte Abschreibungsmethoden einrichten. Beispielsweise können Sie die Abschreibung basierend auf der Stückzahl einrichten.  
-
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell me-Funktion"), geben Sie **Abschreibungstabellen** ein und wählen Sie dann den entsprechenden Link.  
-2. Auf der Seite **Abschreibung-Tabelle Übersicht** wählen Sie die Aktion **Neu** aus.  
-3. Füllen Sie auf der Seite **Abschreibungstabelle - Karte** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-
-> [!TIP]
-> Verwenden Sie die Funktion **Dezimalstellen-Summentabelle erstellen** zum Definieren einer Abschreibungstabelle basierend auf der Methode *Summe der Ziffern*.
-
-Mit der Methode *Summe der Ziffern* wird, wenn ein Anlagevermögen über einen Zeitraum von 4 Jahren abgeschrieben wird, die Abschreibung für jedes Jahr folgendermassen berechnet:
-
-Quersumme = 1 + 2 + 3 + 4 = 10 Abschreibungen:
-
-* Jahr 1 = 4/10  
-* Jahr 2 = 3/10  
-* Jahr 3 = 2/10  
-* Jahr 4 = 1/10  
-
-### <a name="example---user-defined-depreciation"></a>Beispiel - Benutzerdefinierte Abschreibung
-
-Sie verwenden eine Abschreibungsmethode, die es Ihnen erlaubt, Anlagen für steuerliche Zwecke schneller abzuschreiben.  
-
-Sie könnten für steuerliche Zwecke die folgenden Sätze für eine Anlage mit einer Lebensdauer von drei Jahren verwenden:  
-
-* Jahr 1: 25 %  
-* Jahr 2: 38 %  
-* Jahr 3: 37 %  
-
-Die Anschaffungskosten betragen MW 100.000 und die Lebensdauer für die Abschreibung ist fünf Jahre. Die Abschreibung wird manuell berechnet.  
-
-| Datum | Anlagenbuchungsart | Tage | Betrag | Buchwert |
-| --- | --- | --- | --- | --- |
-| 01/01/20 |Anschaffungskosten |(Startdatum Normal-Abschreibung) |100,000.00 |100,000.00 |
-| 12/31/20 |Abschreibungen |360 |-25.000,00 |75,000.00 |
-| 12/31/21 |Abschreibungen |360 |-38.000,00 |37,000.00 |
-| 12/31/22 |Abschreibungen |360 |-37.000,00 |0 |
-| 12/31/23 |Abschreibungen |Keine |Keine |0 |
-| 12/31/24 |Abschreibungen |Keine |Keine |0 |
-
-Wenn Sie eine benutzerdefinierte Methode verwenden, müssen die Felder **Startdat. Benutzerdef. Abschr.** und **Startdatum Normal-Abschreibung** im Fenster **Anlagen-Abschreibungsbücher** für die jeweilige Anlage ausgefüllt werden. Das Feld **Startdatum Benutzerdef. Abschreibung** und der Inhalt des Felds **Periodenlänge** auf der Seite **Abschreibungstabellen** werden verwendet, um die Zeitintervalle für Abschreibungsberechnungen festzulegen. Damit wird sichergestellt, dass die Anwendung den angegebenen Prozentsatz für sämtliche Anlagen am gleichen Tag verwendet. Das Feld **Startdatum Normal-Abschreibung** wird verwendet, um die Anzahl der Abschreibungstage zu berechnen.  
-
-Im vorherigen Beispiel würden die beiden Felder **Startdat. Benutzerdef. Abschr.** und **Startdatum Normal-Abschreibung** auf 01/01/20 auf der Seite **Anlagen-Abschreibungsbücher** für das jeweilige Anlagevermögen festgelegt werden. Hätte das Feld **Startdatum Benutzerdef. AfA** jedoch den Wert "01/01/20" und das Feld **Startdatum Normal-AfA** den Wert "01/04/20" enthalten, wäre das Ergebnis folgendermassen ausgefallen:  
-
-| Datum | Anlagenbuchungsart | Tage | Betrag | Buchwert |
-| --- | --- | --- | --- | --- |
-| 01/01/20 |Anschaffungskosten |(Startdatum Normal-Abschreibung) |100,000.00 |100,000.00 |
-| 12/31/20 |Abschreibungen |270 |-18.750,00 |81,250.00 |
-| 12/31/21 |Abschreibungen |360 |-38.000,00 |42,250.00 |
-| 12/31/22 |Abschreibungen |360 |-37.000,00 |6,250.00 |
-| 12/31/23 |Abschreibungen |90 |-6.250,00 |0 |
-| 12/31/24 |Abschreibungen |Keine |Keine |0 |
 
 ## <a name="half-year-convention-depreciation"></a>Abschreibung 1 unter Verwendung der US-Halbjahresregel
 

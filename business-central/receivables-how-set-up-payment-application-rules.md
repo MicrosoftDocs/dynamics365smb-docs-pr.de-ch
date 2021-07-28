@@ -1,6 +1,6 @@
 ---
-title: Einrichten von Regeln für die automatische Anwendung von Zahlungen
-description: Auf der Seite „Zahlungsausgleichsvorschriften“ richten Sie die Regeln ein, um zu steuern, wie Zahlungen/Banktransaktionen automatisch mit ihren entsprechenden offenen Fibuposten ausgeglichen werden, wenn Sie die Funktion Automatisch anwenden auf der Seite Zahlungsabstimmungserf.-Journal verwenden.
+title: Regeln für die automatische Anwendung von Zahlungen
+description: Lesen Sie auf der Seite Regeln für Zahlungsausgleichsvorschriften, wie Sie Regeln für die automatische Anwendung von Zahlungen festlegen können.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 57f9fa038c8631db87d03d9054dcf8a17a874345
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778986"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435073"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Einrichten von Regeln für die automatische Anwendung von Zahlungen
 
@@ -40,14 +40,14 @@ Neben den Zuordnungskriterien gilt Folgendes hinsichtlich des Vorzeichens des Za
 - Für positive Beträge wird ein Abgleich gegen offene Posten, die Kreditorenrechnungen repräsentieren, und dann gegen Debitorgutschriften vorgenommen.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>So richten Sie eine Zahlungsausgleichsregel ein
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Zahlungsausgleichsvorschriften** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Zahlungsausgleichsvorschriften** ein, und wählen Sie dann den zugehörigen Link.
 2. Definieren Sie eine neue oder bearbeitete Zahlungsausgleichsregel, indem Sie die Felder in einer Zeile ausfüllen, wie in der folgenden Tabelle beschrieben.
 
 |Feld|Beschreibung|
 |-|-|
 |**Übereinstimmungsgenauigkeit**|Gibt Ihr Vertrauen in die Ausgleichsregel an, die Sie in der Zeile definieren. <br /></br>Ein Wert, den Sie in diesem Feld angeben, wird im Feld **Übereinstimmungsgenauigkeit** auf der Seite **Zahlungsabstimmungserf.-Journal** entsprechend der Qualität des automatischen Zahlungsausgleichs der Erf.-Journalzeile angezeigt.|
 |**Priorität**|Gibt die Priorität der Anwendungsregel in Bezug auf andere Anwendungsregeln an, die als Zeilen auf der Seite **Zahlungsausgleichsvorschriften** definiert sind. 1 stellt die höchste Priorität dar.|
-|**Übereinstimmende zugehörige Partei**|Gibt an, wie viele Informationen über den Debitor oder Kreditor (wie Adresse, Ortsname und Bankkontonummer) auf der Zahlungsabstimmungserf.-Journalzeile mit Daten in dem offenen Posten übereinstimmen müssen, bevor die Ausgleichsregel verwendet wird, um die Zahlung automatisch mit dem offenen Eintrag auszugleichen.|
+|**Übereinstimmende zugehörige Partei**|Gibt an, wie viele Informationen über den Debitor oder Kreditor (wie Adresse, Ortsname und Kontonummer) auf der Zahlungsabstimmungserf.-Journalzeile mit Daten in dem offenen Posten übereinstimmen müssen, bevor die Ausgleichsregel verwendet wird, um die Zahlung automatisch mit dem offenen Eintrag auszugleichen.|
 |**Belegnummer/übereinstimmende ext. Belegnummer**|Gibt an, ob der Text in der ZahlungsabstimmungsErf.-Journalzeile mit dem Wert im Feld **Belegnr.** oder im Feld **Externe Belegnummer** für den offenen Posten übereinstimmen muss, bevor die Ausgleichsregel zum automatischen Ausgleich der Zahlung des offenen Postens verwendet wird.|
 |**Übereinstimmender Betrag einschliesslich Toleranz**|Gibt an, wie viele Posten für einen Debitor oder Kreditor den Betrag einschliesslich Zahlungstoleranz übereinstimmen müssen, bevor die Ausgleichsregel verwendet wird, um die Zahlung eines offenen Postens automatisch auszugleichen.|
 |**Überprüfung erforderlich**|Gibt an, ob die automatische Zahlungsanwendung für die manuelle Überprüfung durch den Benutzer vor dem Posten empfohlen wird. Durch Auswahl des Felds **Zu überprüfende Zeilen** auf der Seite **Zahlungsausgleichsjournal** startet eine geführte Erfahrung, bei der Sie problemlos mehrere Anwendungen in einer Sequenz auf der Website **Überprüfung des Zahlungsantrags** überprüfen können.|

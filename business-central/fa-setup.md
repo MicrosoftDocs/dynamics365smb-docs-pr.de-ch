@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a35bd9a83ec05a25bc087722fb2009ca27bbfa2f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 54ade14f58d9be5957c77a768096b5f475db5798
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770430"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343563"
 ---
 # <a name="setting-up-fixed-assets"></a>Anlagen einrichten
 Um mit Anlagen arbeiten können, müssen Sie einige Elemente festlegen:  
@@ -40,6 +40,8 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Aktivieren Sie Versicherungen von Anlagen, richten allgemeine Versicherungsinformationen und eine Versicherungskarte pro Versicherung ein und bereiten Buch.-Blätter vor, um Versicherungskosten zu buchen. |[Um Anlagenversicherung einzurichten:](fa-how-setup-insurance.md) |
 | Aktivieren Sie die Wartung von Anlagen, richten allgemeine Wartungsinformationen und Wartungs-Buchungskonten ein, und definieren Sie Arten von Wartungsarbeiten. |[Um Anlagenwartung einzurichten:](fa-how-setup-maintenance.md) |
 | Informieren Sie sich über verschiedene Anlagen-Abschreibungsmethoden. |[Abschreibungsmethoden](fa-depreciation-methods.md) |
+| Erfahren Sie, wie Sie benutzerdefinierte Abschreibungsmethoden anwenden können. |[Benutzerdefinierte Abschreibungsmethoden festlegen](fa-how-setup-user-defined-depreciation-method.md) |
+
 
 ## <a name="see-also"></a>Siehe auch
 [Anlagen](fa-manage.md)  

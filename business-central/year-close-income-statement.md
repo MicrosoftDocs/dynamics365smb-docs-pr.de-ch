@@ -1,5 +1,5 @@
 ---
-title: Schliessen Sie Erfolgsrechnungsberichte | Microsoft Docs
+title: Schliessen Sie Erfolgsrechnung-Konten
 description: Am Jahresende beispielsweise müssen Sie die Stapelverarbeitung "Erfolgsrechnungskonten Nullstellung" laufen lassen, um dies Buchhaltungsperioden zu schliessen, aus der sich das Geschäftsjahr zusammensetzt.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 843d5b766d9b840e27f4423854caaae66efb0805
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 44e2d34ee4af32bcb901a66ae7e45b45ac274bd5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775029"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435786"
 ---
-# <a name="close-income-statement-accounts"></a>Schliessen Sie Erfolgsrechnung-Konten
+# <a name="closing-income-statement-accounts"></a>Erfolgsrechnung-Konten Nullstellung
 Wenn ein Geschäftsjahr vorbei ist, müssen die Perioden, aus denen es besteht, geschlossen werden. Verwenden Sie dazu den Stapelverarbeitungsjob **Jahresabschluss**. Dieser Job überträgt die Ergebnisse des Jahrs auf ein Bilanzkonto und führt die Erfolgsrechnung durch. Hierfür erstellen Sie Zeilen in einem Erf.-Journal, die Sie dann buchen können.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>Verwenden Sie dazu den Stapelverarbeitungsjob Erfolgsrechnung.
 1. Schliessen Sie das Geschäftsjahr ab. Das Geschäftsjahr muss geschlossen werden, bevor die Stapelverarbeitung aufgerufen werden kann. Weitere Informationen finden Sie unter [Abschliessen von Buchhaltungsperioden](year-close-account-periods.md).
-2. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Jahresabschluss** ein und wählen Sie dann den entsprechenden Link.
+2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Gewinn- und Verlustrechnung Nullstellung abschliessen** ein, und wählen Sie dann den zugehörigen Link.
 3. Wählen Sie die Schaltfläche **OK**, um den Batchauftrag zu starten.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>Mehr Informationen zum Stapelverarbeitungsjob Erfolgsrechnung.

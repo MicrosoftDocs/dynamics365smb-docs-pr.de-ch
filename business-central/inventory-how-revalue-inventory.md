@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3fe164e6e71756ee56990610bc6c6cb0557ad2c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 01710b23c56634b91b86f3f1c6e6c87415a787c6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785862"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435611"
 ---
 # <a name="revalue-inventory"></a>Neubewerten von Lagerbestand
 Wenn Sie den Lagerwert eines Artikels oder den eines bestimmten Lagerpostens nach oben oder unten verändern möchten, müssen Sie das Neubewertungs Erf.-Journal verwenden.
 
 ## <a name="to-revalue-inventory"></a>Neubewerten von Lagerbestand
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Bewertungs Erf.-Journal** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Neubewertungs Erf.-Journal** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Lagerwert berechnen** aus.
 3. Füllen Sie auf der Seite **Lagerwert berechnen** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie die Schaltfläche **OK** aus.

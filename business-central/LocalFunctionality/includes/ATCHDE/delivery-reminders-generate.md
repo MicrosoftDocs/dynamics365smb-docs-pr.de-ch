@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 56524d5690d742a64980f06782ba3e31f0c31775
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 641706baec534f45fef8d70e6601d513967d5a79
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771523"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435709"
 ---
 In [!INCLUDE[prod_short](../../../includes/prod_short.md)], können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde. Sie können Lieferanmahnungen für alle überfälligen Lieferungen generieren lassen oder manuell eine einzelne Lieferanmahnung erstellen.  
 
@@ -18,7 +18,7 @@ In [!INCLUDE[prod_short](../../../includes/prod_short.md)], können Sie Lieferbe
 
 ## <a name="to-generate-delivery-reminders-for-all-overdue-deliveries"></a>So generieren Sie Lieferbenachrichtigungen für alle überfälligen Lieferungen  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Tell me Funktion](../../../media/ui-search/search_small.png "Tell me-Funktion") öffnet, geben Sie **Lieferanmahnung** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Lieferanmahnung** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Wählen Sie auf der Seite **Lieferanmahnung** die Aktion **Lieferanmahnung erstellen**.  
 4. Wählen Sie die entsprechenden Filter aus.  

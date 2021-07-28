@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5cfc99bcbdf9a5037e8c87686cd65badf4ce544c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: de2cf5a9a1e1c0967fb6bbf9a35b4c8ec4aae5dd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771496"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435168"
 ---
 Zur Erstellung von Lieferanmahnungen müssen Sie Folgendes einrichten:  
 
@@ -21,7 +21,7 @@ Jede Lieferbenachrichtigungsmethode verfügt über eigene Lieferbenachrichtigung
 
 ## <a name="to-set-up-delivery-reminder-terms"></a>Einrichten von Lieferbenachrichtigungsmethoden  
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](../../../media/ui-search/search_small.png "Tell me-Funktion") Symbol öffnet, geben Sie **Lieferanmahnungsbedingungen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Lieferanmahnungsbestimmungen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
 

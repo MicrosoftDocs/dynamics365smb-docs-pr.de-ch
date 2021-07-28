@@ -1,6 +1,6 @@
 ---
-title: Importieren von ESR-Zahlungen
-description: Nach Eingang einer Zahlung eines Debitors erhalten Sie eine Datei mit Informationen zu bezahlten Rechnungen. Sie können diese Datei elektronisch von der Bank oder per E-Mail empfangen.
+title: Importieren von ESR-Zahlungen [CH]
+description: Nach Eingang einer Zahlung eines Debitors erhalten Sie eine ESR-Datei mit Informationen zu bezahlten Rechnungen auf elektronischem Weg von der Bank.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: a69e586ab77889003c8771124e4b453f7e2cb385
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 907a141213d971aac6a5037ea9f3a785d1ed6150
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779163"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435704"
 ---
-# <a name="import-esr-payments"></a>Importieren von ESR-Zahlungen
+# <a name="import-esr-payments-in-the-swiss-version"></a>ESR-Zahlungen importieren in der Schweizer Version
 Nach Eingang einer Zahlung eines Debitors erhalten Sie eine Datei mit Informationen zu bezahlten Rechnungen. Sie können diese Datei elektronisch von der Bank oder per E-Mail empfangen.  
 
 Sie können die ESR (Einzahlungsschein mit Referenznummer)-Rechnungsdaten aus der Datei importieren, die Daten mithilfe des ESR-Berichts für Verkaufsrechnungen oder des ESR-Abschnittberichts drucken und diese vor der Buchung überprüfen. Weitere Informationen finden Sie unter [Drucken von ESR-Rechnungen](how-to-print-esr-invoices.md).  
 
 ## <a name="to-import-esr-payments"></a>So importieren Sie ESR-Zahlungen  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](../../media/ui-search/search_small.png "Tell me-Funktion"), geben Sie **Zlg.-Eing. Erfassungsjournale** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie im **Zahlungseingangsprotokolle** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie im Feld **Erf.-Journalname** den erforderlichen Erf.-Journalnamen aus.  
 
     > [!NOTE]  
