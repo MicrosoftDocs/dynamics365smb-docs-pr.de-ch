@@ -1,6 +1,6 @@
 ---
-title: Eine MWST-Abrechnung einrichten | Microsoft-Dokumentation
-description: Eine MWST-Abrechnung einrichten
+title: Eine MWST-Abrechnung einrichten
+description: In diesem Thema erfahren Sie, wie Sie eine MWST-Abrechnungsvorlage und die Namen der MWST-Abrechnungen festlegen, um den sich ändernden Anforderungen der SALESTAXbehörden gerecht zu werden.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8a7373a22cff16a32fe92bf2f2d9064d2f12e950
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 322a501a4b1d404ef39523e93b45409eb60d7c4b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775465"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444401"
 ---
 # <a name="set-up-a-vat-statement"></a>Eine MWST-Abrechnung einrichten
 
@@ -25,7 +25,7 @@ Steuerbehörden kann Anforderungen für die Buchung der MWST ändern und ändert
 ## <a name="to-define-a-vat-statements"></a>So definieren Sie eine Umsatzsteuerabrechnung
 MWST-Abrechnungen lassen Sie den MWST-Abrechnungsbetrag für eine bestimmte Periode berechnen (zum Beispiel ein Quartal).
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **MwSt-Auszüge** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **MWST-Abrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie das Feld **Name**, und wählen Sie dann **Neu** auf der Seite **MWST-Abrechnungsnamen** aus.
 3. Füllen Sie die entsprechenden Felder aus. Normalerweise möchten Sie eine Einstellung für jede Kombination aus MWST-Geschäftsbuchungsgruppe / MWST-Produktbuchungsgruppe haben. Für Zeilennummern ist es sinnvoll, gleichwertige Nummern oder Codes wie in Ihrer offiziellen MWST-Abrechnung zu verwenden [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 

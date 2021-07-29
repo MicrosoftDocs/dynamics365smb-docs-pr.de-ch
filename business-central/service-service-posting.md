@@ -1,6 +1,6 @@
 ---
-title: Servicebuchung | Microsoft Docs
-description: Mit der Funktion "Servicebuchung" können Sie Belege effizient verarbeiten und damit eine erfolgreiche Debitorenservicepolitik sicherstellen. Sie können Belege erstellen und gebuchte Belege aktualisieren und Posten sowohl im Servicebereich als auch in anderen Modulen erstellen, um eine ordnungsgemässe Aktualisierung sicherzustellen.
+title: Servicebuchung
+description: Mit der Funktion "Servicebuchung" können Sie Belege effizient verarbeiten und damit eine erfolgreiche Debitorenservicepolitik sicherstellen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4f7371f7af5546f75a90f734ebedb6c358783b17
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8bdfb6986f16c580cef6e1fc7bdde2ef25dab14b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776805"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443043"
 ---
 # <a name="service-posting"></a>Servicebuchung
 Mit der Funktion "Servicebuchung" können Sie Belege effizient verarbeiten und damit eine erfolgreiche Debitorenservicepolitik sicherstellen. Sie können Belege erstellen und gebuchte Belege aktualisieren und Posten sowohl im Servicebereich als auch in anderen Modulen erstellen, um eine ordnungsgemässe Aktualisierung sicherzustellen.  
@@ -31,7 +31,7 @@ Mit der Option "Liefern" können Sie die relevanten Artikel und Zeiten erfassen,
 Wenn der Lagerort so eingerichtet wurde, dass ein Lagerdurchlauf erforderlich ist, dann erfolgt die Lieferung und Umlagerung der Servicezeilenartikel auf die gleichen Weise wie für andere Herkunftsbelege. Der einzige Unterschied besteht darin, dass Servicezeilenartikel extern oder intern verbraucht werden können, wozu zwei unterschiedliche Freigabefunktionen benötigt werden.
 
 ## <a name="invoice"></a>Fakturieren  
-Zum Erstellen einer Rechnung an den Debitor, dem Sie den Service in Rechnung stellen möchten, müssen Sie die Option "Rechnung" verwenden. Normalerweise ist die Differenz zwischen der gelieferten Menge, die mit der Funktion **Warenausgang buchen** erfasst wurde, und der verbrauchten Menge, die mit der Funktion **Verbrauch buchen** erfasst wurde, Gegenstand der Rechnung. Sie können nicht fakturieren, was Sie nicht geliefert haben. Wenn Sie die Funktion **Rechnungen buchen** ausführen, wird eine gebuchte Servicerechnung erstellt, und die zuvor gebuchten Belege werden aktualisiert, damit sie dieselben Mengen wie in der ausgegebenen Rechnung enthalten. Wie bei anderen Buchungsverfahren werden die relevanten Posten einschliesslich Sachposten generiert.  
+Zum Erstellen einer Rechnung an den Debitor, dem Sie den Service in Rechnung stellen möchten, müssen Sie die Option "Rechnung" verwenden. Normalerweise ist die Differenz zwischen der gelieferten Menge, die mit der Funktion **Warenausgang buchen** erfasst wurde, und der verbrauchten Menge, die mit der Funktion **Verbrauch buchen** erfasst wurde, Gegenstand der Rechnung. Sie können nicht fakturieren, was Sie nicht geliefert haben. Wenn Sie die Funktion **Rechnungen buchen** ausführen, wird eine gebuchte Servicerechnung erstellt, und die zuvor gebuchten Belege werden aktualisiert, damit sie dieselben Mengen wie in der ausgegebenen Rechnung enthalten. Wie bei anderen Buchungsverfahren werden die relevanten Posten einschliesslich Fibuposten generiert.  
 
 ## <a name="ship-and-invoice"></a>Liefern und fakturieren  
 Mit der Option "Liefern und fakturieren" können Sie gleichzeitig eine Rechnung und eine Servicelieferung erstellen.  
@@ -49,7 +49,7 @@ Wenn Sie eine Servicerechnung, eine Servicelieferung oder eine Servicegutschrift
 
 Die folgende Vorgehensweise verwendet eine gebuchte Servicerechnung als Beispiel, Sie können jedoch dieselben Schritte auf gebuchte Servicelieferungen und gebuchte Gutschriften anwenden.  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Gebuchte Servicerechnung** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Gebuchte Servicerechnungen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie die gebuchte Servicerechnung, die Sie anzeigen möchten.  
 3. Um eine Übersicht über die gebuchte Rechnung zu erhalten, wählen Sie die **Statistik** Aktion.  
 
