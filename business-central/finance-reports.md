@@ -1,40 +1,40 @@
 ---
-title: Finanzberichte in Business Central
-description: Sehen Sie, welche Finanzberichte in der Standardversion von Business Central verfügbar sind, damit Sie Ihr Unternehmen im Auge behalten können.
+title: Finanzberichte und Analysen
+description: Sehen Sie, welche Finanzberichte und Analysen in der Standardversion von Business Central verfügbar sind, damit Sie den Überblick über Ihr Geschäft behalten.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.date: 04/01/2021
+ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: dd4ae64c008c45fb6876387d98dac27440f17141
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 26dbb93fe003caf140caaad07d31b85be508085b
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935300"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543159"
 ---
-# <a name="financial-reports-in-business-central"></a>Finanzberichte in Business Central
+# <a name="financial-reports-and-analytics-in-business-central"></a>Finanzielle Berichte und Analysen in Business Central
 
-Finanzberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht Finanz- und Geschäftsfachleuten das Erstellen, Verwalten, Bereitstellen und Anzeigen von Abschlüssen. Es geht über die herkömmlichen Berichtsbeschränkungen hinaus und hilft Ihnen, verschiedene Arten von Berichten effizient zu gestalten. [!INCLUDE [prod_short](includes/prod_short.md)] enthält mehrere Berichte, Nachverfolgungsfunktionen und Tools, die Wirtschaftsprüfern oder Controllern helfen, die für die Berichterstattung an die Finanzabteilung verantwortlich sind. Die Finanzberichterstattung umfasst die Unterstützung von Dimensionen, sodass Kontosegmente oder Dimensionen sofort verfügbar sind. Es sind keine zusätzlichen Tools oder Konfigurationsschritte erforderlich.  
+Finanzberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht Finanz- und Geschäftsfachleuten das Erstellen, Verwalten, Bereitstellen und Anzeigen von Abschlüssen. Es geht über die herkömmlichen Berichtsbeschränkungen hinaus und hilft Ihnen, verschiedene Arten von Berichten effizient zu gestalten. [!INCLUDE [prod_short](includes/prod_short.md)] enthält mehrere Berichte, Nachverfolgungsfunktionen und Tools, die Wirtschaftsprüfern oder Controllern helfen, die für die Berichterstattung an die Finanzabteilung verantwortlich sind. Die Finanzberichterstattung umfasst die Unterstützung von Dimensionen, sodass Kontosegmente oder Dimensionen sofort verfügbar sind. Es sind keine weiteren Tools oder Konfigurationsschritte erforderlich.  
 
 ## <a name="reports"></a>Berichte
 
 In der folgenden Tabelle werden einige der wichtigsten Berichte in der Finanzberichterstattung beschrieben.
 
-|Bericht |Beschreibung  |
-|---------|---------|
-|**Bilanz**| Zeigt den Kontenplan mit Salden und Bewegungen. Sie können die Ansicht einer Bilanz für ausgewählte Dimensionen wählen. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. |
-|**Bilanz nach Periode**  | Zeigt die Eröffnungsbilanz nach Fibukonto, die Bewegungen in der ausgewählten Monats-, Quartals- oder Jahresperiode und die resultierende Abschlussbilanz.         |
-|**Bilanz/Budget** | Zeigt eine Bilanz im Vergleich zu einem Budget an. Sie können die Ansicht einer Bilanz für ausgewählte Dimensionen wählen. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden.        |
-|**Ausführliche Bilanz** |Zeigt eine ausführliche Bilanz für ausgewählte Fibukonten an. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. Die im Bericht enthaltenen Konten können Sie durch Setzen von Filtern festlegen.         |
-|**Bilanz/Vorjahr**|Zeigt eine Bilanz im Vergleich zu den Werten des Vorjahres an. Sie können die Ansicht einer Bilanz für ausgewählte Dimensionen wählen. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. Als *Vorjahr* wird hier die gleiche Periode ein Kalenderjahr früher bezeichnet.|
-|**Kontenschema**|Kontenschemas können verwendet werden, um Fibukonten anders als im Kontenplan anzuzeigen. Kontenschema können beispielsweise verwendet werden, um Berichte zu Kennzahlen zu erzeugen.|
-<!--|**Kontenplan** (Kontenschema oder Excel) oder **Bilanz** |         |
-|**Cashflow-Auszug** (Kontenschema) |         |
-|**Bilanz Übersicht/Detail** |         |
-|**Erfolgsrechnung** (Kontenschema oder Excel)||
-|**Budget** ||-->
+| Bericht | Objekt-ID | Beschreibung |
+|--|--|--|
+| **Bilanz** | 6 | Zeigt den Kontenplan mit Salden und Bewegungen. Sie können die Ansicht einer Bilanz für ausgewählte Dimensionen wählen. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. |
+| **Bilanz nach Periode** | 38 | Zeigt die Eröffnungsbilanz nach Fibukonto, die Bewegungen in der ausgewählten Monats-, Quartals- oder Jahresperiode und die resultierende Abschlussbilanz. |
+| **Bilanz/Budget** | 9 | Zeigt eine Bilanz im Vergleich zu einem Budget an. Sie können die Ansicht einer Bilanz für ausgewählte Dimensionen wählen. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. |
+| **Ausführliche Bilanz** | 4 | Zeigt eine ausführliche Bilanz für ausgewählte Fibukonten an. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. Die im Bericht enthaltenen Konten können Sie durch Setzen von Filtern festlegen. |
+| **Bilanz/Vorjahr** | 7 | Zeigt eine Bilanz im Vergleich zu den Werten des Vorjahres an. Sie können die Ansicht einer Bilanz für ausgewählte Dimensionen wählen. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. *Vorjahr* bedeutet die gleiche Periode ein Kalenderjahr früher. |
+| **Kontenschema** | 25 | Kontenschemas können verwendet werden, um Fibukonten anders als im Kontenplan anzuzeigen. Kontenschema können beispielsweise verwendet werden, um Berichte zu Kennzahlen zu erzeugen. |
+<!-- | **Kontenplan** (Kontenschema oder Excel) oder **Bilanz** |  |  |
+| **Cashflow-Auszug** (Kontenschema) |  |  |
+| **Bilanz Übersicht/Detail** |  |  |
+| **Erfolgsrechnung** (Kontenschema oder Excel) |  |  |
+| **Budget** |  |  | -->
 
 ## <a name="tasks"></a>Aufgaben
 
@@ -57,6 +57,9 @@ In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des
 [Abschlussberichte vorbereiten](year-prepare-close-statement.md)  
 [Finanzauswertungen analysieren in Microsoft Excel](finance-analyze-excel.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
+[Debitoren Berichte und Analysen](receivables-reports.md)  
+[Berichte und Analysen zu Verbindlichkeiten a. LL](payables-reports.md)  
+[Anlagen-Berichte und -Analysen](fa-reports.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Finanzen](finance.md)  
 [Lokale Funktionen – Übersicht](about-localization.md)  

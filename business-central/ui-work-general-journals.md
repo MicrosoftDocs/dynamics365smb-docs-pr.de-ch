@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: 349dd312ae709c29138555ba6e8554a4f5e18122
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087733"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445490"
 ---
 # <a name="working-with-general-journals"></a>Arbeiten mit Fibu Buch.-Blättern
 
@@ -152,7 +152,7 @@ Wenn Sie Erfassungsjournalzeilen erstellt haben, die Sie wahrscheinlich zu einem
 >   Das folgende Verfahren bezieht sich auf das Artikel Erf.-Journal, die Informationen betreffen jedoch auch das Standard Erf.-Journal.
 
 ### <a name="to-save-a-standard-journal"></a>Ein Standard-Erfassungsjournal speichern:
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Artikel Erfassungsjournale** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Element Erfassungsjournale** ein und wählen Sie dann den zugehörigen Link.
 2. Geben Sie in mindestens eine Erfassungsjournalzeile ein.
 3. Wählen Sie die Buch.-Blattzeilen aus, die Sie wieder verwenden möchten.
 4. Wählen Sie die **Als Standard Buch.-Blatt speichern** Aktion aus.
@@ -168,7 +168,7 @@ Wenn Sie das Standard-Artikel-Erf.-Journal gespeichert haben, wird die Seite "Ar
 
 ### <a name="to-reuse-a-standard-journal"></a>Standard Erf.-Journale wieder nutzen
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Artikel Erfassungsjournale** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Element Erfassungsjournale** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die **Standard Buch.-Blatt abrufen** Aktion aus.
 
     Die Seite "Standard Artikel Buch.-Blätter" wird geöffnet und zeigt Codes und Beschreibungen für alle vorhandenen Standard Artikel Buch.-Blätter an.
@@ -205,7 +205,7 @@ Jede Neunummerierung der Belegnummern berücksichtigt verwandte Anwendungen, wie
 
 Die folgende Prozedur basiert auf der Seite **Fibu Erf.-Journal**, gilt aber für alle anderen Erf.-Journals, die auf dem Hauptbuch basieren, wie etwa die Seite **Zahlungs Erf.-Journal**.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Fibu Erfassungsjournale** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Allgemeine Erfassungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Wenn Sie zum Buchen des Buchs bereit sind, wählen Sie auf der Registerkarte Aktionen, in der Gruppe Funktionen, die Option **Belegnummern neu nummerieren**.
 
 Werte im Feld **Belegnr.** werden geändert, wo erforderlich, sodass die Belegnummern auf einzelnen oder gruppierten Erfassungsjournalzeilen in sequenzieller Reihenfolge stehen. Nach der Neunummerierung der Belege können Sie mit der Buchung des Erf.-Journals fortfahren.

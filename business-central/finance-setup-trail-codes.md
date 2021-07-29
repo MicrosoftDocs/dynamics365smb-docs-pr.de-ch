@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6c20c57f05d17b0b52fcc1d4c9b1234cf03c6e97
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb3db7a2fc2c156debd36942ecc61d35d1e38f82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773853"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446229"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Buchungsspurcodes und Ursachencodes für Audit Trails einrichten
 
@@ -33,7 +33,7 @@ Beim Buchen oder Ausführen einer Stapelverarbeitung wird dem Posten automatisch
 
 ### <a name="to-define-source-codes"></a>So definieren Sie Buchungsspurcodes
 
-1. Wählen Sie das Symbol ![Seite suchen oder Bericht](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'"), geben Sie **Buchungsspurcode Einrichtung** ein und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") Symbol. Geben Sie **Buchungsspurcode Einrichtung** ein, und wählen Sie dann den entsprechenden Link.  
 
 2. Geben Sie im Fenster **Buchungsspurcode Einrichtung** für jede Buchungsart und jede Stapelverarbeitung den entsprechenden Buchungsspurcode ein.  
 
@@ -45,7 +45,7 @@ Sie können einen Buchungsspurcode ändern. Sie können den Buchungsspurcode *FI
 
 ### <a name="to-change-source-codes"></a>So ändern Sie Buchungsspurcodes
 
-1. Wählen Sie das Symbol ![Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") aus, geben Sie **Buchungsspurcodes** ein, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie die ![Suche nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") Symbol. Geben Sie **Buchungsspurcodes** ein und wählen Sie dann den zugehörigen Link.
 
 2. Wählen Sie in der Zeile mit dem zu ändernden den Code im Feld **Code** aus.
 
@@ -59,7 +59,7 @@ Ursachencodes ergänzen die Buchungsspurcodes und geben an, warum ein Eintrag er
 
 ### <a name="to-set-up-reason-codes"></a>So richten Sie Ursachencodes ein
 
-1. Wählen Sie das Symbol ![Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") aus, geben Sie **Ursachencodes** ein, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'")  Symbol. Geben Sie **Ursachencodes** ein und wählen Sie dann den zugehörigen Link.
 
 2. Geben Sie im Fenster **Ursachencodes** den ersten Code im Feld **Code** ein. Geben Sie im Feld **Beschreibung** einen erklärenden Text ein.
 
@@ -69,7 +69,7 @@ Nachfolgend wird beschrieben, wie Sie einer Erf.-Journalvorlage einen Ursachenco
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>So weisen Sie Erf.-Journalvorlagen Ursachencodes zu
 
-1. Wählen Sie das Symbol ![Seite oder Bericht suchen](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen") aus, geben Sie **Allgemeine Erf.-Journal Vorlage** ein, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen")  Symbol. Geben Sie **Allgemeine Fibu Erf.-Journalvorlagen** ein, und wählen Sie dann den zugehörigen Link.
 
 2. Geben Sie in der Zeile mit der ausgewählten Erf.-Journalvorlage den entsprechenden Code in das Feld **Ursachencode** ein.
 
