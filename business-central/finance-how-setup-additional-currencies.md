@@ -7,19 +7,23 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies
-ms.date: 04/01/2021
+ms.search.keywords: multiple currencies, foreign exchange rates
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 23e9f521e43373ff3ee0fd5f8218b2d467b54d72
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e1a6c902bdf4ce8270def3c830138511adf6eba3
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444451"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660220"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Einrichten einer zusätzlichen Berichtswährung
 
 Da die Anzahl der Länder, in denen Unternehmen Geschäftsbeziehungen unterhalten, ständig wächst, wird es immer wichtiger, dass Finanzdaten in mehreren Währungen erfasst und angezeigt werden können.
+
+> [!NOTE]  
+> Wenn Sie in [!INCLUDE[prod_short](includes/prod_short.md)] nach Echtzeitinformationen zu Wechselkursen (FX) oder älteren Kursen suchen, werden diese als Währung bezeichnet. Siehe neben diesem Artikel auch [Währungswechselkurse aktualisieren](finance-how-update-currencies.md).
+
 
 In der Anwendung wird der Fibuposten in der Mandantenwährung (MW) eingerichtet, aber eine weitere Währung, der ein aktueller Wechselkurs zugewiesen ist, kann als zusätzliche Währung eingerichtet werden. Wird eine zweite Währung als [!INCLUDE[prod_short](includes/prod_short.md)] Berichtswährung festgelegt, werden Beträge automatisch für jeden Fibuposten und weitere Posten, wie zum Beispiel MWST-Posten, in der Mandantenwährung und der Berichtswährung erfasst.
 
@@ -42,29 +46,29 @@ Da sich Wechselkurse ständig ändern, müssen weitere Währungsentsprechungen i
 ## <a name="setting-up-an-additional-reporting-currency"></a>Einrichten einer Berichtswährung
 Folgen Sie diesen Schritten, um die zusätzliche Berichtswährung einzurichten:
 
--   Legen Sie Sachkonten für die Buchung von Kursregulierungen fest.  
--   Legen Sie Kursregulierungsart für alle Sachkonten fest.  
+-   Legen Sie Fibukonten für die Buchung von Kursregulierungen fest.  
+-   Legen Sie Kursregulierungsart für alle Fibukonten fest.  
 -   Legen Sie die Kursregulierungsmethode für MWST.-Posten fest.  
 -   Aktivieren Sie die Berichtswährung.  
 
-### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Sachkonten für die Buchung von Kursregulierungen festlegen:  
+### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Fibukonten für die Buchung von Kursregulierungen festlegen:  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Währungen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Im Fenster **Währungen** geben Sie die folgenden Felder für die zusätzliche Berichtswährung an.  
 
 |Feld|Description|  
 |---------------------------------|---------------------------------------|  
-|**Sachkto. Kursgewinn real. Kto**|Das Sachkonto, auf das Kursgewinne aus Wechselkursregulierungen zwischen der Mandantenwährung und der Berichtswährung gebucht werden sollen.|  
-|**Sachkto. Kursverlust real. Kto**|Das Sachkonto, auf das Kursverluste aus Wechselkursregulierungen zwischen der Mandantenwährung und der Berichtswährung gebucht werden sollen.|  
-|**Rundungsgewinn Konto**|Das Fibukonto, auf das Rundungsgewinne gebucht werden, wenn im Anwendungsbereich "Finanzbuchhaltung" Buchungen sowohl in der Mandantenwährung als auch in einer Berichtswährung durchgeführt werden.|  
-|**Rundungsverlust Konto**|Das Fibukonto, auf das Rundungsverluste gebucht werden, wenn im Anwendungsbereich "Finanzbuchhaltung" Buchungen sowohl in der Mandantenwährung als auch in einer Berichtswährung durchgeführt werden.|
+|**Sachkto. Kursgewinn real. Kto**|Das Fibukonto, auf das Kursgewinne aus Wechselkursregulierungen zwischen der Mandantenwährung und der Berichtswährung gebucht werden sollen.|  
+|**Sachkto. Kursverlust real. Kto**|Das Fibukonto, auf das Kursverluste aus Wechselkursregulierungen zwischen der Mandantenwährung und der Berichtswährung gebucht werden sollen.|  
+|**Rundungsgewinn Konto**|Das Fibukonto, auf das Rundungsgewinne gebucht werden, wenn im Anwendungsbereich „Finanzbuchhaltung“ Buchungen sowohl in der Mandantenwährung als auch in einer Berichtswährung durchgeführt werden.|  
+|**Rundungsverlust Konto**|Das Fibukonto, auf das Rundungsverluste gebucht werden, wenn im Anwendungsbereich „Finanzbuchhaltung“ Buchungen sowohl in der Mandantenwährung als auch in einer Berichtswährung durchgeführt werden.|
 
 > [!NOTE]  
 >  Rundungsbeträge können entstehen, wenn [!INCLUDE[prod_short](includes/prod_short.md)] Soll- und Habenbeträge rundet, die aus der Mandantenwährung in eine Berichtswährung umgerechnet wurden.  
 
-Für jedes Sachkonto müssen Sie angeben, wie Beträge für dieses Konto hinsichtlich der Wechselkursschwankungen zwischen der Mandantenwährung und der Berichtswährung reguliert werden.  
+Für jedes Fibukonto müssen Sie angeben, wie Beträge für dieses Konto hinsichtlich der Wechselkursschwankungen zwischen der Mandantenwährung und der Berichtswährung reguliert werden.  
 
-### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>So geben Sie die Kursregulierungsmethode für alle Sachkonten an  
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>So geben Sie die Kursregulierungsmethode für alle Fibukonten an  
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Kontenplan** wählen Sie das gewünschte Konto aus, und wählen Sie die **Bearbeiten** Aktion aus.  
 3. Wählen Sie auf dem Inforegister **Berichtswesen** die richtige Methode im Feld **Kursregulierung** aus.  
@@ -73,7 +77,7 @@ Für jedes Sachkonto müssen Sie angeben, wie Beträge für dieses Konto hinsich
 
     |Feld|Beschreibung|  
     |----------------------------------|---------------------------------------|  
-    |**Keine Regulierung**|Es wird keine Wechselkursregulierung auf das Sachkonto gebucht. Diese Option wird standardmässig verwendet.<br /><br /> **HINWEIS:** Die Option sollte ausgewählt werden, wenn der Wechselkurs zwischen der Mandantenwährung und der Berichtswährung immer fest ist.|  
+    |**Keine Regulierung**|Es wird keine Wechselkursregulierung auf das Fibukonto gebucht. Diese Option wird standardmässig verwendet.<br /><br /> **HINWEIS:** Die Option sollte ausgewählt werden, wenn der Wechselkurs zwischen der Mandantenwährung und der Berichtswährung immer fest ist.|  
     |**Betrag regulieren**|Der MW-Betrag wird gemäss der Wechselkursgewinne oder -verluste reguliert. Wechselkursgewinne oder -verluste werden auf das Fibukonto im Feld **Betrag** gebucht und auf die Konten, die Sie für Gewinne oder Verluste in den Feldern **Fibukto. Kursgewinn real. Kto.** und **Fibukto. Kursverlust real. Kto.** im Fenster **Währungen** festgelegt haben.|  
     |**Betrag (BW) regulieren**|Die zusätzliche Berichtswährung wird gemäss der Wechselkursgewinne oder -verluste reguliert. Wechselkursgewinne oder -verluste werden auf das Fibukonto im Feld **Betrag (BW)** gebucht und auf die Konten, die Sie für Gewinne oder Verluste in den Feldern **Fibukto. Kursgewinn real. Kto.** und **Fibukto. Kursverlust real. Kto.** im Fenster **Währungen** festgelegt haben.|  
 
@@ -92,7 +96,7 @@ Für jedes Sachkonto müssen Sie angeben, wie Beträge für dieses Konto hinsich
 
     |Feld|Description|  
     |----------------------------------|---------------------------------------|  
-    |**Keine Regulierung**|Es wird keine Wechselkursregulierung auf das Sachkonto gebucht. Diese Option wird standardmässig verwendet.|  
+    |**Keine Regulierung**|Es wird keine Wechselkursregulierung auf das Fibukonto gebucht. Diese Option wird standardmässig verwendet.|  
     |**Betrag regulieren**|Der MW-Betrag wird gemäss der Wechselkursgewinne oder -verluste reguliert. Wechselkursgewinne oder -verluste werden auf das Fibukonto im Feld **Betrag** gebucht und auf die Konten, die Sie für Gewinne oder Verluste in den Feldern **Fibukto. Kursgewinn real. Kto.** und **Fibukto. Kursverlust real. Kto.** im Fenster **Währungen** festgelegt haben.|  
     |**Betrag (BW) regulieren**|Die zusätzliche Berichtswährung wird gemäss der Wechselkursgewinne oder -verluste reguliert. Wechselkursgewinne oder -verluste werden auf das Fibukonto im Feld **Betrag (BW)** gebucht und auf die Konten, die Sie für Gewinne oder Verluste in den Feldern **Fibukto. Kursgewinn real. Kto.** und **Fibukto. Kursverlust real. Kto.** im Fenster **Währungen** festgelegt haben.|  
 

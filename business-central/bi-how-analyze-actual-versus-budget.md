@@ -1,8 +1,6 @@
 ---
-title: Analysieren von Ist gegenüber dem Budget
+title: Tatsächlichen Beträge mit den budgetierten Beträgen analysieren
 description: In diesem Thema wird beschrieben, wie Sie Ist-Beträge gegenüber Plan-Beträgen analysieren können, um Daten Ihrer Firma zu erfassen, zu analysieren und weiterzugeben.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9011f3d488c659b7b2b44f8801c4af055f51bc54
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2bbdce7c34160ffc1eefc7e398574db8b642b657
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437115"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688299"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Tatsächlichen Beträge mit den budgetierten Beträgen analysieren
 Als Teil des Zusammentragen, Analysieren und Teilen der Firmendaten sehen Sie aktuelle Beträge verglichen mit den budgetierten Beträgen für alle Konten sowie für mehrere Perioden.
@@ -51,7 +49,7 @@ Sie können Finanzbudgets anzeigen und sie mit tatsächlichen Werten in verschie
 > [!NOTE]  
 >   Die Filter, die Sie im Kopf auf der Seite setzen, werden sowohl auf die Fibuposten als auch auf die Budgetposten angewendet.
 
-Die Spalten auf der linken Seite enthalten den Kontenplan. Von den fünf Spalten auf der rechten Seite enthalten die ersten vier aktuelle und budgetierte Soll- und Habenbeträge für jedes Konto. Die fünfte Spalte zeigt die Relation zwischen den aktuellen und den budgetierten Beträgen des Sachkontos.  
+Die Spalten auf der linken Seite enthalten den Kontenplan. Von den fünf Spalten auf der rechten Seite enthalten die ersten vier aktuelle und budgetierte Soll- und Habenbeträge für jedes Konto. Die fünfte Spalte zeigt die Relation zwischen den aktuellen und den budgetierten Beträgen des Fibukontos.  
 
 > [!TIP]  
 >   Wählen Sie auf der Seite **Saldo/Budget** mithilfe des Felds **Anzeigen nach** die gewünschte Periodenlänge aus. Wählen Sie mithilfe des Felds **Anzeigen als** aus, wie die Beträge berechnet werden sollen (**Bewegung** oder **Saldo bis Datum**). Klicken Sie auf der Registerkarte Aktionen auf **Vorperiode** oder F **olgeperiode**, um die Periode zu ändern.  
