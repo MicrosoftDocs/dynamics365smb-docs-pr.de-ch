@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
-ms.date: 06/21/2021
+ms.date: 09/06/2021
 ms.author: soalex
-ms.openlocfilehash: 3eecd93dbb2a8ca750568f9a9d576054b322644b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a1ec0dfceba2755c70b8532ff00d49a4d76aba98
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440481"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482417"
 ---
 # <a name="qr-bill-management-in-the-swiss-version-of-business-central"></a>QR-Bill Management in der Schweizer Version von Business Central
 Ab dem 1. Juli 2020 müssen Unternehmen in der Schweiz QR-Rechnungen empfangen können. QR-Rechnungen sind Zahlungsscheine für Rechnungen und eine landesweite Initiative zur Optimierung von Zahlungsprozessen. QR-Rechnungen ersetzen alle vorhandenen Zahlungsscheine und ESR-bezogene Funktionen. Sie enthalten alle erforderlichen Informationen zum Vornehmen von Zahlungen. Ein QR-Code auf dem Zahlungsschein erleichtert das Importieren der Informationen in [!INCLUDE[prod_short](../../includes/prod_short.md)]. Alle relevanten Informationen werden importiert und zum Generieren von Zahlungen für den Kreditor verwendet, der die QR-Rechnung gesendet hat, einschliesslich der Zahlungsreferenz, die automatisch in Kreditorenposten eingefügt und in Zahlungsdateien an die Bank exportiert wird.
@@ -43,6 +43,9 @@ Beim Erstellen einer QR-Rechnung können Sie Abrechnungsinformationen im SWICO-F
 ## <a name="understanding-the-payment-reference"></a>Informationen über die Zahlungsreferenz
 Bei Zahlungsprozessen geht es um das Bezahlen des richtigen Betrags an die richtige Partei. Dadurch können sie Zahlungen leichter abstimmen und ausstehende Konten schliessen. Die QR-Bill Management-Erweiterung erledigt dies durch Generieren einer Zahlungsreferenz für QR-Rechnungen, die für Rechnungen in einem bestimmten Unternehmen eindeutig sind. Dies bedeutet, dass dieselbe Zahlungsreferenz nicht mehrmals ausgestellt werden kann. Falls Ihr Kunde zudem [!INCLUDE[prod_short](../../includes/prod_short.md)] verwendet, wird die Zahlungsreferenz importiert, wenn Sie QR-Rechnungen erhalten, an die Seite 'Kreditorenposten' übertragen und als Referenz beim Erstellen von Kreditorenzahlungen verwendet. Weitere Informationen finden Sie unter [Empfang von QR-Rechnungen](ui-extensions-qr-bill-management.md#receiving-qr-bills). Der Ablauf ist ähnlich wie bei der vorherigen ESR-Referenzfunktion, die die QR-Rechnungen ersetzen. Schliesslich werden die Zahlungsdateien (pain.001) von der Geschäftsanwendung des Kunden mit der Nachricht an seine Bank gesendet, die Beträge an das Konto des Kreditors zu überweisen. Die Bank erstellt eine Kontoauszugsdatei (camt.054), die der Kreditor importieren kann, um die Konten abzustimmen. Diese Datei enthält die Zahlungsreferenz und wird über das Datenaustauschframework importiert, das von der QR-Bill Management-Erweiterung aktualisiert wird, um camt.054-Dateien zu importieren.  
 Für ESR-Referenzen konnten Sie Informationen konfigurieren, damit sie beispielsweise die Kundennummer und Rechnungsnummer enthielten. Sie können in QR-Rechnungen die Zahlungsreferenz nicht konfigurieren. Es besteht immer eine direkte Relation zwischen ausgestellter QR-Rechnung und einer Zahlung. Dadurch wird die Abstimmung erleichtert und die Zahlungsreferenz muss auf QR-Rechnungen nicht mehr konfiguriert werden. Stattdessen verwendet [!INCLUDE[prod_short](../../includes/prod_short.md)] einen eindeutigen Zähler für die Zahlungsreferenz. Außerdem ist eine Logik implementiert, die den zweimaligen Import oder Scan derselben Zahlungsreferenz sperrt.
+
+## <a name="using-multiple-bank-accounts-as-issuers-of-qr-bills"></a>Verwendung mehrerer Bankkonten als Ersteller von QR-Rechnungen
+Die Ersteller von QR-Rechnungen können mehrere Bankkonten verwenden, um Zahlungen auf verschiedene Bankkonten umzuleiten. Dies steht mit der Zahlungsform in Verbindung, in der Sie die **QR-Rechnung Bankkontonr.** angeben können. Wenn angegeben, werden die IBAN/QR-IBAN-Informationen von diesem Bankkonto auf QR-Rechnungen verwendet, die die angegebene Zahlungsform verwenden. Auf diese Weise können Sie eingehende Zahlungen auf das gewünschte Bankkonto leiten. Falls Sie nicht mehrere Bankkonten verwenden und die **QR-Rechnung Bankkontonr.** auf der Registerkarte Zahlungsform angeben, werden die QR-IBAN/IBAN-Informationen aus den Unternehmensinformationen stattdessen auf QR-Rechnungen verwendet. Stellen Sie sicher, dass zumindest die Informationen für Ihr primäres Bankkonto dort eingerichtet sind.
 
 ## <a name="scanning-and-importing-qr-bills"></a>Scannen und Importieren von QR-Rechnungen
 Zum Scannen oder Importieren einer QR-Rechnung müssen Sie einen der folgenden Typen von Scangeräten verwenden:
