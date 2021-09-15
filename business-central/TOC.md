@@ -91,6 +91,7 @@
 ### [Verlängern Ihrer Testversion](admin-extend-trial.md)
 ### [Business Central kündigen oder entfernen](admin-cancel.md)
 ## Kaufen
+### [Erste Schritte mit einem Abonnement](across-preview.md#getting-started-with-a-subscription)
 ### [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)
 
 <!--setup-->
@@ -649,9 +650,10 @@
 ### [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)
 ### [Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)
 ### [Artikel reservieren](inventory-how-to-reserve-items.md)
+### [Artikeltracking mit Serien-, Chargen- und Paketnummern einrichten](inventory-how-setup-item-tracking.md)
 ### [Verfolgen Sie Artikel mit Serien‑, Chargen‑ und Paketnummern](inventory-how-work-item-tracking.md)
-### [Artikelreferenzen verwenden](inventory-how-use-item-cross-refs.md)
 ### [Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)
+### [Artikelreferenzen verwenden](inventory-how-use-item-cross-refs.md)
 ### [Artikel sperren](inventory-how-block-items.md)
 ### [Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md)
 

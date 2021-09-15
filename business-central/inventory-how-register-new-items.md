@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/16/2021
+ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3ef2fee2b6a2c868fa4085d08bf76bb02b96b49
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435657"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440455"
 ---
 # <a name="register-new-items"></a>Neue Artikel registrieren
 
@@ -53,7 +53,7 @@ Im folgenden Verfahren wird erläutert, wie Sie eine Objektkarte von Grund auf n
 >
 > Wenn Sie **Durchschnitt** wählen, dann werden die Stückkosten des Artikels als durchschnittliche Stückkosten zu jedem Zeitpunkt nach dem Kauf berechnet. Bestand wird mit der Annahme bewertet, dass aller Bestand gleichzeitig verkauft wird. Für Artikel, die die Lagerabgangsmethode verwenden, können Sie das Feld **Einstandspreis** auf der Artikelkarte wählen, um die Historie von Transaktionen anzuzeigen, denen der d **urchschnittliche Einstandspreis** berechnet wird
 
-Sie können Sonderpreise oder Rabatte für den Artikel anzeigen oder bearbeiten, die Sie gewähren oder die Ihr Kreditor Ihnen gewährt, wenn bestimmte Kriterien, wie z. B. Debitor, Mindestbestellmenge oder Enddatum erfüllt sind. Dazu wählen Sie die Aktionen **Sonderpreise festlegen** oder **Sonderrabatte festlegen** aus. Jede Zeile zum Beispiel auf der Seite **Verkaufspreise** repräsentiert einen Sonderpreis. Jede Spalte stellt ein Kriterium dar, das angewendet werden muss, um einem Debitor den Sonderpreis zu gewähren, den Sie in das Feld **VK-Preis** auf der Seite **Verkaufspreise** eingeben. Weitere Informationen finden Sie unter [Verkaufspreise, Skonto und Zahlungsvereinbarungen aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md) oder [Spezielle Verkaufspreise und Skontoe aufzeichnen](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+Sie können Sonderpreise oder Skonti für den Artikel anzeigen oder bearbeiten, die Sie gewähren oder die Ihr Kreditor Ihnen gewährt, wenn bestimmte Kriterien, wie z. B. Debitor, Mindestbestellmenge oder Enddatum erfüllt sind. Dazu wählen Sie die Aktionen **Sonderpreise festlegen** oder **Sonderskonti festlegen** aus. Jede Zeile zum Beispiel auf der Seite **Verkaufspreise** repräsentiert einen Sonderpreis. Jede Spalte stellt ein Kriterium dar, das angewendet werden muss, um einem Debitor den Sonderpreis zu gewähren, den Sie in das Feld **VK-Preis** auf der Seite **Verkaufspreise** eingeben. Weitere Informationen finden Sie unter [Verkaufspreise, Skonto und Zahlungsvereinbarungen aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md) oder [Spezielle Verkaufspreise und Skonti aufzeichnen](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
 Der Artikel ist nun erfasst und die Debitorenkarte ist bereit, in Einkaufs- und Verkaufsbelegen verwendet zu werden.
 
@@ -75,7 +75,7 @@ Wenn Sie Artikel registrieren möchten, die dann in Fertigungsaufträgen verwend
 
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>So richten Sie mehrere Kreditoren für einen Artikel ein
 
-Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, müssen Sie die benötigten Informationen für jeden Kreditor eingeben. Dies umfasst z. B. Preise, Lieferzeit, Rabatte usw.  
+Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, müssen Sie die benötigten Informationen für jeden Kreditor eingeben. Dies umfasst z. B. Preise, Lieferzeit, Skonti usw.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Bearbeiten** aus.  
@@ -85,6 +85,23 @@ Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, müssen S
 6. Wiederholen Sie die Schritte 2 bis 5 für jeden Verkäufer, von dem Sie den Artikel kaufen möchten.
 
 Die Kreditoren erscheinen dann auf der Seite **Artikel/Kreditoren Katalog**, damit Sie einen alternativen Kreditor einfach auswählen können.
+
+## <a name="set-up-item-substitutions"></a>Ersatzartikel einrichten
+
+Sie können Artikel so einrichten, dass sie über Ersatzartikel verfügen, z. B. andere Artikel, die anstelle des ursprünglichen Artikels verwendet werden können.
+
+### <a name="to-make-an-item-substitution"></a>So legen Sie einen Ersatzartikel für einen Artikel fest
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
+2. Suchen Sie den entsprechenden Artikel, und klicken Sie dann auf die **Artikelnr.**, um die Artikelkarte zu öffnen.  
+3. Wählen Sie die Aktion **Zugehörig**, dann den **Artikel** und anschliessend die Option **Ersatzartikel** aus, um die Seite „Ersatzartikel“ zu öffnen.  
+4. Wählen Sie das Feld **Ersatzartikelnr.** und dann den Ersatzartikel aus der Liste aus.
+5. Fahren Sie fort, um Felder auf der Seite bei Bedarf auszufüllen oder zu ändern.
+
+Wenn die angeforderte Menge, beispielsweise in einer Verkaufszeile, die Menge überschreitet, die am Lager verfügbar ist, dann wird eine Meldung darüber angezeigt, dass Ersatzartikel vorhanden sind.
+
+> [!NOTE]  
+> Beachten Sie, dass Artikelersetzungen nicht automatisch dazu führen, dass ein Artikel durch einen anderen Artikel ersetzt wird, beispielsweise beim Erstellen eines Verkaufsauftrags oder in einer Stückliste. Stattdessen werden Sie darüber benachrichtigt, dass Ihnen ein Ersatzartikel zur Verfügung steht.
 
 ## <a name="categories-attributes-and-variants"></a>Kategorien, Attribute und Varianten
 
