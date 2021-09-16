@@ -209,7 +209,7 @@ Wenn der Benutzer einen bestehenden Vorrat von den Planungsvorschlägen ausschli
 
 Allgemein haben alle Vorräte eine Planungsflexibilität, die durch die Bedingungen der einzelnen vorgeschlagenen Aktionen begrenzt ist.  
 
--   **Umplanung aus**: Das Datum eines bestehenden Vorrats kann auf das Fälligkeitsdatum des Bedarfs umgeplant werden. Es sei denn:  
+-   **Neu planen aus**: Das Datum eines bestehenden Vorrats kann auf das Fälligkeitsdatum des Bedarfs umgeplant werden. Es sei denn:  
 
     -   es stellt einen Bestand dar (immer am Tag Null).  
     -   es gibt eine Eins-zu-Eins-Verknüpfung mit einem anderen Bedarf.  
@@ -219,7 +219,7 @@ Allgemein haben alle Vorräte eine Planungsflexibilität, die durch die Bedingun
     -   Der Vorrat wurde bereits an einen anderen Bedarf zu einem früheren Zeitpunkt gebunden.  
     -   Die erforderliche Neuplanung ist so minimal, dass der Benutzer sie für vernachlässigbar hält.  
 
--   **Neuplanung ein**: Das Datum eines bestehenden Vorrats kann auf das Fälligkeitsdatum des Bedarfs umgeplant werden. Es sei denn:  
+-   **Neu planen ein**: Das Datum eines bestehenden Vorrats kann auf das Fälligkeitsdatum des Bedarfs umgeplant werden. Es sei denn:  
 
     -   es ist direkt mit einem anderen Bedarf verknüpft.  
     -   es liegt ausserhalb der durch den Zeitraum definierten Umplanungsseite.  
@@ -277,7 +277,7 @@ Wenn der Vorrat abgeglichen wurde, gibt es drei mögliche Endsituationen:
 Zuletzt erstellt das Planungssystem eine AuftragsTrackingsverknüpfung zwischen dem Vorrat und dem Bedarf.  
 
 ### <a name="creating-the-planning-line-suggested-action"></a>Erstellen der Planungszeile (vorgeschlagene Aktion)  
-Wenn eine Aktion – „Neu“, „Menge ändern“, „Umplanen“, „Umplanen und Menge ändern“ oder „Stornieren“ – zur Veränderung des Vorrats vorgeschlagen wird, erstellt das Planungssystem eine Planungszeile im Planungsarbeitsblatt. Aufgrund der AuftragsTracking wird die Planungszeile nicht nur dann erstellt, wenn das Vorratsereignis abgeschlossen ist, sondern auch, wenn das Bedarfsereignis abgeschlossen ist, obwohl das Vorratsereignis noch offen ist und bei der Verarbeitung des nächsten Bedarfsereignisses möglicherweise weitere Änderungen erfährt. Das bedeutet, dass die Planungszeile nach der ersten Erstellung geändert werden kann.  
+Wenn eine Aktion – „Neu“, „Menge ändern“, „Neu planen“, „Neu planen und Menge ändern“ oder „Stornieren“ – zur Veränderung des Vorrats vorgeschlagen wird, erstellt das Planungssystem eine Planungszeile im Planungsarbeitsblatt. Aufgrund der AuftragsTracking wird die Planungszeile nicht nur dann erstellt, wenn das Vorratsereignis abgeschlossen ist, sondern auch, wenn das Bedarfsereignis abgeschlossen ist, obwohl das Vorratsereignis noch offen ist und bei der Verarbeitung des nächsten Bedarfsereignisses möglicherweise weitere Änderungen erfährt. Das bedeutet, dass die Planungszeile nach der ersten Erstellung geändert werden kann.  
 
 Um bei der Bearbeitung von Produktionsaufträgen den Zugriff auf die Datenbank zu minimieren, kann die Planungszeile in drei Stufen gepflegt werden, wobei die am wenigsten aufwendige Wartungsstufe angestrebt wird:  
 
