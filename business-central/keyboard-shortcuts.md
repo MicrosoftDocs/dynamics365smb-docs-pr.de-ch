@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438941"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588265"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
@@ -89,36 +89,36 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie auf einer Listensei
 
 Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[prod_short](includes/prod_short.md)], wie z.B. Listenseiten und **Zeilen** Teilen auf Belegen. Die Bewegung von einer Zelle zur anderen über ein Raster ist vollständig über die Tastatur möglich.
 
-|Drücken Sie diese Tasten<br />(in Mac Os)|Um dies in einer Listenansicht tun |Um dies in einer Kachelansicht tun |
-|--------------------------------|--------------------------|--------------------------|
-|Ctrl+Home<br />(CTRL+NACH-LINKS-TASTE)|Wählen Sie die erste Zeile in der Liste aus; der Fokus bleibt in der gleichen Spalte.|Navigieren zur ersten Kachel in der ersten Zeile. |
-|Ctrl+Ende<br />(CTRL+NACH-RECHTS-TASTE)|Wählen Sie die letzte Zeile in der Liste aus; der Fokus bleibt in der gleichen Spalte.|Navigieren zur letzten Kachel in der letzten Zeile.|
-|Zuhause<br />(NACH-LINKS-TASTE)|Navigieren zum ersten Feld in einer Zeile.|Navigieren zum ersten Feld in einer Zeile.|
-|Ende<br />(NACH-RECHTS-TASTE)|Navigieren zum letzten Feld in einer Zeile.|Navigieren zur letzten Kachel in einer Zeile.|
-|Enter|Öffnet den Datensatz, der diesem Feld zugeordnet ist.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird.|Öffnet den Datensatz.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird.|
-|Ctrl+Enter|Um den Fokus zum nächsten Element ausserhalb der Liste zu verschieben.|Um den Fokus zum nächsten Element ausserhalb der Liste zu verschieben.|
-|Seite nach oben<br />(NACH-OBEN-TASTE)|Scrollen, um den Zeilensatz über der aktuellen Zeile in der Darstellungsform anzuzeigen. |Scrollen, um den Zeilensatz über der aktuellen Zeile in der Darstellungsform anzuzeigen. |
-|Seite nach unten<br />(NACH-UNTEN-TASTE)|Scrollen, um den Zeilensatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen.|Scrollen, um den Kachelsatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen.|
-|NACH-UNTEN-TASTE|Navigieren zum darüberliegenden Feld in der Zeile darunter. |Navigieren zur darüberliegenden Kachel in der Zeile darunter. |
-|NACH-OBEN-TASTE|Navigieren zum darüberliegenden Feld in der Zeile darüber.| Navigieren zur darüberliegenden Kachel in der Zeile darüber.  |
-|NACH-RECHTS-TASTE|Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.<br /><br />In einer bearbeitbaren Liste bewegen Sie die Rechte im aktuellen Feld.| Navigieren zur gleichen Zeile in der nächsten Kachel rechts. |
-|NACH-LINKS-TASTE|Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. <br /><br />In einer bearbeitbaren Liste bewegen Sie die Linke im aktuellen Feld.| Navigieren zur gleichen Zeile in der vorherigen Kachel links. |
-|Tab|Navigieren zur gleichen Zeile im nächsten bearbeitbaren Feld rechts.|Nicht anwendbar.||
-|SHIFT+TAB|Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. | Nicht anwendbar. |
+| Drücken Sie diese Tasten<br />(in Mac Os) | Um dies in einer Listenansicht tun | Um dies in einer Kachelansicht tun |
+|--|--|--|
+| Ctrl+Home<br />(CTRL+NACH-LINKS-TASTE) | Wählen Sie die erste Zeile in der Liste aus; der Fokus bleibt in der gleichen Spalte. | Navigieren zur ersten Kachel in der ersten Zeile. |
+| Ctrl+Ende<br />(CTRL+NACH-RECHTS-TASTE) | Wählen Sie die letzte Zeile in der Liste aus; der Fokus bleibt in der gleichen Spalte. | Navigieren zur letzten Kachel in der letzten Zeile. |
+| Zuhause<br />(NACH-LINKS-TASTE) | Navigieren zum ersten Feld in einer Zeile. | Navigieren zum ersten Feld in einer Zeile. |
+| Ende<br />(NACH-RECHTS-TASTE) | Navigieren zum letzten Feld in einer Zeile. | Navigieren zur letzten Kachel in einer Zeile. |
+| Enter | Öffnet den Datensatz, der diesem Feld zugeordnet ist.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird. | Öffnet den Datensatz.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird. |
+| Ctrl+Enter | Um den Fokus zum nächsten Element ausserhalb der Liste zu verschieben. | Um den Fokus zum nächsten Element ausserhalb der Liste zu verschieben. |
+| Seite nach oben<br />(NACH-OBEN-TASTE) | Scrollen, um den Zeilensatz über der aktuellen Zeile in der Darstellungsform anzuzeigen. | Scrollen, um den Zeilensatz über der aktuellen Zeile in der Darstellungsform anzuzeigen. |
+| Seite nach unten<br />(NACH-UNTEN-TASTE) | Scrollen, um den Zeilensatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen. | Scrollen, um den Kachelsatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen. |
+| NACH-UNTEN-TASTE | Navigieren zum darüberliegenden Feld in der Zeile darunter. | Navigieren zur darüberliegenden Kachel in der Zeile darunter. |
+| NACH-OBEN-TASTE | Navigieren zum darüberliegenden Feld in der Zeile darüber. | Navigieren zur darüberliegenden Kachel in der Zeile darüber. |
+| NACH-RECHTS-TASTE | Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.<br /><br />In einer bearbeitbaren Liste bewegen Sie die Rechte im aktuellen Feld. | Navigieren zur gleichen Zeile in der nächsten Kachel rechts. |
+| NACH-LINKS-TASTE | Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. <br /><br />In einer bearbeitbaren Liste bewegen Sie die Linke im aktuellen Feld. | Navigieren zur gleichen Zeile in der vorherigen Kachel links. |
+| Tab | Navigieren zur gleichen Zeile im nächsten bearbeitbaren Feld rechts. | Nicht anwendbar. |  |
+| SHIFT+TAB | Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. | Nicht anwendbar. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Auswählen, Kopieren und Einfügen
 
 |Drücken Sie diese Tasten<br />(in Mac Os)|Um dies in einer Listenansicht tun |Um dies in einer Kachelansicht tun |
 |--------------------------------|--------------------------|--------------------------|
 |Ctrl+Click<br />(Cmd+Click)|Erweitern Sie die Auswahl von Zeilen, um die Zeile einzuschliessen, die Sie anklicken.|Nicht anwendbar.|
-|Shift+Linksklick|Erweitern Sie die Auswahl von Zeilen, um die Zeile einzuschliessen, die Sie anklicken und alle Zeilen dazwischen.<br /><br />Sie können dieses verwenden, nachdem Sie CTRL+NACH-OBEN-TASTE oder CTRL+NACH-OBEN-TASTE unten verwenden, um Ihre Auswahl zu erweitern.|Nicht anwendbar.|
-|CTRL+NACH-OBEN-TASTE<br />(CTRL+NACH-OBEN-TASTE)|Verschieben Sie den Fokus auf die Zeile darüber und halten Sie die aktuelle Zeile ausgewählt.|Nicht anwendbar.|
+|Shift+Linksklick|Erweitern Sie die Auswahl von Zeilen, um die Zeile einzuschliessen, die Sie anklicken und alle Zeilen dazwischen.<br /><br />Sie können dieses verwenden, nachdem Sie Ctrl+Nach oben oder Ctrl+Nach unten verwenden, um Ihre Auswahl zu erweitern.|Nicht anwendbar.|
+|Ctrl+Nach oben<br />(CTRL+NACH-OBEN-TASTE)|Verschieben Sie den Fokus auf die Zeile darüber und halten Sie die aktuelle Zeile ausgewählt.|Nicht anwendbar.|
 |Ctrl+NACH-UNTEN-TASTE<br />(STRG+CMD+NACH-UNTEN-TASTE)|Verschieben Sie den Fokus auf die Zeile darunter und halten Sie die aktuelle Zeile ausgewählt.|Nicht anwendbar.|
-|CTRL+LEERTASTE<br />(Ctrl+Cmd+Space)|Erweitern Sie die Auswahl von Zeilen, um die fokussierte Zeile einzuschliessen.<br /><br />Sie können dieses verwenden, nachdem Sie CTRL+NACH-OBEN-TASTE oder CTRL+NACH-OBEN-TASTE unten verwenden, um Ihre Auswahl zu erweitern.|Nicht anwendbar.|
+|CTRL+LEERTASTE<br />(Ctrl+Cmd+Space)|Erweitern Sie die Auswahl von Zeilen, um die fokussierte Zeile einzuschliessen.<br /><br />Sie können dieses verwenden, nachdem Sie Ctrl+Nach oben oder Ctrl+Nach unten verwenden, um Ihre Auswahl zu erweitern.|Nicht anwendbar.|
 |CTRL+A|Alle Zeilen auswählen.|Nicht anwendbar.|
 |Ctrl+C<br />(Cmd+C)|Kopiert die ausgewählte Zeile in die Zwischenablage.|Ja, aber nur für eine einzelne ausgewählte Kachel.|
 |Ctrl+V<br />(Cmd+V)|Fügen Sie die ausgewählten Zeilen der E-Mail die Zwischenablage in die aktuelle Seite oder den externen Beleg, Microsoft Excel z oder Outlook ein. Sie können dies nur in bearbeitbaren Listen tun.|Nicht anwendbar.|
-|SHIFT+PFEILTASTE NACH OBEN|Erweitern Sie die Auswahl von Zeilen, um die Zeile darüber einzuschliessen.|Nicht anwendbar.|
+|Shift+Nach oben|Erweitern Sie die Auswahl von Zeilen, um die Zeile darüber einzuschliessen.|Nicht anwendbar.|
 |Shift+NACH-UNTEN-TASTE|Erweitern Sie die Auswahl von Zeilen, um die Zeile darunter einzuschliessen.|Nicht anwendbar.|
 |Shift+BILD-AUF<br />(Shift+Fn+NACH-OBEN-TASTE)|Erweitern Sie die Auswahl von Zeilen, um alle sichtbaren Zeilen über der aktuellen Auswahl von Zeilen zu berücksichtigen.|Nicht anwendbar.|
 |Shift+BILD-AB<br />(Shift +FN + Pfeil nach unten)|Erweitern Sie die Auswahl von Zeilen, um sichtbare Zeilen unter der aktuellen Auswahl von Zeilen zu berücksichtigen.|Nicht anwendbar.|
@@ -149,7 +149,7 @@ Folgende Tastenkombinationen sind auf Kartenseiten wie **Debitorenkarte** und Be
 |ALT+SHIFT+W |Öffnen Sie die aktuelle Karte oder den Beleg in einem neuen Fenster. Weitere Informationen finden Sie unter [Multitasking über mehrere Seiten](ui-enter-data.md#multitasking-across-multiple-pages).|
 |Ctrl+Enter|Speichern und schliessen Sie die Seite.|
 |CTRL+NACH-UNTEN-TASTE|Öffnen Sie den nächsten Datensatz für eine Einheit.|
-|CTRL+NACH-OBEN-TASTE |Öffnen Sie den vorherigen Datensatz für eine Einheit.|
+|Ctrl+Nach oben |Öffnen Sie den vorherigen Datensatz für eine Einheit.|
 |Ctrl+Ins |Fügen Sie eine neue Zeile in Belege ein.|
 |CTRL+DEL. |Löschen Sie die Zeile in Belegen, Erf.-Journalen und Arbeitsblättern.|
 |Ctrl+Shift+F12 |Maximieren Sie den Werbebuchungsteil auf einer Belegseite. Drücken Sie die Tasten erneut, um zur normalen Anzeige zurückzukehren. Weitere Informationen finden Sie unter [Fokussieren auf Positionsartikel](ui-enter-data.md#Focus).|
@@ -176,7 +176,7 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |Ctrl+Home<br />(Cmd+Home)|Navigieren zum laufenden Monat, laufender Tag.|
 |Ctrl+NACH-LINKS-TASTE<br />(ALT+NACH-LINKS-TASTE)|Navigieren zum vorherigen Tag.|
 |Ctrl+NACH-RECHTS-TASTE<br />(NACH-RECHTS-TASTE)|Navigieren zum nächsten Tag.|
-|Ctrl+NACH-OBEN-TASTE<br />(STRG+NACH-OBEN-TASTE)|Navigieren zur Woche, derselbe Wochentag.|
+|Ctrl+Nach oben<br />(STRG+NACH-OBEN-TASTE)|Navigieren zur Woche, derselbe Wochentag.|
 |Ctrl+NACH-UNTEN-TASTE<br />(STRG+NACH-UNTEN-TASTE)|Navigieren zur nächsten Woche, derselbe Wochentag.|
 |EINGABE|Wählen Sie das fokussierte Datum aus.|
 |Ctrl+Ende<br />(Cmd+End)|Schliessen Sie den Kalender oder löschen Sie die aktuellen Datum.|
@@ -222,7 +222,7 @@ Der Rollen-Explorer bietet Ihnen einen Überblick und schnellen Zugriff auf alle
 |Shift+F12|Öffnen Sie den Rollen-Explorer.|
 |F3|Öffnen Sie das Feld **Finden** im Rollen-Explorer zum Suchen von Funktionen basierend auf einem bestimmten Suchwort oder Begriff.|
 |F3 oder Ctrl+NACH-UNTEN-TASTE|Verschiebt den Fokus auf das Nächste gefundene Feature im Rollen-Explorer. F3 verschiebt den Fokus auf das Feld **Finden** nach dem zuletzt gefundenen Feature.|
-|Shift F3 oder Ctrl + Aufwärtspfeil|Verschiebt den Fokus auf das vorherige gefundene Feature im Rollen-Explorer.|
+|Shift F3 oder Ctrl + Nach oben|Verschiebt den Fokus auf das vorherige gefundene Feature im Rollen-Explorer.|
 |Ctrl+Shift|Erweitern oder reduzieren Sie alle Unterknoten zusätzlich zu den Knoten der obersten Ebene, wenn Sie die Aktion **Erweitern** oder **Reduzieren** auswählen.|
 
 ## <a name="see-also"></a>Siehe auch
