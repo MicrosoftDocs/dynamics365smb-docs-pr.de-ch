@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a01bbbcb158e975c2b6f21ce2dd2468f8b3fa431
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c27b2c158d817a6e58a72d49d65d75bb8470f65
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443537"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651476"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Den Envestnet Yodlee Bank Feeds Service einrichten
 
@@ -97,6 +97,11 @@ Der Bankfeeddienst wird aktiviert, wenn Sie ein Bankkonto mit den dazugehörigen
 5. Wählen Sie die Schaltfläche **OK** aus.
 
 Auf der Seite **Bankkontenliste** ist das Kontrollkästchen **Verknüpft** aktiviert.
+
+## <a name="to-edit-the-credentials-for-an-online-bank-account"></a>So bearbeiten Sie die Zugangsdaten für ein Online-Bankkonto
+1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me](media/ui-search/search_small.png "Tell Me-Funktion") öffnet, geben Sie **Bankkonten** ein, und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie die Zeile des Bankkontos aus, das nicht mit einem Onlinebankkonto verknüpft ist, und wählen Sie dann die Aktion **Online-Bankkontoinformationen bearbeiten**.
+3. Aktualisieren Sie die Anmeldeinformationen.
 
 ## <a name="to-unlink-a-bank-account"></a>So heben Sie die Verknüpfung mit dem Bankkonto auf
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.  
