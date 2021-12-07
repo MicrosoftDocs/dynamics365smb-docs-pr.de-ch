@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: a2acba6a6140be088d38d7473557fc4b7cd40fae
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588265"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865456"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
@@ -37,7 +37,7 @@ Die Tastenkombinationseingabehilfe kann es effizienter und einfacher machen, um 
 Die meisten Verknüpfungen sind gleich, unabhängig davon, ob das Betriebssystem Windows oder macOS ist. Einige Verknüpfungen unterscheiden sich jedoch für macOS. Diese Verknüpfungen sind in den folgenden Abschnitten in Klammern angegeben.
 
 > [!NOTE]
-> Zusätzlich zu den in diesem Thema beschriebenen globalen Tastenkombinationen stehen eine Reihe von geschäftsspezifischen Tastenkombinationen zur Verfügung. Zum Beispiel in der generischen Version von [!INCLUDE[prod_short](includes/prod_short.md)], F9 bucht einen Beleg und Ctrl+F7 zeigt die Finanzbuchungen für einen Datensatz wenn Sie den Datensatz in der Karte öffnen. (Diese können in Ihrer Lösung unterschiedlich sein.) Die Tastenkombination wird in der QuickInfo für die betreffende Aktion angezeigt.
+> Zusätzlich zu den in diesem Artikel beschriebenen globalen Tastenkombinationen stehen eine Reihe von geschäftsspezifischen Tastenkombinationen zur Verfügung. Zum Beispiel in der generischen Version von [!INCLUDE[prod_short](includes/prod_short.md)], F9 bucht einen Beleg und Ctrl+F7 zeigt die Finanzbuchungen für einen Datensatz wenn Sie den Datensatz in der Karte öffnen. Dieser Artikel enthält einige der gängigeren geschäftsspezifischen Tastenkombinationen, die in Kursivschrift angezeigt werden. Beachten Sie, dass die tatsächlichen Verknüpfungen in Ihrer Lösung unterschiedlich sein können. In der Benutzeroberfläche wird die Tastenkombination in der QuickInfo für die betreffende Aktion angezeigt.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Allgemeine Tastenkombinationen
 
@@ -83,7 +83,15 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie auf einer Listensei
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Sortieren Sie die ausgewählte Spalte in aufsteigender oder absteigender Reihenfolge.|Nicht anwendbar.|
 |ALT+N|Fügen Sie eine neue Zeile in eine bearbeitbare Liste ein, wie die **Sachbudgets** Seite.|Das gleiche.|
+|Shift+F9|Veröffentlichen und drucken Sie ein Dokument.|Das gleiche.|
 |Shift+F10 |Öffnen Sie ein Menü mit Optionen, die für die ausgewählte Zeile verfügbar sind.|Das gleiche.|
+|Alt+D|Öffnen Sie die Dimensionssatzeinträge.|Das gleiche.|
+|Ctrl+F7|Öffnen Sie Posten, Protokolleinträge, Kosteneinträge usw.|
+|Ctrl+F9|Geben Sie den Beleg frei.|Das gleiche.|
+|*F7*|Öffnen Sie Statistiken.|Das gleiche.|
+|*F9*|Buchen Sie Belege, stellen Sie sie aus, und registrieren und stornieren Sie sie.|Das gleiche.|
+|*Shift+Ctrl+F*|Senden Sie vorgeschlagene Zeilen an die Seite „Cashflow-Arbeitsblatt“.|Nicht anwendbar.|
+|*Shift+Ctrl+I*|Zeigen Sie dem Positionsartikel im Beleg oder Erf.-Journal zugewiesene Seriennummern und Chargennummern an, oder bearbeiten Sie diese.|Nicht anwendbar.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigieren zwischen Zeilen und Spalten
 
@@ -103,7 +111,7 @@ Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[pro
 | NACH-OBEN-TASTE | Navigieren zum darüberliegenden Feld in der Zeile darüber. | Navigieren zur darüberliegenden Kachel in der Zeile darüber. |
 | NACH-RECHTS-TASTE | Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.<br /><br />In einer bearbeitbaren Liste bewegen Sie die Rechte im aktuellen Feld. | Navigieren zur gleichen Zeile in der nächsten Kachel rechts. |
 | NACH-LINKS-TASTE | Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. <br /><br />In einer bearbeitbaren Liste bewegen Sie die Linke im aktuellen Feld. | Navigieren zur gleichen Zeile in der vorherigen Kachel links. |
-| Tab | Navigieren zur gleichen Zeile im nächsten bearbeitbaren Feld rechts. | Nicht anwendbar. |  |
+| Tab | Navigieren zur gleichen Zeile im nächsten bearbeitbaren Feld rechts. | Nicht anwendbar. | 
 | SHIFT+TAB | Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. | Nicht anwendbar. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Auswählen, Kopieren und Einfügen
@@ -142,7 +150,9 @@ Folgende Tastenkombinationen sind auf Kartenseiten wie **Debitorenkarte** und Be
 
 |Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
 |--------------------------------|----------|
+|Alt+D|Öffnen Sie die Dimensionssatzeinträge.|
 |Alt+F6|Schalten Sie das Ein-/Ausklappen für den aktuellen FastTab oder Teil (Unterseite) ein/aus.|
+|Alt+F9|Erstellen Sie einen neuen Beleg, und buchen Sie ihn.|
 |Alt+G|Öffnen Sie die Seite **Posten finden**, um Posten zu finden, die sich auf den gebuchten Beleg beziehen. Funktioniert auch mit Listen.|
 |ALT+N |Öffnen Sie eine Seite für das Erstellen eines neuen Datensatzes auf die gleiche Weise wie das Auswählen der Aktion **Neu**. |
 |ALT+SHIFT+N |Schliessen Sie eine Seite und öffnen Sie eine neue Seite, um einen neuen Datensatzes auf die gleiche Weise wie das Auswählen der Aktion **Ok und Neu**. |
@@ -152,9 +162,15 @@ Folgende Tastenkombinationen sind auf Kartenseiten wie **Debitorenkarte** und Be
 |Ctrl+Nach oben |Öffnen Sie den vorherigen Datensatz für eine Einheit.|
 |Ctrl+Ins |Fügen Sie eine neue Zeile in Belege ein.|
 |CTRL+DEL. |Löschen Sie die Zeile in Belegen, Erf.-Journalen und Arbeitsblättern.|
+|Ctrl+F7|Öffnen Sie Posten, Protokolleinträge, Kosteneinträge usw.|
+|Ctrl+F9|Geben Sie den Beleg frei.|
 |Ctrl+Shift+F12 |Maximieren Sie den Werbebuchungsteil auf einer Belegseite. Drücken Sie die Tasten erneut, um zur normalen Anzeige zurückzukehren. Weitere Informationen finden Sie unter [Fokussieren auf Positionsartikel](ui-enter-data.md#Focus).|
 |F6|Navigieren Sie zum nächsten Inforegister oder Teil (Unterseite).|
+|*F7*|Öffnen Sie Statistiken.|
+|*F9*|Buchen Sie Belege, stellen Sie sie aus, und registrieren und stornieren Sie sie.|
+|*Shift+Ctrl+F9*|Buchen, Drucken und Einlagern des Wareneingangs.|
 |Shift+F6|Navigieren Sie zum vorherigen Inforegister oder Teil (Unterseite).|
+|*Shift+F9*|Veröffentlichen und drucken Sie ein Dokument.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Schnelleingabeverknüpfungen für Felder
 

@@ -24,27 +24,13 @@
 
 ### Designdetails
 #### [Anwendungsdesigndetails – Übersicht](design-details-application-design.md)
-#### Designdetails: Vorratsplanung
-##### [Lieferplanung – Übersicht](design-details-supply-planning.md)
-##### [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)  
-##### [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)  
-##### [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)  
-##### [Designdetails: Planungsparameter](design-details-planning-parameters.md)  
-##### [Designdetails: Planungs-Zuordnungstabelle](design-details-planning-assignment-table.md)  
-##### [Designdetails: Bedarf an leerem Lagerort](design-details-demand-at-blank-location.md)  
-##### [Designdetails: Umlagerungen in Planung](design-details-transfers-in-planning.md)
 #### Designdetails: Lagerkostenberechnung
-##### [Nachkalkulationsübersicht](design-details-inventory-costing.md)
+##### [Designdetails der Bestandskosten](design-details-inventory-costing.md)
 ##### [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  
 ##### [Designdetails: Lagerabgangsmethode für Artikel ändern](design-details-changing-costing-methods.md)
 ##### [Designdetails: Artikelausgleich](design-details-item-application.md)  
 ##### [Designdetails: Bekannte Artikelanwendungsprobleme](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Designdetails: Kostenregulierung](design-details-cost-adjustment.md)  
-##### Designdetails: Buchungsdatum auf Ausgleichs-Wertposten
-###### [Designdetails: Buchungsdatum auf Ausgleichs-Wertposten](design-details-inventory-adjustment-value-entry-posting-date.md)  
-###### [Fehlermeldung „Buchungsdatum liegt nicht in Ihrem Bereich der zulässigen Buchungsdaten“](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-###### [Buchungsdatum der Korrekturwerteingabe im Vergleich zur Quelleingabe](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Designdetails: Soll-Kosten-Buchen](design-details-expected-cost-posting.md)  
 ##### [Designdetails: Durchschnittskosten](design-details-average-cost.md)  
 ##### [Designdetails: Abweichung](design-details-variance.md)  
@@ -58,8 +44,26 @@
 ##### [Designdetails: Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md)
 ##### [Designdetails: Bestandsbewertung](design-details-inventory-valuation.md)  
 ##### [Designdetails: Neubewertung](design-details-revaluation.md)
+#### Designdetails: Buchungsdatum auf Ausgleichs-Wertposten
+##### [Übersicht über das Buchungsdatum der Korrekturwerteingabe](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Fehlermeldung „Buchungsdatum liegt nicht in Ihrem Bereich der zulässigen Buchungsdaten“](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Buchungsdatum der Korrekturwerteingabe im Vergleich zur Quelleingabe](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Designdetails: Dimensionssatzposten
+##### [Designdetails: Dimensionssatzposten-Übersicht](design-details-dimension-set-entries-overview.md)
+##### [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)
+##### [Designdetails: Tabellenstruktur](design-details-table-structure.md)
+#### Designdetails: Vorratsplanung
+##### [Designdetails der Beschaffungsplanung](design-details-supply-planning.md)
+##### [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)  
+##### [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)  
+##### [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)  
+##### [Designdetails: Planungsparameter](design-details-planning-parameters.md)  
+##### [Designdetails: Planungs-Zuordnungstabelle](design-details-planning-assignment-table.md)  
+##### [Designdetails: Bedarf an leerem Lagerort](design-details-demand-at-blank-location.md)  
+##### [Designdetails: Umlagerungen in Planung](design-details-transfers-in-planning.md)
 #### Designdetails: Lagerverwaltung
-##### [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
+##### [Designdetails des Warehouse Managements](design-details-warehouse-management.md)
 ##### [Designdetails: Lagerübersicht](design-details-warehouse-overview.md)  
 ##### [Designdetails: Lagereinrichtung](design-details-warehouse-setup.md)  
 ##### [Designdetails: Eingehender Lagerfluss](design-details-inbound-warehouse-flow.md)  
@@ -68,7 +72,7 @@
 ##### [Designdetails: Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md)  
 ##### [Designdetails: Integration mit dem Lagerbestand](design-details-integration-with-inventory.md)
 #### Designdetails: Artikeltracking
-##### [Artikeltracking – Übersicht](design-details-item-tracking.md)
+##### [Designdetails des Artikeltrackings](design-details-item-tracking.md)
 ##### [Designdetails: Artikeltrackingdesign](design-details-item-tracking-design.md)  
 ##### [Designdetails: Artikeltracking-Buchungsstruktur](design-details-item-tracking-posting-structure.md)  
 ##### [Designdetails: Aktive vs. historische Artikeltrackingposten](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -78,14 +82,10 @@
 ##### [Designdetails: Artikeltracking und Reservierungen](design-details-item-tracking-and-reservations.md)  
 ##### [Designdetails: Artikeltracking im Lager](design-details-item-tracking-in-the-warehouse.md)
 #### Designdetails: Fibu Erf.-Journal-Beitrags-Zeile
-##### [Fibu Erf.-Journal-Buchungszeile](design-details-general-journal-post-line.md)
+##### [Designdetails der Fibu Erf.-Journal-Buchungszeile](design-details-general-journal-post-line.md)
 ##### [Fibu-Buchungszeile - Überblick](design-details-general-journal-post-line-overview.md)  
 ##### [Designdetails: Buchungs-Schnittstellenstruktur](design-details-posting-interface-structure.md)  
 ##### [Designdetails: Buchungs-Modul-Struktur](design-details-posting-engine-structure.md)  
-#### Designdetails: Dimensionssatzposten
-##### [Designdetails: Dimensionssatzposten-Übersicht](design-details-dimension-set-entries-overview.md)  
-##### [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)  
-##### [Designdetails: Tabellenstruktur](design-details-table-structure.md)  
 
 ## Testen
 ### [Testversionen und Abonnements](across-preview.md)
@@ -703,6 +703,7 @@
 ### [Anlagen abschreiben oder amortisieren](fa-how-depreciate-amortize.md)
 ### [Anlagen entsorgen oder ausser Dienst stellen](fa-how-dispose-retire.md)
 ### [Budgets für Anlagen verwalten](fa-how-manage-budgets.md)
+### [Problembehebung bei Anlagenposten](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Marketing & Vertrieb
 ### [Marketing und Vertrieb – Übersicht](marketing-relationship-management.md)
@@ -1264,13 +1265,14 @@
 ##### [Steuerkennungstypen für Mexiko](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [MwSt-Neuberechnung](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Elektronische Rechnungsstellung
-##### [Elektronische Rechnungsstellung](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Elektronische Rechnungsstellung einrichten](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Elektronische Rechnungen generieren](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
-##### [Elektronische Buchhaltungs-Regelungen in Mexiko](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
-##### [Elektronische Zahlungen machen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### Allgemein
+##### [Elektronische Rechnungsstellung (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
 ##### [PAC-Webdienste einrichten](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
+##### [Elektronische Rechnungsstellung (MX) einrichten](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Elektronische Rechnungen (MX) generieren](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Carta de Porte-Lieferscheine und -Umlagerungsaufträge (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
+#### Allgemein
+##### [Elektronische Buchhaltungs-Regelungen in Mexiko](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
+##### [Elektronische Zahlungen machen ](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ##### [Problembehandlungsberichte drucken](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 ##### [Einlagen erstellen](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
