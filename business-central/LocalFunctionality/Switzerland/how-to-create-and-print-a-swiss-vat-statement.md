@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 11023, 11024
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3cb40170bd47dcd667d3a6517a9478c586de153b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c4bf96ec590aaeb413644804cdd4d02816f068d6
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441817"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947123"
 ---
 # <a name="create-and-print-a-swiss-vat-statement-in-the-swiss-version"></a>Erstellen und Drucken einer Schweizer MWST-Abrechnung in der Schweizer Version
 Auf Grundlage der Informationen, die Sie auf der Seite **MWST-Buchungsmatrix Einr.** angegeben haben, kann [!INCLUDE[prod_short](../../includes/prod_short.md)] automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Gewusst wien in diesem Thema fortfahren, stellen Sie sicher, dass Sie die MWST-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden.  
