@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
 ms.date: 09/06/2021
 ms.author: soalex
-ms.openlocfilehash: a1ec0dfceba2755c70b8532ff00d49a4d76aba98
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 9e74bb3e31863eba86ede44b687807b47b261f4a
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482417"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011116"
 ---
 # <a name="qr-bill-management-in-the-swiss-version-of-business-central"></a>QR-Bill Management in der Schweizer Version von Business Central
 Ab dem 1. Juli 2020 müssen Unternehmen in der Schweiz QR-Rechnungen empfangen können. QR-Rechnungen sind Zahlungsscheine für Rechnungen und eine landesweite Initiative zur Optimierung von Zahlungsprozessen. QR-Rechnungen ersetzen alle vorhandenen Zahlungsscheine und ESR-bezogene Funktionen. Sie enthalten alle erforderlichen Informationen zum Vornehmen von Zahlungen. Ein QR-Code auf dem Zahlungsschein erleichtert das Importieren der Informationen in [!INCLUDE[prod_short](../../includes/prod_short.md)]. Alle relevanten Informationen werden importiert und zum Generieren von Zahlungen für den Kreditor verwendet, der die QR-Rechnung gesendet hat, einschliesslich der Zahlungsreferenz, die automatisch in Kreditorenposten eingefügt und in Zahlungsdateien an die Bank exportiert wird.
@@ -46,6 +46,9 @@ Für ESR-Referenzen konnten Sie Informationen konfigurieren, damit sie beispiels
 
 ## <a name="using-multiple-bank-accounts-as-issuers-of-qr-bills"></a>Verwendung mehrerer Bankkonten als Ersteller von QR-Rechnungen
 Die Ersteller von QR-Rechnungen können mehrere Bankkonten verwenden, um Zahlungen auf verschiedene Bankkonten umzuleiten. Dies steht mit der Zahlungsform in Verbindung, in der Sie die **QR-Rechnung Bankkontonr.** angeben können. Wenn angegeben, werden die IBAN/QR-IBAN-Informationen von diesem Bankkonto auf QR-Rechnungen verwendet, die die angegebene Zahlungsform verwenden. Auf diese Weise können Sie eingehende Zahlungen auf das gewünschte Bankkonto leiten. Falls Sie nicht mehrere Bankkonten verwenden und die **QR-Rechnung Bankkontonr.** auf der Registerkarte Zahlungsform angeben, werden die QR-IBAN/IBAN-Informationen aus den Unternehmensinformationen stattdessen auf QR-Rechnungen verwendet. Stellen Sie sicher, dass zumindest die Informationen für Ihr primäres Bankkonto dort eingerichtet sind.
+
+> [!Note]
+> Ersteller von QR-Rechnungen müssen sicherstellen, dass sie ihre Bankkonten so einrichten, dass sie sich mit den richtigen Konten ihren Kunden gegenüber zu erkennen geben, je nachdem, ob sie QR-IBANs oder gewöhnliche IBANs verwenden. Empfängern und Zahlern von QR-Rechnungen empfehlen wir, Bankkonten für Zahlung und Überweisung an andere Konten ordnungsgemäss mit gewöhnlichen oder QR-IBANs einzurichten.
 
 ## <a name="scanning-and-importing-qr-bills"></a>Scannen und Importieren von QR-Rechnungen
 Zum Scannen oder Importieren einer QR-Rechnung müssen Sie einen der folgenden Typen von Scangeräten verwenden:
@@ -88,10 +91,7 @@ Sie können QR-Rechnungen direkt in ein **Einkauf Erf.-Journal** scannen oder im
 ## <a name="reconciliation"></a>Abstimmen
 Beim Importieren von Banktransaktionen (camt) auf der Seite "Zahlungsabstimmungserfassungsjournal" wird angenommen, dass die Datei die Zahlungsreferenz enthält, die automatisch die entsprechenden **Debitorenposten** sucht, die ausgeglichen werden müssen.    
 
-## <a name="upcoming-capabilities-for-qr-bills"></a>Zukünftige Funktionen für QR-Rechnungen
-Wir planen, der QR-Bill Management-Erweiterung in den kommenden Updates der 1. Veröffentlichungsrunde 2020 weitere Funktionen hinzuzufügen. Beispiel: Sie können QR-Rechnungen durch Einkaufsbelege und Einkaufserfassungsjournale empfangen. Dies ermöglicht zusätzliche Validierungen sowie die Automatisierung und Optimierung von Empfangsprozessen. Informationen dazu finden Sie im [Veröffentlichungsplan](/dynamics365-release-plan/2020wave1/dynamics365-business-central/qr-bill-management-switzerland).
-
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)  
 
 
