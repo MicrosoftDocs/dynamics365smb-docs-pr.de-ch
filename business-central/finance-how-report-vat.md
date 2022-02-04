@@ -1,23 +1,20 @@
 ---
-title: Übermitteln von MWST-Berichten an die Steuerbehörden | Microsoft Docs
-description: Erfahren Sie, wie Sie Berichte erstellen, die die MWST aus Verkäufen in einer Periode bzw. aus Verkäufen und Einkäufen darstellt, und übermitteln Sie den Bericht an eine Steuerbehörde.
+title: MWST-Berichte an die Steuerbehörden übermitteln
+description: 'Erfahren Sie, wie Sie Berichte erstellen, die die MWST aus Verkäufen in einer Periode bzw. aus Verkäufen und Einkäufen darstellt, und übermitteln Sie den Bericht an eine Steuerbehörde.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, tax, report, EC sales list, statement
+ms.search.keywords: 'VAT, tax, report, EC sales list, statement'
+ms.search.form: '321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0342f6009f91140cea9695caca1517a920ac6613
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444501"
 ---
+
 # <a name="report-vat-to-tax-authorities"></a>Melden von MWST an die Steuerbehörden
+
 Dieses Thema beschreibt die Berichte in [!INCLUDE[prod_short](includes/prod_short.md)], die Sie verwenden können, um MWST-Informationen über Einkäufe und Verkäufe an die Steuerbehörden in Ihrer Region zu senden. 
 
 Es können folgende Berichte verwendet werden:

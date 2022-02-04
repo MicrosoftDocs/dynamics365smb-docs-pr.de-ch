@@ -1,27 +1,22 @@
 ---
 title: Granulare Berechtigungen definieren
-description: Dieses Thema beschreibt, wie Sie granulare Berechtigungen definieren, indem Sie bestimmten Benutzern Zugriff auf Objekte geben und ihnen Berechtigungssätze festlegen.
+description: 'Dieses Thema beschreibt, wie Sie granulare Berechtigungen definieren, indem Sie bestimmten Benutzern Zugriff auf Objekte geben und ihnen Berechtigungssätze festlegen.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: access, right, security
+ms.search.keywords: 'access, right, security'
+ms.search.form: '1, 119, 9807, 9808, 9830, 9831'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d048350c9963ae889b5320b3c78b87336197a7a9
-ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547038"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Zuweisen von Berechtigungen zu Benutzern und Gruppen
 
 Mit dem Sicherheitssystem [!INCLUDE[prod_short](includes/prod_short.md)] können Sie steuern, auf welche Objekte ein Benutzer innerhalb jeder Datenbank oder Umgebung zugreifen darf. Sie können für jeden Benutzer festlegen, ob er Daten in den ausgewählten Datenbankobjekten lesen, ändern oder eingeben darf. Detaillierte Informationen finden Sie unter [Datensicherheit](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in der Hilfe für Entwickler und ITPro für [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Bevor Sie Benutzern und Benutzergruppen Berechtigungen zuweisen, müssen Sie festlegen, wer sich anmelden darf, indem Sie Benutzer entsprechend der im Microsoft 365 Admin Center definierten Lizenz erstellen. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
+Bevor Sie Benutzern und Benutzergruppen Berechtigungen zuweisen, müssen Sie festlegen, wer sich anmelden kann, indem Sie Benutzer entsprechend der im Microsoft 365 Admin Center definierten Lizenz anlegen. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] gibt es zwei Ebenen von Berechtigungen für Datenbankobjekte:
 
@@ -264,7 +259,7 @@ Sie können [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, um Änder
 [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
 [Verwaltung](admin-setup-and-administration.md)  
-[Hinzufügen von Benutzern zu Microsoft 365 für Unternehmen](/microsoft-365/admin/add-users/add-users)  
+[Benutzer zu Microsoft 365 für Unternehmen hinzufügen](/microsoft-365/admin/add-users/add-users)  
 [Sicherheit und Schutz in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in Developer und IT-pro Help
 
 

@@ -1,18 +1,13 @@
 ---
 title: Verbindlichkeiten a. LL Berichte und Analysen
-description: Sehen Sie, welche Berichte und Analysen in der Standardversion von Business Central verfügbar sind, damit Sie den Überblick über Ihre Verbindlichkeiten behalten.
+description: 'Sehen Sie, welche Berichte und Analysen in der Standardversion von Business Central verfügbar sind, damit Sie den Überblick über Ihre Verbindlichkeiten behalten.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: 347
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: 774fd24bc15cb4cefb56991289d9c72c0909a319
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543416"
 ---
 # <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Berichte und Analysen zu Verbindlichkeiten a. LL in Business Central
 

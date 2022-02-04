@@ -1,26 +1,22 @@
 ---
 title: Einrichten der Kostenrechnung
-description: Bevor Sie mit der Kostenrechnung arbeiten, müssen Sie eine Einrichtung vornehmen. Jedem Kosteneintrag muss eine Kostenart und ein Kostenstellencode oder ein Kostenobjekt zugewiesen werden.
+description: 'Bevor Sie mit der Kostenrechnung arbeiten, müssen Sie eine Einrichtung vornehmen. Jedem Kosteneintrag muss eine Kostenart und ein Kostenstellencode oder ein Kostenobjekt zugewiesen werden.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '1100, 1112, 1113, 1122'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7f6f79ba1f8005363204f48c5ea9b91073b517f7
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588690"
 ---
 # <a name="setting-up-cost-accounting"></a>Einrichten der Kostenrechnung
+
 Bevor Sie die Arbeit mit der Kostenrechnung beginnen können, müssen Sie Einrichtungsaufgaben ausführen.
 
 ## <a name="balances-between-cost-type-cost-center-and-cost-object"></a>Salden zwischen Kostenart, Kostenstelle und Kostenträger
+
 Wenn Sie die Kostenrechnung einrichten, müssen Sie sicherstellen, dass alle Daten einer Kostenart sowie einer Kostenstelle oder einem Kostenträger zugeordnet sind. Das bedeutet, dass jedem Kostenposten eine Kostenart und eine Kostenstelle oder ein Kostenträger zugewiesen sein muss. Diese Regel stellt sicher, dass jeder Kostenposten entweder in Kostenstellen oder in den Kostenträgern erscheint, jedoch nicht an beiden Stellen.  
 
 Auf diese Weise erstellen Sie die folgende Buchhaltungsgleichung:  
@@ -30,50 +26,56 @@ Auf diese Weise erstellen Sie die folgende Buchhaltungsgleichung:
 Wenn Sie den Kostenartenplan, den Kostenstellenplan und den Kostenträgerplan drucken, können Sie diese Beziehung analysieren.
 
 ## <a name="setting-up-cost-types"></a>Einrichten von Kostenarten
+
 Kostenartenpläne ähneln Kontenplänen im Fibukonto. Sie können den Kostenartenplan auf die folgenden Weisen einrichten:  
 
--   Strukturieren Sie den Kostenartenplan ähnlich wie Erfolgsrechnungskonten im Fibukontenplan. Dann können Sie den Fibukontenplan in den Kostenartenplan übertragen. Sie können alle notwendigen Änderungen nach der Übertragung vornehmen.  
--   Erstellen Sie einen neuen Kostenartenplan, oder fügen Sie einem vorhandenen Kostenartenplan neue Kostenarten hinzu. Sie müssen jede neue Kostenart einzeln erstellen.  
+- Strukturieren Sie den Kostenartenplan ähnlich wie Erfolgsrechnungskonten im Fibukontenplan. Dann können Sie den Fibukontenplan in den Kostenartenplan übertragen. Sie können alle notwendigen Änderungen nach der Übertragung vornehmen.  
+- Erstellen Sie einen neuen Kostenartenplan, oder fügen Sie einem vorhandenen Kostenartenplan neue Kostenarten hinzu. Sie müssen jede neue Kostenart einzeln erstellen.  
 
-### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>So übertragen Sie den Fibukontenplan in den Kostenartenplan.  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"). Symbol. Geben Sie **Kostenartenplan** ein und wählen Sie dann den zugehörigen Link.  
-2.  Wählen Sie die Aktion **Kostenarten aus K&ontenplan abrufen**. Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**, um die Übertragung zu bestätigen. Die Funktion verwendet den Kontenplan, um einen Kostenartenplan zu erstellen.  
+### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>So übertragen Sie den Fibukontenplan in den Kostenartenplan.
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"). Symbol. Geben Sie **Kostenartenplan** ein und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie die Aktion **Kostenarten aus K&ontenplan abrufen**. Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**, um die Übertragung zu bestätigen. Die Funktion verwendet den Kontenplan, um einen Kostenartenplan zu erstellen.  
 
     Der Kostenartenplan enthält jetzt alle Erfolgsrechnungskonten im Fibukonto und umfasst Überschriften und Zwischensummen. Sie können den Kostenartenplan ändern, falls erforderlich. Beispielsweise können Sie doppelt vorhandene Kostenarten löschen.  
 
     > [!IMPORTANT]  
     >  Die **Kostenarten in Kontenplan registrieren**-Funktion aktualisiert das Verhältnis zwischen dem Kontenplan und dem Kostenartenplan. Das **Nr.** Das Feld wird ausgefüllt und geprüft, um sicherzustellen, dass jedes Fibukonto mit nur einer Kostenart verknüpft ist. Die Funktion wird automatisch ausgeführt, bevor Sie Fibuposten in die Kostenrechnung übertragen.  
 
-### <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>So richten Sie auf der Seite "Liquiditätskontenplan" neue Liquiditätskonten ein  
-1.  Öffnen Sie die Seite **Kontenplan-Arten** im Bearbeitungsmodus.  
-2.  Füllen Sie je nach Bedarf die Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+### <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>So richten Sie auf der Seite "Liquiditätskontenplan" neue Liquiditätskonten ein
+
+1. Öffnen Sie die Seite **Kontenplan-Arten** im Bearbeitungsmodus.  
+2. Füllen Sie je nach Bedarf die Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     >  Sie können Kostenarten auf der Seite **Kostenartkarte** oder auf der Seite **Kostenartenplan** einrichten und verwalten. So richten Sie auf der Seite **Liquiditätskontenplan** neue Liquiditätskonten ein.
 
-3.  Nachdem Sie alle Kostenarten erstellt haben, wählen Sie die Aktion **Kostenarten einrücken** aus. Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**.  
-4.  Verknüpfen Sie die neue Kostenart mit dem entsprechenden Fibukonto.  
+3. Nachdem Sie alle Kostenarten erstellt haben, wählen Sie die Aktion **Kostenarten einrücken** aus. Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**.  
+4. Verknüpfen Sie die neue Kostenart mit dem entsprechenden Fibukonto.  
 
     > [!IMPORTANT]  
     >  Wenn Sie in den Feldern **Zusammenzählung** Definitionen für die Zeilenart **Bis-Summe** eingetragen haben, bevor Sie die Funktion **Kostenarten einrücken** ausgeführt haben, müssen Sie diese Eintragungen wiederholen, da die Funktion die Werte in allen **Bis-Summe**-Feldern überschreibt.  
 
-### <a name="to-update-cost-types"></a>So aktualisieren Sie Kostenarten  
-1.  Auf der Seite **Kostenrechnung einrichten**  wählen Sie aus, ob der Kostenartenplan automatisch aktualisiert werden soll, wenn der Kontenplan geändert wird.  
-2.  Die folgenden Optionen stehen im Feld **Fibukonto ausrichten** zur Auswahl.  
+### <a name="to-update-cost-types"></a>So aktualisieren Sie Kostenarten
+
+1. Auf der Seite **Kostenrechnung einrichten**  wählen Sie aus, ob der Kostenartenplan automatisch aktualisiert werden soll, wenn der Kontenplan geändert wird.  
+2. Die folgenden Optionen stehen im Feld **Fibukonto ausrichten** zur Auswahl.  
 
 - **Keine Ausrichtung** - Es gibt keine entsprechende Änderung im Kostenartenplan, wenn Sie den Kontenplan ändern.  
 - **Automatisch** - Es gibt eine entsprechende Änderung im Kostenartenplan, wenn Sie den Kontenplan ändern.  
 - **Eingabeaufforderung** - Eine Meldung wird mit der Frage angezeigt, ob Sie die entsprechende Änderung auch im Kostenartenplan vornehmen möchten, wenn Sie den Kontenplan ändern.
 
 ## <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>Definieren der Beziehung zwischen Kostenarten und Fibukonten
+
 Das Verbindung zwischen der Kostenart und dem Fibukonto wird in der Kostenart und im Fibukonto erstellt.  
 
-* Das Feld **Fibukontenbereich** in der Tabelle **Kostenart** bestimmt, welche Fibukonten zu einer Kostenart gehören.  
-* Das **Kostenartennummer** Feld im Kontenplan bestimmt, zu welcher Kostenart ein Fibukonto gehört.  
+- Das Feld **Fibukontenbereich** in der Tabelle **Kostenart** bestimmt, welche Fibukonten zu einer Kostenart gehören.  
+- Das **Kostenartennummer** Feld im Kontenplan bestimmt, zu welcher Kostenart ein Fibukonto gehört.  
 
 Diese beiden Felder werden automatisch ausgefüllt, wenn Sie die **Kostenarten aus Kontenplan abrufen**-Funktion verwenden.  
 
-### <a name="relationship-between-general-ledger-accounts-and-cost-types"></a>Beziehung zwischen Fibukonten und Kostenarten  
+### <a name="relationship-between-general-ledger-accounts-and-cost-types"></a>Beziehung zwischen Fibukonten und Kostenarten
+
 Zwischen Fibukonten und Kostenarten besteht eine n:1-Beziehung. Mehrere Fibukonten können zu einer Kostenart gehören, aber jedes Fibukonto gehört nur zu einer Kostenart. In der folgenden Tabelle werden die Details der Beziehung beschrieben.  
 
 |Verbindungen|**Fibukontobereich**|**Kostenartnr.**|  
@@ -83,30 +85,34 @@ Zwischen Fibukonten und Kostenarten besteht eine n:1-Beziehung. Mehrere Fibukont
 |Kostenarten ohne entsprechende Fibukonten|\<Empty\>||  
 |Fibukonten, deren Posten nicht übertragen werden||\<Empty\>|  
 
-### <a name="cost-types-without-a-relationship-to-the-general-ledger"></a>Kostenarten ohne Beziehung zum Fibukonto  
+### <a name="cost-types-without-a-relationship-to-the-general-ledger"></a>Kostenarten ohne Beziehung zum Fibukonto
+
 Eine Kostenart hat möglicherweise keine Beziehung zu Fibukonten, wenn eine der folgenden Bedingungen zutrifft:  
 
-* Konten für die betriebliche Buchhaltung, wie Berech. Zinsen und Abschreibungen, entnehmen nur Kosten aus der betrieblichen Buchhaltung.  
-* Helfende Kostenarten, wie Kostenarten 9901, 9902 und 9903 in der [!INCLUDE[prod_short](includes/prod_short.md)]-Datenbank, werden als Haben- und Sollbeträge für Zuordnungen verwendet.  
-* Das helfende Konto, 9920 in der [!INCLUDE[prod_short](includes/prod_short.md)]-Datenbank, enthält tatsächliche Zugänge, die die Differenz zwischen Kosten und Ausgaben des Fibukontos anzeigen.
+- Konten für die betriebliche Buchhaltung, wie Berech. Zinsen und Abschreibungen, entnehmen nur Kosten aus der betrieblichen Buchhaltung.  
+- Helfende Kostenarten, wie Kostenarten 9901, 9902 und 9903 in der [!INCLUDE[prod_short](includes/prod_short.md)]-Datenbank, werden als Haben- und Sollbeträge für Zuordnungen verwendet.  
+- Das helfende Konto, 9920 in der [!INCLUDE[prod_short](includes/prod_short.md)]-Datenbank, enthält tatsächliche Zugänge, die die Differenz zwischen Kosten und Ausgaben des Fibukontos anzeigen.
 
 ## <a name="setting-up-cost-centers"></a>Einrichten von Kostenstellen
+
 Kostenstellen sind Abteilungen, die für die Kosten und die Einnahmen zuständig sind. Der Kostenstellenplan ähnelt den Dimensionsinformationen für das Fibukonto. Sie können den Kostenstellenplan auf die folgenden Weisen einrichten:  
 
--   Transferieren Sie Dimensionswerte im Fibukonto zum Kostenstellenplan. Sie können alle notwendigen Änderungen nach der Übertragung vornehmen.  
--   Erstellen Sie einen neuen Kostenstellenplan, der unabhängig vom Fibukonto ist, oder fügen Sie einem vorhandenen Kostenstellenplan eine neue Kostenstelle hinzu. Sie müssen jede Kostenstelle einzeln erstellen.  
+- Transferieren Sie Dimensionswerte im Fibukonto zum Kostenstellenplan. Sie können alle notwendigen Änderungen nach der Übertragung vornehmen.  
+- Erstellen Sie einen neuen Kostenstellenplan, der unabhängig vom Fibukonto ist, oder fügen Sie einem vorhandenen Kostenstellenplan eine neue Kostenstelle hinzu. Sie müssen jede Kostenstelle einzeln erstellen.  
 
-### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>So transferieren Sie Dimensionswerte im Fibukonto zum Kostenstellenplan  
-1.  Richten Sie eine Dimension als Kostenstellendimension auf der Seite **Kostenstellendimension aktualisieren** ein. Nur die Werte aus dieser Dimension werden übertragen.  
-2.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kostenstellenplan** ein, und wählen Sie dann den entsprechenden Link.  
-3.  Klicken Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktion** auf **Kostenstellen aus Dimension abrufen**, um Dimensionswerte zum Kostenstellenplan zu übertragen. Die Funktion überträgt die Dimensionswerte, die Sie in Schritt 1 definiert haben.  
+### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>So transferieren Sie Dimensionswerte im Fibukonto zum Kostenstellenplan
+
+1. Richten Sie eine Dimension als Kostenstellendimension auf der Seite **Kostenstellendimension aktualisieren** ein. Nur die Werte aus dieser Dimension werden übertragen.  
+2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kostenstellenplan** ein, und wählen Sie dann den entsprechenden Link.  
+3. Klicken Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktion** auf **Kostenstellen aus Dimension abrufen**, um Dimensionswerte zum Kostenstellenplan zu übertragen. Die Funktion überträgt die Dimensionswerte, die Sie in Schritt 1 definiert haben.  
 
     > [!NOTE]  
     >  Sie können das Feld **Kostenstellendimension ausrichten** so einrichten, dass eine unidirektionale Synchronisierung von Dimensionswerten aus dem Fibukonto zum Kostenstellenplan definiert wird. Sie können keine Synchronisierung des Kostenstellenplans mit Dimensionswerten aus dem Fibukonto definieren.  
 
 Der Kostenstellenplan enthält jetzt alle angegebenen Dimensionswerte aus dem Fibukonto und umfasst Titel und Zwischensummen.  
 
-### <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>So richten Sie auf der Seite Kostenstellenplan neue Kostenstellen ein  
+### <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>So richten Sie auf der Seite Kostenstellenplan neue Kostenstellen ein
+
 Sie können Kostenkarten auf der Seite **Kostenstellen** oder auf der Seite **Kostenstellenkarte** einrichten und verwalten. So richten Sie auf der Seite **Kostenstellenplan** neue Kostenstellen ein.  
 
 1. Öffnen Sie die Seite **Kontenplan-Kostenstellen** im Bearbeitungsmodus.  
@@ -116,14 +122,15 @@ Sie können Kostenkarten auf der Seite **Kostenstellen** oder auf der Seite **Ko
 
     - Für Kostenstellen der Art **Summe** müssen Sie das Feld **Zusammenzählung** ausfüllen. Verwenden Sie den **Oder**-Operator, der eine vertikale Zeile (**&#124;**) ist, um Bereiche von Kostenstellen festzulegen.  
     - Für Kostenstellen der **Bis-Summe**-Zeilenart wird dieses Feld automatisch ausgefüllt, wenn Sie die Einzugsfunktion verwenden.  
-5.  Füllen Sie die Felder **Sortierreihenfolge** und **Kostenunterart** aus.  
-6.  Wählen Sie die nächste leere Zeile aus, um eine neue Kostenstelle zu erstellen. Wiederholen Sie dann die Schritte 2 bis 5.  
-7.  Nachdem Sie alle Kostenstellen eingerichtet haben, wählen Sie die Aktion **Kostenstellen einrücken** aus. Wählen Sie die Schaltfläche **Ja** aus.  
+5. Füllen Sie die Felder **Sortierreihenfolge** und **Kostenunterart** aus.  
+6. Wählen Sie die nächste leere Zeile aus, um eine neue Kostenstelle zu erstellen. Wiederholen Sie dann die Schritte 2 bis 5.  
+7. Nachdem Sie alle Kostenstellen eingerichtet haben, wählen Sie die Aktion **Kostenstellen einrücken** aus. Wählen Sie die Schaltfläche **Ja** aus.  
 
 > [!IMPORTANT]  
->  Wenn Sie Definitionen in den **Zusammenzählung**-Feldern für **Bis-Summe**-Kostenstellen eingegeben haben, bevor Sie die Einzugsfunktion ausführen, müssen Sie sie noch einmal eingeben. Die Funktion überschreibt die Werte in allen **Bis-Summe**-Feldern.
+> Wenn Sie Definitionen in den **Zusammenzählung**-Feldern für **Bis-Summe**-Kostenstellen eingegeben haben, bevor Sie die Einzugsfunktion ausführen, müssen Sie sie noch einmal eingeben. Die Funktion überschreibt die Werte in allen **Bis-Summe**-Feldern.
 
 ## <a name="setting-up-cost-objects"></a>Einrichten von Kostenträgern
+
 Kostenträger sind Projekte, Produkte oder Services eines Unternehmens. Der Kostenträgerplan ähnelt den Dimensionsinformationen für das Fibukonto. Sie können den Kostenträgerplan auf die folgenden Weisen einrichten:  
 
 * Transferieren Sie Dimensionswerte im Fibukonto zum Kostenträgerplan. Sie können alle notwendigen Änderungen nach der Übertragung vornehmen.  

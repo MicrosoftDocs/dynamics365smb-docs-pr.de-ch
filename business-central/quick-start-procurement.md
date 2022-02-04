@@ -1,6 +1,6 @@
 ---
 title: Beschaffung Schnellstart (enthält Video)
-description: Erfahren Sie, wie Sie die ersten wichtigen Felder über Kreditor in Business Central ausfüllen, damit Sie mit dem Kauf von Produkten und Dienstleistungen beginnen können.
+description: 'Erfahren Sie, wie Sie die ersten wichtigen Felder über Kreditor in Business Central ausfüllen, damit Sie mit dem Kauf von Produkten und Dienstleistungen beginnen können.'
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,15 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
+ms.search.form: '26, 27, 50, 56'
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 7d0b33b668bede3ac1a1a7b8bd981693c54cd4b7
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940015"
 ---
+
 # <a name="procurement-quick-start"></a>Schnellstart Beschaffung
 
 Um Produkte und Dienstleistungen kaufen zu können, müssen Sie zunächst Lieferanten festlegen. Sobald dies geschehen ist, können Sie mit der Registrierung von Bestellungen und dem Erhalt von Rechnungen beginnen.  
