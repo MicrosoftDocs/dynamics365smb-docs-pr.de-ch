@@ -1,23 +1,17 @@
 ---
 title: Erstellen und Verwalten von Interaktionen mit Kontakten
-description: In Business Central versteht man unter Aktivitäten alle Arten der Kommunikation zwischen Ihrem Unternehmen und Ihren Kontakten. Lesen Sie, wie Sie Ihre Kontakte erstellen und verwalten können.
+description: 'In Business Central versteht man unter Aktivitäten alle Arten der Kommunikation zwischen Ihrem Unternehmen und Ihren Kontakten. Lesen Sie, wie Sie Ihre Kontakte erstellen und verwalten können.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
+ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e1876b5f94aa99d032f12c25f81d371af5f44a7c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321876"
 ---
 # <a name="managing-interactions-with-your-contacts"></a>Verwalten von Interaktionen mit Ihren Kontakten
 In [!INCLUDE[prod_short](includes/prod_short.md)] versteht man unter Aktivitäten alle Arten der Kommunikation zwischen Ihrem Unternehmen und Ihren Kontakten. Kommunikationen können zum Beispiel per Brief, E-Mail, Telefon, Besprechungen usw. erfolgen.

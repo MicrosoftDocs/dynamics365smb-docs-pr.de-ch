@@ -1,23 +1,18 @@
 ---
-title: So legen Sie Betriebskalender fest
-description: Das Erstellen und Aktivieren eines Arbeitsplatzkalenders umfasst mehrere Aufgaben, einschliesslich des Einrichtens von Betriebskalendern und des Erstellens von Arbeitsschichten.
+title: Betriebskalender einrichten
+description: 'Das Erstellen und Aktivieren eines Arbeitsplatzkalenders umfasst mehrere Aufgaben, einschliesslich des Einrichtens von Betriebskalendern und des Erstellens von Arbeitsschichten.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 9d473d6c1e657828ce2d47e33608b691ee45fd38
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440417"
 ---
 # <a name="set-up-shop-calendars"></a>Betriebskalender einrichten
+
 In einem Arbeitsplatzgruppenkalender werden die Arbeitstage/-stunden, Schichten, Feiertage und Fehlzeiten angegeben, die die verfügbare Bruttokapazität der Arbeitsplatzgruppe (zeitlich gemessen) entsprechend ihren definierten Effektivitäts- und Kapazitätswerten bestimmen.
 
 Ein grundlegender Schritt beim Berechnen eines spezifischen Arbeitsplatzgruppenkalenders ist das Einrichten eines oder mehrerer allgemeiner Betriebskalender. In einem Betriebskalender wird eine Standardarbeitswoche gemäss den Anfangs- und Endzeit der einzelnen Arbeitstage und dem Plan der einzelnen Schichten definiert. Darüber hinaus werden im Betriebskalender die festen Feiertage im gesamten Jahr definiert.  

@@ -1,21 +1,15 @@
 ---
-title: So erstellen Sie Erf.-Journal Anfangssalden
-description: Batch-Aufträge werden bereitgestellt, um veraltete Kontosalden in eine neu konfigurierte Firma zu übertragen. Sie können diese Daten mithilfe von Buch.-Blatt-Buchungen einfach übertragen.
+title: So erstellen Sie Erf.-Journal-Eröffnungssalden
+description: 'Batch-Aufträge werden bereitgestellt, um veraltete Kontosalden in eine neu konfigurierte Firma zu übertragen. Sie können diese Daten mithilfe von Buch.-Blatt-Buchungen einfach übertragen.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.search.keywords: null
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: ac7fea479237d985204820d54953689566f5c2ac
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319552"
 ---
 # <a name="create-journal-opening-balances"></a>So erstellen Sie Erf.-Journal-Eröffnungssalden
 
@@ -46,7 +40,10 @@ Bevor Sie den Buchungsvorgang starten, prüfen Sie, ob Sie die Verwaltungsrollen
 > [!TIP]
 > Sie können dieselben Stapeljobs verwenden, um Eröffnungssalden hinzuzufügen, wenn Sie einen neuen Debitor oder Kreditor registrieren, mit dem Sie zuvor Geschäfte gemacht haben, bei dem Sie jedoch nicht registriert sind [!INCLUDE [prod_short](includes/prod_short.md)]. Suchen Sie einfach nach der entsprechenden Aufgabe und wählen Sie dann den entsprechenden Link.
 
-## <a name="see-also"></a>Siehe auch
+> [!IMPORTANT]
+> Führen Sie speziell für Anfangssalden für Bankkonten nicht die Schritte in diesem Artikel aus, um Direktbuchungen auf Fibukonten vorzunehmen, die den entsprechenden Bankkonten zugeordnet sind. Weitere Informationen finden Sie unter [So geht's: Einrichten von Bankkonten](bank-how-setup-bank-accounts.md).  
+
+## <a name="see-also"></a>Weitere Informationen
 
 [Konfigurationen für neue Mandanten übernehmen](admin-apply-configuration-to-new-companies.md)  
 [Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  

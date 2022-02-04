@@ -1,6 +1,6 @@
 ---
 title: Aufträge für die Anpassung und Abstimmung der Kalkulation des Bestands einplanen
-description: Erfahren Sie, wie Sie die Aufgabenwarteschlange verwenden können, um die Aufgaben zum Anpassen der Lagerkosten oder zum Abstimmen der Kosten mit dem Fibuposten in den Hintergrund zu verlagern. Angenommen, Ihr Unternehmen führt viele Aufgaben aus oder verarbeitet viele Transaktionen.
+description: 'Erfahren Sie, wie Sie die Aufgabenwarteschlange verwenden können, um die Aufgaben zum Anpassen der Lagerkosten oder zum Abstimmen der Kosten mit dem Fibuposten in den Hintergrund zu verlagern. Angenommen, Ihr Unternehmen führt viele Aufgaben aus oder verarbeitet viele Transaktionen.'
 author: AndreiPanko
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
+ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: andreipa
-ms.openlocfilehash: 7ba496cecd6eb473dbffde03598c49c15c2ebc3a
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589046"
 ---
 # <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Aufträge für die Anpassung und Abstimmung der Kalkulation von Beständen mit dem Fibuposten planen
 

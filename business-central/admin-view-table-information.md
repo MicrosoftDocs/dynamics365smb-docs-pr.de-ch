@@ -1,21 +1,17 @@
 ---
 title: Tabelleninformationen anzeigen
-description: Erfahren Sie, wie Sie Informationen über die Datenbanktabellen direkt von der Client-Oberfläche in Business Central aus anzeigen können.
+description: 'Erfahren Sie, wie Sie Informationen über die Datenbanktabellen direkt von der Client-Oberfläche in Business Central aus anzeigen können.'
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 8700
 ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: 581d92010fa566c33775ffd6238ca6e0cfca0837
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443093"
 ---
+
 # <a name="viewing-table-information"></a>Tabelleninformationen anzeigen
 
 Die Seite **8700 Tabelleninformationen** enthält Informationen zu allen System- und Geschäftstabellen in einer Business Central-Lösung. Auf der Seite werden insbesondere Informationen zur Datenmenge angezeigt, die die Tabellen enthalten.

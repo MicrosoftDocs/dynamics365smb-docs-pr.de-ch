@@ -1,5 +1,5 @@
 ---
-title: Umgang mit Losgrössen | Microsoft Docs
+title: Umgang mit Losgrössen
 description: In diesem Thema werden verschiedene Möglichkeiten zum Umgang mit Losgrössen beschrieben.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -7,16 +7,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: null
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ef3863a372db074d4be3a7e9b72cfda5f47279d1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779396"
 ---
+
 # <a name="handling-lot-sizes-in-production"></a>Umgang mit Losgrössen in der Produktion
 In Bezug auf die Menge korreliert die Anzahl der Artikel, die Sie in einem Produktionsvorgang produzieren, möglicherweise nicht mit dem Verkauf. Sie können beispielsweise Hunderte von Artikeln in einem einzigen Los produzieren, aber jeden Artikel einzeln verkaufen. Wenn Sie Ihre Produktionswege und Stücklisten konfigurieren, sollten Sie einige Nuancen in Bezug auf die Losgrössen berücksichtigen. In diesem Thema wird beschrieben, wie sich Losgrössen auf Kostenberechnungen und Ressourcenplanung auswirken.
 

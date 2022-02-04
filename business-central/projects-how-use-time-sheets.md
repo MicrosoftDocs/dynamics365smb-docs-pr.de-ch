@@ -1,22 +1,16 @@
 ---
 title: Arbeitszeittabellen verwenden
-description: Beschreibt, wie Sie eine Arbeitszeittabelle erstellen, Arbeitstypen definieren, Arbeitszeittabellen ausfüllen und sie zur Genehmigung senden.
+description: 'Beschreibt, wie Sie eine Arbeitszeittabelle erstellen, Arbeitstypen definieren, Arbeitszeittabellen ausfüllen und sie zur Genehmigung senden.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.search.form: 973
+ms.search.keywords: 'project management, capacity, staff, resource, time sheets'
+ms.search.form: '950, 951, 973'
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: a5fdd86d63fa19a0a7f473d58abf34242e4e5cd5
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920917"
 ---
 # <a name="use-time-sheets"></a>Arbeitszeittabellen verwenden
 
@@ -36,7 +30,7 @@ Bevor Sie Arbeitszeittabellen verwenden können, müssen Sie Informationen einri
 Sie können die Stapelverarbeitung **Arbeitszeittabellen erstellen** verwenden, um Arbeitszeittabellen für eine bestimmte Anzahl von Perioden oder Wochen einzurichten. Nachdem eine Arbeitszeittabelle erstellt wurde, kann der Arbeitszeittabellenbesitzer sie öffnen und die Zeit aufzeichnen, die für eine Aufgabe benötigte wurde.  
 
 > [!IMPORTANT]
-> Sie müssen Berechtigungen haben, Arbeitszeittabellen zu erstellen.
+> Sie müssen Berechtigungen haben, Arbeitszeittabellen zu erstellen. Weitere Informationen finden Sie unter [Einrichten von Arbeitszeittabellen](projects-how-setup-time-sheets.md).
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Arbeitszeittabellen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Arbeitszeittabellen** die Aktion **Arbeitszeittabellen erstellen** aus.

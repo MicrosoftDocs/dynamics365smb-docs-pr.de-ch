@@ -1,23 +1,16 @@
 ---
-title: Einem Lieferanten eine Prioritätsstufe zuweisen (enthält ein Video) | Microsoft Dokumente
-description: Sie können sowohl Zahlen Ihren Kreditoren oder Lieferanten zuweisen, um sie zu priorisieren und Zahlungsvorschläge in  Business Central zu erleichtern.
-services: project-madeira
-documentationcenter: ''
+title: Einem Lieferanten eine Prioritätsstufe zuweisen (enthält ein Video)
+description: 'Sie können sowohl Zahlen Ihren Kreditoren oder Lieferanten zuweisen, um sie zu priorisieren und Zahlungsvorschläge in  Business Central zu erleichtern.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: supplier, payment priority
+ms.search.keywords: 'supplier, payment priority'
+ms.search.form: '26, 27'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7e68c56422f4f3de33006297ec396fdd34169e8d
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940065"
 ---
 # <a name="prioritize-vendors"></a>Kreditoren priorisieren
 [!INCLUDE[prod_short](includes/prod_short.md)] kann verschiedene Zahlungen an Kreditoren vorschlagen. Dies können z. B. Zahlungen sein, die in Kürze fällig sind, oder Zahlungen, bei denen Sie einen Skonto erhalten können. Weitere Informationen finden Sie unter [Erstellen von Zahlungsvorschlägen für Kreditoren](payables-how-suggest-vendor-payments.md).

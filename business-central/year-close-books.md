@@ -1,21 +1,16 @@
 ---
-title: Überblick über die erforderlichen Aufgaben für das Schliessen der Bücher| Microsoft Docs
-description: Erhalten von Informationen über das Schliessens der Bücher für ein Geschäftsjahr oder für eine Periode, und was passiert, nachdem Sie das Jahr abgeschlossen haben.
+title: Übersicht über die erforderlichen Aufgaben für das Schliessen der Bücher
+description: 'Erhalten von Informationen über das Schliessens der Bücher für ein Geschäftsjahr oder für eine Periode, und was passiert, nachdem Sie das Jahr abgeschlossen haben.'
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
+m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e9cf8a89599c3fa73801bca40720221f05ffaf11
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776631"
 ---
 # <a name="closing-the-books"></a>Bucher schliessen
 Nachdem sichergestellt wurde, dass sich alle Konten auf dem neuesten Stand befinden und Kosten und Umsatz verteilt wurden, können die Bücher für ein Geschäftsjahr oder für eine Periode abgeschlossen werden.

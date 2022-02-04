@@ -1,32 +1,27 @@
 ---
-title: Nummernserien erstellen | Microsoft Docs
-description: Erfahren Sie, wie Nummernserien errichtet werden, die eindeutigen ID Codes zu Konten und Belegen in Business Central zugewiesen werden.
-documentationcenter: ''
-author: SorenGP
+title: Erstellen von Nummernkreisen
+description: 'Erfahren Sie, wie Sie Nummernserien einrichten, die Konten und Belegen in Business Central eindeutige ID-Codes zuweisen.'
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: numbers, numbering
+ms.search.keywords: 'numbers, numbering'
+ms.search.form: 456
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3e2404a0ab9de8a761d5721da669004e393cf55c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446011"
 ---
 # <a name="create-number-series"></a>Erstellen von Nummernkreisen
+
 Für jeden eingerichteten Mandanten müssen eindeutige Identifizierungscodes für Elemente wie Fibukonten, Debitor-/Kreditorkonten, Rechnungen und andere Belege zugeordnet werden. Die Nummerierung dient jedoch nicht nur zur Identifizierung. Ein durchdachtes Nummerierungssystem trägt zur einfacheren Verwaltung und besseren Analysierbarkeit des Mandanten bei, was eine Verringerung von Eingabefehlern zur Folge hat.
 
 > [!Important]
 > Standardmässig sind Lücken in Zahlenreihen nicht zulässig, da der genaue Verlauf von Finanztransaktionen gesetzlich für die Prüfung verfügbar sein muss und daher eine ununterbrochene Reihenfolge ohne gelöschte Zahlen einhalten muss.<br /><br />
-Wenn Sie Lücken in bestimmten Nummernserien zulassen möchten, wenden Sie sich zuerst an Ihren Wirtschaftsprüfer oder Buchhaltungsleiter, um sicherzustellen, dass Sie die gesetzlichen Anforderungen in Ihrem Land/Ihrer Region einhalten. Weitere Informationen finden Sie unter [Lücken in Nummernkreisen](ui-create-number-series.md#gaps-in-number-series).
+> Wenn Sie Lücken in bestimmten Nummernserien zulassen möchten, wenden Sie sich zuerst an Ihren Wirtschaftsprüfer oder Buchhaltungsleiter, um sicherzustellen, dass Sie die gesetzlichen Anforderungen in Ihrem Land/Ihrer Region einhalten. Weitere Informationen finden Sie im Abschnitt [Lücken in Nummernserien](#gaps-in-number-series).
 
 > [!NOTE]  
->   Es ist empfehlenswert, dass Sie dieselben Nummernseriencodes verwenden, die Sie auf der Seite **Nummernserienliste** im CRONUS-Demomandanten sehen. Codes wie *P-INV+* ergeben möglicherweis nicht sofort einen Sinn, aber [!INCLUDE[prod_short](includes/prod_short.md)] hat eine einige Standardeinstellungen, die von diesen Nummernseriencodes abhängen.
+> Es ist empfehlenswert, dass Sie dieselben Nummernseriencodes verwenden, die Sie auf der Seite **Nummernserienliste** im CRONUS-Demomandanten sehen. Codes wie *P-INV+* ergeben möglicherweis nicht sofort einen Sinn, aber [!INCLUDE[prod_short](includes/prod_short.md)] hat eine einige Standardeinstellungen, die von diesen Nummernseriencodes abhängen.
 
 Ein Nummerierungssystem wird durch Einrichten mindestens eines Codes für die einzelnen Arten von Masterdaten oder Belegen eingerichtet. So können Sie beispielsweise einen Code für die Nummerierung von Debitoren, einen weiteren Code für die Nummerierung von Verkaufsrechnungen und einen weiteren Code für die Nummerierung von Belegen in Fibu Erf.-Journalen einrichten. Nachdem Sie einen Code eingerichtet haben, müssen Sie mindestens eine Nummernserienzeile einrichten. Die Nummernserienzeile enthält Informationen wie die erste und die letzte Nummer der Serie sowie das Startdatum. Pro Nummernseriencode lassen sich mehrere Nummernserienzeilen mit unterschiedlichem Startdatum einrichten. Die Serie wird fortlaufend verwendet, wobei jede Serie zum entsprechenden Startdatum beginnt.
 

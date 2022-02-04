@@ -7,15 +7,9 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '672, 673, 674, 671'
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: fdacd0fcfd681d641f7c81249632662e90707951
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588896"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung
 
@@ -71,6 +65,7 @@ Wenn sich die aktuelle Firma beispielsweise in einer Umgebung befindet, die eine
 > Interne Administratoren und Benutzer können Aufgaben zum Ausführen planen. Delegierte Administratoren können dies nicht.
 
 ## <a name="the-my-job-queue-part"></a>Der „Mein Projektwarteschlangenteil”
+
 Der Teil **Meine Projektwarteschlange** in Ihrem Rollencenter zeigt die Projektwarteschlangeneinträge an, die Sie gestartet haben, die jedoch noch nicht abgeschlossen sind. Standardmässig ist dieser Teil nicht sichtbar, Sie müssen ihn also Ihrem Rollencenter hinzufügen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).  
 
 Der Teil zeigt, welche Belege mit Ihrer ID im Feld **Zugewiesene Benutzer-ID** verarbeitet oder in die Warteschlange gestellt werden, einschliesslich solcher, die zur Hintergrundbuchung gehören. Dieser Teil informiert Sie auf einen Blick darüber, ob bei der Buchung eines Belegs ein Fehler aufgetreten ist, oder ob ein Projektwarteschlangenposten einen Fehler enthält. Mit diesem Teil können Sie auch eine Belegbuchung stornieren, wenn diese nicht ausgeführt wird.

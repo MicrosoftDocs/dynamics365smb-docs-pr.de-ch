@@ -1,8 +1,6 @@
 ---
-title: Einkäufer festlegen und Einkäufer zu Lieferanten zuordnen (enthält Video) | Microsoft Dokumente
-description: Wenn in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese für statistische Analyse organisieren.
-services: project-madeira
-documentationcenter: ''
+title: Einkäufer festlegen und Einkäufer Lieferanten zuordnen (enthält Video)
+description: 'Wenn in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese für statistische Analyse organisieren.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
+ms.search.form: '14, 5116'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdfb1198234a0bfcbbc74e7816568f2f06b21b10
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940190"
 ---
 # <a name="set-up-purchasers"></a>Einkäufer einrichten
 Falls in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese auf einer Seite einrichten und jedem einen Code zuweisen. Diese Codes können Sie dann für statistische Auswertungen und als Filter in Berichten verwenden<br><br>  

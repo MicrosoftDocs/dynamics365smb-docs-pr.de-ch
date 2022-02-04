@@ -1,21 +1,16 @@
 ---
 title: Festlegen von Arbeitszeittabellen und deren Genehmigung
-description: Sie richten Arbeitszeittabellen ein, um die für Aufgaben und Projekte aufgewendete Zeit zu verfolgen und Ihnen das Projektmanagement, die Stellenbesetzung und die Kapazitätsplanung zu erleichtern.
+description: 'Sie richten Arbeitszeittabellen ein, um die für Aufgaben und Projekte aufgewendete Zeit zu verfolgen und Ihnen das Projektmanagement, die Stellenbesetzung und die Kapazitätsplanung zu erleichtern.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, capacity, staff, resource, time sheet
+ms.search.keywords: 'project management, capacity, staff, resource, time sheet'
+ms.search.form: '977, 462, 76, 77'
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 46e5cf2c7728e7c154841b6d407423344020d818
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920994"
 ---
 # <a name="set-up-time-sheets"></a>Einrichten von Arbeitszeittabellen
 
@@ -41,6 +36,8 @@ Ab dem Veröffentlichungszyklus 2021 2 können Sie eine Anleitung zur unterstüt
 > Um diese Funktionalität nutzen zu können, müssen Sie die Funktion **Funktion Update: Neue Erfahrung mit Arbeitszeittabellen** auf der Seite [Funktionalität Verwaltung](https://businesscentral.dynamics.com/?page=2610) aktivieren.
 >
 > Die gleiche Funktion erleichtert auch die Verwaltung von Arbeitszeittabellen auf einem mobilen Gerät.
+
+Öffnen Sie die Anleitung **Arbeitszeittabellen einrichten** für unterstützte Einrichtung über die Seite [Unterstützte Einrichtung](https://businesscentral.dynamics.com/?page=1801).
 
 Die Anleitung zur unterstützten Einrichtung führt Sie durch die folgenden Schritte:
 

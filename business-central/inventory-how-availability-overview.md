@@ -1,22 +1,16 @@
 ---
 title: Eine Verfügbarkeitsübersicht erhalten
-description: Sie können Informationen über die Verfügbarkeit von Artikeln oder Lagerbeständen über Lagerorte hinweg, nach Verkaufs- oder Kauf-Ereignissen, nach Zeiträumen und mehr erhalten.
+description: 'Sie können Informationen über die Verfügbarkeit von Artikeln oder Lagerbeständen über Lagerorte hinweg, nach Verkaufs- oder Kauf-Ereignissen, nach Zeiträumen und mehr erhalten.'
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1f5913dd06e56e4a49169827a90b96405b294b5e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441207"
 ---
 # <a name="view-the-availability-of-items"></a>Artikelverfügbarkeit anzeigen
 Vom Kontext einer Geschäftsaufgabe können Sie erweiterte Informationen darüber erhalten, wann und wo ein Artikel verfügbar ist, so als ob Sie mit einem Debitoren über ein Lieferdatum sprechen.

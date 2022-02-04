@@ -1,21 +1,16 @@
 ---
 title: Buchung von Intercompany-Transaktionen festlegen
-description: Erstellen Sie Ihre Intercompanykreditoren und -debitoren als so genannte Intercompanypartner, und richten Sie einen Intercompanykontenplan ein.
+description: 'Erstellen Sie Ihre Intercompanykreditoren und -debitoren als so genannte Intercompanypartner, und richten Sie einen Intercompanykontenplan ein.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
+ms.search.form: '605, 620, 602, 603, 601, 600, 652, 606, 607, 609, 608, 621'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1d822b61c9ed64d970d2d17939a359d898513e2d
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587605"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Buchung von Intercompany-Transaktionen festlegen
 

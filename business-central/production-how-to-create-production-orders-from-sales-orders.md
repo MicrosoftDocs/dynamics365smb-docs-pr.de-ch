@@ -1,21 +1,15 @@
 ---
 title: 'Fertigungsaufträge aus Verkaufsaufträgen zu erstellen:'
-description: Lernen Sie die verschiedenen Möglichkeiten kennen, Produktionsaufträge für produzierte Artikel direkt aus Verkaufsaufträgen zu erstellen.
+description: 'Lernen Sie die verschiedenen Möglichkeiten kennen, Produktionsaufträge für produzierte Artikel direkt aus Verkaufsaufträgen zu erstellen.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '99000883, 99000884'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: a432b8f00a24771578716a1b51678904d2e29ec5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438641"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Fertigungsaufträge aus Verkaufsaufträgen zu erstellen:
 In diesem Fenster können Sie direkt zum aktuellen Verkaufsauftrag einen Fertigungsauftrag erstellen.  

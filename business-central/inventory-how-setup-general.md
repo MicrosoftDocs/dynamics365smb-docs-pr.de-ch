@@ -1,21 +1,16 @@
 ---
 title: So richten Sie allgemeine Lagerbestandsinformationen ein
-description: Beschreibt, wie Sie die allgemeine Lagereinrichtung definieren, damit Sie Ihr Lager und Ihren Lagerbestand verwalten können.
+description: 'Beschreibt, wie Sie die allgemeine Lagereinrichtung definieren, damit Sie Ihr Lager und Ihren Lagerbestand verwalten können.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
+ms.search.keywords: 'warehouse, stock'
+ms.search.form: '30, 461'
 ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: cc52935e743b0e8af4f934c040898e64665843fc
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688265"
 ---
 # <a name="set-up-general-inventory-information"></a>So richten Sie allgemeine Lagerbestandsinformationen ein
 

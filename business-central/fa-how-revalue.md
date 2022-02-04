@@ -1,22 +1,15 @@
 ---
-title: Anlagen neu bewerten| Microsoft Docs
-description: Erfahren Sie, wie der Wert von Anlagen reguliert wird und neue Beträge als erhöhte AfA oder Zuschreibungen erfasst werden, und buchen Sie zusätzliche Anschaffungskosten.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Anlagen neu bewerten
+description: 'Erfahren Sie, wie der Wert von Anlagen reguliert wird und neue Beträge als erhöhte AfA oder Zuschreibungen erfasst werden, und buchen Sie zusätzliche Anschaffungskosten.'
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 5628
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e178778e51d63c3398fd4a870bf41fa8b1a086f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442224"
 ---
 # <a name="revalue-fixed-assets"></a>Anlagen neu bewerten
 Eine Neubewertung von Anlagen kann aus Abschreibungen, erhöhter AfA oder allgemeinen Wertanpassungen bestehen.

@@ -1,21 +1,16 @@
 ---
 title: Den Kontenplan festlegen (enthält ein Video)
-description: Der Kontenplan zeigt die Sachkonten an, die Ihre Finanzdaten speichern. Sie können die Standardkonten im COA ändern und neue Konten hinzufügen.
+description: 'Der Kontenplan zeigt die Sachkonten an, die Ihre Finanzdaten speichern. Sie können die Standardkonten im COA ändern und neue Konten hinzufügen.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: COA, cha of acc
+ms.search.keywords: 'COA, cha of acc'
+ms.search.form: '16, 17, 18, 118, 386, 391'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 0ef1a35805413619c6da19654a8f501525997d35
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940565"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Einrichten oder Ändern des Kontenplans
 

@@ -1,23 +1,18 @@
 ---
 title: Nachverfolgen von Beziehungen zwischen Bedarf und Vorrat
-description: Dieses Thema erklärt die verschiedenen Möglichkeiten, Beziehungen zwischen Bedarf und Vorrat zu verfolgen, wie z.B. das Verfolgen von verknüpften Artikeln und den Umgang mit nicht verfolgten Planungselementen.
+description: 'Dieses Thema erklärt die verschiedenen Möglichkeiten, Beziehungen zwischen Bedarf und Vorrat zu verfolgen, wie z.B. das Verfolgen von verknüpften Artikeln und den Umgang mit nicht verfolgten Planungselementen.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '5830, 9101, 99000822, 99000855'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ccf2b753e11d0f6a23235125e99f58a011606788
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435308"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Nachverfolgen von Beziehungen zwischen Bedarf und Vorrat
+
 Verfolgen des Auftragsbedarfs (Menge mit Bedarfsverursacher), der Absatzplanung, des Rahmenauftrags oder der Planungsparameter (Menge ohne Bedarfsverursacher), auf den bzw. auf die die betreffende Planungszeile zurückzuführen ist
 
 Die Planungsarbeitsblätter beinhalten zusätzliche Planungsinformationen wie Nachverfolgung zu nicht auftragsbezogenen Entitäten und Warnungen, um den Planer bei der Erstellung eines optimalen Beschaffungsplans zu unterstützen. Weitere Informationen finden Sie unter [Planungselement ohne Bedarfsverursacher](production-how-track-demand-supply.md#untracked-planning-elements).

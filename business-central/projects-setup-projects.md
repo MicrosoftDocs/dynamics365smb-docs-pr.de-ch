@@ -1,6 +1,6 @@
 ---
-title: Einrichten von Ressourcen, Arbeitszeittabellen und Aufträgen
-description: In diesem Thema wird beschrieben, wie Sie Ressourcen, Arbeitszeittabellen und Aufträge festlegen, um Projekte und deren Budgets zu verwalten.
+title: 'Einrichten von Ressourcen, Arbeitszeittabellen und Aufträgen'
+description: 'In diesem Thema wird beschrieben, wie Sie Ressourcen, Arbeitszeittabellen und Aufträge festlegen, um Projekte und deren Budgets zu verwalten.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
+ms.search.form: '289, 290, 376, 462, 463, 1029, 8904, 9014, 9015'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 468c3a9e526d5d512419242a9fbcd0271d6e2a6d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321078"
 ---
 # <a name="setting-up-project-management"></a>Projektmanagement einrichten
+
 Bevor Sie [!INCLUDE[prod_short](includes/prod_short.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten.
 
 Dann können Sie Projekte und Planressourcen für Projekte erstellen sowie Budget- und Titelmaschinen- und -Mitarbeiterstunden mit Arbeitszeittabellen verwalten. Weitere Informationen finden Sie unter [Projekte Verwalten](projects-manage-projects.md).  

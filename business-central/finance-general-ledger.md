@@ -1,21 +1,16 @@
 ---
 title: Verstehen des Fibupostens und des COA
-description: Beschreibt den Fibuposten, den Kontenplan und die Kontenkategorien. Verwenden Sie die Seite Finanzbuchhaltung Einrichtung, um die Handhabung der Buchhaltung in Ihrer Firma festzulegen.
+description: 'Beschreibt den Fibuposten, den Kontenplan und die Kontenkategorien. Verwenden Sie die Seite Finanzbuchhaltung Einrichtung, um die Handhabung der Buchhaltung in Ihrer Firma festzulegen.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: analysis, history, track
+ms.search.keywords: 'analysis, history, track'
+ms.search.form: '18, 20, 37, 65, 99, 312, 313, 395, 552, 569, 570, 634, 790, 791, 1158'
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2af34c84c7b359d2cae64d19a9aec151e0d9a3bb
-ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928836"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Grundlegendes zum Fibukonto und zum Kontenplan
 
@@ -75,6 +70,7 @@ Zum Beispiel hat der Standard-Bilanzauszug eine Unterkategorie für *Kasse* unte
 Wenn Sie das nächste Mal Kontenschema erstellen, zeigt Ihr Kontoauszug einen Gesamtsaldo für Bargeld und zwei Zeilen mit Salden für die Portokasse und das Girokonto.  
 
 ## <a name="getting-a-quick-overview"></a>Einen schnellen Überblick erhalten
+
 Auf der Seite Kontenplan werden die Konten in einer hierarchischen Liste angezeigt, die einen schnellen Zugriff auf die wichtigsten Informationen zu jedem Konto bietet. Allerdings ist die Liste statisch, und wenn Sie viele Konten haben, müssen Sie möglicherweise ein wenig blättern, um die Informationen zu den einzelnen Konten anzuzeigen. Wenn Sie nur einen schnellen Überblick über die Grundlagen wie Nettoveränderungen und Salden haben möchten, ist die Seite **Kontenplan Übersicht** eine nützliche Alternative. Das Spaltenlayout auf der Seite ist jetzt dasselbe wie auf der Seite Kontenplan (es gibt nur weniger davon), sodass Sie sich nicht neu orientieren müssen, und Sie können die Hierarchieebenen erweitern oder reduzieren, um die Ansicht zu verdichten. Um den Wechsel zwischen den Seiten zu erleichtern, ist die Seite **Kontenplan Übersicht** von der Seite Kontenplan aus zugänglich.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Zugriff auf das Erstellen und Bearbeiten von Konten und Kontokategorien

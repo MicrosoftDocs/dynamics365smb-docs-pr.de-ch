@@ -1,23 +1,18 @@
 ---
 title: Ausführen der Produktion
-description: Nach der Ausgabe des Materials kann mit den eigentlichen Fertigungsarbeitsgängen begonnen werden. Diese können dann in der Reihenfolge ausgeführt werden, die im FA-Arbeitsplan definiert ist.
+description: 'Nach der Ausgabe des Materials kann mit den eigentlichen Fertigungsarbeitsgängen begonnen werden. Diese können dann in der Reihenfolge ausgeführt werden, die im FA-Arbeitsplan definiert ist.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cc8eb04682492b3e3cd7906c12cf73d3974cf79a
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321205"
 ---
 # <a name="manufacturing"></a>Bearbeitungen
+
 > [!NOTE]
 > Die Funktionalität, die in diesem Thema und in Vorthemen beschrieben, handelt in der Benutzeroberfläche nur angezeigt, wenn Sie die **Premium** haben. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
 
@@ -29,7 +24,7 @@ Als Alternative zum Stapelerfassungsjournal für die Istmeldungsbuchung mehrerer
 
 Bevor Sie mit der Fertigung von Artikeln beginnen können, müssen Sie Mehreres einrichten, wie beispielsweise Arbeitsplatzgruppen, Arbeitspläne und Fertigungsstücklisten. Weitere Informationen finden Sie unter [Einrichten von Produktion](production-configure-production-processes.md).
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
 
 |**Bis**|**Siehe**|  
 |------------|-------------|  
@@ -41,13 +36,14 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Stapelbuchung der Komponenten pro Arbeitsgang in einem Erf.-Journal, die verschiedene Fertigungsaufträge verarbeiten kann, buchen.|[Ausgabe über Stapelverarbeitung buchen und Bearbeitungszeiten prüfen](production-how-to-post-output-quantity.md)|
 |Machen Sie die Ausgabe rückgängig, zum Beispiel aufgrund eines Dateneingabefehlers und eines falschen Betrags.  |[Gebuchte fertig gestellte Menge stornieren](production-how-to-reverse-output-posting.md)|  
 |Buchen der Anzahl von Artikeln, die in den einzelnen abgeschlossenen Arbeitsgängen gefertigt wurden und nicht als fertig gestellte Menge, sondern als Ausschussmaterial betrachtet werden|[Buchen Sie Ausschuss](production-how-to-post-scrap.md)|
-|Anzeigen der Fertigungsbereichsauslastung aufgrund geplanter und freigegebener Fertigungsaufträge.|[Anzeigen der Auslastung der Arbeitsplätze und Arbeitsplatzgruppen](production-how-to-view-the-load-on-work-centers.md)|      
+|Anzeigen der Fertigungsbereichsauslastung aufgrund geplanter und freigegebener Fertigungsaufträge.|[Anzeigen der Auslastung der Arbeitsplätze und Arbeitsplatzgruppen](production-how-to-view-the-load-on-work-centers.md)|  
 |Buchen verbrauchter Kapazitäten, die keinem Fertigungsauftrag zugeordnet sind (beispielsweise Wartungsarbeiten), mithilfe der Seite **Kapazitäts Erf.-Journal**|[Kapazität buchen](production-how-to-post-capacities.md)|  
 |Berechnen und Regulieren der Kosten für gefertigte Artikel und verbrauchte Komponenten zur finanziellen Abstimmung|[Info zu Kosten des beendeten FA](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Siehe auch
+
 [Produktion einrichten](production-configure-production-processes.md)  
-[Planung](production-planning.md)      
+[Planung](production-planning.md)  
 [Lagerbesttand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

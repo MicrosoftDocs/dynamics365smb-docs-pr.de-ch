@@ -1,21 +1,16 @@
 ---
-title: so fassen Sie Wareneingänge zusammen | Microsoft Docs
-description: Wenn Sie mehrere Einkaufslieferungen gleichzeitig fakturieren möchten, können Sie die Funktion Sammelgutschrift verwenden.
+title: Zusammenfassen von Lieferungen in einer einzelnen Rechnung
+description: 'Wenn Sie mehrere Einkaufslieferungen gleichzeitig fakturieren möchten, können Sie die Funktion Sammelgutschrift verwenden.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
+ms.search.form: '136, 145, 146'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 83b2e9c488a429603158d800e9c7e7b96be3bd8b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435124"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Zusammenfassen von Lieferungen in einer einzelnen Rechnung
 

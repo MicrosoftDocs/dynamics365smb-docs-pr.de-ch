@@ -1,23 +1,16 @@
 ---
-title: Export von Positive Pay-Dateien| Microsoft Docs
-description: Um sicherzustellen, dass Ihre Bank nur überprüfte Schecks und Beträge freigibt, können Sie ihr eine Positive Pay Datei senden, die die Daten für Kreditoren, Schecks und Zahlungsinformationen enthält.
-services: project-madeira
-documentationcenter: ''
+title: Positive Pay-Dateien exportieren
+description: 'Um sicherzustellen, dass Ihre Bank nur überprüfte Schecks und Beträge freigibt, können Sie ihr eine Positive Pay Datei senden, die die Daten für Kreditoren, Schecks und Zahlungsinformationen enthält.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: check, clearing
+ms.search.keywords: 'check, clearing'
+ms.search.form: '1231, 1232, 1233, 1234'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a6cc157a12e4fd44174f585559befade10f8ed02
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444576"
 ---
 # <a name="export-a-positive-pay-file"></a>Eine Positive Pay-Datei exportieren
 Um sicherzustellen, dass eine Bank nur validierte Schecks und Beträge freigibt, können Sie eine Positive Pay-Datei exportieren, die die relevanten Zahlungsinformationen enthält wie Schecknummer und Zahlungsbetrag, die Sie als Referenz an die Bank senden, wenn Sie Zahlungen verarbeiten.

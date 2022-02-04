@@ -1,18 +1,13 @@
 ---
 title: Währungswechselsätze aktualisieren (enthält Video)
-description: Verfolgen Sie Beträge in verschiedenen Währungen mithilfe der Währungscodes, und lassen Sie mithilfe von Business Central die Wechselkurse der gebuchte Posten mit einer Fremdleistung anpassen.
+description: 'Verfolgen Sie Beträge in verschiedenen Währungen mithilfe der Währungscodes, und lassen Sie mithilfe von Business Central die Wechselkurse der gebuchte Posten mit einer Fremdleistung anpassen.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
+ms.search.keywords: 'multiple currencies, adjust exchange rates, FX rates'
+ms.search.form: '5, 118'
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 24dbc235c45fab4f59f816f22c16b699a3fd61f9
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7939940"
 ---
 # <a name="update-currency-exchange-rates"></a>Währungswechselkurse aktualisieren
 

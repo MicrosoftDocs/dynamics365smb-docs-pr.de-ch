@@ -1,22 +1,16 @@
 ---
 title: Übersicht über das Buchen von Belegen und Erfassungen
-description: Dieses Thema beschreibt Buchungsaktionen und die Möglichkeiten, wie Sie Belege und Erfassungen in den verschiedenen Sachkonten der Firma buchen können.
+description: 'Dieses Thema beschreibt Buchungsaktionen und die Möglichkeiten, wie Sie Belege und Erfassungen in den verschiedenen Sachkonten der Firma buchen können.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2dda99dcab416465b6abc68af32b6bf99e83f56a
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325952"
 ---
 # <a name="posting-documents-and-journals"></a>Journale und Belege buchen
 Das Buchen stellt die Buchhaltungsaktion vom Aufzeichnen von Geschäftstransaktionen in verschiedenen Mandantensachkontos dar.

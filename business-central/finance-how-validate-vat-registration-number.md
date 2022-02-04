@@ -1,20 +1,16 @@
 ---
 title: Umsatzsteuer-Identifikationsnummer überprüfen
-description: Lassen Sie Business Central die MWST-Registrierungsnummern Ihrer Kontakte, Kunden und Kreditoren validieren, basierend auf dem EU VIES VAT Number Validation Service.
+description: 'Lassen Sie Business Central die MWST-Registrierungsnummern Ihrer Kontakte, Kunden und Kreditoren validieren, basierend auf dem EU VIES VAT Number Validation Service.'
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
-ms.search.keywords: VAT, posting, tax, value-added tax
+ms.search.keywords: 'VAT, posting, tax, value-added tax'
+ms.search.form: '249, 575, 1279'
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 093fec7b7d456f4145e8450d06f17f1aa78ad4c1
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543236"
 ---
+
 # <a name="validate-vat-registration-numbers"></a>Umsatzsteuer-Identifikationsnummer überprüfen
 
 Es ist wichtig, dass die MWST Nummern, die Sie für Debitoren, Kreditoren und Kontakte haben, gültig sind, wenn Sie [!INCLUDE [prod_short](includes/prod_short.md)] in einem Land verwenden, das MWST verwendet. Beispielsweise ändern Mandanten ihren Steuerschuldstatus, und in einigen Ländern verlangen die Steuerbehörde möglicherweise Berichte, wie den Bericht **EU-Verkaufsliste**, der die MWST Nummern aufführt, die Sie verwenden, wenn Sie Geschäftsbeziehungen unterhalten.

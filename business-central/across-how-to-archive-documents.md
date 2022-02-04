@@ -1,21 +1,15 @@
 ---
 title: Archivieren von Einkaufs- und Kaufbelegen
-description: Sie können Verkaufs- und Kaufaufträge, Offerten, Rücklieferungen und Rahmenaufträge archivieren, sodass Sie den archivierten Beleg verwenden können, um den Beleg, von dem er archiviert wurde, wiederherzustellen.
+description: 'Sie können Verkaufs- und Kaufaufträge, Offerten, Rücklieferungen und Rahmenaufträge archivieren, sodass Sie den archivierten Beleg verwenden können, um den Beleg, von dem er archiviert wurde, wiederherzustellen.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: a12d8d7a11e581a6cfe93b6a1f4588cd87efc98f
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543286"
 ---
 # <a name="archive-documents"></a>Beleg archivieren
 Sie können Verkaufs- und Einkaufsaufträge, Offerten und Rücklieferungen sowie Rahmenaufträge archivieren, beispielsweise weil Sie eine Kopie eines Belegs zur späteren Wiederverwendung speichern möchten. Sie können ein Verkaufs- oder Einkaufsbeleg mehrmals archivieren, wobei Sie jedes Mal eine andere archivierte Version speichern.

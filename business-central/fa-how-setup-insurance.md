@@ -1,23 +1,16 @@
 ---
-title: Abschreibungsrsicherung einrichten| Microsoft Docs
-description: Um die Abdeckung der Anlagenversicherung zu verwalten, müssen Sie pro Versicherung einige allgemeine Versicherungsinformationen und eine Versicherungskarte einrichten.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Anlagenversicherung einrichten
+description: 'Um die Abdeckung der Anlagenversicherung zu verwalten, müssen Sie pro Versicherung einige allgemeine Versicherungsinformationen und eine Versicherungskarte einrichten.'
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: policy, coverage
+ms.search.keywords: 'policy, coverage'
+ms.search.form: '5607, 5648, 5644, 5651'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0e9eab4b00e0729f13adb4cd38b7b4992a160539
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440663"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Um Anlagenversicherung einzurichten:
 Um die Abdeckung der Anlagenversicherung zu verwalten, müssen Sie pro Versicherung einige allgemeine Versicherungsinformationen und eine Versicherungskarte einrichten.

@@ -1,21 +1,15 @@
 ---
-title: So buchen Sie Kapazitäten
-description: Buchen Sie verbrauchte Kapazitäten, die nicht dem Produktionsauftrag zugeordnet sind, im Kapazitätsjournal und zeigen Sie gebuchte Kapazitäten auf der Seite Kapazitätsbucheinträge an.
+title: Kapazität buchen
+description: 'Buchen Sie verbrauchte Kapazitäten, die nicht dem Produktionsauftrag zugeordnet sind, im Kapazitätsjournal und zeigen Sie gebuchte Kapazitäten auf der Seite Kapazitätsbucheinträge an.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '5832, 99000802, 99000820'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 024985cb4a2615f374465e5a387901976509a5db
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444219"
 ---
 # <a name="post-capacities"></a>Kapazität buchen
 Im Kapazitäts Erf.-Journal buchen Sie verbrauchte Kapazität, die keinem Fertigungsauftrag zugeordnet ist. Zum Beispiel: Wartungsarbeit muss einem Arbeitsplatz oder einer Arbeitsplatzgruppe zugeordnet werden, aber nicht einem Fertigungsauftrag.  

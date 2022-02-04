@@ -1,21 +1,17 @@
 ---
 title: Verwalten von Änderungen des MWST-Satzes
-description: erfahren Sie, wie Sie das Tool zur Änderung des MWST-Satzes für Dynamics 365 Business Central verwenden, um die MWST-Sätze auf der Grundlage der lokalen Gesetzgebung zu ändern.
+description: 'Erfahren Sie, wie Sie das Tool zur Änderung des MWST-Satzes für Dynamics 365 Business Central verwenden, um die MWST-Sätze auf der Grundlage der lokalen Gesetzgebung zu ändern.'
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
-ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
+ms.search.keywords: 'VAT, VAT rate, posting, tax, value-added tax'
+ms.search.form: '550,'
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 9d90364691e393ddb376b0446d298ba96a92b383
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437405"
 ---
+
 # <a name="managing-vat-rate-changes"></a>Verwalten von Änderungen des Mehrwertsteuersatzes
 
 Mehrwertsteuersätze können sich je nach lokaler Gesetzgebung ändern. Jede Änderung der Mehrwertsteuer wirkt sich auf Ihre Daten in [!INCLUDE[prod_short](includes/prod_short.md)] aus, unabhängig davon, ob der Mehrwertsteuersatz gesenkt, angehoben oder entfernt wird. Die Mehrwertsteuer ist mit vielen Entitäten in [!INCLUDE[prod_short](includes/prod_short.md)] verbunden, z. B. Kunden, Lieferanten, Artikel, Ressourcen, Artikel Zu-/Abschläge und Fibukonten. Änderungen der Mehrwertsteuersätze erfolgen normalerweise zu einem bestimmten Zeitpunkt. Ab diesem Zeitpunkt müssen Sie die MWST-Einrichtung und Buchungsgruppen usw. geändert haben, um sicherzustellen, dass neue Verkaufsaufträge und Einkaufsbestellungen mit dem neuen Mehrwertsteuersatz erstellt werden.

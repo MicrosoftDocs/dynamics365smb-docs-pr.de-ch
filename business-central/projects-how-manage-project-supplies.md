@@ -1,21 +1,16 @@
 ---
 title: Verwalten von Projektlieferungen
-description: Beschreibt die verschiedenen Möglichkeiten, den Vorrat und Kauf von Material und Dienstleistungen für Aufträge zu verwalten.
+description: 'Beschreibt die verschiedenen Möglichkeiten, den Vorrat und Kauf von Material und Dienstleistungen für Aufträge zu verwalten.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, material, purchase
+ms.search.keywords: 'project management, material, purchase'
+ms.search.form: '98, 1020'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b2c2bfa376290439394debcf9b57da5bedaca8bd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443857"
 ---
 # <a name="manage-job-supplies"></a>Verwalten von Projektlieferungen
 Die Verwaltung von Projektlieferungen für Artikel, Services und Aufwendungen ist ein integraler und wichtiger Bestandteil der Ausführung von Projekten. Sie können entweder verfügbaren Lagerbestand verwenden oder projektspezifische Einkäufe mithilfe von Bestellungen und/oder Einkaufsrechnungen durchführen. Beispiel: Bei einem Serviceprojekt für einen Computer wird eine neue Festplatte benötigt. Sie erstellen eine Einkaufsrechnung für den Kauf einer neuen Festplatte und erfassen das Projekt, für das die Festplatte verwendet wird.

@@ -1,21 +1,16 @@
 ---
 title: Datensätze für Ausgaben oder Einnahmen direkt im Hauptbuch erfassen
-description: Für Aktivitäten, die nicht durch einen Beleg repräsentiert werden, können Sie die zugehörigen Transaktionen erstellen, indem Sie Erfassungsjournalzeilen im Fibu Erf.-Journal buchen.
+description: 'Für Aktivitäten, die nicht durch einen Beleg repräsentiert werden, können Sie die zugehörigen Transaktionen erstellen, indem Sie Erfassungsjournalzeilen im Fibu Erf.-Journal buchen.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: direct posting, general ledger
+ms.search.keywords: 'direct posting, general ledger'
+ms.search.form: '39, 251'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b27406f2020b95bc5dd9bc8771b9d632aa6c740f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444551"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Buchen von Transaktionen direkt im Fibuposten
 

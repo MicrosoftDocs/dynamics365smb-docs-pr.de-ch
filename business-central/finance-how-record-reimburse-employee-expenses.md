@@ -1,6 +1,6 @@
 ---
 title: Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen
-description: Buchen Sie die Ausgaben der Mitarbeiter mit dem Allgemeinen Journal auf das Konto des Mitarbeiters und buchen Sie dann eine Zahlung auf dessen Bankkonto, um die geschäftsbezogenen Ausgaben zu erstatten.
+description: 'Buchen Sie die Ausgaben der Mitarbeiter mit dem Allgemeinen Journal auf das Konto des Mitarbeiters und buchen Sie dann eine Zahlung auf dessen Bankkonto, um die geschäftsbezogenen Ausgaben zu erstatten.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
+ms.search.form: '63, 234, 625, 5224, 5237, 5238, 5239, 5240'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 649f179f52a9c18572f1e702e62000bfdb1b30ff
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444526"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen
 

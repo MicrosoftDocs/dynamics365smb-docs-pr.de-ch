@@ -1,22 +1,16 @@
 ---
 title: Fakturieren eines Verkaufs
-description: Beschreibt, wie Sie einen Verkaufsauftrag erstellen, einen Vertrag mit einem Debitoren erfassen, Produkte unter bestimmten Bedingungen verkaufen oder kaufen.
+description: 'Beschreibt, wie Sie einen Verkaufsauftrag erstellen, einen Vertrag mit einem Debitoren erfassen, Produkte unter bestimmten Bedingungen verkaufen oder kaufen.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bill, sale, invoice, order
-ms.search.form: 42, 43, 48, 9301, 9305
+ms.search.keywords: 'bill, sale, invoice, order'
+ms.search.form: '42, 43, 48, 9301, 9305'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 125d28f1621e23f14cda9ce57a935a7da71e43cb
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752482"
 ---
 # <a name="invoice-sales"></a>Fakturieren eines Verkaufs
 
@@ -28,7 +22,7 @@ Es gibt mehrere Szenarien, in dem Sie einen Verkaufsauftrag anstelle einer Verka
 * Wenn Sie Produkte versenden, nachdem Sie die entsprechenden Verkaufsrechnungen gebucht haben.
 * Wenn Sie Artikel verkaufen, die Ihr Kreditor direkt an den Debitor liefert, d. h. bei einer sogenannten Direktlieferung. Weitere Informationen finden Sie unter [Direktlieferungen erstellen](sales-how-drop-shipment.md)  
 
-In allen anderen Aspekten ist das Vorgehen bei Verkaufsaufträgen gleich wie bei Verkaufsrechnungen. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)
+In allen anderen Aspekten ist das Vorgehen bei Verkaufsaufträgen gleich wie bei Verkaufsrechnungen. Weitere Informationen zum Verwenden von Verkaufsaufträgen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md).
 
 Sie können mit dem Debitor verhandeln, indem Sie zuerst eine Verkaufsofferte erstellen, die Sie in eine Verkaufsrechnung umwandeln können, wenn Sie dem Verkauf zustimmen. Weitere Informationen finden Sie unter [Verkaufsofferten machen](sales-how-make-offers.md).
 

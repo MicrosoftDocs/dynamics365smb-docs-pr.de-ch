@@ -1,22 +1,18 @@
 ---
 title: Fehlersuche und Korrektur von Dimensionen
-description: Erfahren Sie, wie Sie typische Dimensionsfehler beheben und wie Sie Dimensionen korrigieren können, nachdem sie in gebuchten Transaktionen verwendet wurden.
+description: 'Erfahren Sie, wie Sie typische Dimensionsfehler beheben und wie Sie Dimensionen korrigieren können, nachdem sie in gebuchten Transaktionen verwendet wurden.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: dimension, correction, correct, business intelligence
+ms.search.keywords: 'dimension, correction, correct, business intelligence'
+ms.search.form: '116, 540, 2588'
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 111e9b3dae70cc984ecc495a815de3d41ef42133
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589021"
 ---
+
 # <a name="troubleshooting-and-correcting-dimensions"></a>Fehlersuche und Korrektur von Dimensionen
 
 Finanzberichte und Analyseansichten stützen sich oft auf Daten aus Dimensionen. Trotz der vorhandenen Sicherheitsvorkehrungen passiert manchmal ein Fehler, der zu Ungenauigkeiten führen kann. In diesem Thema werden einige der typischen Fehler beschrieben und es wird erklärt, wie Sie Dimensionszuordnungen auf gebuchten Transaktionen korrigieren können, damit die Finanzberichte korrekt sind.

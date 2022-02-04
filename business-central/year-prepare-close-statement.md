@@ -1,21 +1,15 @@
 ---
 title: Übersicht der Berichte um Abschlussrechnungen vorzubereiten | Microsoft Docs
-description: Ihnen stehen eine Reihe von Standardberichten zur Verfügung, mit denen die benötigten Informationen zum Vorbereiten der Abschlussabrechnungen des Mandanten gesammelt werden können.
+description: 'Ihnen stehen eine Reihe von Standardberichten zur Verfügung, mit denen die benötigten Informationen zum Vorbereiten der Abschlussabrechnungen des Mandanten gesammelt werden können.'
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dadfa25189aa44c032dd03aee053be39d87bc4d2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435923"
 ---
 # <a name="preparing-closing-statements"></a>Abschlussberichrte vorbereiten
 Ihnen stehen eine Reihe von Standardberichten zur Verfügung, mit denen die benötigten Informationen zum Vorbereiten der Abschlussabrechnungen des Mandanten gesammelt werden können.

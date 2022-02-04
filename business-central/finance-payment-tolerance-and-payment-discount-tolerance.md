@@ -1,21 +1,15 @@
 ---
 title: Zahlungstoleranz und Skontotoleranz
-description: Sie können Zahlungstoleranz einrichten, um eine Rechnung zu schliessen, wenn die Zahlung nicht vollständig den Betrag der Rechnung umfasst.
+description: 'Sie können Zahlungstoleranz einrichten, um eine Rechnung zu schliessen, wenn die Zahlung nicht vollständig den Betrag der Rechnung umfasst.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '118, 314, 395'
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: eac371e873cc5b1d4a1927bccb8cee8d7e2f6e9f
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724751"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Mit Zahlungstoleranzen und Skontotoleranzen arbeiten
 Sie können eine Zahlungstoleranz einrichten, um eine Rechnung zu schliessen, wenn die Zahlung nicht vollständig den Betrag der Rechnung umfasst. Beispielsweise sind Zahlungstoleranzen in der Regel für kleine Beträge vorgesehen, deren Korrektur mehr kosten würde als deren Akzeptanz. Die eingerichtete Skontotoleranz erlaubt Ihnen, Skonto nach Ablauf des Skontodatums zu gewähren.  

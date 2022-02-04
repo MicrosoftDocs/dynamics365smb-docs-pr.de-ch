@@ -1,21 +1,16 @@
 ---
 title: Bankkonten festlegen (enthält Video)
-description: Erfahren Sie, wie Bankkonten in Business Central verwendet werden und wie Sie Beträge mit Ihrer Bank abstimmen können.
+description: 'Erfahren Sie, wie Bankkonten in Business Central verwendet werden und wie Sie Beträge mit Ihrer Bank abstimmen können.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/22/2021
+ms.search.keywords: 'Yodlee, feed, stream'
+ms.search.form: '370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280'
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940615"
 ---
 # <a name="set-up-bank-accounts"></a>Bankkonten einrichten
 
@@ -90,6 +85,8 @@ Je besser Sie die Zuordnung von Informationen im Zahlungsabstimmungs Erf.-Journa
 2. Wählen Sie auf der Seite **Bankkonten** die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+    Das Feld **Bankkto.-Buchungsgruppe** verbindet das Bankkonto mit dem zugrunde liegenden Fibukonto in der Bilanz. Weitere Informationen finden Sie unter [Buchungsgruppen einrichten](finance-posting-groups.md).
+
 > [!TIP]
 > Einige Felder sind ausgeblendet, bis Sie die Aktion **Mehr anzeigen** wählen, typischerweise weil sie selten verwendet werden. Andere müssen durch Personalisierung hinzugefügt werden. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
@@ -152,7 +149,12 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
 > [!NOTE]
-> Um das Feld **Saldo** mit einem Eröffnungsbilanz auszufüllen, müssen Sie den Bankposten mit dem entsprechenden Betrag buchen. Sie können dies tun, indem Sie eine Bankkontoabstimmung durchführen. Weitere Informationen finden Sie unter [Abstimmen von Bankkonten](bank-how-reconcile-bank-accounts-separately.md). Alternativ können Sie die Eröffnungsbilanz als Teil der allgemeinen Datenerstellung in neuen Unternehmen implementieren, indem Sie den Leitfaden für das unterstützte Setup **Geschäftsdaten migrieren** verwenden. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md). Wie Sie Erf.-Journal Anfangssalden in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen, erfahren Sie unter [Erfassen von Erf.-Journal Anfangssalden](admin-how-to-create-journal-opening-balances.md).
+> Um das Feld **Saldo** mit einem Eröffnungsbilanz auszufüllen, müssen Sie den Bankposten mit dem entsprechenden Betrag buchen. Sie können dies tun, indem Sie eine Bankkontoabstimmung durchführen. Weitere Informationen finden Sie unter [Abstimmen von Bankkonten](bank-how-reconcile-bank-accounts-separately.md).  
+>
+> Alternativ können Sie die Eröffnungsbilanz als Teil der allgemeinen Datenerstellung in neuen Unternehmen implementieren, indem Sie den Leitfaden für das unterstützte Setup **Geschäftsdaten migrieren** verwenden. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md).  
+
+> [!IMPORTANT]
+> Es ist wichtig, dass Sie den Anfangssaldo nicht direkt in der Finanzbuchhaltung buchen. Buchungen im Fibukonto, die direkt in der Finanzbuchhaltung gebucht werden, führen in der Regel dazu, dass Sie das Bankkonto nicht abgleichen können, oder im Falle von Bankkonten in Fremdwährung, dazu, dass sich Differenzen ansammeln, wenn Sie mehr Bankabstimmungen buchen. Häufig wird der Anfangsbestand der Bank direkt auf das Bankkonto gebucht, und der Betrag landet dann auf dem Fibukonto. Alternativ können Sie eine Stornierung für ein bestimmtes Fibukonto durchführen, das Sie zum Ausgleich des Anfangssaldos des Fibupostens verwendet haben. In beiden Fällen müssen Sie alle Direktbuchungen auf das Fibukonto ausgleichen, bevor Sie mit der ersten Bankabstimmung beginnen, vor allem, wenn das Bankkonto auf eine Fremdwährung lautet.  
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Um Ihre Bankkonten zum Importieren und Exportieren von Bankdateien einzurichten
 
@@ -218,7 +220,7 @@ Felder auf dem Inforegister **Transfer** auf der Seite **Bankkontenkarte** bezie
 5. Füllen Sie auf der Seite **Kreditoren-Bankkontokarte** im Inforegister **Übertragung** die notwendigen Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!WARNING]
-> Einige Felder auf dem Bankkonto des Kreditors enthalten sensible Daten, z.B. die Felder **Clearing Nummer**, **Bankkontonr.**, **SWIFT Code** und **IBAN Code**. Weitere Informationen finden Sie unter [Überwachen sensibler Felder](across-log-changes.md#monitoring-sensitive-fields).
+> Einige Felder auf dem Bankkonto des Kreditors enthalten sensible Daten, z. B. die Felder **Clearing Nummer**, **Bankkontonr.**, **SWIFT Code** und **IBAN Code**. Weitere Informationen finden Sie unter [Überwachen sensibler Felder](across-log-changes.md#monitoring-sensitive-fields).
 
 ## <a name="changing-your-bank-account"></a>Ändern Ihres Bankkontos
 

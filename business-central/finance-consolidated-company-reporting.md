@@ -1,22 +1,18 @@
 ---
 title: Daten von mehreren Firmen konsolidieren
-description: In diesem Thema wird erklärt, wie Sie die Hauptbuchhaltungsposten von zwei oder mehr separaten Firmen (Tochtergesellschaften) zu einer konsolidierten Firma konsolidieren können.
+description: 'In diesem Thema wird erklärt, wie Sie die Hauptbuchhaltungsposten von zwei oder mehr separaten Firmen (Tochtergesellschaften) zu einer konsolidierten Firma konsolidieren können.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: consolidation, subsidiaries, consolidate
+ms.search.keywords: 'consolidation, subsidiaries, consolidate'
+ms.search.form: '1826, 1827'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 24b9dd8d332091508a21620c3ac1d32fd7be8d55
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436262"
 ---
+
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidieren von Finanzdaten aus mehreren Unternehmen
 
 Einige Organisationen verwenden [!INCLUDE [prod_short](includes/prod_short.md)] in mehreren Konzernmandanten oder juristischen Personen. Andere verwenden [!INCLUDE [prod_short](includes/prod_short.md)] in Niederlassungen, die den übergeordneten Organisationen Bericht erstatten müssen. In beiden Fällen verwenden die Buchhalter integrierte Tools, um die Finanzdaten leichter zu konsolidieren.  

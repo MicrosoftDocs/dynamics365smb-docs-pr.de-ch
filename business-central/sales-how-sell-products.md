@@ -1,22 +1,16 @@
 ---
 title: Einen Verkaufsauftrag erstellen und Produkte verkaufen
-description: Beschreibt, wie Sie einen Verkaufsauftrag erstellen, einen Vertrag mit einem Debitoren erfassen, Produkte unter bestimmten Bedingungen verkaufen oder kaufen.
+description: 'Beschreibt, wie Sie einen Verkaufsauftrag erstellen, einen Vertrag mit einem Debitoren erfassen, Produkte unter bestimmten Bedingungen verkaufen oder kaufen.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, partial deliveries, customer sales order
-ms.search.form: 42, 48, 9305
-ms.date: 09/24/2021
+ms.search.keywords: 'trade, partial deliveries, customer sales order'
+ms.search.form: '42, 48, 9305'
+ms.date: 01/19/2022
 ms.author: edupont
-ms.openlocfilehash: 543a334e087db85b15b5237a37702d410254f266
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752356"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Produkte mit einem Debitorenauftrag verkaufen  
 
@@ -84,6 +78,8 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
 12. Um nur einen Teil der Auftragsmenge zu liefern, geben Sie die Menge im Feld **Zu liefernde Menge** ein. Der Wert wird in das Feld **Zu fakturierende Menge** kopiert.
 13. Um nur einen Teil der Auftragsmenge zu fakturieren, geben Sie die Menge im Feld **Zu fakturierende Menge** ein. Die zu fakturierende Menge kann nicht grösser sein, als der Wert im Feld **Zu liefernde Menge**.  
 14. Wenn die Verkaufsangebotszeilen ausgeführt werden, wählen Sie die Aktion **Buchen und Senden** aus.
+
+[!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
 
 Das Dialogfeld **Buchungs- und Sendebestätigung** zeigt die gewünschte Methode des Debitors das Empfangen von Belegen an. Sie können die Sendemethode ändern, indem Sie die Schaltfläche vom Feld **Beleg senden an** auswählen. Weitere Informationen finden Sie unter [Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).
 

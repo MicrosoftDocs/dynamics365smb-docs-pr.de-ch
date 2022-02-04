@@ -1,19 +1,15 @@
 ---
 title: Bevorstehende Funktionen im Voraus aktivieren
-description: Erfahren Sie, wie Sie ausgewählte optionale Funktionen aktivieren, bevor sie obligatorisch werden.
+description: 'Erfahren Sie, wie Sie ausgewählte optionale Funktionen aktivieren, bevor sie obligatorisch werden.'
 author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
+ms.search.keywords: 'administration, admin, key, optional, feature management, early access, preview'
+ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: e42dd99f10bb1ddb9b3345b96929a62220bf157e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325078"
 ---
+
 # <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Neue und künftige Funktionen im Voraus aktivieren
 
 Einige neue Funktionen können im Voraus aktiviert werden, sodass Sie sie so früh wie möglich nutzen können. Durch das frühzeitige Aktivieren von Funktionen haben Sie Zeit, Ihre Organisation zu testen und auf Änderungen vorzubereiten.

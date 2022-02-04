@@ -1,21 +1,16 @@
 ---
-title: Codes für Audit-Trails einrichten | Microsoft Docs
-description: Erfahren Sie mehr über die Aufgaben zum Einrichten von Buchungsspurcodes und Ursachencodes, mit denen Sie Audit-Trails verfolgen können.
+title: Codes für Audit-Trails festlegen
+description: 'Erfahren Sie mehr über die Aufgaben zum Einrichten von Buchungsspurcodes und Ursachencodes, mit denen Sie Audit-Trails verfolgen können.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accounting, auditing, bookkeeping
+ms.search.keywords: 'accounting, auditing, bookkeeping'
+ms.search.form: '257, 259, 279'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fb3db7a2fc2c156debd36942ecc61d35d1e38f82
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446229"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Buchungsspurcodes und Ursachencodes für Audit Trails einrichten
 

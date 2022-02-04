@@ -1,19 +1,14 @@
 ---
-title: Erstellen Sie eine Projektkarte für ein Projekt und geben Sie Aufgaben an| Microsoft Docs
-description: Für ein neues Projekt erstellen Sie eine Projektkarte, die Projektaufgaben und enthält Planungszeilen erstellt, um Ihnen zu helfen, Status und Budgets zu verwalten.
+title: Projektkarte für ein Projekt erstellen und Aufgaben angeben
+description: 'Für ein neues Projekt erstellen Sie eine Projektkarte, die Projektaufgaben und enthält Planungszeilen erstellt, um Ihnen zu helfen, Status und Budgets zu verwalten.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: project management, task
+ms.search.keywords: 'project management, task'
+ms.search.form: '88, 1001, 1002, 1003, 1004, 1005, 1006, 1007'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 13037a0f984a3e390f194572afc0362360ab7187
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439834"
 ---
 # <a name="create-jobs"></a>Projekt erstellen
 Wenn Sie mit einem neuen Projekt beginnen, müssen Sie eine Projektkarte mit integrierten Projektaufgaben und Projektplanungszeilen erstellen, strukturiert in zwei Ebenen.  

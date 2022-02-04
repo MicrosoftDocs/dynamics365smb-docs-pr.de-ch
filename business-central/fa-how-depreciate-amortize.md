@@ -1,6 +1,6 @@
 ---
 title: FA abschreiben oder amortisieren
-description: Sie müssen definieren, wie Sie jede Ihrer Anlagen, wie z. B. Maschinen und Geräte, über ihre Abschreibungsdauer abschreiben, abwerten oder amortisieren.
+description: 'Sie müssen definieren, wie Sie jede Ihrer Anlagen, wie z. B. Maschinen und Geräte, über ihre Abschreibungsdauer abschreiben, abwerten oder amortisieren.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
+ms.search.form: '5610, 5611, 5659, 5660, 5663, 5619, 5666'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 3d1372425b15ee8b7b63efd64513c131cb1f1f9b
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588315"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Anlagen abschreiben oder amortisieren
 Abschreibung wird verwendet, um die Anschaffungskosten von Anlagen, wie z. B. Maschinen und Ausrüstung, über die Nutzungsdauer zu verteilen. Sie müssen für jede Anlage definieren, wie diese abgeschrieben wird.  

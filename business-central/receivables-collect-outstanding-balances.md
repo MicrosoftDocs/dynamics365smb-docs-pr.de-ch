@@ -1,21 +1,15 @@
 ---
 title: Einziehen von Restbeträgen
-description: Lernen Sie, wie eine Mahnung an einen Debitoren wegen einer fälligen Zahlung gesendet wird und wie der Zahlung wegen des Verzugs Zuschläge oder Gebühren hinzugefügt werden.
+description: 'Lernen Sie, wie eine Mahnung an einen Debitoren wegen einer fälligen Zahlung gesendet wird und wie der Zahlung wegen des Verzugs Zuschläge oder Gebühren hinzugefügt werden.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
+ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439424"
 ---
 # <a name="collect-outstanding-balances"></a>Einziehen von Restbeträgen
 
@@ -38,7 +32,7 @@ Anhand der Kundenkarte können Sie einen Auszug mit den Transaktionen dieses Kun
 
 ## <a name="reminders"></a>Mahnungen
 
-Bevor Sie Mahnungen erstellen können, müssen zunächst Mahnmethoden eingerichtet und den Debitoren zugeordnet werden. Weitere Informationen finden Sie unter [Einrichten von Bestimmungen und Ebenen](finance-setup-reminders.md). [!INCLUDE [reminder-terms](includes/reminder-terms.md)] Die Inhalte der Seite **Zinskonditionen** legen fest, ob auf der Mahnung Zinsen berechnet werden.  
+Bevor Sie Mahnungen erstellen können, müssen zunächst Mahnmethoden eingerichtet und den Debitoren zugeordnet werden. Weitere Informationen finden Sie unter [Einrichten von Betimmungen und Ebenen](finance-setup-reminders.md). [!INCLUDE [reminder-terms](includes/reminder-terms.md)] Die Inhalte der Seite **Zinskonditionen** legen fest, ob auf der Mahnung Zinsen berechnet werden.  
 
 Der Batchauftrag **Mahnungen erstellen** kann in regelmässigen Abständen ausgeführt werden, um Mahnungen für alle Debitoren mit überfälligem Saldo zu erstellen. Alternativ können Sie eine Mahnung für einen bestimmten Debitor manuell erstellen und die Zeilen automatisch berechnen und ausfüllen lassen.  
 
@@ -186,7 +180,7 @@ Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debi
 
 ## <a name="multiple-interest-rates"></a>Verschiedene Zinssätze
 
-Wenn Sie Zinskonditionen und Mahnmethoden für verspätete Zahlungen einrichten, können Sie mehrere Zinssätzen angeben, damit die Strafgebühr aus verschiedenen Zinssätzen in verschiedenen Perioden berechnet wird. Sind mehrere Zinssätze nicht eingerichtet, dann wird der Zinssatz und die Periode, die auf den Seiten **Zinskonditionen** und **Mahnmethode** für der gesamten Periode der Berechnung definiert ist, verwendet. Weitere Informationen finden Sie unter [Einrichten verschiedener Zinssätze](finance-how-to-set-up-multiple-interest-rates.md).  
+[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Weitere Informationen finden Sie unter [Mehrere Zinssätze einrichten](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 

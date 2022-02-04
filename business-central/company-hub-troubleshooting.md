@@ -1,21 +1,16 @@
 ---
 title: Fehlerbehandlung in Ihrem Unternehmens-Hub
-description: Erfahren Sie, wie Sie Probleme umgehen können, wenn Sie sich im Unternehmenshub in Dynamics 365 Business Central befinden, um die Arbeit über mehrere Unternehmen hinweg zu verwalten.
+description: 'Erfahren Sie, wie Sie Probleme umgehen können, wenn Sie sich im Unternehmenshub in Dynamics 365 Business Central befinden, um die Arbeit über mehrere Unternehmen hinweg zu verwalten.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accountant, accounting, troubleshoot
+ms.search.keywords: 'accountant, accounting, troubleshoot'
+ms.search.form: 1151
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc015058079e30b2db6989b246dc38498cd7a1f4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786526"
 ---
 # <a name="troubleshooting-your-company-hub"></a>Fehlerbehandlung in Ihrem Unternehmens-Hub
 

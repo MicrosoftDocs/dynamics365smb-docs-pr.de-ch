@@ -1,23 +1,17 @@
 ---
-title: Verwalten der Datenbank-Zugriffsabsicht in Business Central | Microsoft Docs
-description: Ändern Sie die Datenbank-Zugriffsabsicht für Berichte, API-Seiten und Abfragen.
+title: Datenbank-Zugriffsabsicht in Business Central verwalten
+description: 'Ändern Sie die Datenbank-Zugriffsabsicht für Berichte, API-Seiten und Abfragen.'
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 3a85a8acda1789997639c78c5d6028a14dbb75af
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443957"
 ---
-# <a name="managing-database-access-intent"></a>Verwaltung der Datenbank-Zugriffsabsicht 
+# <a name="managing-database-access-intent"></a>Verwaltung der Datenbank-Zugriffsabsicht
 
 Als Superuser oder Administrator können Sie die Datenbankzugriffsabsicht auf Berichte, Seiten vom Typ API und Abfragen ändern, um die Leistung des Dienstes zu verbessern.
 

@@ -1,23 +1,18 @@
 ---
 title: Neugestaltungs- oder direkt Aktualisierung von Fertigungsaufträgen
-description: In diesem Thema wird beschrieben, wie Sie Produktionsaufträge neu planen und Produktionsaufträge direkt aktualisieren können.
+description: 'In diesem Thema wird beschrieben, wie Sie Produktionsaufträge neu planen und Produktionsaufträge direkt aktualisieren können.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '99000842, 99000843, 99000861, 99000862, 99000863'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 901427baf8845505c264a6e06ec6aebacbfe1ee0
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589246"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Neugestaltungs- oder direkt Aktualisierung von Fertigungsaufträgen
+
 Die Funkion **Neu Planen** wird in der Regel nach dem Hinzufügen bzw. Ändern von Komponenten ausgeführt, aus denen sich zugrunde liegende Fertigungsaufträge zusammensetzen. Mit dieser Planungsfunktion werden Änderungen berechnet, die an Komponenten und Arbeitsgängen vorgenommen werden. Dabei werden Artikel auf niedrigeren Ebenen der Fertigungsstückliste berücksichtigt, für die ggf. neue Fertigungsaufträge erstellt werden.  
 
 Auf der Grundlage der vorgenommenen Änderungen an den Komponenten und Arbeitsgängen wird von der Funktion Neu planen der neue Bedarf für den Fertigungsauftrag berechnet und geplant.  

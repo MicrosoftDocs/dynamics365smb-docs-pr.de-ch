@@ -1,21 +1,16 @@
 ---
 title: Zusätzliche Währungen festlegen
-description: In der Anwendung wird der Fibuposten in der Mandantenwährung (MW) eingerichtet. Eine weitere Währung, der ein aktueller Wechselkurs zugewiesen ist, wird als zusätzliche Währung eingerichtet.
+description: 'In der Anwendung wird der Fibuposten in der Mandantenwährung (MW) eingerichtet. Eine weitere Währung, der ein aktueller Wechselkurs zugewiesen ist, wird als zusätzliche Währung eingerichtet.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, foreign exchange rates
+ms.search.keywords: 'multiple currencies, foreign exchange rates'
+ms.search.form: '5, 16,118, 483, 495'
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: e1a6c902bdf4ce8270def3c830138511adf6eba3
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660220"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Einrichten einer zusätzlichen Berichtswährung
 
@@ -41,15 +36,17 @@ Eine Berichtswährung kann in folgenden Fällen für das Berichtswesen eines Unt
 Einige Finanzberichte basieren auf Fibuposten. Um die Finanzdaten in dem Bericht in der zusätzlichen Berichtswährung anzuzeigen, aktivieren Sie einfach das Feld **In Zusatzwährung anzeigen** im Inforegister **Optionen** für den entsprechenden Sachkontobericht.
 
 ## <a name="adjusting-exchange-rates"></a>Regulieren von Wechselkursen
+
 Da sich Wechselkurse ständig ändern, müssen weitere Währungsentsprechungen im System in regelmässigen Abständen reguliert werden. Werden diese Regulierungen nicht durchgeführt, sind Beträge, die aus fremden (oder zusätzlichen) Währungen umgerechnet und in der Mandantenwährung in der Fibuposten gebucht wurden, möglicherweise irreführend. Darüber hinaus müssen Tagesposten, die vor der Eingabe eines Tageswechelkurses in der Anwendung gebucht werden, aktualisiert werden, nachdem der Tageswechselkurs eingegeben wurde. Die Stapelverarbeitung  **Wechselkurse** regulieren dient zur Regulierung der Wechselkurse gebuchter Kreditoren-, Debitoren- und Bankkontoposten. Berichtswährungsbeträge in Fibuposten können hiermit ebenfalls aktualisiert werden. Weitere Informationen finden Sie unter [Stapelverarbeitungsauftrag "Wechselkurse regulieren"](finance-how-update-currencies.md).
 
 ## <a name="setting-up-an-additional-reporting-currency"></a>Einrichten einer Berichtswährung
+
 Folgen Sie diesen Schritten, um die zusätzliche Berichtswährung einzurichten:
 
--   Legen Sie Fibukonten für die Buchung von Kursregulierungen fest.  
--   Legen Sie Kursregulierungsart für alle Fibukonten fest.  
--   Legen Sie die Kursregulierungsmethode für MWST.-Posten fest.  
--   Aktivieren Sie die Berichtswährung.  
+- Legen Sie Fibukonten für die Buchung von Kursregulierungen fest.  
+- Legen Sie Kursregulierungsart für alle Fibukonten fest.  
+- Legen Sie die Kursregulierungsmethode für MWST.-Posten fest.  
+- Aktivieren Sie die Berichtswährung.  
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Fibukonten für die Buchung von Kursregulierungen festlegen:  
 
@@ -68,7 +65,8 @@ Folgen Sie diesen Schritten, um die zusätzliche Berichtswährung einzurichten:
 
 Für jedes Fibukonto müssen Sie angeben, wie Beträge für dieses Konto hinsichtlich der Wechselkursschwankungen zwischen der Mandantenwährung und der Berichtswährung reguliert werden.  
 
-### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>So geben Sie die Kursregulierungsmethode für alle Fibukonten an  
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>So geben Sie die Kursregulierungsmethode für alle Fibukonten an
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Kontenplan** wählen Sie das gewünschte Konto aus, und wählen Sie die **Bearbeiten** Aktion aus.  
 3. Wählen Sie auf dem Inforegister **Berichtswesen** die richtige Methode im Feld **Kursregulierung** aus.  
@@ -85,7 +83,8 @@ Für jedes Fibukonto müssen Sie angeben, wie Beträge für dieses Konto hinsich
 
 4.  Schliessen Sie das Fenster **Fibukontokarte**.  
 
-### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Die Kursregulierungsmethode für MWST.-Posten festlegen:  
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Die Kursregulierungsmethode für MWST.-Posten festlegen:
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Fibuposten Einrichtung** die richtige Methode im Feld **MWST-Kursregulierung** aus.  
 3. Wenn Sie die Buchung in einer Berichtswährung durchführen, können Sie im Feld **MWST-Kursregulierung** angeben, wie die im Fenster **MWST Buchungsmatrix Einr.** für die Buchung der MWST eingerichteten Konten bei Wechselkursschwankungen zwischen der Mandantenwährung und der Berichtswährung reguliert werden.  
@@ -124,11 +123,12 @@ Nach die Stapelverarbeitung ausgeführt wurde, sind die Beträge in den folgende
 Darüber hinaus werden die Beträge für alle zukünftigen Posten desselben Typs sowohl in der Mandantenwährung als auch in der Berichtswährung erfasst.  
 
 > [!NOTE]  
->  Das Feld **Berichtswährung** wird erst aktiviert, nachdem Sie im Batchauftrag **Berichtswährung regulieren** die Schaltfläche **OK** gewählt haben.  
+> Das Feld **Berichtswährung** wird erst aktiviert, nachdem Sie im Batchauftrag **Berichtswährung regulieren** die Schaltfläche **OK** gewählt haben.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
+
 [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)  
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

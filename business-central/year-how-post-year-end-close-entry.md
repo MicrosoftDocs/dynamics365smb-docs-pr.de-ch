@@ -1,18 +1,13 @@
 ---
 title: So buchen Sie den Jahresabschlussposten
-description: Beschreibt, wie Sie das Erf.-Journal öffnen, dass Sie in der Stapelverarbeitung "Jahresabschluss" definiert haben und dann den Jahresabschlusseintrag überprüfen und buchen.
+description: 'Beschreibt, wie Sie das Erf.-Journal öffnen, dass Sie in der Stapelverarbeitung "Jahresabschluss" definiert haben und dann den Jahresabschlusseintrag überprüfen und buchen.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
+ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6dfba7323eeaad538cf45525d11212a6e5d7438e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438541"
 ---
 # <a name="posting-the-year-end-closing-entry"></a>Buchen der Jahresendabschlussbuchung
 

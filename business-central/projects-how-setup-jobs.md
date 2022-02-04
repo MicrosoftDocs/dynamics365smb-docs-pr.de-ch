@@ -1,19 +1,14 @@
 ---
-title: Jobs, Preise und Buchungsgruppen festlegen
-description: Beschreibt, wie allgemeine Projektinformationen und Preise für Projektartikel, Ressourcen und Fibukonten und Projektbuchungsgruppen eingerichtet werden.
+title: 'Jobs, Preise und Buchungsgruppen festlegen'
+description: 'Beschreibt, wie allgemeine Projektinformationen und Preise für Projektartikel, Ressourcen und Fibukonten und Projektbuchungsgruppen eingerichtet werden.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
+ms.search.form: '211, 463, 1012'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cff8ae1b376079aa1b9162cade59e88da985e263
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436162"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Jobs, Preise und Buchungsgruppen festlegen
 

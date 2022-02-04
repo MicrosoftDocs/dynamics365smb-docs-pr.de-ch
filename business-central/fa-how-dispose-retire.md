@@ -1,6 +1,6 @@
 ---
 title: FA entsorgen oder ausmustern
-description: Wenn Sie eine Anlage verkaufen oder anderweitig entfernen, muss der Verkaufswert gebucht werden, um den Gewinn oder Verlust zu berechnen und zu erfassen.
+description: 'Wenn Sie eine Anlage verkaufen oder anderweitig entfernen, muss der Verkaufswert gebucht werden, um den Gewinn oder Verlust zu berechnen und zu erfassen.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
+ms.search.form: '5628, 5610, 5611'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2b3f12dd385a40510cf01c214ac0893b6357207c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441736"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Anlagen entsorgen oder ausser Dienst stellen
 

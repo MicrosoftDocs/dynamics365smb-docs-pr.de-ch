@@ -1,21 +1,16 @@
 ---
 title: Übersicht über die Aufgaben zum Verwalten von Einkäufen
-description: Zeigt die Aufgaben zum Verwalten der Einkaufs- oder Beschaffungsvorgänge, einschliesslich das Vorgehen bei Einkaufsrechnungen und Bestellungen.
+description: 'Zeigt die Aufgaben zum Verwalten der Einkaufs- oder Beschaffungsvorgänge, einschliesslich das Vorgehen bei Einkaufsrechnungen und Bestellungen.'
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: procurement, supply, vendor order
+ms.search.keywords: 'procurement, supply, vendor order'
+ms.search.form: 460
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 929e1d62a091c4a01aa6f5e03dd5fcbdaa5bf7c0
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115804"
 ---
 # <a name="purchasing"></a>Einkauf
 Sie erstellen eine Einkaufsrechnung oder Einkaufsbestellung, um die Kosten der Einkäufe zu erfassen und Kreditoren zu verfolgen. Wenn Sie einen Bestand steuern müssen, werden Einkaufsrechnungen auch verwendet, um Lagerbestände dynamisch zu aktualisieren, sodass Sie Ihre Lagerbestandskosten minimieren und besseren Kundenservice bereitstellen können. Die Einkaufskosten, einschliesslich Servicekosten und Bestandswerte, die aus der Buchung von Einkaufsrechnungen resultieren, tragen zu den Gewinnzahlen und anderen finanziellen Kennziffern in Ihrem Rollencenter bei.

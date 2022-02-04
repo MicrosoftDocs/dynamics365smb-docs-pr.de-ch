@@ -1,21 +1,15 @@
 ---
 title: Informationen zur Kostenrechnung
-description: Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Die Kostenrechnung dient dazu, verschiedene Sachverhalte zu analysieren.
+description: 'Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Die Kostenrechnung dient dazu, verschiedene Sachverhalte zu analysieren.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '1101, 1103, 1105, 1108, 1111, 1112, 1124'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 461bdff64d785291923fe5f954887eb052805124
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436287"
 ---
 # <a name="about-cost-accounting"></a>Informationen zur Kostenrechnung
 Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Kostenrechnungsinformationen sollen Folgendes analysieren:  

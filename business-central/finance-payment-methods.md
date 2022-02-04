@@ -1,21 +1,16 @@
 ---
 title: Zahlungsformen festlegen (enthält Video)
-description: Sie können Zahlungsformen nutzen, z.B. Banküberweisung, Kasse oder PayPal, um festzulegen, wie eine Rechnung bezahlt wird.
+description: 'Sie können Zahlungsformen nutzen, z.B. Banküberweisung, Kasse oder PayPal, um festzulegen, wie eine Rechnung bezahlt wird.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: check, bank transfer, cash, PayPal
+ms.search.keywords: 'check, bank transfer, cash, PayPal'
+ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bf15f815b844661de90954c805b0b4481076504e
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940790"
 ---
 # <a name="set-up-payment-methods"></a>Einrichten von Zahlungsformen
 

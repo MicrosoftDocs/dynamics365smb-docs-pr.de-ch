@@ -1,17 +1,12 @@
 ---
 title: Verwalten von Speicher durch das Löschen von Belegen oder Datenkomprimierung
-description: Erfahren Sie, wie Sie mit sich ansammelnden historischen Belegen umgehen (und die Menge der in einer Datenbank gespeicherten Daten reduzieren), indem Sie sie löschen oder komprimieren.
+description: 'Erfahren Sie, wie Sie mit sich ansammelnden historischen Belegen umgehen (und die Menge der in einer Datenbank gespeicherten Daten reduzieren), indem Sie sie löschen oder komprimieren.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
+ms.search.form: '107, 9040'
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 5263d4ba06cc7b2dc497efb6842a927704c31f35
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724726"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Verwalten von Speicher durch das Löschen von Belegen oder Datenkomprimierung
 

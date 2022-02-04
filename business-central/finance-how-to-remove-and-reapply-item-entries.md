@@ -1,21 +1,15 @@
 ---
-title: 'Vorgehensweise: Entfernen und erneutes Ausgleichen von Artikelpostens | Microsoft Docs'
-description: Sie können bestimmte Artikelausgleichsposten, die bei Lagertransaktionen automatisch erstellt werden, anzeigen und manuell ändern.
+title: Artikelposten entfernen und erneut ausgleichen
+description: 'Sie können bestimmte Artikelausgleichsposten, die bei Lagertransaktionen automatisch erstellt werden, anzeigen und manuell ändern.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '506, 521, 9125'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4ec0aba869d2a171e12c42822ecf1726ed4ac81e
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587929"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Entfernen und erneutes Ausgleichen von Lagerposten
 Sie können auf der Seite **Ausgleichsarbeitsblatt** bestimmte Artikelausgleichsposten, die bei Lagertransaktionen automatisch erstellt werden, anzeigen und manuell ändern.  

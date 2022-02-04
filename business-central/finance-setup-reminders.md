@@ -1,21 +1,16 @@
 ---
-title: Einrichten von Mahnmethoden, Bestimmungen und Mahntext
-description: Lernen Sie, wie Business Central eingerichtet wird, so dass Sie eine Mahnung an einen Debitoren wegen einer fälligen Zahlung senden können und wie der Zahlung wegen des Verzugs Zuschläge oder Gebühren hinzugefügt werden.
+title: 'Einrichten von Mahnmethoden, Bestimmungen und Mahntext'
+description: 'Lernen Sie, wie Business Central eingerichtet wird, so dass Sie eine Mahnung an einen Debitoren wegen einer fälligen Zahlung senden können und wie der Zahlung wegen des Verzugs Zuschläge oder Gebühren hinzugefügt werden.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
+ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
+ms.search.form: '431, 432, 478'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba76f1f48249de12af6dc99057a92ef6aaeef13a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446254"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Einrichten von Mahnmethoden, Bestimmungen und Mahntext
 

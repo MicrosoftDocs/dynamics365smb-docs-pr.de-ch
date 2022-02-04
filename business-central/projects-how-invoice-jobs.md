@@ -1,6 +1,6 @@
 ---
-title: Verkaufsrechnungen erstellen, um einen Auftrag zu fakturieren
-description: Beschreibt, wie Sie Debitoren die Ausgaben für einen Auftrag in Rechnung stellen können, wenn ein Projekt fortschreitet und sich die Kosten summieren.
+title: 'Verkaufsrechnungen erstellen, um einen Auftrag zu fakturieren'
+description: 'Beschreibt, wie Sie Debitoren die Ausgaben für einen Auftrag in Rechnung stellen können, wenn ein Projekt fortschreitet und sich die Kosten summieren.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
+ms.search.form: '1002, 1007,'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 4c4bfd0293ddfa626dda75518219e597b6c4e721
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439190"
 ---
 # <a name="invoice-jobs"></a>Fakturieren von Projekten
 Im Laufe des Projekts können Projektkosten wie Ressourcenverbrauch, Material oder projektbezogene Einkäufe anfallen. Diese Transaktionen werden im weiteren Verlauf des Projekts auf das Projekt Erf.-Journal gebucht. Dabei ist es wichtig, dass alle Kosten im Projekt Erf.-Journal erfasst werden, bevor die Rechnung an den Debitor erstellt wird.

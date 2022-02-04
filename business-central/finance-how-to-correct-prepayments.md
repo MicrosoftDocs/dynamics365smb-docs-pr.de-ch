@@ -1,21 +1,15 @@
 ---
 title: So korrigieren Sie Vorauszahlungen
-description: Sie können eine Korrektur an einem Auftrag vornehmen, nachdem Sie eine Vorauszahlungsrechnung für den Auftrag gebucht haben und neue Zeilen zu einem Auftrag hinzufügen, nachdem Sie eine Vorauszahlung ausgegeben haben.
+description: 'Sie können eine Korrektur an einem Auftrag vornehmen, nachdem Sie eine Vorauszahlungsrechnung für den Auftrag gebucht haben und neue Zeilen zu einem Auftrag hinzufügen, nachdem Sie eine Vorauszahlung ausgegeben haben.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '44, 48, 42, 50, 52, 9305, 9307'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c5163602f3a311598e992b24a55b7a5542bcaad2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442249"
 ---
 # <a name="correct-prepayments"></a>So korrigieren Sie Vorauszahlungen
 

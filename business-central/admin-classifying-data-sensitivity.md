@@ -1,20 +1,16 @@
 ---
 title: Datensensitivität klassieren
-description: Sie müssen festlegen, welche Art von Daten Sie über Mitarbeiter speichern, sodass Sie sich auf Datensubjektanforderungen reagieren können.
+description: 'Sie müssen festlegen, welche Art von Daten Sie über Mitarbeiter speichern, sodass Sie sich auf Datensubjektanforderungen reagieren können.'
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
+ms.search.form: 1752
 ms.date: 06/14/2021
-ms.openlocfilehash: b5df66798db4a77504176d03bd46156d5d99fc56
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326552"
 ---
+
 # <a name="classifying-data-sensitivity-fields"></a>Klassifizieren von Datensensitivitätsfeldern
 Um die Felder zu klassifizieren, die vertrauliche oder Personendaten enthalten, kann ein Microsoft Partner die Eigenschaft ```DataClassification``` auf Felder setzen. Dazu müssen Zugriff auf die Datenbanktabellen haben, entweder über die Entwicklungsumgebung oder indem ein Windows PowerShell-Skript ausgeführt wird. Weitere Informationen finden Sie unter [Daten klassieren](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 

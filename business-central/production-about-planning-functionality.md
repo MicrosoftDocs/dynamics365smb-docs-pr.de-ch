@@ -1,21 +1,15 @@
 ---
 title: Info zu Planungsfunktionen
-description: Das Planungssystem in Dynamics 365 Business Central berücksichtigt sämtliche Bedarfs- und Vorratsdaten, saldiert die Ergebnisse und erstellt Vorschläge zum Ausgleichen des Vorrats, damit der Bedarf erfüllt werden kann.
+description: 'Das Planungssystem in Dynamics 365 Business Central berücksichtigt sämtliche Bedarfs- und Vorratsdaten, saldiert die Ergebnisse und erstellt Vorschläge zum Ausgleichen des Vorrats, damit der Bedarf erfüllt werden kann.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5430
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: e06bf94575c55d6e26fbe62c0b6cff06dd4fac70
-ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "6636030"
 ---
 # <a name="about-planning-functionality"></a>Info zu Planungsfunktionen
 

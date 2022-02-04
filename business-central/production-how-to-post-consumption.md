@@ -1,21 +1,15 @@
 ---
 title: Den Verbrauch über Stapelverarbeitung buchen
-description: Wenn die Spülmethode Manuell ist, müssen Sie die Komponenten manuell buchen, indem Sie ein Verbrauchsjournal verwenden.
+description: 'Wenn die Spülmethode Manuell ist, müssen Sie die Komponenten manuell buchen, indem Sie ein Verbrauchsjournal verwenden.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '99000846, 99000850'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2f31c7f48e88a44eb3f437827b6b24f255180d9a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440442"
 ---
 # <a name="batch-post-production-consumption"></a>Produktionsverbrauch mit Stapelverarbeitung buchen
 

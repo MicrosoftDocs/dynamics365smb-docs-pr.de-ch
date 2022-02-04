@@ -1,29 +1,28 @@
 ---
-title: Einrichten von unrealisierter Mehrwertsteuer | Microsoft Docs
-description: Wenn Sie Einnahmen- und Ausgabenrechnung verwenden, können Sie angeben, wie Sie unrealisierte MWST. für Verkäufe und Einkäufe behandeln möchten.
+title: Einrichten von unrealisierter Salestax
+description: 'Wenn Sie Einnahmen- und Ausgabenrechnung verwenden, können Sie angeben, wie Sie unrealisierte MWST. für Verkäufe und Einkäufe behandeln möchten.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: cash, VAT, unrealized, cash-based
+ms.search.keywords: 'cash, VAT, unrealized, cash-based'
+ms.search.form: '118, 472, 473'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca04192ef31e281e7d3e07e2f1823079e1f89151
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446204"
 ---
+
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Einrichten unrealisierter MWST. für Einnahmen- und Ausgabenrechnung
+
 Wenn Sie Einnahmen- und Ausgabenrechnungs-Methoden ausgleichen, können Sie in [!INCLUDE[prod_short](includes/prod_short.md)] festlegen, wie vereinnahmte MWST zu behandeln ist.
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Verwenden von Fibukonten für unrealisierte MWST
+
 Sie können festlegen, dass MWST.-Beträge beim Buchen einer Rechnung berechnet und auf ein temporäres Fibukonto gebucht werden und dass die Beträge erst dann auf das korrekte Fibukonto gebucht und in die MWST.-Abrechnungen einbezogen werden sollen, wenn die eigentliche Zahlung der Rechnung gebucht wird. Bevor Sie dies tun können, müssen Sie die MWST.-Buchungsmatrix ausfüllen.
 
 Um die Konten für unrealisierte MWST. zu verwenden, führen Sie diese Schritte aus:
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol, und geben Sie **Hauptbuchhaltung Einrichtung** ein.
 2. Auf der Seite **Fibuposten Einrichtung** wählen Sie das Kontrollkästchen **Vereinnahmte MWST**.
 3. Wählen Sie das Symbol **Seite oder Bericht suchen** ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion"), und geben Sie **MWR-Buchungseinrichtung** ein.

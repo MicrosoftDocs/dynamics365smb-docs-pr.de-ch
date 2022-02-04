@@ -1,24 +1,18 @@
 ---
-title: Überblick zu Aufgaben, um Kosten und Umsatz zuzuordnen | Microsoft Docs
+title: Übersicht über die Zuweisung von Kosten und Einnahmen
 description: Die Posten einer Fibu Erf.-Journalzeile lassen sich beim Erfen des Erf.-Journals auf verschiedene Konten verteilen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 283
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f7b6089a3cdcba323d13a745ae2cb8e06f3bb8a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439784"
 ---
 # <a name="allocate-costs-and-income"></a>Kosten und Einkünfte zuteilen
+
 Die Posten einer Fibu Erf.-Journalzeile lassen sich beim Buchen des Erf.-Journals auf verschiedene Konten verteilen. Für die Verteilung stehen drei unterschiedliche Methoden zur Verfügung:
 
 * Menge
@@ -31,7 +25,9 @@ Die Verteilungsfeatures können sowohl in wiederkehrenden Buch.-Blättern als au
 Die folgenden Verfahren beschreiben, was bereitgestellt werden muss, um Kosten in einem wiederkehrenden Erf.-Journal zuzuordnen, indem Umlageschlüssel eingerichtet werden. Wenn Umlageschlüssel definiert werden, beenden und buchen Sie das Erf.-Journal wie alle anderen wiederkehrenden Fibu Erf.-Journale. Weitere Informationen finden Sie unter [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)
 
 ## <a name="to-set-up-allocation-keys"></a>Einrichten von Verteilungsschlüsseln
-Die Posten einer Fibu Erf.-Journalzeile lassen sich beim Erfen des Erf.-Journals auf verschiedene Konten verteilen. Die Verteilung kann nach Anzahl, Prozent oder Betrag vorgenommen werden.
+
+Die Posten einer Fibu Erf.-Journalzeile lassen sich beim Erfen des Erf.-Journals auf verschiedene Konten verteilen. Die Verteilung kann nach Anzahl, Prozent oder Betrag vorgenommen werden.  
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Wiederk. Fibu Erf.-Journal** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Fibu Erf.-Journalnamen** den **Erf.-Journalnamen**.
 3. Sie können entweder Zuordnungen in einer vorhandene Charge in der Liste ändern oder eine neue Charge mit Zuordnungen erstellen.

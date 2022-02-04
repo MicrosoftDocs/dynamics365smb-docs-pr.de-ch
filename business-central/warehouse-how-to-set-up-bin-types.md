@@ -1,21 +1,15 @@
 ---
-title: So legen Sie Lagerplatzarten fest
-description: Weisen Sie den Lagerplätzen Typen und grundlegende Flow-Aktivitäten zu und definieren Sie damit die Art und Weise, wie die Lagerplätze für bestimmte Lageraktivitäten verwendet werden.
+title: Lagerplatzarten einrichten
+description: 'Weisen Sie den Lagerplätzen Typen und grundlegende Flow-Aktivitäten zu und definieren Sie damit die Art und Weise, wie die Lagerplätze für bestimmte Lageraktivitäten verwendet werden.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 987db7dda73bb527cfa025b7641c445b08cced2a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442993"
 ---
 # <a name="set-up-bin-types"></a>Lagerplatzarten einrichten
 Sie können den Warenfluss durch die Lagerplätze steuern, die Sie für bestimmte Logistikaktivitäten definiert haben. Sie weisen jedem Lagerplatz eine Lagerplatzart zu und ordnen dadurch dem Lagerplatz seine grundlegenden Warenflussaktivitäten zu, und definieren hiermit auf welche ein Lagerplatz verwendet wird.  

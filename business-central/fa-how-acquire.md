@@ -1,23 +1,16 @@
 ---
-title: Anlagen anschaffen| Microsoft Docs
-description: Sie können Anlagen einrichten, ein Abschreibungsbuch zuweisen und Anlagen-Anschaffungskosten aufzeichnen.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Erworbene Anlagen
+description: 'Sie können Anlagen einrichten, ein Abschreibungsbuch zuweisen und Anlagen-Anschaffungskosten aufzeichnen.'
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
+ms.search.form: '5605, 5551, 5600, 5628, 5629'
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 997e9e9d26ccb2beaafcb9e3e6cdf8fb467652ef
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920969"
 ---
 # <a name="acquire-fixed-assets"></a>Erworbene Anlagen
 Sie müssen für jede Anlage eine Karte mit den entsprechenden Informationen über die Anlage einrichten. Sie können Gebäude oder Produktionseinrichtungen als Hauptanlage mit einer Komponentenliste einrichten und sie unterschiedlich gruppieren, z. B. nach Klasse, Abteilung oder Standort. Vor der Anschaffung muss für jede Anlage ein Abschreibungsbuch eingerichtet und zugewiesen werden.

@@ -1,21 +1,15 @@
 ---
 title: Auftragszeilen zu verwandten Belegen verfolgen
-description: Zeigen Sie Belege an, die sich auf Verkaufs- und Kaufsbestellungen beziehen, wie z.B. Offerten, Lieferungen, Quittungen und Rahmenaufträge, um Belege zu identifizieren, die zur Verarbeitung von Aufträgen verwendet werden.
+description: 'Zeigen Sie Belege an, die sich auf Verkaufs- und Kaufsbestellungen beziehen, wie z.B. Offerten, Lieferungen, Quittungen und Rahmenaufträge, um Belege zu identifizieren, die zur Verarbeitung von Aufträgen verwendet werden.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '6560, 42, 50, 507, 509'
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 4c469d3f521e526f3c121da5bf8265fc92f01289
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439909"
 ---
 # <a name="track-document-lines"></a>Nachverfolgen von Belegzeilen
 Mit der Belegverfolgung können Belege angezeigt werden, die sich auf Verkaufsauftrags- und Bestellzeilen für Aufträge und archivierte Aufträge beziehen. Zugehörige Belege, die Sie nachverfolgen können, enthalten Offerten, Lieferungen, Wareneingänge und Rahmenaufträge. Dies hilft bei der Erkennung der Belege, die zum Verarbeiten der Aufträge verwendet wurden.  

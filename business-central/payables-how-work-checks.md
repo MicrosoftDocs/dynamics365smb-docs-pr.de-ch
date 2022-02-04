@@ -1,21 +1,16 @@
 ---
-title: Ausgabe, Drucken, Stornieren und Annullieren von Schecks | Microsoft Docs
-description: Beschreibt, wie Schecks mithilfe des Zahlungsausgangs Erf.-Journals, ausgegeben, gedruckt oder annulliert werden oder wie Scheck-Fibuposteneinträge in Business Central angezeigt werden.
+title: 'Schecks ausstellen, drucken, stornieren und annullieren'
+description: 'Beschreibt, wie Schecks mithilfe des Zahlungsausgangs Erf.-Journals, ausgegeben, gedruckt oder annulliert werden oder wie Scheck-Fibuposteneinträge in Business Central angezeigt werden.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
+ms.search.keywords: 'payment journal, print check, vendor payment, creditor, debt, balance due, AP'
+ms.search.form: '256, 404,'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c3f0a848e1a7011b163a92fbf5a58f4cd761ef95
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438791"
 ---
 # <a name="make-check-payments"></a>Zahlung per Scheck machen
 

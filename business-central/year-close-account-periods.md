@@ -1,26 +1,23 @@
 ---
 title: Buchhaltungsperioden für ein Geschäftsjahr schliessen
-description: Dieser Artikel beschreibt, wie Sie die Buchhaltungsperioden, aus denen das Geschäftsjahr besteht, für den Jahresabschluss schliessen.
+description: 'Dieser Artikel beschreibt, wie Sie die Buchhaltungsperioden, aus denen das Geschäftsjahr besteht, für den Jahresabschluss schliessen.'
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
+ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f668104fe6b0bbd9dbbf9295034547e298df916
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436012"
 ---
 # <a name="close-accounting-periods"></a>Schliessen von Buchhaltungsperioden
+
 Wenn ein Geschäftsjahr vorbei ist, müssen die Perioden, aus denen es besteht, geschlossen werden.
 
 ## <a name="to-close-accounting-periods"></a>Buchhaltungsperioden schliessen:
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Buchhaltungsperioden** die Aktion **Jahr auswählen** aus.
 
@@ -30,7 +27,7 @@ Wenn ein Geschäftsjahr vorbei ist, müssen die Perioden, aus denen es besteht, 
 Das Geschäftsjahr ist geschlossen und die Felder **Abgeschlossen** und **Datum gesperrt** werden für alle Perioden des Jahres aktiviert. Das Geschäftsjahr kann nicht erneut geöffnet werden und Sie können das Häkchen aus den Feldern **Abgeschlossen** oder **Datum gesperrt** nicht mehr entfernen.
 
 > [!NOTE]  
->   Sie können ein Geschäftsjahr erst abschliessen, wenn Sie ein neues erstellt haben. Beachten Sie, dass Sie nach dem Abschluss eines Geschäftsjahres das Startdatum des folgenden Geschäftsjahres nicht mehr ändern können.
+> Sie können ein Geschäftsjahr erst abschliessen, wenn Sie ein neues erstellt haben. Beachten Sie, dass Sie nach dem Abschluss eines Geschäftsjahres das Startdatum des folgenden Geschäftsjahres nicht mehr ändern können.
 
 Auch wenn ein Geschäftsjahr abgeschlossen wurde, können hierfür noch Fibuposten gebucht werden. In diesen Fällen wird in den Posten vermerkt, dass die Buchung in einem abgeschlossenen Geschäftsjahr erfolgte, d. h., das Feld **Nachbuchung** wird mit einem Häkchen versehen.
 

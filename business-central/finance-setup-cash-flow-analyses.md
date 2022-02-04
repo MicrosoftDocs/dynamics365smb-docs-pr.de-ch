@@ -1,23 +1,16 @@
 ---
 title: Cashflow-Analyse einrichten (enthält Video)
-description: Verwenden Sie die Diagramme des Konten-Rollencenters, um den Flow des Geldes in Ihrem Unternehmen zu analysieren, einschliesslich Ausgaben und Einnahmen, Liquidität und Bareinnahmen abzüglich Barzahlungen.
-services: project-madeira
-documentationcenter: ''
+description: 'Verwenden Sie die Diagramme des Konten-Rollencenters, um den Flow des Geldes in Ihrem Unternehmen zu analysieren, einschliesslich Ausgaben und Einnahmen, Liquidität und Bareinnahmen abzüglich Barzahlungen.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
+ms.search.keywords: 'money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds'
+ms.search.form: '846, 847, 849, 855, 862, 869, 1818'
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 718aed64e13b28972210918c8171956f79485006
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940415"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Aufstellung Cashflow-Analyse
 Wenn Sie etwas Unterstützung benötigen, was Sie mit Ihrem Barkonto zu tun sollen, schauen Sie sich das Diagramm im Buchhalter-Rollencenter an:  
@@ -129,6 +122,7 @@ Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Model
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
+
 [Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -1,21 +1,16 @@
 ---
-title: "So geht's: Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen | Microsoft Docs"
-description: Erklärt, wie Sie eine Einkaufsgutschrift erstellen und buchemn, wenn Sie Artikel an einen Kreditor zurückgeben möchten oder eingekaufte Services stornieren.
+title: Rücklieferung oder Stornierungen verarbeiten
+description: 'Erklärt, wie Sie eine Einkaufsgutschrift erstellen und buchemn, wenn Sie Artikel an einen Kreditor zurückgeben möchten oder eingekaufte Services stornieren.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: cancel, undo, correct
+ms.search.keywords: 'cancel, undo, correct'
+ms.search.form: '6640, 6643'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e43f5c5dd2a785a0268b9cf61794de1f8fa73a9a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445565"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen
 
@@ -117,11 +112,11 @@ Die Einkaufsgutschrift wird entfernt und durch einen neuen Beleg in der Liste de
 
     - Wenn es sich bei dem kopierten Beleg um eine gebuchte Lieferung, einen gebuchten Wareneingang, eine gebuchte Rücksendung oder eine gebuchte Rücklieferung handelt, wird der VK-Preis automatisch anhand der Artikelkarte berechnet.  
 
-    - Wenn es sich bei dem gebuchten Beleg um eine gebuchte Rechnung oder Gutschrift handelt, werden VK-Preis, Rechnungsrabatte und Zeilenrabatte aus der gebuchten Belegzeile kopiert.  
+    - Wenn es sich bei dem gebuchten Beleg um eine gebuchte Rechnung oder Gutschrift handelt, werden VK-Preis, Rechnungsskonti und Zeilenskonti aus der gebuchten Belegzeile kopiert.  
 
     - Wenn die gebuchte Belegzeile Artikeltrackingzeilen enthält, wird Feld **Anwendung vom Artikeleintrag** auf der Artikelnachverfolgungszeilen mit den entsprechenden Lagerpostennummern aus den gebuchten Artikeltrackingzeilen gefüllt.  
 
-     Beim Kopieren aus einer gebuchten Rechnung oder einer gebuchten Gutschrift kopiert die Anwendung alle relevanten Rechnungsrabatte und Zeilenrabatte, die zum Zeitpunkt der Buchung dieses Belegs gelten, von der gebuchten Belegzeile in die neue Belegzeile. Beachten Sie jedoch, dass, wenn die Option **Rechnungsrab. berechnen** auf der Seite **Verkaufs- und Forderungseinrichtung** aktiviert ist, der RechnungsSkonto neu berechnet wird, wenn Sie die neue Belegzeile buchen. Daher kann es sein, dass der Zeilenbetrag für die neue Zeile sich von dem Zeilenbetrag für die ursprüngliche Belegzeile unterscheidet, je nach der Neuberechnung des RechnungsSkontos.  
+     Beim Kopieren aus einer gebuchten Rechnung oder einer gebuchten Gutschrift kopiert die Anwendung alle relevanten Rechnungsskonti und Zeilenskonti, die zum Zeitpunkt der Buchung dieses Belegs gelten, von der gebuchten Belegzeile in die neue Belegzeile. Beachten Sie jedoch, dass, wenn die Option **Rechnungsrab. berechnen** auf der Seite **Verkaufs- und Forderungseinrichtung** aktiviert ist, der RechnungsSkonto neu berechnet wird, wenn Sie die neue Belegzeile buchen. Daher kann es sein, dass der Zeilenbetrag für die neue Zeile sich von dem Zeilenbetrag für die ursprüngliche Belegzeile unterscheidet, je nach der Neuberechnung des RechnungsSkontos.  
 
     > [!NOTE]  
     >  Wenn ein Teil der Menge der gebuchten Belegzeile bereits zurückgesendet, verkauft oder verbraucht wurde, wird nur für die Menge, die am Lager verbleibt oder die nicht zurückgesendet wurde, eine Zeile erstellt. Wurde die vollständige Menge der gebuchten Belegzeile bereits storniert, wird keine neue Belegzeile erstellt.  

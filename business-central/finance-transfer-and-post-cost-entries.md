@@ -1,49 +1,44 @@
 ---
 title: Übertragung und Buchung von Kostenzuteilungen
-description: Bevor Sie Kalkulationen definieren, müssen Sie die verschiedenen Quellen verstehen, aus denen Kosteneinträge stammen.
+description: 'Bevor Sie Kalkulationen definieren, müssen Sie die verschiedenen Quellen verstehen, aus denen Kosteneinträge stammen.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '1100, 1103, 1104, 1113'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ea072af165ba95ce8a166bd174b4f826d7933d8c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435836"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Übertragung und Buchung von Kostenzuteilungen
+
 Bevor Sie Kostenumlagen definieren, müssen Sie verstehen, wie Kostenposten aus den folgenden Quellen stammen:  
 
--   Automatischer Transfer von Fibuposten.  
--   Manuelle Kostenbuchung für reine Kostenposten, inländische Abgaben und manuelle Zuweisungen.  
--   Automatische Verteilungsbuchungen für tatsächliche Kosten.  
--   Übertragung von Budgetposten zu tatsächlichen Posten.
+- Automatischer Transfer von Fibuposten.  
+- Manuelle Kostenbuchung für reine Kostenposten, inländische Abgaben und manuelle Zuweisungen.  
+- Automatische Verteilungsbuchungen für tatsächliche Kosten.  
+- Übertragung von Budgetposten zu tatsächlichen Posten.
 
 ## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Kriterien für die Übertragung von Fibuposten in Kostenposten
 Es ist wichtig, die Kriterien für den Transfer von Fibuposten in Kostenposten zu kennen. Während des Transfers verwendet der Batchauftrag **Fibuposten in Kostenrechnung übertragen** die folgenden Kriterien, um zu ermitteln, ob und wie die Fibuposten transferiert werden sollen.  
 
 Fibuposten werden transferiert, wenn Folgendes zutrifft:  
 
--   Die Posten haben Dimensionswerte, die entweder einer Kostenstelle oder einem Kostenträger entsprechen.  
--   Die Posten haben Dimensionswerte, die einer Kostenstelle und einem Kostenträger entsprechen. Bei diesen Posten hat die Kostenstelle Vorrang. Dies ist hilfreich, um eine Situation zu vermeiden, in der eine Kostenart sowohl in einem Kostenträger als auch in einer Kostenstelle auftritt und daher in der Statistik zweimal gezählt wird.  
--   Die Belegnummer in den Posten ist leer, sodass sie mit einer Belegnummer von 0000 in den Kostenposten angezeigt wird.  
--   Die Posten werden in eine Kostenart transferiert, die kombinierte Posten zulässt, und diese Posten werden als kombinierter monatlicher oder täglicher Posten transferiert.  
+- Die Posten haben Dimensionswerte, die entweder einer Kostenstelle oder einem Kostenträger entsprechen.  
+- Die Posten haben Dimensionswerte, die einer Kostenstelle und einem Kostenträger entsprechen. Bei diesen Posten hat die Kostenstelle Vorrang. Dies ist hilfreich, um eine Situation zu vermeiden, in der eine Kostenart sowohl in einem Kostenträger als auch in einer Kostenstelle auftritt und daher in der Statistik zweimal gezählt wird.  
+- Die Belegnummer in den Posten ist leer, sodass sie mit einer Belegnummer von 0000 in den Kostenposten angezeigt wird.  
+- Die Posten werden in eine Kostenart transferiert, die kombinierte Posten zulässt, und diese Posten werden als kombinierter monatlicher oder täglicher Posten transferiert.  
 
 Fibuposten werden nicht transferiert, wenn Folgendes zutrifft:  
 
--   Die Posten haben Dimensionswerte, die weder einer Kostenstelle noch einem Kostenträger entsprechen.  
--   Die Posten weisen einen Betrag von Null auf.  
--   Die Posten haben ein Fibukonto, das gelöscht wurde.  
--   Die Posten haben ein Fibukonto, das nicht vom Typ **Erfolgsrechnung** ist.  
--   Die Posten haben ein Fibukonto, dem keine Kostenart zugeordnet ist.  
--   Die Posten haben ein Buchungsdatum vor **Startdatum für Sachkontenübertragung**.  
--   Die Posten wurden mit einem Abschlussdatum gebucht. Dies sind typische Posten, die den Saldo der Erfolgsrechnung am Ende des Geschäftsjahres zurücksetzen.
+- Die Posten haben Dimensionswerte, die weder einer Kostenstelle noch einem Kostenträger entsprechen.  
+- Die Posten weisen einen Betrag von Null auf.  
+- Die Posten haben ein Fibukonto, das gelöscht wurde.  
+- Die Posten haben ein Fibukonto, das nicht vom Typ **Erfolgsrechnung** ist.  
+- Die Posten haben ein Fibukonto, dem keine Kostenart zugeordnet ist.  
+- Die Posten haben ein Buchungsdatum vor **Startdatum für Sachkontenübertragung**.  
+- Die Posten wurden mit einem Abschlussdatum gebucht. Dies sind typische Posten, die den Saldo der Erfolgsrechnung am Ende des Geschäftsjahres zurücksetzen.
 
 ## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Übertragung von Fibuposten in Kostenposten
 Sie können Fibuposten in Kostenposten übertragen.  
@@ -64,7 +59,7 @@ Bevor Sie den Vorgang für das Übertragen von Fibuposten in Kostenposten durchf
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Sachposten in Kostenrechnung übertragen** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie auf Schaltfläche **OK**, um die Umlagerung zu starten. Der Prozess überträgt alle Fibuposten, die nicht bereits übertragen wurden.  
 
-    Während der Übertragung erstellt der Vorgang Verknüpfungen in den Posten **Posteneintrag** und **Kostentabelle**. Dies ermöglicht es Ihnen, die Herkunft von Kostenposten nachzuverfolgen.
+Während der Übertragung erstellt der Vorgang Verknüpfungen in den Posten **Posteneintrag** und **Kostentabelle**. Dies ermöglicht es Ihnen, die Herkunft von Kostenposten nachzuverfolgen.
 
 ## <a name="automatic-transfer-and-combined-entries"></a>Automatische Übertragung und kombinierte Posten
 In der Kostenrechnung können Sie Fibuposten in eine Kostenart transferieren, indem Sie eine zusammengefasste Buchung verwenden. Sie können angeben, ob eine Kostenart kombinierte Posten im Feld **Kombinierte Einträge** in der Kostenartdefinition erhalten soll. Die drei Optionen werden in der folgenden Tabelle beschrieben.  
