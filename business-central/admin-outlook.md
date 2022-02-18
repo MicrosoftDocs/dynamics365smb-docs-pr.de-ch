@@ -1,16 +1,22 @@
 ---
 title: Holen Sie sich das Business Central-Add-in für Outlook
-description: 'Erfahren Sie, wie Sie das Business Central-Add-in für Outlook für Ihr Unternehmen oder für den eigenen Gebrauch installieren.'
+description: Erfahren Sie, wie Sie das Business Central-Add-in für Outlook für Ihr Unternehmen oder für den eigenen Gebrauch installieren.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'SMTP, mail, Microsoft 365, Outlook'
-ms.search.form: '1831, 1832'
+ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
+ms.search.form: 1831, 1832
 ms.date: 08/13/2021
 ms.author: jswymer
+ms.openlocfilehash: 7fa8eabcffeb19b77c98ed9f9b7036dff6cbbf35
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049609"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Holen Sie sich das Business Central-Add-in für Outlook
 
@@ -72,7 +78,7 @@ Die zentrale Bereitstellung ist eine Funktion im Microsoft 365 Admin Center, mit
 
 8. Wählen Sie **Angepasste Apps hochladen**.
 9. Auf der Seite **Apps zum Bereitstellen hochladen** wählen Sie **Manifestdatei (.xml) vom Gerät hochladen** > **Datei auswählen**.
-10. Wählen Sie eine der Add-Dateien, die Sie zuvor extrahiert haben, zum Beispiel **Content Insights.xml**.
+10. Wählen Sie eine der Zusatzdateien, die Sie zuvor extrahiert haben, z.B. **Kontakte Insights.xml**.
 11. Folgen Sie den Anweisungen, um Benutzer zuzuweisen und das Add-In bereitzustellen.
 12. Wiederholen Sie die Schritte 9 bis 11 für die andere Add-In-Datei, wenn Sie möchten.
 

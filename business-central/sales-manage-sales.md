@@ -1,15 +1,22 @@
 ---
 title: Übersicht der Aufgaben zum Verwalten von Verkäufen
-description: 'Lesen Sie alles darüber, wie Sie die Dienste von Business Central für die Verwaltung von Verkaufsaktivitäten mit Ihren Debitoren mit Verkaufsrechnungen, Aufträgen, Offertenn und mehr nutzen können.'
+description: Lesen Sie alles darüber, wie Sie die Dienste von Business Central für die Verwaltung von Verkaufsaktivitäten mit Ihren Debitoren mit Verkaufsrechnungen, Aufträgen, Offertenn und mehr nutzen können.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'trade, sell'
+ms.search.keywords: trade, sell
+ms.search.form: 253
 ms.date: 06/25/2021
 ms.author: edupont
+ms.openlocfilehash: 815c9240c9c81129009f70f050c869df4eea9b3a
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101017"
 ---
 # <a name="sales"></a>Verkauf
 Sie erstellen eine Verkaufsrechnung oder eine Bestellung, um Ihre Vereinbarung mit dem Kunden zu erfassen, um bestimmte Produkte unter speziellen Liefer- und Zahlungsbedingungen zu verkaufen.

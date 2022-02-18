@@ -7,34 +7,21 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: 26dbb93fe003caf140caaad07d31b85be508085b
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 5488ba8331494ba662960e84d4907de76a68e72b
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543159"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102357"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Finanzielle Berichte und Analysen in Business Central
 
 Finanzberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht Finanz- und Geschäftsfachleuten das Erstellen, Verwalten, Bereitstellen und Anzeigen von Abschlüssen. Es geht über die herkömmlichen Berichtsbeschränkungen hinaus und hilft Ihnen, verschiedene Arten von Berichten effizient zu gestalten. [!INCLUDE [prod_short](includes/prod_short.md)] enthält mehrere Berichte, Nachverfolgungsfunktionen und Tools, die Wirtschaftsprüfern oder Controllern helfen, die für die Berichterstattung an die Finanzabteilung verantwortlich sind. Die Finanzberichterstattung umfasst die Unterstützung von Dimensionen, sodass Kontosegmente oder Dimensionen sofort verfügbar sind. Es sind keine weiteren Tools oder Konfigurationsschritte erforderlich.  
 
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
 ## <a name="reports"></a>Berichte
-
-In der folgenden Tabelle werden einige der wichtigsten Berichte in der Finanzberichterstattung beschrieben.
-
-| Bericht | Objekt-ID | Beschreibung |
-|--|--|--|
-| **Bilanz** | 6 | Zeigt den Kontenplan mit Salden und Bewegungen. Sie können die Ansicht einer Bilanz für ausgewählte Dimensionen wählen. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. |
-| **Bilanz nach Periode** | 38 | Zeigt die Eröffnungsbilanz nach Fibukonto, die Bewegungen in der ausgewählten Monats-, Quartals- oder Jahresperiode und die resultierende Abschlussbilanz. |
-| **Bilanz/Budget** | 9 | Zeigt eine Bilanz im Vergleich zu einem Budget an. Sie können die Ansicht einer Bilanz für ausgewählte Dimensionen wählen. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. |
-| **Ausführliche Bilanz** | 4 | Zeigt eine ausführliche Bilanz für ausgewählte Fibukonten an. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. Die im Bericht enthaltenen Konten können Sie durch Setzen von Filtern festlegen. |
-| **Bilanz/Vorjahr** | 7 | Zeigt eine Bilanz im Vergleich zu den Werten des Vorjahres an. Sie können die Ansicht einer Bilanz für ausgewählte Dimensionen wählen. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. *Vorjahr* bedeutet die gleiche Periode ein Kalenderjahr früher. |
-| **Kontenschema** | 25 | Kontenschemas können verwendet werden, um Fibukonten anders als im Kontenplan anzuzeigen. Kontenschema können beispielsweise verwendet werden, um Berichte zu Kennzahlen zu erzeugen. |
-<!-- | **Kontenplan** (Kontenschema oder Excel) oder **Bilanz** |  |  |
-| **Cashflow-Auszug** (Kontenschema) |  |  |
-| **Bilanz Übersicht/Detail** |  |  |
-| **Erfolgsrechnung** (Kontenschema oder Excel) |  |  |
-| **Budget** |  |  | -->
+[!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 ## <a name="tasks"></a>Aufgaben
 

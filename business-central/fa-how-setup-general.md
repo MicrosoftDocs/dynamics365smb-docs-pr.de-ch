@@ -1,15 +1,21 @@
 ---
 title: Allgemeine Anlageninformationen einrichten
-description: 'Bevor Sie den Bereich "Anlagenbuchhaltung" verwenden können, müssen Sie die Sachkonten, die Buch.-Blattvorlagen und die Buch.-Blätter und Klassencodes einrichten, die für die Buchung verwendet werden.'
+description: Bevor Sie den Bereich "Anlagenbuchhaltung" verwenden können, müssen Sie die Sachkonten, die Buch.-Blattvorlagen und die Buch.-Blätter und Klassencodes einrichten, die für die Buchung verwendet werden.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: '5623, 5615, 5661, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608. 5635, 9277, 5662, 5627, 5616, 5620'
+ms.search.form: 5623, 5615, 5661, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277, 5662, 5627, 5616, 5620
 ms.date: 04/01/2021
 ms.author: edupont
+ms.openlocfilehash: 2bbd315e89de5164db47c4615388f02d06d88153
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101150"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Allgemeine Anlagen-Informationen einrichten
 Bevor Sie Anlagen verwalten können, müssen Sie Standardsachkonten, Verteilungsschlüssel, Buch.-Blattvorlagen und -namen für Anlagenbuchungen und -umbuchungen einrichten, und Sie können Anlagen in Klassen, wie beispielsweise materiell und immateriell, klassifizieren.
@@ -90,7 +96,7 @@ Verwenden Sie diese Anlagenstandortcodes, um den Standort von Anlagen zu erfasse
 2. Geben Sie die Codes und die Namen für die Anlagenstandorte ein, die Sie erstellen möchten.
 
 ## <a name="to-register-opening-entries"></a>So erfassen Sie Eröffnungsposten
-Falls Sie die Anlagen in [!INCLUDE[prod_short](includes/prod_short.md)] zum ersten Mal verwenden, müssen Sie zuerst den Finanzbuchhaltungsbereich einrichten, bevor Sie Anlagen einrichten können. Wie dies erfolgt, hängt davon ab, ob Anlagen in die Fibuposten integriert sind.  
+Falls Sie die Anlagen in [!INCLUDE[prod_short](includes/prod_short.md)] zum ersten Mal verwenden, müssen Sie zuerst den Anwendungsbereich „Fibuposten“, bevor Sie Anlagen einrichten können. Wie dies erfolgt, hängt davon ab, ob Anlagen in die Fibuposten integriert sind.  
 
  Die folgende Vorgehensweise wird verwendet, wenn Anlagentransaktionen in die Fibu gebucht werden.  
 

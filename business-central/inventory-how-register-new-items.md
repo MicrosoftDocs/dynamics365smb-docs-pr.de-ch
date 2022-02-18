@@ -1,16 +1,22 @@
 ---
 title: Erstellen von Elementkarten für Waren oder Dienstleistungen (enthält Video)
-description: 'Sie erstellen Artikelkarten für Dienstleistungen, die Sie als Stunden verkaufen, und für physische Produkte, wie Montage-Artikel, fertige Waren, die Sie aus Ihrem Bestand verkaufen.'
+description: Sie erstellen Artikelkarten für Dienstleistungen, die Sie als Stunden verkaufen, und für physische Produkte, wie Montage-Artikel, fertige Waren, die Sie aus Ihrem Bestand verkaufen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
-ms.search.form: 30
+ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
+ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
 ms.date: 09/24/2021
 ms.author: edupont
+ms.openlocfilehash: 26fb6e98934968a9ed1e11309d3e7f2834e0e4b8
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059584"
 ---
 # <a name="register-new-items"></a>Neue Artikel registrieren
 

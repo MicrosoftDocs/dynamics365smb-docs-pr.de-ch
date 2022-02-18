@@ -1,13 +1,19 @@
 ---
 title: Vorauszahlungen einrichten
-description: 'Hier erfahren Sie, wie Sie Business Central so konfigurieren, dass Sie Vorauszahlungen verwenden können, um Rechnungen zu erstellen und Kautionen von Debitoren einzuziehen und Kautionen an Kreditoren zu überweisen.'
+description: Hier erfahren Sie, wie Sie Business Central so konfigurieren, dass Sie Vorauszahlungen verwenden können, um Rechnungen zu erstellen und Kautionen von Debitoren einzuziehen und Kautionen an Kreditoren zu überweisen.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keyword: prepayment
-ms.search.form: '314, 459, 460, 664'
+ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
+ms.openlocfilehash: 9d9decead1e6207915fd3a162cadae0354f0f257
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100919"
 ---
 # <a name="set-up-prepayments"></a>Vorauszahlungen einrichten
 
@@ -18,10 +24,12 @@ Damit Vorauszahlungsrechnungen gebucht werden können, müssen in der Finanzbuch
 Sie können den Prozentsatz des zur Zahlung fakturierten Zeilenbetrags für einen Debitor, einen Kreditor, für alle Artikel oder für ausgewählte Artikel definieren. Nach dem Festlegen der Einstellungen können Vorauszahlungsrechnungen auf der Grundlage von Aufträgen und Bestellungen generiert werden. Sie können für jede Verkaufs- oder Einkaufszeile entweder die standardmässigen Prozentsätze verwenden oder die Beträge der Rechnungen gemäss Ihren Anforderungen anpassen. So können Sie beispielsweise den Gesamtbetrag für den gesamten Auftrag angeben.  
 
 > [!NOTE]
-> Wir empfehlen, in den folgenden Fällen keinen Vorauszahlungsprozentsatz von 100 % zu verwenden:
+> Wir empfehlen Ihnen, in den folgenden Fällen keinen Vorauszahlungsprozentsatz von 100 zu verwenden:
 >
-> * Wenn Sie sich in Nordamerika befinden. Aufgrund der Berechnung der Steuern kann ein Vorauszahlungsprozentsatz von 100 % zu Problemen mit Vorauszahlungsrechnungen führen.
-> * In allen Regionen, wenn Sie manuell ein Skonto von der Rechnung abziehen. Bei einem Vorauszahlungsprozentsatz von 100 % verbleibt nicht automatisch ein Betrag, von dem das Skonto abgezogen werden kann. 
+> * Wenn Sie sich in Nordamerika befinden. Aufgrund der Art und Weise, wie Steuern berechnet werden, kann ein Vorauszahlungsprozentsatz von 100 zu Problemen mit Vorauszahlungsrechnungen führen.
+> * In allen Regionen, wenn Sie manuell ein Skonto von der Rechnung abziehen. Ein Vorauszahlungsprozentsatz von 100 lässt nicht automatisch einen Betrag übrig, von dem das Disagio abgezogen werden kann.
+>
+> Wenn Sie einen Vorauszahlungsprozentsatz von 100 verwenden, kann es ausserdem sein, dass Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] ausgleichende Rundungseinträge erstellen müssen. In diesem Fall müssen Sie auf der Seite **Debitorenbuchungsgruppen** im Feld **Rechnungsabrundungskonto** ein Fibukonto auswählen. Dies gilt auch dann, wenn Sie die Option **Rechnungsrundung** auf der Seite **Einrichtung Debitoren & Verkauf** nicht aktiviert haben. Wenn Sie kein Konto angeben, können Sie keine Vorauszahlungsrechnungen buchen. 
 
 Da der vorausgezahlte Betrag Eigentum des Käufers ist, bis dieser die Ware oder die Leistung erhalten hat, müssen Sie Fibukonten einrichten, auf denen die Vorauszahlungsbeträge bis zur Buchung der abschliessenden Rechnung erfasst werden. Vorauszahlungen für Verkaufsaufträge müssen auf einem Verbindlichkeitskonto gebucht werden, bis die Artikel geliefert wurden. Vorauszahlungen für Bestellungen müssen auf einem Anlagenkonto erfasst werden, bis die Artikel eingegangen sind. Darüber hinaus müssen Sie ein separates Fibukonto für jedes MWST-Kennzeichen einrichten.  
 
