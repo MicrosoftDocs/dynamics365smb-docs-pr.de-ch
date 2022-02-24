@@ -1,33 +1,49 @@
 ---
-title: Einrichten von Lieferanmahnungen (CH)
-description: In der Schweizer Version von Business Central können Sie Lieferanmahnungen nutzen, um Verkäufer über verspätete Lieferungen zu mahnen.
+title: Einrichten von Lieferbenachrichtigungen
+description: In Business Central können Sie Lieferbenachrichtigungen nutzen, um Verkäufer über verspätete Lieferungen zu mahnen.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 5005270, 5005272
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: b82f97c23a1f6e366074a960f7894ab8f2f132f0
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: bacb809ae0dddc3989a9150ad40e8d947e7b36a1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947097"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300986"
 ---
-# <a name="set-up-delivery-reminders-in-the-swiss-version"></a>Lieferanmahnungen in der Schweizer Version einrichten
+# <a name="set-up-delivery-reminders"></a>Gewusst wie: Einrichten von Lieferbenachrichtigungen
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] können Sie Lieferbenachrichtigungen nutzen, um Verkäufer über verspätete Lieferungen zu mahnen. Um Lieferanmahnungen für Kreditoren zu erstellen, müssen Sie die Stammdaten für die Erstellung von Lieferanmahnungen sowie die Nummernserien für die Lieferanmahnungen auf der Seite **Kreditoren & Einkauf einrichten** einrichten.  
 
-[!INCLUDE [delivery-reminders-setup](../includes/ATCHDE/delivery-reminders-setup.md)]
+## <a name="to-set-up-delivery-reminders"></a>So richten Sie Lieferbenachrichtigungen ein  
 
-## <a name="see-also"></a>Siehe auch
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht  suchen") und geben **Kreditoren- und Debitoren-Einrichtung** ein. Wählen Sie dann den zugehörigen Link aus.  
+2.  Legen Sie im Inforegister **Allgemein** im Feld **Standard Lief.-Mahn. Datumsfeld** eine der folgenden Optionen gemäss der Beschreibung in der folgenden Tabelle fest.  
 
-[Lieferanmahnungen](delivery-reminders.md)  
-[Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
-[So werden Lieferanmahnungscodes zu Kreditoren zugewiesen](how-to-assign-delivery-reminder-codes-to-vendors.md)  
-[So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)
+    |Option|Description|  
+    |----------------------------------|---------------------------------------|  
+    |**Gewünschtes Wareneingangsdatum**|So legen Sie fest, dass der Datumswert im Feld **Gewünschtes Wareneingangsdatum** auf der Bestellzeile als Standarddatum für das Erstellen von Lieferbenachrichtigungen verwendet wird.|  
+    |**Zugesagtes Wareneingangsdatum**|So legen Sie fest, dass der Datumswert im Feld **Zugesagtes Wareneingangsdatum** auf der Bestellzeile als Standarddatum für das Erstellen von Lieferbenachrichtigungen verwendet wird.|  
+    |**Erwartetes Wareneingangsdatum**|So legen Sie fest, dass der Datumswert im Feld **Erwartetes Wareneingangsdatum** auf der Bestellzeile als Standarddatum für das Erstellen von Lieferbenachrichtigungen verwendet wird.|  
 
+3.  Füllen Sie im Inforegister **Nummerierung** die Felder gemäss der Beschreibung in der folgenden Tabelle aus.  
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+    |Feld|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Lieferbenachrichtigungsnummern**|Der Nummernseriencode für Lieferbenachrichtigungen.|  
+    |**Reg. Lieferbenachrichtigungsnummern**|Der Nummernseriencode für ausgegebene Lieferanmahnungen.|  
+
+4.  Wählen Sie die Schaltfläche **OK** aus.  
+
+## <a name="see-also"></a>Siehe auch  
+ [Lieferanmahnungen](delivery-reminders.md)   
+ [Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
+ [So werden Lieferbenachrichtigungscodes zu Kreditoren zugewiesen](how-to-assign-delivery-reminder-codes-to-vendors.md)   
+ [So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)

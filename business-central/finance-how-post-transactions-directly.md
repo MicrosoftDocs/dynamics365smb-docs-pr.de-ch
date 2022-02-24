@@ -1,16 +1,21 @@
 ---
-title: Datensätze für Ausgaben oder Einnahmen direkt im Hauptbuch erfassen
-description: 'Für Aktivitäten, die nicht durch einen Beleg repräsentiert werden, können Sie die zugehörigen Transaktionen erstellen, indem Sie Erfassungsjournalzeilen im Fibu Erf.-Journal buchen.'
+title: Erfassen von Aufwendungen oder Umsatz direkt in der Finanzbuchhaltung| Microsoft Docs
+description: Für Geschäftsaktivitäten, die nicht in einem Beleg festgehalten sind, wie kleinere Aufwendungen oder Zahlungseingänge, können Sie die entsprechenden Transaktionen erstellen, indem Sie die Erf.-Journalzeilen im Fibu Erf.-Journal buchen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'direct posting, general ledger'
-ms.search.form: '39, 251'
-ms.date: 06/16/2021
-ms.author: edupont
+ms.search.keywords: direct posting, general ledger
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f0c1efcee7db0239efa739dd0ea8d8ce45e2dbd7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183970"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Buchen von Transaktionen direkt im Fibuposten
 
@@ -24,7 +29,7 @@ Anders als für Posten, die mit Belegen gebucht werden, die einen Gutschriftsvor
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Transaktionen direkt in den Fibuposten buchen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Allgemeine Erfassungen** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Fibu Erfassungsjournale** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnet das entsprechende Fibu Erf.-Journal Weitere Informationen finden Sie unter [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)
 3. Füllen Sie die Felder in einer neuen Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 
@@ -42,7 +47,4 @@ Anders als für Posten, die mit Belegen gebucht werden, die einen Gutschriftsvor
 [Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen](finance-how-record-reimburse-employee-expenses.md)  
 [Erf.-Journalbuchungen stornieren und Belege/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

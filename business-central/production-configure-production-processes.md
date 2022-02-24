@@ -1,18 +1,23 @@
 ---
-title: Produktionsprozesse konfigurieren
-description: 'Damit Material zu Fertigerzeugnissen verarbeitet werden kann, müssen im System Fertigungsressourcen wie Maschinisten und Maschinen eingerichtet werden.'
+title: Konfigurieren von Produktionsprozessen | Microsoft Docs
+description: Damit Material zu Fertigerzeugnissen verarbeitet werden kann, müssen im System Fertigungsressourcen wie Maschinisten und Maschinen eingerichtet werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: '99000768, 99000779, 99000780, 99000866'
-ms.date: 04/01/2021
-ms.author: edupont
+ms.search.keywords: ''
+ms.date: 04/22/2020
+ms.author: sgroespe
+ms.openlocfilehash: a317d80b9aa3a82da939d39f515fb4e0d37e887a
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324356"
 ---
 # <a name="setting-up-manufacturing"></a>Produktion einrichten
-
 Damit Material zu Fertigerzeugnissen verarbeitet werden kann, müssen im System Fertigungsressourcen wie Maschinisten und Maschinen eingerichtet werden.
 
 Maschinisten und Maschinen werden im System als Arbeitsplätze dargestellt, die in Form von Arbeitsplatzgruppen organisiert werden. Nachdem diese Ressourcen eingerichtet wurden, können sie gemäss der definierten  Material- und Verarbeitungsstruktur des Artikels und unter Berücksichtigung der Kapazität der Maschine oder des Arbeitsplatzes mit Arbeitsgängen geladen werden. Auch kann die Fertigungskapazität jeder einzelnen Ressource festgelegt werden. Die Kapazität wird durch die für die Arbeitsplätze und Arbeitsplatzgruppen verfügbare Arbeitszeit definiert und mithilfe von Kalendern für die einzelnen Ebenen gesteuert. In einem Arbeitsplatzgruppenkalender werden die Arbeitstage oder -stunden sowie Schichten, Feiertage und Fehlzeiten angegeben, anhand derer die verfügbare Bruttokapazität der Arbeitsplatzgruppe (üblicherweise gemessen in Minuten) bestimmt wird. All dies wird durch definierte Effizienz- und Kapazitätswerte festgelegt.  
@@ -37,11 +42,8 @@ Wenn Sie Produktion eingerichtet haben, können Sie Fertigungsaufträge berechne
 |Vorbereiten von Arbeitsplatzgruppen und Arbeitspläne vor, zum Steuern vergebener Produktionsschritte darzustellen.|[Fertigung durch Fremdarbeitsvertrag](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Siehe auch
-[Produktion](production-manage-manufacturing.md)
+[Bearbeitungen](production-manage-manufacturing.md)    
 [Planung](production-planning.md)   
 [Lagerbesttand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

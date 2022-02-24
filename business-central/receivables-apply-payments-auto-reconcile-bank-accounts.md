@@ -1,25 +1,26 @@
 ---
-title: Bankkonten abstimmen und Zahlungen zuweisen
+title: Zahlungen automatisch vornehmen und Bankkonten abstimmen| Microsoft Docs
 description: Zeigt Aufgaben, um Ihre Bank, Verkaufs- und Kreditorensammelkonte, Beitragszahlungseingänge oder Kosten auszugleichen und gleicht Zahlungen automatisch aus.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.search.form: 1290, 1291, 1293, 1294
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 12da473253ff3c494ec2c63e4fbfc32aedd5d1f9
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: 85f7feccd0eefa7c709ce077a8b01b049fc675c8
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101231"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954078"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Zahlungen automatisch vornehmen und Bankkonten abstimmen
-Sie müssen Ihre Bank, Debitoren- und Kreditorensammelkonten routinemässig abstimmen, indem Sie die Zahlungen, die in Ihrem Bankkonto aufgezeichnet sind, mit ihren entsprechenden offenen (unbezahlten) Rechnungen und Gutschriften oder anderen offenen Posten im [!INCLUDE[prod_short](includes/prod_short.md)]ausgleichen.  
+Sie müssen Ihre Bank, Debitoren- und Kreditorensammelkonten routinemässig abstimmen, indem Sie die Zahlungen, die in Ihrem Bankkonto aufgezeichnet sind, mit ihren entsprechenden offenen (unbezahlten) Rechnungen und Gutschriften oder anderen offenen Posten im [!INCLUDE[d365fin](includes/d365fin_md.md)]ausgleichen.  
 
 Diese Aufgabe können Sie dann auf der Seite **Zahlungs-Abstimmungs-Erf.-Journal** ausführen, z. B., indem Sie eine Bankkontoauszugsdatei oder einen Feed importieren, um die Zahlungen schnell zu erfassen. Die Zahlungen werden angewendet, um Debitoren- oder Kreditorenposten zu öffnen, indem passender Zahlungstext und Zahlungsinformationen verknüpft werden. Sie können auch automatische Anwendungen überprüfen und ändern, bevor Sie das Erfassungsjournal buchen. Sie können die offenen Bankkontoposten für ausgeglichenen Posten schliessen, wenn Sie das Erfassungsjournal buchen. Das bedeutet, dass das Bankkonto automatisch abgestimmt wird, wenn alle Zahlungen ausgeglichen werden.
 
@@ -29,10 +30,7 @@ Sie können auch, Bankkonten abstimmen ohne Zahlungen gleichzeitig anzuwenden. S
 
 Um den Import von Bankkontoauszügen als Bankfeed zu aktivieren, müssen Sie den Dienst „Envestnet Yodlee Bank Feeds“ anlegen und aktivieren und dann Ihr Bankkonto mit den entsprechenden Online Bankkonten verbinden. Weitere Informationen finden Sie unter [Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md).  
 
-> [!TIP]
-> Sie können Kontoauszugsdateien auch im durch Kommas oder Semikolons getrennten Format (.CSV) importieren. Verwenden Sie die unterstützte Einrichtung **Richten Sie ein Bankauszugs-Dateiimportformat ein** zum Definieren von Importformaten für Kontoauszüge und Anhängen des Formats an ein Bankkonto. Sie können diese Formate dann verwenden, wenn Sie Kontoauszüge in die Seite **Bankkontenabgleich** importieren.
-
-Alternativ können Sie mit der AMC Banking 365 Fundamentals-Erweiterung eine Kontoauszugsdatei von jedem Format in einen Datenstrom konvertieren, den Sie in [!INCLUDE[prod_short](includes/prod_short.md)] importieren können. Weitere Informationen finden Sie [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md).  
+Alternativ können Sie mit der AMC Banking 365 Fundamentals Erweiterung eine Kontoauszugsdatei von jedem Format in einen Datenstrom konvertieren, den Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] importieren können. Weitere Informationen finden Sie unter [Benutzung der AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md).  
 
 In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert  
 
@@ -50,7 +48,4 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Bankkonten abstimmen](bank-how-reconcile-bank-accounts-separately.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

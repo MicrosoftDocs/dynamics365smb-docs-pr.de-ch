@@ -1,22 +1,26 @@
 ---
-title: Terminologie der Kostenrechnung
-description: 'Dieses Thema definiert die wichtigsten Begriffe, die in der Kalkulation verwendet werden, wie z.B. Verrechnungsschlüssel und Verrechnungsquelle.'
+title: Terminologie der Kostenrechnung | Microsoft Docs
+description: Dieses Thema definiert die Schlüsselbegriffe, die in der Kostenrechnung verwendet werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: null
-ms.date: 06/16/2021
-ms.author: edupont
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 12d6f671843fe82cb83fa3128ae1cb8908d98bf4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182698"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologie der Kostenrechnung
-
 Dieses Thema definiert die Schlüsselbegriffe, die in der Kostenrechnung verwendet werden.  
 
-## <a name="key-terms"></a>Schlüsselbegriffe
-
+## <a name="key-terms"></a>Schlüsselbegriffe  
  In der folgenden Tabelle werden Definitionen der Schlüsselbegriffe in der Kostenrechnung gezeigt.  
 
 |**Begriff**|**Definition**|  
@@ -46,7 +50,4 @@ Dieses Thema definiert die Schlüsselbegriffe, die in der Kostenrechnung verwend
 ## <a name="see-also"></a>Siehe auch  
  [Informationen zur Kostenrechnung](finance-about-cost-accounting.md)   
  [Kostenrechnung](finance-manage-cost-accounting.md)  
- [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

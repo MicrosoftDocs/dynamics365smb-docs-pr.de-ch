@@ -1,24 +1,26 @@
 ---
-title: Schweizer Salestax [CH]
-description: In diesem Artikel werden mehrere Verbesserungen an den Schweizer Mehrwertsteuerberichterstellungsfunktionen vorgenommen.
+title: Mehrwertsteuer (Schweiz)
+description: Schweizer Erweiterungen enthalten spezielle Mehrwertsteuerberichterstellungsfunktionen.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: b8ebca2f78a70b1cceab1825bfa1d54fd91628ed
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f07e27118002f7c793b7d49ddadcef023dc026ef
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319294"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300962"
 ---
 # <a name="swiss-value-added-tax"></a>Mehrwertsteuer (Schweiz)
-[!INCLUDE[prod_short](../../includes/prod_short.md)] enthält die folgenden Erweiterungen für die Schweizer Mehrwertsteuerberichterstellung:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enthält die folgenden Erweiterungen für die Schweizer Mehrwertsteuerberichterstellung:  
 
 - Automatische Regulierung von MWST-Beträgen für Rechnungen entsprechend dem Skonto  
 - Zusätzliche MWST-Wechselkurse für Rechnungen in Fremdwährungen  
@@ -39,6 +41,3 @@ In die MWST-Posten werden weitere Angaben übertragen, z. B. der MWST-Satz und 
  [MWST-Sätze für die Schweiz](vat-rates-for-switzerland.md)   
  [Erstellen und Drucken einer Schweizer MWST-Abrechnung](how-to-create-and-print-a-swiss-vat-statement.md)   
  [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)   
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

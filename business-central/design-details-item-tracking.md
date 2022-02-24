@@ -1,26 +1,26 @@
 ---
-title: Design-Details – Element-Tracking
-description: Die Artikeltracking bietet eine einfache Handhabung von Seriennummern und Chargennummern, die für die Erfüllung gesetzlicher Anforderungen oder zur Unterstützung der Garantieabwicklung benötigt werden.
+title: 'Designdetails: Artikeltrackingdesign | Microsoft Docs'
+description: Dieses Thema zeigt eine Übersicht über Entwurfsdetails für Artikeltracking.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 788d003324ccf7314d316f201cc561e0a2877933
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 2e770792bea2c4ddbc66128f20726d58654737d1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320303"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185050"
 ---
 # <a name="design-details-item-tracking"></a>Designdetails: Artikeltracking
 Da der Warenfluss in heutigen Lieferketten immer komplexer wird, wird die Möglichkeit, Artikel nachzuverfolgen für die involvierten Unternehmen immer wichtiger. Den Transaktionsfluss eines Artikels zu überwachen ist eine gesetzlich vorgeschriebenes Erfordernis in Bezug auf medizinische und chemische Vorräte, andere Sektoren haben Produkte mit Garantien oder Ablaufdatumsangaben für Kundenservicegründe zu überwachen.  
 
-Ein Artikeltrackingsystem sollte für eine einfache Handhabung der Serien- und Chargennummern bieten, unter Berücksichtigung, dass jeder Artikel eine eindeutige Ware darstellt, Empfang und Eingang, Lagerort und Verkaufsdatum anzeigt. [!INCLUDE[prod_short](includes/prod_short.md)] hat schrittweise seine Abdeckung dieser Geschäftsanforderung erweitert und stellt heute eine breite Funktionalität und festes Kernstück in den Erweiterungen bereit.einen widerrufen Kernstück bereitstellt, in denen Erweiterungen definieren.  
+Ein Artikeltrackingsystem sollte für eine einfache Handhabung der Serien- und Chargennummern bieten, unter Berücksichtigung, dass jeder Artikel eine eindeutige Ware darstellt, Empfang und Eingang, Lagerort und Verkaufsdatum anzeigt. [!INCLUDE[d365fin](includes/d365fin_md.md)] hat schrittweise seine Abdeckung dieser Geschäftsanforderung erweitert und stellt heute eine breite Funktionalität und festes Kernstück in den Erweiterungen bereit.einen widerrufen Kernstück bereitstellt, in denen Erweiterungen definieren.  
 
 ## <a name="in-this-section"></a>In diesem Abschnitt  
 [Designdetails: Artikeltrackingdesign](design-details-item-tracking-design.md)  
@@ -31,9 +31,3 @@ Ein Artikeltrackingsystem sollte für eine einfache Handhabung der Serien- und C
 [Designdetails: Artikeltracking und Planung](design-details-item-tracking-and-planning.md)  
 [Designdetails: Artikeltracking und Reservierungen](design-details-item-tracking-and-reservations.md)  
 [Designdetails: Artikeltracking im Lager](design-details-item-tracking-in-the-warehouse.md)
-
-## <a name="see-also"></a>Siehe auch
-
-[Arbeiten mit Serien‑, Chargen‑ und Paketnummern](inventory-how-work-item-tracking.md)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

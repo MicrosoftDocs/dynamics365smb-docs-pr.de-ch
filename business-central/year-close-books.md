@@ -1,16 +1,23 @@
 ---
-title: Übersicht über die erforderlichen Aufgaben für das Schliessen der Bücher
-description: 'Erhalten von Informationen über das Schliessens der Bücher für ein Geschäftsjahr oder für eine Periode, und was passiert, nachdem Sie das Jahr abgeschlossen haben.'
+title: Überblick über die erforderlichen Aufgaben für das Schliessen der Bücher| Microsoft Docs
+description: Erhalten von Informationen über das Schliessens der Bücher für ein Geschäftsjahr oder für eine Periode, und was passiert, nachdem Sie das Jahr abgeschlossen haben.
+services: project-madeira
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
-m.search.form: 100
-ms.date: 04/01/2021
+ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.date: 10/01/2019
 ms.author: jswymer
+ms.openlocfilehash: db4ec1033a830cb72b602691797d2b1ff637c2e7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310122"
 ---
 # <a name="closing-the-books"></a>Bucher schliessen
 Nachdem sichergestellt wurde, dass sich alle Konten auf dem neuesten Stand befinden und Kosten und Umsatz verteilt wurden, können die Bücher für ein Geschäftsjahr oder für eine Periode abgeschlossen werden.
@@ -47,9 +54,5 @@ Anschliessend wird ein Ultimoposten generiert, der jedoch nicht automatisch gebu
 Sie können Buchungen in einem früheren Geschäftsjahr auch durchführen, nachdem die Erfolgskonten geschlossen wurden, wenn Sie danach die Stapelverarbeitung Erfolgskonten Nullstellung erneut ausführen.
 
 ## <a name="see-also"></a>Siehe auch
-
-[Arbeiten mit Buchhaltungsperioden und Geschäftsjahren](finance-accounting-periods-and-fiscal-years.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Ein neues Geschäftsjahres eröffnen](finance-how-open-new-fiscal-year.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

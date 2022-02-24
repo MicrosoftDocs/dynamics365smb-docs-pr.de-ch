@@ -1,87 +1,73 @@
 ---
-title: Vorauszahlungen einrichten
-description: Hier erfahren Sie, wie Sie Business Central so konfigurieren, dass Sie Vorauszahlungen verwenden können, um Rechnungen zu erstellen und Kautionen von Debitoren einzuziehen und Kautionen an Kreditoren zu überweisen.
+title: Einrichten von Vorauszahlungen | Microsoft Docs
+description: Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und auf einen Vorauszahlungsauftrag (Einkauf oder Verkauf) gebucht werden. Möglicherweise bestehen Sie auf einer Anzahlung, bevor Sie Artikel nach Mass fertigen, oder Sie bestehen auf einer Anzahlung, bevor die Artikel an den Debitor geliefert werden. Mithilfe der Vorauszahlungsfunktion können Sie Anzahlungen von Debitoren fakturieren und einfordern oder Anzahlungen an Kreditoren leisten. Somit kann sichergestellt werden, dass alle Zahlungen mit einer Rechnung ausgeglichen werden.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.search.keyword: prepayment
-ms.search.form: 314, 459, 460, 664
-ms.date: 10/27/2021
+ms.topic: article
+ms.search.keywords: prepayment
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9d9decead1e6207915fd3a162cadae0354f0f257
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: c1e129947d6230578b5c553fd985030e2f5ebc5c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8100919"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182842"
 ---
 # <a name="set-up-prepayments"></a>Vorauszahlungen einrichten
-
-Wenn Sie von Ihren Debitoren erwarten, dass diese vor der Lieferung eines Auftrags eine Vorauszahlung leisten oder wenn der Kreditor von Ihnen eine Vorauszahlung vor Lieferung erwartet, können Sie die Funktion "Vorauszahlung" verwenden. Die Vorauszahlungsfunktionalität ermöglicht es Ihnen, von Debitoren geforderte Kautionen in Rechnung zu stellen und einzuziehen oder Kautionen an Kreditoren zu überweisen, um sicherzustellen, dass alle Teilzahlungen gegen eine Rechnung gebucht werden. Weitere Informationen finden Sie unter [Vorauszahlungsrechnungen erstellen](finance-how-to-create-prepayment-invoices.md).
+Wenn Sie von Ihren Debitoren erwarten, dass diese vor der Lieferung eines Auftrags eine Vorauszahlung leisten oder wenn der Kreditor von Ihnen eine Vorauszahlung vor Lieferung erwartet, können Sie die Funktion "Vorauszahlung" verwenden. Mithilfe der Vorauszahlungsfunktion können Sie Anzahlungen von Debitoren fakturieren und einfordern oder Anzahlungen an Kreditoren leisten, und um sicherzustellen, dass alle Teilzahlungen für eine Rechnung gebucht werden. Weitere Informationen finden Sie unter [Vorauszahlungsrechnungen erstellen](finance-how-to-create-prepayment-invoices.md).
 
 Damit Vorauszahlungsrechnungen gebucht werden können, müssen in der Finanzbuchhaltung zunächst die Buchungskosten sowie die Nummernserien für Vorauszahlungsbelege eingerichtet werden. Sie müssen ein Konto für Vorauszahlungen im Zusammenhang mit Verkäufen und ein Konto für Vorauszahlungen im Zusammenhang mit dem Einkauf angeben. Sie können dieselben Buchungskonten angeben, die für alle Vorauszahlungen für alle allgemeinen Geschäftsbuchungsgruppen oder allgemeinen Produktbuchungsgruppen verwendet werden sollen, oder Sie können bestimmte Konten für bestimmte Buchungsgruppen für den Verkauf bzw. Einkauf angeben. Dies hängt von den Anforderungen Ihres Unternehmens zur Nachverfolgung von Vorauszahlungen ab.  
 
 Sie können den Prozentsatz des zur Zahlung fakturierten Zeilenbetrags für einen Debitor, einen Kreditor, für alle Artikel oder für ausgewählte Artikel definieren. Nach dem Festlegen der Einstellungen können Vorauszahlungsrechnungen auf der Grundlage von Aufträgen und Bestellungen generiert werden. Sie können für jede Verkaufs- oder Einkaufszeile entweder die standardmässigen Prozentsätze verwenden oder die Beträge der Rechnungen gemäss Ihren Anforderungen anpassen. So können Sie beispielsweise den Gesamtbetrag für den gesamten Auftrag angeben.  
 
-> [!NOTE]
-> Wir empfehlen Ihnen, in den folgenden Fällen keinen Vorauszahlungsprozentsatz von 100 zu verwenden:
->
-> * Wenn Sie sich in Nordamerika befinden. Aufgrund der Art und Weise, wie Steuern berechnet werden, kann ein Vorauszahlungsprozentsatz von 100 zu Problemen mit Vorauszahlungsrechnungen führen.
-> * In allen Regionen, wenn Sie manuell ein Skonto von der Rechnung abziehen. Ein Vorauszahlungsprozentsatz von 100 lässt nicht automatisch einen Betrag übrig, von dem das Disagio abgezogen werden kann.
->
-> Wenn Sie einen Vorauszahlungsprozentsatz von 100 verwenden, kann es ausserdem sein, dass Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] ausgleichende Rundungseinträge erstellen müssen. In diesem Fall müssen Sie auf der Seite **Debitorenbuchungsgruppen** im Feld **Rechnungsabrundungskonto** ein Fibukonto auswählen. Dies gilt auch dann, wenn Sie die Option **Rechnungsrundung** auf der Seite **Einrichtung Debitoren & Verkauf** nicht aktiviert haben. Wenn Sie kein Konto angeben, können Sie keine Vorauszahlungsrechnungen buchen. 
-
-Da der vorausgezahlte Betrag Eigentum des Käufers ist, bis dieser die Ware oder die Leistung erhalten hat, müssen Sie Fibukonten einrichten, auf denen die Vorauszahlungsbeträge bis zur Buchung der abschliessenden Rechnung erfasst werden. Vorauszahlungen für Verkaufsaufträge müssen auf einem Verbindlichkeitskonto gebucht werden, bis die Artikel geliefert wurden. Vorauszahlungen für Bestellungen müssen auf einem Anlagenkonto erfasst werden, bis die Artikel eingegangen sind. Darüber hinaus müssen Sie ein separates Fibukonto für jedes MWST-Kennzeichen einrichten.  
+Da der vorausgezahlte Betrag Eigentum des Käufers ist, bis dieser die Ware oder die Leistung erhalten hat, müssen Sie Sachkonten einrichten, auf denen die Vorauszahlungsbeträge bis zur Buchung der abschliessenden Rechnung erfasst werden. Vorauszahlungen für Verkaufsaufträge müssen auf einem Verbindlichkeitskonto gebucht werden, bis die Artikel geliefert wurden. Vorauszahlungen für Bestellungen müssen auf einem Anlagenkonto erfasst werden, bis die Artikel eingegangen sind. Darüber hinaus müssen Sie ein separates Fibukonto für jedes MWST.-Kennzeichen einrichten.  
 
 [!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>So fügen Sie Vorauszahlungskonten zu "Buchungsmatrix Einrichtung" hinzu:  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Allgemeine Buchungsmatrixeinrichtung** ein, und wählen Sie dann den zugehörigen Link.
-2. Auf der Seite **Buchungsmatrix Einrichtung** müssen die folgenden Felder für die entsprechenden Zeilen ausgefüllt werden:  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Buchungsmatrix** ein und wählen Sie dann den entsprechenden Link.
+2. Auf der Seite **Buchungsmatrix Einrichtung** müssen die folgenden Felder ausgefüllt werden:  
 
-    * **Verkaufsvorauszahlungs-Konto**  
-    * **Einkaufsvorauszahlungs-Konto**  
+    - **Verkaufsvorauszahlungs-Konto**  
+    - **Einkaufsvorauszahlungs-Konto**  
 
 > [!TIP]
 > Wenn Sie die Felder auf der Seite **Buchungsmatrix einrichten** nicht sehen können, verwenden Sie die horizontale Bildlaufleiste am unteren Rand der Seite, um nach rechts zu scrollen.  
 
-Wenn Sie das Fibukonto für Vorauszahlungen nicht bereits eingerichtet haben, können Sie dies auf der Seite **Fibukontenliste** vom relevanten Kontofeld aus tun.  
+Wenn Sie das Sachkonto für Vorauszahlungen nicht bereits eingerichtet haben, können Sie dies auf der Seite **Sachkontenliste** vom relevanten Kontofeld aus tun.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>So richten Sie Nummernserien für Vorauszahlungsbelege ein:  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.
-2. Füllen Sie auf der Seite **Debitoren & Verkauf Einr.** im Inforegister **Nummernserie** die folgenden Felder aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Einrichten von Verkauf und Forderungen** ein, und wählen Sie dann den zugehörigen Link aus.
+2. Füllen Sie auf der Seite **Debitoren & Verkauf Einr.** die folgenden Felder aus:  
 
-   * **Geb. Vorauszahlungs-Rechnungsnr.**
-   * **Geb. Vorauszahlungs-Gutschriftennr.**
+   - **Geb. Vorauszahlungs-Rechnungsnr.**
+   - **Geb. Vorauszahlungs-Gutschriftennr.**
 
-3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Geben Sie **Kreditoren & Einkauf einrichten** ein, und wählen Sie dann den zugehörigen Link aus.
-4. Füllen Sie auf der Seite **Kreditoren & Einkauf Einr.** im Inforegister **Nummernserie** die folgenden Felder aus:
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Einrichten von Einkäufen und Verbindlichkeiten** ein, und wählen Sie dann den zugehörigen Link aus.
+2. Füllen Sie auf der Seite **Kreditoren & Einkauf Einr.** die folgenden Felder aus:
 
-    * **Geb. Vorauszahlungs-Rechnungsnr.**
-    * **Geb. Vorauszahlungs-Gutschriftennr.**
+    - **Geb. Vorauszahlungs-Rechnungsnr.**
+    - **Geb. Vorauszahlungs-Gutschriftennr.**
 
 > [!NOTE]  
 > Für Vorauszahlungsrechnungen und reguläre Rechnungen können dieselben oder unterschiedliche Nummernserien verwendet werden. Unterschiedliche Nummernserien dürfen sich nicht überschneiden, d. h. es darf keine Nummer in beiden Serien gleichzeitig vorhanden sein.  
 
-## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Einrichtung von Vorauszahlungsprozentsätze für Artikel, Debitoren und Kreditoren
+## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Einrichtung von Vorauszahlungsprozentsätze für Artikel, Debitoren und Kreditoren  
+Für einen Artikel können Sie einen standardmässigen Vorauszahlungsprozentsatz für alle Debitoren, einen bestimmten Debitor oder eine Debitorenpreisgruppe einrichten.  
 
-Für einen Artikel können Sie einen standardmässigen Vorauszahlungsprozentsatz für alle Debitoren, einen bestimmten Debitor oder eine Debitorenpreisgruppe einrichten. Wenn Sie nicht auf alle Debitoren denselben Vorauszahlungsprozentsatz anwenden möchten, müssen Sie angeben, für welche Debitoren oder für welche Debitorenpreisgruppen der Vorauszahlungsprozentsatz gilt.
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie eien Artikel aus und wählen Sie dann die Aktion **Vorauszahlungsprozentsätze** aus.  
 3. Füllen Sie auf der Seite **Verkaufsvorauszahlungs-Prozentsätze** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Für einen Debitor oder Kreditor können Sie einen standardmässigen Vorauszahlungsprozentsatz für alle Artikel und alle Arten von Verkaufszeilen einrichten. Dies geben Sie auf der Debitoren- oder Kreditorenkarte ein. Das folgende Verfahren zeigt, wie Sie einen Vorauszahlungsprozentsatz für einen Debitor angeben, aber ähnliche Schritte gelten für Kreditoren.  
+Für einen Debitor oder Kreditor können Sie einen standardmässigen Vorauszahlungsprozentsatz für alle Artikel und alle Arten von Verkaufszeilen einrichten. Dies geben Sie auf der Debitoren- oder Kreditorenkarte ein.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie eine Karte für einen Debitor.
 3. Füllen Sie das Feld **Vorauszalung %** aus.
 4. Wiederholen Sie die Schritte für die anderen Debitoren oder Kreditoren.  
-
-> [!TIP]
-> Sie können auch die Seite **Verkaufsvorauszahlungs-Prozentsätze** über die Debitoren- oder Kreditorenkarte aufrufen.
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>So stellen Sie fest, welcher Vorauszahlungsprozentsatz die höchste Priorität hat:  
 
@@ -102,7 +88,4 @@ Anders ausgedrückt, der Vorauszahlungsprozentsatz auf der Debitorenkarte wird n
 [Berechnen von Salestax für Waren und Dienstleistungen auf Vorauszahlungen in Neuseeland](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Verständnis der Fibu und des COA](finance-general-ledger.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

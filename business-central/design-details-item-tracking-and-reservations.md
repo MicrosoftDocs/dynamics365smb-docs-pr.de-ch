@@ -1,24 +1,23 @@
 ---
-title: Design Details – ElementTracking und Reservierungen
-description: Dieses Thema behandelt die Artikeltracking und Reservierungen und beschreibt die Konzepte hinter den beiden Optionen.
+title: 'Designdetails: Artikeltracking und Reservierungen | Microsoft Docs'
+description: Dieses Thema befasst sich mit Artikeltracking und mit Reservierungen und beschreiben die Konzepte der zwei.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: d2c5032983bd20fc1e8fa902bd6ed522506fc5b3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: bfa2706b4d6d44a6f565685a66668c336b7a20e3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320902"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185122"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetails: Artikeltracking und Reservierungen
-
 Die gleichzeitige Verwendung von Reservierung und spezifischer Artikeltracking ist selten, da beide eine Kopplung zwischen Vorrat und Bedarf erstellen. Mit Ausnahme von Situationen, in denen ein Kunde oder ein Produktionsplaner eine bestimmte Charge anfragt, ist es selten sinnvoll, Lagerartikel zu reservieren, die bereits Artikeltrackingnummern für bestimmte Anwendungen tragen. Obwohl es möglich ist, Artikel zu reservieren, die eine spezifische Artikeltracking erfordern, sind spezielle Funktionen erforderlich, um Verfügbarkeitskonflikte zwischen Auftragsbearbeitern zu vermeiden, die dieselben artikelnachverfolgten Artikel anfordern.  
   
 Das Konzept der späten Bindung stellt sicher, dass eine nicht-spezifische Reservierung einer Seriennummer oder einer Chargennummer bis zur Buchung lose verbunden bleibt. Zum Zeitpunkt der Buchung kann das Reservierungssystem nicht-spezifische Reservierungen umändern, um sicherzustellen, dass ein fester Ausgleich anhand der Serien- oder Chargennummer möglich ist, die tatsächlich kommissioniert wurde. Unterdessen wird die Serien- oder Chargennummer für spezifische Reservierungen in anderen Belegen bereitgestellt, die bestimmte Serien- oder Chargennummern erfordern.  
@@ -26,7 +25,7 @@ Das Konzept der späten Bindung stellt sicher, dass eine nicht-spezifische Reser
 Eine nicht-spezifische Reservierung ist eine Reservierung, bei der der Benutzer nicht interessiert ist, welcher bestimmte Artikel kommissioniert wird, und eine spezifische Reservierung ist eine, bei der der Benutzer daran interessiert ist.  
   
 > [!NOTE]  
-> Die Funktionalität der späten Bindung bezieht sich nur auf Artikel, die mit spezifischer Artikeltracking eingerichtet wurden, sowie nur auf Reservierungen gegen den Bestand, nicht gegen eingehende Beschaffungsaufträge.  
+>  Die Funktionalität der späten Bindung bezieht sich nur auf Artikel, die mit spezifischer Artikeltracking eingerichtet wurden, sowie nur auf Reservierungen gegen den Bestand, nicht gegen eingehende Beschaffungsaufträge.  
   
 Die Reservierung von Artikeltrackingnummern zerfällt in zwei Kategorien, wie in der folgenden Tabelle dargestellt.  
   
@@ -36,11 +35,12 @@ Die Reservierung von Artikeltrackingnummern zerfällt in zwei Kategorien, wie in
 |Unspezifisch|Sie können keine bestimmte Serien- oder Chargennummer auswählen, wenn Sie den Lagerartikel aus einem Bedarf reservieren, beispielsweise einem Verkaufsauftrag.<br /><br /> Dies ist ein Status, der einem Reservierungsposten für Serien- oder Chargennummern, die nicht speziell ausgewählt werden, auferlegt wird. **Hinweis:**  Der Bedarf trägt keine Serien- oder Chargennummern. <br /><br /> Sie möchten beispielsweise eine Dose blaue Farbe von einer Charge für Ihren Verkaufsauftrag reservieren. Eine Dose blaue Farbe einer zufälligen Serien- oder Chargennummer wird an den Kunden geliefert.|  
   
 Der hauptsächliche Unterschied zwischen spezifischer und unspezifischer Reservierung ist durch das Vorhandensein von Serien- oder Chargennummern auf in der Bedarfsseite definiert, wie in der folgenden Tabelle gezeigt.  
-
-| Art            | Vorrat                | Bedarf                   |
-|-----------------|-----------------------|--------------------------|
-| **Ausgewählt**    | Serien- oder Chargennummer | Serien- oder Chargennummer    |
-| **Unspezifisch** | Serien- oder Chargennummer | Keine Serien- oder Chargennummer. |
+  
+||||  
+|-|-|-|  
+||**Vorrat**|**Bedarf**|  
+|**Ausgewählt**|Serien- oder Chargennummer|Serien- oder Chargennummer|  
+|**Unspezifisch**|Serien- oder Chargennummer|Keine Serien- oder Chargennummer.|  
   
 Wenn Sie reservieren, werden Lagerbestandsmengen aus einem ausgehenden Beleg für einen Artikel, der die zugeordneten Artikeltrackingnummern hat und für bestimmtes Artikeltracking eingerichtet ist, führt Sie die Seite **Reservierung** durch verschiedene Workflows entsprechend Ihres Bedarfs für eine Serien- oder Chargennummer.  
   
@@ -92,5 +92,3 @@ Dieses Geschäftsszenario wird durch die Late Binding-Funktionalität unterstüt
   
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Artikeltracking](design-details-item-tracking.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

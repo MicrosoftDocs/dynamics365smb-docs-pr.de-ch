@@ -1,18 +1,24 @@
 ---
-title: Übersicht über Vorab-Abschlussberichte zur Überprüfung der Kontengenauigkeit
-description: 'Ihnen stehen eine Vielzahl von Standardberichten zur Verfügung, um die Fehlerfreiheit der Konten zu prüfen, bevor die Bücher am Jahres- oder Periodenende abgeschlossen werden.'
+title: Übersicht der Vor-Abschlussberichte, um die Konten-Genauigkeit sicherzustellen| Microsoft Docs
+description: Ihnen stehen eine Vielzahl von Standardberichten zur Verfügung, um die Fehlerfreiheit der Konten zu prüfen, bevor die Bücher am Jahres- oder Periodenende abgeschlossen werden.
+services: project-madeira
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: '1393, 1394'
-ms.date: 04/01/2021
+ms.date: 04/01/2019
 ms.author: jswymer
+ms.openlocfilehash: d3e522f1fedf4e5ea5beaccd0e0fc015414b87c6
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249712"
 ---
 # <a name="using-pre-closing-reports"></a>Vorabschlussberichte verwenden
-
 Ihnen stehen eine Vielzahl von Standardberichten zur Verfügung, um die Fehlerfreiheit der Konten zu prüfen, bevor die Bücher am Jahres- oder Periodenende abgeschlossen werden. So können Sie sich beispielsweise mithilfe des Berichts **Debitor - Bilanz** vergewissern, dass an einem bestimmten Datum der Saldo einer Debitorenbuchungsgruppe dem Saldo des zugehörigen Fibukontos entspricht.
 
 Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Prozess zusammen mit dem Berichtnamen hilfreich sein können.
@@ -29,13 +35,9 @@ Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Proz
 | Drucken eines Bilanzberichts mit Salden und Bewegungen für Fibukonten |Bilanz |
 | Drucken einer Bilanz für einen konsolidierten Mandanten |Konsolidierung Bilanz |
 
-Um einen Bericht zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol, geben Sie den Namen ein, wie er in der Tabelle erscheint, und wählen Sie dann den zugehörigen Link.
+Zur Anzeige eines Berichts wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie den Namen win der Tabelle angezeigt ein, und wählen dann den zugehörigen Link aus.
 
 ## <a name="see-also"></a>Siehe auch
-
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

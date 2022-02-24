@@ -1,24 +1,25 @@
 ---
-title: Verarbeiten eines LSV-Einzugs [CH]
-description: Mithilfe von LSV-Journalen können Zahlungen von LSV+-Debitoren (Lastschriftverfahren) erstellt und verarbeitet werden.
+title: 'Gewusst wie: Verarbeiten eines LSV-Einzugs'
+description: Mithilfe von LSV-Journalen können Zahlungen von LSV+-Debitoren (Lastschriftverfahren) erstellt und verarbeitet werden. Sie können diese Zahlungen im Zahlungseingangs-Erfassungsjournal erfassen, eine LSV-Datei erstellen und dann den Einzugsauftrag drucken.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: e5f8db36e8a9e61a5c7843bb8317a6e5cd5e13d9
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 6bd65080387b7c2368672d1735a045a999cc49f2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947174"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301004"
 ---
-# <a name="process-an-lsv-collection-in-the-swiss-version"></a>Eine LSV-Sammlung verarbeiten in der Schweizer Version
+# <a name="process-an-lsv-collection"></a>Verarbeiten eines LSV-Einzugs
 Mithilfe der **LSV-Erf.-Journal**-Seite können Zahlungen von LSV+-Debitoren (Lastschriftverfahren) erstellt und verarbeitet werden. Sie können diese Zahlungen im Zahlungseingangs-Erfassungsjournal erfassen, eine LSV-Datei erstellen und dann den Einzugsauftrag drucken. Weitere Informationen finden Sie unter Zahlungseingangs Erf.-Journal (Seite) und [Exportieren von Zahlungen mit LSV](how-to-export-payments-using-lsv.md).  
 
 Wenn Sie den Stapelverarbeitungsauftrag **LSV Einzugsvorschlag** ausführen, wird jeder vorgeschlagene Einzug in einer LSV-Journalzeile erfasst, und die offenen Rechnungen werden in die LSV-Journale übertragen. Weitere Informationen finden Sie unter LSV-Erf.-Journal – Tabelle.  
@@ -27,7 +28,7 @@ Sie können die vorgeschlagenen Zahlungszeilen anzeigen, bearbeiten oder lösche
 
 ## <a name="to-create-an-lsv-collection"></a>So erstellen Sie einen LSV-Einzug  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **LSV-Journal Liste** ein, und wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite ober Bericht suchen") und geben **LSV Erf.-Journal Liste** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Füllen Sie auf der Seite **LSV-Journal Liste** die erforderlichen Felder wie in der folgenden Tabelle beschrieben aus.  
 
@@ -60,9 +61,6 @@ Alle zugehörigen Zeilen werden in das LSV-Journal übertragen. Nach der Verarbe
 
 ## <a name="see-also"></a>Siehe auch  
  [Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md)   
- [Abschliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md)   
+ [Schliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md)   
  [Buchen von LSV+ Zahlungen](how-to-post-lsv-payments.md)   
  [Exportieren von Zahlungen mit LSV](how-to-export-payments-using-lsv.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

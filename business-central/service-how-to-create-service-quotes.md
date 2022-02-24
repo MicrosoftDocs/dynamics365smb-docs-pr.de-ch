@@ -1,21 +1,21 @@
 ---
-title: Wie Sie ServiceOfferten erstellen
-description: Erfahren Sie, wie Sie ein Serviceofferte als Vorentwurf für einen Serviceauftrag verwenden und dann das Offerte in einen Serviceauftrag umwandeln.
+title: So erstellen Sie Serviceofferten | Microsoft Docs
+description: Sie können die Seite **Serviceofferte** verwenden, um Belege zu erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Debitorenanfrage eingeben. Serviceofferten können als Vorentwürfe von Serviceaufträgen betrachtet werden, die dann von der Offerte in einen Auftrag umgewandelt werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 3a28ee7522faa1e08608deb00718bf955e0e4984
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 4e04c2dc74ab1ecc0c0041258ca1824f872caac8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441924"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877245"
 ---
 # <a name="create-service-quotes"></a>Serviceofferten erstellen
 Sie können an Serviceofferten als Basis für Serviceaufträge denken. Tatsächlich sind sie fast identisch. Sie enthalten sowohl die Serviceartikelbeschreibung, wie der Debitor, die Art des Auftrags, den Artikel, für den Service, Gebührenzählung und benötigte Versandinformationen, und die Informationen über die tatsächliche Dienstarbeit.
@@ -23,9 +23,9 @@ Sie können an Serviceofferten als Basis für Serviceaufträge denken. Tatsächl
 Serviceofferten können als Vorentwürfe von Serviceaufträgen betrachtet werden, die dann von der Offerte in einen Auftrag umgewandelt werden.  
   
 ## <a name="to-create-a-service-quote"></a>So erstellen Sie eine Serviceofferte  
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **ServiceOfferten** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Serviceofferten** ein und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie eine neue Serviceofferte.  
-3. Geben Sie im Feld **Nr.** eine Nummer für die Serviceofferte ein. Wenn Sie Nummernserien für Serviceofferten auf der Seite **Service Einrichtung** definiert haben, Eingabetaste drücken, um die nächste verfügbare Serviceoffertennummer auszuwählen.  
+3. Geben Sie im Feld **Nr.** eine Nummer für die Serviceofferte ein. Wenn Sie Nummernserien für Serviceofferten auf der Seite **Service Einrichtung** definiert haben, drücken Sie die Eingabetaste, um die nächste verfügbare Serviceoffertennummer auszuwählen.  
 4. Klicken Sie im Feld **Debitorennr.**  Feld wählen Sie den relevanten Debitoren aus der Liste.  
 
   > [!Note]  
@@ -40,5 +40,3 @@ Serviceofferten können als Vorentwürfe von Serviceaufträgen betrachtet werden
 [Mit Serviceaufgaben arbeiten](service-how-to-work-on-service-tasks.md)  
 
  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

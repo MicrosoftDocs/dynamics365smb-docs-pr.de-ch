@@ -1,26 +1,26 @@
 ---
-title: 'Um ServiceOfferten einzurichten:'
-description: Beim Einrichten des Servicemanagements muss festgelegt werden, welche Services Debitoren angeboten werden und ein entsprechender Zeitplan entworfen werden.
+title: Einrichten von Serviceangeboten | Microsoft Docs
+description: Erfahren Sie, wie die Anwendung eingerichtet wird, die Sie Ihren Debitoren anbieten.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: a3a61ba65136aa15836039ac54057eefff37f29d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 8d34ef54ebfe16b59149036d59c2ce6e264baefb
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323899"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877269"
 ---
-# <a name="set-up-service-offerings"></a>Um ServiceOfferten einzurichten:
+# <a name="set-up-service-offerings"></a>Um Serviceangebote einzurichten:
 Beim Einrichten des Servicemanagements muss festgelegt werden, welche Services Debitoren angeboten werden und ein entsprechender Zeitplan entworfen werden. Bei einem Service handelt es sich um eine Arbeit, die von mindestens einer Ressource ausgeführt und einem Debitor zur Verfügung gestellt wird. Ein Beispiel für einen Service ist die Reparatur eines Computers. Ein Serviceartikel ist das Gerät oder der Artikel, für den ein Service zu erbringen ist, beispielsweise ein reparaturbedürftiger Computer, der bei einem bestimmten Debitor installiert ist. Sie können Services als Teil einer Gruppe zugehöriger zu reparierender oder zu wartender Artikel einrichten.  
   
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert  
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
   
 |**Bis**|**Siehe**|  
 |------------|-------------|  
@@ -29,5 +29,3 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
   
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten der Serviceverwaltung](service-setup-service.md)   
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

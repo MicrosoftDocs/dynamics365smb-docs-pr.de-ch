@@ -1,29 +1,30 @@
 ---
-title: Exportieren von Zahlungen mit LSV [CH]
-description: Nachdem der LSV-Einzug abgeschlossen wurde, können Sie LSV+-Dateien (Lastschriftverfahren) mit Zahlungsinformationen exportieren oder erstellen.
+title: Exportieren von Zahlungen mit LSV
+description: Nachdem der LSV-Einzug abgeschlossen wurde, können Sie LSV+-Dateien (Lastschriftverfahren) mit Zahlungsinformationen exportieren oder erstellen. Sie können die generierten Dateien auf einem Datenträger an die Bank senden oder eine elektronische Methode der Dateiübertragung wie die Onlinebankingsoftware oder ein Internetportal verwenden.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: 088062ff0eace7d0c8c900f370f87879ae029da4
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 8bf948ec9440e22a30b2cc549b81d404d5e303e8
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947129"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301056"
 ---
-# <a name="export-payments-using-lsv-in-the-swiss-version"></a>Zahlungen mit LSV exportieren in der Schweizer Version
+# <a name="export-payments-using-lsv"></a>Exportieren von Zahlungen mit LSV
 Nachdem der LSV-Einzug abgeschlossen wurde, können Sie LSV+-Dateien (Lastschriftverfahren) mit Zahlungsinformationen exportieren oder erstellen. Sie können die generierten Dateien auf einem Datenträger an die Bank senden oder eine elektronische Methode der Dateiübertragung wie die Onlinebankingsoftware oder ein Internetportal verwenden.  
 
 ## <a name="to-export-payments-using-lsv"></a>So exportieren Sie Zahlungen mit LSV  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **LSV-Journal Liste** ein, und wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite ober Bericht suchen") und geben **LSV Erf.-Journal Liste** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie auf der Seite **LSV-Journal Liste** das gewünschte LSV-Journal aus.  
 3.  Wählen Sie die Aktion **LSV-Datei schreiben** aus.  
 4.  Füllen Sie auf der Seite **LSV Datei schreiben** die Felder auf dem Inforegister **Optionen** wie in der folgenden Tabelle beschrieben aus.  
@@ -38,8 +39,5 @@ Nachdem der LSV-Einzug abgeschlossen wurde, können Sie LSV+-Dateien (Lastschrif
 ## <a name="see-also"></a>Siehe auch  
  [Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md)   
  [Verarbeiten eines LSV-Einzugs](how-to-process-an-lsv-collection.md)   
- [Abschliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md)   
+ [Schliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md)   
  [Buchen von LSV+-Zahlungen](how-to-post-lsv-payments.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

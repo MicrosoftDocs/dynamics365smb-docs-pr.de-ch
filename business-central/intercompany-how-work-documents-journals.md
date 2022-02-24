@@ -1,16 +1,21 @@
 ---
-title: Intercompany Belege und Erfassungen posten
-description: 'Dieses Thema erklärt, wie Sie Intercompany-Belege oder Erfassungen verwenden, um Transaktionen mit Ihren Intercompany-Partnern zu buchen.'
+title: Buchen Sie Intercompany-Belege und Buch.-Blätter | Microsoft Docs
+description: Verwenden von Intercompanybelegen zum Buchen der Transaktionen zwischen Intercompanypartnern
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
-ms.search.form: 610
-ms.date: 06/16/2021
-ms.author: edupont
+ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 55f7e0f58634ad56d88d6e826f42eafdc92c6a6a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182434"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Arbeiten mit Intercompany-Belegen und -Erfassungsjournalen
 Intercompanybelege bzw. -Erf.-Journale werden zum Buchen der Transaktionen zwischen Intercompanypartnern verwendet. Wenn Sie einen Intercompanybeleg oder eine Erf.-Journalzeile im Unternehmen buchen, wird durch das Programm im IC-Ausgang ein entsprechender Beleg erstellt, der an den Partner übertragen werden kann. Der Partner kann dieses Buch.-Blatt dann im eigenen Unternehmen buchen, ohne die Daten dazu noch einmal eingeben zu müssen.
@@ -24,7 +29,7 @@ Aufträge, Bestellungen und Rücksendungen können vor der Buchung gesendet werd
 
 Im Folgenden wird beschrieben, wie ein Intercompanyauftrag ausgefüllt und gesendet wird. Die gleichen Schritte gelten auch für Intercompanybestellungen und Reklamationen und Intercompanyrechnungen auf Rechnungen und Gutschriften.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2. Um neue Verkaufsaufträge zu erstellen, wählen Sie **Neu**. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)  
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Stellt sicher, dass der Debitor ein Intercompany-Partner ist.
@@ -36,7 +41,7 @@ Im Folgenden wird beschrieben, wie ein Intercompanyauftrag ausgefüllt und gesen
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Intercompany-Erfassungsjournale ausfüllen und buchen:
 Wenn Sie einen Intercompany-Fibu-Erf.-Journalzeile im Unternehmen buchen, wird durch das Programm im IC-Ausgang ein entsprechender Beleg erstellt, der an den Partner übertragen werden kann. Der Partner kann dieses Buch.-Blatt dann im eigenen Unternehmen buchen, ohne die Daten dazu noch einmal eingeben zu müssen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Intercompany-Fibu Erfassungsjournale** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Intercompany Erfassungsjournale** ein, und wählen Sie dann den entsprechenden Link.  
 2. Öffnet das entsprechende Fibu-Erf.-Journal Weitere Informationen finden Sie unter [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)
 3. Füllen Sie die Felder je nach Bedarf aus.
 4. Geben Sie im Feld **IC Partner-Fibukontonr.** das IC-Fibukonto ein, auf das der Betrag beim Partnerunternehmen gebucht wird.
@@ -52,7 +57,4 @@ Die entsprechenden Posten werden im Unternehmen gebucht und ein Erf.-Journal mit
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

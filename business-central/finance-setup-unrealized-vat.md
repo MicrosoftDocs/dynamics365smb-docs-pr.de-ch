@@ -1,31 +1,32 @@
 ---
-title: Einrichten von unrealisierter Salestax
-description: 'Wenn Sie Einnahmen- und Ausgabenrechnung verwenden, können Sie angeben, wie Sie unrealisierte MWST. für Verkäufe und Einkäufe behandeln möchten.'
+title: Einrichten von unrealisierter Mehrwertsteuer | Microsoft Docs
+description: Wenn Sie Einnahmen- und Ausgabenrechnung verwenden, können Sie angeben, wie Sie unrealisierte MWST. für Verkäufe und Einkäufe behandeln möchten.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'cash, VAT, unrealized, cash-based'
-ms.search.form: '118, 472, 473'
-ms.date: 04/01/2021
+ms.search.keywords: cash, VAT, unrealized, cash-based
+ms.date: 04/01/2020
 ms.author: bholtorf
+ms.openlocfilehash: f4d08d96621d5ff59b65a35e899d66afe0ddaa52
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182722"
 ---
-
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Einrichten unrealisierter MWST. für Einnahmen- und Ausgabenrechnung
-
-Wenn Sie Einnahmen- und Ausgabenrechnungs-Methoden ausgleichen, können Sie in [!INCLUDE[prod_short](includes/prod_short.md)] festlegen, wie vereinnahmte MWST zu behandeln ist.
+Wenn Sie Einnahmen- und Ausgabenrechnungs-Methoden ausgleichen, können Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] festlegen, wie vereinnahmte MWST zu behandeln ist.
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Verwenden von Fibukonten für unrealisierte MWST
-
 Sie können festlegen, dass MWST.-Beträge beim Buchen einer Rechnung berechnet und auf ein temporäres Fibukonto gebucht werden und dass die Beträge erst dann auf das korrekte Fibukonto gebucht und in die MWST.-Abrechnungen einbezogen werden sollen, wenn die eigentliche Zahlung der Rechnung gebucht wird. Bevor Sie dies tun können, müssen Sie die MWST.-Buchungsmatrix ausfüllen.
 
 Um die Konten für unrealisierte MWST. zu verwenden, führen Sie diese Schritte aus:
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol, und geben Sie **Hauptbuchhaltung Einrichtung** ein.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), und geben Sie **Fibu Einrichtung** ein.
 2. Auf der Seite **Fibuposten Einrichtung** wählen Sie das Kontrollkästchen **Vereinnahmte MWST**.
-3. Wählen Sie das Symbol **Seite oder Bericht suchen** ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion"), und geben Sie **MWR-Buchungseinrichtung** ein.
+3. Wählen Sie die das Symbol **Seite oder Bericht suchen**![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion") öffnet, und geben Sie **MWST Buchungsmatrix Einr.** ein.
 4. Auf der Seite **MWST-Buchung einrichten** wählen Sie die MWST-Buchungsgruppe aus, und wählen Sie dann **Bearbeiten** aus.
 5. Im Feld **Unrealisierte MwSt-Art** wählen Sie eine Option aus, um zu bestimmen, wie Zahlungen auf dem Rechnungsbetrag (ohne MwSt.) und den MwSt.-Betrag selbst aufgeteilt wird und wie MwSt.-Beträge vom Konto "Unreal. MwSt." auf das realisierte MwSt.-Konto gebucht werden. Die Optionen werden in der folgenden Tabelle beschrieben.
 
@@ -48,6 +49,4 @@ Um die Konten für unrealisierte MWST. zu verwenden, führen Sie diese Schritte 
 > Der MwSt-Betrag wird auf dieses Steuerkonto gebucht, wo er verbleibt, bis die Zahlung des Debitors gebucht wird. Der Betrag wird dann auf das Sachkonto für Mehrwertsteuerkäufe transferiert.
 
 ## <a name="see-also"></a>Siehe auch
-[Berechnungen einrichten und Buchungsmethoden für Salestax](finance-setup-vat.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[ Mehrwertsteuer einrichten ](finance-setup-vat.md)

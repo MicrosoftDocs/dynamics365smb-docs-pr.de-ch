@@ -1,17 +1,20 @@
 ---
 title: Tabelleninformationen anzeigen
-description: 'Erfahren Sie, wie Sie Informationen über die Datenbanktabellen direkt von der Client-Oberfläche in Business Central aus anzeigen können.'
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 8700
-ms.date: 06/14/2021
+ms.date: 04/20/2020
 ms.author: jswymer
+ms.openlocfilehash: de93063a60e6b64405b1491a67489c8bfa4657ad
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275332"
 ---
-
 # <a name="viewing-table-information"></a>Tabelleninformationen anzeigen
 
 Die Seite **8700 Tabelleninformationen** enthält Informationen zu allen System- und Geschäftstabellen in einer Business Central-Lösung. Auf der Seite werden insbesondere Informationen zur Datenmenge angezeigt, die die Tabellen enthalten.
@@ -20,7 +23,7 @@ Diese Informationen sind hilfreich bei der Behebung von Leistungsproblemen, da S
 
 ## <a name="viewing-table-information"></a>Tabelleninformationen anzeigen
 
-Um diese Seite zu öffnen, wählen Sie das ![Suche nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") Symbol. Geben Sie **Tabelleninformationen** ein und wählen Sie dann den entsprechenden Link.
+Wählen Sie zum Öffnen dieser Seite das Symbol ![Suche nach Seite oder Bericht](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") aus, geben Sie **Tabelleninformationen** ein, und wählen Sie dann den entsprechenden Link aus.
 
 In der folgenden Tabelle werden die für jede Tabelle bereitgestellten Informationen beschrieben:
 
@@ -36,6 +39,3 @@ In der folgenden Tabelle werden die für jede Tabelle bereitgestellten Informati
 
 [Überprüfen von Seiten](across-inspect-page.md)  
 [Artikel zur Leistung für Entwickler](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

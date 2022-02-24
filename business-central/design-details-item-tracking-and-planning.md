@@ -3,19 +3,19 @@ title: 'Designdetails: Artikeltracking und -planung | Microsoft Docs'
 description: Da sie im Reservierungssystem gespeichert werden, werden Artikeltrackingnummern vollständig mit Auftragstrackingdatensätzen abgestimmt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: a01ddb4ac423df3f4ada16740550edf46949886a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f43523794af06ed5709ec2738cda8bad68fd1b7d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215917"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185146"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Designdetails: Artikeltracking und Planung
 Da sie im Reservierungssystem gespeichert werden, werden Artikeltrackingnummern vollständig mit Auftragstrackingdatensätzen abgestimmt. Dies bedeutet, dass Artikel mit Auftragstrackingdatensätzen Artikeltrackingnummern zugeordnet werden können. Andererseits können Artikel, die Artikeltrackingnummern haben, zu Auftragstrackingdatensätzen werden. Weitere Informationen finden Sie unter [Designdetails: Artikeltrackingdesign](design-details-item-tracking-design.md).
@@ -56,6 +56,3 @@ Weitere Informationen finden Sie unter [Designdetails: Ausgleich von Bedarf und 
 [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)  
 [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Designdetails: Vorratsplanung](design-details-supply-planning.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
