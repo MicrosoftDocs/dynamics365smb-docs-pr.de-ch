@@ -1,32 +1,31 @@
 ---
-title: Importieren von ESR-Zahlungen
-description: Nach Eingang einer Zahlung eines Debitors erhalten Sie eine Datei mit Informationen zu bezahlten Rechnungen. Sie können diese Datei elektronisch von der Bank oder per E-Mail empfangen.
-services: project-madeira
-documentationcenter: ''
+title: Importieren von ESR-Zahlungen [CH]
+description: Nach Eingang einer Zahlung eines Debitors erhalten Sie eine ESR-Datei mit Informationen zu bezahlten Rechnungen auf elektronischem Weg von der Bank.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 0efdee2c91155234e19d3c5c64a53ab112d82e6b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 3010531, 3010532
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: 9fda75d72844cf332a898c99ccecaeda5b31201d
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301028"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947181"
 ---
-# <a name="import-esr-payments"></a>Importieren von ESR-Zahlungen
+# <a name="import-esr-payments-in-the-swiss-version"></a>ESR-Zahlungen importieren in der Schweizer Version
 Nach Eingang einer Zahlung eines Debitors erhalten Sie eine Datei mit Informationen zu bezahlten Rechnungen. Sie können diese Datei elektronisch von der Bank oder per E-Mail empfangen.  
 
 Sie können die ESR (Einzahlungsschein mit Referenznummer)-Rechnungsdaten aus der Datei importieren, die Daten mithilfe des ESR-Berichts für Verkaufsrechnungen oder des ESR-Abschnittberichts drucken und diese vor der Buchung überprüfen. Weitere Informationen finden Sie unter [Drucken von ESR-Rechnungen](how-to-print-esr-invoices.md).  
 
 ## <a name="to-import-esr-payments"></a>So importieren Sie ESR-Zahlungen  
 
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Barbeleg-Buchblatt** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie im **Zahlungseingangsprotokolle** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie im Feld **Erf.-Journalname** den erforderlichen Erf.-Journalnamen aus.  
 
     > [!NOTE]  
@@ -44,3 +43,6 @@ Die Zahlungsinformationen werden in die Journalzeilen importiert. Die Zahlungen 
 ## <a name="see-also"></a>Siehe auch  
  [Elektronische Zahlungen mit ESR (Schweiz)](swiss-electronic-payments-using-esr.md)   
  [Drucken von ESR-Rechnungen](how-to-print-esr-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

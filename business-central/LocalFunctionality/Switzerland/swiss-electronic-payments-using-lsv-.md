@@ -1,23 +1,24 @@
 ---
-title: Elektronischer Zahlungsverkehr (Schweiz) mit LSV+
-description: Die elektronische Zahlungsform Lastschrift Verfahren (LSV+) oder Einzug, eine optimierte Version von LSV, ermöglicht Firmen das direkte Abrufen von Zahlungen von Debitorenbankkonten. Zum Abrufen von Debitorenzahlungen muss eine LSV-Datei an die Bank gesendet werden, die dann die Abbuchung der in der Datei angeforderten Zahlungen abwickelt.
+title: Elektronischer Zahlungsverkehr mit LSV+ [CH]
+description: Die elektronische Zahlungsform Lastschrift Verfahren (LSV+) oder Einzug ermöglicht Firmen das direkte Abrufen von Zahlungen von Debitorenbankkonten.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: b6531238cd7cc4cee79ac04079c81c18d45cb2e2
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: 9b156d23fd6b3ae4e7b912c9a8cbc51685ffb08a
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878803"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947067"
 ---
-# <a name="swiss-electronic-payments-using-lsv"></a>Elektronischer Zahlungsverkehr (Schweiz) mit LSV+
+# <a name="swiss-electronic-payments-using-lsv-in-the-swiss-version"></a>Elektronische Zahlungen mit LSV+ in der Schweizer Version
 Die elektronische Zahlungsform Lastschrift Verfahren (LSV+) oder Einzug, eine optimierte Version von LSV, ermöglicht Firmen das direkte Abrufen von Zahlungen von Debitorenbankkonten. Zum Abrufen von Debitorenzahlungen muss eine LSV-Datei an die Bank gesendet werden, die dann die Abbuchung der in der Datei angeforderten Zahlungen abwickelt.  
 
 Die LSV+-Methode ist ein Einzugsverfahren mit Recht auf Widerspruch. BDD (Business Direct Debit) ist ein Einzugsverfahren ohne Recht auf Widerspruch. Die Formate der an die Bank gesendeten Dateien sind für LSV+ und BDD identisch.  
@@ -44,3 +45,6 @@ Sie können Zahlungsgutschrifttransaktionen im Einzahlungsschein mit Referenznum
  [Elektronische Zahlungen (Schweiz)](swiss-electronic-payments.md)   
  [Elektronische Zahlungen mit ESR (Schweiz)](swiss-electronic-payments-using-esr.md)   
  [Zahlungen vornehmen](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

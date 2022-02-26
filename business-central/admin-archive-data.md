@@ -10,8 +10,13 @@ ms.workload: na
 ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
+ms.openlocfilehash: 4070ff5658ad4aa976c181a3df377155080f1e3b
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012091"
 ---
-
 # <a name="the-data-archive-extension"></a>Die Data Archive-Erweiterung
 Im Laufe der Zeit wird sich in Ihrem Unternehmen eine beträchtliche Menge an Daten ansammeln, und als Administrator ist es wahrscheinlich eine gute Idee, eine Strategie für die Archivierung von Daten zu haben. Viele Daten können die Arbeit verlangsamen, z.B. kann es etwas länger dauern, Berichte zu erstellen oder sogar Datensätze zu sperren. Ausserdem können grosse Datenmengen zu erhöhten Speicherkosten führen.
 

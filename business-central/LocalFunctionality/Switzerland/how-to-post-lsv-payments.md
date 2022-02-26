@@ -1,30 +1,29 @@
 ---
 title: Buchen von LSV+-Zahlungen
 description: Zahlungen können nach Empfang einer LSV+ (Lastschrift Verfahren)-Zahlungsanzeige von der Bank gebucht werden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 5207c328997f68bfc752550ad4138c1a9b5bcf7e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 852a0bb2d5f9e2ccc840d1f7c71ade9062d0fd52
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301025"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947149"
 ---
 # <a name="post-lsv-payments"></a>Buchen von LSV+-Zahlungen
 Zahlungen können nach Empfang einer LSV+ (Lastschrift Verfahren)-Zahlungsanzeige von der Bank gebucht werden.  
 
 ## <a name="to-post-lsv-payments"></a>So buchen Sie LSV+-Zahlungen  
 
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Barbeleg-Buchblatt** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell Me-Funktion") Geben Sie im **Zahlungseingangsprotokolle** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie das entsprechende Journal aus und wählen Sie dass **Journal bearbeiten** aus.  
 
     > [!NOTE]  
@@ -47,5 +46,8 @@ Zahlungen können nach Empfang einer LSV+ (Lastschrift Verfahren)-Zahlungsanzeig
 ## <a name="see-also"></a>Siehe auch  
  [Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md)   
  [Verarbeiten eines LSV-Einzugs](how-to-process-an-lsv-collection.md)   
- [Schliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md)   
+ [Abschliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md)   
  [Exportieren von Zahlungen mit LSV](how-to-export-payments-using-lsv.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

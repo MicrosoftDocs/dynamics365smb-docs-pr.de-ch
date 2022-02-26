@@ -3,19 +3,19 @@ title: Übersicht der Berichte um Abschlussrechnungen vorzubereiten | Microsoft 
 description: Ihnen stehen eine Reihe von Standardberichten zur Verfügung, mit denen die benötigten Informationen zum Vorbereiten der Abschlussabrechnungen des Mandanten gesammelt werden können.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 78aa985e22f0324a752a876cc33e3b723bc111a0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c1ba1ecc8716586e661b8553f12319a87b4cb85c
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191735"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011533"
 ---
 # <a name="preparing-closing-statements"></a>Abschlussberichrte vorbereiten
 Ihnen stehen eine Reihe von Standardberichten zur Verfügung, mit denen die benötigten Informationen zum Vorbereiten der Abschlussabrechnungen des Mandanten gesammelt werden können.
@@ -32,9 +32,12 @@ Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Proz
 | Drucken eines Kontenschemas zum Analysieren der Werte auf Fibukonten oder zum Vergleichen tatsächlicher Fibuposten mit Finanzbudgetposten |**Kontenschema** |
 | Überprüfen, ob Debitoren- und Kreditorenposten mit den entsprechenden Fibuposten ausgeglichen sind |**Deb.- & Kred.-Konten abstimmen** |
 
-Um einen Bericht anzuzeigen, wählen Sie das Symbol ![Leuchtbirne, das das Symbol Tell Me feature](media/ui-search/search_small.png "Tell Me-Funktion") öffnet, geben Sie den Namen so ein, wie er in der Tabelle erscheint, und wählen Sie dann den entsprechenden Link.
+Um einen Bericht zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol, geben Sie den Namen ein, wie er in der Tabelle erscheint, und wählen Sie dann den zugehörigen Link.
 
 ## <a name="see-also"></a>Siehe auch
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Business Intelligence](bi.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

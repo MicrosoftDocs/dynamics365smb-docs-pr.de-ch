@@ -1,36 +1,33 @@
 ---
-title: 'Designdetails: Artikeltrackingdesign | Microsoft Docs'
-description: Dieses Thema beschreibt den Entwurf hinter dem Artikeltracking in Business Central.
+title: Designdetails – Artikeltrackingdesign
+description: In diesem Thema wird das Design des Artikeltrackings in Business Central beschrieben, wenn dieses über Produktversionen hinweg ausgereift ist.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cda50dc7c3a0377c36f7bce4eca9c1c5cb5b093e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 992673cd800d7ee720e86050004c2d38796ee529
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185074"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445034"
 ---
 # <a name="design-details-item-tracking-design"></a>Designdetails: Artikeltrackingdesign
-In der ersten Version der Artikeltracking in [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60 wurden Seriennummern oder Chargennummern direkt in Lagerposten erfasst. Dieses Design bot vollständige Verfügbarkeitsinformationen und einfaches Tracking von historischen Posten, aber es ermangelte Flexibilität und Funktionen.  
 
-Ab [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.00, befand sich die Artikeltrackingfunktion in einer separaten Objektstruktur mit verwickelten Links zu den gebuchten Belegen und den Lagerposten. Dieses Design war flexibel und reich an Funktionen, aber Artikeltrackingposten wurden nicht vollständig in Verfügbarkeitsberechnungen einbezogen.  
+Artikeltracking in [!INCLUDE[prod_short](includes/prod_short.md)] begann mit [!INCLUDE [navnow_md](includes/navnow_md.md)]. Die Artikeltrackingfunktion befindet sich in einer separaten Objektstruktur mit komplexen Links zu gebuchten Belegen und Lagerposten und ist in das Reservierungssystem integriert, das Reservierung, Auftragstracking und Aktionsnachrichten verwaltet. Weitere Informationen finden Sie unter [Designdetails: Reservierung, Auftragstracking und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md) in den Beschaffungsplanungsdetails.  
 
-Seit [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60 sind Artikeltrackingfunktionen im Reservierungssystem integriert, das Reservierung, Auftragsnachverfolgung und Aktionsmessaging verarbeitet. Weitere Informationen finden Sie unter „Designdetails: Reservierung, Auftragstracking und Aktionsmeldungen“ in „Designdetails: Beschaffungsplanung“.  
+Dieses Design enthält Artikeltrackingposten in der Gesamtverfügbarkeitsberechnung im gesamten System, einschliesslich Planungs-, Produktions- und Lagerfunktionen. Serien- und Chargennummern in den Lagerposten werden angewendet, um den einfachen Zugriff auf historische Daten für Artikeltrackingzwecke zu ermöglichen. Mit dem Veröffentlichungszyklus 1 von 2021 enthält das Artikeltracking in [!INCLUDE [prod_short](includes/prod_short.md)] Paketnummern.  
 
-Dieses neueste Design enthält Artikeltrackingposten in der Gesamtverfügbarkeitsberechnung im gesamten System, einschliesslich Planungs-, Produktions- und Lagerfunktionen. Der alte Konzept der Verwendung von Serien- und Chargennummern in den Lagerposten wird erneut eingeführt, um den einfachen Zugriff auf historische Daten für Artikeltrackingzwecke zu ermöglichen. In Verbindung mit Artikeltrackingverbesserungen in [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60 wurde das Reservierungssystem auf Nicht-Auftragsnetzwerk-Entitäten erweitert, wie Erfassungsjournale, Rechnungen und Gutschriften.  
+Mit der Hinzufügung der Serien-, Chargen‑ und Paketnummern verarbeitet das Reservierungssystem permanent Artikelattribute sowie periodische Verknüpfungen zwischen Angebot und Nachfrage in Form von Bedarfsverursacherposten und -Reservierungsposten. Ein weitere Eigenschaft der Serien- oder Chargennummern gegenüber herkömmlichen Reservierungsdaten ist die Tatsache, dass diese teilweise oder vollständig gebucht werden können. Daher funktioniert die Tabelle **Reservierungsposten** (T337) jetzt mit einer zugehörigen Tabelle, der Tabelle **Trackingspezifikation** (T336), die das Summieren über aktive und gebuchte Artikeltrackingmengen hinweg verwaltet und anzeigt. Weitere Informationen finden Sie unter [Designdetails: Aktive vs. historische Artikeltrackingposten](design-details-active-versus-historic-item-tracking-entries.md).  
 
-Mit der Hinzufügung der Serien- oder Chargennummern verarbeitet das Reservierungssystem permanent Artikelattribute sowie periodische Verknüpfungen zwischen Offerte und Nachfrage in Form von Bedarfsverursacherposten und -Reservierungsposten. Ein weitere Eigenschaft der Serien- oder Chargennummern gegenüber herkömmlichen Reservierungsdaten ist die Tatsache, dass diese teilweise oder vollständig gebucht werden können. Daher funktioniert die Tabelle **Reservierungsposten** (T337) jetzt mit einer zugehörigen Tabelle, der Tabelle **Trackingspezifikation** (T336), die das Summieren über aktive und gebuchte Artikeltrackingmengen hinweg verwaltet und anzeigt. Weitere Informationen finden Sie unter [Designdetails: Aktive vs. historische Artikeltrackingposten](design-details-active-versus-historic-item-tracking-entries.md).  
+Das folgende Diagramm illustriert das Design von Artikeltrackingfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Das folgende Diagramm illustriert das Design von Artikeltrackingfunktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-![Beispiel für den Fluss des Artikeltrackings](media/design_details_item_tracking_design.png "Beispiel für den Fluss des Artikeltrackings")  
+![Beispiel für einen Item Tracking Flow.](media/design_details_item_tracking_design.png "Beispiel für den Fluss des Artikeltrackings")  
 
 Das zentrale Buchungsobjekt wird überarbeitet, um die besondere Subklassifikation einer Belegzeile in Form von Serien- oder Chargennummern zu bearbeiten, und bestimmte Beziehungstabellen werden hinzugefügt, um die 1-zu-viele-Relationen zwischen gebuchten Belegen und deren geteilten Lagerposten bzw. Wertposten zu erstellen.  
 
@@ -43,5 +40,8 @@ Codeunit 22, **Lagerposten – Zeile buchen** teilt jetzt die Buchung nach Artik
 
 Weitere Informationen finden Sie unter [Designdetails: Artikeltracking-Buchungsstruktur](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Siehe auch
+
 [Designdetails: Artikeltracking](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]  

@@ -1,21 +1,23 @@
 ---
-title: Verwalten von Rollen und Benutzer | Microsoft Docs
-description: Erfahren, wie Benutzer, Profile und Rollencenter in Finanzen and Operations, Business Central verwaltet werden.
+title: Verwalten von Benutzern und Rollen
+description: Erfahren Sie, wie Sie Benutzerprofile und Rollen in Business Central verwalten können. Profile erlauben es Administratoren, zentral zu definieren und zu verwalten, was Benutzer sehen und tun können.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: profiles, users
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 9171
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: f585ca4e97aa002e4d9d52cd74e01e18ab511eac
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186514"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012511"
 ---
-# <a name="manage-profiles"></a>Profile verwalten
-Alle Benutzer von [!INCLUDE[d365fin](includes/d365fin_md.md)] erhalten ein Profil, das ihre Geschäftsrolle, die Abteilung, in der sie arbeiten, oder eine andere Kategorisierung widerspiegelt. Mithilfe von Profilen können Administratoren zentral definieren und verwalten, welche Benutzertypen auf der Benutzeroberfläche angezeigt und ausgeführt werden können, damit sie ihre Geschäftsaufgaben effizient ausführen können.
+# <a name="manage-user-profiles"></a>Verwalten von Benutzerprofilen
+
+Alle Benutzer von [!INCLUDE[prod_short](includes/prod_short.md)] erhalten ein Profil, das ihre Geschäftsrolle, die Abteilung, in der sie arbeiten, oder eine andere Kategorisierung widerspiegelt. Mithilfe von Profilen können Administratoren zentral definieren und verwalten, welche Benutzertypen auf der Benutzeroberfläche angezeigt und ausgeführt werden können, damit sie ihre Geschäftsaufgaben effizient ausführen können.
 
 > [!NOTE]
 > Die typische geschäftliche Verwendung eines Profils ist eine Rolle. Ein Profil wird daher *Profil (Rolle)* benannt in der Benutzeroberfläche.
@@ -28,11 +30,15 @@ Bevor Sie Benutzerprofile verwalten können, müssen die Benutzer erstellt und �
 Sie können die Seitenlayouts für ein Profil so anpassen, dass alle Benutzer, denen das Profil zugewiesen wurde, die angepassten Seiten sehen. Als Administrator passen Sie Seiten an, indem Sie dieselben Funktionen verwenden wie Benutzer, wenn sie Personalisierungen vornehmen. Weitere Informationen finden Sie unter [Gewusst wie: Seiten für Profile anpassen](ui-personalization-manage.md).
 
 ## <a name="to-create-a-profile"></a>So erstellen Sie ein Profil
+
 Wenn Sie ein vorhandenes Profil nicht kopieren können, können Sie manuell ein neues Profil erstellen.
 
-1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **Profile (Rollen)** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen") Symbol. Geben Sie **Profile (Rollen)** ein und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Profile (Rollen)** wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!TIP]
+> Wenn Sie möchten, dass ein bestimmtes Profil nur ganz bestimmten Benutzern zur Verfügung steht, können Sie das Feld **Beschreibung** auf `Navigation menu only.` festlegen. Auf diese Weise wird das Profil aus der Liste der verfügbaren Rollen in **Meine Einstellungen** ausgeschlossen.
 
 ## <a name="to-copy-a-profile"></a>So kopieren Sie ein Profil
 Um Zeit zu sparen, können Sie ein neues Profil erstellen, indem Sie ein vorhandenes kopieren. Kopieren Sie eines mit ähnlichen Einstellungen wie das, das Sie erstellen möchten.
@@ -65,8 +71,8 @@ Auf der Seite **Meine Einstellungen** können Benutzer das grundlegende Verhalte
 
 Als Administrator können Sie diese Einstellung für ein Profil definieren und damit die Einstellungen auf alle Benutzer der zugehörigen Rolle anwenden.
 
-1. Wählen Sie die ![Glühbirne , die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Profile (Rollen)** ein und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie die Zeile für das Profil aus, für das Sie die Benutzereinstellungen ändern möchten, und wählen Sie die **Navigieren** Aktion, und wählen Sie dann die **Benutzeranpassungen** Aktion.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Profile (Rollen)** ein und wählen Sie dann den entsprechenden Link.
+2. Wählen Sie die Zeile für das Profil aus, für das Sie die Benutzereinstellungen ändern möchten, und wählen Sie Aktion **Benutzerpersonalisierungsliste**.
 3. Auf der Seite **Benutzeranpassungen** öffnen Sie die Karte für den Benutzer, dessen Einstellungen Sie ändern möchten.
 4. Füllen Sie auf der Seite **Benutzerpersonalisierungskarte** die Felder nach Bedarf aus.
 
@@ -80,14 +86,14 @@ Wenn ein Profil erstellt wird, können Sie verschiedene Kontrollkästchen aktivi
     - **Zeige im Rollen-Explorer**, um festzulegen, ob Aktionen für Geschäftsfunktionen, die im Profil enthalten sind, in der erweiterten Ansicht des Rollen-Explorers, einer Feature-Übersicht, angezeigt werden. Weitere Informationen finden Sie unter [Suchen von Seiten mit dem Rollen-Explorer](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>So exportieren Sie Profile
-Sie können Profile aus [!INCLUDE[d365fin](includes/d365fin_md.md)] exportieren, z.B. um sie in einem anderen Mandanten wiederzuverwenden. Die Profile werden in eine Zip-Datei exportiert, die .al-Dateien enthält, die zur Entwicklung von Erweiterungen wiederverwendet werden können. Weitere Informationen finden Sie unter [Verwenden des Clients zum Erstellen von Profilen und Seitenanpassungen](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Sie können Profile aus [!INCLUDE[prod_short](includes/prod_short.md)] exportieren, z.B. um sie in einem anderen Mandanten wiederzuverwenden. Die Profile werden in eine Zip-Datei exportiert, die .al-Dateien enthält, die zur Entwicklung von Erweiterungen wiederverwendet werden können. Weitere Informationen finden Sie unter [Verwenden des Clients zum Erstellen von Profilen und Seitenanpassungen](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * Wählen Sie auf der Seite **Profile (Rollen)** die Aktion **Profile exportieren**.
 
 Eine Zip-Datei mit den .al-Dateien für alle Profile wird exportiert.
 
 ## <a name="to-import-profiles"></a>So importieren Sie Profile
-Sie können Profile importieren, die aus [!INCLUDE[d365fin](includes/d365fin_md.md)] exportiert wurden. Die Schritte sind mehr oder weniger das Gegenteil der Schritte zum Exportieren von Profilen. Weitere Informationen finden Sie unter [Profile exportieren](admin-users-profiles-roles.md#to-export-profiles).
+Sie können Profile importieren, die aus [!INCLUDE[prod_short](includes/prod_short.md)] exportiert wurden. Die Schritte sind mehr oder weniger das Gegenteil der Schritte zum Exportieren von Profilen. Weitere Informationen finden Sie unter [Profile exportieren](admin-users-profiles-roles.md#to-export-profiles).
 
 1. Wählen Sie auf der Seite **Profile (Rollen)** die Aktion **Profile importieren**.
 2. Folgen Sie den Schritten des Assistenten **Importprofile**.
@@ -107,7 +113,7 @@ Sie können ein Profil löschen, indem Sie auf die Schaltfläche **Löschen** kl
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>Löscht alle von einem Benutzer vorgenommenen Anpassungen.
 Sie können alle Änderungen löschen, die ein Benutzer an Seiten vorgenommen hat, aus denen sich sein Arbeitsbereich zusammensetzt. Dies kann beispielsweise nützlich sein, wenn ein Mitarbeiter die Rolle gewechselt hat und die Personalisierungen nicht mehr benötigt. Durch das Löschen der Benutzeranpassungen wird das Seitenlayout auf das vom Profil festgelegte zurückgesetzt.
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Benutzerpersonalisierungen** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Benutzeranpassungen** ein und wählen Sie dann den zugehörigen Link.
 
     Die Seite **Benutzeranpassung** führt alle Benutzer auf, die möglicherweise Personalisierungen vorgenommen haben.
 
@@ -121,20 +127,29 @@ Sie können auch alle Seitenanpassungen für ein Profil löschen. Weitere Inform
 ## <a name="to-delete-personalizations-for-specific-pages"></a>So löschen Sie Personalisierungen für bestimmte Seiten
 Sie können Personalisierungen löschen, die ein oder mehrere Benutzer an bestimmten Seiten vorgenommen haben, aus denen sich ihr Arbeitsbereich zusammensetzt. Dies kann beispielsweise hilfreich sein, wenn ein geänderter Geschäftsprozess dazu führt, dass eine Personalisierung nicht mehr von Benutzern verwendet werden darf. Durch das Löschen der Benutzeranpassungen wird das Seitenlayout auf das vom Profil festgelegte zurückgesetzt.
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Benutzerseitenpersonalisierungen** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Benutzerseitenpersonalisierungen** ein und wählen Sie dann den zugehörigen Link.
 
     Die Seite **Benutzerseiten-Personalisierungen** listet alle Seiten auf, die personalisiert wurden, und den Benutzer, zu dem sie gehören.
 
     > [!Note]
-    > Ein Häkchen in den Spalten **Vorgänger-Anpassung** bedeutet, dass die Personalisierung in einem vorherigen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] erforderlich war, die die Personalisierung unterschiedlich bearbeitete. Benutzer, die versuchen, diese Seiten zu personalisieren, können dies nicht tun, es sei denn, sie entsperren die Seite. Weitere Informationen finden Sie unter [Warum eine Seite für die Personalisierung gesperrt ist](ui-personalization-locked.md).
+    > Ein Häkchen in den Spalten **Vorgänger-Anpassung** bedeutet, dass die Personalisierung in einem vorherigen Version von [!INCLUDE[prod_short](includes/prod_short.md)] erforderlich war, die die Personalisierung unterschiedlich bearbeitete. Benutzer, die versuchen, diese Seiten zu personalisieren, können dies nicht tun, es sei denn, sie entsperren die Seite. Weitere Informationen finden Sie unter [Warum eine Seite für die Personalisierung gesperrt ist](ui-personalization-locked.md).
 
 2. Wählen Sie dir Zeile für die Personalisierungsseite, die Sie löschen möchten, und wählen die Aktion **Löschen** aus.
 
-Der Benutzer sieht die Änderungen das nächste Mal bei der Anmeldung.    
+Der Benutzer sieht die Änderungen das nächste Mal bei der Anmeldung.  
 
 Sie können auch alle individuellen Seitenanpassungen für ein Profil löschen. Weitere Informationen finden Sie unter [So löschen Sie alle Anpassungen für eine bestimmte Seite für ein Profil](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
+
+## <a name="managing-user-sessions"></a>Verwalten von Benutzersitzungen
+
+Als Administrator von [!INCLUDE[prod_short](includes/prod_short.md)] Online können Sie Benutzersitzungen im Administration Center verwalten. Weitere Informationen finden Sie unter [Sitzungen verwalten](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) im Verwaltungsinhalt.  
+
+Für [!INCLUDE[prod_short](includes/prod_short.md)] (lokal) können Sie Sitzungen beispielsweise mit SQL Server Management Studio verwalten. Weitere Informationen finden Sie unter [Technische Dokumentation zu SQL Server](/sql/sql-server).  
 
 ## <a name="see-also"></a>Siehe auch  
 [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
 [Seiten für Profile anpassen](ui-personalization-manage.md)  
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

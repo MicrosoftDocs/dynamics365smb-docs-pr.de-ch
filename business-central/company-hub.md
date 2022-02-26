@@ -1,15 +1,20 @@
 ---
 title: Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten
-description: 'Erfahren Sie mehr über den Unternehmens-Hub in Dynamics 365 Business Central, mit dem Sie Ihre Arbeit unternehmensübergreifend verwalten.'
+description: Erfahren Sie mehr über den Unternehmens-Hub in Dynamics 365 Business Central, mit dem Sie Ihre Arbeit unternehmensübergreifend verwalten.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: 'accountant, accounting, financial report'
-ms.search.form: '1151, 1154, 1165, 1166'
+ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
+ms.openlocfilehash: 1f7620f2f78971649cb8af5ef9dd0e7389c0c06a
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8028998"
 ---
-
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten
 
 Einige Personen arbeiten in mehreren Unternehmen in [!INCLUDE [prod_short](includes/prod_short.md)], und einige arbeiten auch in mehr als einer Organisation, beispielsweise externe Buchhalter oder Mitarbeiter und Manager von Unternehmen mit mehreren Tochterunternehmen. Für diese und viele andere Benutzer dient der Unternehmens-Hub als Landing Page, um die Arbeit in den verschiedenen Umgebungen, in denen sie arbeiten, über Unternehmen, Umgebungen und Regionen hinweg zu verwalten.  

@@ -1,37 +1,41 @@
 ---
-title: Anzeigen temporärer Salden in Finanzbuchhaltungs-Erfassungsjournalen
-description: Beim Eingeben einer neuen Transaktion in das Fibu Erf.-Journal können Sie temporäre Salden eingeben, die anzeigen, welche Auswirkungen das Buchen des Erf.-Journals auf die Fibu Erf.-Journal-Kontensalden hätte. Die Saldodetails des Kontos und des Gegenkontos für die aktive Erf.-Journalzeile können angezeigt werden. Die ungebuchten Werte für das aktuelle Erf.-Journal können ebenfalls angezeigt werden.
-services: project-madeira
-documentationcenter: ''
+title: Temporäre Salden in Finanzbuchhaltungs-Erfassungsjournalen anzeigen [CH]
+description: Sie können temporäre Salden eingeben, die anzeigen, welche Auswirkungen das Buchen einer neuen Transaktion im Erf.-Journal auf die Fibu Erf.-Journal-Kontensalden hätte.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 82d3a94d5356c2c74634fc97dd6d3d4b7fe62011
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 11500
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: 93cfcce21a6de2c2db7158639ae99d26ae4150c3
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300993"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947140"
 ---
-# <a name="view-temporary-balances-in-general-ledger-journals"></a>Anzeigen temporärer Salden in Finanzbuchhaltungs-Erfassungsjournalen
+# <a name="view-temporary-balances-in-general-ledger-journals-in-the-swiss-version"></a>Anzeigen temporärer Salden in Finanzbuchhaltungs-Erfassungsjournalen in der Schweizer Version
+
 Beim Eingeben einer neuen Transaktion in das Fibu Erf.-Journal können Sie temporäre Salden eingeben, die anzeigen, welche Auswirkungen das Buchen des Erf.-Journals auf die Fibu Erf.-Journal-Kontensalden hätte. Die Saldodetails des Kontos und des Gegenkontos für die aktive Erf.-Journalzeile können angezeigt werden. Die ungebuchten Werte für das aktuelle Erf.-Journal können ebenfalls angezeigt werden.  
 
 Wenn Sie in Finanzbuchhaltungskonten Fremdwährung verwenden, wird auch der Saldo im Finanzbuchhaltungskonto ausgefüllt. Auf diese Weise können Sie die zu buchenden Posten analysieren und entscheiden, ob sie gebucht werden sollen. Weitere Informationen erhalten Sie auf der Seite **Fibu Erf.-Journal** und in der Tabelle **Fibu Erf.-Journalzeile**.  
 
 ## <a name="to-view-temporary-balances-in-general-ledger-journals"></a>So zeigen Sie temporäre Salden in Finanzbuchhaltungs-Erfassungsjournalen an  
 
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen"), öffnen **Fibu Erfassungsjournale** und wählen den zugehörenden Link aus.  
-2.  Wählen Sie den erforderlichen Eintrag im Fibu-Erf.-Journal und wählen Sie die Aktion **Saldo** aus.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Fibu-Erfassungsjournale** ein, und wählen Sie dann den zugehörigen Link aus.  
+2. Wählen Sie den erforderlichen Eintrag im Fibu-Erf.-Journal und wählen Sie die Aktion **Saldo** aus.  
 
     Auf der Seite **Anzeigen – Fibukonto provisorischer Saldo** können Sie auf dem Inforegister **Allgemein** anzeigen, wie Finanzbuchhaltungskontosalden durch das Buchen des Erf.-Journals beeinflusst würden.  
 
-3.  Wählen Sie die Schaltfläche **Schliessen** aus.  
+3. Wählen Sie die Schaltfläche **Schliessen** aus.  
 
-## <a name="see-also"></a>Siehe auch  
- [Finanzbuchhaltungskonten (Schweiz)](swiss-general-ledger-accounts.md)
+## <a name="see-also"></a>Weitere Informationen
+
+[Schweizer Fibukonten](swiss-general-ledger-accounts.md)
+[Fibupostensaldo in der Schweizer Version](balance.md)  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

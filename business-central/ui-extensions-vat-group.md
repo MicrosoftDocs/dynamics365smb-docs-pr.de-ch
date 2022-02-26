@@ -1,6 +1,6 @@
 ---
 title: Die Mehrwertsteuergruppenverwaltungserweiterung
-description: 'Sie können mit anderen Unternehmen zusammenarbeiten, um eine Mehrwertsteuergruppe zu bilden, und bei der Meldung der Mehrwertsteuer entweder als Mitglied oder als Vertreter der Gruppe fungieren.'
+description: Sie können mit anderen Unternehmen zusammenarbeiten, um eine Mehrwertsteuergruppe zu bilden, und bei der Meldung der Mehrwertsteuer entweder als Mitglied oder als Vertreter der Gruppe fungieren.
 author: bholtorf
 manager: annbe
 ms.service: dynamics365-business-central
@@ -8,11 +8,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: 'VAT, value added tax, report'
+ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.openlocfilehash: 7148fa8e59a509af3206e7da898a371ffb5332a5
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.translationtype: HT
+ms.contentlocale: de-CH
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029154"
 ---
-
 # <a name="the-vat-group-management-extension"></a>Die Mehrwertsteuergruppenverwaltungserweiterung
 
 Sie können einem oder mehreren Unternehmen in Ihrem Land beitreten, um die Mehrwertsteuerberichterstattung unter einer einzigen Registrierungsnummer zu konsolidieren. Diese Art der Anordnung ist bekannt als *Mehrwertsteuergruppe*. Sie können mit der Gruppe als Mitglied oder als Gruppenvertreter zusammenarbeiten.

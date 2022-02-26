@@ -1,21 +1,21 @@
 ---
-title: Designdetails - Artikeltracking-Buchungsstruktur | Microsoft Docs
-description: Erfahren Sie, wie der Lagerposten als primäre Transportmitteln von Artikeltrackingnummern verwendet wird.
+title: Design-Details – Buchungsstruktur für die Artikeltracking
+description: Erfahren Sie, wie Sie Sachkonto-Einträge als primären Spediteur für Artikeltrackingsnummern in der Buchungsstruktur für die Artikeltracking verwenden können.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5fc178585579d4f4f8b253ecdb696964993e09c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 186f4d88fe7fe2b772ec579727fd62d4985c0cf9
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185002"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320353"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Designdetails: Artikeltracking-Buchungsstruktur
 Um der Bestandskalkulationsfunktionen zu entsprechen und eine einfachere und robustere Lösung zu erhalten, werden Lagerposten als der primäre Träger von Artikeltrackingnummern verwendet.  
@@ -48,3 +48,5 @@ Codeunit 22 durchläuft die Artikeltrackingnummern und teilt die Posten in die e
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Artikeltracking](design-details-item-tracking.md)   
 [Designdetails: Artikeltrackingdesign](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

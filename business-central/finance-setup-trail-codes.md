@@ -1,21 +1,22 @@
 ---
-title: Codes für Audit-Trails einrichten | Microsoft Docs
+title: Codes für Audit-Trails festlegen
 description: Erfahren Sie mehr über die Aufgaben zum Einrichten von Buchungsspurcodes und Ursachencodes, mit denen Sie Audit-Trails verfolgen können.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/12/2020
+ms.search.form: 257, 259, 279
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eac9b5268cda8671a7189a429dedd9eb3cbfbc53
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: c6327be4cdcd1e51096a8e19601556305b772011
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372701"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971954"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Buchungsspurcodes und Ursachencodes für Audit Trails einrichten
 
@@ -33,7 +34,7 @@ Beim Buchen oder Ausführen einer Stapelverarbeitung wird dem Posten automatisch
 
 ### <a name="to-define-source-codes"></a>So definieren Sie Buchungsspurcodes
 
-1. Wählen Sie das Symbol ![Seite suchen oder Bericht](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'"), geben Sie **Buchungsspurcode Einrichtung** ein und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") Symbol. Geben Sie **Buchungsspurcode Einrichtung** ein, und wählen Sie dann den entsprechenden Link.  
 
 2. Geben Sie im Fenster **Buchungsspurcode Einrichtung** für jede Buchungsart und jede Stapelverarbeitung den entsprechenden Buchungsspurcode ein.  
 
@@ -45,7 +46,7 @@ Sie können einen Buchungsspurcode ändern. Sie können den Buchungsspurcode *FI
 
 ### <a name="to-change-source-codes"></a>So ändern Sie Buchungsspurcodes
 
-1. Wählen Sie das Symbol ![Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") aus, geben Sie **Buchungsspurcodes** ein, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie die ![Suche nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") Symbol. Geben Sie **Buchungsspurcodes** ein und wählen Sie dann den zugehörigen Link.
 
 2. Wählen Sie in der Zeile mit dem zu ändernden den Code im Feld **Code** aus.
 
@@ -59,7 +60,7 @@ Ursachencodes ergänzen die Buchungsspurcodes und geben an, warum ein Eintrag er
 
 ### <a name="to-set-up-reason-codes"></a>So richten Sie Ursachencodes ein
 
-1. Wählen Sie das Symbol ![Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") aus, geben Sie **Ursachencodes** ein, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'")  Symbol. Geben Sie **Ursachencodes** ein und wählen Sie dann den zugehörigen Link.
 
 2. Geben Sie im Fenster **Ursachencodes** den ersten Code im Feld **Code** ein. Geben Sie im Feld **Beschreibung** einen erklärenden Text ein.
 
@@ -69,7 +70,7 @@ Nachfolgend wird beschrieben, wie Sie einer Erf.-Journalvorlage einen Ursachenco
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>So weisen Sie Erf.-Journalvorlagen Ursachencodes zu
 
-1. Wählen Sie das Symbol ![Seite oder Bericht suchen](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen") aus, geben Sie **Allgemeine Erf.-Journal Vorlage** ein, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen")  Symbol. Geben Sie **Allgemeine Fibu Erf.-Journalvorlagen** ein, und wählen Sie dann den zugehörigen Link.
 
 2. Geben Sie in der Zeile mit der ausgewählten Erf.-Journalvorlage den entsprechenden Code in das Feld **Ursachencode** ein.
 
@@ -94,6 +95,9 @@ Wenn die Rechnung gebucht wird, wird der Ursachencode in jeden Sach-, Debitor- u
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md)  
-[Arbeiten mit [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

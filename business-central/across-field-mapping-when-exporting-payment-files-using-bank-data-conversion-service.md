@@ -1,34 +1,37 @@
 ---
 title: Feldzuordnung für den Export von Bankzahlungsdateien | Microsoft Docs
-description: Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals Erweiterung exportieren, werden die von Ihnen exportierten Daten dem Dienstanbieter zugänglich gemacht.
+description: Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden die von Ihnen exportierten Daten dem Dienstanbieter zugänglich gemacht.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0d85c4e4d882f84781ff119bdf397266c4f8ca1b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: f705334d42d27e22d9108a410ab91a213c725a4d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188674"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437766"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Feldzuordnung beim Export von Zahlungsdateien mit der AMC Banking 365 Fundamentals Erweiterung
-Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals Erweiterung exportieren, werden die von Ihnen exportierten Daten dem Dienstanbieter zugänglich gemacht. Der Dienstanbieter ist für den Schutz dieser Daten verantwortlich. Weitere Informationen zur AMC Banking 365 Fundamentals Erweiterung finden Sie unter [Verwendung der AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md).  
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Feldzuordnung beim Export von Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung
+Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden die von Ihnen exportierten Daten dem Dienstanbieter zugänglich gemacht. Der Dienstanbieter ist für den Schutz dieser Daten verantwortlich. Weitere Informationen zur AMC Banking 365 Fundamentals-Erweiterung finden Sie unter [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
->  Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals Erweiterung exportieren, werden einige Ihrer Geschäftsdaten dem Anbieter des Dienstes zugänglich gemacht. Der Dienstanbieter, AMC Consult A/S, ist für den Schutz dieser Daten verantwortlich. Weitere Informationen finden Sie unter [AMC-Datenschutzrichtlinie.](https://go.microsoft.com/fwlink/?LinkId=510158)  
+>  Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden einige Ihrer Geschäftsdaten dem Anbieter des Dienstes zugänglich gemacht. Der Dienstanbieter, AMC Consult A/S, ist für den Schutz dieser Daten verantwortlich. Weitere Informationen finden Sie unter [AMC-Datenschutzrichtlinie](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-Die folgende Tabelle listet die Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] auf, aus denen Sie Daten exportieren können.  
+> [!NOTE]
+> In der generischen Version von [!INCLUDE[prod_short](includes/prod_short.md)]  wird ein globaler Diensteanbieter eingerichtet und verbunden, der Bankdaten in das Dateiformat konvertiert, das Ihre Bank verlangt. In den nordamerikanischen Versionen kann derselbe Dienst verwendet werden, um Zahlungsdateien als Electronic Funds Transfer (EFT) zu senden, z.B. über das allgemein verwendete Automated Clearing House (ACH) Netzwerk, allerdings mit einem etwas anderen Verfahren.
+
+Die folgende Tabelle listet die Felder in [!INCLUDE[prod_short](includes/prod_short.md)] auf, aus denen Sie Daten exportieren können.  
 
 |Zugeordnetes Feld|Feld in Tabelle|Tabelle|Beschreibung|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |Gläubiger-Identifikationsnummer|Gläubiger-Identifikationsnummer|Bankkonto|Die Identifikationsnummer, die Ihrem Unternehmen von Ihrer Bank zugeordnet wurde, um Zahlungen zu erfassen|  
-|Bankkontonr. des Absenders|Bankkontonummer/IBAN|Bankkonto|Die Bankkontonummer (IBAN oder sonstige) Ihres Unternehmens, die auf der Bankkontokarte angegeben ist|  
+|Bankkontonr. des Absenders|Bankkontonummer/IBAN|Bankkonto|Die Kontonummer (IBAN oder sonstige) Ihres Unternehmens, die auf der Bankkontokarte angegeben ist|  
 |Absenderbank-Clearing-Standard|Bank-Clearing-Standard|Bankkonto|Das Nationale Register der Banknamen für das Bankkonto des Absenders|  
 |Clearing-Code Absenderbank|Bank-Clearing-Code|Bankkonto|Die Identifikationsnummer Bank des Absenders in Bezug auf das Bankadressenregister, das verwendet wird|  
 |BIC Absenderbank|SWIFT-Code|Bankkonto|Die SWIFT-Kennung des Absenderbankkontos.|  
@@ -65,10 +68,13 @@ Die folgende Tabelle listet die Felder in [!INCLUDE[d365fin](includes/d365fin_md
 |PLZ-Code Absenderbank|PLZ|Bankkonto|Der Absenderbankkonto-PLZ-Code, der auf der Bankkontokarte angegeben ist|  
 |Fibu Erf.-Journalvorlage|Erf.-Journalvorlagenname|Fibu Erf.-Journalzeile|Die Fibu Erf.-Journalvorlage, die für die Zahlungszeile verwendet wird|  
 |Fibu Erf.-Journalname|Erf.-Journalname|Fibu Erf.-Journalzeile|Der Fibu Erf.-Journal-Erf.-Journal, das für die Zahlungszeile verwendet wird|  
-|Name der Absenderbank – Datenkonvertierung|Bankname – Datenkonv.|Bankkonto|Der Name des Absenderbankkontos, der von der AMC Banking 365 Fundamentals Erweiterung angefordert und auf der Bankkarte angegeben wird.|  
+|Name der Absenderbank – Datenkonvertierung|Bankname – Datenkonv.|Bankkonto|Der Name des Absenderbankkontos, der von der AMC Banking 365 Fundamentals-Erweiterung angefordert und auf der Bankkarte angegeben wird.|  
 
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten eines Datenaustauschs](across-set-up-data-exchange.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)
-[Verwenden der AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md) .  
-[Zahlungen mit der AMC Banking 365 Fundamentals-Erweiterung oder SEPA-Überweisung vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+[Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md)   
+[Zahlungen mit der AMC Banking 365 Fundamentals-Erweiterung oder per SEPA-Überweisung vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

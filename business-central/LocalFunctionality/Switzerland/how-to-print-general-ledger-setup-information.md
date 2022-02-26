@@ -1,30 +1,28 @@
 ---
-title: Drucken von Einrichtungsinformationen zur Finanzbuchhaltung
+title: Drucken von Fibu Einrichtungsinformationen [CH]
 description: Bevor Sie Business Central im täglichen Geschäft verwenden können, können Sie Finanzbuchhaltungseinrichtungs-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 8c77437487ebba06a6e0000ef7b1f7418807b7e3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 0fa4fc97fb1695062c1940776d3d8ef3e73a8393
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301013"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439748"
 ---
-# <a name="print-general-ledger-setup-information"></a>Drucken von Finanzbuchhaltungs-Setupinformationen
-Bevor Sie [!INCLUDE[d365fin](../../includes/d365fin_md.md)] im täglichen Geschäft verwenden, können Sie den Bericht **Fibu Einr.-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Masterdaten überprüfen, damit Sie eine Grundlage für einen Vergleich haben, und anschliessend verifizieren, dass beispielsweise die Buchungsgruppen ordnungsgemäss eingerichtet sind.  
+# <a name="print-general-ledger-setup-information-in-the-swiss-version"></a>Drucken von Einrichtungsinformationen zur Finanzbuchhaltung in der Schweizer Version
+Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] im täglichen Geschäft verwenden, können Sie den Bericht **Fibu Einr.-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Masterdaten überprüfen, damit Sie eine Grundlage für einen Vergleich haben, und anschliessend verifizieren, dass beispielsweise die Buchungsgruppen ordnungsgemäss eingerichtet sind.  
 
 ## <a name="to-print-general-ledger-setup-information"></a>So drucken Sie Einrichtungsinformationen zur Finanzbuchhaltung  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol \"Nach Seite oder Bericht suchen\"") aus, öffnen Sie **Fibu Einr.-Informationen**, und wählen Sie dann den verknüpften Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Fibu Einr.-Informationen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie im Inforegister **Optionen** im Feld **Einrichtungsinformationen** den Masterdatenbereich wie in der folgenden Tabelle beschrieben aus.  
 
     |Option|Description|  
@@ -34,9 +32,12 @@ Bevor Sie [!INCLUDE[d365fin](../../includes/d365fin_md.md)] im täglichen Gesch�
     |**Buchungsmatrix**|Zeigt allgemeine Geschäftsbuchungsgruppen-Tabellen, allgemeine Produktbuchungsgruppen-Tabellen und allgemeine Buchungsgruppen-Tabellen an.|  
     |**VAT Einrichtung**|Zeigt MWST-Geschäftsbuchungsgruppen-Tabellen, MWST-Produktbuchungsgruppen-Tabellen und MWST-Buchungseinrichtungstabellen an.|  
     |**Buchungsspurcode - Ursachencode**|Zeigt Ausgangstabellen, Buchungsspurcode-Tabellen und Ursachencode-Tabellen an.|  
-    |**Nummernserie überprüfen**|Option zum Bereitstellen einer Übersicht über die Nutzung der Nummernserie, damit Sie Nummernserien erkennen können, die für den Datenexport für die Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen (GDPdU) problematisch sein können. Der Bericht zeigt die Nummernserie mit einem der folgenden Probleme:<br /><br /> -   Die Nummernserie erlaubt manuelle Belegnummern.<br />-   Die Nummernserie ist nicht chronologisch.<br />-   Die Nummernserie wird in mehreren Tabellen oder Feldern verwendet.|  
+    |**Nummernserie überprüfen**|Option zum Bereitstellen einer Übersicht über die Nutzung der Nummernserie, damit Sie Nummernserien erkennen können, die für den Datenexport für die Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen (GDPdU) problematisch sein können. Der Bericht zeigt die Nummernserie mit einem der folgenden Probleme:<br /><br /> -   Die Nummernserie erlaubt manuelle Belegnummern.<br />-   Es besteht eine Lücke in der Nr.-Serie.<br />-   Die Nummernserie wird in mehr als einer Tabelle oder mehr als einem Feld verwendet.|  
 
 3.  Wählen Sie die Schaltfläche **Drucken** aus, um den Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Finance einrichten](../../finance-setup-finance.md)
+[Finanzen einrichten](../../finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
