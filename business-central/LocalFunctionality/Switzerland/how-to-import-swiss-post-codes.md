@@ -2,7 +2,6 @@
 title: 'Gewusst wie: Importieren von Schweizer Postleitzahlen [CH]'
 description: Sie können die aktuelle Schweizer PLZ importieren und damit die Tabelle PLZ aktualisieren, um PLZ für Debitoren oder Kreditoren zu definieren.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 04effb93a3af6dc983c676788177a8be2bed8d08
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 50614decaf1148eeecbdf063c79efcd9c77d24f9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439756"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138115"
 ---
 # <a name="import-swiss-post-codes-in-the-swiss-version"></a>Schweizer PLZ importieren in der Schweizer Version
 Sie können die aktuelle PLZ importieren und damit die Tabelle **PLZ** aktualisieren. Die PLZ-Datei kann von der Website der [Schweizer Post](https://go.microsoft.com/fwlink/?LinkId=150292) heruntergeladen werden. Nach dem Import der letzten PLZ können PLZ für Debitoren oder Kreditoren definiert werden. Weitere Informationen finden Sie unter [Neue Kreditoren registrieren](../../purchasing-how-register-new-vendors.md).  

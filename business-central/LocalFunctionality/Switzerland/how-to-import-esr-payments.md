@@ -2,7 +2,6 @@
 title: Importieren von ESR-Zahlungen [CH]
 description: Nach Eingang einer Zahlung eines Debitors erhalten Sie eine ESR-Datei mit Informationen zu bezahlten Rechnungen auf elektronischem Weg von der Bank.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 3010531, 3010532
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 9fda75d72844cf332a898c99ccecaeda5b31201d
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 069b5ba67f023f60fb7d57f88d680cb8a3a9773b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947181"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136621"
 ---
 # <a name="import-esr-payments-in-the-swiss-version"></a>ESR-Zahlungen importieren in der Schweizer Version
 Nach Eingang einer Zahlung eines Debitors erhalten Sie eine Datei mit Informationen zu bezahlten Rechnungen. Sie können diese Datei elektronisch von der Bank oder per E-Mail empfangen.  

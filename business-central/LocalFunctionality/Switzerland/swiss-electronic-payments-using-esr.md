@@ -2,7 +2,6 @@
 title: Elektronischer Zahlungsverkehr mit ESR [CH]
 description: In diesem Thema werden die verschiedenen Aufgaben erläutert, die Sie mit dem elektronischen Kreditorendienst Einzahlungsschein mit Referenznummer (ESR) abwickeln können.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 3010531, 3010532
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 7fcc6889bab4c3b23af956d7e6ee1aa909142374
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 9fcea031264d5cf12dad97a5ba430f9829d9836e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947191"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147328"
 ---
 # <a name="swiss-electronic-payments-using-esr-in-the-swiss-version"></a>Elektronische Zahlungen mit ESR in der Schweizer Version
 Die elektronische Zahlungsform "Einzahlungsschein mit Referenznummer" (ESR) ist ein elektronischer Debitorendienst, mit dem der Debitor offene Rechnungen in Schweizer Franken (CHF) und Euro (EUR) fakturieren und eingehende Zahlungen effizient buchen kann. Die Referenznummer oder Codezeile enthält alle relevanten Buchhaltungsdaten.  

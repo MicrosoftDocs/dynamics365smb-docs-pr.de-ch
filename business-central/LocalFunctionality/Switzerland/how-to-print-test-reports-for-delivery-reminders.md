@@ -4,7 +4,6 @@ description: Nach dem Erstellen von Lieferbenachrichtigungen und der Durchführu
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: c89fdd119b7a541773d66ed01d081b832c32bdfe
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4754a12346ef5e1d4f6bac7296bd55fc355cc9f7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439740"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134440"
 ---
 # <a name="print-test-reports-for-delivery-reminders-in-the-swiss-version"></a>Drucken von Testberichten für Lieferanmahnungen in der Schweizer Version
 Nach dem Erstellen von Lieferbenachrichtigungen und der Durchführung von etwaigen erforderlichen Änderungen in der Schweiz können Sie entweder Testberichte drucken oder die Lieferbenachrichtigungen ausstellen.  

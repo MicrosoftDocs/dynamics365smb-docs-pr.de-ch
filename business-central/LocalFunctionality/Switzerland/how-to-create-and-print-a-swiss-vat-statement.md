@@ -2,7 +2,6 @@
 title: Erstellen und Drucken einer Schweizer MWST-Abrechnung [CH]
 description: In diesem Thema wird erläutert, wie Sie eine Schweizer MWST-Abrechnung auf Grundlage von angegebenen Informationen auf der Seite „MWST-Buchungsmatrix“ festlegen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11023, 11024
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c4bf96ec590aaeb413644804cdd4d02816f068d6
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: c00157642f2f6ab0d6dc8d769a540536350b6e87
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947123"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145998"
 ---
 # <a name="create-and-print-a-swiss-vat-statement-in-the-swiss-version"></a>Erstellen und Drucken einer Schweizer MWST-Abrechnung in der Schweizer Version
 Auf Grundlage der Informationen, die Sie auf der Seite **MWST-Buchungsmatrix Einr.** angegeben haben, kann [!INCLUDE[prod_short](../../includes/prod_short.md)] automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Gewusst wien in diesem Thema fortfahren, stellen Sie sicher, dass Sie die MWST-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden.  

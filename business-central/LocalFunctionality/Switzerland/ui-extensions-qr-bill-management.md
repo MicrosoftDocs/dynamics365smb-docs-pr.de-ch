@@ -2,7 +2,6 @@
 title: QR-Bill Management [CH]
 description: Dieser Artikel beschreibt die Verbesserungen an der QR-Bill Management-Erweiterung und wie Sie Business Central zum einfachen Generieren, Senden und Importieren Ihrer QR-Rechnungen verwenden können.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
 ms.date: 09/06/2021
 ms.author: soalex
-ms.openlocfilehash: 9e74bb3e31863eba86ede44b687807b47b261f4a
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 38aedb281643b549a05ce32e1fbb0c81f89053db
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011116"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139985"
 ---
 # <a name="qr-bill-management-in-the-swiss-version-of-business-central"></a>QR-Bill Management in der Schweizer Version von Business Central
 Ab dem 1. Juli 2020 müssen Unternehmen in der Schweiz QR-Rechnungen empfangen können. QR-Rechnungen sind Zahlungsscheine für Rechnungen und eine landesweite Initiative zur Optimierung von Zahlungsprozessen. QR-Rechnungen ersetzen alle vorhandenen Zahlungsscheine und ESR-bezogene Funktionen. Sie enthalten alle erforderlichen Informationen zum Vornehmen von Zahlungen. Ein QR-Code auf dem Zahlungsschein erleichtert das Importieren der Informationen in [!INCLUDE[prod_short](../../includes/prod_short.md)]. Alle relevanten Informationen werden importiert und zum Generieren von Zahlungen für den Kreditor verwendet, der die QR-Rechnung gesendet hat, einschliesslich der Zahlungsreferenz, die automatisch in Kreditorenposten eingefügt und in Zahlungsdateien an die Bank exportiert wird.

@@ -2,7 +2,6 @@
 title: Exportieren von Zahlungen mit LSV [CH]
 description: Nachdem der LSV-Einzug abgeschlossen wurde, können Sie LSV+-Dateien (Lastschriftverfahren) mit Zahlungsinformationen exportieren oder erstellen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 088062ff0eace7d0c8c900f370f87879ae029da4
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 6b028dfb4a33c3bfa54dc12411e41952eaf3afbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947129"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136620"
 ---
 # <a name="export-payments-using-lsv-in-the-swiss-version"></a>Zahlungen mit LSV exportieren in der Schweizer Version
 Nachdem der LSV-Einzug abgeschlossen wurde, können Sie LSV+-Dateien (Lastschriftverfahren) mit Zahlungsinformationen exportieren oder erstellen. Sie können die generierten Dateien auf einem Datenträger an die Bank senden oder eine elektronische Methode der Dateiübertragung wie die Onlinebankingsoftware oder ein Internetportal verwenden.  

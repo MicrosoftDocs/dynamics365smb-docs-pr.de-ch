@@ -2,7 +2,6 @@
 title: Drucken von Fibu Einrichtungsinformationen [CH]
 description: Bevor Sie Business Central im täglichen Geschäft verwenden können, können Sie Finanzbuchhaltungseinrichtungs-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0fa4fc97fb1695062c1940776d3d8ef3e73a8393
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c1886f54df20a3c26ffbd8c71a4115c6e45b5d9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439748"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145990"
 ---
 # <a name="print-general-ledger-setup-information-in-the-swiss-version"></a>Drucken von Einrichtungsinformationen zur Finanzbuchhaltung in der Schweizer Version
 Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] im täglichen Geschäft verwenden, können Sie den Bericht **Fibu Einr.-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Masterdaten überprüfen, damit Sie eine Grundlage für einen Vergleich haben, und anschliessend verifizieren, dass beispielsweise die Buchungsgruppen ordnungsgemäss eingerichtet sind.  
