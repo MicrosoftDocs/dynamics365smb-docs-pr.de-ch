@@ -2,7 +2,6 @@
 title: Übersicht über die erforderlichen Aufgaben für das Schliessen der Bücher
 description: Erhalten von Informationen über das Schliessens der Bücher für ein Geschäftsjahr oder für eine Periode, und was passiert, nachdem Sie das Jahr abgeschlossen haben.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 224d1886987184e6ebdb3cc1434c64454d383678
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 242868f88883c6e62a9b43ca949289deb0cdf2fe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011349"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142764"
 ---
 # <a name="closing-the-books"></a>Bucher schliessen
 Nachdem sichergestellt wurde, dass sich alle Konten auf dem neuesten Stand befinden und Kosten und Umsatz verteilt wurden, können die Bücher für ein Geschäftsjahr oder für eine Periode abgeschlossen werden.

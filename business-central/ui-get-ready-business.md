@@ -2,7 +2,6 @@
 title: Vorbereitungen zum Tätigen von Geschäften
 description: Gliedert die unterstützten Einrichtungshandbücher, Videos, Hilfethemen, Seiten, die sie verwenden, um Business Central zu nutzen.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: b75381cd5153294ec65878c3e6726b9a3e4821de
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589146"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335046"
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 
@@ -70,9 +69,9 @@ Unter **Mandanten-Einstellungen** können Sie Informationen über den aktuellen 
 
 ## <a name="adding-users-and-permissions"></a>Hinzufügen von Benutzern und von Berechtigungen
 
-Wenn Sie mehrere Benutzer hinzufügen müssen, wird dieses vom Microsoft 365 Admin Center aus durchgeführt. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
+Wenn Sie mehrere Benutzer hinzufügen müssen, wird dieses vom Microsoft 365 Admin Center durchgeführt. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
 
-Wenn Benutzer in Microsoft 365 erstellt werden, können sie in die Seite **Benutzer** importiert werden, indem Sie die Aktion **Aktualisierungen von Office 365** abrufen verwenden. Sie können dann fortfahren, Berechtigungen Benutzern und Benutzergruppen zuzuordnen. Weitere Informationen finden Sie unter [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
+Wenn Benutzer in Microsoft 365 erstellt werden, können sie in die Seite **Benutzer** importiert werden, indem Sie die Aktion **Aktualisierungen von Office 365 abrufen** verwenden. Sie können dann fortfahren, Berechtigungen Benutzern und Benutzergruppen zuzuordnen. Weitere Informationen finden Sie unter [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
 
 ## <a name="product-help"></a>Produkthilfe
 
@@ -94,6 +93,7 @@ Auf Grundlage Ihrer migrierten Daten können Sie jetzt fortfahren, um neue Verk�
 [Suchen Sie im Hilfebereich](product-help-and-support.md#search-in-the-help-pane)  
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Microsoft Learn-Website](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Daten migrieren](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

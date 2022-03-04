@@ -2,7 +2,6 @@
 title: Designdetailsl- Artikelausgleich | Microsoft Docs
 description: Dieses Thema beschreibt, woher Lagermenge und Wert erfasst werden, wenn Sie eine Lagertransaktion buchen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: fd37ec9ca5cc2de00f18f26bccc32aa81cd5659a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 581ffdce943844d466adc6320fe32aaaa29138b6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215042"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143570"
 ---
 # <a name="design-details-item-application"></a>Designdetails: Artikelausgleich
 
@@ -127,7 +126,7 @@ Das folgende Beispiel, das die Auswirkungen des festen Ausgleichs einer Einkaufs
 
 Die folgende Tabelle zeigt das Ergebnis des Szenarios auf die Wertposten des Artikels an.  
 
-Die folgende Tabelle zeigt das Ergebnis des Szenarios für die Wertposten des Artikels, nachdem die Buchung abgeschlossen und die Kostenanpassung durchgeführt wurde.
+Die folgende Tabelle zeigt das Ergebnis des Szenarios für die Werteinträge des Artikels, nachdem die Buchung abgeschlossen und die Kostenanpassung durchgeführt wurde.
 
 |Buch. Datum|Lagerpostenart|Bewertete Menge|Einstandsbetrag (tatsächl.)|Ausgleich mit Lagerposten|Bew. z. Einst.-Pr. (durchschn.)|Lagerposten Laufnr.|Postennr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
@@ -198,7 +197,7 @@ Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge** ausführen,
 >  Wenn Sie eine Transaktion mit einem festen Ausgleich buchen und der Lagerposten, zu dem Sie verknüpfen, ist geschlossen (d. h. die Restmenge ist gleich 0), wird automatisch der alte Ausgleich zurückgenommen und erneut mit dem Lagerposten ausgeglichen, wobei der von Ihnen angegebene feste Ausgleich verwendet wird.  
 
 ## <a name="transfer-application"></a>Umlagerungs-Anwendung  
-Wenn ein Artikel von einem Lagerort zu einem anderen innerhalb des Bestands übertragen wird, wird eine Anwendung zwischen den beiden Übergangsposten erstellt. Die Bewertung eines Übergangspostens hängt von der Lagerabgangsmethode ab. Für Artikel mit der Kostenberechnungsmethode Durchschnitt wird Bewertung mithilfe der durchschnittlichen Kosten in der Durchschnittskostenperiode erstellt, in der das Bewertungsdatum der Übertragung auftritt. Für Artikel mit anderen Kostenbewertungsmethoden wird die Bewertung durch Rückverfolgung zu den Kosten der ursprünglichen Bestandszunahme durchgeführt.  
+Wenn ein Artikel von einem Lagerort zu einem anderen innerhalb des Lagerbestands übertragen wird, wird eine Anwendung zwischen den beiden Übergangsposten erstellt. Die Bewertung eines Übergangspostens hängt von der Lagerabgangsmethode ab. Für Artikel mit der Kostenberechnungsmethode Durchschnitt wird Bewertung mithilfe der durchschnittlichen Kosten in der Durchschnittskostenperiode erstellt, in der das Bewertungsdatum der Übertragung auftritt. Für Artikel mit anderen Kostenbewertungsmethoden wird die Bewertung durch Rückverfolgung zu den Kosten der ursprünglichen Bestandszunahme durchgeführt.  
 
 ### <a name="example--average-costing-method"></a>Beispiel - Durchschnittskostenberechnungsmethode  
 Das folgende Beispiel, das zeigt, wie Übergangsposten ausgeglichen werden, basiert auf dem folgenden Szenario für einen Artikel mit der Durchschnittskostenbewertungsmethode und der Durchschnittskostenperiode Tag.  
