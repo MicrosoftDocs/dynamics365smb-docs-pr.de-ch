@@ -4,7 +4,6 @@ description: Sie können externe GeschäftsBelege speichern, indem Sie die Dokum
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 65b0d704708232d0999cfc0e72a6380a00a4a273
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 609a57cd1d87a8a3518d6eaf7bc3fe8fc142953a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437741"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134370"
 ---
 # <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Erstellen und Verknüpfen von eingehenden Belegen aus Belegen und Posten
 Sie können externe Geschäftsbelege in [!INCLUDE[prod_short](includes/prod_short.md)] speichern, indem Sie die Belegdateien mit den entsprechenden eingehenden Belegen verknüpfen. Auch wenn der Beleg, beispielsweise eine Einkaufsrechnung, ursprünglich nicht als eingehender Beleg erfasst wurde, können Sie trotzdem später einen eingehenden Beleg erstellen und diesen zuordnen. Sie können eingehende Belegdateien auch an gebuchte Einkaufs- und Verkaufsbelege und an Kreditor-, Debitor- und Fibuposten anfügen, indem Sie die Infobox **Eingehende Belegdateien** verwenden, zum Beispiel auf der Seite **Geb. Einkaufsrechnungen** und **Kreditorenposten**.
