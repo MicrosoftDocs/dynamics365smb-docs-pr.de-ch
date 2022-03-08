@@ -1,20 +1,21 @@
 ---
-title: Design Details – Lagerbuchungsperioden
-description: Lagerbuchungsperioden hilft, Probleme mit Salden und Bestandsbewertungen zu vermeiden, indem Lagerbuchungsperioden geöffnet oder geschlossen werden, um Buchungen in einem festgelegten Zeitraum zu begrenzen.
+title: Designdetails - Bestandberioden | Microsoft Docs
+description: Rückdatierte Transaktions- oder Kostenregulierungen beeinflussen häufig Salden und Bestandsbewertungen für Buchhaltungsperioden, die als geschlossen gelten. Dies kann nachteilige Auswirkungen auf eine genaue Berichterstellung haben, insbesondere innerhalb von weltweiten Unternehmen. Die Funktion „Bestandsperioden“ kann verwendet werden, um solche Probleme zu vermeiden, indem Bestandsperioden geöffnet oder geschlossen werden, um die Buchung in einer bestimmten Periode zu beschränken.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 77348fbf2ef37320b0bfa0ea56a0d395f9b4b142
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1f06b8a47b36bb85aca69030ace4f8b220c5bc24
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133902"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787760"
 ---
 # <a name="design-details-inventory-periods"></a>Designdetails: Bestandsperioden
 Rückdatierte Transaktions- oder Kostenregulierungen beeinflussen häufig Salden und Bestandsbewertungen für Buchhaltungsperioden, die als geschlossen gelten. Dies kann nachteilige Auswirkungen auf eine genaue Berichterstellung haben, insbesondere innerhalb von weltweiten Unternehmen. Die Funktion „Bestandsperioden“ kann verwendet werden, um solche Probleme zu vermeiden, indem Bestandsperioden geöffnet oder geschlossen werden, um die Buchung in einer bestimmten Periode zu beschränken.  
@@ -29,12 +30,6 @@ Rückdatierte Transaktions- oder Kostenregulierungen beeinflussen häufig Salden
 
  Wenn Sie eine Lagerbuchungsperiode schliessen, wird ein Lagerbuchungsperioden-Posten erstellt, indem die Nummer des letzten Lagerjournals verwendet wird, das in die Lagerbuchungsperiode fällt. Ausserdem werden die Zeit, das Datum und der Benutzercode, die die Periode schliessen, im Lagerbuchungsperioden-Posten erfasst. Wenn Sie diese Information mit dem letzten Lagerpostens für die vorherige Periode verwenden, können Sie sehen, welche Lagertransaktionen in der Lagerbuchungsperiode gebucht wurden. Es ist ebenfalls möglich, Lagerbuchungsperioden erneut zu öffnen, wenn Sie in einer geschlossenen Periode buchen müssen. Wenn Sie eine Lagerbuchungsperiode erneut öffnen, wird ein Lagerbuchungsperioden-Posten erstellt.  
 
-## <a name="see-also"></a>Siehe auch
-
-[Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)  
-[Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  
-[Finanzen](finance.md)  
-[Arbeiten mit  Business Central](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>Siehe auch  
+ [Unter Designdetails: Lagerkosten](design-details-inventory-costing.md) [Verwalten der Lagerkosten](finance-manage-inventory-costs.md) [Finanzen](finance.md)  
+ [Arbeiten mit  Business Central](ui-work-product.md)

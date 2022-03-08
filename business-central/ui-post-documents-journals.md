@@ -1,25 +1,27 @@
 ---
-title: Journale und Belege buchen
-description: Dieses Thema beschreibt Buchungsaktionen und die Möglichkeiten, wie Sie Belege und Erfassungen in den verschiedenen Sachkonten der Firma buchen können.
-author: SorenGP
-ms.topic: overview
+title: Liste über das Erfen von Belegen und Erf.-Journalen | Microsoft Docs
+description: Zeigt Erfungsaktionen und die Art und Weise, wie Sie Belege und Erf.-Journalen buchen können.
+services: project-madeira
+documentationcenter: ''
+author: SusanneWindfeldPedersen
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/24/2021
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.author: edupont
-ms.openlocfilehash: 13c2639ab416fd472850fef5161f0f374024bb51
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.date: 04/01/2019
+ms.author: solsen
+ms.openlocfilehash: c9f7a6e3539efa1a1923f05796c03ad70bbb5e58
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335592"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247941"
 ---
-# <a name="posting-documents-and-journals"></a>Journale und Belege buchen
+# <a name="post-documents-and-journals"></a>Journale und Belege buchen
 Das Buchen stellt die Buchhaltungsaktion vom Aufzeichnen von Geschäftstransaktionen in verschiedenen Mandantensachkontos dar.
 
-Nahezu jeder Beleg und jedes Buchungsblatt im [!INCLUDE[prod_short](includes/prod_short.md)] bietet eine **Buchungs** gruppe an, aus der Sie zwischen verschiedenen Buchungsaktionen, wie **Buchen**, **Buchungs-Vorschau**, **Buchen und Senden**, **Buchen und E-Mail** auswählen können.
+Nahezu jeder Beleg und jedes Buchungsblatt im [!INCLUDE[d365fin](includes/d365fin_md.md)] bietet eine **Buchungs** gruppe an, aus der Sie zwischen verschiedenen Buchungsaktionen, wie **Buchen**, **Buchungs-Vorschau**, **Buchen und Senden**, **Buchen und E-Mail** auswählen können.
 
 Die folgende Tabelle enthält Informationen zu verwandten Aufgaben wie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
 
@@ -27,15 +29,11 @@ Die folgende Tabelle enthält Informationen zu verwandten Aufgaben wie Links zu 
 | --- | --- |
 | Erfahren sie mehr zum Buchen von Kaufbelegen. |[Einkäufe buchen](ui-post-purchases.md) |
 | Erfahren sie mehr zum Buchen von Verkaufsbelegen. |[Verkäufe buchen](ui-post-sales.md) |
-| Buchen Sie mehrere Kauf- oder Verkaufsbelege gleichzeitig, sofort oder wie geplant.|[Mehrere Belege gleichzeitig buchen](ui-batch-posting.md)|
-| Erfahren Sie mehr zum Buchen von allgemeinen Vorlagen. |[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md) |
+| Erfahren Sie mehr zum Buchen von allgemeinen Vorlagen. |[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)A |
 | Auf einer Seite die Posten in der Vorschau anzeigen, die erstellt werden, wenn Sie buchen. |[Vorschau-Buchungs-Ergebnisse](ui-how-preview-post-results.md) |
 | In einem Bericht die Posten in der Vorschau anzeigen, die erstellt werden, wenn Sie buchen. |[Anzeigen von Testberichten vor dem Buchen](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>Siehe auch
-[Gebuchte Belege bearbeiten](across-edit-posted-document.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

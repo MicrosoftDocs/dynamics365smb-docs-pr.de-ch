@@ -2,6 +2,7 @@
 title: Manuelle Synchronisation von Tabellenzuordnungen | Microsoft Docs
 description: Die Synchronisierung kopiert Daten zwischen Microsoft Dataverse Tabellen und Business Central, um beide Systeme auf dem neuesten Stand zu halten.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d36032b28790052ad568a91c40d0b6eec7e2bc31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 45a120bd56ea53bf0ba885f04f9bdcedbeba4c5d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149245"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781185"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synchronisieren Sie Tabellenzuordnungen manuell
-
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Eine Integrationstabellenzuordnung ordnet eine [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle (Datensatztyp), beispielsweise Debitor, einer [!INCLUDE[prod_short](includes/cds_long_md.md)]-Tabelle wie einem Konto zu. Die Synchronisierung einer Integrationstabellenzuordnung ermöglicht es Ihnen, Daten in allen Datensätzen der [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle und der [!INCLUDE[prod_short](includes/cds_long_md.md)]-Tabelle, die gekoppelt sind, zu synchronisieren. Je nach Konfiguration der Tabellenzuordnung kann die Synchronisierung zudem neue Datensätze in der Ziellösung für ungekoppelte Datensätze in der Quelle erstellen und koppeln.  
 
@@ -42,7 +43,7 @@ Ob und wo eine Zeile erstellt wird, hängt von der Synchronisierungsrichtung ab.
 >  In der Regel nutzen Sie die vollständige Synchronisierung nur, wenn Sie erstmalig die Integration zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)] einrichten und nur eine Lösung Daten enthält, die Sie zur anderen Lösung kopieren möchten. Eine vollständige Synchronisierung kann in einer Demonstrationsumgebung hilfreich sein. Da die vollständige Synchronisierung automatisch Datensätze zwischen den Lösungen erstellt, ist es schneller, zwischen Datensätzen mit der Synchronisierungsdatenarbeit zu beginnen. Andererseits sollten Sie nur dann eine vollständige Synchronisierung ausführen, wenn Sie eine Zeile in [!INCLUDE[prod_short](includes/prod_short.md)] für jede Zeile in [!INCLUDE[prod_short](includes/cds_long_md.md)] für eine bestimmte Tabellenzuordnungen wünschen. Andernfalls können Sie unerwünschte oder doppelten Datensätze in [!INCLUDE[prod_short](includes/cds_long_md.md)] oder [!INCLUDE[prod_short](includes/prod_short.md)] erhalten.  
 
 ### <a name="to-run-a-full-synchronization"></a>So führen Sie eine vollständige Synchronisierung aus  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Dataverse Einrichtung der Verbindung** ein und wählen Sie dann den zugehörigen Link.
+1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Dataverse Verbindungseinrichtung** ein und wählen Sie dann den entsprechenden Link.
 
     > [!NOTE]
     > Wenn Sie eine vollständige Synchronisierung für Tabellen über Dynamics 365 Sales ausführen möchten, verwenden Sie stattdessen die Seite **Microsoft Dynamics 365 Sales Verbindungseinrichtung**.
@@ -71,14 +72,14 @@ Sie können die Ergebnisse der Synchronisierung auf der Seite **Integrationssync
 >  Indem die Integrationstabelle im Voraus geändert wird, können Sie die Synchronisation mit Filtern erstellen, um zu steuern, welche Datensätze synchronisiert werden, oder sie so zuzuordnen, dass neue Datensätze in der Ziellösung für nicht gekoppelte Datensätze oder Zeilen in der Quelle erstellt werden. Weitere Informationen finden Sie unter [Tabellenzuordnungen für die Synchronisierung ändern](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-data-for-all-tables"></a>So synchronisieren Sie Daten für alle Tabellen  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Microsoft Dynamics 365 Sales Connection Einrichtung** ein und wählen Sie dann den zugehörigen Link.
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Microsoft Dynamics 365 Sales-Verbindungseinrichtung** ein, und wählen Sie dann den zugehörigen Link.
 2.  Wählen Sie die Aktion **Bearbeitete Datensätze synchronisieren** und dann die Schaltfläche **Ja** aus.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Synchronisieren einzelner Tabellenzuordnungen
 Sie können die Seite **Integrationstabellenzuordnungen** verwenden, um das Synchronisationsprojekt für bestimmte Tabellenzuordnungen auszuführen. Dadurch werden Daten für alle gekoppelten Datensätze und Zeilen in der [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle und der [!INCLUDE[prod_short](includes/cds_long_md.md)]-Tabelle synchronisiert, die von der Tabellenzuordnung definiert werden. Standardmässig werden nur Daten synchronisiert, die seit der letzten Synchronisierung geändert wurden.  
 
 ### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>So synchronisieren Sie Datensätze einer Integrationstabellenzuordnung  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Integrationstabellenzuordnungen** ein und wählen Sie dann den zugehörigen Link.
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Integrationstabellenzuordnungen** ein, und wählen Sie dann den zugehörigen Link.
 2.  Wählen Sie die Aktion **Bearbeitete Datensätze synchronisieren** und dann die Schaltfläche **Ja** aus.  
 
 ## <a name="see-also"></a>Siehe auch  

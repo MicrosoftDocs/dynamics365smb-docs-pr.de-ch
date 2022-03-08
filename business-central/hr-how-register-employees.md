@@ -4,31 +4,27 @@ description: Beschreibt, wie Sie die Human Resources-Funktionalität verwenden, 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.search.form: 5200, 5201
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 99add650ec16fcb62d9cdc27962bd83c9c71b794
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ed22406b4e02c1217e2e99db0fa6bbc811bae28b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137953"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440563"
 ---
 # <a name="register-employees"></a>Erfassen eines Mitarbeiters
-Um die Funktion Human Resources zu nutzen, müssen Sie zunächst jeden Mitarbeiter hinzufügen, indem Sie die Felder auf der Seite **Mitarbeiterkarte** ausfüllen.
+Um die Personalwesenfunktionalität zu verwenden, müssen Sie jeden Mitarbeiter zuerst erfassen, indem Sie eine Karte mit allen wesentlichen und zugehörigen Informationen erstellen.
 
-## <a name="adding-new-customers"></a>Hinzufügen neuer Kunden
-Sie können neue Mitarbeiter manuell hinzufügen, indem Sie die Felder auf der Seite **Mitarbeiterkarte** ausfüllen, oder Sie können Vorlagen verwenden, die vordefinierte Informationen enthalten. Sie können zum Beispiel Vorlagen für verschiedene Arten von Mitarbeiterprofilen erstellen. Die Verwendung von Vorlagen spart Zeit beim Hinzufügen neuer Mitarbeiter und hilft sicherzustellen, dass die Informationen jedes Mal korrekt sind. Wenn Sie Vorlagen für mehr als einen Mitarbeitertyp erstellen, können Sie die Vorlage auswählen, die Sie beim Hinzufügen eines Mitarbeiters verwenden möchten. Wenn Sie nur eine Vorlage erstellen, wird diese für alle neuen Mitarbeiter verwendet. Nachdem Sie eine Vorlage erstellt haben, können Sie die Aktion **Vorlage anwenden** verwenden, um sie auf einen oder mehrere ausgewählte Mitarbeiter anzuwenden. Um eine Vorlage zu erstellen, geben Sie auf der Seite Mitarbeiterkarte die Informationen ein, die Sie wiederverwenden möchten, und speichern sie dann als Vorlage.
+Die Mitarbeiterinformationen können jederzeit geändert werden. Sind die Mitarbeiterdatensätze auf dem neuesten Stand, vereinfacht dies personalbezogene Aufgaben. Ändert sich beispielsweise die Adresse eines Mitarbeiters, kann diese Information auf der entsprechenden Mitarbeiterkarte erfasst werden.
 
-> [!TIP]
-> Es kann hilfreich sein, die Seite **Mitarbeitervorlage** zu personalisieren, wenn Sie eine Vorlage erstellen. So können Sie beispielsweise ein Feld hinzufügen, das auf der Seite noch nicht angezeigt wird. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
-
-Die Mitarbeiterinformationen können jederzeit geändert werden. Wenn Sie die Datensätze Ihrer Mitarbeiter auf dem neuesten Stand halten, können Sie personalbezogene Aufgaben vereinfachen. Wenn sich zum Beispiel die Adresse eines Mitarbeiters ändert, registrieren Sie dies auf der Seite Mitarbeiterkarte.
+Die folgenden Prozeduren beschreiben, wie eine ursprüngliche Mitarbeiterkarte erstellt wird und wie einem Mitarbeiter zwei Arten von Mitarbeiterdetails zugewiesen werden. Darüber hinaus können Sie verschiedene andere zugehörige Informationen zuweisen, wie Qualifikationen und Gründe für Inaktivität. Sie weisen Mitarbeiterinformationen entweder zu, indem Sie ein Feld oder eine Aktion auf einer Seite **Mitarbeiterkarte** auswählen.
 
 > [!NOTE]  
 > Sie können einem Mitarbeiter seine Ausgaben während Geschäftsaktivitäten erstatten. Dazu müssen Sie die Felder auf dem Inforegister **Zahlungen** auf der Seite **Mitarbeiterkarte** ausfüllen. Weitere Informationen finden Sie unter [Erstatten Sie die Ausgaben der Mitarbeiter zurück](finance-how-record-reimburse-employee-expenses.md).
@@ -39,7 +35,7 @@ Die Mitarbeiterinformationen können jederzeit geändert werden. Wenn Sie die Da
 3. Füllen Sie auf der Seite **Mitarbeiterkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Das Bild eines Mitarbeiters einfügen:
-Wenn Sie ein Foto eines Mitarbeiters haben, können Sie es auf der Mitarbeiterkarte einfügen.
+Falls Ihnen ein Bild eines Mitarbeiters im .bmp Format vorliegt,  können Sie dieses auf der Anlagenkarte einfügen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Mitarbeiter** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die entsprechende Mitarbeiterkarte.

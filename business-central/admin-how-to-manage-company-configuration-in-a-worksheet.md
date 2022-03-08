@@ -1,33 +1,34 @@
 ---
-title: Wie Sie die Konfiguration einer Firma in einem Arbeitsblatt verwalten
-description: Das Konfigurationsarbeitsblatt ist der zentrale Lagerort, an dem Sie die Konfiguration Ihrer Firma planen, verfolgen und durchführen können.
+title: So verwalten Sie eine Mandantenkonfiguration in einem Arbeitsblatt | Microsoft Docs
+description: Das Konfigurationsarbeitsblatt ist die zentrale Stelle, an der Sie Ihre Konfigurationsarbeit planen, nachverfolgen und ausführen können. Sie können ein Arbeitsblatt für jeden Mandanten erstellen, mit dem Sie arbeiten, oder ein Standardkonfigurationsarbeitsblatt erstellen, das für die Konfiguration von mehreren identischen Mandanten verwendet werden kann.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 23a999ab500512a4aaed2aaab7e205629b5954b7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fb5ede0362f54f8475807e10e1bad87beffaec02
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141373"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922606"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>So verwalten Sie eine Mandantenkonfiguration in einem Arbeitsblatt
 Das Konfigurationsarbeitsblatt ist die zentrale Stelle, an der Sie Ihre Konfigurationsarbeit planen, nachverfolgen und ausführen können. Sie können ein Arbeitsblatt für jeden Mandanten erstellen, mit dem Sie arbeiten, oder ein Standardkonfigurationsarbeitsblatt erstellen, das für die Konfiguration von mehreren identischen Mandanten verwendet werden kann.  
 
-Der erste Schritt zum Vorbereiten eines Konfigurationspakets ist es, einen Mandanten auszuwählen, den Sie bereits eingerichtet und in Hinblick auf die meisten Ihrer Lösungsanforderungen geändert haben. Dieser Mandant dient als Grundlage für Ihre Konfigurationsarbeit mit neuen Mandanten. Im Arbeitsblatt können Sie die Tabellen festlegen, die die Konfiguration steuern und verarbeiten soll. Da die meisten Tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] Beziehungen und Abhängigkeiten zu anderen Tabellen haben, sollten Sie diese zugehörigen Tabelle auch nach Bedarf einschliessen. Zusammen dienen diese Tabellen dann als die Struktur, um die herum Sie einen neuen Mandanten erstellen. Folgende Schritte unterstützen Sie dabei, die Konfiguration zu verpacken und bereitzustelllen.  
+Der erste Schritt zum Vorbereiten eines Konfigurationspakets ist es, einen Mandanten auszuwählen, den Sie bereits eingerichtet und in Hinblick auf die meisten Ihrer Lösungsanforderungen geändert haben. Dieser Mandant dient als Grundlage für Ihre Konfigurationsarbeit mit neuen Mandanten. Im Arbeitsblatt können Sie die Tabellen festlegen, die die Konfiguration steuern und verarbeiten soll. Da die meisten Tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] Beziehungen und Abhängigkeiten zu anderen Tabellen haben, sollten Sie diese zugehörigen Tabelle auch nach Bedarf einschliessen. Zusammen dienen diese Tabellen dann als die Struktur, um die herum Sie einen neuen Mandanten erstellen. Folgende Schritte unterstützen Sie dabei, die Konfiguration zu verpacken und bereitzustelllen.  
 
 Um Ihnen beim Tracking und der Überprüfung Ihrer Arbeit zu helfen, verwenden Sie die **Pakettabelle konfigurieren**-Infobox, um Informationen über Datensätze anzuzeigen. Verwenden Sie die Infobox **Zugehörige Tabellen konfigurieren**, um Tabellen-Verhältnisse zu überwachen.  
 
 Die folgenden Verfahren zeigen, wie Tabelleninformationen für die Konfiguration angepasst und addiert werden.  
 
 ## <a name="to-open-the-configuration-worksheet"></a>So öffnen Sie das Konfigurationsarbeitsblatt  
-1.  Öffnen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] den Mandanten, der die Grundlage für die Konfiguration ist, und öffnen Sie dann sein RapidStart Services-Implementierungs-Rollencenter.  
-2.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Öffnen Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] den Mandanten, der die Grundlage für die Konfiguration ist, und öffnen Sie dann sein RapidStart Services-Implementierungs-Rollencenter.  
+2.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>So fügen Sie dem Arbeitsblatt eine Tabelle hinzu  
 1.  Auf der Seite **Config. Arbeitsblatt** wählen Sie die **Liste bearbeiten** Aktion aus.  
@@ -61,7 +62,7 @@ Die folgenden Verfahren zeigen, wie Tabelleninformationen für die Konfiguration
     |**Nur lizenzierte Tabellen einschliessen**|Aktivieren Sie das Kontrollkästchen, um nur die Tabellen einzuschliessen, für die die Lizenz, unter der Sie das Arbeitsblatt erstellen, Ihnen den Zugriff erlaubt.|
 
 3. Geben Sie im Inforegister **Objekt** nach Bedarf Filter ein, um die Arten von Tabellen festzulegen, die Sie ein- oder ausschliessen möchten.  
-4. Wählen Sie die Schaltfläche **OK** aus. [!INCLUDE[prod_short](includes/prod_short.md)] Tabellen werden dem Arbeitsblatt hinzugefügt. Jeder Eintrag in der Liste hat die Zeilenart **Tabelle**.  
+4. Wählen Sie die Schaltfläche **OK** aus. [!INCLUDE[d365fin](includes/d365fin_md.md)] Tabellen werden dem Fenster hinzugefügt. Jeder Eintrag in der Liste hat die Zeilenart **Tabelle**.  
 5. Um doppelte Tabelleninformationen zu entfernen, die aus der **Zugehörige Tabellen abrufen**-Aktion resultieren können, wählen Sie auf der Registerkarte Aktionen in der Gruppe Funktion **Doppelte Zeilen löschen** aus. Hierdurch werden doppelte Tabellen, die denselben Paketcode haben, entfernt.  
 6. Sie können diesem Arbeitsblatt Tabellen hinzufügen, die zu einer Tabelle gehören, die Sie ausgewählt haben. Überprüfen Sie die Informationen in der Infobox **Zugehörige Tabellen**, um festzustellen, ob es fehlende Tabellen gibt. Um zugehörige Tabellen für eine bestimmte Tabelle hinzuzufügen, wählen Sie die Tabelle in der Liste aus, und wählen Sie auf der Registerkarte Aktionen in der Gruppe Funktionen die Option **Zugehörige Tabellen abrufen** aus.  
 
@@ -96,14 +97,14 @@ Nachfolgend wird beschrieben, wie Sie Bereichs- und Gruppenbezeichnungen addiere
 4. Wählen Sie im Feld **Zeilenart** die Option **Gruppe** aus. Geben Sie im Feld **Namen** einen Namen für das Gebiet ein. Der Gruppenname wird automatisch eingerückt.  
 5. Um Tabellen in die entsprechende Kategorie zu verschieben, wählen Sie die Aktion **Nach Oben** oder **Nach Unten** verschieben. Alternativ können Sie eine Arbeitsblattzeile löschen und die Tabelle an der erforderlichen Stelle erneut einfügen.  
 
-Einige [!INCLUDE[prod_short](includes/prod_short.md)]-Tabellen sind Standard und die Daten darin ändern sich wahrscheinlich von Implementierung zu Implementierung nicht. Zur Verbesserung Ihrer Debitorenorientierung können Sie diese Tabellen aus dem Arbeitsblatt entfernen, nachdem Sie sie in das Konfigurationspaket eingeschlossen haben. Einmal hinzugefügt, bleiben die Tabellen Teil des Konfigurationspakets.  
+Einige [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabellen sind Standard und die Daten darin ändern sich wahrscheinlich von Implementierung zu Implementierung nicht. Zur Verbesserung Ihrer Debitorenorientierung können Sie diese Tabellen aus dem Arbeitsblatt entfernen, nachdem Sie sie in das Konfigurationspaket eingeschlossen haben. Einmal hinzugefügt, bleiben die Tabellen Teil des Konfigurationspakets.  
 
 ## <a name="to-remove-a-standard-table-in-the-worksheet"></a>So entfernen Sie eine Standardtabelle aus dem Arbeitsblatt.  
 Nachdem Sie einem Konfigurationspaket alle erforderlichen Tabellen hinzugefügt haben, legen Sie fest, welche Tabellen keine Debitoraufmerksamkeit erfordern.  
 1.  Wählen Sie die Tabellen aus, und löschen Sie sie, indem Sie die **Löschen** Aktion auswählen.  
 
     > [!NOTE]  
-    >  Die Tabellen bleiben im Paket, obwohl sie aus dem Arbeitsblatt gelöscht werden.  
+    >  Die Tabellen bleiben im Paket, obwohl sie aus dem Vorschlag gelöscht werden.  
 
 ## <a name="to-review-and-customize-existing-database-data"></a>So können Sie vorhandene Datenbank-Daten prüfen und anpassen.
 Wenn Sie ein Konfigurationspaket für eine Lösung erstellen, können Sie die verfügbaren Datenbankdaten anzeigen und anpassen, um Ihren Debitoranforderungen entsprechen. Die Datenbanktabelle muss eine zugeordnete Seite haben.  
@@ -113,11 +114,11 @@ Wenn Sie ein Konfigurationspaket für eine Lösung erstellen, können Sie die ve
 1.  Identifizieren Sie im **Konfigurationsarbeitsblatt** die Tabellen, deren Daten Sie anzeigen oder anpassen möchten.  
 
     > [!NOTE]  
-    >  Stellen Sie sicher, dass jede Tabelle eine Seiten-ID hat, die ihr zugeordnet ist. Für Standard [!INCLUDE[prod_short](includes/prod_short.md)]-Tabellen wird dieser Wert automatisch ausgefüllt. Für benutzerdefinierte Tabellen müssen Sie die ID zur Verfügung stellen  
+    >  Stellen Sie sicher, dass jede Tabelle eine Seiten-ID hat, die ihr zugeordnet ist. Für Standard [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabellen wird dieser Wert automatisch ausgefüllt. Für benutzerdefinierte Tabellen müssen Sie die ID zur Verfügung stellen  
 
 2.  Wählen Sie die **Datenbankdaten** Aktion aus.  
 
-     Das [!INCLUDE[prod_short](includes/prod_short.md)]-Fenster für die Seite wird geöffnet.  
+     Das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Fenster für die Seite wird geöffnet.  
 
 3.  Überprüfen Sie die verfügbaren Informationen. Ändern Sie sie bei Bedarf, indem Sie Datensätze löschen, die nicht relevant sind oder indem Sie neue hinzufügen.
 
@@ -125,6 +126,3 @@ Wenn Sie ein Konfigurationspaket für eine Lösung erstellen, können Sie die ve
 [Unternehmenskonfiguration einrichten](admin-set-up-company-configuration.md)  
 [Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

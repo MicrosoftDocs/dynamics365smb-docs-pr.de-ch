@@ -2,6 +2,7 @@
 title: "So geht's: Artikeleinheiten einrichten| Microsoft Docs"
 description: Sie können mehrere Einheiten für einen Artikel einrichten, sodass Sie für Einheiten den Artikeln zuweisen können.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 28351ac57c6c1941446d5383b384b78fbdf1f77a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c7f30b26c05be77fd8c601635c58399198e2f595
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131523"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785762"
 ---
 # <a name="set-up-units-of-measure"></a>Einheiten einrichten
 
@@ -27,11 +28,9 @@ Sie können mehrere Einheiten für einen Artikel einrichten, sodass Sie für fol
 
 Wenn ein Artikel in einer Einheit am Lager geführt, aber in einer anderen Einheit gefertigt wird, wird ein Fertigungsauftrag erstellt, für den eine Fertigungsloseinheit verwendet wird, um in der Stapelverarbeitung **Herstellungsantrag erneuern** die richtige Menge der Komponenten zu berechnen. Ein Beispiel für eine Berechnung über eine Fertigungsloseinheit ergibt sich, wenn ein Produktionsartikel am Lager in Einheiten geführt, aber in Tonnen gefertigt wird. Weitere Informationen finden Sie unter [Arbeiten mit Fertigungs-Batch-Einheiten](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).  
 
-Ein weiteres Tool, das Ihnen die Arbeit mit mehreren Masseinheiten für Artikel erleichtert, ist die Möglichkeit, eine Rundungsgenauigkeit für Basismasseinheiten anzugeben. Die Angabe einer Rundungsgenauigkeit bietet eine Orientierungshilfe, was jemand für einen bestimmten Geschäftsprozess eingeben sollte, und hilft, Rundungsprobleme zu vermeiden. Wenn Sie alternative Masseinheiten verwenden, hilft der Wert im Feld **Menge pro Masseinheit** bei der Berechnung der Menge in der Basismasseinheit, was zu Rundungsproblemen führen kann. Stellen Sie sich zum Beispiel vor, Sie erhalten einen Karton, der sechs Elemente enthält. Als der Karton in Ihrem Lager eintrifft, stellen Sie fest, dass eines der sechs Elemente fehlt. Sie beschliessen, den Eingang des einen Kartons nicht zu buchen, sondern die Eingangsmenge auf fünf von sechs Teilen zu ändern. Das würde zu einem Eingang von 4,99998 Stück führen, anstatt von fünf. Auf der Seite **Element Masseinheiten** können Sie im Feld **Mengenrundungspräzision** einen Wert angeben, der die Menge in eine besser verständliche Zahl umrechnet. Wenn wir mit dem Beispiel fortfahren, würden wir **1** in das Feld eingeben, um auf glatte fünf Stück aufzurunden.
-
 ## <a name="to-set-up-units-of-measure"></a>So richten Sie Einheiten ein
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Masseinheiten** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Masseinheiten** ein, und wählen Sie dann die entsprechende Verknüpfung.  
 2. Wählen Sie die Aktion **Neu** aus. Eine neue leere Zeile wird eingefügt.  
 3. Füllen Sie die Felder aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. Wenn Sie wissen, dass Ihre Organisation Artikel mit dieser Einheit an Kunden in anderen Ländern verkauft, können Sie Übersetzungen hinzufügen.  
@@ -44,7 +43,7 @@ Wenn Sie einen neuen Artikel registrieren, können Sie die Einheit aus der Liste
 
 ## <a name="to-set-up-multiple-item-units-of-measure"></a>So richten Sie mehrere Einheiten für Artikel ein
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Karte des Artikels, für die Sie alternative Einheiten einrichten möchten.
 3. Wählen Sie die **Einheiten** Aktion aus. Die Seite **Artikeleinheiten** wird geöffnet.
 4. Wenn das Feld **Basismasseinheit** auf der Artikelkarte ausgefüllt wird, ist diese Masseinheit bereits eingerichtet.
@@ -58,13 +57,13 @@ Wenn Sie einen neuen Artikel registrieren, können Sie die Einheit aus der Liste
 
     Im Feld **Basiseinheit** am unteren Rand des Fensters, können Sie die Basiseinheit des Artikels anzeigen oder ändern. Sie können auch die Basiseinheit im Feld **Basiseinheit** auf der Artikelkarte ändern. Auf der Seite **Artikeleinheiten** muss die Basiseinheit den Wert **1** im Feld **Menge pro Einheit** aufweisen.
 
-Sie können die alternativen Einheiten von Einkauf, Produktion und Verkaufsbelegen jetzt verwenden. Weitere Informationen finden Sie unter [Ein Standardcode für Masseinheiten bei Transaktionen im Verkauf und Kauf eingeben](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
+Sie können jetzt die alternativen Einheiten für Einkaufs-, Produktions- und Verkaufsbelege verwenden, wie im Abschnitt [So geben Sie einen Standardeinheitencode für Verkaufs- und Einkaufstransaktionen ein](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions) beschrieben.  
 
 ## <a name="to-set-up-unit-of-measure-translations"></a>Einheiten der Massübersetzungen einrichten
 
-Wenn Sie Artikel an ausländische Kunden verkaufen, möchten Sie vielleicht die Masseinheit in der Sprache des Kunden angeben. Das können Sie tun, indem Sie Übersetzungen für Masseinheiten angeben.
+Wenn Sie Artikel an ausländische Debitoren verkaufen, können Sie die Einheit in der Sprache des Debitors angeben. Dies können Sie tun, nachdem Sie die erforderlichen Einheitenübersetzungen eingerichtet haben.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Masseinheiten** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Masseinheiten** ein, und wählen Sie dann die entsprechende Verknüpfung.
 2. Wählen Sie den Code aus, für den Sie Übersetzungen einrichten möchten und klicken Sie auf **Übersetzungen**.
 3. Wählen Sie im Feld **Sprachcode** auf den Dropdown-Pfeil, um eine Liste über die verfügbaren Sprachcodes anzuzeigen. Wählen Sie den Sprachcode, für den Sie eine Übersetzung eingeben möchten, und wählen Sie dann die Schaltfläche OK, um den Code in das Feld zu kopieren.
 4. Geben Sie in dem Feld **Beschreibung** den entsprechenden Text ein.
@@ -74,7 +73,7 @@ Wenn Sie Artikel an ausländische Kunden verkaufen, möchten Sie vielleicht die 
 
 Wenn Sie normalerweise in Einheiten kaufen und verkaufen, die von der Basiseinheit abweichen, können Sie für Einkäufe und Verkäufe eigene Einheiten festlegen. Dazu müssen die  Einheiten auf der Seite **Artikeleinheiten** eingerichtet worden sein.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die entsprechende Artikelkarte, für die Sie einen Vorgabe-Einheitencode für Einkaufs- oder Verkaufsvorgänge festlegen möchten.
 3. Öffnen Sie im Inforegister **Fakturierung** im Feld **Verkaufseinheitencode** die Seite **Artikeleinheiten**.
 4. Öffnen Sie im Inforegister **Beschaffung** im Feld **Einkaufseinheitencode** die Seite **Artikeleinheiten**.

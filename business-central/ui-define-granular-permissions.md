@@ -2,26 +2,26 @@
 title: Granulare Berechtigungen definieren
 description: Dieses Thema beschreibt, wie Sie granulare Berechtigungen definieren, indem Sie bestimmten Benutzern Zugriff auf Objekte geben und ihnen Berechtigungssätze festlegen.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 9807, 9808, 9830, 9831
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c0dedf8ba397bb1a50f81de0435abf5e4e726404
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146138"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443731"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Zuweisen von Berechtigungen zu Benutzern und Gruppen
 
 Mit dem Sicherheitssystem [!INCLUDE[prod_short](includes/prod_short.md)] können Sie steuern, auf welche Objekte ein Benutzer innerhalb jeder Datenbank oder Umgebung zugreifen darf. Sie können für jeden Benutzer festlegen, ob er Daten in den ausgewählten Datenbankobjekten lesen, ändern oder eingeben darf. Detaillierte Informationen finden Sie unter [Datensicherheit](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in der Hilfe für Entwickler und ITPro für [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Bevor Sie Benutzern und Benutzergruppen Berechtigungen zuweisen, müssen Sie festlegen, wer sich anmelden kann, indem Sie Benutzer entsprechend der im Microsoft 365 Admin Center definierten Lizenz anlegen. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
+Bevor Sie Benutzern und Benutzergruppen Berechtigungen zuweisen, müssen Sie festlegen, wer sich anmelden darf, indem Sie Benutzer entsprechend der im Microsoft 365 Admin Center definierten Lizenz erstellen. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] gibt es zwei Ebenen von Berechtigungen für Datenbankobjekte:
 
@@ -159,9 +159,6 @@ In jedem der fünf Zugriffstypfelder **Leseberechtigung**, **Einfügeberechtigun
 |**Indirekt**|Der Benutzer kann die Aktion an dem fraglichen Objekt nur über ein anderes zugehöriges Objekt ausführen, auf das der Benutzer vollständig zugreifen kann. Weitere Informationen zu indirekten Berechtigungen finden Sie unter [Berechtigungseigenschaft](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) in der Entwickler- und IT-Pro-Hilfe|Zweithöchste|
 |**"Leer"**|Der Benutzer kann die Aktion an dem fraglichen Objekt nicht ausführen.|Am niedrigsten|
 
-> [!IMPORTANT]
-> Seien Sie vorsichtig, wenn Sie **Berechtigung einfügen** oder **Berechtigung ändern** auf die Tabelle **9001Benutzergruppenmitglied** oder **9003Benutzergruppenberechtigungssatz** festlegen. Alle Benutzer, die dem Berechtigungssatz zugeordnet sind, könnten sich möglicherweise selbst anderen Benutzergruppen zuordnen, wodurch sie wiederum unbeabsichtigte Berechtigungen erhalten könnten.
-
 ### <a name="example---indirect-permission"></a>Beispiel - Indirekte Berechtigungen
 
 Sie können indirekte Berechtigungen zuweisen, um ein Objekt nur über ein anderes Objekt zu verwenden.
@@ -264,7 +261,7 @@ Sie können [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, um Änder
 [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
 [Verwaltung](admin-setup-and-administration.md)  
-[Benutzer zu Microsoft 365 für Unternehmen hinzufügen](/microsoft-365/admin/add-users/add-users)  
+[Hinzufügen von Benutzern zu Microsoft 365 für Unternehmen](/microsoft-365/admin/add-users/add-users)  
 [Sicherheit und Schutz in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in Developer und IT-pro Help
 
 

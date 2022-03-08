@@ -1,28 +1,29 @@
 ---
 title: Erstellen Sie Neuwert-Posten für Artikel im Lagerbestand| Microsoft Docs
-description: Beschreibt, wie Sie die Werteinträge eines oder mehrerer Artikel im Bestand aufwerten oder abschreiben, indem Sie deren aktuellen, berechneten Wert buchen.
+description: Beschreiben Sie, wie der Wert eines oder mehrerer Artikel im Lager abgeschrieben oder neu bewertet wird, indem Sie den aktuellen, berechneten Wert buchen.
+services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
-ms.search.forms: 5803,
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 4abfe521684fd6e0e4d8d519248919b0628dc1fb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 1e7b1ef8fa480eadc644ed03f5491961480dc0c6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135946"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309978"
 ---
 # <a name="revalue-inventory"></a>Neubewerten von Lagerbestand
 Wenn Sie den Lagerwert eines Artikels oder den eines bestimmten Lagerpostens nach oben oder unten verändern möchten, müssen Sie das Neubewertungs Erf.-Journal verwenden.
 
 ## <a name="to-revalue-inventory"></a>Neubewerten von Lagerbestand
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Neubewertungs Erf.-Journal** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Neubewertung Erf.-Journal** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Lagerwert berechnen** aus.
 3. Füllen Sie auf der Seite **Lagerwert berechnen** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie die Schaltfläche **OK** aus.
@@ -35,10 +36,7 @@ Neue Wertposten werden nun erstellt, um die Neubewertungen abzubilden, die Sie g
 
 ## <a name="see-also"></a>Siehe auch
 [Designdetails: Neubewertung](design-details-revaluation.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Lagerbest.](inventory-manage-inventory.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

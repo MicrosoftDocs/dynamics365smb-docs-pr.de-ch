@@ -2,20 +2,20 @@
 title: Automatisierte Datenerfassung (MDE) verwenden
 description: Sie können Ihr automatisches Datenerfassungssystem (ADCS) verwenden, um die Bewegung von Artikeln im Lager und einige Erfassungen von Aktivitäten zu registrieren.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
-ms.search.form: 7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 88f0fdefa640cb96316e0958279513211f6abf4d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f1e2c24717d9c481f95d2572ee2e1f50b681b0a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144269"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442943"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Automatisierte Datenerfassung (MDE) verwenden
 

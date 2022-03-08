@@ -2,6 +2,7 @@
 title: Touch- und Stiftgesten
 description: Erfahren Sie mehr über Touch- und Stiftgesten, die Ihnen helfen, effizient mit Ihren Daten von Tablets und Telefonen zu arbeiten.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, charts, tiles
 ms.date: 04/29/2021
 ms.author: jswymer
-ms.openlocfilehash: 43a3c648693ca0f3cc009aeecb7fc053f8be2838
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4418c5c693e9eb02a1f2a07861aa9cb0e211a6ba
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138454"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961615"
 ---
 # <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Berührungs- und Stiftgesten für Tablets und Telefone 
 

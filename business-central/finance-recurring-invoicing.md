@@ -1,22 +1,22 @@
 ---
-title: Mit wiederkehrenden Umsätzen arbeiten
+title: Arbeiten mit wiederkehrenden Umsätzen | Microsoft Docs
 description: Erfahren Sie mehr über die verfügbaren Optionen zum automatischen Senden von Abonnementrechnungen an Ihre Kunden und zum Registrieren wiederkehrender Einnahmen.
 author: AndreiPanko
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
-ms.search.form: 283
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: andreipa
-ms.openlocfilehash: cf990ec5de639054a79e98275be76cb0aed989d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 311af347fede15b3d246e66d66b47a5fd09c90db
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128805"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750494"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Arbeiten mit wiederkehrenden Umsätzen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -121,6 +121,3 @@ Unter [AppSource.microsoft.com](https://appsource.microsoft.com/) können Sie Er
 [Absatzplanungen und Rahmenaufträge Nachfrage](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Arbeiten mit Rahmenaufträgen](sales-how-to-create-blanket-sales-orders.md)  
 [Wiederkehrende Aufträge (Norwegen)](LocalFunctionality/Norway/recurring-orders.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

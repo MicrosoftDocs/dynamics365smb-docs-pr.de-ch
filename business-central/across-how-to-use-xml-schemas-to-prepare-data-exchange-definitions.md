@@ -1,20 +1,21 @@
 ---
-title: XML-Schemata zum Vorbereiten von Data Exchange-Definitionen
-description: Verwenden Sie XML-Schemata, um das Framework für den Datenaustausch festzulegen, um zu definieren, mit welchen Datenelementen Sie austauschen wollen.
+title: Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinitionen
+description: Verwenden Sie XML-Schemata, um das Belegaustauschframework festzulegen.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cbaa75f196f75b79e83becb80006f6b4dc2aa291
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 25073b552644c9ca013a2eae90a0d013ab57e556
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130962"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379437"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinitionen
 
@@ -34,7 +35,7 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 
 1. Vergewissern Sie sich, dass die relevante XML-Schemadatei verfügbar ist. Die Dateierweiterung lautet „.xsd“.  
 
-2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **XML-Schemata** ein und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **XML-Schemas** ein, und wählen Sie dann den entsprechenden Link aus.  
 
 3. Wählen Sie die Aktion **Neu** aus.  
 
@@ -56,7 +57,7 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>So wählen oder löschen Sie Knoten in XML-Schema  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **XML-Schema-Viewer** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **XML-Schema-Viewer** ein, und wählen Sie dann den entsprechenden Link aus.  
 
 2. Füllen Sie im Kopfbereich die Felder gemäss der Beschreibung in der folgenden Tabelle aus.  
 
@@ -94,7 +95,7 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>So generieren Sie eine Datenaustauschdefinition, die auf einem XML-Schema basiert  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **XML-Schemata** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **XML-Schemas** ein, und wählen Sie dann den entsprechenden Link aus.  
 
 2. Wählen Sie das entsprechende XML-Schema aus und wählen Sie dann die Aktion **XML Schema Viewer öffnen**.  
 

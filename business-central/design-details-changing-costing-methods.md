@@ -2,20 +2,20 @@
 title: Designdetails – Ändern der Lagerabgangsmethode für Artikel
 description: Erfahren Sie, wie Sie einem Artikel eine andere Lagerabgangsmethode zuweisen, obwohl Sie den Artikel bereits in Transaktionen verwendet haben.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
-ms.search.form: 8645
-ms.date: 06/08/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5e7bbb28b35f31e21904006b6c595896bdca3f61
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e71ccc7961efdff4dcfc26660f48bafb3d5fd88f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148656"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751749"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Designdetails: Lagerabgangsmethode für Artikel ändern
 
@@ -43,7 +43,7 @@ Wenn Sie Lagerartikel einrichten, müssen Sie eine Kalkulationsmethode zuweisen.
 * Standard
 * Ausgewählt
 
-Weitere Informationen finden Sie unter [Designdetails: Lagerabgangsmethoden](design-details-costing-methods.md).
+Weitere Informationen finden Sie unter [Designdetails: Lagerabgangsmethoden".](design-details-costing-methods.md)
 
 ## <a name="using-assembly-orders-to-change-costing-method-assignments"></a>Verwenden von Montageaufträgen zum Ändern der Zuordnung von Lagerabgangsmethoden
 
@@ -78,21 +78,21 @@ Damit die neuen Artikel vollständig verwendet werden können, müssen Sie einig
 
 |Ursprungs- / Bestimmungsregion  |Zu kopieren  |Vorgehensweise  |
 |---------|---------|---------|
-|Lagerbestand |Lagerhaltungsdaten |Überprüfen Sie, ob für den ursprünglichen Artikel Lagerhaltungsdaten angegeben sind. Wenn für jede Lagerhaltungsdatenkarte Planungsparameter eingegeben wurden, müssen Sie die Lagerhaltungsdaten für den neuen Artikel manuell erstellen. Wenn die Parameter nicht angegeben sind, können Sie den Stapelverarbeitungsauftrag **Lagerhaltungsdaten erstellen** auf der Seite **Artikelkarte** verwenden, um die Daten zu erstellen.|
-| |Ersatzartikel |Überprüfen Sie, ob für den ursprügnlichen Artikel Ersatzartikel definiert sind. Falls ja, übertragen Sie diese Daten auf den neuen Artikel. Verwenden Sie die Aktion **Ersatzartikel** auf der Karte **Artikelkarte**, um Ersatzartikel anzuzeigen. |
-| |Analyseberichte |Überprüfen Sie die Berichte „Artikelanalyse“, „Verkaufsanalyse“ und „Einkaufsanalyse“. Für diejenigen, die auf die ursprünglichen Artikel verweisen, können Sie entweder einen neuen Analysebericht mit einem Verweis auf den neuen Artikel erstellen (wobei der ursprüngliche Analysebericht als Verlauf verwendet wird) oder die Berichte so anpassen, dass sie auf den neuen Artikel verweisen. |
-| |Standard Erfassungsjournale |Überprüfen Sie, ob Standard Erfassungsjournale auf den ursprünglichen Artikel verweisen, und übertragen Sie diese Daten bei Bedarf auf den neuen Artikel. Diese Informationen finden Sie in den Standard Erfassungsjournalen, die im Artikel Erf.-Journal verfügbar sind.  |
-|Verkauf |Vorauszahlungsprozentsatz für Verkäufe | Überprüfen Sie, ob für den ursprünglichen Artikel Vorauszahlungsprozentsätze für Verkäufe definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Wählen Sie zum Anzeigen von Vorauszahlungsprozentsätzen für Verkäufe auf der Seite **Artikelkarte** die Option **Verkauf** und dann **Zahlungsprozentsätze** aus.|
-|Einkauf |Vorauszahlungsprozentsatz für Einkäufe |Überprüfen Sie, ob für den ursprünglichen Artikel Vorauszahlungsprozentsätze für Einkäufe definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Wählen Sie zum Anzeigen von Vorauszahlungsprozentsätzen für Verkäufe auf der Seite **Artikelkarte** die Option **Einkäufe** und dann **Zahlungsprozentsätze** aus. |
-|Logistik |Lagerplatzinhalt |Überprüfen Sie den für den ursprünglichen Artikel definierten Lagerplatzinhalt. Wenn Spalten wie „Min. Menge“, „Max. Menge“, „Standard“ und „Dediziert“ einzeln eingegeben wurden, müssen Sie anschliessend den den Lagerplatzinhalt für den neuen Artikel manuell erstellen. Ist dies nicht der Fall, ist keine Aktion erforderlich. [!INCLUDE[prod_short](includes/prod_short.md)] verwaltet die Aufzeichnungen, wenn Sie Logistikbelege und Logistik Erfassungsjournale registrieren.|
-|Projekt |Projektpreise |Überprüfen Sie, ob für den ursprünglichen Artikel Projektpreise definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Diese Informationen finden Sie auf der Seite **Projektkarte** im Abschnitt **Projektdetails – Anzahl Preise** des **Infoboxbereichs**. |
-|Dienst |Qualifikationen der Serviceressourcen |Überprüfen Sie, ob für den ursprünglichen Artikel die Qualifikation der Serviceressourcen definiert ist, und übertragen Sie diese Daten auf den neuen Artikel. Verwenden Sie zum Anzeigen der Qualifikationen der Ressourcen die Aktion **Qualifikationen der Ressourcen** auf der Seite **Artikelkarte**.  |
-| |Serviceartikelkomponenten |Überprüfen Sie, ob für den ursprünglichen Serviceartikel die Komponenten definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Zum Anzeigen der Komponenten von Serviceartikeln verwenden Sie auf der Seite **Artikelkarte** die Option **Serviceartikel**, um die Liste der zugehörigen Serviceartikel zu öffnen, und wählen Sie dann die Aktion **Komponenten** aus.  |
-|Produktion |Operationspläne |Überprüfen Sie, ob Fertigungsstücklisten den ursprünglichen Artikel enthalten, und ersetzen Sie ihn durch den neuen Artikel. Zum Ersetzen des ursprünglichen Artikels wählen Sie auf der Seite **Fertigungsstücklisten** die Aktion **Fertigungsstückliste ersetzen** aus. |
-|Montage |Montagestücklisten |Überprüfen Sie, ob Montagestücklisten den ursprünglichen Artikel enthalten, und ersetzen Sie ihn manuell durch den neuen Artikel. |
+|Lagerbestand     |Lagerhaltungsdaten         |Überprüfen Sie, ob für den ursprünglichen Artikel Lagerhaltungsdaten angegeben sind. Wenn für jede Lagerhaltungsdatenkarte Planungsparameter eingegeben wurden, müssen Sie die Lagerhaltungsdaten für den neuen Artikel manuell erstellen. Wenn die Parameter nicht angegeben sind, können Sie den Stapelverarbeitungsauftrag **Lagerhaltungsdaten erstellen** auf der Seite **Artikelkarte** verwenden, um die Daten zu erstellen.        |
+|     |Ersatzartikel         |Überprüfen Sie, ob für den ursprügnlichen Artikel Ersatzartikel definiert sind. Falls ja, übertragen Sie diese Daten auf den neuen Artikel. Verwenden Sie die Aktion **Ersatzartikel** auf der Karte **Artikelkarte**, um Ersatzartikel anzuzeigen.         |
+|     |Analyseberichte         |Überprüfen Sie die Berichte „Artikelanalyse“, „Verkaufsanalyse“ und „Einkaufsanalyse“. Für diejenigen, die auf die ursprünglichen Artikel verweisen, können Sie entweder einen neuen Analysebericht mit einem Verweis auf den neuen Artikel erstellen (wobei der ursprüngliche Analysebericht als Verlauf verwendet wird) oder die Berichte so anpassen, dass sie auf den neuen Artikel verweisen.         |
+|     |Standard Erfassungsjournale         |Überprüfen Sie, ob Standard Erfassungsjournale auf den ursprünglichen Artikel verweisen, und übertragen Sie diese Daten bei Bedarf auf den neuen Artikel. Diese Informationen finden Sie in den Standard Erfassungsjournalen, die im Artikel Erf.-Journal verfügbar sind.          |
+|Verkauf     |Vorauszahlungsprozentsatz für Verkäufe         | Überprüfen Sie, ob für den ursprünglichen Artikel Vorauszahlungsprozentsätze für Verkäufe definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Wählen Sie zum Anzeigen von Vorauszahlungsprozentsätzen für Verkäufe auf der Seite **Artikelkarte** die Option **Verkauf** und dann **Zahlungsprozentsätze** aus.        |
+|Einkauf     |Vorauszahlungsprozentsatz für Einkäufe         |Überprüfen Sie, ob für den ursprünglichen Artikel Vorauszahlungsprozentsätze für Einkäufe definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Wählen Sie zum Anzeigen von Vorauszahlungsprozentsätzen für Verkäufe auf der Seite **Artikelkarte** die Option **Einkäufe** und dann **Zahlungsprozentsätze** aus.                 |
+|Logistik     |Lagerplatzinhalt         |Überprüfen Sie den für den ursprünglichen Artikel definierten Lagerplatzinhalt. Wenn Spalten wie „Min. Menge“, „Max. Menge“, „Standard“ und „Dediziert“ einzeln eingegeben wurden, müssen Sie anschliessend den den Lagerplatzinhalt für den neuen Artikel manuell erstellen. Ist dies nicht der Fall, ist keine Aktion erforderlich. [!INCLUDE[prod_short](includes/prod_short.md)] verwaltet die Aufzeichnungen, wenn Sie Logistikbelege und Logistik Erfassungsjournale registrieren.|
+|Projekt     |Projektpreise         |Überprüfen Sie, ob für den ursprünglichen Artikel Projektpreise definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Diese Informationen finden Sie auf der Seite **Projektkarte** im Abschnitt **Projektdetails – Anzahl Preise** des **Infoboxbereichs**.         |
+|Dienst     |Qualifikationen der Serviceressourcen         |Überprüfen Sie, ob für den ursprünglichen Artikel die Qualifikation der Serviceressourcen definiert ist, und übertragen Sie diese Daten auf den neuen Artikel. Verwenden Sie zum Anzeigen der Qualifikationen der Ressourcen die Aktion **Qualifikationen der Ressourcen** auf der Seite **Artikelkarte**.          |
+|     |Serviceartikelkomponenten         |Überprüfen Sie, ob für den ursprünglichen Serviceartikel die Komponenten definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Zum Anzeigen der Komponenten von Serviceartikeln verwenden Sie auf der Seite **Artikelkarte** die Option **Serviceartikel**, um die Liste der zugehörigen Serviceartikel zu öffnen, und wählen Sie dann die Aktion **Komponenten** aus.          |
+|Produktion     |Operationspläne         |Überprüfen Sie, ob Fertigungsstücklisten den ursprünglichen Artikel enthalten, und ersetzen Sie ihn durch den neuen Artikel. Zum Ersetzen des ursprünglichen Artikels wählen Sie auf der Seite **Fertigungsstücklisten** die Aktion **Fertigungsstückliste ersetzen** aus.         |
+|Montage     |Montagestücklisten         |Überprüfen Sie, ob Montagestücklisten den ursprünglichen Artikel enthalten, und ersetzen Sie ihn manuell durch den neuen Artikel.         |
 
 > [!IMPORTANT]
-> Wenn die neue Lagerabgangsmethode „Standard“ lautet, sollten Sie einen Wert in das Feld eingeben **Einstandspreis (fest)** auf der Seite **Artikelkarte** eingeben. Auf der Seite **Einst.-Preis (fest) Arbeitsblatt** können Sie die Kostenanteile entsprechend festlegen. Weitere Informationen zum Erstellen von Erfassungen finden Sie unter [Standard-Buch.-Blätter aktualisieren](finance-how-to-update-standard-costs.md).
+> Wenn die neue Lagerabgangsmethode „Standard“ lautet, sollten Sie einen Wert in das Feld eingeben **Einstandspreis (fest)** auf der Seite **Artikelkarte** eingeben. Auf der Seite **Einst.-Preis (fest) Vorschlag** können Sie die Kostenanteile entsprechend festlegen. Weitere Informationen zum Erstellen von Erfassungen finden Sie unter [Standard-Buch.-Blätter aktualisieren](finance-how-to-update-standard-costs.md).
 
 ### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>Bestandsmenge bestimmen, die vom ursprünglichen Artikel in den neuen Artikel konvertiert werden soll
 
@@ -116,23 +116,23 @@ Verwenden Sie beim Erstellen von Montageaufträgen die Informationen aus dem Inv
 
 |Feld  |Einzugebender Wert  |
 |---------|---------|
-|Artikelnr. |Die Nummer des neuen Artikels. |
-|Menge |Die Menge im Inventur-Erf.-Journal.<br> **HINWEIS:** Die von den Inventur Erfassungsjournalen berechneten Mengen enthalten nicht die Mengen, die sich auf Bestellungen befinden, die noch nicht versendet wurden.  |
-|Variantencode |Identisch mit dem Inventur-Erf.-Journal.  |
-|Lagerortcode  |Identisch mit dem Inventur-Erf.-Journal. |
-|Einheitencode |Identisch mit dem Inventur-Erf.-Journal. |
-|Lagerplatzcode |Identisch mit dem Inventur-Erf.-Journal. |
+|Artikelnr.     |Die Nummer des neuen Artikels.         |
+|Menge     |Die Menge im Inventur-Erf.-Journal.<br> **HINWEIS:** Die von den Inventur Erfassungsjournalen berechneten Mengen enthalten nicht die Mengen, die sich auf Bestellungen befinden, die noch nicht versendet wurden.          |
+|Variantencode     |Identisch mit dem Inventur-Erf.-Journal.          |
+|Lagerortcode      |Identisch mit dem Inventur-Erf.-Journal.         |
+|Einheitencode     |Identisch mit dem Inventur-Erf.-Journal.         |
+|Lagerplatzcode     |Identisch mit dem Inventur-Erf.-Journal.         |
 
 #### <a name="lines"></a>Zeilen
 
 |Feld  |Einzugebender Wert  |
 |---------|---------|
-|Art |Artikel |
-|Nr. |Die Nummer des ursprünglichen Artikels. |
-|Komponentenmenge |1 |
-|Variantencode |Identisch mit dem Inventur-Erf.-Journal. |
-|Lagerortcode  |Identisch mit dem Inventur-Erf.-Journal. |
-|Einheitencode |Identisch mit dem Inventur-Erf.-Journal. |
+|Art     |Artikel         |
+|Nr.     |Die Nummer des ursprünglichen Artikels.         |
+|Komponentenmenge     |1         |
+|Variantencode     |Identisch mit dem Inventur-Erf.-Journal.         |
+|Lagerortcode      |Identisch mit dem Inventur-Erf.-Journal.         |
+|Einheitencode     |Identisch mit dem Inventur-Erf.-Journal.         |
 
 > [!NOTE]
 > Ein Montageauftrag kann jeweils nur die Lagerhaltungsdaten eines Artikels verarbeiten. Sie müssen einen Montageauftrag für jede Kombination von Lagerhaltungsdaten erstellen, die eine Menge im Lagerbestand haben.
@@ -142,7 +142,7 @@ Verwenden Sie beim Erstellen von Montageaufträgen die Informationen aus dem Inv
 
 ### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Bestandsmengen verarbeiten, die der Nachfrage zugeordnet sind
 
-Im Idealfall sollte der Lagerbestand für den ursprünglichen Artikel nach der Übertragung der Bestandsmengen auf Null gehen. Es können jedoch ausstehende Bestellungen, Arbeitsblätter und Buchungserfassungsjournale (siehe Tabelle unten) vorhanden sein, für die noch eine Menge des ursprünglichen Artikels erforderlich ist. Die Menge kann auch durch eine Reservierung oder Artikeltracking blockiert werden.
+Im Idealfall sollte der Lagerbestand für den ursprünglichen Artikel nach der Übertragung der Bestandsmengen auf Null gehen. Es können jedoch ausstehende Bestellungen, Arbeitserfassungsjournale und Buchungserfassungsjournale (siehe Tabelle unten) vorhanden sein, für die noch eine Menge des ursprünglichen Artikels erforderlich ist. Die Menge kann auch durch eine Reservierung oder Artikeltracking blockiert werden.
 
 **Beispiel**: Im Lager befinden sich 1000 Stück. und 20 Stück sind für einen Kundenauftrag reserviert, der noch nicht versendet wurde. In diesem Fall können Sie die 20 Stück im alten Artikel behalten, sodass Sie die ausstehende Bestellung erfüllen können.
 
@@ -153,15 +153,15 @@ In der folgenden Tabelle sind Funktionsbereiche aufgeführt, in denen möglicher
 
 |Ursprungs- / Bestimmungsregion  |Nach ausstehenden Mengen suchen  |
 |---------|---------|
-|Verkauf |Verkaufsbelege, einschliesslich Bestellungen, Rücksendungen, Rechnungen, Offerten, Rahmenaufträge und Gutschriften |
-|Lagerbestand |Artikel-Erfassungsjournale, Reservierungen, Artikeltracking und Einst.-Preis (fest) Arbeitsblatt |
-|Einkauf |Einkaufsbelege, einschliesslich Bestellungen, Rücksendungen, Rechnungen, Offerten, Rahmenaufträge und Gutschriften |
-|Planung |Bestellarbeitsblatt, Planungsarbeitsblatt und Auftragsplanung |
-|Logistik |Umlagerungsaufträge, Warenausgänge, Logistik Erfassungsjournale und Lagerkommissionierungen, Lagereinlagerungen und Umlagerungen, interne Kommissionierungen und Einlagerungen sowie Lagerplatz Erst.-Arbeitsblätter |
-|Montage |Montagebelege, einschliesslich Bestellungen, Rücksendungen und Rahmenbestellungen |
-|Projekte |Projektplanungszeilen und Projekt-Erfassungsjournalzeilen |
-|Dienst |Servicebelege und Serviceverträge |
-|Produktion |Fertigungsauftrag (geplant, fest geplant und freigegeben) |
+|Verkauf     |Verkaufsbelege, einschliesslich Bestellungen, Rücksendungen, Rechnungen, Offerten, Rahmenaufträge und Gutschriften         |
+|Lagerbestand     |Artikel-Erfassungsjournale, Reservierungen, Artikeltracking und Einst.-Preis (fest) Vorschlag         |
+|Einkauf     |Einkaufsbelege, einschliesslich Bestellungen, Rücksendungen, Rechnungen, Offerten, Rahmenaufträge und Gutschriften         |
+|Planung     |Bestellvorschlag, Planungsarbeitsblatt und Auftragsplanung         |
+|Logistik     |Umlagerungsaufträge, Warenausgänge, Logistik Erfassungsjournale und Lagerkommissionierungen, Lagereinlagerungen und Umlagerungen, interne Kommissionierungen und Einlagerungen sowie Lagerplatz Erst.-Vorschläge         |
+|Montage     |Montagebelege, einschliesslich Bestellungen, Rücksendungen und Rahmenbestellungen         |
+|Projekte     |Projektplanungszeilen und Projekt-Erfassungsjournalzeilen         |
+|Dienst     |Servicebelege und Serviceverträge         |
+|Produktion     |Fertigungsauftrag (geplant, fest geplant und freigegeben)         |
 
 ### <a name="block-the-original-item-from-further-use"></a>Verwendung des ursprünglichen Artikels blockieren
 
@@ -182,6 +182,3 @@ Wir empfehlen Folgendes:
 
 [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  
 [Matrix](design-details-inventory-costing.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

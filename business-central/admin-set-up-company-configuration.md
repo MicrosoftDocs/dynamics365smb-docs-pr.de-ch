@@ -1,23 +1,24 @@
 ---
-title: Richten Sie eine Unternehmenskonfiguration ein.
-description: Richten Sie als Partner Business Central für Ihren Kunden mit Standard- oder kundenspezifischen Konfigurationen ein, die Sie in Konfigurationspaketen bündeln.
+title: Unternehmenskonfigurationen einrichten | Microsoft Docs
+description: Der Implementierungsprozess beginnt mit der benötigten Business Central Lösung. Sie bündeln alle diese Informationen in Konfigurationspakete.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 402595c34d69db0a14fce6eac8f3bb9e0896d06b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143955"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385288"
 ---
 # <a name="set-up-company-configuration"></a>Richten Sie eine Unternehmenskonfiguration ein.
-Der Implementierungsprozess beginnt mit dem Microsoft-Partner. Als Partner sind Sie für die Formulierung der Konfigurationsdetails und das Erstellen eines Pakets zuständig ist, das ein Debitor einfach anwenden kann. Bevor Sie einen neuen Mandanten in [!INCLUDE [prod_short](includes/prod_short.md)] online oder on-premises erstellen, sollten Sie planen, wie dieser konfiguriert wird. Sie müssen an grundlegende Einrichtungsdaten und die Arten der Daten denken, die Ihre [!INCLUDE[prod_short](includes/prod_short.md)]-Lösung benötigt. Sie bündeln alle diese Informationen in Konfigurationspakete.
+Der Implementierungsprozess beginnt mit dem Microsoft-Partner. Dies ist der Partner, der für die Formulierung der Konfigurationsdetails und das Erstellen eines Pakets zuständig ist, dass ein Debitor einfach anwenden kann. Bevor Sie einen neuen Mandanten erstellen, sollten Sie planen, wie dieser konfiguriert wird. Sie müssen an grundlegende Einrichtungsdaten und die Arten der Daten denken, die Ihre [!INCLUDE[prod_short](includes/prod_short.md)]-Lösung benötigt. Sie bündeln alle diese Informationen in Konfigurationspakete.
 
 RapidStart Services gibt ausserdem die Werkzeuge, die Sie verwenden, um die Stammdaten zu migrieren, beispielsweise Debitoren und Kreditoren.  
 
@@ -32,14 +33,11 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |**Bis**|**Siehe**|  
 |------------|-------------|  
 |Planen Sie eine Mandantenkonfiguration, indem Sie in das Konfigurationsarbeitsblatt ausfüllen.|[So verwalten Sie eine Mandantenkonfiguration in einem Arbeitsblatt](admin-how-to-manage-company-configuration-in-a-worksheet.md)|  
-|Erstellen Sie ein Konfigurationspaket, passen Sie ein Paket an, weisen Sie einem Paket Tabellen, zu überprüfen oder Bearbeiten Sie vorhandene Debitorendaten, erstellen Sie den neuen Mandanten und bewegen Sie dann Prüfdaten auf die Fertigungsumgebungen.|[So bereiten Sie ein Konfigurationspaket vofr](admin-how-to-prepare-a-configuration-package.md)|
+|Erstellen Sie ein Konfigurationspaket, passen Sie ein Paket an, weisen Sie einem Paket Tabellen, zu überprüfen oder Bearbeiten Sie vorhandene Debitorendaten, erstellen Sie den neuen Mandanten und bewegen Sie dann Prüfdaten auf die Fertigungsumgebungen.|[So bereiten Sie ein Konfigurationspaket vofr](admin-how-to-prepare-a-configuration-package.md)| 
 
-Sie können auch Konfigurationspakete mit Standardkonfigurationen erstellen, die Sie immer wieder verwenden können. Weitere Informationen finden Sie unter [Einrichten von Standard-Unternehmenskonfigurationspaketen](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) in den Entwickler- und Verwaltungsinhalten.  
-
-## <a name="see-also"></a>Weitere Informationen
-
+## <a name="see-also"></a>Siehe auch  
 [Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
-[Verwaltung](admin-setup-and-administration.md)  
+[Verwaltung](admin-setup-and-administration.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

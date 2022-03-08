@@ -2,16 +2,17 @@
 title: Zahlungsbedingungen einrichten
 description: Verwenden Sie in der Basisversion von Business Central Zahlungsbedingungen, um Fälligkeitstermine und Zahlungsrabatte zu verwalten.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.form: 4
-ms.date: 04/01/2021
+ms.search.keywords: ''
+ms.date: 01/21/2021
 ms.author: edupont
-ms.openlocfilehash: 2ad055bef260d732c9f7732c094f660704f6acdf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: dfed018a58897b5e51f90fcce725c9060c32f3ea
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135998"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383414"
 ---
 # <a name="set-up-payment-terms"></a>Zahlungsbedingungen einrichten
 
@@ -27,7 +28,7 @@ Wenn Sie Ihren Kunden Erinnerungen an überfällige Zahlungen senden möchten, m
 
 ## <a name="to-set-up-payment-terms"></a>So richten Sie Zahlungsbedingungen ein
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Zahlungsbedingungen** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion Wie möchten Sie weiter verfahren öffnet](media/ui-search/search_small.png "Tell me-Funktion"), geben Sie **Zahlungsbedingungen** ein, und wählen Sie dann den entsprechenden Link aus.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Weisen Sie die Zahlungsbedingungen den Debitoren und Kreditoren zu, nachdem Sie sie eingerichtet haben. Fügen Sie Ihren Zahlungsbedingungen optional Ihre Zahlungsformen hinzu.  
@@ -42,7 +43,7 @@ Weisen Sie die Zahlungsbedingungen den Debitoren und Kreditoren zu, nachdem Sie 
 [Einrichten von Zahlungsformen](finance-payment-methods.md)  
 [Vorauszahlungen einrichten](finance-set-up-prepayments.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
-[Registriert einen neuen Debitor](sales-how-register-new-customers.md)  
+[Registriert einen neuen Debitor.](sales-how-register-new-customers.md)  
 [Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

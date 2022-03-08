@@ -1,47 +1,39 @@
 ---
-title: Einrichten und Berichten von Intrastat
+title: 'Gewusst wie: Einrichten von Intrastat-Berichten| Microsoft Docs'
 description: Erfahren Sie, wie Intrastat-Berichtsfunktinen eingerichtet werden, und wie der Handel mit Unternehmen in anderen EU-Ländern gemeldet wird.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 01/28/2022
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: cf6a58789a2ff9dab867699bad8fc63ed40dc5ac
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: dcce77cae3f582f59ec07469342661ad2f4d9afa
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142252"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621036"
 ---
-# <a name="set-up-and-report-intrastat"></a>Einrichten und Berichten von Intrastat
-
+# <a name="how-to-set-up-and-report-intrastat"></a>Gewusst wie: Einrichten von Intrastat-Berichten
 Alle Unternehmen innerhalb der EU sind verpflichtet, Auskunft über ihre Handelsaktivitäten mit anderen EU-Ländern/-Regionen zu geben. Warenbewegungen müssen jeden Monat dem Statistischen Amt Ihres Landes/Ihrer Region mitgeteilt und die Berichte müssen an die Steuerbehörden übermittelt werden. Dies wird als Intrastat-Berichterstattung bezeichnet. Auf der Seite **Intrastat-Erf.-Journal** können Sie regelmässige Intrastat-Berichte ausfüllen.  
 
 ## <a name="required-and-optional-setups"></a>Erforderliche und optionale Einrichtung
 Bevor Sie das Intrastat-Erf.-Journal verwenden können, um Intrastat-Informationen zu berichten, müssen Sie mehrere Dinge einrichten:  
 
-* **Intrastat einrichten**: Intrastat-Einrichtungsseite wird verwendet, um Intrastat-Berichts- und Satzstandards zu aktivieren. Sie können festlegen, ob Sie die Intrastatmeldung von Lieferungen (Dispatches), Eingängen (Wareneingang) oder beiden abhängig von den Schwellenwerten melden müssen, die von Ihren lokalen Vorschriften festgelegt werden. Sie können auch die Transaktionstypen für reguläre Belege und Reklamationsbelege festlegen, die für die Transaktionsberichterstellung verwendet werden.
+* **Intrastat einrichten**: Intrastat-Einrichtungsseite wird verwendet, um Intrastat-Berichts- und Satzstandards zu aktivieren. Sie können festlegen, ob Sie die Intrastatmeldung von Lieferungen (Dispatches), Eingängen (Wareneingang) oder beiden abhängig von den Schwellenwerten melden müssen, die von Ihren lokalen Vorschriften festgelegt werden. Sie können auch die Transaktionstypen für reguläre Belege und Reklamationsbelege festlegen, die für die Transaktionsberichterstellung verwendet werden. 
 * **Intrastat-Erf.-Journalvorlagen**: Sie müssen die Intrastat-Erf.-Journalvorlagen und Intrastat-Erf.-Journalnamen einrichten, die Sie verwenden. Da Intrastat-Daten monatlich erfasst werden, müssen Sie 12 Intrastat-Erfassungsjournale basierend auf derselben Vorlage erstellen.  
 * **Warencodes**: Zoll- und Steuerbehörde haben numerische Codes eingerichtet, die Artikel und Dienstleistungen klassifizieren. Sie geben diese Codes der Artikel an.
-* **Transaktionstypencodes**: Länder und Regionen haben unterschiedliche Codes für Intrastat-Transaktionstypen, wie beispielsweise gewöhnlichen Einkauf und Verkauf, den Austausch zurückgegebener Waren und den Austausch nicht zurückgegebener Waren. Einrichtung aller Codes, die sich auf Ihr Land/Ihre Region beziehen. Sie verwenden diese Codes in Einkaufs- und Verkaufsbelegen und wenn Sie Rückgaben verarbeiten. 
-
-    > [!NOTE]
-    > Ab Januar 2022 verlangt Intrastat unterschiedliche Transaktionsart-Codes für Versendungen an Privatpersonen oder mehrwertsteuerlich nicht registrierte Unternehmen und an mehrwertsteuerlich registrierte Unternehmen. Um diese Anforderung zu erfüllen, empfehlen wir Ihnen, die Transaktionsnatur-Codes auf der Seite **Transaktionsarten** entsprechend den Anforderungen in Ihrem Land zu überprüfen und/oder neue hinzuzufügen. Ausserdem sollten Sie das Feld **Partnertyp** überprüfen und auf der entsprechenden **Debitor**-Seite auf *Person* für Privatpersonen oder mehrwertsteuerlich nicht registrierte Geschäftskunden aktualisieren. Wenn Sie sich nicht sicher sind, welcher Partnertyp oder welche Transaktionsart zu verwenden ist, empfehlen wir Ihnen, einen Experten in Ihrem Land oder Ihrer Region zu fragen. 
- 
-* **Transportmethoden**: Es gibt sieben einstellige Codes für Intrastat-Transportmethoden. **1** für See, **2** für Schiene, **3** für Strasse, **4** für Luft, **5** für Post, **7** für feste Installationen und **9** für eigenen Antrieb (z. B. Tranportieren eines Autos, indem dieses gefahren wird). [!INCLUDE[prod_short](includes/prod_short.md)] erfordert diese Codes nicht, wir empfehlen jedoch, dass die Beschreibungen eine ähnliche Bedeutung bereitstellen.  
-* **Transaktionsspezifikationen**: Dienen der Ergänzung der Beschreibungen aus den Buchungsarten.  
-* **Ursprungsland**: Verwenden Sie die aus zwei Buchstaben bestehenden ISO-Alphacodes für das Land, in dem die Ware erworben oder hergestellt wurde. Wenn die Ware in mehr als einem Land hergestellt wurde, ist das Ursprungsland das letzte Land, in dem sie in nennenswertem Umfang verarbeitet wurde. 
-* **Umsatzsteuer-Identifikationsnummer des Handelspartners im Einfuhrmitgliedstaat**: Dies ist die Umsatzsteuer-Identifikationsnummer des Handelspartners im Einfuhrmitgliedstaat. Die Umsatzsteuer-ID wird auch beim Austausch von Intra-EU-Ausfuhrdaten zwischen den Mitgliedstaaten verwendet und ermöglicht es den Mitgliedstaaten, die erhaltenen Daten dem einführenden Unternehmen in ihrem eigenen Land zuzuordnen. Meldestellen müssen die Umsatzsteuer-ID des Unternehmens melden, das den innergemeinschaftlichen Erwerb von Gegenständen im Einfuhrmitgliedstaat angemeldet hat. 
-
-> [!NOTE]
-> Die zu verwendende Umsatzsteuer-Identifikationsnummer des Handelspartners kann je nach Geschäftssituation unterschiedlich sein. Die zu verwendende Kennung unterscheidet sich zum Beispiel für Szenarien wie Vertriebsketten, bei denen ein Lieferant ein Produkt in ein anderes Land verkauft und dieses Unternehmen den Artikel dann an ein anderes Unternehmen im selben Land weiterverkauft, Dreiecksgeschäft usw. Wenn Sie sich nicht sicher sind, welche Umsatzsteuer-ID Sie verwenden sollen, empfehlen wir Ihnen, einen Experten in Ihrem Land oder Ihrer Region zu fragen. 
+* **Transaktionstypencodes**: Länder und Regionen haben unterschiedliche Codes für Intrastat-Transaktionstypen, wie beispielsweise gewöhnlichen Einkauf und Verkauf, den Austausch zurückgegebener Waren und den Austausch nicht zurückgegebener Waren. Einrichtung aller Codes, die sich auf Ihr Land/Ihre Region beziehen. Sie verwenden diese Codes in Einkaufs- und Verkaufsbelegen und wenn Sie Rückgaben verarbeiten.  
+* **Transportmethoden**: Es gibt sieben einstellige Codes für Intrastat-Transportmethoden. **1** für See, **2** für Schiene, **3** für Strasse, **4** für Luft, **5** für Post, **7** für feste Installationen und **9** für eigenen Antrieb (z. B. Tranportieren eines Autos, indem dieses gefahren wird). [!INCLUDE[d365fin](includes/d365fin_md.md)] erfordert diese Codes nicht, wir empfehlen jedoch, dass die Beschreibungen eine ähnliche Bedeutung bereitstellen.  
 
 Optional können Sie auch Folgendes angeben:
 
+* **Transaktionsspezifikationen**: Dienen der Ergänzung der Beschreibungen aus den Buchungsarten.  
 * **Regionen**: Dienen dazu, Informationen über Länder und Regionen zu ergänzen.  
 * **Häfen**: Dienen dazu, die Positionen anzugeben, wo Sie Artikel in andere Länder versenden oder aus anderen Ländern empfangen. Heathrow Airport ist ein Beispiel für einen Hafen. Sie geben Häfen auf Verkaufs- und Einkaufsbelegen des Inforegisters **Aussenhandel** ein. Diese Daten werden auch aus den Lagerposten kopiert, wenn Sie das Intrastat-Erf.-Journal erstellen.  
 
@@ -50,61 +42,47 @@ Die Intrastat-Stapelverarbeitungsaufträge enthalten nur Lagerposten, keine Fibu
 
 Sie können die Positionen in eine Datei exportieren, die Sie an Ihre Intrastat-Behörden senden. Sie können auch einen Bericht ausdrucken, die Informationen manuell in die Formulare Ihrer Behörden eingeben und dann die Informationen übertragen.
 
-> [!Note]
+>  [!Note]
 > Es empfiehlt sich, für jeden Monat einen Intrastat-Erf.-Journalnamen zu erstellen.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Intrastat Erf.-Journalvorlagen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Intrastat Erf.-Journalvorlagen** ein, und wählen dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Erstellen Sie eine Vorlage für jedes verwendete Intrastat-Formular.  
-3. Um Chargen zu erstellen, wählen Sie die Aktion **Stapel**.  
-4. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Erstellen Sie eine Vorlage für jedes verwendete Intrastat-Formular. 
+3. Um Anlagen zu erstellen, wählen Sie die Registerkarte **Navigieren**, und wählen Sie dann **Stapel** aus.  
+4. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Erstellen Sie eine Vorlage für jedes verwendete Intrastat-Formular.  
 
 > [!Note]
 > Geben Sie im Feld **Statistikperiode** die Statistikperiode als vierstellige Zahl ein, wobei die ersten beiden Ziffern das Jahr und die nächsten beiden Ziffern den Monat darstellen. Für Juni 2017 beispielsweise geben Sie 1706 ein.
 
-### <a name="to-set-up-transport-methods"></a>Einrichten von Transportmethoden
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Verkehrszweige** ein und wählen Sie dann den zugehörigen Link.  
-2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Um einzurichten die Intrastat-Berichte erforderlich sein sollte Sie unter
-
-In einigen Ländern wie Spanien und Grossbritannien, verlangen die Behörden, dass Intrastat-Berichte, beispielsweise, die Lieferbedingung für Einkäufe oder einige andere Werte enthalten, wenn Verkaufs- über einem bestimmten Schwellenwert ist. Auf der Seite **Intrastat einrichten** können Sie auswählen, um **Einrichtung Checkist Intrastat** Pflichtfelder auf der Seite **Intrastat Erf.-Journal** festlegen soll.
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Intrastat-Einrichtung** ein und wählen Sie dann den zugehörigen Link.
-2. Wählen Sie die Aktion **Intrastat-Prüflisten-Einrichtung** aus.
-3. Auf der Seite **Intrastat-Prüflisten-Einrichtung** in **Feldname**, um den Intrastat-Berichtsfelds auszuwählen, das Sie zwar erforderlich machen möchten.
-
-### <a name="czechia"></a>Tschechien
-
-Speziell für tschechische Unternehmen müssen Sie auch Warencodes und Transaktionscodes einrichten.  
-
-#### <a name="to-set-up-commodity-codes"></a>Um Warencodes einzurichten:
-
+### <a name="to-set-up-commodity-codes"></a>Um Warencodes einzurichten:
 Alle Artikel, die Sie kaufen oder verkaufen, benötigen einen Warencode.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Warencodes** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Warencodes** ein, und wählen dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Um einem Artikel einem Warencode zuzuordnen, erweitern Sie auf der Seite **Artikelkarte** das Inforegister **Kosten und Buchen**  und geben dann den Code in das Feld **Warencode** ein.   
 
-### <a name="italy"></a>Italien
-
-Speziell für italienische Unternehmen müssen Sie auch Warencodes und Transaktionscodes einrichten.  
-
-#### <a name="to-set-up-transaction-nature-codes"></a>Einrichten von Transaktionsartencodes
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Transaktionsnatur-Codes** ein und wählen Sie dann den zugehörigen Link.  
+### <a name="to-set-up-transaction-nature-codes"></a>Einrichten von Transaktionsartencodes
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Transaktionscodes** ein, und wählen dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!Tip]
 > Wenn Sie häufiger einen bestimmten Transaktionsartencode verwenden, können Sie sich den Standard erstellen. Dazu gehen Sie zur Seite **Intrastat einrichten**, und wählen den Code aus.
 
-## <a name="to-report-intrastat"></a>Erstellen Sie Intrastat-Berichte
+### <a name="to-set-up-transport-methods"></a>Einrichten von Transportmethoden
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Transportmethode** ein, und wählen dann den zugehörigen Link aus.  
+2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Um einzurichten die Intrastat-Berichte erforderlich sein sollte Sie unter
+In einigen Ländern wie Spanien und Grossbritannien, verlangen die Behörden, dass Intrastat-Berichte, beispielsweise, die Lieferbedingung für Einkäufe oder einige andere Werte enthalten, wenn Verkaufs- über einem bestimmten Schwellenwert ist. Auf der Seite **Intrastat einrichten** können Sie auswählen, um **Einrichtung Checkist Intrastat** Pflichtfelder auf der Seite **Intrastat Erf.-Journal** festlegen soll.
+
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Intrastateinrichtung** ein, und wählen dann den zugehörigen Link aus.
+2. Wählt die **Intrastat-Prüflisten-Einrichtung** Aktion aus.
+3. Auf der Seite **Intrastat-Prüflisten-Einrichtung** in **Feldname**, um den Intrastat-Berichtsfelds auszuwählen, das Sie zwar erforderlich machen möchten. 
+
+## <a name="to-report-intrastat"></a>Erstellen Sie Intrastat-Berichte
 Nachdem Sie das Intrastat-Erfassungsjournal ausgefüllt haben, können Sie den Bericht **Checklistenbericht** ausführen, um zu überprüfen, ob alle Daten in dem Erfassungsjournal korrekt sind. Pflichtfelder, die Sie auf der Seite **Intrastat-Prüflisten-Einrichtung**, die Werte fehlende sind, werden angezeigt in Problemen und in warnendem Infobox im Fenster **Intrastat Erf.-Journal** festgelegt haben. Anschliessend können Sie einen Intrastat-Bericht als Formular drucken, oder Sie erstellen eine Datei, um diese an die Steuerbehörden in Ihrem Land/Region zu senden.  
 
-### <a name="to-fill-in-intrastat-journals"></a>Intrastat-Erfassungsjournale ausfüllen:
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Intrastat Erf.-Journal** ein und wählen Sie dann den zugehörigen Link.  
+### <a name="to-fill-in-intrastat-journals"></a>Intrastat-Erfassungsjournale ausfüllen:  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Intrastat Erf.-Journal** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie auf der Seite **Intrastat-Erf.-Journal** den betreffenden Erf.-Journalnamen im Feld **Erf.-Journalname** aus und dann **OK**.  
 3. Wählen Sie die Aktion **Mahnungszeile vorschlagen**. Die Felder **Startdatum** und **Enddatum** enthalten bereits die Daten, die Sie im Erf.-Journalnamen für die Statistikperiode angegeben haben.  
 4. Im Feld **Kosten Zu-/Abschlag %** können Sie einen Prozentsatz (zur Deckung der Transport- und Versicherungskosten) eingeben. Wenn Sie einen Prozentsatz eingeben, ist der Inhalt des Feldes **Statistischer Wert** dementsprechend höher.  
@@ -113,61 +91,35 @@ Nachdem Sie das Intrastat-Erfassungsjournal ausgefüllt haben, können Sie den B
 Der Batchauftrag holt alle Posten innerhalb der Statistikperiode und fügt Sie als Zeilen im Intrastat Erfassungsjournal ein. Sie können diese Positionen bei Bedarf bearbeiten.  
 
 > [!IMPORTANT]  
-> Durch die Stapelverarbeitung werden nur die Posten abgerufen, die einen Länder-/Regionscode enthalten, für den auf der Seite **Länder/Regionen** ein Intrastatcode angegeben wurde. Daher ist es wichtig, dass Sie Intrastatcodes für die Länder-/Regionscodes eingeben, für die Sie die Stapelverarbeitung ausführen möchten. Der Batchauftrag legt das Feld **Partner-Umsatzsteuer-ID** auf *QV999999999999* für Privatpersonen oder nicht mehrwertsteuerpflichtige Unternehmen fest (Debitoren, bei denen das Feld **Partnertyp** auf *Person* festgelegt ist), und er verwendet den Wert des Feldes **Tranaktionsart** auf dem gebuchten Artikel- oder Auftragsbucheintrag. 
-
-### <a name="to-modify-intrastat-journals-lines"></a>So ändern Sie Intrastat-Erfassungsjournalzeilen
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Intrastat-Erf.-Journal** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie auf der Seite **Intrastat-Erf.-Journal** den betreffenden Erf.-Journalnamen im Feld **Erf.-Journalname** aus und dann **OK**.  
-3. Benutzer-Filterbereich zum Filtern von Intrastat-Jorunal-Zeilen anhand bestimmter Kriterien. Filtern Sie zum Beispiel auf **<MWST ID des Partners**-Feldern mit dem Wert *QV999999999999*.
-4. Wählen Sie das Symbol **Freigeben** ![Eine Seite in einer anderen App freigeben.](media/share-icon.png) und wählen Sie **Bearbeiten in Excel**
-5. Ändern Sie in Excel die Intrastat-Erf.-Journal-Zeilen, die Sie herausgefiltert haben. Ändern Sie zum Beispiel die Werte des Feldes **Transaktionsart**.  
-6. Veröffentlichen Sie die Änderungen, die Sie in Excel vorgenommen haben, zurück auf [!INCLUDE[prod_short](includes/prod_short.md)].
-
-> [!Note]
-> In [!INCLUDE[prod_short](includes/prod_short.md)]-Versionen, die [**Bearbeiten in Excel**](across-work-with-excel.md#edit-in-excel) für Erfassungen nicht unterstützen, können Sie [Konfigurationspakete](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) erstellen, um Intrastat-Erfassungsjournalzeilen nach/aus Excel zu exportieren/zu importieren. 
+>  Durch die Stapelverarbeitung werden nur die Posten abgerufen, die einen Länder-/Regionscode enthalten, für den auf der Seite **Länder/Regionen** ein Intrastatcode angegeben wurde. Daher ist es wichtig, dass Sie Intrastatcodes für die Länder-/Regionscodes eingeben, für die Sie die Stapelverarbeitung ausführen möchten.  
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Melden von Intrastat auf einem Formular oder einer Datei
-
 Um von den Statistikbehörden die für das Intrastat-Formular benötigten Daten zu erhalten, müssen Sie den Bericht **Intrastat – Formular** ausdrucken. Zuvor müssen Sie das Intrastat-Erf.-Journal vorbereiten und ausfüllen. Wenn Sie sowohl Einkaufs- als auch Verkaufstransaktionen haben, müssen Sie für jede Art ein eigenes Formular ausfüllen und daher den Bericht zweimal drucken.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Intrastat Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Logistik Intrastat Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie auf der Seite **Intrastat-Erf.-Journal** den betreffenden Erf.-Journalnamen im Feld **Erf.-Journalname** aus.  
-3. Wenn Sie dies noch nicht getan haben, füllen Sie das Journal manuell aus oder wählen Sie die Aktion **Zeilen vorschlagen**.  
+3. Füllen Sie das Erf.-Journal manuell aus, oder klicken Sie auf **Posten holen**, sofern das Journal noch nicht ausgefüllt wurde.  
 4. Wählen Sie die **Druck-Intrastat Erf.-Journal** Aktion aus.  
 5. Fügen Sie im Inforegister **Intrastat Erf.-Journalzeile** einen **Art**-Filter hinzu, und geben Sie an, ob es sich um einen **Wareneingang** oder **Warenausgang** handelt.  
 6. Wählen Sie **Senden an**, um den Bericht zu drucken.  
 
 ### <a name="report-intrastat-in-a-file"></a>Intrastat Berichte in einer Datei
-
 Sie können den Intrastat-auch auf einer Datei einreichen. Bevor Sie die Datei erstellen, können Sie einen Testbericht drucken, der dieselben Daten enthält wie die Datei.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Intrastat-Erf.-Journal** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Intrastat Erf.-Journal** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie auf der Seite **Intrastat-Erf.-Journal** den betreffenden Erf.-Journalnamen im Feld **Erf.-Journalname** aus.  
-3. Wenn Sie dies noch nicht getan haben, füllen Sie das Journal manuell oder über die Aktion **Zeilen vorschlagen** aus.  
+3. Füllen Sie das Erf.-Journal manuell aus, oder klicken Sie auf **Posten holen**, sofern das Journal noch nicht ausgefüllt wurde.  
 4. Wählen Sie die Aktion **Aus Datei erstellen** aus.  
-5. Wählen Sie auf der Stapel-Job-Seite die Schaltfläche **OK**.  
+5. Klicken Sie in der Stapelverarbeitungsseite auf **OK**.  
 6. Wählen Sie **Speichern** aus.  
 7. Navigieren Sie zum gewünschten Speicherort für die Datei, und geben Sie den Dateinamen ein. Klicken Sie auf  **Speichern**.
 
 ## <a name="reorganize-intrastat-journals"></a>Reorganisieren von Intrastat Buch.-Blättern
-
 Sie müssen für jeden Monat einen Intrastat-Bericht einreichen und für jeden Bericht einen neuen Erf.-Journalnamen erstellen. Deshalb werden Sie irgendwann über eine Vielzahl von Erf.-Journalnamen verfügen. Die Erf.-Journalzeilen werden nicht automatisch gelöscht. Sie werden vielleicht Ihre Erf.-Journalnamen periodisch reorganisieren wollen. Sie tun dies, indem Sie die Erf.-Journalnamen löschen, die Sie nicht länger benötigen. Die Erfassungsjournalzeilen in diesen Erfassungsjournalnamen werden ebenfalls gelöscht.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Intrastat Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Logistik Intrastat Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie das Feld **Buch.-Blattname** aus, um die Optionen anzuzeigen.  
-3. Wählen Sie die zu löschenden Journalchargen aus und wählen Sie dann die Schaltfläche **Löschen**.  
-
-## <a name="tariff-numbers"></a>Zollpositionen
-
-In vielen Ländern werden von den Zoll- und Steuerbehörden achtstellige Artikelcode für verschiedene Artikelarten vorgeschrieben. Damit die Artikelposten die notwendigen Informationen enthalten, wenn das Programm sie in die Intrastat Erf.-Journalzeile importiert, müssen Sie die Informationen über die Zollposition auf der Seite **Zollpositionen** eingegeben haben. Ermitteln Sie die Codes der Artikel, mit denen Ihr Unternehmen handelt, und geben Sie diese auf der Seite **Zollpositionen** ein.
-
-Auf der Seite **Zollpositionen** fügen Sie alle Codes hinzu, die Sie verwenden. Sie müssen die Codes auf der Artikelkarte eingeben, bevor Sie mit dem Buchen beginnen. Wenn Sie die Codes eingerichtet haben, geben Sie diese ein im **Zollposition** -Feld auf der Artikelkarte. Darüber hinaus müssen Sie das Feld **Nettogewicht** auf der Artikelkarte ausfüllen.
-
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
+3. Wählen Sie die zu löschenden Erf.-Journalnamen aus und wählen Sie **Löschen**.  
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzmanagement](finance.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

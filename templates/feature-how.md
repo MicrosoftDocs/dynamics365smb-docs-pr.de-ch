@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: 3ec9760cc2b1225f4b06b142a0b32ac4178dcca6
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 1fc425c828431852cacc100bb6499318025ea343
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311275"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606523"
 ---
 # <a name="achieve-some-task-in-max-100-characters"></a>Erledigen Sie eine Aufgabe in Max. 100 Zeichen
 
@@ -34,5 +34,3 @@ Denken Sie daran, Links hinzuzufügen, weitere Informationen auch unter neuen Ar
 
 [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
 [Verwaltung](admin-setup-and-administration.md)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

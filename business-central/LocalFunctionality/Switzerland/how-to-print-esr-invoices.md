@@ -2,20 +2,20 @@
 title: 'Gewusst wie: Drucken von ESR-Rechnungen [CH]'
 description: 'In diesem Thema wird erläutert, wie Sie Zahlungsscheinrechnungen und -gutschriften für einen Einzahlungsschein mit Referenznummer (ESR) drucken können:'
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 3010531, 3010532
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: aff58fb7a81469e4ca59fc90e265559ac0bb8252
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c33fa3aa1b3d02019a1e099d1c527872fe51fa8d
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129301"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588771"
 ---
 # <a name="print-esr-invoices-in-the-swiss-version"></a>ESR-Rechnungen drucken in der Schweizer Version
 

@@ -1,23 +1,24 @@
 ---
-title: Lagerverwaltung [CH]
-description: In diesem Artikel werden die Schweizer Erweiterungen der speziellen Lagerverwaltungsfunktionen in Business Central beschrieben.
+title: Lagerverwaltung (Schweiz)
+description: Schweizer Erweiterungen enthalten spezielle Lagerverwaltungsfunktionen.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/21/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 09f4a1b5afb326beb0b8f264b487f84b2c53b1ef
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 09e9e9b4c5e4a4adee571d34a770050a087393a1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136608"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916367"
 ---
 # <a name="swiss-inventory-management"></a>Lagerverwaltung (Schweiz)
-[!INCLUDE[prod_short](../../includes/prod_short.md)] enthält Schweizer Erweiterungen für Lagerverwaltung. Dies beinhaltet Folgendes:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enthält Schweizer Erweiterungen für Lagerverwaltung. Dies beinhaltet Folgendes:  
 
 - Detaillierte Berichte.  Weitere Informationen finden Sie unter Verkaufstatistikbericht und Lagerlistenbericht.  
 - Die Fähigkeit, eine Rechnung mit mehreren Lieferungen nachzuverfolgen.  
@@ -34,6 +35,3 @@ Sind mehrere Lieferungen für einen Debitoren gebucht worden, können Sie Sammel
 ## <a name="see-also"></a>Siehe auch  
  [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)   
  [Einrichten von Lagerorten](../../inventory-how-setup-locations.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

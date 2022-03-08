@@ -1,24 +1,24 @@
 ---
-title: Den Status von Synchronisationsaufträgen anzeigen (enthält Video)
+title: Den Status von Synchronisierungsprojekten anzeigen
 description: Verwenden Sie die Seite Gekoppelte Datensynchronisierungsfehler, um den Status der Synchronisierungsaufträge anzuzeigen, die für gekoppelte Datensätze in Integrationen ausgeführt wurden.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 357e6f92bc960b1fcd58c5be78d28985b389bb2a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: dce8b5b3d762d3e4d98668530685fdeb9cb58de4
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130710"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7751756"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Den Status von Synchronisierungsprojekten anzeigen
-
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Verwenden Sie die Seite **Gekoppelte Datensynchronisationsfehler**, um den Status von Synchronisationsjobs anzuzeigen, die für gekoppelte Datensätze in einer Dataverse- oder [!INCLUDE[crm_md](includes/crm_md.md)]-Integration ausgeführt wurden. Dies umfasst Synchronisierungsprojekte, die aus der Projektwarteschlange ausgeführt wurden, sowie manuelle Synchronisierungsprojekte, die in Datensätzen von [!INCLUDE[prod_short](includes/prod_short.md)] ausgeführt wurden. Das Anzeigen des Status ist beispielsweise bei der Fehlerbehebung hilfreich, da Sie auf Details der Fehler zugreifen können, die sich auf gekoppelte Datensätze beziehen. In der Regel werden diese Fehlertypen durch Benutzeraktionen verursacht, z. B. in folgenden Fällen:  
 

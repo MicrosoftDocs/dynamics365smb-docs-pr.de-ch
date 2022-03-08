@@ -1,20 +1,21 @@
 ---
-title: Um Artikel für den Warenausgang zu kommissionieren
-description: Erfahren Sie, wie Sie die Belege der Lager-Kommissionierungen verwenden, um Kommissionierinformationen zu erstellen und zu verarbeiten, bevor Sie den Warenausgang buchen.
+title: 'Vorgehensweise: Kommissionieren von Artikeln für den Warenausgang | Microsoft Docs'
+description: Wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung der Kommissionierung und des Warenausgangs erforderlich ist, verwenden Sie die Kommissionierbelege, um Kommissionierinformationen vor dem Buchen des Warenausgangs zu erstellen und zu bearbeiten.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7335c388efc48f3c9a04238e7727817f28a7757f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8da226a21e795228efa253f994d817f60ac5616b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128701"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910069"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Um Artikel für den Warenausgang zu kommissionieren
 Wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung der Kommissionierung und des Warenausgangs erforderlich ist, verwenden Sie die Kommissionierbelege, um Kommissionierinformationen vor dem Buchen des Warenausgangs zu erstellen und zu bearbeiten.  
@@ -23,7 +24,7 @@ Sie können einen Kommissionierungsbeleg nicht von Grund auf neu erstellen, da e
 
 Sie können Kommissionierungsbelege in einem Abrufverfahren erstellen, indem Sie einen leeren Warenausgangsbeleg öffnen, Herkunftsbelege ermitteln, die für die Lieferung freigegeben wurden, und dann für diese Lieferungen Kommissionierzeilen erstellen. Sie können die Funktionen **Herkunftsbelege holen** oder **Filter zum Holen von Herk.-Belegen verwenden** verwenden, um Herkunftsbelege zu ermitteln, die für den Warenausgang bereit sind.
 
-Alternativ können Sie die Seite **Kommissionierarbeitsblatt** verwenden, um Kommissionierzeilen im Stapelbetrieb zu holen und zu erstellen. Weitere Informationen finden Sie unter [Kommissionierungen in Arbeitsblättern bearbeiten](warehouse-how-to-plan-picks-in-worksheets.md).  
+Alternativ können Sie die Seite **Kommissioniervorschlag** verwenden, um Kommissionierzeilen im Stapelbetrieb zu holen und zu erstellen. Weitere Informationen finden Sie unter [Kommissionierungen im Vorschlag bearbeiten](warehouse-how-to-plan-picks-in-worksheets.md).  
 
 Sie können Kommissionierungsbelege auch Push-artig im Fenster **Warenausgang** erstellen, indem Sie die Seite **Kommissionierung erstellen** auswählen.  
 
@@ -37,7 +38,7 @@ Sie können Kommissionierungsbelege auch Push-artig im Fenster **Warenausgang** 
 >  Allgemeine Informationen über das Kommissionieren von Komponenten für Montageaufträge, einschliesslich von Situationen, in denen der Montageartikel nicht mit einer Verkaufslieferung fällig ist, finden Sie unter [Kommissionierung für die Produktion oder Montage](warehouse-how-to-pick-for-production.md).  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Um Artikel für den Warenausgang zu kommissionieren  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Kommissionierungen** ein und wählen Sie dann den entsprechenden Link.  
 
     Wenn Sie an einer bestimmten Kommissionierung arbeiten möchten, wählen Sie die Kommissionierung in der Liste aus, oder filtern Sie die Liste, um die Kommissionierungen zu finden, die speziell Ihnen zugeordnet wurden. Öffnen Sie die Kommissionierungskarte.  
 2.  Wenn das Feld **Zugewiesene Benutzer-ID** leer ist, geben Sie gegebenenfalls Ihre ID ein, um sich zu identifizieren.  
@@ -78,7 +79,4 @@ Nachdem der Warenausgang gebucht ist, werden verschiedene Felder in der Verkaufs
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

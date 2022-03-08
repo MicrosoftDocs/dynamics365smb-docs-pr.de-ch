@@ -1,21 +1,21 @@
 ---
-title: Design Details - Durchschnittliche Kalkulation
+title: 'Designdetails: Durchschnittskosten | Microsoft Docs'
 description: Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten Durchschnitt berechnet, basierend auf der Durchschnittskostenperiode, die in Business Central eingerichtet wurde.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 591788bdf425dc198a173fbefef702c7b707b4e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 87bbd5d77bc677220b82789e343af1bda2300cbd
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146736"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215492"
 ---
 # <a name="design-details-average-cost"></a>Designdetails: Durchschnittskosten
 Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten Durchschnitt berechnet, basierend auf der Durchschnittskostenperiode, die in [!INCLUDE[prod_short](includes/prod_short.md)] eingerichtet wurde.  
@@ -28,7 +28,7 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 |Feld|Description|  
 |---------------------------------|---------------------------------------|  
 |**Durchschnittskostenperiode**|Gibt an, in welcher Periode die Durchschnittskosten berechnet werden. Folgende Optionen sind verfügbar:<br /><br /> -   **Tag**<br />-   **Woche**<br />-   **Monat**<br />-   **Buchhaltungsperiode**<br /><br /> Für alle Lagerabgänge, die während der Durchschnittskostenperiode gebucht wurden, wird der durchschnittliche Einstandspreis verwendet, der für diese Periode berechnet wurde.|  
-|**Einst.-Pr.(durchschn.)Ber.-Art**|Gibt an, wie die durchschnittlichen Kosten eines Artikels berechnet werden. Folgende Optionen sind verfügbar:<br /><br /> -   **Artikel**<br />-   **Artikel, Variante und Lagerort**<br /> Wenn diese Option ausgewählt ist, berechnet die Anwendung den durchschnittlichen Einstandspreis pro Artikel für jeden Lagerort und für jede Variante des Artikels. Dies bedeutet, dass der durchschnittliche Einstandspreis des Artikels davon abhängt, wo er gelagert wird und welche Variante (z. B. welche Farbe) des Artikels Sie ausgewählt haben.|  
+|**Einst.-Pr.(durchschn.)Ber.-Art**|Gibt an, wie die durchschnittlichen Kosten eines Artikels berechnet werden. Folgende Optionen sind verfügbar:<br /><br /> -   **Artikel**<br />-   **Artikel, Variante und Lagerort**<br />     Wenn diese Option ausgewählt ist, berechnet die Anwendung den durchschnittlichen Einstandspreis pro Artikel für jeden Lagerort und für jede Variante des Artikels. Dies bedeutet, dass der durchschnittliche Einstandspreis des Artikels davon abhängt, wo er gelagert wird und welche Variante (z. B. welche Farbe) des Artikels Sie ausgewählt haben.|  
 
 > [!NOTE]  
 >  Sie können nur eine Durchschnittskostenperiode und eine Berechnungsart für den durchschnittlichen Einstandspreis pro Geschäftsjahr verwenden.  
@@ -55,37 +55,37 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 
  Die folgende Tabelle zeigt Lagerposten für den Beispiel-Durchschnittkostenartikel, ITEM1, bevor die **Lagerreg. fakt. Einst. Preise**-Stapelverarbeitung ausgeführt wurde.  
 
-| **Buchungsdatum** | **Lagerpostenart** | **Menge** | **Einstandsbetrag (tatsächl.)** | **Postennr.** |
-|--|--|--|--|--|
-| 01-01-20 | Einkauf | 1 | 20.00 | 1 |
-| 01-01-20 | Einkauf | 1 | 40.00 | 2 |
-| 01-01-20 | Verkauf | -1 | -20.00 | 3 |
-| 02-01-20 | Verkauf | -1 | -40.00 | 4 |
-| 02-02-20 | Einkauf | 1 | 100.00 | 5 |
-| 02-03-20 | Verkauf | -1 | -100.00 | 6 |
+|**Buchungsdatum**|**Lagerpostenart**|**Menge**|**Einstandsbetrag (tatsächl.)**|**Postennr.**|  
+|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
+|01-01-20|Einkauf|1|20.00|1|  
+|01-01-20|Einkauf|1|40.00|2|  
+|01-01-20|Verkauf|-1|-20.00|3|  
+|02-01-20|Verkauf|-1|-40.00|4|  
+|02-02-20|Einkauf|1|100.00|5|  
+|02-03-20|Verkauf|-1|-100.00|6|  
 
 > [!NOTE]  
 >  Da die Kostenregulierung noch nicht stattgefunden hat, werden Werte im **Einstandsbetrag (tatsächl.)**-Feld des Bestandes entsprechend den Lagerzugängen, auf die sie angewendet werden, vermindert.  
 
  In der folgenden Tabelle werden die Posten in der Tabelle **Einst.-Pr. (durchschn.) Regul. Startzeitpunkt** aufgeführt, die sich auf Wertposten beziehen, die aus den Lagerposten in der vorherigen Tabelle resultieren.  
 
-| **Artikelnr.** | **Variantencode** | **Lagerortcode** | **Bewertungsdatum** | **Einstandspreis ist reguliert** |
-|--|--|--|--|--|
-| ARTIKEL1 |  | BLAU | 01-01-20 | Nr. |
-| ARTIKEL1 |  | BLAU | 02-01-20 | Nr. |
-| ARTIKEL1 |  | BLAU | 02-02-20 | Nein |
-| ARTIKEL1 |  | BLAU | 02-03-20 | Nein |
+|**Artikelnr.**|**Variantencode**|**Lagerortcode**|**Bewertungsdatum**|**Einstandspreis ist reguliert**|  
+|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
+|ARTIKEL1||BLAU|01-01-20|Nr.|  
+|ARTIKEL1||BLAU|02-01-20|Nr.|  
+|ARTIKEL1||BLAU|02-02-20|Nein|  
+|ARTIKEL1||BLAU|02-03-20|Nein|  
 
  Die folgende Tabelle zeigt dieselben Lagerposten für den Beispiel-Durchschnittkostenartikel, nachdem die **Lagerreg. fakt. Einst. Preise**-Stapelverarbeitung ausgeführt wurde. Der durchschnittliche Einstandspreis pro Tag wird auf die Lagerabgänge berechnet und angewendet.  
 
-| **Buchungsdatum** | **Lagerpostenart** | **Menge** | **Einstandsbetrag (tatsächl.)** | **Postennr.** |
-|--|--|--|--|--|--|
-| 01-01-20 | Einkauf | 1 | 20.00 | 1 |
-| 01-01-20 | Einkauf | 1 | 40.00 | 2 |
-| 01-01-20 | Verkauf | -1 | -30.00 | 3 |
-| 02-01-20 | Verkauf | -1 | -30.00 | 4 |
-| 02-02-20 | Einkauf | 1 | 100.00 | 5 |
-| 02-03-20 | Verkauf | -1 | -100.00 | 6 |
+|**Buchungsdatum**|**Lagerpostenart**|**Menge**|**Einstandsbetrag (tatsächl.)**|**Postennr.**|  
+|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
+|01-01-20|Einkauf|1|20.00|1|  
+|01-01-20|Einkauf|1|40.00|2|  
+|01-01-20|Verkauf|-1|-30.00|3|  
+|02-01-20|Verkauf|-1|-30.00|4|  
+|02-02-20|Einkauf|1|100.00|5|  
+|02-03-20|Verkauf|-1|-100.00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Beispiel: für eine Durchschnittskostenperiode = Monat  
  Das folgende Beispiel zeigt die Auswirkungen der Berechnung der Durchschnittskosten auf der Grundlage einer Durchschnittskostenperiode von einem Monat. Das Feld **Durchschnittlicher Kostenberechnungstyp** auf der Seite **Lager Einrichtung** ist auf **Artikel** festgelegt.  
@@ -94,24 +94,24 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 
  Die folgende Tabelle zeigt Lagerposten für den Beispiel-Durchschnittkostenartikel, ITEM1, bevor die **Lagerreg. fakt. Einst. Preise**-Stapelverarbeitung ausgeführt wurde.  
 
-| **Buchungsdatum** | **Lagerpostenart** | **Menge** | **Einstandsbetrag (tatsächl.)** | **Postennr.** |
-|--|--|--|--|--|
-| 01-01-20 | Einkauf | 1 | 20.00 | 1 |
-| 01-01-20 | Einkauf | 1 | 40.00 | 2 |
-| 01-01-20 | Verkauf | -1 | -20.00 | 3 |
-| 02-01-20 | Verkauf | -1 | -40.00 | 4 |
-| 02-02-20 | Einkauf | 1 | 100.00 | 5 |
-| 02-03-20 | Verkauf | -1 | -100.00 | 6 |
+|**Buchungsdatum**|**Lagerpostenart**|**Menge**|**Einstandsbetrag (tatsächl.)**|**Postennr.**|  
+|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
+|01-01-20|Einkauf|1|20.00|1|  
+|01-01-20|Einkauf|1|40.00|2|  
+|01-01-20|Verkauf|-1|-20.00|3|  
+|02-01-20|Verkauf|-1|-40.00|4|  
+|02-02-20|Einkauf|1|100.00|5|  
+|02-03-20|Verkauf|-1|-100.00|6|  
 
 > [!NOTE]  
 >  Da die Kostenregulierung noch nicht stattgefunden hat, werden Werte im **Einstandsbetrag (tatsächl.)**-Feld des Bestandes entsprechend den Lagerzugängen, auf die sie angewendet werden, vermindert.  
 
  In der folgenden Tabelle werden die Posten in der Tabelle **Einst.-Pr. (durchschn.) Regul. Startzeitpunkt** aufgeführt, die sich auf Wertposten beziehen, die aus den Lagerposten in der vorherigen Tabelle resultieren.  
 
-| **Artikelnr.** | **Variantencode** | **Lagerortcode** | **Bewertungsdatum** | **Einstandspreis ist reguliert** |
-|--|--|--|--|--|
-| ARTIKEL1 |  | BLAU | 01-31-20 | Nein |
-| ARTIKEL1 |  | BLAU | 02-28-20 | Nein |
+|**Artikelnr.**|**Variantencode**|**Lagerortcode**|**Bewertungsdatum**|**Einstandspreis ist reguliert**|  
+|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
+|ARTIKEL1||BLAU|01-31-20|Nein|  
+|ARTIKEL1||BLAU|02-28-20|Nein|  
 
 > [!NOTE]  
 >  Das Bewertungsdatum wird auf das das letzte Datum der Durchschnittskostenperiode festgelegt, in diesem Fall den letzten Tag des Monats.  

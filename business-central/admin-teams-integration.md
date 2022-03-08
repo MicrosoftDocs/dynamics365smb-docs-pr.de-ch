@@ -2,6 +2,7 @@
 title: Verwalten der Microsoft Teams-Integration in Business Central | Microsoft Docs
 description: Verwalten Sie die Business Central-Integration in Microsoft Teams.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147048"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882219"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Verwalten der Microsoft Teams-Integration mit [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -34,12 +35,10 @@ In diesem Abschnitt werden die Mindestanforderungen für die Verwendung der [!IN
 
     |Funktion|Teams-Lizenz|[!INCLUDE [prod_short](includes/prod_short.md)] Lizenz|
     |----|---|---|
-    |Suchen Sie nach [!INCLUDE [prod_short](includes/prod_short.md)]-Kontakten.|![Häkchen setzen.](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")|
+    |Suchen Sie nach [!INCLUDE [prod_short](includes/prod_short.md)]-Kontakten.|![Häkchen](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")|
     |Einen Link zu einem [!INCLUDE [prod_short](includes/prod_short.md)]-Datensatz in eine Unterhaltung einfügen und ihn als Karte versenden.|![Häkchen](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")|
-    |Geben Sie einen Link von einer Seite in [!INCLUDE [prod_short](includes/prod_short.md)] an die Teams Unterhaltung weiter.|![Häkchen](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")|
     |Eine Karte eines [!INCLUDE [prod_short](includes/prod_short.md)]-Datensatzes in einer Unterhaltung anzeigen.|![Häkchen](media/check.png "Aktivieren")||
     |Weitere Details für eine Karte eines [!INCLUDE [prod_short](includes/prod_short.md)]-Datensatzes in einer Unterhaltung anzeigen.|![Häkchen](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")|
-    |Öffnen Sie einen Seitenlink in [!INCLUDE [prod_short](includes/prod_short.md)] aus einer Unterhaltung heraus.|![Häkchen](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")|
 
 - URL-Vorschau zulassen
 
@@ -69,7 +68,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln in der Microsoft Team
 - <a name="permissions"></a>Benutzerberechtigungen:
 
     Die Kontaktsuche, Seiten und Daten, die Benutzer in einer Teams-Unterhaltung anzeigen und bearbeiten können, werden grösstenteils durch deren Berechtigungen in [!INCLUDE [prod_short](includes/prod_short.md)] gesteuert.
-
+    
     - Um nach Kontakten zu suchen, müssen Benutzer mindestens über Leseberechtigung zur Tabelle **Kontakte** verfügen. 
     - Um einen [!INCLUDE [prod_short](includes/prod_short.md)]-Link in eine Teams-Unterhaltung einzufügen und diesen zu einer Karte zu erweitern, müssen Benutzer mindestens über die Leseberechtigung für die Seite und ihre Daten verfügen.
     - Sobald eine Karte in eine Unterhaltung übermittelt wurde, kann jeder Benutzer in dieser Unterhaltung diese Karte ohne Berechtigungen für [!INCLUDE [prod_short](includes/prod_short.md)] anzeigen.
@@ -78,35 +77,11 @@ Weitere Informationen finden Sie in den folgenden Artikeln in der Microsoft Team
     
     Weitere Informationen zu Berechtigungen finden Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).
 
-## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Installieren der Business Central-App mit Hilfe der zentralen Bereitstellung
-
-Im Admin Center Microsoft Teams konfigurieren Sie die Richtlinien für die Einrichtung der Apps von Teams für das Unternehmen. Im Admin Center von Teams können Sie die Funktion Zentrale Bereitstellung verwenden, um die Business Central-App in Teams automatisch für alle Benutzer in Ihrem Unternehmen, für bestimmte Gruppen oder für einzelne Benutzer bereitzustellen.
-
-> [!NOTE]
-> Um die zentrale Bereitstellung festzulegen, muss Ihr Teams-Konto die Rolle **Teams Service admin** oder die Rolle **Global admin** haben.
-
-1. Wählen Sie in Business Central die ![Lupe, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Tell me-Funktion"). Symbol, geben Sie **Teams App Zentrale Bereitstellung** ein und wählen Sie dann den entsprechenden Link. Oder wählen Sie [hier](https://businesscentral.dynamics.com/?page=1833), um die Seite direkt zu öffnen.
-2. Lesen Sie die Informationen auf der Seite **Einrichten der Business Central-App für Teams** und wählen Sie dann **Weiter**, wenn Sie bereit sind.
-3. Öffnen Sie das [Teams Admin Center](https://go.microsoft.com/fwlink/?linkid=2163970) und führen Sie die folgenden Schritte aus.
-    1. Gehen Sie zu **Teams Apps** > **Richtlinien einrichten**.
-    2. Erstellen Sie eine neue Richtlinie oder wählen Sie die Richtlinie aus, die Sie für die Installation der Business Central-App verwenden möchten, und wählen Sie dann **Apps hinzufügen**.
-    3. Suchen Sie auf der Seite **Installierte Apps hinzufügen** nach **Business Central** und wählen Sie diese aus.
-    4. Wählen Sie **Hinzufügen**.
-
-       Business Central sollte nun unter **Installierte Apps** für die Richtlinie erscheinen.
-    5. Konfigurieren Sie alle zusätzlichen Einstellungen und wählen Sie dann **Speichern**.
-
-    Weitere Informationen über Richtlinien zur Einrichtung von Apps in Teams finden Sie unter [Verwalten von Richtlinien zur Einrichtung von Apps in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) in der Dokumentation zu Teams.
-4. Gehen Sie zurück zu **Teams App Zentrale Bereitstellung** in Business Central und wählen Sie **Erledigt**.
-
-> [!IMPORTANT]
-> Es kann bis zu 24 Stunden dauern, bis die Richtlinie für die Einrichtung der App festgelegt ist und die App den Benutzern bereitgestellt wird.
-
 ## <a name="managing-privacy-and-compliance"></a>Datenschutz und Compliance verwalten 
 
 Microsoft Teams bietet umfassende Kontrollen für die Einhaltung und Verwaltung sensibler oder persönlich identifizierbarer Daten&mdash;einschliesslich Daten, die von der [!INCLUDE [prod_short](includes/prod_short.md)] App zu Chats und Kanälen hinzugefügt wurde.
 
-### <a name="understanding-where-prod_short-cards-are-stored"></a>Verstehen wo [!INCLUDE [prod_short](includes/prod_short.md)] Karten gespeichert werden
+### <a name="understanding-where-prod_short-cards-are-stored"></a>Verstehen wo [!INCLUDE [prod_short](includes/prod_short.md)] Karten gespeichert werden 
 
 Nachdem eine Karte an einen Chat gesendet wurde, werden die Karte und die auf der Karte angezeigten Felder in Teams kopiert. Diese Informationen unterliegen den Teamrichtlinien für Ihr Unternehmen, z. B. Richtlinien zur Aufbewahrung von Daten. Bei der Anzeige von Kartendetails werden keine Daten im Detailfenster in Teams gespeichert. Die Daten bleiben in [!INCLUDE [prod_short](includes/prod_short.md)] gespeichert und wird nur von Teams abgerufen, wenn der Benutzer die Details anzeigen möchte. 
 
@@ -125,7 +100,7 @@ Funktionen zur Verhinderung von Datenverlust im Microsoft 365 Security & Complia
 
 Sie ermöglichen Teammitgliedern und Teambesitzern, Nachrichten mit vertraulichen Karten zu löschen, indem Sie Nachrichtenrichtlinien einrichten, wie **Besitzer können gesendete Nachrichten löschen** und **Benutzer können gesendete Nachrichten löschen**. Weitere Informationen zu dieser Einstellung finden Sie unter [Nachrichtenrichtlinien in Teams verwalten](/microsoftteams/messaging-policies-in-teams).
 
-Inhaltssuche und eDiscovery Compliance-Funktionen im Microsoft 365 Security & Compliance Center können nicht auch auf Karten angewendet werden.
+Inhaltssuche und eDiscovery Compliance-Funktinen im Microsoft 365 Security & Compliance Center können nicht auch auf Karten angewendet werden.
 
 Weil Kartendaten in Teams eine Kopie der Daten in [!INCLUDE [prod_short](includes/prod_short.md)] sind, können Sie auch [!INCLUDE [prod_short](includes/prod_short.md)] Funktionen zum Exportieren der Kundendaten sofern erforderlich verwenden. Weitere Informationen zum Datenschutz in [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie unter [FAQ zu Datenschutz für Business Central Debitoren](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 

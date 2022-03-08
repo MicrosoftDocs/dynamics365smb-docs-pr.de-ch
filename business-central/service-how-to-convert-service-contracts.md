@@ -1,20 +1,21 @@
 ---
-title: Wie Sie Serviceverträge konvertieren
-description: Dieses Thema beschreibt mehrere alternative Methoden, die Sie verwenden können, um Serviceverträge umzurechnen, die Mehrwertsteuerbeträge enthalten.
+title: 'Vorgehensweise: Konvertieren von Serviceverträgen | Microsoft Docs'
+description: Da das Werkzeug zum Ändern des MWST.-Satzes keine Serviceverträge konvertieren, müssen diese Verträge manuell konvertiert werden. In diesem Thema werden mehrere alternative Methoden beschrieben, die Sie für die Servicevertragkonvertierung verwenden können.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 715f532745b74b0fb49e8dff10a355fda71a0271
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: ed1f0d928299a1f72b40be6e7fe1ac1567c4906c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134861"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194947"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Konvertieren von Serviceverträgen, die MWST-Beträge enthalten
 Da das Werkzeug zum Ändern des MWST.-Satzes keine Serviceverträge konvertieren, müssen diese Verträge manuell konvertiert werden. In diesem Thema werden mehrere alternative Methoden beschrieben, die Sie für die Servicevertragkonvertierung verwenden können.  
@@ -28,7 +29,7 @@ Da das Werkzeug zum Ändern des MWST.-Satzes keine Serviceverträge konvertieren
 >  Für dieses Beispiel müssen Sie Ihr Arbeitsdatum in 01.01.2017 ändern.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>So korrigieren Sie eine Rechnung für einen vorausbezahlten Servicevertrag  
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Vertragsverwaltung** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Vertragsverwaltung** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie unter **Listen** die Option **Serviceverträge** aus.  
 3. Erstellen Sie eines neuen vorausbezahlten Servicevertrags. Geben Sie als Startdatum **01.01.2017** und als Fakturierungsjahr für Debitor **20000** ein.  
 4. Um den Vertrag zu unterzeichnen, wählen Sie die Aktion **Vertrag unterschreiben**.  
@@ -67,6 +68,3 @@ Nachfolgend wird beschrieben, wie eine neue Gutschrift mithilfe des Batchauftrag
 [Finanzen](finance.md)  
 [Melden von MWST an die Steuerbehörden](finance-how-report-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,20 +2,20 @@
 title: Einrichten von Druckern
 description: Informieren Sie sich über die Einrichtung von Druckern, die Sie für Berichte und Belege verwenden können, und über die verschiedenen Druckfunktionen, die Ihnen in Business Central zur Verfügung stehen.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.search.form: 8900, 9018, 9022
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 317e90976aed760f55fc7122483377e8df11c906
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335176"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437230"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 
@@ -34,7 +34,7 @@ Um Ihre Druckanforderungen zu erfüllen, bietet [!INCLUDE[prod_short](includes/p
 
 ## <a name="set-up-universal-print"></a>Universal Print einrichten
 
-Universal Print ist ein auf Microsoft 365 basierender Abonnement-Service, der vollständig über Microsoft Azure ausgeführt wird. Sie erhalten eine zentralisierte Druckerverwaltung über das Universal Print-Portal. [!INCLUDE[prod_short](includes/prod_short.md)] stellt in Universal Print eingerichtete Drucker Clientbenutzern über die Erweiterung **Universal Print-Integration** zur Verfügung.
+Universal Print ist ein auf Abonnements basierender Microsoft 365-Dienst, der vollständig auf Microsoft Azure ausgeführt wird. Sie erhalten eine zentralisierte Druckerverwaltung über das Universal Print-Portal. [!INCLUDE[prod_short](includes/prod_short.md)] stellt in Universal Print eingerichtete Drucker Clientbenutzern über die Erweiterung **Universal Print-Integration** zur Verfügung.
 
 ![Universal Print Einrichtung.](media/Universal-Print-arch.png)
 
@@ -84,7 +84,7 @@ Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Unive
 
     Wie Sie die Lizenz zuweisen, hängt davon ab, ob Sie sich online oder lokal in Business Central integrieren.
 
-    - Mit [!INCLUDE[prod_short](includes/prod_short.md)] online weisen Sie Lizenzen über das Microsoft 365 Admin-Center zu.
+    - Mit [!INCLUDE[prod_short](includes/prod_short.md)] Online weisen Sie Lizenzen über das Microsoft 365 Admin Center zu.
 
       Weitere Informationen finden Sie unter [Microsoft Admin Center-Hilfe – Benutzern Lizenzen zuweisen](/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -132,6 +132,9 @@ Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Unive
     Universal Print rendert Inhalte für den Druck im XPS-Format. Einige ältere marktübliche Drucker unterstützen das Rendern von XPS-Inhalten in vielen Fällen nicht &mdash;, sondern nur das PDF-Format. Das Drucken auf diesen Druckern schlägt fehl, es sei denn, Universal Print ist so eingerichtet, dass Belege in das vom Drucker unterstützte Format konvertiert werden.
 
     Weitere Informationen finden Sie unter [Dokumentkonvertierung – Übersicht](/universal-print/portal/document-conversion).
+
+    > [!TIP]
+    > Wenn keiner Ihrer Drucker das Renderformat für PDF-Inhalte benötigt, empfehlen wir, die Dokumentkonvertierung nicht zu aktivieren, da dies die Druckausgabequalität beeinträchtigen kann.
 
 Jetzt können Sie die Drucker [!INCLUDE[prod_short](includes/prod_short.md)] hinzufügen, Standarddrucker für Berichte einrichten und drucken.  
 
@@ -267,9 +270,6 @@ Sie oder der Administrator können auch die Seite **Druckerauswahl** verwenden, 
 
 > [!NOTE]
 > Spezifischere Druckerauswahlen haben Vorrang vor einer allgemeineren Druckerauswahl. Zum Beispiel hat eine Druckerauswahl, die Werte in den Feldern **Benutzer-ID**, **Berichts-ID** und **Druckername** hat, Vorrang vor einer Druckerauswahl, die leere Einträge in den Feldern **Benutzer-ID** oder **Berichts-ID** hat.
-
-### <a name="choosing-the-printer-when-running-a-report"></a>Auswählen des Druckers beim Ausführen eines Berichts
-Anstatt den Standarddrucker zu verwenden, wenn Sie einen Bericht ausführen, können Sie diese Einstellung auf der Anforderungsseite ausser Kraft setzen. Wählen Sie einfach im Dropdown-Menü **Drucker** den Drucker aus, den Sie für diesen Berichtsaufruf verwenden möchten.
 
 ### <a name="sizing-print-jobs"></a>Grösse von Druckaufträgen anpassen
 

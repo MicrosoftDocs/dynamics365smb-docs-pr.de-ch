@@ -2,19 +2,20 @@
 title: Marketingkampagnen in Business Central einrichten | Microsoft Docs
 description: Beschreibt, wie Sie Marketingkampagnen in Business Central einrichten und ausführen, um potenzielle Kunden zu identifizieren und Kunden zu behalten.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 04/01/2021
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: f5a81bf1377c7ba477961205ccb67fc9982ac3ae
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e3ca7a52bb01b9d4a7b6417be14396cc616131ca
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140931"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241834"
 ---
 # <a name="managing-marketing-campaigns"></a>Verwaltung von Marketingkampagnen
 Der Einsatz eines fundierten Marketingplans ermöglicht das Erkennen, Gewinnen und Binden von Debitoren. Ein Marketingplan setzt sich aus mehreren Kampagnen und anderen Aktivitäten rund um Ihre Verkaufs- und Marketingaktivitäten zusammen. Beim Planen einer Kampagne müssen Sie entscheiden, welche Kontakte Sie ansprechen möchten, welche Art von Kampagne (beispielsweise Messe oder Direktwerbung) Sie erstellen möchten und welche Verkäufer die einzelnen Aufgaben ausführen sollen.
@@ -38,7 +39,7 @@ Nachdem Sie Ihre Kampagne eingerichtet haben, entschieden haben, welche Segmente
 > [!NOTE]  
 >   Um die Verkaufspreise/Zeilenrabatte zu aktivieren, müssen Sie das gesamte Segment oder nur einzelne Kontakte für die Kampagne markieren. Wenn die Verkaufspreise/Zeilenrabatte für alle Kontakte des Segments gelten sollen, wählen Sie im Fenster **Segment** auf dem Inforegister **Kampagne** das Feld **Kampagnenziel** aus.
 
-Wenn die Verkaufspreise/Zeilenrabatte nicht für alle Kontakte des Segments gelten sollen, können Sie das Feld **Kampagnenziel** für die relevanten Kontakte. Wenn Sie dieses Feld nicht sehen, können Sie es zur Ansicht hinzuzufügen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
+Wenn die Verkaufspreise/Zeilenrabatte nicht für alle Kontakte des Segments gelten sollen, können Sie das Feld **Kampagnenziel** für die relevanten Kontakte. Wenn Sie dieses Feld nicht sehen, können Sie es zur Ansicht hinzuzufügen. Weitere Informationen finden Sie unter [Personalisieren Ihres Arbeitsbereichs](ui-personalization-user.md).
 
 ## <a name="conducting-campaigns"></a>Kampagnen durchführen
 Während der gesamten Laufzeit der Kampagne werden alle Interaktionen mit den Kontakten bzw. mit dem Segment erfasst. Dadurch können Sie oder andere Gruppen eine Kampagne anzeigen und statistische oder andere Informationen zu Kosten und Erfolgsraten der Kampagne abrufen.
@@ -50,6 +51,3 @@ Kampagnen werden vom Verkäufer geleitet werden, und Sie müssen Aktivitäten er
 [Verwalten von Segmenten](marketing-segments.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

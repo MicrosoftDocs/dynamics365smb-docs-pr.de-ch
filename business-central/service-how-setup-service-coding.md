@@ -1,20 +1,21 @@
 ---
-title: Codes für Standard-Services festlegen
-description: Erfahren Sie, wie Sie Codes für regelmässig ausgeführte Service-Aktivitäten mit einer vordefinierten Zeile festlegen können.
+title: Einrichten von Codes für Standardservices | Microsoft Docs
+description: Erfahren Sie, wie Codes für Dienstaktivitäten eingerichtet werden, die Sie häufig ausführen.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, service order, repairs, maintenance
-ms.date: 06/23/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: faf69b2bd3782b63030b87563d57524818a08bdb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d1d017d74eff9a4bd017cb9417913c0bd37ec500
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139353"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388838"
 ---
 # <a name="set-up-standard-service-codes"></a>Standardservicecodes einrichten
 
@@ -25,13 +26,13 @@ Bei der Durchführung eines normalen Service müssen häufig Servicebelege erste
   
 ## <a name="to-set-up-a-standard-service-code"></a>So richten Sie einen Standardservicecode ein
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Standard Servicecodes** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Standardservicecodes** ein und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Füllen Sie die Servicezeilen aus, die mit diesem Servicecode verknüpft sind.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>So weisen Sie einer Serviceartikelgruppe einen Standardservicecode zu
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Service-Elementgruppen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Serviceartikelgruppen** ein und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Füllen Sie die Servicezeilen aus, die mit diesem Servicecode verknüpft sind.  
 

@@ -2,6 +2,7 @@
 title: Suchen nach Kontakten von Microsoft Teams
 description: Erfahren Sie, wie Sie nach Business Central-Debitoren, ‑Kreditoren und anderen Kontakten von Microsoft Teams suchen.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 5d6da7bb6f515fa7b65597c944694eba8dd7755c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 77108cab69a05165616ad5e1a44f1a3ddc9d4cd9
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138766"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882519"
 ---
 # <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Suche nach Debitoren, Kreditoren und anderen Kontakten von Microsoft Teams
 
@@ -24,7 +25,7 @@ ms.locfileid: "8138766"
 
 - [!INCLUDE [prod_short](includes/prod_short.md)]-Kontakte aus dem Befehlsfeld Teams oder aus dem Bereich zum Erstellen von Nachrichten nachschlagen. Zu den Kontakten können potenzielle Debitoren, Kreditoren, Debitoren oder andere Geschäftsbeziehungen gehören.
 - Teilen Sie einen Kontakt als Karte in einem Teamgespräch.
-- Zeigen Sie Details zum Kontakt, den Interaktionsverlauf und andere Insights wie ausstehende Zahlungen oder offene Belege an.
+- Zeigen Sie Details zu Kontaktinformationen, Interaktionsverlauf und anderen Erkenntnissen wie ausstehenden Zahlungen oder offenen Belegen an.
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
@@ -41,13 +42,13 @@ Das Befehlsfeld befindet sich in Teams oben auf jedem Bildschirm. Sie können da
 
 1. Geben Sie in das Befehlsfeld **@Business Central** ein, und wählen Sie dann die Business Central-App aus den Ergebnissen aus.
 
-    ![Öffnen Sie die Business Central-App, um nach Kontakten aus der Befehlsbox zu suchen.](media/teams-contacts-command-1.png)
+    ![Die Business Central-App öffnen, um über das Befehlsfeld nach Kontakten zu suchen](media/teams-contacts-command-1.png)
 
 2. Geben Sie im Feld **Business Central** einen Suchtext wie einen Namen, eine Adresse oder eine Telefonnummer ein.
 
     Während der Eingabe werden übereinstimmende Ergebnisse angezeigt.
 
-    ![Suchen Sie Business Central Kontakte aus der Befehlsbox in Teams.](media/teams-contacts-command-2.png)
+    ![Nach Business Central-Kontakten über das Befehlsfeld in Teams suchen](media/teams-contacts-command-2.png)
 3. Wählen Sie einen Kontakt aus den Ergebnissen aus.
 
     Die Kontaktkarte wird unter dem Befehlsfeld angezeigt.
@@ -64,13 +65,13 @@ Der Vorteil der Verwendung des Felds zum Erstellen von Nachrichten besteht darin
 
     Wenn Sie das Symbol **Business Central** nicht sehen, wählen Sie **... (Messaging-Erweiterungen)** aus.
 
-    ![Öffnen Sie die Business Central-App, um nach Kontakten aus dem Nachrichtenfeld zu suchen.](media/teams-contacts-message-box.png)
+    ![Die Business Central-App öffnen, um über das Feld Nachrichten nach Kontakten zu suchen](media/teams-contacts-message-box.png)
 
 2. Geben Sie im Feld **Business Central** einen Suchtext wie einen Namen, eine Adresse oder eine Telefonnummer ein.
 
     Während der Eingabe werden übereinstimmende Ergebnisse angezeigt.
 
-    ![Suchen Sie nach Business Central Kontakten aus dem Nachrichtenfeld.](media/teams-contacts-5.png)
+    ![Über das Feld Nachrichten nach Business Central-Kontakten suchen](media/teams-contacts-5.png)
 3. Wählen Sie einen Kontakt aus den Ergebnissen aus.
 
     Die Kontaktkarte wird im Feld zum Erstellen von Nachrichten angezeigt.
@@ -82,7 +83,7 @@ Der Vorteil der Verwendung des Felds zum Erstellen von Nachrichten besteht darin
 
 1. Anstatt das Symbol **Business Central** zu verwenden, geben Sie **@ Business Central** direkt im Feld zum Verfassen von Nachrichten ein.
 2. Geben Sie Ihre Suchbegriffe in dem Feld ein.
-3. Verwenden Sie die Aufwärts‑ und Abwärtspfeiltasten auf der Tastatur, um einen Kontakt auszuwählen, und Eingabetaste drücken, um ihn auszuwählen.
+3. Verwenden Sie die Aufwärts‑ und Abwärtspfeiltasten auf der Tastatur, um einen Kontakt auszuwählen, und drücken Sie die Eingabetaste, um ihn auszuwählen.
 
 ## <a name="viewing-contact-card-details"></a>Kontaktkartendetails anzeigen
 
@@ -100,8 +101,6 @@ Die Kontaktkarte funktioniert genau wie Karten für Aufzeichnungen, z. B. Artik
 [Übersicht über die Integration von Business Central und Microsoft Teams](across-teams-overview.md)  
 [Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md)  
 [Teams FAQ](teams-faq.md)  
-[Ändern von Firmen- und anderen Einstellungen in Teams](across-teams-settings.md)  
-[Datensätze in Microsoft Teams freigeben](across-working-with-teams.md)  
 [Teams Problembehebung](admin-teams-troubleshooting.md)  
 [Entwicklung für die Teams-Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

@@ -1,21 +1,21 @@
 ---
 title: Lokale Funktion (Schweiz)
-description: Die folgenden Themen beschreiben alle lokalen Funktionen, die für die Schweizer Version von Business Central einzigartig sind.
+description: Die folgenden Themen beschreiben die lokale Funktion in der Schweizer Version von Business Central.
 author: sorenfriisalexandersen
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 35561, 35562, 35563, 3010541, 3010542, 3010543
-ms.date: 06/21/2021
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 9c3765e5087caa1af7f482e10d7712e160fe2f4d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1a115a4f5da6782547d1949ab0d3b93940d4073f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136602"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779150"
 ---
 # <a name="switzerland-local-functionality"></a>Lokale Funktion (Schweiz)
 

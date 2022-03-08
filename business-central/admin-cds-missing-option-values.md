@@ -1,27 +1,24 @@
 ---
 title: Behandlung fehlender Optionswerte
-description: Erfahren Sie, wie Sie verhindern können, dass die vollständige Synchronisierung fehlschlägt, weil sich die Optionen in den zugeordneten Feldern unterscheiden. Dieser Prozess erfordert die Hilfe eines Entwicklers.
+description: Erfahren Sie, wie Sie verhindern können, dass die vollständige Synchronisierung fehlschlägt, weil sich die Optionen in den zugeordneten Feldern unterscheiden.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
-ms.topic: conceptual
-ms.date: 06/14/2021
-ms.openlocfilehash: 34d1583ac7e844a7d7acad82f202c37be0b99c47
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.date: 02/03/2020
+ms.openlocfilehash: 42ad388e6c07ca259d4ef6095b9f8c908b509407
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133980"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196948"
 ---
 # <a name="handling-missing-option-values"></a>Behandlung fehlender Optionswerte
+[!INCLUDE[d365fin](includes/cds_long_md.md)] enthält nur drei Optionssatzfelder, die Optionswerte enthalten, die Sie den [!INCLUDE[d365fin](includes/d365fin_md.md)]-Feldern des Optionstyps zuordnen können<!-- Option type, not enum? @Onat can you vertify this? --> für die automatische Synchronisation. Während der Synchronisation werden nicht abgebildete Optionen ignoriert und die fehlenden Optionen werden an die zugehörige [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabelle angehängt und der **CDS-Optionszuordnung**-Systemtabelle hinzugefügt, um später manuell behandelt zu werden. Zum Beispiel, indem er die fehlenden Optionen in einem der beiden Produkte hinzufügt und dann die Zuordnung aktualisiert. Dieser Abschnitt beschreibt, wie das funktioniert.
 
-
-Dieses Thema richtet sich an ein technisches Publikum. Die darin beschriebenen Prozesse erfordern die Hilfe eines Entwicklers.
-
-[!INCLUDE[prod_short](includes/cds_long_md.md)] enthält drei Optionssatzfelder, die Werte enthalten, die Sie [!INCLUDE[prod_short](includes/prod_short.md)] Feldern vom Typ „Option“ zur automatischen Synchronisation zuordnen können. Während der Synchronisation werden nicht abgebildete Optionen ignoriert und die fehlenden Optionen werden an die zugehörige [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle angehängt und der **Dataverse-Optionszuordnung**-Systemtabelle hinzugefügt, um später manuell behandelt zu werden. Zum Beispiel, indem er die fehlenden Optionen in einem der beiden Produkte hinzufügt und dann die Zuordnung aktualisiert.
-
-Die Seite **Integration Tabellenzuordnung** enthält drei Felder, die einen oder mehrere zugeordnete Optionswerte enthalten. Nach einer vollständigen Synchronisierung enthält die Seite **Dataverse-Optionszuordnung** jeweils die nicht zugeordneten Optionen in den drei Feldern.
+Die Seite **Integration Tabellenzuordnung** enthält drei Zuordnungen für Felder, die einen oder mehrere zugeordnete Optionswerte enthalten. Nach einer vollständigen Synchronisierung enthält die Seite **CDS-Optionszuordnung** jeweils die nicht zugeordneten Optionen in den drei Feldern.
 
 |         Datensatz             | Optionswert | Optionswert Beschriftung |
 |----------------------------|--------------|----------------------|
@@ -29,8 +26,8 @@ Die Seite **Integration Tabellenzuordnung** enthält drei Felder, die einen oder
 | Zahlungsbedingungen: 2%10NET30   | 2            | 2% 10; Netto 30        |
 | Zahlungsbedingungen: NET45       | 3            | Netto 45               |
 | Zahlungsbedingungen: NET60       | 4            | Netto 60               |
-| Lieferbedingung: FOB       | 1            | FOB                  |
-| Lieferbedingung: NOCHARGE  | 2            | Keine Gebühr            |
+| Versandmethode: FOB       | 1            | FOB                  |
+| Versandmethode: NOCHARGE  | 2            | Keine Gebühr            |
 | Spediteur: AIRBORNE   | 1            | Airborne             |
 | Spediteur: DHL        | 2            | DHL                  |
 | Spediteur: FEDEX      | 3            | FedEx                |
@@ -39,7 +36,7 @@ Die Seite **Integration Tabellenzuordnung** enthält drei Felder, die einen oder
 | Spediteur: FULLLOAD   | 6            | Volle Belastung            |
 | Spediteur: WILLCALL   | 7            | Will Call            |
 
-Der Inhalt der Seite **Dataverse-Optionszuordnung** basiert auf Aufzählungswerten in der Tabelle **CRM -Konto**. In [!INCLUDE[prod_short](includes/cds_long_md.md)] werden die folgenden Felder auf der Kontotabelle den Feldern der Debitoren- und Kreditorendatensätze zugeordnet:
+Der Inhalt der Seite **CDS-Optionszuordnung** basiert auf Aufzählungswerten in der Tabelle **CDS-Konto**. In [!INCLUDE[d365fin](includes/cds_long_md.md)] werden die folgenden Felder auf der Kontoentität den Feldern der Debitoren- und Kreditorendatensätze zugeordnet:
 
 - **Adresse 1: Frachtbedingungen** vom Datentyp Enum, wobei die Werte wie folgt definiert sind:
 
@@ -53,9 +50,10 @@ enum 5335 "CDS Shipment Method Code"
 }
 ```
 
-- **Adresse 1: Lieferbedingung** vom Datentyp Enum, wobei die Werte wie folgt definiert sind:
+- **Adresse 1: Versandmethode** vom Datentyp Enum, wobei die Werte wie folgt definiert sind:
 
 ```
+enum 5336 "CDS Shipping Agent Code"
 enum 5336 "CDS Shipping Agent Code"
 {
     Extensible = true;
@@ -84,9 +82,9 @@ enum 5334 "CDS Payment Terms Code"
 }
 ```
 
-Alle obigen [!INCLUDE[prod_short](includes/prod_short.md)] Enums werden den Optionssätzen in [!INCLUDE[prod_short](includes/cds_long_md.md)] zugeordnet.
+Alle obigen [!INCLUDE[d365fin](includes/d365fin_md.md)] Enums werden den Optionssätzen in [!INCLUDE[d365fin](includes/cds_long_md.md)] zugeordnet.
 
-### <a name="extending-option-sets-in-prod_short"></a>Optionssätze in [!INCLUDE[prod_short](includes/prod_short.md)] erweitern
+### <a name="extending-option-sets-in-d365fin"></a>Optionssätze in [!INCLUDE[d365fin](includes/d365fin_md.md)] erweitern
 1. Erstellen Sie eine neue AL-Erweiterung.
 
 2. Fügen Sie eine Enum-Erweiterung für die Optionen hinzu, die Sie erweitern möchten. Achten Sie darauf, dass Sie den gleichen Wert verwenden. 
@@ -100,18 +98,15 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ```
 
 > [!IMPORTANT]  
-> Sie müssen die gleichen Options-ID-Werte von [!INCLUDE[prod_short](includes/cds_long_md.md)] verwenden, wenn Sie die Aufzählung [!INCLUDE[prod_short](includes/prod_short.md)] erweitern. Andernfalls wird die Synchronisation fehlschlagen.
-
-> [!IMPORTANT]  
-> Verwenden Sie in Aufzählungswerten und Beschriftungen nicht das Zeichen „,“. Dieses Zeichen wird von der [!INCLUDE[prod_short](includes/prod_short.md)]-Laufzeit noch nicht unterstützt.
+> Sie müssen die gleichen Options-ID-Werte von [!INCLUDE[d365fin](includes/cds_long_md.md)] verwenden, wenn Sie die Aufzählung [!INCLUDE[d365fin](includes/d365fin_md.md)] erweitern. Andernfalls wird die Synchronisation fehlschlagen.
 
 > [!NOTE]
 > Die ersten zehn Zeichen der neuen Optionswertnamen und Beschriftungen müssen eindeutig sein. Beispielsweise führen zwei Optionen mit den Namen „Übertragung 20 Arbeitstage“ und „Übertragung 20 Kalendertage“ zu einem Fehler, da beide die gleichen ersten 10 Zeichen, „Übertragung 2“, haben. Nennen Sie sie z.B. „TRF20 WD“ und „TRF20 CD“.
 
-### <a name="update-prod_short-option-mapping"></a>Update [!INCLUDE[prod_short](includes/cds_long_md.md)] Optionszuordnung
-Jetzt können Sie die Zuordnung zwischen [!INCLUDE[prod_short](includes/cds_long_md.md)]-Optionen und [!INCLUDE[prod_short](includes/prod_short.md)]-Einträgen neu erstellen.
+### <a name="update-d365fin-option-mapping"></a>Update [!INCLUDE[d365fin](includes/cds_long_md.md)] Optionszuordnung
+Jetzt können Sie die Zuordnung zwischen [!INCLUDE[d365fin](includes/cds_long_md.md)]-Optionen und [!INCLUDE[d365fin](includes/d365fin_md.md)]-Einträgen neu erstellen.
 
-Wählen Sie auf der Seite **Integration Tabellenzuordnung** die Zeile für die Karte **Zahlungsbedingungen** und wählen Sie dann die Aktion **Modifizierte Datensätze synchronisieren**. Die Seite **Dataverse Optionszuordnung** wird mit den zusätzlichen Datensätzen unten aktualisiert.
+Wählen Sie auf der Seite **Integration Tabellenzuordnung** die Zeile für die Karte **Zahlungsbedingungen** und wählen Sie dann die Aktion **Modifizierte Datensätze synchronisieren**. Die Seite **CDS Optionszuordnung** wird mit den zusätzlichen Datensätzen unten aktualisiert.
 
 |         Datensatz                 | Optionswert   | Optionswert Beschriftung |
 |--------------------------------|----------------|----------------------|
@@ -122,7 +117,7 @@ Wählen Sie auf der Seite **Integration Tabellenzuordnung** die Zeile für die K
 | **Zahlungsbedingungen: BARZAHLUNG**  | **779800001**  | **Barzahlung**     |
 | **Zahlungsbedingungen: ÜBERWEISUNG**    | **779800002**  | **Transfer**         |
 
-Die Tabelle **Zahlungsbedingungen** in [!INCLUDE[prod_short](includes/prod_short.md)] enthält dann neue Datensätze für die Optionen [!INCLUDE[prod_short](includes/cds_long_md.md)]. In der folgenden Tabelle sind neue Optionen fettgedruckt. Kursiv gedruckte Zeilen stellen alle Optionen dar, die jetzt synchronisiert werden können. Die verbleibenden Zeilen stellen Optionen dar, die nicht verwendet werden und während der Synchronisierung ignoriert werden. Sie können sie entfernen oder Dataverse-Optionen mit den gleichen Namen erweitern).
+Die Tabelle **Zahlungsbedingungen** in [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält dann neue Datensätze für die Optionen [!INCLUDE[d365fin](includes/cds_long_md.md)]. In der folgenden Tabelle sind neue Optionen fettgedruckt. Kursiv gedruckte Zeilen stellen alle Optionen dar, die jetzt synchronisiert werden können. Die verbleibenden Zeilen stellen Optionen dar, die nicht verwendet werden und während der Synchronisierung ignoriert werden. Sie können sie entfernen oder CDS-Optionen mit den gleichen Namen erweitern).
 
 | Code       | Berechnung Fälligkeitsdatum | Berechnung des Diskontierungsdatums | Ermässigung in % | Rechnungsrab. Zahl. Verk. im Zinsrechnung | Beschreibung       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -145,6 +140,3 @@ Die Tabelle **Zahlungsbedingungen** in [!INCLUDE[prod_short](includes/prod_short
 | ***ÜBERTRAGUNG*** |                      |                           | 0.         | FALSCH                         |                   |
 
 ## <a name="see-also"></a>Siehe auch
-[Zu synchronisierende Tabellen und Felder zuordnen](admin-how-to-modify-table-mappings-for-synchronization.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

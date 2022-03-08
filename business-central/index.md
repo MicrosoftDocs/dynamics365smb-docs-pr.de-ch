@@ -2,18 +2,19 @@
 title: Willkommen bei Microsoft Dynamics 365 Business Central
 description: Erfahren Sie in Business Central mehr über Funktionen und Arbeitsszenarien, mit denen Unternehmen ihr Geschäft verwalten können, einschliesslich Finanzen, Fertigung, Vertrieb, Versand, Projektmanagement, Services und mehr.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 95f54be520c439984343fbe9413570dc18097db9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 91faf4a1adeb6b53ffd8dbca81d8ef72df90b97e
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138506"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724851"
 ---
 # <a name="welcome-to-prod_long"></a>Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]
 

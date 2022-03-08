@@ -2,6 +2,7 @@
 title: Kommissionierung für interne Arbeitsgänge in erweiterter Lagerkonfigurationen
 description: Wenn Ihre Standorte sowohl Kommissionierung als auch Versand verwenden, wählen Sie Komponenten für Produktions- und Montageaktivitäten auf der Seite Lagerauswahl aus.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5df764b1ca184d1f70dd67c08abf0505833dc2aa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ea056bf4255cf557c711113854821f9dece17cad
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139145"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771049"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Kommissionierung für Montage oder Produktion in erweiterter Lagerkonfiguration
 In der erweiterten Lagerkonfigurationen, in der der Lagerort für Kommissionierung und Lieferung eingerichtet wurde, können Sie Komponenten für Produktions- und Montageaktivitäten auf der Seite **Kommissionierung** kommissionieren.  
@@ -39,7 +40,7 @@ Um Kommissionieranforderungen zu erstellen, müssen für Abruf- und Push-Szenari
 |Montageauftrag|Änderung des Status in "Freigegeben".|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>So kommissionieren Sie Komponenten vom Kommissionierarbeitsblatt aus:  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kommissionierarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Kommissionierungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Logistikbeleg holen** aus, und wählen Sie anschliessend die Komponentenzeilen des freigegebenen Fertigungsauftrags aus.  
 3.  Prüfen Sie die Zeilen, sortieren Sie sie so, dass sie eine effiziente Kommissionierrunde ergeben, und kombinieren Sie sie, falls erforderlich, mit anderen Arbeitsblattzeilen, um die Arbeitszeit der Mitarbeiter bestmöglich zu nutzen.  
 4.  Wählen Sie die Aktion **Kommissionierung erstellen** aus.  
@@ -51,7 +52,7 @@ Wenn der interne Vorgangsbereich, wie ein Produktionsfertigungsbereich, mit eine
 ## <a name="filling-the-consumption-bin"></a>Auffüllen des Verbrauchslagerplatzes
 Dieses Flussdiagramm zeigt, wie das Feld **Lagerplatzcode** in FA-Komponentenzeilen entsprechend Ihrer Einrichtung ausgefüllt wird.
 
-![Flowdiagramm Lagerplatz.](media/binflow.png "BinFlow")  
+![Lagerplatzflussdiagramm](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Siehe auch
 [Logistik](warehouse-manage-warehouse.md)  

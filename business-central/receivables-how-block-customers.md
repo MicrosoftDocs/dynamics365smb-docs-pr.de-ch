@@ -2,19 +2,20 @@
 title: So sperren Sie Verkäufe an Debitoren
 description: Bei Bedarf können Sie verhindern, dass ein Debitor in Verkaufsbelege und andere Verkaufstransaktionen aufgenommen wird.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fb69308a913f12a1433d2b37680f0ece1e93d3b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8401b02677be48d06de2c3dbd67efd1ea8dd18cd
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140697"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392713"
 ---
 # <a name="block-customers"></a>Debitoren sperren
 Sie können Debitoren, zum Beispiel aufgrund von Zahlungsunfähigkeit sperren, so dass der Debitor nicht zu Verkaufsbelegen hinzugefügt werden kann, oder dass keine Transaktionen für den Debitor gebucht werden können.
@@ -31,12 +32,12 @@ Die drei Optionen zum Sperren von Debitoren werden in den folgenden Tabelle besc
 |**Alle**|Für diesen Debitor ist keine Transaktion zulässig, wozu auch Zahlungen gehören.|  
 
 ## <a name="to-block-a-customer"></a>Einen Debitor sperren  
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie einen Debitoren und wählen Sie dann die Aktion **Bearbeiten** aus.
 3. Wählen Sie im Feld **Gesperrt** aus, was gesperrt werden soll, wie in der obigen Tabelle beschrieben.
 
 ## <a name="see-also"></a>Siehe auch  
-[Registriert einen neuen Debitor](sales-how-register-new-customers.md)  
+[Registriert einen neuen Debitor.](sales-how-register-new-customers.md)  
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 

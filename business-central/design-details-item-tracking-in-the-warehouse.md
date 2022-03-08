@@ -1,20 +1,23 @@
 ---
-title: Design-Details – Artikeltracking im Lager
-description: Eingehende und ausgehende Lagerbelege verfügen über eine Standardfunktionalität für die Zuweisung und Auswahl von Artikeltrackingsnummern.
+title: 'Designdetails: Artikeltracking im Lager | Microsoft Docs'
+description: Der Umgang mit Serien- oder Chargennummern ist hauptsächlich eine Lageraufgabe; daher haben alle eingehenden und ausgehenden Lagerbelege Standardfunktionen für die Zuordnung und die Auswahl von Artikeltrackingnummern. Da das Reservierungssystem auf Lagerposten basiert, werden Lageraktivitätsbelege, die nur Lagerplatzposten erfassen, jedoch nicht vollständig unterstützt.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 0b101215e06e33bbbafdf0c38e18ac3ddaa6774a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: a482e0fed80d5e9380b6c6e0ec03557abbc02953
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141321"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242114"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Designdetails: Artikeltracking im Lager
 Der Umgang mit Serien- oder Chargennummern ist hauptsächlich eine Lageraufgabe; daher haben alle eingehenden und ausgehenden Lagerbelege Standardfunktionen für die Zuordnung und die Auswahl von Artikeltrackingnummern.  
@@ -30,6 +33,3 @@ Das Reservierungssystem berücksichtigt jedoch Lageraktivitäten, wenn es die Ve
 [Designdetails: Integration mit dem Lagerbestand](design-details-integration-with-inventory.md)  
 [Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md)  
 [Designdetails: Artikeltrackingdesign](design-details-item-tracking-design.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

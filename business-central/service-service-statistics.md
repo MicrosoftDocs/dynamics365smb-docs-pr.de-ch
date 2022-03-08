@@ -1,20 +1,21 @@
 ---
-title: Service-Statistik
-description: Verschaffen Sie sich einen schnellen Überblick über die Inhalte und Statistiken von Service-Belegen wie Bestellungen, Offerten, Rechnungen, Gutschriften, Service-Zeilen und mehr.
+title: Servicestatistik | Microsoft Docs
+description: Mit der Funktion "Servicestatistik" können Sie sich schnell einen Überblick über den Inhalt eines gesamten Servicebelegs (Offerte, Rechnung oder Gutschrift) verschaffen, d. h. Sie können die Details zu den spezifischen Servicezeilen und Artikeln im Beleg anzeigen.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2d6d9cfd03971a7adec509babff9ad8cd90af4cb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 55c534d1f8a836775548d118f68383622ca25dec
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142946"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913085"
 ---
 # <a name="viewing-service-statistics"></a>So zeigen Sie die Servicestatistik an
 Sie können Statistiken nutzen, um Belege zu analysieren und zu bestimmen, wie Sie Ihre Dienstvorgänge verwalten sollen. Sie können Serviceverträge, Artikel, Offerten, Bestellungen, Rechnungen und Gutschriften analysieren, indem Sie die **Statistik** Aktion auswählen. Für Serviceartikel und Verträge können Sie **Serviceartikel-Trendscape** oder **Servicevertrag-Trendscape** verwenden, um eine Zusammenfassung der Serviceposten für einen bestimmten Serviceartikel angezeigt.   
@@ -83,7 +84,7 @@ Die Anwendung erstellt automatisch einen Gewinn- oder Verlustposten, wenn Vertra
 |**Vertrag Gew./Verl. (Ursachen)**|Um den Vertragsgewinn/-verlust nach Ursachencode anzuzeigen.|  
 |**Vertrag Gew./Verl. (Zust.Ein.)**|Um den Vertragsgewinn/-verlust nach Zuständigkeitseinheit anzuzeigen.|  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie den Namen der Seite ein, die angezeigt werden soll, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie den Namen der Seite ein, die angezeigt werden soll, und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Filterkriterien aus, die Sie anwenden möchten. Wählen Sie beispielsweise auf der Seite **Vertrag Gew./Verl. (Ursachen)** einen Wert für **Ursachencodefilter** aus.  
 3. Wählen Sie die Aktion **Matrix anzeigen** aus.
 
@@ -111,6 +112,3 @@ Auf der Seite **Servicegutschriftstatistik** erhalten Sie eine Übersicht über 
 [Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)   
 [Serviceartikel erstellen](service-how-to-create-service-items.md)   
 [Planungsservice](service-plan-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

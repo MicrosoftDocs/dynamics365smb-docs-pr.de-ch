@@ -1,20 +1,22 @@
 ---
-title: Analysiert die Fehlzeiten der Mitarbeiter.
-description: Beschreibt, wie Sie die Abwesenheit von Mitarbeitern datenmässig erfassen und Abwesenheitsstatistiken mithilfe der Seiten Abwesenheitsregistrierung und Abwesenheiten von Mitarbeitern analysieren können.
+title: Verwalten der Abwesenheit von Mitarbeitern| Microsoft Docs
+description: Beschreibt, wie die Abwesenheit von Mitarbeitern erfasst wird und Abwesenheitsstatistiken analysiert werden.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5212, 5211, 5200
-ms.date: 06/16/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 77ae09aebd78c870cc92d01700fc9a9188f340ee
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 89f164207b78a9b1845ed7add0b6dea7c4b6efbc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146450"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782152"
 ---
 # <a name="manage-employee-absence"></a>Analysiert die Fehlzeiten der Mitarbeiter.
 Damit die Abwesenheit eines Mitarbeiters verwaltet werden kann, muss diese auf der Seite **Abwesenheitsregistrierung** aufgezeichnet werden. Sie kann dann auf verschiedene Art und Weise zur Analyse und Berichterstellungszwecken angezeigt werden.
