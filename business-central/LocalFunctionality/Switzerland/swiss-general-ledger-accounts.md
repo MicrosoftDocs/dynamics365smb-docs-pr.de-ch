@@ -1,31 +1,31 @@
 ---
-title: Finanzbuchhaltungskonten (Schweiz)
-description: Schweizer Erweiterungen enthalten spezielle Fibupostenfunktionen.
+title: Schweizer Finanzbuchhaltungskonten [CH]
+description: In diesem Artikel werden Verbesserungen an den Schweizer Fibukonten und Fibu-Erfassungsjournalen erläutert.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a0e79bf9880a627d2f6707da6b69c1610d54a91f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 11500
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: 2d9f77f0b3ed6659df693df59617d3c4c20fe865
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189084"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136612"
 ---
 # <a name="swiss-general-ledger-accounts"></a>Finanzbuchhaltungskonten (Schweiz)
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enthält Schweizer Erweiterungen für Fibuposten.
+[!INCLUDE[prod_short](../../includes/prod_short.md)] enthält Schweizer Erweiterungen für Fibuposten.
 
 - Verwalten der Fremdwährungssalden eines Bankkontos in der Finanzbuchhaltung  
 - Sortieren Sie Finanzbuchhaltungs-Kontonummern auf der Seite **Kontenplan**.  
 - Anzeigen einer Vorschau, mit deren Hilfe die Auswirkungen von Finanzbuchhaltungs-Erfassungsjournalbuchungen auf die Salden bestimmter Finanzbuchhaltungskonten vor der eigentlichen Buchung überprüft werden können  
 
 ## <a name="general-ledger-accounts-and-general-journals"></a>Finanzbuchhaltungskonten und Finanzbuchhaltungs-Erfassungsjournale  
-Unternehmen arbeiten häufig mit unterschiedlichen Bankkonten für Fremdwährungen und verwenden für jedes Bankkonto ein Finanzbuchhaltungskonto. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] können Sie Fremdwährungssaldoinformationen und Währungscodes und auf der Seite **Kontenplan** einrichten. Auf diese Weise kann der ursprüngliche Fremdwährungssaldo eines Bankkontos verwaltet werden. Weitere Informationen finden Sie unter [Verständnis des Fibupostens und des COA](../../finance-general-ledger.md).  
+Unternehmen arbeiten häufig mit unterschiedlichen Bankkonten für Fremdwährungen und verwenden für jedes Bankkonto ein Finanzbuchhaltungskonto. In [!INCLUDE[prod_short](../../includes/prod_short.md)] können Sie Fremdwährungssaldoinformationen und Währungscodes und auf der Seite **Kontenplan** einrichten. Auf diese Weise kann der ursprüngliche Fremdwährungssaldo eines Bankkontos verwaltet werden. Weitere Informationen finden Sie unter [Verständnis des Fibupostens und des COA](../../finance-general-ledger.md).  
 
 Angenommen, ein Unternehmen verfügt über zwei Bankkonten: eines für Landes- bzw. Mandantenwährung (MW) und eines für Euro (EUR). Sie müssen ein Finanzbuchhaltungskonto für jedes Bankkonto erstellen. Für das EUR-Konto definieren Sie den Währungscode **EUR** und buchen Erfassungsjournale in EUR oder MW.  
 
@@ -45,3 +45,6 @@ Bevor Sie ein Finanzbuchhaltungs-Erfassungsjournal buchen, können Sie eine Vors
 
 [Anzeigen temporärer Salden in Finanzbuchhaltungs-Erfassungsjournalen](how-to-view-temporary-balances-in-general-ledger-journals.md)  
 [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

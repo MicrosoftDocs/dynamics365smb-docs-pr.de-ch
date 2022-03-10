@@ -1,21 +1,20 @@
 ---
-title: Informationen zur Kostenrechnung | Microsoft Docs
-description: Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen.
+title: Informationen zur Kostenrechnung
+description: Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Die Kostenrechnung dient dazu, verschiedene Sachverhalte zu analysieren.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7ba956c883c567e7acc2cd625d8d5e51d94ee753
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 52138687b0959c80711495e4c1a8b608184ba211
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784929"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145754"
 ---
 # <a name="about-cost-accounting"></a>Informationen zur Kostenrechnung
 Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Kostenrechnungsinformationen sollen Folgendes analysieren:  
@@ -37,7 +36,7 @@ Kostenrechnung hat folgende Hauptkomponenten:
 
 Das folgende Diagramm zeigt den Workflow der Kostenrechnung.  
 
-![Kostenrechnungsübersicht](media/costaccountingoverview.png "CostAccountingOverview")  
+![Kostenrechnung im Überblick](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Kostenarten, Kostenstellen und Kostenträger  
 Sie definieren Kostenarten, Kostenstellen und Kostenträger, um zu analysieren, worin die Kosten bestehen, woher die Kosten stammen und wer die Kosten trägt.  

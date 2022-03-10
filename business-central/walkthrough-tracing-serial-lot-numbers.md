@@ -1,31 +1,30 @@
 ---
-title: 'Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern | Microsoft Docs'
-description: In diesem Thema werden die Massnahmen beschrieben, die ergriffen werden müssen, um den Verkauf eines defekten Artikels zu beenden.
+title: Exemplarische Vorgehensweise – Verfolgen von Seriennummern
+description: Dieses Thema beschreibt die Massnahmen, die ergriffen werden müssen, um den Verkauf eines fehlerhaften Artikels zu verhindern, und auch, wie Sie Artikel bei Bedarf verfolgen und zurückrufen können.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: e165e5fcdad0909f6ad4def81987d1837dd0c48c
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: aff1012c0a1b8ec409c14e0481c73c4fb51fde18
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528149"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144503"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Wenn Produktfehler auftreten, müssen die Fehler identifiziert werden, und es muss verhindert werden, dass die betroffenen Artikel das Unternehmen verlassen. Falls bereits defekte Artikel geliefert wurden, müssen Sie verfolgen, wer diese Artikel erhalten hat, und ggf. muss ein Rückruf eingeleitet werden.  
 
 Als erste Aufgabe bei der Defektverwaltung ermitteln Sie, woher die defekten Artikel stammen und wo Sie verwendet wurden. Diese Untersuchung basiert auf historischen Daten und wird durch Durchsuchen von Artikeltrackingposten auf der Seite **Artikelablaufverfolgung** vorgenommen.  
 
-Als zweite Aufgabe bei der Defektverwaltung stellen Sie fest, ob die verfolgten Artikel in offenen Belegen eingeplant sind, z. B. in nicht gebuchten Verkaufsaufträgen oder Verbrauchsprotokollen. Dieser Vorgang wird auf der Seite **Navigation** ausgeführt. Sie können die Funktion "Navigieren" verwenden, um alle Arten Datenbankdatensätze zu suchen.  
+Als zweite Aufgabe bei der Defektverwaltung stellen Sie fest, ob die verfolgten Artikel in offenen Belegen eingeplant sind, z. B. in nicht gebuchten Verkaufsaufträgen oder Verbrauchsprotokollen. Dieser Vorgang wird auf der Seite **Posten suchen** ausgeführt. Sie können die Funktion „Posten suchen“ verwenden, um alle Arten Datenbankdatensätze zu durchsuchen.  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
 
@@ -50,8 +49,8 @@ Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen aus
 
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
-- Das [!INCLUDE[d365fin](includes/d365fin_md.md)]Unternehmen .  
-- Erstellen Sie anhand der Schritte [Vorbereiten der Beispieldaten](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data) neue Artikel und Geschäftstransaktionen.  
+- Das [!INCLUDE[prod_short](includes/prod_short.md)]Unternehmen .  
+<!-- - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).   -->
 
 ## <a name="story"></a>Hintergrund
 
@@ -64,7 +63,7 @@ Von der Verkaufsabteilung weiss der Qualitätskontrolleur, dass das reklamierte 
 
 Diese erste Aufgabe des Artikeltrackings ergibt, welche Rennradrahmen defekt waren und von welchem Lieferanten sie stammen. Danach muss der Qualitätskontrolleur im Rahmen desselben Trackingprozesses alle verkauften Rennräder ermitteln, die Rennradrahmen aus der fehlerhaften Charge enthalten, sodass diese Aufträge gestoppt oder zurückgerufen werden können. Zum Schluss muss er alle offenen Belege finden, in denen die fehlerhafte Charge verwendet wurde, um zusätzliche Transaktionen zu verhindern.  
 
-Für die ersten beiden Aufgaben der Defektverwaltung wird die Seite **Artikelablaufverfolgung** verwendet. Die letzte Aufgabe wird auf der Seite **Navigate** durchgeführt, wobei die Ergebnisse aus der Seite **Artikelablaufverfolgung** integriert werden.  
+Für die ersten beiden Aufgaben der Defektverwaltung wird die Seite **Artikelablaufverfolgung** verwendet. Die letzte Aufgabe wird auf der Seite **Posten suchen** durchgeführt, wobei die Ergebnisse aus der Seite **Artikelablaufverfolgung** integriert werden.  
 
 ## <a name="prepare-sample-data"></a>Vorbereiten der Beispieldaten
 
@@ -77,7 +76,7 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
 ### <a name="to-create-the-items"></a>Serviceartikel anlegen  
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Geben Sie im Feld **Nr.** Geben Sie im Feld **2000** ein und füllen Sie dann die folgenden Felder aus.  
 
@@ -114,7 +113,7 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
 ### <a name="to-purchase-components"></a>Um Komponenten zu kaufen
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature öffnet](media/ui-search/search_small.png "Tell Me-Funktion") Symbol, geben Sie **Bestellungen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Erstellen Sie eine Bestellung für den Kreditor Custom Metals Incorporated, indem Sie die folgenden Felder ausfüllen.  
 
@@ -128,7 +127,7 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 7. Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Lieferung und Rechnung**, und wählen Sie dann die Schaltfläche **OK** aus.  
 
     Kaufen Sie als Nächstes Rennradrahmen von Coolwood Technologies.  
-8. Wählen Sie die ![Glühbirne, die das Tell Me Feature öffnet](media/ui-search/search_small.png "Tell Me-Funktion") Symbol, geben Sie **Bestellungen** ein und wählen Sie dann den entsprechenden Link.  
+8. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
 9. Wählen Sie die Aktion **Neu** aus.
 10. Erstellen Sie eine Bestellung für den Kreditor Coolwood Technologies, indem Sie die folgenden Felder ausfüllen.  
 
@@ -145,7 +144,7 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
 ### <a name="to-produce-end-items"></a>Um Endartikel zu produzieren
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Freigegebene FA** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Freigegebene Prod. Orders** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Gruppe **Neu** aus.  
 3. Erstellen Sie einen neuen freigegebenen Fertigungsauftrag, indem Sie die folgenden Felder ausfüllen.  
 
@@ -166,7 +165,7 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Als Nächstes produzieren Sie zwei weitere Rennräder, SN3 und SN4.  
 
-11. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Freigegebene FA** ein, und wählen Sie dann den zugehörigen Link.  
+11. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Freigegebene Prod. Orders** ein und wählen Sie dann den entsprechenden Link.  
 12. Wählen Sie die Aktion **Neu** aus.  
 13. Erstellen Sie einen neuen freigegebenen Fertigungsauftrag, indem Sie die folgenden Felder in der Kopfzeile ausfüllen.  
 
@@ -191,7 +190,7 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     Als Nächstes verkaufen Sie Rennräder. Verkaufen Sie zuerst das Rennrad mit SN1 an Selangorian Ltd.  
 
 ### <a name="to-sell-the-end-items"></a>Um die Endartikel zu verkaufen  
-1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus, und dann erstellen Sie einen Verkaufsauftrag, indem Sie die folgenden Felder ausfüllen.  
 
     |Debitor|Artikel|Menge|Seriennr.|  
@@ -203,7 +202,7 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Als Nächstes verkaufen Sie das Rennrad mit SN2 an The Cannon Group PLC.  
 
-5.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
+5.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 6.  Wählen Sie die Aktion **Neu** aus, und dann erstellen Sie einen Verkaufsauftrag, indem Sie die folgenden Felder ausfüllen.  
 
     |Debitor|Artikel|Menge|Seriennr.|  
@@ -215,7 +214,7 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Zum Schluss verkaufen Sie einige Rennradrahmen separat. Cannon Group PLC. bestellt zudem vier separate Rennradrahmen für ihre eigene Fertigungslinie.  
 
-9. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
+9. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 10. Wählen Sie die Aktion **Neu** aus, und dann erstellen Sie einen Verkaufsauftrag, indem Sie die folgenden Felder ausfüllen.  
 
     |Debitor|Artikel|Menge|Seriennr.|  
@@ -227,13 +226,13 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     > [!NOTE]  
     >  Buchen Sie den letzten Verkaufsauftrag für fünf Rennradrahmen nicht.  
 
-    Damit ist die Vorbereitung der Daten für die exemplarische Vorgehensweise für die Funktionen "Artikelablaufverfolgung" und "Navigieren" abgeschlossen.  
+    Damit ist die Vorbereitung der Daten zur Demonstration der Funktionen „Artikelablaufverfolgung“ und „Posten suchen“ abgeschlossen.  
 
 ## <a name="tracing-from-usage-to-origin"></a>Verfolgung vom Verbrauch zum Ursprung  
  Von der Verkaufsabteilung weiss der Qualitätskontrolleur, dass das reklamierte Rennrad, Artikel 1002, die Seriennummer SN1 besitzt. Anhand dieser Basisinformation kann er feststellen, wo das fertige Rennrad zuletzt verwendet wurde, in diesem Fall in der Verkaufslieferung an die Blütenhaus GmbH. Anschliessend muss der Qualitätskontrolleur das Rennrad zum frühesten Ursprung zurückverfolgen, um festzustellen, aus welcher Charge und von welchem Lieferanten der fehlerhafte Rennradrahmen stammt.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>So stellen Sie fest, aus welcher Charge und von welchem Kreditor der fehlerhafte Rahmen stammt  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Artikelablaufverfolgung** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Artikelablaufverfolgung** ein und wählen Sie dann den entsprechenden Link.  
 2.  Geben Sie auf der Seite **Artikelablaufverfolgung** **SN1** in das Feld **Seriennr** ein, und geben Sie dann **1002** in das Feld **Artikelfilter** ein.  
 3.  Übernehmen Sie die Standardeinstellung **Nur mit Artikelverfolgung** im Feld K **omponenten anzeigen** und die Standardverfolgungsmethode **Verbrauch - Ursprung** im Feld **Nachverfolgungsmethode**  
 4.  Wählen Sie die Aktion **Ablaufverfolgung** aus.  
@@ -279,27 +278,32 @@ Anschliessend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Gleichzeitig kann er den letzten drei Trackingzeilen entnehmen, dass zwei weitere Artikel, SN3 und SN4, mit Rennradrahmen aus CHARGE1 produziert wurden. Er unternimmt die entsprechenden Schritte, um diese Endartikel im Lagerbestand zu sperren.  
 
-    Damit ist die zweite Aufgabe der Defektverwaltung auf der Seite für **Artikelnachverfolgung** abgeschlossen. Da die Seite **Artikelnachverfolgung** nur auf gebuchten Posten basiert, muss der Qualitätskontrolleur zum Fenster **Navigieren** wechseln, um zu überprüfen, ob CHARGE1 in nicht gebuchten Belegen verwendet wird.  
+    Damit ist die zweite Aufgabe der Defektverwaltung auf der Seite für **Artikelnachverfolgung** abgeschlossen. Da die Seite **Artikelablaufverfolgung** nur auf gebuchten Posten basiert, muss der Qualitätscontroller zur Seite **Posten suchen** wechseln, um sicherzustellen, dass CHARGE1 nicht in nicht-gebuchten Belegen verwendet wird.  
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Alle Datensätze einer Serien-/Chargennummer finden  
- Aus der Seite **Artikelnachverfolgung** erfuhr der Qualitätskontrolleur, dass CHARGE1 die fehlerhaften Rennradrahmen enthielt, von welchem Kreditor sie stammen, und in welcher gebuchten Transaktion sie verwendet wurden. Er muss nun feststellen, ob CHARGE1 in offenen Belegen enthalten ist, indem er die Ergebnisse Nachverfolgung auf die Seite **Navigieren** integriert, wo er eine Suche in allen Datenbankdatensätzen ausführen kann.  
+ Aus der Seite **Artikelnachverfolgung** erfuhr der Qualitätskontrolleur, dass CHARGE1 die fehlerhaften Rennradrahmen enthielt, von welchem Kreditor sie stammen, und in welcher gebuchten Transaktion sie verwendet wurden. Er muss nun feststellen, ob CHARGE1 in irgendwelchen offenen Belegen enthalten ist, indem er eine Integration aus den Ablaufverfolgungsergebnissen auf die Seite **Posten suchen** durchführt, wo er eine Suche durch alle Datenbankdatensätze durchführen kann.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>So suchen Sie nach allen Vorkommen von CHARGE1 in nicht gebuchten Datensätzen (z. B. offenen Aufträgen)  
 
 1.  Wählen Sie auf der Seite **Artikelablaufverfolgung** den Verweis in der ersten Verfolgungszeile aus, der Einkaufslieferung von CHARGE1.  
-2.  Wählen Sie die Aktion **Navigieren** aus.  
+2.  Wählen Sie die Aktion **Posten suchen** aus.  
 
-    Auf der Seite **Navigate** sind basierend auf dem Ergebnis der Verfolgung für CHARGE1 Suchfilter voreingestellt. Der Qualitätskontrolleur stellt fest, dass sich die meisten Datensätze auf Belege beziehen, die bereits auf der Seite **Artikelablaufverfolgung** identifiziert wurden. Die letzte Zeile vom Typ "Fertigungsauftrag" bezieht sich z. B. auf die beiden freigegebenen Fertigungsaufträge, in denen Rennradrahmen aus CHARGE1 verbraucht wurden.  
+    Auf der Seite **Posten suchen** sind basierend auf dem Ergebnis der Ablaufverfolgung für CHARGE1 Suchfilter voreingestellt. Der Qualitätskontrolleur stellt fest, dass sich die meisten Datensätze auf Belege beziehen, die bereits auf der Seite **Artikelablaufverfolgung** identifiziert wurden. Die letzte „Posten suchen“Zeile vom Typ „Fertigungsauftrag“ bezieht sich z. B. auf die beiden freigegebenen Fertigungsaufträge, in denen Rennradrahmen aus CHARGE1 verbraucht wurden.  
 
-    Die zweite Zeile vom Typ **Verkaufszeile** im Fenster "Navigieren" ist jedoch eine nicht gebuchte Belegzeile, sodass der Qualitätskontrolleur die Untersuchung fortsetzt.  
+    Die zweite Zeile vom Typ „Posten Suchen“ des Typs **Verkaufszeile** ist jedoch eine nicht gebuchte Belegzeile, sodass der Qualitätscontroller die Untersuchung fortsetzt.  
 
-3.  Wählen Sie zum Öffnen des Verkaufszeilendatensatzes die zweite Zeile im Fenster "Navigate" aus, wählen Sie dann die Aktion **Anzeigen:** aus. Alternativ können Sie den Wert im Feld **Anzahl Datensätze** wählen.  
+3.  Wählen Sie zum Öffnen des Verkaufszeilendatensatzes die zweite „Posten suchen“-Zeile aus, wählen Sie die Aktion **Anzeigen** aus. Alternativ können Sie den Wert im Feld **Anzahl Datensätze** wählen.  
 
     Hier sieht der Qualitätskontrolleur eine offene Verkaufszeile für die fehlerhaften Rennradrahmen. Er empfiehlt der Verkaufsabteilung umgehend, diesen Auftrag zu stornieren und einen neuen Fertigungsauftrag mit fehlerfreien Rennradrahmen zu initiieren.  
 
- Damit ist die exemplarische Vorgehensweise zur Verwendung der Seiten **Navigieren** und **Artikelablaufverfolgung** für die Defektverwaltung abgeschlossen.  
+ Damit ist die exemplarische Vorgehensweise zur Verwendung der Seite **Posten suchen** zur Defektverwaltung in Integration mit der Seite **Artikelablaufverfolgung** abgeschlossen.  
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)  
 [Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)  
+[Posten finden](ui-find-entries.md)  
 [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
+
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,8 +1,7 @@
 ---
-title: Installieren der Business Central-App in Microsoft Teams| Microsoft Docs
+title: Business Central-App in Microsoft Teams installieren
 description: Informationen zum Installieren der Business Central-App für Microsoft Teams.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,18 +9,18 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 420a94c3996840c2d75687f533e06625258ca0f7
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: e19db53137980b986dabc933ae56d33a5a768350
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588190"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141529"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Die App [!INCLUDE [prod_short](includes/prod_short.md)] für Microsoft Teams installieren
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-In diesem Artikel erfahren Sie, wie Sie die [!INCLUDE [prod_short](includes/prod_short.md)]-App für [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) installieren. Die App ist im Teams-Marketplace verfügbar und kann mit der Teams-Web-, Desktop- oder mobilen App verwendet werden.
+In diesem Artikel erfahren Sie, wie Sie die [!INCLUDE [prod_short](includes/prod_short.md)]-App für [Microsoft Teams](https://www.microsoft.com/microsoft-teams/) installieren. Die App ist im Teams-Marketplace verfügbar und kann mit der Teams-Web-, Desktop- oder mobilen App verwendet werden.
 
 > [!NOTE]
 > Möglicherweise hat Ihr Administrator festgelegt, dass die App automatisch für Sie installiert wird. Um zu überprüfen, ob die App installiert ist, öffnen Sie Teams und wählen Sie dann **Apps**. Suchen Sie nach **Business Central** und wählen Sie sie aus, wenn Sie sie finden. Wenn Sie **Öffnen** auf der Seite **Business Central** sehen, ist die App bereits installiert.  

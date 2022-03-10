@@ -1,23 +1,21 @@
 ---
-title: Verarbeiten eingehender und ausgehender IC-Transaktionen | Microsoft Docs
+title: Intercompany-Ein- und -Ausgangstransaktionen verwalten
 description: Intercompanytransaktionen, die Sie von Intercompanypartnern empfangen, werden im IC-Eingang aufgelistet, in dem Sie sie manuell oder automatisch bearbeiten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
+ms.search.form: 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 309d41995ae88332808e363f8a6838a40ee6a679
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2e8959900cedbf538a289447ad57c2e64b51c55b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445715"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141087"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Intercompany-Ein- und -Ausgangstransaktionen verwalten
 Alle Intercompanytransaktionen, die Sie auf elektronischem Wege von Intercompanypartnern empfangen, werden im Intercompanyeingang aufgelistet.  
@@ -51,7 +49,7 @@ Das Feld **Transaktionsursprung anzeigen** kann zum Filtern der Transaktionen im
 
  > [!NOTE]  
  > Wenn die Intercompanypartner sich in derselben Datenbank befinden, werden Transaktionen übertragen, ohne dass Dateien oder E-Mail erforderlich sind. Siehe Feld **Transfertyp** auf der Seite **Intercompanypartner**. <br /><br />
-In diesem Fall können Sie eine Überbrückung des Eingangs und Ausgangs durch das System festlegen, indem Sie das Kontrollkästchen **Transaktionen autom. akzeptieren** auf der Seite **Intercompanypartner** und das Kontrollkästchen **Transaktionen autom. senden** auf der Seite **Intercompanyeinrichtung** auswählen.
+In diesem Fall können Sie eine Überbrückung des Eingangs und Ausgangs durch das System festlegen, indem Sie das Kontrollkästchen **Transaktionen autom. akzeptieren** auf der Seite **Intercompanypartner** und das Kontrollkästchen **Transaktionen autom. senden** auf der Seite **Intercompanyeinrichtung** auswählen. Eingehende Intercompanytransaktionen können nur dann automatisch akzeptiert werden, wenn der Aufgabenplaner aktiviert ist. Weitere Informationen finden Sie unter [Business Central Server konfigurieren – Aufgabenplanungseinstellungen](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Intercompanytransaktionen aus einer Datei importieren  
 Wenn einer der Intercompanypartner sich nicht in derselben Datenbank wie das eigene Unternehmen befindet, können die Intercompanytransaktionen von diesem Partner in einer XML-Datei empfangen werden. Anschliessend werden die Transaktionen in den Eingang importiert.  

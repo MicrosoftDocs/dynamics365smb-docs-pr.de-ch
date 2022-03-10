@@ -1,21 +1,20 @@
 ---
-title: Designdetails - Lagerhaus Einrichten | Microsoft Docs
-description: Lagerfunktionen in Business Central enthalten verschiedene Komplexitätsstufen, definiert durch Lizenzberechtigungen in den angebotenen Elementen. Die Komplexitätsstufe in einer Lagerlösung ist weitgehend durch den Lagerplatz definiert, der auf Lagerortkarten eingerichtet ist, die wiederum lizenz-gesteuert ist, sodass der Zugriff auf Lagerplatzsetupfelder durch die Lizenz definiert ist.
+title: Entwurfsdetails – Einrichtung des Lagers
+description: Die Funktionalität des Lagers enthält verschiedene Komplexitätsstufen, die grösstenteils durch die Einrichtung der Lagerplätze auf den Lagerortkarten definiert werden.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 32c3fedfbeea37a1be315d737ac9fe41b5c7c20a
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 9014836d228ee5bd01a74129fa0ba2aa0dd8dcea
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035445"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142355"
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetails: Lagereinrichtung
 
@@ -45,9 +44,9 @@ Die nachstehende Tabelle zeigt, welche Elemente benötigt werden, um verschieden
 |1|Keine dedizierte Lageraktivität.<br /><br /> Eingangs-/Lieferungsbuchung aus Aufträgen.|Bestellung|BLAU|Grundlegender Lagerbestand|  
 |2|Keine dedizierte Lageraktivität.<br /><br /> Eingangs-/Lieferungsbuchung aus Aufträgen.<br /><br /> Lagerplatzcode ist erforderlich.|Auftrag, mit Lagerplatzcode|SILBER|Grundlegender Lagerbestand/Lagerplatz|  
 |3 <br /><br /> **Hinweis**: Obwohl die Einstellungen **Kommissionierung erforderlich** und **Einlagerung erforderlich** genannt werden, können Sie weiterhin Wareneingänge und Lieferungen direkt aus den Quellgeschäftsbelegen an Lagerorten, in denen Sie diese Kontrollkästchen aktivieren.|Grundlegende Lageraktivität, Auftrag für Auftrag.<br /><br /> Eingangs-/Lieferungsbuchung aus Lagereinlagerungs-/Kommissionierbelegen. <br /><br /> Lagerplatzcode ist erforderlich.|Einlagerung/Lagerbestandsumlagerung/Kommissionierung, mit Lagerplatzcode|(SILBER + Einlagerung erfordern oder Einlagerung erfordern)|Grundlegender Lagerbestand/Lagerplatz/Einlagerung/Kommissionierung|  
-|4|Erweiterte Lageraktivität, für mehrere Aufträge.<br /><br /> Konsolidierte Eingangs-/Lieferungsbuchung, basierend auf Lager-Einlagerungs-/Kommissionierungsregistrierungen.|Wareneingang/Einlagerung/Kommissionierung/Warenausgang/Kommissioniervorschlag|GRÜN|Grundlegender Lagerbestand/Wareneingang/Einlagerung/Kommissionierung/Lagerlieferung|  
-|5|Erweiterte Lageraktivität, für mehrere Aufträge.<br /><br /> Konsolidierte Eingangs-/Lieferungsbuchung, basierend auf Lager-Einlagerungs-/Kommissionierungsregistrierungen.<br /><br /> Lagerplatzcode ist erforderlich.|Wareneingang/Einlagerung/Kommissionierung/Warenausgang/Kommissioniervorschlag/Einlagerungsvorschlag, mit Lagerplatzcode|(GRÜN + Lagerplatz notwendig)|Grundlegender Lagerbestand/Lagerplatz/Wareneingang/Einlagerung/Kommissionierung/Lagerlieferung|  
-|6 <br /><br /> **Hinweis**: Diese Ebene wird als WMS bezeichnet, da sie die detailliertesten Warehouse Management Systeme benötigt.|Erweiterte Lageraktivität, für mehrere Aufträge<br /><br /> Konsolidierte Eingangs-/Lieferungsbuchung, basierend auf Lager-Einlagerungs-/Kommissionierungsregistrierungen.<br /><br /> Lagerplatzcode ist erforderlich.<br /><br /> Zone/Klassencode ist optional.<br /><br /> Lagermitarbeiter durch Workflow gesteuert<br /><br /> Lagerplatzauffüllungsplanung<br /><br /> Lagerplatzpriorität<br /><br /> Lagerplatz-Setup nach Kapazität<br /><br /> Einfügen  <!-- Hand-held device integration -->|Wareneingang/Einlagerung/Kommissionierung/Warenausgang/Kommissioniervorschlag/Einlagerungsvorschlag. Kommissionierung/interne Einlagerung, mit/Lagerplatz/Zonencode Klasse<br /><br /> Verschiedene Arbeitsblätter für Lagerplatzverwaltung<br /><br /> ADCS-Bildschirme|WEISS|Grundlegender Lagerbestand/Lagerplatz/Einlagerung/Wareneingang/Kommissionierung/Lagerlieferung/Logistiksysteme/interne Kommissionierungen und Einlagerungen/Lagerplatzeinrichtung<!-- Automated Data Capture System/ -->Lagerplatz-Setup|  
+|4|Erweiterte Lageraktivität, für mehrere Aufträge.<br /><br /> Konsolidierte Eingangs-/Lieferungsbuchung, basierend auf Lager-Einlagerungs-/Kommissionierungsregistrierungen.|Wareneingang/Einlagerung/Kommissionierung/Warenausgang/Kommissionierarbeitsblatt|GRÜN|Grundlegender Lagerbestand/Wareneingang/Einlagerung/Kommissionierung/Lagerlieferung|  
+|5|Erweiterte Lageraktivität, für mehrere Aufträge.<br /><br /> Konsolidierte Eingangs-/Lieferungsbuchung, basierend auf Lager-Einlagerungs-/Kommissionierungsregistrierungen.<br /><br /> Lagerplatzcode ist erforderlich.|Wareneingang/Einlagerung/Kommissionierung/Warenausgang/Kommissionierarbeitsblatt/Einlagerungsarbeitsblatt, mit Lagerplatzcode|(GRÜN + Lagerplatz notwendig)|Grundlegender Lagerbestand/Lagerplatz/Wareneingang/Einlagerung/Kommissionierung/Lagerlieferung|  
+|6 <br /><br /> **Hinweis**: Diese Ebene wird als WMS bezeichnet, da sie die detailliertesten Warehouse Management Systeme benötigt.|Erweiterte Lageraktivität, für mehrere Aufträge<br /><br /> Konsolidierte Eingangs-/Lieferungsbuchung, basierend auf Lager-Einlagerungs-/Kommissionierungsregistrierungen.<br /><br /> Lagerplatzcode ist erforderlich.<br /><br /> Zone/Klassencode ist optional.<br /><br /> Lagermitarbeiter durch Workflow gesteuert<br /><br /> Lagerplatzauffüllungsplanung<br /><br /> Lagerplatzpriorität<br /><br /> Lagerplatz-Setup nach Kapazität<br /><br /> Einfügen  <!-- Hand-held device integration -->|Wareneingang/Einlagerung/Kommissionierung/Warenausgang/Kommissionierarbeitsblatt/Einlagerungsarbeitsblatt. Kommissionierung/interne Einlagerung, mit/Lagerplatz/Zonencode Klasse<br /><br /> Verschiedene Arbeitsblätter für Lagerplatzverwaltung<br /><br /> ADCS-Bildschirme|WEISS|Grundlegender Lagerbestand/Lagerplatz/Einlagerung/Wareneingang/Kommissionierung/Lagerlieferung/Logistiksysteme/interne Kommissionierungen und Einlagerungen/Lagerplatzeinrichtung<!-- Automated Data Capture System/ -->Lagerplatz-Setup|  
 
 Beispiele dazu, wie die UI-Belege pro Lagerkomplexitätsebene verwendet werden, finden Sie unter [Designdetails: Eingehender Lagerhausfluss](design-details-inbound-warehouse-flow.md).  
 
@@ -141,3 +140,6 @@ Die Einlagerungsvorlage kann einem Artikel und einem Lagerort zugewiesen werden.
 
 [Designdetails: Logistik](design-details-warehouse-management.md)   
 [Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

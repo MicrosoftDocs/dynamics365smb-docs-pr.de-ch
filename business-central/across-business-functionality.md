@@ -2,27 +2,28 @@
 title: Geschäftsfunktionen unterstützt durch Business Central
 description: Stellt eine Funktion für alle Abteilungen und Geschäftsfunktionen bereit, die durch Anwendungsbereichen wie z. B. Finanzen, Lager und Projektmanagement unterstützt werden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c24e6142780fa5935576320a0d5edf683caf0a9f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f25e6f2afbcb6f249bf3e04f35172d6678cbd113
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776286"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323125"
 ---
 # <a name="business-functionality"></a>Geschäftsfunktionen
+
 [!INCLUDE[prod_short](includes/prod_short.md)] enthält Funktionalität für allgemeine Geschäftsvorgänge in kleinen und mittelständischen Unternehmen, vor allem im Bereich Grosshandel und die Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik.
 
-[!INCLUDE[prod_short](includes/prod_short.md)]umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen. Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[prod_short](includes/prod_short.md)] hinzuzufügen. Einige Regionen für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Weitere Informationen finden Sie unter [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
+[!INCLUDE[prod_short](includes/prod_short.md)]umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen. Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[prod_short](includes/prod_short.md)] hinzuzufügen. Einige Regionen für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Die [Business Central Schnellstart](quick-start-business-central.md) Artikel können Ihnen helfen, die ersten Schritte zu unternehmen, um [!INCLUDE [prod_short](includes/prod_short.md)] zu Ihrem eigenen zu machen. Weitere Informationen finden Sie unter [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
 
-| An | Siehe |
+| Bis | Siehe |
 | --- | --- |
 |Erstellen und Einziehen von Zahlungen, Cashflow verwalten, Einnahmen zurückstellen, Vorbereiten des Jahresabschlusses, Verwalten von Anlagen.|[Finanzen](finance.md)|
 |Erhalten Sie Einblick an die Leistung Ihrer Geschäftsaktivitäten, Ihres Kontenschemas und Ihrer Budgets von Analyseansichten.|[Business Intelligence](bi.md)|

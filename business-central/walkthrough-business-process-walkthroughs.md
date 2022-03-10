@@ -2,7 +2,6 @@
 title: Exemplarische Vorgehensweisen für Geschäftsprozesse
 description: Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise End-to-End-Geschäftsprozesse, die Sie mit dem Demounternehmen CRONUS durchführen können.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fda901d7737d7818b7ebc965d9babf1f0868f1de
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3d3c7aad6205ad92515dd81542eae209d0f45540
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322186"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129541"
 ---
 # <a name="business-process-walkthroughs"></a>Exemplarische Vorgehensweisen für Geschäftsprozesse
 
@@ -24,7 +23,7 @@ Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise End-to-End-Gesc
  Die exemplarischen Vorgehensweisen sind vollständige Szenarios und sollten möglichst vom Anfang bis zum Ende ausgeführt werden. Viele Szenarios basieren auf [!INCLUDE[prod_short](includes/prod_short.md)]-Demonstrationen und ermöglichen es Ihnen, diese Verfahren an Ihrem Arbeitsplatz selbst auszuprobieren.  
 
 > [!NOTE]
-> Einige der exemplarischen Vorgehensweisen erfordern Beispieldaten, die nicht im Standard-Demounternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar sind. <!--For more information, see [To create a company with complete sample data in a sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox). -->
+> Einige der exemplarischen Vorgehensweisen erfordern Beispieldaten, die nicht im Standard-Demounternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar sind. <!--For more information, see [Sandbox Environments](admin-sandbox-environments.md). -->
 
 |Bis|Siehe|  
 |--------|---------|  

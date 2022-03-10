@@ -2,24 +2,23 @@
 title: Business Central-Add-in für Excel abrufen
 description: Erfahren Sie, wie Sie Benutzern das Business Central-Add-in für Excel zur Verfügung stellen können.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 5788671162dc6480c8404338f6325dfae9233f44
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589678"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141425"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Holen Sie sich das Business Central-Add-in für Excel
 
-[!INCLUDE[prod_short](includes/prod_short.md)] enthält ein Add-in für Excel, mit dem Benutzer auf bestimmten Seiten eine Aktion **In Excel bearbeiten** auswählen können, um die Daten in einem Excel-Arbeitsblatt zu öffnen. Diese Aktion unterscheidet sich von der Aktion **Öffnen in Excel**, denn sie ermöglicht es den Benutzern, Änderungen in Excel vorzunehmen und diese dann die Änderungen wieder in [!INCLUDE[prod_short](includes/prod_short.md)]\ veröffentlichen
+[!INCLUDE[prod_short](includes/prod_short.md)] enthält ein Add-in für Excel, mit dem Benutzer auf bestimmten Seiten eine Aktion **In Excel bearbeiten** auswählen können, um die Daten in einem Excel-Arbeitsblatt zu öffnen. Diese Aktion unterscheidet sich von der Aktion **In Excel öffnen**, denn sie ermöglicht es den Benutzern, Änderungen in Excel vorzunehmen und diese dann wieder in [!INCLUDE[prod_short](includes/prod_short.md)] zu veröffentlichen.
 
 ## <a name="overview"></a>Matrix
 
@@ -32,15 +31,15 @@ Das Add-in heisst **Microsoft Dynamics Office Add-in** und kann über den [Offic
 
 ### <a name="about-deployment-as-an-admin"></a>Über das Bereitstellen als Admin
 
-Mit [!INCLUDE[prod_short](includes/prod_short.md)] Online gibt es einige Bereitstellungsoptionen, um das Add-In für die Benutzer bereitzustellen. Eine Option ist der *individuelle Erwerb*, bei dem Sie die Benutzer das Add-In selbst installieren lassen. Bei dieser Option müssen die Benutzer Zugriff auf das Herunterladen von Dateien aus dem Office Store haben. Eine andere Möglichkeit ist, die *Zentrale Bereitstellung* im Microsoft 365-Admincenter festzulegen, um das Add-In automatisch für Ihr gesamtes Unternehmen, für Gruppen oder für bestimmte Benutzer bereitzustellen. Die zentrale Bereitstellung bietet eine Möglichkeit, das Add-in den Benutzern zur Verfügung zu stellen, wenn Ihr Unternehmen den Benutzern keinen Zugriff auf den Office Store gewährt.
+Mit [!INCLUDE[prod_short](includes/prod_short.md)] Online gibt es einige Bereitstellungsoptionen, um das Add-In für die Benutzer bereitzustellen. Eine Option ist der *individuelle Erwerb*, bei dem Sie die Benutzer das Add-In selbst installieren lassen. Bei dieser Option müssen die Benutzer Zugriff auf das Herunterladen von Dateien aus dem Office Store haben. Eine andere Möglichkeit ist, die *Zentrale Bereitstellung* im Microsoft 365 Admin Center festzulegen, um das Add-In automatisch für Ihr gesamtes Unternehmen, für Gruppen oder für bestimmte Benutzer bereitzustellen. Die zentrale Bereitstellung bietet eine Möglichkeit, das Add-in den Benutzern zur Verfügung zu stellen, wenn Ihr Unternehmen den Benutzern keinen Zugriff auf den Office Store gewährt.
 
 Für den Endbenutzer stellt sich die Installation in den beiden Bereitstellungsszenarien unterschiedlich dar:
 
 - Bei der Einzelerfassung wählen die Benutzer zum ersten Mal die Aktion **In Excel bearbeiten** und das Fenster **Neues Office Add-in** wird in Excel geöffnet. Um das Add-in zu installieren, wählt der Benutzer **Diesem Add-in vertrauen**, was wiederum das Add-in direkt aus dem Office Store installiert. Der Benutzer meldet sich dann mit seinem Benutzernamen und Kennwort bei [!INCLUDE[prod_short](includes/prod_short.md)] an.
 
-- Bei der zentralen Bereitstellung wird das Add-in bei der ersten Auswahl der Aktion **In Excel bearbeiten** automatisch aus der zentralen Bereitstellung in Excel installiert, nicht aus dem Office Store. Die Benutzer müssen sich nur noch bei [!INCLUDE[prod_short](includes/prod_short.md)]\ anmelden.
+- Bei der zentralen Bereitstellung wird das Add-in bei der ersten Auswahl der Aktion **In Excel bearbeiten** automatisch aus der zentralen Bereitstellung in Excel installiert, nicht aus dem Office Store. Die Benutzer müssen sich nur noch bei [!INCLUDE[prod_short](includes/prod_short.md)] anmelden.
 
-Bei diesen beiden Bereitstellungsoptionen wird das Add-In automatisch so konfiguriert, dass es sich mit [!INCLUDE[prod_short](includes/prod_short.md)]\. verbindet. Eine dritte Bereitstellungsoption ist die manuelle Installation des Add-Ins direkt aus Excel. Bei dieser Option müssen die Benutzer das Add-In so konfigurieren, dass es eine Verbindung zu [!INCLUDE[prod_short](includes/prod_short.md)]\ herstellt.
+Bei diesen beiden Bereitstellungsoptionen wird das Add-In automatisch so konfiguriert, dass es sich mit [!INCLUDE[prod_short](includes/prod_short.md)] verbindet. Eine dritte Bereitstellungsoption ist die manuelle Installation des Add-Ins direkt aus Excel. Bei dieser Option müssen die Benutzer das Add-In so konfigurieren, dass es eine Verbindung zu [!INCLUDE[prod_short](includes/prod_short.md)] herstellt.
 
 ### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Wechsel von der individuellen Erfassung zur zentralen Bereitstellung oder andersherum
 
@@ -54,7 +53,7 @@ Dieser Zustand wird dadurch verursacht, dass jeder Excel-Datei eine „Add-In“
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment"></a>Bereitstellen des Add-Ins mit Hilfe der zentralen Bereitstellung
 
-Die zentrale Bereitstellung ist eine Funktion im Microsoft 365-Admincenter, mit der Sie Add-Ins automatisch in den Office Apps der Benutzer, wie z.B. Excel, installieren können. Um Ihnen bei der zentralen Bereitstellung zu helfen, enthält [!INCLUDE[prod_short](includes/prod_short.md)] die **Unterstützte Einrichtung des Excel Add-Ins Zentrale Bereitstellung**.
+Die zentrale Bereitstellung ist eine Funktion im Microsoft 365 Admin Center, mit der Sie Add-Ins automatisch in den Office-Apps der Benutzer, z. B. Excel, bereitstellen können. Um Ihnen bei der zentralen Bereitstellung zu helfen, enthält [!INCLUDE[prod_short](includes/prod_short.md)] die **Unterstützte Einrichtung des Excel Add-Ins Zentrale Bereitstellung**.
 
 ### <a name="before-you-begin"></a>Bevor Sie beginnen
 
@@ -63,15 +62,15 @@ Die zentrale Bereitstellung ist eine Funktion im Microsoft 365-Admincenter, mit 
 - Wenn Sie von der individuellen Erfassung zu einer zentralen Bereitstellung wechseln, lesen Sie bitte [Umstellung von der individuellen Erfassung zur zentralen Bereitstellung](#switch)
 
 > [!NOTE]
-> Die Aktivierung der zentralen Bereitstellung wirkt sich auf Funktionen aus, die das Excel-Add-In verwenden, wie z.B. die **Bearbeiten in Excel** Aktion. Sie hat keine Auswirkungen auf andere Excel-bezogene Funktionen und Berechtigungen, die Benutzern in [!INCLUDE[prod_short](includes/prod_short.md)]\ zugewiesen sind.
+> Die Aktivierung der zentralen Bereitstellung wirkt sich auf Funktionen aus, die das Excel-Add-In verwenden, wie z.B. die **Bearbeiten in Excel** Aktion. Sie hat keine Auswirkungen auf andere Excel-bezogene Funktionen und Berechtigungen, die Benutzern in [!INCLUDE[prod_short](includes/prod_short.md)] zugewiesen sind.
 
 ### <a name="set-up-centralized-deployment-of-the-add-in"></a>Zentrale Bereitstellung des Add-Ins festlegen
 
-Sie werden sowohl in [!INCLUDE[prod_short](includes/prod_short.md)] als auch im Microsoft 365-Admincenter arbeiten.
+Sie werden sowohl in [!INCLUDE[prod_short](includes/prod_short.md)] als auch im Microsoft 365 Admin Center arbeiten.
 
-1. Wählen Sie in [!INCLUDE[prod_short](includes/prod_short.md)]\, die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol, geben Sie **Excel Add-in Zentrale Bereitstellung** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol, geben Sie **Excel Add-in Zentrale Bereitstellung** ein und wählen Sie dann den entsprechenden Link.
 2. Lesen Sie die Informationen auf der Seite **Einrichtung des Business Central-Add-in für Excel** und wählen Sie **Weiter**.
-3. Melden Sie sich im [Microsoft 365-Admincenter](https://go.microsoft.com/fwlink/?linkid=2163967) an und gehen Sie zu **Integrierte Apps**<!--**Add-ins**-->.
+3. Melden Sie sich beim [Microsoft 365 Admin Center](https://go.microsoft.com/fwlink/?linkid=2163967) an, und wechseln Sie dann zu **Integrierte Apps**.<!--**Add-ins**-->.
 
     Führen Sie die folgenden Schritte aus, um das Add-in so zu konfigurieren, dass es aus dem Office Store bereitgestellt wird: 
     1. Wählen Sie **Apps holen**, um den Office Store zu öffnen (AppSource). <!--**Deploy Add-in** 5. In the **Deploy a new add-in**, select **Choose from the store**.-->
@@ -80,13 +79,13 @@ Sie werden sowohl in [!INCLUDE[prod_short](includes/prod_short.md)] als auch im 
     4. Überprüfen Sie die Seite **Anforderungen für Berechtigungen akzeptieren** und wählen Sie dann **Weiter** > **Einsatz fertig stellen**.
     5. Warten Sie, bis das grüne Häkchen neben **Bereitgestellt** für das Add-In erscheint, und wählen Sie dann **Erledigt**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       Das Add-In erscheint auf der Seite **Add-ins**. Weitere Informationen zum Bereitstellen von Add-Ins im Microsoft 365-Admincenter finden Sie unter [Add-Ins im Admin Center bereitstellen](/microsoft-365/admin/manage/manage-deployment-of-add-in).
-4. Gehen Sie zurück zur **Excel Add-In Zentrale Bereitstellung** unterstützten Einrichtung in [!INCLUDE[prod_short](includes/prod_short.md)]\, und wählen Sie **Weiter**.
+       Das Add-In erscheint auf der Seite **Add-ins**. Weitere Informationen über das Bereitstellen von Add-Ins im Microsoft 365 Admin Center finden Sie unter [Einsatz von Add-Ins im](/microsoft-365/admin/manage/manage-deployment-of-add-in) Admin Center.
+4. Gehen Sie zurück zur unterstützten Einrichtung **Excel Add-in „Zentrale Bereitstellung“** unterstützten Einrichtung in [!INCLUDE[prod_short](includes/prod_short.md)]. und wählen Sie **Weiter** aus.
 5. Aktivieren Sie **Zentrale Bereitstellung verwenden** und wählen Sie **Fertigstellen**.
 
     Wenn Sie diesen Schalter nicht einschalten, holt [!INCLUDE[prod_short](includes/prod_short.md)] das Add-in direkt aus dem Office Store.
 
-Wenn Sie fertig sind, können Sie die Bereitstellung im Microsoft 365-Admincenter jederzeit ändern, z. B. weitere Benutzer zuweisen. Weitere Informationen über das Bereitstellen von Add-Ins im Admin Center finden Sie unter [Einsatz von Add-Ins im Admin Center](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Wenn Sie fertig sind, können Sie die Bereitstellung im Microsoft 365 Admin Center jederzeit ändern, z. B. weitere Benutzer zuweisen. Weitere Informationen über das Bereitstellen von Add-Ins im Admin Center finden Sie unter [Einsatz von Add-Ins im Admin Center](/microsoft-365/admin/manage/manage-deployment-of-add-in).
 
 > [!IMPORTANT]
 > Wenn Sie über mehr als eine Umgebung verfügen, müssen Sie die unterstützte Einrichtung **Excel Add-in Zentrale Bereitstellung** in jeder Umgebung ausführen, in der Sie die zentrale Bereitstellung verwenden möchten. Sie müssen die zentrale Bereitstellung in Microsoft 365 jedoch nicht erneut konfigurieren. Sie müssen lediglich den Schalter **Zentrale Bereitstellung bereitstellen** in der unterstützten Einrichtung aktivieren. 
@@ -114,11 +113,11 @@ Wenn ein Benutzer die Verbindung nicht automatisch herstellen kann, können Sie 
 4. Wenn Sie dazu aufgefordert werden, melden Sie sich mit Ihrem Business Central Benutzernamen und Kennwort an.
 5. Wählen Sie optional die Umgebung und die Firma aus, mit der Sie sich verbinden möchten.
 
-Das Add-In ist nun mit [!INCLUDE [prod_short](includes/prod_short.md)]\, verbunden und Sie können Daten bearbeiten und die Änderungen in [!INCLUDE [prod_short](includes/prod_short.md)]\. veröffentlichen. 
+Das Add-In ist nun mit [!INCLUDE [prod_short](includes/prod_short.md)] verbunden und Sie können Daten bearbeiten und die Änderungen in [!INCLUDE [prod_short](includes/prod_short.md)] veröffentlichen.  
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Geräte und Netzwerk für das Excel Add-In vorbereiten
 
-Netzwerkdienste wie Proxies oder Firewalls müssen Arbeitspläne zwischen jedem Client-Gerät, auf dem das Add-In installiert ist, und vielen Service-Endpunkten zulassen. Eine Liste der Endpunkte finden Sie unter [Vorbereiten Ihres Netzwerks für das Excel-Add-In](/dev-itpro/administration/configuring-network-for-addins).
+Netzwerkdienste wie Proxies oder Firewalls müssen Arbeitspläne zwischen jedem Client-Gerät, auf dem das Add-In installiert ist, und vielen Service-Endpunkten zulassen. Eine Liste der Endpunkte finden Sie unter [Vorbereiten Ihres Netzwerks für das Excel-Add-In](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
 ## <a name="troubleshooting"></a>Problembehebung
 
@@ -127,9 +126,9 @@ Manchmal kommt es vor, dass Benutzer Probleme mit dem Excel-Add-In ausführen. I
 |Problem  |Lösung oder Workaround  |Bemerkungen  |
 |---------|---------|---------|
 |Das Add-In lässt sich nicht starten|Prüfen Sie, ob das Add-in zentral bereitgestellt wird. Oder überprüfen Sie, ob der Benutzer für die lokale Installation gesperrt ist. | Der Admin kann Office so konfigurieren, dass Benutzer keine Add-Ins erwerben können. In diesen Fällen muss der Admin das Add-In zentral bereitstellen. Weitere Informationen finden Sie unter [Add-ins im Admin Center bereitstellen](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
-|Die Daten werden nicht in Excel geladen|Testen Sie die Verbindung, indem Sie eine andere Liste in Excel von [!INCLUDE [prod_short](includes/prod_short.md)]\. öffnen. Oder öffnen Sie die Arbeitsmappe in Excel in einem Browser.|Wenn der Benutzer einen Firmennamen angegeben hat, der Sonderzeichen enthält, kann das Add-In keine Verbindung herstellen. |
-|Daten können nicht zurück nach [!INCLUDE [prod_short](includes/prod_short.md)]\. veröffentlicht werden.|Testen Sie die Verbindung, indem Sie die Arbeitsmappe in Excel in einem Browser öffnen. |Manchmal kann eine Erweiterung den Veröffentlichungsauftrag blockieren. Wenn die Seite erweitert oder angepasst ist, entfernen Sie die Erweiterungen und versuchen Sie es dann erneut.|
-|Die Daten sind falsch  |Excel zeigt Zeiten und Daten möglicherweise in einem anderen Format als [!INCLUDE [prod_short](includes/prod_short.md)]\. an. Diese Bedingung macht sie nicht falsch, und die Daten in [!INCLUDE [prod_short](includes/prod_short.md)] werden nicht durcheinander gebracht.|         |
+|Die Daten werden nicht in Excel geladen|Testen Sie die Verbindung, indem Sie eine andere Liste in Excel über [!INCLUDE [prod_short](includes/prod_short.md)] öffnen. Oder öffnen Sie die Arbeitsmappe in Excel in einem Browser.|Wenn der Benutzer einen Firmennamen angegeben hat, der Sonderzeichen enthält, kann das Add-In keine Verbindung herstellen. |
+|Daten können nicht in [!INCLUDE [prod_short](includes/prod_short.md)] zurück veröffentlicht werden.|Testen Sie die Verbindung, indem Sie die Arbeitsmappe in Excel in einem Browser öffnen. |Manchmal kann eine Erweiterung den Veröffentlichungsauftrag blockieren. Wenn die Seite erweitert oder angepasst ist, entfernen Sie die Erweiterungen und versuchen Sie es dann erneut.|
+|Die Daten sind falsch  |Excel zeigt Zeiten und Daten möglicherweise in einem anderen Format als [!INCLUDE [prod_short](includes/prod_short.md)] an. Diese Bedingung macht sie nicht falsch, und die Daten in [!INCLUDE [prod_short](includes/prod_short.md)] werden nicht durcheinander gebracht.|         |
 |Bei einigen Listenseiten führt das Bearbeiten mehrerer Zeilen in Excel immer wieder zu Fehlern. Diese Bedingung kann auftreten, wenn OData-Aufrufe FlowFields und Felder ausserhalb des Steuerelements des Repeaters enthalten.|Aktivieren Sie auf der Seite **Webdienste** die Kontrollkästchen **Nicht editierbare FlowFields ausschliessen** und **Felder ausserhalb des Repeaters ausschliessen** für die veröffentlichte Seite. Wenn Sie diese Kontrollkästchen aktivieren, werden nicht editierbare FlowFields und Felder von der eTag Berechnung ausgeschlossen. |Diese Kontrollkästchen sind standardmässig ausgeblendet. Um sie auf der Seite **Webdienste** anzuzeigen, verwenden Sie [Personalisierung](/dynamics365/business-central/ui-personalization-user). |
 
 
@@ -162,7 +161,7 @@ For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator ca
 When the add-in is installed, it shows up as a panel in Excel. Next, you must configure the connection.
 
 > [!TIP]
-> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)]\.When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
+> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)].When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
 
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->

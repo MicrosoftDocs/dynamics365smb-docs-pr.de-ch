@@ -2,7 +2,6 @@
 title: 'Vorgehensweise: Offerte eines Auftragsmontageverkaufs | Microsoft Docs'
 description: Sie können Montageverwaltung verwenden, um einen Montageartikel auf Anforderung eines Debitors während des Vertriebsprozesses anzupassen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 817699281ce0f3b7d057bb2e9ce4d85f97d67b48
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 86cc9dcb66377deabdae9cc3d44c0c090fccc9f9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772968"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133084"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Offerte eines Auftragsmontageverkaufs
 Sie können Montageverwaltung verwenden, um einen Montageartikel auf Anforderung eines Debitors während des Vertriebsprozesses anzupassen. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +25,7 @@ Wie beim Verkauf beliebiger Artikel können Sie auch eine Verkaufsofferte für e
 >  Wie alle Arten von Angeboten, werden die Mengen in Montageangeboten nicht für die Verfügbarkeit, in der Planung oder für Reservierungen verwendet.  
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>So erstellen Sie eine Verkaufsofferte für einen Auftragsmontageartikel:  
-1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkaufsofferte** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Verkaufsoffertee** ein und wählen Sie dann den zugehörigen Link.  
 2.  Erstellen Sie eine Verkaufsoffertenzeile mit einer Zeile für einen Montageartikel. Weitere Informationen finden Sie unter [Verkaufsofferten machen](sales-how-make-offers.md).  
 3.  Geben Sie im Feld **Menge für Auftragsmontage** die vollständige Menge ein.
 

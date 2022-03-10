@@ -2,20 +2,19 @@
 title: Kostenrechnung | Microsoft Docs
 description: Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Um mit der Kostenrechnung anzufangen, sehen Sie sich die folgenden Themen an.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69f39226c5fcca8adf9843bad42a2f060e7386d8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c22248b9f81837cfaf52717314d7981a64ede8c8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781074"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148650"
 ---
 # <a name="accounting-for-costs"></a>Kostenrechnung
 Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Um mit der Kostenrechnung anzufangen, sehen Sie sich die folgenden Themen an.  
@@ -35,4 +34,7 @@ Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs
 ## <a name="see-also"></a>Siehe auch  
 [Finanzen](finance.md)  
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

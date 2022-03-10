@@ -2,24 +2,23 @@
 title: Arbeiten mit Business Central-Daten in Power BI | Microsoft Docs
 description: Abrufen von Erkenntnissen, Business Intelligence und KPIs aus Ihren Business Central-Daten mithilfe von Power BI.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6c53fa5aeb615db809887ae96d51101789c312e3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d8cd59f77230fe7d7593510f0abfc24bf9c29a2a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384163"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142589"
 ---
 # <a name="working-with-prod_short-data-in-power-bi"></a>Arbeiten mit [!INCLUDE [prod_short](includes/prod_short.md)]-Daten in Power BI
 
-In diesem Artikel erlernen Sie einige der Grundlagen zum Arbeiten mit Berichten und Dashboards in Power BI, die [!INCLUDE [prod_short](includes/prod_short.md)] als Datenquelle verwenden. Der Artikel beschreibt einige Aspekte, die Ihnen den Einstieg als [!INCLUDE[prod_short](includes/prod_short.md)]-Benutzer erleichtern. Allgemeine Richtlinien und Anweisungen zur Verwendung von Power BI finden Sie unter [Power BI-Dokumentation für Verbraucher](https://review.docs.microsoft.com/en-us/power-bi/consumer).
+In diesem Artikel erlernen Sie einige der Grundlagen zum Arbeiten mit Berichten und Dashboards in Power BI, die [!INCLUDE [prod_short](includes/prod_short.md)] als Datenquelle verwenden. Der Artikel beschreibt einige Aspekte, die Ihnen den Einstieg als [!INCLUDE[prod_short](includes/prod_short.md)]-Benutzer erleichtern. Allgemeine Richtlinien und Anweisungen zur Verwendung von Power BI finden Sie unter [Power BI-Dokumentation für Verbraucher](/power-bi/consumer).
 
 ## <a name="get-ready"></a>Vorbereitung
 
@@ -89,14 +88,14 @@ Um einen Bericht zu teilen, wählen Sie in einer Liste mit Berichten oder in ein
 [Schnellstart: Stellen Sie eine Verbindung zu Daten her in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI Dokumentation](/power-bi/)  
 [Business Intelligence](bi.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
 [Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] als Power Apps-Datenquelle](across-how-use-financials-data-source-powerapps.md)  
 [Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

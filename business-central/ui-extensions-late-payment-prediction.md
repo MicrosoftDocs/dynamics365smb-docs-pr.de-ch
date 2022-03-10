@@ -1,23 +1,23 @@
 ---
-title: Verspätete Zahlung für Verkaufsbelege vorhersagen | Microsoft Docs
-description: Verwenden Sie unser Vorhersagemodell, um vorauszusagen, ob eine Rechnung rechtzeitig bezahlt wird.
+title: Verspätete Zahlungen für Verkaufsbelege vorhersagen
+description: In diesem Thema wird erklärt, wie Sie mit unserem Vorhersagemodell vorhersagen können, ob eine Rechnung rechtzeitig bezahlt wird.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2021
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c1c9f6a0aec94161b2043b5bf5cb5737bce3f8d2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787366"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136783"
 ---
-# <a name="the-late-payment-prediction-extension"></a>Die Erweiterung "Vorhersage verspäteter Zahlungen"  
+# <a name="the-late-payment-prediction-extension"></a>Die Erweiterung "Vorhersage verspäteter Zahlungen"
+
 Die effektive Verwaltung von Forderungen ist für den Gesamtfinanzstatus eines Unternehmens wichtig. Die Erweiterung "Vorhersage verspäteter Zahlungen" kann nützlich sein, um ausstehende Forderungen zu reduzieren und die Sammlungsstrategie abzustimmen, die voraussagt, ob Verkaufsrechnungen pünktlich bezahlt werden. Wenn beispielsweise vorausgesagt wird, dass eine Zahlung zu spät erfolgen wird, können Sie sich entschieden, die Zahlungsfristen oder die Zahlungsform für den Debitor anzupassen.
 
 ## <a name="getting-started"></a>Erste Schritte
@@ -26,7 +26,7 @@ Wenn Sie einen gebuchten Verkaufsbeleg öffnen, wird oben auf der Seite eine Mel
 
 Führen Sie folgende Schritte aus, um die Erweiterung manuell zu aktivieren:
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Vorhersage der Zahlungsverspätung einrichten** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Einrichtung der Vorhersage verspäteter Zahlungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus.
 
 > [!Note]
@@ -91,7 +91,7 @@ Wenn es den Anschein hat, dass Ihre Prozesse nicht mit dem Standardmodell übere
 [!INCLUDE[prod_short](includes/prod_short.md)] führt die Schulung und Auswertung automatisch durch, wenn genügend bezahlte und verspätete Rechnungen vorliegen, Sie können sie aber auch manuell durchführen, wann immer Sie wollen.
 
 #### <a name="to-train-and-use-your-model"></a>So trainieren und verwenden Sie Ihr Modell
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Vorhersage der Zahlungsverspätung einrichten** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Einrichtung der Vorhersage verspäteter Zahlungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie im Feld **Ausgewähltes Modell** die Option **Mein Modell** aus.
 3. Wählen Sie die Aktion **Mein Modell erstellen**, um das Modell anhand Ihrer Daten zu trainieren.  
 
@@ -103,14 +103,17 @@ Sie können auch Ihren eigenen Vorhersage-Webdienst auf der Grundlage eines öff
 3. Verwenden Sie das Microsoft-Konto, um sich für einen Arbeitsbereich anzumelden und kopieren Sie dann das Muster.  
 4. Führen Sie die Vorlage aus und veröffentlichen Sie dieses als Webdienst.  
 5. Notieren Sie den API URL und den API Schlüssel. Sie verwenden diese Anmeldeinformationen für die Cashfloweinrichtung.  
-6. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Vorhersage der Zahlungsverspätung einrichten** ein und wählen Sie dann den entsprechenden Link.  
+6. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Einrichtung der Vorhersage verspäteter Zahlungen** ein, und wählen Sie dann den zugehörigen Link.  
 7. Wählen Sie das Kontrollkästchen **Mein Azure-Abonnement verwenden**.
 8. Im Inforegister **Anmeldeinformationen für mein Modell** geben Sie die API-URL und den API-Schlüssel für Ihr Modell ein.  .  
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe Verwandte Schulungen unter [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+
+## <a name="see-also"></a>Weitere Informationen
+
 [Azure Machine Learning Studio-Dokumentation](/azure/machine-learning/classic/)  
 [Anpassen von Business Central mithilfe der Erweiterungen](ui-extensions.md)  
 [Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-
+[Nutzen Sie künstliche Intelligenz in Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

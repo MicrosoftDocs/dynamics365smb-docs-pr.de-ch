@@ -1,26 +1,23 @@
 ---
 title: Einkaufsbelege und Verkaufsbelege (Schweiz)
-description: Schweizer Erweiterungen enthalten Sonderkauf- und Verkaufsbelegfunktionen.
-services: project-madeira
-documentationcenter: ''
+description: In diesem Artikel werden die an der Schweizer Version von Business Central vorgenommenen Verbesserungen erläutert, einschliesslich Schweizer Sonderkauf- und Verkaufsbelegfunktionen.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 380e3b0c417887cb41a28bd93af3947fbe4ebe0d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: 2a0094a9c20d306831bed9e9aefd2d21a0382499
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300967"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139989"
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Einkaufsbelege und Verkaufsbelege (Schweiz)
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]Enthält Schweizer Erweiterungen für Kauf- und Verkaufsbelege. Dies beinhaltet Folgendes:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)]Enthält Schweizer Erweiterungen für Kauf- und Verkaufsbelege. Dies beinhaltet Folgendes:  
 
 - Verbesserte Buchungsbeschreibung für Finanzbuchhaltungseinträge, Debitorenposten und Kreditorenposten. Weitere Informationen finden Sie in der Tabelle Fibuposten, der Debitor-Tabelle und der Tabelle Kreditorenposten.  
 - Die Möglichkeit, Untertitel, Zwischensummen sowie Von- und Bis-Summen in Verkaufsofferten und Verkaufsaufträgen anzuzeigen.  
@@ -37,6 +34,9 @@ Die Artikel werden basierend auf den vom System generierten Werten im Feld **Ebe
 
 Sie können einen Artikel in der Verkaufsoffertenzeile als Variante angeben. So können Sie die alternativen Artikel auflisten, ohne den Preis in die Offerte einzuschliessen. Sie können auch basierend auf dem Wert im Feld **Position** der Verkaufsofferten- oder Verkaufsauftragszeile auf bestimmte Teile einer Verkaufsofferte oder eines Verkaufsauftrags verweisen. Weitere Informationen finden Sie in der Tabelle Verkaufszeilen.  
 
+> [!NOTE]
+> Diese Funktion ist nur in der lokalen Version von [!INCLUDE[prod_short](../../includes/prod_short.md)] verfügbar.
+
 ## <a name="purchase-invoices-and-sales-invoices-with-payment-discounts"></a>Einkaufsrechnungen und Verkaufsrechnungen mit Rabatten  
 Für Einkaufs- und Verkaufsrechnungen wird der Rechnungsbetrag um den Rabattbetrag reduziert und dann gerundet. Die Rechnungssumme wird ebenfalls gerundet, wenn ein Rabatt gewährt wird. Weitere Informationen finden Sie unter Fibuposten Einrichtungtabelle.  
 
@@ -47,3 +47,6 @@ Auf der Seite **Debitoren & Verkauf Einr.** wird das Feld **Liefersch. bei Lief.
  [Importieren von Postleitzahlen (Schweiz)](how-to-import-swiss-post-codes.md)   
  [Drucken einer Lagerkommissionierliste von einem Auftrag](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

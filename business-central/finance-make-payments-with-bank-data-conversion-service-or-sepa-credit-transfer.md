@@ -1,28 +1,28 @@
 ---
 title: Zahlungen mit AMC Banking (USA) oder per SEPA-Überweisung (EU) vornehmen
-description: Verwalten Sie Zahlungen an Ihre Kreditoren, indem Sie eine Datei zusammen mit den Zahlungsinformationen von den Erfassungsjournalzeilen exportieren.
+description: Verarbeiten Sie Zahlungen an Ihre Kreditoren, indem Sie eine Datei (EFT) zusammen mit den Zahlungsinformationen aus den Erfassungsjournalzeilen exportieren.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/13/2021
+ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
+ms.date: 07/06/2021
 ms.author: bholtorf
-ms.openlocfilehash: d48172569ba8e93410dfb20a22eed785574f3989
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: 62599711c6a714223457e7fa1545259a3082b0ea
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889245"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147688"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Zahlungen mit der AMC Banking 365 Fundamentals-Erweiterung oder per SEPA-Überweisung vornehmen
 
 Auf der Seite **Zahlungsjournal** können Sie Zahlungen an Ihre Kreditoren verarbeiten, indem Sie eine Datei zusammen mit den Zahlungsinformationen von den Erfassungsjournalzeilen exportieren. Sie können die Datei dann zu Ihrer elektronischen Bank hochladen, um die entsprechenden Geldüberweisungen zu verarbeiten. [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt das Abbuchungsformat SEPA, aber in Ihrem Land/die Region, sind möglicherweise andere Formate für den elektronischen Zahlungsverkehr verfügbar.
 
 > [!NOTE]
-> In der generischen Version von [!INCLUDE[prod_short](includes/prod_short.md)]  wird ein globaler Diensteanbieter eingerichtet und verbunden, der Bankdaten in das Dateiformat konvertiert, das Ihre Bank verlangt. In den nordamerikanischen Versionen kann derselbe Service verwendet werden, um Zahlungsdateien als elektronischer Geldtransfer (EFT) zu buchen, mit einem leicht anderen Prozess. Siehe Schritt 6 unter [Zahlungen in eine Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).  
+> In der generischen Version von [!INCLUDE[prod_short](includes/prod_short.md)]  wird ein globaler Diensteanbieter eingerichtet und verbunden, der Bankdaten in das Dateiformat konvertiert, das Ihre Bank verlangt. In den nordamerikanischen Versionen kann derselbe Dienst verwendet werden, um Zahlungsdateien als Electronic Funds Transfer (EFT) zu senden, z.B. über das allgemein verwendete Automated Clearing House (ACH) Netzwerk, allerdings mit einem etwas anderen Verfahren. Siehe Schritt 6 unter [Zahlungen in eine Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).  
 
  Um SEPA-Banküberweisungen zu aktivieren, müssen Sie zunächst ein Bankkonto, einen Kreditor und das Fibu Erf.-Journal anlegen, auf dem das Zahlungsausgangs Erf.-Journal basiert. Sie bereiten dann Zahlungen an Kreditoren vor, indem Sie die Seite **Zahlungserf.-Journal** automatisch mit fälligen Zahlungen mit angegebenen Buchungsdaten ausfüllen.  
 
@@ -58,7 +58,7 @@ Bevor Sie Zahlungen elektronisch durch den Export von Zahlungszeilen im SEPA-Ban
 5. Vergewissern Sie sich, dass das Feld **IBAN** ausgefüllt ist.  
 
     > [!NOTE]  
-    > Das Feld **Währungscode** muss auf **EUR** festgelegt werden, da SEPA-Banküberweisungen nur in der EURO-Währung gebucht werden können.  
+    > Das Feld **Währungscode** muss auf **EUR** festgelegt werden, da SEPA-Banküberweisungen nur in der Schweizer Franken-Währung gebucht werden können.  
 
 ### <a name="to-set-up-a-vendor-card-for-sepa-credit-transfer"></a>Eine Kreditorenkarte für SEPA-Banküberweisung einrichten
 
@@ -67,7 +67,7 @@ Bevor Sie Zahlungen elektronisch durch den Export von Zahlungszeilen im SEPA-Ban
 3. Wählen Sie im Inforegister **Zahlung** im Feld **Zahlungsformencode** die Funktion **BANK** aus.  
 4. Wählen Sie im **Bevorzugtes Bankkonto**-Feld die Bank aus, an die das Geld übertragen wird, wenn es durch Ihre elektronische Bank verarbeitet wird.  
 
-     Wenn Sie noch keine Bank für diesen Anbieter eingerichtet haben, können Sie dies jetzt tun. Weitere Informationen finden Sie unter [Einrichten von Kreditorbankkonten für den Export von Bankdateien](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). Der Wert im Feld **Bevorzugtes Bankkonto** wird aus dem Feld **Bankkonto Empfänger** auf der Seite **Zahlungsausgangs Erf.-Journal** kopiert.  
+    Wenn Sie noch keine Bank für diesen Anbieter eingerichtet haben, können Sie dies jetzt tun. Weitere Informationen finden Sie unter [Einrichten von Kreditorbankkonten für den Export von Bankdateien](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). Der Wert im Feld **Bevorzugtes Bankkonto** wird aus dem Feld **Bankkonto Empfänger** auf der Seite **Zahlungsausgangs Erf.-Journal** kopiert.  
 
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Das Zahlungsausgangs Erf.-Journal für den Export von Zahlungsdateien festlegen
 
@@ -101,7 +101,7 @@ Sie verwenden die Seite **Kreditübertragungsjournale**, um die Zahlungsdateien 
 
 Nachfolgend wird erläutert, wie Sie einen Kreditor mit Schecks bezahlen. Die Schritte sind ähnlich, wie wenn sie Ihren Debitoren Scheck zurückerstatten.
 
-1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsjournale** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Zahlungsausgangs Erfassungsjournale** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Zahlungsausgangs-Erfassungsjournalzeilen aus. Weitere Informationen finden Sie unter [Zahlungen und Rückerstattungen aufzeichnen](payables-how-post-payments-refunds.md)
 
     > [!NOTE]
@@ -115,7 +115,7 @@ Nachfolgend wird erläutert, wie Sie einen Kreditor mit Schecks bezahlen. Die Sc
     Vorhandene Fehlermeldungen werden in der **Fehler Zahlungsdatei**-Infobox angezeigt, in der Sie eine Fehlermeldung festlegen können, um ausführliche Informationen anzuzeigen. Sie müssen alle Fehler lösen, bevor die Zahlungsdatei exportiert werden kann.
 
     > [!TIP]  
-    > Wenn Sie die AMC Banking 365 Fundamentals-Erweiterung verwenden, wird in einer häufigen Fehlermeldung angezeigt, dass der Bankkontoauszug nicht die Länge hat, die Ihre Bank benötigt. Um den Fehler zu vermeiden oder zu beheben, müssen Sie den Wert im **IBAN**-Feld auf der Seite **Bank** entfernen, und dann im **Kontokarten**-Feld eine Bankkontonummer in dem Format eingeben, das Ihre Bank erfordert.
+    > Wenn Sie die AMC Banking 365 Fundamentals-Erweiterung verwenden, wird in einer häufigen Fehlermeldung angezeigt, dass der Bankkontoauszug nicht die Länge hat, die Ihre Bank benötigt. Um den Fehler zu vermeiden oder zu beheben, müssen Sie den Wert im **IBAN**-Feld auf der Seite **Bank** entfernen, und dann im **Kontokarten**-Feld eine Kontonummer in dem Format eingeben, das Ihre Bank erfordert.
 
 5. Geben Sie auf der Seite **Speichern unter** den Speicherort an, zu dem die Datei exportiert werden soll, und wählen Sie dann **Speichern**.
 
@@ -147,7 +147,7 @@ Sie können Zahlungsdateien aus der **Kreditübertragungsjournale**-Seite export
 > [!NOTE]  
 > Beachten Sie, dass die exportierten EFT-Dateien nicht auf der Seite **Kreditübertragungsjournale** angezeigt werden und nicht wieder exportiert werden können.
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature öffnet](media/ui-search/search_small.png "Tell Me-Funktion") Symbol, geben Sie **Überweisungsjournale** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Überweisungsjournale** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie einen Zahlungsexport, den Sie erneut exportieren möchten, und wählen die Aktion **Erneuter Zahlungsexport in Datei** aus.
 
 ## <a name="posting-the-payments"></a>Die Zahlungen buchen

@@ -1,28 +1,27 @@
 ---
-title: Planungsservice-Vorgänge | Microsoft Docs
-description: Gliedert die Aufgaben, um Regeln und Werte einzurichten, um Ihre Servicerichtlinien und Arbeitsgänge zu definieren.
+title: Planung von Service-Prozessen
+description: Dieses Thema umreisst verschiedene Aufgaben zum Festlegen von Regeln und Werten, um Ihre Service-Richtlinien und -Prozesse zu definieren.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 04/01/2019
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6a92b411eebe7e469d19b12dc1afbce9cf2f5dd3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 98cd4b41a8e47f045c89ebc31813a07e9f3a46bf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250632"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134809"
 ---
 # <a name="planning-services"></a>Planungsservices
-Mit [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie die Standardaufgaben für die Erfüllung der Kundenserviceanforderungen einrichten. Dazu muss bestimmt werden, welche Serviceangebote von der Serviceorganisation unterstützt werden und zu welchem Preis.   
+Mit [!INCLUDE[prod_short](includes/prod_short.md)] können Sie die Standardaufgaben für die Erfüllung der Kundenserviceanforderungen einrichten. Dazu muss bestimmt werden, welche ServiceOfferten von der Serviceorganisation unterstützt werden und zu welchem Preis.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] stellt auch mehrere Statistiktools her, die Sie verwenden können, um zu bestimmen, wie diese Elemente laufen, und um zu bestimmen, welche Bereiche Sie verbessern können.
+[!INCLUDE[prod_short](includes/prod_short.md)] stellt auch mehrere Statistiktools her, die Sie verwenden können, um zu bestimmen, wie diese Elemente laufen, und um zu bestimmen, welche Bereiche Sie verbessern können.
   
 In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
   
@@ -41,3 +40,6 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Richten Sie Serviceartikel und Serviceartikelkomponenten ein.](service-how-setup-service-items.md)  
 [Einrichten von Status für Serviceaufträge und Reparaturen](service-order-repair-status.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

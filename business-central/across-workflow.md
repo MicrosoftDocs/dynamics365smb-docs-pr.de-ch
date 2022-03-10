@@ -1,21 +1,20 @@
 ---
-title: Workflow | Microsoft Docs
-description: Sie können Workflows einrichten und verwenden, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.
+title: Workflows in Dynamics 365 Business Central
+description: Verwenden Sie Workflows, um Geschäftsprozessaufgaben zu verbinden, die von verschiedenen Benutzern ausgeführt werden. Systemaufgaben, wie z. B. automatische Buchungen, können als Workflow-Schritte eingebunden werden.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 1685ca2ab698cad1b1c7a84f65b5633d1234624b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 02f03c3b3423de2b78aea7f4e61c65c968290341
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927261"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130897"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflows in Dynamics 365 Business Central
 
@@ -23,11 +22,11 @@ Sie können Workflows einrichten und verwenden, die Geschäftsprozessaufgaben vo
 
  Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer durch Antwortoptionen moderierten Workflowantwort. Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden.  
 
- Die generische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst mehrere vorkonfigurierte Workflows, für die Workflowvorlagen vorliegen. Diese können Sie kopieren, um Workflows zu erstellen. Dem Code für von Microsoft hinzugefügte Workflowvorlagen ist „MS-“ vorangestellt. Weitere Informationen finden Sie in der Liste mit Workflowvorlagen auf der Seite Workflow-Vorlagen  
+ Die generische Version von [!INCLUDE[prod_short](includes/prod_short.md)] umfasst mehrere vorkonfigurierte Workflows, für die Workflowvorlagen vorliegen. Diese können Sie kopieren, um Workflows zu erstellen. Dem Code für von Microsoft hinzugefügte Workflowvorlagen ist „MS-“ vorangestellt. Weitere Informationen finden Sie in der Liste mit Workflowvorlagen auf der Seite Workflow-Vorlagen  
 
- Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unterstützt wird, können Sie Power Automate verwenden oder mit einem Microsoft-Partner zusammenarbeiten, um den Anwendungscode anzupassen. Weitere Informationen finden Sie unter [Verwenden von [!INCLUDE[prodshort](includes/prodshort.md)] in einem automatisierten Workflow](across-how-use-financials-data-source-flow.md).
+ Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unterstützt wird, können Sie Power Automate verwenden oder mit einem Microsoft-Partner zusammenarbeiten, um den Anwendungscode anzupassen. Weitere Informationen finden Sie unter [Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] in einem automatisierten Workflow](across-how-use-financials-data-source-flow.md).
 
-Jede mit Power Automate erstellte Workflowvorlage wird der Liste der Workflowvorlagen in [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzugefügt. Weitere Informationen finden Sie unter [Business Central in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md).  
+Jede mit Power Automate erstellte Workflowvorlage wird der Liste der Workflowvorlagen in [!INCLUDE[prod_short](includes/prod_short.md)] hinzugefügt. Weitere Informationen finden Sie unter [Business Central in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md).  
 
  In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
 
@@ -41,4 +40,7 @@ Jede mit Power Automate erstellte Workflowvorlage wird der Liste der Workflowvor
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Projekte verwalten](projects-manage-projects.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,20 @@
 ---
-title: Verwalten der Lagerregulierung | Microsoft Docs
-description: Die Kostenverwaltung, die auch als "Lagerabgang" bezeichnet wird, dient zum Erfassen und Melden der Betriebskosten eines Unternehmens. Sie umfasst das Melden von Fertigungskosten und Lagerkosten (also den Wert von Artikeln).
+title: Verwalten der Lagerregulierung
+description: Die Kostenverwaltung befasst sich mit der Erfassung und dem Bericht der Betriebskosten des Unternehmens und umfasst die Erfassung der Herstellkosten und der Kosten für den Bestand.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 888eb525aafcd0f7fdd41e846b7aa5b0d60fb39d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 79498fe0e29a633f7d17a7940148728f544cb2d0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879575"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138532"
 ---
 # <a name="managing-inventory-costs"></a>Verwalten der Lagerregulierung
 Die Kostenverwaltung, die auch als "Lagerabgang" bezeichnet wird, dient zum Erfassen und Melden der Betriebskosten eines Unternehmens. Sie umfasst das Melden von Fertigungskosten und Lagerkosten (also den Wert von Artikeln).   
@@ -26,7 +25,8 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 
 |**Bis**|**Siehe**|  
 |------------|-------------|  
-|Lesen verschiedener Konzeptinformationen, um ein Verständnis für die Prinzipien und Definitionen zu entwickeln, auf denen die Lagerkostenbuchungsfunktionalität in [!INCLUDE[d365fin](includes/d365fin_md.md)] beruht|[Info über Lagerkostenberechnung](finance-learn-about-costing.md)|  
+|Lesen verschiedener Konzeptinformationen, um ein Verständnis für die Prinzipien und Definitionen zu entwickeln, auf denen die Lagerkostenbuchungsfunktionalität in [!INCLUDE[prod_short](includes/prod_short.md)] beruht|[Info über Lagerkostenberechnung](finance-learn-about-costing.md)|  
+|Stellen Sie sicher, dass Sie die Kosten der versandten Artikel kennen, indem Sie Artikelkosten wie Fracht, Verladen, Versicherung und Transport kennen, die Ihnen entstehen.|[Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md)|
 |Erfahren Sie mehr über die Mechanismen im Kostenrechnungssystem.|[Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)|
 |Erhalten von Informationen dazu, wie Lagerbuchungsperioden in einem Unternehmen zur kontinuierlichen Steuerung des Lagerwerts beitragen können, indem kürzere Perioden definiert werden, die im Laufe des Geschäftsjahrs abgeschlossen werden können|[Arbeiten mit Lagerbuchungsperioden](finance-how-to-work-with-inventory-periods.md)|
 |Erhalten von Informationen dazu, warum feste Einstandspreise häufig von Fertigungsbetrieben als Bewertungsgrundlage für Komponenten und Endartikel verwendet werden|[Informationen zur Berechnung von festen Einstandspreisen](finance-about-calculating-standard-cost.md)|
@@ -37,10 +37,14 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Regelmässige Aktualisierung der festen Einstandspreise von Komponenten in Montage- oder Produktionsstücklisten und Übertragung der neuen Einstandspreise auf den übergeordneten Artikel.|[Standardkosten aktualisieren](finance-how-to-update-standard-costs.md)|
 |Sie können bestimmte Artikelausgleichsposten, die bei Lagertransaktionen automatisch erstellt werden, anzeigen und manuell ändern.|[Entfernen und erneutes Ausgleichen von Lagerposten](finance-how-to-remove-and-reapply-item-entries.md)|
 |Ausführen von Kontroll- und Berichterstellungsaufgaben am Periodenende – beispielsweise Berechnen des Werts von Lagerbestand und Buchen von Kosten in die Finanzbuchhaltung|[Melden von Kosten und Abstimmen mit der Fibu](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|Erfahren Sie, wie Sie die Aufgabenwarteschlange verwenden können, um die Aufgaben zum Anpassen der Lagerkosten oder zum Abstimmen der Kosten mit dem Hauptbuch in den Hintergrund zu verlagern.|[Anpassen von Lagerkosten und Abstimmen der Kosten mit dem Hauptbuch mithilfe der Aufgabenwarteschlange](finance-manage-inventory-costs.md)|
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Weitere Informationen  
  [Finanzen](finance.md)  
  [Lagerbest.](inventory-manage-inventory.md)   
  [Verkauf](sales-manage-sales.md)   
  [Einkauf](purchasing-manage-purchasing.md)  
- [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,23 +2,22 @@
 title: Elektronische Zahlungen (Schweiz)
 description: Schweizer Erweiterungen ermöglichen Ihnen, elektronisch Rechnungen an Debitoren zu senden. Sie können Rechnungen direkt mithilfe der Onlinebankingsoftware des Debitors ausstellen und bezahlen.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 59eb5996d4b3bb2e89faaf09482beb32dbdf7887
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 570804934f0cd4fae17a797f383048d95b0b5ae5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189072"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134436"
 ---
 # <a name="swiss-electronic-payments"></a>Elektronische Zahlungen (Schweiz)
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]ermöglicht Ihnen, elektronisch Rechnungen an Debitoren zu senden. Sie können Rechnungen direkt mithilfe der Onlinebankingsoftware des Debitors ausstellen und bezahlen.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)]ermöglicht Ihnen, elektronisch Rechnungen an Debitoren zu senden. Sie können Rechnungen direkt mithilfe der Onlinebankingsoftware des Debitors ausstellen und bezahlen.  
 
 ## <a name="electronic-payment-methods"></a>Elektronische Zahlungsformen  
 Elektronische Zahlungen können mithilfe der folgenden Zahlungsformen durchgeführt werden:  
@@ -43,3 +42,6 @@ Um Zahlungsvorschläge entsprechend dem SEPA-Standard zu exportieren, müssen Si
  [Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md)  
  [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)  
  [Zahlungen vornehmen](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

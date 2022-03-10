@@ -1,21 +1,21 @@
 ---
-title: Erfassen von Aufwendungen oder Umsatz direkt in der Finanzbuchhaltung| Microsoft Docs
-description: Für Geschäftsaktivitäten, die nicht in einem Beleg festgehalten sind, wie kleinere Aufwendungen oder Zahlungseingänge, können Sie die entsprechenden Transaktionen erstellen, indem Sie die Erf.-Journalzeilen im Fibu Erf.-Journal buchen.
+title: Datensätze für Ausgaben oder Einnahmen direkt im Hauptbuch erfassen
+description: Für Aktivitäten, die nicht durch einen Beleg repräsentiert werden, können Sie die zugehörigen Transaktionen erstellen, indem Sie Erfassungsjournalzeilen im Fibu Erf.-Journal buchen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 04/01/2021
+ms.search.form: 39, 251
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e0beff15352fb8e57f57c9d0ffdcd76bc28afbb9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 26fb9695778d3a8a63c740a6e4303bfd001ab707
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782394"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132954"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Buchen von Transaktionen direkt im Fibuposten
 
@@ -29,7 +29,7 @@ Anders als für Posten, die mit Belegen gebucht werden, die einen Gutschriftsvor
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Transaktionen direkt in den Fibuposten buchen
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Fibu Erfassungsjournale** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Allgemeine Erfassungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnet das entsprechende Fibu Erf.-Journal Weitere Informationen finden Sie unter [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)
 3. Füllen Sie die Felder in einer neuen Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 

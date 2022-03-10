@@ -1,26 +1,43 @@
 ---
-title: Sald&o
-description: Gibt einen temporären Saldo des Sachpostens an.
-services: project-madeira
-documentationcenter: ''
+title: Saldo [CH]
+description: In diesem Thema wird die Nutzung der Seite „Sachkonto Vorläufige Bilanz“ erläutert, um gebuchte Fibuposten anzuzeigen.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: f5b828b655740f73ba77c583e1b57d91221b8c66
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.search.form: 11500
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: 488b07e8358b6561883b761c4ec1409652e54d77
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240995"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135513"
 ---
-# <a name="balance"></a>Sald&o
-Gibt einen temporären Saldo des Sachpostens an. Wenn Sie die **Saldo** Aktion auf der Seite **Fibukonten** auswählen, wird die Seite **Fibukonto Vorläufige Bilanz** geöffnet. Es enthält den Saldo der definitiv gebuchten Fibuposten sowie den Saldo der Posten, die im aktuellen Fibu-Erfassungsjournal gebucht wurden.  
+# <a name="general-ledger-balance-in-the-swiss-version"></a>Fibupostensaldo in der Schweizer Version
 
-## <a name="see-also"></a>Siehe auch  
- [Anzeigen temporärer Salden in Finanzbuchhaltungs-Erfassungsjournalen](how-to-view-temporary-balances-in-general-ledger-journals.md)
+Wenn Sie die **Saldo** Aktion auf der Seite **Fibukonten** auswählen, wird die Seite **Fibukonto Vorläufige Bilanz** geöffnet. Es enthält den Saldo der definitiv gebuchten Fibuposten sowie den Saldo der Posten, die im aktuellen Fibu-Erfassungsjournal gebucht wurden.  
+
+Der Saldo des Erfassungsjournals berücksichtigt alle Zeilen vom Anfang des Erfassungsjournals bis einschl. zur aktuellen Zeile.
+
+Beispielsweise können Sie damit nach dem Erfassen der Debitorenzahlungen überprüfen, ob der Banksaldo stimmt.
+
+Sie haben die Wahl zwischen zwei Optionen:
+
+* **Alle Journale**
+
+    Der nicht gebuchte Saldo wird für alle Fibujournale berechnet. Dieser berücksichtigt auch Werte aus Erfassungsjournalen mit anderen Namen, die zum aktuellen Zeitpunkt nicht angezeigt werden.
+
+* **Aktuelles Journal**
+
+    Der ungebuchte Saldo wird nur für das zum aktuellen Zeitpunkt geöffnete Fibu-Erfassungsjournal berechnet.
+
+## <a name="see-also"></a>Weitere Informationen
+
+[Anzeigen temporärer Salden in Finanzbuchhaltungs-Erfassungsjournalen](how-to-view-temporary-balances-in-general-ledger-journals.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,33 +1,33 @@
 ---
-title: Abrufen von Business Central auf meinem mobilen Gerät
+title: Business Central auf Ihrem mobilen Gerät nutzen (enthält Video)
 description: Dieses Thema beschreibt die verschiedenen Möglichkeiten, wie Sie Ihre Business Central-Daten auf Ihrem Telefon oder Tablet anzeigen und bearbeiten, an Excel senden und vieles mehr.
-author: edupont04
-ms.service: dynamics365-business-central
+author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: phone, tablet
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 7f2d86ab1ba8f3ee0ae77aad16b64feb0fa1fe4f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.search.keywords: desktop, Windows, app
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 9c550c5e62b025d59c451aed83a6dbf6f0e1e11b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324014"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138480"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Abrufen von Business Central auf meinem mobilen Gerät
 
-Greifen Sie von Ihrem mobilen Gerät auf [!INCLUDE[prod_short](includes/prod_short.md)] zu. Sie können durch Ihre Geschäftsdaten navigieren, Funktionen verwenden, wie z. B. an Excel oder Microsoft 365 zu senden, aktuelle Diagramme und KPIs anzeigen, Verkaufsofferten und Rechnungen per E-Mail versenden und mit Ihrer Kamera Bilder erstellen und anfügen. Führen Sie die Schritte unten aus, um die App herunterzuladen und zu beginnen.
+Greifen Sie von Ihrem mobilen Gerät auf [!INCLUDE[prod_short](includes/prod_short.md)] zu. Sie können durch Ihre Unternehmensdaten navigieren, Funktionen verwenden, sowie an Excel oder Microsoft 365 versenden, aktuelle Diagramme und KPIs anzeigen, Verkaufsofferten und Rechnungen per E-Mail versenden und mit Ihrer Kamera Bilder erstellen und anfügen. Führen Sie die Schritte unten aus, um die App herunterzuladen und zu beginnen.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
+> [!TIP]
+> Sie möchten eine App auf Ihrem Windows- oder macOS-Desktop? Siehe [Holen Sie die Business Central Desktop App](install-desktop-app.md).
+
 ## <a name="get-the-app-on-my-mobile-device"></a>So wird die App auf mein mobiles Gerät heruntergeladen
 
-1. Installieren Sie die [!INCLUDE[prod_short](includes/prod_short.md)]-App auf Ihrem mobilen Gerät, indem Sie die App aus dem Windows Store, App Store oder aus Google Play herunterladen.  
-
-   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (Nur PC)
+1. Installieren Sie die [!INCLUDE[prod_short](includes/prod_short.md)] App auf Ihrem mobilen Gerät, indem Sie die App aus dem App Store oder von Google Play herunterladen.  
    - [Appstore](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Starten Sie die App von Ihrem mobilen Gerät.
@@ -44,9 +44,8 @@ Sie sollten nun Zugriff auf [!INCLUDE[prod_short](includes/prod_short.md)] haben
 
 Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, können Sie auch die Vorteile der mobilen App nutzen. Die Installation ist ähnlich, aber mit einigen Ausnahmen.
 
-1. Installieren Sie die [!INCLUDE[prod_short](includes/prod_short.md)]-App auf Ihrem mobilen Gerät, indem Sie die App aus dem Windows Store, App Store oder aus Google Play herunterladen.  
+1. Installieren Sie die [!INCLUDE[prod_short](includes/prod_short.md)] App auf Ihrem mobilen Gerät, indem Sie die App aus dem App Store oder von Google Play herunterladen.  
 
-   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (Nur PC)
    - [Appstore](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Starten Sie die App von Ihrem mobilen Gerät.

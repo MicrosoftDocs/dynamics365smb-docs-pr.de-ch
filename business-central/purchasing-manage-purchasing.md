@@ -1,23 +1,21 @@
 ---
-title: Überblick der Aufgaben zum Verwalten von Einkauf | Microsoft Docs
+title: Übersicht über die Aufgaben zum Verwalten von Einkäufen
 description: Zeigt die Aufgaben zum Verwalten der Einkaufs- oder Beschaffungsvorgänge, einschliesslich das Vorgehen bei Einkaufsrechnungen und Bestellungen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2020
+ms.search.form: 460
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 171c8877ca305d77250b7b8846004673616cd1e6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a2d561087755f6cac596b216d9e02fa31be61726
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918789"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137251"
 ---
 # <a name="purchasing"></a>Einkauf
 Sie erstellen eine Einkaufsrechnung oder Einkaufsbestellung, um die Kosten der Einkäufe zu erfassen und Kreditoren zu verfolgen. Wenn Sie einen Bestand steuern müssen, werden Einkaufsrechnungen auch verwendet, um Lagerbestände dynamisch zu aktualisieren, sodass Sie Ihre Lagerbestandskosten minimieren und besseren Kundenservice bereitstellen können. Die Einkaufskosten, einschliesslich Servicekosten und Bestandswerte, die aus der Buchung von Einkaufsrechnungen resultieren, tragen zu den Gewinnzahlen und anderen finanziellen Kennziffern in Ihrem Rollencenter bei.
@@ -42,9 +40,13 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Erstellen Sie eine Einkaufsgutschrift, um eine bestimmte gebuchte Einkaufsrechnung wiederherzustellen, um anzugeben, welche Produkte Sie an den Kreditor zurückliefern und welchen Zahlungsbetrag Sie eintreiben. |[Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen](purchasing-how-register-new-vendors.md) |
 |Bereiten Sie sich vor, um Lieferungen vom selben Kreditor einmal zu fakturieren, indem Sie die Wareneingänge in einer Rechnung zusammenfassen.|[Zusammenfassen von Lieferungen in einer einzelnen Rechnung](purchasing-how-to-combine-receipts.md)|
 |Konvertieren Sie zum Beispiel elektronische Rechnungen von Ihren Kreditoren in Business Central in Einkaufsrechnungen.|[Elektronische Belege empfangen und konvertieren](purchasing-how-to-receive-and-convert-electronic-documents.md)|
-| Erfahren Sie, wie Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] wenn Sie einen Artikel bestellen müssen, damit er zu einem bestimmten Datum geliefert wird.|[Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)|
+| Erfahren Sie, wie Sie [!INCLUDE[prod_short](includes/prod_short.md)] wenn Sie einen Artikel bestellen müssen, damit er zu einem bestimmten Datum geliefert wird.|[Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)|
 |Lösen Sie auf Verwirrung auf, wenn zwei oder mehr Datensätze für denselben Kreditor vorhanden sind.|[Doppelt Datensätze zusammenführen](sales-how-merge-duplicate-records.md)|
 |Verwalten Sie Ihre Verpflichtung gegenüber einem Lieferanten, grosse Mengen zu kaufen, die im Laufe der Zeit in mehreren Sendungen geliefert werden.|[Arbeiten mit Pauschalbestellungen](sales-how-to-create-blanket-sales-orders.md)|
+
+## <a name="external-document-numbers"></a>Externe Belegnummern
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
 
@@ -53,7 +55,10 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Projekte verwalten](projects-manage-projects.md)    
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,20 @@
 ---
 title: Verkaufsaufträge und Lagerplanungserweiterung verwenden, um das Lager zu verwalten | Microsoft Docs
 description: Diese Erweiterung hilft Ihnen, Verkäufe zu planen und eine klare Übersicht über erwartete fehlende Lagerbestände zu erhalten und hilft Ihnen sogar dabei, Lagerauffüllungsanfragen an Verkäufer zu stellen.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
-ms.date: 10/01/2020
+ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: e21b0fbf497ebc67654be4bceae560fc3c2fdbc9
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 4341abd51fa87e36394109dd71452b38df5062e1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757456"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140385"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Die Verkaufs- und Bestandprognosen-Erweiterung
 Lagerverwaltung ist ein Austausch zwischen Serviceabteilung und Verwaltung der Kosten. Auf der einen Seite benötigt ein niedriger Bestand weniger Betriebskapital, andererseits führen fehlende Lagerbestände evtl. zu entgangenen Verkäufen. Die Erweiterung "Geplanter voraussichtlicher Verkauf und Lagerbestand" sagt potenzielle Verkäufe anhand der historischen Daten voraus und gibt eine klare Übersicht über erwartete fehlende Lagerbestände. Auf Grundlage der Planung helfen die Erweiterungen dabei, Beschaffungsanfragen an Ihre Kreditoren zu stellen und Zeit zu spraren.  
@@ -56,11 +53,16 @@ Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Model
 3. Verwenden Sie das Microsoft-Konto, um sich für einen Arbeitsbereich anzumelden und kopieren Sie dann das Muster.  
 4. Führen Sie die Vorlage aus und veröffentlichen Sie dieses als Webdienst.  
 5. Notieren Sie den API URL und den API Schlüssel. Sie verwenden diese Anmeldeinformationen für die Cashfloweinrichtung.  
-6. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Verkaufs- und Bestandsprognoseeinrichtung** ein, und wählen Sie dann den entsprechenden Link.  
+6. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Einrichtung von Umsatz- und Lagerbestandsplanung** ein, und wählen Sie dann den entsprechenden Link.  
 7. Erweitern Sie die Registerkarte **Allgemein** und füllen Sie dann die Felder API-URL und API-Schlüssel aus.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe Verwandte Schulungen unter [Microsoft Learn](/learn/modules/use-sales-inventory-forecast-extension/)
 
-## <a name="see-also"></a>Siehe auch
+
+## <a name="see-also"></a>Weitere Informationen
 [Verkauf](sales-manage-sales.md)  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
+[Nutzen Sie künstliche Intelligenz in Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

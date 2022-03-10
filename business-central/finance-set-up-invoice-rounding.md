@@ -1,23 +1,20 @@
 ---
-title: Einrichten der Rechnungsrundung | Microsoft Docs
-description: Sie können Rechnungsbeträge beim Erstellen von Rechnungen runden. Darüber hinaus muss die Rechnungsrundung möglicherweise aufgrund lokaler Vorgaben oder üblicher Vorgehensweisenauf eine bestimmte Weise erfolgen – beispielsweise auf einen Betrag, der durch 0,05 teilbar ist.
-services: project-madeira
-documentationcenter: ''
+title: Einrichten der Rechnungsrundung
+description: Wenn Sie beim Erstellen von Rechnungen Rechnungsbeträge runden müssen, können Sie die hier erklärte automatische Rundungsfunktion verwenden.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.search.form: 5, 16, 118, 459, 460, 495
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 399216085913c576007bd5996cef4f3192362c4b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 781027b74912e8971d27d6b6c7613243c135cc1f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305658"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143492"
 ---
 # <a name="set-up-invoice-rounding"></a>Einrichten der Rechnungsrundung
 Wenn Sie beim Erstellen von Rechnungen Rechnungsbeträge runden müssen, können Sie die automatische Rundungsfunktion verwenden. Nach dem Runden einer Rechnung wird eine zusätzliche Zeile mit dem Rundungsbetrag eingefügt, die zusammen mit den anderen Rechnungszeilen gebucht wird.
@@ -35,11 +32,11 @@ Zum Verwenden der automatischen Rechnungsrundung müssen folgende Aktionen ausge
 >  Zusätzlich zu den Rechnungsrundungsfeatures besteht auch die Möglichkeit, Beträge in Rechnungen mithilfe der Stückpreisrundung und der Betragsrundung zu runden.  
 
 ## <a name="set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Fibukonten für Rechnungsrundungsdifferenzen einrichten
-Um die automatische Rundungsfunktion zu nutzen, müssen Sie Sachkonten einrichten, auf die Rundungsdifferenzen gebucht werden. Bevor Sie dies tun können, müssen Sie die MWST-Produktbuchungsgruppen einrichten. Weitere Informationen finden Sie unter [MWST einrichten](finance-setup-vat.md).  
+Um die automatische Rundungsfunktion zu nutzen, müssen Sie Fibukonten einrichten, auf die Rundungsdifferenzen gebucht werden. Bevor Sie dies tun können, müssen Sie die MWST-Produktbuchungsgruppen einrichten. Weitere Informationen finden Sie unter [MWST einrichten](finance-setup-vat.md).  
 
-### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Sachkonten für Rechnungsrundungsdifferenzen einrichten:  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan** ein, und wählen dann den zugehörigen Link aus.  
-2. Richten Sie das Konto im Fenster **Kontenplan** ein, und benennen Sie es mit **Rechnungsrundung** oder mit einem ähnlichen Namen. [!INCLUDE[d365fin](includes/d365fin_md.md)]Die Anwendung verwendet den Kontonamen als Text in gerundeten Rechnungen.  
+### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Fibukonten für Rechnungsrundungsdifferenzen einrichten:  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
+2. Richten Sie das Konto im Fenster **Kontenplan** ein, und benennen Sie es mit **Rechnungsrundung** oder mit einem ähnlichen Namen. [!INCLUDE[prod_short](includes/prod_short.md)]Die Anwendung verwendet den Kontonamen als Text in gerundeten Rechnungen.  
 3. Abhängig davon, ob Sie Mehrwertsteuer oder Salestax verwenden, wählen Sie in den Feldern **Salestax-Produktbuchungsgruppe** oder **MWST-Produktbuchungsgruppe** eine Buchungsgruppe für Rundungsbeträge aus. Es empfiehlt sich, eine neuen Gruppencode einzurichten, der für die Rechnungsrundung verwendet werden kann.
 4. Lassen Sie die Felder **Buchungsart** und **Salestax-Produktbuchungsgruppe** oder **MWST-Produktbuchungsgruppe** leer. <!-- Why do we say to leave these blank, when there are a lot of other fields we also leave blank but don't mention? -->  
 
@@ -49,19 +46,22 @@ Jetzt können Sie das Rechnungsrundungskonto den Buchungsgruppen auf der Seite *
 Damit Sie die automatische Rechnungsrundungsfunktion verwenden können, müssen Sie Rundungsregeln für Fremdwährungen und lokale Währungen einrichten.
 
 ### <a name="to-set-up-rounding-for-foreign-currencies"></a>Einrichten von Rundungsregeln für Fremdwährungen  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Währungen** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Währungen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie auf der Seite **Währungen** die Fremdwährung aus, um die **Währungskarte** zu öffnen, und füllen Sie dann die Felder **Betragsrundungspräzision**, **Stückpreisrundungspräzision**, **Rechnungsrundungspräzision** und **Rechnungsrundungsmethode** aus.
 
 ### <a name="to-set-up-rounding-for-your-local-currency"></a>Einrichten der Rundung für Ihre lokale Währung
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Fibuposten einrichten** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie auf der Seite **Fibu Einrichtung** auf dem Inforegister **Allgemein** die Felder **Rechnungsrundungspräz.** und **Rechnungsrundungsmethode** aus.  
 
 ## <a name="activate-the-invoice-rounding-function"></a>Aktivieren der Rechnungsrundungsfunktion  
 Damit die Anwendung Einkaufs- und Verkaufsrechnungen automatisch gerundet werden, müssen Sie die Rechnungsrundungsfunktion aktivieren. Beachten Sie, dass Sie die Rechnungsrundung einzeln für Verkaufsrechnungen und Einkaufsrechnungen aktivieren können.
 
-1. Um eine vollständige Liste von Tabellen-Einrichtungen zu sehen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion Wie möchten Sie weiter verfahren geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") und geben Sie **Verkäufe und Debitoren** oder **Käufe und Kreditoren** ein und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf Einr.** oder **Einrichtung Debitoren & Einkauf Einr.** ein und wählen Sie dann den entsprechenden Link.  
 2. Markieren Sie im Inforegister **Allgemein** das Kontrollkästchen **Rechnungsrundung**.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,21 +2,20 @@
 title: Hinzufügen von Informationen zu Datensätzen | Microsoft Docs
 description: Hinzufügen einer Notiz zu einem beliebigen Datensatz in der Anwendung. Falls Sie beispielsweise zusätzliche Informationen zu einem Verkaufsauftrag besitzen, die nicht vollständig in einem der Felder im Verkaufsauftrag eingegeben werden können, können Sie eine Notiz verfassen.
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 04/01/2019
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 82b2dd880618f8ee7f44203db5638ef6da12c5cc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a641c8e411b14df7097299b696d74fc56f68bd92
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247803"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129566"
 ---
 # <a name="add-and-view-notes-on-records"></a>Notizen zu Datensätzen hinzufügen und anzeigen
  Sie <!--OnPrem and your colleagues -->können Notizen den Datensätzen in der Anwendung hinzufügen. Viele Seiten, insbesondere diejenigen, die eine Liste der Datensätze, wie die Seite **Verkaufsaufträge** anzeigen, enthalten die **Notizen** Aktion oder die Infobox **Notizen**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
@@ -48,4 +47,7 @@ ms.locfileid: "1247803"
 <!--OnPrem
 3.  Choose the **OK** button.  -->
 ## <a name="see-also"></a>Siehe auch
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

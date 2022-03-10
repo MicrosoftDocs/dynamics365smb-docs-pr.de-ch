@@ -1,21 +1,20 @@
 ---
-title: Mehrwertsteuer (Schweiz)
-description: Schweizer Erweiterungen enthalten spezielle Mehrwertsteuerberichterstellungsfunktionen.
+title: Schweizer Salestax [CH]
+description: In diesem Artikel werden mehrere Verbesserungen an den Schweizer Mehrwertsteuerberichterstellungsfunktionen vorgenommen.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 67617e389d20e2e57cf13dd5ecb6031341509dca
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 67352d0f06215f96ca6944f486408cd99f0ed8d9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753149"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141775"
 ---
 # <a name="swiss-value-added-tax"></a>Mehrwertsteuer (Schweiz)
 [!INCLUDE[prod_short](../../includes/prod_short.md)] enthält die folgenden Erweiterungen für die Schweizer Mehrwertsteuerberichterstellung:  
@@ -39,3 +38,6 @@ In die MWST-Posten werden weitere Angaben übertragen, z. B. der MWST-Satz und 
  [MWST-Sätze für die Schweiz](vat-rates-for-switzerland.md)   
  [Erstellen und Drucken einer Schweizer MWST-Abrechnung](how-to-create-and-print-a-swiss-vat-statement.md)   
  [Lokale Funktion (Schweiz)](switzerland-local-functionality.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

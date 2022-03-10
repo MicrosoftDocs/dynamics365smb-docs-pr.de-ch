@@ -1,35 +1,32 @@
 ---
 title: Einrichten von Servicevorgängen | Microsoft Docs
 description: Erfahren Sie, wie Sie Vorgänge einrichten, die vollständige Zufriedenheit Ihrer Debitoren mit Ihrem Debitorendienst sicherzustellen.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: eb83c1a2e90e81060355e15c9d0e81d321ed8ed0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 20afe251a1853ee31cd5de34c14ddb025a23c32e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315866"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140593"
 ---
 # <a name="configure-service-processes"></a>Konfigurieren von Serviceprozessen
 Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anwenden können:  
   
 * Einige allgemeine Einstellungen für mehrere Vorgänge, wie Warnungen, Berechnung des nächsten Service für Serviceartikel, die zu ermittelnde Grundgebühr, die zu verwendende Ebene des Problemberichtswesens und so weiter.  
 * Die Art der Informationen, die ein Techniker in Servicebelegen eingeben muss. Beispielsweise können Sie fordern, dass die Art des Auftrags, das Anfangs- und/oder Enddatum der Arbeit und die Art der erledigten Arbeit angegeben werden müssen  
-* Einige Standardeinstellungen für Reaktionszeiten und Garantien. Diese schliessen eine Standardreaktionszeit für das Startdatum des Serviceauftrags, Garantierabattprozentsätze für Teile und Arbeit ein und wie lange Garantien gültig sind.  
+* Einige Standardeinstellungen für Reaktionszeiten und Garantien. Diese schliessen eine Standardreaktionszeit für das Startdatum des Serviceauftrags, GarantieSkontoprozentsätze für Teile und Arbeit ein und wie lange Garantien gültig sind.  
 * Einstellungen für Verträge, wie die maximale Anzahl der Tage, die Sie für Vertragsserviceaufträge verwenden können, ob Ursachencodes verwendet werden, wenn ein Vertrag gekündigt wird, Standardtexte für Vertragsbeschreibungen und Vertragswerte.  
 * Die Anzahl der zu verwendenden Reihenfolgen bei dienstbezogenen Belegen und Artikeln.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>So geben Sie allgemeine und obligatorische Einstellungen ein
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Service einrichten** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Service Einrichtung** ein, und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Siehe auch  
@@ -39,3 +36,6 @@ Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anw
 [Einrichten zusätzlicher Kosten für Services](service-how-setup-service-costs-pricing.md)  
 [Lösungsanleitung Einrichtung](service-how-setup-troubleshooting.md)  
 [Service](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

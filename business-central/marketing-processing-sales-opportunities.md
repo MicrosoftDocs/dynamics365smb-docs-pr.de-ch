@@ -1,23 +1,22 @@
 ---
-title: Verarbeiten von Verkaufschancen in Verkaufszyklen | Microsoft Docs
-description: Sie können Verkaufschancen anzeigen, schliessen oder löschen, und Sie können auch Offertee und Aufträge für Verkaufschancen einrichten und eine Verkaufschance über die einzelnen Phasen des Verkaufsprozesses verschieben.
+title: Verarbeiten von Verkaufschancen in Verkaufsprozessen
+description: Dieses Thema beschreibt die verschiedenen Möglichkeiten, wie Sie Verkaufschancen in Verkaufszyklen verarbeiten und eine Verkaufschance durch die Phasen eines Verkaufszyklus bewegen können.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 92e2ad3723e2cb2b3b24f179d39462a98e9cc106
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 7bd357f10509040afb8b64ec19fecda4e8769dfe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076601"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142017"
 ---
 # <a name="process-sales-opportunities"></a>Verarbeiten von Verkaufschancen
 Nachdem Sie eine Verkaufschance erstellen haben, gibt es einige Funktionen für die Verwaltung der Verkaufschance und deren Abschluss.
@@ -27,9 +26,9 @@ Vorhandene Verkaufsverkaufschancen sind auf der Seite **Verkaufschancenliste** v
 
 | Verkaufschancen anzeigen für | Dann |
 | --- | --- |
-| Alle Verkäufer und Kontakte |Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Verkaufschancenliste** ein, und wählen Sie dann den entsprechenden Link aus. |
-| Ein bestimmter Verkäufer |Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkäufer** ein und wählen Sie dann den entsprechenden Link. Wählen Sie den Verkäufer, wählen sie die Aktion **Verkaufschancen** und dann die Aktion **Liste**. |
-| Ein bestimmter Kontakt |Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Kontakte** ein und wählen Sie dann den entsprechenden Link. Wählen Sie den Kontakt aus der Liste, und wählen sie die Aktion **Verkaufschancen**. |
+| Alle Verkäufer und Kontakte |Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Verkaufschancenliste** ein und wählen Sie dann den zugehörigen Link. |
+| Ein bestimmter Verkäufer |Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Verkäufer** ein und wählen Sie dann den zugehörigen Link. Wählen Sie den Verkäufer, wählen sie die Aktion **Verkaufschancen** und dann die Aktion **Liste**. |
+| Ein bestimmter Kontakt |Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kontakte** ein, und wählen Sie dann den zugehörigen Link. Wählen Sie den Kontakt aus der Liste, und wählen sie die Aktion **Verkaufschancen**. |
 
 Jede dieser Aufgaben öffnet die Seite **Verkaufschancenliste**.
 
@@ -44,7 +43,8 @@ Sie können Verkaufschancen abschliessen, wenn die Verhandlungen abgeschlossen s
    Geben Sie im **Verkaufschancenabschlusscode**-Feld einen der vorhandenen Verkaufschancenabschlusscodes aus oder fügen Sie einen neuen Code hinzu. Um einen neuen Code hinzuzufügen, wählen Sie in der Dropdownliste **Aus vollständiger Liste auswählen** aus in wählen Sie dann **Neu**. Füllen Sie in der neuen leeren Zeile die Felder **Code**, **Art** und **Beschreibung** aus, und wählen Sie dann die **OK**-Schaltfläche.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Um Angebote für Verkaufschancen zu erstellen
-Sie können Verkaufsangebote für Kontakte erstellen, die nicht als Debitoren erfasst werden.
+> [!NOTE]
+> Sie können nur Verkaufsofferten aus Verkaufschancen erstellen, bei denen der Kontakttyp Firma ist.
 
 1. Auf der Seite **Verkaufschancenliste** wählen Sie die Verkaufschance und dann die **Verkaufsofferte zuweisen**-Aktion aus. Die Seite **Verkaufsofferte** wird geöffnet.
 2. Füllen Sie die entsprechenden Felder aus.
@@ -65,7 +65,7 @@ Um abgeschlossene Verkaufschancen aus der Seite **Verkaufschancenliste** zu lös
 
 Um abgeschlossene Verkaufschancen über die Stapelverarbeitung **Geschlossene Verkaufschancen löschen...** zu löschen verwenden, gehen Sie folgendermassen vor:
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Verkaufschancen löschen** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Verkaufschancen löschen** ein und wählen Sie dann den zugehörigen Link.
 2. Im **Verkaufschance**-Abschnitt richten Sie die Filter ein, die die zu löschenden abgeschlossenen Verkaufschancen definieren.
 3. Wählen Sie die Schaltfläche **OK** aus.
 
@@ -86,4 +86,7 @@ Wenn eine Verkaufschance einem Verkaufsprozess folgt, können Sie sie vorwärts 
 ## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)  
 [Erstellen und Verwalten von Kontakten](marketing-contacts.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

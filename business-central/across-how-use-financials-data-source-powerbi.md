@@ -2,7 +2,6 @@
 title: Berichte erstellen in Power BI Desktop zur Anzeige von Business Central-Daten | Microsoft Docs
 description: Sie können Ihre Daten zur Verfügung stellen als Datenquelle in Power BI und leistungsstarke Berichte über den Zustand Ihres Geschäftes erstellen.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ee7e6a132f463f35206dd9ac4fe75ce1a41fd40d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 471847e62911ba1dc274a0d02ffbd66968d0b7ca
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780096"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141581"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Power BI-Berichte erstellen zur Anzeige von [!INCLUDE [prod_long](includes/prod_long.md)]-Daten
 
@@ -27,28 +26,28 @@ Dieser Artikel beschreibt die ersten Schritte zur Verwendung von Power BI Deskto
 
 - Registrieren Sie sich für den Power BI-Dienst.
 
-    Wenn Sie sich noch nicht registriert haben, wechseln Sie zu [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Verwenden Sie bei der Registrierung Ihre geschäftliche E-Mail-Adresse und Ihr Kennwort.
+  Wenn Sie sich noch nicht registriert haben, wechseln Sie zu [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Verwenden Sie bei der Registrierung Ihre geschäftliche E-Mail-Adresse und Ihr Kennwort.
 
 - Laden Sie [Power BI Desktop](https://powerbi.microsoft.com/desktop/) herunter.
 
-   Power BI Desktop ist eine kostenlose Anwendung, die Sie auf Ihrem lokalen Computer installieren. Weitere Informationen finden Sie unter [Schnellstart: Stellen Sie eine Verbindung zu Daten her in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
+  Power BI Desktop ist eine kostenlose Anwendung, die Sie auf Ihrem lokalen Computer installieren. Weitere Informationen finden Sie unter [Schnellstart: Stellen Sie eine Verbindung zu Daten her in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-- Stellen Sie sicher, dass die Daten, die im Bericht enhalten sein sollen, als Webdienst veröffentlicht werden.
-    
-    Viele Webdienste werden standardmässig veröffentlicht. Eine einfache Methode, die Webdienste zu finden ist, in *Webdiensten* in [!INCLUDE[prod_short](includes/prod_short.md)] zu suchen. Stellen Sie sicher, dass auf der Seite **Webdienste** das Feld **Veröffentlichen** ausgewählt ist. Hierbei handelt es sich üblicherweise um eine Aufgabe für einen Administrator.
-    
-    Weitere Informationen zum Veröffentlichen von Webdiensten finden Sie unter [Webdienst veröffentlichen](across-how-publish-web-service.md).
+- Stellen Sie sicher, dass die Daten, die Sie im Bericht haben wollen, als API-Seite verfügbar sind oder als Webdienst veröffentlicht wurden.
+
+  Weitere Informationen finden Sie unter [Daten über API-Seiten oder OData-Webdienste veröffentlichen](admin-powerbi-setup.md#exposedata).
 
 - Für [!INCLUDE[prod_short](includes/prod_short.md)] on-premises benötigen Sie folgende Informationen:
 
-    - Die OData-URL für [!INCLUDE[prod_short](includes/prod_short.md)]. Diese URL hat üblicherweise das Format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, zum Beispiel `https://localhost:7048/BC160/ODataV4`. Bei einer Bereitstellung mit mehreren Mandanten sollte der Mandant in der URL enthalten sein, zum Beispiel `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
-    - Einen Benutzernamen und einen Webdienst-Zugriffsschlüssel für ein [!INCLUDE[prod_short](includes/prod_short.md)]-Konto.
+  - Die OData-URL für [!INCLUDE[prod_short](includes/prod_short.md)].
+  
+    Diese URL hat üblicherweise das Format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, zum Beispiel `https://localhost:7048/BC160/ODataV4`. Bei einer Bereitstellung mit mehreren Mandanten sollte der Mandant in der URL enthalten sein, zum Beispiel `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+  - Einen Benutzernamen und einen Webdienst-Zugriffsschlüssel für ein [!INCLUDE[prod_short](includes/prod_short.md)]-Konto.
 
-      Für das Abrufen von Daten aus [!INCLUDE[prod_short](includes/prod_short.md)] verwendet Power BI die Standardauthentifizierung. Sie benötigen also einen Benutzernamen und einen Webdienst-Zugriffsschlüssel, um eine Verbindung herzustellen. Hierbei kann es sich um Ihr eigenen Benutzerkonto oder um ein Konto Ihrer Organisation handeln, das speziell für diesen Zweck angelegt wurde.
+    Für das Abrufen von Daten aus [!INCLUDE[prod_short](includes/prod_short.md)] verwendet Power BI die Standardauthentifizierung. Sie benötigen also einen Benutzernamen und einen Webdienst-Zugriffsschlüssel, um eine Verbindung herzustellen. Hierbei kann es sich um Ihr eigenen Benutzerkonto oder um ein Konto Ihrer Organisation handeln, das speziell für diesen Zweck angelegt wurde.
 
 - Laden Sie das [!INCLUDE [prod_short](includes/prod_short.md)]-Berichtsthema herunter (optional).
 
-    Weitere Informationen finden Sie unter [[!INCLUDE [prod_short](includes/prod_short.md)]-Berichtsthema verwenden](#theme) in diesem Artikel.
+  Weitere Informationen finden Sie unter [[!INCLUDE [prod_short](includes/prod_short.md)]-Berichtsthema verwenden](#theme) in diesem Artikel.
 
 ## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>[!INCLUDE[prod_short](includes/prod_short.md)] als Datenquelle in Power BI Desktop hinzufügen
 
@@ -58,31 +57,55 @@ Die erste Aufgabe beim Erstellen von Berichten ist das Hinzufügen von [!INCLUDE
 2. Wählen Sie **Daten abrufen** aus.
 
     Wenn Sie die Option **Daten abrufen** nicht sehen können, wählen Sie das Menü **Datei** und dann den Menüpunkt **Daten abrufen** aus.
-2. Wählen Sie auf der Seite **Daten abrufen** die Option **Onlinedienste** aus.
-3. Führen Sie im Bereich **Onlinedienste** einen der folgenden Schritte aus:
+3. Wählen Sie auf der Seite **Daten abrufen** die Option **Onlinedienste** aus.
+4. Führen Sie im Bereich **Onlinedienste** einen der folgenden Schritte aus:
 
-    1. Wenn Sie eine Onlineverbindung zu [!INCLUDE [prod_short](includes/prod_short.md)] herstellen, wählen Sie **Dynamics 365 Business Central** und dann **Verbinden** aus.
-    2. Wenn Sie eine Verbindung zu [!INCLUDE [prod_short](includes/prod_short.md)] on-premises herstellen, wählen Sie **Dynamics 365 Business Central (on-premises)** und dann **Verbinden** aus.
+    - Um sich mit [!INCLUDE [prod_short](includes/prod_short.md)] online zu verbinden, wählen Sie **Dynamics 365 Business Central**, dann **Verbinden**.
+    - Um sich mit [!INCLUDE [prod_short](includes/prod_short.md)] vor Ort zu verbinden, wählen Sie **Dynamics 365 Business Central (vor Ort)**, dann **Verbinden**.
 
-4. Power BI zeigt einen Assistenten an, der Sie durch den Verbindungsprozess führt, einschliesslich der Anmeldung bei [!INCLUDE [prod_short](includes/prod_short.md)].
+5. Melden Sie sich bei [!INCLUDE [prod_short](includes/prod_short.md)] an (nur einmalig).
 
-    Wählen Sie für die Onlineverbindung **Anmelden** und dann das entsprechende Konto aus. Verwenden Sie dasselbe Konto, mit dem Sie sich bei [!INCLUDE [prod_short](includes/prod_short.md)] anmelden.
-    
-    Geben Sie für eine lokale Verbindung die OData-URL für [!INCLUDE[prod_short](includes/prod_short.md)] und optional den Namen des Unternehmens ein. Wenn Sie dazu aufgefordert werden, geben Sie den Benutzernamen und das Kennwort des Kontos ein, mit dem eine Verbindung zu [!INCLUDE[prod_short](includes/prod_short.md)] hergestellt werden soll. Geben Sie in das Feld **Kennwort** den Webdienst-Zugriffsschlüssel ein.
+    Wenn Sie sich noch nicht bei [!INCLUDE [prod_short](includes/prod_short.md)] von Power BI Desktop aus angemeldet haben, werden Sie aufgefordert, sich anzumelden.
+
+    - Für [!INCLUDE [prod_short](includes/prod_short.md)] online wählen Sie **Anmelden** und wählen dann das entsprechende Konto. Verwenden Sie dasselbe Konto, mit dem Sie sich bei [!INCLUDE [prod_short](includes/prod_short.md)] anmelden. Wenn Sie fertig sind, wählen Sie **Verbinden**.
+
+    - Für [!INCLUDE [prod_short](includes/prod_short.md)] lokal geben Sie zuerst die OData-URL für [!INCLUDE[prod_short](includes/prod_short.md)] ein und wählen dann **OK**. Wenn Sie dazu aufgefordert werden, geben Sie den Benutzernamen und das Kennwort des Kontos ein, das für die Verbindung mit [!INCLUDE[prod_short](includes/prod_short.md)] verwendet werden soll. Geben Sie in das Feld **Kennwort** den Webdienst-Zugriffsschlüssel ein. Wenn Sie fertig sind, wählen Sie **Verbinden**.
 
     > [!NOTE]  
-    > Sobald Sie sich erfolgreich mit [!INCLUDE[prod_short](includes/prod_short.md)] verbunden haben, werden Sie nicht mehr aufgefordert, sich anzumelden.
-    
-5. Wählen Sie **Verbinden** aus, um den Vorgang fortzusetzen.
+    > Sobald Sie sich erfolgreich mit [!INCLUDE[prod_short](includes/prod_short.md)] verbunden haben, werden Sie nicht mehr aufgefordert, sich anzumelden. [Wie ändere oder lösche ich das Konto, das ich derzeit für die Verbindung mit Business Central von Power BI Desktop verwende?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
 
-    Der Power BI-Assistent zeigt eine Liste von Microsoft [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebungen, Unternehmen und Datenquellen an. Diese Datenquellen repräsentieren alle Webdienste, die Sie über [!INCLUDE [prod_short](includes/prod_short.md)] veröffentlicht haben.
-6. Geben Sie die Daten an, die Sie Ihrem Datenmodell hinzufügen möchten, und wählen Sie dann die Schaltfläche **Laden** aus.
-7. Wiederholen Sie die vorherigen Schritte, um zusätzliche [!INCLUDE [prod_short](includes/prod_short.md)] oder andere Daten Ihrem Power BI Datenmodell hinzuzufügen.
+6. Sobald die Verbindung hergestellt ist, stellt Power BI Kontakte zum Business Central-Dienst her. Das Fenster **Navigator** erscheint und zeigt die verfügbaren Datenquellen für die Erstellung von Berichten an. Wählen Sie einen Ordner, um ihn zu erweitern und die verfügbaren Datenquellen zu sehen. 
+
+   Diese Datenquellen stellen alle Webdienste und API-Seiten dar, die für [!INCLUDE [prod_short](includes/prod_short.md)] veröffentlicht sind. Die Datenquellen sind nach den Business Central Umgebungen und Firmen gruppiert. Wenn Business Central online ist, hat **Navigator** die folgende Struktur:
+
+    - **Umgebungsname**
+      - **Firmenname**
+        - **Erweiterte APIs**
+
+          Dieser Ordner listet erweiterte API-Seiten auf, die von Microsoft veröffentlicht wurden, wie die [Business Central Automatisierungs-APIs](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) und [angepasste API-Seiten für Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Custom-API-Seiten sind weiter in Ordnern nach [APIPublisher](/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/business-central/dev-itpro/developer/properties/devenv-apigroup-property) Eigenschaften des API-Seiten-Quellcodes gruppiert.
+
+        - **Standard-APIs v2.0**
+
+          Dieser Ordner listet die API-Seiten auf, die von der [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) bereitgestellt werden.
+
+        - **Webdienste \(veraltet)**
+
+          Dieser Ordner listet Seiten, Codeunits und Abfragen auf, die als Webdienste in Business Central veröffentlicht werden.
+
+    > [!NOTE]
+    > Die Struktur für Business Central lokal ist anders, weil es keine API-Seiten unterstützt.
+
+7. Wählen Sie die Datenquelle(n) aus, die Sie zu Ihrem Datenmodell hinzufügen möchten, und wählen Sie dann die Schaltfläche **Laden**.
+8. Wenn Sie später weitere Business Central-Daten hinzufügen möchten, können Sie die vorherigen Schritte wiederholen.
 
 Sobald die Daten geladen sind, können Sie sie in der rechten Navigation auf der Seite sehen. Zu diesem Zeitpunkt haben Sie sich erfolgreich mit Ihren [!INCLUDE[prod_short](includes/prod_short.md)]-Daten verbunden und können mit dem Erstellen Ihres Power BI-Berichts beginnen.  
 
 > [!TIP]
 > Weitere Informationen zur Verwendung von Power BI Desktop finden Sie unter [Erste Schritte mit Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
+
+## <a name="creating-accessible-reports"></a>Erstellen von zugänglichen Berichten
+
+Es ist wichtig, dass Ihre Berichte für so viele Personen wie möglich nutzbar sind. Versuchen Sie, die Berichte so zu gestalten, dass sie keine besonderen Anpassungen an die Bedürfnisse verschiedener Benutzer erfordern. Stellen Sie sicher, dass das Design es den Anwendern ermöglicht, Standard-Hilfstechnologien, wie z.B. Bildschirmleser, zu nutzen. Power BI enthält verschiedene Funktionen, Tools und Richtlinien zur Barrierefreiheit, die Ihnen helfen, dieses Ziel zu erreichen. Weitere Informationen finden Sie unter [Gestalten Sie Power BI-Berichte für Barrierefreiheit](/power-bi/create-reports/desktop-accessibility-creating-reports) in der Power BI-Dokumentation.
 
 ## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Berichte erstellen, um mit einer Liste verknüpfte Daten anzuzeigen
 
@@ -127,9 +150,42 @@ Es gibt verschiedene Möglichkeiten, um Berichte an Ihre Mitarbeiter und andere 
 
     Wenn Sie über eine Lizenz für Power BI Pro verfügen, können Sie den Bericht direkt über Ihren Power BI-Dienst mit anderen Benutzern teilen. Weitere Informationen finden Sie unter [Power BI – Teilen von Dashboards oder Berichten](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
+## <a name="fixing-problems"></a>Probleme beheben
+
+### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>„Datensatz kann nicht eingefügt werden. Die aktuelle Verbindungsabsicht ist schreibgeschützt“. Fehler beim Verbinden mit der angepassten API-Seite
+
+> **GILT FÜR:** Business Central Online
+
+Ab Februar 2022 werden neue Berichte, die Business Central-Daten verwenden, standardmässig mit einer schreibgeschützten Replik der Business Central-Datenbank verbunden. In seltenen Fällen, abhängig vom Design der Seite, erhalten Sie eine Fehlermeldung, wenn Sie versuchen, eine Verbindung zur Seite herzustellen und Daten von der Seite abzurufen.
+
+1. Starten Sie Power BI Desktop.
+2. Wählen Sie im Menüband **Daten abrufen** > **Onlinedienste**.
+3. Im Fenster **Online-Dienste** wählen Sie **Dynamics 365 Business Central** und dann **Verbinden**.
+4. Wählen Sie im Fenster **Navigator** den API-Endpunkt, von dem Sie Daten laden möchten.
+5. Im Vorschaubereich auf der rechten Seite sehen Sie den folgenden Fehler:
+
+   *Dynamics365BusinessCentral: Anfrage fehlgeschlagen: Der Remote-Server hat einen Fehler zurückgegeben: (400) Fehlerhafte Anfrage. (Datensatz kann nicht eingefügt werden. Die aktuelle Verbindungsabsicht ist schreibgeschützt. CorrelationId: [...])“.*
+
+6. Wählen Sie **Daten transformieren** anstelle von **Laden**, wie Sie es normalerweise tun würden.
+7. Wählen Sie im **Power Query-Editor** aus dem Menüband **Erweiterter Editor**.
+8. In der Zeile, die mit **Quelle =** beginnt, ersetzen Sie den folgenden Text:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
+   ```
+
+   mit:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false])
+   ```
+
+9. Wählen Sie **Erledigt**.
+10. Wählen Sie **Schliessen & Anwenden** aus dem Menüband, um die Änderungen zu speichern und den Power Query-Editor zu schliessen.
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi.md)  
 [Business Intelligence](bi.md)  

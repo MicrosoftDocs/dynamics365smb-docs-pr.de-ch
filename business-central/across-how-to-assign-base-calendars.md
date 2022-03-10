@@ -1,29 +1,28 @@
 ---
-title: 'Vorgehensweise: Einrichten von Basiskalendern | Microsoft Docs'
-description: Sie können Ihrer Firma sowie Ihren Geschäftspartnern, wie z. B. Debitoren, Kreditoren und Lagerorten oder Standorte zuordnen. Die Liefer- und Wareneingangsdaten auf zukünftigen Verkaufsaufträgen, Einkaufsbestellungen, Umlagerungsaufträgen und in Fertigungsauftragszeilen werden, entsprechend den Arbeitstagen, die im Kalender festgelegt sind, errechnet.
-services: project-madeira
-documentationcenter: ''
+title: Basiskalender einrichten
+description: Sie können Ihrer Firma und ihren Geschäftspartnern einen Basiskalender zuweisen, um Liefer- und Empfangsdaten gemäss den angegebenen Arbeitstagen zu berechnen.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: cbcb2a9d4262a8057b82d8f87fc619d218c97e67
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.search.form: 7600, 7601, 7602, 5703
+ms.date: 06/11/2021
+ms.author: edupont
+ms.openlocfilehash: 25d15bfab1dac9cea52d9efdb30e5ed3c7cbb4a2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241260"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141607"
 ---
 # <a name="set-up-base-calendars"></a>Basiskalender einrichten
+
 Sie können Ihrer Firma sowie Ihren Geschäftspartnern, wie z. B. Debitoren, Kreditoren und Lagerorten oder Standorte zuordnen. Die Liefer- und Wareneingangsdaten auf zukünftigen Verkaufsaufträgen, Einkaufsbestellungen, Umlagerungsaufträgen und in Fertigungsauftragszeilen werden, entsprechend den Arbeitstagen, die im Kalender festgelegt sind, errechnet. Die Hauptaufgabe beim Einrichten eines neuen Basiskalenders ist, die freien Tage festzulegen.  
 
-## <a name="to-set-up-a-base-calendar"></a>einen Basiskalender einrichten  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Grundkalender** ein, und wählen dann den zugehörigen Link aus.  
+## <a name="to-set-up-a-base-calendar"></a>einen Basiskalender einrichten
+
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Basiskalender** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Füllen Sie das Feld **Code** aus.  
 4. Wählen Sie die **Basiskalender pflegen** Aktion aus.
@@ -44,6 +43,7 @@ Wenn Sie einen Eintrag vornehmen, wird das Feld **Frei** ausgewählt. Sie könne
 Gibt eine Datumsformel für die Beschaffungszeit des Artikels an. Es wird verwendet, um das Feld **Geplantes Empfangsdatum** vorwärts zu berechnen und um das Feld **Aufrtragsdatum** rückwärts zu berechnen. Sehen Sie [Beschaffungszeit](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Beschaffungszeit
+
 Alle Basiskalender, die für den Kreditor oder Lagerort definiert wurden, wirken sich darauf aus, wie die Daten in Arbeitstage berechnet und gerundet werden. Die beiden Schlüsseldatumsfelder in Einkaufszeilen werden daher wie folgt mit unterschiedlichen Bedingungen berechnet.
 
 |Berechnungsrichtung|Kreditorenkalender definiert|Kreditorenkalender nicht definiert|
@@ -66,7 +66,7 @@ Während ein Basiskalender z. B. alle Samstage als freie Tage auflistet, kann de
 
 Die folgende Vorgehensweise verwendet den Fall eines Lagerortes als Beispiel. Beachten Sie, dass Sie dem Lagerort zu diesem Zeitpunkt bereits einen Basiskalender zugeordnet haben.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standort** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie den Lagerort, den Sie aktualisieren möchten, und wählen Sie das Feld **Spezifischer Kalender** aus. Beachten Sie, dass ein Kalender im Feld **Basiskalendercode** ausgewählt werden muss.
 3. Auf der Seite **Spezifische Kalenderposten** wählen Sie **Spezifische Kalenderänderungen verwalten** Aktion aus.
 4. In **Spezifische Kalenderänderungen** fügen Sie Zeilen für spezifische Kalenderposten hinzu.
@@ -102,7 +102,7 @@ Basiskalender werden Ihrer eigenen Firma, Debitoren, Kreditoren, Lagerorten und 
 -   Klicken Sie auf der Karte **Lagerort** wird der Basiskalender im Inforegister **Logistik** zugewiesen.  
 -   Auf der Seite **Spediteur** wird der Basiskalender im Fenster **Spediteurtransportarten** zugeordnet.  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitor** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie die **Debitorenkarte**, für der Sie einen Basiskalender zuordnen möchten.  
 3.  Wählen Sie im Inforegister **Lieferung** im Feld **Basiskalendercode** den Basiskalender aus, den Sie zuordnen möchten.  
 
@@ -117,5 +117,8 @@ Basiskalender werden Ihrer eigenen Firma, Debitoren, Kreditoren, Lagerorten und 
 ## <a name="see-also"></a>Siehe auch
 [Einkauf](purchasing-manage-purchasing.md)  
 [Bearbeitungen](production-manage-manufacturing.md)    
-[Lagerbesttand](inventory-manage-inventory.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Lagerbestand](inventory-manage-inventory.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

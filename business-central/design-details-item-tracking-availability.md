@@ -1,21 +1,20 @@
 ---
-title: 'Designdetails: Artikeltracking und Verfügbarkeit | Microsoft Docs'
-description: Die Artikeltrackingzeilen und Artikeltracking-Zusammenfassungsseiten stellen dynamische Verfügbarkeitsinformationen für Serien- oder Chargennummern bereit. Der Zweck besteht darin, die Transparenz für Benutzer bei ausgehenden Belegen, wie etwa Verkaufsaufträgen, zu erhöhen, indem ihnen gezeigt wird, welche Seriennummern oder wie viele Einheiten einer Charge derzeit auf anderen offenen Belegen zugewiesen sind.
+title: Design-Details – Verfügbarkeit der Artikeltracking
+description: Die Seiten „Element Tracking Lines“ und „Element Tracking Summary“ bieten dynamische Verfügbarkeitsinformationen für Serien- oder Losnummern und erhöhen so die Transparenz für Benutzer.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9763f513f4c80247f246cd835c30335ffd0d64b2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4fd66e1b6e5aff71ee10b0e24d9f25b81eb85887
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787610"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138636"
 ---
 # <a name="design-details-item-tracking-availability"></a>Designdetails: Artikeltrackingverfügbarkeit
 Die Seiten **Artikeltrackingzeilen** und **Artikeltracking-Zusammenfassung** stellen dynamische Verfügbarkeitsinformationen für Serien- oder Chargennummern bereit. Der Zweck besteht darin, die Transparenz für Benutzer bei ausgehenden Belegen, wie etwa Verkaufsaufträgen, zu erhöhen, indem ihnen gezeigt wird, welche Seriennummern oder wie viele Einheiten einer Charge derzeit auf anderen offenen Belegen zugewiesen sind. Dadurch wird die Ungewissheit reduziert, die durch doppelte Zuteilung entsteht und den Auftragsbearbeiter wird das Vertrauen vermittelt, dass die Artikeltrackingnummern und die Daten, die sie in nicht gebuchten Verkaufsaufträgen versprechen, erfüllt werden können. Weitere Informationen finden Sie unter [Designdetails: Artikeltrackingzeilenseite](design-details-item-tracking-lines-window.md).  
@@ -44,3 +43,6 @@ Die Seiten **Artikeltrackingzeilen** und **Artikeltracking-Zusammenfassung** ste
 
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Artikeltracking](design-details-item-tracking.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

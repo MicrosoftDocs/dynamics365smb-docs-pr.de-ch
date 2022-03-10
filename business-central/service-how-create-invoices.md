@@ -1,28 +1,27 @@
 ---
-title: Erstellen Sie Rechnungen für Services | Microsoft Docs
-description: Erfahren Sie, wie Sie Rechnungen erstellen, sodass Sie für Ihren Service bezahlt werden.
+title: Erstellen von Rechnungen oder Gutschriften für Serviceleistungen
+description: Erfahren Sie, wie Sie mit Business Central nahtlos Servicerechnungen und Gutschriften für Ihre Dienstleistungen erstellen können.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/20/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 66a32f8ecdc0ddd07794be9354edc75adf96df42
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 47ff02006af6182752ed110464b4c8aa493060c5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402539"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143102"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Erstellen Sie eine Servicerechnung oder eine Servicegutschrift.
-Die einfache Fakturierung von Serviceaufträgen ist ein zentrales Feature von [!INCLUDE[prodshort](includes/prodshort.md)] [!INCLUDE[prodshort](includes/prodshort.md)] kann auch so eingerichtet werden, dass ein Servicetechniker im Feld eine Rechnung für einen Service erstellen kann, der nicht mit einem Vertrag oder Auftrag verbunden ist. Richten Sie [!INCLUDE[prodshort](includes/prodshort.md)] alternativ so ein, dass Sie Serviceverträge regelmässig in Rechnung stellen. Im Fakturierungsintervall wird für jeden Vertrag festgelegt, wie oft fakturiert wird.
+Die einfache Fakturierung von Serviceaufträgen ist ein zentrales Feature von [!INCLUDE[prod_short](includes/prod_short.md)] [!INCLUDE[prod_short](includes/prod_short.md)] kann auch so eingerichtet werden, dass ein Servicetechniker im Feld eine Rechnung für einen Service erstellen kann, der nicht mit einem Vertrag oder Auftrag verbunden ist. Richten Sie [!INCLUDE[prod_short](includes/prod_short.md)] alternativ so ein, dass Sie Serviceverträge regelmässig in Rechnung stellen. Im Fakturierungsintervall wird für jeden Vertrag festgelegt, wie oft fakturiert wird.
 
 ## <a name="to-invoice-several-service-contracts"></a>So stellen Sie mehrere Serviceverträge in Rechnung
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Servicevertragsrechnungen erstellen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Servicevertragsrechnungen erstellen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie die anzuwendenden Filter ein.  
 3. Geben Sie hier das **Buchungsdatum**, das als Buchungsdatum in der erstellten Servicerechnung verwendet werden soll.  
 4. Geben Sie im Feld **Fakturierung bis Datum** das Datum ein, bis zu dem Sie Verträge fakturieren möchten. Die Stapelverarbeitung wird Verträge mit den nächsten Rechnungsdaten bis zu diesem Datum berücksichtigen.  
@@ -32,7 +31,7 @@ Die einfache Fakturierung von Serviceaufträgen ist ein zentrales Feature von [!
 Sie können einen Servicevertrag auch direkt auf der Seite **Servicevertrag** fakturieren, wenn das Rechnungsdatum des Vertrages vor dem Arbeitsdatum liegt.
 
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>So fakturieren Sie einen Servicevertrag aus der Seite "Servicevertrag"   
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Serviceverträge** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Serviceverträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie den Servicevertrag aus, den Sie fakturieren möchten, und öffnen Sie die Vertragskarte.  
 3. Wählen Sie die Aktion **Servicerechnung erstellen** aus. 
 4. Klicken Sie auf **Ja**, um die Servicerechnungen zu erstellen.  
@@ -43,7 +42,7 @@ Sie können einen Servicevertrag auch direkt auf der Seite **Servicevertrag** fa
 ## <a name="to-post-an-invoice-from-a-service-order"></a>So buchen Sie eine Rechnung von einem Serviceauftrag  
 Das folgende Verfahren beschreibt, wie der Teil des Service festgelegt wird, der dem Debitor in Rechnung gestellt werden soll.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Serviceaufträge** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Serviceaufträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie den Serviceauftrag, den Sie öffnen möchten, und öffnen Sie die Auftragskarte.  
 3. Wählen Sie die Aktion **Servicezeilen**.  
 4. Suchen Sie im nach den entsprechenden Posten, und geben Sie im Feld **Zu fakturierende Menge** die Mengen an, die Sie dem Debitor in Rechnung stellen möchten.  
@@ -62,12 +61,12 @@ Das folgende Verfahren beschreibt, wie der Teil des Service festgelegt wird, der
 ## <a name="to-create-a-service-invoice-manually"></a>So erstellen Sie eine Servicerechnung manuell  
 Wenn Sie einen Serviceauftrag mit der Option **Rechnung** oder **Liefern und fakturieren** buchen, wird automatisch eine Servicerechnung gebucht. Es kann jedoch erforderlich sein, eine Rechnung zu erstellen, die weder mit einem Servicevertrag noch mit einem Serviceauftrag verknüpft ist. In diesem Verfahren wird beschrieben, wie eine Rechnung zu dem Zeitpunkt erstellt wird, zu dem der Debitor den Service erhält.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Servicerechnungen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Servicerechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine neue Servicerechnung.  
 3. Füllen Sie die **Felder Nr.** Feld  
   
     > [!NOTE]  
-    >  Wenn Sie Nummernserien für Servicerechnungen auf der Seite **Service Einrichtung** eingerichtet haben, drücken Sie die Eingabetaste, um die nächste verfügbare Servicerechnungsnummer auszuwählen.  
+    >  Wenn Sie Nummernserien für Servicerechnungen auf der Seite **Service Einrichtung** eingerichtet haben, Eingabetaste drücken, um die nächste verfügbare Servicerechnungsnummer auszuwählen.  
   
 4. Klicken Sie im Feld **Debitorennr.** Feld geben Sie die Debitorennummer ein. Wählen Sie den relevanten Debitoren aus der Liste.  
   
@@ -80,7 +79,7 @@ Wenn Sie einen Serviceauftrag mit der Option **Rechnung** oder **Liefern und fak
 ## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>So erstellen Sie eine Rechnung, die gebuchte Lieferzeilen aus einem oder mehreren Serviceaufträgen kombiniert 
 Es kann der Fall sein, dass Sie eine Servicerechnung für einen Service erstellen müssen, der bereits aus einem oder aus mehreren Serviceaufträgen geliefert, aber noch nicht fakturiert oder verbraucht wurde. Sie können die Rechnungszeilen anhand der ausgewählten gebuchten Lieferungszeilen für einen bestimmten Debitor automatisch ausfüllen.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Servicerechnungen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Servicerechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder in der Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 3. Erstellen Sie Zeilen für gelieferte, aber noch nicht fakturierte Services. Alternativ können Sie die **Lieferzeilen abrufen** Aktion verwenden, um gebuchte Lieferungszeilen der Rechnung hinzuzufügen.  
 4. Buchen Sie die Servicerechnung.  
@@ -90,7 +89,7 @@ Es kann der Fall sein, dass Sie eine Servicerechnung für einen Service erstelle
 ## <a name="to-create-a-service-credit-memo"></a>So erstellen Sie eine Servicegutschrift  
 Eine Servicegutschrift wird normalerweise verwendet, wenn ein Debitor einen Artikel zurücksendet. Sie kann aber auch als Entschädigung für einen Debitor und als Korrektur einer fehlerhaften Rechnung verwendet werden.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Servicegutschriften** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Servicegutschriften** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder in der Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Die Felder **Buchungsdatum** und **Belegdatum** zeigen ein Arbeitsdatum an. Bei Bedarf können Sie dieses ändern.    
 4. Geben Sie in die Gutschriftszeilen Informationen über die Artikel ein, die zurückgeschickt oder entfernt wurden, oder die Entschädigung, die Sie dem Debitor gewähren möchten.  
@@ -99,3 +98,6 @@ Eine Servicegutschrift wird normalerweise verwendet, wenn ein Debitor einen Arti
 [So buchen Sie Servicerechnungen](service-how-to-post-service-orders.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Servicebuchung](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

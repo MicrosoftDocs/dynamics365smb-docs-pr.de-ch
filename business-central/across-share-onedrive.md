@@ -1,19 +1,18 @@
 ---
-title: Verwendung von OneDrive für Business mit Business Central
-description: Sie können OneDrive for Business verwenden, um Dateien zu speichern, zu verwalten und freizugeben, z.B. Berichte oder Dateianhänge.
+title: Öffnen von Business Central Dateien in OneDrive
+description: Erfahren Sie, wie Sie Business Central-Daten über OneDrive for Business freigeben können.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 92896af6888ef5c39288d511e61d343d3e384a83
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 449fac4cf8d8a19caed8093019e9a804a08d1aaf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589679"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147204"
 ---
 # <a name="opening-business-central-files-in-onedrive"></a>Öffnen von Business Central Dateien in OneDrive
 [!INCLUDE[prod_short](includes/prod_short.md)] macht es Ihnen leicht, Dateien zu speichern, zu verwalten und mit anderen Personen über OneDrive for Business zu teilen. Auf den meisten Seiten, auf denen Dateien verfügbar sind, wie z.B. dem Berichtseingang oder Dateien, die an Datensätze angehängt sind, finden Sie eine **Öffnen in OneDrive** Aktion.

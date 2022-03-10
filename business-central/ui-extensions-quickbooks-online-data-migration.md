@@ -1,29 +1,28 @@
 ---
-title: QuickBooks Online-Migrationserweiterung | Microsoft Docs
+title: QuickBooks Online Datenmigration-Erweiterung
 description: Beschreibt, wie die Erweiterung verwendet wird, um Debitoren, Kreditoren, Artikel und Konten aus QuickBooks Online zu Business Central zu migrieren.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 07/23/2020
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 33de4d2b6d75f79c140c7c2fdf5b84b7a77521d6
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 235c3050eac4dac983f486f66fe9e837e9594c57
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617800"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146060"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Die QuickBooks Online-Datenmigrations-Erweiterung
 
-Diese Erweiterung ist im unterstützten Einrichtungshandbuch **Datenmigration** enthalten, um Ihnen zu helfen, wichtige Geschäftsdaten von QuickBooks Online zu [!INCLUDE[d365fin](includes/d365fin_md.md)] zu migrieren. Dies ist beispielsweise dann nützlich, wenn Ihr Unternehmen wächst und Sie sich entschieden haben, Ihre Geschäftsführungs-App zu aktualisieren, indem Sie mit [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden.
+Diese Erweiterung ist im unterstützten Einrichtungshandbuch **Datenmigration** enthalten, um Ihnen zu helfen, wichtige Geschäftsdaten von QuickBooks Online zu [!INCLUDE[prod_short](includes/prod_short.md)] zu migrieren. Dies ist beispielsweise dann nützlich, wenn Ihr Unternehmen wächst und Sie sich entschieden haben, Ihre Geschäftsführungs-App zu aktualisieren, indem Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] verwenden.
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Welche Daten kann ich von QuickBooks Online importieren?
 
-Sie können die folgenden Daten von QuickBooks Online in [!INCLUDE[d365fin](includes/d365fin_md.md)] importieren:  
+Sie können die folgenden Daten von QuickBooks Online in [!INCLUDE[prod_short](includes/prod_short.md)] importieren:  
 
 * Debitoren
 * Kreditoren
@@ -46,15 +45,15 @@ Ein wichtiger Teil des Migrationsvorgangs ist es, Konten anzugeben, um Transakti
 * Der Kauf von Waren oder Dienste von einem Kreditor.  
 * Änderungen im Fibuposten.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] erfordert, dass Sachkonten die Kontonummern haben, die ihm zugeordnet werden. Überprüfen Sie, ob Kontonummern Ihren Konten in QuickBooks Online zugeordnet wurden.
+[!INCLUDE[prod_short](includes/prod_short.md)] erfordert, dass Sachkonten die Kontonummern haben, die ihm zugeordnet werden. Überprüfen Sie, ob Kontonummern Ihren Konten in QuickBooks Online zugeordnet wurden.
 
-Wenn Transaktionen in QuickBooks Online Steuerbeträge haben, müssen Sie ein Steuerkonto für Ihre Steuerzuständigkeiten in [!INCLUDE[d365fin](includes/d365fin_md.md)] einrichten, bevor Sie Buchungen durchführen können.
+Wenn Transaktionen in QuickBooks Online Steuerbeträge haben, müssen Sie ein Steuerkonto für Ihre Steuerzuständigkeiten in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, bevor Sie Buchungen durchführen können.
 
 ## <a name="how-do-i-start-using-the-extension"></a>Wie beginne ich, die Erweiterung zu nutzen?
 
 Erste Schritte sind einfach. Sie müssen nur das unterstütze Einrichtungshandbuch **Datenmigration** ausführen. So geht es:
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Unterstützte Einrichtung** ein, und wählen Sie dann **Geschäftsdaten migrieren**.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Unterstützte Einrichtung** ein, und wählen Sie dann **Geschäftsdaten migrieren**.
 2. Befolgen Sie die Anweisungen für jeden Schritt im unterstützten Anleitungshandbuch.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Was tue ich, nachdem ich Daten migriert habe?
@@ -63,11 +62,14 @@ Nachdem Sie Daten migriert haben, haben die Transaktionen den Status **Nicht geb
 
 Es gibt mehrere Dinge, die Sie durchführen sollten:
 
-* Wenn die Transaktionen in QuickBooks Online Aufschläge oder Rabattbeträge aufweisen, müssen Sie die Beträge manuell zu den verwandten Transaktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzufügen, bevor Sie diese buchen.
+* Wenn die Transaktionen in QuickBooks Online Aufschläge oder Skontobeträge aufweisen, müssen Sie die Beträge manuell zu den verwandten Transaktionen in [!INCLUDE[prod_short](includes/prod_short.md)] hinzufügen, bevor Sie diese buchen.
 * Wenn Sie MWST verwenden, können Sie eine Geschäftsbuchungsgruppe und eine Produktbuchungsgruppe "Buchungsmatrix Einrichtung" hinzufügen, sodass Sie MWST-Beträge buchen können.
 * Prüfen Sie die Startkapitale für Konten im Fibuposten. QuickBooks Online speichert nicht den aktuellen Saldo für alle Konten, daher müssen Sie möglicherweise Startkapitale korrigieren.
 
 ## <a name="see-also"></a>Siehe auch
 
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
+[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

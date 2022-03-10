@@ -2,7 +2,6 @@
 title: Sammeln von Einrichtungswerten für Debitoren
 description: Der Konfigurationsfragebogen hilft, die Implementierung zu reduzieren, indem er das Einrichten neuer Firmen rationalisiert und den Debitoren eine Excel- oder XML-Datei anbietet.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f0f60976283aeba5a81c9e77e329e1ba91c82ea9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: d26fb334462ad52a14058e8d5f6b9f86088ad3d7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589271"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145984"
 ---
 # <a name="gather-customer-setup-values"></a>Sammeln von Einrichtungswerten für Debitoren
 Verwenden Sie den Einrichtungsfragebogen, um Ihre Implementierungsarbeitslast zu verringern, indem Sie die Aufgabe des Einrichtens neuer Mandanten rationalisieren. Sie können den Einrichtungsfragebogen in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen und Ihrem Debitor als Excel (.xls) oder XML-Datei zur Verfügung stellen.  
@@ -78,7 +77,7 @@ Sie können einen Fragebogen verwenden, um den Umfang und die Anforderungen der 
 -->
 
 3. Wählen Sie die Aktion **Fragenbereiche** aus. Die Seite **Fragenbereiche** wird geöffnet.  
-4. Wählen Sie die Aktion **Neu** aus. Die Seite **Fragenbereiche konfigurieren** wird geöffnet.  
+4. Wählen Sie die Aktion **Neu** aus. Die Seite **Fragenbereich konfigurieren** wird geöffnet.  
 5. Wählen Sie im Feld **Tabellen-ID** die ID der Tabelle aus, für die Sie Daten erfassen möchten. Das Feld **Tabellennamen** wird automatisch ausgefüllt.  
 6. Wählen Sie die **Fragen aktualisieren** Aktion aus. Jedes Feld in der Tabelle wird der Befragung mit einem Fragezeichen hinter seiner Beschriftung hinzugefügt.
 
@@ -136,7 +135,7 @@ Nachdem Sie und Informationen aus einem Konfigurationsfragebogen importiert und 
 3. Sie können Antworten auf eine von zwei Arten anwenden.  
 
 - Um den gesamten Fragebogen anzuwenden, wählen Sie auf der Registerkarte Vorgang die Option **Antworten übernehmen**.  
-- Um Antworten aus einem bestimmten **Fragenbereich** anzuwenden, aktivieren Sie **Fragebereiche**, wählen Sie einen **Fragenbereich** aus der Liste, und wählen Sie anschliessend auf der Registerkarte Start die Option **Antworten anwenden** aus.  
+- Um Antworten aus einem bestimmten **Fragenbereich** anzuwenden, aktivieren Sie **Fragenbereiche**, wählen Sie einen **Fragenbereich** aus der Liste, und wählen Sie anschliessend auf der Registerkarte Start die Option **Antworten anwenden** aus.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>So überprüfen Sie, ob Antworten erfolgreich angewendet wurden
 

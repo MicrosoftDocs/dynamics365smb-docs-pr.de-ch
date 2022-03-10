@@ -1,21 +1,20 @@
 ---
-title: Dimensionssatzposten Übersicht | Microsoft Docs
-description: In diesem Thema wird beschrieben, wie Dimensionssatzposten in Dynamics 365 gespeichert und gebucht werden.
+title: Dimensionssatz-Eintrags-Übersicht
+description: Dieser Artikel gibt Ihnen einen Überblick darüber, wie Dimensionen-Set-Einträge als Dimensions-Set-Einträge gespeichert werden und wie sie gebucht werden.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: e03275c55290cccb2d8e91d7a934379184744a36
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0585c4d266bed92ffb113701650bef5069109fc8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788347"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132043"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensionssatz-Eintrags-Übersicht
 In diesem Thema wird beschrieben, wie Dimensionssatzposten in [!INCLUDE[prod_short](includes/prod_short.md)] gespeichert und gebucht werden.  
@@ -34,7 +33,7 @@ Im folgenden Beispiel wird ein Dimensionssatz gezeigt, der drei Dimensionssatzpo
 ## <a name="dimension-set-entries"></a>Dimensionssatzposten  
 Dimensionssätze werden in der Tabelle als **Dimensionssatzposten** mit derselben Dimensionssatz-ID gespeichert.  
 
-![Fluss von Dimensionssatzeinträgen](media/dimensionentrynav7.png "Fluss der Dimensionssatzeinträge")  
+![Flow von Dimensions-Set-Einträgen.](media/dimensionentrynav7.png "Fluss der Dimensionssatzeinträge")  
 
 Wenn Sie eine neue Erfassungsjournalzeile, einen Belegkopf oder eine Belegzeile erstellen, können Sie eine Kombination von Dimensionswerten angeben. Anstatt jeden Dimensionswert explizit in der Datenbank zu speichern, wird eine Dimensionssatz-ID der Erfassungsjournalzeile, dem Belegkopf oder der Belegzeile zugewiesen, um den Dimensionssatz anzugeben.  
 

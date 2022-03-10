@@ -1,21 +1,20 @@
 ---
-title: QuickBooks-Migrationserweiterung | Microsoft Docs
+title: QuickBooks-Datenmigration-Erweiterung
 description: Beschreibt, wie die Erweiterung verwendet wird, um Debitoren, Kreditoren, Artikel und Konten aus QuickBooks Desktop zu Business Central zu importieren.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2020
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 36b6eb6970daef6ea2e3aafc28ed232942707728
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5c910aa7ab769af315c34db27c065fb8b496c878
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757131"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136757"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Die QuickBooks-Datenmigrationserweiterung
 
@@ -57,12 +56,12 @@ Um die Daten aus der QuickBooks Desktop-Anwendung abzurufen, müssen Sie das Mic
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Die QuickBooks-Datenmigrations-Erweiterung suchen
 
-Die QuickBooks-Datenmigrationserweiterung ist eingerichtet und vorbereitet, um als integrierter Teil des unterstützten Setups bei der Datenmigration zu helfen. Wenn Sie jetzt loslegen möchten und Ihre Daten aus QuickBooks exportiert haben, wählen Sie die Funktion ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") öffnet, geben Sie **Unterstützte Einrichtung** ein und wählen Sie dann den entsprechenden Link. Wählen Sie **Migrieren von Geschäftsdaten** und anschliessend führen Sie die Schritte im Handbuch aus.  
+Die QuickBooks-Datenmigrationserweiterung ist eingerichtet und vorbereitet, um als integrierter Teil des unterstützten Setups bei der Datenmigration zu helfen. Wenn Sie jetzt loslegen möchten und Ihre Daten aus QuickBooks exportiert haben, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Unterstützte Einrichtung** ein, und wählen Sie dann den zugehörigen Link. Wählen Sie **Migrieren von Geschäftsdaten** und anschliessend führen Sie die Schritte im Handbuch aus.  
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Was tue ich, nachdem ich Daten migriert habe?
 
 Nachdem Sie Daten migriert haben, haben die Transaktionen den Status Nicht gebucht, sodass Sie sie überprüfen und Korrekturen vornehmen können. Um die Transaktionen zu überprüfen, wechseln Sie zur Seite in der Sie normalerweise suchen müssen. Beispielsweise um nicht gebuchten Verkaufsrechnungen zu überprüfen, gehen Sie zu der Seite Verkaufsrechnungen. Um Zahlungsausgangs Buch.-Blätter zu überprüfen, wechseln Sie zur Seite Zlg.-Ausg. Buch.-Blätter.
-Sie sollten mehrere Dinge tun: wenn die Transaktionen in QuickBooks einen Aufschlag oder einen Rabatt bei Beträgen bedeuten, müssen Sie die Beträge manuell den entsprechenden Transaktionen in Business Central hinzufügen, bevor Sie sie buchen.
+Sie sollten mehrere Dinge tun: wenn die Transaktionen in QuickBooks einen Aufschlag oder einen Skonto bei Beträgen bedeuten, müssen Sie die Beträge manuell den entsprechenden Transaktionen in Business Central hinzufügen, bevor Sie sie buchen.
 Wenn Sie MWST verwenden, können Sie eine Geschäftsbuchungsgruppe und eine Produktbuchungsgruppe "Buchungsmatrix Einrichtung" hinzufügen, sodass Sie MWST-Beträge buchen können.
 Prüfen Sie die Startkapitale für Konten im Fibuposten. QuickBooks speichert nicht den aktuellen Saldo für alle Konten, daher müssen Sie möglicherweise Startkapitale korrigieren.
 
@@ -70,3 +69,6 @@ Prüfen Sie die Startkapitale für Konten im Fibuposten. QuickBooks speichert ni
 
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: E-Mail in Business Central einrichten
+title: E-Mail in Business Central festlegen (enthält ein Video)
 description: Beschreibt, wie E-Mail-Konten mit Business Central verbunden werden, damit Sie ausgehende Nachrichten senden können, ohne eine andere App öffnen zu müssen.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
+ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 791033d9b4077ad6e3bf37ab04956113183b5f2b
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: dfeb85bae0329059d4dda9b5edc302b4d0e908e6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440527"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142563"
 ---
 # <a name="set-up-email"></a>E-Mail einrichten
 Menschen in Unternehmen senden täglich Informationen und Belege wie Verkaufsbelege und Bestellungen sowie Rechnungen per E-Mail. Administratoren können dies vereinfachen, indem sie ein oder mehrere E-Mail-Konten mit [!INCLUDE[prod_short](includes/prod_short.md)] verbinden. So können Sie Belege senden, ohne eine E-Mail-App öffnen zu müssen. Sie können jede Nachricht einzeln mit grundlegenden Formatierungswerkzeugen wie Schriftarten, Stilen, Farben usw. zusammenstellen und Anhänge mit bis zu 100 MB hinzufügen. Administratoren können auch Berichtslayouts einrichten, die nur die wichtigsten Informationen aus Belegen enthalten. Weitere Informationen finden Sie unter [Senden von Belegen über E-Mail](ui-how-send-documents-email.md).
@@ -118,7 +118,7 @@ Im Folgenden finden Sie Beispiele für die Verwendung von Senden als und Senden 
 > Sie können nur ein Konto verwenden, um Absenderadressen zu ersetzen. Das heisst, Sie können nicht eine Ersatzadresse für Einkaufsprozesse und eine andere für Verkaufsprozesse haben.
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Um eine Ersatz-Senderadresse einzurichgen für alle ausgehenden E-Mail-Nachrichten
-1. In dem **Exchange Admin Center** für Ihr Microsoft 365-Konto suchen Sie das Postfach, das als Ersatzadresse verwendet werden soll, und kopieren Sie die Adresse oder notieren Sie sie. Wenn Sie eine neue Adresse benötigen, rufen Sie Ihr Microsoft 365 Admin Center auf, um einen neuen Benutzer zu erstellen und dessen Postfach einzurichten.
+1. In dem **Exchange Admin Center** für Ihr Microsoft 365 Konto suchen Sie das Postfach, das als Ersatzadresse verwendet werden soll, und kopieren Sie die Adress oder notieren Sie sie. Wenn Sie eine neue Adresse benötigen, rufen Sie Ihr Microsoft 365 Admin Center auf, um einen neuen Benutzer zu erstellen und dessen Postfach einzurichten.
 2. Wählen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **SMTP-E-Mail-Einrichtung** ein, und wählen Sie dann den zugehörigen Link.
 3. In dem Feld **Senden als** geben Sie in das Feld die Ersatzadresse ein.
 4. Kopieren oder notieren Sie die Adresse im Feld **Benutzeridentifikation**.

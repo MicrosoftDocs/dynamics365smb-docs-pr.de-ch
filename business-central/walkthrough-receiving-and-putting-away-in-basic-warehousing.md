@@ -1,27 +1,26 @@
 ---
-title: 'Exemplarische Vorgehensweise: Eingang und Einlagerung bei Basis-Lagerkonfigurationen | Microsoft Docs'
-description: In Business Central können die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.
+title: 'Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen'
+description: In Business Central können die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten, mit den verschiedenen Funktionen, immer abhängig von der Lagerkomplexitätsebene, ausgeführt werden.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3df8666206409aaf811faedb635b47f1a0688b3b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: cca66a1e693e63b1d83b6d37d3f8c2957b3edf46
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193433"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144529"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen
 
-**Hinweis**: In dieser exemplarischen Vorgehensweise muss in einem Demomandanten mit der Option **Volle Auswertung - vollständige Beispieldaten** ausgeführt werden, die in der Sandboxumgebung verfügbar ist. Weitere Informationen finden Sie unter [Erstellen einer Sandbox-Umgebung](across-how-create-sandbox-environment.md).
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] können die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] können die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.  
 
 |Art|Eingangsprozess|Lagerplätze|Geb. Umlag.-Eingänge|Einlagerungen|Komplexitätsebene anzeigen (siehe [Designdetails: Lagerhaus-Einrichtung](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -52,6 +51,9 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert.
 -   Überprüfen, dass Lagerplätze der Einlagerung von der Einkaufsbestellung übernommen werden.  
 -   Erfassen der Lagerplatzumlagerung in das Lager und gleichzeitig Buchen der Einkaufslieferung für die ursprüngliche Einkaufsbestellung.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## <a name="roles"></a>Rollen  
 Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen ausgeführt:  
 
@@ -65,7 +67,7 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 -   CRONUS AG installieren.  
 -   Machen Sie sich anhand der nachfolgenden Schritte zu einem Lagermitarbeiter am Standort SILVER:  
 
-    1.  Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion") Symbol, geben Sie **Lagerort-Mitarbeiter** ein und wählen Sie dann den entsprechenden Link.  
+    1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den zugehörigen Link.  
     2.  Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto auf der Seite **Benutzer** aus.  
     3.  Geben Sie im Feld **Lagerortcode** SILVER ein.  
     4.  Wählen Sie das Feld **Standard** aus.  
@@ -74,11 +76,11 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 Ellen, die Einkäuferin bei der CRONUS AG ist, erstellt eine Bestellung für 10 Einheiten des Artikels LS-75 und 30 Einheiten des Artikels LS-81 von dem Kreditor 10000, um zum SILVER-Lagerhaus geliefert zu werden. Wenn die Lieferung im Lager eingeht, lagert John, der Lagermitarbeiter, die Artikel in die Standardlagerplätze ein, die für die Artikel eingerichtet sind. Wenn John Einlagerungen bucht, werden die Artikel gebucht als im Lager erhalten und verfügbar zum Verkauf oder anderen Bedarf.  
 
 ## <a name="setting-up-the-location"></a>Einrichten des Lagerorts  
- Das Einrichten der Seite **Standortkarte** definiert die Warenflüsse des Unternehmens.  
+ Das Einrichten der Seite **Lagerortkarte** definiert die Warenflüsse des Unternehmens.  
 
 ### <a name="to-set-up-the-location"></a>So richten Sie den Lagerort ein  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Lagerorte** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie die SILBERNE Lagerortkarte.  
 3.  Aktivieren Sie das Kontrollkästchen **Einlagerung erforderlich**  
 
@@ -98,7 +100,7 @@ Bestellungen sind die häufigste Art des eingehenden Herkunftsbelegs.
 
 ### <a name="to-create-the-purchase-order"></a>Bestellung erstellen  
 
-1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature öffnet](media/ui-search/search_small.png "Tell Me-Funktion") Symbol, geben Sie **Bestellungen** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Erstellen Sie eine Bestellung für den Kreditor 10000 auf das Arbeitsdatum (23. Januar) mit den folgenden Einkaufszeilen.  
 
@@ -108,7 +110,7 @@ Bestellungen sind die häufigste Art des eingehenden Herkunftsbelegs.
     |LS-81|SILBER|S-01-0001|30|  
 
     > [!NOTE]  
-    >  Der Lagerplatzcode wird automatisch gemäss der Einrichtung eingegeben, dem Sie im "Aufstellung Lagerort" Abschnitt zulassen.  
+    >  Der Lagerplatzcode wird automatisch gemäss der Einrichtung eingegeben, dem Sie im Aufstellung Lagerort Abschnitt zulassen.  
 
     Fahren Sie fort, das Lager zu informieren, dass die Einkaufsbestellung in Lagerdurchlaufzeit bereit ist, wenn die Lieferung eingeht.  
 
@@ -121,7 +123,7 @@ Auf der Seite **Lagerkommissionierung** können Sie alle eingehenden Lageraktivi
 
 ### <a name="to-receive-and-put-the-items-away"></a>Artikel erhalten und einlagern  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Einlagerungslager** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Lagereinlagerungen** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Wählen Sie das Feld **Herkunftsbeleg** , und wählen Sie **Einkaufsauftrag** aus.  
 4.  Wählen Sie das Feld **Herkunftsnr.** aus, wählen Sie die Zeile für den Einkauf von Kreditor 10000 aus, und wählen Sie dann die Schaltfläche **OK**.  
@@ -144,4 +146,7 @@ Auf der Seite **Lagerkommissionierung** können Sie alle eingehenden Lageraktivi
  [Ad-hoc-Umlagerung von Artikeln in Basis-Lagerkonfigurationen](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Designdetails: Eingehender Lagerfluss](design-details-inbound-warehouse-flow.md)   
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
- [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
