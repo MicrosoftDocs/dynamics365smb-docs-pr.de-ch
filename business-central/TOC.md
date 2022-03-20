@@ -88,13 +88,15 @@
 ##### [Designdetails: Buchungs-Modul-Struktur](design-details-posting-engine-structure.md)  
 
 ## Testen
+### [Für eine kostenlose Dynamics 365 Business Central-Testversion registrieren](trial-signup.md)
+### [Häufig gestellte Fragen zur Dynamics 365 Business Central-Testversion](trial-faq.md)
 ### [Testversionen und Abonnements](across-preview.md)
 ### [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)
 ### [Problembehandlungs-Selbstbedienungs-Registrierung](ui-troubleshoot-self-signup.md)
 ### [Verlängern Ihrer Testversion](admin-extend-trial.md)
 ### [Business Central kündigen oder entfernen](admin-cancel.md)
 ## Kaufen
-### [Erste Schritte mit einem Abonnement](across-preview.md#getting-started-with-a-subscription)
+### [Erste Schritte mit einem Abonnement](across-preview.md#get-started-with-a-subscription)
 ### [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)
 
 ## Schnelleinstieg
@@ -557,7 +559,7 @@
 #### [Entfernen und erneutes Ausgleichen von Lagerposten](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Schliessen von offenen Lagerposten aus einem festen Ausgleich im Artikel Erf.-Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Melden von Kosten und Abstimmen mit dem Fibuposten
-##### [Berichterstellung zu Kosten](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Berichterstellung zu Kosten](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)
 ##### [Abstimmen der Lagerregulierung mit dem Fibuposten](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)
 #### [Anpassen von Lagerkosten und Abstimmen der Kosten mit dem Fibuposten mithilfe der Aufgabenwarteschlange](finance-adjust-reconcile-inventory-cost-job-queue.md)
