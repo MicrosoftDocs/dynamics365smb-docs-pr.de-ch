@@ -7,39 +7,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.search.form: 17, 18, 20, 21, 37, 65, 99, 118, 312, 313, 314, 395, 552, 569, 570, 634, 790, 791, 1158
-ms.date: 12/03/2021
+ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
+ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 5f168132dc747e76c514ae1bd78e8d2f86a7b609
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 1834cfe7bbbc933a1aebddbc94ea6dfe09523605
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366764"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510886"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Grundlegendes zum Fibukonto und zum Kontenplan
 
 Die Fibuposten speichern Ihre Finanzdaten, und der Kontenplan zeigt die Konten, auf die alle Fibuposten gebucht werden, an. [!INCLUDE[prod_short](includes/prod_short.md)]umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
 
-## <a name="general-ledger-setup-and-general-posting-setup"></a>Finanzbuchhaltung Einrichtung und Buchungsmatrix Einrichtung
+## <a name="general-ledger-setup-and-general-posting-setup"></a>Finanzbuchhaltungs-Einrichtung und Buchungsmatrix Einrichtung
 
-Die Einrichtung der Fibuposten ist das Kernstück der Finanzvorgängen, da sie definieren, wie Sie Daten buchen.  
+Die Einrichtung der Fibuposten ist das Kernstück der Finanzvorgängen, da sie definieren, wie Sie Daten buchen. Zwei Seiten spielen eine wichtige Rolle bei der Konfiguration Ihrer Finanzprozesse:  
 
-Auf der Seite **Fibuposten einrichten** geben Sie an, wie bestimmte finanzbuchhalterische Sachverhalte in Ihrem Unternehmen gehandhabt werden sollen, wie beispielsweise:  
+* Die Seite **Finanzbuchhaltung Einrichtung**
 
-* Rechnungsrundungskontodetails  
-* Adressformate  
-* Finanzberichterstellung  
+    Auf der Seite **Fibuposten einrichten** geben Sie an, wie bestimmte finanzbuchhalterische Sachverhalte in Ihrem Unternehmen gehandhabt werden sollen, wie beispielsweise:  
 
-> [!TIP]
-> Die Seite **Fibuposten Einrichtung** enthält allgemeine Felder sowie Felder, die für Ihr Land oder Ihre Region spezifisch sind. Wenn Sie nicht sicher sind, welche Bedeutung ein Feld hat, empfehlen wir Ihnen, mit Ihrem Buchhalter zusammenzuarbeiten, um zu ermitteln, ob es für Ihre Organisation relevant ist.  
+    * Rechnungsrundungskontodetails  
+    * Adressformate  
+    * Finanzberichterstellung  
 
-Ebenso geben Sie auf der Seite **Buchungsmatrix Einrichtung** an, wie Sie Kombinationen aus Geschäftsbuchungsgruppen und Produktbuchungsgruppen einrichten wollen. Buchungsgruppenzuordnungseinheiten nach Debitoren, Kreditoren, Artikel, Ressourcen und Einkaufs- und Verkaufsbelegen mit Fibukonten. Für jede Kombination aus Geschäftsbuchungsgruppe und Produktbuchungsgruppe geben Sie eine Zeile ein. Sie können jedoch auch jede Zeile in einer eigenen Buchungseinrichtungskarte öffnen. Weitere Informationen finden Sie unter [Gruppenbuchungen einrichten](finance-posting-groups.md).  
+    > [!TIP]
+    > Die Seite **Fibuposten Einrichtung** enthält allgemeine Felder sowie Felder, die für Ihr Land oder Ihre Region spezifisch sind. Wenn Sie nicht sicher sind, welche Bedeutung ein Feld hat, empfehlen wir Ihnen, mit Ihrem Buchhalter zusammenzuarbeiten, um zu ermitteln, ob es für Ihre Organisation relevant ist. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-> [!TIP]
-> Wenn Sie die gesuchten Felder auf der Seite **Buchungsmatrix einrichten** nicht sehen können, verwenden Sie die horizontale Bildlaufleiste am unteren Rand der Seite, um nach rechts zu scrollen.  
+    Öffnen Sie die Seite [hier](https://businesscentral.dynamics.com/?page=118)
+* Die Seite **Buchungsmatrix Einrichtung**
 
-## <a name="the-chart-of-accounts"></a>Kontenplan
+    Ebenso geben Sie auf der Seite **Buchungsmatrix Einrichtung** an, wie Sie Kombinationen aus Geschäftsbuchungsgruppen und Produktbuchungsgruppen einrichten wollen. Buchungsgruppenzuordnungseinheiten nach Debitoren, Kreditoren, Artikel, Ressourcen und Einkaufs- und Verkaufsbelegen mit Fibukonten. Für jede Kombination aus Geschäftsbuchungsgruppe und Produktbuchungsgruppe geben Sie eine Zeile ein. Sie können jedoch auch jede Zeile in einer eigenen Buchungseinrichtungskarte öffnen. Weitere Informationen finden Sie unter [Gruppenbuchungen einrichten](finance-posting-groups.md).  
+
+    > [!TIP]
+    > Wenn Sie die gesuchten Felder auf der Seite **Buchungsmatrix einrichten** nicht sehen können, verwenden Sie die horizontale Bildlaufleiste am unteren Rand der Seite, um nach rechts zu scrollen.  
+
+    Öffnen Sie die Seite [hier](https://businesscentral.dynamics.com/?page=314)
+
+## <a name="the-chart-of-accounts"></a>Der Kontenplan
 
 Das Kontenschema zeigt alle Fibukonten an. Vom Kontenplan aus können Sie Dinge tun wie:  
 
@@ -49,7 +56,7 @@ Das Kontenschema zeigt alle Fibukonten an. Vom Kontenplan aus können Sie Dinge 
 * Sie können ausserdem eine Liste von Buchungsgruppen anzeigen, die auf dieses Konto buchen.
 * Ansicht der Soll- und Habensalden von einzelnen Sachkonten  
 
-Sie können Fibukonten hinzufügen, ändern oder löschen. Um jedoch Differenzen zu verhindern, können Sie ein Fibuposten nicht löschen, wenn Daten im Kontenschema verwendet werden.  
+Sie können Fibukonten hinzufügen, ändern oder löschen. Um jedoch Differenzen zu verhindern, können Sie ein Fibukonto nicht löschen, wenn Daten im Kontenschema verwendet werden. Ausserdem können Sie ab dem zweiten Veröffentlichungszyklus 2022 das versehentliche Löschen von Konten in sensiblen Zeiträumen blockieren. Weitere Informationen finden Sie unter [Löschen von Konten](finance-setup-chart-accounts.md#delete-accounts).  
 
 ## <a name="account-categories"></a>Kontokategorien
 
@@ -69,20 +76,20 @@ Zum Beispiel hat der Standard-Bilanzauszug eine Unterkategorie für *Kasse* unte
 
     * Eine für die Portokasse  
     * Eine für Ihr Girokonto  
-2. Geben Sie die zusätzlichen Berichtsdefinition **Bargeldkonten** für diese Unterkategorien an.  
+2. Geben Sie die weitere Berichtsdefinition **Bargeldkonten** für diese Unterkategorien an.  
 3. Fassen Sie diese in der Unterkategorie **Bar** zusammen.  
 
 Wenn Sie das nächste Mal Kontenschema erstellen, zeigt Ihr Kontoauszug einen Gesamtsaldo für Bargeld und zwei Zeilen mit Salden für die Portokasse und das Girokonto.  
 
-## <a name="getting-a-quick-overview"></a>Einen schnellen Überblick erhalten
+## <a name="get-a-quick-overview"></a>Einen schnellen Überblick erhalten
 
-Auf der Seite Kontenplan werden die Konten in einer hierarchischen Liste angezeigt, die einen schnellen Zugriff auf die wichtigsten Informationen zu jedem Konto bietet. Allerdings ist die Liste statisch, und wenn Sie viele Konten haben, müssen Sie möglicherweise ein wenig blättern, um die Informationen zu den einzelnen Konten anzuzeigen. Wenn Sie nur einen schnellen Überblick über die Grundlagen wie Nettoveränderungen und Salden haben möchten, ist die Seite **Kontenplan Übersicht** eine nützliche Alternative. Das Spaltenlayout auf der Seite ist jetzt dasselbe wie auf der Seite Kontenplan (es gibt nur weniger davon), sodass Sie sich nicht neu orientieren müssen, und Sie können die Hierarchieebenen erweitern oder reduzieren, um die Ansicht zu verdichten. Um den Wechsel zwischen den Seiten zu erleichtern, ist die Seite **Kontenplan Übersicht** von der Seite Kontenplan aus zugänglich.
+Auf der Seite **Kontenplan** werden die Konten in einer hierarchischen Liste angezeigt, die einen schnellen Zugriff auf die wichtigsten Informationen zu jedem Konto bietet. Allerdings ist die Liste statisch, und wenn Sie viele Konten haben, müssen Sie möglicherweise ein wenig blättern, um die Informationen zu den einzelnen Konten anzuzeigen. Wenn Sie nur einen schnellen Überblick über die Grundlagen wie Nettoveränderungen und Salden haben möchten, ist die Seite **Kontenplan Übersicht** eine nützliche Alternative. Das Spaltenlayout auf der Seite ist jetzt dasselbe wie auf der Seite **Kontenplan** (es gibt nur weniger davon), sodass Sie sich nicht neu orientieren müssen, und Sie können die Hierarchieebenen erweitern oder reduzieren, um die Ansicht zu verdichten. Um den Wechsel zwischen den Seiten zu erleichtern, ist die Seite **Kontenplan Übersicht** von der Seite **Kontenplan** aus zugänglich.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Zugriff auf das Erstellen und Bearbeiten von Konten und Kontokategorien
 
 In einer kleinen Organisation, wie der CRONUS-Demo-Firma, können die meisten Benutzer den Kontenplan bearbeiten, mit Ausnahme von Benutzern mit einer TEAM MEMBER-Lizenz. In grösseren Organisationen ist der Zugriff auf die Bearbeitung des Kontenplans jedoch durch Rollen und Berechtigungen eingeschränkt. Wenn Sie ein Administrator sind oder die Rolle *Geschäftsführer* oder *Buchhalter* haben, können Sie die Berechtigungen für alle Benutzer überprüfen, um sicherzustellen, dass die richtigen Personen Zugriff auf die relevanten Tabellen haben. Weitere Informationen finden Sie unter [So erhalten Sie eine Übersicht der Benutzerberechtigungen](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Finanzen](finance.md)  
 [Einrichten oder Ändern des Kontenplans](finance-setup-chart-accounts.md)  

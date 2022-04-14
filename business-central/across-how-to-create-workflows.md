@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: d7dc36d95a458e6edfa303540c97c2f4fb57da78
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131022"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521294"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Workflows erstellen, um Geschäftsprozess-Aufgaben zu verbinden
 
@@ -104,7 +104,7 @@ Für beide Arten von Ereignissen gilt, dass die Ereignisse systemdefiniert sind.
     >  Sie können den Einzug eines Schrittes nur ändern, wenn er keinen folgenden Schritt hat.  
 
 12. Wiederholen Sie die Schritte 7 bis 11, um weitere Workflowschritte hinzuzufügen (entweder vor oder nach dem Schritt, den Sie gerade angelegt haben).  
-13. Wählen Sie das Kontrollkästchen **Aktiviert**, um anzugeben, dass der Workflow startet, sobald das Ereignis vom Typ **Einstiegspunkt** auftritt. Weitere Informationen erhalten Sie unter [Workflows verwenden](across-use-workflows.md).  
+13. Wählen Sie das Kontrollkästchen **Aktiviert**, um anzugeben, dass der Workflow startet, sobald das Ereignis vom Typ **Einstiegspunkt** auftritt. Weitere Informationen finden Sie unter [Workflows verwenden](across-use-workflows.md).  
 
 > [!NOTE]  
 > Aktivieren Sie keinen Workflow, bevor Sie sicher sind, dass der Workflow abgeschlossen wurde und dass die entsprechenden Workflowschritte beginnen können.  

@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.form: 9297
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 35b9753a1d21ebfbd2970699c720b0e97ed5bcb4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: de9216c02f44d159f077beeba00a44952a6a92aa
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142173"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519792"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Abstimmen der Lagerregulierung mit dem Fibuposten
 
@@ -27,7 +27,7 @@ Selbst wenn Lagerkosten automatisch in die Finanzbuchhaltung gebucht werden, ist
 
 ## <a name="to-post-inventory-costs-manually"></a>Lagerkosten manuell buchen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Lagerkosten ins Hauptbuch buchen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Lagerkosten ins Hauptbuch buchen** ein, und wählen Sie dann den zugehörigen Link.
 2. Sie buchen eine Lagerkosten manuell im Fibuposten, indem Sie den Batchauftrag ausführen. Wenn Sie diesen Batchauftrag ausführen, werden auf Basis der Wertposten Fibuposten erstellt. Sie können die Posten buchen, damit diese pro Buchungsgruppe zusammengefasst werden.
 
 > [!NOTE]  
@@ -82,8 +82,8 @@ Die Werte werden in der folgenden Tabelle beschrieben.
 |Anzeigen des Lagerwerts ausgewählter Artikel, einschliesslich der tatsächlichen Kosten und der Soll-Kosten zum angegebenen Datum|Bericht **Lagerbew.-Einst.-Pr.-Ermittl.**|  
 |Verwenden eines Berichts zum Analysieren der Ursachen für Kostenschwankungen oder zum Verschaffen eines Überblicks über den Kostenanteil verkaufter Artikel (Lagerverbrauch)|Bericht **Kostenanteilsanalyse**|  
 
-## <a name="see-also"></a>Siehe auch  
-[Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
+## <a name="see-also"></a>Weitere Informationen  
+[Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verkauf](sales-manage-sales.md)    
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

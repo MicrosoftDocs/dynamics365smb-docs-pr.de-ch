@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 5cc5f6039a25161267127f40f4f3077725c5d0bc
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5da6070b00d635cba1aa2cbd7bb282d226d96023
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334969"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521716"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Erstellen eines Lesezeichens für eine Seite oder einen Bericht im Rollencenter
 Mit dem Lesezeichensymbol können Sie über das Navigationsmenü Ihres Rollencenters eine Aktion hinzufügen, die eine Seite oder einen Bericht öffnet. Lesezeichen lassen zu, dass Sie schnell zu Ihren bevorzugten Inhalten oder Geschäftsaufgaben gelangen. Sie fügen das Lesezeichen von der Zielseite oder dem Zielbericht aus hinzu, d. h. von dem Bildschirm, der durch den Link im Rollenzentrum geöffnet werden soll.
@@ -81,7 +81,7 @@ Wenn Sie ein neues Lesezeichen hinzufügen, wird jeder übersetzte Text, der zu 
 - **Warum kann ich keinen Text in eine Seite einfügen, nachdem ich sie mit dem Lesezeichen geöffnet habe?**<br> Wenn eine Seite mit einem Lesezeichen versehen wird, wird die Seite immer im Ansichtsmodus vom Lesezeichen aus geöffnet &mdash; auch wenn sie sich beim Setzen des Lesezeichens im Bearbeitungsmodus befand. Die Auswahl des Symbols **Änderungen auf der Seite vornehmen**![Zeigt das Bleistift-Symbol zum Bearbeiten der Seite an.](media/edit-pencil.png) lässt Sie Text in die bearbeitbaren Felder einfügen.
 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  

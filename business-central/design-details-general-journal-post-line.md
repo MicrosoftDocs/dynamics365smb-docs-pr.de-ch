@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: e4eaf147fd18ee3f215aa670fe75458603ca16dc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 429e32d8d4675812b503efc9a22cdded6e21023e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143623"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523020"
 ---
 # <a name="design-details-general-journal-post-line"></a>Designdetails: Fibu Erf.-Journal-Beitrags-Zeile
 
@@ -29,7 +29,7 @@ Diese Dokumentation stellt einen detaillierten technischen Einblick in die Urheb
 [Designdetails: Buchungs-Schnittstellenstruktur](design-details-posting-interface-structure.md)  
 [Designdetails: Buchungs-Modul-Struktur](design-details-posting-engine-structure.md)  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Arbeiten mit Fibu Erfassungsjournalen](ui-work-general-journals.md)
 [Designdetails: Fibu Erf.-Journal-Buchungszeilen (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  

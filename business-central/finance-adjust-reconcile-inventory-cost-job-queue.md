@@ -10,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: andreipa
-ms.openlocfilehash: 40642b524e44234cda8ef0bd468ff8eb47decb69
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4dda49e125445ab754ce63dc6b2fc530ca59fcc4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142277"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516992"
 ---
 # <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Aufträge für die Anpassung und Abstimmung der Kalkulation von Beständen mit dem Fibuposten planen
 
@@ -39,7 +39,7 @@ Das Erstellen der Aufgabenwarteschlangeneinträge kann selbst für einen erfahre
 
 Alternativ können Sie Aufgabenwarteschlangenposten manuell erstellen. Das folgende Verfahren zeigt, wie Sie den Batchauftrag **Lagerreg. fakt. Einst. Preise** einrichten, sodass er täglich ausgeführt wird, aber die gleichen Schritte gelten für den Batchauftrag **Lagerreg. buchen**.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Aufgabenwarteschlangeneinträge** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Aufgabenwarteschlangeneinträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Wählen Sie im Feld **Auszuführender Objekttyp** die Option *Bericht* aus.  
 4. Wählen Sie im Feld **Auszuführende Objekt-ID** die ID *795*, **Lagerreg. fakt. Einst. Preise** aus.  

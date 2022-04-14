@@ -10,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, customer refun
 ms.search.form: 256, 233, 624, 1228
 ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: fa43027481ba7b9eb970182eb62b5e2aa728fb06
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 8b64ed6fc1342ec5f274b28f5a670bc329555e44
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367269"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520956"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Rekordzahlungen und Erstattungen im Zahlungsausgangs Erf.-Journal
 
@@ -69,7 +69,7 @@ Das Erf.-Journal ist ein Fibu Erf.-Journal, das zum Anwenden von Zahlungen optim
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Einrichten von Banken](bank-setup-banking.md)  
 [Um eine Positive Pay-Datei zu exportieren](finance-how-positive-pay.md)  
-[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
+[Arbeiten mit Fibu Erfassungsjournalen](ui-work-general-journals.md)  
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

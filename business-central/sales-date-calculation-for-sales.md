@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: bee576ce77411e15710e9f09ccbc6ef457f80728
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e195e6658bc495b5d06764114d971c9fc4b7b484
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145460"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522630"
 ---
 # <a name="date-calculation-for-sales"></a>Terminberechnung für Verkäufe
 [!INCLUDE[prod_short](includes/prod_short.md)] berechnet automatisch das frühestmögliche Datum, an dem ein Artikel in einer Verkaufsauftragszeile geliefert werden kann.
@@ -32,7 +32,7 @@ Wenn Sie in einer Verkaufszeile ein gewünschtes Lieferdatum eingeben, wird dies
 Falls die Artikel am Lieferdatum zur Kommissionierung zur Verfügung stehen, kann der Verkaufsvorgang fortgesetzt werden. Anderenfalls wird eine Warnmeldung wegen fehlenden Bestands angezeigt.
 
 > [!Note]
-> Falls Ihr Prozess auf einer Rückwärtsberechnung basiert, beispielsweise bei Verwendung des gewünschten Lieferdatums zum Ermitteln des geplanten Warenausgangsdatums, empfiehlt sich die Verwendung von Datumsformeln mit fester Dauer, wie etwa „5D“ für fünf Tage oder „1W“ für eine Woche. Datumsformeln ohne feste Dauer, wie etwa „LW“ für laufende Woche oder „LM“ für laufender Monat können zu fehlerhaften Datumsberechnungen führen. Weitere Informationen über Datumsformeln finden Sie unter [Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md).
+> Falls Ihr Prozess auf einer Rückwärtsberechnung basiert, beispielsweise bei Verwendung des gewünschten Lieferdatums zum Ermitteln des geplanten Warenausgangsdatums, empfiehlt sich die Verwendung von Datumsformeln mit fester Dauer, wie etwa „5D“ für fünf Tage oder „1W“ für eine Woche. Datumsformeln ohne feste Dauer, wie etwa „LW“ für laufende Woche oder „LM“ für laufender Monat können zu fehlerhaften Datumsberechnungen führen. Weitere Informationen zu Datumsformeln finden Sie unter [Arbeiten mit Kalenderdaten und -zeiten](ui-enter-date-ranges.md).
 
 ## <a name="calculating-the-earliest-possible-delivery-date"></a>So berechnen Sie das frühestmögliche Lieferdatum:
 Wenn Sie kein angefordertes Lieferdatum auf der Verkaufsauftragszeile angeben oder das angeforderte Lieferdatum nicht eingehalten werden kann, wird das früheste Datum, an dem die Artikel verfügbar sind, berechnet. Dieses Datum wird dann im Feld Versanddatum auf der Zeile eingegeben, und das Datum, an dem Sie planen, die Artikel zu liefern, sowie das Datum, an dem Sie an den Kunden ausgeliefert werden, werden anhand der nachfolgenden Formeln berechnet.

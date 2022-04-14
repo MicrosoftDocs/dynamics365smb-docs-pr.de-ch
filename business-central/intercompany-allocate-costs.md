@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a4abd45046beb70376490dbd4209f33debf6b573
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a9118614872559a9b2c321e7869f1b013266d92b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382087"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522158"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Kosten den Intercompanypartnern zuordnen
 Wenn Sie konzerninterne Buchungen verwenden, um Belege zwischen Partnerunternehmen zu übertragen, steuern die den Kunden- oder Lieferantenkonten (dem konzerninternen Partner zugeordneten) zugewiesenen umsatzsteuerlichen Einstellungen (hauptsächlich die Umsatzsteuer-Geschäftsbuchungsgruppe), ob und wie die Mehrwertsteuer berechnet und registriert wird. Sie können Kostenverteilungen auch direkt von einer Bestellung an Partnerunternehmen durchführen. Wenn Sie beispielsweise eine Kaufrechnung von einem externen Anbieter registrieren und einen Teil oder die gesamten Kosten an einen oder mehrere konzerninterne Partner verteilen möchten.
@@ -69,7 +69,7 @@ Das folgende Verfahren beschreibt die Zuordnung von Kosten mithilfe einer Einkau
 1. Um die Bestellung zu buchen, wählen Sie **Buchen**.
 
 ## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Um die zugeordneten Kosten an die Intercompanypartner zu senden
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **IC-Ausgangstransaktionen** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **IC-Ausgangstransaktionen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die zu sendenden Zeilen aus und wählen Sie dann die **An IC-Partner senden** Aktion aus. 
 3. Um die Kosten zuzuordnen, wählen Sie die Aktion **Komplette Linienaktionen** aus.
 
@@ -90,7 +90,7 @@ Wenn Sie einen Beleg verwenden, um die Kosten an konzerninterne Partner zu verte
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
-[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
+[Arbeiten mit Fibu Erfassungsjournalen](ui-work-general-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

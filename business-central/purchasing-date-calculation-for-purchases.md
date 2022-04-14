@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 5c9a0c61b2f02e3f3750c3d8c23153df2634299d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35151e830c44cb3edd28988887f86b8abf7a3b51
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132720"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514895"
 ---
 # <a name="date-calculation-for-purchases"></a>Terminberechnung für Einkäufe
 
@@ -34,7 +34,7 @@ Falls es ein gewünschtes Wareneingangsdatum in der Einkaufsbestellungszeile gib
 Wenn Sie ein gewünschtes Wareneingangsdatum im Bestellkopf angegeben haben, wird dieses Datum in das entsprechende Feld in allen Zeilen kopiert. Sie können dieses Datum in den einzelnen Zeilen ändern oder entfernen.  
 
 > [!NOTE]
-> Falls Ihr Prozess auf einer Rückwärtsberechnung basiert, beispielsweise bei Verwendung des gewünschten Wareneingangsdatums zum Ermitteln des Bestelldatums, empfiehlt sich die Verwendung von Datumsformeln mit fester Dauer, wie etwa „5D“ für fünf Tage oder „1W“ für eine Woche. Datumsformeln ohne feste Dauer, wie etwa „LW“ für laufende Woche oder „LM“ für laufender Monat können zu fehlerhaften Datumsberechnungen führen. Weitere Informationen über Datumsformeln finden Sie unter [Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md).
+> Falls Ihr Prozess auf einer Rückwärtsberechnung basiert, beispielsweise bei Verwendung des gewünschten Wareneingangsdatums zum Ermitteln des Bestelldatums, empfiehlt sich die Verwendung von Datumsformeln mit fester Dauer, wie etwa „5D“ für fünf Tage oder „1W“ für eine Woche. Datumsformeln ohne feste Dauer, wie etwa „LW“ für laufende Woche oder „LM“ für laufender Monat können zu fehlerhaften Datumsberechnungen führen. Weitere Informationen zu Datumsformeln finden Sie unter [Arbeiten mit Kalenderdaten und -zeiten](ui-enter-date-ranges.md).
 
 ## <a name="calculating-without-a-requested-delivery-date"></a>Berechnung ohne ein gewünschtes Wareneingangsdatum
 

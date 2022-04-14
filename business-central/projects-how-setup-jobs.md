@@ -8,12 +8,12 @@ ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d4880f91c53e8618db9be5e0bcdbfa396cbf21fd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e150dfec7471ad755ce6e0f69a224a36f24fc6f3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137459"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514922"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Jobs, Preise und Buchungsgruppen festlegen
 
@@ -67,9 +67,8 @@ Die folgende Tabelle zeigt, wie die Informationen in den optionalen Feldern in P
 |**Projektartikel**|Die Felder **Projektaufgabennr.**, **Währungscode** und **Zeilenskonto %**. Dies ist der Wert im Feld **Einheitspreis** der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieser Artikel eingegeben wird. Beachten Sie, dass dieser Preis immer Vorrang vor dem regulären Kundenpreis (Mechanismus für „bester Preis“) für Artikel hat. Wenn Sie den Mechanismus für den regulären Kundenpreis verwendet wollen, erstellen Sie keine Projektartikelpreise für das Projekt.|
 |**Fibukonten**|Die Informationen in den Feldern **Projektaufgabennr.**, **Währungscode**, **Zeilenskonto %**, **Einheitskostenfaktor** und **Einheitskosten** werden auf den Projektplanungszeilen und Projekt-Erfassungsjournalen verwendet, wenn dieses Fibukonto eingegeben und einem Projekt hinzugefügt wird. Füllen Sie das Feld **Einheits-Preis** für das Aufwandsfibukonto aus. Dies ist der Verkaufspreis, der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieses Fibukonto eingegeben wird.|
 
----
 #### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience)
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Markieren Sie den entsprechenden Job und wählen Sie dann die Aktion **Verkaufspreislisten**.
 
 ---

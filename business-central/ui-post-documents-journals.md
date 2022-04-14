@@ -9,12 +9,12 @@ ms.workload: na
 ms.date: 06/24/2021
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.author: edupont
-ms.openlocfilehash: 13c2639ab416fd472850fef5161f0f374024bb51
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5aa00f32bbe3fe35c2f860c37c7b1849c7f7a1c6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335592"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513459"
 ---
 # <a name="posting-documents-and-journals"></a>Journale und Belege buchen
 Das Buchen stellt die Buchhaltungsaktion vom Aufzeichnen von Geschäftstransaktionen in verschiedenen Mandantensachkontos dar.
@@ -28,7 +28,7 @@ Die folgende Tabelle enthält Informationen zu verwandten Aufgaben wie Links zu 
 | Erfahren sie mehr zum Buchen von Kaufbelegen. |[Einkäufe buchen](ui-post-purchases.md) |
 | Erfahren sie mehr zum Buchen von Verkaufsbelegen. |[Verkäufe buchen](ui-post-sales.md) |
 | Buchen Sie mehrere Kauf- oder Verkaufsbelege gleichzeitig, sofort oder wie geplant.|[Mehrere Belege gleichzeitig buchen](ui-batch-posting.md)|
-| Erfahren Sie mehr zum Buchen von allgemeinen Vorlagen. |[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md) |
+| Erfahren Sie mehr zum Buchen von allgemeinen Vorlagen. |[Arbeiten mit Fibu Erfassungsjournalen](ui-work-general-journals.md) |
 | Auf einer Seite die Posten in der Vorschau anzeigen, die erstellt werden, wenn Sie buchen. |[Vorschau-Buchungs-Ergebnisse](ui-how-preview-post-results.md) |
 | In einem Bericht die Posten in der Vorschau anzeigen, die erstellt werden, wenn Sie buchen. |[Anzeigen von Testberichten vor dem Buchen](ui-how-view-test-reports-posting.md) |
 

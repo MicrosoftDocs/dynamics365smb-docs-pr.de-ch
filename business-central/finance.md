@@ -10,12 +10,12 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 44c7475921c679cc03ee25e8c05ffa78d04592f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ef243581ddd0df9b546e3f2a40b2f1d666f73dc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135972"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515655"
 ---
 # <a name="financial-management"></a>Finanzmanagement
 
@@ -69,7 +69,7 @@ Das folgende Video stellt einige der wichtigsten Funktionen für die Verwaltung 
 [Schliessen des Finanzzeitraums](year-close-years-periods.md)  
 [Projekte verwalten](projects-manage-projects.md)  
 [Daten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
-[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
+[Arbeiten mit Fibu Erfassungsjournalen](ui-work-general-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

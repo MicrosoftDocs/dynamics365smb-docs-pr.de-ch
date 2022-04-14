@@ -11,12 +11,12 @@ ms.search.keywords: user setup
 ms.search.form: 118
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 749f5d2dc901fae9db9c96d4f1c51e9590aa8184
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 558dcdf68f8ecc6a7c8def0b6a61a33d78f8f68b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142199"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516331"
 ---
 # <a name="specify-posting-periods"></a>Festlegen von Buchhaltungsperioden:
 
@@ -24,13 +24,13 @@ Verwenden Sie Buchhaltungsperioden, um anzugeben, wenn Benutzer die Fibuposten b
 
 ## <a name="to-specify-posting-periods"></a>Buchhaltungsperioden festlegen:
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Hauptbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Fibuposten einrichten** legen Sie die Periode fest, indem Sie Daten in den Feldern **Buchungen zugel. ab** und **Buchungen zugel. bis** eingeben.  
 
 > [!NOTE]  
 > Diese Buchungszeiträume gelten für den Mandanten und alle Anwender. Wenn Sie für verschiedene Benutzer verschiedene Buchungszeiträume definieren möchten, können Sie diese auf der Seite **Benutzer einrichten** Diese Buchungszeiträume haben Vorrang vor jenen, die auf der Seite **Fibu Einrichtung** angegeben werden. Weitere Informationen finden Sie unter [So richten Sie Zeiteinschränkungen ein](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Finanzen](finance.md)  
 [Abschliessen von Periodenabschlüssen](year-how-complete-period-end-processes.md)  

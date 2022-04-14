@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900, 9018, 9022
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 317e90976aed760f55fc7122483377e8df11c906
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: b52d90dfadfac794ff1a62088def7c26a903a57d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335176"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512668"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 
@@ -275,7 +275,7 @@ Anstatt den Standarddrucker zu verwenden, wenn Sie einen Bericht ausführen, kö
 
 Das Drucken in der Cloud ist für Belege mit einer angemessenen Grösse vorgesehen. Die meisten Clouddienste, einschliesslich PrintNode und HP ePrint, sind auf 10 MB pro Auftrag begrenzt. Wenn Sie grössere Berichte drucken müssen, müssen Sie diese möglicherweise in mehrere Ausdrucke aufteilen.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Berichte drucken](ui-work-report.md#PrintReport)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

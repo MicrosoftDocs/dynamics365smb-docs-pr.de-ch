@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ed45facfc64dda670d0e1e4d7dd9b396b4c11fae
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5a9fd8a1d4ac379c2c20d832f8cace206e549375
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132799"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516045"
 ---
 # <a name="reverse-output-posting"></a>Gebuchte fertig gestellte Menge stornieren
 
@@ -22,7 +22,7 @@ Es kann vorkommen, dass die Buchung einer fertig gestellten Menge storniert werd
 
 ## <a name="to-reverse-an-output-posting"></a>Eine Ausgangsbuchung stornieren
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Erfassung Erf.-Journal** ein und wählen Sie dann den zugehörigen Link. Wählen Sie Ihren Stapel aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Erfassung Erf.-Journal** ein und wählen Sie dann den zugehörigen Link. Wählen Sie Ihren Stapel aus.  
 2. Füllen Sie die Felder je nach Bedarf aus. Weitere Informationen finden Sie unter [Produktionsausgabe und Laufzeiten über Stapelverarbeitung buchen](production-how-to-post-output-quantity.md)
 3. Wählen Sie im Feld **Ausgleich mit Lfd. Nr.** den zugeordneten Lagerposten aus. Dadurch werden der Kapazitäts- und der Lagerposten storniert.  
 4. Erfen Sie die Stornierung, indem Sie das Erf.-Journal buchen.  
@@ -33,7 +33,7 @@ Die Posten im FA-Istmeldungsprotokoll werden im HauptLagerposten als positiver A
 
  [Produktion](production-manage-manufacturing.md) [Produktion einrichten](production-configure-production-processes.md)  
  [Planung](production-planning.md)  
- [Lagerbestand](inventory-manage-inventory.md)  
+ [Bestand](inventory-manage-inventory.md)  
  [Einkauf](purchasing-manage-purchasing.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

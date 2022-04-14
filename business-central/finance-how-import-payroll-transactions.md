@@ -10,12 +10,12 @@ ms.search.keywords: Ceridian, Quickbooks, salary
 ms.search.form: 1660, 1661, 36601
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2bd2ab34093bc3aac8ff7d470936a39da893cf82
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2f4d5d7ab215a46e89551642739470d68cec761b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147766"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515077"
 ---
 # <a name="importing-payroll-transactions"></a>Importieren von Transaktionen der Gehaltsabrechnung
 
@@ -26,7 +26,7 @@ Um Gehaltszahlungen und verwandte Transaktionen zu berücksichtigen, müssen Sie
 
 ## <a name="to-import-a-payroll-file"></a>Um eine Lohndatei zu importieren
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Allgemeine Erfassungen** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Allgemeine Erfassungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie im relevanten Fibu Buch.-Blattname die Aktion **Gehaltsabrechnungstransaktionen importieren** aus. Ein unterstützter Einrichtungsleitfaden wird geöffnet.
 3. Befolgen Sie die Schritte auf der Seite **Gehaltsabrechnungstransaktionen importieren**.
 
@@ -36,11 +36,11 @@ Um Gehaltszahlungen und verwandte Transaktionen zu berücksichtigen, müssen Sie
     Wenn Sie die Schaltfläche **OK** im unterstützten Einrichtungsleitfaden auswählen, wird die Seite **Fibu Erf.-Journal** mit den Zeilen ausgefüllt, die die Transaktionen darstellen, die die Gehaltsabrechnungsdatei enthält und dabei werden die relevanten Konten in den Feldern **Fibukonto** vorausgefüllt, gemäss den Zuordnungen, die Sie im Leitfaden vorgenommen haben.
 4. Bearbeiten oder buchen Sie die Erf.-Journalzeilen für andere Fibupostenstransaktionen. Weitere Informationen finden Sie unter [Transaktionen direkt im Fibuposten buchen](finance-how-post-transactions-directly.md).   
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Finanzen](finance.md)  
 [Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
-[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
+[Arbeiten mit Fibu Erfassungsjournalen](ui-work-general-journals.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

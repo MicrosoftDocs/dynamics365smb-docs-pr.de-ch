@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550,
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: 644b21b887d622c4ece3b3354de227cb4a1d89c5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 883a2d75b2d12f87a49eb84a6b545da30310274c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141009"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518013"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Verfolgen Sie Artikel mit Serien-, Chargen‑ und Paketnummern
 
@@ -52,7 +52,7 @@ Unternehmen möchten eventuell ihre Artikel von dem Moment an verfolgen, an dem 
 
 Auf diese Weise werden die Nummern automatisch durch alle ausgehenden Lageraktivitäten ohne Interaktion der Lagermitarbeiter übertragen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Öffnen Sie entweder eine vorhandene Bestellung, oder erstellen Sie eine neue.
 3. Wählen Sie die gewünschte Belegzeile und im Inforegister **Zeilen** die Aktion **Zeile** und anschliessend die Aktion **Artikeltrackingzeilen** aus, um die Seite **Bearbeiten – Artikeltrackingzeilen** zu öffnen.  
 
@@ -91,7 +91,7 @@ Die Funktionen unterstützen die folgenden ausgehenden Prozesse:
 
 In diesen Situationen werden die existierenden Artikeltrackingzeilen automatisch in die Rechnung oder Gutschrift kopiert, die Seite **Artikeltrackingzeilen** lässt allerdings keine Änderung der Serien- oder Chargennummer zu. Nur die Mengen können geändert werden.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie eine Einkaufsrechnung für Artikel, die mit Serien- oder Chargennummern eingekauft werden.  
 3. Wählen Sie in der Einkaufsrechnungszeile im Inforegister **Zeilen** die Option Funktion aus, und wählen Sie dann **Wareneingangszeilen holen** aus.  
 4. Wählen Sie auf der Seite **Wareneingangszeile holen** eine Wareneingangszeile aus, die Artikeltrackingzeilen hat, und klicken Sie anschliessend auf **OK**.  
@@ -160,7 +160,7 @@ Die Vorgehensweise zur Verarbeitung von Serien- und Chargennummern, die zwischen
 
 Der Umlagerungsauftrag ist allerdings insofern etwas Besonderes, als der Warenausgang und der Eingang von derselben Umlagerungszeile aus erfolgen und sie daher die gleiche Instanz der Seite **Artikeltrackingzeilen** verwenden. Das bedeutetet, dass die Artikeltrackingnummern, die von dem einen Lagerort ausgeliefert werden, unverändert an dem anderen Ort ankommen müssen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Umlagerungsaufträge** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Umlagerungsaufträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den Umlagerungsauftrag, die Sie bearbeiten möchten. Wählen Sie im Inforegister **Zeilen** die Aktion **Zeile**, die Aktion **Artikeltrackingzeilen** und dann die Aktion **Lieferung** aus.  
 3. Auf der Seite **Artikeltrackingzeilen** weisen Sie eine Serien-/Chargennummer zu oder wählen eine aus, wie für jede andere ausgehende Artikeltransaktion.  
 

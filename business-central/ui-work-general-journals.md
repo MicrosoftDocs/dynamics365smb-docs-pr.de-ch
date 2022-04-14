@@ -10,14 +10,14 @@ ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e697127998351040cb21c44c8383f1f64581bf4
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 365dae77b153794826681e500a1a753f6f749e55
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381340"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518771"
 ---
-# <a name="working-with-general-journals"></a>Arbeiten mit Fibu Buch.-Blättern
+# <a name="work-with-general-journals"></a>Mit Fibu Erfassungsjournalen arbeiten
 
 Die meisten Finanztransaktionen werden in den Fibuposten von Geschäftsbelegen wie Einkaufsrechnungen und Verkaufsaufträge gebucht. Sie können auch Geschäftsaktivitäten wie Einkauf, Zahlung, die Verwendung wiederkehrender Erfassungsjournale, um Abgrenzungen zu buchen, oder Rückerstattung von Mitarbeiterausgaben verarbeiten, indem Sie Erfassungsjournalzeilen in den verschiedenen Erfassungsjournalen in [!INCLUDE[prod_short](includes/prod_short.md)] buchen.  
 
@@ -34,7 +34,7 @@ Die in ein Erf.-Journal eingegebenen Informationen sind temporär und können ge
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
-## <a name="using-journal-templates-and-batches"></a>Buch-Blattvorlagen und Stapel nutzen
+## <a name="use-journal-templates-and-batches"></a>Erf.-Journalvorlagen und -namen verwenden
 
 Es gibt mehrere Fibu Erfassungsjournalvorlagen. Jede Erf.-Journalvorlage wird durch eine spezifisches Seite mit bestimmten Funktionen und den Feldern dargestellt, die benötigt werden, um diese Funktionen zu unterstützen, wie die Seite **Zahlungs-Abstimmungs-Erf.-Journal**, um Bankzahlungen zu verarbeiten, und die Seite **Zahlungsausgangs Erf.-Journal**, um Ihre Mitarbeiter zu bezahlen. Weitere Informationen finden Sie unter [Zahlungen vornehmen](payables-make-payments.md) und [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Erf.-Journal oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md).
 
@@ -51,7 +51,9 @@ Um Verzögerungen beim Buchen zu vermeiden, können Sie eine Hintergrundüberpr�
 
 Wenn Sie die Überprüfung aktivieren, wird die Infobox **Erf.-Journal-Prüfung** neben den Erfassungsjournalzeilen angezeigt und zeigt Probleme in der aktuellen Zeile und im gesamten Stapel an. Die Überprüfung erfolgt, wenn Sie einen Finanz-Erf.-Journalnamen laden und eine andere Erf.-Journalzeile auswählen. Die Kachel **Probleme insgesamt** in der Infobox zeigt die Gesamtanzahl von Problemen, die [!INCLUDE[prod_short](includes/prod_short.md)] gefunden hat, und Sie können sie auswählen, um eine Übersicht über die Probleme zu öffnen. 
 
-Sie können die Aktionen **Zeilen mit Problemen anzeigen** und **Alle Zeilen anzeigen** anzeigen, um zwischen Erfassungsjournalzeilen umzuschalten, die Probleme haben oder keine. Die neue Infobox **Erfassungsjournalzeilendetails** bietet einen schnellen Überblick und Zugriff auf Daten aus Erfassungsjournalzeilen, wie z. B. Fibukonto, Debitor oder Kreditor sowie zur Buchungseinrichtung für bestimmte Konten.     
+Sie können die Aktionen **Zeilen mit Problemen anzeigen** und **Alle Zeilen anzeigen** anzeigen, um zwischen Erfassungsjournalzeilen umzuschalten, die Probleme haben oder keine. Die neue Infobox **Erfassungsjournalzeilendetails** bietet einen schnellen Überblick und Zugriff auf Daten aus Erfassungsjournalzeilen, wie z. B. Fibukonto, Debitor oder Kreditor sowie zur Buchungseinrichtung für bestimmte Konten.   
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
 ### <a name="reversing-journals-to-correct-mistakes"></a>Stornieren von Erfassungsjournalen, um Fehler zu korrigieren
 Wenn Sie mit Erfassungsjournalen arbeiten, die viele Zeilen haben und etwas schief geht, ist es wichtig, dass sich Fehler leicht korrigieren lassen. Die Seite **Gebuchtes Fibu Erf.-Journal** bietet eine Reihe von Aktionen, die helfen können.
@@ -73,7 +75,7 @@ Wurden auf der Seite **Erfassungsjournale** Standardgegenkonten für die Erf.-Jo
 > [!NOTE]  
 > Die MWST für Haupt- und Gegenkonto wird getrennt berechnet, damit für die Konten unterschiedliche MWST-Prozentsätze verwendet werden können.
 
-## <a name="working-with-recurring-journals"></a>Arbeiten mit wiederkehrenden Erfassungsjournalen
+## <a name="work-with-recurring-journals"></a>Mit wiederkehrenden Erfassungsjournalen arbeiten
 Bei einem wiederkehrenden Erf.-Journal handelt es sich um ein Fibu Erf.-Journal mit speziellen Feldern für die Verwaltung von Transaktionen, die häufig und ohne oder und mit geringen Änderungen gebucht werden. Mithilfe dieser speziellen Felder für wiederkehrende Transaktionen können Sie feste und variable Beträge buchen. Sie können auch ein automatisches Storno für den Tag nach dem Buchungsdatum festlegen und wiederkehrende Posten zusammen mit Verteilungsschlüsseln verwenden. Sie können auch Umlageschlüssel verwenden, um wiederkehrende Posten mit einem einzigen Vorgang zwischen verschiedenen Konten aufteilen zu können. Weitere Informationen finden Sie unter [Zuordnung von Beträgen des wiederkehrenden Erf.-Journals auf mehrere Konten](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Regelmässig gebuchte Transaktionen müssen in einem wiederkehrenden Erf.-Journal nur einmal eingegeben werden. Das bedeutet, dass Einträge wie Konten, Dimensionen oder Dimensionswerte nach der Buchung im Erfassungsjournal verbleiben. Eventuelle Änderungen können Sie bei jeder Buchung vornehmen.
@@ -97,7 +99,7 @@ Dieses Feld legt fest, wie der in der Erf.-Journalzeile angegebene Betrag nach d
 > Sie können die Mehrwertsteuerfelder entweder in der wiederkehrenden Erfassungsjournalzeile oder in der Verteilungs Erf.-Journalzeile, aber niemals in beiden gleichzeitig, ausfüllen. Das heisst, sie können auf der Seite **Zuweisungen** nur passende Zeilen eintragen, wenn die entsprechenden Zeilen nicht im wiederkehrenden Erf.-Journal eingetragen werden.
 
 ### <a name="recurring-frequency-field"></a>Feld Wiederholungsrate
-Das Feld legt fest, wie oft der Posten in der Erf.-Journalzeile gebucht wird. Das ist ein Datumsformelfeld, und es muss für andere Zeilen des wiederkehrenden Erf.-Journals ausgefüllt werden. Weitere Informationen zu finden Sie unter [Verwenden von Datumsformeln](ui-enter-date-ranges.md#using-date-formulas).
+Das Feld legt fest, wie oft der Posten in der Erf.-Journalzeile gebucht wird. Das ist ein Datumsformelfeld, und es muss für andere Zeilen des wiederkehrenden Erf.-Journals ausgefüllt werden. Weitere Informationen zu finden Sie unter [Verwenden von Datumsformeln](ui-enter-date-ranges.md#use-date-formulas).
 
 #### <a name="examples"></a>Beispiele
 Wenn die Erf.-Journalzeile z. B. monatlich gebucht werden soll, geben Sie "1M" ein. Nach jeder Buchung wird dann das Datum im Feld **Buchungsdatum** auf dasselbe Datum im nächsten Monat aktualisiert.
@@ -145,7 +147,7 @@ Abgrenzungen werden normalerweise mit wiederkehrenden Methoden Fest, Variabel od
 > [!NOTE]
 > Standardmässig ist das Feld **Stornierungsdatumsberchnung** auf der Seite **Wiederkehrende Fibu Erfassungsjournale** nicht verfügbar. Um das Feld zu verwenden, müssen Sie es hinzufügen, indem Sie die Seite personalisieren. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
-## <a name="working-with-standard-journals"></a>Arbeiten mit Standard-Buchblättern
+## <a name="work-with-standard-journals"></a>Mit Standard-Erfassungsjournalen arbeiten
 Wenn Sie Erfassungsjournalzeilen erstellt haben, die Sie wahrscheinlich zu einem späteren Zeitpunkt erneut erstellen werden, können Sie sich entscheiden, diese als Standard Erfassungsjournal zu speichern, bevor Sie das Erfassungsjournal buchen. Diese Funktionalität wird in Artikel Buch.-Blätter und Buch.-Blätter angewendet.
 
 > [!NOTE]  

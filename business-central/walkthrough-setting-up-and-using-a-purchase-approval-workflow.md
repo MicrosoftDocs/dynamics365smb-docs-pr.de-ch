@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 1d3e30185d4e5486c6e56941d08cc1586b2c554f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138194"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520088"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows
 
@@ -51,7 +51,7 @@ Wenn Sie sich als Sie selbst angemeldet haben, richten Sie Alicia als Genehmigun
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>So richten Sie sich selbst und Christine als Genehmigungsbenutzer ein
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Genehmigungsbenutzereinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Genehmigungsbenutzereinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Genehmigungsbenutzereinrichtung** die Aktion **Neu** aus.  
 
     > [!NOTE]  
@@ -92,7 +92,7 @@ Erstellen Sie den Einkaufsbestellungs-Genehmigungsworkflow, indem Sie die Schrit
     Die Seite **Workflow** wird für einen neuen Workflow geöffnet, der alle Informationen der ausgewählten Vorlage enthält. Der Wert im Feld **Code** wird mit **-01** erweitert. Dies zeigt an, dass dies der erste Workflow ist, der von der *Einkaufsbestellungs-Genehmigungsworkflow*-Workflow-Vorlage erstellt wurde.  
 4. Aktivieren Sie im Kopfbereich der **Workflow**-Seite das **Aktiviert**-Kontrollkästchen.  
 
-## <a name="using-the-approval-workflow"></a>Nutzung des Genehmigungsworkflows
+## <a name="use-the-approval-workflow"></a>Den Genehmigungsworkflow nutzen
 
 Verwenden Sie den neuen Workflow zur Genehmigung von Bestellungen, indem Sie sich zuerst bei [!INCLUDE[prod_short](includes/prod_short.md)] als Alicia anmelden, um die Genehmigung einer Bestellung zu beantragen. Melden Sie sich dann als Sie selbst an, lesen Sie die Notiz im Rollencenter, folgen Sie dem Link zur Genehmigungsanfrage und genehmigen Sie die Anfrage.  
 
@@ -119,7 +119,7 @@ Die Basisversion von [!INCLUDE[prod_short](includes/prod_short.md)] umfasst mehr
 
 Sie definieren Workflowsvariationen, indem Sie die Felder in den Workflowzeilen über vordefinierte vom Anwendungscode unterstützten Listen mit Ereignissen und Reaktionen ausfüllen. Weitere Informationen finden Sie unter [Workflows erstellen](across-how-to-create-workflows.md).  
 
-Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unterstützt wird, muss ein Microsoft-Partner diese implementieren, indem er den Workflow mithilfe von Power Automate anpasst. Weitere Informationen finden Sie unter [Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] in einem automatisierten Workflow](across-how-use-financials-data-source-flow.md) oder [Veranstaltungen in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) in der Entwicklerhilfe.
+Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unterstützt wird, muss ein Microsoft-Partner diese implementieren, indem er den Workflow mithilfe von Power Automate anpasst. Weitere Informationen finden Sie unter [[!INCLUDE[prod_short](includes/prod_short.md)] in einem automatisierten Workflow verwenden](across-how-use-financials-data-source-flow.md) oder [Veranstaltungen in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) in der Entwicklerhilfe.
 
 ## <a name="see-also"></a>Siehe auch
 
@@ -128,7 +128,7 @@ Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unters
 [Erstellen eines Workflows](across-how-to-create-workflows.md)  
 [Artikelgenehmigungsworkflow verwenden](across-how-use-approval-workflows.md)  
 [Workflow](across-workflow.md)  
-[Business Central  in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md)  
+[Business Central in einem automatisierten Workflow verwenden](across-how-use-financials-data-source-flow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

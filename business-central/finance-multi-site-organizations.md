@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ec650016000d8f6007a3abfa839cea7f1422de7b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 88877f719ec969fbca6dfd5928faf185b447bb42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382079"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520374"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central für Unternehmen mit mehreren Standorten und internationale Organisationen
 Organisationen mit mehreren Standorten verwenden häufig ein Hub-and-Spoke-Geschäftsmodell, bei dem eine übergeordnete Firma oder die Zentrale die gesamten Vorgänge des Unternehmens verwaltet, während jeder Standort als einzelne, unabhängige Entität fungiert. Die Standorte sind oft geografisch verteilt und haben unterschiedliche Anforderungen an den Informationsaustausch mit der Firma in der Zentrale. Ausserdem benötigen die Standorte in der Regel nicht den gleichen Grad an Komplexität und haben oft nicht die Ressourcen, um ein grosses System zu pflegen.
@@ -66,7 +66,7 @@ Richten Sie die Organisation auf Ihre Geschäftsziele aus, indem Sie ein allgeme
 
 | **Business-Anforderung** | **Wie Business Central sie unterstützt** | **Mehr erfahren** |
 |-------------------------|-------------------------|-------------------------|
-| Teilen Sie Insights mit Standorten ohne umfangreiche IT-Unterstützung. | Erstellen Sie KPIs und Business Intelligence Dashboards in Power BI auf der Basis Ihrer Daten. | [Arbeiten mit Business Central-Daten in Power BI](across-working-with-business-central-in-powerbi.md) |
+| Teilen Sie Insights mit Standorten ohne umfangreiche IT-Unterstützung. | Erstellen Sie KPIs und Business Intelligence Dashboards in Power BI auf der Basis Ihrer Daten. | [Mit Business Central-Daten in Power BI arbeiten](across-working-with-business-central-in-powerbi.md) |
 | Entwickeln Sie angepasste Finanzberichte. | Generieren Sie parameterbasierte Finanzberichte. | [Business Intelligence](bi.md) |
 | Orientieren Sie sich an den Fakten. | Generieren Sie Berichte, zeigen Sie sie an und teilen Sie sie mit internen und externen Beteiligten. | [Finanzberichte](finance-reports.md) |
 | Analysieren Sie Daten in Excel. | Finden Sie Fakten, beheben Sie Probleme und führen Sie Ad-hoc-Analysen in Microsoft Excel durch. | [Analysieren von Finanzberichten in Excel](finance-analyze-excel.md) |
@@ -83,7 +83,7 @@ APIs und XMLports vereinfachen den Prozess der Verbindung von Instanzen von [!IN
 | Posten und Importieren von XML-Belegen. | Codeunits können als ungebundene Aktionen ausgesetzt werden, um das Posten und Einbinden von XML-Belegen zu unterstützen. Zum Verarbeiten von XML-Belegen können XMLports verwendet werden. Ungebundene Aktionen sind auch in der Lage, ein XML- oder JSON-Dokument zu erzeugen. | [XMLport-Objekte](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
 | Erleichtern Sie die Wartung durch elektronischen Datenaustausch. | Eine Lösung für den elektronischen Datenaustausch kann hinzugefügt werden, um als Integrationsschicht zwischen der Firma in der Zentrale und den Standorten zu dienen. | [Data Exchange Framework](across-about-the-data-exchange-framework.md) |
 | Tauschen Sie Daten zwischen verschiedenen Systemen aus. | Verwenden Sie XMLports, um XML-Belege zu erstellen, die dann zwischen einer Firma in der Zentrale, die ein System verwendet, und Standorten, die Business Central verwenden, ausgetauscht werden können. | [XMLport-Übersicht](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
-| Orchestrieren Sie komplexen Datenaustausch. | Verwenden Sie eine Kombination aus XMLports mit Business Central und Microsoft BizTalk Server, um die speziellen Anforderungen an Ihren Standorten zu erfüllen.</br>Verwenden Sie für komplexe Anforderungen eine Lösung für den elektronischen Datenaustausch auf Basis von BizTalk Server und Commerce Gateway in Business Central in Kombination mit den XMLports. | [Arbeiten mit Berichten, Stapelverarbeitungen und XMLports](ui-work-report.md) |
+| Orchestrieren Sie komplexen Datenaustausch. | Verwenden Sie eine Kombination aus XMLports mit Business Central und Microsoft BizTalk Server, um die speziellen Anforderungen an Ihren Standorten zu erfüllen.</br>Verwenden Sie für komplexe Anforderungen eine Lösung für den elektronischen Datenaustausch auf Basis von BizTalk Server und Commerce Gateway in Business Central in Kombination mit den XMLports. | [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md) |
 | Verbinden Sie sich mit Lösungen und Diensten von Dritt<sup></sup>parteien. | APIs stellen eine Punkt-zu-Punkt-Verbindung zwischen Business Central und Lösungen und Diensten von Dritt<sup></sup>parteien her. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
@@ -105,9 +105,9 @@ Die Firma in der Zentrale muss in der Lage sein, schnell auf geschäftliche Ver�
 | **Business-Anforderung** | **Wie Business Central sie unterstützt** | **Mehr erfahren** |
 |-------------------------|-------------------------|-------------------------|
 | Automatisch E-Mail-Warnungen generieren. | Legen Sie in Power Automate Alarme fest, die E-Mails generieren, um Sie über kritische Geschäftsbedingungen an Standorten oder Partnern in der Lieferkette zu informieren. | [Business Central und Power BI](admin-powerbi.md) |
-| Verwenden Sie Standard- oder angepasste Alarme. | Verwenden Sie 12 verschiedene Vorlagen, die für Business Central mitgeliefert werden, oder legen Sie Ihre eigenen Alarme fest, die zu Ihrem Unternehmen passen. | [Business Central  in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md) |
+| Verwenden Sie Standard- oder angepasste Alarme. | Verwenden Sie 12 verschiedene Vorlagen, die für Business Central mitgeliefert werden, oder legen Sie Ihre eigenen Alarme fest, die zu Ihrem Unternehmen passen. | [Business Central in einem automatisierten Workflow verwenden](across-how-use-financials-data-source-flow.md) |
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Verwaltung von Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

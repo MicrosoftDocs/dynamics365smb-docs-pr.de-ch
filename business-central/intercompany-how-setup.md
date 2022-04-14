@@ -7,49 +7,60 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 605, 620, 602, 603, 601, 600, 652, 606, 607, 609, 608, 621
-ms.date: 04/01/2021
+ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
+ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 7efbc6f80eb59b9f0be1640ea2bf6cb57afea4c6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 398f5bbbe30730057093f8550cef27a514cbc20a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131809"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515551"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Buchung von Intercompany-Transaktionen festlegen
 
-Wenn Sie eine Transaktion (beispielsweise eine Verkaufs Erf.-Journalzeile) von einem Unternehmen an ein anderes Unternehmen senden möchten und im Partnerunternehmen automatisch die entsprechende Transaktion (beispielsweise eine Einkaufs Erf.-Journalzeile) erstellt werden soll, müssen sich die Unternehmen auf einen gemeinsamen Kontenplan sowie auf eine Gruppe von Dimensionen für Intercompanytransaktionen einigen. Bei dem Intercompanykontenplan kann es sich beispielsweise um eine vereinfachte Version des Kontenplans der Muttergesellschaft handeln. In jedem Unternehmen wird der eigene vollständige Kontenplan dem gemeinsam genutzten Intercompanykontenplan zugeordnet, und auch die Dimensionen des jeweiligen Unternehmens werden den Intercompanydimensionen zugeordnet.  
+Intercompany-Buchungen vereinfachen die Buchhaltung für zwei oder mehr Unternehmen für eine zentrale Finanzabteilung und Buchhalter in Intercompany-Partnerunternehmen. Wenn Sie eine Transaktion (beispielsweise eine Verkaufs Erf.-Journalzeile) von einem Unternehmen an ein anderes Unternehmen senden möchten und im Partnerunternehmen automatisch die entsprechende Transaktion (beispielsweise eine Einkaufs Erf.-Journalzeile) erstellt werden soll, müssen sich die Unternehmen auf einen gemeinsamen Kontenplan sowie auf eine Gruppe von Dimensionen für Intercompanytransaktionen einigen. Bei dem Intercompanykontenplan kann es sich beispielsweise um eine vereinfachte Version des Kontenplans der Muttergesellschaft handeln. In jedem Unternehmen wird der eigene vollständige Kontenplan dem gemeinsam genutzten Intercompanykontenplan zugeordnet, und auch die Dimensionen des jeweiligen Unternehmens werden den Intercompanydimensionen zugeordnet.  
 
-Sie müssen einen Intercompanypartnercode für jedes Partnerunternehmen einrichten, der zwischen allen Unternehmen vereinbart wurde, und diese dann Kreditorenkarten bzw. Debitorkarten zuweisen, indem Sie das Feld **Intercompanypartnercode** ausfüllen.  
+Sie müssen einen Intercompanypartnercode für jedes [!INCLUDE [prod_short](includes/prod_short.md)]-Unternehmen einrichten, der zwischen allen Unternehmen vereinbart wurde, und diese dann Kreditorenkarten bzw. Debitorkarten zuweisen.  
 
 Wenn Sie Intercompanyzeilen mit Artikeln erstellen oder erhalten, können Sie entweder eigene Artikelnummern verwenden oder für die betreffenden Artikel jeweils die Artikelnummern des Partners einrichten, indem Sie das **Feld Kred.-Artikelnr.** oder das Feld **Gemeinsame Artikelnr.** auf der Artikelkarte verwenden. Sie können auch die Funktion **Artikelreferenz** verwenden, um die Nummern Ihrer Artikel den Artikelbeschreibungen Ihrer Intercompany-Partner zuzuordnen. Öffnen Sie die Karteikarte jedes Artikels und wählen Sie dann die Aktion **Artikelreferenzen**, um Referenzen zwischen Ihren Artikelbeschreibungen und denen des Intercompany-Partners festzulegen. Weitere Informationen finden Sie unter [Verwendung von Element-Referenzen](inventory-how-use-item-cross-refs.md). 
 
-Wenn Sie Intercompany-Verkaufstransaktionen vornehmen, die Ressourcen beinhalten, müssen Sie auf der Ressourcenkarte der entsprechenden Ressourcen das Feld **IC-Partner Eink.-Sachkontonr.** ausfüllen. Das Feld enthält die Nummer des Intercompanyfibukontos im Unternehmen Ihres Partners, auf das die Ressource gebucht wird. Weitere Informationen finden Sie unter [Ressourcen einrichten](projects-how-setup-resources.md).
+Wenn Sie Intercompany-Verkaufstransaktionen vornehmen, die Ressourcen beinhalten, müssen Sie auf der Ressourcenkarte der entsprechenden Ressourcen das Feld **IC-Partner Eink.-Sachkontonr.** ausfüllen. Das Feld enthält die Nummer des Intercompanyfibukontos im Unternehmen Ihres Partners, auf das die Ressource gebucht wird. Weitere Informationen finden Sie unter [Ressourcen einrichten](projects-how-setup-resources.md). 
 
-## <a name="to-set-up-companies-for-intercompany-transactions"></a>Unternehmen für Intercompanytransaktionen einrichten
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Unternehmensdaten** ein, und wählen Sie dann den zugehörigen Link.  
-2. Füllen Sie auf der Seite **Unternehmensdaten** die Felder **Intercompanypartnercode**, **Intercompanyeingangsart** und **Intercompanyeingangsdetails** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+> [!NOTE]
+> Intercompany-Einkaufstransaktionen, die Ressourcen, Anlagevermögen und Artikelgebühren enthalten, werden nicht vollständig unterstützt. Im Unternehmen Ihres Intercompany-Partners bleibt das Feld **Positionstyp** in Einkaufsbelegzeilen leer, die diese Entitäten enthalten. Sie müssen sie das Feld manuell aktualisieren. 
 
-## <a name="to-set-intercompany-partners"></a>So legen Sie Intercompanypartner fest
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Intercompanypartner** ein und wählen Sie dann den zugehörigen Link.
+## <a name="to-set-up-a-company-for-intercompany-transactions"></a>Unternehmen für Intercompanytransaktionen einrichten
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Intercompanyeinrichtung** ein und wählen Sie dann den zugehörigen Link.  
+2. Füllen Sie auf der Seite **Intercompanyeinrichtung** die Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+  > [!NOTE]
+  > Der 1. Veröffentlichungszyklus 2022 führt eine neue **Intercompanyeinrichtung**-Seite ein, damit Sie auch angeben können, ob dieses Unternehmen automatisch Erfassungsjournalzeilen basierend auf den Buchungen eines Intercompany-Partners über die **IC-Fibu Erf.-Journal**-Seite erstellen muss. Wenn Ihre Organisation [!INCLUDE [prod_short](includes/prod_short.md)] vor diesem Veröffentlichungszyklus verwendet hat, müssen Sie die neue Erfahrung in der **Funktionsverwaltung**-Seite einschalten. Weitere Informationen finden Sie unter [Automatisch akzeptierte Transaktionen für konzerninterne Journale](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/intercompany-postings-have-auto-accept-transaction-enabled-intercompany-general-journals).
+
+In Versionen vor 2022 Veröffentlichungzyklus 1 müssen Sie stattdessen drei Intercompany-bezogene Felder auf der **Firmeninformation**-Seite ausfüllen.  
+
+## <a name="to-set-up-intercompany-partners"></a>So richten Sie Intercompanypartner ein
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Intercompanypartner** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie auf der Seite **Intercompanypartner** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Wiederholen Sie die Schritte 2 und 3 für alle anderen Firmen, die Teil dieser Intercompany-Konfiguration sind.
 
 > [!NOTE]
 > In [!INCLUDE[prod_short](includes/prod_short.md)] online können Sie keine Dateispeicherorte verwenden, um Transaktionen an Ihre Partner zu übertragen, da [!INCLUDE[prod_short](includes/prod_short.md)] keinen Zugriff auf Ihr lokales Netzwerk hat. Daher ist bei Auswahl von **Dateispeicherort** im Feld **Transfertyp** das Feld **Ordnerpfad** nicht verfügbar. Stattdessen wird die Datei in den Ordner „Downloads“ auf Ihrem Computer heruntergeladen. Anschliessend senden Sie die Datei per E-Mail an eine Person in der Partnerfirma. Für einen direkteren Prozess empfehlen wir stattdessen die Auswahl von **E-Mail**.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Einrichten von Intercompanykreditoren und Intercompanydebitoren
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
 2. Alternativ können Sie auf den Kreditor über das Feld **Kreditorennr.** auf der Seite **Intercompanypartner** zugreifen.
 3. Öffnen Sie die Karte für den Kreditor, der ein Intercompanypartner ist. Weitere Informationen finden Sie unter [Neue Kreditoren registrieren](purchasing-how-register-new-vendors.md).
 4. Wählen Sie im Feld **Intercompanypartnercode** den relevanten Intercompanypartnercode aus.
 5. Wiederholen Sie die Schritte 1 bis 4 für Debitoren.
 
 ## <a name="to-set-up-intercompany-charts-of-accounts"></a>Einrichten von Intercompanykontenplänen
-Damit innerhalb einer Gruppe von Unternehmen Intercompanytransaktionen vorgenommen werden können, müssen sich die Unternehmen auf einen Kontenplan einigen, der allgemein zur Referenz dient. Bei der Erstellung von Intercompanytransaktionen müssen Sie sich mit den Partnerunternehmen auf die zu verwendenden Kontonummern einigen. Die Muttergesellschaft der Gruppe muss beispielsweise eine vereinfachte Version des eigenen Kontenplans erstellen, diesen Intercompanykontenplan aus der Datenbank in eine XML-Datei exportieren und an alle Unternehmen in der Gruppe verteilen.  
+Damit innerhalb einer Gruppe von Unternehmen Intercompanytransaktionen vorgenommen werden können, müssen sich die Unternehmen auf einen Kontenplan einigen, der allgemein zur Referenz dient. Bei der Erstellung von Intercompanytransaktionen müssen Sie sich mit den Partnerunternehmen auf die zu verwendenden Kontonummern einigen. Die Muttergesellschaft der Gruppe erstellt beispielsweise eine vereinfachte Version ihres eigenen Kontenplans und exportiert diesen dann in eine XML-Datei, die sie an jedes Unternehmen der Gruppe weitergibt.  
 
-Wenn das Unternehmen das übergeordnete Unternehmen ist und über den definierenden Intercompanykontenplan verfügt, der von der Gruppe zur Referenz verwendet wird, folgen Sie den Schritten unter [Einrichten des definierenden Intercompanykontenplans](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts).  
+Wenn der Kontenplan Ihres Unternehmens den Intercompany-Kontenplan Ihrer Partnerunternehmen definiert, gehen Sie wie in [Zur Einrichtung des definierenden Intercompany-Kontenplans](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts) beschrieben vor.  
 
 Wenn das Unternehmen ein untergeordnetes Unternehmen ist und Sie eine XML-Datei mit dem gemeinsamen Intercompanykontenplan erhalten, folgen Sie den Verfahren unter [So importieren Sie den Intercompanykontenplan](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
@@ -79,7 +90,7 @@ Wenn die Kontonummern im Intercompanykontenplan mit Kontonummern des unternehmen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Intercompany-Kontenplan** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Zeilen aus, die automatisch zugeordnet werden sollen, und klicken Sie auf die Aktion **Zuordn. zu Kto. m. selb. Nr.**.  
-3. Für jedes Intercompanyfibukonto, das nicht automatisch zugeordnet werden kann, füllen Sie das Feld **Zuordnen zu Fibukontonr.** aus.  
+3. Für jedes Intercompanysachkonto, das nicht automatisch zugeordnet werden können, füllen Sie das Feld **Zuordnen zu Fibukontonr.** aus.  
 
 ## <a name="to-set-up-default-intercompany-partner-general-ledger-accounts"></a>Vorgegebene IC-Partner-Fibukonten einrichten  
 Bei der Erstellung von Intercompanyverkaufs- oder -einkaufszeilen, die als ausgehende Transaktion gesendet werden sollen, geben Sie ein Konto aus dem Intercompanykontenplan vor, auf das der Betrag im Partnerunternehmen gebucht werden soll. Auf der Seite **Kontenplan** können Konten, die Sie regelmässig für ausgehende Intercompanyverkaufs- oder -einkaufszeilen verwenden, als vorgegebene Intercompanypartner-Fibukonten festgelegt werden. Für Debitorensammelkonten können beispielsweise die zugeordneten Kreditorensammelkonten aus dem Intercompanykontenplan als vorgegebene Konten festgelegt werden.  
@@ -92,7 +103,7 @@ Wenn Sie jetzt im Feld **Gegenkontonr.** in einer Intercompanyzeile mit dem Eint
 
 ## <a name="to-set-up-intercompany-dimensions"></a>So richten Sie Intercompanydimensionen ein
 
-Wenn Transaktionen mit entsprechend verknüpften Dimensionen zwischen dem Unternehmen und den Intercompanypartern übertragen werden sollen, müssen Sie die Dimensionen vereinbaren, die von allen verwendet werden. Die Muttergesellschaft der Gruppe erstellt beispielsweise eine vereinfachte Version des eigenen Dimensionssatzes, exportiert diese Intercompanydimensionen in eine XML-Datei und verteilt diese an alle Unternehmen der Gruppe. Anschliessend wird die XML-Datei von allen Tochtergesellschaften auf der Seite **Intercompanydimensionen** importiert, und die Intercompanydimensionen werden den Dimensionen im eigenen Fenster **Dimensionen** zugeordnet.  
+Wenn Transaktionen mit entsprechend verknüpften Dimensionen zwischen dem Unternehmen und den Intercompanypartern übertragen werden sollen, müssen Sie die Dimensionen vereinbaren, die von allen verwendet werden. Die Muttergesellschaft der Gruppe erstellt beispielsweise eine vereinfachte Version ihres eigenen Dimensionssatzes und exportiert diesen dann in eine XML-Datei, die sie an jedes Unternehmen der Gruppe weitergibt. Anschliessend wird die XML-Datei von allen Tochtergesellschaften auf der Seite **Intercompanydimensionen** importiert, und die Intercompanydimensionen werden den Dimensionen im eigenen Fenster **Dimensionen** zugeordnet.  
 
 > [!NOTE]
 > Jedes Unternehmen in [!INCLUDE [prod_short](includes/prod_short.md)] muss Intercompany-Dimensionen für ausgehende Belege und Intercompany-Dimensionen für eingehende Belege den eigenen Dimensionen zuordnen. Diese Zuordnung trägt dazu bei, die Konsistenz zwischen den Unternehmen sicherzustellen. Weitere Informationen finden Sie im Abschnitt [So ordnen Sie konzerninterne Dimensionen den Dimensionen Ihres Unternehmens zu](#to-map-intercompany-dimensions-to-your-companys-dimensions).
@@ -144,7 +155,7 @@ In den folgenden Schritten ordnen Sie zunächst konzerninterne Dimensionen Dimen
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
-[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
+[Arbeiten mit Fibu Erfassungsjournalen](ui-work-general-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

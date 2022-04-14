@@ -9,14 +9,17 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 03d92e13adc9208ec98eda57cfc1d6b6e93ab028
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f8f0af4e34f57ebe64f454901e7f9e237fe7018c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148318"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512772"
 ---
-# <a name="import-and-export-custom-report-layouts"></a>Importieren und Exportieren von benutzerdefinierten Berichtslayouts
+# <a name="legacy-import-and-export-custom-report-layouts"></a>(Legacy) Importieren und Exportieren von benutzerdefinierten Berichtslayouts
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
+
 Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem Speicherort auf dem Computer oder im Netzwerk speichern und exportieren sowie von dort aus wieder importieren. Beispielsweise können Sie ein Berichtlayout exportieren und dann die Datei an eine andere Person senden, die diese dann ändern kann. Diese Person kann die Änderungen am Layout vornehmen und Ihnen die Datei zurücksenden, damit Sie sie zurückimportieren können.  
 
 > [!IMPORTANT]  
@@ -24,7 +27,7 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>So exportieren Sie ein Berichtslayout in eine Datei.  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.  
 
 2.  Markieren Sie die Zeile für den Bericht, die das benutzerdefinierte Berichtslayout enthält, das Sie exportieren möchten, und wählen Sie dann die Aktion **Angepasste Layouts**.  
 
@@ -54,7 +57,7 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
 
 [Erstellen und bearbeiten Sie ein benutzerdefiniertes Berichtslayout](ui-how-create-custom-report-layout.md)   
 [Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md)  
-[Arbeiten mit Berichten, Stapelverarbeitungen und XMLports](ui-work-report.md)    
+[Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

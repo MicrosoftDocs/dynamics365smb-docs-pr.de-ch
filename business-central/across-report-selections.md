@@ -5,14 +5,14 @@ author: edupont04
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
-ms.date: 04/01/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 16ad3480c10da544c7fdd3a6a299dc6d86cfce46
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134084"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512478"
 ---
 # <a name="report-selection-in-business-central"></a>Berichtsauswahl in Business Central
 
@@ -43,6 +43,7 @@ Die Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] beinhalt
 * **Berichtsauswahl – Lager**  
 * **Berichtsauswahl - Bankkonto**  
 * **Berichtsauswahlen - Mahnung/Zinsrechnung**  
+* **Berichtsauswahl – Projekt**  
 
 ## <a name="example-report-selection-for-sales-documents"></a>Beispiel: Berichtsauswahl für Verkaufsbelege
 
@@ -68,6 +69,15 @@ Zum Beispiel helfen Ihnen die Seiten **Berichtsauswahl – Verkauf** und **Beric
 [Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md)  
 [Beleglayouts für Debitoren und Kreditoren definieren](ui-define-customer-vendor-document-layouts.md)  
 [Drucker einrichten](ui-specify-printer-selection-reports.md)  
-
+[Finanzberichte und Analysen in Business Central](finance-reports.md)  
+[Debitorenberichte und Analysen in Business Central](receivables-reports.md) 
+[Kreditorenberichte und Analysen in Business Central](payables-reports.md)  
+[Berichte und Analysen zu Anlagen in Business Central](fa-reports.md)  
+[Projektberichte und Analysen in Business Central](project-reports.md)  
+[Verkaufsberichte und Analysen in Business Central](sales-reports.md)  
+[Einkaufsberichte und Analysen in Business Central](purchase-reports.md)  
+[Bestands- und Lagerberichte und Analysen in Business Central](inventory-WMS-reports.md)  
+[Montageberichte und Analysen in Business Central](assembly-reports.md)  
+[Produktionsberichte und Analysen in Business Central](production-reports.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
