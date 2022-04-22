@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 54aed7a30225d074ab6651df63771924c7c1cd97
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523489"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557367"
 ---
 # <a name="update-currency-exchange-rates"></a>Währungswechselkurse aktualisieren
 
@@ -62,12 +62,18 @@ Der Betrag des Anpassungs-Wechselkurses oder der Betrag des relationalen Anpassu
 
 ## <a name="adjusting-exchange-rates"></a>Regulieren von Wechselkursen
 
-Da sich Wechselkurse ständig ändern, müssen weitere Währungsentsprechungen im System in regelmässigen Abständen reguliert werden. Werden diese Regulierungen nicht durchgeführt, sind Beträge, die aus fremden (oder zusätzlichen) Währungen umgerechnet und in der Mandantenwährung in der Fibuposten gebucht wurden, möglicherweise irreführend. Darüber hinaus müssen Tagesposten, die vor der Eingabe eines Tageswechelkurses in der Anwendung gebucht werden, aktualisiert werden, nachdem der Tageswechselkurs eingegeben wurde.
+Da sich Wechselkurse ständig ändern, müssen weitere Währungsentsprechungen im System in regelmässigen Abständen reguliert werden. Werden diese Regulierungen nicht durchgeführt, sind Beträge, die aus fremden (oder zusätzlichen) Währungen umgerechnet und in der Mandantenwährung in der Finanzbuchhaltung gebucht wurden, möglicherweise irreführend. Darüber hinaus müssen Tagesposten, die vor der Eingabe eines Tageswechelkurses in der Anwendung gebucht werden, aktualisiert werden, nachdem der Tageswechselkurs eingegeben wurde.
 
 Der Batchauftrag **Wechselkurse anpassen** wird verwendet, um die Wechselkurse von gebuchten Debitor-, Kreditor- und Bankkonten-Buchungen manuell anzupassen. Berichtswährungsbeträge in Fibuposten können hiermit ebenfalls aktualisiert werden.  
 
 > [!TIP]
 > Sie können einen Dienst verwenden, um Wechselkurse im System automatisch zu regulieren. Weitere Informationen finden Sie unter [So richten Sie einen Währungswechselkurs-Service ein](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Die Wechselkurse für bereits gebuchte Transaktionen werden hierdurch jedoch nicht reguliert. Um Wechselkurse für gebuchte Einträge zu regulieren, verwenden Sie die Stapelverarbeitung **Wechselkurse regulieren**.
+
+Sie können eine Vorschau der Auswirkungen einer Anpassung auf die Buchung erstellen, bevor Sie tatsächlich buchen, indem Sie **Vorschau** auf der Seite **Wechselkurse** wählen. Ausserdem können Sie auswählen, ob die Buchung im Fibuposten detailliert (pro Buchung) oder zusammengefasst (pro Währung) erfolgen soll, indem Sie **Buchungen zusammenfassen** wählen. Sie können auch festlegen, wie die Dimensionen für Buchungen von nicht realisierten Gewinnen und Verlusten behandelt werden sollen, indem Sie eine der folgenden Optionen im Feld **Dimensionswerte übertragen** wählen:  
+
+- **Quellenbuchung**: Bei Fibuposten für nicht realisierte Gewinne und Verluste werden Dimensionswerte aus der angepassten Buchung übernommen.
+- **Nach Fibukonto**: Bei Fibuposten für nicht realisierte Gewinne und Verluste werden die Dimensionswerte aus dem Quelleneintrag für die Dimensionseinstellungen des Fibukontos für nicht realisierte Gewinne und Verluste übernommen.
+- **Keine Übertragung**: Fibuposten für nicht realisierte Gewinne und Verluste haben keine Dimensionswerte.
 
 ### <a name="effect-on-customers-and-vendors"></a>Auswirkung auf Debitoren und Kreditoren
 
