@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
-ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 365dae77b153794826681e500a1a753f6f749e55
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: aecfa9a0709205a781d974a1f901a5ddb3710ae7
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518771"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655008"
 ---
 # <a name="work-with-general-journals"></a>Mit Fibu Erfassungsjournalen arbeiten
 
@@ -195,7 +195,7 @@ Wenn Sie das Standard-Artikel-Erf.-Journal gespeichert haben, wird die Seite "Ar
 
 Um sicherzustellen, dass Sie keine Buchungsfehler aufgrund der Reihenfolge der Belegnummern erhalten, können Sie die Funktion **Belegnummern neu nummerieren** verwenden, bevor Sie ein Erfassungsjournal buchen.
 
-In allen Erf.-Journalen, die auf dem Fibu-Erf.-Journal basieren, kann das Feld **Belegnr.** bearbeitet werden, so dass Sie unterschiedliche Belegnummern für verschiedene Erfassungsjournalzeilen oder die gleiche Belegnummer für die zugehörigen Erfassungsjournalzeilen angeben können.
+In allen Erf.-Journalen, die auf dem Fibu-Erf.-Journal basieren, kann das Feld **Dokumentennr.** bearbeitet werden, so dass Sie unterschiedliche Belegnummern für verschiedene Erfassungsjournalzeilen oder die gleiche Belegnummer für die zugehörigen Erfassungsjournalzeilen angeben können.
 
 Wenn das Feld **Serien-Nr.** auf dem Buch.-Blatt ausgefüllt ist, erfordert die Buchungsfunktion in Fibu Buch.-Blättern, dass die Belegnummern auf einzelnen oder gruppierten Buch.-Blattzeilen sequenziell angeordnet sind. Wählen Sie einfach die Aktion **Belegnummern neu nummerieren** aus, und relevante **Belegnr.**-Felder werden anschliessend aktualisiert. Wenn verwandte Erf.-Journalzeilen nach Belegnummern gruppiert wurden, bevor Sie die Funktion verwendet haben, bleiben sie gruppiert, können aber eine andere Belegnummer erhalten.  
 
@@ -210,7 +210,7 @@ Die folgende Prozedur basiert auf der Seite **Fibu Erf.-Journal**, gilt aber fü
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Allgemeine Erfassungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Wenn Sie zum Buchen des Buchs bereit sind, wählen Sie auf der Registerkarte Aktionen, in der Gruppe Funktionen, die Option **Belegnummern neu nummerieren**.
 
-Werte im Feld **Belegnr.** werden geändert, wo erforderlich, sodass die Belegnummern auf einzelnen oder gruppierten Erfassungsjournalzeilen in sequenzieller Reihenfolge stehen. Nach der Neunummerierung der Belege können Sie mit der Buchung des Erf.-Journals fortfahren.
+Werte im Feld **Dokumentennr.** werden geändert, wo erforderlich, sodass die Belegnummern auf einzelnen oder gruppierten Erfassungsjournalzeilen in sequenzieller Reihenfolge stehen. Nach der Neunummerierung der Belege können Sie mit der Buchung des Erf.-Journals fortfahren.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
 

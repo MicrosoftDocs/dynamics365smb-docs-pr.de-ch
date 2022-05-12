@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.form: 130, 142, 1350, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 130, 142, 1350
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8258e1e31bd6c01d5592e20110c05b7418442f42
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 47c390cfbd9827d539fa99046c1ad82ba739bac3
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521508"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655632"
 ---
 # <a name="posting-sales"></a>Verkäufe buchen
 
@@ -35,7 +35,7 @@ Wenn Sie alle Zeilen ausgefüllt und alle Daten des Verkaufsauftrags eingegeben 
 
 Wenn eine Verkaufsbestellung gebucht wird, werden das Debitorenkonto, die Fibuposten und die Lagerposten aktualisiert.
 
-Für jeden Verkaufsauftrag wird ein Verkaufsposten in der Tabelle **Fibuposten** erstellt. Darüber hinaus wird ein Posten in der Tabelle **Kreditorenposten** erzeugt und ein Fibuposten im entsprechenden Einkaufskonto. Zusätzlich kann das Buchen in einem MWST.-Posten und einem Fibuposten für den Skontobetrag resultieren. Ob ein Posten für Skonto gebucht wird, hängt von den Einstellungen im Feld **Skontobuchung** auf der Seite **Debitoren & Verkauf Einr.** ab.
+Für jeden Verkaufsauftrag wird ein Verkaufsposten in der Tabelle **Fibuposten** erstellt. Darüber hinaus wird ein Posten in der Tabelle **Kreditorenposten** erzeugt und ein Sachposten im entsprechenden Einkaufskonto. Zusätzlich kann das Buchen in einem MWST.-Posten und einem Fibuposten für den Rabattbetrag resultieren. Ob ein Posten für Skonto gebucht wird, hängt von den Einstellungen im Feld **Skontobuchung** auf der Seite **Debitoren & Verkauf Einr.** ab.
 
 Für jede Zeile des Verkaufsauftrags wird ein Lagerposten in der Tabelle **Lagerposten** erzeugt (wenn die Verkaufszeilen Artikelnummern enthalten) oder es wird ein Fibuposten in der Tabelle **Fibuposten** erzeugt (wenn die Verkaufszeilen Fibukonten enthalten). Zusätzlich dazu werden Verkaufsaufträge immer in den Tabellen **Verkaufslieferkopf** und **Verkaufsrechnungskopf** gespeichert.
 
