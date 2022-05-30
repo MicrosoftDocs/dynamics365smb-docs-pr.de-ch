@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 03/04/2022
+ms.date: 04/12/2022
 ms.author: bholtorf
-ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519239"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740325"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Berechnungen einrichten und Buchungsmethoden für Salestax
 
@@ -41,7 +41,7 @@ Es wird empfohlen, dass Sie die unterstützte Einrichtung der MwSt verwenden, um
 
 Um die unterstützte Einrichtung zu starten, gehen Sie folgendermassen vor:
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"). Symbol. Geben Sie **Unterstützte Einrichtung** ein.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?"). Symbol. Geben Sie **Unterstützte Einrichtung** ein.  
 2. Wählen Sie **MwSt Einrichtung** aus, und führen Sie die Schritte aus.
 3. Wenn Sie die unterstützte Einrichtung abgeschlossen haben, besuchen Sie die Seite **MWST-Buchungseinrichtung** und prüfen Sie, ob Sie entsprechend den lokalen Anforderungen in Ihrer Version von [!INCLUDE [prod_short](includes/prod_short.md)] weitere Felder ausfüllen müssen. Weitere Informationen finden Sie unter [Lokale Funktion in Business Central](about-localization.md)  
 
@@ -59,7 +59,7 @@ Um zu helfen sicherzustellen, dass Personal gültige MwSt-IdNr. eingeben, könne
 
 Um MwSt-Nr. einzurichten, gehen Sie folgendermassen vor:
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Länder/Regionen** ein.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Länder/Regionen** ein.
 2. Wählen Sie das Land bzw. die Region, und wählen die **MwSt Reg. Nr. Formaten** Aktion aus.
 3. Im Feld **Formate** definieren Sie das Format, indem Sie einen oder mehrere der folgenden Zeichen eingeben:  
 
@@ -83,7 +83,7 @@ Um eine MWST.-Geschäftsbuchungsgruppe einzurichten, gehen Sie folgendermassen v
 
 Sie richten Vorgabe MWST-Geschäftsbuchungsgruppen ein, indem Sie sie mit den Geschäftsbuchungsgruppen verbinden. [!INCLUDE[prod_short](includes/prod_short.md)] fügt automatisch die MWST Geschäftsbuchungsgruppe hinzu, wenn Sie die Geschäftsbuchungsgruppe einem Debitor, Kreditor oder Fibukonto zuweisen.
 
-## <a name="set-up-vat-product-posting-groups"></a>Legen Sie MWST-Produktbuchungsgruppen fest
+## <a name="set-up-vat-product-posting-groups"></a>Richten Sie MWST.-Produktbuchungsgruppen ein.
 
 Mithilfe der MWST.-Produktbuchungsgruppencodes wird die Berechnung und Buchung der MWST. gemäss der Art des gekauften Artikels oder der Art der verkauften Ressourcen bestimmt.  
 Es ist sinnvoll, Codes zu verwenden, an die man sich einfach erinnern kann, und die die Werte, wie **Keine MwSt** oder **Null**, **MwSt** oder **Reduziert** für 10% MwSt beschreiben, und **MwSt 25** oder **Standard** für 25% zu verwenden.
@@ -93,7 +93,7 @@ Um eine MWST.-Geschäftsbuchungsgruppe einzurichten, gehen Sie folgendermassen v
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 4.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **MWST-Produktbuchungsgruppen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus.
 
-## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Kombinieren Sie MWST-Buchungsgruppen in MWST-Buchungseinrichtungen
+## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Kombinieren Sie MWST.-Produktbuchungsgruppen in der MWST.-Einrichtung
 
 [!INCLUDE[prod_short](includes/prod_short.md)] berechnet MwSt.-Beträge in Verkaufs- und Einkaufsberichten basierend auf MwSt.-Buchungsmatrix Einrichtung, die Kombinationen von Mehrwertsteuergeschäfts und -Produktbuchungsgruppen sind. Für jede Kombination können Sie den MWST.-Prozentsatz, die MWST.-Berechnungsart und die Fibupostennummern für die Buchung der MWST. für Verkäufe, Käufe und Erwerbssteuer eingeben. Sie können auch angeben, ob die MWST. neu berechnet wird, wenn Skonto angewandt oder erhalten wird.  
 
@@ -104,7 +104,7 @@ Um MWST.-Buchungseinrichtungen zu kombinieren, gehen Sie folgendermassen vor:
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 5.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **MWST-Buchungseinrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Weisen Sie VAT-Buchungsgruppen standardmässig mehreren Entitäten zu
+## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Weisen Sie mehreren Gruppen MWST.-Buchungsgruppen standardmässig zu
 
 Wenn Sie identische MwSt.-Buchungsgruppen für mehrere Einheiten übernehmen möchten, können Sie [!INCLUDE[prod_short](includes/prod_short.md)]festlegen, um dies standardmässig durchzuführen. Es gibt mehrere Möglichkeiten, dies zu tun:
 
@@ -172,7 +172,7 @@ Sie können eine MWST-Klausel ändern oder löschen, und Ihre Änderungen werden
 3. Im **Sprachcode** Feld wählen Sie die Sprache aus, in die Sie übersetzen.  
 4. Geben Sie in den Feldern **Beschreibung** und **Beschreibung 2** den Text ein, der eine Übersetzung der Beschreibungen ist. Dieser Text wird in den übersetzten MWST.-Berichten angezeigt.  
 
-## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Erstellen Sie eine MWST-Buchungsmatrix Einr., um Einfuhrumsatzsteuer zu verarbeiten
+## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Erstellen Sie eine MWST.-Buchungsmatrix, um Einfuhrumsatzsteuer zu verarbeiten
 
 Sie verwenden die Funktion *Import-MWST*, wenn Sie einen Beleg buchen müssen, bei dem der gesamte Betrag aus Mehrwertsteuer besteht. Sie sehen dies, wenn Sie eine MWST-Rechnung für importierte Waren von der Steuerbehörde erhalten.  
 
@@ -216,15 +216,24 @@ Sie müssen Informationen dazu festlegen, wie die Steuerbehörden in Ihrem Land 
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
-[Vorlagen für MWST-Abrechnungen und Namen für MWST-Abrechnungen festlegen](finance-how-setup-vat-statement.md)  
-[Einrichten von unrealisierter Mehrwertsteuer](finance-setup-unrealized-vat.md)  
+[Vorlagen für Umsatzsteuerabrechnungen und Namen von Umsatzsteuerabrechnungen einrichten](finance-how-setup-vat-statement.md)  
+[Nicht realisierte Mehrwertsteuer einrichten](finance-setup-unrealized-vat.md)  
 [MWST an die Steuerbehörde melden](finance-how-report-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
 [Arbeiten mit dem Tool zur Änderung des MWST-Satzes](finance-how-use-vat-rate-change-tool.md)  
 [Umsatzsteuer-Identifikationsnummern überprüfen](finance-how-validate-vat-registration-number.md)  
 [Lokale Funktion in Business Central](about-localization.md)  
+[MWST-Berichterstattung in der deutschen Version](LocalFunctionality/Germany/vat-reporting.md)  
+[Belgische MwSt](LocalFunctionality/Belgium/belgian-vat.md)  
+[Italienische MwSt](LocalFunctionality/Italy/italian-vat.md)  
+[Elektronische Mehrwertsteuer- und ICP-Erklärungen in der niederländischen Version einrichten](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)  
+[MWST-Bericht in der spanischen Version](LocalFunctionality/Spain/vat-reports.md)  
+[Waren- und Dienstleistungssteuer-Buchung in der australischen Version einrichten](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)  
+[MWST in der tschechischen Version](LocalFunctionality/Czech/finance-vat.md)  
+[MWST-Abrechnung in der norwegischen Version](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
+[Steuern auf Waren und Dienstleistungen und Harmonized Sales Tax in Kanada melden](LocalFunctionality/Canada/sales-tax-goods-services.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
