@@ -258,7 +258,7 @@ Sie können Zeitdauern als Zahl gefolgt von der entsprechenden Einheit eingeben.
 
 Hier folgen einige Beispiele.  
 
-|Termine|Masseinheit**|  
+|Termine|Einheit**|  
 |------------------|-------------------------|  
 |2h|2 Stunden|  
 |6h 30m|6 Stunden 30 Minuten|  

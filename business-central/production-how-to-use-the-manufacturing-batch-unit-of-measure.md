@@ -1,6 +1,6 @@
 ---
-title: Verwenden Sie die Masseinheit für Batches in der Fertigung
-description: Dieses Thema gibt einen Überblick über die Arbeit mit den Masseinheiten von Manufacturing Batches in Business Central.
+title: Verwenden Sie die Einheit für Batches in der Fertigung
+description: Dieses Thema gibt einen Überblick über die Arbeit mit den Einheiten von Manufacturing Batches in Business Central.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na

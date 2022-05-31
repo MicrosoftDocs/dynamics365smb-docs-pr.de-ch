@@ -345,9 +345,9 @@ Hier folgen einige Beispiele.
 
 Sie haben auch die Möglichkeit, eine Zahl einzugeben, die automatisch in einen Zeitraum umgewandelt wird. Die Zahl, welche Sie eingeben, wird entsprechend der Vorgabeeinheit, die Sie für das Dauer-Feld definiert haben, konvertiert.
 
-Geben Sie eine Zahl ein, um ermitteln, welche Masseinheit in einem Dauerfeld verwendet wird. Dann können Sie sehen, in welche Masseinheit es umgerechnet wird.
+Geben Sie eine Zahl ein, um ermitteln, welche Einheit in einem Dauerfeld verwendet wird. Dann können Sie sehen, in welche Einheit es umgerechnet wird.
 
-Wenn die Masseinheit beispielsweise Stunden ist, wird die Zahl 5 in 5 Std. konvertiert.
+Wenn die Einheit beispielsweise Stunden ist, wird die Zahl 5 in 5 Std. konvertiert.
 
 ## <a name="see-also"></a>Weitere Informationen
 
