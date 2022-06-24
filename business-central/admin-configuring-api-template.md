@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.search.form: 5469
-ms.date: 04/01/2021
+ms.date: 06/07/2022
 ms.author: solsen
-ms.openlocfilehash: f5c91eb303d26f88af56613790ce0d5aa5d7854a
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: e38c8143cfad1fc4b0c7bbc4bd2995e0e48d264f
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740271"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950422"
 ---
 # <a name="configure-api-templates"></a>API Vorlagen konfigurieren
 
@@ -30,6 +30,9 @@ Um Vorlagen mit der API-Bibliothek zu verwenden, müssen Sie verschiedene Eigens
 ## <a name="assign-the-template-to-an-api"></a>Weisen Sie die Vorlage zu einer API zu
 
 Um eine Vorlage zu einer API zuzuordnen, müssen Sie folgende Schritte durchführen.
+
+> [!NOTE]  
+> API-Vorlagen können nur mit den folgenden API-Seiten eingerichtet werden: contacts, countriesRegions, currencies, customers, employees, itemCategories, paymentMethods, paymentTerms, shipmentMethods, unitsOfMeasure und vendors.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **API-Einrichtung** ein, und wählen Sie den zugehörigen Link.
 2. Wählen Sie **Neu** und dann den Wert **Auftrag** für den Datensatztyp aus.  

@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 09/29/2021
+ms.date: 05/25/2022
 ms.author: edupont
-ms.openlocfilehash: 7f9d04f5437ab37273fd02f8c40b3f44b3247b9c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26c988bcfce774dfa05b77c52347cfcf83106309
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513590"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805140"
 ---
 # <a name="get-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 
@@ -24,7 +24,7 @@ Damit Sie sich leichter auf Ihre Geschäftstätigkeiten vorbereiten können, kö
 
 Alternativ können Sie das ![Rad-Symbol wählen, um das Menü „Einstellungen“ zu öffnen.](media/ui-experience/settings_icon_small.png) Symbol, und dann die Aktion **Unterstützte Einrichtung**.
 
-Sie finden die Liste der Anleitungen für die Unterstützte Einrichtung auch, wenn Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Tell me-Funktion") wählen. Symbol. Geben Sie **Unterstützte Einrichtung** ein, und wählen Sie dann den zugehörigen Link.  
+Sie finden die Liste der Anleitungen für die Unterstützte Einrichtung auch, wenn Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") wählen. Symbol. Geben Sie **Unterstützte Einrichtung** ein, und wählen Sie dann den zugehörigen Link.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
@@ -77,9 +77,31 @@ Wenn Benutzer in Microsoft 365 erstellt werden, können sie in die Seite **Benut
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Weitere Informationen finden Sie unter [Ressourcen für Hilfe und Support](product-help-and-support.md).  
 
+### <a name="set-up-your-company-in-prod_short"></a>Ihr Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten
+
+Die [Schnellstart](quick-start-business-central.md)-Artikel können Ihnen helfen, die ersten Schritte zur Festlegung von [!INCLUDE [prod_short](includes/prod_short.md)] für Ihr Unternehmen zu unternehmen. Innerhalb von [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie auf der Seite **Unterstützte Einrichtung** die Anleitungen für die unterstützte Einrichtung, die Ihnen helfen können. Abhängig von Ihrer Rolle und Ihrem Land oder Ihrer Region zeigt die Seite verschiedene Assistenten für die Einrichtung, wie in der folgenden Tabelle dargestellt:
+
+| Unterstützte Einrichtung | Beschreibung |
+| -------------- | ----------- |
+| Meine Unternehmen einrichten |Erstellt ein neues Testunternehmen, für das Sie Daten eingeben und mit dem Sie [!INCLUDE[prod_short](includes/prod_short.md)] testen können. |
+| Genehmigungsworkflows einrichten |Legt die Möglichkeit fest, automatisch einen Genehmigenden zu benachrichtigen, wenn ein Benutzer versucht, bestimmte Werte auf Belegen, Erfassungsjournalzeilen oder Karten zu erstellen oder zu ändern. Sie können z.B. die Genehmigung von Beträgen über einem bestimmten Limit einrichten. |
+| E-Mail einrichten |Zeigt Ihnen, wie Sie E-Mails beispielsweise direkt aus Verkaufsaufträgen oder Kontakten im [!INCLUDE[prod_short](includes/prod_short.md)] versenden. |
+| Einrichten Ihres Unternehmensposteingangs in Outlook |Bereitet Sie darauf vor, Ihre Geschäftsaktivitäten mit Ihren Debitoren und Kreditoren direkt in Microsoft Outlook zu verwalten. |
+| Geschäftsdaten migrieren |Lässt Sie Ihre vorhandenen Firmendaten wie Debitoren, Kreditoren und Artikel aus Excel oder aus Quickbooks importieren. |
+| E-Mail-Protokollierung einr. |Richtet die Funktion ein, um E-Mail-Korrespondenz in [!INCLUDE[prod_short](includes/prod_short.md)] zu protokollieren, um Aktivitäten zu verfolgen. |
+| Artikelgenehmigungsworkflow einrichten |Richtet die Möglichkeit ein, eine Benachrichtigung an einen Genehmiger zu senden, wenn ein Benutzer einen Artikel ändert oder erstellt. |
+| Debitorengenehmigungsworkflow einrichten |Sie können Genehmigungsworkflows so erstellen, dass sie einen Genehmiger automatisch benachrichtigen, wenn ein Benutzer versucht, eine Debitorenkarte zu erstellen oder zu ändern. |
+| Zahlungsgenehmigungsworkflow einrichten |Sie können einen Genehmigungsworkflow erstellen, der einen Genehmiger benachrichtigt, wenn ein Benutzer Zahlungs-Buch.-Blattzeilen sendet. |
+| Dynamics 365 Sales-Verbindung einrichten |Richtet eine Verbindung zu Dynamics 365 Sales ein, die es Ihnen erlaubt, Daten wie Kontakte und Verkaufsauftragsinformationen zu synchronisieren. |
+| Cashflowplanung einrichten |Richter das Cashflowplanungsdiagramm ein, sodass Sie die vorausgesagte Umlagerungen von ein- und ausgehendem Bargeldes in Ihrem Unternehmen anzeigen können. Das Diagramm basiert auf dem **Buchhalter Rollencenter**. |
+| Berichtdaten einrichten|Datensets einrichten, die Sie verwenden können, um leistungsstarke Berichte mithilfe von Excel oder Power BI zu erstellen. |
+| Externen Buchhalter einladen |Wenn Sie eines externen Buchhalter verwenden, um Ihre Buch und Berichte zu verwalten, können Sie sie für Ihr [!INCLUDE[prod_short](includes/prod_short.md)] einladen, damit sie mit Ihnen an Ihren steuerlichen Daten arbeiten. |
+
+Die Seite **Unterstützte Einrichtung** enthält möglicherweise andere Einträge. Wenn Sie ein Setup durchlaufen, wird das Setup als **Abgeschlossen** markiert. Sie können andere Bereiche der Firma mit Hilfe der manuellen Einrichtung festlegen. Weitere Informationen finden Sie unter [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+
 ## <a name="next-steps"></a>Nächste Schritte
 
-Auf Grundlage Ihrer migrierten Daten können Sie jetzt fortfahren, um neue Verkäufe oder Einkaufsbelege zu erstellen. Verwenden Sie den Bereich **Aktionen** auf der Homepage, um rasch eine neue Verkaufsofferte, eine Verkaufsrechnung, einen Verkaufsauftrag, eine Einkaufsrechnung oder eine Zahlungsregistrierung zu erstellen. Schauen Sie sich die [Schnellstart](quick-start-business-central.md) Artikel an, die Ihnen bei den ersten Schritten helfen.  
+Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkäufe oder Einkaufsbelege zu erstellen. Verwenden Sie den Bereich **Aktionen** auf der Homepage, um rasch eine neue Verkaufsofferte, eine Verkaufsrechnung, einen Verkaufsauftrag, eine Einkaufsrechnung oder eine Zahlungsregistrierung zu erstellen. Schauen Sie sich die [Schnellstart](quick-start-business-central.md) Artikel an, die Ihnen bei den ersten Schritten helfen.  
 
 ## <a name="see-also"></a>Siehe auch
 
@@ -88,13 +110,13 @@ Auf Grundlage Ihrer migrierten Daten können Sie jetzt fortfahren, um neue Verk�
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Unternehmensdatenübersicht](admin-company-information.md)  
 [Eingabehilfe und Tastenkombinationen](ui-accessibility.md)  
-[Testversionen und Abonnements](across-preview.md)  
 [Geschäftsfunktionen](across-business-functionality.md)  
 [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
 [Suchen Sie im Hilfebereich](product-help-and-support.md#search-in-the-help-pane)  
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Microsoft Learn-Website](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Daten migrieren](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+[Testversionen und Abonnements](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

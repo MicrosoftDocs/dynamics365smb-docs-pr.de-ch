@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: c2bfe2f10440921c95a7d20f3c601389030813e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516227"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799626"
 ---
 # <a name="set-up-prepayments"></a>Vorauszahlungen einrichten
 
@@ -30,7 +30,7 @@ Sie können den Prozentsatz des zur Zahlung fakturierten Zeilenbetrags für eine
 >
 > Wenn Sie einen Vorauszahlungsprozentsatz von 100 verwenden, kann es ausserdem sein, dass Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] ausgleichende Rundungseinträge erstellen müssen. In diesem Fall müssen Sie auf der Seite **Debitorenbuchungsgruppen** im Feld **Rechnungsabrundungskonto** ein Fibukonto auswählen. Dies gilt auch dann, wenn Sie die Option **Rechnungsrundung** auf der Seite **Einrichtung Debitoren & Verkauf** nicht aktiviert haben. Wenn Sie kein Konto angeben, können Sie keine Vorauszahlungsrechnungen buchen. 
 
-Da der vorausgezahlte Betrag Eigentum des Käufers ist, bis dieser die Ware oder die Leistung erhalten hat, müssen Sie Fibukonten einrichten, auf denen die Vorauszahlungsbeträge bis zur Buchung der abschliessenden Rechnung erfasst werden. Vorauszahlungen für Verkaufsaufträge müssen auf einem Verbindlichkeitskonto gebucht werden, bis die Artikel geliefert wurden. Vorauszahlungen für Bestellungen müssen auf einem Anlagenkonto erfasst werden, bis die Artikel eingegangen sind. Darüber hinaus müssen Sie ein separates Fibukonto für jedes MWST-Kennzeichen einrichten.  
+Da der vorausgezahlte Betrag Eigentum des Käufers ist, bis dieser die Ware oder die Leistung erhalten hat, müssen Sie Fibukonten einrichten, auf denen die Vorauszahlungsbeträge bis zur Buchung der abschliessenden Rechnung erfasst werden. Vorauszahlungen für Verkaufsaufträge müssen auf einem Verbindlichkeitskonto gebucht werden, bis die Artikel geliefert wurden. Vorauszahlungen für Bestellungen müssen auf einem Anlagenkonto erfasst werden, bis die Artikel eingegangen sind. Darüber hinaus müssen Sie ein separates Fibukonto für jedes MWST.-Kennzeichen einrichten.  
 
 [!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
@@ -92,6 +92,19 @@ In einem Auftrag kann ein Vorauszahlungsprozentsatz im Auftragskopf und ein ande
 4. Der Vorauszahlungsprozentsatz im Einkaufs- oder Verkaufskopf.  
 
 Anders ausgedrückt, der Vorauszahlungsprozentsatz auf der Debitorenkarte wird nur angewendet, wenn für den Artikel kein Vorauszahlungsprozentsatz eingerichtet wurde. Wenn Sie jedoch nach dem Erstellen der Zeilen den Inhalt des Felds **Vorauszahlung %** im Verkaufs- oder Einkaufskopf ändern, wird der Vorauszahlungsprozentsatz in allen Zeilen aktualisiert. So kann ungeachtet der Prozentsatzeinstellungen für Artikel auf einfache Weise ein Auftrag mit einem festen Vorauszahlungsprozentsatz erstellt werden.
+
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>So werden Verkaufsaufträge automatisch freigeben, wenn Vorauszahlungen angewendet werden
+
+Sie können Zeit sparen, indem Sie einen Projektwarteschlangenposten einrichten, der Verkaufsaufträge, die eine Vorauszahlung erfordern, automatisch freigibt, nachdem die Zahlungen erfolgt sind. Die Automatisierung des Prozesses erspart Ihnen den Schritt der Freigabe des Verkaufsauftrags.
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.
+2. Geben Sie im Feld **Häufigkeit für automatische Aktualisierungen zu Vorauszahlungen** an, wie oft der Projektwarteschlangenposten ausgeführt werden soll.
+
+> [!TIP]
+> Während Sie hier sind, sollten Sie in Betracht ziehen, einen Schutz gegen den Versand oder die Rechnungsstellung von Verkaufsaufträgen mit unbezahlten Vorauszahlungsbeträgen hinzuzufügen. Wenn Sie den Schalter **Vorauszahlung beim Buchen prüfen** aktivieren, verhindert [!INCLUDE[prod_short](includes/prod_short.md)], dass Personen Bestellungen mit ausstehenden Vorauszahlungsbeträgen buchen.
+
+3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Auftragswarteschlangenposten** ein und wählen Sie dann den zugehörigen Link.
+4. Richten Sie den Projektwarteschlangenposten **Ausstehende Vorauszahlungsverkäufe aktualisieren** ein, indem Sie die Einstellungen im Inforegister **Wiederholung** verwenden, um zu planen, wie oft er ausgeführt werden soll. Weitere Informationen finden Sie unter [Aufgabenwarteschlangen zum Planen von Aufgaben verwenden](admin-job-queues-schedule-tasks.md).
 
 ## <a name="see-also"></a>Siehe auch  
 
