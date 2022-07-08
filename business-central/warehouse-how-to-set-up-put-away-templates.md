@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7312, 7313, 7314, 7321, 7322, 7323, 7329
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3c663da3b9f16860dd3e490d01c8f3f78928e9e8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 59780a66ad71cb04db8ac50f6a4d28a95a8548bb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519454"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074394"
 ---
 # <a name="set-up-put-away-templates"></a>Einlagerungsmethoden einzurichten
 
@@ -37,7 +37,9 @@ Sie können eine Reihe von Einlagerungsmethoden einrichten und eine von diesen a
 
 Sie können verschiedene Einlagerungsmethoden erstellen und diese dann anwenden, wie Sie es für richtig halten. Als Erstes wird die Einlagerungsmethode berücksichtigt, die Sie für den Artikel oder die Lagerhaltungsdaten ausgewählt haben (falls Sie dies getan haben). Wenn diese Felder nicht ausgefüllt sind, wird die Einlagerungsmethode berücksichtigt, die Sie für das Lager im Inforegister **Lagerplatzprüfung** auf der Lagerortkarte ausgewählt haben.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/put-away-templates/)
+
+## <a name="see-also"></a>Siehe auch 
 
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbesttand](inventory-manage-inventory.md)  

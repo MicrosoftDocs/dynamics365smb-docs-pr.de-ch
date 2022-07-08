@@ -9,20 +9,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0301e17b0082c2ac7be37670757065e4ff6fcaf7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9308412e7b1bfc19cb11187e22ae1b2d2f6c339b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513745"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077594"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Zusammenfassen von Lieferungen in einer einzelnen Rechnung
+
 Wenn Sie mehr als eine Lieferung gleichzeitig fakturieren möchten, können Sie die Funktion zum Erstellen von Sammelrechnungen verwenden.  
 
 Bevor Sie eine Sammelrechnung erstellen können, müssen Sie mehr als eine Verkaufslieferung für den gleichen Debitor in der gleichen Währung gebucht haben. Anders ausgedrückt, Sie müssen zwei oder mehr Verkaufsaufträge erstellt und als geliefert (aber nicht fakturiert) gebucht haben. 
 
-## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>So kombinieren Sie Lieferungen manuell auf einer einzigen Rechnung:  
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
+## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>So kombinieren Sie Lieferungen manuell auf einer einzigen Rechnung:
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md).
 3. Wählen Sie im Feld **Verk. an Deb.-Nr.** Feld, geben Sie den Debitor ein, der die Rechnung für die gelieferten Artikel erhält.  
 4. Klicken Sie im Inforegister **Zeilen** und wählen die  Aktionen **Warenverandszeilen holen**.  
@@ -37,10 +39,11 @@ Bevor Sie eine Sammelrechnung erstellen können, müssen Sie mehr als eine Verka
 > [!TIP]  
 > Wenn Sie Aufträge versandt haben, bei denen die **Auftraggeber Nr.** von der **Rechnungsadresse** abweicht, werden diese Zeilen im Bericht **Sendungszeilen abrufen** nicht angezeigt. Verwenden Sie die Personalisierung, um das Feld **Auftraggeber Kunde** auf der Seite hinzuzufügen und den Filter zu entfernen. Jetzt können Sie der Rechnung unabhängig vom Wert im Feld **Verkauf an Auftraggeber Nr.** Lieferzeilen hinzufügen Lieferzeilen hinzufügen, solange das Feld **Rechnung an Kunden-Nr.** Feld in den Versandzeilen mit dem Wert auf der Verkaufsrechnung übereinstimmt.  
 
-## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>So kombinieren Sie Lieferungen automatisch in einer einzigen Rechnung:  
+## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>So kombinieren Sie Lieferungen automatisch in einer einzigen Rechnung:
+
 [!INCLUDE[prod_short](includes/prod_short.md)] wählt nur Verkaufsaufträge aus, bei denen **Sendungen kombinieren** gewählt ist. 
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Sammelrechnungen** ein und wählen Sie dann den zugehörigen Link. Die Anforderungsseite für die Stapelverarbeitung wird geöffnet.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Sammelrechnungen** ein und wählen Sie dann den zugehörigen Link. Die Anforderungsseite für die Stapelverarbeitung wird geöffnet.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Wählen Sie das Kontrollkästchen **Rechnungen buchen** aus.  
 4. Wählen Sie die Schaltfläche **OK** aus.  
@@ -48,7 +51,8 @@ Bevor Sie eine Sammelrechnung erstellen können, müssen Sie mehr als eine Verka
 > [!NOTE]  
 >  Die Rechnungen müssen manuell gebucht werden, wenn das Kontrollkästchen **Rechnungen buchen** für die Stapelverarbeitung nicht aktiviert wurde.  
 
-## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Offene Verkaufsaufträge nach kombinierter Lieferungsbuchung entfernen 
+## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Offene Verkaufsaufträge nach kombinierter Lieferungsbuchung entfernen
+
 Wenn Lieferungen in einer Rechnung zusammengefasst und gebucht werden, wird für die fakturierten Zeilen eine gebuchte Verkaufsrechnung erstellt. Das Feld **Fakturierte Menge** auf dem Ursprungsrahmenauftrag oder dem Auftrag wird ausgehend von der fakturierten Menge aktualisiert.  
 
 Werden Lieferungen auf diese Weise fakturiert, bleiben die Aufträge, aus denen die Lieferungen gebucht werden, weiterhin bestehen, auch wenn sie vollständig geliefert und fakturiert wurden.   
@@ -61,7 +65,10 @@ Sie können die einzelnen Verkaufsaufträge auch manuell löschen.
 
 Wiederholen Sie die Schritte 1 bis 3 für alle betroffenen anderen Belege, wie z. B. leere Verkaufsaufträge.
 
-## <a name="see-also"></a>Weitere Informationen  
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch 
+
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -10,20 +10,22 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c4ea2854ccc287b95c42bf942389d4dbfb2fd2e3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5f0a26e9a6784f1d0ae2b7c8881667a51560cbf6
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523619"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077698"
 ---
 # <a name="set-up-prices-and-discounts"></a>Preise und Rabatte einrichten
+
 > [!NOTE]
 > In Veröffentlichungszyklus 2 von 2020 haben wir optimierte Prozesse zum Einrichten und Verwalten von Preisen und Skonti veröffentlicht. Wenn Sie ein neuer Kunde mit dieser Version sind, nutzen Sie die neue Erfahrung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** auf der Seite **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Preis- und Skontostrategien für den Kauf und Verkauf von Artikeln und Dienstleistungen sind grundlegende Instrumente für erfolgreiche Unternehmen. Nachdem Sie die Artikel und Dienstleistungen eingerichtet haben, die Ihr Unternehmen kauft und verkauft, können Sie festlegen, was Sie dafür bezahlen oder berechnen. Diese Beträge werden automatisch zu den Verkaufs- und Kaufbelegen hinzugefügt. 
 
 ## <a name="setting-up-prices-and-discounts"></a>Preise und Rabatte einrichten
+
 Bevor Sie Preislisten erstellen, müssen Sie Ihre Preis- und Skontostrategien auf den Seiten **Debitoren & Verkauf Einr.** und **Kreditoren & Einkauf Einr.** definieren.
 
 Sie könne zwei Arten von Skonti einrichten und verwenden:
@@ -39,6 +41,7 @@ Da Verkaufszeilenrabatte und Verkaufspreise auf einer Kombination aus Artikel un
 > Wenn ein Artikel nie mit einem Skonto verkauft werden sollte, lassen Sie die Skontofelder auf der Artikelseite leer und schliessen Sie den Artikel nicht in einer ZeilenSkontoeinrichtung ein.
 
 ## <a name="about-price-lists"></a>Über Preislisten
+
 Preislisten sind flexibel und ermöglichen es Ihnen, den Geschäftspartner oder die Aktivität anzugeben, für die sie gelten. Sie können beispielsweise eine Preisliste erstellen, die für alle Anbieter und Kunden gilt, oder für jeden Geschäftspartner Sonderpreise oder Rabatte anbieten, möglicherweise basierend auf einer Mindestmenge bei Kauf- oder Kundenaufträgen oder einer bestimmten Kombination von Kunden, Artikeln, Mindestmenge, Einheit oder Zeiträume. Die von Ihnen definierten Preise und Rabatte werden automatisch auf Kauf- und Verkaufsbelege angewendet. 
 
 ## <a name="set-up-prices"></a>Preise einrichten
@@ -47,11 +50,12 @@ Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-U
 
 #### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience)  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Kunden und klicken dann auf die Aktion **Preise**.
 3. Füllen Sie die Felder in der Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]Füllen Sie eine Zeile für jede Kombination aus, die dem Debitor einen besonderen Preis gewährt.
 
 #### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience)  
+
 Sie können Elemente und Dienste für jede Zeile manuell hinzufügen oder die Aktion **Zeilen vorschlagen** zum Erstellen neuer Preise für ausgewählte Artikel, ArtikelSkontogruppen, Ressourcen und andere Produkttypen verwenden. Wenn Sie **Zeilen vorschlagen**, auf der Seite **Preiszeilen – Neu erstellen** wählen, können Sie mithilfe von Filtern die Artikel oder Dienstleistungen auswählen, die in die Preisliste aufgenommen werden sollen. Sie können auch angeben, ob bei der Preisberechnung eine Mindestmenge berücksichtigt werden soll, der Anpassungsfaktor für neue Preislistenzeilen und die Rundungsmethode für Preise. 
 
 Standardmässig lautet der Status neuer Preislisten **Entwurf**. Wenn Sie bereit sind, die Liste zu verwenden, können Sie den Status in **Aktiv** ändern.
@@ -71,6 +75,7 @@ Um Preislisten und Preise zu überprüfen, die für bestimmte Kunden oder Liefer
 ---
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>So erstellen Sie VerkaufszeilenSkontoe für einen Debitor:
+
 Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-Update **Neues Verkaufspreiserlebnis** aktiviert hat. 
 
 #### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience/)  
@@ -100,6 +105,7 @@ Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-U
 ---
 
 ## <a name="work-with-invoice-discounts-and-service-charges"></a>Mit Rechnungsrabatten und Servicegebühren arbeiten
+
 Wenn Sie RechnungsSkontoe verwenden, bestimmt die Höhe des Rechnungsbetrages die Höhe des Skontoes, der gewährt wird. Auf der Seite **Rechnungsrabatte** können Sie einen Zuschlag für Rechnungen über einem bestimmten Betrag einrichten.  <!--The Invoice Discounts page is hard to find.-->
 
 Bevor Sie Rechnungsrabatte mit Verkäufen verwenden können, müssen Sie einige Informationen in der Anwendung eingeben. Sie müssen entscheiden, welchen Kunden diese Art von Skonto gewährt wird und welche Skontoprozentsätze Sie verwenden.  
@@ -116,26 +122,28 @@ Zusätzlich (oder anstatt) eines Skontoprozentsatzes können Sie einen Zuschlag 
 > Bevor Sie mit der Eingabe dieser Informationen beginnen, sollten Sie Ihre Skontostruktur im Voraus vorbereiten, damit Sie leichter erkennen können, welche Kunden auf dieselbe RechnungsSkonto-Seite verlinken sollen. Weitere Informationen zu Skonti bei Verkäufen finden Sie unter [Einrichten von Skonti für Ihre Kunden](/learn/modules/customer-discounts-dynamics-365-business-central/index) unter Microsoft Learn.  
 
 ### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Um RechnungsSkontokonditionen für Einkäufe einzurichten:
+
 Wenn Sie sich entschieden haben, welche Debitoren für RechnungsSkontoe in Frage kommen, geben Sie die RechnungsSkontocodes auf den Debitorenkarten ein, und richten Sie die Bedingungen für die einzelnen Codes ein.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Debitorenseite für einen Debitor, der für Rechnungsskonti in Frage kommt.
-3. Geben Sie im Feld **Rechnungsskontocode** einen Code für das jeweilige Rechnungsskontofenster ein, das die Anwendung verwenden soll, um Rechnungsskonti für den Debitor zu berechnen. <!--Looks like I can only choose customers in this list-->
+3. Geben Sie im Feld **Rechnungsrabattcode** einen Code für das jeweilige Rechnungsrabattfenster ein, das die Anwendung verwenden soll, um Rechnungsrabatte für den Debitor zu berechnen. <!--Looks like I can only choose customers in this list-->
 
 > [!NOTE]  
-> Rechnungsskontocodes werden durch Bestandskundenkarten dargestellt. Dies ermöglicht es Ihnen, Rechnungsskontobedingungen schnell einem Debitor zuzuweisen, indem es den Namen eines anderen Debitors mit den selben Konditionen auswählt.
+> Rechnungsrabattcodes werden durch Bestandskundenkarten dargestellt. Dies ermöglicht es Ihnen, Rechnungsskontobedingungen schnell einem Debitor zuzuweisen, indem es den Namen eines anderen Debitors mit den selben Konditionen auswählt.
 
 Fahren Sie fort, um neue Verkaufsrechnungsskonto-Bedingungen einzurichten.
 
 1. Auf der Seite **Debitoren** wählen Sie die Aktion **Rechnungsskonto** aus. Die Seite **Debitorenrechnungsskonti** wird geöffnet.
-2. Geben Sie in dem Feld **Währungscode** den Code für die Währung ein, für die die RechnungsSkontokonditionen gelten sollen. Wenn Sie RechnungsSkontobedingungen in EUR einrichten möchten, dann lassen Sie das Feld leer.
-3. Geben Sie im Feld **Minimalbetrag** den Mindestbetrag ein, den eine Rechnung aufweisen muss, um für einen Skonto in Frage zu kommen.
-4. Geben Sie im Feld **Skonto** den Rechnungsskonto als Prozentsatz des Rechnungsbetrages ein.
-5. Wiederholen Sie die Schritte 5 bis 7 für jede Währung, für die der Debitor einen Rechnungsskonto erhält.
+2. Geben Sie in dem Feld **Währungscode** den Code für die Währung ein, für die die RechnungsSkontokonditionen gelten sollen. Wenn Sie Rechnungsrabattbedingungen in EUR einrichten möchten, dann lassen Sie das Feld leer.
+3. Geben Sie im Feld **Minimalbetrag** den Mindestbetrag ein, den eine Rechnung aufweisen muss, um für einen Rabatt in Frage zu kommen.
+4. Geben Sie im Feld **Rabatt** den Rechnungsrabatt als Prozentsatz des Rechnungsbetrages ein.
+5. Wiederholen Sie die Schritte 5 bis 7 für jede Währung, für die der Debitor einen Rechnungsrabatt erhält.
 
-Der RechnungsSkonto wird jetzt eingerichtet und dem fraglichen Debitor zugewiesen. Wenn Sie den Debitorencode im Feld **Rechnungs-Skontocode** für andere Debitorenkarten auswählen, wird derselbe RechnungsSkonto diesen Kunden zugewiesen.
+Der Rechnungsrabatt wird jetzt eingerichtet und dem fraglichen Debitor zugewiesen. Wenn Sie den Debitorencode im Feld **Rechnungs-Skontocode** für andere Debitorenkarten auswählen, wird derselbe RechnungsSkonto diesen Kunden zugewiesen.
 
 ## <a name="to-copy-sales-prices"></a>Verkaufspreise kopieren
+
 Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-Update **Neues Verkaufspreiserlebnis** aktiviert hat. 
 
 #### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience/)  
@@ -166,6 +174,7 @@ Den Status der Preislistenzeile muss **Entwurf** lauten.
 ---
 
 ## <a name="to-bulk-update-item-prices"></a>So aktualisieren Sie Debitorenartikelpreise auf einmal
+
 Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-Update **Neues Verkaufspreiserlebnis** aktiviert hat. 
 
 #### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience/)
@@ -193,9 +202,16 @@ Um die Preise für mehrere Artikel zu aktualisieren, müssen Sie eine neue Preis
 ---
 
 ## <a name="calculating-the-best-price"></a>Den besten Preis berechnen
+
 Falls Sie spezielle Preise und Zeilenrabatte für Verkäufe und Einkäufe erfasst haben, stellt [!INCLUDE[d365fin](includes/d365fin_md.md)] sicher, dass der Deckungsbeitrag im Artikelhandel immer optimal ist, indem er die besten Preise automatisch in Einkaufs- und Verkaufsbelegen und auf Projekt- und Artikel Erfassungsjournalzeilen berechnet. Weitere Informationen finden Sie unter [Beste Preisberechnung](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/customer-discounts-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch 
+
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Verkauf](sales-manage-sales.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

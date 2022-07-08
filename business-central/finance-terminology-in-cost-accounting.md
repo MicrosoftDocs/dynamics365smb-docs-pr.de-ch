@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6e5f1e99daea56fda5a1a36e0e2b1fb69c332dc5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 92f44504f97c4203585486fc937ed3bb560ad5d4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519161"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076553"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologie der Kostenrechnung
 
@@ -30,10 +30,10 @@ Dieses Thema definiert die Schlüsselbegriffe, die in der Kostenrechnung verwend
 |Umlageschlüssel|Der Umlageschlüssel ist die Basis, die verwendet wird, um Kosten zuzuordnen. Es ist normalerweise eine Menge, wie belegte Quadratmeter, Mitarbeiteranzahl oder verwendete Mannstunden. Beispielsweise teilen sich zwei Abteilungen mit je 20 und 10 Mitarbeitern die Kantinenkosten. Die Kosten werden auf die Abteilungen verteilt, indem Sie einen Umlageschlüssel verwenden, der die Anzahl der Mitarbeiter darstellt. Zwei Drittel der Kosten werden der ersten Abteilungen zugeordnet, und ein Drittel der Kosten wird der zweiten Abteilung zugeordnet.|  
 |Verteilungsquelle|Die Zuordnungsquelle definiert, welche Kosten zugeordnet werden. Zuordnungen werden in den Quell- und Zieltabellen der Verteilung definiert. Jede Zuordnung besteht aus einer Zuordnungsquelle und einer oder mehreren Zuordnungszielen. Beispielsweise können alle Kosten für die Heizkostenart, die einer Verteilungsquelle entspricht, dem Workshop, der Produktion und den Verkaufskostenstellen, also den drei Zuordnungszielen, zugeordnet werden.|  
 |Verteilungsziel|Die Zuordnungsziele bestimmen, wie die Kosten zugeordnet werden. Zuordnungen werden in den Quell- und Zieltabellen der Verteilung definiert. Jede Zuordnung besteht aus einer Zuordnungsquelle und einer oder mehreren Zuordnungszielen. Beispielsweise können alle Kosten für die Heizkostenart, die einer Verteilungsquelle entspricht, dem Workshop, der Produktion und den Verkaufskostenstellen, also den drei Zuordnungszielen, zugeordnet werden.|  
-|Kostenrechnung|In der Kostenrechnung werden Ist-Kosten für Arbeitsgänge, Prozesse, Abteilungen oder Produkte erfasst. Diese Kosten werden Kostenstellen und Kostenträgern zugeordnet, indem verschiedene Kostenumlagemethoden verwendet werden. Manager verwenden Statistiken und Berichte, wie Kostenaufteilungsblätter sowie Gewinn- und Verlustanalysen, um Entscheidungen zu treffen und Kosten zu verringern. Die Kostenrechnung ruft Daten aus dem Fibukonto ab, funktioniert aber unabhängig. Daher wirken sich Transaktionen, die in der Kostenrechnung gebucht werden, nicht auf die Daten auf dem Fibukonto aus.|  
-|Kostenart|Der Kostenartenplan hat dieselbe Funktion wie der Kontenplan im Fibukonto. Sie sind oft in gleicher Weise strukturiert. Daher ist es möglich, den Fibukontenplan auf den Kostenartenplan zu übertragen und dann zu ändern. Der Kostenartenplan kann auch von Grund auf neu erstellt werden.|  
-|Kostenstelle|Kostenstellen sind häufig Abteilungen und Profiteinheiten, die für die Kosten und die Einnahmen des Unternehmens in grossem Masse zuständig sind. Kostenstellen können mit Dimensionen im Fibukonto synchronisiert werden. Es ist ebenfalls möglich, neue Kostenstellen hinzuzufügen und ihre eigene Sortierung mit Zwischensummen zu definieren.|  
-|Kostenträger|Kostenträger sind Produkte, Produktgruppen oder Services eines Unternehmens, die fertigen Erzeugnisse eines Unternehmens, die am Ende die Kosten tragen. Kostenträger können mit Dimensionen im Fibukonto synchronisiert werden. Es ist ebenfalls möglich, neue Kostenträger hinzuzufügen und ihre eigene Sortierung mit Zwischensummen zu definieren.|  
+|Kostenrechnung|In der Kostenrechnung werden Ist-Kosten für Arbeitsgänge, Prozesse, Abteilungen oder Produkte erfasst. Diese Kosten werden Kostenstellen und Kostenträgern zugeordnet, indem verschiedene Kostenumlagemethoden verwendet werden. Manager verwenden Statistiken und Berichte, wie Kostenaufteilungsblätter sowie Gewinn- und Verlustanalysen, um Entscheidungen zu treffen und Kosten zu verringern. Die Kostenrechnung ruft Daten aus dem Sachkonto ab, funktioniert aber unabhängig. Daher wirken sich Transaktionen, die in der Kostenrechnung gebucht werden, nicht auf die Daten auf dem Sachkonto aus.|  
+|Kostenart|Der Kostenartenplan hat dieselbe Funktion wie der Kontenplan im Sachkonto. Sie sind oft in gleicher Weise strukturiert. Daher ist es möglich, den Sachkontenplan auf den Kostenartenplan zu übertragen und dann zu ändern. Der Kostenartenplan kann auch von Grund auf neu erstellt werden.|  
+|Kostenstelle|Kostenstellen sind häufig Abteilungen und Profiteinheiten, die für die Kosten und die Einnahmen des Unternehmens in grossem Masse zuständig sind. Kostenstellen können mit Dimensionen im Sachkonto synchronisiert werden. Es ist ebenfalls möglich, neue Kostenstellen hinzuzufügen und ihre eigene Sortierung mit Zwischensummen zu definieren.|  
+|Kostenträger|Kostenträger sind Produkte, Produktgruppen oder Services eines Unternehmens, die fertigen Erzeugnisse eines Unternehmens, die am Ende die Kosten tragen. Kostenträger können mit Dimensionen im Sachkonto synchronisiert werden. Es ist ebenfalls möglich, neue Kostenträger hinzuzufügen und ihre eigene Sortierung mit Zwischensummen zu definieren.|  
 |Kostenzuordnung|Kostenumlage ist ein Prozess des Zuordnens von Kosten auf die Kostenstellen oder Kostenträger. Beispielsweise wird der Lohn des LKW-Fahrers der Verkaufsabteilung der Vertriebsabteilungskostenstelle zugeordnet. Es ist nicht notwendig, die Lohnkosten anderen Kostenstellen zuzuordnen. Ein anderes Beispiel wäre, dass die Kosten eines teuren Computersystems den Produkten des Unternehmens zugeordnet werden, die das System verwenden.|  
 |Dynamische Zuteilung|Dynamische Zuteilungen sind unabhängig von den veränderbaren Zuordnungsgrundlagen, zum Beispiel von der Anzahl der Abteilungsmitarbeiter oder dem Verkaufserlös des Projekts innerhalb eines bestimmten Zeitraums. Es gibt neun vordefinierte dynamische Zuteilungsbasen, die Benutzer festlegen können, indem Sie fünf Filter verwenden.|  
 |Direkte Kosten|Direkte Kosten sind die Kosten, die einem Kostenträger direkt zugeordnet werden können, zum Beispiel der Materialeinkauf für ein bestimmtes Produkt.|  
@@ -49,8 +49,11 @@ Dieses Thema definiert die Schlüsselbegriffe, die in der Kostenrechnung verwend
 |Variable Kosten|Variable Kosten sind Ausgaben, die sich abhängig von der Aktivität eines Geschäftes ändern. Variable Kosten sind die Summe der Grenzkosten über alle erzeugten Einheiten hinweg. Fixkosten und variable Kosten ergeben die beiden Komponenten der Gesamtkosten.|  
 |Variante|Eine Variante wird als optionale benutzerdefinierte Beschriftung für Zuordnungen verwendet. Der Zweck der Beschriftung ist es, Gruppen nach Zuordnung zu filtern.|  
 
-## <a name="see-also"></a>Weitere Informationen  
- [Informationen zur Kostenrechnung](finance-about-cost-accounting.md)   
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch 
+
+ [Informationen zur Kostenrechnung](finance-about-cost-accounting.md)  
  [Kostenrechnung](finance-manage-cost-accounting.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

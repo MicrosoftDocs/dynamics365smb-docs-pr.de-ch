@@ -10,12 +10,12 @@ ms.search.keywords: trade, partial deliveries, customer sales order
 ms.search.form: 42, 48, 9305
 ms.date: 01/19/2022
 ms.author: edupont
-ms.openlocfilehash: 52060d74d7ef855a89dd3cffabd4ada435d6b117
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 102fa04db203d8b1fe05d63629fbe24f49193112
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523281"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077854"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Produkte mit einem Debitorenauftrag verkaufen  
 
@@ -64,9 +64,9 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
     Das Feld **Zeilenmenge** wird aktualisiert, um den Wert im Feld **Einheitspreis** multipliziert ist mit dem Wert im Feld **Menge** anzuzeigen.
 
     Der Preis und der Zeilenbetrag auf den Verkaufsrechnungszeilen werden mit oder ohne Salestax angezeigt je nachdem, was Sie im Feld **Preis inklusive Mehrwertsteuer** auf der Debitorenkarte ausgewählt haben.
-8. Geben Sie im Feld **Zeilenskonto in Prozent** einen Prozentsatz ein, wenn Sie dem Debitor einen Skonto auf das Produkt gewähren möchten. Der Wert im Feld **Zeilenbetrag** wird entsprechend aktualisiert.
+8. Geben Sie im Feld **Zeilenrabatt in Prozent** einen Prozentsatz ein, wenn Sie dem Debitor einen Rabatt auf das Produkt gewähren möchten. Der Wert im Feld **Zeilenbetrag** wird entsprechend aktualisiert.
 
-    Wenn Sie bestimmte Artikelpreise für den Debitor auf dem Inforegister **Verkaufspreise und Verkaufspreis-Zeilenskonti** eingerichtet haben, werden der Preis und der Betrag auf der Rechnungszeile automatisch aktualisiert, wenn die vereinbarten Preiskriterien erfüllt sind. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Skonto und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
+    Wenn Sie bestimmte Artikelpreise für den Debitor auf dem Inforegister **Verkaufspreise und Verkaufspreis-Zeilenrabatte** eingerichtet haben, werden der Preis und der Betrag auf der Rechnungszeile automatisch aktualisiert, wenn die vereinbarten Preiskriterien erfüllt sind. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Skonto und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
 9. Um einen Kommentar zur Bestellzeile hinzuzufügen, den der Debitor auf dem gedruckten Verkaufsauftrag sehen kann, schreiben Sie einen Kommentar in das Feld **Beschreibung** in eine leere Zeile.  
 10. Wiederholen Sie die Schritte 5 bis 9 für jeden Artikel, den Sie an den Debitoren verkaufen möchten.
 
@@ -79,7 +79,7 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
 
 11. Optional geben Sie im Feld **Skontobetrag in Rechnung stellen** einen Betrag ein, der vom Wert abgezogen werden soll, der im Feld **Total inklusive Salestax** angezeigt wird.
 
-    Wenn Sie Rechnungsskonti für den Debitor eingerichtet haben, wird der angegebene Prozentwert automatisch in das Feld **Rechnungsskonto in Prozent** eingetragen, sobald die Kriterien erfüllt sein, und der entsprechende Betrag wird im Feld **Rechnungsbetrag mit Skonto ohne Mehrwertsteuer** eingefügt. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Skonti und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
+    Wenn Sie Rechnungsrabatte für den Debitor eingerichtet haben, wird der angegebene Prozentwert automatisch in das Feld **Rechnungsrabatt in Prozent** eingetragen, sobald die Kriterien erfüllt sein, und der entsprechende Betrag wird im Feld **Rechnungsbetrag mit Rabatt ohne Mehrwertsteuer** eingefügt. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Skonti und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
 12. Um nur einen Teil der Auftragsmenge zu liefern, geben Sie die Menge im Feld **Zu liefernde Menge** ein. Der Wert wird in das Feld **Zu fakturierende Menge** kopiert.
 13. Um nur einen Teil der Auftragsmenge zu fakturieren, geben Sie die Menge im Feld **Zu fakturierende Menge** ein. Die zu fakturierende Menge kann nicht grösser sein, als der Wert im Feld **Zu liefernde Menge**.  
 14. Wenn die Verkaufsangebotszeilen ausgeführt werden, wählen Sie die Aktion **Buchen und Senden** aus.
@@ -94,12 +94,14 @@ Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst ers
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch 
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Kommissionierliste drucken](sales-how-print-picking-list.md)  
-[Bestand](inventory-manage-inventory.md)  
+[Lagerbesttand](inventory-manage-inventory.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

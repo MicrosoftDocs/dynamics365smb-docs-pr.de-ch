@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9cfb46221098869f41b67c5365f14265b34017c0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ceba015b16e990bc71e0217ed2f8ee85ca6ae1ec
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520348"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074888"
 ---
 # <a name="setting-up-cost-accounting"></a>Einrichten der Kostenrechnung
 
@@ -100,10 +100,10 @@ Eine Kostenart hat möglicherweise keine Beziehung zu Fibukonten, wenn eine der 
 
 ## <a name="setting-up-cost-centers"></a>Einrichten von Kostenstellen
 
-Kostenstellen sind Abteilungen, die für die Kosten und die Einnahmen zuständig sind. Der Kostenstellenplan ähnelt den Dimensionsinformationen für das Fibukonto. Sie können den Kostenstellenplan auf die folgenden Weisen einrichten:  
+Kostenstellen sind Abteilungen, die für die Kosten und die Einnahmen zuständig sind. Der Kostenstellenplan ähnelt den Dimensionsinformationen für das Sachkonto. Sie können den Kostenstellenplan auf die folgenden Weisen einrichten:  
 
-- Transferieren Sie Dimensionswerte im Fibukonto zum Kostenstellenplan. Sie können alle notwendigen Änderungen nach der Übertragung vornehmen.  
-- Erstellen Sie einen neuen Kostenstellenplan, der unabhängig vom Fibukonto ist, oder fügen Sie einem vorhandenen Kostenstellenplan eine neue Kostenstelle hinzu. Sie müssen jede Kostenstelle einzeln erstellen.  
+- Transferieren Sie Dimensionswerte im Sachkonto zum Kostenstellenplan. Sie können alle notwendigen Änderungen nach der Übertragung vornehmen.  
+- Erstellen Sie einen neuen Kostenstellenplan, der unabhängig vom Sachkonto ist, oder fügen Sie einem vorhandenen Kostenstellenplan eine neue Kostenstelle hinzu. Sie müssen jede Kostenstelle einzeln erstellen.  
 
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>So transferieren Sie Dimensionswerte im Fibukonto zum Kostenstellenplan
 
@@ -112,7 +112,7 @@ Kostenstellen sind Abteilungen, die für die Kosten und die Einnahmen zuständig
 3. Klicken Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktion** auf **Kostenstellen aus Dimension abrufen**, um Dimensionswerte zum Kostenstellenplan zu übertragen. Die Funktion überträgt die Dimensionswerte, die Sie in Schritt 1 definiert haben.  
 
     > [!NOTE]  
-    >  Sie können das Feld **Kostenstellendimension ausrichten** so einrichten, dass eine unidirektionale Synchronisierung von Dimensionswerten aus dem Fibukonto zum Kostenstellenplan definiert wird. Sie können keine Synchronisierung des Kostenstellenplans mit Dimensionswerten aus dem Fibukonto definieren.  
+    >  Sie können das Feld **Kostenstellendimension ausrichten** so einrichten, dass eine unidirektionale Synchronisierung von Dimensionswerten aus dem Fibukonto zum Kostenstellenplan definiert wird. Sie können keine Synchronisierung des Kostenstellenplans mit Dimensionswerten aus dem Sachkonto definieren.  
 
 Der Kostenstellenplan enthält jetzt alle angegebenen Dimensionswerte aus dem Fibukonto und umfasst Titel und Zwischensummen.  
 
@@ -136,22 +136,24 @@ Sie können Kostenkarten auf der Seite **Kostenstellen** oder auf der Seite **Ko
 
 ## <a name="setting-up-cost-objects"></a>Einrichten von Kostenträgern
 
-Kostenträger sind Projekte, Produkte oder Services eines Unternehmens. Der Kostenträgerplan ähnelt den Dimensionsinformationen für das Fibukonto. Sie können den Kostenträgerplan auf die folgenden Weisen einrichten:  
+Kostenträger sind Projekte, Produkte oder Services eines Unternehmens. Der Kostenträgerplan ähnelt den Dimensionsinformationen für das Sachkonto. Sie können den Kostenträgerplan auf die folgenden Weisen einrichten:  
 
-* Transferieren Sie Dimensionswerte im Fibukonto zum Kostenträgerplan. Sie können alle notwendigen Änderungen nach der Übertragung vornehmen.  
-* Erstellen Sie einen neuen Kostenträgerplan, der unabhängig vom Fibukonto ist, oder fügen Sie einem vorhandenen Kostenträgerplan einen neuen Kostenträger hinzu. Sie müssen jeden Kostenträger einzeln erstellen.  
+* Transferieren Sie Dimensionswerte im Sachkonto zum Kostenträgerplan. Sie können alle notwendigen Änderungen nach der Übertragung vornehmen.  
+* Erstellen Sie einen neuen Kostenträgerplan, der unabhängig vom Sachkonto ist, oder fügen Sie einem vorhandenen Kostenträgerplan einen neuen Kostenträger hinzu. Sie müssen jeden Kostenträger einzeln erstellen.  
 
-### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>So transferieren Sie Dimensionswerte aus dem Fibukonto zum Kostenträgerplan  
+### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>So transferieren Sie Dimensionswerte aus dem Fibukonto zum Kostenträgerplan
+
 1.  Legen Sie eine Dimension als Kostenträgerdimension auf der Seite **Kostenträger-Dimensionen aktualisieren** fest. Nur die Werte aus dieser Dimension werden übertragen.  
 2.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 3.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Diagramm der Kostenträgerpläne** ein und wählen Sie dann den zugehörigen Link.  
 3.  Wählen Sie die Aktion **Kostenträger aus Dimension abrufen**, um Dimensionswerte zum Kostenträgerplan zu übertragen. Die Funktion überträgt die Dimensionswerte, die Sie in Schritt 1 definiert haben.  
 
     > [!NOTE]  
-    >  Sie können das Feld **Kostenträgerdimension ausrichten** so einrichten, dass eine unidirektionale Synchronisierung von Dimensionswerten aus dem Fibukonto zum Kostenträgerplan definiert wird. Sie können keine Synchronisierung des Kostenträgerplans mit Dimensionswerten aus dem Fibukonto definieren.  
+    >  Sie können das Feld **Kostenträgerdimension ausrichten** so einrichten, dass eine unidirektionale Synchronisierung von Dimensionswerten aus dem Fibukonto zum Kostenträgerplan definiert wird. Sie können keine Synchronisierung des Kostenträgerplans mit Dimensionswerten aus dem Sachkonto definieren.  
 
 Der Kostenträgerplan enthält jetzt alle angegebenen Dimensionswerte aus dem Fibukonto und umfasst Titel und Zwischensummen.  
 
-### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>So richten Sie auf der Seite Kostenstellenträger neue Kostenträger ein  
+### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>So richten Sie auf der Seite Kostenstellenträger neue Kostenträger ein
+
 Sie können Kostenkarten auf der Seite **Kostenträger** oder im Fenster **Kostenträgerkarte** einrichten und verwalten. So richten Sie auf der Seite **Kostenträger** neue Kostenstellenträger ein.  
 
 1.  Öffnen Sie die Seite **Kontenplan-Objekte** im Bearbeitungsmodus.  
@@ -169,17 +171,20 @@ Sie können Kostenkarten auf der Seite **Kostenträger** oder im Fenster **Koste
 >  Wenn Sie Definitionen in den **Summe Von/Bis**-Feldern für **Bis-Summe**-Kostenträger eingegeben haben, bevor Sie die Einzugsfunktion ausführen, müssen Sie sie noch einmal eingeben. Die Funktion überschreibt die Werte in allen **Bis-Summe**-Feldern.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Definieren von Kostenstellen und Kostenträgern für Kontenpläne
-Sie können die Ausgaben- und Einnahmenposten aus dem Fibukonto in die Kostenrechnung entweder für jede Fibukontobuchung oder mit einem Batchauftrag übertragen. Wenn Sie die Übertragung ausführen, überträgt [!INCLUDE[prod_short](includes/prod_short.md)] nur die Posten, die bereits mit einer Kostenstelle oder einem Kostenträger verknüpft sind. Um eine sinnvolle Übertragung herzustellen, müssen Sie sicherstellen, dass die Kostenstellen und die Kostenträger korrekt definiert sind.  
 
-### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Definieren von Standarddimensionswerten für Fibukonten  
-Für jedes Fibukonto können Sie Standarddimensionswerte in der Tabelle **Standarddimensionen** definieren. Das folgende Beispiel zeigt, wie Sie definieren, dass es immer eine Kostenstelle ABTEILUNG, aber nie einen Kostenträger PROJEKT geben soll, wenn Sie auf ein Fibukonto buchen.  
+Sie können die Ausgaben- und Einnahmenposten aus dem Sachkonto in die Kostenrechnung entweder für jede Sachkontobuchung oder mit einem Batchauftrag übertragen. Wenn Sie die Übertragung ausführen, überträgt [!INCLUDE[prod_short](includes/prod_short.md)] nur die Posten, die bereits mit einer Kostenstelle oder einem Kostenträger verknüpft sind. Um eine sinnvolle Übertragung herzustellen, müssen Sie sicherstellen, dass die Kostenstellen und die Kostenträger korrekt definiert sind.  
+
+### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Definieren von Standarddimensionswerten für Sachkonten
+
+Für jedes Fibukonto können Sie Standarddimensionswerte in der Tabelle **Standarddimensionen** definieren. Das folgende Beispiel zeigt, wie Sie definieren, dass es immer eine Kostenstelle ABTEILUNG, aber nie einen Kostenträger PROJEKT geben soll, wenn Sie auf ein Sachkonto buchen.  
 
 |**Dimensionscode**|**Dimensionswertbuchung**|  
 |------------------------------------------|-----------------------------------------|  
 |Abteilung|Code notwendig|  
 |Kostenträger|Kein Code|  
 
-### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Definieren von Dimensionswerten für Gemeinkosten und direkte Kosten  
+### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Definieren von Dimensionswerten für Gemeinkosten und direkte Kosten
+
  Sie können Gemeinkosten an eine Kostenstelle und direkte Kosten an einen Kostenträger übertragen. In der folgenden Tabelle wird die optimale Kombination aus Dimensionseinrichtungswerten angezeigt.  
 
 |Übertragen in|Kostenstellenbuchung|Kostenträgerbuchung|  
@@ -190,9 +195,12 @@ Für jedes Fibukonto können Sie Standarddimensionswerte in der Tabelle **Standa
 > [!NOTE]  
 >  Um sicherzustellen, dass die vordefinierte Kostenstelle und der vordefinierte Kostenträger, die bzw. den Sie im Fibukonto eingerichtet haben, automatisch in die Kostenrechnung übertragen werden, aktivieren Sie das Kontrollkästchen **Fibu-Buchung prüfen** auf der Seite Kostenbuchungseinrichtung.
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch 
+
 [Kostenrechnung](finance-manage-cost-accounting.md)  
-[Übertragung und Buchung von Kostenzuteilungen](finance-transfer-and-post-cost-entries.md)   
+[Übertragung und Buchung von Kostenzuteilungen](finance-transfer-and-post-cost-entries.md)  
 [Definieren und Zuweisen von Kosten](finance-define-and-allocate-costs.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

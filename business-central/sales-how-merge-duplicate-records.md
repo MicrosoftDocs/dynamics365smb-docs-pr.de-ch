@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3068a64df18b184df1cefe42b7a268f5f633a596
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 412dd6ae2842c408ac0a4be7be369c01019a814b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510675"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074499"
 ---
 # <a name="merge-duplicate-records"></a>Doppelt Datensätze zusammenführen
+
 Wenn unterschiedliche Benutzer im Laufe der Zeit neue Debitoren-, Kreditoren- oder Kontaktkarten erstellen, oder die neuen Datensätze automatisch während der Migration erstellt werden, wird ein Debitor, ein Kreditor oder ein Kontakt im System mit mehr als einem Datensatz dargestellt. In diesem Fall können Sie die Seite **Doppelte Datensätze zusammenführen** aus der Karte des Datensatzes verwenden, den Sie erfassen möchten. Die Seite zeigt Ihnen eine Übersicht der duplizierten Feldwerte und bietet Funktionen, um auszuwählen, welche Werte behalten oder verworfen werden, wenn zwei Datensätze zusammengeführt werden.
 
 > [!NOTE]
@@ -27,7 +28,7 @@ Wenn unterschiedliche Benutzer im Laufe der Zeit neue Debitoren-, Kreditoren- od
 
 Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für Debitor- und Kontaktkarten ähnlich.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Debitor, von dem Sie wissen oder vermuten, dass ein doppelter Datensatz für ihn existiert, und wählen Sie die dann die Aktion **Bearbeiten** aus.
 3. Wählen Sie auf der Seite **Debitorenkarte** die Aktion **Zusammenführen mit** aus.
 4. Wählen Sie auf der Seite **Doppelte Datensätze zusammenführen** im Feld **Zusammenführen mit** den Kunden aus, von dem Sie der Meinung sind, dass dies ein Duplikat des von Ihnen geöffneten Datensatzes ist, der im Feld **Aktuell** angezeigt wird.
@@ -61,7 +62,10 @@ Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für 
 > [!NOTE]
 > Für Kontakte können Sie Funktionen zum Auffinden von doppelten Kontakten nutzen, bevor Sie die Seite **Doppelt Datensätze zusammenführen** verwenden. Weitere Informationen finden Sie unter [Suchen nach doppelten Kontakten](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch 
+
 [Verkauf](sales-manage-sales.md)  
 [Kontakte einrichten](marketing-setup-contacts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

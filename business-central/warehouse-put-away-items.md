@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5770, 5783, 5784, 5786, 5795, 7334, 7352, 7354, 7356, 7375, 7379, 7390, 7394, 7396, 9312, 9315, 9343
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 1a18d62f5b2c9f98bd3ece41eeb871221003cccd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4ae110e18307105893e9ee3efccf136ff3efe02f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519984"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079494"
 ---
 # <a name="putting-items-away"></a>Einlagerung von Artikeln
 
@@ -39,13 +39,15 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Teilen Sie eine Einlagerungszeile auf, um einen Teil der Einlagerungsmenge an freien Lagerplätzen einzulagern, da der vorgesehene Lagerplatz aufgefüllt wird.|[Lageraktivitätszeilen aufzuteilen](warehouse-how-to-split-warehouse-activity-lines.md)|
 |Sie erhalten sofortigen Zugriff auf Einlagerungen, die Ihnen als Lagermitarbeiter zugewiesen sind.|[Suchen der Lagerzuweisungen](warehouse-how-to-find-your-warehouse-assignments.md)|
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/receive-put-away-items/)
+
+## <a name="see-also"></a>Siehe auch 
 
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbesttand](inventory-manage-inventory.md)  
-[Lagerverwaltung einrichten](warehouse-setup-warehouse.md) 
-[Montageverwaltung](assembly-assemble-items.md)
-[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
+[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
+[Montageverwaltung](assembly-assemble-items.md)  
+[Designdetails: Logistik](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

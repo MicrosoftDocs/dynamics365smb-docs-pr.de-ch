@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 389, 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2418ca1164d0a3d67ca9ae3403733dfbd9a56660
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8c4d11dd4e031388ea5ec28bb8a181122b50b470
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520826"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074602"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Abstimmen von Zahlungen mithilfe der automatischen Anwendung
 
@@ -44,7 +44,8 @@ Für jede Erf.-Journalzeile, die ein Zahlung auf der Seite **Zahlungsabstimmungs
 > Sie können den Banktransaktionsimport automatisch starten, wenn Sie die Seite **Zahlungsabstimmungserf.-Journal** für ein bestehendes Erfassungsjournal. öffnen. Nachfolgend wird beschrieben, wie Banktransaktionen auf die Seite **Zahlungsabstimmungserf.-Journal** importiert werden, nachdem Sie ein neues Erf.-Journal erstellt haben.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Vorgehensweise zum Abstimmen von Zahlungen mithilfe der automatischen Anwendung
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Zahlungsausgangs Erfassungsjournale** ein und wählen Sie dann den zugehörigen Link.
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Zahlungsausgangs Erfassungsjournale** ein und wählen Sie dann den zugehörigen Link.
 2. Um in einem neuen Zahlungsabstimmungs-Erfassungsjournal zu arbeiten, wählen Sie die Aktion **Neues Erfassungsjournal** aus.
 3. Wählen Sie auf der Seite **Zahlung Bankkontenliste** das Bankkonto aus, für das Sie Zahlungen abstimmen möchten, und klicken Sie anschliessend auf **OK**.
    Die Seite **Zahlungsabstimmungserf.-Journal** wird für das ausgewählte Bankkonto vorbereitet geöffnet.
@@ -88,7 +89,10 @@ Sie können den Wert im Feld **Saldo auf Bankkonto nach dem Buchen** zusammen mi
 > [!NOTE]  
 >   Wenn Sie nicht das Bankkonto aus der Seite **Zahlungsabstimmungserfassungsjournal** abstimmen, müssen Sie das Fenster **Bankkonto-Abstimmung** verwenden. Weitere Informationen finden Sie unter [Abstimmen von Bankkonten](bank-how-reconcile-bank-accounts-separately.md).
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/use-journals-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch 
+
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

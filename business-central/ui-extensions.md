@@ -7,12 +7,12 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 2500, 2502
 ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: 56c564274e396d9699286b18d882c2a21f8721ef
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 88f445116f1b9897cabc2cc3756f6c6f414288c3
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510701"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079026"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Anpassen von Business Central Online mithilfe der Erweiterungen
 
@@ -31,7 +31,7 @@ Sie können [!INCLUDE[prod_short](includes/prod_short.md)] online ändern, indem
 
 Wenn Sie das [!INCLUDE[prod_short](includes/prod_short.md)] zuerst starten, werden bestimmte Erweiterungen bereits eingerichtet. Im Zeitverlauf werden mehr Erweiterungen für Sie zugänglich und Sie können auswählen, ob Sie die Erweiterung verwenden möchten oder nicht.
 
-Beispielsweise bietet Microsoft eine Erweiterung an, die die Integration mit Standard PayPal-Zahlungen ermöglicht. Diese Erweiterung wird standardmässig eingerichtet.
+Beispielsweise bietet Microsoft eine Erweiterung an, die die Integration mit Standard Paypal-Zahlungen ermöglicht. Diese Erweiterung wird standardmässig eingerichtet.
 Wenn aber keine andere Erweiterung bereitgestellt wird, die die Integration mit einem anderen Zahlungsservice anbietet, können Sie die neue Erweiterung einrichten und dann auswählen, welcher der beiden Services verwendet werden soll.  
 
 Sie verwalten die Erweiterung auf der **Erweiterungs-Verwaltungs**-Seite. Sie können vom Startbildschirm auf diese Seite zugreifen. Wählen Sie alternativ das Symbol **Nach Seite oder Bericht suchen** aus ![Glühlampe, mit der die Funktion „Sie wünschen“ geöffnet wird](media/ui-search/search_small.png "Tell me-Funktion") in der oberen rechter Ecke, geben Sie **Erweiterung** ein, und wählen Sie dann den zugehörigen Link aus. Weitere Informationen finden Sie unter [Installieren und Deinstallieren von Erweiterungen](ui-extensions-install-uninstall.md).
@@ -83,7 +83,9 @@ Microsoft Partner und Wiederverkäufer können eine Erweiterung erstellen, mit d
 > [!NOTE]
 > Wenn Sie ein Microsoft-Partner oder -Wiederverkäufer sind und eine Liste empfohlener Apps bereitstellen möchten, lesen Sie [Empfohlene Apps von AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/customize-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch 
 
 [Erweiterungen installieren und deinstallieren](ui-extensions-install-uninstall.md)  
 [Anpassen von Business Central](ui-customizing-overview.md)  

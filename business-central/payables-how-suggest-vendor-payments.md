@@ -10,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab9844f52f74e79283daafbe02f8cc2139c3ac9d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 1360d4189bfeb8ca446e4a372613bed9f14284a4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522812"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075409"
 ---
 # <a name="suggest-vendor-payments"></a>Zahlungsvorschlag
 
@@ -33,16 +33,18 @@ Um aus vorgeschlagenen Zeilen voll zu profitieren, müssen Sie zuerst die Kredit
     * Öffnen Sie die Kreditorenposten, die sich für Skonti qualifizieren, angeordnet nach Kreditorennummer.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Die Zahlungsvorschlagfunktion verwenden
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Zahlungsausgangs Erfassungsjournale** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie das relevante Erfassungsjournal, und klicken Sie dann auf die Aktion **Zahlungsvorschlag**.  
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Wählen Sie die Schaltfläche **OK** aus.  
 
 ## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Einfügen des Fälligkeitsdatum als Buchungsdatum auf Zahlungsausgangs-Erfassungsjournalzeilen
+
 Wenn Sie die Stapelverarbeitung **Zahlungsvorschlag** verwenden, um Zahlungszeilen für Ihre Kreditoren zu erstellen, können Sie zwei Felder ausfüllen, um sicherzustellen, dass die erzeugten Zeilen das Fälligkeitsdatum verwenden, um das Buchungsdatum zu berechnen. Diese Felder sind **Buchungsdatum von Fälligkeitsdatum für Ausgleich mit Beleg berechnen** und **Offset für Fälligkeitsdatum für Ausgleich mit Beleg**.  
 
 > [!IMPORTANT]  
->   Sie können das Feld **Buchungsdatum von Fälligkeitsdatum für Ausgleich mit Beleg berechnen** nicht zusammen mit den Feldern **Skonto finden** oder **Pro Kreditor summieren** verwenden. Der Grund besteht darin, dass, wenn das Buchungsdatum auf dem Fälligkeitsdatum liegt, einige ZahlungsSkontoe nicht korrekt berechnet werden, da das Buchungsdatum nach dem ZahlungsSkontodatum liegen kann.  
+>   Sie können das Feld **Buchungsdatum von Fälligkeitsdatum für Ausgleich mit Beleg berechnen** nicht zusammen mit den Feldern **Skonto finden** oder **Pro Kreditor summieren** verwenden. Der Grund besteht darin, dass, wenn das Buchungsdatum auf dem Fälligkeitsdatum liegt, einige Zahlungsrabatte nicht korrekt berechnet werden, da das Buchungsdatum nach dem Zahlungsrabattdatum liegen kann.  
 
 Wenn das berechnete Buchungsdatum also in der Vergangenheit liegt, wird das Buchungsdatum auf das Arbeitsdatum verschoben, und eine Warnung wird angezeigt.  
 
@@ -51,8 +53,11 @@ Alternativ können Sie Zahlungspositionen mithilfe des Fälligkeitsdatums manuel
 > [!NOTE]  
 >   Wenn die Einkaufsrechnung überfällig ist, wird das Buchungsdatum auf das Arbeitsdatum festgelegt, und die Schrift auf der Zeile wird in roter Farbe angezeigt.  
 
-## <a name="see-also"></a>Weitere Informationen
-[Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/suggest-vendor-payments-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch 
+
+[Verwalten von Verbindlichkeiten|](payables-manage-payables.md)  
 [Zahlungen vornehmen](payables-make-payments.md)  
 [Arbeiten mit Fibu Erfassungsjournalen](ui-work-general-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

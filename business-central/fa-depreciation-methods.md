@@ -10,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5629, 5633
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 337900111388e086e27a2d388843d4e1ab052eb6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ec81b14510d89729f7c51f95a3907db38e3876ea
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518247"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075955"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Abschreibungsmethoden für Anlagen
 
@@ -300,7 +300,9 @@ Wenn Sie einen Posten in B1 im Anlagen-Fibu Erf.-Journal erstellen und dann ein 
 > [!NOTE]  
 > Es ist nicht möglich, im Anlagen Fibu Erf.-Journal und im Anl. Erf.-Jrn. dieselbe Nummernserie zu verwenden. Wenn Sie im Anlagen Fibu Erf.-Journal Posten buchen, müssen Sie das Feld **Belegnr.** leer lassen. Wenn Sie in das Feld eine Nummer eingeben, wird die Nummer im Anlagen Erf.-Journal dupliziert. Sie müssen die Belegnummer manuell ändern, bevor Sie das Erf.-Journal buchen können.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+
+## <a name="see-also"></a>Siehe auch 
 
 [Anlagen](fa-manage.md)  
 [Anlagen einrichten](fa-setup.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: ad82c9aa86210c5f89e24fcced0af70751788ef8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: cef011656fcd705a598d54719d4f7328debb8cea
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510623"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077490"
 ---
 # <a name="create-number-series"></a>Erstellen von Nummernkreisen
 
@@ -65,7 +65,7 @@ Wenn Sie einen neuen Beleg oder eine Karte öffnen, für den bzw. die eine Numme
 
 ## <a name="to-create-a-new-number-series"></a>Erstellen von Nummernserien
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Nummernserie** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Nummernserie** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Auf der neuen Zeile füllen Sie die Felder wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Wählen Sie die Aktion **Zeilen** aus.  
@@ -81,7 +81,7 @@ Sie können den Vorlagen, die Sie für die verschiedenen Arten von Kunden und Kr
 
 Wenn Sie mehr als einen Nummernseriencode für dieselbe Art von grundlegenden Daten oder Geschäftsvorfällen eingerichtet haben, können Sie Verbindungen zwischen diesen Codes herstellen. Dann können Sie zwischen den verschiedenen Codes auswählen, wenn Sie eine Nummer verwenden wollen. Wenn Sie eine Beziehung zwischen einer Gruppe von Zahlenreihen festlegen, ordnen Sie alle zugehörigen Reihen einem Zahlenreihencode zu. Dann können Sie diesen Code in ein Feld auf dem Inforegister **Nummerierung** auf einer der entsprechenden Einrichtungsseite eingeben, z.B. **Einrichtung Debitoren & Verkauf**.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Nummernserie** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Nummernserie** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Zeile mit der Nummernserie, für die Sie Verbindungen herstellen wollen und wählen Sie **Beziehungen**.
 3. Geben Sie im Feld **Seriencode** den Code für die Nummernserie ein, für die Sie eine Verbindung mit der in Schritt 2 ausgewählten Nummernserie herstellen möchten.
 4. Fügen Sie für jeden Code, für den eine Verbindung mit der ausgewählten Nummernserie hergestellt werden soll, eine neue Zeile hinzu.
@@ -98,11 +98,10 @@ Der folgende Ablauf zeigt, wie Nummernserien für den Verkaufsbereich eingericht
 
 Die ausgewählten Anzahl wird nun verwendet, um **Nr.** auszufüllen Feld auf der fraglichen Karte oder auf dem fraglichen Beleg entsprechend den Einstellungen, die Sie in der Nummernserie erstellt haben,   
 
-
-
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch 
+
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -10,29 +10,34 @@ ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: cb2913c506362a7f4cbbed21f47093e3f5d8819a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7bad66452613dba8175404e67d1d8b421902bb8d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517252"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076995"
 ---
 # <a name="request-quotes"></a>Offertenanforderungen
 
 Eine Einkaufsofferte kann als erster Entwurf für eine Bestellung verwendet werden. Die Bestellung kann dann in eine Rechnung oder einen Auftrag umgewandelt werden.
 
 ## <a name="to-create-a-purchase-quote"></a>So erstellen Sie eine Einkaufsofferte
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Einkaufsanfragen** ein und wählen Sie dann den entsprechenden Link.
 2. Erstellen eines neuen Belegs, so wie Sie eine Bestellung erstellen. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>So konvertieren Sie eine Einkaufsofferte in eine Einkaufsbestellung
+
 Wenn Sie die Offerte akzeptiert haben, können Sie diese mit einer Einkaufsrechnung oder einem Auftrag umwandeln, um den Einkauf zu verarbeiten.
 
 1. Öffnen Sie eine Einkaufsofferte, die bereit ist zum umzuwandeln, und wählen Sie die **Bestellung erst.** Aktion aus.
 
 Die Einkaufsofferte wird aus der Datenbank entfernt. Eine Einkaufsrechnung oder ein Einkaufsauftrag wird auf der Basis der Informationen in der Einkaufsofferte erstellt, in der Sie den Einkauf verarbeiten können. In der erstellten Einkaufsrechnung bzw. -bestellung gibt das Feld **Offertennr.** die Nummer der Einkaufsofferte an, aus der sie erstellt wurde.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-purchase-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Siehe auch 
+
 [Einkauf](purchasing-manage-purchasing.md)  
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
