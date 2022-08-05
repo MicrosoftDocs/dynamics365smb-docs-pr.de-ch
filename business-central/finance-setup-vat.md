@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 04/12/2022
+ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 60943e508e382bbbaa46d92a102a96ad70fed432
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740325"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130133"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Berechnungen einrichten und Buchungsmethoden für Salestax
 
@@ -172,15 +172,30 @@ Sie können eine MWST-Klausel ändern oder löschen, und Ihre Änderungen werden
 3. Im **Sprachcode** Feld wählen Sie die Sprache aus, in die Sie übersetzen.  
 4. Geben Sie in den Feldern **Beschreibung** und **Beschreibung 2** den Text ein, der eine Übersetzung der Beschreibungen ist. Dieser Text wird in den übersetzten MWST.-Berichten angezeigt.  
 
+### <a name="to-specify-extended-text-for-vat-clauses"></a>So legen Sie Zusatztexte für Mehrwertsteuerklauseln fest
+
+> [!NOTE]  
+> Wenn Ihr Land oder Ihre Region einen längeren Text für die MWST-Klauseln erfordert, als die Standardversion unterstützt, können Sie den längeren Text für die MWST-Klauseln als *Zusatztext* angeben, damit dieser in den Verkaufs- und Einkaufsberichten gedruckt wird.  
+
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 11 öffnet](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **MWST-Klauseln** ein und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie die Aktion **Zusatztexte** aus.  
+3. Füllen Sie die Felder **Code** und **Beschreibung** aus.  
+3. Wählen Sie die Aktion **Neu** aus.  
+4. Wählen Sie optional das Feld **Alle Sprachcodes** aus, oder geben Sie die entsprechende Sprache im Feld **Sprachcode** an, wenn Sie Sprachcodes verwenden.  
+5. Füllen Sie die Felder **Startdatum** und/oder **Enddatum** aus, wenn Sie die Verwendung des Zusatztexts zeitlich einschränken möchten.  
+6. Geben Sie den Zusatztext für Ihre MWST-Klauseln in den Zeilen für **Text** ein.  
+7. Wählen Sie die entsprechenden Felder für die Belegtypen aus, deren Zusatztexte gedruckt werden sollen.  
+8. Die Seite schliessen.  
+
 ## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Erstellen Sie eine MWST.-Buchungsmatrix, um Einfuhrumsatzsteuer zu verarbeiten
 
 Sie verwenden die Funktion *Import-MWST*, wenn Sie einen Beleg buchen müssen, bei dem der gesamte Betrag aus Mehrwertsteuer besteht. Sie sehen dies, wenn Sie eine MWST-Rechnung für importierte Waren von der Steuerbehörde erhalten.  
 
 Gehen Sie folgendermassen vor, um Codes für die Einfuhrsteuerfelder festzulegen:  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 12.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **MWST-Produktbuchungsgruppen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 12 öffnet](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **MWST-Produktbuchungsgruppen** ein und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite MWST Produktbuchungsgruppe richten Sie eine neue MWST.-Produktbuchungsgruppen für Einfuhrsteuer ein.  
-3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 13.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **MWST-Buchungseinrichtung** ein und wählen Sie dann den zugehörigen Link.  
+3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 13 öffnet](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **MWST-Buchungseinrichtung** ein und wählen Sie dann den zugehörigen Link.  
 4. Auf der Seite MWST Buchungseinrichtung erstellen Sie eine neue Zeile oder nutzen einen bestehende MWST-Buchungsgruppe in Kombination mit der neuen MWST.-Produktbuchungsgruppe für die Einfuhrsteuer.  
 5. Wählen Sie im Feld **MwSt.-Berechnungsart** **Volle MwSt.** aus.  
 6. Geben Sie im Feld **Vorsteuerkonto** das Fibukonto an, auf das Sie Einfuhrumsatzsteuer buchen wollen. Alle anderen Konten sind optional.  
