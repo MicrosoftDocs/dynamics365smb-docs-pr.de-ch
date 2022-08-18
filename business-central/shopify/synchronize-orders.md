@@ -7,29 +7,29 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: ce11aa8766550e72cab2f811ef6602dba4271211
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: bef02c5fcbc2b6174e8a3f746a97f0e11564dcf6
+ms.sourcegitcommit: 902da19b0ab7a3fbc051cd69ab2802f30d0f378f
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076319"
+ms.lasthandoff: 08/01/2022
+ms.locfileid: "9213704"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Verkaufsaufträge synchronisieren und erfüllen
 
-Dieser Artikel beschreibt die notwendigen Einstellungen und Schritte, die Sie durchführen müssen, um Verkaufsaufträge von Shopify in [!INCLUDE[prod_short](../includes/prod_short.md)] zu synchronisieren und zu erfüllen.
+Dieser Artikel beschreibt die notwendigen Einstellungen und Schritte, die Sie durchführen müssen, um Verkaufsaufträge mit Shopify in [!INCLUDE[prod_short](../includes/prod_short.md)] zu synchronisieren und zu erfüllen.
 
 ## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Legen Sie den Import von Bestellungen auf der Shopify Shop-Karte fest.
 
-Zu einer regulären Shopify-Bestellung können zusätzliche Beträge hinzukommen, darunter Versandkosten oder Trinkgelder, falls aktiviert. Diese Beträge werden dann direkt auf die Fibukonten gebucht. Wählen Sie das Fibukonto aus, das für bestimmte Transaktionen verwendet werden soll:
+Zu einer regulären Shopify-Bestellung können zusätzliche Beträge zur Zwischensumme hinzukommen, darunter Versandkosten oder Trinkgelder, falls aktiviert. Diese Beträge werden direkt auf das Fibukonto gebucht, das Sie für bestimmte Vorgangsarten verwenden möchten:
 
 - **Versandkostenkonto**
-- **Konto für verkaufte Geschenkkarte**, für weitere Informationen finden Sie unter [Geschenkkarte](synchronize-orders.md#gift-cards).
+- **Konto für verkaufte Geschenkkarte**, weitere Informationen unter [Geschenkkarte](synchronize-orders.md#gift-cards)
 - **Konto für Trinkgelder**  
 
 Aktivieren Sie **Aufträge automatisch erstellen**, um automatisch Verkaufsaufträge in [!INCLUDE[prod_short](../includes/prod_short.md)] zu erstellen, sobald der Shopify-Auftrag importiert ist.
-Der Verkaufsbeleg in [!INCLUDE[prod_short](../includes/prod_short.md)] enthält einen Link zur Shopify- Bestellung. Wenn Sie das Feld **Shopify Bestellnr. auf Dok. Zeile** wählen, wird diese Information in den Verkaufszeilen des Typs *Kommentar* wiederholt.
+Der Verkaufsbeleg in [!INCLUDE[prod_short](../includes/prod_short.md)] enthält einen Link zur Shopify- Bestellung. Wenn Sie das Feld **Shopify-Auftragsnummer in Belegzeile** auswählen, werden diese Informationen in den Verkaufszeilen vom Typ *Kommentar* wiederholt.
 
-Im Feld **Steuergebietsquelle** können Sie die Priorität für die Auswahl des Salestax Gebietscodes oder der MWST-Geschäftsbuchungsgruppe basierend auf der Adresse definieren. Dieser Schritt ist für Länder mit Salestax relevant, kann aber für MWST-Länder verwendet werden. Weitere Informationen finden Sie unter [Anmerkungen zu Steuern](synchronize-orders.md#tax-remarks).
+Im Feld **Steuergebietsquelle** können Sie die Priorität für die Auswahl des Steuer Gebietscodes oder der MWST-Geschäftsbuchungsgruppe basierend auf der Adresse festlegen. Dieser Schritt ist sowohl für Länder mit Salestax als auch für Länder mit Mehrwertsteuer relevant. Erfahren Sie mehr unter [Steuerliche Bemerkungen](synchronize-orders.md#tax-remarks).
 
 ### <a name="shipment-method-mapping"></a>Zuordnung von Versandmethoden
 
@@ -37,7 +37,7 @@ Der **Versandartencode** für aus Shopify importierte Verkaufsbelege kann automa
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 1.](../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Shopify Shops** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Shop aus, für den Sie die Zuordnung definieren möchten, um die Seite **Shopify Shop-Karte** zu öffnen.
-3. Wählen Sie die Aktion **Zuordnung von Versandmethoden** aus. Die Datensätze für Versandmethoden, die in den Einstellungen für den [**Versand**](https://www.shopify.com/admin/settings/payments) in Ihrer **Shopify-Verwaltung** definiert sind, werden automatisch erstellt.
+3. Wählen Sie die Aktion **Zuordnung von Versandmethoden** aus. Dadurch werden die Datensätze für Versandmethoden, die in den Einstellungen für den [**Versand**](https://www.shopify.com/admin/settings/payments) in Ihrer **Shopify-Verwaltung** definiert sind, automatisch erstellt.
 4. Im Feld **Name** sehen Sie den Namen der Versandmethode aus Shopify.
 5. Geben Sie den **Versandmethodencode** mit der entsprechenden Versandmethode in [!INCLUDE[prod_short](../includes/prod_short.md)] ein.
 
@@ -46,7 +46,7 @@ Der **Versandartencode** für aus Shopify importierte Verkaufsbelege kann automa
 
 ### <a name="payment-method-mapping"></a>Zuordnung der Zahlungsform
 
-Um den **Zahlungsartencode** für aus Shopify importierte Verkaufsbelege automatisch auszufüllen, müssen Sie die **Zahlungsartenzuordnung** konfigurieren.
+Zum Ausfüllen des Felds **Zahlungsformcode** für Verkaufsbelege, die automatisch aus Shopify importiert wurden, müssen Sie **Zuordnung der Zahlungsform** konfigurieren.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 1.](../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") öffnet. Symbol, geben Sie **Shopify Shops** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Shop aus, für den Sie die Zuordnung definieren möchten, um die Seite **Shopify Shop-Karte** zu öffnen.
@@ -54,6 +54,9 @@ Um den **Zahlungsartencode** für aus Shopify importierte Verkaufsbelege automat
 4. Geben Sie in die Felder **Gateway** und **Kreditkartenfirma** den Namen der Zahlungsmethode aus Shopify ein. Der Datensatz wird automatisch erstellt, wenn Sie Shopify-Bestellungen importieren.
 5. Geben Sie den **Zahlungsformcode** mit der entsprechenden Zahlungsform in [!INCLUDE[prod_short](../includes/prod_short.md)] ein.
 6. Legen Sie die **Priorität** für den Fall fest, dass der Kunde mehrere Zahlungsmittel verwendet. Im Verkaufsbeleg wird die Zahlungsform mit der höchsten Priorität ausgewählt. Wenn beide Zahlungsformen dieselbe Priorität aufweisen, wird die Zahlungsform mit dem höchsten Betrag verwendet.
+
+> [!NOTE]  
+> Bei entsprechender Zahlungsart in [!INCLUDE[prod_short](../includes/prod_short.md)] hat **Bal. Konto Typ** und **Bal. Konto Nr.** ausgefüllt, dann erstellt das Rechnungssystem beim Buchen eine Ausgleichsbuchung der *Zahlung* und wendet sie auf den *Rechnung* Typ in den Kundenbucheintrag ein.
 
 ### <a name="location-mapping"></a>Zuordnung von Standorten
 
@@ -66,14 +69,14 @@ Um den **Lagerplatzcode** für aus Shopify importierte Verkaufsbelege automatisc
 5. Geben Sie den **Standardlagerplatzcode** mit dem entsprechenden Lagerplatz in [!INCLUDE[prod_short](../includes/prod_short.md)] ein.
 
 > [!NOTE]  
-> Sie müssen die Zuordnung des Standorts konfigurieren, wenn die Option **Standort obligatorisch** in der Karte **Lagerbestandseinrichtung** aktiviert ist, sonst können Sie keine Verkaufsbelege erstellen.
+> Sie müssen die Zuordnung des Standorts konfigurieren, wenn die Option **Standort obligatorisch** in der Karte **Lagerbestandseinrichtung** aktiviert ist, andernfalls können Sie keine Verkaufsbelege erstellen.
 
 ## <a name="run-the-order-synchronization"></a>Führen Sie die Auftragssynchronisation aus
 
 Nachfolgend wird beschrieben, wie Sie die Verkaufsaufträge importieren und aktualisieren.
 
 > [!NOTE]  
-> Archivierte Bestellungen in Shopify können nicht importiert werden. Deaktivieren Sie die Option **Bestellung automatisch archivieren** im Abschnitt **Bestellverarbeitung** der **Checkout**-Einstellungen in Ihrem **Shopify Admin**-Panel, um sicherzustellen, dass alle Bestellungen in [!INCLUDE[prod_short](../includes/prod_short.md)] importiert werden. Wenn Sie archivierte Aufträge importieren müssen, verwenden Sie die Aktion **Auftragsarchivierung aufheben** auf der Seite [Aufträge](https://www.shopify.com/admin/orders) im Admin-Panel Shopify.
+> Archivierte Bestellungen in Shopify können nicht importiert werden. Deaktivieren Sie die Option **Bestellung automatisch archivieren** im Abschnitt **Bestellverarbeitung** der **Checkout**-Einstellungen in Ihrem **Shopify Admin**-Panel, um sicherzustellen, dass alle Bestellungen in [!INCLUDE[prod_short](../includes/prod_short.md)] importiert werden. Wenn Sie archivierte Aufträge importieren müssen, verwenden Sie die Aktion **Auftragsarchivierung aufheben** auf der Seite [Aufträge](https://www.shopify.com/admin/orders) im **Shopify Admin** Bereich.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 1.](../media/ui-search/search_small.png "Tell Me-Funktion") öffnet. Symbol, geben Sie **Shopify Shops** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Shop, für den Sie Bestellungen importieren möchten, um die Seite **Shopify Shop-Karte** zu öffnen.
@@ -84,18 +87,18 @@ Nachfolgend wird beschrieben, wie Sie die Verkaufsaufträge importieren und aktu
 
 Alternativ können Sie nach dem Batchauftrag **Aufträge synchronisieren von Shopify** suchen.
 
-Sie können die durchzuführende Aufgabe so planen, dass sie automatisiert ausgeführt werden. Weitere Informationen finden Sie unter [Wiederkehrende Aufgaben planen](background.md#to-schedule-recurring-tasks).
+Sie können die durchzuführende Aufgabe so planen, dass sie automatisiert ausgeführt werden. Erfahren Sie mehr unter [Planen Sie wiederkehrende Aufgaben](background.md#to-schedule-recurring-tasks).
 
 ## <a name="review-imported-orders"></a>Importierte Bestellungen überprüfen
 
-Sobald der Import abgeschlossen ist, können Sie die Shopify-Bestellung erkunden und alle zugehörigen Informationen finden. Suchen Sie beispielsweise die Zahlungstransaktionen, Versandkosten, Risikostufe oder Auftragserfüllungen, wenn die Bestellung bereits in Shopify ausgeführt wurde. Sie können auch alle an den Debitor gesendeten Auftragsbestätigungen anzeigen, indem Sie die Aktion **Shopify-Statusseite** auswählen.
+Nachdem der Import abgeschlossen wurde, können Sie die Shopify-Bestellung erkunden, wo Sie alle zugehörigen Informationen wie Zahlungsbuchungen, Versandkosten, Risikostufen oder Auftragserfüllungen, wenn die Bestellung schon in Shopify abgeschlossen ist. Sie können auch alle an den Debitor gesendeten Auftragsbestätigungen anzeigen, indem Sie die Aktion **Shopify-Statusseite** auswählen.
 
 > [!NOTE]  
 > Sie können direkt zum Fenster **Shopify Bestellungen** navigieren und sehen dort Bestellungen mit dem Status *offen* aus allen Geschäften. Um abgeschlossene Bestellungen zu überprüfen, müssen Sie die Seite **Shopify Bestellungen** aus dem jeweiligen **Shopify Shop Card** Fenster öffnen.
 
 ## <a name="create-sales-documents-in-business-central"></a>Verkaufsbelege in Business Central erstellen
 
-Wenn die Option **Automatische Erstellung von Aufträgen** auf der **Shopify Shop Card** aktiviert ist, versucht [!INCLUDE[prod_short](../includes/prod_short.md)] einen Verkaufsbeleg zu erstellen, sobald der Auftrag importiert wurde. Treten während des Prozesses Probleme auf, wenn beispielsweise ein Debitor oder ein Produkt fehlt, müssen Sie das Problem beheben. Sie können dann versuchen, den Verkaufsauftrag erneut zu erstellen.
+Wenn die Option **Automatische Erstellung von Aufträgen** auf der **Shopify Shop Card** aktiviert ist, versucht [!INCLUDE[prod_short](../includes/prod_short.md)] einen Verkaufsbeleg zu erstellen, sobald der Auftrag importiert wurde. Treten Probleme auf, wenn beispielsweise ein fehlender Debitor oder ein Produkt fehlt, müssen Sie das Problem beheben und dann die Bestellung erneut erstellen.
 
 ### <a name="to-create-sales-documents"></a>So erstellen Sie Verkaufsbelege
 
@@ -107,37 +110,44 @@ Wenn die Option **Automatische Erstellung von Aufträgen** auf der **Shopify Sho
 
 Wenn die Shopify Bestellung erfüllt werden muss, wird ein **Verkaufsauftrag** erstellt. Für erfüllte Shopify-Bestellungen, z.B. solche, die nur eine Geschenkkarte enthalten oder die bereits in Shopify behandelt werden, wird eine **Verkaufsrechnung** erstellt.
 
-Ein Verkaufsbeleg ist nun erstellt und kann mit den Standarfunktionen von [!INCLUDE[prod_short](../includes/prod_short.md)] verwaltet werden.
+Ein Verkaufsbeleg ist nun erstellt und kann mit Standarfunktionen von [!INCLUDE[prod_short](../includes/prod_short.md)] verwaltet werden.
 
 ### <a name="manage-missing-customers"></a>Fehlende Debitoren verwalten
 
-Wenn Ihre Einstellungen die automatische Erstellung eines Debitors verhindern und kein entsprechender vorhandener Debitor gefunden werden kann, weisen Sie der Shopify-Bestellung manuell einen Debitor zu. Es sind einige Optionen verfügbar:
+Wenn Ihre Einstellungen die automatische Erstellung eines Debitors verhindern und kein entsprechender vorhandener Debitor gefunden werden kann, müssen Sie der Shopify-Bestellung manuell einen Debitor zuweisen. Es gibt einige Möglichkeiten, dies zu tun:
 
-- Sie können die **Auftraggeber Nr.** zuweisen. direkt in der **Shopify-Bestellung** zuweisen, indem Sie einen Debitor aus der Liste der vorhandenen Debitoren auswählen.
-- Sie können einen Kundenvorlagencode auswählen, erstellen und den Kunden über die Aktion **Neuen Kunden erstellen** auf der Seite **Shopify Aufträge** zuordnen.
+- Sie können die **Auftraggeber Nr.** zuweisen. direkt auf der Seite **Shopify-Bestellungen** zuweisen, indem Sie einen Debitor aus der Liste der vorhandenen Debitoren auswählen.
+- Sie können einen Kundenvorlagencode auswählen, erstellen und dann den Kunden über die Aktion **Neuen Kunden erstellen** auf der Seite **Shopify Aufträge** zuordnen.
 - Sie können einen bestehenden Kunden dem zugehörigen **Shopify Kunden** im Fenster **Shopify Kunden** zuordnen und dann die Aktion **Zuordnung finden** auf der Seite **Shopify Aufträge** wählen.
 
 ### <a name="tax-remarks"></a>Anmerkungen zu Steuern
 
-Während die importierte Shopify-Bestellung Informationen zu Steuern enthält, werden die Steuern neu berechnet, wenn Sie den Verkaufsbeleg erstellen. Durch diese Neuberechnung ist es wichtig, dass die Einstellungen für MWST/Salestax in [!INCLUDE[prod_short](../includes/prod_short.md)] richtig sind.
+Die importierte Shopify Bestellung enthält Informationen zu Steuern, aber die Steuern werden neu berechnet, wenn Sie den Verkaufsbeleg erstellen, daher ist es wichtig, dass die Mehrwertsteuer-/Steuereinstellungen korrekt sind [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-- Mehrere Produktsteuer-/MWST-Sätze. Beispielsweise unterliegen einige Produktkategorien ermässigten Steuersätzen. Diese Artikel müssen in [!INCLUDE[prod_short](../includes/prod_short.md)] vorhanden und Shopify-Produkten zugeordnet sein. Andernfalls wird bei der automatischen Erstellung fehlender Artikel die MwSt-Produktbuchungsgruppe verwendet.
+- Mehrere Produktsteuer-/MWST-Steuersätze. Beispielsweise unterliegen einige Produktkategorien ermässigten Steuersätzen. Diese Artikel müssen in [!INCLUDE[prod_short](../includes/prod_short.md)] vorhanden und Shopify-Produkten zugeordnet sein. Andernfalls wird bei der automatischen Erstellung fehlender Artikel die MwSt-Produktbuchungsgruppe verwendet.
 
-- Adressabhängige Steuersätze. Verwenden Sie das Feld **Salestaxgebiet Priorität** zusammen mit der Tabelle **Kundenvorlagen**, um die Standardlogik zu überschreiben, die den **Salestax Gebietscode** im Verkaufsdokument ausfüllt. Das Feld **Salestaxgebiet Priorität** gibt die Priorität an, aus der die Funktion die Informationen über das Land/die Region und den Staat/die Provinz übernehmen soll. Dann wird der entsprechende Datensatz in den Kundenvorlagen Shopify gefunden und die **Salestaxkennziffer**, **Salestaxpflichtig** und **MWST Bus. Buchungsgruppe** wird verwendet, wenn ein Verkaufsbeleg erstellt wird.
+- Adressabhängige Steuersätze. Verwenden Sie das Feld **Steuergebiet Priorität** zusammen mit der Tabelle **Kundenvorlagen**, um die Standardlogik zu überschreiben, die den **Steuer Gebietscode** im Verkaufsbeleg ausfüllt. Das Feld **Steuergebiet Priorität** gibt die Priorität an, mit der die Informationen über das Land/die Region und den Staat/die Provinz übernehmen soll. Dann wird der entsprechende Datensatz in den Kundenvorlagen Shopify gefunden und die **Steuerkennziffer**, **Steuerpflichtig** und **MWST-Geschäftsbuchungsgruppe** werden verwendet, wenn ein Verkaufsbeleg erstellt wird.
 
-- Preis einschliesslich Salestax. Das Feld **Preise inkl. Salestax**/**Preise inkl. MWST** im erstellten Verkaufsdokument hängt nicht vom Kunden ab, sondern von der **Kundenvorlage** aus der Shopify Shop-Karte oder der Kundenvorlage pro Land.
+- Preis einschliesslich Salestax. Das Feld **Preise inkl. MWST**/**Preise inkl. MWST** im erstellten Verkaufsdokument hängt nicht vom Kunden ab, sondern von der **Kundenvorlage** aus der **Shopify Shop-Karte** oder der Kundenvorlage pro Land.
 
-### <a name="impact-of-edits-of-orders"></a>Auswirkung der Bearbeitung von Bestellungen
+### <a name="impact-of-order-editing"></a>Auswirkung der Bearbeitung von Bestellungen
+
+In Shopify:
 
 |Bearbeiten|Auswirkungen|
 |------|-----------|
-|In Shopify, ändern Sie den Erfüllungsort | Der ursprüngliche Standort wird mit [!INCLUDE[prod_short](../includes/prod_short.md)] synchronisiert. |
-|In Shopify, bearbeiten Sie eine Bestellung und ändern Sie die Menge.| Der Auftragskopf und die Zusatztabellen werden in [!INCLUDE[prod_short](../includes/prod_short.md)] aktualisiert, die Zeilen nicht. |
-|In Shopify, bearbeiten Sie eine Bestellung und fügen Sie einen neuen Artikel hinzu. | Der Auftragskopf wird aktualisiert, die Zeilen nicht. |
-|Ändern Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] den Ort in einen anderen Ort, der den Shopify Orten zugeordnet ist. Sendung buchen. | Nach der Synchronisierung der Erfüllung wird der Ort in Shopify aktualisiert. |
-|In [!INCLUDE[prod_short](../includes/prod_short.md)], ändern Sie den Ort in einen anderen Ort, der nicht den Shopify Orten zugeordnet ist. Sendung buchen. | Die Erfüllung wird nicht mit Shopify synchronisiert. |
-|Ändern Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] die Abnahmemenge. Sendung buchen. | Die Reihenfolge Shopify wird als teilweise erfüllt gekennzeichnet. |
-|Fügen Sie in [!INCLUDE[prod_short](../includes/prod_short.md)] ein neues Element hinzu. Sendung buchen. | Die Reihenfolge Shopify wird als erfüllt markiert. Die Zeilen werden nicht aktualisiert. |
+|Den Erfüllungsort ändern | Der ursprüngliche Standort wird mit [!INCLUDE[prod_short](../includes/prod_short.md)] synchronisiert. |
+|Bearbeiten Sie eine Bestellung und ändern Sie die Menge| Der Auftragskopf und die Zusatztabellen werden in [!INCLUDE[prod_short](../includes/prod_short.md)] aktualisiert, die Zeilen nicht. |
+|Bearbeiten Sie eine Bestellung und fügen Sie einen neuen Artikel hinzu | Der Auftragskopf wird aktualisiert, die Zeilen nicht. |
+
+In [!INCLUDE[prod_short](../includes/prod_short.md)]:
+
+|Bearbeiten|Auswirkungen|
+|------|-----------|
+|Ändern Sie den Standort in einen anderen Standort, der den Shopify Orten zugeordnet ist. Sendung buchen. | Nach der Synchronisierung der Erfüllung wird der Ort in Shopify aktualisiert. |
+|Ändern Sie den Ort in einen anderen Ort, der nicht den Shopify Orten zugeordnet ist. Sendung buchen. | Die Erfüllung wird nicht mit Shopify synchronisiert. |
+|Ändern der Abnahmemenge. Sendung buchen. | Die Reihenfolge Shopify wird als teilweise erfüllt gekennzeichnet. |
+|Ein neues Element hinzufügen. Sendung buchen. | Die Reihenfolge Shopify wird als erfüllt markiert. Die Zeilen werden nicht aktualisiert. |
 
 ## <a name="synchronize-shipments-to-shopify"></a>Lieferungen mit Shopify synchronisieren
 
@@ -154,9 +164,9 @@ Die Bestellung in Shopify wird als erfüllt markiert. Der Debitor erhält automa
 
 ### <a name="shipping-agents-and-tracking-url"></a>Zusteller und Tracking-URL
 
-Wenn das Dokument **Gebuchte Verkaufslieferung** den **Versandagentencode** und/oder die **Pakettrackingnummer** enthält, werden diese Informationen an Shopify und an den Endkunden in der Versandbestätigungs-E-Mail gesendet.
+Wenn das Dokument **Gebuchte Verkaufslieferung** den **Versandagentencode** und/oder die **Pakettrackingnummer** enthält, werden diese Informationen an Shopify und an den Kunden in der Versandbestätigungs-E-Mail gesendet.
 
-Das Trackingunternehmen wird basierend auf dem Spediteurdatensatz mit den folgenden Prioritäten (von der höchsten zur niedrigsten) ausgefüllt:
+Die verfolgende Firma wird auf der Grundlage des Datensatzes des Spediteurs mit der folgenden Reihenfolge (von oben nach unten) eingetragen:
 
 - **Shopify-Trackingunternehmen**
 - **Name**
@@ -166,27 +176,37 @@ Wenn das Feld **Pakettracking-URL** für den Datensatz des Spediteurs ausgefüll
 
 ## <a name="gift-cards"></a>Geschenkkarten
 
-Im Shopify-Shop können Sie Geschenkgutscheine verkaufen, mit denen später echte Produkte bezahlt werden können.
+Im Shopify-Shop können Sie Geschenkgutscheine verkaufen, mit denen echte Produkte bezahlt werden können.
 
 Wenn Sie mit Geschenkkarten arbeiten, ist es wichtig, dass Sie im Fenster **Shopify Shop-Karte** einen Wert in das Feld **Geschenkkartenkonto** eingeben. Die verkaufte Geschenkkarte wird zusammen mit den entsprechenden Bestellungen synchronisiert. Eine angewendete Geschenkkarte wird ebenfalls mit der Bestellung importiert, jetzt jedoch als Transaktion. Beachten Sie, dass die Geschenkkarte den Rechnungsbetrag nicht reduziert.
 
 Um die ausgestellten und verwendeten Geschenkkarten zu überprüfen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Geschenkkarten** ein, und wählen Sie dann den entsprechende Link aus.
 
-## <a name="transactions"></a>Transaktionen
+## <a name="transactions-and-payouts"></a>Transaktionen und Auszahlungen
 
-Die Transaktionen, die bei Shopify stattgefunden haben, werden mit den Aufträgen synchronisiert und können auf der Seite *Shopify Aufträge* eingesehen werden.
+Wenn ein Kunde seinen Checkout im Online-Shop abschliesst, werden die Informationen zu Zahlungen als **Transaktion** gespeichert. Mit der Bestellung können mehrere Transaktionen verknüpft sein, z. B. wenn ein Kunde eine Geschenkkarte verwendet, um einen Teil der Kosten zu bezahlen, und dann eine Kreditkarte oder PayPal für den Restbetrag verwendet. 
+
+Wenn Sie Shopify Zahlung als Zahlungsanbieter verwenden, dann können Sie neben Informationen über Gelder, die der Kunde vom Zahlungsanbieter erhalten hat, auch Auszahlungen von Shopify auf Ihr Bankkonto sehen. 
+
+### <a name="transactions"></a>Transaktionen
+
+Die Transaktionen, die in Shopify stattfinden, werden mit den Aufträgen synchronisiert und können auf der Seite *Shopify Aufträge* eingesehen werden.
 
 Um alle Transaktionen zu überprüfen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 1.](../media/ui-search/search_small.png "Tell Me-Funktion"). aus, geben Sie **Transaktionen** ein, und wählen Sie den entsprechenden Link aus.
 
-## <a name="payouts"></a>Auszahlungen
+Wenn Sie die Zahlungsmethodenzuordnung konfiguriert haben, wird dem erstellten Verkaufsbeleg ein Zahlungsmethodencode zugewiesen. Erfahren Sie mehr unter [Zuordnung von Zahlungsmethoden](#payment-method-mapping).
 
-Wenn für Ihren Store Shopify Payments aktiviert sind, erhalten Sie Zahlungen durch *Shopify-Auszahlungen*, wenn ein Debitor mit Shopify Payments und beschleunigten Checkouts bezahlt.
+### <a name="payouts"></a>Auszahlungen
+
+Wenn für Ihren Store Shopify Payment verwendet wird, erhalten Sie Zahlungen durch *Shopify-Auszahlungen*, wenn ein Debitor mit Shopify Payments und beschleunigten Checkouts bezahlt.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion 1.](../media/ui-search/search_small.png "Tell Me-Funktion") öffnet. Symbol, geben Sie **Shopify Shops** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Shop, für den Sie Auszahlungen synchronisieren möchten, um die Seite **Shopify Shop-Karte** zu öffnen.
 3. Wählen Sie die Aktion **Auszahlungen synchronisieren** aus.
 
 Um alle Auszahlungen zu überprüfen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Auszahlungen** ein, und wählen Sie den entsprechenden Link aus.
+
+**Auszahlungen** dienen nur zu Informationszwecken und wirken sich nicht auf den Fibuposten oder das Bankbuch aus, können jedoch hilfreich sein, wenn Sie Ihren Kontoauszug bearbeiten.
 
 ## <a name="see-also"></a>Siehe auch 
 
