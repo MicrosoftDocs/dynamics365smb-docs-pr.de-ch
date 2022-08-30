@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: ad69d58a84926041df1125809f748b9129cc64e2
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: c7aea0d0b3d9a8902e704a2d390d6a244e8cbbef
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808973"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317314"
 ---
 # <a name="synchronize-items-and-inventory"></a>Artikel und Inventar synchronisieren
 
@@ -89,6 +89,8 @@ Der Prozess des Artikelexports kann mit den folgenden Einstellungen verwaltet we
 |**Verfolgter Lagerbestand**|Legen Sie fest, wie das Feld **Lagerbestand verfolgen** für Produkte ausgefüllt werden soll, die nach Shopify exportiert werden. Sie können Verfügbarkeitsinformationen von [!INCLUDE[prod_short](../includes/prod_short.md)] für Produkte in Shopify mit aktivierter Lagerbestandsverfolgung aktualisieren. Weitere Informationen finden Sie unter [Lagerbestand](synchronize-items.md#sync-inventory-to-shopify).|
 |**Standardrichtlinie für Lagerbestand**|Wählen Sie *Verweigern* aus, um einen negativen Lagerbestand der Shopify-Seite zu vermeiden. |
 |**Kann Shopify-Produkte aktualisieren**|Definieren Sie, ob [!INCLUDE[prod_short](../includes/prod_short.md)] Artikel nur erstellen oder auch aktualisieren kann. Wählen Sie diese Option aus, wenn Sie nach der ersten Synchronisierung, die durch die Aktion **Artikel hinzufügen** ausgelöst wurde, Produkte manuell mit der Aktion **Produkte synchronisieren** oder über eine Aufgabenwarteschlange für wiederkehrende Aktualisierungen aktualisieren möchten. Denken Sie daran, **Mit Shopify** im Feld **Artikelsynchronisierung** auszuwählen.|
+|**Debitorenvorlagencode**|Wählen Sie die Standardvorlage, die während der Preisberechnung verwendet werden soll. Weitere Informationen finden Sie unter [Steuern einrichten](setup-taxes.md).|
+
 
 ### <a name="fields-mapping-overview"></a>Übersicht über Feldzuordnungen
 
@@ -100,7 +102,7 @@ Der Prozess des Artikelexports kann mit den folgenden Einstellungen verwaltet we
 |SEO-Seitentitel|Fester Wert: leer, siehe [Ad-Hoc-Aktualisierungen von Shopify-Produkten](synchronize-items.md#ad-hock-updates-of-shopify-products). |Wird nicht verwendet.|
 |SEO-Metabeschreibung|Fester Wert: leer, siehe [Ad-Hoc-Aktualisierungen von Shopify-Produkten](synchronize-items.md#ad-hock-updates-of-shopify-products). |Wird nicht verwendet.|
 |Medien|**Bild**, weitere Informationen, siehe [Artikelbilder synchronisieren](synchronize-items.md#sync-item-images)|**Bild**|
-|Preis|Die Berechnung des Endkundenpreises enthält die Artikelpreisgruppe, die Artikelrabattgruppe, den Währungscode und den Debitorenvorlagencode. |Wird nicht verwendet.|
+|Preis|Die Berechnung des Endkundenpreises enthält die Artikelpreisgruppe, die Artikelrabattgruppe, den Währungscode und den Debitorenvorlagencode. |**VK-Preis**|
 |Preisvergleich|Die Berechnung des Preises ohne Rabatt enthält die Artikelpreisgruppe, die Artikelrabattgruppe, den Währungscode und den Debitorenvorlagencode. |Wird nicht verwendet.|
 |Kosten pro Artikel|**Einstandspreis**|**Einstandspreis**|
 |SKU|Weitere Informationen finden Sie unter **SKU-Zuordnung** unter [Artikel nach Shopify exportieren](synchronize-items.md#export-items-to-shopify).| Weitere Informationen finden Sie unter [So wirken sich SKU und Strichcode, die in Shopify definiert sind, auf die Zuordnung und Erstellung von Artikeln und Varianten aus](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central).|
@@ -111,7 +113,7 @@ Der Prozess des Artikelexports kann mit den folgenden Einstellungen verwaltet we
 |Kreditor|**Name** des Kreditors aus **Kreditorennr.** |**Kreditorennr.**-Zuordnung nach Name.|
 |Gewichtung|**Bruttogewicht**.|Wird nicht verwendet.|
 |Steuerpflichtig|Fester Wert: Aktiviert.|Wird nicht verwendet.|
-|Steuercodes|**Salestax Gruppencode**. Nur für die Umsatzsteuer relevant. Weitere Informationen finden Sie unter [Steuern](synchronize-orders.md#tax-remarks). |Wird nicht verwendet.|
+|Steuercodes|**Salestax Gruppencode**. Nur für die Umsatzsteuer relevant. Weitere Informationen finden Sie unter [Steuern einrichten](setup-taxes.md). |Wird nicht verwendet.|
 
 ### <a name="tags"></a>Tags
 
@@ -197,7 +199,7 @@ Preise können für synchronisierte Artikel auf die unten beschriebene Weise exp
 
 ### <a name="price-calculation-remarks"></a>Anmerkungen zur Preisberechnung
 
-* Für die Preisberechnung ist es wichtig, dass sich ein Wert im Feld **Standarddebitorenvorlage** befindet. [!INCLUDE[prod_short](../includes/prod_short.md)] verwendet den Wert des Felds **MWST-Geschäftsbuchungsgruppe**, um den Preis inklusive Mehrwertsteuer zu berechnen. Möglicherweise möchten Sie eine Kundenpreisgruppe erstellen, in der Sie das Feld **Preis inkl. MwSt** auswählen und den entsprechenden Wert im Feld **Mehrwertsteuer Bus. Buchung Gr. (Preis)** angeben.
+* Für die Preisberechnung ist es wichtig, dass sich ein Wert im Feld **Standarddebitorenvorlage** befindet. Weitere Informationen finden Sie unter [Steuern einrichten](setup-taxes.md).
 * Geben Sie einen **Währungscode** ein, wenn Ihr Onlineshop eine andere Währung als MW verwendet. Für die angegebene Währung müssen Wechselkurse konfiguriert sein. Wenn Ihr Onlineshop dieselbe Währung verwendet wie [!INCLUDE[prod_short](../includes/prod_short.md)], lassen Sie das Feld leer.
 * Bei der Bestimmung eines Preises verwendet [!INCLUDE[prod_short](../includes/prod_short.md)] die Logik „Niedrigster Preis“. Das heisst, wenn der auf der Artikelkarte definierte Stückpreis niedriger ist als der in der Preisgruppe definierte, wird der Einzelpreis aus der Artikelkarte verwendet.
 

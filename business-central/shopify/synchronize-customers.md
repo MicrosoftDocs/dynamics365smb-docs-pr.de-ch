@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: c5a77e5258f4d70a35a1751ff01dc210210b3a6e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0c1402c4f41f108b504ad31829ede5a1095b6ce4
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077802"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317341"
 ---
 # <a name="synchronize-customers"></a>Debitoren synchronisieren
 
@@ -47,7 +47,7 @@ Entweder importieren Sie Debitoren aus Shopify in grossen Mengen oder zusammen m
 |**Kundenzuordnungstyp**|Legen Sie fest, wie der Konnektor die Zuordnung vornehmen soll.<br>- **Nach E-Mail/Telefon**, wenn Sie möchten, dass der Konnektor den importierten Shopify-Kunden anhand von E-Mail und Telefon einem bestehenden Kunden in [!INCLUDE[prod_short](../includes/prod_short.md)] zuordnet.</br>- **Nach Rechnungsinformationen**, wenn Sie möchten, dass der Konnektor den importierten Shopify-Kunden einem bestehenden Kunden in [!INCLUDE[prod_short](../includes/prod_short.md)] zuordnet und dabei die Adressinformationen der Partei verwendet, die die Rechnung erhält.</br>Wählen Sie **Immer den Standardkunden nehmen**, wenn Sie möchten, dass das System einen Kunden aus der **Standardkunden-Nr.** verwendet. Feld |
 |**Shopify Kann Debitoren aktualisieren**| Wählen Sie, ob der Konnektor gefundene Kunden aktualisieren soll, wenn die Optionen **Nach E-Mail/Telefon** oder **Nach Rechnungsinformationen** im Feld **Kundenzuordnungstyp** ausgewählt sind.|
 |**Unbekannte Debitoren automatisch erstellen**| Wählen Sie aus, ob der Konnektor fehlende Kunden erstellen soll, wenn die Optionen **Nach E-Mail/Telefon** oder **Nach Rechnungsinformationen** im Feld **Kundenzuordnungstyp** ausgewählt sind. Ein neuer Kunde wird anhand der importierten Daten und des **Kundenvorlagencodes** erstellt, der auf den Seiten **Shopify Shop-Karte** oder **Shopify Kundenvorlage** definiert ist. Beachten Sie, dass der Shopify-Debitor über mindestens eine Adresse verfügen muss. Wenn diese Option nicht aktiviert ist, müssen Sie einen Kunden manuell erstellen und mit dem Kunden Shopify verknüpfen. Sie können die Erstellung eines Debitors jederzeit manuell auf der Seite **Shopify-Bestellung** initiieren.|
-|**Debitorenvorlagencode**|Wird zusammen mit **Unbekannte Debitoren automatisch erstellen** verwendet.<br> Wählen Sie die Standardvorlage aus, die für automatisch erstellte Debitoren verwendet werden soll. Stellen Sie sicher, dass die ausgewählte Vorlage die obligatorischen Felder enthält, wie z.B. **Gen. Geschäftsbuchungsgruppe**, **Kundenbuchungsgruppe**, MWST- oder salestaxbezogene Felder.<br> Auf der Seite **Shopify Kundenvorlagen** können Sie Vorlagen pro Land/Region definieren, was für eine korrekte Salestaxberechnung nützlich ist. Weitere Informationen finden Sie unter [Anmerkungen zu Steuern](synchronize-orders.md#tax-remarks).|
+|**Debitorenvorlagencode**|Wird zusammen mit **Unbekannte Debitoren automatisch erstellen** verwendet.<br> Wählen Sie die Standardvorlage aus, die für automatisch erstellte Debitoren verwendet werden soll. Stellen Sie sicher, dass die ausgewählte Vorlage die obligatorischen Felder enthält, wie z.B. **Gen. Geschäftsbuchungsgruppe**, **Kundenbuchungsgruppe**, MWST- oder salestaxbezogene Felder.<br> Auf der Seite **Shopify Kundenvorlagen** können Sie Vorlagen pro Land/Region definieren, was für eine korrekte Salestaxberechnung nützlich ist. <br>Weitere Informationen finden Sie unter [Steuern einrichten](setup-taxes.md).|
 
 ### <a name="customer-template-per-country"></a>Debitorenvorlage pro Land
 
@@ -57,7 +57,8 @@ Mit der **Shopify-Debitorenvorlage** können Sie die folgenden Schritte für jed
 
 1. Geben Sie die **Standarddebitorennr.** an, die Vorrang vor der Auswahl in den Feldern **Debitorenimport aus Shopify** und **Debitorenzuordnungstyp** hat. Sie wird im importierten Verkaufsauftrag verwendet.
 2. Definieren Sie den **Kundenvorlagencode**, mit dem fehlende Kunden erstellt werden, wenn **Unbekannte Kunden automatisch erstellen** aktiviert ist. Wenn der **Kundenvorlagencode** leer ist, dann verwendet die Funktion den **Kundenvorlagencode**, der auf der **Shopify Shop-Karte** definiert ist.
-3. In einigen Fällen reicht der für das Land definierte **Kundenvorlagencode** nicht aus, um eine korrekte Berechnung der Salestaxes zu gewährleisten. Zum Beispiel für Länder mit Umsatzsteuer. In diesem Fall könnten die **Salestaxregionen** eine nützliche Ergänzung sein.
+3. Legen Sie fest, ob die Preise für importierte Bestellungen Steuern/MWST enthalten.
+4. In einigen Fällen reicht der für das Land definierte **Kundenvorlagencode** nicht aus, um eine korrekte Berechnung der Salestaxes zu gewährleisten. Zum Beispiel für Länder mit Umsatzsteuer. In diesem Fall könnten die **Salestaxregionen** eine nützliche Ergänzung sein.
 
 > [!NOTE]  
 > Die Ländercodes sind Ländercodes nach ISO 3166-1 Alpha 2. Weitere Informationen finden Sie unter [Ländercode](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -68,7 +69,7 @@ Vorhandene Debitoren können in grossen Mengen nach Shopify exportiert werden. I
 
 |Feld|Description|
 |------|-----------|
-|**Debitoren nach Shopify** exportieren|Wählen Sie, ob Sie alle Kunden mit einer gültigen E-Mail-Adresse von [!INCLUDE[prod_short](../includes/prod_short.md)] bis Shopify in grossen Mengen exportieren möchten; entweder manuell, mit der Aktion **Kunden synchronisieren** oder über eine Job-Warteschlange für wiederkehrende Aktualisierungen.|
+|**Debitoren nach Shopify** exportieren|Wählen Sie, ob Sie alle Kunden mit einer gültigen E-Mail-Adresse von [!INCLUDE[prod_short](../includes/prod_short.md)] bis Shopify in grossen Mengen exportieren möchten; entweder manuell, mit der Aktion **Kunden synchronisieren** oder über eine Job-Warteschlange für wiederkehrende Aktualisierungen.<br> Stellen Sie sicher, wenn Sie Debitoren mit Provinzen/Staaten exportieren, dass der **ISO-Code** für Länder/Regionen ausgefüllt ist.|
 |**Kann Shopify-Debitoren aktualisieren**|Wird zusammen mit der Einstellung **Kunde exportieren nach Shopify** festgelegt. Aktivieren Sie es, wenn Sie später Aktualisierungen aus [!INCLUDE[prod_short](../includes/prod_short.md)] für Kunden erstellen möchten, die bereits in Shopify vorhanden sind.|
 
 > [!NOTE]  
