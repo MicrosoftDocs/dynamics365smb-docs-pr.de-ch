@@ -125,7 +125,7 @@ Wählen Sie auf der Seite **Integration Tabellenzuordnung** die Zeile für die K
 
 Die Tabelle **Zahlungsbedingungen** in [!INCLUDE[prod_short](includes/prod_short.md)] enthält dann neue Datensätze für die Optionen [!INCLUDE[prod_short](includes/cds_long_md.md)]. In der folgenden Tabelle sind neue Optionen fettgedruckt. Kursiv gedruckte Zeilen stellen alle Optionen dar, die jetzt synchronisiert werden können. Die verbleibenden Zeilen stellen Optionen dar, die nicht verwendet werden und während der Synchronisierung ignoriert werden. Sie können sie entfernen oder Dataverse-Optionen mit den gleichen Namen erweitern).
 
-| Code       | Berechnung Fälligkeitsdatum | Berechnung des Diskontierungsdatums | Ermässigung in % | Rechnungsrab. Zahl. Verk. im Zinsrechnung | Beschreibung       |
+| Code       | Berechnung Fälligkeitsdatum | Berechnung des Rabattdatums | Rabatt in % | Rechnungsrab. Zahl. Verk. im Zinsrechnung | Beschreibung       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
 | 10 TAGE    | 10T                  |                           | 0.         | FALSCH                         | Netto 10 Tage       |
 | 14 TAGE    | 14T                  |                           | 0.         | FALSCH                         | Netto 14 Tage       |

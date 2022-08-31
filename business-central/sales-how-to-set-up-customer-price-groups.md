@@ -65,7 +65,7 @@ Nachdem Sie die Kundenpreisgruppen festgelegt haben, können Sie die Kundenpreis
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Spezielle Verkaufspreise und Skonti aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md)  
+[Spezielle Verkaufspreise und Rabatte aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md)  
 [Einrichten von Debitorenrabattgruppen](sales-how-to-set-up-customer-discount-groups.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

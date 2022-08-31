@@ -1,6 +1,6 @@
 ---
 title: Stapelverarbeitung „Zahlungsvorschlag“ vorschlagen
-description: Sie können Kreditorenzahlungseinstellungen festlegen, um Vorschläge für Zahlungen zu erhalten, die in Kürze fällig sind oder für die ein Skonto verfügbar ist.
+description: Sie können Kreditorenzahlungseinstellungen festlegen, um Vorschläge für Zahlungen zu erhalten, die in Kürze fällig sind oder für die ein Rabatt verfügbar ist.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na

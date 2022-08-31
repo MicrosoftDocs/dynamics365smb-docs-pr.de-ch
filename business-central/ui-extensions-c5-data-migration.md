@@ -37,7 +37,7 @@ Die folgenden Daten werden für jede Einheit migriert:
 * Zahlungsbedingungen
 * Zahlungsform
 * Debitorenpreisgruppe
-* DebitorenrechnungsSkonto
+* Debitorenrechnungsrabatt
 
 Wenn Sie Konten migrieren, werden auch die folgenden Daten migriert:
 
@@ -51,12 +51,12 @@ Wenn Sie Konten migrieren, werden auch die folgenden Daten migriert:
 * Ort
 * Land
 * Debitoren-Dimensionen (Abteilung, Kostenträger, Kostenstelle)
-* RechnungsSkonto
+* Rechnungsrabatt
 * Lieferbedingung
 * Einkäufer
 * Zahlungsbedingungen
 * Zahlungsform
-* KreditorenrechnungsSkontoe
+* Kreditorenrechnungsrabatte
 
 Wenn Sie Konten migrieren, werden auch die folgenden Daten migriert:
 
@@ -70,8 +70,8 @@ Wenn Sie Konten migrieren, werden auch die folgenden Daten migriert:
 * Land
 * Element-Dimensionen (Abteilung, Kostenträger, Kostenstelle)
 * VK-Zeilenrabatte
-* DebitorenSkontogruppen
-* ArtikelSkontogruppen
+* Debitorenrabattgruppen
+* Artikelrabattgruppen
 * Verkaufspreis
 * Zollposition
 * Einheiten

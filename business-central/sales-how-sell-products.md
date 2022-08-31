@@ -66,7 +66,7 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
     Der Preis und der Zeilenbetrag auf den Verkaufsrechnungszeilen werden mit oder ohne Salestax angezeigt je nachdem, was Sie im Feld **Preis inklusive Mehrwertsteuer** auf der Debitorenkarte ausgewählt haben.
 8. Geben Sie im Feld **Zeilenrabatt in Prozent** einen Prozentsatz ein, wenn Sie dem Debitor einen Rabatt auf das Produkt gewähren möchten. Der Wert im Feld **Zeilenbetrag** wird entsprechend aktualisiert.
 
-    Wenn Sie bestimmte Artikelpreise für den Debitor auf dem Inforegister **Verkaufspreise und Verkaufspreis-Zeilenrabatte** eingerichtet haben, werden der Preis und der Betrag auf der Rechnungszeile automatisch aktualisiert, wenn die vereinbarten Preiskriterien erfüllt sind. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Skonto und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
+    Wenn Sie bestimmte Artikelpreise für den Debitor auf dem Inforegister **Verkaufspreise und Verkaufspreis-Zeilenrabatte** eingerichtet haben, werden der Preis und der Betrag auf der Rechnungszeile automatisch aktualisiert, wenn die vereinbarten Preiskriterien erfüllt sind. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Rabatt und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
 9. Um einen Kommentar zur Bestellzeile hinzuzufügen, den der Debitor auf dem gedruckten Verkaufsauftrag sehen kann, schreiben Sie einen Kommentar in das Feld **Beschreibung** in eine leere Zeile.  
 10. Wiederholen Sie die Schritte 5 bis 9 für jeden Artikel, den Sie an den Debitoren verkaufen möchten.
 
@@ -77,9 +77,9 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
     >
     > Verwenden Sie zum Übeprüfen der tatsächlich gebuchten Beträge die Seite **Statistiken**, die die Rundungsberechnungen berücksichtigt. Auch wenn Sie die Aktion **Freigabe** auswählen, werden die Summenfelder aktualisiert, sodass sie die Rundungsberechnungen enthalten.  
 
-11. Optional geben Sie im Feld **Skontobetrag in Rechnung stellen** einen Betrag ein, der vom Wert abgezogen werden soll, der im Feld **Total inklusive Salestax** angezeigt wird.
+11. Optional geben Sie im Feld **Rabattbetrag in Rechnung stellen** einen Betrag ein, der vom Wert abgezogen werden soll, der im Feld **Total inklusive Salestax** angezeigt wird.
 
-    Wenn Sie Rechnungsrabatte für den Debitor eingerichtet haben, wird der angegebene Prozentwert automatisch in das Feld **Rechnungsrabatt in Prozent** eingetragen, sobald die Kriterien erfüllt sein, und der entsprechende Betrag wird im Feld **Rechnungsbetrag mit Rabatt ohne Mehrwertsteuer** eingefügt. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Skonti und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
+    Wenn Sie Rechnungsrabatte für den Debitor eingerichtet haben, wird der angegebene Prozentwert automatisch in das Feld **Rechnungsrabatt in Prozent** eingetragen, sobald die Kriterien erfüllt sein, und der entsprechende Betrag wird im Feld **Rechnungsbetrag mit Rabatt ohne Mehrwertsteuer** eingefügt. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Rabatten und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
 12. Um nur einen Teil der Auftragsmenge zu liefern, geben Sie die Menge im Feld **Zu liefernde Menge** ein. Der Wert wird in das Feld **Zu fakturierende Menge** kopiert.
 13. Um nur einen Teil der Auftragsmenge zu fakturieren, geben Sie die Menge im Feld **Zu fakturierende Menge** ein. Die zu fakturierende Menge kann nicht grösser sein, als der Wert im Feld **Zu liefernde Menge**.  
 14. Wenn die Verkaufsangebotszeilen ausgeführt werden, wählen Sie die Aktion **Buchen und Senden** aus.

@@ -1,6 +1,6 @@
 ---
 title: Besondere Verkaufspreise und Rabatte aufzeichnen
-description: Die unterschiedlichen oder alternativen Preise und Skontovereinbarungen festlegen und sie zu Einkaufsbelegen zuweisen.
+description: Die unterschiedlichen oder alternativen Preise und Rabattvereinbarungen festlegen und sie zu Einkaufsbelegen zuweisen.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -20,9 +20,9 @@ ms.locfileid: "9144253"
 # <a name="record-special-purchase-prices-and-discounts"></a>Besondere Verkaufspreise und Rabatte aufzeichnen
 
 > [!NOTE]
-> In Veröffentlichungszyklus 2 von 2020 haben wir optimierte Prozesse zum Einrichten und Verwalten von Preisen und Skonti veröffentlicht. Wenn Sie ein neuer Kunde mit dieser Version sind, nutzen Sie die neue Erfahrung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> In Veröffentlichungszyklus 2 von 2020 haben wir optimierte Prozesse zum Einrichten und Verwalten von Preisen und Rabatten veröffentlicht. Wenn Sie ein neuer Kunde mit dieser Version sind, nutzen Sie die neue Erfahrung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-Definieren Sie die verschiedenen Preis- und Skontovereinbarungen, die beim Artikeleinkauf von unterschiedlichen Kreditoren gelten, damit die vereinbarten Regeln und Werte auf die für den Kreditor erstellten Einkaufsbelege angewendet werden.
+Definieren Sie die verschiedenen Preis- und Rabattvereinbarungen, die beim Artikeleinkauf von unterschiedlichen Kreditoren gelten, damit die vereinbarten Regeln und Werte auf die für den Kreditor erstellten Einkaufsbelege angewendet werden.
 
 Falls Sie spezielle Preise und Zeilenrabatte für Verkäufe und Einkäufe erfasst haben, stellt [!INCLUDE[prod_short](includes/prod_short.md)] sicher, dass der Deckungsbeitrag im Artikelhandel immer optimal ist, indem er die besten Preise automatisch in Einkaufs- und Verkaufsbelegen und auf Projekt und Artikel Erf.-Journalzeilen berechnet. Weitere Informationen finden Sie unter [Beste Preisberechnung](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
 
@@ -44,7 +44,7 @@ Da Einkaufszeilenrabatte und Einkaufspreise auf einer Kombination aus Artikel un
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die relevante Kreditorenkarte, und klicken Sie dann auf die Aktion **Preise**.
 3. Füllen Sie die Felder in der Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Füllen Sie eine Zeile für jede Kombination aus, für die Sie dem Kreditor einen EinkaufszeilenSkonto gewähren.
+4. Füllen Sie eine Zeile für jede Kombination aus, für die Sie dem Kreditor einen Einkaufszeilenrabatt gewähren.
 
 #### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience)
 
@@ -60,7 +60,7 @@ Da Einkaufszeilenrabatte und Einkaufspreise auf einer Kombination aus Artikel un
 
 ---
 
-## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Um einen ZeilenSkonto für einen Kreditor einzurichten
+## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Um einen Zeilenrabatt für einen Kreditor einzurichten
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die relevante Kreditorenkarte, und klicken Sie dann auf die Aktion **Zeilenrabatte**.
@@ -71,18 +71,18 @@ Da Einkaufszeilenrabatte und Einkaufspreise auf einer Kombination aus Artikel un
 
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Um einen Rechnungsrabatt für einen Kreditor einzurichten
 
-Wenn Ihre Kreditoren Sie informiert haben, welche RechnungsSkontoe sie gewähren, können Sie den RechnungsSkontocode auf den Kreditorenkarten eingeben und Bedingungen für jeden Code einrichten.
+Wenn Ihre Kreditoren Sie informiert haben, welche Rechnungsrabatte sie gewähren, können Sie den Rechnungsrabattcode auf den Kreditorenkarten eingeben und Bedingungen für jeden Code einrichten.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Kreditorenkarte für einen Kreditor, der für Rechnungsrabatte in Frage kommt.
 3. Geben Sie im Feld **Rechnungsrabattcode** einen Code für die jeweilige Rechnungsrabattbedingungen ein, die zur Berechnung der Rabatte für den Kreditor verwendet werden sollen.
 
     > [!NOTE]  
-    > Rechnungsrabattcodes werden durch vorhandene Kreditorenkarten dargestellt. Dies ermöglicht es Ihnen, RechnungsSkontobedingungen schnell einem Kreditor zuzuweisen, indem es den Namen eines anderen Kreditors mit den selben Konditionen auswählt..
+    > Rechnungsrabattcodes werden durch vorhandene Kreditorenkarten dargestellt. Dies ermöglicht es Ihnen, Rechnungsrabattbedingungen schnell einem Kreditor zuzuweisen, indem es den Namen eines anderen Kreditors mit den selben Konditionen auswählt..
 
-    Fahren Sie fort, um neue EinkaufssrechnungsSkonto-Bedingungen einzurichten.
+    Fahren Sie fort, um neue Einkaufssrechnungsrabatt-Bedingungen einzurichten.
 4. Auf der Seite **Kreditorenkarte** wählen Sie die Aktion **Rechnungsrabatt** aus. Die Seite **Kreditorenrechnungsrabatte** wird geöffnet.
-5. Geben Sie in dem Feld **Währungscode** den Code für die Währung ein, für die die RechnungsSkontokonditionen gelten sollen. Wenn Sie Rechnungsrabattbedingungen in EUR einrichten möchten, dann lassen Sie das Feld leer.
+5. Geben Sie in dem Feld **Währungscode** den Code für die Währung ein, für die die Rechnungsrabattkonditionen gelten sollen. Wenn Sie Rechnungsrabattbedingungen in EUR einrichten möchten, dann lassen Sie das Feld leer.
 6. Geben Sie im Feld **Minimalbetrag** den Mindestbetrag ein, den eine Rechnung aufweisen muss, um für einen Rabatt in Frage zu kommen.
 7. Geben Sie im Feld **Rabatt** den Rechnungsrabatt als Prozentsatz des Rechnungsbetrages ein.
 8. Wiederholen Sie die Schritte 5 bis 7 für jede Währung, für die der Kreditor einen Rechnungsrabatt erhält.
@@ -111,16 +111,16 @@ Wenn Sie feste Konditionen für Rechnungsrabatte mit einzelnen Kreditoren haben,
 
 Bevor Sie die Rechnungsrabatte für Einkäufe verwenden können, müssen Sie die Kreditoren angeben, die Ihnen Rabatte anbieten.  
 
-Sie verknüpfen Skontoprozentsätze mit bestimmten Rechnungsbeträgen auf den Seiten **KreditorenrechnungsSkontoe**. Sie können eine beliebige Anzahl von Prozentsätzen auf jeder Seite eingeben. Jeder Kreditor kann eine eigene Seite haben, oder Sie können verschiedene Kreditoren mit der gleichen Seite verknüpfen.  
+Sie verknüpfen Rabattprozentsätze mit bestimmten Rechnungsbeträgen auf den Seiten **Kreditorenrechnungsrabatte**. Sie können eine beliebige Anzahl von Prozentsätzen auf jeder Seite eingeben. Jeder Kreditor kann eine eigene Seite haben, oder Sie können verschiedene Kreditoren mit der gleichen Seite verknüpfen.  
 
-Zusätzlich zu einem Skontoprozentsatz können Sie einen Zuschlag mit einem bestimmten Rechnungsbetrag verknüpfen.  
+Zusätzlich zu einem Rabattprozentsatz können Sie einen Zuschlag mit einem bestimmten Rechnungsbetrag verknüpfen.  
 
 Sie können die Bedingungen für Rechnungsrabatte für inländische Kreditoren in MW angeben und für ausländische Kreditoren in Fremdwährung.  
 
 Sie können wählen, ob [!INCLUDE[prod_short](includes/prod_short.md)] automatisch die Rechnungsrabatte für Anfragen, Rahmenbestellungen, Bestellungen, Rechnungen oder Gutschriften berechnen soll.  
 
 > [!TIP]  
-> Bevor Sie diese Informationen eingeben, ist es sinnvoll, eine Skizze der Rabattstruktur vorzubereiten, die Sie verwenden möchten. Daraus ist leichter zu ersehen, welche Kreditoren mit der gleichen RechnungsSkontoseite verknüpft werden können. Wenn Sie weniger Seiten einrichten müssen, können Sie die Basisinformationen schneller eingeben.
+> Bevor Sie diese Informationen eingeben, ist es sinnvoll, eine Skizze der Rabattstruktur vorzubereiten, die Sie verwenden möchten. Daraus ist leichter zu ersehen, welche Kreditoren mit der gleichen Rechnungsrabattseite verknüpft werden können. Wenn Sie weniger Seiten einrichten müssen, können Sie die Basisinformationen schneller eingeben.
 
 ## <a name="best-price-calculation"></a>Berechnung des besten Preises
 
@@ -131,17 +131,17 @@ Der beste Preis ist der niedrigste mögliche Preis mit dem höchsten möglichen 
 > [!NOTE]  
 > Nachfolgend wird erläutert, wie die besten Preise für Verkäufe berechnet werden. Die Berechnung ist die gleiche wie für Einkäufe.
 
-1. [!INCLUDE[prod_short](includes/prod_short.md)] prüft die Kombination aus Rechnungsempfänger und Artikel und wählt den entsprechenden Preis/Skonto unter Verwendung der folgenden Kriterien:
+1. [!INCLUDE[prod_short](includes/prod_short.md)] prüft die Kombination aus Rechnungsempfänger und Artikel und wählt den entsprechenden Preis/Rabatt unter Verwendung der folgenden Kriterien:
 
     - Hat dieser Debitor eine spezielle Vereinbarung für Preise oder Zeilenrabatte oder gehört der Debitor zu einer Gruppe, die solche Vereinbarungen hat?
     - Ist der Artikel oder die Artikelrabattgruppe in der Zeile in einer dieser Vereinbarungen enthalten?
     - Liegt das Auftragsdatum (oder das Buchungsdatum für die Rechnung und Gutschrift) innerhalb des Start- und Enddatums der Preis-/Zeilenrabatt-Vereinbarung?
     - Wurde ein Einheitencode angegeben? Falls dies der Fall ist, prüft [!INCLUDE[prod_short](includes/prod_short.md)] Preise/Rabatte mit dem gleichen Einheitencode und die Preise und Rabatte, bei denen kein Einheitencode angegeben wurde.
 
-2. [!INCLUDE[prod_short](includes/prod_short.md)] überprüft, ob Preis-/Skontovereinbarungen für Informationen für die Beleg- oder die Buch.-Blattzeile gilt und fügt dann den gültigen Einheitspreis und den prozentualen ZeilenSkonto, unter Verwendung der folgenden Kriterien ein:
+2. [!INCLUDE[prod_short](includes/prod_short.md)] überprüft, ob Preis-/Rabattvereinbarungen für Informationen für die Beleg- oder die Buch.-Blattzeile gilt und fügt dann den gültigen Einheitspreis und den prozentualen Zeilenrabatt, unter Verwendung der folgenden Kriterien ein:
 
     - Gibt es eine Mindestanzahl in der Preis-/Rabattvereinbarung, die erfüllt ist?
-    - Gibt es eine Währungsanforderung in der Preis-/Rabattvereinbarung, die erfüllt ist? In diesem Fall werden der niedrigste Preis und der höchsten Zeilenrabatt für diese Währung eingefügt, selbst wenn MW einen besseren Preis liefern würde. Falls es für den angegebenen Währungscode keine Preis-/ZeilenSkontoe gibt, verwendet [!INCLUDE[prod_short](includes/prod_short.md)] den niedrigsten Preis und den höchsten ZeilenSkonto in MW.
+    - Gibt es eine Währungsanforderung in der Preis-/Rabattvereinbarung, die erfüllt ist? In diesem Fall werden der niedrigste Preis und der höchsten Zeilenrabatt für diese Währung eingefügt, selbst wenn MW einen besseren Preis liefern würde. Falls es für den angegebenen Währungscode keine Preis-/Zeilenrabatte gibt, verwendet [!INCLUDE[prod_short](includes/prod_short.md)] den niedrigsten Preis und den höchsten Zeilenrabatt in MW.
 
 Wenn keine Spezialpreise für die Artikel in der Zeile gefunden werden, werden entweder letzte Einkaufspreis oder der Einheitspreis von der Artikelkarte oder der Lagerhaltungsdatenkarte verwendet.
 

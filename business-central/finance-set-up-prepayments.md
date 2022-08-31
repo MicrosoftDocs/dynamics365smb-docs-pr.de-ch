@@ -26,7 +26,7 @@ Sie können den Prozentsatz des zur Zahlung fakturierten Zeilenbetrags für eine
 > Wir empfehlen Ihnen, in den folgenden Fällen keinen Vorauszahlungsprozentsatz von 100 zu verwenden:
 >
 > * Wenn Sie sich in Nordamerika befinden. Aufgrund der Art und Weise, wie Steuern berechnet werden, kann ein Vorauszahlungsprozentsatz von 100 zu Problemen mit Vorauszahlungsrechnungen führen.
-> * In allen Regionen, wenn Sie manuell ein Skonto von der Rechnung abziehen. Ein Vorauszahlungsprozentsatz von 100 lässt nicht automatisch einen Betrag übrig, von dem das Disagio abgezogen werden kann.
+> * In allen Regionen, wenn Sie manuell ein Skonto von der Rechnung abziehen. Ein Vorauszahlungsprozentsatz von 100 lässt nicht automatisch einen Betrag übrig, von dem der Rabatt abgezogen werden kann.
 >
 > Wenn Sie einen Vorauszahlungsprozentsatz von 100 verwenden, kann es ausserdem sein, dass Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] ausgleichende Rundungseinträge erstellen müssen. In diesem Fall müssen Sie auf der Seite **Debitorenbuchungsgruppen** im Feld **Rechnungsabrundungskonto** ein Fibukonto auswählen. Dies gilt auch dann, wenn Sie die Option **Rechnungsrundung** auf der Seite **Einrichtung Debitoren & Verkauf** nicht aktiviert haben. Wenn Sie kein Konto angeben, können Sie keine Vorauszahlungsrechnungen buchen. 
 

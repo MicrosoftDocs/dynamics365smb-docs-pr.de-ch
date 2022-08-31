@@ -129,7 +129,7 @@ Weitere Informationen finden Sie unter [FAQ zum Kopieren und Einfügen](faq-copy
 
 Um mit dem Filtern zu beginnen, wählen Sie ![Filterbereichssymbol](media/open-filter-pane-icon.png "Filterbereichssymbol") in der Liste oben aus, oder drücken Sie auf Shift+F3, um den Filterbereich zu öffnen. Sie arbeiten mit Filterbereich, wie in jeder anderen Liste. Weitere Informationen finden Sie unter [Filterung](ui-enter-criteria-filters.md#filtering).
 
-Die Filterung ist besonders dann hilfreich, wenn längere Belege angezeigt und analysiert werden. Stellen Sie sich vor, Sie öffnen eine gebuchte Verkaufsrechnung. Anschliessend filtern Sie die Positionen, um alle Positionen mit einem individuellen Skonto von mehr als 5 % anzuzeigen. Oder Sie filtern die Positionen, sodass nur Fahrradzubehör, dessen Name „Pro“ enthält, angezeigt wird.
+Die Filterung ist besonders dann hilfreich, wenn längere Belege angezeigt und analysiert werden. Stellen Sie sich vor, Sie öffnen eine gebuchte Verkaufsrechnung. Anschliessend filtern Sie die Positionen, um alle Positionen mit einem individuellen Rabatt von mehr als 5 % anzuzeigen. Oder Sie filtern die Positionen, sodass nur Fahrradzubehör, dessen Name „Pro“ enthält, angezeigt wird.
 
 ## <a name="focusing-on-line-items"></a><a name="Focus"></a>Fokussieren auf Positionsartikel
 

@@ -68,7 +68,7 @@ Wenn Sie etwas an einen Kunden verkaufen, haben Sie zwei Möglichkeiten. Die ers
 
 7. Geben Sie in dem Feld **Menge** die Anzahl des Artikels an, der verkauft werden soll.
 
-8. Geben Sie im Feld **Zeilenskonto in Prozent** einen Prozentsatz ein, wenn Sie dem Debitor einen Skonto auf das Produkt gewähren möchten.
+8. Geben Sie im Feld **Zeilenrabatt in Prozent** einen Prozentsatz ein, wenn Sie dem Debitor einen Rabatt auf das Produkt gewähren möchten.
 
 9. Um einen Kommentar zur Bestellzeile hinzuzufügen, den der Debitor auf dem gedruckten Verkaufsauftrag sehen kann, schreiben Sie einen Kommentar in das Feld **Beschreibung** in eine leere Zeile.
 
@@ -102,11 +102,11 @@ Wenn Sie eine Verkaufsrechnung erstellen und buchen, erstellen Sie nicht nur den
 
 7. Geben Sie im Feld **Menge** ein, wie viele Einheiten des Produkts, der Kosten oder der Transaktion, in der Zeile des Debitors gespeichert werden soll.  
 
-8. Wenn Sie Skonto gewähren möchten, geben Sie einen Prozentsatz im Feld **Zeilenskonto %** ein. Der Wert im Feld **Zeilenbetrag** wird entsprechend aktualisiert.  
+8. Wenn Sie Skonto gewähren möchten, geben Sie einen Prozentsatz im Feld **Zeilenrabatt %** ein. Der Wert im Feld **Zeilenbetrag** wird entsprechend aktualisiert.  
 
 9. Wiederholen Sie die Schritte 5 bis 8 für jedes Produkt oder jede Gebühr, die Sie an den Debitoren verkaufen möchten.  
 
-10. Geben Sie im Feld **Skontobetrag in Rechnung stellen** einen Betrag ein, der vom Wert abgezogen werden soll, der im Feld **Total inklusive Salestax** angezeigt wird.
+10. Geben Sie im Feld **Rabattbetrag in Rechnung stellen** einen Betrag ein, der vom Wert abgezogen werden soll, der im Feld **Total inklusive Salestax** angezeigt wird.
 
 11. Wenn die Verkaufsrechnungszeilen ausgeführt werden, wählen Sie die Aktion **Buchen und Senden** aus.  
 

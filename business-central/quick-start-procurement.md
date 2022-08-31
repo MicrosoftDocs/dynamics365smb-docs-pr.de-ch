@@ -65,7 +65,7 @@ Das folgende Video zeigt Ihnen, wie Sie eine Bestellung in [!INCLUDE[prod_short]
 
     Das Feld **Zeilenmenge** wird aktualisiert, um den Wert im Feld **EK-Preis** multipliziert ist mit dem Wert im Feld **Menge** anzuzeigen.
 
-7. Geben Sie in das Feld **Bestellskontobetrag** einen Betrag ein, der von dem Wert abgezogen werden soll, der im Feld **Gesamtbetrag inkl. MWST** am Ende der Bestellung angezeigt wird.
+7. Geben Sie in das Feld **Bestellrabattbetrag** einen Betrag ein, der von dem Wert abgezogen werden soll, der im Feld **Gesamtbetrag inkl. MWST** am Ende der Bestellung angezeigt wird.
 
 8. Falls Sie die eingekauften Artikel oder Dienstleistungen erhalten, wählen Sie aus **Buchen**.
 
@@ -92,7 +92,7 @@ Sie erstellen eine Einkaufsrechnung, um die Kosten der Käufe zu erfassen und di
 
     Das Feld **Zeilenmenge** wird aktualisiert, um den Wert im Feld **EK-Preis** multipliziert ist mit dem Wert im Feld **Menge** anzuzeigen.
 
-7. Geben Sie im Feld **Skontobetrag in Rechnung stellen** einen Betrag ein, der vom Wert abgezogen werden soll, der im Feld **Total inklusive Salestax** im unteren Bereich der Rechnung angezeigt wird.
+7. Geben Sie im Feld **Rabattbetrag in Rechnung stellen** einen Betrag ein, der vom Wert abgezogen werden soll, der im Feld **Total inklusive Salestax** im unteren Bereich der Rechnung angezeigt wird.
 
 8. Falls Sie die eingekauften Artikel oder Dienstleistungen erhalten, wählen Sie aus **Buchen**.
 

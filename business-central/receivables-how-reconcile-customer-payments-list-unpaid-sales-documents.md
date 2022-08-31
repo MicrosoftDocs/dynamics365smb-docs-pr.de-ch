@@ -79,34 +79,34 @@ Wenn eine Zahlung in der Bank nicht durch Zeile auf der Seite **Zahlungserfassun
 
 Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben wird, dann können Sie eine Fibu Erf.-Journalzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Erf.-Journal buchen, bis der Ursprung der Zahlung gelöst wurde. Weitere Informationen finden Sie im Abschnitt [Zahlung ohne zugehörigen Beleg erfassen oder buchen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
-## <a name="to-process-customer-payments-with-discounts-manually"></a>Manuelle Verarbeitung von Zahlungen mit Skonti
+## <a name="to-process-customer-payments-with-discounts-manually"></a>Manuelle Verarbeitung von Zahlungen mit Rabatten
 Wenn Sie ein Skonto mit dem Debitor vereinbart haben, können die Zahlungsbeträge niedriger als die fakturierten Beträge sein, wenn die Zahlung vor dem vereinbarten Skontodatum auftritt.  
 
 Dieses Thema erläutert vier verschiedene Verfahren zum Buchen von verbilligten Zahlungen auf der Seite **Zahlungserfassung**.  
 
-* Der Zahlungsbetrag entspricht dem diskontierten Betrag und dessen Zahlungsdatum liegt vor dem Skontodatum. Sie buchen die Zahlung, wie sie ist.  
-* Der Zahlungsbetrag entspricht dem diskontierten Betrag, aber dessen Zahlungsdatum liegt nach dem Skontodatum. Sie buchen die Zahlung als Teilzahlung. Der Beleg bleibt offen, um den Restbetrag einzufordern/zu bezahlen. Alternativ legen Sie das Skontodatum später fest, um die vollständige Bezahlung zu ermöglichen.  
+* Der Zahlungsbetrag entspricht dem diskontierten Betrag und dessen Zahlungsdatum liegt vor dem Rabattdatum. Sie buchen die Zahlung, wie sie ist.  
+* Der Zahlungsbetrag entspricht dem diskontierten Betrag, aber dessen Zahlungsdatum liegt nach dem Rabattdatum. Sie buchen die Zahlung als Teilzahlung. Der Beleg bleibt offen, um den Restbetrag einzufordern/zu bezahlen. Alternativ legen Sie das Rabattdatum später fest, um die vollständige Bezahlung zu ermöglichen.  
 * Die Zahlungssumme ist niedriger als der verbleibende diskontierte Betrag. Sie buchen die Zahlung als Teilzahlung. Der Beleg bleibt offen, um den Restbetrag einzufordern/zu bezahlen.  
 * Die Zahlungssumme ist höher als der verbleibende diskontierte Betrag. Sie buchen die Zahlungen, wie sie sind. Nur der Restbetrag wird gebucht. Der zusätzliche Betrag wird dem Debitor gutgeschrieben.  
 
-### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Zahlungsbetrag verarbeiten, der dem diskontierten Betrag entspricht und dessen Zahlungsdatum vor dem Skontodatum liegt
+### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Zahlungsbetrag verarbeiten, der dem diskontierten Betrag entspricht und dessen Zahlungsdatum vor dem Rabattdatum liegt
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.  
-2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist gleich wie der Betrag im Feld **Restbetrag nach Skonto**.
+2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist gleich wie der Betrag im Feld **Restbetrag nach Rabatt**.
 
     Das Kontrollkästchen **Zahlung erfolgt** wird automatisch aktiviert, und das Feld **Empfangsdatum** wird mit dem Arbeitsdatum ausgefüllt.    
 3. Geben Sie im Feld **Datum erhalten** das Zahlungsdatum ein. Das Datum steht vor dem Datum im Feld **Skontodatum**.
 4. Vergewissern Sie sich, dass das Feld **Restbetrag** den Wert Null (0) enthält.  
 5. Wählen Sie auf der Registerkarte **Zahlung buchen**, um den Gesamtbetrag auf Sach-, Bank- und Debitorenkonten zu buchen.
 
-### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Zahlungsbetrag verarbeiten, der dem diskontierten Betrag entspricht, dessen Zahlungsdatum jedoch nach dem Skontodatum liegt
+### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Zahlungsbetrag verarbeiten, der dem diskontierten Betrag entspricht, dessen Zahlungsdatum jedoch nach dem Rabattdatum liegt
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.  
-2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist gleich wie der Betrag im Feld **Restbetrag nach Skonto**.
+2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist gleich wie der Betrag im Feld **Restbetrag nach Rabatt**.
 
     Das Kontrollkästchen **Zahlung erfolgt** wird automatisch aktiviert, und das Feld **Empfangsdatum** wird mit dem Arbeitsdatum ausgefüllt.
 3. Geben Sie im Feld **Eingangsdatum** ein Zahlungsdatum an, das nach dem Datum im Feld **Skontodatum** liegt. Datumsfelder ändern zu roter Schrift, und eine Fehlermeldung wird unten auf der Seite angezeigt.
 
     > [!TIP]  
-    >   Wenn Sie eine Ausnahme erstellen möchten und den Skonto gewähren, selbst wenn die Zahlung spät ist, dann führen Sie die folgenden Schritte durch:
+    >   Wenn Sie eine Ausnahme erstellen möchten und den Rabatt gewähren, selbst wenn die Zahlung spät ist, dann führen Sie die folgenden Schritte durch:
 4. Wählen Sie die Aktion **Details** aus.  
 5. Geben Sie auf der Seite **Zahlungserfassungsdatum** im Feld **Skontodatum** im Inforegister **Skonto** ein Datum ein, das nach dem **Empfangsdatum** im Feld **Zahlungserfassung** liegt.  
 
@@ -118,7 +118,7 @@ Der zugehörige Beleg bleibt offen.
 
 ### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Zahlung verarbeiten, die niedriger als der verbleibende diskontierte Betrag ist
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.  
-2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist kleiner als der Betrag im Feld **Restbetrag nach Skonto**.
+2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist kleiner als der Betrag im Feld **Restbetrag nach Rabatt**.
 
     Das Kontrollkästchen **Zahlung erfolgt** wird automatisch aktiviert, und das Feld **Empfangsdatum** wird mit dem Arbeitsdatum ausgefüllt.  
 3. Geben Sie im Feld **Datum erhalten** das Zahlungsdatum ein. Das Datum steht vor dem Datum im Feld **Skontodatum**.
@@ -129,7 +129,7 @@ Der zugehörige Beleg bleibt offen.
 
 ### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Zahlung verarbeiten, die höher als der verbleibende diskontierte Betrag ist
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.  
-2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist grösser als der Betrag im Feld **Restbetrag nach Skonto**.  
+2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist grösser als der Betrag im Feld **Restbetrag nach Rabatt**.  
 
     Das Kontrollkästchen **Zahlung erfolgt** wird automatisch aktiviert, und das Feld **Empfangsdatum** wird mit dem Arbeitsdatum ausgefüllt.    
 3. Geben Sie im Feld **Datum erhalten** das Zahlungsdatum ein. Das Datum steht vor dem Datum im Feld **Skontodatum**.

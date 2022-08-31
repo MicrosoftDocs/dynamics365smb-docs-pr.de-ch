@@ -294,7 +294,7 @@
 #### [Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Mahnungen für ausstehende Salden versenden](receivables-send-reminders.md)
 #### [Debitoren sperren](receivables-how-block-customers.md)
-#### [Arbeiten mit Zahlungstoleranzen und Skontotoleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)
+#### [Arbeiten mit Zahlungstoleranzen und Rabatttoleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Die Erweiterung zur Vorhersage verspäteter Zahlungen](ui-extensions-late-payment-prediction.md)
 
 ### Verbindlichkeiten verwalten
@@ -320,7 +320,7 @@
 #### [Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Kreditoren sperren](payables-how-block-vendors.md)
 #### [Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md)
-#### [Arbeiten mit Zahlungstoleranzen und Skontotoleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)
+#### [Arbeiten mit Zahlungstoleranzen und Rabatttoleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Die Erweiterung zur Vorhersage verspäteter Zahlungen](ui-extensions-late-payment-prediction.md)
 
 ### Fakturieren von Vorauszahlungen
@@ -775,7 +775,7 @@
 #### Salestax
 ##### [Steuern sowie Steuern auf Waren und Dienstleistungen in Kanada melden](LocalFunctionality/Canada/sales-tax-goods-services.md)
 ##### [Salestax in Kanada melden](LocalFunctionality/Canada/ca-sales-tax.md)
-##### [Einrichten unrealisierter Salestax und Verkaufs-Skonti](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
+##### [Einrichten unrealisierter Salestax und Verkaufs-Rabatte](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
 ##### [Einrichten von Erwerbsteuer und Umsatzsteuer](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 #### Banking und Zahlungen
 ##### [Erstellen von Anzahlungen](LocalFunctionality/Canada/how-to-create-deposits.md)
@@ -846,7 +846,7 @@
 ##### [Zahlungsdateien erstellen](LocalFunctionality/Finland/how-to-generate-payment-files.md)
 ##### [Einrichten von Bankreferenzdaten](LocalFunctionality/Finland/how-to-set-up-bank-reference-files.md)
 ##### [SEPA-Überweisungszahlungen](LocalFunctionality/Finland/sepa-credit-transfer-payments.md)
-##### [Skonti verwerfen](LocalFunctionality/Finland/how-to-disregard-payment-discounts.md)
+##### [Rabatte verwerfen](LocalFunctionality/Finland/how-to-disregard-payment-discounts.md)
 #### Kernfinanzierung
 ##### [Einrichten von automatischen Kontobuchungsgruppen](LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups.md)
 ##### [Automatische Kontocodes](LocalFunctionality/Finland/automatic-account-codes.md)
@@ -1333,7 +1333,7 @@
 #### Kernfinanzierung
 ##### [Einrichten und Schliessen von Erfolgsrechnung-Konten](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Kontenpläne einrücken und validieren](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
-##### [Skonti auf Fibukonten ignorieren](LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts.md)
+##### [Rabatte auf Fibukonten ignorieren](LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts.md)
 ##### [Kontenschema zu ASC-Format exportieren](LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md)
 ##### [Kontobuchberichte drucken](LocalFunctionality/Spain/how-to-print-account-book-reports.md)
 ##### [Verkaufs- und Einkaufsrechnungsbücher drucken](LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books.md)  
@@ -1426,7 +1426,7 @@
 ##### [Das IRS 1099-Formular einrichten und verwenden](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Gesetzliche 1099 Formatänderungen und Details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Einrichten von Erwerbsteuer und Umsatzsteuer](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
-##### [Einrichten unrealisierter Salestax und Verkaufs-Skonti](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
+##### [Einrichten unrealisierter Salestax und Verkaufs-Rabatte](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Banking und Zahlungen
 ##### [Erstellen von Anzahlungen](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  
 ##### [Bankkonten abstimmen](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
@@ -1444,7 +1444,7 @@
 #### [Zahlungsbedingungen einrichten](finance-payment-terms.md)
 #### [Buchungsgruppen einrichten](finance-posting-groups.md)
 #### [Bereiten Sie Finanzberichte mit Kontenschema und Kontengruppen vor](bi-how-work-account-schedule.md)
-#### [Arbeiten mit Zahlungstoleranzen und Skontotoleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)
+#### [Arbeiten mit Zahlungstoleranzen und Rabatttoleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Arbeiten mit Buchhaltungsperioden und Geschäftsjahren](finance-accounting-periods-and-fiscal-years.md)
 #### [Einrichten von Mahnmethoden, Bestimmungen und Mahntext](finance-setup-reminders.md)
 #### [Zinskonditionen einrichten](finance-setup-finance-charges.md)
@@ -1474,7 +1474,7 @@
 #### [Registriert einen neuen Debitor](sales-how-register-new-customers.md)
 #### [Aktivieren von Debitoren-Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
 #### [Preise und Rabatte einrichten](across-prices-and-discounts.md)
-#### [Spezielle Verkaufspreise und Skonti aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md)
+#### [Spezielle Verkaufspreise und Rabatte aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Debitorenpreisgruppen festlegen](sales-how-to-set-up-customer-price-groups.md)
 #### [Debitorenrabattgruppen einrichten](sales-how-to-set-up-customer-discount-groups.md)
 #### [Verkäufer einrichten](sales-how-setup-salespeople.md)
@@ -1489,7 +1489,7 @@
 #### [Kreditoren priorisieren](purchasing-how-prioritize-vendors.md)
 #### [Einkäufer einrichten](purchasing-how-setup-purchasers.md)
 #### [Preise und Rabatte einrichten](across-prices-and-discounts.md)
-#### [Besondere Verkaufspreise und Skonti aufzeichnen](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Besondere Verkaufspreise und Rabatte aufzeichnen](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### Bestand einrichten
 #### [Lager einrichten](inventory-setup-inventory.md)
 #### [So richten Sie allgemeine Lagerbestandsinformationen ein](inventory-how-setup-general.md)

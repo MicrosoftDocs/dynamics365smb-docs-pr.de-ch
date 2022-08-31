@@ -38,7 +38,7 @@ Sie können einen Debitor auch aus einem Kontakt erstellen. Weitere Informatione
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
-Die Aktion **Preise und Skonti** bietet Optionen zur Verwaltung von Sonderpreisen oder Skonti für den Debitor, wenn eine Bestellung bestimmte Kriterien erfüllt. Kriterien sind beispielsweise, wann sie einen bestimmten Artikel kaufen, eine Mindestmenge bestellen oder vor einem bestimmten Datum kaufen, etwa wenn eine Kampagne endet. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Skonto und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
+Die Aktion **Preise und Rabatte** bietet Optionen zur Verwaltung von Sonderpreisen oder Rabatten für den Debitor, wenn eine Bestellung bestimmte Kriterien erfüllt. Kriterien sind beispielsweise, wann sie einen bestimmten Artikel kaufen, eine Mindestmenge bestellen oder vor einem bestimmten Datum kaufen, etwa wenn eine Kampagne endet. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Rabatt und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
 
 Der Debitor ist nun erfasst und die Debitorenkarte ist bereit, in Geschäftsbelegen verwendet zu werden, in denen Sie mit dem Debitor handeln.
 

@@ -47,7 +47,7 @@ Im folgenden Verfahren wird erläutert, wie Sie eine Objektkarte von Grund auf n
 >
 > Wenn Sie **Durchschnitt** wählen, dann werden die Stückkosten des Artikels als durchschnittliche Stückkosten zu jedem Zeitpunkt nach dem Kauf berechnet. Bestand wird mit der Annahme bewertet, dass aller Bestand gleichzeitig verkauft wird. Für Artikel, die die Lagerabgangsmethode verwenden, können Sie das Feld **Einstandspreis** auf der Artikelkarte wählen, um die Historie von Transaktionen anzuzeigen, denen der d **urchschnittliche Einstandspreis** berechnet wird
 
-Sie können Sonderpreise oder Skonti für den Artikel anzeigen oder bearbeiten, die Sie gewähren oder die Ihr Kreditor Ihnen gewährt, wenn bestimmte Kriterien, wie z. B. Debitor, Mindestbestellmenge oder Enddatum erfüllt sind. Dazu wählen Sie die Aktionen **Sonderpreise festlegen** oder **Sonderskonti festlegen** aus. Jede Zeile zum Beispiel auf der Seite **Verkaufspreise** repräsentiert einen Sonderpreis. Jede Spalte stellt ein Kriterium dar, das angewendet werden muss, um einem Debitor den Sonderpreis zu gewähren, den Sie in das Feld **VK-Preis** auf der Seite **Verkaufspreise** eingeben. Weitere Informationen finden Sie unter [Verkaufspreise, Skonto und Zahlungsvereinbarungen aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md) oder [Spezielle Verkaufspreise und Skonti aufzeichnen](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+Sie können Sonderpreise oder Rabatte für den Artikel anzeigen oder bearbeiten, die Sie gewähren oder die Ihr Kreditor Ihnen gewährt, wenn bestimmte Kriterien, wie z. B. Debitor, Mindestbestellmenge oder Enddatum erfüllt sind. Dazu wählen Sie die Aktionen **Sonderpreise festlegen** oder **Sonderrabatte festlegen** aus. Jede Zeile zum Beispiel auf der Seite **Verkaufspreise** repräsentiert einen Sonderpreis. Jede Spalte stellt ein Kriterium dar, das angewendet werden muss, um einem Debitor den Sonderpreis zu gewähren, den Sie in das Feld **VK-Preis** auf der Seite **Verkaufspreise** eingeben. Weitere Informationen finden Sie unter [Verkaufspreise, Rabatt und Zahlungsvereinbarungen aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md) oder [Spezielle Verkaufspreise und Rabatte aufzeichnen](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
 Der Artikel ist nun erfasst und die Debitorenkarte ist bereit, in Einkaufs- und Verkaufsbelegen verwendet zu werden.
 
@@ -69,7 +69,7 @@ Wenn Sie Artikel registrieren möchten, die dann in Fertigungsaufträgen verwend
 
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>So richten Sie mehrere Kreditoren für einen Artikel ein
 
-Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, müssen Sie die benötigten Informationen für jeden Kreditor eingeben. Dies umfasst z. B. Preise, Lieferzeit, Skonti usw.  
+Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, müssen Sie die benötigten Informationen für jeden Kreditor eingeben. Dies umfasst z. B. Preise, Lieferzeit, Rabatte usw.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Bearbeiten** aus.  

@@ -33,7 +33,7 @@ Einrichten von finanzbezogenen Einkäufen wie Zahlungsformen und Währungen werd
 | Kreditoren priorisieren |[Kreditoren priorisieren](purchasing-how-prioritize-vendors.md) |
 | Geben Sie die Bankkontoinformationen, einschliesslich IBAN- und SWIFT-Codes, auf der Karte Ihres Kreditors ein. | [Kreditoren-Bankkonto einrichten](purchasing-how-set-up-vendors-bank-accounts.md) |
 | Richten Sie Einkäufer ein, weisen Sie ihnen Kreditoren und Codes zu, um Statistiken zu verfolgen. |[Einkäufer einrichten](purchasing-how-setup-purchasers.md) |
-| Eingeben der unterschiedlichen Rabatte und alternativen Preise, die vom Kreditor in Abhängigkeit des Artikels, der Menge und/oder des Datums gewährt werden |[Erfassen von Einkaufspreisen, Skonti und Zahlungsvereinbarungen](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| Eingeben der unterschiedlichen Rabatte und alternativen Preise, die vom Kreditor in Abhängigkeit des Artikels, der Menge und/oder des Datums gewährt werden |[Erfassen von Einkaufspreisen, Rabatten und Zahlungsvereinbarungen](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Definieren Sie, was Sie für die von Ihrem Unternehmen gekauften Artikel und Dienstleistungen bezahlen.  | [Preise und Rabatte einrichten](across-prices-and-discounts.md) |
 | Erstellen Sie Standardzeilen, die in Belege für wiederkehrende Kaufbelege eingefügt werden sollen. | [Wiederkehrende Bestellpositionen einrichten](purchasing-how-work-recurring-purchase-lines.md) |
 | Erstellen Sie Aufgabensequenzen, um Prozesse zu verbinden, die von verschiedenen Benutzern ausgeführt werden, wie z. B. das Anfordern und Genehmigen von Bestellungen. | [Einkaufsgenehmigungsworkflows einrichten](across-set-up-workflows.md) |

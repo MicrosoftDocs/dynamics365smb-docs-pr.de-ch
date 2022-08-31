@@ -62,7 +62,7 @@ Als Grundregel gilt, dass der Wert im Feld **Einstandspreis** auf der Artikelkar
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Lagerabgangsmethode "FIFO", "LIFO", "Ausgewählt" oder "Durchschnitt"  
  [!INCLUDE[prod_short](includes/prod_short.md)] berechnet den Inhalt des Feldes **Einstandspreis NW** in der Einkaufszeile oder den Inhalt des Feldes **Einstandspreis** in der Artikel-Erf.-Journalzeile entsprechend dieser Formel:  
 
- Einstandspreis (MW) = (EK-Preis - (Skontobetrag / Menge)) x (1 + Indirekte Kosten % / 100) + Gemeinkostensatz  
+ Einstandspreis (MW) = (EK-Preis - (Rabattbetrag / Menge)) x (1 + Indirekte Kosten % / 100) + Gemeinkostensatz  
 
 ### <a name="costing-method-standard"></a>Lagerabgangsmethode "Standard"  
  Die Anwendung füllt das Feld **Einstandspreis (MW)** in einer Einkaufszeile oder das Feld **Einstandspreis** in einer Artikel Erfassungsjournalzeile, indem sie den Wert des Felds **Einstandspreis** von der Artikelkarte kopiert. Wenn die Lagerabgangsmethode "Standard" ist, basiert dies auf dem Einstandspreis.  

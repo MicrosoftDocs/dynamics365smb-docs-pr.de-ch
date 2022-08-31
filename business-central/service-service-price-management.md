@@ -21,7 +21,7 @@ Die Funktionalität "Servicepreismanagement" erlaubt Ihnen, den Serviceaufträge
   
 Mit dem Servicepreismanagement können Sie verschiedene Servicepreisgruppen einrichten und dabei den Serviceartikel oder die Serviceartikelgruppe sowie den Problemcode der Serviceaufgabe berücksichtigen. Sie können diese Gruppen für begrenzte Zeiträume oder für bestimmte Kunden oder Währungen einrichten. Sie können Preiskalkulationsstrukturen als Vorlagen verwenden, um einer bestimmen Serviceaufgabe einen bestimten Preis zuzuordnen.  
   
-Damit können beispielsweise bestimmte Serviceartikel sowie der Arbeitstyp bei Servicepreisen berücksichtigt werden. Zudem können auch unterschiedliche MWST.- und Skontobeträge in den Servicepreisgruppen verwendet werden. Um sicherzustellen, dass der richtige Preis angewendet wird, können – je nach Vereinbarung mit dem Kunden – feste, minimale und maximale Preise zugewiesen werden.  
+Damit können beispielsweise bestimmte Serviceartikel sowie der Arbeitstyp bei Servicepreisen berücksichtigt werden. Zudem können auch unterschiedliche MWST.- und Rabattbeträge in den Servicepreisgruppen verwendet werden. Um sicherzustellen, dass der richtige Preis angewendet wird, können – je nach Vereinbarung mit dem Kunden – feste, minimale und maximale Preise zugewiesen werden.  
   
 Bevor die Servicepreiskorrektur für einen Serviceartikel in einem Serviceauftrag durchgeführt wird, wird eine Übersicht über das Ergebnis der Preiskorrektur angezeigt. Sie können diese Ergebnisse bestätigen oder weitere Änderungen vornehmen, wenn Sie ein anderes Ergebnis wünschen. Die gesamte Korrektur wird Zeile für Zeile vorgenommen, d. h. es werden keine zusätzlichen Zeilen hinzugefügt.  
   

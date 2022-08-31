@@ -28,7 +28,7 @@ Bei einem Kaufbeleg können Sie zwischen den folgenden Buchungsaktionen wählen:
 
 Wenn ein Einkaufsbeleg gebucht wird, werden das Kreditorenkonto, das Hauptbuch, die Einträge im Lagerposten und die Einträge im Ressourcenposten aktualisiert.
 
-Für jeden Einkaufsbeleg wird ein Einkaufseintrag in der Tabelle **Fibuposten** angelegt. Darüber hinaus wird ein Posten in der Tabelle **Kreditorenposten** erzeugt und ein Fibuposten im entsprechenden Einkaufskonto. Darüber hinaus kann die Buchung des Einkaufs zu einer Umsatzsteuerbuchung und einer Fibukontenbuchung für den Skontobetrag führen. Ob ein Posten für Skonto gebucht wird, hängt von den Einstellungen im Feld **Skontobuchung** auf der Seite **Kreditoren & Einkauf Einrichtung** ab.
+Für jeden Einkaufsbeleg wird ein Einkaufseintrag in der Tabelle **Fibuposten** angelegt. Darüber hinaus wird ein Posten in der Tabelle **Kreditorenposten** erzeugt und ein Fibuposten im entsprechenden Einkaufskonto. Darüber hinaus kann die Buchung des Einkaufs zu einer Umsatzsteuerbuchung und einer Fibukontenbuchung für den Rabattbetrag führen. Ob ein Posten für Rabatt gebucht wird, hängt von den Einstellungen im Feld **Rabattbuchung** auf der Seite **Kreditoren & Einkauf Einrichtung** ab.
 
 Für jede Einkaufszeile werden die folgenden Einträge erstellt:
 - Ein Eintrag in der Tabelle **Lagerposten**, wenn die Einkaufszeile vom Typ **Position** ist.

@@ -22,7 +22,7 @@ Bevor Sie Verkaufsprozesse verwalten können, müssen die Regeln und Werte konfi
 
 Auf der Seite **Verkauf & Forderungen** müssen Sie die allgemeine Einrichtung festlegen, z.B. welche Verkaufsbelege erforderlich sind, wie deren Werte gebucht werden und welche Art von Zeilen standardmässig erstellt werden sollen. Diese allgemeinen Einstellungen werden in der Regel einmalig bei der Erstimplementierung festgelegt.
 
-Eine separate Reihe von Aufgaben, die mit der Erfassung neuer Kreditoren im Zusammenhang stehen, dient dazu, alle Sonderpreis oder Skontovereinbarungen zu speichern, die Sie mit einzelnen Kreditoren haben. Weitere Informationen finden Sie unter [Sonderverkaufspreise und Skonti erfassen](sales-how-record-sales-price-discount-payment-agreements.md).
+Eine separate Reihe von Aufgaben, die mit der Erfassung neuer Kreditoren im Zusammenhang stehen, dient dazu, alle Sonderpreis oder Rabattvereinbarungen zu speichern, die Sie mit einzelnen Kreditoren haben. Weitere Informationen finden Sie unter [Sonderverkaufspreise und Rabatte erfassen](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Einrichten von finanzbezogenen Verkäufen wie Zahlungsformen und Währungen werden im Finanzsetupabschnitt behandelt. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
 
@@ -30,7 +30,7 @@ Einrichten von finanzbezogenen Verkäufen wie Zahlungsformen und Währungen werd
 | --- | --- |
 | Erstellen Sie eine Debitorenkarte für jeden Debitor, an den Sie verkaufen. |[Neue Debitoren registrieren](sales-how-register-new-customers.md) |
 | Aktivieren Sie Debitoren, um über PayPal zu bezahlen, indem Sie das PayPal-Logo in Verkaufsbelegen auswählen. |[Aktivieren von Debitoren-Zahlungen durch PayPal](sales-how-enable-payment-service-extensions.md) |
-| Geben Sie die verschiedenen Skonti und alternativen Preise ein, die Sie den Debitoren abhängig von Artikel, Mengen und/oder Datum gewähren. |[Erfassen von Verkaufspreisen, Skonti und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md) |
+| Geben Sie die verschiedenen Rabatte und alternativen Preise ein, die Sie den Debitoren abhängig von Artikel, Mengen und/oder Datum gewähren. |[Erfassen von Verkaufspreisen, Rabatte und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md) |
 | Einrichten von Verkäufer, sodass Sie diese den Debitorenkontakten zuweisen können oder die Leistung des Verkaufspersonals messen können und als Basis für die Berechnung von Verkaufsprovisionen oder der Prämie zuweisen können. |[Verkäufer einrichten](sales-how-setup-salespeople.md) |
 | Geben Sie für einzelne Debitoren oder für alle Debitoren an, wie Verkaufsbelege standardmässig gesendet werden, wenn Sie die Aktion **Buchen und senden** auswählen. |[Belegsendeprofile einrichten](sales-how-setup-document-send-profiles.md) |
 | Legen Sie die E-Mail a, um eine Zusammenfassung der Informationen des Verkaufsbelegs zu erhalten, der gesendet wird. |[Senden von Belegen über E-Mail](ui-how-send-documents-email.md). |

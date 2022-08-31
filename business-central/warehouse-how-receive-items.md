@@ -87,7 +87,7 @@ Wenn Sie keine Einlagerungen verwenden, jedoch Lagerplätze, wird die Einlagerun
 
 ## <a name="to-receive-more-items-than-ordered"></a>Um mehr Artikel als bestellt zu erhalten
 
-Wenn Sie mehr Waren erhalten, als Sie bestellt haben, möchten Sie diese möglicherweise erhalten, anstatt den Beleg zu stornieren. Beispielsweise kann es billiger sein, den Überschuss Ihres Inventars zu behalten, als ihn zurückzugeben, oder Ihr Verkäufer bietet Ihnen möglicherweise einen Skonto für die Aufbewahrung an.
+Wenn Sie mehr Waren erhalten, als Sie bestellt haben, möchten Sie diese möglicherweise erhalten, anstatt den Beleg zu stornieren. Beispielsweise kann es billiger sein, den Überschuss Ihres Inventars zu behalten, als ihn zurückzugeben, oder Ihr Verkäufer bietet Ihnen möglicherweise einen Rabatt für die Aufbewahrung an.
 
 ### <a name="to-set-up-over-receipts"></a>So richten Sie Übereingänge ein
 

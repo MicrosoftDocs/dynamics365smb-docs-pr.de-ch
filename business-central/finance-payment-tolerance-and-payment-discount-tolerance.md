@@ -22,7 +22,7 @@ Sie können eine Zahlungstoleranz einrichten, um eine Rechnung zu schliessen, we
 
 Sie können Zahlungstoleranzen verwenden, sodass für jeden Restauftragsbetrag eine festgelegte maximale Zahlungstoleranz definiert wird. Wenn die Zahlungstoleranz erfüllt wird, dann wird der Zahlungsbetrag analysiert. Wenn der Zahlungsbetrag eine Unterzahlung ist, wird der ausstehende Betrag durch die Unterzahlung vollständig geschlossen. Für den Zahlungsposten wird ein detaillierter Debitorenposten gebucht, sodass in dem ausgeglichenen Rechnungsposten kein Restbetrag offen bleibt. Wenn der Zahlungsbetrag eine Überzahlung ist, wird für den Zahlungsposten wird ein neuer detaillierter Debitorenposten gebucht, sodass in dem Zahlungsposten kein Restbetrag offen bleibt.
 
-Sie können Skototoleranzen verwenden, sodass bei Gewährung eines Skontos nach Ablauf des Skontodatums dieses immer entweder auf das Skontokonto oder das Zahlungstoleranzkonto gebucht wird.
+Sie können Skontotoleranzen verwenden, sodass bei Gewährung eines Skontos nach Ablauf des Skontodatums dieses immer entweder auf das Skontokonto oder das Zahlungstoleranzkonto gebucht wird.
 
 ## <a name="applying-payment-tolerance-to-multiple-documents"></a>Anwenden der Zahlungstoleranz auf mehrere Belege
 
@@ -34,7 +34,7 @@ Diese Regel gilt auch, um zu ermitteln, ob Warnungen angezeigt werden, wenn Sie 
 
 Sie können eine Warnung anzeigen, die auf verschiedenen Toleranzsituationen basiert.  
 
-- Der erste Warnungstext bezieht sich auf die Skontotoleranz. Sie werden darüber informiert, dass Sie einen verspäteten Skonto akzeptieren können. Sie können auswählen, ob Toleranz für das Skontodatum akzeptiert werden soll.  
+- Der erste Warnungstext bezieht sich auf die Skontotoleranz. Sie werden darüber informiert, dass Sie einen verspäteten Skonto akzeptieren können. Sie können auswählen, ob Toleranz für das Rabattdatum akzeptiert werden soll.  
 - Der zweite Warnungstext bezieht sich auf die Zahlungstoleranz. Sie werden darüber informiert, dass alle Posten geschlossen werden können, da die Differenz innerhalb der maximalen Zahlungstoleranz der ausgeglichenen Posten liegt. Sie können auswählen, ob Toleranz für die Zahlungssumme akzeptiert werden soll.
 
 > [!NOTE]
@@ -76,7 +76,7 @@ Die Zahlungstoleranzwarnung erscheint, wenn Sie einen Ausgleich mit einem Saldo 
 2. Aktivieren Sie auf der Seite **Fibuposten einrichten** im Inforegister **Anwendung** den Schalter **Zahlungstoleranzwarnung**, um die Warnung zu aktivieren. Deaktivieren Sie den Schalter, um die Warnung zu deaktivieren.  
 
 > [!NOTE]  
->  Die Standardoption der Seite **Zahlungstoleranzwarnung** ist **Restbetrag offen lassen**. Die Standardoption der Seite **Skontotoleranzwarnung** ist **Überzogenes Skonto nicht akzeptieren**.
+>  Die Standardoption der Seite **Zahlungstoleranzwarnung** ist **Restbetrag offen lassen**. Die Standardoption der Seite **Skontotoleranzwarnung** ist **Überzogenen Skonto nicht akzeptieren**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Zahlungstoleranz für Debitoren sperren:
 

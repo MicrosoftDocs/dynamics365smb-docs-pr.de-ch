@@ -21,7 +21,7 @@ Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anw
   
 * Einige allgemeine Einstellungen für mehrere Vorgänge, wie Warnungen, Berechnung des nächsten Service für Serviceartikel, die zu ermittelnde Grundgebühr, die zu verwendende Ebene des Problemberichtswesens und so weiter.  
 * Die Art der Informationen, die ein Techniker in Servicebelegen eingeben muss. Beispielsweise können Sie fordern, dass die Art des Auftrags, das Anfangs- und/oder Enddatum der Arbeit und die Art der erledigten Arbeit angegeben werden müssen  
-* Einige Standardeinstellungen für Reaktionszeiten und Garantien. Diese schliessen eine Standardreaktionszeit für das Startdatum des Serviceauftrags, GarantieSkontoprozentsätze für Teile und Arbeit ein und wie lange Garantien gültig sind.  
+* Einige Standardeinstellungen für Reaktionszeiten und Garantien. Diese schliessen eine Standardreaktionszeit für das Startdatum des Serviceauftrags, Garantierabattprozentsätze für Teile und Arbeit ein und wie lange Garantien gültig sind.  
 * Einstellungen für Verträge, wie die maximale Anzahl der Tage, die Sie für Vertragsserviceaufträge verwenden können, ob Ursachencodes verwendet werden, wenn ein Vertrag gekündigt wird, Standardtexte für Vertragsbeschreibungen und Vertragswerte.  
 * Die Anzahl der zu verwendenden Reihenfolgen bei dienstbezogenen Belegen und Artikeln.  
 

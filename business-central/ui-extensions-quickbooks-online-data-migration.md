@@ -62,7 +62,7 @@ Nachdem Sie Daten migriert haben, haben die Transaktionen den Status **Nicht geb
 
 Es gibt mehrere Dinge, die Sie durchführen sollten:
 
-* Wenn die Transaktionen in QuickBooks Online Aufschläge oder Skontobeträge aufweisen, müssen Sie die Beträge manuell zu den verwandten Transaktionen in [!INCLUDE[prod_short](includes/prod_short.md)] hinzufügen, bevor Sie diese buchen.
+* Wenn die Transaktionen in QuickBooks online Markup oder Rabattbeträge aufweisen, müssen Sie die Beträge zu den verwandten Transaktionen manuell hinzufügen, [!INCLUDE[prod_short](includes/prod_short.md)] bevor Sie diese buchen.
 * Wenn Sie MWST verwenden, können Sie eine Geschäftsbuchungsgruppe und eine Produktbuchungsgruppe "Buchungsmatrix Einrichtung" hinzufügen, sodass Sie MWST-Beträge buchen können.
 * Prüfen Sie die Startkapitale für Konten im Fibuposten. QuickBooks Online speichert nicht den aktuellen Saldo für alle Konten, daher müssen Sie möglicherweise Startkapitale korrigieren.
 

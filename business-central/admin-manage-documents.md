@@ -59,7 +59,7 @@ Wenn Sie Kriterien für die Komprimierung definieren, können Sie die Optionen u
 > [!NOTE]
 > Bevor Sie die Datenkomprimierung ausführen können, müssen Ihre Analyseansichten auf dem neuesten Stand sein. Weitere Informationen finden Sie unter [So aktualisieren Sie eine Analyseansicht](bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
 
-Nach der Komprimierung werden die Inhalte der folgenden Felder in jedem Fall beibehalten: **Buchungsdatum**, **Kreditorennr.**, **Belegart**, **Währungscode**, **Buchungsgruppe**, **Betrag**, **Restbetrag**, **Ursprungsbetrag (MW)**, **Restbetrag (MW)**, **Betrag (MW)**, **Einkauf (MW)**, **RechnungsSkonto (MW)**, **Skonto gewährt (MW)** und **Skonto möglich**.
+Nach der Komprimierung werden die Inhalte der folgenden Felder in jedem Fall beibehalten: **Buchungsdatum**, **Kreditorennr.**, **Belegart**, **Währungscode**, **Buchungsgruppe**, **Betrag**, **Restbetrag**, **Ursprungsbetrag (MW)**, **Restbetrag (MW)**, **Betrag (MW)**, **Einkauf (MW)**, **Rechnungsrabatt (MW)**, **Rabatt gewährt (MW)** und **Rabatt möglich**.
 
 ## <a name="posting-compressed-entries"></a>Veröffentlichen komprimierter Einträge
 Komprimierte Einträge werden etwas anders gebucht als Standardbuchungen. Dies dient dazu, die Anzahl der durch die Datumskomprimierung erstellten neuen Fibuposten zu verringern. Dies ist besonders wichtig, wenn Sie Informationen wie Dimensionen und Belegnummern aufbewahren. Durch die Datumskomprimierung werden neue Einträge wie folgt erstellt:

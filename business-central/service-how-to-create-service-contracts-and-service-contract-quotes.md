@@ -85,7 +85,7 @@ Wenn ein Debitor einen neuen Artikel kauft und diesen in einem bestehenden Servi
 3. Wählen Sie die Aktionen **Vertrag öffnen** aus, um den Servicevertrag oder die Servicevertragsofferte zwecks Bearbeitung zu öffnen.  
 4. Aktivieren Sie im Inforegister **Rechnungsdetails** das Feld **Nicht ausgegl. Betr. zulassen**, wenn Sie den jährlichen Betrag ändern und die Differenz des Feldes "Zu fakturieren (Jahr)" in den Vertragszeilen manuell weitergeben möchten. Ansonsten setzen Sie kein Häkchen in das Feld **Nicht ausgegl. Betr. zulassen**. Dies verteilt die Differenz des Feldes "Zu fakturieren (Jahr)" automatisch auf die Vertragszeilen, wenn Sie den jährlichen Betrag geändert haben.  
 5. Fügen Sie dem Inforegister **Zeilen** in jede Vertragszeile einen Serviceartikel, einen Artikel oder eine Textbeschreibung hinzu. Alternativ können Sie Vertragsoffertenzeilen hinzufügen. Beachten Sie, dass Sie pro Serviceartikel mehrere Verträge erzeugen können, um ihn gleichzeitig bei verschiedenen Serviceverträgen oder Vertragsofferten einzuschliessen.  
-6. Prüfen und – falls notwendig – korrigieren Sie die Zahlen in den Feldern **ZeilenSkonto %**, **ZeilenSkontobetrag**, **Reaktionszeit**, **Serviceintervall** und anderen Feldern.
+6. Prüfen und – falls notwendig – korrigieren Sie die Zahlen in den Feldern **Zeilenrabatt %**, **Zeilenrabattbetrag**, **Reaktionszeit**, **Serviceintervall** und anderen Feldern.
 
 ## <a name="to-remove-contract-lines"></a>So entfernen Sie Vertragszeilen  
 Möglicherweise müssen Sie Vertragszeilen aus dem Servicevertrag entfernen, wenn Sie entsprechende Serviceartikel aus dem Servicevertrag entfernen. In der Regel entfernen Sie Vertragszeilen, die abgelaufen sind oder zu einem eingestellten Serviceartikel gehören.  
@@ -118,13 +118,13 @@ In Servicevertragszeilen werden die Beträge in den Feldern **Zeileneinstandspre
 |**Artikel** | Abhängig vom Wert im Feld **Vertragswertberechnungsmethode** in der Tabelle **Service Einrichtung** wird der Betrag entweder aus dem Feld **VK-Preis** oder **Einstandspreis** der Tabelle **Artikel"** übernommen. Danach wird der Wert mit dem Inhalt des Felds **Vertragswert %** in der Tabelle **Service Einrichtung** multipliziert und durch 100 dividiert. Dieser Betrag wird in das Feld Zeilenwert kopiert. Dieser Betrag wird in das Feld **Zeilenwert** kopiert.<br /><br /> **HINWEIS:** Wenn das Feld **Vertragswertberechnungsmethode** auf **Keine** gesetzt ist, dann wird der Inhalt des Felds **Zeilenwert** nicht berechnet.|  
 |**Textbeschreibung** | Der Inhalt des Felds **Zeilenwert** wird auf Null gesetzt.|  
 
-## <a name="to-add-a-contract-discount-to-service-contract-quotes"></a>So fügen Sie einen VertragsSkonto für Servicevertragsofferten hinzu  
+## <a name="to-add-a-contract-discount-to-service-contract-quotes"></a>So fügen Sie einen Vertragsrabatt für Servicevertragsofferten hinzu  
 Sie können Vertragsrabatte für Services auf Vertragsangeboten und Serviceverträgen hinzufügen. Die Rabatte können auf Ersatzteile in bestimmten Serviceartikelgruppen, auf Arbeitsstunden von Ressourcen in bestimmten Ressourcengruppen und auf bestimmte Servicekosten gewährt werden.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **ServiceVertragsofferten** ein und wählen Sie den zugehörigen Link.  
 2. Wählen Sie die Offerte aus, der Rabatte hinzuzufügt werden sollen.  
 3. Wählen Sie die **Servicerabatte** Aktion aus. Die Seite **Vertrags-/Servicerabatte** wird geöffnet.  
-4. Wählen Sie die **Neu** Aktion aus, um einen neuen Skontovertrag zu erstellen.  
+4. Wählen Sie die **Neu** Aktion aus, um einen neuen Rabattvertrag zu erstellen.  
 5. Füllen Sie die Felder in der Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 
 > [!Tip]  
