@@ -10,12 +10,12 @@ ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 460, 9307
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dd86d4615abfb510ada19c3ec7e0f2c6ac6cb557
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c24e8c4550c03965524626daf291f6496e92bde0
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077151"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528237"
 ---
 # <a name="purchasing"></a>Einkauf
 
@@ -49,7 +49,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch 
 

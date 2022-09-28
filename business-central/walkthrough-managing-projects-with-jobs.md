@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6f46b07a33e49830944b1bdea9b13f241a7b2332
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ead206330c3acb11322396cd6bec5e00af646da4
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076761"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530366"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Exemplarische Vorgehensweise: Verwalten von Projekten
 
@@ -394,7 +394,7 @@ In den folgenden Verfahren wird gezeigt, wie Sie ein neues Projekt erstellen, di
 1. Erstellen Sie ein neues Projekt.  
 2. Geben Sie auf der neuen Karte **Projekt** die folgenden Informationen ein:  
 
-    - **Beschreibung**: **Neugestaltung des Empfangsbereichs**  
+    - **Beschreibung**: **Neugestaltung der Empfangsregion**  
     - **Rech. an Deb.-Nr.**: **30000**  
     - **Projektbuchungsgruppe**: **Einrichten**  
     - **WIP-Methode**: **Einstandswert**  
@@ -460,7 +460,7 @@ In den folgenden Verfahren wird gezeigt, wie Sie ein neues Projekt erstellen, di
 
  In dieser exemplarischen Vorgehensweise wurden Sie durch mehrere der grundlegenden Schritte für die Arbeit mit Projekten in [!INCLUDE[prod_short](includes/prod_short.md)] geführt. Sie haben gelernt, wie ein neues Projekt erstellt, ein Projekt kopiert und Zahlungen verarbeitet werden. Sie haben auch eine Demonstration gesehen, wie Stunden verfolgt und Rechnungen erstellt werden.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/create-jobs/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/create-jobs/)
 
 ## <a name="see-also"></a>Siehe auch 
 

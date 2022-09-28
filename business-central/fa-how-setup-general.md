@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8053112fb80c2d90725103bccc6cd335ad825dc0
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 4f56c74eb3fd9bf80381171e304700c90caaee8b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074966"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533685"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Allgemeine Anlagen-Informationen einrichten
 
@@ -107,7 +107,7 @@ Verwenden Sie diese Anlagenstandortcodes, um den Standort von Anlagen zu erfasse
 
 ## <a name="to-register-opening-entries"></a>So erfassen Sie Eröffnungsposten
 
-Falls Sie die Anlagen in [!INCLUDE[prod_short](includes/prod_short.md)] zum ersten Mal verwenden, müssen Sie zuerst den Anwendungsbereich "Fibuposten", bevor Sie Anlagen einrichten können. Wie dies erfolgt, hängt davon ab, ob Anlagen in die Fibuposten integriert sind.  
+Falls Sie die Anlagen in [!INCLUDE[prod_short](includes/prod_short.md)] zum ersten Mal verwenden, müssen Sie zuerst die Anwendungsregion «Fibuposten», bevor Sie Anlagen einrichten können. Wie dies erfolgt, hängt davon ab, ob Anlagen in die Fibuposten integriert sind.  
 
  Die folgende Vorgehensweise wird verwendet, wenn Anlagentransaktionen in die Fibu gebucht werden.  
 
@@ -129,7 +129,7 @@ Falls Sie die Anlagen in [!INCLUDE[prod_short](includes/prod_short.md)] zum erst
 
 Falls die Anlagen nicht in die Fibu integriert sind, können Sie die Schritte 6 und 8 übergehen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also"></a>Siehe auch 
 

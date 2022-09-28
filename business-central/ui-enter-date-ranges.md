@@ -10,12 +10,12 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: ba8dc155f3f25aa69907a729b1e235606a5268f9
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: d3e060d5a6d3632dcade331cef7f2c9f0ecb4027
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076813"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534765"
 ---
 # <a name="work-with-calendar-dates-and-times"></a>Mit Datumsangaben und Uhrzeiten in Kalendern arbeiten
 
@@ -350,7 +350,7 @@ Geben Sie eine Zahl ein, um ermitteln, welche Einheit in einem Dauerfeld verwend
 
 Wenn die Einheit beispielsweise Stunden ist, wird die Zahl 5 in 5 Std. konvertiert.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch 
 

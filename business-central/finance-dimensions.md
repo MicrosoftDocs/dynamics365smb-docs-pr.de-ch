@@ -10,12 +10,12 @@ ms.search.keywords: analysis, history, track, business intelligence
 ms.search.form: 408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e5579df4d63a4f800118ca320d60a984f203022b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f6e20f7886c30d15f3984062febc1dc81a48a95c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517590"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533336"
 ---
 # <a name="work-with-dimensions"></a>Arbeiten mit Dimensionen
 Dimensionen sind Attribute und Werte, die Posten kategorisieren, sodass Sie sie auf Belegen wie Verkaufsaufträgen verfolgen und analysieren können. Dimensionen können beispielsweise angegeben, aus welchem Projekt oder aus welcher Abteilung ein Posten stammt.  
@@ -48,7 +48,7 @@ Wenn Sie eine neue Erf.-Journalzeile, einen Belegkopf oder eine Belegzeile erste
 
 ## <a name="setting-up-dimensions"></a>Einrichtung von Dimensionen
 
-Sie können die Dimensionen und die Dimensionswerte, die Sie verwenden möchten, definieren, um Buch.-Blätter und Belege zu kategorisieren, wie Verkaufsaufträge und Bestellungen einrichten. Sie errichten Dimensionen auf der Seite **Dimensionen**, wo Sie eine Zeile für jede Dimension erstellen, wie *Projekt*, *Abteilung*, *Bereich* und *Verkäufer*.
+Sie können die Dimensionen und die Dimensionswerte, die Sie verwenden möchten, definieren, um Buch.-Blätter und Belege zu kategorisieren, wie Verkaufsaufträge und Bestellungen einrichten. Sie errichten Dimensionen auf der Seite **Dimensionen**, wo Sie eine Zeile für jede Dimension erstellen, wie *Projekt*, *Abteilung*, *Region* und *Verkäufer*.
 
 Sie erstellen auch Einrichtungswerte für Dimensionen. Beispielsweise könnten Werte Abteilungen Ihres Unternehmens darstellen. Dimensionswerte können in einer hierarchischen Struktur eingerichtet werden, die der Struktur des Kontenplans gleicht, sodass die Daten in unterschiedlichen Granularitätsstufen aufgeschlüsselt und Untergruppen von Dimensionswerten summiert werden können. Sie können beliebig viele Dimensionen und Dimensionswerte in Ihrem Mandanten definieren und Sie können eine unbegrenzte Anzahl von Dimensionswerten für jede Dimension festlegen.
 
@@ -152,20 +152,20 @@ Wenn Sie eine globale oder Shortcutdimension ändern, werden alle mit der betref
 
 Nehmen wir an, dass Ihr Unternehmen Transaktionen auf Grundlage der Organisationsstruktur und der geografische Lagen verfolgen möchte. Sie können zwei Dimensionen auf der Seite **Dimensionen** einrichten.
 
-* **BEREICH**  
+* **Region**  
 * **ABTEILUNG**  
 
 | Code | Name | Code Caption | Filter Caption |
 | --- | --- | --- | --- |
-| BEREICH |Ursprungs- / Bestimmungsregion |Gebietscode |Filter "Bereich" |
+| Region |Ursprungs- / Bestimmungsregion |Gebietscode |Filter «Region» |
 | ABTEILUNG |Abteilung |Abteilungscode |Kostenstellenfilter |
 
-Für **BEREICH** fügen Sie die folgenden Dimensionswerte hinzu:
+Für **Region** fügen Sie die folgenden Dimensionswerte hinzu:
 
 | Code | Name | Dimensionswertart |
 | --- | --- | --- |
 | 10 |Amerika |Von-Summe |
-| 20 |Nordamerika |Standard |
+| 2.0 |Nordamerika |Standard |
 | 30 |Pazifik |Standard |
 | 40 |Südamerika |Standard |
 | 50 |Amerika, gesamt |Bis-Summe |
@@ -222,7 +222,7 @@ Auf einer Postenseite können Sie sehen, ob für Posten globale Dimensionen vorh
 > [!NOTE]  
 > Die Seite **Postendimensionen** zeigt die Dimensionen für jeweils einen Posten. Wenn Sie sich durch die Posten bewegen, verändert sich der Inhalt der Seite **Postendimensionen** dementsprechend.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 

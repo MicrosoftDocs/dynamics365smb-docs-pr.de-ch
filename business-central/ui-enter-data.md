@@ -10,12 +10,12 @@ ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 398c32043297e6900754da535f01a3fb5059c204
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ecf23184faea42895973d11115904606d715d31a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076839"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528634"
 ---
 # <a name="entering-data"></a>Eingeben von Daten
 
@@ -133,7 +133,7 @@ Die Filterung ist besonders dann hilfreich, wenn längere Belege angezeigt und a
 
 ## <a name="focusing-on-line-items"></a><a name="Focus"></a>Fokussieren auf Positionsartikel
 
-Wenn Sie an Belegen arbeiten, die einen Positionsartikelteil enthalten, können Sie die Ansicht so ändern, dass der Fokus nur auf die Positionsartikel gelegt wird. Beispielbelege sind Verkaufsauftrags- oder Rechnungsseite. Der Positionsartikelteil wird erweitert, sodass er fast den gesamten Arbeitsbereich einnimmt. Es verdeckt andere Teile der Seite, mit Ausnahme des Aktionsbereichs am oberen Rand. Dieses Layout ermöglicht Ihnen einen besseren Überblick über die Positionsartikel und bietet mehr Platz, um daran zu arbeiten.
+Wenn Sie an Belegen arbeiten, die einen Positionsartikelteil enthalten, können Sie die Ansicht so ändern, dass der Fokus nur auf die Positionsartikel gelegt wird. Beispielbelege sind Verkaufsauftrags- oder Rechnungsseite. Der Positionsartikelteil wird erweitert, sodass er fast den gesamten Arbeitsbereich einnimmt. Es verdeckt andere Teile der Seite, mit Ausnahme der Aktionsregion am oberen Rand. Dieses Layout ermöglicht Ihnen einen besseren Überblick über die Positionsartikel und bietet mehr Platz, um daran zu arbeiten.
 
 Dies ist besonders hilfreich, wenn Sie mit grossen Positionsartikellisten arbeiten und Daten schnell eingeben möchten. Diese Funktion bietet auch erweiterte Filterfunktionen. Wie bei anderen Listen wird das Durchsuchen von Positionsartikeln noch einfacher.
 
@@ -282,7 +282,7 @@ Nehmen wir zum Beispiel an, Sie verwenden eine numerische Tastatur, die einen Pu
 > [!TIP]
 > Es kann vorkommen, dass Sie das Dezimaltrennzeichen verwenden möchten, um einen Punkt (.) einzugeben. Angenommen, Sie geben einen Datumsbereich in einen Filter ein, z. B. `01/01/2022..04/01/2022` oder irgendetwas, das einen Punkt erfordert. Um diesen Fall zu berücksichtigen, drücken Sie die Tasten „Alt+Dezimaltrennzeichen“ auf der numerischen Tastatur. Diese Tastenkombination schaltet das Dezimaltrennzeichen zwischen der Ausgabe eines Punktes und dem durch die **Region**-Einstellung festgelegten Dezimaltrennzeichen um.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch 
 

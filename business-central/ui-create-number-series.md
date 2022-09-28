@@ -10,12 +10,12 @@ ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: cef011656fcd705a598d54719d4f7328debb8cea
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 980159c84e139b5adde024d7c6b1ff832eb79923
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077490"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528640"
 ---
 # <a name="create-number-series"></a>Erstellen von Nummernkreisen
 
@@ -91,14 +91,14 @@ Wenn Sie jetzt etwas einrichten, was eine Nummer benötigt, können Sie die von 
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Einrichten, ob eine Nummernserie verwendet wird
 
-Der folgende Ablauf zeigt, wie Nummernserien für den Verkaufsbereich eingerichtet werden. Die Schritte sind gleich wie bei anderen Bereichen.  
+Der folgende Ablauf zeigt, wie Nummernserien für die Verkaufsregion eingerichtet werden. Die Schritte sind gleich wie bei anderen Bereichen.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Verkäufe & Debitoren** ein und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Debitoren & Verkauf** im Inforegister **Nummernserie**, wählen Sie die gewünschte Serie für jede Verkaufs- Karte oder jeden Beleg aus.
 
 Die ausgewählten Anzahl wird nun verwendet, um **Nr.** auszufüllen Feld auf der fraglichen Karte oder auf dem fraglichen Beleg entsprechend den Einstellungen, die Sie in der Nummernserie erstellt haben,   
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch 
 

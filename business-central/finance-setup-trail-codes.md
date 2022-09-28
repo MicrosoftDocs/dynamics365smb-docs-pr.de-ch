@@ -10,12 +10,12 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 257, 259, 279
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08545d1bb23b8a70d10c6114f4840ce186aa94cc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ab140d214c25735bf8158a2255f8f35ba246442c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515577"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535170"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Buchungsspurcodes und Ursachencodes für Audit Trails einrichten
 
@@ -27,7 +27,7 @@ Verwenden Sie als Buchungsspurcodes und Ursachencodes aussagekräftige Codes, an
 
 Gelegentlich möchten Sie nachvollziehen, wie ein bestimmter Posten entstanden ist, ob er z. B. beim Buchen eines Erf.-Journales oder einer Einkaufsrechnung erzeugt wurde. Ein Buchungsspurcode gibt an, wo ein Posten erstellt wurde. Posten werden erstellt, wenn Erfassungsjournale und Rechnungen gebucht und bestimmte Stapelverarbeitungen ausgeführt werden. Jede Buchungsart hat einen bestimmten Buchungsspurcode, der zugewiesen wird, wenn Posten erstellt werden.  
 
-Beim Buchen von Erfassungsjournalen, Aufträgen, Rechnungen oder Gutschriften sowie beim Ausführen bestimmter Stapelverarbeitungen werden Posten in den Finanzaufstellungen erstellt. Die Seite **Buchungsspurcode Einrichtung** enthält für jeden Anwendungsbereich mehrere Inforegister. Jedes Inforegister enthält die Buchungsspurcodes, die für diesen Anwendungsbereich anwendbar sind.
+Beim Buchen von Erfassungsjournalen, Aufträgen, Rechnungen oder Gutschriften sowie beim Ausführen bestimmter Stapelverarbeitungen werden Posten in den Finanzaufstellungen erstellt. Die Seite **Buchungsspurcode Einrichtung** enthält für jede Anwendungsregion mehrere Inforegister. Jedes Inforegister enthält die Buchungsspurcodes, die für diese Anwendungsregion anwendbar sind.
 
 Beim Buchen oder Ausführen einer Stapelverarbeitung wird dem Posten automatisch der richtige Buchungsspurcode zugeordnet. Wenn Sie z. B. von einem Fibu Erf.-Journal aus buchen, erhält der Posten den Code *FIBUBUCHBL*. Sie können dann die Seite **Fibuposten** filtern, um anzuzeigen, welche Einträge beispielsweise aus dem Fibu Erf.-Journal oder aus Verkaufsbelegen gebucht wurden.
 
@@ -85,9 +85,9 @@ Der ausgewählte Ursachencode wird in neue Erf.-Journale eingefügt, die unter d
 
 Wenn die Rechnung gebucht wird, wird der Ursachencode in jeden Sach-, Debitor- und Kreditorposten kopiert. Sie können einzelnen Einkaufs- oder Verkaufszeilen nicht unterschiedliche Ursachencodes zuordnen, da alle Zeilen als ein Posten gebucht werden.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Finanzen](finance.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: item, finished good, component, raw material, assembly item,
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 893efecd282352ac44d10e15983a8f0f3923b224
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7af83072b6b20ba9b56c06c0fb7321707a425776
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075461"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532931"
 ---
 # <a name="register-new-items"></a>Neue Artikel registrieren
 
@@ -113,11 +113,11 @@ Wenn Ihre Organisation später die Lagerverwaltung einrichtet, müssen Sie in de
 
 ## <a name="planning"></a>Planung
 
-Wenn Ihre Firma die Prozesse der Lieferplanung in [!INCLUDE [prod_short](includes/prod_short.md)] verwendet, müssen Sie die entsprechenden Felder auf dem Inforegister **Planung** ausfüllen. Eine Einführung in den Planungsbereich finden Sie unter [Details zur Planung: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md).  
+Wenn Ihre Firma die Prozesse der Lieferplanung in [!INCLUDE [prod_short](includes/prod_short.md)] verwendet, müssen Sie die entsprechenden Felder auf dem Inforegister **Planung** ausfüllen. Eine Einführung in die Planungsregion finden Sie unter [Details zur Planung: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md).  
 
 Beispiele für die Verwendung der Felder auf der Inforegisterkarte **Planung** finden Sie unter [Bewährte Verfahren für die Einrichtung: Planungsparameter](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-items/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-items/)
 
 ## <a name="see-also"></a>Siehe auch 
 

@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: e501f61f61aec9d9ffc4acd9607ee6b9cf22e74f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 5ea475ca6f01cc953d4feb8ea1b4135d384b8ec0
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074914"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528265"
 ---
 # <a name="set-up-currencies"></a>Einrichten von Währungen
 
@@ -53,8 +53,8 @@ In der folgenden Tabelle werden die Felder in der **Währungen**-Liste beschrieb
 |**Währungsfaktor**|Legt die Beziehung zwischen der Berichtswährung und der Mandantenwährung mit dem tatsächlichen Währungskurs fest.|
 |**Sachkto. Kursgewinn real. Kto.**|Gibt das Fibukonto an, mit dem Wechselkursgewinne für Wechselkursregulierungen zwischen der Mandantenwährung (MW) und der Berichtswährung gebucht werden sollen. Die Wechselkursgewinne werden berechnet, wenn die Stapelverarbeitung „Wechselkurse regulieren“ ausgeführt wird, um Fibukonten zu regulieren. Dieses Feld ist möglicherweise standardmässig nicht sichtbar. Sie kann durch Personalisierung der Seite abgerufen werden.|
 |**Sachkto. Kursverlust real. Kto**|Gibt das Fibukonto an, mit dem Wechselkursverluste für Wechselkursregulierungen zwischen der Mandantenwährung (MW) und der Berichtswährung gebucht werden sollen. Die Wechselkursgewinne werden berechnet, wenn die Stapelverarbeitung „Wechselkurse regulieren“ ausgeführt wird, um Fibukonten zu regulieren. Dieses Feld ist möglicherweise standardmässig nicht sichtbar. Sie kann durch Personalisierung der Seite abgerufen werden.|
-|**Rundungsgewinn Konto**|Gibt das Fibukonto an, mit dem Rundungsgewinne (Rundungsdifferenzen) gebucht werden, wenn eine Berichtswährung im Finanzbuchhaltungsbereich verwendet wird. Dieses Feld ist möglicherweise standardmässig nicht sichtbar. Sie kann durch Personalisierung der Seite abgerufen werden.|
-|**Rundungsverlust Konto**|Gibt das Fibukonto an, mit dem Rundungsverluste (Rundungsdifferenzen) gebucht werden, wenn eine Berichtswährung im Finanzbuchhaltungsbereich verwendet wird. Dieses Feld ist möglicherweise standardmässig nicht sichtbar. Sie kann durch Personalisierung der Seite abgerufen werden.|
+|**Rundungsgewinn Konto**|Gibt das Fibukonto an, mit dem Rundungsgewinne (Rundungsdifferenzen) gebucht werden, wenn eine Berichtswährung in der Finanzbuchhaltungsregion verwendet wird. Dieses Feld ist möglicherweise standardmässig nicht sichtbar. Sie kann durch Personalisierung der Seite abgerufen werden.|
+|**Rundungsverlust Konto**|Gibt das Fibukonto an, mit dem Rundungsverluste (Rundungsdifferenzen) gebucht werden, wenn eine Berichtswährung in der Finanzbuchhaltungsregion verwendet wird. Dieses Feld ist möglicherweise standardmässig nicht sichtbar. Sie kann durch Personalisierung der Seite abgerufen werden.|
 |**Max. MWST-Differenz zulässig**|Der Höchstbetrag für MWST-Differenzen in dieser Währung. Weitere Informationen finden Sie unter [MWST-Beträge in Verkaufs- und Einkaufsbelegen manuell korrigieren](finance-work-with-vat.md#correcting-vat-amounts-manually-in-sales-and-purchase-documents). Dieses Feld ist möglicherweise standardmässig nicht sichtbar. Sie kann durch Personalisierung der Seite abgerufen werden.|
 |**MWST-Rundungsmethode**|Gibt die Rundungsmethode für die manuelle Korrektur von MWST-Beträgen in Verkaufs- und Einkaufsbelegen an. Dieses Feld ist möglicherweise standardmässig nicht sichtbar. Sie kann durch Personalisierung der Seite abgerufen werden.|
 
@@ -117,7 +117,7 @@ Sie können einen Währungscode in eine Fibu Erf.-Journalzeile eingeben und die 
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/currencies-exchange-rates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch 
 

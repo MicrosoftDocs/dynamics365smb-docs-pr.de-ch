@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 276e80b622bc0dceb5280e7a4a95e7583ac89a8e
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 65959b62d89bcbca8c80071c55579339ffc8448a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129710"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533832"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows
 
@@ -110,7 +110,7 @@ Beachten Sie, dass sich der Wert im Feld **Status** zu **Genehmigung ausstehend*
 ### <a name="to-approve-the-purchase-order-as-sean"></a>So genehmigen Sie die Einkaufsbestellung als Stephan
 
 1. Melden Sie sich als Sean an.
-2. Wählen Sie im Rollencenter im Bereich **Self Service** die Option **Anfragen zur Genehmigung**.
+2. Wählen Sie im Rollencenter in der Region **Self Service** die Option **Anfragen zur Genehmigung**.
 3. Markieren Sie auf der Seite **Anfragen zur Genehmigung** die Zeile über die Bestellung von Alicia und wählen Sie dann die Aktion **Genehmigen**.  
 
 Der Wert im Feld **Status** auf der Einkaufsbestellung von Alicia ändert sich zu **Freigegeben**.  
@@ -123,7 +123,7 @@ Sie definieren Workflowsvariationen, indem Sie die Felder in den Workflowzeilen 
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also"></a>Siehe auch 
 

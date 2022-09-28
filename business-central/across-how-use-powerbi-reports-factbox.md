@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/11/2021
 ms.author: jswymer
-ms.openlocfilehash: ccdcf519d33c9b4ee23526e773ec8eccc9e0ebdd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7aa2fee69e6d7725e4986b44d3f657d6ca9c4819
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517188"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534333"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Erstellen von Power BI-Berichten zum Anzeigen von Listendaten in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -83,7 +83,7 @@ For more information about getting started, see [Use [!INCLUDE[prod_short](inclu
 
 ## <a name="set-the-report-size-and-color"></a>Berichtsgrösse und ‑farbe festlegen
 
-Die Grösse des Berichts muss auf 325 Pixel auf 310 Pixel festgelegt werden. Diese Grösse gibt die richtige Skalierung des Berichts im verfügbaren Platz des Power BI-Infoboxreglers in [!INCLUDE[prod_short](includes/prod_short.md)] an. Um die Grösse des Berichts zu definieren, den Fokus ausserhalb des Berichts im Berichtslayoutbereich zu platzieren und um das Farbenrollensymbol zu wählen.
+Die Grösse des Berichts muss auf 325 Pixel auf 310 Pixel festgelegt werden. Diese Grösse gibt die richtige Skalierung des Berichts im verfügbaren Platz des Power BI-Infoboxreglers in [!INCLUDE[prod_short](includes/prod_short.md)] an. Um die Grösse des Berichts zu definieren, den Fokus ausserhalb des Berichts in der Berichtslayoutregion zu platzieren und um das Farbenrollensymbol zu wählen.
 
 ![Festlegen der Berichtsbreite und -höhe für den Bericht „Verkaufsrechnungen Aktivität“.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
@@ -120,11 +120,11 @@ Vergewissern Sie sich, dass die Seite, die angezeigt werden soll, die erste Seit
 
 ### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Der Bericht wird mit einem unerwünschten grauen Rand angezeigt, ist zu klein oder zu umfangreich
 
-Vergewissern Sie sich, dass die Berichtsgrösse auf 325 Pixel x 310 Pixel festgelegt wird. Speichern Sie den Bericht, und aktualisieren Sie anschliessend die Seite.  
+Vergewissern Sie sich, dass die Berichtsgrösse auf 325 Pixel x 310 Pixel festgelegt wird. Speichern Sie den Bericht, und aktualisieren Sie anschliessend die Listenseite.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] als Power BI-Datenquelle verwenden](across-how-use-financials-data-source-powerbi.md)  

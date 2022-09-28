@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0594134585fe85540c7ed87e1588fd218b7a561a
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: baa47a48cf7813a704666cb130eddc0adc6f4923
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074472"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531959"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen
 
@@ -144,14 +144,14 @@ Auf der Seite **Lagerkommissionierung** können Sie alle ausgehenden Lageraktivi
 
     Die 30 Amsterdam-Lampen werden nun erfasst, wie von den Lagerplätzen S-01-0001 und S-01-0002 kommissioniert, und es wird ein negativer Lagerposten erstellt, der gebuchte Verkaufslieferung anzeigt.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also"></a>Siehe auch 
 
 [Artikel mit der Lagerkommissionierung kommissionieren](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Um Artikel für den Warenausgang zu kommissionieren](warehouse-how-to-pick-items-for-warehouse-shipment.md)  
 [Einrichten von Basislagern mit Vorgangsbereichen](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  
-[So verschieben Sie Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+[So verschieben Sie Komponenten in eine Arbeitsgangregion in Basis-Lagerkonfigurationen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 [Kommissionierung für die Produktion oder Montage](warehouse-how-to-pick-for-production.md)  
 [Ad-hoc-Umlagerung von Artikeln in Basis-Lagerkonfigurationen](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
 [Designdetails: Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md)  

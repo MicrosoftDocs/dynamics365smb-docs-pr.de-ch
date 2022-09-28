@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 730308e265f7a3fef3ad4a8069ea3f5c6bf0a7d2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 23a730f79e3b5969243a1b176152496b6e20bdd2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078402"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534738"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Um Artikel für den Warenausgang zu kommissionieren
 
@@ -49,7 +49,7 @@ Sie können Kommissionierungsbelege auch Push-artig im Fenster **Warenausgang** 
 
     Wenn das Lager mit gesteuerter Einlagerung und Kommissionierung eingerichtet wurde, wird die Lagerplatzpriorität verwendet, um die besten Lagerplätze für die Kommissionierung zu berechnen und in den Kommissionierzeilen vorzuschlagen. Die Anweisungen erscheinen als zwei Zeilen, mindestens eine für jede Aktivitätenart, "Entnahme" und "Einlagerung".  
 
-4.  Wenn Sie die Kommissionierung ausgeführt und die Artikel in den Ausgangsbereich oder den Ausgangslagerplatz eingelagert haben, wählen Sie die Aktionen **Kommissionierung registrieren** aus.  
+4.  Wenn Sie die Kommissionierung ausgeführt und die Artikel in die Ausgangsregion oder den Ausgangslagerplatz eingelagert haben, wählen Sie die Aktionen **Kommissionierung registrieren** aus.  
 
 Die für Lieferung verantwortliche Person kann die Artikel in den Warenausgang bringen und den Warenausgang, einschliesslich dem zugehörigen Herkunftsbeleg, auf der Seite **Warenausgang** buchen. Weitere Informationen finden Sie unter [Artikel versenden](warehouse-how-ship-items.md).   
 
@@ -75,7 +75,7 @@ Nachdem der Warenausgang gebucht ist, werden verschiedene Felder in der Verkaufs
 
 > In diesem Fall wird die Auftragsmontagemenge wie in diesem Thema beschrieben behandelt, und die Lagermenge wird wie jede andere reguläre Warenausgangszeile verarbeitet. Weitere Informationen finden Sie im Abschnitt "Kombinationsszenarien" in [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also"></a>Siehe auch 
 

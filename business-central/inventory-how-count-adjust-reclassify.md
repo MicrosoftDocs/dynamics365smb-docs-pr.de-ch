@@ -10,12 +10,12 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.search.forms: 1327, 393, 392, 390, 7381, 7380, 7319, 7324, 7326, 7365
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4267e7de6f34c3aa419d3d3fc78739c372b48a64
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 40e11554ab073c62b33b0623fc2bbd5a8038f686
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078062"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533309"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern
 
@@ -169,7 +169,7 @@ Sie richten die Inventurhäufigkeiten ein, die Sie verwenden möchten, und ordne
 
 ## <a name="to-adjust-the-inventory-of-one-item"></a>Um die Lager von einem Artikel zu korrigieren
 
-Nachdem Sie eine Inventur eines Artikels in Ihrem Lagerbereich vorgenommen haben, können Sie die Funktion **Lager regulieren** verwenden, um die Menge des aktuellen Lagerbestands zu erfassen.
+Nachdem Sie eine Inventur eines Artikels in Ihrer Lagerregion vorgenommen haben, können Sie die Funktion **Lager regulieren** verwenden, um die Menge des aktuellen Lagerbestands zu erfassen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Artikel, für den Sie den Lagerbestand anpassen möchten, und wählen Sie dann die Aktion **Lager regulieren** aus.
@@ -233,7 +233,7 @@ Das folgende Beispiel basiert auf einen Lagerortcode. Die Schritte sind für and
 
 Weitere Informationen zum Übertragen von Artikeln mit Kontrolle der gelieferten und eingegangenen Mengen, siehe [Übertragen Sie Lagerbestand zwischen Lagerorten](inventory-how-transfer-between-locations.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/adjust-inventory/)
 
 ## <a name="see-also"></a>Siehe auch 
 

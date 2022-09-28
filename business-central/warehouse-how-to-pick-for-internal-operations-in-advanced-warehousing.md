@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 46d00ec083cd749ed9922ab0e046d9a76aaf4390
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a0704d35debbe8cdd7c2be240c6a02759a919795
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076111"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531257"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Kommissionierung für Montage oder Produktion in erweiterter Lagerkonfiguration
 
@@ -22,7 +22,7 @@ In der erweiterten Lagerkonfigurationen, in der der Lagerort für Kommissionieru
 
 Alternativ können Sie die Seite **Lagerplatzumlagerungsarbeitsblatt** verwenden, um die Artikel ohne Bezug zu einem Herkunftsbeleg zwischen Lagerplätzen ad hoc zu verschieben. Weitere Informationen finden Sie unter [Umlagern von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
-Allgemeine Informationen über das Kommissionieren von Artikeln für interne Arbeitsgänge an den Basislagerorten, die ausschliesslich für die Kommissionierung eingerichtet sind, finden Sie unter [Umlagern von Komponenten in einen Arbeitsgangbereich in den Basis-Lagerkonfigurationen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+Allgemeine Informationen über das Kommissionieren von Artikeln für interne Arbeitsgänge an den Basislagerorten, die ausschliesslich für die Kommissionierung eingerichtet sind, finden Sie unter [Umlagern von Komponenten in eine Arbeitsgangregion in den Basis-Lagerkonfigurationen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 Sie können einen Kommissionierungsbeleg nicht von Grund auf neu erstellen, da eine Kommissionierungsaktivität immer Teil eines Workflows ist, entweder in einem Abruf- oder Push-Szenario.  
 
@@ -56,7 +56,7 @@ Dieses Flussdiagramm zeigt, wie das Feld **Lagerplatzcode** in FA-Komponentenzei
 
 ![Flowdiagramm Lagerplatz.](media/binflow.png "BinFlow")  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also"></a>Siehe auch 
 

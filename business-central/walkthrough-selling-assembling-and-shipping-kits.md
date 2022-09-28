@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3c0ce6cc58d5876f99d82a0c177cb760bfdd9468
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c18697ae02da11014e405619118b291c6d1e5610
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075279"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535698"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits
 
@@ -126,7 +126,7 @@ Jürgen, der Planer, führt das Planungsarbeitsblatt und erstellt einen Montagea
 
 Sammy, der für die Lieferung verantwortlich ist, ruft drei Warenausgangszeilen für den Verkaufsauftrag ab: Eine Zeile für die drei reinen ATO-Einheiten, eine Zeile für die fünf ATO-Einheiten in der Mischverkaufsauftragszeile und eine Zeile für die zehn ATS-Einheiten in der Mischverkaufsauftragszeile. Er erstellt einen Kommissionierbeleg über alle Montagekomponenten, die benötigt werden, um die insgesamt acht ATO-Einheiten im Warenausgangsbeleg zu montieren.  
 
-Wilfried, der Kommissionierer, ruft Komponenten für alle ATO-Mengen auf dem Warenausgangsbeleg ab und bringt diese in den Montagebereich. Er gibt die zu verwendende Menge ein und registriert die Kommissionierung.  
+Wilfried, der Kommissionierer, ruft Komponenten für alle ATO-Mengen auf dem Warenausgangsbeleg ab und bringt diese in die Miontageregion. Er gibt die zu verwendende Menge ein und registriert die Kommissionierung.  
 
 Elfriede montiert die drei ATO-Einheiten aus Kit B. Die Komponenten sind bereits kommissioniert, und sie erfasst nicht die Ausgabe- und Verbrauchsmengen und bucht auch nicht den Auftrag, da beides bereits automatisch durch die entsprechenden Lagersendungszeilen durchgeführt wird.  
 
@@ -138,7 +138,7 @@ Der zweite Montageauftrag ist der ATS-Auftrag für zehn Einheiten, der vom Planu
 
 Sammy erstellt einen Kommissionierbeleg für alle verbleibenden Mengen, bevor der Warenausgang gebucht werden kann. Ein Kommissionierbeleg wird für die zehn Einheiten von Kit A erstellt, die soeben fertig gestellt wurden. Die Komponenten, die benötigt werden, um die fünf Einheiten von Kit A gemäss dem Auftrag zu montieren, wurden am 23. Januar kommissioniert.  
 
-Wilfried bringt die zehn Einheiten von Kit A aus dem Lager in den angegebenen Warenausgangsbereich, registriert die zu verwendende Menge und dann die Kommissionierung.  
+Wilfried bringt die zehn Einheiten von Kit A aus dem Lager in die angegebene Warenausgangsregion, registriert die zu verwendende Menge und dann die Kommissionierung.  
 
 Sammy verpackt die zehn ATS-Einheiten mit den fünf ATO-Einheiten, die Elfriede zuvor montiert hat. Er gibt auf beiden Zeilen die Liefermenge ein und bucht die letzte Lieferung für The Device Shop. Der zugehörige Montageauftrag für fünf Einheiten von Kit A wird automatisch gebucht. Die zweite Zeile auf dem Verkaufsauftrag wird als "geliefert" aktualisiert. Zwei verknüpfte Montageaufträge bleiben offen, bis der Verkaufsauftrag fakturiert und abgeschlossen ist.  
 
@@ -295,7 +295,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Warenausgang** ein und wählen Sie dann den zugehörigen Link.  
 
     > [!NOTE]  
-    >  In diesem Abschnitt ist die Person, die für die Lieferung verantwortlich ist, für die Registrierung der abgeschlossenen ATO-Montagearbeit auf der Warenausgangszeile zuständig. Dieser Workflow kann in Umgebungen vorkommen, in denen die Montagearbeit von der Person, die für die Lieferung verantwortlich ist, bzw. von Montagearbeitern im Auslieferungsbereich durchgeführt wird.  
+    >  In diesem Abschnitt ist die Person, die für die Lieferung verantwortlich ist, für die Registrierung der abgeschlossenen ATO-Montagearbeit auf der Warenausgangszeile zuständig. Dieser Workflow kann in Umgebungen vorkommen, in denen die Montagearbeit von der Person, die für die Lieferung verantwortlich ist, bzw. von Montagearbeitern in der Auslieferungsregion durchgeführt wird.  
     >   
     >  In diesem Abschnitt werden die Aktionen auf dem Montageauftrag indirekt von der Warenausgangszeile aus ausgeführt. Weitere Informationen darüber, wie ein Montageauftrag direkt verarbeitet wird, finden Sie unter Artikel für Lager montieren in dieser Anleitung.  
 
@@ -442,7 +442,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Wenn der Geräte-Shop für den Erhalt der 18 PCs von CRONUS bezahlt, werden der Kundenauftrag und die damit verbundenen Montageaufträge entfernt.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch 
 

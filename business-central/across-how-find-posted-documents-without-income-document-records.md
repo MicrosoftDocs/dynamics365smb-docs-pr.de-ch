@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: ad50260df068d38cb8266e04434eb4faf4d052f3
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 8b532ce1345b9df1ae98cdd98349d4fd4c5b27df
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076059"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535035"
 ---
 # <a name="find-posted-documents-without-incoming-document-records"></a>So finden Sie gebuchte Belege ohne zugehörige eingehende Belege
 
@@ -37,7 +37,7 @@ Daraufhin wird die Seite **Gebuchte Belege ohne eingehenden Beleg** geöffnet, d
 
 Wenn auf der Seite **Eingehende Belege** kein entsprechender Datensatz vorhanden ist, können Sie ihn erstellen. Weitere Informationen finden Sie unter [So geht's: Eingehende Belege erstellen](across-how-create-income-document-records.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch 
 

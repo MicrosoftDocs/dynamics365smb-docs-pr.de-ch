@@ -10,16 +10,16 @@ ms.search.keywords: ''
 ms.search.form: 393, 7382
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 08e8d8a0f8507f1b67d5209d8e76a5f1268d2548
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 46b6cbd88cf23974e5fd11453c328c1669c8e19c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078454"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534441"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Ad-hoc-Umlagerung von Artikeln in Basis-Lagerkonfigurationen
 
-Möglicherweise müssen Sie gelegentlich Artikel zwischen internen Lagerplätzen umlagern, ohne Eingangs- oder Versandlagerort und ohne einen speziellen Bedarf aus einem Herkunftsbeleg. Sie können diese Ad-hoc-Lagerplatzumlagerungen zum Beispiel durchführen, um das Lager neu zu organisieren, Artikel in einen Inspektionsbereich zu bringen oder zusätzliche Artikel an einen bzw. aus einem Fertigungsbereich zu bewegen, ohne dass ein Systembezug zum Herkunftsbeleg des Fertigungsauftrags besteht.  
+Möglicherweise müssen Sie gelegentlich Artikel zwischen internen Lagerplätzen umlagern, ohne Eingangs- oder Versandlagerort und ohne einen speziellen Bedarf aus einem Herkunftsbeleg. Sie können diese Ad-hoc-Lagerplatzumlagerungen zum Beispiel durchführen, um das Lager neu zu organisieren, Artikel in eine Inspektionsregion zu bringen oder zusätzliche Artikel an eine bzw. aus einer Fertigungsregion zu bewegen, ohne dass ein Systembezug zum Herkunftsbeleg des Fertigungsauftrags besteht.  
 
 In den Basislagerkonfigurationen können für Lagerplätze, die das Einrichtungsfeld **Lagerplatz notwendig** und möglicherweise die Einrichtungsfelder **Kommissionierung erforderlich** und **Einlagerung erforderlich** verwenden, Ad-hoc-Lagerplatzumlagerungen ohne Herkunftsbelege auf die folgenden Arten registriert werden:  
 
@@ -56,7 +56,7 @@ In den Basislagerkonfigurationen können für Lagerplätze, die das Einrichtungs
     > [!NOTE]  
     >  Wenn Sie die Lagerbestandsumlagerung erstellt haben, werden die Zeilen für die interne Umlagerung gelöscht.  
 
-    Die restliche Ad-hoc-Umlagerung führen Sie auf der Seite **Lagerbestandsumlagerung** auf dieselbe Weise aus, wie Sie eine Lagerplatzumlagerung basierend auf Herkunftsbelegen ausführen würden. Weitere Informationen finden Sie unter [Umlagern von Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+    Die restliche Ad-hoc-Umlagerung führen Sie auf der Seite **Lagerbestandsumlagerung** auf dieselbe Weise aus, wie Sie eine Lagerplatzumlagerung basierend auf Herkunftsbelegen ausführen würden. Weitere Informationen finden Sie unter [Umlagern von Komponenten in eine Arbeitsgangregion in Basis-Lagerkonfigurationen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Um Artikel mit dem Artikel-Umlagerungs-Erfassungsjournal umzulagern
 
@@ -73,7 +73,7 @@ Anstelle der Verwendung von Lagerplatzumlagerungsbelegen können Sie die Umlager
     > [!NOTE]  
     >  Anders als bei Lagerplatzumlagerungsbelegen erstellt eine Lagerplatzumlagerung, die mit dem Umlagerungs Erfassungsjournal gebucht wird, keine Logistikanforderung, die physische Aufgabe auszuführen.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also"></a>Siehe auch 
 

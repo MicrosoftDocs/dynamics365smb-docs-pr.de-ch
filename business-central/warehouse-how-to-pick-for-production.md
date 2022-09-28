@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 80a34d18c94038ded7bcf405cabd1c67ddf82539
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 2814fe1f9ca71c3a14bb288427c9b12603d0463a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078428"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529152"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Kommissionierung für Montage oder Produktion in Grund-Lagerkonfiguration
 
@@ -30,15 +30,15 @@ Bei Basis-Lagerkonfigurationen, bei denen für den Lagerort die Bearbeitung der 
 
 Wenn Produktionsschritte in Lagerprozesse integriert werden, entweder durch Lagerplätze oder durch gesteuerte Einlagerungen und Kommissionierungen, ist der Lagerort, von dem die Komponenten verbraucht werden, der Lagerort, der in jeder Fertigungsauftragskomponentenzeile definiert wird. Alle benötigten Komponenten müssen an diesem Lagerort verfügbar sein. Andernfalls wird die manuelle oder die geleerte Verbrauchsbuchung für diese Komponente angehalten.
 
-**Lagerbestandsumlagerung** mit Verweisen auf das Quelldokument und **Kommissionierung** können nicht zum Kommissionieren von Komponenten mit Buchungsmethode *Vorwärts* und *Rückwärts* verwendet werden. **Lagerkommissionierung** kann aber nicht zum Kommissionieren von Komponenten mit einer Buchungsmethode ausser *Manuell* verwendet werden. Verwenden Sie zum Behandeln der verbleibenden Komponenten **Lagerbestandsumlagerung** ohne Verweis auf ein Quelldokument. Weitere Informationen finden Sie in [Umlagern von Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+**Lagerbestandsumlagerung** mit Verweisen auf das Quelldokument und **Kommissionierung** können nicht zum Kommissionieren von Komponenten mit Buchungsmethode *Vorwärts* und *Rückwärts* verwendet werden. **Lagerkommissionierung** kann aber nicht zum Kommissionieren von Komponenten mit einer Buchungsmethode ausser *Manuell* verwendet werden. Verwenden Sie zum Behandeln der verbleibenden Komponenten **Lagerbestandsumlagerung** ohne Verweis auf ein Quelldokument. Weitere Informationen finden Sie in [Umlagern von Komponenten in eine Arbeitsgangregion in Basis-Lagerkonfigurationen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 > [!NOTE]  
 >  Bestandskommissionierungen, Lagerbestandsumlagerungen und Lagerkommissionierungen weisen folgende wichtige Unterschiede auf:  
 >   
->  -   Wenn Sie eine Lagerkommissionierung für einen internen Vorgang erfassen, wie etwa Produktion, wird der Verbrauch der kommissionierten Komponenten gleichzeitig gebucht. Wenn Sie eine Lagerbestandsumlagerung oder eine Kommissionierung für einen internen Vorgang registrieren, erfassen Sie nur die physische Umlagerung der benötigten Komponenten an einen Lagerplatz im Arbeitsgangbereich, ohne den Verbrauch zu buchen.  
-> -   Wenn Sie Lagerkommissionierungen verwenden, definiert das Feld **Lagerplatzcode** in der Komponentenzeile eines Fertigungsauftrags den *Entnahme*-Lagerplatz, in dem die Anzahl der Komponenten bei Buchung des Verbrauchs verringert wird. Wenn Sie Lagerbestandsumlagerungen oder eine Kommissionierung verwenden, definiert das Feld **Lagerplatzcode** in FA-Komponentenzeilen den *Einlagerungs*-Lagerplatz im Vorgangsbereich, in dem der Lagermitarbeiter die Komponenten platzieren muss.  
+>  -   Wenn Sie eine Lagerkommissionierung für einen internen Vorgang erfassen, wie etwa Produktion, wird der Verbrauch der kommissionierten Komponenten gleichzeitig gebucht. Wenn Sie eine Lagerbestandsumlagerung oder eine Kommissionierung für einen internen Vorgang registrieren, erfassen Sie nur die physische Umlagerung der benötigten Komponenten an einen Lagerplatz in der Arbeitsgangregion, ohne den Verbrauch zu buchen.  
+> -   Wenn Sie Lagerkommissionierungen verwenden, definiert das Feld **Lagerplatzcode** in der Komponentenzeile eines Fertigungsauftrags den *Entnahme*-Lagerplatz, in dem die Anzahl der Komponenten bei Buchung des Verbrauchs verringert wird. Wenn Sie Lagerbestandsumlagerungen oder eine Kommissionierung verwenden, definiert das Feld **Lagerplatzcode** in FA-Komponentenzeilen den *Einlagerungs*-Lagerplatz in der Vorgangsregion, in der der Lagermitarbeiter die Komponenten platzieren muss.  
 
-Eine Systemvoraussetzung für das Kommissionieren oder Umlagern von Komponenten für Herkunftsbelege ist, dass eine ausgehende erwartete Lagerbewegung vorhanden ist, um den Lagerbereich über den Komponentenbedarf zu benachrichtigen. Die ausgehende erwartete Lagerbewegung wird erzeugt, wenn der Status des Fertigungsauftrags zu Freigegeben geändert wird oder wenn der freigegebene Fertigungsauftrag angelegt wird.  
+Eine Systemvoraussetzung für das Kommissionieren oder Umlagern von Komponenten für Herkunftsbelege ist, dass eine ausgehende erwartete Lagerbewegung vorhanden ist, um die Lagerregion über den Komponentenbedarf zu benachrichtigen. Die ausgehende erwartete Lagerbewegung wird erzeugt, wenn der Status des Fertigungsauftrags zu Freigegeben geändert wird oder wenn der freigegebene Fertigungsauftrag angelegt wird.  
 
 ## <a name="to-pick-production-components-in-basic-warehouse-configurations-using-inventory-pick"></a>Kommissionieren von Produktionskomponenten in grundlegenden Lagerkonfigurationen mithilfe der Bestandsauswahl
 
@@ -65,9 +65,9 @@ In grundlegenden Lagerkonfigurationen, in denen der Standort eine Kommissioniera
 
 Die Seite **Lagerkommissionierung** wird auch verwendet, um für Verkäufe zu kommissionieren und zu liefern, in denen Artikel montiert werden müssen, bevor sie geliefert werden können. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).
 
-Die zu liefernden Artikel sind an einem Lagerplatz erst dann tatsächlich vorhanden, wenn sie zusammengestellt und als Ausstoss für einen Lagerplatz im Montagebereich gebucht wurden. Das bedeutet, dass das Kommissionieren von Auftragsmontageartikeln zur Lieferung einem speziellen Ablauf folgt. Von einem Lagerplatz bringen Lagermitarbeiter die Montageartikel zur Versandstelle und buchen dann die Lagerkommissionierung. Die gebuchte Lagerkommissionierung bucht dann den Montageausstoss, den Komponentenverbrauch und die Verkaufslieferung.
+Die zu liefernden Artikel sind an einem Lagerplatz erst dann tatsächlich vorhanden, wenn sie zusammengestellt und als Ausstoss für einen Lagerplatz in der Montageregion gebucht wurden. Das bedeutet, dass das Kommissionieren von Auftragsmontageartikeln zur Lieferung einem speziellen Ablauf folgt. Von einem Lagerplatz bringen Lagermitarbeiter die Montageartikel zur Versandstelle und buchen dann die Lagerkommissionierung. Die gebuchte Lagerkommissionierung bucht dann den Montageausstoss, den Komponentenverbrauch und die Verkaufslieferung.
 
-Sie können [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, um eine automatische Lagerbestandsumlagerung zu erstellen, wenn die Lagerkommissionierung für die Montageartikel erstellt wird. Um dies zu aktivieren, müssen Sie das Feld **Umlagerungen automatisch erstellen** auf der Seite **Montageeinrichtung** auswählen. Weitere Informationen finden Sie in [Umlagern von Komponenten in einen Arbeitsgangbereich in den grundlegenden Lagerfunktionen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+Sie können [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, um eine automatische Lagerbestandsumlagerung zu erstellen, wenn die Lagerkommissionierung für die Montageartikel erstellt wird. Um dies zu aktivieren, müssen Sie das Feld **Umlagerungen automatisch erstellen** auf der Seite **Montageeinrichtung** auswählen. Weitere Informationen finden Sie in [Umlagern von Komponenten in eine Arbeitsgangregion in den grundlegenden Lagerfunktionen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
 Lagerkommissionierzeilen für Verkaufsartikel werden je nachdem, ob keine, einige oder alle Verkaufspositionsmengen auf Bestellung gefertigt werden, auf unterschiedliche Weise erstellt.
 
@@ -87,7 +87,7 @@ Dieses Flussdiagramm zeigt, wie das Feld **Lagerplatzcode** in FA-Komponentenzei
 
 ![Flowdiagramm Lagerplatz.](media/binflow.png "BinFlow")
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also"></a>Siehe auch 
 

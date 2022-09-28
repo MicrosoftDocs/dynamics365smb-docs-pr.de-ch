@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 05/25/2022
 ms.author: edupont
-ms.openlocfilehash: 26c988bcfce774dfa05b77c52347cfcf83106309
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 167ad75bceeec8e0e5bb998f8075f547a51b2157
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805140"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535814"
 ---
 # <a name="get-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 
@@ -35,7 +35,7 @@ Wenn Sie sich zum ersten Mal anmelden oder eine neue Firma gründen, führt Sie 
 
 Sobald Sie Daten wie Debitoren, Kreditoren und Artikel von Ihrem vorhandenen Finanzsystem migriert haben, können Sie bereit damit zu beginnen. Je nach Ihrem Bedarf sollten Sie jedoch in Betracht ziehen, ob andere Anleitungen zur unterstützten Einrichtung auf der Liste Ihnen helfen können.
 
-Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt ist, wählen Sie das Symbol ![Rad, um das Menü Einstellungen zu öffnen.](media/ui-experience/settings_icon_small.png) Symbol, und dann die Aktion **Erweiterte Einstellungen**. Unter **Erweiterte Einstellungen** bietet der Abschnitt **Manuelle Einrichtung** Zugang zu Einrichtungsseiten, auf denen Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
+Wenn eine Region nicht durch eine unterstützte Einrichtung abgedeckt ist, wählen Sie das Symbol ![Rad, um das Menü Einstellungen zu öffnen.](media/ui-experience/settings_icon_small.png) Symbol, und dann die Aktion **Erweiterte Einstellungen**. Unter **Erweiterte Einstellungen** bietet der Abschnitt **Manuelle Einrichtung** Zugang zu Einrichtungsseiten, auf denen Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
 
 > [!NOTE]  
 > Die Liste der Leitfäden für das unterstützte Setup, Erweiterungen und Diensten, die verfügbar sind, unterscheidet sich abhängig von der Benutzerumgebung, die Sie für Ihr Unternehmen auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Premium**.
@@ -58,7 +58,7 @@ Abhängig von Ihrer Rolle bietet die Homepage einen Überblick über Ihr Unterne
 
 Die **Zentralen Leistungs-Indikatoren** können eingerichtet werden, um ein ausgewähltes Diagramm für eine visuelle Darstellung anzuzeigen, zum Beispiel, Cashflow oder Einnahmen und Ausgaben. Sie können eine Liste von **Lieblingsdebitoren** auf der Homepage auch für Konten einrichten, mit denen Sie häufig Geschäfte tätigen oder besondere Aufmerksamkeit geben müssen.
 
-Verwenden Sie die Pfeile, um einen Teil der Seite zu verkleinern und mehr Platz hinzuzufügen, um bestimmte Daten anzuzeigen. Bei der Hierarchie der Homepage finden Sie alle Aktionen, die dem aktuellen Inhalt hinzugefügt werden können. Diese kann auch reduziert werden und Sie müssen nur innerhalb des reduzierten Bereichs klicken oder tippen, um den Inhalt wieder anzuzeigen.
+Verwenden Sie die Pfeile, um einen Teil der Seite zu verkleinern und mehr Platz hinzuzufügen, um bestimmte Daten anzuzeigen. Bei der Hierarchie der Homepage finden Sie alle Aktionen, die dem aktuellen Inhalt hinzugefügt werden können. Diese kann auch reduziert werden und Sie müssen nur innerhalb der reduzierten Region klicken oder tippen, um den Inhalt wieder anzuzeigen.
 
 > [!TIP]  
 > Sie können zurück zur Homepage gelangen, indem Sie den Unternehmensnamen in der linken Teil des Fensters auswählen.
@@ -114,9 +114,9 @@ Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkä
 [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
 [Suchen Sie im Hilfebereich](product-help-and-support.md#search-in-the-help-pane)  
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
-[Microsoft Learn-Website](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Microsoft-Schulung](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Daten migrieren](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
-[Testversionen und Abonnements](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md)  
+[Testversionen und Abonnements](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

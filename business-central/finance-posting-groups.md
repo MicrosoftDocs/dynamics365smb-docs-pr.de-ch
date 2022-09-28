@@ -10,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 08/26/2022
 ms.author: bholtorf
-ms.openlocfilehash: e3cb6fd841dc4d6e0f9b00d2966ca00bab577b15
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 96505ae8097131b6c02aba65c9ab751b3e331224
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460793"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535197"
 ---
 # <a name="set-up-posting-groups"></a>Buchungsgruppen einrichten
 
@@ -41,7 +41,7 @@ In der folgenden Tabelle werden die allgemeinen Buchungsgruppen beschrieben.
 
 | Art | Beschreibung |
 | --- | --- |
-| Allgemeine Geschäftsbuchungsgruppen |Weisen Sie diese Gruppen den Debitoren und Kreditoren zu, um anzugeben, von wem Sie kaufen und an wen Sie verkaufen. Richten Sie diese Buchungsgruppen auf der Seite **Geschäftsbuchungsgruppen** ein. Wenn Sie dies tun, überlegen Sie, in wie viele Gruppen die Verkäufe und Einkäufe aufgeschlüsselt werden müssen. Beispielsweise Gruppendebitoren und Kreditoren nach bestimmten Regionen oder nach Art des Geschäfts. |
+| Allgemeine Geschäftsbuchungsgruppen |Weisen Sie diese Gruppen den Debitoren und Kreditoren zu, um anzugeben, von wem Sie kaufen und an wen Sie verkaufen. Richten Sie diese Buchungsgruppen auf der Seite **Geschäftsbuchungsgruppen** ein. Wenn Sie dies tun, überlegen Sie, in wie viele Gruppen die Verkäufe und Einkäufe aufgeschlüsselt werden müssen. Beispielsweise Gruppendebitoren und Kreditoren nach bestimmten Feld oder nach Art des Geschäfts. |
 | Allgemeine Produktbuchungsgruppen |Weisen Sie diese Gruppe Artikeln und Ressourcen zu, um festzulegen, was Sie verkaufen und was Sie kaufen. Richten Sie diese Buchungsgruppen auf der Seite **Produktbuchungsgruppen** ein. Wenn Sie dies tun, berücksichtigen Sie die Gruppen, in die Sie Verkäufe nach Produkt (Artikel und Ressourcen) und Verkäufe nach Artikeln aufschlüsseln müssen. Beispielsweise  teilen Sie diese Gruppen nach Rohmaterial, Einzelhandel, Ressourcen, Kapazität, usw. auf. |
 | Buchungsmatrix Einrichtung |Kombinieren von Geschäfts- und Produktbuchungsgruppen, und aktivieren Sie die Konten, um zu buchen. Jeder Kombination aus Geschäfts- und Produktbuchungsgruppen können Sie einen anderen Satz von Fibukonten zuweisen. Sie können z. B. den Verkauf desselben Artikels auf verschiedene Hauptbuchkonten buchen, da die Kunden verschiedenen Geschäftsbuchungsgruppen zugeordnet sind. Richten Sie diese Konfigurationen auf der Seite **Buchungsmatrix Einrichtung** ein. |
 
@@ -132,7 +132,7 @@ Wenn etwas nicht stimmt, zeigt [!INCLUDE[prod_short](includes/prod_short.md)] di
 > [!NOTE]
 > Die oben beschriebene Fehlerbehandlung ist nicht verfügbar für Artikel-, Ressourcen-, Mitarbeiter- und Anlage-Fibu Erfassungsjournale oder für Fibukonten, die in lokalen Versionen von Buchungsgruppen hinzugefügt wurden.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/posting-groups-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/posting-groups-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch 
 

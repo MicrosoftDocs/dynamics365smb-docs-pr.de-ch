@@ -5,7 +5,7 @@
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
 ## Informationen
 ### [Business Central Lernkatalog](readiness/readiness-learning-catalog.md)
-### [Business Central in Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Business Central Schulung](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Exemplarische Vorgehensweisen für Geschäftsprozesse
 #### [Verfügbare exemplarische Vorgehensweisen](walkthrough-business-process-walkthroughs.md)
 #### [Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne](walkthrough-conducting-a-sales-campaign.md)
@@ -619,7 +619,7 @@
 #### [Umlagern von Artikeln](warehouse-move-items.md)
 #### [Ad-hoc-Umlagerung von Artikeln in Basis-Lagerkonfigurationen](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
 #### [Umlagerung von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md)
-#### [So verschieben Sie Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+#### [So verschieben Sie Komponenten in eine Arbeitsgangregion in Basis-Lagerkonfigurationen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 #### [Lagerplatzauffüllung berechnen](warehouse-how-to-calculate-bin-replenishment.md)
 #### [Planen von Umlagerungen in Arbeitsblättern](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)
 ### Entnahme von Artikeln

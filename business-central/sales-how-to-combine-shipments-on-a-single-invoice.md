@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9308412e7b1bfc19cb11187e22ae1b2d2f6c339b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 074cedb3620b751d4ddb366153bbbb494ae030da
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077594"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534137"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Zusammenfassen von Lieferungen in einer einzelnen Rechnung
 
@@ -65,7 +65,7 @@ Sie können die einzelnen Verkaufsaufträge auch manuell löschen.
 
 Wiederholen Sie die Schritte 1 bis 3 für alle betroffenen anderen Belege, wie z. B. leere Verkaufsaufträge.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/invoicing-customers-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch 
 

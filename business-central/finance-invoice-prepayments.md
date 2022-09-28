@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: e1bc919488a1932338b71938cc4c6e2928cfc177
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c39d5e0462c9fb4563e9f481256c916f0b9c397e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514031"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535224"
 ---
 # <a name="invoicing-prepayments"></a>Fakturieren von Vorauszahlungen
 
@@ -35,7 +35,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Erstellen eines Auftrags, Anpassen der Vorauszahlungsbeträge und Erstellen einer Rechnung für Vorauszahlungsbeträge|[Vorauszahlungsrechnungen erstellen](finance-how-to-create-prepayment-invoices.md)|  
 |Erstellen einer weiteren Vorauszahlungsrechnung – entweder für weitere Artikel oder für eine zusätzliche Vorauszahlung für den ursprünglichen Auftrag – oder Erstellen einer Vorauszahlungsgutschrift|[So korrigieren Sie Vorauszahlungen](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -10,12 +10,12 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: a79299d835b7a5af06edf16119f037cdaf610311
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c20a7e2a53974d17b8571f0a4d69d6298804b064
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515629"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534171"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Aufstellung Cashflow-Analyse
 Wenn Sie etwas Unterstützung benötigen, was Sie mit Ihrem Barkonto zu tun sollen, schauen Sie sich das Diagramm im Buchhalter-Rollencenter an:  
@@ -54,7 +54,7 @@ Das Cashflow-Diagramm basiert auf Folgendem:
 
 Einige Konten und Cashfloweinrichtung sind bereits bereitgestellt. Sie können diese ändern, hinzufügen oder entfernen.  
 
-Um diese einzurichten, suchen Sie für nach **Cashflowkonten**, wählen Sie den Link aus, und füllen Sie die Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Wiederholen Sie diese Schritte für **Cashfloweinrichtung**.  
+Um diese einzurichten, suchen Sie für nach **Cashflowkonten***, wählen Sie den Link aus, und füllen Sie die Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Wiederholen Sie diese Schritte für **Cashfloweinrichtung**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Richtet Cashflowplanungen ein
 Das Diagramm **Cashflowplanung** verwendet Cashflowkonten, Cashfloweinrichtung und Cashflowplanungen. Einige werden bereitgestellt, aber Sie können eigene einrichten, indem Sie die unterstützte Einrichtung verwenden. Die unterstützte Einrichtung definiert u.a., wie oft die Planung aktualisiert werden soll, die Konten, die darauf basieren sollen, Informationen darüber, wann Sie Steuern bezahlen und ob [Azure AI](https://azure.microsoft.com/overview/ai-platform/) verwendet werden soll.  
@@ -124,12 +124,12 @@ Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Model
 6. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Cashflow-Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 7. Erweitern Sie das Inforegister **Azure AI**, und füllen Sie die entsprechenden Felder aus.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 
 [Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md)  
-[Finanzen einrichten](finance-setup-finance.md)  
+[Finance einrichten](finance-setup-finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

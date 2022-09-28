@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 1
 ms.date: 04/20/2022
 ms.author: edupont
-ms.openlocfilehash: 5de13d4f6e625db0d0871a3f7a94f62d726abc8f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 791d2b5c91014b2b9ce836854285ea8f0f32df37
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077724"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533955"
 ---
 # <a name="company-information-overview"></a>Übersicht über Unternehmensdaten
 
@@ -19,7 +19,7 @@ ms.locfileid: "9077724"
 
 Wenn der Lagerort des Mandanten von der Mandantenadresse abweicht, können Sie die Angaben in den verschiedenen „Lief. an“-Feldern und im Feld **Lagerortcode** im Inforegister **Versand** vervollständigen. Die Angaben in diesen Feldern werden z. B. auf Einkaufsbestellungen ausgedruckt, damit Lieferanten Artikel an den richtigen Ort liefern.  
 
-Sie müssen für jedes Unternehmen, das Sie einrichten, die Seite **Unternehmensdaten** zusammen mit der Seite **Finanzbuchhaltung Einrichtung** einrichten. Sie müssen auch jeden Bereich in [!INCLUDE [prod_short](includes/prod_short.md)] einrichten, z. B. die Seite **Debitoren Verkauf Einr.** für jedes Unternehmen. Weitere Informationen finden Sie unter [Übersicht über die Aufgaben zum Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+Sie müssen für jedes Unternehmen, das Sie einrichten, die Seite **Unternehmensdaten** zusammen mit der Seite **Finanzbuchhaltung Einrichtung** einrichten. Sie müssen auch jede Region in [!INCLUDE [prod_short](includes/prod_short.md)] einrichten, z. B. die Seite **Debitoren Verkauf Einr.** für jedes Unternehmen. Weitere Informationen finden Sie unter [Übersicht über die Aufgaben zum Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
 Die Seite **Unternehmensdaten** enthält je nach Land unterschiedliche Felder und Inforegister. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] In der folgenden Tabelle werden die am häufigsten verwendeten Inforegister beschrieben.
 
@@ -35,7 +35,7 @@ Wenn [!INCLUDE [prod_short](includes/prod_short.md)] mehrere Unternehmen umfasst
 
 Die standardmässige Benutzererfahrung in a[!INCLUDE [prod_short](includes/prod_short.md)]-Testversion zeigt nicht alle Funktionen an. Sie können die vollständige Benutzererfahrung auf der Seite **Unternehmensdaten** aktivieren. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch 
 

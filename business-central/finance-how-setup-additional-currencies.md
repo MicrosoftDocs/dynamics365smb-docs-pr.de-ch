@@ -10,12 +10,12 @@ ms.search.keywords: multiple currencies, foreign exchange rates
 ms.search.form: 5, 16,118, 483, 495
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 43933346f68fef474dc1f68c7eadbe295732bad8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 12441e9c34f443835dfaccc1a2a8ddedadd7d3c6
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515051"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532661"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Einrichten einer zusätzlichen Berichtswährung
 
@@ -42,7 +42,7 @@ Einige Finanzberichte basieren auf Fibuposten. Um die Finanzdaten in dem Bericht
 
 ## <a name="adjusting-exchange-rates"></a>Regulieren von Wechselkursen
 
-Da sich Wechselkurse ständig ändern, müssen weitere Währungsentsprechungen im System in regelmässigen Abständen reguliert werden. Werden diese Regulierungen nicht durchgeführt, sind Beträge, die aus fremden (oder zusätzlichen) Währungen umgerechnet und in der Mandantenwährung in der Fibuposten gebucht wurden, möglicherweise irreführend. Darüber hinaus müssen Tagesposten, die vor der Eingabe eines Tageswechelkurses in der Anwendung gebucht werden, aktualisiert werden, nachdem der Tageswechselkurs eingegeben wurde. Die Stapelverarbeitung  **Wechselkurse** regulieren dient zur Regulierung der Wechselkurse gebuchter Kreditoren-, Debitoren- und Bankkontoposten. Berichtswährungsbeträge in Fibuposten können hiermit ebenfalls aktualisiert werden. Weitere Informationen finden Sie unter [Stapelverarbeitungsauftrag "Wechselkurse regulieren"](finance-how-update-currencies.md).
+Da sich Wechselkurse ständig ändern, müssen weitere Währungsentsprechungen im System in regelmässigen Abständen reguliert werden. Werden diese Regulierungen nicht durchgeführt, sind Beträge, die aus fremden (oder zusätzlichen) Währungen umgerechnet und in der Mandantenwährung in der Finanzbuchhaltung gebucht wurden, möglicherweise irreführend. Darüber hinaus müssen Tagesposten, die vor der Eingabe eines Tageswechelkurses in der Anwendung gebucht werden, aktualisiert werden, nachdem der Tageswechselkurs eingegeben wurde. Die Stapelverarbeitung  **Wechselkurse** regulieren dient zur Regulierung der Wechselkurse gebuchter Kreditoren-, Debitoren- und Bankkontoposten. Berichtswährungsbeträge in Fibuposten können hiermit ebenfalls aktualisiert werden. Weitere Informationen finden Sie unter [Stapelverarbeitungsauftrag "Wechselkurse regulieren"](finance-how-update-currencies.md).
 
 ## <a name="setting-up-an-additional-reporting-currency"></a>Einrichten einer Berichtswährung
 
@@ -62,8 +62,8 @@ Folgen Sie diesen Schritten, um die zusätzliche Berichtswährung einzurichten:
 |---------------------------------|---------------------------------------|  
 |**Sachkto. Kursgewinn real. Kto**|Das Fibukonto, auf das Kursgewinne aus Wechselkursregulierungen zwischen der Mandantenwährung und der Berichtswährung gebucht werden sollen.|  
 |**Sachkto. Kursverlust real. Kto**|Das Fibukonto, auf das Kursverluste aus Wechselkursregulierungen zwischen der Mandantenwährung und der Berichtswährung gebucht werden sollen.|  
-|**Rundungsgewinn Konto**|Das Fibukonto, auf das Rundungsgewinne gebucht werden, wenn im Anwendungsbereich „Finanzbuchhaltung“ Buchungen sowohl in der Mandantenwährung als auch in einer Berichtswährung durchgeführt werden.|  
-|**Rundungsverlust Konto**|Das Fibukonto, auf das Rundungsverluste gebucht werden, wenn im Anwendungsbereich „Finanzbuchhaltung“ Buchungen sowohl in der Mandantenwährung als auch in einer Berichtswährung durchgeführt werden.|
+|**Rundungsgewinn Konto**|Das Fibukonto, auf das Rundungsgewinne gebucht werden, wenn in der Anwendungsregion «Finanzbuchhaltung» Buchungen sowohl in der Mandantenwährung als auch in einer Berichtswährung durchgeführt werden.|  
+|**Rundungsverlust Konto**|Das Fibukonto, auf das Rundungsverluste gebucht werden, wenn in der Anwendungsregion «Finanzbuchhaltung» Buchungen sowohl in der Mandantenwährung als auch in einer Berichtswährung durchgeführt werden.|
 
 > [!NOTE]  
 >  Rundungsbeträge können entstehen, wenn [!INCLUDE[prod_short](includes/prod_short.md)] Soll- und Habenbeträge rundet, die aus der Mandantenwährung in eine Berichtswährung umgerechnet wurden.  
@@ -130,7 +130,7 @@ Darüber hinaus werden die Beträge für alle zukünftigen Posten desselben Typs
 > [!NOTE]  
 > Das Feld **Berichtswährung** wird erst aktiviert, nachdem Sie im Batchauftrag **Berichtswährung regulieren** die Schaltfläche **OK** gewählt haben.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7bc0d1455960b1550c6a8d9fc54c20112b3e9f63
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 550eec5366e36a3aaffff16f39098676ebad5656
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074573"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533120"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbeiten mit Verkauf Rahmenaufträgen oder Einkauf Rahmenbestellungen
 
@@ -54,7 +54,7 @@ Das folgende gilt für Verkaufsaufträge nach der Erstellung von Rahmenaufträge
 - Wenn Aufträge nicht direkt aus einem Rahmenauftrag erstellt werden, aber dennoch zu diesem gehören, kann eine Verknüpfung zwischen einem Auftrag und einem Rahmenauftrag eingerichtet werden, indem die Nummer des verknüpften Rahmenauftrags im Feld **Rahmenauftragsnr.** in der Auftragszeile eingegeben wird. Lagerdurchlaufzeit" der Einkaufsbestellung.  
 - Nachdem der Verkaufsauftrag für die Gesamtmenge einer Rahmenbestellzeile erstellt wurde, kann kein anderer Verkaufsauftrag für dieselbe Zeile erstellt werden. Benutzer können im Feld **Zu liefernde Menge** keine Menge eingeben. Wenn in einem Rahmenauftrag jedoch weitere Mengen hinzugefügt werden müssen, kann der Wert im Feld **Menge** erhöht werden, und es können weitere Aufträge erstellt werden.  
 - Der fakturierte Rahmenauftrag verbleibt im System, bis er gelöscht wird, und zwar entweder durch Löschen einzelner Rahmenaufträge oder durch Ausführen der Stapelverarbeitung **Erledigte Rahmenauftr. löschen**.  
-- Wenn ein Debitor im Anwendungsbereich "Marketing" auch als Kontakt eingerichtet wurde und Sie einen Aktivitätenvorlagencode für Rahmenaufträge auf der Seite **Marketing & Vertrieb Einr.** angegeben haben, wird eine Aktivität in der Tabelle "Aktivitätenprotokollposten" aufgezeichnet, wenn Sie **Drucken** auswählen, um die Rahmenaufträge zu drucken.
+- Wenn ein Debitor in der Anwendungsregion «Marketing» auch als Kontakt eingerichtet wurde und Sie einen Aktivitätenvorlagencode für Rahmenaufträge auf der Seite **Marketing & Vertrieb Einr.** angegeben haben, wird eine Aktivität in der Tabelle «Aktivitätenprotokollposten» aufgezeichnet, wenn Sie **Drucken** auswählen, um die Rahmenaufträge zu drucken.
 
 ## <a name="to-view-the-status-of-a-blanket-sales-order"></a>So zeigen Sie den Status eines Rahmenauftrags an:
 
@@ -95,7 +95,7 @@ Die Verknüpfung zwischen dem Rahmenauftrag und dem daraus stammenden Verkaufsau
 
 5.  Klicken Sie auf der Seite **Verkaufszeile** auf Zeile **Beleg anzeigen**, um den Posten anzuzeigen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch 
 
