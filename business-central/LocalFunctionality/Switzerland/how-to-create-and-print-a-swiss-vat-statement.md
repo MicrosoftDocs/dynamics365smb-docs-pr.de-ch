@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11023, 11024
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c00157642f2f6ab0d6dc8d769a540536350b6e87
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d9a7323ebc505f90d6f76c105211b3c6bab51de0
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145998"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617901"
 ---
 # <a name="create-and-print-a-swiss-vat-statement-in-the-swiss-version"></a>Erstellen und Drucken einer Schweizer MWST-Abrechnung in der Schweizer Version
 Auf Grundlage der Informationen, die Sie auf der Seite **MWST-Buchungsmatrix Einr.** angegeben haben, kann [!INCLUDE[prod_short](../../includes/prod_short.md)] automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Gewusst wien in diesem Thema fortfahren, stellen Sie sicher, dass Sie die MWST-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden.  
@@ -36,6 +36,7 @@ Auf Grundlage der Informationen, die Sie auf der Seite **MWST-Buchungsmatrix Ein
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
+    |**Datumsart für Zeitraum**|Gibt den Datumstyp der Periode an, ab der MWST-Posten in der Stapelverarbeitung erfasst werden.|
     |**Startdatum**|Geben Sie das Datum ein, an dem das Zeitintervall für die Anzeige von MWST-Abrechnungszeilen im Bericht beginnen soll.|  
     |**Enddatum**|Geben Sie das Datum ein, an dem das Zeitintervall für die Anzeige von MWST-Abrechnungszeilen im Bericht enden soll.|  
     |**Geschlossen mit MWST-Journalnr.**|Wählen Sie das MWST-Journal aus, das die Buchungsspurcodes der MWST-Regulierungsposten enthält. Mit dieser Option werden also bereits ausgeglichene Abrechnungsperioden ausgewertet. Wenn Sie diese Option nicht wählen, legen Sie in den folgenden **MWST-Posten einschliessen**-Feldern keine Optionen fest.|  
