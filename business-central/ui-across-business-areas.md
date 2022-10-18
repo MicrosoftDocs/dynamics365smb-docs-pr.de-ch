@@ -8,26 +8,27 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
 ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 04/01/2021
+ms.date: 09/19/2022
 ms.author: edupont
-ms.openlocfilehash: 47cd78dc6f706407a0be9814e170054b95e4403d
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655072"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605915"
 ---
 # <a name="general-business-functionality"></a>Allgemeine Geschäftsfunktionen
+
 [!INCLUDE[prod_short](includes/prod_short.md)]stellt dedizierte Funktionen für typische Geschäftsbereiche, wie Finanzen und Personalwesen, bereit. Weitere Informationen finden Sie unter [Business-Funktionalität](across-business-functionality.md).
 
-Und um die bereichsspezifischen Aufgaben des Geschäftes zu unterstützen, können Sie eine Reihe von Geschäftsfunktionalitäten nutzen, wie beispielsweise das Definieren des Zusatztexts für Belegzeilen und das Organisieren von verbindenden Geschäftsaufgaben in den Arbeitsabläufen.
+Und um die berreichsspezifischen Aufgaben des Geschäftes zu unterstützen, können Sie eine Reihe von Geschäftsfunktionalitäten nutzen, wie beispielsweise das Definieren der Zusatztexts für Belegzeilen und das Organisieren von verbindenden Geschäftsaufgaben in den Arbeitsabläufen.
 
 > [!NOTE]
 > Zusätzlich zu den Geschäftsfunktionen, die in diesem Abschnitt beschrieben werden, verwenden Sie weitere alltägliche Benutzeroberflächenfunktionen zur Interaktion mit dem System. Weitere Informationen finden Sie unter [Mit Business Central arbeiten](ui-work-product.md).
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu den entsprechenden Themen, in denen die Bereiche beschrieben werden.
+Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu den Artikeln, in denen die Bereiche beschrieben werden.
 
 | Bis | Informationen |
 | --- | --- |
@@ -42,18 +43,20 @@ Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu
 |Buchen Sie mehrere Kauf- oder Verkaufsbelege gleichzeitig, sofort oder wie geplant.|[Mehrere Belege gleichzeitig buchen](ui-batch-posting.md)|  
 |Überprüfen Sie das Ergebnis der Buchung bevor Sie buchen.|[Vorschau-Buchungs-Ergebnisse](ui-how-preview-post-results.md)|
 |Bearbeiten Sie ausgewählte Felder in gebuchten Verkaufs- oder Einkaufsbelegen.|[Gebuchte Belege bearbeiten](across-edit-posted-document.md)|
-|Informationen zum Arbeiten mit Fibu Erf.-Journalen, die zum Buchen auf Fibukonten sowie auf andere Konten wie Bank-, Debitoren-, Kreditoren- oder Anlagekonten verwendet werden. |[Arbeiten mit Fibu Erfassungsjournalen](ui-work-general-journals.md) |
+| Informieren Sie sich über den verfügbaren Status für Offerten, Bestellungen und Gutschriftbelege, wie **Offen** und **Freigegeben** | [Feld "Status" in Belegen](ui-document-status.md) |
+|Informationen zum Arbeiten mit Fibu Erf.-Journals, die zum Erfassen auf Fibukonten sowie auf andere Konten wie Bank-, Debitoren-, Kreditoren- oder Anlagekonten verwendet werden. |[Arbeiten mit Fibu Erfassungsjournalen](ui-work-general-journals.md) |
 | Sie können einen Bericht planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird. |[Planen der Ausführung eines Berichts](ui-work-report.md#ScheduleReport) |
 |Das System kann Ihnen dabei helfen, Aufgaben schneller und korrekter zu erledigen, indem es Felder oder Zeilen mit Daten ergänzt, die Sie sonst berechnen und manuell eingeben müssten.|[Business Central Werte vorschlagen lassen](ui-let-system-suggest-values.md)|
 |Erfassen Sie externe Belege, einschliesslich Dateianhängen, und erstellen Sie dann manuell die zugehörigen Belege oder wandeln Sie die Dateien automatisch in elektronische Belege um.|[Eingehende Belege](across-income-documents.md)|
 |Konfigurieren und verwenden Sie Workflows, die Aufgaben verbinden, welche von verschiedenen Benutzern oder vom System ausgeführt werden, z. B. die automatische Buchung. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen oder Buchen von Belegen sind typische Workflowschritte.|[Workflow](across-workflow.md)|
 | Richten Sie Datenaustauschdefinitionen ein, damit Sie elektronische Belege versenden und erhalten können. |[Daten elektronisch austauschen](across-data-exchange.md) |
+| Verwenden Sie Online-Karten, um Standorte und Wegbeschreibungen zu Kunden, Lieferanten und Adressen im Allgemeinen zu finden. | [Verwenden Sie Online-Karten, um Standorte und Wegbeschreibungen zu finden](across-online-maps.md) |
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch 
+
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Verwaltung](admin-setup-and-administration.md)
+[Verwaltung](admin-setup-and-administration.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

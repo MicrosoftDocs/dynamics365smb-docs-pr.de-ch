@@ -10,30 +10,37 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6fa22b84284d05d77bd04919403435d99050cded
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f11eeacd21d39a9b816fa763ae333fc4cb4efd54
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517805"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606601"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen
-Wenn Ihre Debitoren Zahlungen an Ihr elektronisches Bankkonto getätigt haben, müssen Sie jeden gezahlten Betrag auf den zugehörigen Verkaufsbeleg anwenden und dann die Zahlung buchen, um die Debitoren-, Fibukonto- und Bankposten zu aktualisieren. Abhängig von den Unternehmensanforderungen können Sie bezahlt werden und die Zahlung auf unterschiedliche Arten erfassen: automatisch und durch Zahlungsverkehr.  
+
+Nachdem Kunden elektronische Zahlungen auf Ihr Bankkonto getätigt haben, müssen Sie die folgenden Massnahmen ergreifen:
+
+* Wenden Sie jede Zahlung auf den entsprechenden gebuchten Verkaufsbeleg an
+* Buchen Sie Zahlungseingänge, um die Debitoren-, Fibuposten- und Bankposten zu aktualisieren. 
+
+Abhängig von den Unternehmensanforderungen können Sie bezahlt werden und die Zahlung auf unterschiedliche Arten erfassen: automatisch und durch Zahlungsverkehr.  
 
 > [!NOTE]  
->   Sie können die selben Aufgaben einschliesslich Debitorenzahlungen auf der Seite **Zahlungsabstimmungserf.-Journal** mithilfe von Funktionalitäten für den Bankkontoauszugsimport ausführen, die automatische Anwendung und die Bankkontoabstimmung verwenden. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
+> Sie können die selben Aufgaben einschliesslich Debitorenzahlungen auf der Seite **Zahlungsabstimmungserf.-Journal** mithilfe von Funktionalitäten für den Bankkontoauszugsimport ausführen, die automatische Anwendung und die Bankkontoabstimmung verwenden. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
-Die Seite **Zahlungsanmeldung erfassen** ist dafür ausgelegt, Sie bei Aufgaben im Zusammenhang mit dem Ausgleich interner Konten unter Verwendung von tatsächlichen Barmittelzahlen zu unterstützen, um sicherzustellen, dass Zahlungen effektiv von Debitoren eingeholt werden. Mit diesem Zahlungsverarbeitungstool können Sie individuelle oder Pauschalzahlungen schnell prüfen und buchen, finanzielle Gebühren für überfällige Zahlungen initiieren, diskontierte Zahlungen in verschiedenen Szenarien verarbeiten und bestimmte unbezahlte Belege finden, für die Zahlungen erfolgt sind.
+Verwenden Sie die Seite **Registrieren Sie Kundenzahlungen**, um interne Konten ausgleichen, indem tatsächliche Kassenzahlen verwendet werden, um sicherzustellen, dass Zahlungen eingezogen werden. Sie können Einzel- oder Pauschalzahlungen schnell prüfen und buchen, Skontozahlungen verarbeiten und unbezahlte Belege finden.
 
-Zahlungen für verschiedene Debitoren, die verschiedene Fälligkeitsdaten haben, müssen als einzelne Zahlungen gebucht werden. Zahlungen für denselben Debitor, der das gleiche Fälligkeitsdatum hat, können als Pauschalzahlung gebucht werden. Dies ist beispielsweise dann nützlich, wenn ein Debitor eine einzelne Zahlung getätigt hat, die mehrere Verkaufsrechnungen umfasst.
+Zahlungen für verschiedene Debitoren, die verschiedene Fälligkeitsdaten haben, müssen als einzelne Zahlungen gebucht werden. Zahlungen für denselben Debitor, der das gleiche Fälligkeitsdatum hat, können als Pauschalzahlung gebucht werden. Pauschalzahlungen sind beispielsweise dann nützlich, wenn ein Debitor eine einzelne Zahlung getätigt hat, die mehrere Verkaufsrechnungen umfasst.
 
 ## <a name="to-set-up-the-payment-registration-journal"></a>Zahlungsregistrierungserf.-Journal einrichten
 Da Sie verschiedene Zahlungsarten auf verschiedene Gegenkonten buchen können, müssen Sie ein Gegenkonto auf der Seite **Zahlungsanmeldungs-Einrichtung** auswählen, bevor Sie die Bearbeitung von Debitorenzahlungen starten. Wenn Sie immer auf das gleiche Gegenkonto buchen, können Sie dieses Konto als Standardwert festlegen und diesen Schritt jedes Mal vermeiden, wenn Sie die Seite **Debitorenzahlung erfassen** öffnen.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Einrichtung der Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Einrichtung der Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link. Sie können auch auf der Seite **Debitorenzahlung erfassen** die Aktion **Einrichten** auswählen.
+2. Füllen Sie die Felder auf der Seite **Zahlungserfassungseinrichtung** aus. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)] Wählen Sie ein Feld aus, um eine kurze Beschreibung des Feldes zu lesen oder einen Link für weitere Informationen zu öffnen.  
 
-    Wählen Sie auf der Seite **Debitorenzahlung erfassen** die Aktion **Einrichten** aus.    
-2. Füllen Sie die Felder auf der Seite **Zahlungserfassungseinrichtung** aus. Wählen Sie ein Feld aus, um eine kurze Beschreibung des Feldes zu lesen oder einen Link für weitere Informationen zu öffnen.  
+> [!TIP]
+> Um später Buchungen, die über das Erf.-Journal gebucht wurden, leichter identifizieren zu können, können Sie dem Erf.-Journal eine bestimmte Nummernserie zuweisen. Dies ist hilfreich, wenn Sie Zahlungsabstimmungsjournale verwenden, um Zahlungen zu registrieren und anzuwenden.
 
 ## <a name="to-register-customer-payments-individually"></a>Um Debitorenzahlungen einzeln zu erfassen
 
@@ -46,7 +53,7 @@ Da Sie verschiedene Zahlungsarten auf verschiedene Gegenkonten buchen können, m
 3. Geben Sie im Feld **Empfangsdatum** das Datum ein, an dem die Zahlung gemacht wurde. Dieses Datum kann vom Arbeitsdatum abweichen.  
 4. In dem Feld **Betrag erhalten** geben Sie den Betrag ein, der bezahlt worden ist.
 
-    Für gesamte Zahlungen ist es der gleiche Betrag wie der Betrag im Feld **Verbleibender Betrag** in der Zeile. Für Teilzahlungen ist der Betrag niedriger als der Betrag im Feld **Verbleibender Betrag** in der Zeile.    
+    Für gesamte Zahlungen ist dies der gleiche Betrag wie der Betrag im Feld **Verbleibender Betrag** in der Zeile. Für Teilzahlungen ist dieser Betrag niedriger als der Betrag im Feld **Verbleibender Betrag** in der Zeile.
 5. Wiederholen Sie die Schritte 2-4 für andere Zeilen, die gebuchte Belege darstellen, für die Zahlungen getätigt wurden.  
 6. Wählen Sie die Aktion **Zahlung buchen** aus.  
 
@@ -75,21 +82,21 @@ Zahlungsposten werden im Fibuposten, Bank und in Debitorenkonten gebucht. Jede Z
 
 Zahlungseingänge werden in Fibuposten, Bank und in Debitorenkonten gebucht. Jede Zahlung wird für den entsprechenden gebuchten Verkaufsbeleg angewandt.  
 
-Wenn eine Zahlung in der Bank nicht durch Zeile auf der Seite **Zahlungserfassung** angegeben wird, kann dies sein, da der zugehörige Beleg noch nicht gebucht wurde. In diesem Fall können Sie eine Suchfunktion verwenden, um den Beleg zu buchen und schnell zu suchen, um die Zahlung zu verarbeiten. Weitere Informationen finden Sie unter [Bestimmten Verkaufsbeleg suchen, der nicht vollständig fakturiert wurde](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
+Wenn eine Zahlung in der Bank nicht durch Zeile auf der Seite **Zahlungserfassung** angegeben wird, kann dies sein, da der zugehörige Beleg noch nicht gebucht wurde. In diesem Fall können Sie eine Suchfunktion verwenden, um den Beleg zu buchen und schnell zu suchen, um die Zahlung zu verarbeiten. Weitere Informationen finden Sie unter [Bestimmten Verkaufsbeleg suchen, der nicht vollständig fakturiert wurde](#to-find-a-specific-sales-document-that-isnt-fully-invoiced).  
 
-Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben wird, dann können Sie eine Fibu Erf.-Journalzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Erf.-Journal buchen, bis der Ursprung der Zahlung gelöst wurde. Weitere Informationen finden Sie im Abschnitt [Zahlung ohne zugehörigen Beleg erfassen oder buchen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
+Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben wird, dann können Sie eine Fibu Erf.-Journalzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Fibukonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Erf.-Journal buchen, bis der Ursprung der Zahlung gelöst wurde. Weitere Informationen finden Sie im Abschnitt [Zahlung ohne zugehörigen Beleg erfassen oder buchen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
-## <a name="to-process-customer-payments-with-discounts-manually"></a>Manuelle Verarbeitung von Zahlungen mit Rabatten
+## <a name="to-process-customer-payments-with-discounts-manually"></a>Vorgehensweise: Manuelle Verarbeitung von Zahlungen mit Rabatten
 Wenn Sie ein Skonto mit dem Debitor vereinbart haben, können die Zahlungsbeträge niedriger als die fakturierten Beträge sein, wenn die Zahlung vor dem vereinbarten Skontodatum auftritt.  
 
 Dieses Thema erläutert vier verschiedene Verfahren zum Buchen von verbilligten Zahlungen auf der Seite **Zahlungserfassung**.  
 
 * Der Zahlungsbetrag entspricht dem diskontierten Betrag und dessen Zahlungsdatum liegt vor dem Rabattdatum. Sie buchen die Zahlung, wie sie ist.  
-* Der Zahlungsbetrag entspricht dem diskontierten Betrag, aber dessen Zahlungsdatum liegt nach dem Rabattdatum. Sie buchen die Zahlung als Teilzahlung. Der Beleg bleibt offen, um den Restbetrag einzufordern/zu bezahlen. Alternativ legen Sie das Rabattdatum später fest, um die vollständige Bezahlung zu ermöglichen.  
+* Der Zahlungsbetrag entspricht dem diskontierten Betrag, aber dessen Zahlungsdatum liegt nach dem Skontodatum. Sie buchen die Zahlung als Teilzahlung. Der Beleg bleibt offen, um den Restbetrag einzufordern/zu bezahlen. Sie können das Skontodatum später festlegen, um die vollständige Bezahlung zu ermöglichen.  
 * Die Zahlungssumme ist niedriger als der verbleibende diskontierte Betrag. Sie buchen die Zahlung als Teilzahlung. Der Beleg bleibt offen, um den Restbetrag einzufordern/zu bezahlen.  
-* Die Zahlungssumme ist höher als der verbleibende diskontierte Betrag. Sie buchen die Zahlungen, wie sie sind. Nur der Restbetrag wird gebucht. Der zusätzliche Betrag wird dem Debitor gutgeschrieben.  
+* Die Zahlungssumme ist höher als der verbleibende diskontierte Betrag. Sie buchen die Zahlungen, wie sie sind. Nur der Restbetrag wird gebucht. Der extra Betrag wird dem Debitor gutgeschrieben.  
 
-### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Zahlungsbetrag verarbeiten, der dem diskontierten Betrag entspricht und dessen Zahlungsdatum vor dem Rabattdatum liegt
+### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Zahlungsbetrag verarbeiten, der dem diskontierten Betrag entspricht und dessen Zahlungsdatum vor dem Skontodatum liegt
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist gleich wie der Betrag im Feld **Restbetrag nach Rabatt**.
 
@@ -138,12 +145,12 @@ Der zugehörige Beleg bleibt offen.
 
 Der zugehörige Beleg ist abgeschlossen, und dem Debitor wird der Überzahlungsbetrag gutgeschrieben.  
 
-## <a name="to-find-a-specific-sales-document-that-is-not-fully-invoiced"></a>Bestimmten Verkaufsbeleg suchen, der nicht vollständig fakturiert wurde
+## <a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced"></a>Bestimmten Verkaufsbeleg suchen, der nicht vollständig fakturiert wurde
 Die Seite **Zahlungserfassungs** unterstützt Sie bei Aufgaben, die interne Konten mit tatsächlichen Bargeldabbildungen ausgleichen müssen, um die effektive Sammlung von Debitoren sicher zu stellen. Es zeigt ausstehende eingehende Zahlungen als Zeilen an, welche Verkaufsbelege darstellen, in denen ein Betrag zur Zahlung fällig ist.  
 
 Wenn eine Zahlung erfolgt ist, auf der Bank oder anderweitig verzeichnet wurde, wird normalerweise der zugehörige Verkaufs- oder Einkaufsbeleg als Zeile auf der Seite **Zahlungserfassung** dargestellt, da für den betreffenden Beleg die Zahlung noch für den ausstehenden Betrag gebucht werden muss. Manchmal wird jedoch eine Zahlung, die geleistet wurde, nicht durch eine Zeile auf der Seite **Zahlungserfassung** dargestellt, da der jeweilige Beleg üblicherweise nicht vollständig fakturiert wurde.
 
-Auf der Seite **Beleg suchen** können Sie in Belegen suchen, die nicht vollständig fakturiert wurden. Sie können basierend auf einer oder mehrerer der folgenden Kriterien suchen:  
+Auf der Seite **Dokument suchen** können Sie aus Belegen suchen, die nicht vollständig fakturiert wurden. Sie können basierend auf einer oder mehrerer der folgenden Kriterien suchen:  
 
 * Belegnummer  
 * Betrag oder Betragsbereich  
@@ -164,22 +171,20 @@ Nachfolgend wird erklärt, wie man einen bestimmten Beleg findet, indem man beid
 
 Die Suchfunktion sucht unter Belegen, die nicht vollständig fakturiert sind basierend auf den angegebenen Kriterien.  
 
-Wenn einer oder mehrere Belege mit den Suchkriterien im Feld **Ergebnis Belegsuche** übereinstimmen, dann öffnet sich die Seite, um Zeilen anzuzeigen, die diese Belege darstellen. Jede Zeile enthält eine Belegnummer, eine Beschreibung und Betrag, sodass Sie einen bestimmten Beleg einfach suchen können, zum Beispiel basierend auf Informationen über Ihren Bankkontoauszug.  
+Wenn einer oder mehrere Belege mit den Suchkriterien im Feld **Ergebnis Belegsuche** übereinstimmen, dann öffnet sich die Seite, um Zeilen anzuzeigen, die diese Belege darstellen. Jede Zeile enthält eine Belegnummer, eine Beschreibung und einen Betrag. Diese Informationen erleichtern das Auffinden eines bestimmten Dokuments.
 
-Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben wird, dann können Sie eine Fibu Erf.-Journalzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Erf.-Journal buchen, bis der Ursprung der Zahlung gelöst wurde.  
+Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben wird, dann können Sie eine Fibu Erf.-Journalzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Fibukonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Erf.-Journal buchen, bis der Ursprung der Zahlung gelöst wurde.  
 
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Zahlung ohne zugehörigen Beleg erfassen oder buchen
-Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben wird, dann können Sie eine Fibu Erf.-Journalzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Erf.-Journal buchen, bis der Ursprung der Zahlung geklärt wurde.  
+Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben wird, dann können Sie eine Fibu Erf.-Journalzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Fibukonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Erf.-Journal buchen, bis der Ursprung der Zahlung geklärt wurde.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.  
-
-    Fahren Sie fort, um eine nicht dokumentierte Zahlung zu erfassen.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Zahlungsregistrierung** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Fibu Erf.-Journal** aus.  
 
-    Die Seite **Fibu Erf.-Journal** wird mit einer Zeile geöffnet, die das Saldokonto des Erfassungsjournals enthält, das auf der Seite **Zahlungserfassungs-Einrichtung** festgelegt ist.  
-3. Füllen Sie die restlichen Felder in der Fibu Erf.-Journalzeile aus, wie den Betrag und die Debitorennummer oder andere Informationen des Kontoauszuges. Weitere Informationen finden Sie unter [Transaktionen direkt im Fibuposten buchen](finance-how-post-transactions-directly.md).  
+    Die Seite **Fibu Erf.-Journal** wird mit einer Zeile geöffnet, die das Saldokonto des Erf.-Journals enthält, das auf der Seite **Zahlungserfassungs-Einrichtung** festgelegt ist.  
+3. Füllen Sie die übrigen Felder jeder Fibu Erf.-Journalzeile aus. Geben Sie beispielsweise den Betrag, die Debitorennummer oder Informationen aus dem Kontoauszug an. Weitere Informationen finden Sie unter [Transaktionen direkt im Fibuposten buchen](finance-how-post-transactions-directly.md).  
 
-Sie können entweder die Erf.-Journalzeile buchen, um die Summe in dem Gegenkonto zu aktualisieren. Alternativ können Sie die Erf.-Journalzeile ungebucht lassen und fügen ggf. mit einer Notiz an, dass die Zahlung mehr Analyse benötigt.  
+Sie können die Erf.-Journalzeile buchen, um die Summe in dem Gegenkonto zu aktualisieren. Alternativ können Sie die Erf.-Journalzeile ungebucht lassen und fügen ggf. mit einer Notiz an, dass die Zahlung mehr Analyse benötigt.  
 
 Wenn Sie die Erf.-Journalzeile nicht buchen lassen, wird der Wert im Feld **Ungebuchter Saldo** am unteren Rand der Seite **Zahlungserfassung** hinzugefügt.  
 

@@ -10,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2d09a05f29f4eaa5f977580509f425073d189262
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: bf0ea7f023eed4dced53477d72ff844d4da04e37
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532742"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617864"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Melden von MWST an die Steuerbehörden
 
@@ -30,7 +30,7 @@ Es können die folgenden integrierten Berichte verwendet werden:
 
     Der Bericht "MWST-Rückgabe" enthält die MWST für Verkäufe und Einkäufe an Debitoren und von Kreditoren in allen Ländern, die MWST verwenden.  
 
-In beiden Fällen wird die Mehrwertsteuer auf der Grundlage der MWST-Buchungseinrichtung und der MWST-Buchungsgruppen berechnet, die Sie festgelegt haben.
+In beiden Fällen wird die Mehrwertsteuer auf der Grundlage der MWST-Buchungseinrichtung und der MWST-Buchungsgruppen berechnet, die Sie festgelegt haben. [!INCLUDE[prod_short](includes/prod_short.md)] zeigt MWST-Posten basierend auf ihrem **Mehrwertsteuerdatum**.
 
 Wenn Sie den gesamten Verlauf von MWST-Posten anzeigen möchten, erstellt jede Buchung, die Mehrwertsteuer beinhaltet, einen Posten auf der Seite **MWST-Posten**. Diese Posten werden verwendet, um Ihren MWST.-Abrechnungsbetrag (Ihrer Zahlung oder Erstattung) für eine bestimmte Periode zu berechnen. Um MWST-Posten einzusehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **MWST-Posten** ein und wählen Sie dann den entsprechenden Link.
 

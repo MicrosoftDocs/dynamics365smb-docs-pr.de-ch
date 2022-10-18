@@ -1,6 +1,6 @@
 ---
-title: Geschäftsjahr und Buchhaltungsperioden schliessen
-description: Gliedert die Aufgaben, um ein Geschäftsjahr abzuschliessen oder Buchhaltungsperiode, beispielsweise der Belege und die Buch.-Blätter sind vergewissernd gebucht überprüfend und Bankguthaben.
+title: Geschäftsjahre und Buchhaltungsperioden schliessen
+description: Gliedert die Aufgaben, um ein Geschäftsjahr oder eine Buchhaltungsperiode abzuschliessen, beispielsweise Vergewissern, dass Belege und die Erfassungsjournale gebucht sind, und Überprüfen von Bankguthaben.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -8,18 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.search.form: 100
-ms.date: 04/01/2021
+ms.date: 08/18/2022
 ms.author: jswymer
-ms.openlocfilehash: 832e0d2d606549f51c9f16884dd8d760c0f81a79
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: a6b21fd03cbfebdefb102074e97121bf2187bf49
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535465"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605942"
 ---
 # <a name="closing-years-and-periods"></a>Beenden von Jahresabschluss und Perioden
 
-Am Ende eines Geschäftsjahrs gibt es einige Verwaltungsaufgaben, die Sie ausführen müssen, wie das Sicherstellen, dass alle Belege und Buch.-Blätter gebucht sind und dass alle Währungsdaten aktuell sind, die Bücher abschliessen und weiteres. Die tatsächlichen Aufgaben hängen von Ihrem Unternehmen ab.
+Am Ende eines Geschäftsjahrs gibt es einige Verwaltungsaufgaben, die Sie ausführen müssen, wie das Sicherstellen, dass alle Belege und Erfassungsjournale gebucht sind und dass alle Währungsdaten aktuell sind, die Bücher abschliessen und weiteres. Die tatsächlichen Aufgaben hängen von Ihrem Unternehmen ab.
 
 Die folgende Tabelle enthält einen Überblick über die Aufgaben, die Sie üblicherweise ausführen, um ein Jahr und eine Periode zu schliessen.
 
@@ -27,22 +27,21 @@ Die folgende Tabelle enthält einen Überblick über die Aufgaben, die Sie übli
 | --- | --- |
 | Definieren Sie Ihr Geschäftsjahr und unterteilen Sie es in Perioden, zu denen die Finanzleistung gemeldet wird. | [Arbeiten mit Buchhaltungsperioden und Geschäftsjahren](finance-accounting-periods-and-fiscal-years.md)|
 | Geben Sie systemweite und benutzerspezifische Buchungsdatumsbereiche an. Je nach Geschäftsanforderungen empfiehlt es sich, die Buchungsdatumsbereiche für Benutzer zu Beginn und am Ende des Periodenabschlusses einzugrenzen. |[Festlegen von Buchhaltungsperioden:](finance-how-specify-posting-periods.md) |
-| Verschaffen Sie sich einen Überblick über die Aktivitäten, die üblicherweise am Ende einer Periode fällig werden wie Buchen aller Belege und Erfassungsjournale oder das Ausführen eines Kontenschemas. |[Schliessen der Perioden](year-how-complete-period-end-processes.md) |
+| Verschaffen Sie sich einen Überblick über die Aktivitäten, die üblicherweise am Ende einer Periode fällig werden wie Buchen aller Belege und Erfassungsjournale oder das Ausführen von Finanzberichten. |[Schliessen der Perioden](year-how-complete-period-end-processes.md) |
 | Aktualisieren von Wechselkursen und Anpassen der Wechselkurse gebuchter Debitoren-, Kreditoren- und Bankkontoposten |[Währungswechselkurse aktualisieren](finance-how-update-currencies.md) |
 | Verteilen von Kosten und Umsatz auf Konten und Dimensionen |[Kosten und Einkünfte zuteilen](year-allocate-costs-income.md) |
-| Definieren Sie, wie Sie Dienstleistungssteuerbeträge erstellen, die Sie für Verkäufe an das Finanzamt eingetrieben haben. |[Melden von MWST an die Steuerbehörden](finance-how-report-vat.md)|
-| Drucken von Berichten zum Prüfen der Salden von Fibuposten, Debitoren, Kreditoren und Bankkonten vor dem Periodenabschluss |[Vorabschlussberichte vorbereiten](year-prepare-preclose-reports.md) |
-| Abschliessen der Buchhaltungsperioden, Übertragen der Erfolgsrechnungsbilanzen auf Bilanzkonten und Buchen des .Jahresabschlusspostens. |[Schliessen der Bücher](year-close-books.md) |
+| Definieren Sie, wie Sie Salestaxbeiträge erstellen, die Sie für Verkäufe an das Finanzamt eingetrieben haben. |[Melden von MWST an die Steuerbehörden](finance-how-report-vat.md)|
+| Drucken von Berichten zum Prüfen der Salden von Finanzbuchhaltung, Debitoren, Kreditoren und Bankkonten vor dem Periodenabschluss |[Vorabschlussberichte vorbereiten](year-prepare-preclose-reports.md) |
+| Abschliessen der Buchhaltungsperioden, Übertragen der Erfolgsrechnung-Salden auf Bilanzkonten und Buchen des .Jahresabschlusspostens. |[Schliessen der Bücher](year-close-books.md) |
 | Drucken von Berichten zur Unterstützung beim Erstellen von Finanzauswertungen |[Abschlussberichte vorbereiten](year-prepare-close-statement.md) |
 
 ## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch 
 
 [Arbeiten mit Buchhaltungsperioden und Geschäftsjahren](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
