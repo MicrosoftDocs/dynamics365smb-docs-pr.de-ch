@@ -10,16 +10,16 @@ ms.search.keywords: Data exchange framework, data files, data exchange, electron
 ms.search.form: 189,
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: c48d6a304e0938bbae70e61545b4a4e8d72fbdde
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d5c8a96066311eb7e2050507b6c4f27066a70f62
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134396"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744665"
 ---
 # <a name="about-the-data-exchange-framework"></a>Über das Datenaustauschframework
 
-Sie können das Datenaustauschframework verwenden, um den Austausch von Geschäftsbelegen, Bankdateien, Währungswechselkursen und sämtlichen anderen Datendateien mit Ihren Geschäftspartnern zu verwalten.
+Sie können das Datenaustauschframework verwenden, um den Austausch von Geschäftsbelegen, Bankdateien, Währungswechselkursen und sämtlichen anderen Datendateien mit Ihren Geschäftspartnern oder Behörden zu verwalten.
 
 Als Administrator oder Microsoft-Partner können Sie das Framework in neuen Integrationsfunktionen verwenden, indem Sie festlegen, welche Daten ausgetauscht werden sollen und wie. Beispielsweise das Format von Dateien zum Austausch von Daten in den Bankdateien, von elektronischen Belegen, von Währungswechselkursen und anderen mit ERP-Systemen variieren abhängig vom Anbieter der Datendatei oder des Streams und von Land/Region. [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt verschiedene Bankdateiformate und Datendienststandards. Um Unterstützung für andere elektronische Belegformate zu bieten, verwenden Sie das Datenaustauschframework.
 
@@ -58,6 +58,10 @@ Um SEPA-Gutschriftübertragungen zu exportieren, wählen Sie die Schaltfläche *
 Sie können einen externen Service einrichten, um Ihre Währungswechselkurses auf dem neuesten Stand zu halten. Der Service, der aktualisierte Währungswechselkurses bereitstellt, wird durch eine Datenaustauschdefinition aktiviert. Entsprechend wird die **Wechselkursaktualisierungskarte einrichten** Seite eine verkürzte Darstellungsform des Fensters **Datenaustauschdefinition** für die entsprechenden Datenaustauschdefinition.  
 
 Für den gesamten Austausch von Daten in XML-Dateien können Sie die Einrichtung des Datenaustausches vorbereiten, indem Sie die zugehörige **XML-Schemadatei** auf die Seite laden. Hier wählen Sie die Datenelemente aus, die Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] austauschen möchten, und dann initialisieren Sie entweder eine Datenaustauschdefinition oder generieren einen XMLport.
+
+## <a name="intrastat"></a>Intrastat
+
+[!INCLUDE[prod_short](includes/prod_short.md)] verwendet das Datenaustausch-Framework für Intrastat-Berichte, wo Sie auf einfache Weise Zeitstempeldateien in verschiedenen Formaten für den Export erstellen können. [!INCLUDE[prod_short](includes/prod_short.md)] enthält vorbereitete Formate für lokalisierte Länder sowie für die Standardversion. Sie können den Standardbericht jedoch ändern oder einen eigenen erstellen.
 
 ## <a name="see-also"></a>Siehe auch
 
