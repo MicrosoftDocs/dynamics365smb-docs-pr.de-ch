@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
-ms.date: 07/08/2022
+ms.date: 12/01/2022
 ms.author: bholtorf
-ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
-ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
+ms.openlocfilehash: d401e6d9a0b8fb4f05bcc379322b2f81bfc03c57
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: de-CH
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "9617926"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822443"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Berechnungen einrichten und Buchungsmethoden für Salestax
 
@@ -234,6 +234,11 @@ Um MWST. bei Verkäufen in EU-Länder/-Regionen korrekt zu berechnen, gehen Sie 
 * Weisen Sie die MWST.-Geschäftsbuchungsgruppen im Feld **MWST.-Geschäftsbuchungsgruppe** auf dem Inforegister **Fakturierung** der Debitorenkarte jedes EU-Debitors zu. Sie sollten auch die USt-IdNr. des Debitors im Feld **USt-IdNr.** im Inforegister **Aussenhandel** eingeben.  
 
 Wenn Sie einen Verkauf an einen Debitor in einem anderen EU-Land/einer anderen EU-Region buchen, wird der MWST.-Betrag berechnet und ein MWST.-Posten mit Informationen zur Erwerbssteuer und zur MWST.-Bemessungsgrundlage (der zur Berechnung der MWST. verwendete Betrag) erstellt. Auf die MWST-Konten in der Finanzbuchhaltung werden keine Posten gebucht.
+
+Wenn Sie die Kombination aus MWST-Geschäftsbuchungsgruppe und MWST-Produktbuchungsgruppe in den regelmässigen MWST-Erklärungen als Dienstleistung aufführen möchten, markieren Sie das Feld **EU-Service**.
+
+> [!NOTE]  
+> Das Feld **EU-Service** gilt nur für MWST-Berichte. Das Feld steht in keinem Zusammenhang mit den Funktionen **Service-Deklaration** oder **Intrastat für Dienstleistungen** .
 
 ## <a name="vat-rounding-for-documents"></a>MWST-Rundung für Belege
 
