@@ -1,32 +1,27 @@
 ---
 title: Kundenpreisgruppen festlegen
-description: Erfahren Sie, wie Sie Kundenpreisgruppen festlegen und Verkaufspreise für diese Gruppen erstellen.
+description: 'Erfahren Sie, wie Sie Kundenpreisgruppen festlegen und Verkaufspreise für diese Gruppen erstellen.'
 author: jill-kotel-andersson
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customer price groups, discounts, sales prices
+ms.search.keywords: 'customer price groups, discounts, sales prices'
 ms.date: 09/30/2021
 ms.author: edupont
-ms.openlocfilehash: 9abd79500966a946228834166ef554e6a3e70911
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950079"
 ---
-# <a name="set-up-customer-price-groups"></a>Kundenpreisgruppen festlegen
+
+# Kundenpreisgruppen festlegen
   
 Die Verkaufspreise können von den Kundengruppen, an die Sie verkaufen, abhängig gemacht werden. Diese werden als Debitorenpreisgruppen bezeichnet.
 
 Bevor Sie Kundenpreisgruppen festlegen, müssen Sie entscheiden, wie viele Gruppen Sie haben möchten und welche Kunden zu den einzelnen Gruppen gehören werden.  
 
-## <a name="how-to-create-sales-prices-for-a-group-of-customers"></a>So erstellen Sie Verkaufspreise für eine Gruppe von Kunden  
+## So erstellen Sie Verkaufspreise für eine Gruppe von Kunden  
 
 Wenn Sie sich auf die Preise geeinigt haben, die die Gruppe von Kunden für bestimmte Artikel zahlen wird, registrieren Sie die Vereinbarung für die einzelnen Artikel in den Zeilen auf der Seite **Verkaufspreise**.
 
-### <a name="to-create-sales-prices-for-a-group-of-customers"></a>Um Verkaufspreise für eine Gruppe von Kunden zu erstellen
+### Um Verkaufspreise für eine Gruppe von Kunden zu erstellen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Kundenpreisgruppen** ein und wählen Sie dann den entsprechenden Link.  
 
@@ -48,11 +43,11 @@ Wenn Sie sich auf die Preise geeinigt haben, die die Gruppe von Kunden für best
 
 Wiederholen Sie die Schritte 4 bis 8 für jedes Element, für das Sie einen Verkaufspreis erstellen möchten.
 
-## <a name="how-to-enter-customer-price-group-codes-on-customer-cards"></a>So geben Sie Debitorenpreisgruppen-Codes auf Kundenkarten ein  
+## So geben Sie Debitorenpreisgruppen-Codes auf Kundenkarten ein  
 
 Nachdem Sie die Kundenpreisgruppen festgelegt haben, können Sie die Kundenpreisgruppen-Codes auf den Kundenkarten eingeben.
 
-### <a name="to-enter-customer-price-group-codes-on-a-customer-card"></a>Um Kundenpreisgruppen-Codes auf einer Kundenkarte einzugeben  
+### Um Kundenpreisgruppen-Codes auf einer Kundenkarte einzugeben  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link aus.  
 
@@ -61,7 +56,7 @@ Nachdem Sie die Kundenpreisgruppen festgelegt haben, können Sie die Kundenpreis
 3. Wählen Sie auf dem Inforegister **Fakturierung** im Feld **Debitorenpreisgruppe** den Code **Debitorenpreisgruppe**.  
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

@@ -1,6 +1,6 @@
 ---
 title: Verbrauchsausgabe für Produktauftrag registrieren
-description: Dieses Thema erklärt, wie Sie den Verbrauch und die Ausgabe für eine freigegebene Fertigungsauftrags-Zeile registrieren, die auf der Seite Fertigungsjournal angezeigt wird.
+description: 'Dieses Thema erklärt, wie Sie den Verbrauch und die Ausgabe für eine freigegebene Fertigungsauftrags-Zeile registrieren, die auf der Seite Fertigungsjournal angezeigt wird.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 01e62e4a767ac26967e228ef27a2dadcc0e3ff03
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516097"
 ---
-# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile
+# Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile
 
 Diese Ausführungsaufgabe wird auf der Seite **Produktions Erf.-Journal** ausgeführt. In diesem Erfassungsjournal werden die Funktionen des separaten FA-Verbrauchs Erf.-Journals und des FA-Istmeldungs Erf.-Journals in einem Erfassungsjournal kombiniert. Auf das kombinierte Erfassungsjournal wird direkt von einem freigegebenen Fertigungsauftrag aus zugegriffen. Es dient hauptsächlich dazu, den Verbrauch von Komponenten, die Menge der gefertigten Endartikel und die für die Arbeitsgänge aufgewendete Zeit manuell zu buchen. Die Werte werden als Posten unter dem freigegebenen Fertigungsauftrag gebucht. Verbrauchsmengen werden als negative Lagerposten gebucht, fertig gestellte Mengen werden als positive Posten gebucht, und die aufgewendeten Zeiten werden als Kapazitätsposten gebucht. Solche gebuchten Posten können auch unten im Erfassungsjournal als Ist-Mengen angezeigt werden.  
 
@@ -26,7 +20,7 @@ Diese Ausführungsaufgabe wird auf der Seite **Produktions Erf.-Journal** ausgef
 > [!NOTE]  
 >  Komponenten ohne Verbindungscodes werden im Erfassungsjournal zuerst aufgeführt.  
 
-## <a name="to-register-consumption-and-output"></a>Verbrauch und Istmeldungen registrieren  
+## Verbrauch und Istmeldungen registrieren  
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Geben Sie im Symbol **Freigegebene Prod. Orders** ein und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie eine freigegebene FA-Zeile, die zur Registrierung bereitsteht. Klicken Sie auf dem Inforegister **Zeilen** auf die Aktion **Zeilen** und klicken Sie dann auf **Produktions Erf.-Journal**.  
 
@@ -64,7 +58,7 @@ Wenn Werte zu buchen übrig bleiben, enthält das Erfassungsjournal beim nächst
 > [!WARNING]  
 >  Die Seite **Produktions Erf.-Journal** kann nicht von zwei Benutzern gleichzeitig verwendet werden. Das bedeutet, wenn Benutzer 2 die Seite öffnet und Daten eingibt, wenn Benutzer 1 bereits auf der Seite arbeitet, dann verliert möglicherweise Benutzer 2 Daten, wenn Benutzer 1 die Seite schliesst.  
 
-## <a name="see-also"></a>Siehe auch  
+## Siehe auch  
 [Bearbeitungen](production-manage-manufacturing.md)    
 [Produktion einrichten](production-configure-production-processes.md)  
 [Planung](production-planning.md)      

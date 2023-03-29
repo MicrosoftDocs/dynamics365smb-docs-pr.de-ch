@@ -1,35 +1,29 @@
 ---
 title: Richten Sie Ihre benutzerdefinierten Farbindikatoren für die Aktivität eines Cues ein
-description: Als Administrator können Sie Stapel einrichten, die in den Rollencentern des Benutzers mit einem Indikator angezeigt werden, dessen Farbe sich basierend auf den Datenwerten in den Stapeln ändert.
+description: 'Als Administrator können Sie Stapel einrichten, die in den Rollencentern des Benutzers mit einem Indikator angezeigt werden, dessen Farbe sich basierend auf den Datenwerten in den Stapeln ändert.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9701, 9702
+ms.search.form: '9701, 9702'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b549e288c64aa2a15b2e2644bb4e8239074175a9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132173"
 ---
-# <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Einrichten eines farbigen Indikators auf Stapeln für das ganze Unternehmen oder einzelne Benutzer
+# Einrichten eines farbigen Indikators auf Stapeln für das ganze Unternehmen oder einzelne Benutzer
 
 Als Administrator können Sie Stapel einrichten, die in den Rollencentern des Benutzers mit einem Indikator angezeigt werden, dessen Farbe sich basierend auf den Datenwerten in den Stapeln ändert.  
 
 Der Indikator erscheint als farbige Leiste an der oberen Kante der Stapelfläche. Es wird ein optisches Signal zu dem Status der Aktivität des Stapels angezeigt, dss Bedingungen (vorteilhaft oder ungünstig) angeben kann, und den Benutzer auffordern kann, Massnahmen zu ergreifen. Wenn beispielsweise ein Stapel laufende Verkaufsrechnungen angezeigt, können Sie die Markierung so einrichten, dass sie grün (vorteilhaft) angezeigt wird, wenn die Gesamtanzahl laufender Verkaufsrechnungen unter 10 ist, und in Rot (ungünstig), wenn die Anzahl grösser als 20 ist.  
 
-Auf der Seite **Stapel einrichten** können Sie Indikatoren für alle Stapel einrichten, die in der Unternehmensdatenbank verfügbar sind. Sie können die Indikatoren so einrichten wollen, dass für alle Benutzer im Unternehmen oder nur für einen einzigen Benutzer gelten. Die Indikatoreinstellungen auf der Seite **Stapeleinrichtung** werden als Standard-Indikatoreinstellungen verwendet. Wenn die **Stapeleinrichtung Endnutzer**-Seite den Benutzern zugänglich gemacht wird, können sie die Indikatoreinstellungen personalisieren, die Sie im **Stapeleinrichtung**-Fenster festlegen.  
+Auf der Seite **Stapel einrichten** können Sie Indikatoren für alle Stapel einrichten, die in der Unternehmensdatenbank verfügbar sind. Sie können die Indikatoren so einrichten wollen, dass für alle Benutzer im Unternehmen oder nur für einen einzigen Benutzer gelten. Die Indikatoreinstellungen auf der Seite**Stapeleinrichtung** werden als Standard-Indikatoreinstellungen verwendet. Wenn die **Stapeleinrichtung Endnutzer**-Seite den Benutzern zugänglich gemacht wird, können sie die Indikatoreinstellungen personalisieren, die Sie im **Stapeleinrichtung**-Fenster festlegen.  
 
 Um den Indikator einzurichten, geben Sie bis zu zwei Schwellenwerte an, die drei Bereiche von Datenwerten definieren (niedrig, mittel und hoch), die Sie jeweils mit einer anderen Farbe (oder einem anderen Format) anzeigen können.  
 
-### <a name="to-set-up-colored-indicators-on-cues"></a>So richten Sie farbige Indikatoren auf Stapeln ein.  
+### So richten Sie farbige Indikatoren auf Stapeln ein.  
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Stapeleinrichtung** ein und wählen Sie dann den zugehörigen Link.  
 
-     Die Seite **Stapel einrichten** wird angezeigt. Auf der Seite sind die Indikatoren aufgelistet, die derzeit in Stapeln eingerichtet sind. Indikatoren, die für alle Benutzer im Unternehmen gelten, haben ein leeres **Benutzername**-Feld. Indikatoren, die für einen bestimmten Benutzer gelten, enthalten den **Benutzernamen** im -Feld.  
+     Die Seite **Stapel einrichten** wird angezeigt. Auf der Seite sind die Indikatoren aufgelistet, die derzeit in Stapeln eingerichtet sind. Indikatoren, die für alle Benutzer im Unternehmen gelten, haben ein leeres **Benutzername**-Feld. Indikatoren, die für einen bestimmten Benutzer gelten, enthalten den **Benutzernamen**im -Feld.  
 
     > [!NOTE]  
     >  Wenn Sie einen Mandant-weiten Indikator einrichten und ein Benutzer diesen dann später ändert, dann erscheint ein separater Eintrag für den Indikator in der Liste für diesen Benutzer.  
@@ -53,7 +47,7 @@ Um den Indikator einzurichten, geben Sie bis zu zwei Schwellenwerte an, die drei
     |**HighThreshold**|Gibt den Wert an, ab dem sich die Farbe des Indikators in die im Feld **Stil für oberen Bereich** angegebene Farbe ändert.|  
     |**HighStyle**|Gibt die Farbe des Indikators an, wenn der Wert des Stapels über dem Wert des **Schwellenwert 2**-Feldes ist.|  
 
-     Die folgende Tabelle enthält die Farben, die den Optionen der Felder **LowStyle**, **MiddleStyle** und **HighStyle** entsprechen.  
+     Die folgende Tabelle enthält die Farben, die den Optionen der Felder**LowStyle**, **MiddleStyle** und **HighStyle** entsprechen.  
 
     |  Option  |  Farbe  |  
     |----------|---------|  
@@ -63,7 +57,7 @@ Um den Indikator einzurichten, geben Sie bis zu zwei Schwellenwerte an, die drei
     |**Mehrdeutig**|Gelb|  
     |**Untergeordnet**|Grau|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

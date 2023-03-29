@@ -1,22 +1,16 @@
 ---
 title: Designdetails – Struktur der Buchungsmaschine
-description: Die Buchungsschnittstelle verwendet die Funktionen der Buchungsmaschine, um Datensätze für das Hauptbuch und die MWST-Posten vorzubereiten und einzufügen.
+description: 'Die Buchungsschnittstelle verwendet die Funktionen der Buchungsmaschine, um Datensätze für das Hauptbuch und die MWST-Posten vorzubereiten und einzufügen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: ff1b8330bf804fa89bafa18bf5a3c30471d94afe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131965"
 ---
-# <a name="design-details-posting-engine-structure"></a>Designdetails: Buchungs-Modul-Struktur
+# Designdetails: Buchungs-Modul-Struktur
 Buchungsschnittstelle und verschiedene andere Funktionen in Codeunit 12 verwenden Buchungsmodulfunktionen, um Fibuposten und MWST.-Posten-Datensätze vorzubereiten und einzufügen. Das Buchungsmodul ist auch für Fibupostenjournalerstellung zuständig.  
   
  Die Funktionalität in der folgenden Tabelle stellen ein Standardframework für das Entwerfen von Buchungsverfahren (wie Code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, UnapplyVendLedgEntry und Reverse) und exklusivem Zugriff auf Tabelle 17, Fibuposten bereit.  
@@ -36,7 +30,7 @@ Buchungsschnittstelle und verschiedene andere Funktionen in Codeunit 12 verwende
 |CreateGLEntryVATCollectAdj|Das gleiche wie CreateGLEntry, aber mit zusätzlicher Sammlung von Anpassungen und Speicherung im temporären MWST.-Puffer:<br /><br /> `CollectAdjustment(AdjAmount,GLEntry.Amount,GLEntry."Additional-Currency Amount",OriginalDateSet);`<br /><br /> `InsertVATEntriesFromTemp(DtldCVLedgEntryBuf,GLEntry);`|  
 |CreateGLEntryFromVATEntry|Dasselbe wie CreateGLEntry, kopiert jedoch auch Buchungsgruppen von MWST.-Posten.|  
   
-## <a name="see-also"></a>Siehe auch  
+## Siehe auch  
  [Designdetails: Buchungs-Schnittstellenstruktur](design-details-posting-interface-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

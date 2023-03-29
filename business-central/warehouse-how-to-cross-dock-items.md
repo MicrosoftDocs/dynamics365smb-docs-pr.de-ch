@@ -1,61 +1,73 @@
 ---
 title: Crossdock für Artikel
-description: Die Crossdocking-Funktionalität ist verfügbar, wenn Sie Ihren Lagerort so eingerichtet haben, dass die Bearbeitung des Wareneingangs und der Einlagerung erforderlich ist.
+description: 'Die Crossdocking-Funktionalität ist verfügbar, wenn Sie Ihren Lagerort so eingerichtet haben, dass die Bearbeitung des Wareneingangs und der Einlagerung erforderlich ist.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 15, 5703, 7302, 7332, 5768
+ms.search.keywords: null
+ms.search.form: '15, 5703, 7302, 7332, 5768'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a9621393c09de1a4d6cf21789fa1141763d94efe
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513329"
 ---
-# <a name="cross-dock-items"></a>Crossdock für Artikel
-Die Crossdocking-Funktionalität ist verfügbar, wenn Sie Ihren Lagerort so eingerichtet haben, dass die Bearbeitung des Wareneingangs und der Einlagerung erforderlich ist.  
+# Crossdock für Artikel
 
-Wenn Sie Crossdocks für Artikel durchführen, nehmen Sie sie an und liefern sie aus, ohne sie zwischendurch einzulagern, wodurch sich der Prozess der Einlagerung und Kommissionierung beschleunigt und die Bewegung der Artikel begrenzt wird. Crossdock für Artikel kann sowohl für den Warenausgang als auch für Fertigungsaufträge ausgeführt werden. Wenn Sie einen Warenausgang vorbereiten oder Artikel für die Produktion kommissionieren und Sie Lagerplätze verwenden, kommissioniert die Anwendung automatisch die Artikel aus einem Crossdockinglagerplatz, bevor sie andere Lagerplätze berücksichtigt. Sie müssen im Crossdockbereich nachsehen, um festzustellen, ob die Artikel, die Sie benötigen, verfügbar sind, bevor Sie die Artikel aus ihrem normalen Lagerbereich holen.  
+Cross-Docking-Artikel sind Artikel, die Sie erhalten und versenden, ohne sie einzulagern. Die Einlagerungs- und Kommissionierungsprozesse erfordern eine begrenzte Handhabung von Artikeln. Sie können Artikel für den Warenausgang als auch für Fertigungsaufträge zuordnen.
 
-Wenn Sie Crossdocking-Mengen berechnet haben, werden Einlagerungszeilen für den Crossdocklagerplatz für Crossdocking-Berechnungen erzeugt, wenn Sie den Wareneingang buchen. Andere Einlagerungszeilen werden wie üblich erzeugt.  
+## Crossdocklagerplätze und-zonen
 
-Wenn Sie die zugeordneten Artikel sofort buchen möchten, um sie für die Kommissionierung verfügbar zu machen, müssen Sie ebenfalls eine Einlagerung für die anderen Artikel aus der Wareneingangszeile, nämlich die, die eingelagert werden müssen, erfassen. Wenn Crossdock nur für einige der Artikel der Wareneingangszeile ausgefüht wird, müssen Sie sich daher bemühen, die anderen Artikel so schnell wie möglich einzulagern. Alternativ dazu kann Ihre Lagerpolitik so aussehen, dass Sie – wenn möglich – für ganze Wareneingangszeilen Crossdockings durchführen möchten.  
+Wenn Sie Lagerplätze verwenden, richten Sie mindestens einen Crossdocklagerplatz ein und geben dann den Lagerplatz im Feld **Cross-Docking-Lagerplatzcode** an Ihren Lagerorten an. Wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden, richten Sie eine Crossdockzone ein.
 
-In der Einlagerungsanweisung können Sie zu Ihrem Vorteil Anweisungszeilen löschen (sowohl Zeilen der Art "Entnahme" als auch "Einlagerung" für jede Wareneingangszeile), die Wareneingänge betreffen, die vollständig eingelagert werden sollen. Diese Zeilen können später als Einlagerungszeilen aus dem Einlagerungsarbeitsblatt oder dem gebuchten Wareneingang erzeugt werden. Wenn sie gelöscht sind, können Sie die Zeilen, die Crossdockartikel betreffen, einlagern und registrieren.  
+Wenn Sie einen Warenausgang vorbereiten oder Artikel für die Produktion kommissionieren und Sie Lagerplätze verwenden, kommissioniert die Anwendung automatisch die Artikel aus einem Crossdocklagerplatz, bevor sie andere Lagerplätze berücksichtigt. Sie müssen im Crossdockbereich nachsehen, um festzustellen, ob die Artikel, die Sie benötigen, verfügbar sind, bevor Sie die Artikel aus ihrem normalen Lagerbereich holen.  
 
-Wenn Sie das Feld **Einlagerungsarbeitsblatt verwenden** auf der Lagerortkarte ausgewählt und den Wareneingang mit berechneten Crossdockings gebucht haben, werden alle Wareneingangszeilen im Arbeitsblatt verfügbar. Die Informationen zum Crossdock sind verloren und können nicht wiederhergestellt werden. Wenn Sie daher die Crossdocking-Funktionalität nutzen möchten, sollten Sie Zeilen in den Einlagerungsarbeitsblatt übertragen, indem Sie Einlagerungsanweisungen löschen, anstatt die automatische Übertragungsfunktion im Feld **Einlagerungsarbeitsblatt verwenden** zu nutzen.  
+Wenn Sie Crossdockmengen berechnet haben, werden Einlagerungszeilen für den Crossdocklagerplatz für Crossdockberechnungen erzeugt, wenn Sie den Wareneingang buchen. Andere Einlagerungszeilen werden wie üblich erzeugt.  
 
-Wenn Sie den Wareneingang buchen, und sich kein Häkchen im Feld **Einlagerungsarbeitsblatt verwenden** befindet, erscheinen die Artikel, für die Crossdockings durchgeführt werden sollen, als einzelne Zeilen in der Einlagerungsanweisung. Das Feld **Crossdockinformation** in jeder Einlagerungszeile zeigt an, ob die Zeile zugeordnete Artikel, Artikel aus demselben Wareneingang, die alle eingelagert werden sollen, oder Artikel, die eingelagert werden sollen und aus einer Wareneingangszeile stammen, in der einige Artikel zugeordnet werden sollen, enthält. Mit diesem Feld können die Mitarbeiter schnell sehen, warum nicht die volle Menge eingelagert werden soll.  
+## Crossdockauswahlpositionen für einen Eingang
 
-Die Anwendung speichert keine eigenen Datensätze von Artikeln, die zugeordnet wurden, sondern erfasst sie als normale Einlagerungsanweisungen.  
+<!--If a receipt contains items that you want to store, that is, items that you are not cross-docking, you must register a put-away for those items.-->
 
-## <a name="to-set-up-the-warehouse-for-cross-docking"></a>So richten Sie die Logistik für Crossdockings ein:  
-1.  Richten Sie mindestens einen Crossdocklagerplatz ein, wenn Sie Lagerplätze verwenden. Richten Sie eine Crossdockzone ein, wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden.  
+Wenn Sie die zugeordneten Artikel sofort buchen möchten, um sie für die Kommissionierung verfügbar zu machen, müssen Sie ebenfalls eine Einlagerung für die anderen Artikel aus der Wareneingangszeile, nämlich die, die eingelagert werden müssen, erfassen. Wenn Crossdock nur für einige der Artikel der Wareneingangszeile ausgefüht wird, müssen Sie sich daher bemühen, die anderen Artikel so schnell wie möglich einzulagern. Alternativ dazu kann Ihre Lagerpolitik so aussehen, dass Sie – wenn möglich – für ganze Wareneingangszeilen Crossdockings durchführen möchten.
+
+Löschen Sie in der Einlagerungsanweisung die Entnahme- und Kommissionierungsanweisungszeilen für jede Wareneingangszeile für die einzulagernden Artikel. Sie können die Anweisungszeilen später als Einlagerungszeilen aus dem Einlagerungsarbeitsblatt oder dem gebuchten Wareneingang neu erzeugen. Nachdem Sie die Anweisungszeilen gelöscht haben, können Sie die Zeilen für Crossdockartikel einlagern und registrieren.  
+
+## Infos zum Einlagerungsarbeitsblatt
+
+Wenn Sie den Schalter **Einlagerungsarbeitsblatt verwenden** auf der Seite Lagerortkarte aktivieren und den Wareneingang mit berechneten Zuordnungen gebucht haben, werden alle Wareneingangszeilen im Arbeitsblatt verfügbar. Die Informationen zum Crossdock sind verloren und können nicht wiederhergestellt werden. Um also die Crossdockfunktionalität zu nutzen, sollten Sie Zeilen in das Einlagerungsarbeitsblatt übertragen, indem Sie Einlagerungsanweisungen löschen, anstatt die automatische Übertragungsfunktion im Feld **Einlagerungsarbeitsblatt verwenden** zu nutzen.  
+
+Wenn Sie den Wareneingang buchen, und der Schalter **Einlagerungsarbeitsblatt verwenden** deaktiviert ist, werden die Crossdockartikel zu einzelnen Zeilen in der Einlagerungsanweisung. Das Feld **Cross-Dock-Informationen** auf jeder Einlagerungsposition zeigt an, ob die Zeile Folgendes enthält:
+
+* Crossdockartikel.
+* Alle Artikel einer Eingangs müssen gelagert werden.
+* Einige Artikel aus einem Wareneingang müssen gelagert werden, und andere sollen Cross-Docking sein.
+
+Mitarbeiter können leicht nachvollziehen, warum nicht die volle Menge eingelagert wird.  
+
+[!INCLUDE [prod_short](includes/prod_short.md)] speichert keine eigenen Datensätze für Artikel, die zugeordnet wurden, sondern erfasst sie als normale Einlagerungsanweisungen.  
+
+## So richten Sie die Logistik für Crossdockings ein:  
+
+1. Wenn Sie Lagerplätze verwenden, richten Sie mindestens einen Crossdocklagerplatz ein. Wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden, richten Sie eine Crossdockzone ein.  
 
     Bei einem Crossdocklagerplatz ist das Feld **Crossdocklagerplatz** ausgewählt, und es müssen die Lagerplatzarten **Wareneingang** und **Kommissionierung** ausgewählt sein. Weitere Informationen finden Sie unter [Erstellen von Lagerplätzen](warehouse-how-to-create-individual-bins.md) und [Lagerplatzarten einrichten](warehouse-how-to-set-up-bin-types.md).  
 
     Wenn Sie Zonen verwenden, erstellen Sie eine Zone für Ihre Crossdocklagerplätze, und wählen Sie das Feld **Crossdocklagerplatzzone** aus. Weitere Informationen finden Sie unter [Einrichten von Lagerplätzen](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-2.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Lagerort** ein und wählen Sie dann den zugehörigen Link.  
-3.  Öffnen Sie die Seite **Lagerort**, und wählen Sie den Lagerort aus, den Sie für das Lager bezüglich Cross-Dockingen einrichten möchten, und wählen Sie die Aktion **Bearbeiten** aus.  
-4.  Wählen Sie im Inforegister **Lager** das Kontrollkästchen **Crossdocking verwenden** aus, und tragen Sie im Feld **Crossd.-Fälligkeitsdatum ber.** die Zeit für die Suche nach Crossdockmöglichkeiten ein.
+2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagerort** ein und wählen Sie dann den zugehörigen Link.  
+3. Öffnen Sie die Seite **Lagerort**, und wählen Sie den Lagerort aus, den Sie für das Lager bezüglich Cross-Dockingen einrichten möchten, und wählen Sie die Aktion **Bearbeiten** aus.  
+4. Aktivieren Sie im Inforegister **Lager** den Schalter **Crossdock verwenden**, und tragen Sie im Feld **Crossd.-Fälligkeitsdatum ber.** die Zeit für die Suche nach Crossdockmöglichkeiten ein.
 
     Die Option **Crossdocking verwenden** ist nur verfügbar, wenn die Felder **Wareneingang erforderlich**, **Warenausgang erforderlich**, **Kommissionierung erforderlich** und **Einlagerung erforderlich** ausgewählt sind.  
 
 5.  Wenn Sie Lagerplätze verwenden, tragen Sie im Inforegister **Lagerplätze** in das Feld **Crossdocklagerplatzcode** den Code des Lagerplatzes ein, der als Vorgabelagerplatz für Zuordnungen verwendet werden soll.  
-6.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Lagerhaltungsdaten Einheit** ein und wählen Sie den zugehörigen Link.  
+6.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagerhaltungsdaten Einheit** ein und wählen Sie den zugehörigen Link.  
 7.  Für jeden Artikel oder alle Lagerhaltungsdaten, die Sie zum Crossdocking verwenden möchten, wählen Sie den Artikel aus, und wählen Sie die **Bearbeiten** Aktion aus.
 8. Auf der Seite **Lagerhaltungsdatenkarte** wählen Sie das Kontrollkästchen **Cross-Docking verwenden** aus.  
 
 > [!NOTE]  
 >  Crossdock ist nur möglich, wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung des Wareneingangs und der Einlagerung erforderlich ist.  
 
-## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>So ordnen Sie Artikel zu, ohne sich die Möglichkeiten anzeigen zu lassen:  
+## So ordnen Sie Artikel zu, ohne sich die Möglichkeiten anzeigen zu lassen:  
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Wareneingänge** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Erstellen Sie Wareneingänge für einen Artikel, der angekommen ist und möglicherweise in Crossdockings einbezogen werden kann. Weitere Informationen finden Sie unter [Entnahme von Artikeln](warehouse-how-receive-items.md).  
 3.  Füllen Sie das Feld **Zu liefernde Menge** aus, und wählen Sie dann die Aktion **Crossdocking berechnen** aus.  
@@ -72,7 +84,7 @@ Die Anwendung speichert keine eigenen Datensätze von Artikeln, die zugeordnet w
 6.  Drucken Sie die Einlagerungsanweisungen für die übrigen Zeilen und lagern Sie die Mengen des Wareneingangs, die eingelagert werden sollen, in die jeweiligen Lagerplätze oder in einen geeigneten Bereich im Lager ein. Lagern Sie die Crossdockartikel in den Bereich oder Lagerplatz ein, der nach der Lagerpolitik für ihn vorgesehen ist. Es ist auch möglich, dass die Lagerrichtlinien vorsehen, dass Sie die Artikel einfach im Wareneingangsbereich lassen.  
 7.  Wenn Sie zugeordnete Artikel als eingelagert und zum Kommissionieren registrieren möchten, wählen Sie die Aktion **Registrieren** aus.  
 
-## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>So ordnen Sie Artikel zu, nachdem Sie die Verkaufschancen angezeigt haben:  
+## So ordnen Sie Artikel zu, nachdem Sie die Verkaufschancen angezeigt haben:  
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Wareneingänge** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Erstellen Sie Wareneingänge für einen Artikel, der angekommen ist und möglicherweise in Crossdockings einbezogen werden kann. Weitere Informationen finden Sie unter [Entnahme von Artikeln](warehouse-how-receive-items.md).  
 
@@ -89,7 +101,7 @@ Die Anwendung speichert keine eigenen Datensätze von Artikeln, die zugeordnet w
 > [!NOTE]  
 >  In der Einlagerung können Sie fortfahren, die Mengen zu ändern – falls notwendig –, die eingelagert oder zugeordnet werden sollen. Sie können sich z. B. entscheiden, Crossdock für eine zusätzliche Menge auszuführen, um die Crossdockregistrierung zu beschleunigen.  
 
-## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a>So zeigen Sie zugeordnete Artikel in Warenausgängen oder Kommissionierarbeitsblättern an:  
+## So zeigen Sie zugeordnete Artikel in Warenausgängen oder Kommissionierarbeitsblättern an:  
 Wenn Sie Lagerplätze verwenden, können Sie jedes Mal, wenn Sie einen Warenausgang oder den Kommissionierarbeitsblatt öffnen, eine aktualisierte Berechnung der Menge jedes Artikels in den Crossdocklagerplätzen sehen. Diese Information ist wertvoll, wenn Sie auf einen Artikel warten. Wenn Sie sehen, dass der Artikel in einem Crossdocklagerplatz verfügbar ist, können Sie schnell eine Kommissionierung für alle Artikel des Warenausgangs erstellen. Im Kommissionierarbeitsblatt können Sie die Zeilen wie gewünscht ändern und dann eine Kommissionierung erstellen.  
 
 Sie müssen die Artikel zuerst im Crossdockbereich suchen, wenn Sie Artikel für den Warenausgang kommissionieren. Wenn Sie sich beim Wareneingangsprozess die Herkunftsbelege notiert haben, die die Crossdockbasis waren, haben Sie einen besseren Überblick darüber, ob die Artikel im Crossdockbereich gefunden werden können oder nicht.  
@@ -98,12 +110,11 @@ Wenn ein Fertigungsauftrag freigegeben wurde, sind die Zeilen im Kommissionierar
 
 Wenn Sie keine Lagerplätze verwenden, müssen Sie daran denken, den Crossdockbereich von Zeit zu Zeit zu überprüfen, oder Sie müssen sich auf die Nachrichten aus dem Wareneingang verlassen, dass die Artikel für die Produktion angekommen sind.  
 
-## <a name="see-also"></a>Siehe auch  
-[Logistik](warehouse-manage-warehouse.md)  
-[Lagerbesttand](inventory-manage-inventory.md)  
+## Weitere Informationen  
+[Bestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
-[Designdetails: Logistik](design-details-warehouse-management.md)  
+[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

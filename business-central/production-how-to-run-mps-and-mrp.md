@@ -1,22 +1,16 @@
 ---
-title: Vollständige Planung, Prod.-Programmplanung oder Nettobedarf ausführen
-description: Das Planungssystem kann auf Wunsch entweder den Master Production Schedule (MPS) oder die Materialbedarfsplanung (MRP) berechnen, oder beides gleichzeitig.
+title: 'Vollständige Planung, Prod.-Programmplanung oder Nettobedarf ausführen'
+description: 'Das Planungssystem kann auf Wunsch entweder den Master Production Schedule (MPS) oder die Materialbedarfsplanung (MRP) berechnen, oder beides gleichzeitig.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000852, 99000860
+ms.search.form: '99000852, 99000860'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 35263f54400865c88694a483bda195957a8f8db4
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557263"
 ---
-# <a name="run-full-planning-mps-or-mrp"></a>Vollständige Planung, Prod.-Programmplanung oder Nettobedarf ausführen
+# Vollständige Planung, Prod.-Programmplanung oder Nettobedarf ausführen
 
 Die Begriffe "Planungsvorschlag ausführen" und "Nettobedarf ausführen" beziehen sich auf die Berechnung des Produktionsplans und der Materialbedarfe auf Basis des tatsächlichen und des geplanten Bedarfs. Das Planungssystem kann entweder den Master Production Schedule (MPS) oder die Materialbedarfsplanung (MRP) auf Anfrage berechnen, oder beides gleichzeitig.  
 
@@ -29,7 +23,7 @@ Die Links, die durch das Planungsmodul zwischen Bedarf und dem zugehörigen Beda
 
 Korrekte Planungsergebnisse hängen von der Einrichtung ab, die auf Artikelkarten, Montagestücklisten, Fertigungsstücklisten und Arbeitsplänen vorgenommen wurde.  
 
-## <a name="methods-for-generating-a-plan"></a>Methoden zum Generieren eines Plans  
+## Methoden zum Generieren eines Plans  
 
 -   **Neuplanung berechnen:** Diese Funktion verarbeitet oder erneuert den gesamten Materialplan. Dieser Vorgang beginnt damit, dass alle momentan geladenen Beschaffungsaufträge gelöscht werden. Alle Artikel in der Datenbank werden neu geplant.  
 -   **Änderungsplanung berechnen**: Diese Funktion verarbeitet eine Änderungsplanung. Artikel werden in einer Änderungsplanung von zwei Arten von Änderungen aus gesehen:  
@@ -44,7 +38,7 @@ Bei jeder Planungsmethode generiert [!INCLUDE[prod_short](includes/prod_short.md
 >   
 >  Die Funktion "Ereignismeldungen abrufen" kann zwischen dem Ausführen einer Änderungsplanung und einer Neuplanung ausgeführt werden, um sofort sehen zu können, wie sich Planänderungen auswirken, ist aber nicht dazu vorgesehen, die Änderungsplanung oder Neuplanung zu ersetzen.  
 
-## <a name="to-calculate-the-planning-worksheet"></a>Planungsarbeitsblatt berechnen  
+## Planungsarbeitsblatt berechnen  
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Planungsarbeitsblätter** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die **Neuplanung berechnen** Aktion aus, um die Seite **Planung berechnen** zu öffnen.  
 3.  Füllen Sie auf dem Inforegister **Optionen** die Felder wie in der folgenden Tabelle beschrieben aus.  
@@ -63,7 +57,7 @@ Bei jeder Planungsmethode generiert [!INCLUDE[prod_short](includes/prod_short.md
 4.  Im Inforegister **Artikel** können Sie die Planungsroutinen auf Basis von Artikel, Artikelbeschreibung oder Lagerort filtern und ausführen.  
 5.  Wählen Sie die Schaltfläche **OK** aus. Die Stapelverarbeitung wird ausgeführt, und anschliessend werden die Planungszeilen in das Planungsarbeitsblatt geschrieben.  
 
-## <a name="to-perform-action-messages"></a>Ereignismeldungen ausführen  
+## Ereignismeldungen ausführen  
 1.  Auf der Seite **Planungsarbeitsblatt** wählen Sie **Aktionsnachricht ausführen**.  
 2.  Geben Sie im Inforegister **Optionen** an, wie die Lieferungen erstellt werden sollen. Füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
 
@@ -81,7 +75,7 @@ Bei jeder Planungsmethode generiert [!INCLUDE[prod_short](includes/prod_short.md
 
 Die Stapelverarbeitung löscht die Zeilen im Planungsarbeitsblatt, nachdem die Ereignismeldungen durchgeführt wurden. Die anderen Vorschlagszeilen bleiben im Planungsarbeitsblatt, bis sie entweder akzeptiert oder zu einem späteren Zeitpunkt gelöscht werden. Sie können diese Zeilen auch manuell löschen.  
 
-## <a name="action-messages"></a>Ereignismeldungen  
+## Ereignismeldungen  
 Ereignismeldungen werden vom Bedarfsverursachersystem ausgegeben, wenn im vorhandenen Auftragsnetzwerk kein Ausgleich möglich ist. Sie können als Vorschläge angesehen werden, wie Änderungen verarbeitet werden sollten, damit wieder ein Gleichgewicht zwischen Vorrat und Bedarf hergestellt werden kann.  
 
 Die Generierung von Ereignismeldungen erfolgt jeweils für eine Ebene in Bezug auf die Stücklistenebene jedes Artikels. Dadurch ist sichergestellt, dass alle Artikel berücksichtigt werden, für die es Änderungen beim Vorrat oder Bedarf gegeben hat oder geben wird.  
@@ -100,10 +94,10 @@ Als Reaktion auf gestörte Gleichgewichte von Vorrat und Bedarf werden die folge
 |**Neu**|Wenn sich ein Bedarf nicht dadurch erfüllen lässt, dass Ereignismeldungen für **Menge ändern**, **Neu planen**, oder **Neu planen und Menge ändern** vorgeschlagen werden, wird eine Ereignismeldung der Art **Neu** generiert, die eine neue Bestellung vorschlägt. Eine Ereignismeldung der Art **Neu** wird auch ausgegeben, wenn es für den fraglichen Artikel keine Beschaffungsaufträge im Bestellzyklus gibt. Dieser Parameter bestimmt die Anzahl der Perioden vorwärts und rückwärts im Verfügbarkeitsprofil, wenn nach einer Bestellung gesucht wird, die neu geplant werden muss.|  
 |**Menge ändern**|Wenn es für einen Bedarf, der mit einem Beschaffungsauftrag verknüpft ist, eine Mengenänderung gibt, wird eine Ereignismeldung der Art **Menge ändern** generiert, die darauf hinweist, dass der zugehörige Vorrat entsprechend der Änderung des Bedarfs angepasst werden sollte. Wenn ein neuer Bedarf vorliegt, wird [!INCLUDE[prod_short](includes/prod_short.md)] nach dem nächsten vorhandenen und nicht reservierten Beschaffungsauftrag im Bestellzyklus suchen und für diesen Auftrag eine Ereignismeldung der Art "Vorgang ändern" ausgegeben.|  
 |**Neu planen**|Wenn es für einen Beschaffungs- oder Bedarfsauftrag eine Datumsänderung gegeben hat, die ein Ungleichgewicht im Auftragsnetzwerk verursacht, wird eine Ereignismeldung der Art **Neu planen** ausgegeben. Gibt es eine Eins-zu-Eins-Beziehung zwischen dem Bedarf und dem Vorrat, wird eine Ereignismeldung ausgegeben, in der vorgeschlagen wird, den Beschaffungsauftrag entsprechend zu verschieben. Bezieht sich der Beschaffungsauftrag auf Bedarfe aus mehreren Verkaufsaufträgen, erfolgt die Neuberechnung des Beschaffungsauftrags bezogen auf das Datum des ersten Bedarfs.|  
-|**Neu planen und Menge ändern**|Wenn sowohl die Datumsangaben als auch die Mengen einer Bestellung geändert wurden, müssen Sie den jeweilige Plan hinsichtlich beider Aspekte ändern. Bei der Generierung der Ereignismeldung werden beide Ereignisse in einer Meldung zusammengefasst **Neu berechnen Menge ändern**, damit sichergestellt ist, dass der Auftragsnetzwerk wieder ins Gleichgewicht gebracht wird.|  
+|**Neu berechnen und Menge ändern**|Wenn sowohl die Datumsangaben als auch die Mengen einer Bestellung geändert wurden, müssen Sie den jeweilige Plan hinsichtlich beider Aspekte ändern. Bei der Generierung der Ereignismeldung werden beide Ereignisse in einer Meldung zusammengefasst **Neu berechnen Menge ändern**, damit sichergestellt ist, dass der Auftragsnetzwerk wieder ins Gleichgewicht gebracht wird.|  
 |**Stornieren**|Wenn ein Bedarf, der auf einer Eins-zu-Eins-Basis gedeckt wird, gelöscht wurde, wird eine Ereignismeldung ausgegeben, die den zugehörigen Beschaffungsauftrag storniert. Ist die Beziehung nicht gleich "Eins-zu-Eins", wird eine Ereignismeldung der Art "Auftrag ändern" generiert, um den Vorrat zu verringern. Wenn zu dem Zeitpunkt, zu dem die Ereignismeldungen durch den Benutzer generiert werden, wegen anderer Faktoren kein Beschaffungsauftrag erforderlich ist, schlägt [!INCLUDE[prod_short](includes/prod_short.md)] in einer Ereignismeldung **Stornieren** im Arbeitsblatt vor.|  
 
-## <a name="see-also"></a>Siehe auch  
+## Siehe auch  
 [Planung](production-planning.md)  
 [Produktion einrichten](production-configure-production-processes.md)  
 [Bearbeitungen](production-manage-manufacturing.md)    

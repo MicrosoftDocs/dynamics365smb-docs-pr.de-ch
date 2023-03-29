@@ -1,22 +1,16 @@
 ---
 title: Design Details – ElementTrackingszeilen Seite
-description: Lesen Sie, wie Sie den Flow von Seriennummern und Chargennummern in Ihrem Bestand mit der Seite Element Tracking Lines verwalten können.
+description: 'Lesen Sie, wie Sie den Flow von Seriennummern und Chargennummern in Ihrem Bestand mit der Seite Element Tracking Lines verwalten können.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, inventory, item, tracking, serial number, lot number
+ms.search.keywords: 'design, inventory, item, tracking, serial number, lot number'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 43c6c6dedbc7a1b35e5aa05d0ed42fb986c01f3f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146677"
 ---
-# <a name="design-details-item-tracking-lines-page"></a>Designdetails – Artikeltrackingzeilenfenster-Seite
+# Designdetails – Artikeltrackingzeilenfenster-Seite
 Artikeltrackingdatensätze und Reservierungsdatensätze werden im Reservierungssystem erstellt, und ihre Verfügbarkeit wird dynamisch berechnet. Daten, die auf der **Artikeltrackingzeilen**-Seite eingegeben werden, werden in einer temporären Version der Tabelle **Trackingspezifikation** verwaltet. Wenn die Seite geschlossen wird, werden die aktiven Daten in der Tabelle **Reservierungsposten** bestätigt und die historischen Daten werden in der Tabelle **Trackingspezifikation** bestimmt. Weitere Informationen finden Sie unter [Designdetails: Aktive vs. historische Artikeltrackingposten](design-details-active-versus-historic-item-tracking-entries.md).  
   
 Auswahllisten von den Feldern **Seriennummer** und **Chargennummer** zeigen eine Verfügbarkeit, die sowohl auf der Tabelle **Lagerposten** als auch der Tabelle **Reservierungsposten** basiert, ohne Datumsfilter. Die Matrix der Mengenfelder im Kopf des Fensters **Artikeltrackingzeile** zeigt dynamisch die Mengen und die Summen der Artikeltrackingnummern an, die Sie auf den Zeilen der Seite eingegeben werden. Die Mengen müssen denen in der Belegzeile entsprechen, was durch eine Null **0** in den Feldern **Undefiniert** in der Kopfzeile der Seite angezeigt wird.  
@@ -29,7 +23,7 @@ Um den Fluss der Serien- und Chargennummern durch das Lager zu koordinieren, sin
   
 Die Regeln für die Eingabe von Daten auf der Seite **Artikeltrackingzeile** unterstützen auch die Kopplungsprinzipien, die die Auftragsnachverfolgung, die Planung und die Reservierung steuern. Weitere Informationen finden Sie unter [Designdetails: Artikeltracking und Planung](design-details-item-tracking-and-planning.md).  
   
-## <a name="see-also"></a>Siehe auch  
+## Siehe auch  
 [Designdetails: Artikeltracking](design-details-item-tracking.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,30 +1,24 @@
 ---
 title: Intercompany Belege und Erfassungen posten
-description: Dieses Thema erklärt, wie Sie Intercompany-Belege oder Erfassungen verwenden, um Transaktionen mit Ihren Intercompany-Partnern zu buchen.
+description: 'Dieses Thema erklärt, wie Sie Intercompany-Belege oder Erfassungen verwenden, um Transaktionen mit Ihren Intercompany-Partnern zu buchen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 600, 610
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
+ms.search.form: '600, 610'
 ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 0d0b4404df9f322c9d642fb06c08e912c24f9fd3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519740"
 ---
-# <a name="work-with-intercompany-documents-and-journals"></a>Arbeiten mit Intercompany-Belegen und -Erfassungsjournalen
+# Arbeiten mit Intercompany-Belegen und -Erfassungsjournalen
 Intercompanybelege bzw. -Erf.-Journale werden zum Buchen der Transaktionen zwischen Intercompanypartnern verwendet. Wenn Sie einen Intercompanybeleg oder eine Erf.-Journalzeile im Unternehmen buchen, wird durch das Programm im IC-Ausgang ein entsprechender Beleg erstellt, der an den Partner übertragen werden kann. Der Partner kann dieses Buch.-Blatt dann im eigenen Unternehmen buchen, ohne die Daten dazu noch einmal eingeben zu müssen.
 
 Für Verkaufsaufträge und Einkaufsbelege stellt der IC-Partnercode auf den entsprechenden Debitor oder Kreditor sicher, dass alle Aufträge und Rechnungen, die Transaktionen mit diesen Unternehmen generiert haben, entsprechende Belege in dem Partnerunternehmen, werden mit dem Ergebnis des Ausgleichs die richtigen Konten.
 
 Für Intercompany-Fibu Erfassungsjournalzeilen müssen Sie nicht die Konten für einen einzelnen Satz von Büchern angeben, sondern einfach die ID des Partnerunternehmens. Entsprechende Intercompany-Fibu-Erfassungsjournalzeilen daraufhin werden erstellt, die - sobald sie gebucht wurden - im Kontenabschluss beider Mandanten, die an einer Transaktion beteiligt sind, resultieren.
 
-## <a name="to-fill-in-and-send-an-intercompany-sales-order"></a>Einen Intercompanyauftrag ausfüllen und senden:
+## Einen Intercompanyauftrag ausfüllen und senden:
 Aufträge, Bestellungen und Rücksendungen können vor der Buchung gesendet werden. Rechnungen und Gutschriften können jedoch erst gesendet werden, nachdem sie gebucht sind.
 
 Im Folgenden wird beschrieben, wie ein Intercompanyauftrag ausgefüllt und gesendet wird. Die gleichen Schritte gelten auch für Intercompanybestellungen und Reklamationen und Intercompanyrechnungen auf Rechnungen und Gutschriften.  
@@ -38,7 +32,7 @@ Im Folgenden wird beschrieben, wie ein Intercompanyauftrag ausgefüllt und gesen
 > [!NOTE]
 > Wenn Sie Schritt 4 ausführen, wird der Verkaufsauftrag auf den Intercompany-Ausgang verschoben, wo er später gebucht werden kann. Weitere Informationen finden Sie unter [Verwalten des IC-Eingangs und Ausgangs](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Intercompany-Erfassungsjournale ausfüllen und buchen:
+## Intercompany-Erfassungsjournale ausfüllen und buchen:
 
 Wenn Sie einen Intercompany-Fibu-Erf.-Journalzeile im Unternehmen buchen, wird durch das Programm im IC-Ausgang ein entsprechender Beleg erstellt, der an den Partner übertragen werden kann. Seit dem 1. Veröffentlichungszyklus 2022 können Sie das Unternehmen für die automatische Erstellung empfangener Intercompany-Transaktionen von Intercompany-Partnern einrichten, die über das Intercompany-Hauptbuch gebucht werden. Der Partner kann dieses Buch.-Blatt dann im eigenen Unternehmen buchen, ohne die Daten dazu noch einmal eingeben zu müssen.
 
@@ -53,7 +47,7 @@ Wenn Sie einen Intercompany-Fibu-Erf.-Journalzeile im Unternehmen buchen, wird d
 
 Die entsprechenden Posten werden im Unternehmen gebucht und ein Erf.-Journal mit den entsprechenden Posten werden in den Intercompanyausgang erstellt, die Sie an das Partnerunternehmen senden können. Weitere Informationen finden Sie unter [Verwalten des IC-Eingangs und Ausgangs](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  
 [Finanzen](finance.md)  
