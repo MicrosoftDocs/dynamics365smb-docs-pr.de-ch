@@ -1,29 +1,23 @@
 ---
 title: Codes für Audit-Trails festlegen
-description: Erfahren Sie mehr über die Aufgaben zum Einrichten von Buchungsspurcodes und Ursachencodes, mit denen Sie Audit-Trails verfolgen können.
+description: 'Erfahren Sie mehr über die Aufgaben zum Einrichten von Buchungsspurcodes und Ursachencodes, mit denen Sie Audit-Trails verfolgen können.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 257, 259, 279
+ms.search.keywords: 'accounting, auditing, bookkeeping'
+ms.search.form: '257, 259, 279'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab140d214c25735bf8158a2255f8f35ba246442c
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535170"
 ---
-# <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Buchungsspurcodes und Ursachencodes für Audit Trails einrichten
+# Buchungsspurcodes und Ursachencodes für Audit Trails einrichten
 
 Allen gebuchten Posten wird automatisch ein Buchungsspurcode zugewiesen, sodass Transaktionen bis zu ihrem Ursprung nachverfolgt werden können. Wenn Sie Posten einen zusätzlichen Buchungsspurcode zuordnen möchten, können Sie Ursachencodes verwenden. Ursachencodes werden verwendet, um den Grund für eine Buchung anzugeben. Ursachencodes können gesamten Erf.-Journalvorlagen und Erf.-Journalnamen oder auch einzelnen Erfassungsjournalzeilen und Belegen zugeordnet werden.  
 
 Verwenden Sie als Buchungsspurcodes und Ursachencodes aussagekräftige Codes, an die Sie sich leicht erinnern können. Der Code muss eindeutig sein, und Sie können beliebig viele Codes einrichten.
 
-## <a name="define-source-codes"></a>Buchungsspurcodes definieren
+## Buchungsspurcodes definieren
 
 Gelegentlich möchten Sie nachvollziehen, wie ein bestimmter Posten entstanden ist, ob er z. B. beim Buchen eines Erf.-Journales oder einer Einkaufsrechnung erzeugt wurde. Ein Buchungsspurcode gibt an, wo ein Posten erstellt wurde. Posten werden erstellt, wenn Erfassungsjournale und Rechnungen gebucht und bestimmte Stapelverarbeitungen ausgeführt werden. Jede Buchungsart hat einen bestimmten Buchungsspurcode, der zugewiesen wird, wenn Posten erstellt werden.  
 
@@ -31,7 +25,7 @@ Beim Buchen von Erfassungsjournalen, Aufträgen, Rechnungen oder Gutschriften so
 
 Beim Buchen oder Ausführen einer Stapelverarbeitung wird dem Posten automatisch der richtige Buchungsspurcode zugeordnet. Wenn Sie z. B. von einem Fibu Erf.-Journal aus buchen, erhält der Posten den Code *FIBUBUCHBL*. Sie können dann die Seite **Fibuposten** filtern, um anzuzeigen, welche Einträge beispielsweise aus dem Fibu Erf.-Journal oder aus Verkaufsbelegen gebucht wurden.
 
-### <a name="to-define-source-codes"></a>So definieren Sie Buchungsspurcodes
+### So definieren Sie Buchungsspurcodes
 
 1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") Symbol. Geben Sie **Buchungsspurcode Einrichtung** ein, und wählen Sie dann den entsprechenden Link.  
 
@@ -39,11 +33,11 @@ Beim Buchen oder Ausführen einer Stapelverarbeitung wird dem Posten automatisch
 
 Sie können den Inhalt eines Felds später ändern. Diese Änderung wirkt sich dann auf zukünftige Buchungen aus.
 
-## <a name="change-source-codes"></a>Buchungsspurcodes ändern
+## Buchungsspurcodes ändern
 
 Sie können einen Buchungsspurcode ändern. Sie können den Buchungsspurcode *FIBUBUCHBL* beispielsweise in *FIBUBL* ändern.
 
-### <a name="to-change-source-codes"></a>So ändern Sie Buchungsspurcodes
+### So ändern Sie Buchungsspurcodes
 
 1. Wählen Sie die ![Suche nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'") Symbol. Geben Sie **Buchungsspurcodes** ein und wählen Sie dann den zugehörigen Link.
 
@@ -53,11 +47,11 @@ Sie können einen Buchungsspurcode ändern. Sie können den Buchungsspurcode *FI
 
 Alle neuen Posten, die über das Fibu Erf.-Journal gebucht werden, weisen den neuen Buchungsspurcode auf.
 
-## <a name="define-reason-codes"></a>Ursachencodes definieren
+## Ursachencodes definieren
 
 Ursachencodes ergänzen die Buchungsspurcodes und geben an, warum ein Eintrag erstellt wurde. Sie können Ursachencodes für einzelne Posten und permanente Codes bestimmten Erf.-Journalvorlagen und Erf.-Journalnamen zuweisen. Wenn ein Ursachencodes mit einer Erf.-Journalzeile bzw. einem Einkaufs- oder Verkaufskopf verknüpft ist, werden beim Buchen alle Posten mit dem entsprechenden Ursachencode markiert.  
 
-### <a name="to-set-up-reason-codes"></a>So richten Sie Ursachencodes ein
+### So richten Sie Ursachencodes ein
 
 1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'")  Symbol. Geben Sie **Ursachencodes** ein und wählen Sie dann den zugehörigen Link.
 
@@ -67,7 +61,7 @@ Wiederholen Sie den Ablauf für jeden Code, den Sie verwenden möchten. Sie kön
 
 Nachfolgend wird beschrieben, wie Sie einer Erf.-Journalvorlage einen Ursachencodes hinzufügen. Ähnliche Schritte gelten jedoch für das Hinzufügen eines Ursachencodes zu einer Erf.-Journalzeile oder einer Stapelverarbeitung.  
 
-### <a name="to-assign-reason-codes-to-journal-templates"></a>So weisen Sie Erf.-Journalvorlagen Ursachencodes zu
+### So weisen Sie Erf.-Journalvorlagen Ursachencodes zu
 
 1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen")  Symbol. Geben Sie **Allgemeine Fibu Erf.-Journalvorlagen** ein, und wählen Sie dann den zugehörigen Link.
 
@@ -77,7 +71,7 @@ Nachfolgend wird beschrieben, wie Sie einer Erf.-Journalvorlage einen Ursachenco
 
 Der ausgewählte Ursachencode wird in neue Erf.-Journale eingefügt, die unter dieser Erf.-Journalvorlage erstellt werden. In anderen Anwendungsbereichen weisen Sie auf dieselbe Art und Weise Erf.-Journalvorlagen Ursachencodes zu.
 
-### <a name="to-use-reason-codes-on-sales-and-purchase-documents"></a>So verwenden Sie Ursachencodes in Verkaufs- und Einkaufsbelegen
+### So verwenden Sie Ursachencodes in Verkaufs- und Einkaufsbelegen
 
 1. Öffnen Sie den gewünschten Verkaufs- oder Einkaufsbeleg.
 
@@ -85,9 +79,9 @@ Der ausgewählte Ursachencode wird in neue Erf.-Journale eingefügt, die unter d
 
 Wenn die Rechnung gebucht wird, wird der Ursachencode in jeden Sach-, Debitor- und Kreditorposten kopiert. Sie können einzelnen Einkaufs- oder Verkaufszeilen nicht unterschiedliche Ursachencodes zuordnen, da alle Zeilen als ein Posten gebucht werden.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finanzen](finance.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  

@@ -1,98 +1,93 @@
 ---
 title: PC-Tastenkombinationskurzübersicht Referenz
-description: Ein druckerfreundliches Bezugsblatt für PC-Benutzer, das die gängigsten Tastenkombinationen enthält.
+description: 'Ein druckerfreundliches Bezugsblatt für PC-Benutzer, das die gängigsten Tastenkombinationen enthält.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, keyboarding
+ms.search.keywords: 'accessibility, shortcuts, keyboarding'
 ms.date: 08/19/2022
 ms.author: jswymer
-ms.openlocfilehash: ddcee165f275b3e7ad757b5a8a448c9a65a7d33c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605834"
 ---
-# <a name="keyboard-quick-reference---pc-only"></a>Nur PC-Tastenkombinationskurzübersicht
 
-#### <a name="general"></a>Allgemein
+# Nur PC-Tastenkombinationskurzübersicht
 
-|Drücken Sie diese Tasten|Vorgehensweise|  
+#### Allgemein
+
+|Wählen Sie diese Tasten aus|Vorgehensweise|  
 |-|-|
-|Alt+F2|Infoboxbereich anzeigen und ausblenden.|
-|ALT+N|Erstellen eines neuen Datensatzes|
-|ALT+SHIFT+N|Schliessen Sie einen neu erstellten Datensatz und erstellen Sie einen neuen Datensatz.|
-|ALT+O|Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu|
-|ALT+Q|Öffnen Sie **Mitteilen**|
-|Ctrl+ALT+Q|**Posten suchen** öffnen|
-|ALT+NACH-OBEN-TASTE|Öffnen Sie QuickInfo oder Überprüfungsfehler|
-|ALT+NACH-UNTEN-TASTE|Dropdown oder Suche öffnen|
-|ALT+T|Öffnen der Seite **Meine Einstellungen**.|
-|ALT+SHIFT+W|Öffnen Sie die aktuelle Karte oder das Beleg in einem neuen Fenster|
-|Ctrl+Ins|Fügen Sie eine neue Zeile in einem Beleg hinzu|
-|CTRL+DEL|Löschen Sie die Zeile in einem Beleg, Erf.-Journal oder Arbeitsblatt|
-|Ctrl+Shift+F12|Maximieren Sie den Werbebuchungsteil auf einer Belegseite|
-|Ctrl+F1|Hilfebereich oder Hilfeartikel öffnen|
-|Ctrl+Click|Navigieren Sie beim Personalisieren und Anpassen|
-|Ctrl+O|Unternehmen oder Umgebung wechseln|
-|Shift+F12|Öffnen Sie den Rollen-Explorer, eine Funktionsübersicht.|
-|F5/CTRL+F5|Die Seite aktualisieren/neu laden.|
-|TAB/UMSCHALT+TAB|Fokus auf das nächste/vorherige Element richten|
-|F6/Shift+F6|Weiter zum nächsten Inforegister/Teil|
+|<kbd>Alt</kbd>+<kbd>F2</kbd>|Infoboxbereich anzeigen und ausblenden.|
+|<kbd>Alt</kbd>+<kbd>N</kbd>|Erstellen eines neuen Datensatzes|
+|<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd>|Schliessen Sie einen neu erstellten Datensatz und erstellen Sie einen neuen Datensatz.|
+|<kbd>Alt</kbd>+<kbd>O</kbd>|Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu|
+|<kbd>Alt</kbd>+<kbd>Q</kbd>|Öffnen Sie **Mitteilen**|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>|**Posten suchen** öffnen|
+|<kbd>Alt</kbd>+<kbd>Nach oben</kbd>|Öffnen Sie QuickInfo oder Überprüfungsfehler|
+|<kbd>ALT</kbd>+<kbd>NACH-UNTEN-TASTE</kbd>|Dropdown oder Suche öffnen|
+|<kbd>Alt</kbd>+<kbd>T</kbd>|Öffnen der Seite **Meine Einstellungen**.|
+|<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>W</kbd>|Öffnen Sie die aktuelle Karte oder das Beleg in einem neuen Fenster|
+|<kbd>Ctrl</kbd>+<kbd>Einfügen</kbd>|Fügen Sie eine neue Zeile in einem Beleg hinzu|
+|<kbd>Ctrl</kbd>-<kbd>Del</kbd>|Löschen Sie die Zeile in einem Beleg, Erf.-Journal oder Arbeitsblatt|
+|<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd>|Maximieren Sie den Werbebuchungsteil auf einer Belegseite|
+|<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Hilfebereich oder Hilfeartikel öffnen|
+|<kbd>Ctrl</kbd>+Klick|Navigieren Sie beim Personalisieren und Anpassen|
+|<kbd>Ctrl</kbd>+<kbd>O</kbd>|Unternehmen oder Umgebung wechseln|
+|<kbd>Shift</kbd>+<kbd>F12</kbd>|Öffnen Sie den Rollen-Explorer, eine Funktionsübersicht.|
+|<kbd>F5</kbd>/<kbd>Ctrl</kbd>+<kbd>F5</kbd>|Die Seite aktualisieren/neu laden.|
+|<kbd>Tab</kbd>/<kbd>Shift</kbd>+<kbd>Tab</kbd>|Fokus auf das nächste/vorherige Element richten|
+|<kbd>F6</kbd>/<kbd>Shift</kbd>+<kbd>F6</kbd>|Weiter zum nächsten Inforegister/Teil|
 
-#### <a name="navigate--select-rows"></a>Navigieren und Zeilen auswählen
+#### Navigieren und Zeilen auswählen
 
-|Drücken Sie diese Tasten|Vorgehensweise|
+|Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
-|Start/Ende|Zum ersten/letzten Feld gehen.|
-|CTRL+HOME/END |Zur ersten/letzten Zeile.|
-|CTRL+NACH UNTEN/NACH OBEN|Navigieren Sie ohne die Auswahl zu verlieren|
-|CTRL+A |Alles auswählen|
-|CTRL+LEERTASTE|Toggle-Zeilen-Auswahl|
-|Ctrl/Shift+Click|Fügen Sie die Zeile/Zeilen der Angaben hinzu|
-|SHIFT+NACH OBEN/UNTEN|Fügen Sie Zeilen über/unter der Auswahl hinzu|
-|SHIFT+SEITE NACH UNTEN/OBEN|Sichtbare Zeilen darüber/darunter auswählen|
-|Ctrl+Enter|Fokus weg von der Liste|
+|<kbd>Start/Ende|Zum ersten/letzten Feld gehen.|
+|<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>Ende</kbd>|Zur ersten/letzten Zeile.|
+|<kbd>Ctrl</kbd>+<kbd>Nach oben</kbd>/<kbd>Nach unten</kbd>|Navigieren Sie ohne die Auswahl zu verlieren|
+|<kbd>Ctrl</kbd>+<kbd>A</kbd>|Alles auswählen|
+|<kbd>Ctrl</kbd>+<kbd>LEERTASTE</kbd>|Toggle-Zeilen-Auswahl|
+|<kbd>Ctrl</kbd>/<kbd>Shift</kbd>+Klick|Fügen Sie die Zeile/Zeilen der Angaben hinzu|
+|<kbd>Shift</kbd>+<kbd>Nach oben</kbd>/<kbd>Nach unten</kbd>|Fügen Sie Zeilen über/unter der Auswahl hinzu|
+|<kbd>Shift</kbd>+<kbd>Bild auf</kbd>/<kbd>Bild ab</kbd>|Sichtbare Zeilen darüber/darunter auswählen|
+|<kbd>Ctrl</kbd>+<kbd>Eingabetaste</kbd>|Fokus weg von der Liste|
 
-#### <a name="copy--paste"></a>Kopieren und einfügen
+#### Kopieren und einfügen
 
-|Drücken Sie diese Tasten|Vorgehensweise|
+|Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
-|CTRL+C/V|Zeilen kopieren/einfügen|
-|F8|Feld in aktuellen Zeile kopieren|
+|<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Zeilen kopieren/einfügen|
+|<kbd>F8</kbd>|Feld in aktuellen Zeile kopieren|
 
-#### <a name="search-filter--sort"></a>Suchen, filtern und sortieren
+#### Suchen, filtern und sortieren
 
-|Drücken Sie diese Tasten|Vorgehensweise|
+|Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
-|Alt+F7|Sortieren Sie die ausgewählte Spalte in aufsteigender/absteigender Reihenfolge.|
-|F3|Suche umschalten|
-|Shift+F3|Zwischen Filterbereichen umschalten; Fokus auf Feldfilter|
-|Alt+F3|Filtern Sie ausgewählte Zellwerte|
-|Shift+Alt+F3|Filter auf ausgewählten Felder hinzufügen|
-|Ctrl+Alt+Shift+F3|Filter zurücksetzen|
+|<kbd>Alt</kbd>+<kbd>F7</kbd>|Sortieren Sie die ausgewählte Spalte in aufsteigender/absteigender Reihenfolge.|
+|<kbd>F3</kbd>|Suche umschalten|
+|<kbd>Shift</kbd>+<kbd>F3</kbd>|Zwischen Filterbereichen umschalten; Fokus auf Feldfilter|
+|<kbd>Alt</kbd>+<kbd>F3</kbd>|Filtern Sie ausgewählte Zellwerte|
+|<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Filter auf ausgewählten Felder hinzufügen|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Filter zurücksetzen|
 
-#### <a name="quick-entry"></a>Schnelleingabe
+#### Schnelleingabe
 
-|Drücken Sie diese Tasten|Vorgehensweise|
+|Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
-|CTRL+SHIFT+ENTER|Zum nächsten Schnelleingabefeld ausserhalb einer Liste navigieren|
-|ENTER/SHIFT+ENTER|Zum nächsten/vorherigen Schnelleingabefeld navigieren|
+|<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Eingabetaste</kbd>|Zum nächsten Schnelleingabefeld ausserhalb einer Liste navigieren|
+|<kbd>Eingabetaste</kbd>/<kbd>Shift</kbd>+<kbd>Eingabetaste</kbd>|Zum nächsten/vorherigen Schnelleingabefeld navigieren|
 
-##### <a name="report-preview"></a>Berichtvorschau
+##### Berichtvorschau
 
-|Drücken Sie diese Tasten|Vorgehensweise|
+|Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
-|CTRL+HOME/END|Zur ersten/letzten Seite.|
+|<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>Ende</kbd>|Zur ersten/letzten Seite.|
 
-#### <a name="numeric-keypad"></a>Numerische Tastatur
+#### Numerische Tastatur
 
-|Drücken Sie diese Tasten|Vorgehensweise|  
+|Wählen Sie diese Tasten aus|Vorgehensweise|  
 |-|-|
-|ALT+Dezimaltrennzeichen|Schaltet die Ausgabe des Dezimaltrennzeichens auf der Zehnertastatur um|
+|<kbd>ALT</kbd>+<kbd>Dezimaltrennzeichen</kbd>|Schaltet die Ausgabe des Dezimaltrennzeichens auf der Zehnertastatur um|
 
 > [!TIP]
 > Für eine grafische, druckfreundliche Version wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.
