@@ -127,6 +127,8 @@ Folgendes passiert während des Buchungsprozesses:
 * Buchen Sie den Verbrauch der kommissionierten Herkunftsbelegzeilen.
 * Wenn der Lagerort Lagerplätze verwendet, erzeugt der Buchungsvorgang Lagerplatzposten, um die Änderungen an der Lagerplatzmenge zu buchen.
 
+[!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 ## So erfassen Sie die Lagerbestandsumlagerung
 
 1. Öffnen Sie auf der Seite **Lagerbestandsumlagerung** das Dokument, für das eine Umlagerung erfasst werden soll.  

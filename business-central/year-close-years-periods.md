@@ -1,23 +1,17 @@
 ---
 title: Geschäftsjahre und Buchhaltungsperioden schliessen
-description: Gliedert die Aufgaben, um ein Geschäftsjahr oder eine Buchhaltungsperiode abzuschliessen, beispielsweise Vergewissern, dass Belege und die Erfassungsjournale gebucht sind, und Überprüfen von Bankguthaben.
+description: 'Gliedert die Aufgaben, um ein Geschäftsjahr oder eine Buchhaltungsperiode abzuschliessen, beispielsweise Vergewissern, dass Belege und die Erfassungsjournale gebucht sind, und Überprüfen von Bankguthaben.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 08/18/2022
 ms.author: jswymer
-ms.openlocfilehash: a6b21fd03cbfebdefb102074e97121bf2187bf49
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605942"
 ---
-# <a name="closing-years-and-periods"></a>Beenden von Jahresabschluss und Perioden
+# Beenden von Jahresabschluss und Perioden
 
 Am Ende eines Geschäftsjahrs gibt es einige Verwaltungsaufgaben, die Sie ausführen müssen, wie das Sicherstellen, dass alle Belege und Erfassungsjournale gebucht sind und dass alle Währungsdaten aktuell sind, die Bücher abschliessen und weiteres. Die tatsächlichen Aufgaben hängen von Ihrem Unternehmen ab.
 
@@ -35,9 +29,9 @@ Die folgende Tabelle enthält einen Überblick über die Aufgaben, die Sie übli
 | Abschliessen der Buchhaltungsperioden, Übertragen der Erfolgsrechnung-Salden auf Bilanzkonten und Buchen des .Jahresabschlusspostens. |[Schliessen der Bücher](year-close-books.md) |
 | Drucken von Berichten zur Unterstützung beim Erstellen von Finanzauswertungen |[Abschlussberichte vorbereiten](year-prepare-close-statement.md) |
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch 
+## Siehe auch 
 
 [Arbeiten mit Buchhaltungsperioden und Geschäftsjahren](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

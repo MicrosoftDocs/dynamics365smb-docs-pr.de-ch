@@ -12,6 +12,8 @@ ms.search.form: 9171
 ---
 # Verwalten von Benutzerprofilen
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Weisen Sie allen Benutzern Profile zu, die Folgendes widerspiegeln:
 
 * ihre geschäftliche Rolle

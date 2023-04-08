@@ -1,27 +1,21 @@
 ---
 title: Buchhaltungsperioden für ein Geschäftsjahr schliessen
-description: Dieser Artikel beschreibt, wie Sie die Buchhaltungsperioden, aus denen das Geschäftsjahr besteht, für den Jahresabschluss schliessen.
+description: 'Dieser Artikel beschreibt, wie Sie die Buchhaltungsperioden, aus denen das Geschäftsjahr besteht, für den Jahresabschluss schliessen.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 944c2e9a9955a38b079234cc3ef9fb365407a97a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514297"
 ---
-# <a name="close-accounting-periods"></a>Schliessen von Buchhaltungsperioden
+# Schliessen von Buchhaltungsperioden
 
 Wenn ein Geschäftsjahr vorbei ist, müssen die Perioden, aus denen es besteht, geschlossen werden.
 
-## <a name="to-close-accounting-periods"></a>Buchhaltungsperioden schliessen:
+## Buchhaltungsperioden schliessen:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Buchhaltungsperioden** die Aktion **Jahr auswählen** aus.
@@ -38,7 +32,7 @@ Auch wenn ein Geschäftsjahr abgeschlossen wurde, können hierfür noch Fibupost
 
 Nachdem ein Geschäftsjahr abgeschlossen wurde, müssen Sie die Erfolgsrechnungsnullstellung durchführen und das Ergebnis auf ein Bilanzkonto übertragen lassen. Dies können das jedes Mal wiederholen, wenn Sie in ein abgeschlossenes Geschäftsjahr gebucht haben.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Schliessen der Bücher](year-close-books.md)  
 [So buchen Sie den Jahresabschlussposten](year-how-post-year-end-close-entry.md)  
