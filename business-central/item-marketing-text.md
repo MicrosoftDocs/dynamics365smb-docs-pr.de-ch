@@ -26,10 +26,15 @@ Copilot bietet Ihnen schnell einen Textvorschlag an, der automatisch für Sie ge
 
 Copilot soll Ihnen Zeit sparen und Ihnen dabei helfen, kreative und ansprechende Texte zu schreiben, die Ihre Marke widerspiegeln und über Ihre gesamte Produktlinie hinweg konsistent sind. Erstellen Sie zunächst einen Vorschlag und ändern Sie ihn dann nach Bedarf.
 
+> [!NOTE]
+> In der Vorschauversion von Business Central ist KI-generierter Text nur auf Englisch.
+
 ### Voraussetzungen
 
 - Sie verwenden eine [Vorschauversion](ai-preview-getstarted.md) von Business Central, die für Copilot aktiviert ist. Die Aktivierung von Copilot erfolgt durch einen Administrator. Weitere Informationen finden Sie unter [KI-gestützten Marketingtext für Artikel mit Copilot konfigurieren](enable-ai.md).
+- Die Sprache, die Sie in Business Central verwenden, muss Englisch sein. Alle verfügbaren englischen Gebietsschemas funktionieren, wie z. B. Englisch (Vereinigte Staaten), Englisch (Vereinigtes Königreich) oder Englisch (Südafrika).
 
+   Um die Sprache zu ändern, wählen Sie in der oberen rechten Ecke das **Einstellungen**-Symbol ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") > **Meine Einstellungen** > **Sprache** aus. Weitere Informationen finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md#language).
 - In den [FAQ zu Copilot](ai-faq.md) erfahren Sie mehr über KI-generierte Textvorschläge von Copilot und deren Verwendung.
 
 ### Einen ersten Entwurf mit Copilot erstellen

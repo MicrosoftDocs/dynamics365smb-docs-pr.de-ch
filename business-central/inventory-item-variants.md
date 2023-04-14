@@ -14,7 +14,7 @@ ms.author: edupont
 Artikelvarianten sind eine grossartige Möglichkeit, Ihre Produktliste unter Kontrolle zu halten. Das ist beispielsweise nützlich, wenn Sie eine grosse Anzahl fast identischer Artikel verwalten, die sich z. B. nur durch die Farbe unterscheiden. Sie können jede Variante als separaten Artikel definieren. Aber Sie entscheiden sich dafür, einen Artikel einzurichten und die verschiedenen Farben als Varianten des Artikels anzugeben.  
 
 > [!TIP]
-> Eine praktische Einführung in die Verwendung von Varianten in der Produktion finden Sie unter [Komplettlösung: Varianten](contoso-coffee/variants.md) für die Demodaten von Contoso Coffee.  
+> Eine praktische Einführung in die Verwendung von Varianten in der Produktion finden Sie unter [Komplettlösung: Varianten](contoso-coffee/manufacturing/variants.md) für die Demodaten von Contoso Coffee.  
 
 ## Varianten zu einem Artikel hinzufügen
 
@@ -57,4 +57,4 @@ Wenn die Funktion eingeschaltet ist, können Benutzer keinen Eintrag veröffentl
 
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [So richten Sie allgemeine Lagerbestandsinformationen ein](inventory-how-setup-general.md)  
-[Exemplarische Vorgehensweise: Varianten](contoso-coffee/variants.md)  
+[Exemplarische Vorgehensweise: Varianten](contoso-coffee/manufacturing/variants.md)  

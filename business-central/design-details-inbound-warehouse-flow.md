@@ -48,11 +48,6 @@ In den Methoden A, B und C werden der Eingang und die Einlagerung in einem Schri
 > * Die in Methode B verwendete Lagereinlagerung verbucht zusammen mit der Registrierung von Einlagerungsinformationen auch den Eingang des Herkunftsbelegs.
 > * Die in Methode D verwendete Lagereinlagerung kann nicht gebucht werden und registriert nur die Einlagerung. Die Registrierung stellt die Artikel für die weitere Bearbeitung zur Verfügung, bucht aber nicht den Beleg. Im Wareneingang erfordert die Lagereinlagerung einen Wareneingang.
 
-> [!NOTE]
-> Wareneinlagerungen und Lagereinlagerungen klingen zwar ähnlich, sind aber unterschiedliche Belege und werden in unterschiedlichen Prozessen verwendet.
-> * Die in Methode B verwendete Lagereinlagerung verbucht zusammen mit der Registrierung von Einlagerungsinformationen auch den Eingang des Herkunftsbelegs.
-> * Die in Methode D verwendete Lagereinlagerung kann nicht gebucht werden und registriert nur die Einlagerung. Die Registrierung stellt die Artikel für die weitere Bearbeitung zur Verfügung, bucht aber nicht den Beleg. Im Wareneingang erfordert die Lagereinlagerung einen Wareneingang.
-
 ## Keine dedizierte Lageraktivität
 
 Die folgenden Artikel enthalten Informationen zum Verarbeiten von Wareneingängen für Herkunftsbelege, wenn Sie keine dedizierten Lageraktivitäten haben.

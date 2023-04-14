@@ -44,7 +44,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
 ## Hintergrund
 
- Der Marketingmanager in der Verkaufsabteilung der CRONUS ist für die Planung und Durchführung von Kampagnen verantwortlich. Er entscheidet auch, an welchen Messen das Unternehmen teilnimmt, und bewertet den Fortschritt von Kampagnen.  
+ Der Marketingmanager in der Verkaufsabteilung der CRONUS ist für die Planung und Durchführung von Kampagnen verantwortlich. Der Marketingmanager entscheidet auch, an welchen Messen das Unternehmen teilnimmt, und bewertet den Fortschritt von Kampagnen.  
 
  Der Marketingmitarbeiter in der Marketingabteilung ist für die Herstellung, Verteilung und Platzierung von Marketingmaterial zuständig.  
 
@@ -96,7 +96,7 @@ Die Seite **Segment** enthält jetzt eine auf dem eingegebenen Filter beruhende 
 
 ## Data Mining
 
- Der Marketingmanager untersucht die segmentierte Kontaktliste genauer und stellt fest, dass die Liste viel zu umfangreich ist. Er entscheidet, die Liste basierend auf tatsächlichen Interessenten einzuschränken, um sicherzustellen, dass er sich auf die richtige Zielgruppe konzentriert. Dieser Prozess der Neudefinition und Reduktion der Daten wird als Data Mining bezeichnet.  
+ Der Marketingmanager untersucht die segmentierte Kontaktliste genauer und stellt fest, dass die Liste viel zu umfangreich ist. Der Manager entscheidet, die Liste basierend auf tatsächlichen Interessenten einzuschränken, um sicherzustellen, dass er sich auf die richtige Zielgruppe konzentriert. Dieser Prozess der Neudefinition und Reduktion der Daten wird als Data Mining bezeichnet.  
 
 ### So entfernen Sie Kontakte aus dem Segment  
 

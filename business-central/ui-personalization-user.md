@@ -13,7 +13,7 @@ ms.author: bholtorf
 ---
 # Ihren Arbeitsbereich personalisieren
 
-Sie können ihren Arbeitsbereich an Ihre Arbeit und Ihre Bedürfnisse anpassen. Ändern Sie die Seiten so, dass sie nur die Informationen anzeigen, die Sie benötigen, wo Sie sie benötigen. Die Personalisierungsänderungen beeinflussen nur das, was *Sie* sehen, nicht das, was andere Benutzer sehen.
+Sie können ihren Arbeitsbereich an Ihre Arbeit und Ihre Bedürfnisse anpassen. Ändern Sie die Seiten so, dass sie nur die Informationen anzeigen, die Sie benötigen, wo Sie sie benötigen. Personalisierung wirkt sich nur auf den Arbeitsbereich aus. Es ändert nichts daran, wie andere arbeiten.
 
 Sie können alle Arten von Seiten personalisieren, einschliesslich der Seite Rollencenter. Weitere Informationen zu Rollencentern finden Sie unter [Rollencenter](ui-change-basic-settings.md#role-center).  
 
@@ -22,10 +22,11 @@ Sie können alle Arten von Seiten personalisieren, einschliesslich der Seite Rol
 Sie können verschiedene Änderungen vornehmen, z. B. Verschieben und Ausblenden von Feldern, Spalten,Aktionen oder Verschieben und Ausblendern ganzer Teile und mehr. Die meisten Personalisierungen müssen vorgenommen werden, indem zuerst das Banner **Personalisierung** aktiviert wird. Einfache Anpassungen, wie z. B. die Spaltenbreite, können Sie sofort an jeder Liste vornehmen.
 
 > [!NOTE]
-> Administratoren können dieselben Layoutänderungen wie Benutzer durchführen, indem sie den Arbeitsbereich für ein Profil anpassen, dem mehrere Benutzer zugewiesen sind. Weitere Informationen finden Sie unter [Seiten für Profile anpassen](ui-personalization-manage.md)<br /><br />
+> Administratoren können dieselben Layoutänderungen wie Benutzer durchführen, indem sie den Arbeitsbereich für ein Profil anpassen, dem mehrere Benutzer zugewiesen sind. Um mehr über Seiten für Rollen zu erfahren, gehen Sie zu [Seiten für Rollen anpassen](ui-personalization-manage.md)<br /><br />
 Administratoren können auch Personalisierungen der Benutzer überschreiben und definieren, welche Funktionen in allen oder bestimmten Unternehmen zugänglich sind. Weitere Informationen finden Sie unter [Anpassen von Business Central](ui-customizing-overview.md).
 
-## Videoübersicht
+## Video
+
 Das folgende Video zeigt einige Möglichkeiten, wie Sie Ihr Rollencenter personalisieren können.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
@@ -77,7 +78,7 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
 
 Mit der Personalisierung können Sie entscheiden, welche Aktionen auf den Navigations- und Aktionsleisten und in den Rollenzentren angezeigt werden sollen und wo sie angezeigt werden sollen. Sie können einzelne Aktionen oder Aktionsgruppen ausblenden, anzeigen oder verschieben.
 
-Im  zweiten Veröffentlichungszyklus 2022 haben wir Ihnen mehr Möglichkeiten geboten, Business Central zu Ihrem eigenen zu machen. Das folgende Video zeigt, wie Sie Aktionen auf Seiten und Rollencentern personalisieren können.
+Das folgende Video zeigt, wie Sie Aktionen auf Seiten und Rollencentern personalisieren können.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
 
@@ -126,6 +127,7 @@ Teile sind Bereiche auf einer Seite, die in der Regel aus mehreren Feldern, Diag
 Sie können alle Personalisierungsänderungen, die Sie innerhalb eines einzelnen Teils vorgenommen haben, löschen, indem Sie die Option **Personalisierung löschen** unter der Pfeilspitze des Teils wählen. Die Freigabe der Personalisierung eines Teils wirkt sich nur auf Änderungen des Inhalts des Teils aus, nicht auf die Platzierung oder Sichtbarkeit des Teils auf der Seite.  
 
 ## So wird eine Personalisierung gelöscht
+
 Deaktivieren Sie einige oder alle an dieser Seite im Lauf der Zeit vorgenommenen Personalisierungsänderungen.
 
 1. Auf dem Banner **Personalisierung** wählen Sie die **Klare Personalisierung** Aktion.
@@ -138,7 +140,7 @@ Deaktivieren Sie einige oder alle an dieser Seite im Lauf der Zeit vorgenommenen
 |------|------------
 |**Nur Navigationsmenü**|Löscht alle Personalisierungsänderungen, die Sie am Navigationsmenü vorgenommen haben, das im Rollencenter und auf anderen Seiten freigegeben ist. Zu diesen Änderungen zählen alle neuen Aktionen, die als Lesezeichen hinzugefügt wurden, sowie alle Änderungen an Links und Gruppen im Menü.|  
 |**Nur Aktionen**|Löscht alle Personalisierungsänderungen, die Sie jemals an der Navigation oder den Aktionsleisten auf der Seite vorgenommen haben.|
-|**Nur Felder, Spalten und Teile**|Löscht alle Personalisierungsänderungen, die Sie jemals an der Seite vorgenommen haben, mit Ausnahme der Änderungen an der Navigations- oder Aktionsleiste. Hierzu zählen beispielsweise Änderungen an Feldern, Spalten, Teilen und Kacheln. |
+|**Nur Felder und Spalten**|Löscht alle Personalisierungsänderungen, die Sie jemals an der Seite vorgenommen haben, mit Ausnahme der Änderungen an der Navigations- oder Aktionsleiste. Hierzu zählen beispielsweise Änderungen an Feldern, Spalten, Teilen und Kacheln. |
 |**Alle**|Löscht alle an dieser Seite vorgenommenen Personalisierungsänderungen, sodass die Seite wieder wie zuvor aussieht. Hierzu zählen beispielsweise Änderungen an Navigations- und Aktionsleisten, Feldern, Spalten, Teilen und Kacheln.|
 
 ## Andere Punkte von Interesse

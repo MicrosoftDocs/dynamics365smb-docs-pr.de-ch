@@ -39,7 +39,7 @@ Sie verwenden eine [Vorschauversion](ai-preview-getstarted.md) von Business Cent
 
 ## Nächste Schritte
 
-Sobald Sie über eine Sandbox- oder Testumgebung verfügen, können Sie Copilot für Elemente in Business Central ausprobieren. Gehen Sie zu [Marketingtext zu Artikeln hinzufügen](item-marketing-text.md).  
+Nachdem Sie die Funktion aktiviert und verfügbar gemacht haben, können Sie Copilot für Elemente in Business Central ausprobieren. Gehen Sie zu [Marketingtext zu Artikeln hinzufügen](item-marketing-text.md).  
 
 ## Siehe auch
 
