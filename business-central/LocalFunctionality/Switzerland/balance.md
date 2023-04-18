@@ -1,23 +1,17 @@
 ---
-title: Saldo [CH]
-description: In diesem Thema wird die Nutzung der Seite „Sachkonto Vorläufige Bilanz“ erläutert, um gebuchte Fibuposten anzuzeigen.
+title: 'Saldo [CH]'
+description: 'In diesem Thema wird die Nutzung der Seite „Sachkonto Vorläufige Bilanz“ erläutert, um gebuchte Fibuposten anzuzeigen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 11500
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 488b07e8358b6561883b761c4ec1409652e54d77
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135513"
 ---
-# <a name="general-ledger-balance-in-the-swiss-version"></a>Fibupostensaldo in der Schweizer Version
+# Fibupostensaldo in der Schweizer Version
 
 Wenn Sie die **Saldo** Aktion auf der Seite **Fibukonten** auswählen, wird die Seite **Fibukonto Vorläufige Bilanz** geöffnet. Es enthält den Saldo der definitiv gebuchten Fibuposten sowie den Saldo der Posten, die im aktuellen Fibu-Erfassungsjournal gebucht wurden.  
 
@@ -35,7 +29,7 @@ Sie haben die Wahl zwischen zwei Optionen:
 
     Der ungebuchte Saldo wird nur für das zum aktuellen Zeitpunkt geöffnete Fibu-Erfassungsjournal berechnet.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 
 [Anzeigen temporärer Salden in Finanzbuchhaltungs-Erfassungsjournalen](how-to-view-temporary-balances-in-general-ledger-journals.md)  
 

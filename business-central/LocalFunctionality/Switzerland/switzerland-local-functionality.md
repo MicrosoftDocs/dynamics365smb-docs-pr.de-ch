@@ -1,27 +1,21 @@
 ---
 title: Lokale Funktion (Schweiz)
-description: Die folgenden Themen beschreiben alle lokalen Funktionen, die für die Schweizer Version von Business Central einzigartig sind.
+description: 'Die folgenden Themen beschreiben alle lokalen Funktionen, die für die Schweizer Version von Business Central einzigartig sind.'
 author: sorenfriisalexandersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 35561, 35562, 35563, 3010541, 3010542, 3010543
+ms.search.keywords: null
+ms.search.form: '35561, 35562, 35563, 3010541, 3010542, 3010543'
 ms.date: 06/21/2021
 ms.author: soalex
-ms.openlocfilehash: 576c9a7ecf68979de46b53bfc7303b32af86a2ac
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516493"
 ---
-# <a name="switzerland-local-functionality"></a>Lokale Funktion (Schweiz)
+# Lokale Funktion (Schweiz)
 
 Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version von [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Verfügbarkeit der Funktion
+## Verfügbarkeit der Funktion
 
 * MWST
     * [Erstellen und Drucken einer Schweizer MWST-Abrechnung](how-to-create-and-print-a-swiss-vat-statement.md) **Jetzt erhältlich**
@@ -68,7 +62,14 @@ Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version
     * [Importieren von Postleitzahlen (Schweiz)](how-to-import-swiss-post-codes.md) **Jetzt erhältlich**
     * [Einkaufsbelege und Verkaufsaufträge (Schweiz)](swiss-purchase-documents-and-sales-documents.md) **Jetzt erhältlich**
 
-## <a name="see-also"></a>Weitere Informationen
+## Künftige Anforderungen der Gesetzgebung, die untersucht werden
+
+* Details zum DTA Zahlungsjournal sind veraltet **1. Veröffentlichungswelle 2023**
+* MWST-Abrechnung mit neuen Ziffern 303 und 383 aktualisieren **Januar 2024**
+
+Wenn Sie anstehende regulatorische Funktionen kennen, übermitteln Sie eine [Warnung zu regulatorischen Funktionen](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
+## Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Verfügbarkeit nach Ländern/Regionen und unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

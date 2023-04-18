@@ -3,19 +3,14 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d8fd310dc1e843c859c99e6ce6e8e63cb484bd7f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135541"
 ---
+
 In [!INCLUDE[prod_short](../../../includes/prod_short.md)] können Sie Lieferanmahnungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde. Sie können eine einzelne Lieferanmahnung manuell erstellen oder Sie können Lieferanmahnungen für alle überfälligen Lieferungen erstellen.  
 
 > [!NOTE]
 > Um Lieferanmahnungen zu erstellen, müssen Sie die Lieferanmahnungsbestimmungen, -stufen und -texte eingerichtet haben.
 
-## <a name="to-create-a-delivery-reminder-manually"></a>So erstellen Sie eine Lieferbenachrichtigung manuell  
+## So erstellen Sie eine Lieferbenachrichtigung manuell  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Lieferanmahnung** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus.  

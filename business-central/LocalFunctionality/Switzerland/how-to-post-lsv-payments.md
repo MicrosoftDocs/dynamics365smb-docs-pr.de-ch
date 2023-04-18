@@ -6,21 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
+ms.search.keywords: null
+ms.search.form: '3010830, 3010831, 3010832,3010834, 3010835'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a4c5fd5b0f4e89c9d6e04ffb09dbdf5229df6c83
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135505"
 ---
-# <a name="post-lsv-payments"></a>Buchen von LSV+-Zahlungen
+# Buchen von LSV+-Zahlungen
 Zahlungen können nach Empfang einer LSV+ (Lastschrift Verfahren)-Zahlungsanzeige von der Bank gebucht werden.  
 
-## <a name="to-post-lsv-payments"></a>So buchen Sie LSV+-Zahlungen  
+## So buchen Sie LSV+-Zahlungen  
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell Me-Funktion") Geben Sie im **Zahlungseingangsprotokolle** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie das entsprechende Journal aus und wählen Sie dass **Journal bearbeiten** aus.  
@@ -42,7 +36,7 @@ Zahlungen können nach Empfang einer LSV+ (Lastschrift Verfahren)-Zahlungsanzeig
 
 6.  Wählen Sie die Aktion **Buchen** aus.  
 
-## <a name="see-also"></a>Siehe auch  
+## Siehe auch  
  [Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md)   
  [Verarbeiten eines LSV-Einzugs](how-to-process-an-lsv-collection.md)   
  [Abschliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md)   

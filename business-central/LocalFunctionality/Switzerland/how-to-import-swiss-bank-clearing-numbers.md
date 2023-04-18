@@ -1,29 +1,23 @@
 ---
-title: Importieren von Schweizer Bankenclearingnummern [CH]
-description: In diesem Artikel wird erläutert, wie Sie Schweizer Bank-Clearing-Nummern in der Schweizer Version von Business Central importieren.
+title: 'Importieren von Schweizer Bankenclearingnummern [CH]'
+description: 'In diesem Artikel wird erläutert, wie Sie Schweizer Bank-Clearing-Nummern in der Schweizer Version von Business Central importieren.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 11501
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: e15f20b4758a0681703dd690f4bef5e9ee762851
-ms.sourcegitcommit: d8a84a008c6bd3baf1ca7ade49310313cb4942f8
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9201948"
 ---
-# <a name="import-swiss-bank-clearing-numbers-in-the-swiss-version"></a>Schweizer Bank-Clearing-Nummern importieren in der Schweizer Version
+# Schweizer Bank-Clearing-Nummern importieren in der Schweizer Version
 
 Bankenclearingnummern sind eindeutige Nummern zur Kennzeichnung der einzelnen Bankagenturen oder Filialen im Bankenstamm. Diese Informationen sind Voraussetzung für elektronische Zahlung. Die Datei kann auf der Website von [SIX Interbank Clearing](https://go.microsoft.com/fwlink/?LinkId=145121) heruntergeladen werden.  
 
 Die BC-Bankstammdatei (TXT) – die offizielle Schweizer Bankenclearingnummer-Datei – kann importiert werden, um die Bankenclearingnummer-Informationen im Bankenstamm zu aktualisieren. Wenn Sie die Bankenclearingnummer-Datei importieren, werden die Daten in die Tabelle **Bankenstamm** importiert, und die vorhandenen Daten werden überschrieben. Nach dem Importieren der Bankenclearingnummer-Datei können Sie die aktualisierte Bankfilialnummer für Debitoren und Kreditoren definieren. Weitere Informationen finden Sie in den Tabellen "Debitor Bankkonto" und "Kreditor Bankkonto".  
 
-## <a name="to-import-swiss-bank-clearing-numbers"></a>So importieren Sie Bankenclearingnummern für Schweiz  
+## So importieren Sie Bankenclearingnummern für Schweiz  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Geben Sie **Bankverzeichnis** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Bankverzeichnis importieren** aus.  
@@ -36,7 +30,7 @@ Die BC-Bankstammdatei (TXT) – die offizielle Schweizer Bankenclearingnummer-Da
 
 Im folgenden Verfahren wird beschrieben, wie Sie Bankfilialnummern für Debitorenbankkonten definieren. Dieselben Schritte gelten auch für die Definition von Bankfilialnummern für Debitorenbankkonten.  
 
-## <a name="to-define-bank-branch-numbers-for-customer-bank-accounts"></a>So definieren Sie Bankfilialnummern für Debitorenbankkonten  
+## So definieren Sie Bankfilialnummern für Debitorenbankkonten  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie den Debitor, für den Sie Bankkontoeninformationen erstellen möchten, und wählen die Aktion **Bankkonten**.  
@@ -44,7 +38,7 @@ Im folgenden Verfahren wird beschrieben, wie Sie Bankfilialnummern für Debitore
 4. Wählen Sie auf dem Inforegister **Allgemein** im Feld **BLZ** die Nummer der Bankagentur oder -filiale aus.  
 5. Wählen Sie die Schaltfläche **OK** aus.  
 
-## <a name="see-also"></a>Siehe auch 
+## Siehe auch 
 
 [Elektronische Zahlungen (Schweiz)](swiss-electronic-payments.md)  
 [Bankkonten einrichten](../../bank-how-setup-bank-accounts.md)
