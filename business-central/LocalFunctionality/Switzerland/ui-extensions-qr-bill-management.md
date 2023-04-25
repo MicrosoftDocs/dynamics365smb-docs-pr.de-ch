@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'QR-bill, invoice, incoming documents, payment reference'
 ms.search.form: '11502, 11510, 11511, 11512, 11513, 11514, 11515, 11516, 11517, 11518'
-ms.date: 03/22/2022
+ms.date: 04/05/2023
 ms.author: soalex
 ---
 # QR-Bill Management in der Schweizer Version von Business Central
@@ -88,7 +88,7 @@ Sie können QR-Rechnungen an mehreren Orten in [!INCLUDE[prod_short](../../inclu
 
 Der Empfang einer QR-Rechnung über eingehende Belege ist insbesondere hilfreich, wenn der Prozess automatisiert ist. Sie können QR-Rechnungen durch eingehende Belege allerdings auch manuell empfangen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Tell Me-Funktion") Geben Sie **Eingehende Belege** ein, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Geben Sie **Eingehende Belege** ein, und wählen Sie dann den zugehörigen Link aus.
 2. Erstellen Sie in der Liste **Eingehende Belege** einen neuen Eintrag, indem Sie **Neu** und dann **Neu** wählen.
 3. Geben Sie auf der Seite **Eingehender Beleg** eine Beschreibung in das Feld **Beschreibung** ein.
 4. Zum Importieren der QR-Rechnung wählen Sie eine der folgenden Aktionen aus:
@@ -101,7 +101,38 @@ Der Empfang einer QR-Rechnung über eingehende Belege ist insbesondere hilfreich
 Im eingehenden Beleg können Sie ein Einkauf Erf.-Journal oder eine Einkaufsrechnung erstellen und die Zahlungsreferenz von der QR-Rechnung wird beiden zugeordnet. Weitere Informationen finden Sie unter [Arbeiten mit eingehenden Belegen](../../across-income-documents.md).
 
 > [!NOTE]
-> Beim Importieren von QR-Rechnungen versucht [!INCLUDE[prod_short](../../includes/prod_short.md)], ein Kreditorenbankkonto mit übereinstimmender IBAN oder QR-IBAN zu finden. Beim Importieren von QR-Rechnungen in eingehenden Belegen und damit verbundenen Erstellen eines Belegs oder Einkauf Erf.-Journals bestimmt das Kreditorenbankkonto den zu verwendenden Kreditor. Der Ansatz mit dem eingehenden Beleg hilft zu gewährleisten, dass der richtige Kreditor zugewiesen ist.
+> Beim Importieren von QR-Rechnungen sucht [!INCLUDE[prod_short](../../includes/prod_short.md)] nach einem Kreditorenbankkonto mit übereinstimmender IBAN oder QR-IBAN. Beim Importieren von QR-Rechnungen in eingehenden Belegen und damit verbundenen Erstellen eines Belegs oder Einkauf Erf.-Journals bestimmt das Kreditorenbankkonto den zu verwendenden Kreditor. Der Ansatz mit dem eingehenden Beleg hilft zu gewährleisten, dass der richtige Kreditor zugewiesen ist. 
+
+#### Eingang über den Kofax OCR-Dienst
+
+> [!NOTE]
+> Falls vorhandene Unternehmen in [!INCLUDE[prod_short](../../includes/prod_short.md)] die Rückgabe einer QR-Referenz wünschen, wenn sie den Kofax OCR-Dienst verwenden, müssen sie die vorhandene Datenaustauschsdefinition aktualisieren, die als **Datenaustauschart** für die Verarbeitung von Rechnungen in eingehenden Belegen verwendet wird.  
+
+Führen Sie die folgenden Schritte aus, um eine bestehende Datenaustauschdefinition zu aktualisieren. 
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Tell Me-Funktion") Geben Sie im Symbol **Data Exchange Definitions** ein und wählen Sie dann den zugehörigen Link. 
+2. Suchen Sie in der Liste **Datenaustauschdefinitionen** die Zeile, die Sie aktualisieren möchten, und öffnen Sie die Karte. 
+3. Wählen Sie auf dem Inforegister **Zeilendefinitionen** **OCRINVHEADER** aus.  
+4. Erstellen Sie im Inforegisterkarte **Spaltendefinitionen** eine neue Zeile, und geben Sie die folgenden Werte ein.
+
+    | Feld | Wert |
+    |-------|-------|
+    | **Spaltennr.** | 11513 |
+    | **Name** | Schweizer QR-Rechnung Referenznummer |
+    | **Beschreibung** | Schweizer QR-Rechnung Referenznummer |
+    | **Pfad** | /Document/HeaderFields/HeaderField\[Type\[text()='qrreference'\]\]/Text |
+    
+5. Wählen Sie auf dem Inforegister **Zeilendefinitionen** **Feldzuordnung** aus.  
+6. Erstellen Sie auf der Seite **Feldzuordnung** eine neue Position, und geben Sie die folgenden Werte ein.
+
+    | Feld | Wert |
+    |-------|-------|
+    | **Spaltennr.** | 11513 |
+    | **Zieltabellen-ID** | 38 |
+    | **Zielfeld-ID** | 171 |
+    | **Nur überprüfen** | False |
+
+7. Schliessen Sie die Seiten.  
 
 ### Empfang einer QR-Rechnung über Einkaufsbestellung oder Einkaufsrechnung
 
@@ -115,7 +146,7 @@ Wenn die QR-Rechnung gescannt oder in den Kaufbeleg importiert wird, werden der 
 
 Sie können QR-Rechnungen direkt in ein Einkauf Erf.-Journal scannen oder importieren. Diese Option ist hilfreich, wenn Sie neue Einkauf Erf.-Journale auf Grundlage einer QR-Rechnung erstellen möchten. Durch direktes Scannen oder Importieren in ein Einkauf Erf.-Journal wird eine neue **Einkaufserfassungsjournalzeile** mithilfe des Kreditors und des Betrags aus der QR-Rechnung erstellt. Zudem wird versucht, den Kreditor zu erkennen, indem ein **Kreditor Bankkonto** mit übereinstimmender IBAN oder QR-IBAN gesucht wird. Beispiel: Die Verwendung von Einkaufserfassungsjournalen ist hilfreich, wenn Sie keine Einkaufsbestellungen oder Einkaufsrechnungen verwenden möchten.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Tell Me-Funktion"). Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Tell Me-Funktion") Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Erstellen Sie in der Liste **Einkaufserfassungsjournale** einen neuen Eintrag, indem Sie eine der folgenden Aktionen wählen:
    * **QR-Rechnung scannen**, um eine QR-Rechnung in den eingehenden Belegposten zu scannen.
    * **Gescannte QR-Rechnungsdatei importieren**, um eine vom zweiten Scannertyp generierte Datei wie im Abschnitt [Scannen und Importieren von QR-Rechnungen](#scanning-and-importing-qr-bills) beschrieben zu verwenden.
