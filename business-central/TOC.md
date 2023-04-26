@@ -428,6 +428,7 @@
 ### [Sachkontenbudgets erstellen](finance-how-create-budgets.md)
 ### [Transaktionen direkt in der Finanzbuchhaltung buchen](finance-how-post-transactions-directly.md)
 ### [Erf.-Journal-Buchungen stornieren und Eingänge/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md)
+### [Export der Protokolldatei](finance-how-to-export-audit-files.md)
 ### [Kosten und Einkünfte zuteilen](year-allocate-costs-income.md)
 ### [Ausgaben der Beschäftigten aufzeichnen und erstatten](finance-how-record-reimburse-employee-expenses.md)
 ### [Umsätze und Ausgaben abgrenzen](finance-how-defer-revenue-expenses.md)
@@ -808,12 +809,13 @@
 ##### [Unternehmensnummern und Filialnummern](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
 ##### [Buchungszeitraum beschränken](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Arbeitsdatum als Buchungsdatum festlegen](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
-##### [Erf.-Journalvorlagen als erforderlich festlegen](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Erf.-Journalvorlagen als obligatorisch festlegen](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Stundungen in Vertriebs- und Kauf-Sachkontoberichten](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Kanada
-#### [Lokale Funktionen in der kanadischen Version](LocalFunctionality/Canada/canada-local-functionality.md)
+#### [Lokale Funktionalität in der kanadischen Version](LocalFunctionality/Canada/canada-local-functionality.md)
 #### Salestax
-##### [Steuern sowie Steuern auf Waren und Dienstleistungen in Kanada melden](LocalFunctionality/Canada/sales-tax-goods-services.md)
+##### [Sales Tax sowie Steuern auf Waren und Dienstleistungen in Kanada melden](LocalFunctionality/Canada/sales-tax-goods-services.md)
 ##### [Salestax in Kanada melden](LocalFunctionality/Canada/ca-sales-tax.md)
 ##### [Unrealisierte Salestax und Verkaufsskonti einrichten](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
 ##### [Salestax anwenden und Umsatzsteuer einrichten](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
