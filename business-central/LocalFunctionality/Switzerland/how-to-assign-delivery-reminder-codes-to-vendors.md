@@ -1,27 +1,21 @@
 ---
-title: So werden Lieferanmahnungscodes zu Kreditoren zugewiesen [CH]
-description: Um Lieferanmahnungen für überfällige Einkäufe in der Schweizer Version zu aktivieren, müssen Sie Kreditoren Lieferanmahnungsbedingungen zuweisen.
+title: 'So werden Lieferanmahnungscodes zu Kreditoren zugewiesen [CH]'
+description: 'Um Lieferanmahnungen für überfällige Einkäufe in der Schweizer Version zu aktivieren, müssen Sie Kreditoren Lieferanmahnungsbedingungen zuweisen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 5005270, 5005272
+ms.search.keywords: null
+ms.search.form: '5005270, 5005272'
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: be17b992ec2e26ae97de100e7ad792000991a3a9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129309"
 ---
-# <a name="assign-delivery-reminder-codes-to-vendors-in-the-swiss-version"></a>Zuweisen von Lieferanmahnungen zu Kreditoren in der Schweizer Version
+# Zuweisen von Lieferanmahnungen zu Kreditoren in der Schweizer Version
 
 [!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Registriert einen neuen Kreditor](../../purchasing-how-register-new-vendors.md)  
 [Lieferanmahnungen](delivery-reminders.md)  
