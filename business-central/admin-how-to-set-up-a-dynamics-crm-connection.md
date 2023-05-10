@@ -177,7 +177,7 @@ Um eine Unterbrechung der Integrationen zu vermeiden, _müssen Sie die Verbindun
 > [!NOTE]
 > Sie müssen diese Schritte in jeder [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebung wiederholen, einschliesslich der Produktions- und Sandbox-Umgebungen, und in jeder Firma, in der Sie eine Verbindung zu [!INCLUDE[cds_long_md](includes/cds_long_md.md)] haben.
 
-## Lokale Versionen verbinden
+## Verbinden von lokalen Versionen
 
 Sie müssen einige Informationen auf der Seite **Dataverse-Verbindungseinrichtung** eingeben, um [!INCLUDE[prod_short](includes/prod_short.md)] vor Ort mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] zu verbinden.
 
