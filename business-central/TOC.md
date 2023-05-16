@@ -350,9 +350,11 @@
 #### MWST einrichten
 ##### [MWST einrichten](finance-setup-vat.md)
 ##### [Einrichtung der Buchungsgruppe](finance-posting-groups.md#tax-posting-groups)
+##### [Nicht abzugsfähige MWST einrichten](finance-setup-nondeductible-vat.md)
 ##### [Nicht realisierte MWST einrichten](finance-setup-unrealized-vat.md)
 ##### [MWST-Abrechnung einrichten](finance-how-setup-vat-statement.md)
 #### [Mit MWST im Verkauf und Einkauf arbeiten](finance-work-with-vat.md)
+#### [Nicht abzugsfähige MWST verwenden](finance-how-use-non-deductible-vat.md)
 #### [MWST-Berichte an die Steuerbehörden übermitteln](finance-how-report-vat.md)
 #### [Änderungen des MWST-Satzes verwalten](finance-how-use-vat-rate-change-tool.md)
 #### [MWST-IdNr validieren](finance-how-validate-vat-registration-number.md)
