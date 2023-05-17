@@ -76,7 +76,7 @@ Die Wartung ist auch einfacher. Wenn Sie eine Systemberechtigungen hinzufügen, 
   |**Auf indirekt reduzieren**|Ändern Sie die Zugriffsebene in Indirekt, wenn Berechtigungssätze direkten Zugriff auf das Objekt gewähren. Wählen Sie diese Option beispielsweise aus, wenn der Berechtigungssatz direkten Zugriff auf Fibukonteneinträge gewährt, Sie aber nicht möchten, dass Benutzer vollen Zugriff auf die Einträge haben.|
   
   > [!NOTE]
-  > Wenn eine Berechtigung sowohl eingeschlossen als auch ausgeschlossen ist, wird die Berechtigung ausgeschlossen.
+  > Wenn eine Berechtigung in einem einbezogenen Berechtigungssatz und auch in einem ausgeschlossenen Berechtigungssatz enthalten ist, wird die Berechtigung ausgeschlossen.
 
 6. Verwenden Sie die Felder **Objekttyp** und **Objekt-ID**, um das Objekt anzugeben, auf das Sie Zugriff gewähren.
 
@@ -109,12 +109,11 @@ Um einen Berechtigungssatz vollständig auszuschliessen, wählen Sie im Bereich 
 
 Um eine bestimmte Berechtigung in einem von Ihnen hinzugefügten Satz vollständig oder teilweise auszuschliessen, erstellen Sie eine Zeile für das Objekt unter **Berechtigungen**. Die Felder für die Zugriffsebene, Berechtigung einfügen, Berechtigung ändern usw. enthalten alle **Ausschliessen**. Wählen Sie die entsprechende Option, um eine bestimmte Zugriffsebene zuzulassen.
 
-> [!NOTE]
-> Durch das Ausschliessen eines Berechtigungssatzes werden alle Berechtigungen im Satz ausgeschlossen. [!INCLUDE [prod_short](includes/prod_short.md)] berechnet Berechtigungen wie folgt:
+Durch das Ausschliessen eines Berechtigungssatzes werden alle Berechtigungen im Satz ausgeschlossen. [!INCLUDE [prod_short](includes/prod_short.md)] berechnet Berechtigungen wie folgt:
 
-> 1. Berechnen Sie die vollständige Liste der enthaltenen Berechtigungen
-> 2. Berechnen Sie die vollständige Liste der ausgeschlossenen Berechtigungen
-> 3. Ausgeschlossene Berechtigungen aus der Liste der enthaltenen Berechtigungen entfernen (das Entfernen einer indirekten Berechtigung entspricht dem Reduzieren auf indirekt)
+1. Berechnen Sie die vollständige Liste der enthaltenen Berechtigungen
+2. Berechnen Sie die vollständige Liste der ausgeschlossenen Berechtigungen
+3. Ausgeschlossene Berechtigungen aus der Liste der enthaltenen Berechtigungen entfernen (das Entfernen einer indirekten Berechtigung entspricht dem Reduzieren auf indirekt)
 
 ## Kopieren eines Berechtigungssatzes
 

@@ -338,15 +338,17 @@ Anders als die meisten Angebot-Nachfrage Datensätze werden verknüpfte Aufträg
 
 Die Charge-für-Charge-Richtlinie ist am flexibelsten, da das System nur auf die tatsächliche Nachfrage reagiert. Es reagiert auf den erwarteten Bedarf aus Prognose- und Rahmenaufträgen und rechnet dann die Auftragsmenge basierend auf dem Bedarf ab. Die Charge-für-Charge-Richtlinie gilt für Artikel, bei denen der bestand angenommen werden kann, jedoch vermieden werden sollte.  
 
-In mancher Hinsicht ähnelt die Charge-für-Charge-Richtlinie der Auftragsrichtlinie, hat aber einen generischen Ansatz für Artikel. Sie kann Bestandsmengen aufnehmen und Angebot und Nachfrage in den von Ihnen definierten Zeitrahmen bündeln.  
+In mancher Hinsicht ähnelt die Charge-für-Charge-Richtlinie der Auftragsrichtlinie. Sie kann Bestandsmengen aufnehmen und Angebot und Nachfrage in den von Ihnen definierten Zeitrahmen bündeln.
 
 Sie geben den Zeitrahmen im Feld **Zeitrahmen** auf der Seite **Artikelkarte** an. Die Mindestgrösse des Zeitrahmens ist ein Tag, da dies die kleinste Zeiteinheit für Bedarfs- und Versorgungsereignisse in [!INCLUDE [prod_short](includes/prod_short.md)] ist.  
 
 Das Zeitrahmen legt auch Grenzen dafür fest, wann Sie einen Beschaffungsauftrag umplanen sollten, um einen angegebenen Bedarf zu erfüllen. Der Vorrat innerhalb des Zeitrahmens, wird ein- oder ausgeplant, um den Bedarf zu erfüllen. Eine frühere Lieferung führt zu zusätzlichem Lagerbestand, und Sie sollten sie stornieren. Für spätere Lieferungen erstellen Sie einen neuen Lieferauftrag.  
 
-Mit dieser Richtlinie können Sie einen Sicherheitsbestand festlegen, um Angebotsänderungen auszugleichen oder einen plötzlichen Bedarf zu decken.  
+Mit dieser Richtlinie können Sie einen Sicherheitsbestand festlegen, um Angebotsänderungen auszugleichen oder einen plötzlichen Bedarf zu decken. Die Charge-für-Charge-Richtlinie kann auch eine Toleranzperiode und eine Toleranzmenge umfassen, um die Auftragsplanung zu reduzieren.  
 
-Da die Beschaffungsauftragsmenge auf dem tatsächlichen Bedarf basiert, kann es sinnvoll sein, die Auftragsmodifikatoren zu verwenden:
+Das Feld **Neuplanungsperiode** trägt gemeinsam mit dem Feld **Loskumulierungsperiode** dazu bei, den Bestellzyklus festzulegen. Ab dem Datum des ersten Bedarfspostens werden alle Bedarfsposten in der nächsten Loskumulierungsperiode in einen Beschaffungsauftrag am Tag des ersten Bedarfs zusammengefasst. Ein Bedarf, der ausserhalb der Loskumulierungsperiode liegt, fällt nicht unter den Beschaffungsauftrag.
+
+Da die Beschaffungsauftragsmenge auf dem tatsächlichen Bedarf basiert, kann es sinnvoll sein, Auftragsmodifikatoren zu verwenden:
 
 * Aufrunden der Bestellmenge auf ein Bestellvielfaches (oder Einkaufsmengeneinheit)
 * Erhöhen Sie die Bestellung auf eine angegebene Mindestbestellmenge
