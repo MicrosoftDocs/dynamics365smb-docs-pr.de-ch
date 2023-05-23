@@ -106,7 +106,7 @@ Es gibt zwei Möglichkeiten, als Administrator zuzustimmen:
 
 - Der einfachste Weg ist die Verwendung von Copilot. Wenn Sie Copilot zum ersten Mal als Administrator verwenden, werden Sie aufgefordert, die Nutzungsbedingungen zu lesen und dann zuzustimmen oder abzulehnen. Informationen zur Verwendung von Copilot finden Sie unter [Marketingtext zu Artikeln hinzufügen](item-marketing-text.md).  
 
-- Der andere Weg ist die Verwendung der Seite **Status der Datenschutzhinweise** in Business Central. Stimmen Sie dort der **Azure OpenAI**- Integration für alle Benutzende zu. Um mehr zu erfahren, gehen Sie zu [Den Nutzungsbedingungen zustimmen](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
+- Der andere Weg ist die Verwendung der Seite **Status der Datenschutzhinweise** in Business Central. Stimmen Sie dort der **Azure OpenAI**- Integration für alle Benutzende zu. Um mehr zu erfahren, gehen Sie zu [Den Nutzungsbedingungen zustimmen](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
 ## Siehe auch
 
