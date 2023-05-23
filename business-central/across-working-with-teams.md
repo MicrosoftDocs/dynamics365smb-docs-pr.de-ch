@@ -2,13 +2,13 @@
 title: Business Central-Datensätze in Microsoft Teams teilen
 description: 'Erfahren Sie, wie Sie die Business Central-App für Microsoft Teams verwenden.'
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: how-to
+ms.service: dynamics365-business-central
+ms.reviewer: jswymer
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records'
-ms.date: 09/22/2022
+ms.date: 16/18/2023
 ms.author: jswymer
+ms.custom: bap-template
 ---
 
 # Gemeinsame Nutzung von Business Central Datensätzen und Seitenlinks in Microsoft Teams
@@ -68,17 +68,16 @@ Mit der Business Central-App für Teams können Sie einen Link aus einem beliebi
 
     > [!TIP]
     > Wenn Sie beispielsweise die Meldung *Business Central möchte eine Vorschau dieses Links anzeigen.* erhalten, bedeutet dies, dass Sie die Business Central-App für Teams nicht installiert haben. Um die App zu installieren, wählen Sie **Vorschauversion zeigen** aus, und folgen Sie den Anweisungen.
-6. Wenn Sie zum ersten Mal einen Link in eine Unterhaltung einfügen, werden Sie aufgefordert, sich bei [!INCLUDE [prod_short](includes/prod_short.md)] anzumelden und der App die Zustimmung zum Datenabruf zu geben. Folgen Sie einfach den Anweisungen auf dem Bildschirm.
 
     > [!NOTE]
-    > Sie müssen diesen Schritt nur einmal ausführen.
-7. Warten Sie einen Moment, während eine Karte im Nachrichtenfeld generiert wird.
-8. Wenn die Karte angezeigt wird, überprüfen Sie den Inhalt der Karte sorgfältig auf sensible Informationen, bevor Sie die Nachricht senden. Dieser Schritt ist wichtig, da nach dem Senden der Nachricht jeder Unterhaltungsteilnehmer die Karte sehen kann.
-9. Wenn Sie mit der Karte zufrieden sind, wählen Sie **Senden** aus, um sie der Unterhaltung hinzuzufügen.
+    > Je nach Ihrer Business Central-Version: Wenn Sie zum ersten Mal einen Link in eine Unterhaltung einfügen, werden Sie unter Umständen aufgefordert, sich in [!INCLUDE [prod_short](includes/prod_short.md)] anzumelden und der App die Zustimmung zum Datenabruf zu geben. Folgen Sie einfach den Anweisungen auf dem Bildschirm. Sie müssen diesen Schritt nur einmal ausführen.
+6. Warten Sie einen Moment, während eine Karte im Nachrichtenfeld generiert wird.
+7. Wenn die Karte angezeigt wird, überprüfen Sie den Inhalt der Karte sorgfältig auf sensible Informationen, bevor Sie die Nachricht senden. Dieser Schritt ist wichtig, da nach dem Senden der Nachricht jeder Unterhaltungsteilnehmer die Karte sehen kann.
+8. Wenn Sie mit der Karte zufrieden sind, wählen Sie **Senden** aus, um sie der Unterhaltung hinzuzufügen.
 
     > [!TIP]
     > Nachdem die Karte angezeigt wird und bevor Sie **Senden** auswählen, können Sie die eingefügte URL bei Bedarf löschen.
-10. Um weitere Details anzuzeigen oder Änderungen an der Karte vorzunehmen, wählen Sie **Details** aus. Weitere Informationen finden Sie im nächsten Abschnitt.
+9. Um weitere Details anzuzeigen oder Änderungen an der Karte vorzunehmen, wählen Sie **Details** aus. Weitere Informationen finden Sie im nächsten Abschnitt.
 
 ### Kartendetails anzeigen
 
