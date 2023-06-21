@@ -1,18 +1,18 @@
 ---
 title: Debitoren synchronisieren
 description: Import von Debitoren von oder Export von Debitoren nach Shopify durchführen
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30105, 30106, 30107, 30108, 30109,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Debitoren synchronisieren
 
-Wenn ein Auftrag aus Shopify importiert wird, sind die Informationen über den Kunden für die weitere Verarbeitung des Dokuments in [!INCLUDE[prod_short](../includes/prod_short.md)] unerlässlich. Dafür stehen zwei Hauptoptionen und ihre Kombinationen zur Verfügung:
+Wenn Sie einen Auftrag aus Shopify importieren, sind die Informationen über den Debitor für die weitere Verarbeitung des Dokuments in [!INCLUDE[prod_short](../includes/prod_short.md)] unerlässlich. Dafür stehen zwei Hauptoptionen und verschiedene Kombinationen zur Verfügung:
 
 * Verwenden Sie einen speziellen Kunden für alle Bestellungen.
 * Importieren Sie die tatsächlichen Kundeninformationen aus Shopify. Diese Option steht auch zur Verfügung, wenn Sie Kunden zuerst nach Shopify von [!INCLUDE[prod_short](../includes/prod_short.md)] exportieren.
@@ -36,10 +36,9 @@ Einige Einstellungen können auf der Ebene eines Landes/Region oder eines Staate
 Mit der **Shopify-Debitorenvorlage** können Sie die folgenden Schritte für jeden Debitor ausführen:
 
 1. Geben Sie die **Standarddebitorennr.** an, die Vorrang vor der Auswahl in den Feldern **Debitorenimport aus Shopify** und **Debitorenzuordnungstyp** hat. Sie wird im importierten Verkaufsauftrag verwendet.
-2. Definieren Sie den **Kundenvorlagencode**, mit dem fehlende Kunden erstellt werden, wenn **Unbekannte Kunden automatisch erstellen** aktiviert ist. Wenn der **Kundenvorlagencode** leer ist, dann verwendet die Funktion den **Kundenvorlagencode**, der auf der **Shopify Shop-Karte** definiert ist.
-3. Legen Sie fest, ob die Preise für importierte Bestellungen Steuern/MWST enthalten.
-4. In manchen Fällen ist der für ein Land definierte **Debitorvorlagencode** nicht ausreichend, um die korrekte Berechnung der Steuern zu gewährleisten (z. B. für Länder mit Salestax). In diesem Fall könnte **Steuerregionen** eine nützliche Ergänzung sein.
-5. Das Feld **Salestaxgebiet** enthält auch ein Paar aus **Ländercode** und **Kantonname**. Dieses Paar ist nützlich, wenn der Connector einen Code in einen Namen umwandeln muss oder umgekehrt.
+2. Definieren Sie den **Kundenvorlagencode**, mit dem fehlende Kunden erstellt werden, wenn **Unbekannte Kunden automatisch erstellen** aktiviert ist. Wenn der **Kundenvorlagencode** leer ist, dann verwendet die Funktion den **Kundenvorlagencode**, der auf der **Shopify Shop-Karte** definiert ist. Das System versucht zunächst, eine Vorlage für den **Länder-/Regionscode** für die Standardadresse zu finden. Wenn keine Vorlage gefunden wird, wird die erste Adresse verwendet.
+3. In manchen Fällen ist der für ein Land definierte **Debitorvorlagencode** nicht ausreichend, um eine korrekte Berechnung der Steuern zu gewährleisten (z. B. für Länder mit Umsatzsteuer). In diesem Fall könnte der **Steuerbereich** eine nützliche Ergänzung sein.
+4. Das Feld **Salestaxgebiet** enthält auch ein Paar aus **Ländercode** und **Kantonname**. Dieses Paar ist nützlich, wenn der Connector einen Code in einen Namen umwandeln muss oder umgekehrt.
 
 > [!NOTE]  
 > Die Ländercodes sind Ländercodes nach ISO 3166-1 Alpha 2. Erfahren Sie mehr unter [Ländercode](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).

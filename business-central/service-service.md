@@ -39,7 +39,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 ## Siehe auch  
 [Verwalten von Forderungen](receivables-manage-receivables.md)   
 [Projekte](projects-how-create-jobs.md)   
-[Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)
+[Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
