@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# Lieferanmahnungen in der Schweizer Version generieren
+# <a name="generate-delivery-reminders-in-the-swiss-version" />Lieferanmahnungen in der Schweizer Version generieren
 
 [!INCLUDE [delivery-reminders-generate](../includes/ATCHDE/delivery-reminders-generate.md)]
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)  
 [Gewusst wie: Einrichten von Lieferanmahnungen](how-to-set-up-delivery-reminders.md)  

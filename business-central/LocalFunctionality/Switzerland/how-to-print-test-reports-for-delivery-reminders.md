@@ -12,19 +12,19 @@ ms.search.keywords: null
 ms.date: 06/29/2021
 ms.author: edupont
 ---
-# Drucken von Testberichten für Lieferanmahnungen in der Schweizer Version
+# <a name="print-test-reports-for-delivery-reminders-in-the-swiss-version" />Drucken von Testberichten für Lieferanmahnungen in der Schweizer Version
 Nach dem Erstellen von Lieferbenachrichtigungen und der Durchführung von etwaigen erforderlichen Änderungen in der Schweiz können Sie entweder Testberichte drucken oder die Lieferbenachrichtigungen ausstellen.  
 
 Ein Testbericht ist ein Dokument, anhand dessen Sie eine Lieferbenachrichtigung vor dem Registrieren prüfen und ändern können.  
 
-## So drucken Sie Testberichte vor dem Ausstellen von Lieferbenachrichtigungen  
+## <a name="to-print-test-reports-before-issuing-delivery-reminders" />So drucken Sie Testberichte vor dem Ausstellen von Lieferbenachrichtigungen
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Lieferanmahnung** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie auf der Seite **Lieferanmahnungenübersicht** die Aktion **Lieferanmahnung - Test**.  
 3.  Auf der Seite **Lieferanmahnung - Test** können Sie einen Filter, wenn nur ausgewählte Lieferanmahnungen drucken möchten.  
 4.  Wählen Sie **Drucken**, um den Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
-## Siehe auch  
+## <a name="see-also" />Siehe auch
  [Lieferanmahnungen](delivery-reminders.md)   
  [So erstellen Sie Lieferanmahnungen](how-to-generate-delivery-reminders.md)   
  [Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md)

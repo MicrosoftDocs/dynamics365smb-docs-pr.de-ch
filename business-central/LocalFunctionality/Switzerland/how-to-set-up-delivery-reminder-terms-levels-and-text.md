@@ -11,11 +11,11 @@ ms.search.form: '5005270, 5005272'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text in der Schweizer Version
+# <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version" />Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text in der Schweizer Version
 
 [!INCLUDE [delivery-reminder-terms-levels-text-setup](../includes/ATCHDE/delivery-reminder-terms-levels-text-setup.md)]
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Lieferanmahnungen](delivery-reminders.md)  
 [Gewusst wie: Einrichten von Lieferanmahnungen](how-to-set-up-delivery-reminders.md)  

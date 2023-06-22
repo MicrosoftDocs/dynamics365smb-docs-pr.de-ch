@@ -11,11 +11,11 @@ ms.search.form: '5005270, 5005272'
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# Lieferanmahnungen in der Schweizer Version
+# <a name="delivery-reminders-in-the-swiss-version" />Lieferanmahnungen in der Schweizer Version
 
 [!INCLUDE [delivery-reminders](../includes/ATCHDE/delivery-reminders.md)]
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
  [Gewusst wie: Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md)   
  [Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   

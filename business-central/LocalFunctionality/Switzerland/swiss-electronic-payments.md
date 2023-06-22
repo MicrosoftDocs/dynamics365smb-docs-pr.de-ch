@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 03/22/2022
 ms.author: edupont
 ---
-# Elektronische Zahlungen (Schweiz)
+# <a name="swiss-electronic-payments" />Elektronische Zahlungen (Schweiz)
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)]ermöglicht Ihnen, elektronisch Rechnungen an Debitoren zu senden. Sie können Rechnungen direkt mithilfe der Onlinebankingsoftware des Debitors ausstellen und bezahlen.  
 
-## Elektronische Zahlungsformen
+## <a name="electronic-payment-methods" />Elektronische Zahlungsformen
 
 Elektronische Zahlungen können mithilfe der folgenden Zahlungsformen durchgeführt werden:  
 
@@ -22,19 +22,19 @@ Elektronische Zahlungen können mithilfe der folgenden Zahlungsformen durchgefü
 - Lastschrift Verfahren (LSV+)  
 - SEPA Kreditübertragungen  
 
-## ESR
+## <a name="esr" />ESR
 
 ESR ist ein elektronischer Kreditorendienst, der Zahlungsscheine zum Einziehen von Geld verwendet. Es ist das elektronische Standardzahlungssystem, das von Swiss Post ins Leben gerufen wurde. ESR-Zahlungsscheine können als Rechnungsanlage gedruckt, ESR-Referenznummern berechnet und ESR-Dateien, die Zahlungsinformationen von Banken enthalten, importiert werden. Weitere Informationen erhalten Sie unter [Elektronische Zahlungen mit ESR (Schweiz)](how-to-print-esr-invoices.md). ESR- und ESR+-Zahlungen können auch mithilfe der Bankversion dieser Zahlungsmethode mit der Bezeichnung Bank-ESR (BESR) durchgeführt werden.  
 
-## LSV+
+## <a name="lsv" />LSV+
 
 LSV+ ist ein Abbuchungsdienst, der für das Bearbeiten von Zahlungen verwendet wird. Unternehmen können Debitorenzahlungen direkt von der Bank des Debitors mit der Abbuchung freigeben. Debitorenzahlungen per Lastschrift können im LSV+-Bankformat oder im DebitDirect PostFinance-Format angefordert bzw. eingezogen werden. Weitere Informationen erhalten Sie unter [Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md).  
 
-## SEPA Kreditübertragungen
+## <a name="sepa-credit-transfers" />SEPA Kreditübertragungen
 
 Um Zahlungsvorschläge entsprechend dem SEPA-Standard zu exportieren, müssen Sie ein Bankkonto verwenden. In den Bankkonten muss das Feld **Bankkto.-Buchungsgruppe** das entsprechende Fibukonto angeben. Auf diese Weise werden die entsprechenden Fibuposten konsistent mit den Einträgen, die für die Schweizer Zahlungsmethoden generiert wurden. Weitere Informationen finden Sie unter [SEPA-Lastschrifteinzugsposten erstellen und in eine Bankdatei exportieren](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)  
 
-### <a name="iban-qr"></a>IBAN und QR-IBAN
+### <a name="a-nameiban-qraiban-and-qr-iban" /><a name="iban-qr"></a>IBAN und QR-IBAN
 
 In der Schweiz können Zahlungsanfragen auf Basis von SEPA Kreditübertragungen einen regulären IBAN-Code für das Bankkonto oder einen QR-IBAN-Code enthalten. Weitere Informationen finden Sie unter [QR-Rechnungsverwaltung](ui-extensions-qr-bill-management.md).  
 
@@ -43,7 +43,7 @@ Der IBAN-Typ im Bankkonto des Empfängers muss mit dem Zahlungsreferenztyp im Ei
 > [!TIP]
 > Falls ein Kreditor beide Kontotypen regelmäßig verwendet, erstellen Sie mehrere Kreditorenbankkonten und verwenden sie entsprechend. Weitere Informationen finden Sie unter [Verwendung mehrerer Bankkonten als Ersteller von QR-Rechnungen](ui-extensions-qr-bill-management.md#multiplebankaccounts).
 
-## Weitere Informationen
+## <a name="see-also" />Weitere Informationen
 
 [QR-Bill Management in der Schweizer Version](ui-extensions-qr-bill-management.md)  
 [Importieren von Schweizer Bankenclearingnummern](how-to-import-swiss-bank-clearing-numbers.md)  

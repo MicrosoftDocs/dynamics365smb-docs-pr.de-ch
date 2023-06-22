@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# Wechselkurse regulieren in der Schweizer Version
+# <a name="adjust-exchange-rates-in-the-swiss-version" />Wechselkurse regulieren in der Schweizer Version
 Wenn Sie steuerpflichtige Umsätze in Fremdwährung abrechnen, müssen die offiziellen Kurse der Eidg. Steuerverwaltung zur MWST-Kursumrechnung verwendet werden.  
 
 Wenn diese Kurse nicht mit den Währungskursen in den Einkaufs- oder Verkaufsrechnungen übereinstimmen, müssen Sie die MWST-Sätze später mit einer Stapelverarbeitung regulieren. Diese Regulierungen können nur mit einem autorisierten MWST-Satz durchgeführt werden.  
@@ -22,7 +22,7 @@ Sie können diese Stapelverarbeitung beliebig oft ausführen. Achten Sie aber da
 
 Weitere Informationen über MWST und Fremdwährungen finden Sie auf der [ESTV](https://go.microsoft.com/fwlink/?LinkId=285999)-Website.  
 
-## So regulieren Sie einen Wechselkurs  
+## <a name="to-adjust-an-exchange-rate" />So regulieren Sie einen Wechselkurs
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Währungen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Wechselkurse** aus.  
@@ -39,7 +39,7 @@ Weitere Informationen über MWST und Fremdwährungen finden Sie auf der [ESTV](h
 
 7.  Wählen Sie die Schaltfläche **Drucken**, um den Batchauftrag zu starten. Diese Stapelverarbeitung legt fest, ob MWST-Posten reguliert werden müssen. Ausserdem bereitet sie einen Regulierungsposten für jeden dieser Posten für die Fibukonten "Unrealisierte/realisierte Kursregulierung" vor. Die vorhandenen MWST-Posten werden ebenfalls korrigiert.  
 
-## Siehe auch  
+## <a name="see-also" />Siehe auch
  [Mehrwertsteuer (Schweiz)](swiss-value-added-tax.md)   
  [MWST-Sätze für die Schweiz](vat-rates-for-switzerland.md)   
 [Währungswechselkurse aktualisieren](../../finance-how-update-currencies.md)  

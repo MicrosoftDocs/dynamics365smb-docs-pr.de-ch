@@ -11,11 +11,11 @@ ms.search.form: '5005270, 5005272'
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# Zuweisen von Lieferanmahnungen zu Kreditoren in der Schweizer Version
+# <a name="assign-delivery-reminder-codes-to-vendors-in-the-swiss-version" />Zuweisen von Lieferanmahnungen zu Kreditoren in der Schweizer Version
 
 [!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Registriert einen neuen Kreditor](../../purchasing-how-register-new-vendors.md)  
 [Lieferanmahnungen](delivery-reminders.md)  

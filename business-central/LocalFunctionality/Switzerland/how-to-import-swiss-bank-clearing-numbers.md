@@ -11,13 +11,13 @@ ms.search.form: 11501
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# Schweizer Bank-Clearing-Nummern importieren in der Schweizer Version
+# <a name="import-swiss-bank-clearing-numbers-in-the-swiss-version" />Schweizer Bank-Clearing-Nummern importieren in der Schweizer Version
 
 Bankenclearingnummern sind eindeutige Nummern zur Kennzeichnung der einzelnen Bankagenturen oder Filialen im Bankenstamm. Diese Informationen sind Voraussetzung für elektronische Zahlung. Die Datei kann auf der Website von [SIX Interbank Clearing](https://go.microsoft.com/fwlink/?LinkId=145121) heruntergeladen werden.  
 
 Die BC-Bankstammdatei (TXT) – die offizielle Schweizer Bankenclearingnummer-Datei – kann importiert werden, um die Bankenclearingnummer-Informationen im Bankenstamm zu aktualisieren. Wenn Sie die Bankenclearingnummer-Datei importieren, werden die Daten in die Tabelle **Bankenstamm** importiert, und die vorhandenen Daten werden überschrieben. Nach dem Importieren der Bankenclearingnummer-Datei können Sie die aktualisierte Bankfilialnummer für Debitoren und Kreditoren definieren. Weitere Informationen finden Sie in den Tabellen "Debitor Bankkonto" und "Kreditor Bankkonto".  
 
-## So importieren Sie Bankenclearingnummern für Schweiz  
+## <a name="to-import-swiss-bank-clearing-numbers" />So importieren Sie Bankenclearingnummern für Schweiz
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Geben Sie **Bankverzeichnis** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Bankverzeichnis importieren** aus.  
@@ -30,7 +30,7 @@ Die BC-Bankstammdatei (TXT) – die offizielle Schweizer Bankenclearingnummer-Da
 
 Im folgenden Verfahren wird beschrieben, wie Sie Bankfilialnummern für Debitorenbankkonten definieren. Dieselben Schritte gelten auch für die Definition von Bankfilialnummern für Debitorenbankkonten.  
 
-## So definieren Sie Bankfilialnummern für Debitorenbankkonten  
+## <a name="to-define-bank-branch-numbers-for-customer-bank-accounts" />So definieren Sie Bankfilialnummern für Debitorenbankkonten
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie den Debitor, für den Sie Bankkontoeninformationen erstellen möchten, und wählen die Aktion **Bankkonten**.  
@@ -38,7 +38,7 @@ Im folgenden Verfahren wird beschrieben, wie Sie Bankfilialnummern für Debitore
 4. Wählen Sie auf dem Inforegister **Allgemein** im Feld **BLZ** die Nummer der Bankagentur oder -filiale aus.  
 5. Wählen Sie die Schaltfläche **OK** aus.  
 
-## Siehe auch 
+## <a name="see-also" />Siehe auch
 
 [Elektronische Zahlungen (Schweiz)](swiss-electronic-payments.md)  
 [Bankkonten einrichten](../../bank-how-setup-bank-accounts.md)
