@@ -84,7 +84,7 @@ Sie können für jedes Abschreibungsbuch Vorgaben für Vorlagen und Erfassungsjo
 3. Falls Sie eine Standardeinrichtung für jeden einzelnen Benutzer definieren möchten, wählen Sie die Seite **Benutzer-ID** aus, um über das Fenster **Benutzer** auszuwählen.  
 4. Wählen Sie in den anderen Feldern die Erf.-Journalvorlage oder den Erf.-Journalnamen, die standardmässig verwendet werden müssen.  
 
-## <a name="fiscal-year--days-field-depreciation" />Geschäftsjahr 365 Tage Feld Abschreibung
+## <a name="fiscal-year-365-days-field-depreciation" />Geschäftsjahr 365 Tage Feld Abschreibung
 
 Wenn der Batchauftrag Abschreibung berechnen die Abschreibungen berechnet, verwendet der Batchauftrag normalerweise ein standardisiertes Jahr mit 360 Tagen, wobei jeder der 12 Monate 30 Tage hat.
 

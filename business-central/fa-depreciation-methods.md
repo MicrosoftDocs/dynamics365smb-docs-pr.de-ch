@@ -80,7 +80,7 @@ Für dieses Beispiel sieht der Anlagenposten folgendermassen aus:
 | 06/30/27 |Abschreibungen |180 |-6.250,00 |6,250.00 |
 | 12/31/27 |Abschreibungen |180 |-6.250,00 |0 |
 
-## <a name="declining-balance--depreciation" />Abschreibungsmethode "1 % degressiv"
+## <a name="declining-balance-1-depreciation" />Abschreibungsmethode "1 % degressiv"
 
 Hierbei handelt es sich um eine beschleunigte Abschreibungsmethode, bei der der grösste Teil der Kosten einer Anlage in den ersten Jahren der Nutzungsdauer abgeschrieben wird. Wenn Sie diese Methode verwenden, müssen Sie einen festen jährlichen Prozentsatz eingeben.  
 
@@ -92,7 +92,7 @@ Die Abschreibungsbasis wird als der Buchwert minus der gebuchten Abschreibung se
 
 Der gebuchte Abschreibungsbetrag kann Posten mit verschiedenen Buchungsarten enthalten (erhöhte Abschreibung, Sonder-Abschreibung und benutzerdefinierte Abschreibung), die seit dem Startdatum des aktuellen Geschäftsjahrs gebucht worden sind. Diese Buchungsarten sind in dem gebuchten Abschreibung Betrag enthalten, wenn Häkchen in den Feldern **Abschreibungsart** und **Teil d. Buchwerts** auf der Seite **Anlagenbuchungsart Einr.** gesetzt sind.  
 
-### <a name="example---declining-balance--depreciation" />Beispiel – Abschreibungsmethode "1 % degressiv"
+### <a name="example---declining-balance-1-depreciation" />Beispiel – Abschreibungsmethode "1 % degressiv"
 
 Eine Anlage hat Anschaffungskosten von MW 100.000. Das Feld **Degressive AfA %** hat den Wert 25. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt.  
 
@@ -122,11 +122,11 @@ Berechnungsmethode:
 
 Die Berechnung erfolgt bis der Buchwert gleich dem endgültigen Rundungsbetrag oder dem von Ihnen angegebenen Restwert ist.  
 
-## <a name="declining-balance--depreciation" />Abschreibungsmethode "2 % degressiv"
+## <a name="declining-balance-2-depreciation" />Abschreibungsmethode "2 % degressiv"
 
 Die Methoden Degressiv 1 und Degressiv 2 berechnen den gleichen Gesamt Abschreibung-Betrag für jedes Jahr. Falls Sie die Stapelverarbeitung **AfA berechnen** mehr als einmal jährlich ausführen, resultiert die Methode "Degressiv 1" in gleichen AfA Beträgen für die einzelnen Perioden. Die Methode "Degressiv 2" hat in diesem Fall fallende Beträge in den einzelnen Perioden zur Folge.  
 
-### <a name="example---declining-balance--depreciation" />Beispiel – Abschreibungsmethode "2 % degressiv"
+### <a name="example---declining-balance-2-depreciation" />Beispiel – Abschreibungsmethode "2 % degressiv"
 
 Eine Anlage hat Anschaffungskosten von MW 100.000. Das Feld **Degressive AfA %** hat den Wert 25. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt. Die Anlagenposten sehen folgendermassen aus:  
 
@@ -159,7 +159,7 @@ Die Abschreibungswerte lauten:
 | 06/30/21 |DA = 75.000,00 x (1 -(1 - 0,25)<sup>0,5</sup>) = 10.048,09 |
 | 12/31/21 |DA = 64.951,91 x (1 -(1 - 0,25)<sup>0,5</sup>) = 8.701,91 |
 
-## <a name="dbsl-depreciation" />Degressiv/Lineare Abschreibung 1
+## <a name="db1sl-depreciation" />Degressiv/Lineare Abschreibung 1
 
 "Degr1/Linear" ist eine abgekürzte Kombination von "Degressiv 1" und "Linear". Die Berechnung erfolgt bis der Buchwert gleich dem endgültigen Rundungsbetrag oder dem von Ihnen angegebenen Restwert ist.  
 
@@ -169,7 +169,7 @@ Die Anwendung kann die degressiven Berechnungen unter der Verwendung von verschi
 
 Wenn Sie diese Methode verwenden, müssen Sie die geschätzte Nutzungsdauer und einen degressiven Prozentsatz auf der Seite **Anlagen-Abschreibungsbücher** eingeben.  
 
-### <a name="example---db-sl-depreciation" />Beispiel – Degressiv-Lineare Abschreibung 1
+### <a name="example---db1-sl-depreciation" />Beispiel – Degressiv-Lineare Abschreibung 1
 
 Eine Anlage hat Anschaffungskosten von MW 100.000. Im Fenster **Anlagen-Abschreibungsbücher** enthält die Seite **Degressive Abschreibung %** den Wert 25 und das Feld **Nutzungsdauer i. Jahren** den Wert 8. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt.  
 
@@ -246,7 +246,7 @@ Die Anlagenposten sehen folgendermassen aus:
 | 12/31/24 |Abschreibungen |360 |-20.000,00 |10,000.00 |
 | 12/31/25 |Abschreibungen |180 |-10.000,00 |0.00 |
 
-## <a name="example---dbsl-depreciation-using-half-year-convention" />Beispiel – Degressiv/Lineare Abschreibung 1 unter Verwendung der US-Halbjahresregel
+## <a name="example---db1sl-depreciation-using-half-year-convention" />Beispiel – Degressiv/Lineare Abschreibung 1 unter Verwendung der US-Halbjahresregel
 
 Eine Anlage hat Anschaffungskosten von MW 100.000. Das **Startdatum Normal-Abschreibung** ist der 01.11.20. Die erwartete Lebensdauer ist fünf Jahre, daher muss das Feld **Enddatum d. Abschreibung** 30.06.25 lauten. Auf der Seite **Anlagen-Abschreibungsbücher** enthält das Feld **Degressive Abschreibung %** den Wert 40. Die Stapelverarbeitung **Abschreibung berechnen** wird jährlich ausgeführt. Dieses Beispiel basiert auf einem Kalenderjahr als Geschäftsjahr.  
 

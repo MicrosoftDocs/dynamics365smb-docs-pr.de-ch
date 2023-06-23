@@ -43,7 +43,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/purchase-items-services-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

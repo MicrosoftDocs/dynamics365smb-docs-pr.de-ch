@@ -47,7 +47,7 @@ Es werden alle Datensätze eingehender Dokumente angezeigt, einschliesslich der 
 > [!NOTE]  
 > Sie können diese Aktion für einzelne Datensätze auf der Seite **Eingehende Belegkarte** durchführen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
   

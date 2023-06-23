@@ -33,7 +33,7 @@ Wenn Sie eine neue Erfassungsjournalzeile, einen Belegkopf oder eine Belegzeile 
 
 Wenn Sie die Seite **Dimensionssatzeinträge bearbeiten**bearbeiten und schliessen, wird eine Prüfung ausgeführt, um festzustellen, ob die Kombination aus Dimensionswerten als Dimensionssatz in der Tabelle existiert. Wenn die Kombination in der Tabelle auftritt, wird die entsprechende Dimensionssatz-ID der Erfassungsjournalzeile, dem Belegkopf oder der Belegzeile zugeordnet. Andernfalls wird ein neuer Dimensionssatz der Tabelle hinzugefügt, und die neue Dimensionssatz-ID wird der Erfassungsjournalzeile, dem Belegkopf oder der Belegzeile zugeordnet.
 
-## <a name="codeunit--dimension-management" />Codeunit 408 Dimension Management
+## <a name="codeunit-408-dimension-management" />Codeunit 408 Dimension Management
 Codeunit 408 Dimension Management ist eine Funktionsbibliothek, die häufige Aufgaben im Zusammenhang mit Dimensionen behandelt, wie etwa das Kopieren von einer Tabelle zu einer anderen oder von einem Beleg zu einem anderen.
 
 ## <a name="performance-improvement" />Leistungsverbesserung

@@ -39,7 +39,7 @@ Nachdem Sie eine MWST-Abrechnung eingeben haben, können Sie diese in der Vorsch
 4. Für die Zeilen, für die im Feld **Art** der Eintrag **MWST-Summe** angezeigt wird, kann eine Liste der MWST-Posten angezeigt werden, wenn Sie im Feld **Spaltenbetrag** den Betrag auswählen.
 5. Sie können Personalisierung verwenden, um weitere Felder in den Posten anzuzeigen. Zum Beispiel die Unrealisierte Basis und Unrealisierter MWST-Betrag, wenn Sie Vereinnahmte MWST verwenden.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 
