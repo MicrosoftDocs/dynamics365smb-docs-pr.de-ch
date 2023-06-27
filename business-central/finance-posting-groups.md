@@ -126,7 +126,7 @@ Wenn etwas nicht stimmt, zeigt [!INCLUDE[prod_short](includes/prod_short.md)] di
 > [!NOTE]
 > Die oben beschriebene Fehlerbehandlung ist nicht verfügbar für Artikel-, Ressourcen-, Mitarbeiter- und Anlage-Fibu Erfassungsjournale oder für Fibukonten, die in lokalen Versionen von Buchungsgruppen hinzugefügt wurden.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesposting-groups-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/posting-groups-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/posting-groups-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

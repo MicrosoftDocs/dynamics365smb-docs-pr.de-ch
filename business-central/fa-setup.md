@@ -36,7 +36,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Informieren Sie sich über verschiedene Anlagen-Abschreibungsmethoden. |[Abschreibungsmethoden](fa-depreciation-methods.md) |
 | Erfahren Sie, wie Sie benutzerdefinierte Abschreibungsmethoden anwenden können. |[Benutzerdefinierte Abschreibungsmethoden festlegen](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Siehe auch
 

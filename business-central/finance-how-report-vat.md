@@ -35,7 +35,7 @@ Wenn Sie den gesamten Verlauf von MWST-Posten anzeigen möchten, erstellt jede B
 > [!NOTE]
 > Jede [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebung soll die gesetzlich vorgeschriebene Berichterstellung in einem einzigen Land handhaben. Die niederländische Version von [!INCLUDE[prod_short](includes/prod_short.md)] handhabt MwSt-Berichterstellung beispielsweise in den Niederlanden, jedoch nicht in anderen Ländern. In ähnlicher Weise handhabt die US-Version von [!INCLUDE[prod_short](includes/prod_short.md)] Steuererklärungen (US 1099) in den USA und unterstützt nicht die Geltendmachung von MwSt-Berichten in anderen Ländern, es sei denn, sie wird durch eine von unserem Partner-Ökosystem gelieferte Erweiterung oder eine kundenspezifische Code-Modifikation eingeführt.
 
-## <a name="a-nameecsaleslistaabout-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Info über "Zusammenfassende Meldung – Bericht"
+## <a name="about-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Info über "Zusammenfassende Meldung – Bericht"
 
 In der Europäischen Union (EU) und im Vereinigten Königreich (UK) müssen alle Unternehmen, die Waren und Dienstleistungen an mehrwertsteuerlich registrierte Debitoren verkaufen, einschliesslich Debitoren in anderen Ländern der Europäischen Union (EU), eine elektronische Version der EU-Zusammenfassenden Meldung an ihre Zoll- und MWST-Behörden senden. Der Bericht **Zusammenfassende Meldung** funktioniert nur für Länder in der EU.
 
@@ -53,7 +53,7 @@ Nachdem die Steuerbehörden den Bericht erneut erstellen, senden Sie eine E-Mail
 
 [!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
 
-## <a name="a-namevatreturnaabout-the-vat-return-report" /><a name="vatreturn"></a>Informationen zum MWST-Rückgabebericht
+## <a name="about-the-vat-return-report" /><a name="vatreturn"></a>Informationen zum MWST-Rückgabebericht
 
 Verwenden Sie diesen Bericht, um MWST für Einkaufs- und Verkaufsbelege zu senden, wie Bestellungen und Verkaufsaufträge, Rechnungen und Gutschriften. Die Informationen dieses Berichts haben dabei dasselbe Format wie die Formulare der Finanz- und Steuerbehörden.  
 
@@ -73,7 +73,7 @@ Um MwSt an eine Steuerbehörden zu übermitteln, müssen Sie den [!INCLUDE[prod_
     > [!NOTE]  
     > Es ist empfehlenswert, die Verbindung zu testen. Aktivieren Sie dazu das Kontrollkästchen **Testmodus** und senden Sie Ihren MWST-Bericht wie im Abschnitt [Vorbereiten und Übermitteln eines MWST-Berichts](#to-prepare-and-submit-a-vat-report) beschrieben. Im Testmodus testet der Dienst, ob die Steuerbehörden den Bericht erhalten, und der Status des Berichts gibt an, ob die Testübermittlung erfolgreich war. Denken Sie daran, dass dies keine tatsächliche Datenübermittlung ist. Um den tatsächlichen Bericht zu senden, müssen Sie das Feld **Testmodus** deaktivieren und dann den Übermittlungsvorgang wiederholen.
 
-## <a name="to-set-up-vat-reports-in-includeprodshortincludesprodshortmd" />Einrichten von MWST-Berichten in [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-set-up-vat-reports-in-" />Einrichten von MWST-Berichten in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
@@ -148,7 +148,7 @@ Die folgende Tabelle beschreibt Codeunits, die Sie für den Bericht erstellen m�
 > [!Note]
 > Wenn Sie Codeunits für den Bericht erstellen, passen Sie auf den Wert im Feld **MwSt Berichts-Version** auf. Dieses Feld muss der Version des Berichts entsprechen, der von der Steuerbehörde verlangt wurde oder verlangt wird. Beispielsweise können Sie**2021** in dieses Feld eingeben, um anzugeben, dass der Bericht der Anforderungen entspricht, die im letzten Jahr verlangt wurden. Um die aktuellen Version zu finden, setzen Sie sich mit den Steuerbehörden in Verbindung.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

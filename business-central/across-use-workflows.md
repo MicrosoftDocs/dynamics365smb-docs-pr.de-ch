@@ -64,7 +64,7 @@ Bevor Sie beginnen können, Workflows zu verwenden, müssen Sie Workflowbenutzer
 | Zeigen Sie Workflowschrittinstanzen mit dem Status **Abgeschlossen** an. | [Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md) |
 | Löschen Sie einen Genehmigungsworkflow, den Sie nicht mehr verwenden werden. | [Genehmigungsworkflows löschen](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Siehe auch
 

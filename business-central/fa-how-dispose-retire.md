@@ -45,7 +45,7 @@ Wenn Sie eine Anlage verkaufen, wird der Verkaufswert in den Fibuposten gebucht,
 
 Die Seite **Fibuposten** wird geöffnet, auf der Sie die Posten sehen können, die aus der Verkaufsbuchung resultieren.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdispose-fixed-assets" />Siehe verwandte [Microsoft Schulungen](/training/modules/dispose-fixed-assets/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/dispose-fixed-assets/)
 
 ## <a name="see-also" />Siehe auch
 

@@ -27,7 +27,7 @@ Sie können alle relevanten Daten auf der Seite **Firmeninformationen** eingeben
 
 Sobald Sie die Informationen ausgefüllt haben, können Sie die Seite schliessen.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 

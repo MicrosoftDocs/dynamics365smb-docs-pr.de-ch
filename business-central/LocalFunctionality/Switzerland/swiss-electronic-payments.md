@@ -34,7 +34,7 @@ LSV+ ist ein Abbuchungsdienst, der für das Bearbeiten von Zahlungen verwendet w
 
 Um Zahlungsvorschläge entsprechend dem SEPA-Standard zu exportieren, müssen Sie ein Bankkonto verwenden. In den Bankkonten muss das Feld **Bankkto.-Buchungsgruppe** das entsprechende Fibukonto angeben. Auf diese Weise werden die entsprechenden Fibuposten konsistent mit den Einträgen, die für die Schweizer Zahlungsmethoden generiert wurden. Weitere Informationen finden Sie unter [SEPA-Lastschrifteinzugsposten erstellen und in eine Bankdatei exportieren](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)  
 
-### <a name="a-nameiban-qraiban-and-qr-iban" /><a name="iban-qr"></a>IBAN und QR-IBAN
+### <a name="iban-and-qr-iban" /><a name="iban-qr"></a>IBAN und QR-IBAN
 
 In der Schweiz können Zahlungsanfragen auf Basis von SEPA Kreditübertragungen einen regulären IBAN-Code für das Bankkonto oder einen QR-IBAN-Code enthalten. Weitere Informationen finden Sie unter [QR-Rechnungsverwaltung](ui-extensions-qr-bill-management.md).  
 

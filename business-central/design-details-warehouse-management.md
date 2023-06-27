@@ -231,7 +231,7 @@ Bei der Kommissionierung über FEFO wählt die Anwendung Artikel auf der Grundla
 
 Einlagerungsvorlagen geben einen Satz priorisierter Regeln an, die gelten,wenn Sie Einlagerungen erstellen. Beispielsweise kann eine Einlagerungsvorlage erfordern, dass Sie Artikel in einen Lagerplatz mit Lagerplatzinhalt legen, der dieselbe Masseinheit hat. Wenn kein ähnlicher Lagerplatz mit ausreichender Kapazität gefunden werden kann, muss der Artikel an einen leeren Lagerplatz gelegt werden. Sie weisen eine Einlagerungsvorlage einem Artikel und einem Lagerort zu.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Siehe verwandte [Microsoft Schulungen](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Siehe auch
 
@@ -239,6 +239,6 @@ Einlagerungsvorlagen geben einen Satz priorisierter Regeln an, die gelten,wenn S
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
