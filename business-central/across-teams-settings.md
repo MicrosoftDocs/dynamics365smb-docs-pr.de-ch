@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# <a name="changing-company-and-other-settings-in-teams" />Ändern der Firma und anderer Einstellungen in Teams
+# <a name="changing-company-and-other-settings-in-teams"></a>Ändern der Firma und anderer Einstellungen in Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -27,7 +27,7 @@ Es gibt zwei Möglichkeiten, die Seite **Einstellungen** zu öffnen: 1) Vom Feld
 
    ![Einstellungen für Business Central aus dem Nachrichtenfeld festlegen.](media/teams-settings-command-box.png)
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Übersicht über die Integration von Business Central und Microsoft Teams](across-teams-overview.md)  
 [Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md)  

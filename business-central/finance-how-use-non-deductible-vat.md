@@ -12,11 +12,11 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="use-non-deductible-vat" />Nicht abzugsfähige MWST verwenden
+# <a name="use-non-deductible-vat"></a>Nicht abzugsfähige MWST verwenden
 
 In diesem Artikel wird erläutert, wie Sie die nicht abzugsfähige MWST verwenden und Bericht darüber erstatten.
 
-## <a name="create-a-purchase-invoice-with-non-deductible-vat" />Erstellen Sie eine Einkaufsrechnung mit nicht abzugsfähiger MWST
+## <a name="create-a-purchase-invoice-with-non-deductible-vat"></a>Erstellen Sie eine Einkaufsrechnung mit nicht abzugsfähiger MWST
 
 1. Wählen Sie die ![Glühbirne, welche die 3. „Sie wünschen ...“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Neu**, um eine Einkaufsrechnung zu erstellen, und geben Sie die entsprechenden Informationen im Rechnungskopf ein.
@@ -27,7 +27,7 @@ In diesem Artikel wird erläutert, wie Sie die nicht abzugsfähige MWST verwende
 
 5. Buchen Sie die Rechnung.
 
-## <a name="create-a-purchase-order-with-non-deductible-vat" />Erstellen Sie eine Einkaufsbestellung mit nicht abzugsfähiger MWST
+## <a name="create-a-purchase-order-with-non-deductible-vat"></a>Erstellen Sie eine Einkaufsbestellung mit nicht abzugsfähiger MWST
 
 1. Wählen Sie die ![Glühbirne, welche die 3. „Sie wünschen ...“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Neu**, um eine Einkaufsbestellung zu erstellen, und geben Sie die entsprechenden Informationen im Belegkopf ein.
@@ -38,7 +38,7 @@ In diesem Artikel wird erläutert, wie Sie die nicht abzugsfähige MWST verwende
 
 5. Buchen Sie die Einkaufsbestellung.
 
-## <a name="adjust-rounded-vat-amounts-before-document-posting" />Gerundete MWST-Beträge vor Belegbuchung anpassen
+## <a name="adjust-rounded-vat-amounts-before-document-posting"></a>Gerundete MWST-Beträge vor Belegbuchung anpassen
 
 Wenn MWST-Beträge in Ihrer Umgebung und im externen Buchhaltungssystem (dem ursprünglichen Rechnungsbeleg) nicht auf die gleiche Weise gerundet werden, können Sie den MWST-Betrag vor dem Buchen des Belegs anpassen. Gehen Sie folgendermassen vor, um diese Anpassung vorzunehmen, bevor Sie den Beleg buchen.
 
@@ -61,7 +61,7 @@ Sie können die Werte der Felder **MWST-Betrag** und **Nicht abzugsfähiger MWST
 > [!IMPORTANT]
 > Sie können auf Vorauszahlungsrechnungen keine nicht abzugsfähige MWST verwenden.
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Finanzmanagement](finance.md)  
 [Berechnungen und Buchungsmethoden für die Mehrwertsteuer festlegen](finance-setup-vat.md)  

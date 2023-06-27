@@ -11,7 +11,7 @@ ms.search.form: '312, 313'
 ms.date: 08/26/2022
 ms.author: bholtorf
 ---
-# <a name="set-up-posting-groups" />Buchungsgruppen einrichten
+# <a name="set-up-posting-groups"></a>Buchungsgruppen einrichten
 
 Buchungsgruppen bilden Entitäten auf Hauptbuchkonten ab. Beispiele für Entitäten sind Debitoren, Kreditoren, Artikel, Ressourcen sowie Verkaufs- und Einkaufsbelege. Buchungsgruppen sparen Zeit und helfen, Fehler zu vermeiden, wenn Sie Transaktionen buchen. Die Umsatzwerte wechseln zu den Konten, die in der Buchungsgruppe für diese bestimmte Einheit angegeben werden. Die einzige Anforderung ist, dass Sie einen Kontenplan haben. Weitere Informationen finden Sie unter [Einrichten des Kontenplans](finance-setup-chart-accounts.md).  
 
@@ -29,7 +29,7 @@ Buchungsgruppen werden unter drei Schlüsseln abgedeckt:
 
 In den folgenden Abschnitten werden die Buchungsgruppen nach Schlüsseln beschrieben.  
 
-## <a name="general-posting-groups" />Allgemeine Buchungsgruppen
+## <a name="general-posting-groups"></a>Allgemeine Buchungsgruppen
 
 In der folgenden Tabelle werden die allgemeinen Buchungsgruppen beschrieben.
 
@@ -39,7 +39,7 @@ In der folgenden Tabelle werden die allgemeinen Buchungsgruppen beschrieben.
 | Allgemeine Produktbuchungsgruppen |Weisen Sie diese Gruppe Artikeln und Ressourcen zu, um festzulegen, was Sie verkaufen und was Sie kaufen. Richten Sie diese Buchungsgruppen auf der Seite **Produktbuchungsgruppen** ein. Wenn Sie dies tun, berücksichtigen Sie die Gruppen, in die Sie Verkäufe nach Produkt (Artikel und Ressourcen) und Verkäufe nach Artikeln aufschlüsseln müssen. Beispielsweise  teilen Sie diese Gruppen nach Rohmaterial, Einzelhandel, Ressourcen, Kapazität, usw. auf. |
 | Buchungsmatrix Einrichtung |Kombinieren von Geschäfts- und Produktbuchungsgruppen, und aktivieren Sie die Konten, um zu buchen. Jeder Kombination aus Geschäfts- und Produktbuchungsgruppen können Sie einen anderen Satz von Fibukonten zuweisen. Sie können z. B. den Verkauf desselben Artikels auf verschiedene Hauptbuchkonten buchen, da die Kunden verschiedenen Geschäftsbuchungsgruppen zugeordnet sind. Richten Sie diese Konfigurationen auf der Seite **Buchungsmatrix Einrichtung** ein. |
 
-## <a name="specific-posting-groups" />Spezielle Buchungsgruppen
+## <a name="specific-posting-groups"></a>Spezielle Buchungsgruppen
 
 In der folgenden Tabelle werden die Buchungsgruppen beschrieben, die sich auf bestimmte Datentypen beziehen.
 
@@ -51,7 +51,7 @@ In der folgenden Tabelle werden die Buchungsgruppen beschrieben, die sich auf be
 | Bankkontobuchungsgruppen |Definieren Sie die Sachkonten, in die Bankkontoposten gebucht werden. Beispielsweise kann dies die Vorgänge für die Nachverfolgung von Transaktions- und Ausgleichsbankonten vereinfachen, Richten Sie diese Buchungsgruppen auf der Seite **Bankkonto-Buchungsgruppen** ein. Wir empfehlen, das Feld **Direktbuchung** dieser Fibukonten auf *Nein* festzulegen. |
 | Anlagenbuchungsgruppen |Sie legen die Konten für die Anschaffungskosten, die kumulierten Abschreibungsbeträge, die Anschaffungskosten bei Verkauf, die kumulierte Abschreibung bei Verkauf, den Gewinn bei Verkauf, den Wartungsaufwand und den Abschreibungsaufwand fest. Richten Sie diese Buchungsgruppen auf der Seite **Anlagenbuchungsgruppen** ein. |
 
-### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents" />Zulassen von Ersatzbuchungsgruppen für Debitoren oder Kreditoren in Belegen
+### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Zulassen von Ersatzbuchungsgruppen für Debitoren oder Kreditoren in Belegen
 
 [!INCLUDE [preview](includes/preview.md)]
 
@@ -65,7 +65,7 @@ Nachdem Sie dies eingerichtet haben, können Sie aus den zulässigen Ersatzbuchu
 
 Wenn Sie beispielsweise eine Rechnung und eine Zahlung anwenden, die mit unterschiedlichen Debitoren- oder Kreditorenbuchungsgruppen (unterschiedliche Fibukonten) gebucht werden, überträgt [!INCLUDE[prod_short](includes/prod_short.md)] die Beträge zwischen den Fibukonten, um sie auszugleichen.
 
-## <a name="tax-posting-groups" />Salestaxbuchungsgruppen
+## <a name="tax-posting-groups"></a>Salestaxbuchungsgruppen
 
 In der folgenden Tabelle werden die salestaxbezogenen Buchungsgruppen beschrieben.
 
@@ -77,7 +77,7 @@ In der folgenden Tabelle werden die salestaxbezogenen Buchungsgruppen beschriebe
 
 Wenn Ihr Land MWST erhebt, finden Sie Informationen unter [Berechnungen und Buchungsmethoden für die MWST festlegen](finance-setup-vat.md).  
 
-## <a name="example-of-linking-posting-groups" />Beispiel für die Verknüpfung von Buchungsgruppen
+## <a name="example-of-linking-posting-groups"></a>Beispiel für die Verknüpfung von Buchungsgruppen
 
 Hier ist ein Szenario.  
 
@@ -100,11 +100,11 @@ Wenn ein Verkaufsbeleg erstellt wird, werden die Informationen auf der Debitoren
 
 Ihre Einrichtung legt fest, wann die Buchung erfolgt. Beispielsweise wird die zeitliche Steuerung tangiert, wenn Sie "Periodische Aktivitäten" durchführen, wie Buchungslagerkosten oder Anpassung von Kostenfaktorposten.
 
-## <a name="copying-posting-setup-lines" />Kopieren von Buchungsmatrix-Einrichtungszeilen
+## <a name="copying-posting-setup-lines"></a>Kopieren von Buchungsmatrix-Einrichtungszeilen
 
 Je mehr Produkt- und Geschäftsbuchungsgruppen vorhanden sind, um so mehr Zeilen werden auf der Seite **Buchungsmatrix Einrichtung** angezeigt. Für die Einrichtung der Buchungsmatrix des Unternehmens kann daher unter Umständen eine umfangreiche Dateneingabe erforderlich sein. Während unter Umständen viele verschiedene Kombinationen von Geschäfts- und Produktbuchungsgruppen vorhanden sind, buchen möglicherweise unterschiedliche Kombinationen weiterhin auf dieselben Fibukonten. Um den Umfang der erforderlichen manuellen Dateneingabe einzuschränken, kopieren Sie die Fibukonten aus einer vorhandenen Zeile auf der Seite **Buchungsmatrix Einrichtung**.
 
-## <a name="set-up-posting-groups-on-the-go" />Buchungsgruppen von unterwegs aus festlegen
+## <a name="set-up-posting-groups-on-the-go"></a>Buchungsgruppen von unterwegs aus festlegen
 
 Um den Benutzern einen schnelleren Einstieg zu ermöglichen, kann [!INCLUDE[prod_short](includes/prod_short.md)] Benachrichtigungen über fehlende Fibukonten in verschiedenen Buchungsgruppen-Einrichtungen anzeigen. Um diese Benachrichtigungen zu erhalten, stellen Sie sicher, dass die Benachrichtigung **Fibukonto fehlt in Buchungsgruppe oder Einrichtung** auf der Seite **Meine Benachrichtigungen** ausgewählt ist, auf die Sie über das Feld **Ändern, wenn ich Benachrichtigungen erhalte** auf der Seite **Meine Einstellungen** zugreifen können.  
 
@@ -117,7 +117,7 @@ Auf diese Weise erhalten Sie eine Benachrichtigung, wenn Sie an einem Beleg arbe
 
 Ab dem 1. Veröffentlichungszyklus 2022 können Sie das **Gesperrt**-Feld auf der Seite **Buchungsmatrix Einrichtung** verwenden, um zu verhindern, dass Benutzer versehentlich ein Setup verwenden, das für neue Buchungen nicht mehr relevant ist.  
 
-## <a name="troubleshooting-posting-group-errors" />Problembehandlung von Fehlern bei Buchungsgruppen
+## <a name="troubleshooting-posting-group-errors"></a>Problembehandlung von Fehlern bei Buchungsgruppen
 
 Buchungsgruppen sind eines der fortgeschritteneren Konzepte, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] festlegen können. Wenn sie nicht korrekt eingerichtet sind, können beim Buchen von Belegen oder Erfassungsjournalzeilen Fehler auftreten. Diese Fehler werden in der Regel durch einen Fehler bei der Zuordnung von Fibukonten oder bei der Kombination von Buchungsgruppen verursacht.
 
@@ -126,9 +126,9 @@ Wenn etwas nicht stimmt, zeigt [!INCLUDE[prod_short](includes/prod_short.md)] di
 > [!NOTE]
 > Die oben beschriebene Fehlerbehandlung ist nicht verfügbar für Artikel-, Ressourcen-, Mitarbeiter- und Anlage-Fibu Erfassungsjournale oder für Fibukonten, die in lokalen Versionen von Buchungsgruppen hinzugefügt wurden.
 
-## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/posting-groups-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/posting-groups-dynamics-365-business-central/)
 
-## <a name="see-also" />Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Finance einrichten](finance-setup-finance.md)  
