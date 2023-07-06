@@ -11,11 +11,11 @@ ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
 ---
-# <a name="close-accounting-periods"></a><a name="close-accounting-periods"></a>Schliessen von Buchhaltungsperioden
+# <a name="close-accounting-periods"></a><a name="close-accounting-periods"></a><a name="close-accounting-periods"></a>Schliessen von Buchhaltungsperioden
 
 Wenn ein Geschäftsjahr vorbei ist, müssen die Perioden, aus denen es besteht, geschlossen werden.
 
-## <a name="to-close-accounting-periods"></a><a name="to-close-accounting-periods"></a>Buchhaltungsperioden schliessen:
+## <a name="to-close-accounting-periods"></a><a name="to-close-accounting-periods"></a><a name="to-close-accounting-periods"></a>Buchhaltungsperioden schliessen:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Buchhaltungsperioden** die Aktion **Jahr auswählen** aus.
@@ -32,7 +32,7 @@ Auch wenn ein Geschäftsjahr abgeschlossen wurde, können hierfür noch Fibupost
 
 Nachdem ein Geschäftsjahr abgeschlossen wurde, müssen Sie die Erfolgsrechnungsnullstellung durchführen und das Ergebnis auf ein Bilanzkonto übertragen lassen. Dies können das jedes Mal wiederholen, wenn Sie in ein abgeschlossenes Geschäftsjahr gebucht haben.
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Schliessen der Bücher](year-close-books.md)  
 [So buchen Sie den Jahresabschlussposten](year-how-post-year-end-close-entry.md)  

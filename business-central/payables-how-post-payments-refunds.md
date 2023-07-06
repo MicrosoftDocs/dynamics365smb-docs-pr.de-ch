@@ -11,7 +11,7 @@ ms.search.form: '256, 233, 624, 1228'
 ms.date: 07/09/2021
 ms.author: edupont
 ---
-# <a name="record-payments-and-refunds-in-the-payment-journal"></a><a name="record-payments-and-refunds-in-the-payment-journal"></a>Rekordzahlungen und Erstattungen im Zahlungsausgangs Erf.-Journal
+# <a name="record-payments-and-refunds-in-the-payment-journal"></a><a name="record-payments-and-refunds-in-the-payment-journal"></a><a name="record-payments-and-refunds-in-the-payment-journal"></a>Rekordzahlungen und Erstattungen im Zahlungsausgangs Erf.-Journal
 
 Auf der Seite **Zahlungsjournal** erfassen Sie Zahlungen and Kreditoren und Erstattungen an Debitoren. Wenn Sie eine Zlg Erf.-Journalzeile buchen, wird der zahlende Betrag angegebenen Systembankkonto erfasst. Sie müssen dann die Schritte unternehmen, um die tatsächliche Geldüberweisung aus dem entsprechenden Bankkonto vorzunehmen.  
 
@@ -29,7 +29,7 @@ Das Erf.-Journal ist ein Fibu Erf.-Journal, das zum Anwenden von Zahlungen optim
 
     Zusätzlich zur Erfassung für die Leistung der Zahlung können Sie auch die Seite **Zahlungsausgangs Erf.-Journal** verwenden, um die Zahlung für die weitere Verarbeitung von Ihrer Bank zu registrieren. Weitere Informationen finden Sie unter [Anwenden von Zahlungen](payables-how-work-checks.md) und [Debitoren-Zahlungen manuell ausgleichen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a><a name="to-make-payments-in-the-payment-journal"></a>So nehmen Sie Zahlungen im Zahlungsausgangs Erf.-Journal vor
+## <a name="to-make-payments-in-the-payment-journal"></a><a name="to-make-payments-in-the-payment-journal"></a><a name="to-make-payments-in-the-payment-journal"></a>So nehmen Sie Zahlungen im Zahlungsausgangs Erf.-Journal vor
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Zahlungsausgangs Erfassungsjournale** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie den Erf.-Journalnamen, der mit den Zahlungen dediziert ist.
@@ -43,7 +43,7 @@ Das Erf.-Journal ist ein Fibu Erf.-Journal, das zum Anwenden von Zahlungen optim
 6. Wenn die Projekt-Erfassungsjournalzeilen vollständig sind, wählen Sie die Aktion **Buchen** aus.
 
 
-## <a name="to-issue-a-refund-check"></a><a name="to-issue-a-refund-check"></a>So stellen Sie einen Scheck zur Rückerstattung aus
+## <a name="to-issue-a-refund-check"></a><a name="to-issue-a-refund-check"></a><a name="to-issue-a-refund-check"></a>So stellen Sie einen Scheck zur Rückerstattung aus
 
 1. Wählen Sie die ![Glühbirne , die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Tell me-Funktion"), geben Sie **Zahlungsjournale** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie im Feld **Belegart** die Option **Rückerstattung**.  
@@ -57,7 +57,7 @@ Das Erf.-Journal ist ein Fibu Erf.-Journal, das zum Anwenden von Zahlungen optim
 10. Wenn alle Zeilen des Zahlungsausgangs Erf.-Journal abgeschlossen sind, wählen Sie die Aktion **Buchen/Drucken**, dann die Aktion **Buchen und Drucken** und wählen **Ja**.  
   
 
-## <a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 [Zahlung per Scheck machen](payables-how-work-checks.md)  
 [Elektronische Zahlungen machen ](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
