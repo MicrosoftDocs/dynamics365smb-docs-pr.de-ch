@@ -10,7 +10,7 @@ ms.search.form: 5510
 ms.date: 03/08/2023
 ms.author: edupont
 ---
-# <a name="register-consumption-and-output-for-one-released-production-order-line"></a><a name="register-consumption-and-output-for-one-released-production-order-line"></a><a name="register-consumption-and-output-for-one-released-production-order-line"></a>Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile
+# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile
 
 Diese Aufgabe wird auf der Seite **Produktions Erf.-Journal** ausgeführt. In diesem Erfassungsjournal werden die Funktionen des separaten FA-Verbrauchs Erf.-Journals und des FA-Istmeldungs Erf.-Journals in einem Erfassungsjournal kombiniert. Auf das kombinierte Erfassungsjournal wird direkt von einem freigegebenen Fertigungsauftrag aus zugegriffen. Es dient hauptsächlich dazu, den Verbrauch von Komponenten, die Menge der gefertigten Endartikel und die für die Arbeitsgänge aufgewendete Zeit manuell zu buchen. Die Werte werden als Posten unter dem freigegebenen Fertigungsauftrag gebucht. Verbrauchsmengen werden als negative Lagerposten gebucht, fertig gestellte Mengen werden als positive Posten gebucht, und die aufgewendeten Zeiten werden als Kapazitätsposten gebucht. Solche gebuchten Posten können auch unten im Erfassungsjournal als Ist-Mengen angezeigt werden.  
 
@@ -20,7 +20,7 @@ Diese Aufgabe wird auf der Seite **Produktions Erf.-Journal** ausgeführt. In di
 > [!NOTE]  
 > Komponenten ohne Verbindungscodes werden im Erfassungsjournal zuerst aufgeführt.  
 
-## <a name="to-register-consumption-and-output"></a><a name="to-register-consumption-and-output"></a><a name="to-register-consumption-and-output"></a>Verbrauch und Istmeldungen registrieren
+## <a name="to-register-consumption-and-output"></a>Verbrauch und Istmeldungen registrieren
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Geben Sie im Symbol **Freigegebene Prod. Orders** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie eine freigegebene FA-Zeile, die zur Registrierung bereitsteht. Klicken Sie auf dem Inforegister **Zeilen** auf die Aktion **Zeilen** und klicken Sie dann auf **Produktions Erf.-Journal**.  
@@ -61,7 +61,7 @@ Diese Aufgabe wird auf der Seite **Produktions Erf.-Journal** ausgeführt. In di
 > [!WARNING]  
 > Die Seite **Produktions Erf.-Journal** kann nicht von zwei Benutzern gleichzeitig verwendet werden. Das bedeutet, wenn Benutzer 2 die Seite öffnet und Daten eingibt, wenn Benutzer 1 bereits auf der Seite arbeitet, dann verliert möglicherweise Benutzer 2 Daten, wenn Benutzer 1 die Seite schliesst.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Fertigung](production-manage-manufacturing.md)  
 [Produktion einrichten](production-configure-production-processes.md)  

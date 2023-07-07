@@ -11,11 +11,11 @@ ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a><a name="understanding-the-general-ledger-and-chart-of-accounts"></a><a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Den Fibuposten und den Kontenplan verstehen
+# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Den Fibuposten und den Kontenplan verstehen
 
 Das Hauptbuch (G/L) speichert Ihre Finanzdaten, und der Kontenplan (COA) zeigt die Konten, auf die alle Fibuposten gebucht werden. [!INCLUDE[prod_short](includes/prod_short.md)]umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
 
-## <a name="general-ledger-setup-and-general-posting-setup"></a><a name="general-ledger-setup-and-general-posting-setup"></a><a name="general-ledger-setup-and-general-posting-setup"></a>Finanzbuchhaltungs-Einrichtung und Buchungsmatrix Einrichtung
+## <a name="general-ledger-setup-and-general-posting-setup"></a>Finanzbuchhaltungs-Einrichtung und Buchungsmatrix Einrichtung
 
 Die Einrichtung der Fibuposten ist das Kernstück der Finanzvorgängen, da sie definieren, wie Sie Daten buchen. Bei der Konfiguration Ihrer Finance-Prozesse spielen vor allem zwei Seiten eine wichtige Rolle:  
 
@@ -41,7 +41,7 @@ Die Einrichtung der Fibuposten ist das Kernstück der Finanzvorgängen, da sie d
 
   Öffnen Sie die Seite [hier](https://businesscentral.dynamics.com/?page=314).
 
-## <a name="the-chart-of-accounts"></a><a name="the-chart-of-accounts"></a><a name="the-chart-of-accounts"></a>Der Kontenplan
+## <a name="the-chart-of-accounts"></a>Der Kontenplan
 
 Der Kontenschema zeigt alle Fibukonten an. Vom Kontenplan aus können Sie Dinge tun wie:  
 
@@ -53,7 +53,7 @@ Der Kontenschema zeigt alle Fibukonten an. Vom Kontenplan aus können Sie Dinge 
 
 Sie können Fibukonten hinzufügen, ändern oder löschen. Um jedoch Differenzen zu verhindern, können Sie ein Fibukonto nicht löschen, wenn Daten im Kontenschema verwendet werden. Ausserdem können Sie ab dem zweiten Veröffentlichungszyklus 2022 das versehentliche Löschen von Konten in sensiblen Zeiträumen blockieren. Erfahren Sie mehr im Abschnitt [Löschen von Konten](finance-setup-chart-accounts.md#delete-accounts).  
 
-## <a name="account-categories"></a><a name="account-categories"></a><a name="account-categories"></a>Kontokategorien
+## <a name="account-categories"></a>Kontokategorien
 
 Sie können die Struktur der Finanzberichte personalisieren, indem Sie Fibukonten den Kontenkategorien hinzufügen.  
 
@@ -63,7 +63,7 @@ Sie können eine Kategoriegruppe erstellen, indem Sie andere Unterkategorien unt
 
 Sie können festlegen, ob bestimmte Arten von Berichten die Konten in jeder Unterkategorie enthalten müssen. Die Kontengruppen helfen Ihnen dabei, das Layout Ihrer Finanzberichte zu definieren.  
 
-### <a name="example"></a><a name="example"></a><a name="example"></a>Beispiel
+### <a name="example"></a>Beispiel
 
 Zum Beispiel hat der Standard-Bilanzauszug eine Unterkategorie für *Kasse* unter *Anlagevermögen*. Wenn Sie möchten, dass die Bilanzauszüge die Portokasse und die Girokonten berücksichtigen, müssen Sie die folgenden Schritte ausführen:
 
@@ -90,17 +90,17 @@ Wenn Sie die Aktion **Finanzberichte generieren** wählen - oder wenn der Berich
 > [!NOTE]
 > Wenn Sie ein Fibukonto anlegen, ohne einen Kontentyp zuzuordnen, wenn Sie das Konto einer Buchungsgruppe zuordnen, ordnet [!INCLUDE[prod_short](includes/prod_short.md)] automatisch die Kontenkategorie aus dem Fibukonto direkt über dem Konto in Ihrem Kontenplan zu. Um das neue Konto jedoch in Ihre Finanzberichte aufzunehmen, müssen Sie die Aktion **Finanzberichte generieren** auf der Seite **Fibukonto Kategorien** wählen. Alternativ können Sie die Seite Fibukontokarte öffnen, die Kontokategorie angeben und dann Ihren Finanzbericht neu generieren.
 
-## <a name="get-a-quick-overview"></a><a name="get-a-quick-overview"></a><a name="get-a-quick-overview"></a>Einen schnellen Überblick erhalten
+## <a name="get-a-quick-overview"></a>Einen schnellen Überblick erhalten
 
 Auf der Seite **Kontenplan** werden die Konten in einer hierarchischen Liste angezeigt, die einen schnellen Zugriff auf die wichtigsten Informationen zu jedem Konto bietet. Allerdings ist die Liste statisch, und wenn Sie viele Konten haben, müssen Sie möglicherweise blättern, um die verschiedenen Konten anzuzeigen. Wenn Sie nur einen schnellen Überblick über die Grundlagen wie Nettoveränderungen und Salden haben möchten, ist die Seite **Kontenplan Übersicht** eine nützliche Alternative. Das Spaltenlayout auf der Seite ist jetzt dasselbe wie auf der Seite **Kontenplan** (allerdings mit weniger Spalten), so dass Sie sich nicht neu orientieren müssen. Sie können die hierarchischen Ebenen erweitern oder reduzieren, um die Ansicht zu verdichten. Um den Wechsel zwischen den Seiten zu erleichtern, ist die Seite **Kontenplan Übersicht** von der Seite **Kontenplan** aus zugänglich.
 
-## <a name="access-to-create-and-edit-accounts-and-account-categories"></a><a name="access-to-create-and-edit-accounts-and-account-categories"></a><a name="access-to-create-and-edit-accounts-and-account-categories"></a>Zugriff auf das Erstellen und Bearbeiten von Konten und Kontokategorien
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Zugriff auf das Erstellen und Bearbeiten von Konten und Kontokategorien
 
 In einem kleinen Unternehmen, wie der CRONUS-Demofirma, können die meisten Benutzer den Kontenplan bearbeiten, mit Ausnahme der Benutzer mit einer TEAMMITGLIED-Lizenz. In grösseren Organisationen ist der Zugriff auf die Bearbeitung des Kontenplans typischerweise durch Rollen und Berechtigungen eingeschränkt. Wenn Sie Administrator sind oder die Rolle *Business Manager* oder *Buchhalter* haben, können Sie die Berechtigungen der Benutzer steuern, um den richtigen Personen Zugriff auf die entsprechenden Tabellen zu geben. Mehr dazu erfahren Sie im Abschnitt [Sie erhalten einen Überblick über die Berechtigungen eines Benutzers](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/business-central-configure-general-ledger-setup/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/business-central-configure-general-ledger-setup/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Einrichten oder Ändern des Kontenplans](finance-setup-chart-accounts.md)  
 [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  

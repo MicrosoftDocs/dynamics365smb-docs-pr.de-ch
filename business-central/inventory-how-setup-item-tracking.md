@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 08/31/2021
 ms.author: edupont
 ---
-# <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a><a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a><a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Artikeltracking mit Serien-, Chargen- und Paketnummern einrichten
+# <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Artikeltracking mit Serien-, Chargen- und Paketnummern einrichten
 
 Behalten Sie den Überblick über Lagerartikel auch in komplexen Lagerkonfigurationen mit Nummern, die für jeden Artikel spezifisch sind, entweder als einzelnes Objekt, als Charge oder als Paket. Mit dem Artikeltracking können Sie Artikel über interne Lagerbewegungen sowie ausgehende und eingehende Belege verfolgen.
 
@@ -19,13 +19,13 @@ Gibt gebuchte Serien- und Chargennummern an, die in einer Lieferkette vorwärts 
 > [!TIP]
 > Schalten Sie im 1. Veröffentlichungszyklus 2021 und später die Funktionsaktualisierung *Verwenden Sie das Tracking nach Paketnummer im Reservierungs‑ und Trackingsystem* ein, wenn Sie mit Paketnummern sowie Serien‑ und Chargennummern arbeiten möchten. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](admin-feature-management.md). Sobald die Funktion aktiviert ist, können Sie ausgehenden und eingehenden Belegen Paketnummern zuweisen, ähnlich wie Sie mit Chargennummern arbeiten können.  
 
-## <a name="numbers-and-item-tracking"></a><a name="numbers-and-item-tracking"></a><a name="numbers-and-item-tracking"></a>Zahlen‑ und Artikeltracking
+## <a name="numbers-and-item-tracking"></a>Zahlen‑ und Artikeltracking
 
 Im Rahmen Ihrer Lagerprozesse können Sie Ihren Lagerbestand in Paketen, Kartons, Containern usw. bündeln. Um den Überblick über die Artikel zu behalten, weisen Sie eindeutige Nummern als Identifikation zu. Sie stellen beispielsweise einen Stuhl mit der Artikelnummer *1900-S* her und verkaufen ihn. Jeder einzelne Stuhl hat eine Seriennummer, *1001*, aber Sie bündeln auch vier Stühle zu einer Charge, *LOT0001*, und Sie versenden die Stühle in einem Container mit der Paketnummer *CONTAINER010*. Das schliesst auch andere Elemente ein, wie z. B. *LOT0100* mit Beistelltischen und *LOT200* mit Lampen.  
 
 Abhängig von Ihrer Konfiguration verwenden Sie diese unterschiedlichen Nummern, um den Lagerbestand in [!INCLUDE [prod_short](includes/prod_short.md)] in den verschiedenen Phasen des Einkaufs, Verkaufs, Lagerbetriebs usw. zu verfolgen.
 
-## <a name="to-set-up-item-tracking-codes"></a><a name="to-set-up-item-tracking-codes"></a><a name="to-set-up-item-tracking-codes"></a>Um Artikelverfolgungscodes einzurichten
+## <a name="to-set-up-item-tracking-codes"></a>Um Artikelverfolgungscodes einzurichten
 
 Ein Artikeltrackingcode spiegelt die unterschiedlichen Betrachtungen wider, die ein Unternehmen bezüglich der Verwendung von Serien- und Chargennummern von Artikeln anstellt, die sich durch das Lager bewegen.  
 
@@ -42,7 +42,7 @@ Da dieses Einrichtungsfeld alle möglichen Transaktionen für den Artikel abdeck
 > [!NOTE]  
 > Um Artikeltrackingnummern bei Lageraktivitäten zuzuordnen, müssen die Felder **Seriennr.-Verf. Lager** und **Chargennr.-Verf. Lager** auf der Karte des Artikels ausgewählt werden.  
 
-## <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a><a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a><a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Regeln für den Ablauf von Serien- oder Chargennummern einrichten:
+## <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Regeln für den Ablauf von Serien- oder Chargennummern einrichten:
 
 Für einige Artikel möchten Sie möglicherweise spezielle Ablaufdaten und Regeln in dem Artikeltrackingcode festlegen. Diese Funktionalität ermöglicht Ihnen nachzuvollziehen, wann bestimmte Serien- und Chargennummern ablaufen.
 
@@ -56,7 +56,7 @@ Für einige Artikel möchten Sie möglicherweise spezielle Ablaufdaten und Regel
     |**Ablaufdatumseintrag anfordern**|Gibt an, dass Sie in der Artikeltrackingzeile ein Ablaufdatum eingeben müssen.|  
     |**Ablaufdatumsangaben verwenden**|Gibt an, dass Sie keine Ablaufdatumsangaben berechnen möchten. |  
 
-## <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a><a name="to-set-up-warranties-for-serial-or-lot-numbers"></a><a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Garantien für Serien- oder Chargennummern einrichten:
+## <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Garantien für Serien- oder Chargennummern einrichten:
 
 Für einige Artikel möchten Sie möglicherweise spezielle Garantievereinbarungen in dem Artikeltrackingcode festlegen. Diese Funktionalität ermöglicht Ihnen nachzuvollziehen, wann die Garantien auf spezielle Serien- oder Chargennummern in Ihrem Lager auslaufen.  
 
@@ -70,7 +70,7 @@ Für einige Artikel möchten Sie möglicherweise spezielle Garantievereinbarunge
     |**Garantiedatumseintrag anfordern**|Zeigt an, dass Sie in der Artikeltrackingzeile manuell ein Garantiedatum eingeben müssen.|  
 
 
-## <a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes"></a><a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes"></a><a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes"></a>So richten Sie Artikel für die Tracking mit den richtigen Artikeltrackingcodes ein
+## <a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes"></a>So richten Sie Artikel für die Tracking mit den richtigen Artikeltrackingcodes ein
 
 Um das Artikeltracking zu aktivieren, müssen Sie einem Artikel zunächst die Artikeltrackingcodes zuweisen. Es gibt zwei Möglichkeiten, Artikeltrackingcodes hinzuzufügen, indem Sie den Code aus einer vordefinierten Liste auswählen oder einen neuen eindeutigen Code zuweisen. Zeigen Sie mit der Maus auf die Felder, um eine Kurzbeschreibung zu lesen.
 
@@ -79,14 +79,14 @@ Um das Artikeltracking zu aktivieren, müssen Sie einem Artikel zunächst die Ar
 3. Weisen Sie im Inforegister **Artikeltracking** die entsprechenden Artikeltrackingcodes zu, und wählen Sie den **Artikeltrackingcode**, die **Seriennummern** und die **Chargennummern** aus.
     1. Alternativ können Sie auch einen neuen Artikeltrackingcode erstellen, indem Sie die Aktion **Neu** auswählen.
 
-## <a name="to-specify-opening-balances-for-the-items-you-track"></a><a name="to-specify-opening-balances-for-the-items-you-track"></a><a name="to-specify-opening-balances-for-the-items-you-track"></a>Um Anfangssalden für die von Ihnen verfolgten Artikel anzugeben
+## <a name="to-specify-opening-balances-for-the-items-you-track"></a>Um Anfangssalden für die von Ihnen verfolgten Artikel anzugeben
 
 Sie können Anfangssalden für die von Ihnen verfolgten Artikel erstellen. Da Sie verschiedene Lagerkonfigurationen wählen können, gibt es zwei Möglichkeiten:
 
 * Aktivieren Sie bestimmte Stapel auf der Seite **Artikel Erf.-Journal**, auf der Serien-, Chargen- und Verpackungsdaten direkt in Erfassungsjournalzeilen eingeben können.
 * Für Standorte, an denen der Umschalter **Gezieltes Einlagern und Kommissionieren** eingeschaltet ist, verwenden Sie die Seite **Logistik Inventur Erf.-Journal** , um alle Artikeltrackingfelder verfügbar zu machen. Zu den verfügbaren Feldern gehören die Felder **Garantiedatum** und **Ablaufdatum**.
 
-### <a name="item-journals"></a><a name="item-journals"></a><a name="item-journals"></a>Artikel-Erfassungsjournale
+### <a name="item-journals"></a>Artikel-Erfassungsjournale
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Element Erfassungsjournale** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie das Feld **Name** aus, um eine Liste der Artikel Erf.-Journalnamen zu öffnen.
@@ -98,7 +98,7 @@ Sie können Anfangssalden für die von Ihnen verfolgten Artikel erstellen. Da Si
 > [!NOTE] 
 > [!INCLUDE [prod_short](includes/prod_short.md)] führt einige kleinere Überprüfungen durch, wenn Sie Daten eingeben oder importieren. Eine umfassendere Prüfung findet statt, wenn Sie Daten aus Erfassungsjournalzeilen auf das **Artikeltrackingfenster** buchen oder übertragen. Letzteres geschieht automatisch, wenn Sie die Seite **Artikeltrackingfenster** aus der Artikel Erf.-Journalzeile öffnen oder Sie die Aktion **Artikel Erf.-Journalzeilen aktualisieren**.
 
-### <a name="warehouse-physical-inventory-journal-for-locations-where-directed-pick-and-put-away-is-turned-on"></a><a name="warehouse-physical-inventory-journal-for-locations-where-directed-pick-and-put-away-is-turned-on"></a><a name="warehouse-physical-inventory-journal-for-locations-where-directed-pick-and-put-away-is-turned-on"></a>Logistik Inventur Erf.-Journal für Standorte, für welche die direkte Kommissionierung und Einlagerung aktiviert ist
+### <a name="warehouse-physical-inventory-journal-for-locations-where-directed-pick-and-put-away-is-turned-on"></a>Logistik Inventur Erf.-Journal für Standorte, für welche die direkte Kommissionierung und Einlagerung aktiviert ist
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Geben Sie **Logistik Inventur Erf.-Journal** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Felder auf der Artikel Erf.-Journalzeile wie erforderlich aus. Beachten Sie, dass die Felder **Chargennr.**, **Seriennr.**, **Ablaufdatum**, **Garantiedatum** und **Paketnr.** zur Verfügung stehen, (wenn das Feature aktiviert ist).
@@ -109,9 +109,9 @@ Verwenden Sie für Massenimporte Konfigurationspakete, um Daten in die Erfassung
 > [!NOTE]
 > Sie können **In Excel bearbeiten** nicht verwenden, um Erfassungsjournalzeilen mit Trackinginformationen zu erstellen.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/prepare-item-tracking/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)  
 [Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)  

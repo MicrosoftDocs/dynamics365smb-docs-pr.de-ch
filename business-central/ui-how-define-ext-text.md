@@ -10,13 +10,13 @@ ms.search.form: '391, 30'
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="add-extended-text"></a><a name="add-extended-text"></a><a name="add-extended-text"></a>Zusatztext hinzufügen
+# <a name="add-extended-text"></a>Zusatztext hinzufügen
 
 Sie können die Beschreibung für Artikel, Lagerhaltungsdaten, Fibukonten und Ressourcen erweitern, indem Sie zusätzliche Zeilen als Zusatztext hinzufügen. Sie können auch Bedingungen für die Verwendung der zusätzlichen Zeilen festlegen.  
 
 Im folgenden Abschnitt wird beschrieben, wie Sie einer Beschreibung eines Elements einen Zusatztext hinzufügen. Die gleichen Schritte gelten jedoch für Lagerhaltungsdaten, Sachkonten und Ressourcen.  
 
-## <a name="to-define-extended-text-for-an-description"></a><a name="to-define-extended-text-for-an-description"></a><a name="to-define-extended-text-for-an-description"></a>So definieren Sie Zusatztexte für eine Beschreibung
+## <a name="to-define-extended-text-for-an-description"></a>So definieren Sie Zusatztexte für eine Beschreibung
 
 1. Öffnen Sie die Karte eines Artikels, dem Sie den Zusatztext hinzufügen möchten, und wählen Sie dann die Aktion **Zusatztext** aus.
 2. Füllen Sie die Felder **Code** und **Beschreibung** aus.
@@ -29,12 +29,12 @@ Im folgenden Abschnitt wird beschrieben, wie Sie einer Beschreibung eines Elemen
 
 Sie können diesen Zusatztext jetzt Belegen hinzufügen. Im folgenden Verfahren wird erläutert, wie Sie einem Verkaufsauftrag einen Zusatztext hinzufügen. Die gleichen Schritte gelten jedoch auch für alle anderen Dokumente, die Sie für den Zusatztext angegeben haben.  
 
-## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a><a name="to-add-an-extended-item-text-on-a-sales-order-line"></a><a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Einen erweiterten Elementtext in einer Verkaufsauftragszeile hinzufügen
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Einen erweiterten Elementtext in einer Verkaufsauftragszeile hinzufügen
 
 1. Öffnen Sie einen Verkaufsauftrag mit einer Verkaufszeile für einen Artikel, die den Zusatztext definiert hat. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)
 2. Wählen Sie die betreffende Zeile aus, und wählen Sie die **Textbaustein einfügen** Aktion aus.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Weitere Informationen
 
 [Bestand einrichten](inventory-setup-inventory.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
