@@ -998,9 +998,10 @@
 ### Indien
 #### [Übersicht](LocalFunctionality/India/india-local-functionality.md)
 #### [Buchung von Nummernserien einrichten](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Überwachungspfad und Bearbeitungsprotokolle für Buchhaltungssoftware in Indien](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
 #### Steuermodul
 ##### [Übersicht](LocalFunctionality/India/TaxEngine-001-Overview.md)  
-##### [Import-Export-Konfiguration für Steuermodul](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
+##### [Import-Export-Konfiguration des Steuermoduls](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
 ##### Steuermodulkonfiguration
 ###### [Konfiguration von Steuerart und Steuersatz](LocalFunctionality/India/TaxEngine-003-Tax-Configuration.md)
 ###### [Konfiguration des Anwendungsfalls](LocalFunctionality/India/TaxEngine-003.1-Tax-Configuration.md)
