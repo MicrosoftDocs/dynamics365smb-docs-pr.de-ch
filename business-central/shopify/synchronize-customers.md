@@ -29,7 +29,7 @@ Ob Sie nun Debitoren aus Shopify in grossen Mengen oder Bestellungen importieren
 |**Unbekannte Debitoren automatisch erstellen**| Wählen Sie dieses Feld, ob der Konnektor fehlende Debitoren erstellen soll, wenn die Optionen **Nach E-Mail/Telefon** oder **Nach Rechnungsinformationen** im Feld **Debitorzuordnungstyp** ausgewählt sind. Ein neuer Kunde wird anhand der importierten Daten und des **Kundenvorlagencodes** erstellt, der auf den Seiten **Shopify Shop-Karte** oder **Shopify Kundenvorlage** definiert ist. Beachten Sie, dass der Shopify-Debitor über mindestens eine Adresse verfügen muss. Bei Bestellungen, die über den Shopify-Vertriebskanal POS erstellt wurden, fehlen häufig Adressangaben. Wenn diese Option nicht aktiviert ist, müssen Sie einen Debitoren manuell erstellen und mit dem Debitor Shopify verknüpfen.|
 |**Debitorenvorlagencode**|Dieses Feld wird zusammen mit **Unbekannte Debitoren automatisch erstellen** verwendet.<br>- Wählen Sie die Standardvorlage aus, die für automatisch erstellte Debitoren verwendet werden soll. Stellen Sie sicher, dass die ausgewählte Vorlage die obligatorischen Felder enthält, wie z.B. **Gen. Geschäftsbuchungsgruppe**, **Debitorbuchungsgruppe**, MWST- oder steuerbezogene Felder.<br>- Auf der Seite **Shopify Debitorenvorlagen** können Sie Vorlagen pro Land/Region definieren, was für eine korrekte Steuerberechnung nützlich ist. <br>- Erfahren Sie mehr unter [Salestaxes festlegen](setup-taxes.md).|
 
-### Debitorenvorlage pro Land
+### Debitorenvorlage pro Land/Region
 
 Einige Einstellungen können auf der Ebene eines Landes/Region oder eines Staates/Provinz festgelegt werden. Die Einstellungen können unter [Versand und Lieferung](https://www.shopify.com/admin/settings/shipping) in Shopify festgelegt werden.
 
@@ -37,8 +37,8 @@ Mit der **Shopify-Debitorenvorlage** können Sie die folgenden Schritte für jed
 
 1. Geben Sie die **Standarddebitorennr.** an, die Vorrang vor der Auswahl in den Feldern **Debitorenimport aus Shopify** und **Debitorenzuordnungstyp** hat. Sie wird im importierten Verkaufsauftrag verwendet.
 2. Definieren Sie den **Kundenvorlagencode**, mit dem fehlende Kunden erstellt werden, wenn **Unbekannte Kunden automatisch erstellen** aktiviert ist. Wenn der **Kundenvorlagencode** leer ist, dann verwendet die Funktion den **Kundenvorlagencode**, der auf der **Shopify Shop-Karte** definiert ist. Das System versucht zunächst, eine Vorlage für den **Länder-/Regionscode** für die Standardadresse zu finden. Wenn keine Vorlage gefunden wird, wird die erste Adresse verwendet.
-3. In manchen Fällen ist der für ein Land definierte **Debitorvorlagencode** nicht ausreichend, um eine korrekte Berechnung der Steuern zu gewährleisten (z. B. für Länder mit Umsatzsteuer). In diesem Fall könnte der **Steuerbereich** eine nützliche Ergänzung sein.
-4. Das Feld **Salestaxgebiet** enthält auch ein Paar aus **Ländercode** und **Kantonname**. Dieses Paar ist nützlich, wenn der Connector einen Code in einen Namen umwandeln muss oder umgekehrt.
+3. In manchen Fällen ist der für ein Land/eine Region definierte **Debitorvorlagencode** nicht ausreichend, um die eine korrekte Berechnung der Steuern zu gewährleisten (z. B. für Länder/Regionen mit Umsatzsteuer). In diesem Fall könnte der **Steuerbereich** eine nützliche Ergänzung sein.
+4. Das Feld **Steuergebiet** enthält auch ein Paar aus **Ländercode** und **Kantonname**. Dieses Paar ist nützlich, wenn der Connector einen Code in einen Namen umwandeln muss oder umgekehrt.
 
 > [!NOTE]  
 > Die Ländercodes sind Ländercodes nach ISO 3166-1 Alpha 2. Erfahren Sie mehr unter [Ländercode](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -83,7 +83,7 @@ In Shopify verfügt ein Debitor auch über eine Standardadresse. Zusätzlich zu 
 |0|**Name**|Höchste Priorität, wenn das Feld **Namensquelle** auf der **Shopify-Shop-Karte** die Option *Unternehmensname* enthält.|
 |2|**Name 2**|Niedrigste Priorität, wenn das Feld **Quelle von Name 2** auf der **Shopify-Shop-Karte** die Option *Unternehmensname* enthält.|
 
-Wählen Sie für Adressen, bei denen Kanton/Provinz verwendet wird, die Option **Code** oder **Name** im Feld **Kantonquelle** auf der **Shopify-Shop-Karte** aus. Der Code bzw. der Name gibt den Typ der gespeicherten Daten in [!INCLUDE[prod_short](../includes/prod_short.md)] im Feld **Bezirk** an. Denken Sie daran, Kundenvorlagen pro Land zu initialisieren, damit die Ländercode-/Namenszuordnung fertig ist. 
+Wählen Sie für Adressen, bei denen Kanton/Provinz verwendet wird, die Option **Code** oder **Name** im Feld **Kantonquelle** auf der **Shopify-Shop-Karte** aus. Der Code bzw. der Name gibt den Typ der gespeicherten Daten in [!INCLUDE[prod_short](../includes/prod_short.md)] im Feld **Bezirk** an. Denken Sie daran, Kundenvorlagen pro Land/Region zu initialisieren, damit die Ländercode-/Namenszuordnung fertig ist. 
 
 
 ## Debitoren synchronisieren

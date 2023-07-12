@@ -12,18 +12,18 @@ ms.date: 07/21/2022
 ms.author: altotovi
 ---
 
-# <a name="sales-tax-in-the-default-version-of-business-central"></a>Mehrwertsteuer in der Standardversion von Business Central
+# Mehrwertsteuer in der Standardversion von Business Central
 
 Eine **Mehrwertsteuer** ist eine Steuer, die für den Kauf von Waren und Dienstleistungen für Verbraucher und für den Verkauf von Waren und Dienstleistungen für Unternehmen gilt. Die Umsatzsteuer sollte im Idealfall mit wenigen Ausnahmen für den gesamten Endverbrauch gelten. Befreiungen beim Endverbrauch hängen von den örtlichen Behörden ab, aber im Allgemeinen sollten Geschäfte zwischen Unternehmen von der Umsatzsteuer befreit werden.  
 
 In der Regel fallen Salestaxes für den Einzelhandelsverkauf von Waren und Dienstleistungen an und sind ein Prozentsatz des Gesamtkaufbetrags. Einzelhändler sind für die Berechnung und Erhebung der Umsatzsteuer zum Zeitpunkt des Kaufs verantwortlich.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] ist in Ländern mit MWST und in Ländern mit MWST verfügbar. Die Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] hat eine grundlegende Unterstützung für die Mehrwertsteuer und eine umfassendere Unterstützung in den Versionen der Anwendung, die in den Vereinigten Staaten und Kanada verwendet werden.
+[!INCLUDE[prod_short](includes/prod_short.md)] ist in Ländern/Regionen mit Mehrwertsteuer (MWST) und mit Umsatzsteuer verfügbar. Die Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] hat eine grundlegende Unterstützung für die Mehrwertsteuer und eine umfassendere Unterstützung in den Versionen der Anwendung, die in den Vereinigten Staaten und Kanada verwendet werden.
 
 > [!IMPORTANT]
 > Obwohl die Mehrwertsteuer in der Standardversion verfügbar ist, unterstützt Microsoft die Verwendung der Mehrwertsteuer nur in den USA und in Kanada.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [MWST in den USA melden](localfunctionality/UnitedStates/us-sales-tax.md)  
 [Steuer in Kanada melden](localfunctionality/canada/ca-sales-tax.md)  

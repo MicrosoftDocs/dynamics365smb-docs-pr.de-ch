@@ -14,14 +14,14 @@ ms.custom: bap-template
 
 # Nicht abzugsfähige MWST einrichten
 
-Bei der nicht abzugsfähigen Salestax handelt es sich um die Mehrwertsteuer, die von einem Käufer zu zahlen ist, aber nicht von seiner eigenen Steuerschuld des Käufers abgezogen werden kann. Unternehmen können in der Regel die MWST beim Kauf von Waren und Dienstleistungen im Zusammenhang mit ihrer Geschäftstätigkeit zurückfordern. In manchen Situationen fällt einem Unternehmen jedoch MWST an, die nicht abzugsfähig ist. Diese Situationen hängen typischerweise mit den örtlichen Vorschriften zusammen und können sich von Land zu Land unterscheiden. Das Modell der Verwendung der nicht abzugsfähigen oder teilweise abzugsfähigen MWST ist jedoch ähnlich. Sie können die anteilige MWST verwenden, um die MWST zu berechnen, wenn es abzugsfähige und nicht abzugsfähige MWST gibt.
+Bei der nicht abzugsfähigen Salestax handelt es sich um die Mehrwertsteuer, die von einem Käufer zu zahlen ist, aber nicht von seiner eigenen Steuerschuld des Käufers abgezogen werden kann. Unternehmen können in der Regel die MWST beim Kauf von Waren und Dienstleistungen im Zusammenhang mit ihrer Geschäftstätigkeit zurückfordern. In manchen Situationen fällt einem Unternehmen jedoch MWST an, die nicht abzugsfähig ist. Diese Situationen hängen typischerweise mit den örtlichen Vorschriften zusammen und können sich von Land zu Land sowie Region zu Region unterscheiden. Das Modell der Verwendung der nicht abzugsfähigen oder teilweise abzugsfähigen MWST ist jedoch ähnlich. Sie können die anteilige MWST verwenden, um die MWST zu berechnen, wenn es abzugsfähige und nicht abzugsfähige MWST gibt.
 
 Im Allgemeinen kann die MWST für einige Käufe aufgrund der folgenden Faktoren nicht abgezogen werden:
 
 - **Die Art der gekauften Waren oder Dienstleistungen**: Die MWST ist aufgrund einer gesetzlichen Bestimmung über Waren wie Autos, Mobiltelefone und Lebensmittel, die in Restaurants gekauft werden, ganz oder teilweise nicht abzugsfähig.
 - **Teilweise abzugsfähige anteilige MWST**: Die MWST wird entsprechend dem Verhältnis zwischen den Verkaufsvorgängen, für die die MWST geschuldet wird, und allen durchgeführten Vorgängen anteilig berechnet. MWST, die dieses Verhältnis übersteigt, kann nicht abgezogen werden.
 
-Da es schwierig sein kann, zu wissen, wo und wie ein Artikel verwendet wird, müssen Sie sich an die örtlichen Steuerbehörden in Ihrem Land wenden, um herauszufinden, ob ein bestimmter Prozentsatz der MWST auf der Grundlage historischer Daten abzugsfähig ist. 
+Da es schwierig sein kann, zu wissen, wo und wie ein Artikel verwendet wird, müssen Sie sich an die örtlichen Steuerbehörden in Ihrem Land/Ihrer Region wenden, um herauszufinden, ob ein bestimmter Prozentsatz der MWST auf der Grundlage historischer Daten abzugsfähig ist. 
 
 > [!IMPORTANT]
 > Dieses globale Feature ist **ausser in Belgien, Italien, Norwegen und Spanien** in allen Ländern mit aktivierter MWST verfügbar. Diese Lokalisierungen verfügen bereits über lokale Features und werden in Zukunft aktualisiert. Führen Sie dieses Feature in diesen Ländern nicht aus, da es kein Upgrade-Verfahren gibt.
