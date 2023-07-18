@@ -106,7 +106,7 @@
 ##### [Fibu Erf.-Journal-Buchungsposition - Überblick](design-details-general-journal-post-line-overview.md)  
 ##### [Designdetails: Buchungsschnittstellenstruktur](design-details-posting-interface-structure.md)  
 ##### [Designdetails: Buchungsmodulstruktur](design-details-posting-engine-structure.md)  
-
+#### [Designdetails: Nicht abzugsfähige MWST](design-details-nondeductible-vat.md)
 ## Testen
 ### [Für eine kostenlose Testversion von Dynamics 365 Business Central registrieren](trial-signup.md)
 ### [Häufig gestellte Fragen zur Dynamics 365 Business Central-Testversion](trial-faq.md)
