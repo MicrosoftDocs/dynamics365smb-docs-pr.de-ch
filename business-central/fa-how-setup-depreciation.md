@@ -8,7 +8,7 @@ ms.date: 06/28/2021
 ms.author: edupont
 ---
 
-# <a name="set-up-fixed-asset-depreciation"></a>Richten Sie eine neue Anlagenabschreibung ein
+# Richten Sie eine neue Anlagenabschreibung ein
 
 Sie können unterschiedliche Abschreibungsmethoden für Bilanzen und Steuern verwenden. Viele Grossunternehmen verwenden die lineare Abschreibung in ihren Bilanzen, da dies im Allgemeinen höhere Gewinne anzeigt. Für Einkommenssteuerzwecke verwenden viele Unternehmen jedoch eine beschleunigte Abschreibungsmethode, wie z. B. die degressive Abschreibung. Sie definieren die Abschreibungsmethode einer Anlage mit dem Feld **Abschreibungsmethode** auf der Seite **Anlagenkarte**. Weitere Informationen zu den verschiedenen Methoden finden Sie unter [Abschreibungsmethoden](fa-depreciation-methods.md).
 
@@ -16,7 +16,7 @@ Sie definieren Abschreibungsbücher, in denen Sie die verschiedenen Arten, wie d
 
 Nachdem Sie die erforderlichen AfA-Bücher erstellt haben, müssen Sie jeder Anlage mindestens ein AfA-Buch zuweisen. Ein Abschreibungsbuch, das einer Anlage zugewiesen ist, wird als Anlagen-Abschreibungsbuch bezeichnet. Sie können beliebig viele Abschreibungsbücher für eine Anlage einrichten.  
 
-## <a name="to-create-a-depreciation-book"></a>So erstellen Sie ein Anlagen-Abschreibungsbuch
+## So erstellen Sie ein Anlagen-Abschreibungsbuch
 
 In einem Abschreibungsbuch können Sie festlegen, wie eine Anlage abgeschrieben wird. Sie können mehrere Abschreibungsbücher einrichten, um die verschiedenen Abschreibungsarten zu erleichtern.  
 
@@ -34,7 +34,7 @@ In einem Abschreibungsbuch können Sie festlegen, wie eine Anlage abgeschrieben 
 
 Wenn Sie beispielsweise ein Anlagevermögen veräussern, in dem im Abschreibungsbuch keine Rundung angegeben ist, die Einrichtung der Finanzbuchhaltung Ihres Unternehmens jedoch eine Rundung erfordert, wird bei der Veräusserung des Anlagevermögens die Fehlermeldung angezeigt, dass ein Betrag in einem Posten gerundet werden muss.  
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>So verknüpfen Sie ein Abschreibungsbuch mit einer Anlage
+## So verknüpfen Sie ein Abschreibungsbuch mit einer Anlage
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Anlagen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Anlage aus, für die Sie ein Anlagen-Abschreibungsbuch einrichten möchten.
@@ -48,7 +48,7 @@ Wenn Sie beispielsweise ein Anlagevermögen veräussern, in dem im Abschreibungs
     > [!NOTE]  
     > Wenn Sie die benutzerdefinierte Abschreibungsmethode verwenden, müssen Sie das Abschreibungsbuch auf eine andere Weise zuordnen. Für weitere Informationen siehe [Benutzerdefinierte Abschreibungsmethode festlegen](fa-how-setup-user-defined-depreciation-method.md).
 
-## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>So weisen Sie ein Abschreibungsbuch mehreren Anlagen mit einer Stapelverarbeitung zu
+## So weisen Sie ein Abschreibungsbuch mehreren Anlagen mit einer Stapelverarbeitung zu
 
 Falls Sie ein AfA-Buch mit mehreren Anlagen verknüpfen möchten, können Sie die Stapelverarbeitung **Anlagen-AfA-Buch erstellen** verwenden, um die Anwendung die erforderlichen AfA-Bücher automatisch erstellen zu lassen.  
 
@@ -62,7 +62,7 @@ Falls Sie ein AfA-Buch mit mehreren Anlagen verknüpfen möchten, können Sie di
 6. Im Inforegister **Anlage** können Sie einen Filter setzen, um die Anlagen auszuwählen, für die Sie Anlagen-AfA-Bücher erstellen wollen.
 7. Wählen Sie die Schaltfläche **OK** aus.
 
-## <a name="to-set-up-depreciation-posting-types"></a>So richten Sie Abschreibungsbuchungsarten ein:
+## So richten Sie Abschreibungsbuchungsarten ein:
 
 Für jedes AfA-Buch müssen Sie festlegen, wie die verschiedenen Buchungsarten in [!INCLUDE[prod_short](includes/prod_short.md)] verarbeitet werden sollen. Beispielsweise ob Buchungen Soll- oder Habenposten sein sollen und ob die Buchungsart in der AfA-Grundlage enthalten sein soll.  
 
@@ -75,7 +75,7 @@ Für jedes AfA-Buch müssen Sie festlegen, wie die verschiedenen Buchungsarten i
 
 Es wird empfohlen, die Einrichtung von AfA-Büchern, für die bereits Posten gebucht wurden, nicht zu ändern. Änderungen haben keinen Einfluss auf Posten, die bereits gebucht wurden, da andernfalls die Statistik für das Abschreibungsbuch verfälscht würde.
 
-## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>So richten Sie Standardvorlagen und -Standardstapelverarbeitungen für Anlagen-Abschreibung ein
+## So richten Sie Standardvorlagen und -Standardstapelverarbeitungen für Anlagen-Abschreibung ein
 
 Sie können für jedes Abschreibungsbuch Vorgaben für Vorlagen und Erfassungsjournalen definieren. Sie nutzen diese Standards, um Zeilen aus einem Buch.-Blatt in ein anderes zu kopieren, wenn die Batchaufträge **AfA berechnen** oder **Anlagen indexieren** Buch.-Blattzeilen erstellen oder wenn Anschaffungskosten im Versicherungs Buch.-Blatt doppelt vorhanden sind.  
 
@@ -84,15 +84,15 @@ Sie können für jedes Abschreibungsbuch Vorgaben für Vorlagen und Erfassungsjo
 3. Falls Sie eine Standardeinrichtung für jeden einzelnen Benutzer definieren möchten, wählen Sie die Seite **Benutzer-ID** aus, um über das Fenster **Benutzer** auszuwählen.  
 4. Wählen Sie in den anderen Feldern die Erf.-Journalvorlage oder den Erf.-Journalnamen, die standardmässig verwendet werden müssen.  
 
-## <a name="fiscal-year-365-days-field-depreciation"></a>Geschäftsjahr 365 Tage Feld Abschreibung
+## Geschäftsjahr 365 Tage Feld Abschreibung
 
 Wenn der Batchauftrag Abschreibung berechnen die Abschreibungen berechnet, verwendet der Batchauftrag normalerweise ein standardisiertes Jahr mit 360 Tagen, wobei jeder der 12 Monate 30 Tage hat.
 
 Wenn Sie dieses Feld markieren, verwendet der Batchauftrag „Abschreibung berechnen“ stattdessen das Kalenderjahr mit 365 Tagen, wobei jeder Monat mit der gleichen Anzahl von Tagen wie im Kalender berechnet wird. Die einzige Ausnahme ist der Februar in Schaltjahren, den der Batchauftrag so behandelt, als hätte er 28 Tage und nicht 29. Aus diesem Grund besitzen alle Jahre (auch Schaltjahre) 365 Tage.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/configure-depreciation-books/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/configure-depreciation-books/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Anlagen einrichten](fa-setup.md)  
 [Anlagen](fa-manage.md)  

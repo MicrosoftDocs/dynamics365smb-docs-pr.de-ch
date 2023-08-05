@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="print-general-ledger-setup-information-in-the-swiss-version"></a>Drucken von Einrichtungsinformationen zur Finanzbuchhaltung in der Schweizer Version
+# Drucken von Einrichtungsinformationen zur Finanzbuchhaltung in der Schweizer Version
 Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] im täglichen Geschäft verwenden, können Sie den Bericht **Fibu Einr.-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Masterdaten überprüfen, damit Sie eine Grundlage für einen Vergleich haben, und anschliessend verifizieren, dass beispielsweise die Buchungsgruppen ordnungsgemäss eingerichtet sind.  
 
-## <a name="to-print-general-ledger-setup-information"></a>So drucken Sie Einrichtungsinformationen zur Finanzbuchhaltung
+## So drucken Sie Einrichtungsinformationen zur Finanzbuchhaltung  
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Fibu Einr.-Informationen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie im Inforegister **Optionen** im Feld **Einrichtungsinformationen** den Masterdatenbereich wie in der folgenden Tabelle beschrieben aus.  
@@ -29,7 +29,7 @@ Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] im täglichen Ges
 
 3.  Wählen Sie die Schaltfläche **Drucken** aus, um den Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Finanzen einrichten](../../finance-setup-finance.md)
 
 

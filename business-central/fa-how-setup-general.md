@@ -10,18 +10,18 @@ ms.search.form: '5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 563
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-general-fixed-assets-information"></a>Allgemeine Anlagen-Informationen einrichten
+# Allgemeine Anlagen-Informationen einrichten
 
 Bevor Sie Anlagen verwalten können, müssen Sie Standardsachkonten, Verteilungsschlüssel, Buch.-Blattvorlagen und -namen für Anlagenbuchungen und -umbuchungen einrichten, und Sie können Anlagen in Klassen, wie beispielsweise materiell und immateriell, klassifizieren.
 
-## <a name="to-set-up-general-default-values-for-fixed-assets"></a>So richten Sie allgemeine Vorgabewerte für Anlagen ein
+## So richten Sie allgemeine Vorgabewerte für Anlagen ein
 
 Auf der Seite **Anlagen Einrichtung** definieren Sie das allgemeine Verhalten oder die Anlagenfunktionalität und richten Belegnummernserien ein.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Anlagen Einrichtung** ein, und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-fixed-asset-posting-groups"></a>So richten Sie Anlagenbuchungsgruppen ein
+## So richten Sie Anlagenbuchungsgruppen ein
 
 Sie können Buchungsgruppen verwenden, um Gruppen von Anlagen zu definieren. Posten in diesen Buchungsgruppen werden auf die gleichen Fibukonten gebucht.
 
@@ -35,7 +35,7 @@ Sie können Buchungsgruppen verwenden, um Gruppen von Anlagen zu definieren. Pos
 
 Weitere Informationen zur Verwendung der Aktion **Anlagengegenkonto einfügen** in den Anlagen Fibu Erfassungsjournalzeilen finden Sie beispielsweise unter [So geht's: Neubewerten von Anlagen](fa-how-revalue.md).
 
-## <a name="to-set-up-fixed-asset-allocation-keys"></a>So richten Sie Anlagenverteilungsschlüssel ein
+## So richten Sie Anlagenverteilungsschlüssel ein
 
 Transaktionen können auf verschiedene Kostenstellen und/oder Kostenträger verteilt werden, abhängig von benutzerdefinierten Verteilungsschlüsseln. Sie können z. B. einen Umlageschlüssel einrichten, um die Abschreibungsbeträge von Autos zu 35 Prozent auf die Verwaltung und zu 65 Prozent auf den Verkauf zu verteilen. Weitere Informationen finden Sie unter [Kosten und Einnahmen zuweisen](year-allocate-costs-income.md)
 
@@ -46,7 +46,7 @@ Verteilungsschlüssel gelten für feste Anlagenklassen, nicht für einzelne Anla
 3. Füllen Sie auf der Seite **Anlagenverteilungen** die notwendigen Felder aus.
 4. Wiederholen Sie Schritt 2 und 3 für alle Buchungsarten, für die Sie Verteilungsschlüssel einrichten wollen.
 
-## <a name="to-set-up-fixed-asset-journal-templates"></a>So richten Sie Anlagen Erf.-Journalvorlagen ein
+## So richten Sie Anlagen Erf.-Journalvorlagen ein
 
 Eine Vorlage ist ein vordefiniertes Layout für ein Erfassungsjournal. Eine Vorlage enthält Informationen über Verfolgungscodes, Berichte und Nummernserien. Weitere Informationen finden Sie unter [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md).
 
@@ -55,7 +55,7 @@ Eine Vorlage ist ein vordefiniertes Layout für ein Erfassungsjournal. Eine Vorl
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Anl. Erf.-Journalvorlagen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus.
 
-## <a name="to-set-up-fixed-asset-journal-batches"></a>So richten Sie Anlagen Erf.-Journalnamen ein
+## So richten Sie Anlagen Erf.-Journalnamen ein
 
 Sie können mehrere Erfassungsjournalnamen erstellen, d. h. mehrere individuelle Erfassungsjournale für jede Erfassungsjournalvorlage. Sie können z. B. für jeden Mitarbeiter ein eigenes Erfassungsjournal benutzen, dass die Initialien des Mitarbeiters im Namen verwendet. Weitere Informationen finden Sie unter [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md).  
 
@@ -63,14 +63,14 @@ Sie können mehrere Erfassungsjournalnamen erstellen, d. h. mehrere individuelle
 2. Wählen Sie die entsprechende Buch.-Blattvorlage und dann die Aktion **Buch.-Blattnamen** aus.
 3. Füllen Sie auf der Seite **Anlagen Erf.-Journalnamen** die notwendigen Felder aus.
 
-## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>So richten Sie Vorlagen für Anlagenumbuchung ein
+## So richten Sie Vorlagen für Anlagenumbuchung ein
 
 Spezifische Umbuch.-Blätter dienen zum Transferieren, Teilen oder Zusammenfassen von Anlagen. [!INCLUDE[prod_short](includes/prod_short.md)] erstellt automatisch eine Anlagen Umbuch. Erf.-Journalvorlage, wenn Sie zum ersten Mal die Seite **Anlagen Umbuch. Erf.-Journal** öffnen. Sie können aber auch zusätzliche Anlagen Umbuch. Erf.-Journalvorlagen einrichten. Weitere Informationen finden Sie unter [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md).  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **FA Reclass. Erfassungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus.
 
-## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>So richten Sie Anlagen-Erfassungsjournale ein
+## So richten Sie Anlagen-Erfassungsjournale ein
 
 Sie können mehrere Erfassungsjournalnamen erstellen, d. h. mehrere individuelle Erfassungsjournale für jede Umbuch. Erfassungsjournalvorlage. Sie können z. B. für jeden Mitarbeiter ein eigenes Erfassungsjournal benutzen, das die Initialien des Mitarbeiters im Namen verwendet. Weitere Informationen finden Sie unter [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md).
 
@@ -78,28 +78,28 @@ Sie können mehrere Erfassungsjournalnamen erstellen, d. h. mehrere individuelle
 2. Wählen Sie die entsprechende Buch.-Blattvorlage und dann die Aktion **Buch.-Blattnamen** aus.
 3. Füllen Sie auf der Seite **Anlagen Umbuch. Erf.-Journalnamen** die notwendigen Felder aus.
 
-## <a name="to-set-up-fixed-asset-class-codes"></a>So richten Sie Anlagenklassencodes ein
+## So richten Sie Anlagenklassencodes ein
 
 Die Anlagenklassencodes können zur Gruppierung von Anlagen dienen, beispielsweise in materielle und immaterielle Anlagen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **FA Anlagenklassen** ein und wählen Sie dann den zugehörigen Link.
 2. Geben Sie die Codes und die Namen für die Klassen ein, die Sie erstellen möchten.
 
-## <a name="to-set-up-fixed-asset-subclass-codes"></a>So richten Sie Anlagensachgruppencodes ein
+## So richten Sie Anlagensachgruppencodes ein
 
 Sie können Anlagensachgruppencodes verwenden, um Anlagen innerhalb der Hauptgruppen zu gruppieren, z. B. in Gebäude, Fahrzeuge, Möbel oder Maschinen.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **FA Anlagensachgruppen** ein, und wählen Sie dann den zugehörigen Link.
 2. Geben Sie die Codes und die Namen für die Klassen ein, die Sie erstellen möchten.
 
-## <a name="to-set-up-fixed-asset-location-codes"></a>So richten Sie Anlagenstandortcodes ein
+## So richten Sie Anlagenstandortcodes ein
 
 Verwenden Sie diese Anlagenstandortcodes, um den Standort von Anlagen zu erfassen, beispielsweise Vertrieb, Empfang, Verwaltung, Produktion oder Lager. Diese Information dient beispielsweise dazu, für Versicherungen anzugeben, in welchem Bereich des Unternehmens oder an welchem Ort sich eine Anlage im Einsatz befindet.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **FA Lagerorte** ein und wählen Sie dann den zugehörigen Link.
 2. Geben Sie die Codes und die Namen für die Anlagenstandorte ein, die Sie erstellen möchten.
 
-## <a name="to-register-opening-entries"></a>So erfassen Sie Eröffnungsposten
+## So erfassen Sie Eröffnungsposten
 
 Falls Sie die Anlagen in [!INCLUDE[prod_short](includes/prod_short.md)] zum ersten Mal verwenden, müssen Sie zuerst die Anwendungsregion «Fibuposten», bevor Sie Anlagen einrichten können. Wie dies erfolgt, hängt davon ab, ob Anlagen in die Fibuposten integriert sind.  
 
@@ -123,9 +123,9 @@ Falls Sie die Anlagen in [!INCLUDE[prod_short](includes/prod_short.md)] zum erst
 
 Falls die Anlagen nicht in die Fibu integriert sind, können Sie die Schritte 6 und 8 übergehen.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-fixed-assets-management/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-fixed-assets-management/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Anlagen einrichten](fa-setup.md)  
 [Anlagen](fa-manage.md)  
