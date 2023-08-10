@@ -11,7 +11,7 @@ ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Anlagen einrichten
+# <a name="setting-up-fixed-assets"></a>Anlagen einrichten
 
 Um mit Anlagen arbeiten können, müssen Sie einige Elemente festlegen:  
 
@@ -36,9 +36,9 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Informieren Sie sich über verschiedene Anlagen-Abschreibungsmethoden. |[Abschreibungsmethoden](fa-depreciation-methods.md) |
 | Erfahren Sie, wie Sie benutzerdefinierte Abschreibungsmethoden anwenden können. |[Benutzerdefinierte Abschreibungsmethoden festlegen](fa-how-setup-user-defined-depreciation-method.md) |
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-fixed-assets-management/)
 
-## Siehe auch 
+## <a name="see-also"></a>Siehe auch
 
 [Anlagen](fa-manage.md)  
 [Finanzen](finance.md)  

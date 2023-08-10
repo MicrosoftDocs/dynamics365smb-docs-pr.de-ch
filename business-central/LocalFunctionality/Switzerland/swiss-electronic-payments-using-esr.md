@@ -11,7 +11,7 @@ ms.search.form: '3010531, 3010532'
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# Elektronische Zahlungen mit ESR in der Schweizer Version
+# <a name="swiss-electronic-payments-using-esr-in-the-swiss-version"></a>Elektronische Zahlungen mit ESR in der Schweizer Version
 Die elektronische Zahlungsform "Einzahlungsschein mit Referenznummer" (ESR) ist ein elektronischer Debitorendienst, mit dem der Debitor offene Rechnungen in Schweizer Franken (CHF) und Euro (EUR) fakturieren und eingehende Zahlungen effizient buchen kann. Die Referenznummer oder Codezeile enthält alle relevanten Buchhaltungsdaten.  
 
 Elektronische Zahlungen mittels ESR bieten folgende Möglichkeiten:  
@@ -33,7 +33,7 @@ Beachten Sie beim Einrichten von Nummernserien für Rechnungen die folgenden Ric
 - Verwenden Sie nur numerische Zeichen.  
 - Stellen Sie den Nummern keine Nullen voran.  
 
-## Siehe auch  
+## <a name="see-also"></a>Siehe auch
  [Elektronische Zahlungen (Schweiz)](swiss-electronic-payments.md)   
  [Drucken von ESR-Rechnungen](how-to-print-esr-invoices.md)   
  [Importieren von ESR-Zahlungen](how-to-import-esr-payments.md)   

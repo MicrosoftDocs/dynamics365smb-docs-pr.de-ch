@@ -10,7 +10,7 @@ ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# Designdetails: Artikeltrackingdesign
+# <a name="design-details-item-tracking-design"></a>Designdetails: Artikeltrackingdesign
 
 Artikeltracking in [!INCLUDE[prod_short](includes/prod_short.md)] begann mit [!INCLUDE [navnow_md](includes/navnow_md.md)]. Die Artikeltrackingfunktion befindet sich in einer separaten Objektstruktur mit komplexen Links zu gebuchten Belegen und Lagerposten und ist in das Reservierungssystem integriert, das Reservierung, Auftragstracking und Aktionsnachrichten verwaltet. Weitere Informationen finden Sie unter [Designdetails: Reservierung, Auftragstracking und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md) in den Beschaffungsplanungsdetails.  
 
@@ -33,7 +33,7 @@ Codeunit 22, **Lagerposten – Zeile buchen** teilt jetzt die Buchung nach Artik
 
 Weitere Informationen finden Sie unter [Designdetails: Artikeltracking-Buchungsstruktur](design-details-item-tracking-posting-structure.md).  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Designdetails: Artikeltracking](design-details-item-tracking.md)
 

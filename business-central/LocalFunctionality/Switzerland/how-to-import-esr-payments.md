@@ -11,12 +11,12 @@ ms.search.form: '3010531, 3010532'
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# ESR-Zahlungen importieren in der Schweizer Version
+# <a name="import-esr-payments-in-the-swiss-version"></a>ESR-Zahlungen importieren in der Schweizer Version
 Nach Eingang einer Zahlung eines Debitors erhalten Sie eine Datei mit Informationen zu bezahlten Rechnungen. Sie können diese Datei elektronisch von der Bank oder per E-Mail empfangen.  
 
 Sie können die ESR (Einzahlungsschein mit Referenznummer)-Rechnungsdaten aus der Datei importieren, die Daten mithilfe des ESR-Berichts für Verkaufsrechnungen oder des ESR-Abschnittberichts drucken und diese vor der Buchung überprüfen. Weitere Informationen finden Sie unter [Drucken von ESR-Rechnungen](how-to-print-esr-invoices.md).  
 
-## So importieren Sie ESR-Zahlungen  
+## <a name="to-import-esr-payments"></a>So importieren Sie ESR-Zahlungen
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie im **Zahlungseingangsprotokolle** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie im Feld **Erf.-Journalname** den erforderlichen Erf.-Journalnamen aus.  
@@ -33,7 +33,7 @@ Sie können die ESR (Einzahlungsschein mit Referenznummer)-Rechnungsdaten aus de
 
 Die Zahlungsinformationen werden in die Journalzeilen importiert. Die Zahlungen werden automatisch für die jeweiligen Rechnungen entsprechend den eindeutigen ESR-Referenznummern übernommen.  
 
-## Siehe auch  
+## <a name="see-also"></a>Siehe auch
  [Elektronische Zahlungen mit ESR (Schweiz)](swiss-electronic-payments-using-esr.md)   
  [Drucken von ESR-Rechnungen](how-to-print-esr-invoices.md)
 
