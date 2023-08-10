@@ -1,16 +1,16 @@
 ---
 title: Erstellen von eingehenden Belegen
 description: 'Verwenden Sie verschiedene Funktionen auf der Seite Eingehende Belege, um Spesenbelege zu prüfen, OCR-Aufgaben zu verwalten, eingehende Beleg-Dateien zu konvertieren und externe Dateien anzuhängen.'
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: jswymer
+ms.topic: how-to
+ms-service: dynamics365-business-central
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
-ms.date: 06/14/2022
-ms.author: edupont
+ms.date: 03/2/2023
+ms.author: jswymer
+ms.custom: bap-template
+ms.reviewer: jswymer
 ---
-# <a name="create-incoming-document-records"></a>Erstellen von eingehenden Belegen
+# Erstellen Sie Datensätze für eingehende Belege
 
 Auf der Seite **Eingehende Belege** können Sie verschiedene Funktionen zum Überprüfen von Ausgabenbelegen, Verwalten von OCR-Aufgaben und Konvertieren eingehender Belege, manuell oder automatisch, in den entsprechenden Belegen oder Erfassungsjournalzeilen verwenden. Die externen Dateien können jeder Prozessphase zugeordnet werden, auch gebuchten Belegen und den resultierenden Kreditoren-, Debitoren- und Fibuposten.
 
@@ -18,7 +18,7 @@ Um ein externes Dokument in [!INCLUDE[prod_short](includes/prod_short.md)] zu er
 
 Bevor Sie die Funktion **Eingehende Belege** verwenden können, müssen Sie die erforderlichen Einstellungen vornehmen. Weitere Informationen finden Sie unter [Eingehende Belege einrichten](across-how-setup-income-documents.md).
 
-## <a name="approve-or-reject-an-incoming-document"></a>So können Sie einen eingehenden Beleg genehmigen oder ablehnen
+## Genehmigen oder Ablehnen eines eingehenden Belegs
 
 Wenn Sie die Funktion **Eingehende Belege** so festgelegt haben, dass für das Erstellen von Belegen eine Genehmigung erforderlich ist, müssen Benutzer mit den entsprechenden Rechten die Datensätze genehmigen, bevor sie verarbeitet werden. Weitere Informationen finden Sie unter [Einrichten von Genehmigern für eingehende Datensätze](across-how-setup-income-documents.md#to-set-up-approvers-of-incoming-document-records).
 
@@ -27,7 +27,7 @@ Wenn Sie die Funktion **Eingehende Belege** so festgelegt haben, dass für das E
 
 Das Kontrollkästchen **Freigegeben** in der Zeile für den Eingangsbeleg ist aktiviert, wenn dieser genehmigt wurde. Der jeweilige Benutzer, beispielsweise der für das Erstellen von Einkaufsrechnungen zuständige, kann dann fortfahren, den Datensatz zu verarbeiten.
 
-## <a name="create-an-incoming-document-record-by-taking-a-photo"></a>So erstellen Sie Eingangsbelegdatensätze indem Sie ein Foto machen
+## Erstellen Sie einen Datensatz für einen eingehenden Beleg, indem Sie ein Foto machen
 
 > [!NOTE]  
 > Das folgende Verfahren gilt nur für die [!INCLUDE[prod_short](includes/prod_short.md)] Tablet- und Telefon-Clients.
@@ -39,7 +39,7 @@ Das Kontrollkästchen **Freigegeben** in der Zeile für den Eingangsbeleg ist ak
 
     Es wird ein neuer Datensatz für eingehende Dokumente erstellt, an den das Bild angehängt wird.
 
-## <a name="attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>So hängen Sie ein Bild an ein Eingangsbelegdatensatz an, indem Sie ein Foto machen
+## Hängen Sie ein Bild an einen Datensatz für einen eingehenden Beleg an, indem Sie ein Foto machen
 
 > [!NOTE]  
 > Das folgende Verfahren gilt nur für die [!INCLUDE[prod_short](includes/prod_short.md)] Tablet- und Telefon-Clients.
@@ -51,19 +51,23 @@ Das Kontrollkästchen **Freigegeben** in der Zeile für den Eingangsbeleg ist ak
 
     Das Bild wurde dem Datensatz des eingehenden Beleges angehängt.
 
-## <a name="create-an-incoming-document-record-manually"></a>Eingehende Belege manuell erstellen
+## Einen Datensatz für einen eingehenden Beleg manuell erstellen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Geben Sie **Eingehende Belege** ein, und wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie **Neu**, und dann die Aktion **Erstellen aus Datei**.  
-3. Wählen Sie auf der Seite **Datei einfügen** eine Datei aus und wählen Sie dann **Offen** aus. Die Datei wird automatisch angehängt.
-4. Wählen Sie alternativ die Aktion **Neu** aus.
-5. Um eine Datei anzuhängen, wählen Sie **Verarbeiten** und dann die Aktion **Datei anhängen**.
-6. Auf der Seite **Datei einfügen** wählen Sie die Datei, die den jeweiligen eingehenden Beleg darstellt, und wählen Sie die Schaltfläche **Öffnen**.
-7. Füllen Sie auf der Seite **Eingehende Belege** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Auf der Seite **Datei einfügen** führen Sie einen der folgenden Schritte aus, um eine Datei anzufügen, die den eingehenden Beleg darstellt:
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/incoming-documents-dynamics-365-business-central/)
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
-## <a name="see-also"></a>Siehe auch
+4. Alternativ können Sie die Aktion **Neu** wählen und dann die folgenden Schritte ausführen:
+
+    1. Um eine Datei hinzuzufügen, wählen Sie **Verarbeiten** > **Datei anhängen**.
+    2. Auf der Seite **Datei einfügen** ziehen Sie eine ausgewählte Datei, die den jeweiligen eingehenden Beleg darstellt, oder wählen **zum Durchsuchen hier klicken** aus, um die Datei zu finden und zu öffnen.
+    3. Füllen Sie auf der Seite **Eingehende Belege** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## Siehe verwandte [Microsoft Schulungen](/training/modules/incoming-documents-dynamics-365-business-central/)
+
+## Siehe auch 
 
 [Mit OCR PDF- und Bilddateien in elektronische Belege umwandeln](across-how-use-ocr-pdf-images-files.md)
 [Eingehende Belege direkt aus Belegen und Einträgen erstellen](across-how-connect-disconnect-income-document-records.md)
