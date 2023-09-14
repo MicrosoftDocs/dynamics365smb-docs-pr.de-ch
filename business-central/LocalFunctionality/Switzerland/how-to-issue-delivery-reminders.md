@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf
 ---
-# Lieferanmahnungen in der Schweizer Version ausstellen
+# <a name="issue-delivery-reminders-in-the-swiss-version"></a>Lieferanmahnungen in der Schweizer Version ausstellen
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](how-to-print-test-reports-for-delivery-reminders.md)  
 [Lieferanmahnungen](delivery-reminders.md)  
