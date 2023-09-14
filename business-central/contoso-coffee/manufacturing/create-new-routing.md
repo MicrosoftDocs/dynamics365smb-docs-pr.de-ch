@@ -4,18 +4,18 @@ description: 'Exemplarische Vorgehensweise, um zu erfahren, wie Sie alle Informa
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-author: edupont04
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
-# <a name="walkthrough-create-a-new-routing"></a>Exemplarische Vorgehensweise: Erstellen Sie einen neuen Arbeitsplan
+# Exemplarische Vorgehensweise: Erstellen Sie einen neuen Arbeitsplan
 
 In diesem Artikel führen wir Sie durch die Schritte zur Verwendung der Contoso Coffee-Demodaten zum manuellen Einrichten eines neuen Produktionsarbeitsplans in [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## <a name="scenario"></a>Szenario
+## Szenario
 
 Oscar, der Verfahrenstechniker bei Contoso Coffee, beschliesst, einen neuen Arbeitsplan mit dem Namen *Neuer Pfad* zu erstellen. Da sich dieser Arbeitsplan von allen anderen Arbeitsplänen bei Contoso Coffee unterscheidet, muss Oscar alle Informationen für den Arbeitsplan manuell eingeben.  
 
-## <a name="steps"></a>Schritte
+## Schritte
 
 1. Erstellen Sie die Arbeitsplan-Kopfzeile.  
 
@@ -54,6 +54,6 @@ Oscar, der Verfahrenstechniker bei Contoso Coffee, beschliesst, einen neuen Arbe
 
 Der neue Arbeitsplan ist nun eingerichtet.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Einführung in Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

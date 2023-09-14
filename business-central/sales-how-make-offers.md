@@ -1,7 +1,7 @@
 ---
 title: Verkaufsofferten machen
 description: 'Lesen Sie, wie Sie ein Verkaufsangebot oder einen Beleg für eine Angebotsanfrage (RFQ) erstellen, um Ihr Angebot an einen Debitor oder Interessenten zum Verkauf von Produkten zu bestimmten Bedingungen zu erstellen.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.search.form: '41, 9300'
 ms.date: 07/12/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="make-sales-quotes"></a>Verkaufsofferten machen
+# Verkaufsofferten machen
 
 Sie erstellen ein Verkaufsofferte, um Ihren Datensatz an einen Debitor oder Interessenten zu erstellen, um bestimmte Produkte zu bestimmten Liefer- und Zahlungsbedingungen zu verkaufen. Sie können die Verkaufsofferte an den Debitor senden, um die Offerte mitzuteilen. Sie können den Beleg als PDF-Dateianhang senden. Sie können den E-Mail-Text auch, der mit einer Zusammenfassung der Offerte vorab ausgefüllt wurde. Weitere Informationen finden Sie unter [Senden von Belegen über E-Mail](ui-how-send-documents-email.md).
 
@@ -19,7 +19,7 @@ Während Sie mit dem Kunden oder Interessenten verhandeln, können Sie das Verka
 
 In den meisten Fällen senden Sie Verkaufsofferten an potenzielle Kunden. Sie haben oft einen Ansprechpartner, mit dem Sie verhandeln. Wenn dieser dann Ihr Offerte annimmt, wandeln Sie das Verkaufsofferte in einen Auftrag um und registrieren den Interessenten als Kunden in [!INCLUDE [prod_short](includes/prod_short.md)]. Im folgenden Verfahren konzentrieren wir uns auf Kontakte, aber Sie können auch Offerten an bestehende Kunden senden.  
 
-## <a name="to-create-a-sales-quote"></a>So erstellen Sie Verkaufsofferten:
+## So erstellen Sie Verkaufsofferten:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Verkaufsofferten** ein, und wählen Sie dann den entsprechenden Link.
 2. Geben Sie den Kontakt oder Debitor an, an den Sie das Verkaufsofferte senden möchten.
@@ -88,13 +88,13 @@ In den meisten Fällen senden Sie Verkaufsofferten an potenzielle Kunden. Sie ha
 
 Durch die Umwandlung wird das Verkaufsofferte aus der Datenbank entfernt. Eine Verkaufsrechnung oder ein Verkaufsauftrag wird auf der Basis der Informationen im Verkaufsofferte erstellt, damit Sie den Verkauf verarbeiten können. In der erstellten Verkaufsrechnung bzw. -bestellung gibt das Feld **Offertennr.** die Nummer der Verkaufsofferte an, aus der sie erstellt wurde. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md) und [Neue Produkte verkaufen](sales-how-sell-products.md).  
 
-## <a name="external-document-number"></a>Externe Belegnummer
+## Externe Belegnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  

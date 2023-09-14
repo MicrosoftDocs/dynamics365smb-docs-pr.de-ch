@@ -1,7 +1,7 @@
 ---
 title: 'Lieferbenachrichtigungsbestimmungen, Stufen und Text [CH]'
 description: 'Wenn Sie Lieferanmahnungen in der Schweizer Version von Business Central verwenden möchten, müssen Sie Lieferanmahnungsmethoden, Stufen und Textnachrichten einrichten.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,13 +9,13 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: '5005270, 5005272'
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version"></a>Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text in der Schweizer Version
+# Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text in der Schweizer Version
 
 [!INCLUDE [delivery-reminder-terms-levels-text-setup](../includes/ATCHDE/delivery-reminder-terms-levels-text-setup.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Lieferanmahnungen](delivery-reminders.md)  
 [Gewusst wie: Einrichten von Lieferanmahnungen](how-to-set-up-delivery-reminders.md)  

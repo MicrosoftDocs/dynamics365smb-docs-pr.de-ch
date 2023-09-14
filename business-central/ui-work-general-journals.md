@@ -6,12 +6,12 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 12/27/2022
+ms.date: 08/29/2023
 ms.custom: bap-template
 ms.search.keywords: 'journals, recurring, accrual, renumber, bulk-post'
 ms.search.form: '39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022'
 ---
-# <a name="work-with-general-journals"></a>Mit Fibu Erfassungsjournalen arbeiten
+# Mit Fibu Erfassungsjournalen arbeiten
 
 Die meisten finanziellen Transaktionen werden über Belege wie Einkaufsrechnungen und Verkaufsaufträge im Fibu verbucht. Sie können jedoch auch geschäftliche Aktivitäten verarbeiten, wie z.B.:
 
@@ -33,7 +33,11 @@ Die in ein Erf.-Journal eingegebenen Informationen sind temporär und können ge
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
-## <a name="use-journal-templates-and-batches"></a>Erf.-Journalvorlagen und -namen verwenden
+## Fibu Erf.-Journal-Transaktionen Kontext hinzufügen
+
+Wenn Sie ein Erfassungsjournal erstellen, können Sie Links mit Kontext zu seinen Transaktionen hinzufügen. Wenn Sie das Erfassungsjournal buchen, kopiert [!INCLUDE [prod_short](includes/prod_short.md)] die Links zu dem gebuchten Erfassungsjournal und den Posten, die das Erfassungsjournal erstellt. Die Bereitstellung von Links kann beispielsweise Ihrem Wirtschaftsprüfer das Leben erleichtern. Wenn Sie Bilder Ihrer Ausgabenbelege auf der Sharepoint-Website Ihres Unternehmens speichern, können Sie Links zu den Dateien hinzufügen. Wenn Sie das Erfassungsjournal veröffentlichen, um Ihre Ausgaben einzureichen, kann Ihr Wirtschaftsprüfer schnell auf die Belegdateien zugreifen.
+
+## Erf.-Journalvorlagen und -namen verwenden
 
 Es gibt mehrere Fibu Erfassungsjournalvorlagen. Jede Erf.-Journalvorlage wird durch eine spezifisches Seite mit bestimmten Funktionen und den Feldern dargestellt, die benötigt werden, um diese Funktionen zu unterstützen, wie die Seite **Zahlungs-Abstimmungs-Erf.-Journal**, um Bankzahlungen zu verarbeiten, und die Seite **Zahlungsausgangs Erf.-Journal**, um Ihre Mitarbeiter zu bezahlen. Weitere Informationen finden Sie unter [Zahlungen vornehmen](payables-make-payments.md) und [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Erf.-Journal oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md).
 
@@ -45,7 +49,7 @@ Sie können zu jeder Erfassungsjournalvorlage mehrere Erfassungsjournalnamen als
 > [!TIP]
 > Sie können Felder in Erfassungsjournalen hinzufügen oder entfernen, indem Sie sie personalisieren. Erfahren Sie mehr unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
-### <a name="validating-general-journal-batches"></a>Fibu Erf.-Journal-Stapelverarbeitungen überprüfen
+### Fibu Erf.-Journal-Stapelverarbeitungen überprüfen
 
 Sie können eine Hintergrundprüfung einschalten, um Verzögerungen beim Buchen zu vermeiden. Bei der Prüfung werden Sie benachrichtigt Sie, wenn ein Fehler in dem Finanz Erf.-Journal, an dem Sie gerade arbeiten, das Buchen des Journals verhindert. Auf der Seite **Fibu Erf.-Journal** können Sie **Hintergrundfehlerprüfung** wählen, damit [!INCLUDE[prod_short](includes/prod_short.md)] Finanz Erfassungsjournale überprüft, wie z. B. Fibu Erfassungsjournale oder Zahlungsausgangs Erfassungsjournale, während Sie an ihnen arbeiten.
 
@@ -55,20 +59,20 @@ Mit den Aktionen **Zeilen mit Problemen anzeigen** und **Alle Zeilen anzeigen** 
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
-## <a name="understanding-main-accounts-and-balancing-accounts"></a>Hauptkonten und Gegenkonten und Saldokonten verstehen
+## Hauptkonten und Gegenkonten und Saldokonten verstehen
 
 Wurden auf der Seite **Erfassungsjournale** Standardgegenkonten für die Erf.-Journalnamen eingerichtet, wird das Gegenkonto beim Ausfüllen des Felds **Kontonr.** automatisch ausgefüllt. Andernfalls müssen die Felder **Kontonr.** und **Gegenkontonr.** manuell ausgefüllt werden. Bei einem positiven Betrag im Feld **Betrag** wird das Hauptkonto belastet, und auf dem Gegenkonto erfolgt eine Gutschrift. Bei einem negativen Betrag erfolgt eine Gutschrift auf dem Hauptkonto, und das Gegenkonto wird entsprechend belastet.
 
 > [!NOTE]  
 > Die MWST für Haupt- und Gegenkonto wird getrennt berechnet, damit für die Konten unterschiedliche MWST-Prozentsätze verwendet werden können.
 
-## <a name="work-with-recurring-journals"></a>Mit wiederkehrenden Erfassungsjournalen arbeiten
+## Mit wiederkehrenden Erfassungsjournalen arbeiten
 
 Ein wiederkehrendes Erfassungsjournal ist ein allgemeines Journal mit spezifischen Feldern zur Verwaltung von Transaktionen, die Sie häufig mit wenigen oder gar keinen Änderungen buchen. Zum Beispiel Transaktionen für Ausgaben wie Miete, Abonnements, Strom und Heizung. Mit wiederkehrenden Erfassungsjournalen können Sie feste und variable Beträge buchen und automatische Stornoposten für den Tag nach dem Buchungsdatum festlegen. Mit Verteilungsschlüsseln können Sie die wiederkehrenden Posten auf verschiedene Konten aufteilen. Weitere Informationen finden Sie unter [Zuordnung von Beträgen des wiederkehrenden Erf.-Journals auf mehrere Konten](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Mit einem wiederkehrenden Erfassungsjournal erstellen Sie die Posten, die regelmässig nur einmal gebucht werden. So bleiben beispielsweise die Konten, Dimensionen, Dimensionswerte usw. nach der Buchung im Journal erhalten. Falls Änderungen erforderlich sind, können Sie diese bei jeder Buchung vornehmen.
 
-### <a name="recurring-method-field"></a>Feld Wiederholungsmethode
+### Feld Wiederholungsmethode
 
 Das Feld **Wiederkehrende Methode** ist wichtig. Es bestimmt, wie der Betrag in der Erfassungsjournalzeile nach der Buchung behandelt werden soll. Wenn Sie z.B. bei jeder Buchung der Zeile den gleichen Betrag verwenden, können Sie den Betrag beibehalten. Wenn Sie dieselben Konten und denselben Text in der Zeile verwenden, der Betrag aber bei jeder Buchung variiert, können Sie den Betrag nach der Buchung löschen.
 
@@ -86,11 +90,11 @@ Das Feld **Wiederkehrende Methode** ist wichtig. Es bestimmt, wie der Betrag in 
 > [!NOTE]  
 > Sie können die Mehrwertsteuerfelder entweder in der wiederkehrenden Erfassungsjournalzeile oder in der Verteilungs Erf.-Journalzeile, aber niemals in beiden gleichzeitig, ausfüllen. Das heisst, sie können auf der Seite **Zuweisungen** nur passende Zeilen eintragen, wenn die entsprechenden Zeilen nicht im wiederkehrenden Erf.-Journal eingetragen werden.
 
-### <a name="recurring-frequency-field"></a>Feld Wiederholungsrate
+### Feld Wiederholungsrate
 
 Dieses Feld für die Datumsformel bestimmt, wie oft der Eintrag in der Erfassungsjournalzeile gebucht werden soll, und muss ausgefüllt werden. Mehr dazu erfahren Sie unter [Verwenden von Datumsformeln](ui-enter-date-ranges.md#use-date-formulas).
 
-#### <a name="examples"></a>Beispiele
+#### Beispiele
 
 Wenn die Erf.-Journalzeile z. B. monatlich gebucht werden soll, geben Sie "1M" ein. Nach jeder Buchung wird dann das Datum im Feld **Buchungsdatum** auf dasselbe Datum im nächsten Monat aktualisiert.
 
@@ -100,7 +104,7 @@ Wenn Sie immer am Letzten des Monats buchen möchten, können Sie nach einem der
 
 * Buchen Sie den ersten Eintrag an einem beliebigen Tag des Monats, indem Sie 1M+CM eingeben. Diese Formel addiert einen ganzen Monat plus die verbleibenden Tage bis zum Letzten des Monats.
 
-### <a name="expiration-date-field"></a>Ablaufdatumsfeld
+### Ablaufdatumsfeld
 
 Das Feld bestimmt das Datum, an dem die Zeile letztmalig gebucht werden soll. Die Zeile wird nach diesem Datum nicht mehr gebucht.
 
@@ -108,7 +112,7 @@ Die Verwendung des Feldes Ablaufdatum hat den Vorteil, dass die Zeile nicht sofo
 
 Wenn das Feld leer ist, wird die Zeile jedes Mal gebucht, bis sie aus dem Journal gelöscht wird.
 
-### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Zuordnung von Beträgen des wiederkehrenden Erf.-Journals auf mehrere Konten
+### Zuordnung von Beträgen des wiederkehrenden Erf.-Journals auf mehrere Konten
 
 Auf der Seite **Wiederk. Fibu Erf.-Journal** können Sie die Aktion **Verteilungen** auswählen und bestimmen, wie Beträge der Zeile des wiederkehrenden Erf.-Journals auf mehrere Konten und Dimensionen zugeordnet werden. Die Zuordnung dient als Ausgleichskontozeile für die Erfassungsjournalzeile.
 
@@ -126,7 +130,7 @@ Ihr Unternehmen verfügt beispielsweise über einige Geschäftsbereiche und eine
 > [!NOTE]
 > Bemassungen, die Sie in Zuordnungszeilen festlegen, werden nicht automatisch berechnet, und Sie müssen angeben, welche Bemassungswerte in den Zuordnungskonten festgelegt werden müssen. Wenn Sie die Verknüpfung zwischen der Quellkontodimension und der Zuordnungskontodimension beibehalten möchten, empfehlen wir die Verwendung der Funktionen [Kostenrechnung](finance-about-cost-accounting.md).
 
-#### <a name="example-allocating-rent-payments-to-different-departments"></a>Beispiel: Zuordnen von Mietzahlungen auf verschiedene Abteilungen
+#### Beispiel: Zuordnen von Mietzahlungen auf verschiedene Abteilungen
 
 Sie zahlen monatlich Miete, also haben Sie den Betrag auf dem Kassenkonto in einer wiederkehrenden Erfassungsjournalzeile erfasst. Auf der Seite **Zuweisungen** können Sie die Dimension Abteilung verwenden, um die Ausgaben auf mehrere Abteilungen aufzuteilen. Zum Beispiel nach der Anzahl der Quadratmeter, die jede Abteilung belegt. Die Berechnung erfolgt aufgrund der Verteilungsprozente für jede Verteilungs-Buch.-Blattzeile. Sie können die Aufteilung auf verschiedene Arten vornehmen:
 
@@ -135,11 +139,11 @@ Sie zahlen monatlich Miete, also haben Sie den Betrag auf dem Kassenkonto in ein
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-### <a name="calculate-the-reversal-date"></a>Stornierungsdatum berechnen
+### Stornierungsdatum berechnen
 
 Wenn Sie wiederkehrende Fibu Erfassungsjournale verwenden, um Abgrenzungen am Ende einer Periode zu buchen, ist es wichtig, die volle Kontrolle über Stornierungsposten zu haben. Auf der Seite **Wiederkehrende Fibu Erfassungsjournale** können Sie mithilfe des Felds **Stornierungsdatumsberechnung** das Datum steuern, an dem Stornierungsposten gebucht werden, wenn wiederkehrende Stornierungsmethoden verwendet werden.
 
-#### <a name="example"></a>Beispiel
+#### Beispiel
 
 Zugänge werden in der Regel mit den wiederkehrenden Methoden **Fest**, **Variabel** oder **Saldo** in der Erfassungsjournalzeile gebucht. Das Buchungsdatum des gebuchten Betrags auf dem Konto in der Erf.-Journalzeile wird anhand der wiederkehrenden Häufigkeit berechnet. Das Buchungsdatum für die Gegenposten wird mithilfe des Felds **Stornierungsdatumsberechnung** wie folgt berechnet:
 
@@ -149,7 +153,7 @@ Zugänge werden in der Regel mit den wiederkehrenden Methoden **Fest**, **Variab
 > [!NOTE]
 > Standardmässig ist das Feld **Stornierungsdatumsberchnung** auf der Seite **Wiederkehrende Fibu Erfassungsjournale** nicht verfügbar. Um das Feld zu verwenden, müssen Sie es hinzufügen, indem Sie die Seite personalisieren. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
-## <a name="work-with-standard-journals"></a>Mit Standard-Erfassungsjournalen arbeiten
+## Mit Standard-Erfassungsjournalen arbeiten
 
 Wenn Sie Erfassungsjournalzeilen erstellt haben, von denen Sie wissen, dass Sie sie wahrscheinlich später noch einmal erstellen werden, können Sie sie als Standard Erfassungsjournal speichern, bevor Sie das Journal buchen. Dasselbe gilt für Artikel Erfassungsjournale und Fibu Erfassungsjournale.
 
@@ -159,7 +163,7 @@ Wenn Sie Erfassungsjournalzeilen erstellt haben, von denen Sie wissen, dass Sie 
 > [!NOTE]  
 > Das folgende Verfahren bezieht sich auf das Artikel Erf.-Journal, die Informationen betreffen jedoch auch das Standard Erf.-Journal.
 
-### <a name="to-save-a-standard-journal"></a>Ein Standard-Erfassungsjournal speichern:
+### Ein Standard-Erfassungsjournal speichern:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Element Erfassungsjournale** ein und wählen Sie dann den zugehörigen Link.
 2. Geben Sie in mindestens eine Erfassungsjournalzeile ein.
@@ -175,7 +179,7 @@ Wenn Sie Erfassungsjournalzeilen erstellt haben, von denen Sie wissen, dass Sie 
 
 Wenn Sie das Standard-Artikel Erf.-Journal speichern, wird die Seite Artikel Erf.-Journal angezeigt, auf der Sie die Buchung vornehmen können.
 
-### <a name="to-reuse-a-standard-journal"></a>Standard Erf.-Journale wieder nutzen
+### Standard Erf.-Journale wieder nutzen
 
 > [!NOTE]
 > Standard-Erfassungsjournale haben nicht immer die gleichen Felder wie allgemeine Erfassungsjournale. Wenn Sie die Aktion „Standard-Erfassungsjournale abrufen“ verwenden, um die Felder in das allgemeine Erfassungsjournal zu kopieren, enthält das allgemeine Erfassungsjournal möglicherweise weniger Informationen als bei der manuellen Erstellung. 
@@ -199,7 +203,7 @@ Wenn Sie das Standard-Artikel Erf.-Journal speichern, wird die Seite Artikel Erf
 5. Wählen Sie den Artikel, für den Sie den Lagerbestand anpassen möchten, und wählen Sie dann die Aktion **Einheitsbetrag neu berechnen** aus. Durch diese Aktion wird das Feld Betrag pro Einheit mit den aktuellen Kosten pro Einheit des Artikels aktualisiert.
 6. Wählen Sie die Aktion **Buchen** aus.
 
-## <a name="to-renumber-document-numbers-in-journals"></a>Belegnummern in Erf.-Journalen neu nummerieren
+## Belegnummern in Erf.-Journalen neu nummerieren
 
 Um durch die Belegnummer verursachte Buchungsfehler zu vermeiden, können Sie die Aktion **Belegnummern neu nummerieren** verwenden, bevor Sie ein Journal buchen.
 
@@ -211,7 +215,7 @@ Diese Funktion funktioniert auch bei gefilterten Ansichten.
 
 Bei einer Neunummerierung der Belegnummern werden zusammenhängende Anwendungen berücksichtigt, z. B. ein Zahlungsausgleich, der von dem Beleg in der Erfassungsjournalzeile auf ein Kreditorenkonto gestellt wurde. Dementsprechend werden die Felder **Antrags-ID** und **Antrags-Dok. Nr.** in den Sachkontoeinträgen aktualisiert werden.
 
-### <a name="to-renumber-documents-in-journals"></a>Belege in Erfassungsjournalen neu nummerieren
+### Belege in Erfassungsjournalen neu nummerieren
 
 Die folgende Prozedur basiert auf der Seite**Fibu Erf.-Journal**, gilt aber für alle anderen Erf.-Journals, die auf dem Hauptbuch basieren, wie etwa die Seite **Zahlungs Erf.-Journal**.
 
@@ -220,9 +224,9 @@ Die folgende Prozedur basiert auf der Seite**Fibu Erf.-Journal**, gilt aber für
 
 Werte im Feld **Dokumentennr.** werden geändert, wo erforderlich, sodass die Belegnummern auf einzelnen oder gruppierten Erfassungsjournalzeilen in sequenzieller Reihenfolge stehen. Nachdem die Belege neu nummeriert wurden, können Sie das Journal buchen.
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/paths/use-journals-dynamics-365-business-central/)
+## Siehe verwandte [Microsoft Schulungen](/training/paths/use-journals-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Buchen von Transaktionen direkt im Fibuposten](finance-how-post-transactions-directly.md)  
 [Erf.-Journalbuchungen stornieren und Belege/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md)  

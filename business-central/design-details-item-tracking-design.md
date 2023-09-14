@@ -1,16 +1,16 @@
 ---
 title: "Designdetails\_– Artikeltrackingdesign"
 description: 'In diesem Thema wird das Design des Artikeltrackings in Business Central beschrieben, wenn dieses über Produktversionen hinweg ausgereift ist.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-item-tracking-design"></a>Designdetails: Artikeltrackingdesign
+# Designdetails: Artikeltrackingdesign
 
 Artikeltracking in [!INCLUDE[prod_short](includes/prod_short.md)] begann mit [!INCLUDE [navnow_md](includes/navnow_md.md)]. Die Artikeltrackingfunktion befindet sich in einer separaten Objektstruktur mit komplexen Links zu gebuchten Belegen und Lagerposten und ist in das Reservierungssystem integriert, das Reservierung, Auftragstracking und Aktionsnachrichten verwaltet. Weitere Informationen finden Sie unter [Designdetails: Reservierung, Auftragstracking und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md) in den Beschaffungsplanungsdetails.  
 
@@ -33,7 +33,7 @@ Codeunit 22, **Lagerposten – Zeile buchen** teilt jetzt die Buchung nach Artik
 
 Weitere Informationen finden Sie unter [Designdetails: Artikeltracking-Buchungsstruktur](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Designdetails: Artikeltracking](design-details-item-tracking.md)
 

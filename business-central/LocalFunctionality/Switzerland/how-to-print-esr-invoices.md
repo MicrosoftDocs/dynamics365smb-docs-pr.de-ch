@@ -1,7 +1,7 @@
 ---
 title: 'Gewusst wie: Drucken von ESR-Rechnungen [CH]'
 description: 'In diesem Thema wird erläutert, wie Sie Zahlungsscheinrechnungen und -gutschriften für einen Einzahlungsschein mit Referenznummer (ESR) drucken können:'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: '3010531, 3010532'
 ms.date: 06/21/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="print-esr-invoices-in-the-swiss-version"></a>ESR-Rechnungen drucken in der Schweizer Version
+# ESR-Rechnungen drucken in der Schweizer Version
 
 Zum Drucken von Einzahlungsscheinen mit Referenznummer (ESR) stehen folgende Methoden zur Auswahl:  
 
@@ -25,7 +25,7 @@ Der Bericht "Verkauf ESR Rechnung" entspricht der Verkaufsrechnung mit beigefüg
 
 Im folgenden Verfahren wird das Drucken von ESR-Verkaufsrechnungen beschrieben, dieselben Schritte gelten jedoch auch für ESR-Abschnitte.  
 
-## <a name="to-print-esr-invoices"></a>So drucken Sie ESR-Rechnungen
+## So drucken Sie ESR-Rechnungen  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **ESR Rechnung** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Füllen Sie im Stapelverarbeitungsauftrag **Verkauf ESR Rechnung** die Felder auf dem Inforegister **Optionen** wie in der folgenden Tabelle beschrieben aus.  
@@ -41,7 +41,7 @@ Im folgenden Verfahren wird das Drucken von ESR-Verkaufsrechnungen beschrieben, 
 
 Sie können den Bericht "Verkauf ESR Rechnung" oder "Verkauf ESR Abschnitt" auch erneut drucken.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
  [Elektronische Zahlungen mit ESR (Schweiz)](swiss-electronic-payments-using-esr.md)   
  [Importieren von ESR-Zahlungen](how-to-import-esr-payments.md)
 
