@@ -66,8 +66,6 @@ Sie können mehrere Anlage in einer Anlagen zusammenfassen, wenn Sie zum Beispie
 2. Füllen Sie die Felder je nach Bedarf aus.
 3. Klicken Sie auf die Schaltfläche **Drucken** oder **Vorschau**.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/reclassify-fixed-assets/)
-
 ## Siehe auch 
 
 [Anlagen](fa-manage.md)  

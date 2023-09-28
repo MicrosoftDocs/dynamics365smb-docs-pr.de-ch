@@ -235,8 +235,6 @@ Zudem wurden das Buchen einer Vorauszahlungsrechnung, Erstellen einer zweiten Vo
 
 Die Vorauszahlungsfunktionen erleichtern die Einrichtung und Durchsetzung von Vorauszahlungsregeln für Kunden und Artikel. Ausserdem können Sie jede Zahlung gegen eine Rechnung buchen.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/prepayment-invoices-dynamics-365-business-central/)
-
 ## Siehe auch 
 
 [Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)  

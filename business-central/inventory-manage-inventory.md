@@ -53,11 +53,9 @@ In der folgenden Tabelle sind verwandte Aufgaben aufgeführt.
 |Richten Sie eine eigene Beschreibung des Kreditors oder Debitors für einen Artikel ein, sodass Sie die Artikelbeschreibung in Geschäftsbelegen schnell einfügen können.|[Verwendung von Element-Referenzen](inventory-how-use-item-cross-refs.md)|
 |Artikel sperren, damit Sie nicht auf Verkaufs- oder Einkaufszeilen eingetragen oder in einer Transaktion gebucht werden können.|[Artikel sperren](inventory-how-block-items.md)|
 |Verwalten von Geschäften in den Verkaufsbüros, in den Einkaufsabteilungen oder in den Fabrikplanungsbüros von mehreren Standorten.|[Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md)|
-|Verwenden Sie Ressourcen mit spezifischen Funktionen für verschiedene Services und Serviceelemente.|[Um Ressourcenzuweisung einzurichten:](service-how-setup-resource-allocation.md)|
+|Verwenden Sie Ressourcen mit spezifischen Funktionen für verschiedene Services und Serviceelemente.|[Ressourcenzuordnung einrichten](service-how-setup-resource-allocation.md)|
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/get-started-inventory-management/)
-
-## Siehe auch
+## Siehe auch 
 
 [Warehouse Management – Übersicht](design-details-warehouse-management.md)
 [Einkauf](purchasing-manage-purchasing.md)  

@@ -55,8 +55,6 @@ Sie können zusätzliche Namen in einer Versicherungs Erfassungsjournalvorlage e
 > [!NOTE]  
 >   Zahlen haben in Erfassungsjournalnamen eine spezielle Funktion. Wenn die Erfassungsjournalvorlage oder der Erfassungsjournalname eine Nummer enthält, wird diese beim Buchen des Erfassungsjournals automatisch um eins hochgezählt. Wenn z. B. HH1 in dem Feld **Name** verwendet wurde, ändert sich der Name auf HH2, nachdem das Erfassungsjournal HH1 gebucht wurde.
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-fixed-assets-management/)
-
 ## Siehe auch 
 
 [Anlagen einrichten](fa-setup.md)  

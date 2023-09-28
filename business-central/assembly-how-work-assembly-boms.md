@@ -106,12 +106,10 @@ Der Einstandspreis einer Montagestückliste entspricht immer der Summe der Einst
 
 Die Einstandspreise der Artikel, aus denen die Montagestückliste besteht, werden anhand der Artikelkarten der Komponenten kopiert. Die Kosten jedes Artikels wird mit der Menge multipliziert und die Summe der Kosten wird auf der Montageartikelkarte im Feld **Einheitskosten** angezeigt.
 
-## Siehe die zugehörige [Microsoft Schulung](/training/modules/set-up-assembly-items-dynamics-365-business-central/).
-
 ## Siehe auch 
 
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
-[Verwalten von Produktvarianten](inventory-item-variants.md)  
+[Produktvarianten verwalten](inventory-item-variants.md)  
 [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)  
 [Lagerbesttand](inventory-manage-inventory.md)  
 [Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)  

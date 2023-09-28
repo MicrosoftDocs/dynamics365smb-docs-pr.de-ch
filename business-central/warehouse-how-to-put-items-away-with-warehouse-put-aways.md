@@ -3,7 +3,7 @@ title: So lagern Sie Artikeln mit Lagereinlagerungen ein
 description: 'Erfahren Sie mehr über die verschiedenen Möglichkeiten, Lagereinlagerungen zum Einlagern empfangener Artikel zu verwenden.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/24/2023
@@ -112,9 +112,7 @@ Wenn für einen Lagerort die Bearbeitung der Einlagerung und des Wareneingangs e
 
 5. Wenn Sie alle Artikel so in die Lagerplätze eingelagert haben, wie es die Anweisungen vorsehen, wählen Sie die Aktion **Einlagerung registrieren** aus.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/receive-put-away-items/)
-
-## Siehe auch
+## Siehe auch 
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

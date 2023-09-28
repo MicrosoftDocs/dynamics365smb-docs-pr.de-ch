@@ -104,7 +104,7 @@ Beachten Sie, dass sich der Wert im Feld **Status** zu **Genehmigung ausstehend*
 ### So genehmigen Sie die Einkaufsbestellung als Stephan
 
 1. Melden Sie sich als Sean an.
-2. Wählen Sie im Rollencenter im Bereich **Self-Service** **Anfragen zur Genehmigung**.
+2. Wählen Sie im Rollencenter im Bereich **Self-Service****Anfragen zur Genehmigung**.
 3. Markieren Sie auf der Seite **Anfragen zur Genehmigung** die Zeile über die Bestellung von Christine und wählen Sie dann die Aktion **Genehmigen**.  
 
 Der Wert im Feld **Status** auf der Einkaufsbestellung von Alicia ändert sich zu **Freigegeben**.  
@@ -116,8 +116,6 @@ Die Basisversion von [!INCLUDE[prod_short](includes/prod_short.md)] umfasst viel
 Sie definieren Workflowsvariationen, indem Sie die Felder in den Workflowzeilen über vordefinierte vom Anwendungscode unterstützten Listen mit Ereignissen und Reaktionen ausfüllen. Erfahren Sie mehr unter [Workflows erstellen](across-how-to-create-workflows.md).  
 
 [!INCLUDE[workflow](includes/workflow.md)]
-
-## Siehe verwandte [Microsoft Schulungen](/training/modules/use-approval-workflows/)
 
 ## Siehe auch 
 

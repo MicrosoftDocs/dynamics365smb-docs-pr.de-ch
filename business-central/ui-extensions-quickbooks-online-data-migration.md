@@ -62,11 +62,9 @@ Es gibt mehrere Dinge, die Sie durchführen sollten:
 * Wenn Sie MWST verwenden, können Sie eine Geschäftsbuchungsgruppe und eine Produktbuchungsgruppe "Buchungsmatrix Einrichtung" hinzufügen, sodass Sie MWST-Beträge buchen können.
 * Prüfen Sie die Startkapitale für Konten im Fibuposten. QuickBooks Online speichert nicht den aktuellen Saldo für alle Konten, daher müssen Sie möglicherweise Startkapitale korrigieren.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/migrate-data-dynamics-365-business-central/)
-
 ## Siehe auch 
 
-[Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
+[Geschäftsdaten aus anderen Finanzsystemen migrieren](across-import-data-configuration-packages.md)  
 [Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

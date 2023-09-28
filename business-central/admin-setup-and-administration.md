@@ -54,8 +54,6 @@ Interne und stellvertretende Administratoren haben Zugriff auf das [!INCLUDE [pr
 |Verwalten Sie Benutzersitzungen, einschliesslich des Abbrechens einer Sitzung, wenn der Benutzer blockiert ist.|[Sitzungen verwalten](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Konfigurieren Sie den Mandanten zum Senden von Telemetriedaten an Azure Application Insights zur besseren Analyse und Fehlerbehebung.|[Senden von Telemetrie an Application Insights aktivieren](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/deploy-configure-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Geschäftsfunktionen](across-business-functionality.md)  

@@ -224,12 +224,10 @@ Die folgende Prozedur basiert auf der Seite**Fibu Erf.-Journal**, gilt aber für
 
 Werte im Feld **Dokumentennr.** werden geändert, wo erforderlich, sodass die Belegnummern auf einzelnen oder gruppierten Erfassungsjournalzeilen in sequenzieller Reihenfolge stehen. Nachdem die Belege neu nummeriert wurden, können Sie das Journal buchen.
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/use-journals-dynamics-365-business-central/)
-
 ## Siehe auch
 
-[Buchen von Transaktionen direkt im Fibuposten](finance-how-post-transactions-directly.md)  
-[Erf.-Journalbuchungen stornieren und Belege/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md)  
+[Transaktionen direkt in der Finanzbuchhaltung buchen](finance-how-post-transactions-directly.md)  
+[Erf.-Journal-Buchungen stornieren und Eingänge/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md)  
 [Kosten und Einkünfte zuteilen](year-allocate-costs-income.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

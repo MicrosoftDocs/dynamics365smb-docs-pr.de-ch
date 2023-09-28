@@ -59,13 +59,11 @@ Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Model
 6. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Einrichtung von Umsatz- und Lagerbestandsplanung** ein, und wählen Sie dann den entsprechenden Link.  
 7. Erweitern Sie die Registerkarte **Allgemein** und füllen Sie dann die Felder API-URL und API-Schlüssel aus.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/use-sales-inventory-forecast-extension/)
-
 ## Siehe auch 
 
 [Verkauf](sales-manage-sales.md)  
-[Lagerbesttand](inventory-manage-inventory.md)  
-[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
+[Bestand](inventory-manage-inventory.md)  
+[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzenb](ui-extensions.md)  
 [Nutzen Sie künstliche Intelligenz in Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

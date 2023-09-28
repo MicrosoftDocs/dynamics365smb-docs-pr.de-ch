@@ -120,7 +120,7 @@ Jürgen, der Planer, führt das Planungsarbeitsblatt und erstellt einen Montagea
 
 Sammy, der für die Lieferung verantwortlich ist, ruft drei Warenausgangszeilen für den Verkaufsauftrag ab: Eine Zeile für die drei reinen ATO-Einheiten, eine Zeile für die fünf ATO-Einheiten in der Mischverkaufsauftragszeile und eine Zeile für die zehn ATS-Einheiten in der Mischverkaufsauftragszeile. Sammy erstellt einen Kommissionierbeleg über alle Montagekomponenten, die benötigt werden, um die insgesamt acht ATO-Einheiten im Warenausgangsbeleg zu montieren.  
 
-Wilfried, der Kommissionierer, ruft Komponenten für alle ATO-Mengen auf dem Warenausgangsbeleg ab und bringt diese in den Miontagebereich. John gibt die zu verwendende Menge ein und registriert die Kommissionierung.  
+Wilfried, der Kommissionierer, ruft Komponenten für alle ATO-Mengen auf dem Warenausgangsbeleg ab und bringt diese in den Montagebereich. John gibt die zu verwendende Menge ein und registriert die Kommissionierung.  
 
 Elfriede montiert die drei ATO-Einheiten aus Kit B. Die Komponenten sind bereits kommissioniert, und Linda erfasst nicht die Ausgabe- und Verbrauchsmengen und bucht auch nicht den Auftrag, da beides bereits automatisch durch die entsprechenden Lagersendungszeilen durchgeführt wird.  
 
@@ -435,8 +435,6 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     Beachten Sie, dass das Feld **Versandte Menge** die gesamte Menge in beiden Zeilen enthält.  
 
     Wenn der Geräte-Shop für den Erhalt der 18 PCs von CRONUS bezahlt, werden der Kundenauftrag und die damit verbundenen Montageaufträge entfernt.  
-
-## Siehe verwandte [Microsoft Schulungen](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## Siehe auch 
 

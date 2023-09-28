@@ -111,9 +111,7 @@ Sie können einen Währungscode in eine Fibu Erf.-Journalzeile eingeben und die 
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
-
-## Siehe auch 
+## Siehe auch
 
 [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)  
 [Einrichten einer zusätzlichen Berichtswährung](finance-how-setup-additional-currencies.md)  

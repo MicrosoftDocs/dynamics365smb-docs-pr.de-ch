@@ -35,7 +35,7 @@ Ein drittes Szenario ist die Verwaltung von Daten in Shopify, importieren Sie di
 |**Von Shopify**| Wählen Sie diese Option aus, wenn Sie planen, Produkte aus Shopify in grossen Mengen zu importieren, indem Sie entweder manuell die Aktion **Produkt synchronisieren** oder die Auftragswarteschlange für wiederkehrende Aktualisierungen verwenden. Weitere Informationen finden Sie im Abschnitt [Artikel aus Shopify importieren](synchronize-items.md#import-items-from-shopify).|
 
 > [!NOTE]
-> Die Änderung von **Artikel synchronisieren** von **Von Shopify** auf **Zu Shopify** hat keine Auswirkungen, es sei denn, Sie aktivieren **Kann Shopify Produkte aktualisieren**.
+> Die Änderung von **Artikel synchronisieren** von **Von Shopify** auf **Zu Shopify** hat keine Auswirkungen, es sei denn, Sie aktivieren **Kann Shopify Produkte aktualisieren**. 
 
 ## Artiekl aus Shopify importieren
 
@@ -93,7 +93,7 @@ Der Prozess des Artikelexports kann mit den folgenden Einstellungen verwaltet we
 |**SKU-Feldtrennzeichen**|Definieren Sie ein Trennzeichen für die Option **Artikelnr. und Variantencode**.|
 |**Verfolgter Lagerbestand**| Legen Sie fest, wie das Feld **Lagerbestand verfolgen** für Produkte ausgefüllt werden soll, die nach Shopify exportiert werden. Sie können Verfügbarkeitsinformationen von [!INCLUDE[prod_short](../includes/prod_short.md)] für Produkte in Shopify mit aktivierter Lagerbestandsverfolgung aktualisieren. Erfahren Sie mehr im Abschnitt [Bestand](synchronize-items.md#sync-inventory-to-shopify).|
 |**Standardrichtlinie für Lagerbestand**|Wählen Sie *Verweigern* aus, um einen negativen Lagerbestand der Shopify-Seite zu vermeiden.|
-|**Kann Shopify-Produkte aktualisieren**|Definieren Sie dieses Feld, wenn [!INCLUDE[prod_short](../includes/prod_short.md)] Artikel nur erstellen oder auch aktualisieren kann. Wählen Sie diese Option aus, wenn Sie nach der ersten Synchronisierung, die durch die Aktion **Artikel hinzufügen** ausgelöst wurde, Produkte manuell mit der Aktion **Produkte synchronisieren** oder über eine Aufgabenwarteschlange für wiederkehrende Aktualisierungen aktualisieren möchten. Denken Sie daran, **Mit Shopify** im Feld **Artikelsynchronisierung** auszuwählen.<br>**Kann Shopify Produkte aktualisieren** hat keinen Einfluss auf die Synchronisierung von Preisen, Bildern oder Lagerebenen, die durch unabhängige Steuerelemente konfiguriert werden.<br>Wenn **Kann Shopify Produkte aktualisieren** aktiviert ist, werden die folgenden Felder auf der Shopify Seite auf Produkt- und bei Bedarf Variantenebene aktualisiert: **SKU**, **Barcode**, **Gewicht**. **Titel**, **Produkttyp**, **Kreditor** und **Beschreibung** des Produkts werden ebenfalls aktualisiert, wenn die exportierten Werte nicht leer sind. Für die Beschreibung bedeutet dies, dass Sie einen der folgenden Umschalter aktiviert haben: **Erweiterten Text für Artikel synchronisieren**, **Marketingtext für Artikel synchronisieren**, **Artikelattribute synchronisieren**. Attribute, erweiterter Text oder Marketingtext müssen Werte enthalten. Wenn das Produkt Varianten verwendet, wird die Variante bei Bedarf hinzugefügt oder entfernt.|
+|**Kann Shopify-Produkte aktualisieren**|Definieren Sie dieses Feld, wenn [!INCLUDE[prod_short](../includes/prod_short.md)] Artikel nur erstellen oder auch aktualisieren kann. Wählen Sie diese Option aus, wenn Sie nach der ersten Synchronisierung, die durch die Aktion **Artikel hinzufügen** ausgelöst wurde, Produkte manuell mit der Aktion **Produkte synchronisieren** oder über eine Aufgabenwarteschlange für wiederkehrende Aktualisierungen aktualisieren möchten. Denken Sie daran, **Mit Shopify** im Feld **Artikelsynchronisierung** auszuwählen.<br>**Kann Shopify Produkte aktualisieren** hat keinen Einfluss auf die Synchronisierung von Preisen, Bildern oder Lagerebenen, die durch unabhängige Steuerelemente konfiguriert werden.<br>Wenn **Kann Shopify Produkte aktualisieren** aktiviert ist, werden die folgenden Felder auf der Shopify Seite auf Produkt- und bei Bedarf Variantenebene aktualisiert: **SKU**, **Barcode**, **Gewicht**. **Titel**, **Produkttyp**, **Kreditor** und **Beschreibung** des Produkts werden ebenfalls aktualisiert, wenn die exportierten Werte nicht leer sind. Für die Beschreibung bedeutet dies, dass Sie einen der folgenden Umschalter aktiviert haben: **Erweiterten Text für Artikel synchronisieren**, **Marketingtext für Artikel synchronisieren**, **Artikelattribute synchronisieren**. Attribute, erweiterter Text oder Marketingtext müssen Werte enthalten. Wenn das Produkt Varianten verwendet, wird die Variante bei Bedarf hinzugefügt oder entfernt. <br>Beachten Sie, dass der Shopify-Connector keine Variante für dieses Produkt erstellen kann, wenn das Produkt auf Shopify für die Verwendung einer Variantenmatrix konfiguriert ist, die zwei oder mehr Optionen kombiniert. In [!INCLUDE[prod_short](../includes/prod_short.md)] gibt es keine Möglichkeit, eine Optionsmatrix zu definieren, deshalb verwendet der Connector den **Variantencode** als einzige Option. Allerdings erwartet Shopify mehrere Optionen und weigert sich, eine Variante zu erstellen, wenn Informationen zu zweiten und anderen Optionen fehlen. |
 
 ### Übersicht über Feldzuordnungen
 
@@ -101,6 +101,7 @@ Der Prozess des Artikelexports kann mit den folgenden Einstellungen verwaltet we
 |------|-----------------|-----------------|
 |Status     |Entsprechend des Feldes **Status für erstellte Produkte** auf der **Shopify-Shop-Karte**. Weitere Informationen finden Sie im Abschnitt [Ad-Hoc-Aktualisierungen von Shopify-Produkten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Wird nicht verwendet.|
 |Titel | **Beschreibung**. Wenn der Sprachcode definiert ist und eine entsprechende Artikelübersetzung existiert, wird die Artikelübersetzung anstelle der Beschreibung verwendet.|**Beschreibung**|
+|Variantentitel | **Variantencode**.|**Beschreibung** der Variante|
 |Description|Kombiniert erweiterte Texte, Marketingtexte und Attribute, wenn Sie die entsprechenden Umschalter auf der Shopify Shop-Karte aktivieren. Beachtet den Sprachcode.|Wird nicht verwendet.|
 |SEO-Seitentitel|Fester Wert: leer. Weitere Informationen finden Sie im Abschnitt [Ad-Hoc-Aktualisierungen von Shopify-Produkten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Wird nicht verwendet.|
 |SEO-Metabeschreibung|Fester Wert: leer. Weitere Informationen finden Sie im Abschnitt [Ad-Hoc-Aktualisierungen von Shopify-Produkten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Wird nicht verwendet.|
@@ -147,6 +148,10 @@ Die resultierenden Artikel werden automatisch Shopify mit Preisen erstellt. Abh�
 Verwenden Sie alternativ die Aktion **Produkte synchronisieren** auf der Seite **Shopify Produkte** oder suchen Sie nach dem Batchauftrag **Produkte synchronisieren**.
 
 Sie können die durchzuführende Aufgabe so planen, dass sie automatisiert ausgeführt werden. Erfahren Sie mehr unter [Planen Sie wiederkehrende Aufgaben](background.md#to-schedule-recurring-tasks).
+
+### URL und Vorschau-URL
+
+Ein Shopify hinzugefügter oder aus Shopify importierter Artikel könnte die ausgefüllte **URL** oder **Vorschau-URL** haben. Das Feld **URL** ist leer, wenn das Produkt nicht im Online-Shop veröffentlicht wird, weil es beispielsweise den Entwurfsstatus hat. Die **URL** ist leer, wenn der Store passwortgeschützt ist, beispielsweise weil es sich um einen Entwicklungsshop handelt. In den meisten Fällen können Sie mit der **Vorschau-URL** überprüfen, wie das Produkt nach der Veröffentlichung aussehen wird.
 
 ### Ad-Hoc-Aktualisierungen von Shopify-Produkten
 
@@ -204,7 +209,7 @@ Der Prozess des Exportpreises kann mit den folgenden Einstellungen verwaltet wer
 |**Zeilenrabatt zulassen**|Gibt an, ob Zeilenskonto zulässig ist, während die Preise für Shopify berechnet werden. Diese Einstellung gilt nur für Preise auf dem Artikel. Preise für die Kundenpreisgruppe haben eigene Umschaltzeilen.|
 |**Preise inkl. MWST**|Gibt an, ob Preisberechnungen für Shopify Mehrwertsteuer enthalten. Erfahren Sie mehr unter [Salestaxes festlegen](setup-taxes.md).|
 |**MWST-Geschäftsbuchungsgrp.**|Gibt an, welche MWST-Geschäftsbuchungsgruppe verwendet wird, um die Preise in Shopify zu berechnen Dies sollte die Gruppe sein, die Sie für inländische Kunden verwenden. Erfahren Sie mehr unter [Salestaxes festlegen](setup-taxes.md).|
-|**Währungscode**|Geben Sie einen Währungscode nur ein, wenn Ihr Online-Shop eine andere Währung als die Landeswährung (LCY) verwendet. Für die angegebene Währung müssen Wechselkurse konfiguriert sein. Wenn Ihr Onlineshop dieselbe Währung verwendet wie [!INCLUDEprod_short] verwendet, lassen Sie das Feld leer.|
+|**Währungscode**|Geben Sie einen Währungscode nur ein, wenn Ihr Online-Shop eine andere Währung als die Landeswährung (LCY) verwendet. Für die angegebene Währung müssen Wechselkurse konfiguriert sein. Wenn Ihr Onlineshop dieselbe Währung verwendet wie [!INCLUDE[prod_short](../includes/prod_short.md)], lassen Sie das Feld leer.|
 
 Preise können für synchronisierte Artikel auf die beiden, unten beschriebenen Arten exportiert werden.
 

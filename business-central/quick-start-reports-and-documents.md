@@ -64,8 +64,6 @@ Die generierte Berichtsdatei wird automatisch im Download-Ordner Ihres Browsers 
 
 Erfahren Sie mehr darüber, wie Sie Berichte und Belege an Ihre Geschäftsanforderungen anpassen können unter [Layouts für Berichte und Belege](ui-manage-report-layouts.md).
 
-## Siehe verwandte Schulungen unter [Microsoft Learn](/learn/modules/work-with-reports/).
-
 ## Siehe auch 
 
 [Berichte in der täglichen Arbeit verwenden](reports-use-reports.md)  

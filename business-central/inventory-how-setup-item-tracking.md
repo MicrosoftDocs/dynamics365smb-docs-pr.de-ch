@@ -109,12 +109,10 @@ Verwenden Sie für Massenimporte Konfigurationspakete, um Daten in die Erfassung
 > [!NOTE]
 > Sie können **In Excel bearbeiten** nicht verwenden, um Erfassungsjournalzeilen mit Trackinginformationen zu erstellen.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/prepare-item-tracking/)
-
 ## Siehe auch 
 
 [Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)  
-[Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)  
+[Ablaufverfolgung der Artikel mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Designdetails: Artikeltracking](design-details-item-tracking.md)  
 [Designdetails: Artikeltracking und Reservierungen](design-details-item-tracking-and-reservations.md)  

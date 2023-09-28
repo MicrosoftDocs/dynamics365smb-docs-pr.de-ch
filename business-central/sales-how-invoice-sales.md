@@ -119,14 +119,12 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/invoicing-customers-dynamics-365-business-central/index)
-
 ## Siehe auch 
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Kommissionierliste drucken](sales-how-print-picking-list.md)  
-[Lagerbesttand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Massenrechnungsstellung von Microsoft Bookings in Business Central](finance-bookings.md)  

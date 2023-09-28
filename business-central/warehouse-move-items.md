@@ -3,7 +3,7 @@ title: Artikel verschieben
 description: Erfahren Sie mehr über das Umlagern von Artikeln zwischen Lagerplätzen in Ihrem Lager.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: Conceptual
 ms.date: 01/25/2023
@@ -36,11 +36,9 @@ Die Zählung, Anpassung und Umbuchung von Artikeln kann Lageraufgaben beinhalten
 |Verwenden Sie das Lagerplatzumlagerungsarbeitsblatt, interne Kommissionierung und Einlagerung, um Artikel in erweiterter Lagerkonfigurationen mit gesteuerter Kommissionierung und Entnahme umzulagern.|[Umlagerung von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Strukturieren Sie Ihr Lager mit neuen Lagerplatzcodes und neuen Lagerplatzeigenschaften neu und lagern Sie sie ggf. um.|[Lager umstrukturieren](warehouse-how-to-restructure-warehouses.md)|  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/manage-internal-warehouse-processes/)
+## Siehe auch 
 
-## Siehe auch
-
-[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)  
+[Lagerverwaltung – Übersicht ](design-details-warehouse-management.md)  
 [Bestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -338,9 +338,7 @@ Der Vorgang, mit Intrastat-Berichten zu arbeiten, entspricht dem von globalen Fu
 
 <!-- ### United Kingdom-->
 
-## Siehe verwandte Schulungen unter [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
-## Siehe auch
+## Siehe auch 
 
 [Intrastat-Berichterstattung in Business Central](finance-how-report-intrastat.md)  
 [Finanzmanagement](finance.md)  

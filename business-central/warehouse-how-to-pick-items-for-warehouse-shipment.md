@@ -3,7 +3,7 @@ title: Um Artikel für den Warenausgang zu kommissionieren
 description: 'Erfahren Sie, wie Sie die Belege der Lager-Kommissionierungen verwenden, um Kommissionierinformationen zu erstellen und zu verarbeiten, bevor Sie einen Warenausgang buchen.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -111,9 +111,7 @@ Sie können keine Lagerkommissionierbelege von Grund auf erstellen. Kommissionie
 
 Sie können die Artikel in den Warenausgang bringen und den Warenausgang, einschliesslich dem zugehörigen Herkunftsbeleg, auf der Seite **Warenausgang** buchen. Erfahren Sie mehr unter [Elemente versenden](warehouse-how-ship-items.md).
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/pick-ship-items-warehouse/)
-
-## Siehe auch
+## Siehe auch 
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

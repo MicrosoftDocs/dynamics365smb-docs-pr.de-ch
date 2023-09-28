@@ -152,18 +152,16 @@ Auf der Seite **Anforderungsarbeitsblatt** sind die Artikel aufgelistet, die Sie
 
 - Sie können die Aktion **Spezialauftrag** verwenden, um die Anforderungsarbeitsblattszeilen zu füllen. Diese Aktion verwendet die Stapelverarbeitung **Aufträge holen**, um die Verkaufsauftragszeilen zu ermitteln, die für einen Spezialauftrag vorgesehen sind.
 
-Bestellvorschlagszeilen enthalten detaillierte Informationen über die Artikel, die wiederbestellt werden müssen. Sie können die Zeilen bearbeiten und löschen, um Ihren Bestellarbeitsblatt anzupassen, und Sie können die Zeilen auch mit der Stapelverarbeitung **Ereignismeldung durchführen** weiterverarbeiten. 
+Bestellvorschlagszeilen enthalten detaillierte Informationen über die Artikel, die wiederbestellt werden müssen. Sie können die Zeilen bearbeiten und löschen, um Ihren Bestellvorschlag anzupassen, und Sie können die Zeilen auch mit der Stapelverarbeitung **Ereignismeldung durchführen** weiterverarbeiten. 
 
 Einzelheiten zur Planung mit Standorten und Transfers finden Sie unter [Planen mit oder ohne Standorte](production-planning-with-without-locations.md).
 
 > [!TIP]
 > Auf den Seiten **Anforderungsarbeitsblatt** oder **Planungsarbeitsblatt** können Sie die Zeilen organisieren, indem Sie nach einem Spaltennamen sortieren. Dies ist auf der Seite Planungsarbeitsblatt besonders nützlich, da sie für mehrstufige Produktionsaufträge verwendet werden kann. Standardmässig werden Zeilen nach **Art.-Nr.** sortiert. Um Positionen für einen mehrstufigen Auftrag zu gruppieren, sortieren Sie nach **Ref. Best.-Nr.** Feld Auch **MPS-Bestellung** und **Planungsebene** können dabei helfen, die Hierarchie der Zeilen anzuzeigen.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/plan-items-dynamics-365-business-central/)
-
 ## Siehe auch 
 
-[Designdetails: Vorratsplanung](design-details-supply-planning.md)  
+[Designdetails: Beschaffungsplanung](design-details-supply-planning.md)  
 [Planung](production-planning.md)  
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  

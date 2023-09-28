@@ -167,9 +167,7 @@ Die folgende Abbildung zeigt, wann das Feld **Lagerplatzcode** auf der Komponent
 
 :::image type="content" source="media/binflow.png" alt-text="Übersicht, wann und wie das Feld Lagerplatz ausgefüllt wird.":::
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/pick-ship-items-business-central/)
-
-## Siehe auch
+## Siehe auch 
 
 [Bestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  

@@ -90,8 +90,6 @@ Wenn der Batchauftrag Abschreibung berechnen die Abschreibungen berechnet, verwe
 
 Wenn Sie dieses Feld markieren, verwendet der Batchauftrag „Abschreibung berechnen“ stattdessen das Kalenderjahr mit 365 Tagen, wobei jeder Monat mit der gleichen Anzahl von Tagen wie im Kalender berechnet wird. Die einzige Ausnahme ist der Februar in Schaltjahren, den der Batchauftrag so behandelt, als hätte er 28 Tage und nicht 29. Aus diesem Grund besitzen alle Jahre (auch Schaltjahre) 365 Tage.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/configure-depreciation-books/)
-
 ## Siehe auch 
 
 [Anlagen einrichten](fa-setup.md)  

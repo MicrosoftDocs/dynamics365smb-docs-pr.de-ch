@@ -34,14 +34,12 @@ Falls die Artikel am Lieferdatum zur Kommissionierung zur Verfügung stehen, kan
 Wenn Sie kein angefordertes Lieferdatum auf der Verkaufsauftragszeile angeben oder das angeforderte Lieferdatum nicht eingehalten werden kann, wird das früheste Datum, an dem die Artikel verfügbar sind, berechnet. Dieses Datum wird dann im Feld **Versanddatum** auf der Zeile eingegeben, und das Datum, an dem Sie planen, die Artikel zu liefern, sowie das Datum, an dem Sie an den Kunden ausgeliefert werden, werden anhand der nachfolgenden Formeln berechnet.
 
 - *Warenausgangsdatum + Ausgeh. Lagerdurchlaufzeit = Geplantes Warenausgangsdatum*
-- *geplantes Warenausgangsdatum + Transportzeit = Geplantes Lieferdatum*
-
-## Siehe verwandte [Microsoft Schulungen](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
+- *Geplantes Warenausgangsdatum + Transportzeit = Geplantes Lieferdatum*
 
 ## Siehe auch 
 
 [Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)  
-[Lieferterminzusagen-Daten berechnen](sales-how-to-calculate-order-promising-dates.md)  
+[Datumsangaben für Lieferterminzusagen berechnen](sales-how-to-calculate-order-promising-dates.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

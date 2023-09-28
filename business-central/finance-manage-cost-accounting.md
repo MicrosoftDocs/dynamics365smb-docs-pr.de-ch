@@ -22,9 +22,7 @@ Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs
 |So übertragen Sie Fibuposten in Kostenposten.|[Übertragung und Buchung von Kostenzuteilungen](finance-transfer-and-post-cost-entries.md)|  
 |Kosten zuordnen.|[Definieren und Zuweisen von Kosten](finance-define-and-allocate-costs.md)|  
 |Erlernen Sie die Prozesse beim Erstellen von Kostenbudgets.|[Erstellen von Kostenbudgets](finance-create-cost-budgets.md)|
-|Wenn Sie Kostenposten aus dem Kostenjournal stornieren.|[Kostenbu&amp;dgetposten löschen](finance-how-to-delete-cost-budget-entries.md)|
-
-## Siehe verwandte [Microsoft Schulungen](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+|Wenn Sie Kostenposten aus dem Kostenjournal stornieren.|[Kostenbudgetposten löschen](finance-how-to-delete-cost-budget-entries.md)|
 
 ## Siehe auch  
 [Finanzen](finance.md)  

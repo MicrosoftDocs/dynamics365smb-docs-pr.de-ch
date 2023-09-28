@@ -172,11 +172,9 @@ Die folgende Abbildung gibt einen Überblick über das Ergebnis dieses Vorgangs.
 
 Testen Sie als nächstes den Workflow, indem Sie eine vorhandene Kreditorkarte öffnen und ihren Namen ändern. Überprüfen Sie, ob nach der Änderung des Kreditorennamens ein Genehmigungsantrag gesendet wird.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-workflows/)
-
 ## Siehe auch 
 
-[Erstellen von Workflows aus Workflowvorlagen](across-how-to-create-workflows-from-workflow-templates.md)  
+[Workflows aus Workflowvorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md)  
 [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)  
 [Einrichten von Genehmigungs-Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)  
 [Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md)  

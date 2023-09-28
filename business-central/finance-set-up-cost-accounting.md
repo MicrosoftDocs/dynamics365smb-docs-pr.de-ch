@@ -34,7 +34,7 @@ Kostenartenpläne ähneln Kontenplänen im Fibukonto. Sie können den Kostenarte
 ### So übertragen Sie den Fibukontenplan in den Kostenartenplan.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Tell me-Funktion"). Symbol. Geben Sie **Kostenartenplan** ein und wählen Sie dann den zugehörigen Link.  
-2. Wählen Sie die Aktion **Kostenarten aus K&amp;ontenplan abrufen**. Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**, um die Übertragung zu bestätigen. Die Funktion verwendet den Kontenplan, um einen Kostenartenplan zu erstellen.  
+2. Wählen Sie die Aktion **Kostenarten aus K&ontenplan abrufen**. Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**, um die Übertragung zu bestätigen. Die Funktion verwendet den Kontenplan, um einen Kostenartenplan zu erstellen.  
 
     Der Kostenartenplan enthält jetzt alle Erfolgsrechnungskonten im Fibukonto und umfasst Überschriften und Zwischensummen. Sie können den Kostenartenplan ändern, falls erforderlich. Beispielsweise können Sie doppelt vorhandene Kostenarten löschen.  
 
@@ -189,12 +189,10 @@ Für jedes Fibukonto können Sie Standarddimensionswerte in der Tabelle **Standa
 > [!NOTE]  
 >  Um sicherzustellen, dass die vordefinierte Kostenstelle und der vordefinierte Kostenträger, die bzw. den Sie im Fibukonto eingerichtet haben, automatisch in die Kostenrechnung übertragen werden, aktivieren Sie das Kontrollkästchen **Fibu-Buchung prüfen** auf der Seite Kostenbuchungseinrichtung.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/cost-accounting-dynamics-365-business-central/)
-
 ## Siehe auch 
 
 [Kostenrechnung](finance-manage-cost-accounting.md)  
-[Übertragung und Buchung von Kostenzuteilungen](finance-transfer-and-post-cost-entries.md)  
+[Übertragung und Buchung von Kostenposten](finance-transfer-and-post-cost-entries.md)  
 [Definieren und Zuweisen von Kosten](finance-define-and-allocate-costs.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

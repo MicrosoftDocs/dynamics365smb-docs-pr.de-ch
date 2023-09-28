@@ -45,8 +45,6 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
 
  Das ursprüngliche benutzerdefinierte Berichtslayout wird durch das importierte Berichtslayout ersetzt.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## Siehe auch
 
 [Erstellen und bearbeiten Sie ein benutzerdefiniertes Berichtslayout](ui-how-create-custom-report-layout.md)   

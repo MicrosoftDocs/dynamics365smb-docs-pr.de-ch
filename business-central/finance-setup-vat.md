@@ -302,8 +302,6 @@ Sie müssen Informationen dazu festlegen, wie die Steuerbehörden in Ihrem Land 
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Siehe auch 
 
 [Vorlagen für Umsatzsteuerabrechnungen und Namen von Umsatzsteuerabrechnungen einrichten](finance-how-setup-vat-statement.md)  

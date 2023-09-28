@@ -35,7 +35,7 @@ In der folgenden Tabelle werden die allgemeinen Buchungsgruppen beschrieben.
 
 | Art | Beschreibung |
 | --- | --- |
-| Allgemeine Geschäftsbuchungsgruppen |Weisen Sie diese Gruppen den Debitoren und Kreditoren zu, um anzugeben, von wem Sie kaufen und an wen Sie verkaufen. Richten Sie diese Buchungsgruppen auf der Seite **Geschäftsbuchungsgruppen** ein. Wenn Sie dies tun, überlegen Sie, in wie viele Gruppen die Verkäufe und Einkäufe aufgeschlüsselt werden müssen. Beispielsweise Gruppendebitoren und Kreditoren nach bestimmten Feld oder nach Art des Geschäfts. |
+| Allgemeine Geschäftsbuchungsgruppen |Weisen Sie diese Gruppen den Debitoren und Kreditoren zu, um anzugeben, von wem Sie kaufen und an wen Sie verkaufen. Richten Sie diese Buchungsgruppen auf der Seite **Geschäftsbuchungsgruppen** ein. Wenn Sie dies tun, überlegen Sie, in wie viele Gruppen die Verkäufe und Einkäufe aufgeschlüsselt werden müssen. Beispielsweise Gruppendebitoren und Kreditoren nach bestimmtem Gebiet oder nach Art des Geschäfts. |
 | Allgemeine Produktbuchungsgruppen |Weisen Sie diese Gruppe Artikeln und Ressourcen zu, um festzulegen, was Sie verkaufen und was Sie kaufen. Richten Sie diese Buchungsgruppen auf der Seite **Produktbuchungsgruppen** ein. Wenn Sie dies tun, berücksichtigen Sie die Gruppen, in die Sie Verkäufe nach Produkt (Artikel und Ressourcen) und Verkäufe nach Artikeln aufschlüsseln müssen. Beispielsweise  teilen Sie diese Gruppen nach Rohmaterial, Einzelhandel, Ressourcen, Kapazität, usw. auf. |
 | Buchungsmatrix Einrichtung |Kombinieren von Geschäfts- und Produktbuchungsgruppen, und aktivieren Sie die Konten, um zu buchen. Jeder Kombination aus Geschäfts- und Produktbuchungsgruppen können Sie einen anderen Satz von Fibukonten zuweisen. Sie können z. B. den Verkauf desselben Artikels auf verschiedene Hauptbuchkonten buchen, da die Kunden verschiedenen Geschäftsbuchungsgruppen zugeordnet sind. Richten Sie diese Konfigurationen auf der Seite **Buchungsmatrix Einrichtung** ein. |
 
@@ -126,12 +126,10 @@ Wenn etwas nicht stimmt, zeigt [!INCLUDE[prod_short](includes/prod_short.md)] di
 > [!NOTE]
 > Die oben beschriebene Fehlerbehandlung ist nicht verfügbar für Artikel-, Ressourcen-, Mitarbeiter- und Anlage-Fibu Erfassungsjournale oder für Fibukonten, die in lokalen Versionen von Buchungsgruppen hinzugefügt wurden.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/posting-groups-dynamics-365-business-central/)
+## Siehe auch
 
-## Siehe auch 
-
-[Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
-[Finance einrichten](finance-setup-finance.md)  
+[Die Fibuposten und der Kontenplan](finance-general-ledger.md)  
+[Finanzen einrichten](finance-setup-finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

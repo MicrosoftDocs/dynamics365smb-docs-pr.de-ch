@@ -107,11 +107,9 @@ Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debi
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Weitere Informationen finden Sie unter [Mehrere Zinssätze einrichten](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
-
 ## Siehe auch
 
-[Einrichten von Mahnmethoden, Bestimmungen und Mahntext](finance-setup-reminders.md)  
+[Mahnmethoden und Mahnstufen einrichten](finance-setup-reminders.md)  
 [Zinskonditionen einrichten](finance-setup-finance-charges.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  

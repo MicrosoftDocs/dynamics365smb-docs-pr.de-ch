@@ -101,7 +101,7 @@ Verwenden Sie diese Anlagenstandortcodes, um den Standort von Anlagen zu erfasse
 
 ## So erfassen Sie Eröffnungsposten
 
-Falls Sie die Anlagen in [!INCLUDE[prod_short](includes/prod_short.md)] zum ersten Mal verwenden, müssen Sie zuerst die Anwendungsregion «Fibuposten», bevor Sie Anlagen einrichten können. Wie dies erfolgt, hängt davon ab, ob Anlagen in die Fibuposten integriert sind.  
+Falls Sie die Anlagen in [!INCLUDE[prod_short](includes/prod_short.md)] zum ersten Mal verwenden, müssen Sie zuerst den Finanzbuchhaltungs-Anwendungsbereich einrichten, bevor Sie Anlagen einrichten können. Wie dies erfolgt, hängt davon ab, ob Anlagen in die Fibuposten integriert sind.  
 
  Die folgende Vorgehensweise wird verwendet, wenn Anlagentransaktionen in die Fibu gebucht werden.  
 
@@ -122,8 +122,6 @@ Falls Sie die Anlagen in [!INCLUDE[prod_short](includes/prod_short.md)] zum erst
 8. Nachdem Sie die Erfassungsjournalzeilen für jede Anlage eingegeben und gebucht haben, aktivieren Sie die Fibu-Integration in den Abschreibungsbüchern.
 
 Falls die Anlagen nicht in die Fibu integriert sind, können Sie die Schritte 6 und 8 übergehen.
-
-## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-fixed-assets-management/)
 
 ## Siehe auch 
 

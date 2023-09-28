@@ -115,11 +115,9 @@ Wenn Ihre Firma die Prozesse der Lieferplanung in [!INCLUDE [prod_short](include
 
 Beispiele für die Verwendung der Felder auf der Inforegisterkarte **Planung** finden Sie unter [Bewährte Verfahren für die Einrichtung: Planungsparameter](setup-best-practices-planning-parameters.md).  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/create-items/)
-
 ## Siehe auch 
 
-[Lagerbesttand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Einheiten einrichten](inventory-how-setup-units-of-measure.md)  
 [Produktvarianten verwalten](inventory-item-variants.md)  
 [Intrastat-Berichte einrichten](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  

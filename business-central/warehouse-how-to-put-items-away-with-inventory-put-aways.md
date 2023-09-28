@@ -83,9 +83,7 @@ Ein Lagermitarbeiter kann basierend auf dem freigegebenen Herkunftsbeleg eine ne
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/receive-put-away-items/)
-
-## Siehe auch
+## Siehe auch 
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

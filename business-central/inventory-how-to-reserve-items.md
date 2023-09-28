@@ -101,11 +101,9 @@ Das folgende Verfahren basiert auf einer Auftragsabwicklung.
 7. Wählen Sie die Schaltfläche **OK**, um die Seite **Reservationen** zu öffnen, in dem nur der Bedarf angezeigt wird, der mit der angegebenen Artikeltrackingnummer verbunden ist. Bei nicht-spezifischen Reservierungen für eine der Artikeltrackingnummern, die Sie in dieser Zeile angegeben haben, werden Sie über die Menge informiert, die bereits reserviert wurde.  
 8. Klicken Sie auf die Aktionen **Automatisch reservieren** oder **Aus aktueller Zeile reservieren**, um die Reservierung für die speziellen Artikeltrackingnummern zu erstellen.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/manage-outbound-serial-lot-numbers/)
-
 ## Siehe auch 
 
-[Lagerbesttand](inventory-manage-inventory.md)  
+[Bestand](inventory-manage-inventory.md)  
 [Designdetails: Reservierung, Auftragstracking und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Designdetails: Artikeltracking und Reservierungen](design-details-item-tracking-and-reservations.md)  
 [Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)  

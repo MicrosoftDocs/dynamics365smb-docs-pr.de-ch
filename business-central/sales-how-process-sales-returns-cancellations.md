@@ -140,14 +140,12 @@ Um exakte Einstandspreisstornierung manuell zuzuordnen, müssen Sie das Feld **A
 
 Weitere Informationen finden Sie unter [Designdetails: Lagerkosten](design-details-inventory-costing.md).
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/return-items-dynamics-365-business-central/)
-
 ## Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Verwalten von Verbindlichkeiten|](payables-manage-payables.md)  
-[Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
+[Belege per E-Mail senden](ui-how-send-documents-email.md)  
 [Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen](purchasing-how-process-purchase-returns-cancellations.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
