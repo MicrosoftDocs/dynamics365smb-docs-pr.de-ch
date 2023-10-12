@@ -5,15 +5,15 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/09/2023
+ms.date: 09/25/2023
 ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ---
-# <a name="set-up-warehouse-employees"></a>Lagermitarbeiter einrichten
+# Lagermitarbeiter einrichten
 
-Jeder Benutzer, von dem Lageraktivitäten ausgeführt werden, muss als Lagermitarbeiter eingerichtet und einem Standardlagerort und ggf. mehreren nicht standardmässigen Lagerorten zugeordnet werden. [!INCLUDE [prod_short](includes/prod_short.md)] filtert Lageraktivitäten zum Standardstandort des Mitarbeiters. Sie können nur die Lagertätigkeiten am Standort ausführen. Sie können einem Benutzer anderen Standorten zuweisen. Sie können auf diese Standorte zugreifen, aber keine Aktivitäten dort ausführen.
+Sie müssen jeden Benutzer, der Lagertätigkeiten ausführt, als Lagermitarbeiter einrichten und ihm einen Standardlagerort zuweisen. [!INCLUDE [prod_short](includes/prod_short.md)] filtert Lageraktivitäten zum Standardstandort des Mitarbeiters. Sie können nur die Lagertätigkeiten am Standort ausführen. Sie können einem Benutzer anderen Standorten zuweisen. Sie können auf diese Standorte zugreifen, aber keine Aktivitäten dort ausführen.
 
-## <a name="to-set-up-warehouse-employees"></a>So richten Sie die Lagermitarbeiter ein:
+## So richten Sie die Lagermitarbeiter ein:  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
@@ -22,7 +22,12 @@ Jeder Benutzer, von dem Lageraktivitäten ausgeführt werden, muss als Lagermita
 5. Aktivieren Sie die Umschaltung **Standard**, um den Lagerort als einzigen Lagerort zu definieren, an dem der Mitarbeiter Lageraktivitäten ausführen kann.  
 6. Wiederholen Sie diese Schritte, um Lagerorten weitere Mitarbeiter zuzuordnen oder um andere Lagerorte bestehenden Lagermitarbeitern zuzuordnen.  
 
-## <a name="see-also"></a>Siehe auch
+> [!TIP]
+> Sie können auch die Aktion **Mich als Lagermitarbeiter hinzufügen** verwenden, um sich schnell zur Liste der Lagermitarbeiter hinzuzufügen. Dies ist beispielsweise nützlich, wenn Sie die Funktionen testen.
+
+## Siehe verwandte [Microsoft Schulungen](/training/modules/get-started-warehouse-management/)
+
+## Siehe auch 
 
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Bestand](inventory-manage-inventory.md)  

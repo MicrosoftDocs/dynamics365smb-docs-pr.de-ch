@@ -4,16 +4,16 @@ description: 'Ein druckerfreundliches Bezugsblatt für PC-Benutzer, das die gän
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 02/09/2023
+ms.date: 09/11/2023
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-quick-reference---pc-only"></a>Nur PC-Tastenkombinationskurzübersicht
+# Nur PC-Tastenkombinationskurzübersicht
 
-#### <a name="general"></a>Allgemein
+#### Allgemein
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|  
 |-|-|
@@ -26,6 +26,7 @@ ms.custom: bap-template
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>|**Posten suchen** öffnen|
 |<kbd>Alt</kbd>+<kbd>Nach oben</kbd>|Öffnen Sie QuickInfo oder Überprüfungsfehler|
 |<kbd>ALT</kbd>+<kbd>NACH-UNTEN-TASTE</kbd>|Dropdown oder Suche öffnen|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd><kbd>NACH-UNTEN-TASTE</kbd>|Öffnen Sie die Karte oder Listenseite eines zugehörigen Datensatzes, gefiltert nach dem Wert im Nachschlage- oder AssistEdit-Feld|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Öffnen der Seite **Meine Einstellungen**.|
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>W</kbd>|Öffnen Sie die aktuelle Karte oder das Beleg in einem neuen Fenster|
 |<kbd>Ctrl</kbd>+<kbd>Einfügen</kbd>|Fügen Sie eine neue Zeile in einem Beleg hinzu|
@@ -39,7 +40,7 @@ ms.custom: bap-template
 |<kbd>Tab</kbd>/<kbd>Shift</kbd>+<kbd>Tab</kbd>|Fokus auf das nächste/vorherige Element richten|
 |<kbd>F6</kbd>/<kbd>Shift</kbd>+<kbd>F6</kbd>|Weiter zum nächsten Inforegister/Teil|
 
-#### <a name="navigate--select-rows"></a>Navigieren und Zeilen auswählen
+#### Navigieren und Zeilen auswählen
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
@@ -53,14 +54,14 @@ ms.custom: bap-template
 |<kbd>Shift</kbd>+<kbd>Bild auf</kbd>/<kbd>Bild ab</kbd>|Sichtbare Zeilen darüber/darunter auswählen|
 |<kbd>Ctrl</kbd>+<kbd>Eingabetaste</kbd>|Fokus weg von der Liste|
 
-#### <a name="copy--paste"></a>Kopieren und einfügen
+#### Kopieren und einfügen
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Zeilen kopieren/einfügen|
 |<kbd>F8</kbd>|Feld in aktuellen Zeile kopieren|
 
-#### <a name="search-filter--sort"></a>Suchen, filtern und sortieren
+#### Suchen, filtern und sortieren
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
@@ -71,20 +72,20 @@ ms.custom: bap-template
 |<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Filter auf ausgewählten Felder hinzufügen|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Filter zurücksetzen|
 
-#### <a name="quick-entry"></a>Schnelleingabe
+#### Schnelleingabe
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Eingabetaste</kbd>|Zum nächsten Schnelleingabefeld ausserhalb einer Liste navigieren|
 |<kbd>Eingabetaste</kbd>/<kbd>Shift</kbd>+<kbd>Eingabetaste</kbd>|Zum nächsten/vorherigen Schnelleingabefeld navigieren|
 
-##### <a name="report-preview"></a>Berichtvorschau
+##### Berichtvorschau
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>Ende</kbd>|Zur ersten/letzten Seite.|
 
-#### <a name="numeric-keypad"></a>Numerische Tastatur
+#### Numerische Tastatur
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|  
 |-|-|

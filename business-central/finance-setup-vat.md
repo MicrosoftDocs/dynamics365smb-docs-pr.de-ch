@@ -12,7 +12,7 @@ ms.date: 01/31/2023
 ms.author: bholtorf
 ---
 
-# <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Berechnungen einrichten und Buchungsmethoden für Salestax
+# Berechnungen einrichten und Buchungsmethoden für Salestax
 
 Verbraucher und Geschäfte bezahlen Mehrwertsteuer (MwSt), wenn Sie Waren oder Dienstleistungen einkaufen. Der zu bezahlende MwSt-Betrag kann abhängig von verschiedenen Faktoren variieren. In [!INCLUDE[prod_short](includes/prod_short.md)] legen Sie die Sätze fest, die für die Berechnung der Steuerbeträge auf der Grundlage der folgenden Parameter verwendet werden sollen:
 
@@ -27,7 +27,7 @@ Wenn Sie MwSt-Berechnungen selbst einrichten möchten oder einfach mehr über je
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## <a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a>Verwenden der Anleitung zur unterstützten Einrichtung der MWST (empfohlen)
+## Verwenden der Anleitung zur unterstützten Einrichtung der MWST (empfohlen)
 
 > [!NOTE]
 > Sie können die Anleitung **MWST-Einrichtung** nur nutzen, wenn Sie *Meine Unternehmen* erstellt haben, und keine Transaktionen gebucht haben, die Mehrwertsteuer beinhalten.
@@ -38,7 +38,7 @@ Um die unterstützte Einrichtung zu starten, gehen Sie folgendermassen vor:
 2. Wählen Sie **MWST einrichten** aus, und führen Sie die Schritte aus.
 3. Wenn Sie die unterstützte Einrichtung abgeschlossen haben, besuchen Sie die Seite **MWST-Buchungseinrichtung** und prüfen Sie, ob Sie entsprechend den lokalen Anforderungen in Ihrer Version von [!INCLUDE [prod_short](includes/prod_short.md)] weitere Felder ausfüllen müssen. Weitere Informationen unter [Lokale Funktion in Business Central](about-localization.md).  
 
-### <a name="check-the-vat-posting-setup"></a>Überprüfen Sie die Einrichtung der MWST-Buchung
+### Überprüfen Sie die Einrichtung der MWST-Buchung
 
 Um Sie beim schnellen Einstieg zu unterstützen, zeigt [!INCLUDE [prod_short](includes/prod_short.md)] Ihnen Benachrichtigungen an, wenn Ihnen Hauptbuchkonten (Fibukonten) in Buchungsgruppen oder Buchungseinstellungen fehlen, wie z. B. die **Einrichtung der MWST-Buchung**-Seite. Sie können diese Art der Benachrichtigung über *Fibukonto ist nicht in der Buchungsgruppe oder Einrichtung vorhanden*-Benachrichtigung in der **Meine Benachrichtigungen**-Seite ein- oder ausschalten. Wählen Sie einfach auf der Seite **Meine Einstellungen** die Option *Ändern, wenn ich Benachrichtigungen erhalte* aus. Link.  
 
@@ -46,7 +46,7 @@ Wenn Sie eine solche Benachrichtigung wählen, erstellt [!INCLUDE [prod_short](i
 
 An dieser Stelle können Sie einfach die fehlenden Fibukonten ausfüllen. Aber später, wenn Sie das Setup weiter verfeinern, stellen Sie möglicherweise fest, dass diese anfängliche Einrichtung falsch war. Und [!INCLUDE [prod_short](includes/prod_short.md)] erlaubt kein Löschen der MWST-Buchungseinstellungen und der allgemeinen Buchungseinstellungen, wenn Einträge auf der Grundlage solcher Konfigurationen erstellt wurden. Ab dem 1. Veröffentlichungszyklus 2022 können Sie das **Gesperrt**-Feld auf der Seite **MWST-Buchungsmatrix** verwenden, um zu verhindern, dass Benutzer versehentlich ein Setup verwenden, das für neue Buchungen nicht mehr relevant ist.
 
-## <a name="set-up-a-default-vat-date-for-documents-and-journals"></a>Richten Sie ein Standard-MWST-Datum für Belege und Journale ein
+## Richten Sie ein Standard-MWST-Datum für Belege und Journale ein
 
 Umsatzsteuermeldung in [!INCLUDE [prod_short](includes/prod_short.md)] basiert auf dem **MWST-Datum**, um MWST-Einträge in MWST-Berichte in eine MWST-Periode aufzunehmen. Das MWST-Datum kann für alle Belege und Journale geändert werden, aber Sie müssen einen Standardwert für das MWST-Datum angeben.
 
@@ -62,7 +62,7 @@ Gehen Sie folgendermassen vor, um einen Standardwert für ein MWST-Datum einzuri
 > [!NOTE]
 > Standardmässig ist das **Standard-MWST-Datum** das **Buchungsdatum**.
 
-### <a name="enabling-or-disabling-the-vat-date-feature"></a>Das Feature „MWST-Datum“ aktivieren oder deaktivieren
+### Das Feature „MWST-Datum“ aktivieren oder deaktivieren
 
 Manche Länder/Regionen verlangen, dass Unternehmen ein bestimmtes MWST-Datum verwenden, andere Länder/Regionen jedoch nicht. Manche Länder/Regionen verlangen von Unternehmen auch, das MWST-Datum in bestimmten Situationen zu ändern, nachdem sie Belege veröffentlicht haben, aber andere Länder erlauben keine Änderungen des MWST-Datums. Um unterschiedliche Kontexte zu berücksichtigen, können Sie wählen, ob und in welchem Umfang Sie diese Funktionalität nutzen möchten.
 
@@ -82,14 +82,14 @@ Führen Sie die folgenden Schritte aus, um die Höhe der Verwendung von MWST-Dat
 > [!IMPORTANT]
 > Auch wenn Sie die Option **Die Funktion MWST-Datum nicht verwenden** wählen, nutzt [!INCLUDE [prod_short](includes/prod_short.md)]**MWST-Datum** im Hintergrund. Weil das **Standard-MWST-Datum** als **Buchungsdatum** konfiguriert ist und Sie es in diesem Fall nicht ändern können, ist die Erfahrung dieselbe wie ohne diese Funktion. Die **MWST-Datum**-Felder werden von allen Seiten entfernt, aber dieses Feld ist weiterhin in Tabellen vorhanden und Berichte funktionieren basierend darauf.
 
-### <a name="limiting-periods-for-posting-and-changing-the-vat-date"></a>Zeiträume für die Buchung und Änderung des MWST-Datums einschränken
+### Zeiträume für die Buchung und Änderung des MWST-Datums einschränken
 
 Sie können verhindern, dass Personen MWST-Posten in bestimmten Datumsbereichen buchen oder ändern. Sie legen die Einschränkung mithilfe von zwei Einstellungen fest:
 
 * Basierend auf dem geschlossenen **MWST-Rückgabezeitraum**
 * Basierend auf den Feldern **Buchungen zulassen ab** und **Buchungen zulassen bis**.
 
-#### <a name="to-limit-posting-based-on-vat-return-period"></a>Um die Buchung basierend auf dem MWST-Rückgabezeitraum zu begrenzen
+#### Um die Buchung basierend auf dem MWST-Rückgabezeitraum zu begrenzen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 1.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Finanzbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie auf dem Inforegister **Allgemein** im Feld **MWST-Zeitraum kontrollieren** den Grad ein, bis zu dem der MWST-Rückgabezeitraum kontrolliert werden kann. Die Optionen werden in der folgenden Tabelle beschrieben.
@@ -101,7 +101,7 @@ Sie können verhindern, dass Personen MWST-Posten in bestimmten Datumsbereichen 
 | **Bei Buchung in geschlossenem Zeitraum warnen** | Zeigen Sie eine Warnung an, aber blockieren Sie die Buchung nicht, wenn Sie einen Beleg oder ein Journal buchen möchten, dessen MWST-Datum in einem geschlossenen **MWST-Rückgabezeitraum** liegt. |
 | **Deaktiviert** | Ergreifen Sie keine Massnahmen basierend auf einem geschlossenen **MWST-Rückgabezeitraum**. |
 
-#### <a name="to-limit-posting-based-on-allow-fromto-period"></a>Um das Buchen basierend auf dem „Erlauben ab/bis“-Zeitraum einzuschränken
+#### Um das Buchen basierend auf dem „Erlauben ab/bis“-Zeitraum einzuschränken
 
 Sie können eine Einschränkung für das Unternehmen oder bestimmte Benutzerebenen einrichten.
 
@@ -118,7 +118,7 @@ So begrenzen Sie Buchungen für einen bestimmten Benutzenden:
 3. Geben Sie im Feld **Buchungen zulassen ab** das MWST-Datum an, ab dem Sie Buchungen zulassen. Das Buchen eines Belegs oder Journals mit einem MWST-Datum vor diesem Datum ist nicht zulässig.
 4. Geben Sie im Feld **Buchungen zulassen bis** das MWST-Datum an, bis zu dem Sie Buchungen zulassen. Das Buchen eines Belegs oder Journals mit einem MWST-Datum nach diesem Datum ist nicht zulässig.
 
-## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Umsatzsteuer-Identifikationsnummern für Ihr Land oder Ihre Region festlegen
+## Umsatzsteuer-Identifikationsnummern für Ihr Land oder Ihre Region festlegen
 
 Um zu helfen sicherzustellen, dass Personal gültige MwSt-IdNr. eingeben, können Sie die MwSt-IdNr für die Länder oder die Bereiche verwenden, in denen Sie Geschäfte tätigen. [!INCLUDE[prod_short](includes/prod_short.md)] zeigt eine Fehlermeldung an, wenn jemand einen Fehler macht oder ein Format verwendet, das für das Land bzw. die Region falsch ist.
 
@@ -135,7 +135,7 @@ Um MwSt-Nr. einzurichten, gehen Sie folgendermassen vor:
     > [!TIP]
     > Sie können andere Zeichen verwenden, sofern sie immer im Land- oder Bereichsformat vorkommen. Wenn Sie also eine Periode oder einen Bindestrich zwischen und Nummern einfügen möchten, können Sie ##.####.### oder @@-###-### definieren.  
 
-## <a name="set-up-vat-business-posting-groups"></a>MWST-Geschäftsbuchungsgruppen festlegen
+## MWST-Geschäftsbuchungsgruppen festlegen
 
 MWST.-Geschäftsbuchungsgruppen sollten die Märkte darstellen, in denen Sie Geschäfte mit Debitoren und Kreditoren tätigen, und definieren, wie die Mehrwertsteuer in jedem Zielmarkt berechnet und gebucht werden. Beispiele von MwSt.-Produktbuchungsgruppen sind **Inland** und **Europäischen Union (EU)**.  
 
@@ -148,7 +148,7 @@ Um eine MWST.-Geschäftsbuchungsgruppe einzurichten, gehen Sie folgendermassen v
 
 Sie richten Vorgabe MWST-Geschäftsbuchungsgruppen ein, indem Sie sie mit den Geschäftsbuchungsgruppen verbinden. [!INCLUDE[prod_short](includes/prod_short.md)] fügt automatisch die MwSt Geschäftsbuchungsgruppe hinzu, wenn Sie die Geschäftsbuchungsgruppe einem Debitor, Kreditor oder Sachkonto zuweisen.
 
-## <a name="set-up-vat-product-posting-groups"></a>Richten Sie MWST.-Produktbuchungsgruppen ein.
+## Richten Sie MWST.-Produktbuchungsgruppen ein.
 
 Mithilfe der MWST-Produktbuchungsgruppencodes wird die Berechnung und Buchung der MWST gemäss der Art des gekauften Artikels oder der Art der Ressourcen bestimmt.
 
@@ -159,7 +159,7 @@ Um eine MWST.-Geschäftsbuchungsgruppe einzurichten, gehen Sie folgendermassen v
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 4.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **MWST-Produktbuchungsgruppen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus.
 
-## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Kombinieren Sie MWST.-Produktbuchungsgruppen in der MWST.-Einrichtung
+## Kombinieren Sie MWST.-Produktbuchungsgruppen in der MWST.-Einrichtung
 
 [!INCLUDE[prod_short](includes/prod_short.md)] berechnet MwSt.-Beträge in Verkaufs- und Einkaufsberichten basierend auf MwSt.-Buchungsmatrix Einrichtung, die Kombinationen von Mehrwertsteuergeschäfts und -Produktbuchungsgruppen sind. Für jede Kombination können Sie den MWST.-Prozentsatz, die MWST.-Berechnungsart und die Fibupostennummern für die Buchung der MWST. für Verkäufe, Käufe und Erwerbssteuer eingeben. Sie können auch angeben, ob die MWST. neu berechnet wird, wenn Skonto angewandt oder erhalten wird.  
 
@@ -170,7 +170,7 @@ Um MWST.-Buchungseinrichtungen zu kombinieren, gehen Sie folgendermassen vor:
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 5.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **MWST-Buchungseinrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Weisen Sie mehreren Gruppen MWST.-Buchungsgruppen standardmässig zu
+## Weisen Sie mehreren Gruppen MWST.-Buchungsgruppen standardmässig zu
 
 Wenn Sie identische MwSt.-Buchungsgruppen für mehrere Einheiten übernehmen möchten, können Sie [!INCLUDE[prod_short](includes/prod_short.md)]festlegen, um dies standardmässig durchzuführen. Es gibt mehrere Möglichkeiten, dies zu tun:
 
@@ -179,24 +179,24 @@ Wenn Sie identische MwSt.-Buchungsgruppen für mehrere Einheiten übernehmen mö
 
 Die MwSt- Geschäfts- oder - Produktbuchungsgruppe wird zugewiesen, wenn Sie eine Geschäfts- oder eine Produktbuchungsgruppe für einen Debitor, einen Kreditor, einen Artikel oder eine Ressource auswählen.
 
-## <a name="assign-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a>Weisen Sie einzelnen Konten, Debitoren, Kreditoren, Artikeln und Ressourcen MWST-Buchungsgruppen zu.
+## Weisen Sie einzelnen Konten, Debitoren, Kreditoren, Artikeln und Ressourcen MWST-Buchungsgruppen zu.
 
 Die folgenden Abschnitten beschreiben, wie die MWST.-Buchungsgruppen einzelnen Einheiten zugewiesen werden.
 
-### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>So weisen Sie MWST-Buchungsgruppen einzelnen Fibukonten zu
+### So weisen Sie MWST-Buchungsgruppen einzelnen Fibukonten zu
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 6.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnet Sie die **Sachkontokarte** für das Konto.  
 3. Wählen Sie im Inforegister **Buchen** im Feld **Buchungsart** entweder **Verkauf** oder **Einkauf** aus.  
 4. Wählen Sie die MWST.-Buchungsgruppen aus, die Sie für das Verkaufs- bzw. das Wareneingangskonto verwenden möchten.  
 
-### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Um MwSt-Geschäftsbuchungsgruppen Debitoren und Kreditoren zuzuweisen
+### Um MwSt-Geschäftsbuchungsgruppen Debitoren und Kreditoren zuzuweisen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 7.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kunde** oder **Kreditor** ein und wählen Sie dann den zugehörigen Link.  
 2. Auf der Karte **Kunde** oder **Debitor** erweitern Sie das Inforegister **Fakturierung**.  
 3. Wählen Sie die MwSt-Geschäftsbuchungsgruppe aus.  
 
-### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Um MwSt-Produktbuchungsgruppen einzelnen Artikeln und Ressourcen zuzuweisen
+### Um MwSt-Produktbuchungsgruppen einzelnen Artikeln und Ressourcen zuzuweisen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 8.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Element** oder **Ressource** ein und wählen Sie dann den zugehörigen Link.  
 2. Führen Sie einen der folgenden Schritte aus:  
@@ -205,7 +205,7 @@ Die folgenden Abschnitten beschreiben, wie die MWST.-Buchungsgruppen einzelnen E
     * Erweitern Sie auf der Karte **Ressource** das Inforegister **Fakturierung**.  
 3. Wählen Sie die MwSt-Produktbuchungsgruppe aus.  
 
-## <a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Festlegen von Klauseln zur Erklärung der MWST-Befreiung oder von nicht standardmässigen MWST-Sätzen
+## Festlegen von Klauseln zur Erklärung der MWST-Befreiung oder von nicht standardmässigen MWST-Sätzen
 
 Sie richten eine MWST-Klausel ein, um Informationen über die Art der MWST zu beschreiben, die angewendet wird. Die Informationen werden möglicherweise aufgrund behördlicher Regulierungen verlangt. Nachdem Sie eine MWST.-Klausel festgelegt und sie einer MWST.-Buchungsmatrix zugeordnet haben, wird die MWST.-Klausel in allen gedruckten Verkaufsbelegen, die diese MWST.-Buchungsmatrix Einrichtungsgruppe haben, wie etwa eine Verkaufsrechnung, angezeigt.
 
@@ -215,7 +215,7 @@ Wenn in verschiedenen Arten von Belegen, wie Rechnungen oder Gutschriften, nicht
 
 Sie können eine MWST-Klausel ändern oder löschen, und Ihre Änderungen werden in einem generierten Bericht angezeigt. [!INCLUDE[prod_short](includes/prod_short.md)] bewahrt jedoch keinen Verlauf der Änderung auf. In dem Bericht werden die MWST-Klauselbeschreibungen für alle Zeilen im Bericht neben dem MWST-Betrag und MWST-Basisbetrag gedruckt und angezeigt. Wenn eine MWST-Klausel nicht für eine oder mehrere Zeilen des Verkaufsbelegs festgelegt wurde, wird der gesamte Abschnitt weggelassen, wenn der Bericht gedruckt wird.
 
-### <a name="to-set-up-vat-clauses"></a>Einrichten von MWST.-Klauseln
+### Einrichten von MWST.-Klauseln
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 9.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **MWST-Klauseln** ein und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **MwSt.-Klauseln** erstellen Sie eine neue Zeile.  
@@ -226,19 +226,19 @@ Sie können eine MWST-Klausel ändern oder löschen, und Ihre Änderungen werden
 7. Optional: Um die MWST-Klausel sofort einem Setup für die Mehrwertsteuerbuchung zuzuordnen, wählen Sie **Einrichtung**, und wählen Sie dann die Klausel. Wenn Sie warten möchten, können Sie die Klausel später auf der Seite **MWST Buchungsmatrix Einr.** zuordnen.  
 8. Optional: Um zu bestimmen wie die Mehrwertsteuerklausel übersetzt wird, wählen Sie die Aktion **Übersetzungen**.
 
-### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>So weisen Sie eine MWST.-Klausel einer Buchungsgruppe zu
+### So weisen Sie eine MWST.-Klausel einer Buchungsgruppe zu
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 10.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **MWST-Buchungseinrichtung** ein und wählen Sie dann den zugehörigen Link.  
 2. In der Spalte **MwSt.-Klausel** wählen Sie die Klausel, die für jede MwSt.-Buchungseinrichtung gilt.  
 
-### <a name="to-specify-translations-for-vat-clauses"></a>Um Beschreibungen für Mehrwertsteuerklauseln festzulegen
+### Um Beschreibungen für Mehrwertsteuerklauseln festzulegen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 11.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **MWST-Klauseln** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Übersetzung** aus.  
 3. Im **Sprachcode** Feld wählen Sie die Sprache aus, in die Sie übersetzen.  
 4. Geben Sie in den Feldern **Beschreibung**und **Beschreibung 2**den Text ein, der eine Übersetzung der Beschreibungen ist. Dieser Text wird in den übersetzten MWST.-Berichten angezeigt.  
 
-### <a name="to-specify-extended-text-for-vat-clauses"></a>So legen Sie Zusatztexte für Mehrwertsteuerklauseln fest
+### So legen Sie Zusatztexte für Mehrwertsteuerklauseln fest
 
 > [!NOTE]  
 > Wenn Ihr Land oder Ihre Region einen längeren Text für die MWST-Klauseln erfordert, als die Standardversion unterstützt, können Sie den längeren Text für die MWST-Klauseln als *Zusatztext* angeben, damit dieser in den Verkaufs- und Einkaufsberichten gedruckt wird.  
@@ -253,7 +253,7 @@ Sie können eine MWST-Klausel ändern oder löschen, und Ihre Änderungen werden
 8. Wählen Sie die entsprechenden Felder für die Belegtypen aus, deren Zusatztexte gedruckt werden sollen.  
 9. Die Seite schliessen.  
 
-## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Erstellen Sie eine MWST.-Buchungsmatrix, um Einfuhrumsatzsteuer zu verarbeiten
+## Erstellen Sie eine MWST.-Buchungsmatrix, um Einfuhrumsatzsteuer zu verarbeiten
 
 Sie verwenden die Funktion *Import-MWST*, wenn Sie einen Beleg buchen müssen, bei dem der gesamte Betrag aus Mehrwertsteuer besteht. Sie sehen dies, wenn Sie eine MWST-Rechnung für importierte Waren von der Steuerbehörde erhalten.  
 
@@ -266,7 +266,7 @@ Gehen Sie folgendermassen vor, um Codes für die Einfuhrsteuerfelder festzulegen
 5. Wählen Sie im Feld **MwSt.-Berechnungsart** **Volle MwSt.** aus.  
 6. Geben Sie im Feld **Vorsteuerkonto** das Fibukonto an, auf das Sie Einfuhrumsatzsteuer buchen wollen. Alle anderen Konten sind optional.  
 
-## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Verwenden Sie Erwerbsbesteuerung für den Handel zwischen EU-Ländern oder Regionen
+## Verwenden Sie Erwerbsbesteuerung für den Handel zwischen EU-Ländern oder Regionen
 
 Gewisse Unternehmen müssen Erwerbssteuer abführen, wenn Sie Handel mit anderen Ländern innerhalb der EU betreiben. Die Regel gilt beispielsweise für Einkäufe aus EU-Ländern/-Regionen und Verkäufe an EU-Länder/-Regionen.  
 
@@ -276,7 +276,7 @@ Gewisse Unternehmen müssen Erwerbssteuer abführen, wenn Sie Handel mit anderen
 > [!TIP]  
 > Sie können überprüfen, ob ein Unternehmen in einem anderen EU-Land bzw. einer anderen EU-Region als umsatzsteuerpflichtig registriert ist, wenn Sie den EU-MWST Nummer-Überprüfungsdienst verwenden. Der Service ist in [!INCLUDE[prod_short](includes/prod_short.md)] kostenlos verfügbar. Weitere Informationen finden Sie unter [Überprüfen von MWST-Registrierungsnummern](finance-how-validate-vat-registration-number.md).
 
-### <a name="sales-to-eu-countries-or-regions"></a>Verkäufe in EU-Länder oder Regionen
+### Verkäufe in EU-Länder oder Regionen
 
 Auf Verkäufe an umsatzsteuerpflichtige Unternehmen in anderen EU-Ländern/-Regionen wird keine MWST berechnet. Der Wert derartiger Verkäufe an EU-Länder/-Regionen muss separat auf der MWST.-Abrechnung ausgewiesen werden.  
 
@@ -292,17 +292,17 @@ Wenn Sie die Kombination aus MWST-Geschäftsbuchungsgruppe und MWST-Produktbuchu
 > [!NOTE]  
 > Das Feld **EU-Service** gilt nur für MWST-Berichte. Das Feld steht in keinem Zusammenhang mit den Funktionen **Service-Deklaration** oder **Intrastat für Dienstleistungen** .
 
-## <a name="vat-rounding-for-documents"></a>MWST-Rundung für Belege
+## MWST-Rundung für Belege
 
 Beträge in Belegen, die noch nicht gebucht sind, werden gerundet und auf eine Weise angezeigt, die der endgültigen Rundung bereits gebuchter Beträge entspricht. Die MWST wird für einen vollständigen Beleg berechnet, d.h., dass MWST, die in dem Beleg berechnet wird, auf der Summe aller Zeilen mit derselben MWST-ID im Beleg basiert.  
 
-## <a name="set-up-vat-reporting"></a>MWST-Berichterstellung einrichten
+## MWST-Berichterstellung einrichten
 
 Sie müssen Informationen dazu festlegen, wie die Steuerbehörden in Ihrem Land oder in Ihrer Region von Ihnen verlangen, MWST-Berichte einzureichen. Die folgenden Schritte veranschaulichen die am häufigsten verwendeten Informationen. Für Ihr Land oder Ihre Region sind jedoch möglicherweise zusätzliche Schritte erforderlich. Weitere Informationen finden Sie in dem entsprechenden Artikel im Abschnitt *Lokale Funktionen* in der Leiste auf der linken Seite.
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Vorlagen für Umsatzsteuerabrechnungen und Namen von Umsatzsteuerabrechnungen einrichten](finance-how-setup-vat-statement.md)  
 [Nicht realisierte Mehrwertsteuer einrichten](finance-setup-unrealized-vat.md)  

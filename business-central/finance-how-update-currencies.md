@@ -1,18 +1,18 @@
 ---
 title: Währungswechselsätze aktualisieren (enthält Video)
-description: 'Wenn Sie Beträge in verschiedenen Währungen erfassen, können Sie sich von Business Central dabei helfen lassen, die Wechselkurse der gebuchten Buchungen mit einem externen Dienst anzupassen.'
+description: 'Wenn Sie Beträge in verschiedenen Währungen erfassen, können Sie sich von Business Central dabei helfen lassen, die Wechselkurse anzupassen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: 'multiple currencies, adjust exchange rates, FX rates'
 ms.search.form: '5, 118'
-ms.date: 03/15/2022
+ms.date: 09/07/2023
 ms.author: bholtorf
 ---
-# <a name="update-currency-exchange-rates"></a>Währungswechselkurse aktualisieren
+# Währungswechselkurse aktualisieren
 
-Sie können verschiedene Währungen in [!INCLUDE [prod_short](includes/prod_short.md)] definieren, wenn Sie beispielsweise in anderen Währungen als Ihrer Landeswährung handeln. Damit Sie die Änderungen der Wechselkurse verfolgen können, können Sie die Währungen manuell verwalten oder einen Wechselkursdienst einrichten.
+Sie können verschiedene Währungen in [!INCLUDE [prod_short](includes/prod_short.md)] definieren, wenn Sie beispielsweise in anderen Währungen als Ihrer Landeswährung handeln. Um Änderungen der Wechselkurse zu verfolgen, können Sie die Kurse manuell verwalten oder einen Wechselkursdienst einrichten.
 
-## <a name="currencies"></a>Währungen
+## Währungen
 
 > [!TIP]  
 > Wenn Sie in [!INCLUDE[prod_short](includes/prod_short.md)] nach Echtzeitinformationen zu Wechselkursen (FX) oder älteren Kursen suchen, werden diese als Währung bezeichnet. Siehe neben diesem Artikel auch [Einrichten einer zusätzlichen Berichtswährung](finance-how-setup-additional-currencies.md).
@@ -21,11 +21,11 @@ Sie können verschiedene Währungen in [!INCLUDE [prod_short](includes/prod_shor
 
 Sie geben die Währungscodes in der Liste **Währungen** an, darunter zusätzliche Informationen und Einstellungen, die für jeden Währungscode erforderlich sind. Weitere Informationen finden Sie unter [Währungen](finance-set-up-currencies.md#curr)
 
-### <a name="example-of-a-receivable-currency-transaction"></a>Beispiel für eine ausstehende Währungstransaktion
+### Beispiel für eine ausstehende Währungstransaktion
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates"></a>Wechselkurse
+## Wechselkurse
 
 Die Wechselkurse sind das Werkzeug, um die Mandantenwährung (MW) jeder Währungstransaktion zu berechnen. Die Seite **Wechselkurse** enthält die folgenden Felder:
 
@@ -54,43 +54,58 @@ Der Betrag des Anpassungs-Wechselkurses oder der Betrag des relationalen Anpassu
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## <a name="adjusting-exchange-rates"></a>Regulieren von Wechselkursen
+## Wechselkurse regulieren
 
-Da sich Wechselkurse ständig ändern, müssen weitere Währungsentsprechungen im System in regelmässigen Abständen reguliert werden. Werden diese Regulierungen nicht durchgeführt, sind Beträge, die aus fremden (oder zusätzlichen) Währungen umgerechnet und in der Mandantenwährung in der Finanzbuchhaltung gebucht wurden, möglicherweise irreführend. Darüber hinaus müssen Tagesposten, die vor der Eingabe eines Tageswechelkurses in der Anwendung gebucht werden, aktualisiert werden, nachdem der Tageswechselkurs eingegeben wurde.
+Da die Wechselkurse ständig schwanken, müssen Sie andere Währungsäquivalente periodisch anpassen. Andernfalls können Beträge, die Sie aus Fremdwährungen (oder anderen Währungen) umgerechnet und in der lokalen Währung in den Fibuposten gebucht haben, falsch sein. Ausserdem müssen Sie die gebuchten Tageseinträge aktualisieren, bevor Sie einen täglichen Wechselkurs eingeben.
 
-Der Batchauftrag **Wechselkurse anpassen** wird verwendet, um die Wechselkurse von gebuchten Debitor-, Kreditor- und Bankkonten-Buchungen manuell anzupassen. Berichtswährungsbeträge in Fibuposten können hiermit ebenfalls aktualisiert werden.  
+Der Batchauftrag **Wechselkurse anpassen** wird verwendet, um die Wechselkurse von gebuchten Debitor-, Kreditor- und Bankkonten-Buchungen manuell anzupassen. Der Batch-Job kann auch andere Berichtswährungsbeträge auf Fibuposten aktualisieren.  
 
 > [!TIP]
 > Sie können einen Dienst verwenden, um Wechselkurse im System automatisch zu regulieren. Weitere Informationen finden Sie unter [So richten Sie einen Währungswechselkurs-Service ein](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Die Wechselkurse für bereits gebuchte Transaktionen werden hierdurch jedoch nicht reguliert. Um Wechselkurse für gebuchte Einträge zu regulieren, verwenden Sie die Stapelverarbeitung **Wechselkurse regulieren**.
 
-Sie können eine Vorschau der Auswirkungen einer Anpassung auf die Buchung erstellen, bevor Sie tatsächlich buchen, indem Sie **Vorschau** auf der Seite **Wechselkurse** wählen. Ausserdem können Sie auswählen, ob die Buchung im Fibuposten detailliert (pro Buchung) oder zusammengefasst (pro Währung) erfolgen soll, indem Sie **Buchungen zusammenfassen** wählen. Sie können auch festlegen, wie die Dimensionen für Buchungen von nicht realisierten Gewinnen und Verlusten behandelt werden sollen, indem Sie eine der folgenden Optionen im Feld **Dimensionswerte übertragen** wählen:  
+Sie können auch festlegen, wie die Dimensionen für Buchungen von nicht realisierten Gewinnen und Verlusten behandelt werden sollen, indem Sie eine der folgenden Optionen im Feld **Dimensionsbuchung** wählen:  
 
-- **Quellenbuchung**: Bei Fibuposten für nicht realisierte Gewinne und Verluste werden Dimensionswerte aus der angepassten Buchung übernommen.
-- **Nach Fibukonto**: Bei Fibuposten für nicht realisierte Gewinne und Verluste werden die Dimensionswerte aus dem Quelleneintrag für die Dimensionseinstellungen des Fibukontos für nicht realisierte Gewinne und Verluste übernommen.
-- **Keine Übertragung**: Fibuposten für nicht realisierte Gewinne und Verluste haben keine Dimensionswerte.
+* **Quellpostendimensionen**: Übernehmen Sie Dimensionswerte für Fibuposten für nicht realisierte Gewinne und Verluste aus der Buchung, die Sie anpassen.  
+* **Keine Dimensionen**: Übertragen Sie keine Dimensionswerte für nicht realisierte Gewinne und Verluste in Fibuposten. [!INCLUDE [prod_short](includes/prod_short.md)] verwendet weiterhin Standarddimensionseinstellungen, zum Beispiel **Code notwendig**, **Gleicher Code** oder **Kein Code**. Wenn die Quelltransaktionseinträge Dimensionswerte aufweisen, werden durch die Anpassung Einträge ohne Dimensionswerte erstellt.  
+* **Fibukontodimensionen**: Übertragen Sie Dimensionswerte aus dem Quelleintrag der Dimensionseinstellungen des Fibukontos für nicht realisierte Gewinne und Verluste in Fibuposten.
 
-### <a name="effect-on-customers-and-vendors"></a>Auswirkung auf Debitoren und Kreditoren
+> [!NOTE]
+> Um die Vorschaufunktion nutzen zu können, müssen Sie das **Funktionsupdate aktivieren: Aktivieren Sie die Verwendung der neuen erweiterbaren Wechselkursanpassung, einschliesslich der Funktion zur Veröffentlichungsüberprüfung** auf der Seite **[Funktionsverwaltung](https://businesscentral.dynamics.com/?page=2610)**.
 
-Für Debitoren- und Kreditorenkonten reguliert der Batchauftrag die Währung unter Verwendung des Wechselkurses, der zum Zeitpunkt des im Batchauftrag angegebenen Buchungsdatums gültig ist. Die Stapelverarbeitung berechnet die Differenzen für die einzelnen Währungssalden und bucht die Beträge auf das Fibukonto, das im Feld **Kursgewinn unrealisiert Kto.** oder im Feld **Kursverlust unrealisiert Kto.** auf der Seite **Währungen** angegeben ist. Gegenposten werden automatisch auf die Debitoren- und Kreditorensammelkonten im Fibuposten gebucht.
+> [!IMPORTANT]
+> Aufgrund lokaler Anforderungen in der Schweiz empfehlen wir Ihnen nicht, **Funktionsaktualisierung: Nutzung der neuen erweiterbaren Wechselkursanpassung, einschliesslich Buchungsüberprüfung** in der Landesversion der Schweiz (CH) zu aktivieren.
 
-Die Stapelverarbeitung bearbeitet alle offenen Debitoren- und Kreditorenposten. Wenn es eine Wechselkursdifferenz für eine Buchung gibt, erstellt der Batchauftrag einen neuen detaillierten Debitoren- oder Kreditoren-Sachkonto-Eintrag, der den angepassten Betrag auf dem Debitoren- oder Kreditoren-Sachkonto-Eintrag wiedergibt.
+## Sehen Sie sich die Auswirkungen einer Anpassung in der Vorschauversion an
 
-#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensionen in Debitoren- und Kreditorenposten
+Sie können die Auswirkungen einer Wechselkursanpassung auf die Buchung vor der eigentlichen Buchung in einer Vorschauversion anzeigen, indem Sie die Aktion **Buchungsvorschau** auf der Anforderungsseite **Wechselkursanpassung** auf der Anforderungsseite des Berichts (Bericht 596) wählen. Auf der Anfrageseite können Sie angeben, was in die Vorschau aufgenommen werden soll:
 
-Den Differenzposten werden die Dimensionen von den Debitoren-/Kreditorenposten zugewiesen. Die Differenzen werden pro Kombination von Dimensionswerten gebucht.
+* Holen Sie eine detaillierte Buchung in der Finanzbuchhaltung nach Eintrag ein
+* Erhalten Sie eine zusammengefasste Buchung nach Währung. Wählen Sie einfach das Feld **Pro Posten regulieren** im **Wechselkursanpassung**-Bericht.
 
-### <a name="effect-on-bank-accounts"></a>Auswirkungen auf Bankkonten
+### Auswirkung auf Debitoren und Kreditoren
+
+Für Debitoren- und Kreditorenkonten verwendet der Batch-Job den Wechselkurs, der am für den Batch-Job angegebenen Buchungsdatum gültig war, um die Währung anzupassen. Die Stapelverarbeitung berechnet die Differenzen für die einzelnen Währungssalden und bucht die Beträge auf das Fibukonto, das im Feld **Kursgewinn unrealisiert Kto.** oder im Feld **Kursverlust unrealisiert Kto.** auf der Seite **Währungen** angegeben ist. Gegenposten werden automatisch auf die Debitoren- und Kreditorensammelkonten im Fibuposten gebucht.
+
+Die Stapelverarbeitung bearbeitet alle offenen Debitoren- und Kreditorenposten. Wenn es eine Wechselkursdifferenz für eine Buchung gibt, erstellt der Batchauftrag einen neuen detaillierten Debitoren- oder Kreditoren-Sachkonto-Eintrag. Der neue Eintrag spiegelt den angepassten Betrag im Debitoren- oder Kreditorenbucheintrag wider.
+
+#### Dimensionen in Debitoren- und Kreditorenposten
+
+[!INCLUDE [prod_short](includes/prod_short.md)] ordnet die Dimensionen aus den Debitoren- oder Kreditorenbucheinträgen den Korrekturbuchungen zu und bucht Korrekturen für jede Kombination von Dimensionswerten.
+
+### Auswirkungen auf Bankkonten
 
 Für Bankkonten reguliert der Batchauftrag die Währung unter Verwendung des Wechselkurses, der zum Zeitpunkt des im Batchauftrag angegebenen Buchungsdatums gültig ist. Die Stapelverarbeitung berechnet die Differenzen für jedes Bankkonto mit einem Währungscode und bucht die Beträge auf das Fibukonto, das im Feld **Kursgewinn realisiert Kto.** oder im Feld **Kursverlust realisiert Kto.** der Tabelle **Währungen** angegeben ist. Gegenposten werden automatisch auf die Fibubankkonten gebucht, die in den Bankkontenbuchungsgruppen angegeben sind. Die Stapelverarbeitung erzeugt einen Posten pro Währung pro Buchungsgruppe.
 
-#### <a name="dimensions-on-bank-account-entries"></a>Dimensionen in Bankposten
+#### Dimensionen in Bankposten
 
 Den Differenzposten für das Fibukonto des Bankkontos und für das Gewinn- und Verlustkonto werden die Standarddimensionen des Bankkontos zugewiesen.
 
-### <a name="effect-on-gl-accounts"></a>Auswirkungen auf Fibukonten
-Wenn Sie in einer Berichtswährung buchen, kann die Stapelverarbeitung neue Fibuposten für Wechselkursregulierungen zwischen Mandantenwährung und Berichtswährung erstellen. Die Stapelverarbeitung berechnet die Differenzen für jeden Fibuposten und reguliert den Fibuposten abhängig vom Inhalt des Felds **Kursregulierung** für jedes Sachkonto.
+### Auswirkungen auf Fibukonten
 
-##### <a name="dimensions-on-gl-account-entries"></a>Dimensionen in Fibuposten
+Wenn Sie in einer anderen Berichtswährung buchen, kann die Stapelverarbeitung neue Fibuposten für Wechselkursregulierungen zwischen lokaler Währung und anderer Berichtswährung erstellen. Die Stapelverarbeitung berechnet die Differenzen für jeden Fibuposten und reguliert den Fibuposten abhängig vom Inhalt des Felds **Kursregulierung** für jedes Sachkonto.
+
+#### Dimensionen in Sachposten
+
 Den Differenzposten werden die Standarddimensionen der Konten zugewiesen, auf die sie gebucht werden.
 
 > [!Important]
@@ -98,7 +113,8 @@ Den Differenzposten werden die Standarddimensionen der Konten zugewiesen, auf di
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
-## <a name="to-set-up-a-currency-exchange-rate-service"></a>So richten Sie einen Währungswechselkurs-Service ein
+## So richten Sie einen Währungswechselkurs-Service ein
+
 Sie können einen externen Service verwenden, um Ihre Währungswechselkurse wie FloatRates auf dem neuesten Stand zu halten. 
 
 > [!NOTE]
@@ -116,13 +132,14 @@ Sie können einen externen Service verwenden, um Ihre Währungswechselkurse wie 
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
-## <a name="to-update-currency-exchange-rates-through-a-service"></a>Um Währungswechselkurse über einen Service zu aktualisieren
+## Um Währungswechselkurse über einen Service zu aktualisieren
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Währungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die **Aktualisieren von Wechselkursen** Aktion aus.
 
 Der Wert im Feld **Wechselkurs** wird auf der Seite **Währung** mit dem aktuellen Währungswechselkurs aktualisiert.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Währungen in Business Central](finance-currencies.md)  
 [Einrichten von Währungen](finance-set-up-currencies.md)  

@@ -10,7 +10,7 @@ ms.date: 12/05/2022
 ms.custom: bap-template
 ---
 
-# <a name="warehouse-management-overview"></a>Lagerverwaltung – Übersicht
+# Lagerverwaltung – Übersicht
 
 Es gibt zwei Dinge, die für alle Unternehmen wichtig sind, die Waren physisch in ihr Lager ein- und auslagern:
 
@@ -26,7 +26,7 @@ Um Unternehmen dabei zu helfen, diese Dinge zu erreichen, fügen Lagerfunktionen
 
 Implementieren Sie diese Funktionen in verschiedenen Kombinationen, um Ihre Lagerprozesse an Ihr Unternehmen anzupassen. Berücksichtigen Sie eine zunehmende Komplexität, wenn Ihr Unternehmen wächst und sich Ihre Prozesse ändern.
 
-## <a name="overview-of-different-configuration-options"></a>Übersicht über verschiedene Konfigurationsmöglichkeiten
+## Übersicht über verschiedene Konfigurationsmöglichkeiten
 
 Sie können Lagerfunktionen auf verschiedene Weise konfigurieren. Es ist wichtig, Optionen zu wählen, die Ihre Prozesse verbessern, ohne Gemeinkosten zu verursachen. Die folgende Tabelle gibt einen Überblick über typische Konfigurationen für den Umgang mit physischen Gütern.
 
@@ -48,13 +48,13 @@ Der Grad der Komplexität wird auch durch die Arten von Belegen beeinflusst, die
 
 Ein weiterer Faktor, der sich auf die Komplexität auswirkt, ist die Darstellung Ihres physischen Lagers in [!INCLUDE[prod_short](includes/prod_short.md)]. Weitere Informationen finden Sie unter [Modellierung des physischen Lagers](#modeling-the-physical-warehouse).
 
-## <a name="modeling-the-physical-warehouse"></a>Modellierung des physischen Lagers
+## Modellierung des physischen Lagers
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] haben Sie mehrere Möglichkeiten, den realen Aufbau Ihres Lagers darzustellen. Ihre Auswahl bestimmt, wie Sie mit Warehouse-Funktionen arbeiten.
 
 Bei der Platzierung von Artikeln kann es sich um Regale, Standorte oder Lagerplätze handeln, und es gibt Vor- und Nachteile für jede Option.
 
-### <a name="locations-and-bins"></a>Lagerorte und Lagerplätze
+### Lagerorte und Lagerplätze
 
 Um physische Waren zu handhaben, müssen Sie mindestens einen Standort haben. Sie können mehrere Standorte oder Lagerplätze verwenden, um Ihre Lager- und Organisationsstruktur zu modellieren.
 
@@ -66,7 +66,7 @@ Standorte sind in der Regel die bevorzugte Methode für die Organisation von Vor
 * Richten Sie Planungsparameter ein. Erfahren Sie mehr unter [Planungsparameter](production-about-planning-functionality.md#planning-parameters).  
 * Verwenden Sie für jeden Standort unterschiedliche Lagerfunktionen.
 
-### <a name="shelves-and-bins"></a>Regale und Lagerplätze
+### Regale und Lagerplätze
 
 Wenn Sie einen Artikel immer am selben Ort lagern, können Sie das Feld **Regal-Nr.** auf den Seiten **Artikelkarte** oder **Lagerhaltungseinheitskarte** verwenden. Dieses Feld kann ein grundlegendes manuelles Speichersystem in Umgebungen ohne Lagerplätze sein. Der Feldwert wird von der Artikelkarte in die Belegzeilen und Berichte kopiert, dient jedoch nur zur Information. Der Wert wird nicht in Lageraktivitäten oder Verfügbarkeitsberechnungen verwendet.
 
@@ -77,7 +77,7 @@ Lagerplätze stellen die grundlegende Lagerstruktur dar und werden verwendet, um
 * Lagerplatzkapazitäts- und Gewichtsbeschränkungen (nur für gesteuerte Einlagerung und Kommissionierung).
 * Lagerplatzbewertung (nur für gesteuerte Einlagerung und Kommissionierung).
 
-## <a name="typical-warehouse-workflow"></a>Typischer Lagerablauf
+## Typischer Lagerablauf
 
 Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikeln, die sie beschreiben..
 
@@ -89,19 +89,19 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 
 Richten Sie die Lagerprozesse ein, die für Ihr Unternehmen geeignet sind. Weitere Informationen finden Sie unter [Einrichten von Warehouse Management](warehouse-setup-warehouse.md).
 
-## <a name="terminology-related-to-warehouse-management"></a>Terminologie im Zusammenhang mit der Lagerverwaltung
+## Terminologie im Zusammenhang mit der Lagerverwaltung
 
-### <a name="complexity-levels"></a>Komplexitätsebenen
+### Komplexitätsebenen
 
 Wir verwenden die Begriffe „einfach“ und „fortgeschritten“, um zwischen Komplexitätsebenen zu unterscheiden. Diese einfache Unterscheidung umfasst mehrere Komplexitätsebenen in der Lagerorteinrichtung, wobei jede durch unterschiedliche Lagerbelege unterstützt werden. Die erweiterte Ebene der Lagerhaltung wird als „gesteuertes Einlagern und Kommissionieren“ bezeichnet. Um die gesteuerte Einlagerung und Entnahme für einen Standort zu verwenden, aktivieren Sie die **gesteuerte Einlagerung und Kommissionierung** auf der **Standortkarte**-Seite.
 
-### <a name="warehouse-flows"></a>Lagerabläufe
+### Lagerabläufe
 
 * Eingehender Fluss - Artikel in den Lagerort einbringen und verfügbar machen, z.B. Einkäufe und eingehende Umlagerungen.
 * Ausgehender Fluss – Artikel kommissionieren und an Kunden oder andere Standorte versenden.
 * Interner Fluss – Artikel innerhalb eines Standorts bearbeiten. Beispiel: Komponenten in die Produktion verschieben oder eine Inventur durchführen.
 
-### <a name="basic-documents"></a>Grundlegende Belege
+### Grundlegende Belege  
 
 Die folgenden Belege werden in grundlegenden Lagerabläufen verwendet.
 
@@ -111,7 +111,7 @@ Die folgenden Belege werden in grundlegenden Lagerabläufen verwendet.
 * Artikel Erf.-Journal
 * Artikel Umlag. Erf.-Journal
 
-### <a name="advanced-documents"></a>Erweiterte Belege
+### Erweiterte Belege  
 
 Die folgenden Belege werden in erweiterten Lagerabläufen verwendet.
 
@@ -129,11 +129,11 @@ Die folgenden Belege werden in erweiterten Lagerabläufen verwendet.
 * Logistik Artikel Erf.-Journal
 * Lagerartikelumlagerungs Erf.-Journal
 
-### <a name="pages-and-settings"></a>Seiten und Einstellungen
+### Seiten und Einstellungen
 
 In diesem Abschnitt werden die Konzepte hinter den wichtigsten Seiten und Einstellungen für die Lagerhaltung beschrieben.
 
-#### <a name="bins-and-bin-content"></a>Lagerplatze und Lagerplatzinhalt
+#### Lagerplatze und Lagerplatzinhalt
 
 Ein Lagerplatz ist ein Speicherbehälter, der dafür ausgelegt ist, diskrete Teile aufzunehmen. Es ist die kleinste Containereinheit in [!INCLUDE[prod_short](includes/prod_short.md)]. Artikelmengen in Lagerplätzen werden als *Lagerplatzinhalte* bezeichnet. Ein Lookup aus dem Feld **Artikel** oder aus Feld **Lagerplatzcode** auf jeder lagerbezogenen Belegzeile zeigt die berechnete Verfügbarkeit des Artikels am Lagerplatz an.  
 
@@ -150,7 +150,7 @@ Ein dedizierter Lagerplatz enthält Lagerplatzinhalt, der nur für die dediziert
 
 Sie können einen Vorgabelagerplatz pro Artikel pro Lagerort geben.  
 
-#### <a name="bin-type"></a>Lagerplatzart
+#### Lagerplatzart
 
 Lagerplätze, die gesteuerte Einlagerung und Entnahme verwenden, können Lagerplatztypen verwenden. Lagerplatztypen steuern die Aktivitäten, die Sie für einen Lagerplatz zulassen. Die folgenden Lagerplatztypen sind verfügbar:  
 
@@ -168,7 +168,7 @@ Mit Ausnahme der Lagerplatztypen KOMMISSIONIERUNG, EINLAGKOMM und EINLAGERUNG de
 > [!NOTE]  
 > Sie müssen Verschiebungen verwenden, um Artikel an EMPFANGS- und QC-Lagerplätze zu verschieben. Verwenden Sie Bewegungen, um Artikel aus VERSAND- und QC-Lagerplätzen zu verschieben.  
 
-#### <a name="bin-ranking"></a>Lagerplatzpriorität
+#### Lagerplatzpriorität
 
 In der erweiterten Lagerhaltung können Sie automatisieren und optimieren, wie Artikel in Einlagerungs- und Kommissionierungsarbeitsblättern den gesammelt werden, indem Sie Lagerplätze bewerten. Artikel werden gemäss der Lagerplatzbewertungen für Kommissionierung und Einlagerung empfohlen.
 
@@ -176,7 +176,7 @@ Die Einlagerungsabläufe werden nach Lagerplatzprioritäten optimiert , indem La
 
 Lagerplatzrang und Lagerplatzinhalt sind die grundlegenden Eigenschaften, die Lagermitarbeiter im Lager leiten.  
 
-#### <a name="bin-setup"></a>Lagerplatz-Setup
+#### Lagerplatz-Setup
 
 Bei der erweiterten Lagerhaltung können Sie die folgenden Kapazitätswerte angeben, um zu steuern, wie und in welchen Lagerplätzen Sie Artikel lagern:
 
@@ -193,7 +193,7 @@ Bevor Sie Kapazitätseinschränkungen für Lagerplatzinhalte an einem Lagerplatz
 > [!NOTE]  
 > Sie können mehrere Masseinheiten nur an Standorten verwenden, die eine gesteuerte Einlagerung und Entnahme verwenden. In allen anderen Konfigurationen können Sie nur Lagerplatzinhalte in der Basiseinheit verwenden. In Transaktionen mit einer Masseinheit, die grösser als die Basiseinheit des Artikels ist, wird die Menge in die Basiseinheit umgewandelt.  
 
-#### <a name="zone"></a>Servicegebiet
+#### Servicegebiet
 
 In der erweiterten Lagerhaltung können Lagerplätze in Zonen gruppiert werden, um den Workflow der Lageraktivitäten für Lagerorte zu verwalten.  
 
@@ -201,7 +201,7 @@ Eine Zone kann eine empfangende Zone oder eine Lagerzone sein, und jede Zone kan
 
 Die meisten Eigenschaften, die einer Zone zugeordnet sind, werden Lagerplätzen zugeordnet, die aus dieser Zone erstellt werden.  
 
-#### <a name="warehouse-class"></a>Lagerklasse
+#### Lagerklasse
 
 In der erweiterten Lagerhaltung können Sie den folgenden Entitäten Lagerklassencodes zuweisen: 
 
@@ -215,11 +215,11 @@ Wenn Sie mit Lagerklassen und standardmässigen Empfangs-/Versandlagerplätzen a
 
 In eingehenden Flüssen wird der Klassencode nur auf eingehenden Zeilen hervorgehoben, auf denen der Artikelklassencode nicht dem standardmässigen Wareneingangslagerplatz entspricht. Wenn die richtigen Standardlagerplätze nicht zugewiesen werden, kann die Menge nicht empfangen werden.  
 
-#### <a name="location"></a>Lagerort
+#### Lagerort
 
 Ein Lagerort ist eine physische Struktur oder ein Ort, an dem Bestand empfangen, gelagert und versandt wird. Ein Lagerort kann ein Lager, ein Servicefahrzeug, ein Ausstellungsraum, eine Fabrik oder ein Bereich in einer Fabrik sein. Bestand wird oft in Lagerplätzen und Zonen organisiert.
 
-#### <a name="first-expired-first-out"></a>Ausgang nach frühestem Ablaufdatum
+#### Ausgang nach frühestem Ablaufdatum
 
 Wenn Sie das Kontrollkästchen **Gemäss FEFO kommissionieren** im Inforegister **Lagerplatzprüfung** auf der Seite **Lagerortkarte** wählen, werden Artikel mit Artikelverfolgung entsprechend ihrem Ablaufdatum an dem Lagerort kommissioniert. Artikel mit den frühesten Ablaufdaten werden zuerst kommissioniert.  
 
@@ -227,11 +227,11 @@ Lageraktivitäten in allen Kommissionierungs- und Umlagerungsbelegen werden gem�
 
 Bei der Kommissionierung über FEFO wählt die Anwendung Artikel auf der Grundlage des Ablaufdatums aus; das Ergebnis ist eine temporäre Artikeltrackingliste, die auf dem Ablaufdatum basiert. Weisen zwei Artikel dasselbe Ablaufdatum aus, wählt die Anwendung den Artikel mit der niedrigeren Chargen- oder Seriennummer zuerst aus. Sind die Chargen- oder Seriennummern identisch, wählt die Anwendung den Artikel aus, der zuerst ausgewählt wurde. Die Standardkriterien für die Auswahl der Artikel in Kommissionierungslagerplätzen, wie z. B. nach Lagerplatzpriorität und Gebindeanbruch, werden auf diese temporäre FEFO-Artikeltrackingliste angewendet.  
 
-#### <a name="put-away-template"></a>Einlagerungsvorlage
+#### Einlagerungsvorlage
 
 Einlagerungsvorlagen geben einen Satz priorisierter Regeln an, die gelten,wenn Sie Einlagerungen erstellen. Beispielsweise kann eine Einlagerungsvorlage erfordern, dass Sie Artikel in einen Lagerplatz mit Lagerplatzinhalt legen, der dieselbe Masseinheit hat. Wenn kein ähnlicher Lagerplatz mit ausreichender Kapazität gefunden werden kann, muss der Artikel an einen leeren Lagerplatz gelegt werden. Sie weisen eine Einlagerungsvorlage einem Artikel und einem Lagerort zu.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Bestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
