@@ -26,7 +26,7 @@ Bevor Sie Salden konsolidieren, legen Sie einige Einstellungen auf der **Marketi
 * Auf dem **Interaktionen**-Inforegister müssen Sie Geschäftsbeziehungscodes in den Feldern **Debitoren** und **Kreditoren** angeben. [!INCLUDE[prod_short](includes/prod_short.md)] verwendet diese Informationen, um den Beziehungstyp zu bestimmen, der für Kontakte angezeigt werden soll. 
 * Optional: Auf dem **Duplikate**-Inforegister, Duplikatsuche ein- oder ausschalten. Standardmässig ist die Duplikatsuche aktiviert. Weitere Informationen finden Sie unter [Behandeln von Duplikaten](#handling-duplicates). 
 
-## <a name="link-an-existing-customer-and-vendor-company-thorough-a-contact"></a>Verknüpfen Sie einen bestehenden Debitor und eine Kreditorenfirma gründlich mit einem Kontakt
+## <a name="link-an-existing-customer-and-vendor-company-through-a-contact"></a>Verknüpfen Sie einen bestehenden Debitor und eine Kreditorenfirma gründlich mit einem Kontakt
 Die folgenden Schritte beschreiben, wie Sie einen Debitor und einen Kreditor über einen Kontakt verknüpfen.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Kunde** oder **Kreditor** ein und wählen Sie dann den zugehörigen Link.
