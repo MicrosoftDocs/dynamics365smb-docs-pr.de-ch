@@ -5,7 +5,8 @@
 # Erste Schritte
 ## [Überblick über Unternehmensfunktionen](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
-## Informationen
+## Learn
+### [Ressourcen für Benutzer](resources-for-users.md)
 ### [Business Central-Lernkatalog](readiness/readiness-learning-catalog.md)
 ### [Business Central-Schulung](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Exemplarische Vorgehensweisen für Geschäftsprozesse
@@ -348,8 +349,14 @@
 #### [Mit Zahlungstoleranzen und Skontotoleranzen arbeiten](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Die Erweiterung zur Vorhersage verspäteter Zahlungen](ui-extensions-late-payment-prediction.md)
 
+### E-Belege verwalten
+#### [Überblick über E-Belege](finance-edocuments-overview.md)
+#### [E-Belege einrichten](finance-how-setup-edocuments.md)
+#### [E-Belege bei Verkäufen und Einkäufen verwenden](finance-how-use-edocuments.md)
+#### [Erweiterung der E-Beleg-Funktionalität](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### MWST verwalten
-#### [MWST-Verwaltung – Übersicht](finance-manage-vat.md)
+#### [MWST-Verwaltung – Übersicht](finance-manage-vat.md)
 #### [EU-Drittanbieter-Einkaufstransaktionen einrichten](finance-how-to-eu3party-trade-purchase.md)
 #### MWST einrichten
 ##### [MWST einrichten](finance-setup-vat.md)
@@ -1810,6 +1817,7 @@
 
 ## Daten in Business Intelligence Tools analysieren
 ### [Übersicht](reports-external-analysis.md)
+### [Microsoft Fabric und Business Central](admin-fabric.md)
 ### [Power BI mit Business Central verwenden](admin-powerbi.md)
 ### [Finanzauswertungen mit Excel analysieren](finance-analyze-excel.md)
 ### [Daten in Data-Warehouses oder Data Lakes extrahieren](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)

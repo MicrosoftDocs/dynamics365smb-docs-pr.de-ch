@@ -21,7 +21,7 @@ Verbraucher und Geschäfte bezahlen Mehrwertsteuer (MwSt), wenn Sie Waren oder D
 * Was Sie verkaufen  
 * Was Sie kaufen  
 
-Sie können die Berechnungen der MwSt manuell einrichten, aber das kann heikel und zeitaufwendig sein. Denn sonst wäre es sehr einfach, versehentlich unterschiedliche MWST-Sätze zu verwenden und mit MWST verknüpfte Berichte würden ungenau. Um die Einrichtung der MWST zu vereinfachen, empfehlen wir Ihnen, die geführte Anleitung **MWST einrichten** im Produkt zu verwenden. 
+Sie können die Berechnungen der MwSt manuell einrichten, aber das kann heikel und zeitaufwendig sein. Es kommt leicht vor, dass versehentlich unterschiedliche Mehrwertsteuersätze verwendet werden, wodurch ungenaue Mehrwertsteuer-verknüpfte Berichte entstehen würden. Um die Einrichtung der MWST zu vereinfachen, empfehlen wir Ihnen, die geführte Anleitung **MWST einrichten** im Produkt zu verwenden. 
 
 Wenn Sie MwSt-Berechnungen selbst einrichten möchten oder einfach mehr über jeden Schritt erfahren möchten, enthält dieser Artikel Beschreibungen jedes Schrittes:  
 
@@ -44,7 +44,7 @@ Um Sie beim schnellen Einstieg zu unterstützen, zeigt [!INCLUDE [prod_short](in
 
 Wenn Sie eine solche Benachrichtigung wählen, erstellt [!INCLUDE [prod_short](includes/prod_short.md)] automatisch diese Buchungseinstellungen basierend auf den Buchungsgruppen in dem Beleg oder Journal, an dem Sie gerade arbeiten.  
 
-An dieser Stelle können Sie einfach die fehlenden Fibukonten ausfüllen. Aber später, wenn Sie das Setup weiter verfeinern, stellen Sie möglicherweise fest, dass diese anfängliche Einrichtung falsch war. Und [!INCLUDE [prod_short](includes/prod_short.md)] erlaubt kein Löschen der MWST-Buchungseinstellungen und der allgemeinen Buchungseinstellungen, wenn Einträge auf der Grundlage solcher Konfigurationen erstellt wurden. Ab dem 1. Veröffentlichungszyklus 2022 können Sie das **Gesperrt**-Feld auf der Seite **MWST-Buchungsmatrix** verwenden, um zu verhindern, dass Benutzer versehentlich ein Setup verwenden, das für neue Buchungen nicht mehr relevant ist.
+An dieser Stelle können Sie einfach die fehlenden Fibukonten ausfüllen. Aber später, wenn Sie das Setup weiter verfeinern, stellen Sie möglicherweise fest, dass diese anfängliche Einrichtung falsch war. [!INCLUDE [prod_short](includes/prod_short.md)] erlaubt zudem kein Löschen der MWST-Buchungseinstellungen und der allgemeinen Buchungseinstellungen, wenn Einträge auf der Grundlage solcher Konfigurationen erstellt wurden. Ab dem 1. Veröffentlichungszyklus 2022 können Sie das **Gesperrt**-Feld auf der Seite **MWST-Buchungsmatrix** verwenden, um zu verhindern, dass Benutzer versehentlich ein Setup verwenden, das für neue Buchungen nicht mehr relevant ist.
 
 ## Richten Sie ein Standard-MWST-Datum für Belege und Journale ein
 
@@ -77,7 +77,7 @@ Führen Sie die folgenden Schritte aus, um die Höhe der Verwendung von MWST-Dat
 | **Verwenden ohne Änderungen zuzulassen** | Alles rund um das **MWST-Datum** funktioniert standardmässig mit einer Ausnahme. Sie können das **MWST-Datum** in **MWST-Posten**. |
 | **Die Funktion MWST-Datum nicht verwenden** | [!INCLUDE [prod_short](includes/prod_short.md)] blendet die Felder **MWST-Datum** aus und macht sie für Belege, Journale und Posten nicht verfügbar. Das **Standard-MWST-Datum** wird als **Buchungsdatum** konfiguriert. |
 
-3. Die Seite schliessen.
+3. Schliessen Sie die Seite.
 
 > [!IMPORTANT]
 > Auch wenn Sie die Option **Die Funktion MWST-Datum nicht verwenden** wählen, nutzt [!INCLUDE [prod_short](includes/prod_short.md)]**MWST-Datum** im Hintergrund. Weil das **Standard-MWST-Datum** als **Buchungsdatum** konfiguriert ist und Sie es in diesem Fall nicht ändern können, ist die Erfahrung dieselbe wie ohne diese Funktion. Die **MWST-Datum**-Felder werden von allen Seiten entfernt, aber dieses Feld ist weiterhin in Tabellen vorhanden und Berichte funktionieren basierend darauf.
@@ -91,17 +91,42 @@ Sie können verhindern, dass Personen MWST-Posten in bestimmten Datumsbereichen 
 
 #### Um die Buchung basierend auf dem MWST-Rückgabezeitraum zu begrenzen
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 1.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Finanzbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die da „Wie möchten Sie weiter verfahren“-Feature 1.](media/ui-search/search_small.png "Tell Me-Funktion") öffnet. Symbol. Geben Sie **Finanzbuchhaltung Einrichtung** ein und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie auf dem Inforegister **Allgemein** im Feld **MWST-Zeitraum kontrollieren** den Grad ein, bis zu dem der MWST-Rückgabezeitraum kontrolliert werden kann. Die Optionen werden in der folgenden Tabelle beschrieben.
 
 | Art | Beschreibung |
 |--------------------|-----------------------------------------|
-| **Buchung innerhalb geschlossenen Zeitraums sperren und für freigegebenen Zeitraum warnen** | Verhindern Sie, dass Personen einen Beleg oder ein Journal buchen oder MWST-Posten ändern, die ein MWST-Datum innerhalb eines geschlossenen **MWST-Rückgabezeitraums** haben. [!INCLUDE [prod_short](includes/prod_short.md)] zeigt auch eine Warnung an, wenn Ihr **MWST-Rückgabezeitraum** geöffnet ist, aber der Status **MWST-Rückgabe** **Freigegeben** oder **Eingereicht** lautet. |
-| **Buchung innerhalb geschlossenen Zeitraums sperren** | Verhindern Sie, dass Personen einen Beleg oder ein Journal buchen oder MWST-Posten ändern, die ein MWST-Datum innerhalb des geschlossenen **MWST-Rückgabezeitraums** haben. |
+| **Buchung innerhalb geschlossenen Zeitraums sperren und für freigegebenen Zeitraum warnen** | Verhindern Sie, dass Belege oder Journale gebucht oder MWST-Posten geändert werden, die ein MWST-Datum innerhalb eines geschlossenen **MWST-Rückgabezeitraums** haben. [!INCLUDE [prod_short](includes/prod_short.md)] zeigt auch eine Warnung an, wenn Ihr **MWST-Rückgabezeitraum** geöffnet ist, aber der Status der **MWST-Rückgabe** auf **Freigegeben** oder **Eingereicht** steht. |
+| **Buchung innerhalb geschlossenen Zeitraums sperren** | Verhindern Sie, dass Belege oder Journale gebucht oder MWST-Posten geändert werden, die ein MWST-Datum innerhalb des geschlossenen **MWST-Rückgabezeitraums** haben. |
 | **Bei Buchung in geschlossenem Zeitraum warnen** | Zeigen Sie eine Warnung an, aber blockieren Sie die Buchung nicht, wenn Sie einen Beleg oder ein Journal buchen möchten, dessen MWST-Datum in einem geschlossenen **MWST-Rückgabezeitraum** liegt. |
 | **Deaktiviert** | Ergreifen Sie keine Massnahmen basierend auf einem geschlossenen **MWST-Rückgabezeitraum**. |
 
-#### Um das Buchen basierend auf dem „Erlauben ab/bis“-Zeitraum einzuschränken
+#### Buchen basierend auf dem „Erlauben ab/bis“-Zeitraum einschränken
+
+> [!NOTE]
+> Ab Business Central Version 23.1 wird dieses Steuerelement geändert. In früheren Versionen gab es auf der Seite **Finanzbuchhaltung Einrichtung** nur ein Steuerelement sowohl für das Buchungsdatum als auch für das MWST-Datum. Jetzt sind diese Steuerelemente aufgeteilt, sodass das Steuerelement auf der Seite **Finanzbuchhaltung Einrichtung** nur für das **Buchungsdatum** gilt und das Steuerelement auf der Seite **MWST-Einrichtung** gilt nur für das **MWST-Datum**. Es gibt auch neue Datumssteuerelemente auf der Seite **Benutzereinstellungen**.  
+
+##### Version 23.1 oder neuer
+
+> [!IMPORTANT]
+> Beachten Sie beim Upgrade auf eine neue Version, dass die Werte im neuen **MWST-Datum zulassen von** auf der Seite **MWST-Einrichtung** basierend auf den Werten von **Buchungen zulassen ab/bis** unter **Finanzbuchhaltung Einrichtung** aktualisiert werden. Wenn Sie andere Datumssteuerelemente verwenden möchten, öffnen Sie die Seite **MWST-Einrichtung** und nehmen Sie Änderungen vor.  
+
+Sie können Einschränkungen für das Unternehmen oder bestimmte Benutzerebenen einrichten.
+
+So beschränken Sie alle Buchungen für das gesamte Unternehmen:
+
+1. Wählen Sie die ![Glühbirne, welche die 1. „Sie wünschen ...“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Geben Sie **MWST-Einrichtung** ein und wählen Sie dann den zugehörigen Link aus.  
+2. Geben Sie auf dem Inforegister **MWST-Datum** im Feld **MWST-Datum zulassen von** das MWST-Datum an, ab dem Sie Buchungen zulassen. Das Buchen eines Belegs oder Journals mit einem MWST-Datum vor diesem Datum ist nicht zulässig.  
+3. Geben Sie auf dem Inforegister **MWST-Datum** im Feld **MWST-Datum zulassen bis** das MWST-Datum an, bis zu dem Sie Buchungen zulassen. Das Buchen eines Belegs oder Journals mit einem MWST-Datum nach diesem Datum ist nicht zulässig. 
+
+So begrenzen Sie Buchungen für einen bestimmten Benutzenden:  
+
+1. Wählen Sie die ![Glühbirne, welche die 1. „Sie wünschen ...“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Benutzereinrichtung** ein und wählen Sie dann den zugehörigen Link aus.  
+2. Geben Sie unter **Benutzer-ID** den Benutzenden an, der in einem bestimmten Zeitraum buchen darf.  
+3. Geben Sie im Feld **MWST-Datum zulassen von** das MWST-Datum an, ab dem Sie Buchungen zulassen. Das Buchen eines Belegs oder Journals mit einem MWST-Datum vor diesem Datum ist nicht zulässig. 
+4. Geben Sie im Feld **MWST-Datum zulassen bis** das MWST-Datum an, bis zu dem Sie Buchungen zulassen. Das Buchen eines Belegs oder Journals mit einem MWST-Datum nach diesem Datum ist nicht zulässig.  
+
+##### Versionen vor 23.1 
 
 Sie können eine Einschränkung für das Unternehmen oder bestimmte Benutzerebenen einrichten.
 
@@ -114,7 +139,7 @@ So beschränken Sie alle Buchungen für das gesamte Unternehmen:
 So begrenzen Sie Buchungen für einen bestimmten Benutzenden:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 1.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Benutzereinrichtung** ein und wählen Sie dann den zugehörigen Link.  
-2. Geben Sie unter **Benutzer-ID** den Benutzenden an, dem Sie erlauben möchten, in einem bestimmten Zeitraum zu buchen.  
+2. Geben Sie unter **Benutzer-ID** den Benutzenden an, der in einem bestimmten Zeitraum buchen darf.  
 3. Geben Sie im Feld **Buchungen zulassen ab** das MWST-Datum an, ab dem Sie Buchungen zulassen. Das Buchen eines Belegs oder Journals mit einem MWST-Datum vor diesem Datum ist nicht zulässig.
 4. Geben Sie im Feld **Buchungen zulassen bis** das MWST-Datum an, bis zu dem Sie Buchungen zulassen. Das Buchen eines Belegs oder Journals mit einem MWST-Datum nach diesem Datum ist nicht zulässig.
 
@@ -152,7 +177,7 @@ Sie richten Vorgabe MWST-Geschäftsbuchungsgruppen ein, indem Sie sie mit den Ge
 
 Mithilfe der MWST-Produktbuchungsgruppencodes wird die Berechnung und Buchung der MWST gemäss der Art des gekauften Artikels oder der Art der Ressourcen bestimmt.
 
-Es ist sinnvoll, Codes zu verwenden, an die man sich einfach erinnern kann, und die die Werte, wie **Keine MwSt** oder **Null**, **MwSt** oder **Reduziert** für 10 % MwSt beschreiben, und **MwSt 25** oder **Standard** für 25 % zu verwenden.
+Es ist sinnvoll, Codes zu verwenden, an die man sich einfach erinnern kann und die die Werte beschreiben, wie etwa **Keine MWST** oder **Null**, **MWST** oder **Reduziert** für 10 % MWST und **MWST 25** oder **Standard** für 25 %.
 
 Um eine MWST.-Geschäftsbuchungsgruppe einzurichten, gehen Sie folgendermassen vor:
 
