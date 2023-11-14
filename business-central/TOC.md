@@ -589,7 +589,7 @@
 ### Segmente verwalten
 #### [Segmente](marketing-segments.md)
 #### [Segmente erstellen](marketing-how-create-segment.md)
-#### [Segmenten Kontakte hinzuzufügen](marketing-add-contact-segment.md)
+#### [Kontakte zu Segmenten hinzufügen](marketing-add-contact-segment.md)
 #### [Aktivitäten für Segmente verwalten](marketing-interaction-segments.md)
 ### Aktivitäten verwalten
 #### [Aktivitäten](marketing-interactions-overview.md)

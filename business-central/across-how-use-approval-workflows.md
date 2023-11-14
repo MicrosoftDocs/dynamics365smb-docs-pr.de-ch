@@ -78,11 +78,9 @@ Die Funktion **Benachrichtigungen über überfällige Genehmigungsbenachrichtigu
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Überfällige Genehmigungsanfragen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Überfällige Genehmigungsanfragen** die Aktion **Überfällige Genehmigungsbenachrichtigungen senden** aus.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/use-approval-workflows/)
-
 ## Siehe auch 
 
-[Artikelgenehmigungsworkflow verwenden](across-use-workflows.md)  
+[Genehmigungsworkflows verwenden](across-use-workflows.md)  
 [Workflow](across-workflow.md)  
 [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)  
 [Verkauf](sales-manage-sales.md)  

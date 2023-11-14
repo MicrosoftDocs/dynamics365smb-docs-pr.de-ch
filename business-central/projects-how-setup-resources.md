@@ -74,8 +74,6 @@ Zusätzlich zu den Kosten, die in der Ressourcenkarte angegeben werden, können 
 3. Füllen Sie auf der Seite **Ressourcenpreise** die Felder auf einer Zeile nach Bedarf aus.
 4. Wiederholen Sie Schritt 3 für jeden alternativen Ressourcenpreis, den Sie einrichten möchten.
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-jobs-resources/)
-
 ## Siehe auch 
 
 [Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md)  
