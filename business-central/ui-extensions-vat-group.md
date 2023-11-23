@@ -160,6 +160,18 @@ Wenn die Mehrwertsteuererklärung des Vertreters der Gruppe den Behörden überm
 > [!IMPORTANT]
 > Die Mehrwertsteuergruppenfunktionalität wird nur in den Märkten unterstützt, in denen [!INCLUDE[prod_short](includes/prod_short.md)] ein MWST-Rahmen verwendet wird, der aus MWST-Erklärungen und MWST-Erklärungsperioden besteht. Sie können Mehrwertsteuergruppen nicht in Märkten verwenden, in denen die lokale Mehrwertsteuerberichterstattung anders implementiert ist, z. B. in Österreich, Deutschland, Italien, Spanien und der Schweiz.
 
+## Problem mit der Aktivierung der Multi-Faktor-Authentifizierung (MFA)
+
+Wenn Sie während der Erneuerung des **OAuth2-Tokens** auf der Seite **MWST-Berichtseinrichtung** eine Fehlermeldung bezüglich der Autorisierung erhalten, gehen Sie nach der Aktivierung von MFA wie folgt vor.  
+
+1. Melden Sie sich im **Azure-Portal** als Authentifizierungsadministrierender.  
+2. Gehen Sie zu **Microsoft Entra ID**.   
+3. Gehen Sie zu **Benutzende** und wählen Sie anschliessend den Benutzenden aus, der die Aktion ausführen soll.  
+4. Wählen Sie **Authentifizierungsmethoden** und oben auf der Seite **Eine Neuregistrierung der Multi-Faktor-Authentifizierung verlangen** aus. 
+5. Gehen Sie zurück zu Dynamics 365 Business Central und wählen Sie aus, den Token aus der **MWST-Berichtseinrichtung** zu erneuern.  
+
+Dies sollte eine einmalige Einrichtung sein, nachdem Sie die Multi-Faktor-Authentifizierung für den Benutzenden aktiviert haben, den Sie in **MWST-Berichtseinrichtung** ausgewählt haben.  
+
 ## Siehe auch 
 
 [Lokale Funktionalität für Grossbritannien in der britischen Version](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
