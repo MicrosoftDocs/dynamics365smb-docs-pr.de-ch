@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: 7775
 ---
 
-# Copilot- und KI-Funktionen konfigurieren 
+# <a name="configure-copilot-and-ai-capabilities"></a>Copilot- und KI-Funktionen konfigurieren
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -34,12 +34,12 @@ In diesem Artikel wird erläutert, wie Sie den Benutzerzugriff auf Copilot und a
 
 Wenn eine dieser Anforderungen nicht erfüllt ist, steht das Feature nicht zur Verfügung.
 
-## Voraussetzungen
+## <a name="prerequisites"></a>Voraussetzungen
 
 - Sie verwenden Business Central online, Version 23.1 oder höher. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - Sie verfügen über Administrator- oder Superuserberechtigungen in Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-## Zustimmung zur Vorschauversion und den Datenschutzbestimmungen
+## <a name="allow-data-movement-across-geographies"></a>Zustimmung zur Vorschauversion und den Datenschutzbestimmungen
 
 Stimmen Sie für Ihre Organisation den Nutzungsbedingungen der [Vorschauversion](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) und den [Microsoft-Datenschutzbestimmungen](https://go.microsoft.com/fwlink/?LinkId=521839) zu. Im Gegensatz zu Datenschutzhinweisen für andere Features und Dienste können nur Administrierende der Nutzung von Azure OpenAI zustimmen und tun dies im Namen der Organisation. Benutzende können nicht selbst entscheiden.   
 
@@ -47,7 +47,7 @@ Stimmen Sie für Ihre Organisation den Nutzungsbedingungen der [Vorschauversion]
 2. Wählen Sie in der Spalte **Integrationsname** **Azure OpenAI** aus und lesen Sie dann die Ihnen angezeigten Nutzungsbedingungen.
 3. Aktivieren Sie in der Zeile **Azure OpenAI** das Kontrollkästchen **Für alle zustimmen**, um zuzustimmen, oder das Kontrollkästchen **Für alle ablehnen**, um abzulehnen.
 
-## Aktivieren Sie das Feature in der Funktionsverwaltung
+## <a name="activate-features"></a>Aktivieren Sie das Feature in der Funktionsverwaltung
 
 Die **Funktionsverwaltung** wird zum Aktivieren oder Deaktivieren von Features verwendet, die sich in der Vorschau befinden, z. B. der Bankkontoabstimmung, sowie einiger allgemein verfügbarer Features, z. B. Artikelmarketingvorschläge. [Weitere Informationen finden Sie unter Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -59,7 +59,7 @@ Die **Funktionsverwaltung** wird zum Aktivieren oder Deaktivieren von Features v
 
    Weitere Informationen zur Funktionsverwaltung im Allgemeinen finden Sie unter [Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## Datenverschiebung über geografische Regionen hinweg zulassen
+## <a name="enable-feature-in-feature-management"></a>Datenverschiebung über geografische Regionen hinweg zulassen
 
 Diese Aufgabe gilt nur, wenn der Umschalter **Datenverschiebung zulassen** oben auf der Seite **Copilot- und KI-Funktionen** erscheint. Der Umschalter **Datenverschiebung zulassen** gibt an, dass sich der Standort Ihrer Business Central-Umgebung – also die Region, in der Daten verarbeitet und gespeichert werden – nicht dieselbe ist wie die von Copilot verwendete Region für den Azure OpenAI-Dienst. Wenn Sie Copilot aktivieren möchten, müssen Sie die Datenverschiebung zwischen Regionen zulassen. Weitere Informationen zur Datenverschiebung finden Sie unter [Copilot-Datenverschiebung über geografische Regionen hinweg](ai-copilot-data-movement.md). 
 
@@ -92,7 +92,7 @@ Copilot and other AI capabilities use Azure OpenAI Service.  and are provided by
 Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service in United States or Switzerland.
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
-## Features aktivieren
+## <a name="granting-user-access"></a>Features aktivieren
 
 Mit der Seite **Copilot- und KI-Funktionen** können Sie einzelne Features für alle Benutzenden aktivieren oder deaktivieren.
 
@@ -106,14 +106,14 @@ Mit der Seite **Copilot- und KI-Funktionen** können Sie einzelne Features für 
    - Um ein Feature zu deaktivieren, wählen Sie es in der Liste aus und wählen Sie dann im Menüband **Deaktivieren** aus. 
 
 
-## Nächste Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
 Nachdem Sie die Features aktiviert und ihnen zugestimmt haben, können Sie sie ausprobieren. Gehen Sie zu:
 
 - [Marketingtext zu Artikeln hinzufügen](item-marketing-text.md) 
 - [Abstimmung mithilfe der Unterstützung bei Bankkontoabstimmung](bank-reconciliation-with-copilot.md) 
 
-## Siehe auch 
+## <a name="see-also"></a>Siehe auch
 
 [Überblick über Vorschläge für Marketingtexte](ai-overview.md)   
 [Häufig gestellte Fragen zu Vorschlägen für Marketingtexte](faqs-marketing-text.md)  
