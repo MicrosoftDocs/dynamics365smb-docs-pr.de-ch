@@ -132,6 +132,7 @@ Sie können einige Schritte unternehmen, um Textvorschläge zu verbessern und si
 ## Siehe auch 
 
 [Überblick über Vorschläge für Marketingtexte](ai-overview.md)  
+[Probleme mit Copilot- und KI-Funktionen behandeln](ai-copilot-troubleshooting.md)  
 [Häufig gestellte Fragen zu Vorschlägen für Marketingtexte](faqs-marketing-text.md)  
 [Copilot- und KI-Funktionen konfigurieren](enable-ai.md)  
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  

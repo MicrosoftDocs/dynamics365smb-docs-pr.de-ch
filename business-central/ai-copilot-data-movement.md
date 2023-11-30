@@ -5,66 +5,45 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.collection: get-started
-ms.date: 11/09/2023
+ms.collection: null
+ms.date: 11/15/2023
 ms.custom: bap-template
 ---
 
-# <a name="copilot-data-movement-across-geographies"></a>Copilot-Datenbewegung über geografische Regionen hinweg
+# Copilot-Datenbewegung über geografische Regionen hinweg 
 
-Copilot ist in allen unterstützten [geografische Regionen von Business Central](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) verfügbar. Copilot verwendet jedoch den Microsoft Azure OpenAI Dienst, der derzeit nur in einigen geografischen Regionen für Business Central verfügbar ist, derzeit in den USA und in der Schweiz. Das bedeutet, dass, wenn sich Ihre Umgebung an einem anderen Ort befindet, Daten von den Copilot- und generativen KI-Features ausserhalb Ihrer geografischen Region übertragen werden müssen und möglicherweise ausserhalb Ihrer Compliance-Grenzen verarbeitet und gespeichert werden. Zu den Daten gehören die KI-Eingabeaufforderungen und Ihre Geschäftsdaten, die von Copilot verwendet oder generiert werden. In diesem Fall müssen Sie sich dafür entscheiden, die Datenverschiebung im Azure OpenAI Dienst in einer anderen Region zuzulassen. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
+Copilot ist in allen unterstützten [Ländern/Regionen von Business Central](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) verfügbar. Copilot verwendet jedoch den Microsoft Azure OpenAI-Dienst, der derzeit nur in einigen geografischen Regionen für Business Central verfügbar ist. Das bedeutet, dass, wenn sich Ihre Umgebung an einem anderen Ort befindet, Daten von den Copilot- und generativen KI-Features ausserhalb Ihrer geografischen Region übertragen werden müssen und möglicherweise ausserhalb Ihrer Compliance-Grenzen verarbeitet und gespeichert werden. Zu den Daten gehören die KI-Eingabeaufforderungen und Ihre Geschäftsdaten, die von Copilot verwendet oder generiert werden. In diesem Fall müssen Sie sich dafür entscheiden, die Datenverschiebung im Azure OpenAI Dienst in einer anderen Region zuzulassen. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
 
 > [!IMPORTANT]
-> Wenn sich Ihre Umgebung in derselben geografischen Region wie der Azure OpenAI Dienst befindet, wird automatisch eine Verbindung zum Azure OpenAI Dienst hergestellt. Es gibt keine Option. In Europa stimmt Business Central der Datenverschiebung automatisch zu. Administrierende können sich jedoch jederzeit dafür entscheiden, sich abzumelden.
+> Wenn sich Ihre Umgebung in derselben Azure-Region wie der Azure OpenAI-Dienst befindet, wird automatisch eine Verbindung zum Azure OpenAI-Dienst hergestellt. Es gibt keine Option und es ist keine einmalige Konfiguration erforderlich.
 
 > [!NOTE]
-> Einzelne Copilot- und generative KI-Features sind möglicherweise nicht in allen geografischen Regionen von Business Central verfügbar. Wenden Sie sich an den Herausgeber der einzelnen Funktionen, um die Verfügbarkeit zu erfahren.
+> Einzelne Copilot- und generative KI-Features sind möglicherweise nicht in allen Ländern/Regionen von Business Central verfügbar. Wenden Sie sich an den Herausgeber der einzelnen Funktionen, um die Verfügbarkeit zu erfahren.
 > 
 > Copilot- und generative KI-Features von anderen Herausgebern als Microsoft, z. B. solche, die aus Anpassungen oder AppSource-Apps stammen, die Sie installieren, legen ihre eigenen spezifischen Azure OpenAI Dienstregionen fest. Wenden Sie sich an den Herausgeber der Erweiterung, um zu erfahren, welche regionalen Azure-Dienste von der Erweiterung verwendet werden. 
 
-### <a name="azure-openai-service-geographies"></a>Azure OpenAI Dienstregionen
+### Azure OpenAI Dienstregionen
 
-Die folgende Tabelle zeigt die von Copilot verwendete geografische Region des Azure OpenAI Dienstes an, basierend auf der Geografie einer Business Central-Umgebung. Diese Informationen sind wichtig, wenn Sie entscheiden, ob Sie der standortübergreifenden Datenübermittlung zustimmen. Sie können die geografische Region für Ihre Umgebung im Business Central Admin Center herausfinden, wo sie *Azure-Region* geannt wird (siehe [Umgebungen im Admin Center verwalten](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)).
+Die folgende Tabelle zeigt die von Copilot verwendete geografische Region des Azure OpenAI-Dienstes an, basierend auf der Azure-Region einer Business Central-Umgebung. Diese Informationen sind wichtig, wenn Sie entscheiden, ob Sie der standortübergreifenden Datenübermittlung zustimmen. Sie können die Azure-Region für Ihre Umgebung im Business Central Admin Center herausfinden (siehe [Verwalten von Umgebungen im Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)).
 
-| Geografische Region der Business Central-Umgebung (Azure-Region)| Geografische Region des Azure OpenAI Diensts|
-| - | - |
-|Asien (Osten, Südosten) |Vereinigte Staaten|
-|Australien (Südosten)| Vereinigte Staaten |
-|Brazilien (Süden) |Vereinigte Staaten|
-|Kanada (Mitte, Osten)|Vereinigte Staaten|
-|Europa (Westen, Norden)| Schweiz |
-|Frankreich (Mitte, Süden)|Schweiz |
-|Deutschland (Norden, Westen-Mitte)|Schweiz |
-|Indien (Mitte, Süden)|Vereinigte Staaten|
-|Japan (Osten, Westen)|Vereinigte Staaten|
-|Korea (Mitte, Süden)|Vereinigte Staaten|
-|Norwegen (Osten, Westen)|Schweiz |
-|Südafrika (Norden, Westen)|Vereinigte Staaten|
-|Schweiz (Norden, Westen) |Schweiz|
-|Vereinigte Arabische Emirate (Norden, Westen)|Vereinigte Staaten|
-|Vereinigtes Königreich (Süden, Westen)|Vereinigte Staaten|
-|Vereinigte Staaten (Mitte, Osten, Norden-Mitte, Süden-Mitte, Westen) |Vereinigte Staaten|
-<!--
-| Business Central environment geography | Azure OpenAI Service geography|
-| - | - |
-|Asia Pacific|United States|
-|Australia| United States |
-|Brazil |United States|
-|Canada|United States|
-|Europe| Switzerland |
-|France|Switzerland |
-|Germany|Switzerland |
-|France|Switzerland |
-|India|United States|
-|Japan|United States|
-|Korea|United States|
-|Norway|Switzerland |
-|Singapore|United States|
-|South Africa|United States|
-|Switzerland |Switzerland|
-|United Arab Emirates|United States|
-|United Kingdom|United States|
-|United States|United States|-->
+| Azure-Region der Umgebung| Geografische Region des Azure OpenAI Diensts|Zum Entsperren von Copilot ist eine Administratoraktion erforderlich| 
+| - | - | - |
+|Asien (Osten, Südosten) |Vereinigte Staaten|Ja|
+|Australien (Südosten)| Vereinigte Staaten |Ja, bis Update 23.2 |
+|Brazilien (Süden) |Vereinigte Staaten|Ja|
+|Kanada (Mitte, Osten)|Vereinigte Staaten|Ja|
+|Europa (Westen, Norden)| Schweden oder Schweiz |Ja|
+|Frankreich (Mitte, Süden)| Schweden oder Schweiz |Ja|
+|Deutschland (Norden, Westen-Mitte)| Schweden oder Schweiz |Ja|
+|Indien (Mitte, Süden)|Vereinigte Staaten|Ja|
+|Japan (Osten, Westen)|Vereinigte Staaten|Ja|
+|Korea (Mitte, Süden)|Vereinigte Staaten|Ja|
+|Norwegen (Osten, Westen)|Schweden oder Schweiz |Ja|
+|Südafrika (Norden, Westen)|Vereinigte Staaten|Ja|
+|Schweiz (Norden, Westen) |Schweden oder Schweiz |Ja|
+|Vereinigte Arabische Emirate (Norden, Westen)|Vereinigte Staaten|Ja|
+|Vereinigtes Königreich (Süden, Westen)|Vereinigtes Königreich|Ja, bis Update 23.2|
+|Vereinigte Staaten (Mitte, Osten, Norden-Mitte, Süden-Mitte, Westen) |Vereinigte Staaten|Nr.|
 
 > [!NOTE]
 > Sobald ein Azure OpenAI Dienst in Ihrer Business Central-Region verfügbar wird, wird Ihre Umgebung automatisch auf die Verwendung des Azure OpenAI Dienstes umgestellt und eine Anmeldung ist weder erforderlich noch möglich.  
@@ -127,6 +106,6 @@ case "AUSTRALIAEAST":
 
 -->
 
-## <a name="next-steps"></a>Nächste Schritte
+## Nächste Schritte
 
 Sie stimmen auf der Seite [Copilot- und KI-Funktionen](https://businesscentral.dynamics.com/?page=7775) zu, Datenverschiebungen über geografische Regionen hinweg zuzulassen. Weitere Informationen finden Sie unter [Datenverschiebung über geografische Regionen hinweg zulassen](enable-ai.md#allow-data-movement-across-geographies).
