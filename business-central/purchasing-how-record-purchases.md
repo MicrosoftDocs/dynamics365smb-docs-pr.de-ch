@@ -22,7 +22,7 @@ Wenn Sie die Bestandsartikel erhalten oder wenn die gekaufte Dienstleistung abge
 > [!CAUTION]  
 > Buchen Sie die physischen Artikel einer Einkaufsrechnung erst dann, wenn Sie die Artikel erhalten und die endgültigen Kosten des Kaufs, einschliesslich aller zusätzlichen Kosten, kennen. Andernfalls werden Ihr Lagerwert und DB-Zahlen möglicherweise falsch sein.
 
-### <a name="create-a-and-post-purchase-invoice"></a>Eine Verkaufsrechnung erstellen und buchen
+### <a name="create-and-post-a-purchase-invoice"></a>Eine Verkaufsrechnung erstellen und buchen
 
 Im Folgenden wird beschrieben, wie Sie eine Einkaufsrechnung erstellen. Die Schritte sind für eine Einkaufsbestellung ähnlich. Der Hauptunterschied besteht darin, dass Bestellungen zusätzliche Felder und Aktionen für die physische Handhabung von Artikeln haben.
 

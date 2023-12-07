@@ -73,7 +73,7 @@ Charles, der Servicemanager, erstellt dann einen Servicevertrag, um regelmässig
 - Es wird ein unterzeichneter Servicevertrag mit Hauptbucheinträgen erstellt
 - Es wird eine gebuchte Servicerechnung erstellt
 
-## <a name="creating-a-service-order-for-a-service-contract-and-assign-resources"></a>Erstellen eines Serviceauftrags für einen Servicevertrag und Zuweisen von Ressourcen
+## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Erstellen eines Serviceauftrags für einen Servicevertrag und Zuweisen von Ressourcen
 
 ### <a name="scenario-2"></a>Szenario
 

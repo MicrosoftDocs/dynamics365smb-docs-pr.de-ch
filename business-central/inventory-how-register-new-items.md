@@ -99,7 +99,7 @@ Wenn die angeforderte Menge, beispielsweise in einer Verkaufszeile, die Menge ü
 
 Erfahren Sie mehr über Varianten unter [Produktvarianten verwalten](inventory-item-variants.md).  
 
-## <a name="deleting-item-cards"></a>Löschen von Artikelkarten
+## <a name="delete-item-cards"></a>Löschen von Artikelkarten
 
 Wenn Sie eine Transaktion für einen Artikel gebucht haben, können Sie die Karte nicht löschen, da die Posten möglicherweise für die Bestandsbewertung oder die Prüfung erforderlich sind. Um Artikelkarten mit Posten zu löschen, wenden Sie sich an einen Microsoft-Partner, um dies über einen Code durchzuführen.  
 
