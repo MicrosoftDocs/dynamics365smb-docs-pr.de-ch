@@ -11,10 +11,10 @@ ms.search.form: '3010830, 3010831, 3010832,3010834, 3010835'
 ms.date: 11/27/2023
 ms.author: bholtorf
 ---
-# LSV+-Zahlungen buchen
+# <a name="post-lsv-payments"></a>LSV+-Zahlungen buchen
 Zahlungen können nach Empfang einer LSV+ (Lastschrift Verfahren)-Zahlungsanzeige von der Bank gebucht werden.  
 
-## So buchen Sie LSV+-Zahlungen  
+## <a name="to-post-lsv-payments"></a>So buchen Sie LSV+-Zahlungen
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell Me-Funktion") Geben Sie im **Zahlungseingangsprotokolle** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie das entsprechende Journal aus und wählen Sie dass **Journal bearbeiten** aus.  
@@ -36,7 +36,7 @@ Zahlungen können nach Empfang einer LSV+ (Lastschrift Verfahren)-Zahlungsanzeig
 
 6.  Wählen Sie die Aktion **Buchen** aus.  
 
-## Siehe auch   
+## <a name="see-also"></a>Siehe auch
  [Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md)   
  [Verarbeiten eines LSV-Einzugs](how-to-process-an-lsv-collection.md)   
  [Abschliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md)   
