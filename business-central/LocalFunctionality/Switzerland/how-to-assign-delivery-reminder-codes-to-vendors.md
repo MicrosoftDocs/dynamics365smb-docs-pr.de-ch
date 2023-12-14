@@ -8,18 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.search.form: '5005270, 5005272'
-ms.date: 06/21/2021
+ms.date: 11/03/2023
 ms.author: bholtorf
 ---
-# <a name="assign-delivery-reminder-codes-to-vendors-in-the-swiss-version"></a>Zuweisen von Lieferanmahnungen zu Kreditoren in der Schweizer Version
+# Zuweisen von Lieferanmahnungen zu Kreditoren in der Schweizer Version
 
 [!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
-[Registriert einen neuen Kreditor](../../purchasing-how-register-new-vendors.md)  
+[Neue Kreditoren einrichten](../../purchasing-how-register-new-vendors.md)  
 [Lieferanmahnungen](delivery-reminders.md)  
-[Gewusst wie: Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md)  
+[Lieferanmahnungen einrichten](how-to-set-up-delivery-reminders.md)  
 [Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
 [So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)  
 [Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md)  

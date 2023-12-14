@@ -7,17 +7,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 06/21/2021
+ms.date: 11/16/2023
 ms.author: bholtorf
 ---
-# <a name="create-delivery-reminders-manually-in-the-swiss-version"></a>Lieferanmahnungen manuell erstellen in der Schweizer Version
+# Lieferanmahnungen manuell erstellen in der Schweizer Version
 
 [!INCLUDE [delivery-reminders-create-manually](../includes/ATCHDE/delivery-reminders-create-manually.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Lieferanmahnungen](delivery-reminders.md)  
-[So erstellen Sie Lieferanmahnungen](how-to-generate-delivery-reminders.md)  
+[Lieferanmahnungen generieren](how-to-generate-delivery-reminders.md)  
 [Gewusst wie: Einrichten von Lieferanmahnungen](how-to-set-up-delivery-reminders.md)  
 [Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
 [So werden Lieferanmahnungscodes zu Kreditoren zugewiesen](how-to-assign-delivery-reminder-codes-to-vendors.md)  
