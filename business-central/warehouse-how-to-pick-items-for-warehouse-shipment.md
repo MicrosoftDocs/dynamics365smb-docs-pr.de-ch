@@ -10,7 +10,7 @@ ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Um Artikel für den Warenausgang zu kommissionieren
+# Um Artikel für den Warenausgang zu kommissionieren
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] kommissionieren und versenden Sie Artikel wie in der folgenden Tabelle beschrieben, mit einer von vier Methoden.
 
@@ -39,11 +39,11 @@ Sie können keine Lagerkommissionierbelege von Grund auf erstellen. Kommissionie
 >  
 > Weitere Informationen über das Kommissionieren von Komponenten für Montageaufträge, einschliesslich von Situationen, in denen Montageartikel nicht mit einer Verkaufslieferung fällig sind, finden Sie unter [Kommissionierung für Fertigung, Montage oder Projekte in erweiterten Lagerkonfigurationen](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Prüfen Sie, ob Artikel zur Kommissionierung verfügbar sind
+## Prüfen Sie, ob Artikel zur Kommissionierung verfügbar sind
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>So erstellen Sie Kommissionierungsbelege mit dem Kommissionierungsarbeitsblatt in Masse
+## So erstellen Sie Kommissionierungsbelege mit dem Kommissionierungsarbeitsblatt in Masse
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Kommissionierarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 
@@ -66,7 +66,7 @@ Sie können keine Lagerkommissionierbelege von Grund auf erstellen. Kommissionie
 6. Bearbeiten Sie diese Positionen bei Bedarf. Sie können auch Zeilen löschen, um die Kommissionierung effektiver zu machen. Wenn es z. B. mehrere Zeilen mit Artikeln in Crossd.-Lagerplätzen gibt, möchten Sie möglicherweise eine Kommissionierung für alle Zeilen erzeugen, die mit all diesen Zeilen zusammenhängen. Die zugeordneten Artikel werden ausgeliefert (mit anderen Artikeln im Warenausgang) und die Crossdocklagerplätze haben wieder Platz für neue ankommende Artikel.  
 
     > [!NOTE]  
-    >  Wenn Sie Zeilen löschen, werden sie nur aus dem Arbeitsblatt gelöscht. Sie werden nicht aus der Kommissionierungsauswahlliste gelöscht.  
+    >  Wenn Sie Zeilen löschen, werden sie aus dem Arbeitsblatt gelöscht. Sie werden nicht aus der Kommissionierungsauswahlliste gelöscht.  
 
 7. Wählen Sie die Aktion **Kommissionierung erstellen** aus. Die Seite **Kommissionierung erstellen** wird geöffnet, auf der Sie der von Ihnen erstellten Kommissionierung weitere Informationen hinzufügen können. Geben Sie an, wie Kommissionierungszeilen in den Kommissionierungsbelegen kombiniert werden sollen, indem Sie eine der folgenden Optionen auswählen.  
 
@@ -93,7 +93,7 @@ Sie können keine Lagerkommissionierbelege von Grund auf erstellen. Kommissionie
 
 8. Wählen Sie **OK** aus. [!INCLUDE [prod_short](includes/prod_short.md)] erstellt die Kommissionierung gemäss Ihrer Auswahl.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>So kommissionieren Sie Artikel für einen Warenausgang
+## So kommissionieren Sie Artikel für einen Warenausgang
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lager-Kommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
 
@@ -105,23 +105,23 @@ Sie können keine Lagerkommissionierbelege von Grund auf erstellen. Kommissionie
 
     Wenn das Lager mit gesteuerter Einlagerung und Kommissionierung eingerichtet wurde, werden die Lagerplatzränge verwendet, um die besten Lagerplätze für die Kommissionierung zu berechnen. Diese Lagerplätze werden in den Kommissionierungszeilen vorgeschlagen. Die Anweisungen enthalten mindestens zwei separate Zeilen für jede der Aktionen Entnahme und Einlagerung.  
 
-    * Die erste Zeile mit dem Feld **Lagerentnahme** im Feld **Aktionsart** zeigt an, wo sich die Artikel im Kommissionierungsbereich befinden. Wenn Sie eine grosse Menge an Artikeln in einer Lieferzeile liefern, müssen Sie möglicherweise die Artikel in mehrere Lagerplätze kommissionieren, damit es eine Zeile der Art Auslagerung für jeden Lagerplatz gibt.
+    * Die erste Zeile mit dem Feld **Lagerentnahme** im Feld **Aktionsart** zeigt an, wo sich die Artikel in der Kommissionierungsregion befinden. Wenn Sie eine grosse Menge an Artikeln in einer Lieferzeile liefern, müssen Sie möglicherweise die Artikel in mehrere Lagerplätze kommissionieren, damit es eine Zeile der Art Auslagerung für jeden Lagerplatz gibt.
     * Die nächste Zeile, mit **Einlagerung** in der **Aktionsart** zeigt an, wo Sie die Artikel im Lager einlagern müssen. Sie können die Zone und den Lagerplatz in dieser Zeile nicht ändern.
 
     > [!NOTE]
     > Wenn Sie die Artikel für eine Zeile in mehr als einem Lagerplatz kommissionieren oder platzieren müssen, beispielsweise, da der freie Lagerplatz voll ist, verwenden Sie die Aktion **Zeile aufteilen** im Inforegister **Zeilen**. Die Aktion erstellt eine Zeile für die zu bearbeitende Restmenge.
 
-4. Nachdem Sie die Kommissionierung ausgeführt und die Artikel in den Ausgangsbereich oder den Ausgangslagerplatz eingelagert haben, wählen Sie die Aktion **Kommissionierung registrieren** aus.  
+4. Nachdem Sie die Kommissionierung ausgeführt und die Artikel in die Ausgangsregion oder den Ausgangslagerplatz eingelagert haben, wählen Sie die Aktion **Kommissionierung registrieren** aus.  
 
 Sie können die Artikel in den Warenausgang bringen und den Warenausgang, einschliesslich dem zugehörigen Herkunftsbeleg, auf der Seite **Warenausgang** buchen. Erfahren Sie mehr unter [Elemente versenden](warehouse-how-ship-items.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
-[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
-[Bestand](inventory-manage-inventory.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
-[Montageverwaltung](assembly-assemble-items.md)    
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+- [Lagerverwaltung – Übersicht ](design-details-warehouse-management.md)
+- [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
+- [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
+- [Montageverwaltung](assembly-assemble-items.md)    
+- [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

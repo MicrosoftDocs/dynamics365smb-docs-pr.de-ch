@@ -9,11 +9,11 @@ ms.search.keywords: null
 ms.date: 09/12/2023
 ms.custom: bap-template
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Kommissionierung für Montage, Produktion oder Projekte in erweiterter Lagerkonfiguration
+# Kommissionierung für Montage, Produktion oder Projekte in erweiterter Lagerkonfiguration
 
 Wie Sie Ihre Komponenten für Produktion, Projekte oder Montageaufträge kommissionieren, hängt davon ab, wie Ihr Lagerort eingerichtet wurde. Weitere Informationen finden Sie unter [Einrichten von Warehouse Management](warehouse-setup-warehouse.md).
 
-Aktivieren Sie in einer erweiterten Lagerkonfiguration für den ausgehenden Fluss (Kommissionierung) die Schalter **Kommissionierung erfordern** und **Lieferung erforderlich** auf der Seite **Lagerortkarte** für den Lagerort.
+Aktivieren Sie in einer erweiterten Lagerkonfiguration für den ausgehenden Flow (Kommissionierung) die Umschalter **Kommissionierung erfordern** und **Lieferung erforderlich** auf der Seite **Lagerortkarte** für den Lagerort.
 
 Wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung der Kommissionierung und des Warenausgangs erforderlich ist, verwenden Sie die Kommissionierungsbelege, um Kommissionierungsinformationen des Warenausgangs zu erstellen und zu bearbeiten, bevor Sie die Nutzung oder den Verbrauch von Komponenten buchen.  
 
@@ -30,22 +30,22 @@ Um Komponenten für Herkunftsbelege im Pull-Verfahren zu kommissionieren oder zu
 |Montageauftrag|Änderung des Status in "Freigegeben".|
 |Aufträge | Ändern Sie den Status auf Offen, oder erstellen Sie sofort einen Auftrag mit dem Status Offen.|  
 
-## <a name="production"></a>Produktion
+## Produktion
 
 Verwenden Sie **Lagerkommissionierungsbelege** für die Kommissionierung von Produktionskomponenten im Fluss zur Produktion.
 
 Für einen Lagerort, der Lagerplätze verwendet, um Artikel in offenem Lagerplätze im Fertigungsbereich zu verschieben, können Sie die folgenden Methoden verwenden:
 
 * Befolgen Sie für einen Lagerort, der gesteuertes Einlagern und Kommissionieren verwendet, die Schritte im Artikel [Artikel in erweiterten Lagerkonfigurationen verschieben](warehouse-how-to-move-items-in-advanced-warehousing.md).
-* Befolgen Sie für andere Lagerorte die Schritte im Artikel [Artikel ungeplant in grundlegenden Lagerkonfigurationen verschieben](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
+* Befolgen Sie für andere Lagerorte die Schritte im Artikel [Interne Umlagerung von Artikeln in Basis-Lagerkonfigurationen](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-## <a name="assembly"></a>Montage
+## Montage  
 
-Verwenden Sie **Kommissionierungs**-Belege, um Montagekomponenten in den Montagebereich zu verschieben.
+Verwenden Sie **Kommissionierungs**-Belege, um Montagekomponenten in die Montageregion zu verschieben.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] unterstützt Lagermontage und Auftragsmontage-Typen von Montageflüssen. Weitere Informationen zur Auftragsmontage im ausgehenden Lagerfluss finden Sie unter [Handhabung von Auftragsmontageartikeln in Lagerlieferungen](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Projektmanagement
+## Projektmanagement  
 
 Verwenden Sie **Lagerkommissionierungs**-Belege für die Kommissionierung von Auftragskomponenten im Fluss zum Produktionsmanagement.
 
@@ -54,11 +54,11 @@ Verwenden Sie **Lagerkommissionierungs**-Belege für die Kommissionierung von Au
 >
 > Aufträge unterstützen keine erweiterten Konfigurationen, bei denen der Schalter **Gezielte Entnahme und Einlagerung** aktiviert ist.
 
-## <a name="check-whether-items-are-available-for-picking"></a>Prüfen Sie, ob Artikel zur Kommissionierung verfügbar sind
+## Prüfen Sie, ob Artikel zur Kommissionierung verfügbar sind
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>So erstellen Sie Kommissionierungsbelege mit dem Kommissionierungsarbeitsblatt in Masse
+## So erstellen Sie Kommissionierungsbelege mit dem Kommissionierungsarbeitsblatt in Masse
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Kommissionierarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 
@@ -111,7 +111,7 @@ Verwenden Sie **Lagerkommissionierungs**-Belege für die Kommissionierung von Au
 
 8. Wählen Sie die Schaltfläche **OK**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Zur Entnahme von Artikeln für einen Produktionsauftrag, Montageauftrag oder Auftrag
+## Zur Entnahme von Artikeln für einen Produktionsauftrag, Montageauftrag oder Auftrag
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Kommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
 
@@ -125,21 +125,21 @@ Verwenden Sie **Lagerkommissionierungs**-Belege für die Kommissionierung von Au
 
     Wenn das Lager mit gesteuerter Einlagerung und Kommissionierung eingerichtet wurde, werden die Lagerplatzränge verwendet, um die besten Lagerplätze für die Kommissionierung zu berechnen. Diese Lagerplätze werden in den Kommissionierungszeilen vorgeschlagen. Die Anweisungen enthalten mindestens zwei separate Zeilen für jede der Aktionen Entnahme und Einlagerung.  
 
-    * Die erste Zeile mit dem Feld **Lagerentnahme** im Feld **Aktionsart** zeigt an, wo sich die Artikel im Kommissionierungsbereich befinden. Wenn Sie eine grosse Menge an Artikeln in einer Lieferzeile liefern, müssen Sie möglicherweise die Artikel in mehrere Lagerplätze kommissionieren, damit es eine Zeile der Art Auslagerung für jeden Lagerplatz gibt.
+    * Die erste Zeile mit dem Feld **Lagerentnahme** im Feld **Aktionsart** zeigt an, wo sich die Artikel in der Kommissionierungsregion befinden. Wenn Sie eine grosse Menge an Artikeln in einer Lieferzeile liefern, müssen Sie möglicherweise die Artikel in mehrere Lagerplätze kommissionieren, damit es eine Zeile der Art Auslagerung für jeden Lagerplatz gibt.
     * Die nächste Zeile, mit **Einlagerung** in der **Aktionsart** zeigt an, wo Sie die Artikel im Lager einlagern müssen. Sie können die Zone und den Lagerplatz in dieser Zeile nicht ändern.
 
     > [!NOTE]
     > Wenn Sie die Artikel für eine Zeile in mehr als einem Lagerplatz kommissionieren oder platzieren müssen, beispielsweise, da der freie Lagerplatz voll ist, verwenden Sie die Aktion **Zeile aufteilen** im Inforegister **Zeilen**. Die Aktion erstellt eine Zeile für die zu bearbeitende Restmenge.
 
-4. Nachdem Sie die Artikel im Produktions-, Fertigungs- oder Auftragsbereich oder -lagerplatz kommissioniert oder platziert haben, wählen Sie die Aktion **Kommissionierung registrieren** aus.  
+4. Nachdem Sie die Artikel in der Produktions-, Fertigungs- oder Auftragsregion oder dem -lagerplatz kommissioniert oder platziert haben, wählen Sie die Aktion **Kommissionierung registrieren** aus.  
 
-    Sie können nun die Artikel in den entsprechenden Bereich bringen und die Verwendung oder den Verbrauch der kommissionierten Komponenten buchen, indem Sie das Verbrauchsjournal, den Montageauftrag oder das Auftragsjournal buchen. Die folgenden Artikel bieten weitere Informationen:
+    Sie können nun die Artikel in die entsprechende Region bringen und die Verwendung oder den Verbrauch der kommissionierten Komponenten buchen, indem Sie das Verbrauchsjournal, den Montageauftrag oder das Auftragsjournal buchen. Die folgenden Artikel bieten weitere Informationen:
 
     * [Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile](production-how-to-register-consumption-and-output.md)
     * [Artikel montieren](assembly-how-to-assemble-items.md)
     * [Verbrauch oder Nutzung für Aufträge erfassen](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Buchung von Produktionskomponenten in einer erweiterten Lagerkonfiguration
+## Buchung von Produktionskomponenten in einer erweiterten Lagerkonfiguration
 
 Die Buchungsmethoden beeinflussen den Fluss der Komponenten in der Produktion. Weitere Informationen finden Sie unter [Komponenten entsprechend dem Arbeitsgangs-Ausstoss leeren](production-how-to-flush-components-according-to-operation-output.md). Abhängig von der gewählten Buchungsmethode können Sie Komponenten für die Produktion auf folgende Weise kommissionieren:
 
@@ -147,7 +147,7 @@ Die Buchungsmethoden beeinflussen den Fluss der Komponenten in der Produktion. W
 * Verwenden Sie ein **Lagerkommissionierungs**-Dokument , um die Kommissionierung für Artikel aufzuzeichnen, die die Buchungsmethode **Kommissionnieren + vorwärts**, **Kommissionieren + rückwärts** verwenden. Der Verbrauch der Komponenten erfolgt automatisch, wenn Sie entweder den Status des Produktionsauftrags ändern oder einen Vorgang starten oder beenden. Alle benötigten Komponenten müssen verfügbar sein. Andernfalls stoppt das Buchen geleerten Verbrauchs für diese Komponente.
 * Verwenden Sie einen **Lagerplatzumlagerungs**-Beleg ohne eine Referenz, um einen Herkunftsbeleg oder andere Methoden, um die Umlagerung von Komponenten aufzuzeichnen, die die Buchungsmethode **Vorwärts** oder **Rückwärts** verwenden. Komponenten werden automatisch verbraucht, wenn Sie sie entweder den Status des Produktionsauftrags ändern oder einen Vorgang starten oder beenden. Alle benötigten Komponenten müssen verfügbar sein. Andernfalls stoppt das Buchen geleerten Verbrauchs für diese Komponente. Erfahren Sie mehr unter [Artikel umlagern](warehouse-move-items.md).
 
-### <a name="example"></a>Beispiel
+### Beispiel
 
 Sie haben einen Fertigungsauftrag für 15 STÜCK des Artikels SP-SCM1004. Einige der Artikel auf der Komponentenliste müssen manuell in ein Verbrauchsjournal gebucht werden. Andere Artikel können mit der Buchungsmethode **Kommissionieren + Rückwärts** entnommen und automatisch gebucht werden.  
 
@@ -170,13 +170,13 @@ Die folgende Abbildung zeigt, wann das Feld **Lagerplatzcode** auf der Komponent
 
 :::image type="content" source="media/binflow.png" alt-text="Übersicht, wann und wie das Feld Lagerplatz ausgefüllt wird.":::
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
-[Bestand](inventory-manage-inventory.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
-[Montageverwaltung](assembly-assemble-items.md)  
-[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+- [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
+- [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
+- [Montageverwaltung](assembly-assemble-items.md)  
+- [Lagerverwaltung – Übersicht ](design-details-warehouse-management.md)
+- [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
