@@ -1,5 +1,5 @@
 ---
-title: Details zum Anwendungsdesign
+title: Anwendungsdesigndetails
 description: Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwendungsbereiche in  Business Central.
 author: brentholtorf
 ms.topic: conceptual
@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 11/26/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
 ---
-# <a name="application-design-details"></a>Details zum Anwendungsdesign
+# Anwendungsdesigndetails
 
 Die Artikel in diesem Abschnitt enthalten detaillierte technische Informationen zu komplexen Anwendungsbereiche in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -26,10 +26,10 @@ Der Designdetailinhalt wendet sich an Implementierer, Entwickler und Superuser, 
 |Informationen zu historischen und aktuellen Darstellungsarten von Artikeltrackingfunktionen und wie diese mit dem Reservierungssystem verknüpft werden können, um Serien-/Chargennummern bei der Verfügbarkeitsberechnung zu berücksichtigen.|[Designdetails: Artikeltracking](design-details-item-tracking.md)|  
 |Erfahren Sie mehr über die Finanzbuchhaltungs-Buchungsfunktion.|[Designdetails: Fibu Erf.-Journal-Beitrags-Zeile](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Weitere Informationen
+## Siehe auch 
 
 [Planung](production-planning.md)  
-[Verwalten der Bestandsregulierung](finance-manage-inventory-costs.md)  
+[Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 [Einrichten komplexer Anwendungsbereiche mithilfe von Best Practices](set-up-complex-application-areas-using-best-practices.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

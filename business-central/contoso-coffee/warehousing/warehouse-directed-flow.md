@@ -1,5 +1,5 @@
 ---
-title: 'Wareneingang, Einlagerung, Umlagerung, Kommissionierung und Versand in der erweiterten Lagerkonfiguration mit gezielter Kommissionierung und Einlagerung'
+title: 'Eingang, Einlagerung, Umlagerung, Kommissionierung und Versand in erweiterten Lagerkonfigurationen'
 description: 'Die ein- und ausgehenden Prozesse für das Empfangen und Einlagern auf vier Arten, mit den verschiedenen Funktionen, immer abhängig von der Lagerkomplexitätsebene, ausgeführt werden.'
 author: brentholtorf
 ms.topic: conceptual
@@ -8,15 +8,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.search.form: null
-ms.date: 04/01/2021
+ms.date: 12/07/2023
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Exemplarische Vorgehensweise des eingehenden und ausgehenden Flows in der erweiterten Lagerkonfiguration mit gesteuerter Einlagerung und Kommissionierung
+# Exemplarische Vorgehensweise für ein- und ausgehende Flows in erweiterten Lagerkonfigurationen
 
 Diese exemplarische Vorgehensweise zeigt, wie eingehende und ausgehende Flows in der Konfiguration Erweitert: Gezielte Einlagerung und Kommissionierung abgeschlossen werden. Weitere Informationen finden Sie unter [Übersicht über verschiedene Konfigurationsoptionen](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Voraussetzungen
+## Voraussetzungen  
 Um diese exemplarische Vorgehensweise zu beenden, müssen Sie selber einen Lagermitarbeiter am Standort *WEISS* mit folgenden Schritten erstellen:  
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 1.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto auf der Seite **Benutzer** aus.  
@@ -24,10 +24,10 @@ Um diese exemplarische Vorgehensweise zu beenden, müssen Sie selber einen Lager
 4. Aktivieren Sie die Umschaltung **Standard**.
 
 
-## <a name="scenario"></a>Szenario
+## Szenario  
 Ellen, die Lagerleiterin, nutzt Cross-Docking- und Behälternachschubfunktionen, um die Wareneingangs- und Versandzeit zu verkürzen.  
 
-## <a name="steps"></a>Schritte
+## Schritte
 
 1. Warenausgang erstellen.  
 
@@ -36,7 +36,7 @@ Ellen, die Lagerleiterin, nutzt Cross-Docking- und Behälternachschubfunktionen,
     3. Wählen Sie im Herkunftsbeleg die Aktion **Warenausgang erstellen** aus, um einen Warenausgang für den ausgewählten Verkaufsauftrag zu erstellen.
     4. Wählen Sie die Aktion **Freigeben**, um das Lager zu informieren, dass der Versand im Lager bereit ist.  
 
-2. Definieren Sie Lagerplätze für den Artikel, um zu steuern, wo er eingelagert wird 
+2. Legen Sie Lagerplätze für den Artikel fest, um zu steuern, wo er eingelagert wird 
 
     1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 3.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
     2.  Wählen Sie *WBR-1000* und wählen Sie die Aktion **Behälter-Inhalte**.  
@@ -55,8 +55,8 @@ Ellen, die Lagerleiterin, nutzt Cross-Docking- und Behälternachschubfunktionen,
 
 
 4. Überprüfen Sie, ob es ausgehende Bestellungen gibt, die empfangene Artikel benötigen, und buchen Sie die Quittung
-    1. Wählen Sie die Aktion **Crossdocking berechnen** aus. Dadurch wird eine Spalte **Menge zum Cross-Dock** ausgefüllt.
-    2. Geben Sie 0 in das Feld **Menge zum Cross-Dock** in der Zeile mit Artikel *WRB-1000* ein, da Sie nicht vorhaben, im Wareneingangsbereich umzupacken.
+    1. Wählen Sie die Aktion **Crossdocking berechnen** aus. Dadurch wird eine Spalte **Menge für Crossdocking** ausgefüllt.
+    2. Geben Sie 0 in das Feld **Menge zum Cross-Dock** in der Zeile mit Artikel *WRB-1000* ein, da Sie nicht vorhaben, in der Wareneingangsregion umzupacken.
     3. Wählen Sie die Aktion **Beleg Buchen**.
 
 5. So registrieren Sie eine Wareneinlagerung
@@ -66,10 +66,10 @@ Ellen, die Lagerleiterin, nutzt Cross-Docking- und Behälternachschubfunktionen,
 
     In diesem Stadium wird die Lagerplatz-Kapazitätslogik offenbart. Die Lagereinlagerungszeilen haben drei Zeilen für Artikel *WRB-1000*:
     - A Entnahmeleitung zum Abtransport der eingegangenen Mengen am Lagerplatz (W-08-0001)
-    - Eine Platzierungslinie, die einen Beutel in einen der konfigurierten festen Behälter bewegt (W-05-0001)
-    - Eine Platzierungslinie, die einen anderen BAG in einen anderen festen Behälter bewegt (W-05-0002). Dies liegt daran, dass ein einzelner fester Lagerplatz nicht die vollständige Wareneingangsmenge enthalten kann.
+    - Eine Platzierungszeile, die einen Behälter in einen der konfigurierten festen Lagerplätze umlagert (W-05-0001)
+    - Eine Platzierungslinie, die einen anderen Behälter in einen anderen festen Lagerplatz bewegt (W-05-0002). Dies liegt daran, dass ein einzelner fester Lagerplatz nicht die vollständige Wareneingangsmenge enthalten kann.
 
-    Da diese Einlagerung Crossdockpositionen enthält, sehen Sie drei Zeilen für Artikel *WRB-1001*:
+    Da diese Einlagerung Crossdockingpositionen enthält, sehen Sie drei Zeilen für Artikel *WRB-1001*:
     -  A Entnahmeleitung zum Abtransport der eingegangenen Mengen am Lagerplatz (W-08-0001)
     -  A Platzieren Sie die Linie für die 2 in den Cross-Dock-Behälter
     -  A Platzieren Sie die Restmenge am Lagerplatz
@@ -77,7 +77,7 @@ Ellen, die Lagerleiterin, nutzt Cross-Docking- und Behälternachschubfunktionen,
     4. Wählen Sie die Aktion **Einlagerung erstellen** aus.
 
 
-6. Definieren Sie Lagerplätze für den Artikel, um zu steuern, wo er entnommen wird 
+6. Lagerplätze für den Artikel festlegen, um zu steuern, wo er entnommen wird 
 
     1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 6.](../../media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
     2.  Öffnen Sie die *WHITE* Lagerortkarte.  
@@ -91,12 +91,12 @@ Ellen, die Lagerleiterin, nutzt Cross-Docking- und Behälternachschubfunktionen,
 
     Verwenden Sie die Personalisierungstools, wenn die Felder **Min. Menge** und **Max. Menge** nicht sichtbar sind. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](../../ui-personalization-user.md). 
 
-7. Reorganisieren Sie das Lager, indem Sie Artikel vom Massenlager- in den Kommissionierbereich verschieben, um die Kommissionierzeit zu optimieren.
+7. Reorganisieren Sie das Lager, indem Sie Artikel von der Massenlager- in die Kommissionierregion verschieben, um die Kommissionierzeit zu optimieren.
 
     1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 7.](../../media/ui-search/search_small.png "Tell Me-Funktion") Symbol, geben Sie **Arbeitsblätter für Lagerplatzumlagerungen** ein und wählen Sie dann den zugehörigen Link
     2. Wählen Sie die Aktion **Lagerplatzauffüllung berechnen**. 
 
-    Das Lagerarbeitsblatt mit Vorschlag zur Verschiebung des Artikels *WRB-1000* vom Massenlager zum Kommissionierbereich wird erstellt.
+    Das Lagerarbeitsblatt mit Vorschlag zur Verschiebung des Artikels *WRB-1000* vom Massenlager zur Kommissionierregion wird erstellt.
 
     3. Wählen Sie die Aktion **Umlagerung erstellen**, um das Dokument zu erstellen und zu bestätigen.
     4.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 8.](../../media/ui-search/search_small.png "Tell Me-Funktion") Symbol, geben Sie **Warenausgänge** ein und wählen Sie dann den entsprechenden Link
@@ -120,7 +120,7 @@ Ellen, die Lagerleiterin, nutzt Cross-Docking- und Behälternachschubfunktionen,
     4. Wählen Sie die Aktion **Kommissionierung erstellen** aus.
     5. Bestätigen Sie alle erforderlichen Auswahleinstellungen, aktivieren Sie beispielsweise die Umschaltung **Pro von Zone**. Wählen Sie die Schaltfläche **OK** aus.
     
-    Sie erhalten eine Bestätigungsnachricht mit den Auswahlnummern. Es gibt zwei Kommissionierungen, da sich einige Artikel in der Cross-Dock-Zone in der Nähe des Versandbereichs befinden und es sinnvoll wäre, sie getrennt zu bearbeiten.
+    Sie erhalten eine Bestätigungsnachricht mit den Auswahlnummern. Es gibt zwei Kommissionierungen, da sich einige Artikel in der Cross-Dock-Zone in der Nähe der Versandregion befinden und es sinnvoll wäre, sie getrennt zu bearbeiten.
 
 9.  So registrieren Sie die Lagerkommissionierung
     1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 10.](../../media/ui-search/search_small.png "Tell Me-Funktion") Symbol, geben Sie **Lager-Kommissionierungen** ein und wählen Sie dann den zugehörigen Link.
@@ -136,7 +136,7 @@ Ellen, die Lagerleiterin, nutzt Cross-Docking- und Behälternachschubfunktionen,
     4. Bestätigen Sie die Option **Versenden** .
 
 
-## <a name="results"></a>Ergebnisse
+## Ergebnisse
 - die Seite **Gebuchte Lagerbelege** wird geöffnet
 - die **Registrierte Lager-Einlagerung** wird erstellt    
 - die Seite **Gebuchte Eingangsbelege** wird geöffnet    
@@ -150,7 +150,7 @@ Ellen, die Lagerleiterin, nutzt Cross-Docking- und Behälternachschubfunktionen,
 
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 [Artikel empfangen](../../warehouse-how-receive-items.md) 
 [Design Details: Eingehender Lagerflow](../../design-details-inbound-warehouse-flow.md) 
 [Versandartikel](../../warehouse-how-ship-items.md) 

@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 40
-ms.date: 04/01/2021
+ms.date: 12/12/2023
 ms.author: bholtorf
 ---
-# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Schliessen von offenen Lagerposten aus einem festen Ausgleich im Artikel Erf.-Journal
+# Offene Lagerposten aus einem festen Ausgleich im Artikel-Erf.-Journal schliessen
 
 Sie können das Feld **Ausgegl. von Posten** auf der Seite **Artikel Erf.-Journal** verwenden, um einen festen Ausgleich zwischen einer eingehenden Transaktion und der ursprünglichen ausgehenden Transaktion zu erstellen. Beispielsweise um die ausgehende Transaktion zu korrigieren oder ihre Rückgabe zu verarbeiten.  
 
@@ -23,18 +23,18 @@ Sie können Ausgleichsposten unter bestimmten Bedingungen ändern und erneut anw
 
 Der folgende Ablauf zeigt, wie solche Posten durch Ausführen von zwei korrigierenden Buchungen im Artikel Erfassungsjournal geschlossen werden.  
 
-## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>So schliessen Sie offene Lagerposten, die aus einem festen Ausgleich im Artikel Erfassungsjournal entstanden sind
+## So schliessen Sie offene Lagerposten, die aus einem festen Ausgleich im Artikel Erfassungsjournal entstanden sind  
 
 1. Verwenden Sie das Feld **Ausgegl. von Posten**, um einen Zugang mit der entsprechenden Menge zu buchen. Dadurch wird der ursprüngliche negative Posten mit einem festen Ausgleich geschlossen.  
 
     Das Feld **Ausgegl.-von-Posten** gibt die Nummer des ausgehenden Lagerpostens an, dessen Einstandspreis dem eingehenden Lagerposten weitergeleitet wird, wenn Sie eine eingehende Transaktion des Typs **Zugang** oder **Einkauf** mit dem Artikel Erf.-Journal buchen.  
 2. Verwenden Sie das Feld **Ausgegl. von Posten**, um einen Abgang zu buchen. Dadurch wird der ursprüngliche korrigierende positive Posten mit einem festen Ausgleich geschlossen.  
 
-    Das Feld **Ausgegl.-von-Posten** gibt an, ob die Menge in der Artikel Erf.-Journalzeile mit einem bereits gebuchten Beleg ausgeglichen werden soll. Ist dies der Fall, geben Sie die Postennummer des Lagerpostens ein, der mit der Artikel Erf.-Journalzeile ausgeglichen werden soll.
+    Das Feld **Ausgegl.-von-Posten** gibt an, ob die Menge in der Artikel Erf.-Journalzeile mit einem bereits gebuchten Beleg ausgeglichen werden soll. Geben Sie in diesem Fall die Postennummer des Lagerpostens ein, der mit der Artikel-Erf.-Journalzeile ausgeglichen werden soll.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
-[Entfernen und erneutes Ausgleichen von Lagerposten](finance-how-to-remove-and-reapply-item-entries.md)  
+[Lagerposten entfernen und erneut ausgleichen](finance-how-to-remove-and-reapply-item-entries.md)  
 [Verarbeiten von Verkaufsrücklieferung und Stornierungen](sales-how-process-sales-returns-cancellations.md)  
 [Einrichten der Lagerwertberechnung und der Kostenrechnung](finance-set-up-inventory-valuation-and-costing.md)  
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
