@@ -3,18 +3,17 @@ title: 'Manuelles Erstellen von Lieferbenachrichtigungen [CH]'
 description: 'In Business Central können Sie Lieferbenachrichtigungen manuell erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 11/16/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-delivery-reminders-manually-in-the-swiss-version"></a>Lieferanmahnungen manuell erstellen in der Schweizer Version
+# Lieferanmahnungen manuell erstellen in der Schweizer Version
 
 [!INCLUDE [delivery-reminders-create-manually](../includes/ATCHDE/delivery-reminders-create-manually.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Lieferanmahnungen](delivery-reminders.md)  
 [Lieferanmahnungen generieren](how-to-generate-delivery-reminders.md)  

@@ -3,14 +3,13 @@ title: Übersicht über die Zuweisung von Kosten und Einnahmen
 description: Die Posten einer Fibu-Erf.-Journalzeile lassen sich beim Buchen des wiederkehrenden Erf.-Journals auf verschiedene Konten verteilen.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '283, 5629'
 ms.date: 09/26/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="allocate-recurring-costs-and-income"></a>Zuteilung von wiederkehrenden Kosten und Erträgen
+# Zuteilung von wiederkehrenden Kosten und Erträgen
 
 Sie können einen Eintrag in einem wiederkehrenden Fibu-Erfassungsjournal mehreren Konten zuordnen, wenn Sie das Journal buchen. Weitere Informationen zu wiederkehrenden Fibu-Erfassungsjournalen finden Sie unter [Mit wiederkehrenden Erfassungsjournalen arbeiten](ui-work-general-journals.md#work-with-recurring-journals). 
 
@@ -25,7 +24,7 @@ Die Zuteilungsfunktionen funktionieren mit wiederkehrenden Erfassungsjournalen u
 
 Die folgenden Verfahren beschreiben, was bereitgestellt werden muss, um Kosten in einem wiederkehrenden Erf.-Journal zuzuordnen, indem Umlageschlüssel eingerichtet werden. Wenn Umlageschlüssel definiert werden, beenden und buchen Sie das Erf.-Journal wie alle anderen wiederkehrenden Fibu Erf.-Journale. Weitere Informationen finden Sie unter [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md).
 
-## <a name="to-set-up-allocation-keys"></a>Einrichten von Verteilungsschlüsseln
+## Einrichten von Verteilungsschlüsseln
 
 Die Posten einer Fibu Erf.-Journalzeile lassen sich beim Erfen des Erf.-Journals auf verschiedene Konten verteilen. Die Verteilung kann nach Anzahl, Prozent oder Betrag vorgenommen werden.  
 
@@ -43,13 +42,13 @@ Die Posten einer Fibu Erf.-Journalzeile lassen sich beim Erfen des Erf.-Journals
 10. Nachdem Sie die Zuteilungszeilen eingegeben haben, wählen Sie **OK** aus, um zur Seite **Wiederk. Fibu Erf.-Journal** zurückzukehren. Das Feld **Zugewiesener Betrag (USD)** ist ausgefüllt und entspricht dem Feld **Betrag**.
 11. Buchen Sie die Erf.-Journalzeile.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Ändern eines bereits eingerichteten Umlageschlüssels
+## Ändern eines bereits eingerichteten Umlageschlüssels
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Wiederk. Fibu Erf.-Journal** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Wiederk. Fibu Erf.-Journal** das Erf.-Journal mit der Verteilung aus.
 3. Wählen Sie die Zeile mit der Verteilung, und wählen Sie dann die Aktion **Zuweisungen** aus.
 4. Ändern Sie die relevanten Felder und wählen Sie dann die Schaltfläche **OK** aus.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
 [Mit Fibu Erfassungsjournalen arbeiten](ui-work-general-journals.md)    
 [Journale und Belege buchen](ui-post-documents-journals.md)    
