@@ -3,9 +3,7 @@ title: Einrichten der Kostenrechnung
 description: 'Bevor Sie mit der Kostenrechnung arbeiten, müssen Sie eine Einrichtung vornehmen. Jedem Kosteneintrag muss eine Kostenart und ein Kostenstellencode oder ein Kostenobjekt zugewiesen werden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '1100, 1112, 1113, 1122'
 ms.date: 10/09/2023
 ms.author: bholtorf

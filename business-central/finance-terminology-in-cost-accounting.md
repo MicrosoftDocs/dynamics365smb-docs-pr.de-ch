@@ -3,9 +3,7 @@ title: Terminologie der Kostenrechnung
 description: 'Dieses Thema definiert die wichtigsten Begriffe, die in der Kalkulation verwendet werden, wie z.B. Verrechnungsschlüssel und Verrechnungsquelle.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 06/16/2021

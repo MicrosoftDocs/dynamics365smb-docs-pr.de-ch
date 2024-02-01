@@ -3,9 +3,7 @@ title: Behalten Sie den Überblick über Segmente und damit verbundene Interakti
 description: 'Erhalten von Informationen zum Erstellen von Segmenten, um Kontaktgruppen zu definieren und Festlegen von Aktivitäten für Segmente.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5091, 5139,'
 ms.date: 04/01/2021

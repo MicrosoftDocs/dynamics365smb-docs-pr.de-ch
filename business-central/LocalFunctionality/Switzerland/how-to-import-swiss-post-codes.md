@@ -3,9 +3,7 @@ title: 'Gewusst wie: Importieren von Schweizer Postleitzahlen [CH]'
 description: 'Sie können die aktuelle Schweizer PLZ importieren und damit die Tabelle PLZ aktualisieren, um PLZ für Debitoren oder Kreditoren zu definieren.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 11/14/2023
 ms.author: bholtorf

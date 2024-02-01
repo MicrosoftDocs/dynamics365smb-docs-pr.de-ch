@@ -3,9 +3,7 @@ title: Schnelleinstieg in die Ausgabe grundlegender Berichte und Belege
 description: "Business\_Central bietet integrierte Vorlagen für Berichte und Belege mit vielen Anpassungsoptionen, um sie an die Anforderungen Ihres Unternehmens anzupassen."
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: null
 ms.date: 08/15/2022

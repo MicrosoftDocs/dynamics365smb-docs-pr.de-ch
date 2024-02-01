@@ -3,9 +3,7 @@ title: Finanzmanagement (enthält Video)
 description: 'Erfahren Sie, wie Business Central Ihre Anforderungen an das Finanzmanagement, die Buchhaltung, die Rechnungsprüfung und die Buchführung unterstützt.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 12/19/2023

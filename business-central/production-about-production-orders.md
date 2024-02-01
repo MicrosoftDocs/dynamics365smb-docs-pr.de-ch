@@ -3,9 +3,7 @@ title: Info zu Fertigungsaufträgen
 description: Erfahren Sie mehr über Produktionsaufträge und wie diese zur Verwaltung der Umwandlung von gekauften Materialien in gefertigte Artikel verwendet werden.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917'
 ms.date: 06/22/2021
 ms.author: bholtorf

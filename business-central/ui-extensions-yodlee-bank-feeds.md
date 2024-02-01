@@ -3,9 +3,7 @@ title: Zahlungsabstimmung mit der Envestnet Yodlee Bank Feeds Erweiterung
 description: 'Beschreibt die Erweiterung „Envestnet Yodlee Bank Feeds“, die Verknüpfungen zu Bankkonten herstellt, sodass Sie Zahlungen schnell abstimmen können.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'app, add-in, manifest, customize, stream, bank account link'
 ms.search.form: '1450, 1451, 1452, 1453, 1454, 1458, 1460,'
 ms.date: 04/01/2021

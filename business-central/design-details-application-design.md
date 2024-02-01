@@ -3,12 +3,11 @@ title: Anwendungsdesigndetails
 description: Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwendungsbereiche in  Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Anwendungsdesigndetails
 
@@ -18,7 +17,7 @@ Der Designdetailinhalt wendet sich an Implementierer, Entwickler und Superuser, 
 
 |**Aktion**|**Siehe**|  
 |------------|-------------|  
-|Verstehen Sie Mechanismen im Kalkulationsmodul, wie Lagerabgangsmethode und Kostenregulierung, und für welche Bilanzierungsgrundsätze sie vorgesehen sind.|[Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)|  
+|Lernen Sie Mechanismen im Kalkulationsmodul kennen, wie Lagerabgangsmethode und Kostenregulierung, und für welche Bilanzierungsgrundsätze sie vorgesehen sind.|[Designdetails: Lagerbewertung](design-details-inventory-costing.md)|  
 |Erfahren Sie mehr darüber, wie der Stapelverarbeitungsauftrag „Lagerreg. fakt. Einst. Preise“ gekennzeichnet wird und ein Buchungsdatum auf Wertposten zugewiesen wird, der die Stapelverarbeitungsauftrag erstellt.|[Designdetails: Buchungsdatum auf Ausgleichs-Wertposten](design-details-inventory-adjustment-value-entry-posting-date.md)|
 |Erhalten Sie Informationen zum Speichern und Buchen von Dimensionen, einschliesslich Codebeispiele dazu, wie Dimensionscode migriert und aktualisiert werden.|[Designdetails: Dimensionssatzposten](design-details-dimension-set-entries-overview.md)|
 |Erfahren Sie, wie das Planungssystem arbeitet und wie die Algorithmen angepasst werden, um Planungsbedingungen in verschiedenen Umgebungen zu erfüllen.|[Entwurfsdetails: Vorratsplanung](design-details-supply-planning.md)|  
@@ -30,8 +29,8 @@ Der Designdetailinhalt wendet sich an Implementierer, Entwickler und Superuser, 
 
 [Planung](production-planning.md)  
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
-[Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
-[Einrichten komplexer Anwendungsbereiche mithilfe von Best Practices](set-up-complex-application-areas-using-best-practices.md)  
+[Lagerverwaltung – Übersicht ](design-details-warehouse-management.md)  
+[Einrichten komplexer Anwendungsbereiche mithilfe bewährter Methoden](set-up-complex-application-areas-using-best-practices.md)    
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

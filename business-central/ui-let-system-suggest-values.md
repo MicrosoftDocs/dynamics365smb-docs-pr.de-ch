@@ -3,9 +3,7 @@ title: Lassen Sie sich von Business Central Werte vorschlagen
 description: 'Um manuell Berechnungen und vollständige Aufgaben schnell und genau zu erledigen, können Sie automatische Dateneingabe einrichten, sodass Business Central gerade ausgewählte Felder ausfüllt'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '39, 251, 981'
 ms.date: 04/01/2021
 ms.author: bholtorf

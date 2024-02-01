@@ -3,9 +3,7 @@ title: Arbeiten mit der Mehrwertsteuer bei Verkäufen und Einkäufen
 description: 'Dieses Thema beschreibt die verschiedenen Möglichkeiten, mit der Mehrwertsteuer sowohl manuell als auch mit der automatischen Einrichtung zu arbeiten, damit Sie die länder-/regionsspezifischen Vorschriften einhalten können.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'VAT, sales, purchases'
 ms.search.form: '7, 118, 130, 142, 459, 460, 525'
 ms.date: 06/16/2021

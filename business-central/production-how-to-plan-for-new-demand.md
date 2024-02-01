@@ -3,9 +3,7 @@ title: Planung der Bestellung eines neuen Bedarfs von Auftrag
 description: 'Diese Planungsaufgabe kann auf der Seite „Auftragsplanung“ durchgeführt werden, die neuen Bedarf zusammen mit Verfügbarkeitsinformationen und Beschaffungsvorschlägen anzeigt, einschliesslich Ersatz der Artikel.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '5522, 5524, 5526'
 ms.date: 07/29/2021
 ms.author: bholtorf

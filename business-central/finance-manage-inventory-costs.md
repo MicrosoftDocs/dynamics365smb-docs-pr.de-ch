@@ -3,9 +3,7 @@ title: Verwalten der Lagerregulierung
 description: Die Kostenverwaltung befasst sich mit der Erfassung und dem Bericht der Betriebskosten des Unternehmens und umfasst die Erfassung der Herstellkosten und der Kosten für den Bestand.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: bholtorf

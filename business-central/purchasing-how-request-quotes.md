@@ -3,24 +3,23 @@ title: 'Eine Einkaufsofferte erstellen, um ein Offerte anzufordern'
 description: 'Beschreibt, wie Verkaufsofferten oder Anforderungen erstellt werden, um Ihre Offerten zu erfassen, um unter bestimmten Bedingungen Produkte an einen Debitoren zu verkaufen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '49, 97, 9306, 9346'
 ms.date: 08/08/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="request-quotes"></a>Offertenanforderungen
+# Offertenanforderungen
 
 Eine Einkaufsofferte kann als erster Entwurf für eine Bestellung verwendet werden. Die Bestellung kann dann in eine Rechnung umgewandelt werden.
 
-## <a name="create-a-purchase-quote"></a>Erstellen Sie eine Einkaufsofferte
+## Erstellen Sie eine Einkaufsofferte
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Einkaufsofferten** ein und wählen Sie dann den entsprechenden Link.
 2. Erstellen eines neuen Belegs, so wie Sie eine Bestellung erstellen. Erfahren Sie mehr unter [Einkäufe aufzeichnen](purchasing-how-record-purchases.md).
 
-## <a name="convert-a-purchase-quote-to-a-purchase-order"></a>Konvertieren Sie eine Einkaufsofferte in eine Einkaufsbestellung
+## Konvertieren Sie eine Einkaufsofferte in eine Einkaufsbestellung
 
 Wenn Sie die Offerte akzeptiert haben, können Sie diese mit einer Einkaufsrechnung umwandeln, um den Einkauf zu verarbeiten.
 
@@ -31,7 +30,7 @@ Die Einkaufsofferte wird aus der Datenbank entfernt. Eine Verkaufsrechnung oder 
 > [!NOTE]
 > Es ist nicht möglich, eine Einkaufsofferte direkt in eine Einkaufsrechnung umzuwandeln, wie dies bei Verkaufsofferten möglich ist. Einzelheiten zum Erstellen einer Einkaufsrechnung finden Sie unter [Erfassen Sie Einkäufe mit Einkaufsrechnungen](purchasing-how-record-purchases.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Einkauf](purchasing-manage-purchasing.md)  
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  

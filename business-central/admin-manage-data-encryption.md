@@ -3,12 +3,11 @@ title: Datenverschlüsselung verwalten | Microsoft-Dokumentation
 description: 'Sie können Daten auf dem Business Central Server verschlüsseln, indem Sie neue Verschlüsselungsschlüssel erstellen oder vorhandene importieren, die Sie auf dem Server ausführen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Datenverschlüsselung verwalten
 Sie können Daten auf dem [!INCLUDE[prod_short](includes/prod_short.md)]-Server verschlüsseln, indem Sie neue Verschlüsselungsschlüssel erstellen oder vorhandene importieren, die Sie auf der [!INCLUDE[prod_short](includes/prod_short.md)]-Serverinstanz aktivieren, die mit der Datenbank verknüpft ist.

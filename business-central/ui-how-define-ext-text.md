@@ -3,9 +3,7 @@ title: Zusatztext hinzufügen
 description: 'Sie können zusätzliche Zeilen hinzufügen, um den Standardtext zu erweitern, der einen Artikel, ein Fibukonto oder andere Daten beschreibt.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '391, 30'
 ms.date: 06/24/2021
 ms.author: bholtorf

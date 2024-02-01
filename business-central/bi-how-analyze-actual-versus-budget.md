@@ -3,9 +3,7 @@ title: Tatsächlichen Beträge mit den budgetierten Beträgen analysieren
 description: 'In diesem Artikel wird beschrieben, wie Sie die tatsächlichen Beträge im Vergleich zu den geplanten Beträgen analysieren können, um Daten Ihrer Firma zu erfassen, zu analysieren und weiterzugeben.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '120, 121, 422'
 ms.date: 09/14/2022

@@ -3,9 +3,7 @@ title: Verwenden von Umlageschlüsseln in Fibu Erf.-Journals
 description: Die Posten einer Fibu Erf.-Journalzeile lassen sich beim Buchen des Erf.-Journals auf verschiedene Konten verteilen.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: cost accounting
 ms.search.form: '283, 284'
 ms.date: 06/29/2021

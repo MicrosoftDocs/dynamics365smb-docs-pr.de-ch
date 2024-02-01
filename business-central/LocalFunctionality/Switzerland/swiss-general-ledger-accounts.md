@@ -3,9 +3,7 @@ title: 'Schweizer Finanzbuchhaltungskonten [CH]'
 description: In diesem Artikel werden Verbesserungen an den Schweizer Fibukonten und Fibu-Erfassungsjournalen erläutert.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: 11500
 ms.date: 06/21/2021

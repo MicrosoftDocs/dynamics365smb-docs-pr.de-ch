@@ -3,9 +3,7 @@ title: Arbeiten mit Montage-Stücklisten
 description: 'Sie erstellen eine Montagestückliste, um die Komponenten anzugeben, die für den Zusammenbau des Elements, das die Stückliste darstellt, erforderlich sind.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'assembly bom, bills of material,'
 ms.search.form: '36, 5870, 5872, 5874'
 ms.date: 09/26/2022

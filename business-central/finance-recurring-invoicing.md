@@ -3,9 +3,7 @@ title: Mit wiederkehrenden Umsätzen arbeiten
 description: Erfahren Sie mehr über die verfügbaren Optionen zum automatischen Senden von Abonnementrechnungen an Ihre Kunden und zum Registrieren wiederkehrender Einnahmen.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'recurring, invoicing, subscription, billing'
 ms.search.form: 283
 ms.reviewer: bholtorf

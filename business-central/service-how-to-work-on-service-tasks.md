@@ -3,9 +3,7 @@ title: Wie Sie Serviceaufgaben bearbeiten
 description: 'Dieses Thema behandelt die verschiedenen Möglichkeiten, Serviceaufgaben zu bearbeiten. Die Seite Serviceaufgaben gibt einen Überblick über alle Elemente, die bearbeitet werden müssen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: SEPA-Lastschrift in Business Central
 description: Mit dem Einverständnis Ihres Debitors können Sie Zahlungen nach dem SEPA-Format direkt vom Bankkonto des Debitors einziehen.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '371, 423, 424, 427, 1208, 1207, 1230'
 ms.date: 06/16/2021
 ms.author: bholtorf

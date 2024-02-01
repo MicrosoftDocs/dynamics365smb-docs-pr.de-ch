@@ -3,9 +3,7 @@ title: Einrichten von unrealisierter Salestax
 description: 'Wenn Sie Einnahmen- und Ausgabenrechnung verwenden, können Sie angeben, wie Sie unrealisierte MWST. für Verkäufe und Einkäufe behandeln möchten.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'cash, VAT, unrealized, cash-based'
 ms.search.form: '118, 472, 473'
 ms.date: 04/01/2021

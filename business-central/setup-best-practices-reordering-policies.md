@@ -3,9 +3,7 @@ title: 'Bewährte Einrichtungsmethoden: Wiederbeschaffungsverfahren | Microsoft 
 description: 'Das Feld Nachbestellungs-Richtlinie auf Artikelkarten umfasst vier verschiedene Planungsmethoden, die bestimmen, wie die einzelnen Planungsparameter interagieren.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf

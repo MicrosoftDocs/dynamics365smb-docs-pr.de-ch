@@ -7,6 +7,7 @@ ms.reviewer: bholtorf
 ms.search.keywords: null
 ms.date: 12/07/2023
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Warnungen zu landes-/regionsspezifischen gesetzlichen Features übermitteln

@@ -3,9 +3,7 @@ title: Finanzinformationen Schnellstart
 description: 'Bereiten Sie Ihr Unternehmen auf das Geschäft vor, indem Sie die Finanzinformationen in Business Central einrichten.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: null
 ms.date: 08/25/2022

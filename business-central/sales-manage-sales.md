@@ -3,9 +3,7 @@ title: Übersicht der Aufgaben zum Verwalten von Verkäufen
 description: 'Lesen Sie alles darüber, wie Sie die Dienste von Business Central für die Verwaltung von Verkaufsaktivitäten mit Ihren Debitoren mit Verkaufsrechnungen, Aufträgen, Offerten und mehr nutzen können.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, sell'
 ms.search.form: 253
 ms.date: 09/02/2022

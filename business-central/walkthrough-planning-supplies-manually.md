@@ -3,9 +3,7 @@ title: Exemplarische Vorgehensweise – Manuelles Planen von Vorräten
 description: 'Diese exemplarische Vorgehensweise demonstriert den Prozess der Planung von Vorräten zur Deckung des neuen Bedarfs, einschliesslich der Planung eines Kaufs, einer Umlagerungsbestellung und eines Produktionsauftrags.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf

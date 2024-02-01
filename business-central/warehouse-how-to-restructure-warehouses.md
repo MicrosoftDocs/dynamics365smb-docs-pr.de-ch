@@ -3,9 +3,7 @@ title: Lager umstrukturieren
 description: 'Erfahren Sie, wie Sie Ihr Lager mit neuen Lagerplatz-Codes und neuen Lagerplatz-Merkmalen umstrukturieren können, um einen effizienteren Vorgang zu erreichen oder beizubehalten.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '9813, 9814'
 ms.date: 06/25/2021

@@ -3,9 +3,7 @@ title: Einrichten und Verwenden eines Einkaufsanfrage-Genehmigungsworkflows
 description: 'Diese exemplarische Vorgehensweise führt Sie durch alle Schritte, die zum Festlegen und Verwenden eines Workflows zur Genehmigung von Einkäufen in Business Central gehören.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Festlegen von Fehlerberichten im Service Management
 description: Mit der Fehlerberichterstattung können Sie Standards für die Aufzeichnung von Fehlerinformationen für Serviceartikel mit Fehlercodes und mehr einrichten.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

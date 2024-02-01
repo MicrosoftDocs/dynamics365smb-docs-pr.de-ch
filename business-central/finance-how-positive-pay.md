@@ -3,9 +3,7 @@ title: Positive Pay-Dateien exportieren
 description: 'Um sicherzustellen, dass Ihre Bank nur überprüfte Schecks und Beträge freigibt, können Sie ihr eine Positive Pay Datei senden, die die Daten für Kreditoren, Schecks und Zahlungsinformationen enthält.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'check, clearing'
 ms.search.form: '1231, 1232, 1233, 1234'
 ms.date: 04/01/2021

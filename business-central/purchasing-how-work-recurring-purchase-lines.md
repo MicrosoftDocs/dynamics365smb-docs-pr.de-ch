@@ -3,9 +3,7 @@ title: Standardmässige wiederkehrende Einkaufszeilen
 description: 'Legen Sie häufig verwendete Kaufzeilen fest, um sie in Kaufbelege einzufügen und die Zeilen schnell mit Standardinformationen zu füllen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, purchase, replenishment'
 ms.search.form: 177
 ms.date: 07/06/2022

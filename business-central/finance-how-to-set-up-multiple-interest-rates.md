@@ -3,9 +3,7 @@ title: Mehrere Zinssätze für gestundete Zahlungen einrichten
 description: 'In diesem Thema erfahren Sie, wie Sie Finance-Belastungen mit mehreren Sätzen für einen bestimmten Zeitraum berechnen können.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '6, 431, 432, 572'
 ms.date: 06/16/2021
 ms.author: bholtorf

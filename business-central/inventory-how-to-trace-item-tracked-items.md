@@ -3,15 +3,14 @@ title: Verfolgen von Artikeln mit Artikelverfolgung
 description: 'Mit den Funktionen Artikelablaufverfolgung und Posten suchen können Sie sehen, wo ein Artikel verwendet wurde, einschliesslich wie und wann er empfangen, produziert oder zurückgegeben wurde.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.forms: '6520,'
 ms.date: 06/16/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="trace-item-tracked-items"></a>Verfolgen von Artikeln mit Artikelverfolgung
+# Verfolgen von Artikeln mit Artikelverfolgung
 
 Sie können sehen, wo ein Artikel mit Artikeltracking verwendet wurde. Dazu gehören die Informationen, wie und wann der Artikel entgegengenommen oder produziert, umgelagert, verkauft, verbraucht oder zurückgegeben wurde. Sie können ausserdem alle aktuellen Instanzen einer bestimmten Serien- oder Chargennummern in der Datenbank suchen. Dazu können Sie die Funktionen „Artikelablaufverfolgung“ und [Posten suchen](ui-find-entries.md) verwenden.  
 
@@ -23,7 +22,7 @@ Diese Funktionen können insbesondere in der Qualitätssicherung hilfreich sein,
 
  Die beiden Funktionen können in Kombination verwendet werden, indem eine verfolgte Serien- oder Chargennummer auf die Seite **Posten suchen** übertragen wird, um ein vollständiges Verfolgungsszenario fertig zu stellen. <!-- For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).   -->
 
-## <a name="to-trace-item-tracked-items"></a>Artikel mit Artikeltracking verfolgen
+## Artikel mit Artikeltracking verfolgen  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Artikelablaufverfolgung** ein und wählen Sie dann den entsprechenden Link.  
 2.  Geben Sie in die Filterfelder oben auf der Seite die Artikelnummern oder einen Filter für die Artikelnummern ein, die Sie verfolgen möchten.  
@@ -52,14 +51,14 @@ Diese Funktionen können insbesondere in der Qualitätssicherung hilfreich sein,
 >   
 >  Um die Artikelablaufverfolgungszeilen zu suchen, in denen der Buchungsverlauf bereits aufgezeichnet wurde, wählen Sie die Schaltfläche **Wechseln zu bereits nachvollzogen**. Die betreffende Artikelablaufverfolgungszeile wird ausgewählt, und alle zugrunde liegenden Zeilen werden erweitert.  
 
-## <a name="to-find-item-tracked-items-with-find-entries"></a>So suchen Sie Artikel mit Artikelverfolgung mithilfe von „Posten suchen“
+## So suchen Sie Artikel mit Artikelverfolgung mithilfe von „Posten suchen“  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Posten suchen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie **Aktionen** > **Suchen anhand von** > **Anhand von Artikelreferenz suchen**.
 3. Geben Sie in den Feldern **Seriennr.** und **Chargennr.** die Artikeltrackingnummern ein, die Sie nachverfolgen möchten.  
 4. Wählen Sie auf der Registerkarte Aktionen in der Gruppe Seite die Option **Suchen** aus, um alle Instanzen der Serien- oder Chargennummer und in der Datenbank zu finden.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Bestand](inventory-manage-inventory.md)  
 [Arbeiten mit Serien‑, Chargen‑ und Paketnummern](inventory-how-work-item-tracking.md)  

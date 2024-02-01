@@ -3,9 +3,7 @@ title: 'Temporäre Salden in Finanzbuchhaltungs-Erfassungsjournalen anzeigen [CH
 description: 'Sie können temporäre Salden eingeben, die anzeigen, welche Auswirkungen das Buchen einer neuen Transaktion im Erf.-Journal auf die Fibu Erf.-Journal-Kontensalden hätte.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: 11500
 ms.date: 12/08/2023

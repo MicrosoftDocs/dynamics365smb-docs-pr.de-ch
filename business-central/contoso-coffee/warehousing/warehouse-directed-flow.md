@@ -3,9 +3,7 @@ title: 'Eingang, Einlagerung, Umlagerung, Kommissionierung und Versand in erweit
 description: 'Die ein- und ausgehenden Prozesse für das Empfangen und Einlagern auf vier Arten, mit den verschiedenen Funktionen, immer abhängig von der Lagerkomplexitätsebene, ausgeführt werden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 12/07/2023

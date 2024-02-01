@@ -3,9 +3,7 @@ title: Den E-Belegekonnektor mit externen Endpunkten einrichten
 description: 'In diesem Artikel wird erläutert, wie Sie die E-Beleg-Funktionalität einrichten, wenn diese mit externen Endpunkten verbunden ist.'
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice, access-point, endpoint'
 ms.search.form: '359, 360, 6103, 6133'
 ms.date: 12/13/2023

@@ -3,9 +3,7 @@ title: Kosten den Intercompanypartnern zuordnen | Microsoft Docs
 description: 'Erfahren Sie, wie die Mehrwertsteuereinstellungen für Kunden und Lieferanten steuern, ob und wie die Mehrwertsteuer berechnet wird.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf

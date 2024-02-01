@@ -3,9 +3,7 @@ title: Business Central kündigen oder entfernen
 description: 'Erfahren Sie, wie Sie Ihre Business Central-Erfahrung Delernen oder löschen, wenn Sie ein Testabonnement haben oder wenn Sie ein kostenpflichtiges Abonnement haben.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'remove, delete'
 ms.date: 06/08/2022
 ms.author: bholtorf

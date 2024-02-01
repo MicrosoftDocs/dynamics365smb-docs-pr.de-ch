@@ -3,9 +3,7 @@ title: Wie Sie mit Zuständigkeitseinheiten arbeiten
 description: 'Zuständigkeitseinheiten als Verwaltungszentren helfen Unternehmen, benutzerspezifische Ansichten von Einkaufs- und Kaufbelegen festzulegen, die sich ausschliesslich auf das jeweilige Zentrum beziehen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.forms: '5714, 5715'
 ms.date: 03/09/2023

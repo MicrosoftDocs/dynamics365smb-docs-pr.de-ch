@@ -3,9 +3,7 @@ title: Warum eine Seite für Personalisierungen gesperrt ist
 description: 'Für Sie ist möglicherweise die Personalisierung einer Seite blockiert. Lesen Sie hier, wie Sie sie entsperren können, um sie zu personalisieren.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields'
 ms.search.form: null
 ms.date: 04/01/2021

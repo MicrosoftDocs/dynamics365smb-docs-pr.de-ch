@@ -3,9 +3,7 @@ title: Lagerplatzinhalt erstellen
 description: 'Nachdem Sie Ihre Lagerplätze eingerichtet haben, können Sie die Artikel angeben, die Sie darin speichern möchten, und Regeln einrichten, die steuern, wie oft Lagerplätze nachgefüllt werden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: bholtorf

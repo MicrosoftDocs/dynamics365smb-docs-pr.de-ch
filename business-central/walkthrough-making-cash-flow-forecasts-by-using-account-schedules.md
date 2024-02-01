@@ -3,12 +3,11 @@ title: Erstellen Sie Cashflow-Prognosen mithilfe von Finanzberichten
 description: 'Diese exemplarische Vorgehensweise beschreibt, wie Sie Finanzberichte verwenden können, um Cashflow-Prognosen in Business Central zu erstellen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 08/18/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Walkthrough: Erstellen Sie Cashflow-Prognosen mithilfe von Finanzberichten
 

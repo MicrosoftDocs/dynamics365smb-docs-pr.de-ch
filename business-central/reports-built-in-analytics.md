@@ -3,9 +3,7 @@ title: Integrierte Analysen
 description: 'Bietet einen Überblick über alle Funktionen, die Analyseaufgaben in Business Central unterstützen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: bholtorf

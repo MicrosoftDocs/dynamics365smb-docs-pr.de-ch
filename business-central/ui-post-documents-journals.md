@@ -3,9 +3,7 @@ title: Journale und Belege buchen
 description: 'Dieses Thema beschreibt Buchungsaktionen und die Möglichkeiten, wie Sie Belege und Erfassungen in den verschiedenen Sachkonten der Firma buchen können.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 06/24/2021
 ms.search.form: null
 ms.author: bholtorf

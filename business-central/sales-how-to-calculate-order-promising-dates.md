@@ -1,16 +1,15 @@
 ---
-title: Lieferterminzusagen-Daten berechnen
+title: Datumsangaben für Lieferterminzusagen berechnen
 description: 'Die Funktion "Lieferterminzusagen" ist ein Werkzeug zur Berechnung des frühestmöglichen Datums, an dem ein Artikel zum Versand oder zur Lieferung verfügbar ist.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/29/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# Lieferterminzusagen-Daten berechnen
+# Datumsangaben für Lieferterminzusagen berechnen
 
 Ein Mandant muss in der Lage sein, seine Debitoren über Auftragslieferdaten zu informieren. Die Seite **Lieferzusagenzeilen** ermöglicht Ihnen dies über einen Verkaufsauftrag.  
 
@@ -23,7 +22,7 @@ Wenn Sie in einer Verkaufszeile ein gewünschtes Lieferdatum eingeben, wird dies
 
 Falls die Artikel am Lieferdatum zur Kommissionierung zur Verfügung stehen, kann der Verkaufsvorgang fortgesetzt werden. Falls die Artikel am Lieferdatum nicht zur Kommissionierung zur Verfügung stehen, erscheint eine Warnmeldung die auf diesen Umstand hinweist.  
 
-Wenn Sie kein angefordertes Lieferdatum auf der Verkaufsauftragszeile angeben oder das angeforderte Lieferdatum nicht eingehalten werden kann, wird das früheste Datum, an dem die Artikel verfügbar sind, berechnet. Dieses Datum wird dann im Feld **Versanddatum** auf der Zeile eingegeben, und das Datum, an dem Sie planen, die Artikel zu liefern, sowie das Datum, an dem Sie an den Kunden ausgeliefert werden, werden anhand der nachfolgenden Formeln berechnet.  
+Wenn Sie kein angefordertes Lieferdatum auf der Verkaufsauftragszeile angeben oder das angeforderte Lieferdatum nicht eingehalten werden kann, wird das früheste Datum, an dem die Artikel verfügbar sind, berechnet. Dieses Datum wird dann im Feld **Versanddatum** auf der Zeile eingegeben, und das Datum, für das Sie die Lieferung der Artikel einplanen, sowie das Datum, an dem sie an den Debitor ausgeliefert werden, werden anhand der nachfolgenden Formeln berechnet.  
 
 - Warenausgangsdatum + Ausgeh. Lagerdurchlaufzeit = Geplantes Warenausgangsdatum  
 - Geplantes Warenausgangsdatum + Transportzeit = Geplantes Lieferdatum  
@@ -37,17 +36,17 @@ Die Funktion Lieferzusagen ermöglicht Ihnen, den Versand oder die Lieferung ein
 - Lieferzusage (Available to promise, ATP)  
 - Beschaffungszusage (Capable to promise, CTP)  
 
-### Lieferzusage
+### Verfügbar für Zusage
 
 "Lieferzusage (Available to promise, ATP)" berechnet die Daten auf der Grundlage des Reservierungssystems. Dabei wird eine Verfügbarkeitsprüfung der nicht reservierten Mengen im Lagerbestand im Hinblick auf die geplante Produktion, Einkäufe, Umlagerungen und Verkaufsreklamationen durchgeführt. Auf der Grundlage dieser Informationen berechnet [!INCLUDE[prod_short](includes/prod_short.md)] das Lieferdatum der Kundenbestellung, weil die Artikel entweder im Bestand oder auf geplanten Aufträgen verfügbar sind.  
 
-### Beschaffungszusage
+### Verfügbarkeitszusage
 
-Beschaffungszusage (CTP) für eine Zusage akzeptiert "Was-wenn", das nur auf Artikelmengen gehört, die nicht im Lagerbestand oder im geplanten Bestellungen sind. Auf Grundlage dieses Szenarios berechnet [!INCLUDE[prod_short](includes/prod_short.md)] das früheste Datum, zu dem der Artikel verfügbar sein kann, wenn er gefertigt werden, bezogen werden oder umgelagert werden muss.
+Die Verfügbarkeitszusage (CTP) geht von einem „Was-wenn“-Szenario aus, das nur für Artikelmengen gilt, die nicht im Lagerbestand oder im geplanten Bestellungen sind. Auf Grundlage dieses Szenarios berechnet [!INCLUDE[prod_short](includes/prod_short.md)] das früheste Datum, zu dem der Artikel verfügbar sein kann, wenn er gefertigt, eingekauft oder umgelagert werden muss.
 
 #### Beispiel
 
-Wenn eine Bestellung über 10 Stück vorliegt und 6 Stück im Bestand oder auf geplanten Zugängen verfügbar sind, dann basiert die Funktionalität zum Zusagen der Berechnung auf 4 Stück.
+Wenn eine Bestellung über 10 Stück vorliegt und 6 Stück im Bestand oder auf geplanten Zugängen verfügbar sind, dann basiert die Berechnung der Verfügbarkeitszusage auf 4 Stück.
 
 ### Berechnungen
 
@@ -112,7 +111,7 @@ Wenn Sie die Lagerumschlagszeit in die Berechnung der Lieferterminzusage in der 
 
 ## Einen Artikel als kritisch kennzeichnen
 
-Bevor ein Artikel bei der Berechnung der Lieferterminzusage berücksichtigt werden kann, muss er als kritisch markiert werden Diese Einstellungen stellen sicher, dass unkritische Artikel nicht irrelevante Lieferterminzusagen verursachen.   
+Bevor ein Artikel bei der Berechnung der Lieferterminzusage berücksichtigt werden kann, muss er als kritisch markiert werden Diese Einstellungen stellen sicher, dass nicht kritische Artikel nicht irrelevante Lieferterminzusagen verursachen.   
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie die entsprechende Artikelkarte.  
 3.  Wählen Sie im Inforegister **Planung** das Feld **Kritisch** aus.  

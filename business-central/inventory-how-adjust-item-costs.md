@@ -3,9 +3,7 @@ title: Manuelles Anpassen der Kosten von Artikeln
 description: 'Sie können die Bestandsbewertung eines Elements unter Verwendung der FIFO- oder Durchschnittskalkulation manuell anpassen, wenn sich die Kosten von Artikeln ändern.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'cost adjustment, cost forwarding, costing method, inventory valuation, costing'
 ms.date: 06/16/2021
 ms.author: bholtorf

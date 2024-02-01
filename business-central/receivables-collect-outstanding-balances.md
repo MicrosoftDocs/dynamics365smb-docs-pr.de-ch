@@ -3,9 +3,7 @@ title: Einziehen von Restbeträgen
 description: 'Lernen Sie, wie Sie Ihre Debitor an ausstehende Zahlungen erinnern können. Senden Sie einen Debitor-Auszug, eine Mahnung oder eine Zinsrechnung.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '6, 25, 440, 443, 448, 452'
 ms.date: 02/09/2022

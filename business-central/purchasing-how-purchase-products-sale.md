@@ -3,9 +3,7 @@ title: Einkauf von Artikeln für einen Verkauf
 description: 'Von einer Verkaufsrechnung um Produkte einzukaufen, können Sie eine Einkaufsrechnung für einen Kreditor oder Lieferanten einen erstellen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'supply planning, sales demand, replenish'
 ms.search.form: '50, 51, 56, 9308'
 ms.date: 04/01/2021

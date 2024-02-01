@@ -3,9 +3,7 @@ title: Konvertieren vorhandener Lagerorte in Lagerorte des Lagers
 description: 'Sie können einen vorhandenen Lagerort aktivieren, um Zonen und Lagerplätze zu verwenden und als Lagerorte zu betreiben.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: 15
 ms.date: 04/01/2021

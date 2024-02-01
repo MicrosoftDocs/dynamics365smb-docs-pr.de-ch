@@ -3,9 +3,7 @@ title: Erstellen Sie Geschäftskontakte
 description: 'Umreisst die Aufgaben, die zum Erstellen von Kontakten und der Definition Ihrer Geschäftsbeziehungen auf der Kontaktkarte erforderlich sind.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.date: 08/30/2022
 ms.author: bholtorf

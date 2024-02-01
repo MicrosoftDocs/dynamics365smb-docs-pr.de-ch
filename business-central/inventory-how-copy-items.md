@@ -3,9 +3,7 @@ title: Vorgehensweise beim Kopieren von vorhandenen Artikeln in neue Artikel
 description: 'Wenn Sie einen neuen Artikel hinzufügen, können Sie zur Zeitersparnis mit der Option Artikel kopieren einen vorhandenen Artikel als Vorlage für einen neuen Artikel verwenden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.forms: 729
 ms.date: 04/01/2021
