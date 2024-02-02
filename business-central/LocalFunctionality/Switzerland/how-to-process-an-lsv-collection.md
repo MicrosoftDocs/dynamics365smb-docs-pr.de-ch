@@ -12,14 +12,14 @@ ms.date: 11/24/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Eine LSV-Sammlung verarbeiten in der Schweizer Version
+# <a name="process-an-lsv-collection-in-the-swiss-version"></a>Eine LSV-Sammlung verarbeiten in der Schweizer Version
 Mithilfe der **LSV-Erf.-Journal**-Seite können Zahlungen von LSV+-Debitoren (Lastschriftverfahren) erstellt und verarbeitet werden. Sie können diese Zahlungen im Zahlungseingangs-Erfassungsjournal erfassen, eine LSV-Datei erstellen und dann den Einzugsauftrag drucken. Weitere Informationen finden Sie unter Zahlungseingangs Erf.-Journal (Seite) und [Exportieren von Zahlungen mit LSV](how-to-export-payments-using-lsv.md).  
 
 Wenn Sie den Stapelverarbeitungsauftrag **LSV Einzugsvorschlag** ausführen, wird jeder vorgeschlagene Einzug in einer LSV-Journalzeile erfasst, und die offenen Rechnungen werden in die LSV-Journale übertragen. Weitere Informationen finden Sie unter LSV-Erf.-Journal – Tabelle.  
 
 Sie können die vorgeschlagenen Zahlungszeilen anzeigen, bearbeiten oder löschen. Falls Sie den vorgeschlagenen Betrag korrigieren, wird die Differenz als Rabatt markiert. Der Stapelverarbeitungsauftrag kann mehrmals für unterschiedliche Debitorengruppen ausgeführt werden. Die Vorschlagszeilen können in dasselbe Erfassungsjournal eingefügt werden.  
 
-## So erstellen Sie einen LSV-Einzug  
+## <a name="to-create-an-lsv-collection"></a>So erstellen Sie einen LSV-Einzug
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **LSV-Journal Liste** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Neu** aus.  
@@ -44,7 +44,7 @@ Sie können die vorgeschlagenen Zahlungszeilen anzeigen, bearbeiten oder lösche
 
 Alle zugehörigen Zeilen werden in das LSV-Journal übertragen. Nach der Verarbeitung des LSV-Einzugs können Sie die vorgeschlagenen Zahlungen auf der Seite **LSV Journal** anzeigen, überprüfen oder bearbeiten. Weitere Informationen finden Sie unter LSV-Erf.-Journal-Zeilen – Tabelle.  
 
-## So verwalten Sie vorgeschlagene Zahlungen  
+## <a name="to-manage-suggested-payments"></a>So verwalten Sie vorgeschlagene Zahlungen
 
 1.  Auf der Seite **LSV-Erf.-Journal-Liste** wählen Sie den erforderlichen Journaleintrag, und wählen die **LSV-Erf.-Journalzeile** Aktion aus.  
 
@@ -52,7 +52,7 @@ Alle zugehörigen Zeilen werden in das LSV-Journal übertragen. Nach der Verarbe
 
 3.  Wählen Sie die Schaltfläche **OK** aus.  
 
-## Siehe auch   
+## <a name="see-also"></a>Siehe auch
  [Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md)   
  [Abschliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md)   
  [Buchen von LSV+ Zahlungen](how-to-post-lsv-payments.md)   
