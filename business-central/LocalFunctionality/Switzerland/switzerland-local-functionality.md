@@ -1,22 +1,22 @@
 ---
 title: Lokale Funktion (Schweiz)
-description: 'Die folgenden Themen beschreiben alle lokalen Funktionen, die für die Schweizer Version von Business Central einzigartig sind.'
+description: 'Die folgenden Artikel beschreiben alle lokalen Funktionen, die für die Schweizer Version von Business Central einzigartig sind.'
 author: sorenfriisalexandersen
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '35561, 35562, 35563, 3010541, 3010542, 3010543'
-ms.date: 06/21/2021
+ms.date: 02/09/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# <a name="switzerland-local-functionality"></a>Lokale Funktion (Schweiz)
+# Lokale Funktion (Schweiz)
 
-Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version von [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+Die folgenden Artikel beschreiben die exklusiven Funktionen der Schweizer Version von [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Verfügbarkeit der Funktion
+## Verfügbarkeit der Funktion
 
-* MWST
+* Mehrwertsteuer
     * [Erstellen und Drucken einer Schweizer MWST-Abrechnung](how-to-create-and-print-a-swiss-vat-statement.md) **Jetzt erhältlich**
     * [Drucken von MWST-Abrechnungen (Schweiz) (ältere Versionen)](how-to-print-swiss-vat-statements-older-version-.md) **Jetzt erhältlich**
     * [Mehrwertsteuer (Schweiz)](swiss-value-added-tax.md) **Jetzt erhältlich**
@@ -61,13 +61,11 @@ Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version
     * [Importieren von Postleitzahlen (Schweiz)](how-to-import-swiss-post-codes.md) **Jetzt erhältlich**
     * [Einkaufsbelege und Verkaufsaufträge (Schweiz)](swiss-purchase-documents-and-sales-documents.md) **Jetzt erhältlich**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Künftige Anforderungen der Gesetzgebung, die untersucht werden
+## Künftige Anforderungen der Gesetzgebung, die untersucht werden
 
-* MWST-Abrechnung mit neuen Ziffern 303 und 383 aktualisieren **Januar 2024**
+Es gibt derzeit keine geplanten regulatorischen Funktionen. Wenn Sie anstehende regulatorische Funktionen kennen, übermitteln Sie eine [Warnung zu regulatorischen Funktionen](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-Wenn Sie anstehende regulatorische Funktionen kennen, übermitteln Sie eine [Warnung zu regulatorischen Funktionen](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
-
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Verfügbarkeit nach Ländern/Regionen und unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
