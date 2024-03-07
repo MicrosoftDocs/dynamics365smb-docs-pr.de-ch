@@ -7,7 +7,7 @@ ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: 'posting setup, initialize'
 ms.search.form: '312, 313'
-ms.date: 12/21/2023
+ms.date: 02/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -111,9 +111,21 @@ Auf diese Weise erhalten Sie eine Benachrichtigung, wenn Sie an einem Beleg arbe
 > [!NOTE]
 > Um Sie direkt zu der Buchungsgruppe oder Einrichtung zu führen, in der ein Fibukonto fehlt, erstellt [!INCLUDE[prod_short](includes/prod_short.md)] eine Platzhalter-Buchungsgruppe oder Einrichtung. Buchungsgruppen und -einstellungen sind eine Möglichkeit für den Buchhalter zu steuern, wie Buchungen in den Fibuposten gebucht werden, so dass eine solche Just-in-Time-Erstellung von Buchungsgruppen und -einstellungen in Ihrem Unternehmen möglicherweise nicht zugelassen ist.  
 >
-> Deaktivieren Sie in diesem Fall die Meldung *Fibukonto fehlt in Buchungsgruppe oder Einrichtung* und nehmen Sie dann gemeinsam mit Ihrem Buchhalter die entsprechenden Änderungen an der Buchungsgruppe, der Einrichtung oder Ihrem Beleg vor. Dies ist ein wichtiger Schritt, denn sobald Belege gebucht sind, können falsch verwendete Buchungsgruppen oder Einrichtungen nicht mehr gelöscht werden, da für sie Fibuposten erstellt wurden.
+> Deaktivieren Sie in diesem Fall die Meldung *Fibukonto fehlt in Buchungsgruppe oder Einrichtung* und nehmen Sie dann gemeinsam mit Ihrem Buchhalter die entsprechenden Änderungen an der Buchungsgruppe, der Einrichtung oder Ihrem Beleg vor. Dies ist ein wichtiger Schritt, denn nachdem Belege gebucht sind, können Sie falsch verwendete Buchungsgruppen oder Einrichtungen nicht mehr löschen, da für sie Fibuposten erstellt wurden.
 
-Ab dem 1. Veröffentlichungszyklus 2022 können Sie das **Gesperrt**-Feld auf der Seite **Buchungsmatrix Einrichtung** verwenden, um zu verhindern, dass Benutzer versehentlich ein Setup verwenden, das für neue Buchungen nicht mehr relevant ist.  
+Verwenden Sie das **Gesperrt**-Feld auf der Seite **Buchungsmatrix Einrichtung** verwenden, um zu verhindern, dass Benutzende versehentlich ein Setup verwenden, das für neue Buchungen nicht mehr relevant ist. 
+
+## Beim Einrichten einer Buchungsgruppe auf alle Felder und Konten zugreifen  
+
+Das Einrichten von Beitragsgruppen kann komplex sein. Da einige Kontotypen nicht häufig verwendet werden, werden sie in [!INCLUDE [prod_short](includes/prod_short.md)] nicht als Spalten in den Zeilen angezeigt. Um die Auswahl der richtigen Konten etwas einfacher zu machen, filtert [!INCLUDE [prod_short](includes/prod_short.md)] ausserdem die Konten, die Sie in Feldsuchen auswählen können. 
+
+Wenn Sie auf alle Konten in den Zeilen- und Feldsuchen zugreifen möchten, können einige Einstellungen hilfreich sein:
+
+* Um alle Konten als Spalten in den Zeilen anzuzeigen, aktivieren Sie den Umschalter **Alle Konten anzeigen**.
+* Um in einzelnen Zeilen auf alle Konten in den Feldsuchen zuzugreifen, aktivieren Sie das Kontrollkästchen **Alle Konten bei der Suche anzeigen**.
+
+> [!NOTE]
+> Der Umschalter **Alle Konten anzeigen** funktioniert möglicherweise auf der Seite **Buchungsmatrix Einrichtung** nicht. Das liegt daran, dass [!INCLUDE [prod_short](includes/prod_short.md)] alle Konten immer als Spalten in den Zeilen auf dieser Seite anzeigt.
 
 ## Problembehandlung von Fehlern bei Buchungsgruppen
 
