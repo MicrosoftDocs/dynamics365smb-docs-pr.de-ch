@@ -10,13 +10,13 @@ ms.date: 02/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Erstellen und Drucken einer Schweizer MWST-Abrechnung in der Schweizer Version
+# <a name="create-and-print-a-swiss-vat-statement-in-the-swiss-version"></a>Erstellen und Drucken einer Schweizer MWST-Abrechnung in der Schweizer Version
 Auf Grundlage der Informationen, die Sie auf der Seite **MWST-Buchungsmatrix Einr.** angegeben haben, kann [!INCLUDE[prod_short](../../includes/prod_short.md)] automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Prozeduren in diesem Artikel fortfahren, stellen Sie sicher, dass Sie die MWST-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden.  
 
 >[!NOTE]
 > Die MWST-Abrechnung des Unternehmens Cronus wurde aktualisiert und beinhaltet von Januar 2024 an die neuen Ziffern 303 und 383.  
 
-## So richten Sie eine MWST-Abrechnungsvorlage für die Schweiz ein  
+## <a name="to-set-up-a-swiss-vat-statement-template"></a>So richten Sie eine MWST-Abrechnungsvorlage für die Schweiz ein
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Geben Sie **MWST-Abrechnung Vorlage aktualisieren** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie eine Vorlage im Feld **Name für MWST-Abrechnung Vorlage**.
@@ -25,7 +25,7 @@ Auf Grundlage der Informationen, die Sie auf der Seite **MWST-Buchungsmatrix Ein
 
      Die Seite "MWST-Abrechnung" enthält das Feld **MWST-Abrechnung Ziffer**, das angibt, in welcher Ziffer des Berichts das Ergebnis gedruckt wird. Das Feld wird von der Stapelverarbeitung automatisch anhand der Informationen auf der Seite **MWST-Buchungsmatrix Einr.** ausgefüllt. Das Feld kann bei Bedarf bearbeitet werden.  
 
-## So drucken Sie die MWST-Abrechnung (Schweiz)  
+## <a name="to-print-the-swiss-vat-statement"></a>So drucken Sie die MWST-Abrechnung (Schweiz)
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Geben Sie **Schweizer MWST-Abrechnung** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Füllen Sie auf dem Inforegister **Optionen** die Felder wie in der folgenden Tabelle beschrieben aus.  
@@ -46,7 +46,7 @@ Auf Grundlage der Informationen, die Sie auf der Seite **MWST-Buchungsmatrix Ein
     |**Beherbergung (anderer Satz) %**|Geben Sie einen alternativen MWST-Satz für Beherbergung ein, der für bestimmte Transaktionen während des Zeitraums gilt.|  
     |**Beträge in Berichtswährung anzeigen**|Option, um Beträge in einer zusätzlichen Berichtswährung anzuzeigen.|  
 
-## Siehe auch  
+## <a name="see-also"></a>Siehe auch
  [Mehrwertsteuer (Schweiz)](swiss-value-added-tax.md)
 
 

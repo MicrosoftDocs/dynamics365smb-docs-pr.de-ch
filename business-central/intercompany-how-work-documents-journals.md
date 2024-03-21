@@ -11,7 +11,7 @@ ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary, bank-to-ba
 ms.search.form: '600, 610'
 ms.service: dynamics-365-business-central
 ---
-# Mit Intercompany-Belegen und -Erfassungsjournalen arbeiten
+# <a name="work-with-intercompany-documents-and-journals"></a>Mit Intercompany-Belegen und -Erfassungsjournalen arbeiten
 
 Intercompanybelege bzw. -Erf.-Journale werden zum Buchen der Transaktionen zwischen Intercompanypartnern verwenden. Sie können Transaktionen auf Fibukonten buchen, und wenn Sie Intercompany-Bankkonten eingerichtet haben, können Sie auch Bank-zu-Bank-Transaktionen buchen. Weitere Informationen zum Einrichten von Intercompany-Bankkonten finden Sie unter [Angeben der Bankkonten, die für Intercompanypartner verwendet werden sollen](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
 
@@ -21,7 +21,7 @@ Für Verkaufsaufträge und Einkaufsbelege stellt der Intercompanypartner auf den
 
 Dasselbe gilt für Intercompany-Erfassungsjournalzeilen. Sie müssen keine Konten angeben, Sie wählen einfach das Partnerunternehmen aus. In der Partnerfirma werden dann entsprechende Intercompany-Fbu Erfassungsjournalzeilen erstellt.
 
-## Einen Intercompanyauftrag ausfüllen und senden
+## <a name="fill-in-and-send-an-intercompany-sales-order"></a>Einen Intercompanyauftrag ausfüllen und senden
 
 Aufträge, Bestellungen und Rücksendungen können vor der Buchung gesendet werden. Rechnungen und Gutschriften können jedoch erst gesendet werden, nachdem sie gebucht sind.
 
@@ -36,7 +36,7 @@ Im Folgenden wird beschrieben, wie ein Intercompanyauftrag ausgefüllt und gesen
 > [!NOTE]
 > Wenn Sie Schritt 5 ausführen, wird der Verkaufsauftrag auf den Intercompany-Ausgang verschoben, wo er später dann gebucht werden kann. Um mehr über den Intercompany-Eingang und -Ausgang zu erfahren, gehen Sie zu [ Verwalten Sie den Intercompany-Eingang und -Ausgang](intercompany-how-manage-intercompany-inbox.md).
 
-## Intercompany-Erfassungsjournal ausfüllen und buchen
+## <a name="fill-in-and-post-an-intercompany-journal"></a>Intercompany-Erfassungsjournal ausfüllen und buchen
 
 Wenn Sie einen Intercompany-Fibu-Erf.-Journalzeile im Unternehmen buchen, wird durch das Programm im IC-Ausgang ein entsprechender Beleg erstellt, der an den Partner übertragen werden kann. Seit dem 1. Veröffentlichungszyklus 2022 können Sie das Unternehmen für die automatische Erstellung empfangener Intercompany-Transaktionen von Intercompany-Partnern einrichten, die über das Intercompany-Erfassungsjournal gebucht werden. Der Partner kann dieses Buch.-Blatt dann im eigenen Unternehmen buchen, ohne die Daten dazu noch einmal eingeben zu müssen.
 
@@ -51,7 +51,7 @@ Wenn Sie einen Intercompany-Fibu-Erf.-Journalzeile im Unternehmen buchen, wird d
 
 Die entsprechenden Posten werden im Unternehmen gebucht und ein Erf.-Journal mit den entsprechenden Posten wird im Intercompanyausgang erstellt, den Sie dann an das Partnerunternehmen senden können.
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  
 [Finanzen](finance.md)  
