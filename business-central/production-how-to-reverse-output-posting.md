@@ -9,11 +9,11 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="reverse-output-posting"></a>Gebuchte fertig gestellte Menge stornieren
+# Gebuchte fertig gestellte Menge stornieren
 
 Es kann vorkommen, dass die Buchung einer fertig gestellten Menge storniert werden muss. Dies ist z. B. der Fall, wenn eine fehlerhafte Dateneingabe passiert ist und eine falsche fertiggestellte Menge in einem Fertigungsauftrag gebucht wurde.  
 
-## <a name="to-reverse-an-output-posting"></a>Eine Ausgangsbuchung stornieren
+## Eine Ausgangsbuchung stornieren
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Erfassung Erf.-Journal** ein und wählen Sie dann den zugehörigen Link. Wählen Sie Ihren Stapel aus.  
 2. Füllen Sie die Felder je nach Bedarf aus. Weitere Informationen finden Sie unter [Produktionsausgabe und Laufzeiten über Stapelverarbeitung buchen](production-how-to-post-output-quantity.md)
@@ -22,7 +22,7 @@ Es kann vorkommen, dass die Buchung einer fertig gestellten Menge storniert werd
 
 Die Posten im FA-Istmeldungsprotokoll werden im HauptLagerposten als positiver Ausgleich gebucht.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
  [Produktion](production-manage-manufacturing.md) [Produktion einrichten](production-configure-production-processes.md)  
  [Planung](production-planning.md)  

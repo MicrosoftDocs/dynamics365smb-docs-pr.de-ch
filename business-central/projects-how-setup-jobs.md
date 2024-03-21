@@ -11,7 +11,7 @@ ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Jobs, Preise und Buchungsgruppen festlegen
+# Jobs, Preise und Buchungsgruppen festlegen
 
 Als Projekt-Manager können Sie Projekte einrichten, die jedes der Projekte definieren, das Sie in [!INCLUDE[prod_short](includes/prod_short.md)] verwalten. Verwenden Sie die Seite **Projekt Einrichtung**, um festzulegen, wie Sie Projektfeatures verwenden.
 
@@ -22,7 +22,7 @@ Geben Sie für jedes Projekt verschiedene Informationen an:
 * Projektfibukonten
 * Projektbuchungsgruppen (falls erforderlich)
 
-## <a name="to-set-general-information-for-jobs"></a>Um allgemeine Informationen für Projekte einzurichten:
+## Um allgemeine Informationen für Projekte einzurichten:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Projekt Einrichtung** ein und wählen Sie den zugehörigen Link.
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Geben Sie für jedes Projekt verschiedene Informationen an:
 > [!NOTE]
 > Der Umschalter **Verbrauchslink standardmässig anwenden** auf der Seite **Projekt Einrichtung** zeigt an, ob Projektsachkontoeinträge standardmässig mit Projektplanungszeilen verknüpft werden. Aktivieren Sie den Umschalter, um diese Einstellung auf alle neuen Projekte anzuwenden. Sie können das Tracking des Projektverbrauchs für ein bestimmtes Projekt aktivieren oder deaktivieren, indem Sie den Umschalter **Verbrauchslink anwenden** auf der Seite **Projektkarte** ein- oder ausschalten.
 
-### <a name="to-set-up-job-usage-tracking"></a>Projektverbrauch-Tracking einrichten
+### Projektverbrauch-Tracking einrichten
 
 Wenn Sie an einem Projekt arbeiten, möchten Sie vielleicht wissen, wie sich Ihr Verbrauch im Vergleich zu Ihrem Plan verhält. Um den Verbrauch herauszufinden, können Sie einen Link zwischen Ihren Projektplanungszeilen und dem tatsächlichen Verbrauch erstellen. Über den Link können Sie Ihre Kosten verfolgen und nachvollziehen, wie viel Arbeit noch übrig ist. Standardmässig ist de Projektplanungszeilentyp **Plan**, aber die Verwendung der Zeilenart **Plan und fakturierbar** hat ähnliche Effekte.
 
@@ -44,7 +44,7 @@ Nachdem Sie das Verbrauchstracking über den Umschalter **Verbrauchsverknüpfung
 > [!IMPORTANT]
 > Wenn Sie im Feld **Zeilentyp** auf der Zeile für die Projekt Erfassungsjournalzeile oder den Kauf keinen Wert angeben, werden keine Projektplanungszeilen erstellt, wenn Sie das Projekt Erf.-Journal oder den Einkaufsbeleg buchen.
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Erstellen von Preisen für Ressourcen, Artikel und Fibukonten für Projekte
+## Erstellen von Preisen für Ressourcen, Artikel und Fibukonten für Projekte
 
 > [!NOTE]
 > In der 2020er Release-Welle 2 haben wir neue Prozesse zum Einrichten und Verwalten von Preisen und Rabatten freigegeben. Wenn Sie ein neuer Kunde sind, nutzen Sie die neue Erfahrung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -72,7 +72,7 @@ Wenn Sie ein Ressourcen-, Artikel- oder Fibukonto für ein Projekt auswählen, v
 
 ---
 
-## <a name="to-set-up-job-posting-groups"></a>Projektbuchungsgruppen einrichten
+## Projektbuchungsgruppen einrichten
 
 Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungskonten für die Projektkalkulation verwendet werden. Damit Projekte gebucht werden können, müssen Sie Konten für die Buchung für jede Projektbuchungsgruppe einrichten. Eine Buchungsgruppe stellt eine Verknüpfung zwischen dem Projekt und der Art dar, wie es im Fibuposten zu behandeln ist. Wenn Sie ein Projekt erstellen, geben Sie eine Buchungsgruppe an, und standardmässig wird jede Aufgabe, die Sie erstellen, dieser Buchungsgruppe zugeordnet. Wenn Sie Aufgaben erstellen, können Sie jedoch die Voreinstellung überschreiben und eine Buchungsgruppe auswählen, die geeigneter ist.  
 
@@ -100,7 +100,7 @@ Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungsko
 | **Konto deklarierte Kosten** |Das Aufwandskonto, das die deklarierten Kosten für das Projekt enthält. Dabei handelt es sich normalerweise um ein Soll-Aufwandskonto. | Deklarierte Kosten|
 | **Konto deklarierte Verkäufe** |Das Ertragskonto, das den deklarierten Umsatz für das Projekt enthält. Dabei handelt es sich normalerweise um ein Haben-Ertragskonto. | Deklarierte Verkäufe|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Projektmanagement einrichten](projects-setup-projects.md)  
 [Video: So erstellen Sie ein Projekt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
