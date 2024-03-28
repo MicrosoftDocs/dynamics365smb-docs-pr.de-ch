@@ -9,11 +9,11 @@ ms.date: 08/29/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Überblick zu Aufgaben, Buchhaltungsperioden zu schliessen
+# <a name="overview-of-tasks-to-close-accounting-periods"></a>Überblick zu Aufgaben, Buchhaltungsperioden zu schliessen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] zwingt Sie nicht, Perioden zu schliessen, aber es gibt viele Aktivitäten am Periodenende (Monatsende), die Sie ausführen können. Dieses Thema zeigt eine Übersicht von optionalen Vorgängen und Aktivitäten für Perioden, die bereitstehen.  
 
-## Fibuposten
+## <a name="general-ledger"></a>Fibuposten
 
 * Geben Sie systemweite und benutzerspezifische Buchungsperioden an.  
 
@@ -24,7 +24,7 @@ ms.service: dynamics-365-business-central
 * Führen Sie Finanzberichte wie folgt aus:  
   * Öffnen Sie die Seite **Finanzberichte** und klicken Sie auf **Drucken**.  
 
-## Debitoren und Verkauf
+## <a name="sales-and-receivables"></a>Debitoren und Verkauf
 
 * Alle Aufträge, Rechnungen, Gutschriften und Reklamationen werden gebucht.  
 * Buchen Sie alle Barzahlungseingangs-Buch.-Blätter.  
@@ -32,7 +32,7 @@ ms.service: dynamics-365-business-central
 * Stimmen Sie die Debitoren mit der Finanzbuchhaltung ab.  
 * Führen Sie die Stapelverarbeitung **Fakturierte Aufträge löschen** aus.  
 
-## Kreditoren und Einkauf
+## <a name="purchases-and-payables"></a>Kreditoren und Einkauf
 
 * Alle Aufträge, Rechnungen, Gutschriften und Reklamationen für Kreditoren werden gebucht.  
 * Buchen Sie das Zahlungsausgangs Buch.-Blatt.  
@@ -40,7 +40,7 @@ ms.service: dynamics-365-business-central
 * Führen Sie den Bericht **Kreditor - Saldenrückblick** aus, und stimmen Sie die Kreditoren mit der Finanzbuchhaltung ab.  
 * Führen Sie die Stapelverarbeitung **Erledigte fakturierte Bestellungen löschen** aus.  
 
-## Anlagen
+## <a name="fixed-assets"></a>Anlagen
 
 * Alle Wartungskosten wurden über die Anlagen-Erfassungsjournale oder Rechnungen gebucht.
 * Buchen Sie Regulierungen.
@@ -48,15 +48,15 @@ ms.service: dynamics-365-business-central
 * Buchen Sie die Abschreibung.
 * Aktualisieren und buchen Sie das Erf.-Journal für wiederkehrende Anlagen
 
-## Intercompany
+## <a name="intercompany"></a>Intercompany
 
 * Verarbeiten von Intercompanytransaktionen.
 
-## Berechnen und erfassen Sie die MWST
+## <a name="calculate-and-process-sales-tax"></a>Berechnen und erfassen Sie die MWST
 
 * Schliessen Sie Salestax-Abrechnungen ab.  
 
-## Siehe auch 
+## <a name="see-also"></a>Siehe auch
 
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
 [Schliessen der Bücher](year-close-books.md)  
