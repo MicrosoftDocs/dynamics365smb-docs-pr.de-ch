@@ -10,7 +10,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-project-management"></a>Projektmanagement einrichten
+# Projektmanagement einrichten
 
 Bevor Sie [!INCLUDE[prod_short](includes/prod_short.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten.
 
@@ -25,7 +25,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Mit Arbeitszeittabellen kann eine Ressource den Zeitverbrauch für eine Mitarbeiter oder einen Arbeitsplatz einfach melden, und ein Manager kann den Verbrauch und die Verteilung einfach überprüfen. |[Einrichten von Arbeitszeittabellen](projects-how-setup-time-sheets.md) |
 | Erstellen Sie Projektkarten und bereiten Sie Projektaufgaben vor. Richten Sie Preise für Projektartikel und Projektressourcen ein und definieren Sie Projektbuchungsgruppen. |[Einrichten von Projekten](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Projekte verwalten](projects-manage-projects.md)  
 [Video: So erstellen Sie ein Projekt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
