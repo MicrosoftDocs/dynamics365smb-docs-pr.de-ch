@@ -12,7 +12,7 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# Nicht abziehbare MWST einrichten
+# <a name="set-up-nondeductible-vat"></a>Nicht abziehbare MWST einrichten
 
 Bei der nicht abziehbaren Mehrwertsteuer (MWST) handelt es sich um die Mehrwertsteuer, die von einem Kaufenden zu zahlen ist, aber nicht von seiner eigenen Mehrwertsteuerschuld des Kaufenden abgezogen werden kann. Unternehmen können in der Regel die MWST beim Kauf von Waren und Dienstleistungen im Zusammenhang mit ihrer Geschäftstätigkeit zurückfordern. In manchen Situationen fällt einem Unternehmen jedoch MWST an, die nicht abzugsfähig ist. Diese Situationen hängen typischerweise mit den örtlichen Vorschriften zusammen und können sich von Land zu Land sowie Region zu Region unterscheiden. Das Modell der Verwendung der nicht abziehbaren oder teilweise abziehbaren MWST ist jedoch ähnlich. Sie können die anteilige MWST verwenden, um die MWST zu berechnen, wenn es abziehbare und nicht abziehbare MWST gibt.
 
@@ -26,7 +26,7 @@ Da es schwierig sein kann, zu wissen, wo und wie ein Artikel verwendet wird, wen
 > [!IMPORTANT]
 > Dieses globale Feature ist **ausser in Belgien, Italien und Norwegen** in allen Ländern mit aktivierter MWST verfügbar. Diese Lokalisierungen verfügen bereits über lokale Features und werden in Zukunft aktualisiert. Führen Sie dieses Feature in diesen Ländern nicht aus, da es kein Upgrade-Verfahren gibt.
 
-## Nicht abziehbare MWST verwenden
+## <a name="use-nondeductible-vat"></a>Nicht abziehbare MWST verwenden
 
 1. Wählen Sie die ![Glühbirne, welche die 3. „Sie wünschen ...“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Geben Sie **MWST-Einrichtung** ein und wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie das Kontrollkästchen **Nicht abzugsfähige MWST zulassen**.
@@ -41,7 +41,7 @@ Da es schwierig sein kann, zu wissen, wo und wie ein Artikel verwendet wird, wen
     3. Wählen Sie das Kontrollkästchen **Für Projektkosten verwenden**, um anzugeben, dass die nicht abziehbare MWST zu den Projektkosten hinzugefügt werden muss, wenn Sie Artikel für das Projekt kaufen. Andernfalls hat die nicht abziehbare MWST keinen Einfluss auf die Projektkosten, und der volle Betrag wird nur auf Fibukontoebene erfasst.
     4. Wählen Sie das Kontrollkästchen **Nicht abziehbare MWST in Zeilen anzeigen**, um anzugeben, dass die nicht abziehbare MWST auf Belegzeilenseiten angezeigt werden muss, um die MWST-Beträge einfacher bearbeiten zu können.
 
-## Den nicht abziehbaren MWST-Prozentsatz verwenden
+## <a name="use-the-nondeductible-vat-percentage"></a>Den nicht abziehbaren MWST-Prozentsatz verwenden
 
 1. Wählen Sie die ![Glühbirne, welche die 3. „Sie wünschen ...“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MWST-Buchungseinrichtung** ein und wählen Sie dann den entsprechenden Link aus.
 2. Füllen Sie auf der Seite **MWST-Buchungsmatrix** die Felder gemäss der Beschreibung in der folgenden Tabelle aus.
@@ -62,7 +62,7 @@ Da es schwierig sein kann, zu wissen, wo und wie ein Artikel verwendet wird, wen
 >
 > Verwenden Sie nicht dasselbe **MWST ID** für beide normale MWST, wo das Feld **Nicht abzugsfähige MWST %** auf **0** (Null) eingestellt ist, und die normale MWST, wenn das Feld **Nicht abzugsfähige MWST %** auf einen anderen Wert als Null eingestellt ist. Andernfalls wird der gesamte nicht abzugsfähige MWST-Betrag falsch berechnet.
 
-## Siehe auch 
+## <a name="see-also"></a>Siehe auch
 
 [Finanzmanagement](finance.md)  
 [Designdetails: Nicht abziehbare MWST](design-details-nondeductible-vat.md)  
