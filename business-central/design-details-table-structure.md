@@ -1,6 +1,6 @@
 ---
 title: Designdetails - Tabellenstruktur | Microsoft Docs
-description: 'Um zu erkennen, wie die Dimensionsposten-Einlagerungs- und Buchung neu entwickelt wurde, ist es wichtig, die Tabellenstruktur zu kennen.'
+description: 'Um zu erkennen, wie die Dimensionsposten-Einlagerungs- und -Buchung neu entwickelt wurde, ist es wichtig, die Tabellenstruktur zu kennen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
@@ -9,32 +9,34 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-table-structure"></a>Designdetails: Tabellenstruktur
+# Designdetails: Tabellenstruktur
+
 Um zu erkennen, wie die Dimensionsposten gespeichert und gebucht werden, ist es wichtig, die Tabellenstruktur zu kennen.  
 
-## <a name="table-480-dimension-set-entry"></a>Tabelle 480, Dimensionssatzposten
+## Tabelle 480, Dimensionssatzposten  
+
 Sie können den Inhalt dieser Tabelle nicht ändern. Nachdem Daten in die Tabelle geschrieben wurden, können Sie sie nicht löschen oder bearbeiten.
 
-|Feldnr.|Feldname|Datentyp|Bemerkung|  
+|Feldnr.|Feldname|Datentyp|Kommentar|  
 |---------------|----------------|---------------|-------------|  
-|1|**ID**|Integer|>0,0 wird für den leeren Dimensionssatz reserviert. Referenzfeld 3 in Tabelle 481.|  
+|0|**ID**|Integer|>0,0 wird für den leeren Dimensionssatz reserviert. Referenzfeld 3 in Tabelle 481.|  
 |2|**Dimensionscode**|Code 20|Tabellenrelation zu Tabelle 348|  
 |3|**Dimensionswertcode**|Code 20|Tabellenrelation zu Tabelle 349.|  
-|4|**Dimensionswert-ID**|Integer|Referenzfeld 12 in Tabelle 349. Es ist der sekundäre Schlüssel, der verwendet wird, wenn die Tabelle 481 durchläuft.|  
+|4|**Dimensionswert-ID**|Integer|Referenzfeld 12 in Tabelle 349. Es ist der sekundäre Schlüssel, der verwendet wird, wenn die Tabelle 481 durchläuft.|  
 |5|**Dimensionsname**|Text 30|CalcField. Lookup zu Tabelle 348.|  
 |6|**Dimensionswertname**|Text 30|CalcField. Lookup zu Tabelle 349.|  
 
-## <a name="table-481-dimension-set-tree-node"></a>Tabelle 481, Dimensionssatz-Strukturknoten
-Sie können den Inhalt dieser Tabelle nicht ändern. Sie wird verwendet, um nach einen Dimensionssatz zu suchen. Wenn der Dimensionssatz nicht gefunden wird, wird ein neuer Satz erstellt.  
+## Tabelle 481, Dimensionssatz-Strukturknoten  
+Sie können den Inhalt dieser Tabelle nicht ändern. Sie wird verwendet, um nach einem Dimensionssatz zu suchen. Wenn der Dimensionssatz nicht gefunden wird, wird ein neuer Satz erstellt.  
 
-|Feldnr.|Feldname|Datentyp|Bemerkung|  
+|Feldnr.|Feldname|Datentyp|Kommentar|  
 |---------------|----------------|---------------|-------------|  
 |1|**Übergeordnete Dimensionssatz-ID**|Integer|0 für Knoten der höchsten Ebene.|  
 |2|**Dimensionswert-ID**|Integer|Tabellenrelation zu Feld 12 in Tabelle 349.|  
 |3|**Dimensionssatz-ID**|Integer|AutoIncrement. Verwendet in Feld 1 in Tabelle 480.|  
 |4|**In Benutzung**|Boolescher Wert|False, wenn nicht verwendet.|  
 
-## <a name="table-482-reclas-dimension-set-buffer"></a>Tabelle 482 Umlag.-Dimensionssatzpuffer
+## Tabelle 482 Umlag.-Dimensionssatzpuffer  
 Diese Tabelle wird verwendet, wenn Sie einen Dimensionswertcode, beispielsweise zu einem Artikeleintrag ändern, indem Sie die Seite **Artikel Umlag. Erf.-Blatt** verwenden.  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
@@ -48,14 +50,14 @@ Diese Tabelle wird verwendet, wenn Sie einen Dimensionswertcode, beispielsweise 
 |7|**Dimensionswertname**|Text 30|CalcField. Lookup zu Tabelle 349.|  
 |8|**Neuer Dimensionswertname**|Text 30|CalcField. Lookup zu Tabelle 349.|  
 
-## <a name="transaction-and-budget-tables"></a>Transaktions- und Budget-Tabellen
+## Transaktions- und Budget-Tabellen  
 Zusätzlich zu anderen Dimensionsfeldern in der Tabelle ist dieses Feld wichtig:  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensionssatz-ID**|Integer|Referenzfeld 1 in Tabelle 480.|  
 
-### <a name="table-83-item-journal-line"></a>Tabelle 83, Artikel Erf.-Journalzeile
+### Tabelle 83, Artikel Erf.-Journalzeile  
 Zusätzlich zu anderen Dimensionsfeldern in der Tabelle sind diese Felder wichtig.  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
@@ -63,17 +65,17 @@ Zusätzlich zu anderen Dimensionsfeldern in der Tabelle sind diese Felder wichti
 |480|**Dimensionssatz-ID**|Integer|Referenzfeld 1 in Tabelle 480.|  
 |481|**Neue Dimensionssatz-ID**|Integer|Referenzfeld 1 in Tabelle 480.|  
 
-### <a name="table-349-dimension-value"></a>Tabelle 349, Dimensionswert
+### Tabelle 349, Dimensionswert  
 Zusätzlich zu anderen Dimensionsfeldern in der Tabelle sind diese Felder wichtig.  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
 |---------------|----------------|---------------|-------------|  
 |12|**Dimensionswert-ID**|Integer|AutoIncrement. Verwendet als Referenzen in Tabelle 480 und in Tabelle 481.|  
 
-### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tabellen, die Dimensionssatz-ID-Feld enthalten
- Das Feld **Dimensionssatz-ID** (480) ist in den folgenden Tabellen vorhanden. Für die Tabellen, die gebuchte Daten speichern, bietet das Feld nur eine nicht-bearbeitbare Anzeige von Dimensionen, die als DrillDown markiert ist. Für die Tabellen, die Arbeitsbelege speichern, ist das Feld editierbar. Die Puffertabellen, die intern verwendet werden, benötigen keine bearbeitbaren oder nicht-bearbeitbaren Funktionen.  
+### Tabellen, die Dimensionssatz-ID-Feld enthalten
+ Das Feld **Dimensionssatz-ID** (480) ist in den folgenden Tabellen vorhanden. Für die Tabellen, die gebuchte Daten speichern, bietet das Feld nur eine nicht bearbeitbare Anzeige von Dimensionen, die als Drilldown gekennzeichnet ist. Für die Tabellen, die Arbeitsdokumente speichern, ist das Feld editierbar. Die Puffertabellen, die intern verwendet werden, benötigen keine bearbeitbaren oder nicht bearbeitbaren Funktionen.  
 
- Feld 480 ist in den folgenden Tabellen nicht editierbar.  
+ Feld 480 ist in den folgenden Tabellen nicht editierbar.  
 
 |Tabellennr.|Tabellenname|  
 |---------------|----------------|  
@@ -140,9 +142,9 @@ Feld 480 ist in den folgenden Tabellen editierbar.
 |89|**Stücklisten-Blattzeile**|  
 |96|**Finanzbudgetposten**|  
 |207|**Res. Erf.-Journalzeile**|  
-|210|**Projekt Erf.-Journalzeile**|  
+|210|**Projekt Buchungsblattzeile**|  
 |221|**Fibu Erf.-Journal Verteilungen**|  
-|246|**Bestellarbeitsblattzeile**|  
+|246|**Bestellvorschlagszeile**|  
 |295|**Mahnungskopf**|  
 |302|**Zinsrechnungskopf**|  
 |5405|**Fertigungsauftrag**|  
@@ -166,14 +168,14 @@ Feld 480 ist in den folgenden Puffertabellen vorhanden.
 |Tabellennr.|Tabellenname|  
 |---------------|----------------|  
 |49|**Rechnungsbuchungspuffer**|  
-|212|**Projektregulierungspuffer**|  
+|212|**Projektbuchungspuffer**|  
 |372|**Zahlungspuffer**|  
 |382|**Deb.-/Kred.-Postenpuffer**|  
 |461|**Zeilenpuffer Vorauszahlungsrechnung**|  
 |5637|**Anlagen Fibu-Buchungspuffer**|  
 |7136|**Artikelbudgetpuffer**|  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Dimensionssatz-Eintrags-Übersicht](design-details-dimension-set-entries-overview.md)  
 [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)   

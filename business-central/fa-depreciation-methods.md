@@ -7,32 +7,27 @@ ms.reviewer: bnielse
 ms.topic: conceptual
 ms.search.keywords: 'write down, depreciate, depreciation'
 ms.search.form: '5629, 5633'
-ms.date: 09/22/2023
+ms.date: 03/25/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
+
 # Abschreibungsmethoden für Anlagen
 
-Es gibt in [!INCLUDE [prod_short](includes/prod_short.md)] acht verfügbare Abschreibungsmethoden:  
+[!INCLUDE [prod_short](includes/prod_short.md)] unterstützt acht verschiedene Abschreibungsmethoden für Anlagen:
 
-* Linear  
-* Degressiv 1  
-* Degressiv 2  
-* Degr1/Linear  
-* Degr2/Linear  
-* Tabelle  
-
-  Definieren Sie Ihre eigene Abschreibungsmethode mit Hilfe von Abschreibungstabellen. Mehr Informationen zur Anwendung einer benutzerdefinierten Abschreibungsmethode finden Sie unter [Benutzerdefinierte Abschreibungsmethode festlegen](fa-how-setup-user-defined-depreciation-method.md).
-* Manuell  
-
-  Verwenden Sie diese manuelle Methode für Anlagen, die nicht abgeschrieben werden, z. B. Land. Sie müssen die Abschreibung im Anlagen Fibu Erf.-Journal eingeben. Die Stapelverarbeitung **Abschreibung berechnen** berücksichtigt keine Anlagen mit der Abschreibungsmethode „Manuell“.  
-* US-Halbjahresregel  
-
-  Mit dieser Methode wird eine Anlage jedes Jahr mit dem gleichen Betrag abgeschrieben.  
+* Linear
+* Degressiv 1 (Degr. 1)
+* Degressiv 2 (Degr. 2)
+* Degr1/Linear
+* Degr2/Linear
+* US-Halbjahresregel
+* Manuell
+* Benutzerdefinierte Abschreibung
 
 ## Lineare Abschreibung
 
-Wenn Sie die Methode "Linear" verwenden, müssen Sie eine der folgenden Optionen im Anlagen-Abschreibungsbuch angeben:  
+Bei der linearen Abschreibung schreiben Sie die Anlage mit einem festen jährlichen Prozentsatz oder mit einem festen jährlichen Betrag über den Abschreibungszeitraum hinweg ab. Wenn Sie die Methode "Linear" verwenden, müssen Sie eine der folgenden Optionen im Anlagen-Abschreibungsbuch angeben:  
 
 * Die Nutzungsdauer (in Jahren oder Monaten) oder das Enddatum der Nutzungsdauer.  
 * Einen festen jährlichen Prozentsatz  
@@ -43,23 +38,23 @@ Wenn Sie die Methode "Linear" verwenden, müssen Sie eine der folgenden Optionen
 
 Falls Sie eine Abschreibung Periode angeben (Anzahl der Abschreibung Jahre, Anzahl der Abschreibung Monate oder das Enddatum der Nutzungsdauer), verwendet die Anwendung die folgende Formel, um den Abschreibung Betrag zu berechnen:  
 
-*AfA Betrag = ((Buchwert – Restwert) x Anzahl AfA Tage) / Verbleibende AfA Tage*  
+* Abschreibungsbetrag = ((Buchwert – Restwert) x Anzahl Abschreibungstage) / Verbleibende Abschreibungstage*  
 
-Die verbleibenden Abschreibungstage werden als die Gesamtzahl der Abschreibungstage minus der Anzahl der Tage zwischen dem Startdatum Normal-Abschreibung und dem letzten Anlagen-Buchungsdatum berechnet.  
+Die verbleibenden Abschreibungstage werden als die Gesamtzahl der Abschreibungstage minus der Anzahl der Tage zwischen dem Startdatum der Abschreibung und dem letzten Anlagen-Buchungsdatum berechnet.  
 
-Der Buchwert kann durch gebuchte Zuschreibungen, AfA, Sonderabschreibungsbeträge oder benutzerdef. Abschr.beträge reduziert werden; abhängig davon, ob das Feld **In AfA-Berechnung enthalten** deaktiviert ist und ob das Feld **Teil d. Buchwerts** auf der Seite **Anlagenbuchungsart Einr.** aktiviert ist. Diese Berechnung stellt sicher, dass die Anlage zum angegebenen Enddatum vollständig abgeschrieben ist.  
+Der Buchwert kann durch gebuchte Zuschreibungen, Abschreibungen und benutzerdefinierte Abschreibungen 1 und 2 reduziert werden, abhängig davon, ob das Feld **In Abschreibungsberechnung enthalten** deaktiviert ist und ob das Feld **Teil d. Buchwerts** auf der Seite **Anlagenbuchungsart einr.** aktiviert ist. Diese Berechnung stellt sicher, dass die Anlage zum angegebenen Enddatum vollständig abgeschrieben ist.  
 
 ### Fester jährlicher Prozentsatz
 
 Wenn Sie einen festen jährlichen Prozentsatz angeben, verwendet [!INCLUDE [prod_short](includes/prod_short.md)] die folgende Formel für die Berechnung des Abschreibungsbetrags.  
 
-*Abschreibungsbetrag = (Linear % x Abschreibungsbasis x Anzahl Abschreibungstage) / (100 x 360)*  
+* Abschreibungsbetrag = (Linear % x Abschreibungsbasis x Anzahl Abschreibungstage) / (100 x 360)*  
 
 ### Fester jährlicher Betrag
 
 Wenn Sie einen festen jährlichen Betrag angeben, verwendet [!INCLUDE [prod_short](includes/prod_short.md)] die folgende Formel für die Berechnung des Abschreibungsbetrags.  
 
-* *Abschreibungsbetrag = (Fester Abschreibungsbetrag x Anzahl Abschreibungstage) / 360*  
+* Abschreibungsbetrag = (Fester Abschreibungsbetrag x Anzahl Abschreibungstage) / 360*  
 
 ### Beispiel – lineare Abschreibung
 
@@ -68,14 +63,15 @@ Eine Anlage hat Anschaffungskosten von MW 100.000. Die erwartete Lebensdauer ist
 Für dieses Beispiel sieht der Anlagenposten folgendermassen aus:  
 
 | Datum | Anlagenbuchungsart | Tage | Betrag | Buchwert |
-| --- | --- | --- | --- | --- |
+| ---- | --------------- | ---- | ------ | ---------- |
 | 01/01/20 |Anschaffungskosten |(Startdatum Normal-Abschreibung) |100,000.00 |100,000.00 |
 | 06/30/20 |Abschreibungen |180 |-6.250,00 |93,750.00 |
 | 12/31/20 |Abschreibungen |180 |-6.250,00 |87,500.00 |
 | 06/30/21 |Abschreibungen |180 |-6.250,00 |81,250.00 |
 | 12/31/21 |Abschreibungen |180 |-6.250,00 |75,000.00 |
-| 06/30/27 |Abschreibungen |180 |-6.250,00 |6,250.00 |
-| 12/31/27 |Abschreibungen |180 |-6.250,00 |0 |
+| ...      |             |    |          |          |
+| 06/30/27 |Abschreibungen |180 |-6.250,00 |6,250.00  |
+| 12/31/27 |Abschreibungen |180 |-6.250,00 |0         |
 
 ## Abschreibungsmethode „1 % degressiv“
 
@@ -83,7 +79,7 @@ Hierbei handelt es sich um eine Abschreibungsmethode, bei der der grösste Teil 
 
 Die folgende Formel zur Berechnung des Abschreibung-Betrages ist:  
 
-* *AfA Betrag = (Degressive AfA % * Anzahl AfA Tage * AfA Basis) / (100 *360)*  
+* Abschreibungsbetrag = (Degressive Abschreibung % x Anzahl Abschreibungstage x Abschreibungsbasis) / (100 x 360)*  
 
 Die Afa-Basis wird als Buchwert zu Beginn des Jahres berechnet. Bei der Anzahl der Abschreibungstage handelt es sich um die Anzahl der Tage zwischen dem Buchungsdatum und dem letzten Abschreibungsdatum. [!INCLUDE [prod_short](includes/prod_short.md)] nimmt bei der Berechnung der Abschreibung an, dass alle im Geschäftsjahr vorgenommenen Abschreibungen mit dieser Formel berechnet werden.  
 
@@ -96,7 +92,7 @@ Eine Anlage hat Anschaffungskosten von MW 100.000. Das Feld **Degressive AfA %**
 Die nachstehende Tabelle zeigt, wie die Anlagenposten-Einträge aussehen.  
 
 | Datum | Anlagenbuchungsart | Tage | Betrag | Buchwert |
-| --- | --- | --- | --- | --- |
+| ---- | --------------- | ---- | ------ | ---------- |
 | 01/01/20 |Anschaffungskosten |(Startdatum Normal-Abschreibung) |100,000.00 |100,000.00 |
 | 06/30/20 |Abschreibungen |180 |-12.500,00 |87,500.00 |
 | 12/31/20 |Abschreibungen |180 |-12.500,00 |75,000.00 |
@@ -108,14 +104,14 @@ Die nachstehende Tabelle zeigt, wie die Anlagenposten-Einträge aussehen.
 | 12/31/23 |Abschreibungen |180 |-5.273,44 |31,640.62 |
 | 06/30/24 |Abschreibungen |180 |-3.955,08 |27,685.54 |
 | 12/31/24 |Abschreibungen |180 |-3.955,08 |23,730.46 |
+| ...      |             |    |          |          |
 
 Berechnungsmethode:  
 
 * Jahr 1: *25 % von 100.000 = 25.000 = 12.500 + 12.500*
-
 * Jahr 2: *25 % von 75.000 = 18.750 = 9.375 + 9.375*
-
 * Jahr 3: *25 % von 56.250 = 14.062,50 = 7.031,25 + 7.031,25*
+* ...
 
 Die Berechnung erfolgt bis der Buchwert gleich dem endgültigen Rundungsbetrag oder dem von Ihnen angegebenen Restwert ist.  
 
@@ -143,19 +139,20 @@ Der Restbuchwert beträgt jedoch nur 5.000, daher schlägt [!INCLUDE [prod_short
 
 ## Abschreibungsmethode „2 % degressiv“
 
-Die Methoden Degressiv 1 und Degressiv 2 berechnen den gleichen Gesamt Abschreibung-Betrag für jedes Jahr. Falls Sie die Stapelverarbeitung **AfA berechnen** mehr als einmal jährlich ausführen, resultiert die Methode "Degressiv 1" in gleichen AfA Beträgen für die einzelnen Perioden. Die Methode "Degressiv 2" hat in diesem Fall fallende Beträge in den einzelnen Perioden zur Folge.  
+Die Methoden Degressiv 1 und Degressiv 2 berechnen den gleichen Gesamt Abschreibung-Betrag für jedes Jahr. Falls Sie den Batchauftrag **Abschreibung berechnen** mehr als einmal jährlich ausführen, resultiert die Methode „Degressiv 1“ in gleichen Abschreibungsbeträgen für die einzelnen Perioden. Die Methode „Degressiv 2“ hat in diesem Fall fallende Beträge in den einzelnen Perioden zur Folge.  
 
 ### Beispiel – Abschreibungsmethode „2 % degressiv“
 
 Eine Anlage hat Anschaffungskosten von MW 100.000. Das Feld **Degressive AfA %** hat den Wert 25. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt. Die Anlagenposten sehen folgendermassen aus:  
 
-| Datum | Anlagenbuchungsart | Tage | Betrag | Buchwert |
-| --- | --- | --- | --- | --- |
+| Datum     | Anlagenbuchungsart  | Tage                       | Betrag    | Buchwert |
+| -------- | ---------------- | -------------------------  | --------- | ---------- |
 | 01/01/20 |Anschaffungskosten |(Startdatum Normal-Abschreibung)|100,000.00 |100,000.00 |
-| 06/30/20 |Abschreibungen |180 |-13.397,46 |86,602.54 |
-| 12/31/20 |Abschreibungen |180 |-11.602,54 |75,000.00 |
-| 06/30/21 |Abschreibungen |180 |-10.048,09 |64,951.91 |
-| 12/31/21 |Abschreibungen |180 |-8.701,91 |56,250.00 |
+| 06/30/20 |Abschreibungen      |180                         |-13.397,46 | 86,602.54 |
+| 12/31/20 |Abschreibungen      |180                         |-11.602,54 | 75,000.00 |
+| 06/30/21 |Abschreibungen      |180                         |-10.048,09 | 64,951.91 |
+| 12/31/21 |Abschreibungen      |180                         |-8.701,91  | 56,250.00 |
+| ...      |                  |                            |           |           |
 
 Berechnungsmethode:  
 
@@ -165,18 +162,19 @@ Berechnungsmethode:
 * *P* = *DBP*/100  
 * *D* = *ND*/360  
 
-Die Formel zur Berechnung des Abschreibungsbetrages ist:  
+Die Formel zur Berechnung des Abschreibungsbetrages lautet:  
 
-*DA* = *BV* x (1 – (1 –P)<sup>D</sup>)
+* *DA* = *BV* x (1 – (1 –P)<sup>D</sup>)
 
 Die Abschreibungswerte lauten:  
 
-| Datum | Berechnung |
-| --- | --- |
+| Datum     | Berechnung                                                |
+| -------- | -----------                                                |
 | 06/30/20 |DA = 100.000,00 x (1 -(1 - 0,25)<sup>0,5</sup>) = 13.397,46 |
 | 12/31/20 |DA = 86.602,54 x (1 -(1 - 0,25)<sup>0,5</sup>) = 11.602,54 |
-| 06/30/21 |DA = 75.000,00 x (1 -(1 - 0,25)<sup>0,5</sup>) = 10.048,09 |
-| 12/31/21 |AB = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91 |
+| 06/30/21 |AB = 75.000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10.048,09 |
+| 12/31/21 |AB = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91  |
+| ...      |                                                            |
 
 ## Abschreibung „Degr1/linear“
 
@@ -195,7 +193,7 @@ Wenn Sie diese Methode verwenden, müssen Sie die geschätzte Nutzungsdauer und 
 
 ### Beispiel – „degr1/lineare“ Abschreibung
 
-Eine Anlage hat Anschaffungskosten von MW 100.000. Im Fenster **Anlagen-Abschreibungsbücher** enthält die Seite **Degressive Abschreibung %** den Wert 25 und das Feld **Nutzungsdauer i. Jahren** den Wert 8. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt.  
+Eine Anlage hat Anschaffungskosten von MW 100.000. Auf der Seite **Anlagen-Abschreibungsbücher** enthält das Feld **Degressive Abschreibung %** den Wert 25 und das Feld **Nutzungsdauer i. Jahren** den Wert **8**. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt.  
 
 Die Anlagenposten sehen folgendermassen aus:  
 
@@ -219,7 +217,7 @@ Die Anlagenposten sehen folgendermassen aus:
 | 06/30/27 |Abschreibungen |180 |-3.955,08 |3.955,07 Linear |
 | 12/31/27 |Abschreibungen |180 |-3.955,07 |0,00 Linear |
 
-`SL` nach dem Buchwert bedeutet, dass die lineare Abschreibung verwendet worden ist.  
+`SL` nach dem Buchwert bedeutet, dass die lineare Abschreibung verwendet wurde.  
 
 Berechnungsmethode:  
 
@@ -229,27 +227,27 @@ Berechnungsmethode:
 
     *Linear Betrag = 100.000/8=12.500=6.250+6.250*  
 
-    Es wird der degressive Betrag verwendet, da es sich um den grösseren Betrag handelt.  
-
+    Es wird der degressive Betrag verwendet, da dieser der höhere Betrag ist.  
+* ...
 * Jahr 5 (2025):  
 
     *Degressiv Betrag: 25% von 23,730.46 = 4,943.85=2,471.92+2,471.92*  
 
     *Linearer Betrag = 23,730.46/3 = 7,910.15 = 3,995.07 + 3,995.08*  
 
-    Es wird der lineare Betrag verwendet, da es sich um den grösseren Betrag handelt.  
+    Es wird der lineare Betrag verwendet, da dieser der höhere Betrag ist.  
 
 ## Abschreibung unter Verwendung der US-Halbjahresregel
 
-Die US-Halbjahresregel wird nur dann angewendet, wenn Sie ein Häkchen auf der Seite **US-Halbjahresregel verwenden** im **Anlagen-Abschreibungsbuch** gesetzt haben.  
+Die Methode der US-Halbjahresregel wird nur angewendet, wenn Sie auf der Seite **Anlagenkarte** für die Anlage den Umschalter **US-Halbjahresregel verwenden** aktivieren.  
 
-Diese Abschreibungsmethode kann zusammen mit folgenden Abschreibungsmethoden verwendet werden:  
+Sie können diese Abschreibungsmethode kann zusammen mit folgenden anderen Abschreibungsmethoden verwenden:  
 
 * Linear  
 * Degressiv 1  
 * Degr1/Linear  
 
-Wenn die Halbjahresregel angewendet wird, hat eine Anlage sechs AfA Monate in dem ersten Geschäftsjahr der Abschreibung, unabhängig vom Inhalt des Feldes **Abschreibungsdatum**.  
+Wenn die US-Halbjahresregel angewendet wird, hat eine Anlage sechs Abschreibungsmonate im ersten Geschäftsjahr der Abschreibung, unabhängig vom Inhalt des Feldes **Abschreibungsdatum**.  
 
 > [!NOTE]  
 > Die Nutzungsdauer einer Anlage, die nach dem ersten Geschäftsjahr verbleibt, enthält immer ein halbes Jahr, wenn die US-Halbjahresregel verwendet wird. Damit die Halbjahresregel korrekt angewendet wird, muss dass Feld **Enddatum d. Nutzungsdauer** auf der Seite **Anlagen-Abschreibungsbuch** immer ein Datum enthalten, das genau sechs Monate vor dem Enddatum des Geschäftsjahres liegt, in dem die Anlage vollständig abgeschrieben ist.  
@@ -286,7 +284,7 @@ Die Anlagenposten sehen folgendermassen aus:
 | 12/31/24 |Abschreibungen |360 |-11.520,00 |5.760,00 Linear |
 | 12/31/25 |Abschreibungen |180 |  -5.760,00 |0,00 Linear |
 
-`SL` nach dem Buchwert bedeutet, dass die lineare Abschreibung verwendet worden ist.  
+`SL` nach dem Buchwert bedeutet, dass die lineare Abschreibung verwendet wurde.  
 
 Berechnungsmethode:  
 
@@ -296,24 +294,24 @@ Berechnungsmethode:
 
     *Linear Betrag = Betrag des gesamten Jahres = 100.000 / 5=20.000.* Daher für ein halbes Jahr = 20.000 / 2 =10.000  
 
-    Es wird der degressive Betrag verwendet, da es sich um den grösseren Betrag handelt.  
-
+    Es wird der degressive Betrag verwendet, da dieser der höhere Betrag ist.  
+* ...
 * Jahr 5 (2024):  
 
     *Degressiver Betrag = 40% von 17,280.00 = 6,912.00*  
 
     *Linearer Betrag = 28,800 / 1.5 = 11,520.00*  
 
-    Es wird der lineare Betrag verwendet, da es sich um den grösseren Betrag handelt.  
+    Es wird der lineare Betrag verwendet, da dieser der höhere Betrag ist.  
 
-## Kopieren von Posten in weitere Abschreibungsbücher
+## Posten in andere Abschreibungsbücher duplizieren
 
-Falls Sie über drei Abschreibungsbücher B1, B2 und B3 verfügen und Posten aus B1 in B2 und B3 kopieren möchten, können Sie das Kästchen **Kopien ermöglichen** in den Abschreibungsbuchkarten von B2 und B3 auswählen. Diese Einstellung kann in den folgenden Szenarien hilfreich sein:
+Falls Sie über drei Abschreibungsbücher B1, B2 und B3 verfügen und Posten aus B1 in B2 und B3 kopieren möchten, können Sie den Umschalter **Kopien ermöglichen** in den Abschreibungsbuchkarten von B2 und B3 aktivieren. Diese Einstellung kann in den folgenden Szenarien hilfreich sein:
 
 * Das Abschreibungsbuch B1 ist in das Hauptbuch integriert und verwendet das Anlagen-Fibu Erf.-Journal.
 * Die Abschreibungsbücher B2 und B3 sind nicht in das Hauptbuch integriert und verwenden das Anlagen-Erf.-Journal.  
 
-Wenn Sie einen Posten in B1 im Anlagen-Fibu Erf.-Journal erstellen und dann das Kästchen **Kopiervorgang aktivieren** auswählen, kopiert [!INCLUDE [prod_short](includes/prod_short.md)] den Posten in die Bücher B2 und B3 im Anlagen-Erf.-Journal, wenn Sie den Posten buchen.  
+Wenn Sie einen Posten in B1 im Anlagen-Fibu-Erfassungsjournal erstellen und den Umschalter **Kopien ermöglichen** aktivieren, kopiert [!INCLUDE [prod_short](includes/prod_short.md)] den Posten in die Bücher B2 und B3 im Anlagenerfassungsjournal, wenn Sie den Posten buchen.  
 
 > [!NOTE]  
 > Es ist nicht möglich in dem gleichen Erf.-Journal und der gleichen Erf.-Journalvorlage zu kopieren, aus der Sie kopieren. Wenn Sie Posten im Fibu Erf.-Journal buchen, können Sie diese über eine weitere Stapelverarbeitung in ein Anlagen Erf.-Journal oder ein Anlagen Fibu Erf.-Journal kopieren.  
@@ -321,9 +319,17 @@ Wenn Sie einen Posten in B1 im Anlagen-Fibu Erf.-Journal erstellen und dann das 
 > [!NOTE]  
 > Es ist nicht möglich, im Anlagen Fibu Erf.-Journal und im Anlagen Erf.-Journal dieselbe Nummernserie zu verwenden. Wenn Sie im Anlagen Fibu Erf.-Journal Posten buchen, müssen Sie das Feld **Belegnr.** leer lassen. Wenn Sie in das Feld eine Nummer eingeben, wird die Nummer im Anlagen Erf.-Journal dupliziert. Sie müssen die Belegnummer manuell ändern, bevor Sie das Erf.-Journal buchen können.  
 
+## Manuelle Abschreibung
+
+Verwenden Sie diese manuelle Methode für Anlagen, die nicht abgeschrieben werden, z. B. Land. Sie müssen die Abschreibung im Anlagen Fibu Erf.-Journal eingeben. Die Stapelverarbeitung **Abschreibung berechnen** berücksichtigt keine Anlagen mit der Abschreibungsmethode „Manuell“.
+
+## Benutzerdefinierte Abschreibung
+
+Wenn die integrierten Abschreibungsmethoden Ihren Anforderungen nicht entsprechen, können Sie Ihre eigene Abschreibungsmethode mithilfe von Abschreibungstabellen festlegen. Mehr Informationen zur Anwendung einer benutzerdefinierten Abschreibungsmethode finden Sie unter [Benutzerdefinierte Abschreibungsmethode festlegen](fa-how-setup-user-defined-depreciation-method.md).
+
 ## Siehe auch 
 
-[Anlagen](fa-manage.md)  
+[Anlagen – Übersicht](fa-manage.md)  
 [Anlagen einrichten](fa-setup.md)  
 [Finanzen](finance.md)  
 [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  

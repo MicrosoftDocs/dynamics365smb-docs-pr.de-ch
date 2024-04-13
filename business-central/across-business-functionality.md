@@ -10,7 +10,7 @@ ms.date: 11/01/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="business-functionality"></a>Geschäftsfunktionen
+# Geschäftsfunktionen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bietet Funktionen für allgemeine Geschäftsprozesse in kleinen und mittleren Firmen, vor allem im Bereich Grosshandel und professionelle Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik. Erfahren Sie [hier](trial-signup.md), wie Sie eine kostenlose Testversion erhalten.  
 
@@ -24,8 +24,8 @@ ms.service: dynamics-365-business-central
 |Erhalten Sie Einblick an die Leistung Ihrer Geschäftsaktivitäten, Ihres Kontenschemas und Ihrer Budgets von Analyseansichten.|[Financial Business Intelligence](bi.md)|
 |Verwalten Sie Verkaufsprozesse und -Informationen, beispielsweise Angebote, Aufträge und Rücklieferungen, Debitorenkonten und erstellen Sie Direktlieferungen.|[Verkauf](sales-manage-sales.md)|
 |Verwaltet Einkaufsprozesse und Informationen wie Aufträge, Rechnungen, Reklamationen und Kreditorenkonten und Einkaufsprodukte von Verkaufsbelegen. |[Einkauf](purchasing-manage-purchasing.md)|
-|Erfassen Sie neue Mitarbeiter des Lagers oder Serviceartikel für eine einfache Suche, passen Sie die Lagerstufen an und führen Sie allgemeine Lagerkostenberechnungsaufgaben aus.|[Lagerbesttand](inventory-manage-inventory.md)|
-|Erstellen Sie Aufträge und planen Sie Ressourcen für Projekte, verwalten Sie Auftragsbudgets, überwachen Sie den Fortschritt und verfolgen Sie Maschinen- und Mitarbeiterstunden.|[Projektmanagement](projects-manage-projects.md)|
+|Erfassen Sie neue Mitarbeiter des Lagers oder Serviceartikel für eine einfache Suche, passen Sie die Lagerstufen an und führen Sie allgemeine Lagerkostenberechnungsaufgaben aus.|[Bestand](inventory-manage-inventory.md)|
+|Erstellen Sie Projekte und planen Sie Ressourcen für Projekte, verwalten Sie Projektbudgets, überwachen Sie den Fortschritt und verfolgen Sie Maschinen- und Mitarbeiterstunden.|[Projektmanagement](projects-manage-projects.md)|
 |Organisieren Sie Ihre Anlagen, stellen Sie die korrekten periodischen Abschreibungen sicher und Verwalten Sie Wartungskosten.|[Anlagen](fa-manage.md)|
 |Verwalten und unterstützen Sie Ihr Verkaufsanstrengungen und konzentrieren Sie sich auf Ihre bevorzugten Kunden und Kontakte.|[Marketing &amp; Vertrieb](marketing-relationship-management.md)|
 |Führen Sie detaillierte Datensätze über Ihre Mitarbeiter, und registrieren Sie Abwesenheiten zu Analysezwecken. |[Personalwesen](hr-manage-human-resources.md)|
@@ -38,7 +38,7 @@ ms.service: dynamics-365-business-central
 |Ermöglichen Sie Benutzenden den Datenaustausch über externe Quellen im Rahmen von täglichen Aufgaben, wie dem Senden/Empfangen von elektronischen Belegen, Importieren/Exportieren von Bankdateien und dem Aktualisieren von Währungswechselkursen.|[Daten elektronisch austauschen](across-data-exchange.md)|
 |Erfassen Sie externe Belege in [!INCLUDE[prod_short](includes/prod_short.md)], einschliesslich ihrer Dateianhänge, und erstellen Sie dann manuell die zugehörigen Belege oder wandeln Sie die Dateien automatisch in elektronische Belege um.|[Eingehende Belege](across-income-documents.md)|
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Verwaltung](admin-setup-and-administration.md)    
 [Erforschen Sie die Dynamics 365 Business Central-Fähigkeiten](https://dynamics.microsoft.com/business-central/capabilities/)  

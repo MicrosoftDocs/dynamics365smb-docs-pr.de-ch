@@ -13,7 +13,7 @@ Der Rabatt wird auf der Grundlage aller Zeilen auf dem Verkaufsbeleg berechnet, 
 > Standardmässig sind die Felder **Rech.-Rabatt zulassen** und**Zeilenrabattbetrag** für die Zeilen ausgeblendet. Wenn die Felder nicht verfügbar sind, können Sie sie hinzufügen, indem Sie die Seite personalisieren. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 > [!TIP]
-> Wenn das Feld **Rechnungsrab. berechnen** auf der Seite **Debitoren &amp; Verkauf Einr.** aktiviert ist, wird der Rechnungsrabatt automatisch berechnet. Wann die Berechnung erfolgt, hängt von der Art des verwendeten Verkaufsbelegs ab.
+> Wenn das Feld **Rechnungsrab. berechnen** auf der Seite **Debitoren & Verkauf Einr.** aktiviert ist, wird der Rechnungsrabatt automatisch berechnet. Wann die Berechnung erfolgt, hängt von der Art des verwendeten Verkaufsbelegs ab.
 >
 > Wenn Sie einen Verkaufsauftrag verwenden, wird der Rabatt berechnet, wenn Sie eine Position hinzufügen. Für alle anderen Verkaufsbelege, z. B. Verkaufsrechnungen, wird der Rabatt berechnet, wenn Sie eine der folgenden Aktionen ausführen:
 >

@@ -7,11 +7,11 @@ ms.reviewer: soalex
 ms.topic: conceptual
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 02/01/2024
+ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Produkte mit einem Debitorenauftrag verkaufen
+# Produkte mit einem Debitorenauftrag verkaufen
 
 Dieser Artikel bietet Hilfestellungen dazu, wann ein Debitorenauftrag zusätzlich zu einer Rechnung verwendet werden sollte. Wenn der Verkaufsprozess erfordert, dass Sie nur Teile einer Bestellmenge liefern, weil beispielsweise die vollständige Menge nicht sofort verfügbar ist, müssen Sie diesen Verkauf mittels eines Verkaufsauftrags verarbeiten.
 
@@ -23,14 +23,14 @@ In Geschäftsumgebungen, wo Debitoren sofort bezahlen, beispielsweise mit PayPal
 
 Sie können direkt gezahlte Rechnungen für nicht registrierte Debitoren auch erstellen, indem Sie eine Bargelddebitoren-Karte einrichten, auf der Sie auf die Verkaufsrechnung hinweisen. Erfahren Sie mehr unter [Bardebitoren einrichten](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Einen Verkaufsauftrag erstellen
+## Einen Verkaufsauftrag erstellen
 
 > [!NOTE]  
 > Beim nachfolgenden Verfahren wird davon ausgegangen aus, dass der Debitor bereits eingerichtet ist. Anweisungen dazu finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Neu** aus, um einen neuen Eintrag zu erstellen.
-3. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein.
+3. Geben Sie in das Feld **Kundenname** den Namen eines bestehenden Kunden ein.
 
     Andere Felder auf der Seite **Verkaufsangebot** werden nun mit den Standardinformationen zum ausgewählten Debitor ausgefüllt.  
 
@@ -71,7 +71,7 @@ Sie können direkt gezahlte Rechnungen für nicht registrierte Debitoren auch er
     >
     > Verwenden Sie zum Übeprüfen der tatsächlich gebuchten Beträge die Seite **Statistiken**, die die Rundungsberechnungen berücksichtigt. Auch wenn Sie die Aktion **Freigabe** auswählen, werden die Summenfelder aktualisiert, sodass sie die Rundungsberechnungen enthalten.  
 
-11. Optional geben Sie im Feld **Rabattbetrag in Rechnung stellen** einen Betrag ein, der vom Wert abgezogen werden soll, der im Feld **Total inklusive Mehrwertsteuer** im unteren Bereich der Rechnung angezeigt wird.
+11. Optional geben Sie im Feld **Rabattbetrag in Rechnung stellen** einen Betrag ein, der vom Wert abgezogen werden soll, der im Feld **Total inklusive Salestax** im unteren Bereich der Rechnung angezeigt wird.
 
     Wenn Sie Rechnungsrabatte für den Debitor eingerichtet haben oder die Kriterien erfüllt werden, wird der angegebene Prozentwert automatisch in das Feld **Kreditorenrechnungsrabatt %** eingetragen. Der zugeordnete Betrag wird dann im Feld **Rechnungsbetrag mit Rabatt ohne MWST** eingefügt. Erfahren Sie mehr unter [Erfassen von Verkaufspreisen, Skonti und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md).
 12. Um nur einen Teil der Auftragsmenge zu liefern, geben Sie die Menge im Feld **Zu liefernde Menge** ein. Der Wert wird automatisch in das Feld **Zu fakturierende Menge** kopiert.
@@ -87,17 +87,17 @@ Das Dialogfeld **Buchungs- und Sendebestätigung** zeigt die gewünschte Methode
 
 Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst erstellt, und das Verkaufsangebot wird als PDF-Dokument ausgegeben. Sobald der Auftrag vollständig gebucht ist, wird er aus der Liste von Verkaufsaufträgen entfernt und durch neue Belege in der Liste der Verkaufsrechnungen und Verkaufslieferungen ersetzt.  
 
-## <a name="external-document-number"></a>Externe Belegnummer
+## Externe Belegnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="working-with-amount-fields"></a>Mit Betragsfeldern arbeiten
+## Mit Betragsfeldern arbeiten
 
 Die Werte in Feldern, in denen Beträge angezeigt werden, können positiv oder negativ sein, je nachdem, ob es sich bei dem Wert um eine Gutschrift oder eine Belastung handelt. Dieses Video zeigt, wie Sie mit Feldern arbeiten, die Beträge anzeigen.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Verkäufe fakturieren](sales-how-invoice-sales.md)  
 [Verkäufe buchen](ui-post-sales.md)  

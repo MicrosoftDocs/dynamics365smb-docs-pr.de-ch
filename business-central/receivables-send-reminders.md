@@ -1,20 +1,20 @@
 ---
 title: Senden Sie Mahnungen für ausstehende Salden
-description: 'Lernen Sie, wie Sie einem Debitor eine Mahnung über eine überfällige Zahlung zukommen lassen.  fällig ist und aufgrund der Verzögerung Belastungen oder Gebühren auf die Zahlung aufschlagen.'
+description: 'Lernen Sie, wie Sie einem Debitor eine Mahnung über eine überfällige Zahlung zukommen lassen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '436, 437, 442, 431, 432, 434'
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="send-reminders-of-outstanding-balances"></a>Mahnungen für Restbeträge versenden
+# Mahnungen für Restbeträge versenden
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Restbeträge einziehen](receivables-collect-outstanding-balances.md)  
 [Mehrere Sätze für verzögerte Zahlung festlegen](finance-how-to-set-up-multiple-interest-rates.md)  

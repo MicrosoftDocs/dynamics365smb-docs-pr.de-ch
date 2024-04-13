@@ -9,7 +9,7 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="overview-of-tasks-to-set-up-"></a>Überblick der Aufgaben zum Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]
+# Überblick der Aufgaben zum Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] enthält Standardkonfigurationen für die meisten Geschäftsprozesse, aber Sie können die Konfiguration ändern, um sie an die Bedürfnisse Ihrer Organisation anzupassen. Die [Business Central Schnellstart](quick-start-business-central.md) Artikel können Ihnen helfen, die ersten Schritte zu unternehmen, um [!INCLUDE [prod_short](includes/prod_short.md)] zu Ihrem eigenen zu machen. Dieser Artikel bietet einen Überblick darüber, wie Sie [!INCLUDE [prod_short](includes/prod_short.md)] für Ihr Unternehmen konfigurieren können.
 
@@ -30,7 +30,7 @@ Zusätzlich zur unterstützten Einrichtung können einige allgemeine als auch so
 | Konfigurieren der Regeln und Werte, durch die die Einkaufsrichtlinien des Unternehmens definiert werden, erfassen von neuen Kreditoren und Priorisieren von Kreditoren für Zahlungsverarbeitungen. |[Einkaufeinrichten](purchasing-setup-purchasing.md) |
 | Konfigurieren der Regeln und Werte, die die Unternehmensrichtlinien für Lager definieren, Standorte einrichten, wenn Sie Ihren Lagerbestand in mehreren Lager führen und Ihre Artikel kategorisieren, um die Suche und das Sortieren zu verbessern. |[Bestand einrichten](inventory-setup-inventory.md) |
 |Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen.|[Berichtsauswahl für Belege](across-report-selections.md)|
-| Ressourcen, Arbeitszeittabellen und Aufgaben einrichten, um Projekte zu verwalten. |[Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md) |
+| Ressourcen, Arbeitszeittabellen und Projekte einrichten, um Projekte zu verwalten. |[Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md) |
 | Konfiguriert, wie Anlagen versichert, verwaltet und abgeschrieben werden und wie Sie die Kosten aus Anlagen in Ihren Mandantenbüchern erfassen. |[Anlagen einrichten](fa-setup.md) |
 |Definieren Sie die allgemeinen Regeln und Werte für Lagerprozesse und die spezifische Bearbeitung an jedem Lagerort.|[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)|
 |Bereiten Sie Fertigungsstücklisten und Arbeitspläne vor, um zu definieren, wie Endartikel produkziert werden und bereiten Sie Arbeitsplätze oder Arbeitsplatzgruppen vor, um die notwendigen Arbeitsgänge auszuführen.|[Produktion einrichten](production-configure-production-processes.md)|
@@ -54,13 +54,13 @@ Einige Bereiche erfordern, dass Sie ein Administrator Ihres Abonnements [!INCLUD
 > [!NOTE]
 > Als Administrator können Sie in [!INCLUDE[prod_short](includes/prod_short.md)] mit RapidStart Services ein neues Unternehmen einrichten. Dieses Tool wurde entwickelt, um die Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu verbessern, einen wiederholbaren Ansatz für Implementierungen einzuführen und die Produktivität durch Automatisierung und Vereinfachung wiederkehrender Aufgaben zu steigern. Erhalten Sie weitere Informationen zum [Einrichten Ihres Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps"></a>Einrichten von Apps
+## Einrichten von Apps
 
 Zusätzlich zu den Kernfunktionen in [!INCLUDE [prod_short](includes/prod_short.md)] fügt Microsoft einige Aps hinzu, die auf der [Seite **Erweiterungsverwaltung**](https://businesscentral.dynamics.com/?page=2500) aufgelistet sind. Ab Oktober 2022 bietet jede App einen Link zum Starten ihrer Einrichtungsseite – wählen Sie einfach die Aktion **Einrichten** aus.  
 
 Sie können [!INCLUDE [prod_short](includes/prod_short.md)] beim Hinzufügen von AppSource-Apps auch Funktionen hinzufügen. Erfahren Sie mehr unter [Anpassen von Business Central Online mithilfe der Erweiterungen](ui-extensions.md).  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Unternehmensdatenübersicht](admin-company-information.md)  
 [Verwaltung](admin-setup-and-administration.md)  

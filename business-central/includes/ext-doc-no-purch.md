@@ -1,14 +1,14 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 05/27/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
 Auf Einkaufsbelegen und Erfassungsjournalen können Sie eine Belegnummer angeben, die auf das Nummerierungssystem des Kreditors verweist. Verwenden Sie dieses Feld, um die Nummer zu erfassen, die der Kreditor der Bestellung, Rechnung oder Gutschrift zugewiesen hat. Sie können die Nummer dann später verwenden, wenn Sie aus irgendeinem Grund den gebuchten Posten anhand dieser Nummer suchen müssen.
 
-Das Feld **Ext. Belegnr. erforderlich** auf der Seite **Kreditoren & Einkauf Einr.** gibt an, ob in folgenden Situationen die Eingabe einer externen Belegnummer obligatorisch ist:
+Das Feld **Ext. Belegnr. erforderlich** auf der Seite **Kreditoren & Einkauf Einr.** gibt an, ob in folgenden Situationen die Eingabe einer externen Belegnummer obligatorisch ist:
 
 * Im Feld **Kred.-Rechnungsnr.**, im Feld **Lieferanten-Bestell-Nr.** oder im Feld **Kred.-Gutschriftsnr.** in einem Einkaufskopf.
 

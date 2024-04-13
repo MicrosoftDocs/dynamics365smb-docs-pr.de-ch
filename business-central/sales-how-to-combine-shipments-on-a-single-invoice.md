@@ -5,17 +5,17 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/16/2021
+ms.date: 03/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="combine-shipments-on-a-single-invoice"></a>Zusammenfassen von Lieferungen in einer einzelnen Rechnung
+# Lieferungen in einer einzelnen Rechnung zusammenfassen
 
 Wenn Sie mehr als eine Lieferung gleichzeitig fakturieren möchten, können Sie die Funktion zum Erstellen von Sammelrechnungen verwenden.  
 
 Bevor Sie eine Sammelrechnung erstellen können, müssen Sie mehr als eine Verkaufslieferung für den gleichen Debitor in der gleichen Währung gebucht haben. Anders ausgedrückt, Sie müssen zwei oder mehr Verkaufsaufträge erstellt und als geliefert (aber nicht fakturiert) gebucht haben. 
 
-## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>So kombinieren Sie Lieferungen manuell auf einer einzigen Rechnung:
+## So kombinieren Sie Lieferungen manuell auf einer einzigen Rechnung:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md).
@@ -26,13 +26,13 @@ Bevor Sie eine Sammelrechnung erstellen können, müssen Sie mehr als eine Verka
     - Um alle Zeilen einzufügen, wählen Sie alle Zeilen aus, und wählen Sie die Schaltfläche **OK**.  
     - Um spezifische Zeilen einzufügen, wählen Sie die Zeilen aus, und wählen Sie die Schaltfläche **OK**. Sie können die Ctrl-Taste verwenden, um mehrere nicht unmittelbar aufeinander folgende Zeilen auszuwählen.  
 
-    Wenn Sie eine falsche Lieferzeile ausgewählt haben oder von vorn beginnen möchten, können Sie einfach die Zeilen in der Rechnung löschen und die Funktion **Lieferzeilen holen** erneut ausführen.  
+    Wenn Sie eine falsche Lieferzeile ausgewählt haben oder von vorn beginnen möchten, können Sie die Zeilen in der Rechnung löschen und die Funktion **Lieferzeilen holen** erneut ausführen.  
 7. Um die Rechnung zu buchen, wählen Sie die Aktion **Buchen** aus.  
 
 > [!TIP]  
 > Wenn Sie Aufträge versandt haben, bei denen die **Auftraggeber Nr.** von der **Rechnungsadresse** abweicht, werden diese Zeilen im Bericht **Sendungszeilen abrufen** nicht angezeigt. Verwenden Sie die Personalisierung, um das Feld **Auftraggeber Kunde** auf der Seite hinzuzufügen und den Filter zu entfernen. Jetzt können Sie der Rechnung unabhängig vom Wert im Feld **Verkauf an Auftraggeber Nr.** Lieferzeilen hinzufügen Lieferzeilen hinzufügen, solange das Feld **Rechnung an Kunden-Nr.** Feld in den Versandzeilen mit dem Wert auf der Verkaufsrechnung übereinstimmt.  
 
-## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>So kombinieren Sie Lieferungen automatisch in einer einzigen Rechnung:
+## So kombinieren Sie Lieferungen automatisch in einer einzigen Rechnung:
 
 [!INCLUDE[prod_short](includes/prod_short.md)] wählt nur Verkaufsaufträge aus, bei denen **Sendungen kombinieren** gewählt ist. 
 
@@ -44,7 +44,7 @@ Bevor Sie eine Sammelrechnung erstellen können, müssen Sie mehr als eine Verka
 > [!NOTE]  
 >  Die Rechnungen müssen manuell gebucht werden, wenn das Kontrollkästchen **Rechnungen buchen** für die Stapelverarbeitung nicht aktiviert wurde.  
 
-## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Offene Verkaufsaufträge nach kombinierter Lieferungsbuchung entfernen
+## Offene Verkaufsaufträge nach kombinierter Lieferungsbuchung entfernen
 
 Wenn Lieferungen in einer Rechnung zusammengefasst und gebucht werden, wird für die fakturierten Zeilen eine gebuchte Verkaufsrechnung erstellt. Das Feld **Fakturierte Menge** auf dem Ursprungsrahmenauftrag oder dem Auftrag wird ausgehend von der fakturierten Menge aktualisiert.  
 
@@ -58,7 +58,7 @@ Sie können die einzelnen Verkaufsaufträge auch manuell löschen.
 
 Wiederholen Sie die Schritte 1 bis 3 für alle betroffenen anderen Belege, wie z. B. leere Verkaufsaufträge.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

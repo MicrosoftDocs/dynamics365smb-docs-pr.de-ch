@@ -8,89 +8,92 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-of-basic-jobs"></a>Exemplarische Vorgehensweise für grundlegende Jobs
+# Exemplarische Vorgehensweise für grundlegende Jobs
 
 Diese exemplarische Vorgehensweise demonstriert mehrere Kernprozesse:
 
-- Jobaufgaben zu Jobs hinzufügen
-- Erfassung von Zeit- und Materialaufwand zu einem Auftrag
-- Fakturieren eines Projekts
+- Projekten Projektaufgaben hinzufügen
+- Ausgaben für Zeit und Material zu einem Projekt erfassen
+- Ein Projekt fakturieren
 
-## <a name="adding-a-project-task"></a>Eine Jobaufgabe zu einem Job hinzufügen
+## Eine Projektaufgabe hinzufügen
 
-### <a name="scenario"></a>Szenario
+### Szenario  
 
-Simon, der Projektmanager, möchte so viel Zeit wie möglich damit verbringen, den Kunden in die Verwendung von Espressomaschinen zu schulen, und zwar zu einer separaten Aufgabe im Rahmen der Installation einer kommerziellen Maschine vor Ort.
+Simon, der Projektmanager, möchte erfassen, wie lange es gedauert hat, der Kundschaft den Umgang mit der Espressomaschine beizubringen. Simon möchte in dem Projekt eine separate Aufgabe für die Installation einer professionellen Maschine am Kundenstandort nutzen.
 
-### <a name="steps"></a>Schritte
+### Schritte
 
-1. Erstellen Sie die Jobaufgabe  
+1. Erstellen Sie die Projektaufgabe.
 
-    1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
+    1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") und geben Sie **Projekte** ein. Wählen Sie dann den zugehörigen Link aus.  
     2. Wählen Sie den Auftrag *J00010*.
-    3. Wählen Sie im Bereich **Aufgaben** die Aktion **Neue Zeile** aus.  Geben Sie die folgenden Werte ein:
+    3. Wählen Sie im Bereich **Aufgaben** die Aktion **Neue Zeile** aus und geben Sie dann die folgenden Werte ein:
  
-    |Aufg. Nr.|Description|Aufg. Art|
+    |Projektaufgabennr.|Description|Projektaufgabentyp|
     |------------|-----------|-------------|  
     |220|Debitorenschulung|Buchen|
 
-2. Einrücken der Projektaufgaben
-   1. Suchen Sie im Bereich «Aufgaben» nach der Aktion **Projektaufgaben einrücken**
-   2. Bestätigen Sie, dass Sie Aufgaben einrücken möchten, indem Sie **Ja** auswählen.
+2. Rücken Sie die Projektaufgaben ein.
+   1. Suchen Sie im Bereich „Aufgaben“ nach der Aktion **Projektaufgaben einrücken**.
+   2. Bestätigen Sie mit **Ja**, dass Sie die Aufgaben einrücken möchten.
 
-### <a name="results"></a>Ergebnisse
+### Ergebnisse
 
- - Jetzt können Zeit und Kosten für die neue Arbeitsaufgabe erfasst werden
+ - Jetzt können Zeit und Kosten für die neue Projektaufgabe erfasst werden
 
-## <a name="record-time-and-material-expenses-to-a-project"></a>Datensätze für Zeit- und Materialaufwand zu einer Stelle
+## Zeit- und Materialaufwand für ein Projekt erfassen
 
-### <a name="scenario-1"></a>Szenario
+### Szenario  
 
-Edgin, der Techniker, der die Maschine installiert, muss für die Abrechnung seine Zeit und die bei der Installation verwendeten Materialien für den Auftrag erfassen.  Er hat bereits die Reise- und Materialkosten hinzugefügt und muss nun noch die Zeit hinzufügen, um den Mitarbeitern den Umgang mit der Maschine beizubringen.
+Edgin, der Techniker, der die Maschine installiert, muss für die Abrechnung die Zeit und die bei der Installation verwendeten Materialien für den Auftrag erfassen. Edgin hat bereits die Fahrt- und Materialkosten hinzugefügt und muss nun noch die Zeit hinzufügen, um den Mitarbeitenden den Umgang mit der Maschine beizubringen.
 
-### <a name="steps-1"></a>Schritte
+### Schritte
 
-1. Erstellen Sie die zusätzlichen Erfassungsjournalzeilen
+1. Erstellen Sie die zusätzlichen Projekterfassungsjournal-Zeilen.
 
-    1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Projekt Erfassungsjournale** ein und wählen Sie dann den zugehörigen Link.  
-    2. Wählen Sie den Stapel *CONTOSO*.  Sie sehen mehrere Zeilen mit Ressourcen- und Artikeltypen, die die verwendete Zeit (für den Techniker und das Fahrzeug) und die verwendeten Materialien (Maschine und Zubehör) widerspiegeln.
-    3. Erstellen Sie eine neue Zeile. Geben Sie die folgenden Werte ein:
+    1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Projekterfassungsjournale** ein und wählen Sie dann den zugehörigen Link aus.  
+    2. Wählen Sie den Stapel *CONTOSO*. Sie sehen mehrere Zeilen mit Ressourcen- und Artikeltypen, die die verwendete Zeit (für den Techniker und das Fahrzeug) und die verwendeten Materialien (Maschine und Zubehör) widerspiegeln.
+    3. Erstellen Sie eine neue Zeile und geben Sie dann die folgenden Werte ein:
  
-    |Einzelvorgangsnr.|Aufg. Nr.|Typ|Anz.|Description|Menge|
+    |Projektnr.|Projektaufgabennr.|Typ|Anz.|Description|Menge|
     |-------|------------|----|---|-----------|--------|  
     |J00010|220|Ressource|EDGIN|Debitorenschulung|0|
 
-2. Geben Sie den Zeit- und Kostenaufwand an
-   1. Wählen Sie die Aktion **Buchen**
-   2. Bestätigen Sie, dass Sie die Zeilen buchen möchten, indem Sie **Ja** auswählen.
+2. Geben Sie den Zeit- und Kostenaufwand an.
+   1. Wählen Sie die Aktion **Buchen** aus.
+   2. Bestätigen Sie mit **Ja**, dass Sie die Zeilen buchen möchten.
 
-### <a name="results-1"></a>Ergebnisse
+### Ergebnisse
 
- - Auftragshauptbucheinträge und Ressourcenhauptbucheinträge des Typs *Verwendung* wird erstellt
- - Es werden Lagerposten erstellt, um den Lagerbestand negativ anzupassen
- - Auf der Auftragskarte spiegeln die Kosten und Preise im Bereich «Aufgaben» die neuen Salden wider, die auf die Rechnungsstellung warten
- - Auf der Jobkarte werden in der Infobox „Jobdetails“ die Gesamtpreise angezeigt
+- Es werden Projekt- und Ressourcenhauptbuchposten vom Typ *Verwendung* erstellt.
+- Es werden Lagerposten erstellt, um den Lagerbestand nach unten zu korrigieren.
+- Auf der Projektkarte spiegeln die Kosten und Preise im Bereich „Aufgaben“ die neuen Salden wider, die auf die Rechnungsstellung warten.
+- Auf der Projektkarte werden in der Infobox „Projektdetails“ die Gesamtpreise angezeigt.
 
-## <a name="creating-a-sales-invoice-for-a-project"></a>Erstellen einer Verkaufsrechnung für einen Auftrag
+## Eine Verkaufsrechnung für ein Projekt erstellen
 
-### <a name="scenario-2"></a>Szenario
-Simon muss eine Rechnung erstellen und buchen, die zusammen mit dem Zeit- und Kostenaufwand für den Auftrag an den Kunden gesendet werden soll.
+### Szenario  
 
-### <a name="steps-2"></a>Schritte
-1. Verkaufsrechnung erstellen
+Simon muss eine Rechnung erstellen und buchen, die zusammen mit dem Zeit- und Kostenaufwand für das Projekt an die Kundschaft gesendet werden soll.
 
-    1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
-    2. Wählen Sie in der Liste der Aufträge die Aktion **Projektverkaufsrechnung erstellen**.
-    3. Stellen Sie den Filter **Projektnr.** auf *J00010*.
-    4. Klicken Sie auf **OK**, um die Verkaufsrechnung zu erstellen.  Sie erhalten eine Bestätigung darüber, wie viele Rechnungen erstellt wurden
+### Schritte
 
-2. Buchen Sie die Zeit- und Spesenrechnung
+1. Erstellen Sie die Verkaufsrechnung.
+
+    1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") und geben Sie **Projekte** ein. Wählen Sie dann den zugehörigen Link aus.  
+    2. Wählen Sie in der Liste der Aufträge die Aktion **Projektverkaufsrechnung erstellen** aus.
+    3. Legen Sie den Filter **Projektnr.** auf *J00010* fest.
+    4. Gehen Sie auf **OK**, um die Verkaufsrechnung zu erstellen. Sie erhalten eine Bestätigung darüber, wie viele Rechnungen erstellt wurden.
+
+2. Buchen Sie die Zeit- und Ausgabenrechnung.
+
    1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Tell Me-Funktion"). Symbol. Geben Sie **Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
    2. Wählen Sie die letzte Rechnung aus, um sie zur Überprüfung zu öffnen.
    3. Wählen Sie die Aktion **Buchen** aus.
 
-### <a name="results-2"></a>Ergebnisse
+### Ergebnisse
 
- - Auftragshauptbucheinträge und Ressourcenhauptbucheinträge des Typs *Verkauf* wird erstellt
- - Auf der Projektkarte spiegeln die Kosten und Preise im Bereich «Aufgaben» die neuen fakturierten Salden wider
- - Auf der Auftragskarte werden in der Infobox „Auftragsdetails“ die Gesamtsummen der Preise im Abschnitt „Fakturierter Preis“ angezeigt
+- Projekt- und Ressourcenhauptbucheinträge vom Typ *Verkauf* werden erstellt.
+- Auf der Projektkarte spiegeln die Kosten und Preise im Bereich „Aufgaben“ die neuen fakturierten Salden wider.
+- Auf der Projektkarte werden in der Infobox „Projektdetails“ die Gesamtsummen der Preise im Abschnitt „Fakturierter Preis“ angezeigt.

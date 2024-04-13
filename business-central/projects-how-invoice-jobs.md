@@ -1,36 +1,36 @@
 ---
-title: 'Verkaufsrechnungen erstellen, um einen Auftrag zu fakturieren'
-description: 'Beschreibt, wie Sie Debitoren die Ausgaben für einen Auftrag in Rechnung stellen können, wenn ein Projekt fortschreitet und sich die Kosten summieren.'
+title: 'Projektverkaufsrechnungen erstellen, um ein Projekt zu fakturieren'
+description: 'Beschreibt, wie Sie Debitoren die Ausgaben für ein Projekt in Rechnung stellen können, wenn ein Projekt fortschreitet und sich die Kosten summieren.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
 ms.search.keywords: project invoice
 ms.search.form: '1002, 1007,'
-ms.date: 06/22/2021
-ms.author: bholtorf
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="invoice-projects"></a>Fakturieren von Projekten
+# Projekte fakturieren
 
-Im Laufe des Projekts können Projektkosten wie Ressourcenverbrauch, Material oder projektbezogene Einkäufe anfallen. Diese Transaktionen werden im weiteren Verlauf des Projekts auf das Projekt Erf.-Journal gebucht. Dabei ist es wichtig, dass alle Kosten im Projekt Erf.-Journal erfasst werden, bevor die Rechnung an den Debitor erstellt wird.
+Im Laufe des Projekts können Projektkosten wie Ressourcenverbrauch, Material oder projektbezogene Einkäufe anfallen. Diese Transaktionen werden im weiteren Verlauf des Projekts in das Projekterfassungsjournal gebucht. Dabei ist es wichtig, dass alle Kosten im Projekterfassungsjournal erfasst werden, bevor die Rechnung an den Debitor erstellt wird.
 
 > [!NOTE]
-> Sie können auch externe Ressourcen erwerben, die nicht mit einem Auftrag verbunden sind, z.B. um einem Kreditor die gelieferte Arbeit in Rechnung zu stellen. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
+> Sie können auch externe Ressourcen erwerben, die nicht mit einem Projekt verbunden sind, z. B. um einem Kreditor die gelieferte Arbeit in Rechnung zu stellen. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 
 Sie können das gesamte Projekt auf der Seite **Projektaufgabenzeilen** fakturieren, oder Sie fakturieren lediglich ausgewählte Vertragszeilen auf der Seite **Projektplanzeilen**. Die Fakturierung kann erfolgen, wenn das Projekt abgeschlossen ist, oder in bestimmten Intervallen während der Projektlaufzeit gemäss eines Fakturierungsplans.
 
 > [!NOTE]  
 > Wenn Sie **Verrechenbar** im Feld **Projekt-Zeilenart** auf den Verkaufsbelegen für projektbezogene Einkäufe auswählen, werden Projektplanzeilen, die bereit sind, an den Debitoren zu fakturieren, erstellt. Weitere Informationen finden Sie unter [Verwalten von Projekt-Material](projects-how-manage-project-supplies.md).
 
-Sie können auch einem Unternehmen, das nicht der Endkunde ist, eine Rechnung stellen. Manchmal unterscheidet sich die Partei, für die ein Projekt ist, von der Partei, die die Rechnung bezahlt. Auf der **Projekte**-Seite können Sie den Debitor, der von dem Projekt profitieren wird, in den Feldern **Auftraggeber** angeben und den Rechnungssteller in den Feldern **Rech. an**. 
+Sie können auch einem Unternehmen, das nicht der Endkunde ist, eine Rechnung stellen. Manchmal unterscheidet sich die Partei, für die ein Projekt ist, von der Partei, die die Rechnung bezahlt. Auf der Seite **Projekte** können Sie den Debitor, der von dem Projekt profitieren wird, in den Feldern **Auftraggeber** angeben und den Rechnungssteller in den Feldern **Rech. an**.
 
-## <a name="to-create-multiple-project-sales-invoices"></a>So erstellen Sie mehrere Projektverkaufsrechnungen
+## So erstellen Sie mehrere Projektverkaufsrechnungen
 
 Sie können eine Rechnung für ein Projekt oder für eine oder mehrere Projektunteraktivitäten für einen Debitor erstellen, wenn entweder die zu fakturierende Arbeit abgeschlossen ist oder das Datum für die Fakturierung basierend auf einem Fakturierungsplan erreicht ist.
 
 Der folgende Ablauf zeigt, wie eine Stapelverarbeitung verwendet wird, um mehrere Projekte zu fakturieren.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Job Verkaufsrechnung erstellen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Projekt – Verkaufsrechnung erstellen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Legt Filter fest, wenn Sie die Projekte einschränken möchten, die die Stapelverarbeitung verarbeiten soll.
 4. Wählen Sie die Schaltfläche **OK**, um die Rechnung zu erstellen.  
@@ -38,34 +38,33 @@ Der folgende Ablauf zeigt, wie eine Stapelverarbeitung verwendet wird, um mehrer
 Sie können erstellte Rechnungen im Fenster **Verkaufsrechnungen** überprüfen und buchen.
 
 > [!NOTE]
-> Alternativ können Sie einen Debitor fakturieren, indem Sie das Projekt auswählen und anschliessend die Aktion **Projektverkaufsrechnung erstellen** auswählen. 
+> Alternativ können Sie einen Debitor fakturieren, indem Sie das Projekt auswählen und anschliessend die Aktion **Verkaufsrechnung erstellen** auswählen. 
 
-## <a name="to-create-and-post-project-sales-invoice-from-project-planning-lines"></a>So erstellen und buchen Sie eine Projektverkaufsrechnung aus Projektplanzeilen
+## So erstellen und buchen Sie eine Projektverkaufsrechnung aus Projektplanzeilen
 
-Sie können eine Rechnung aus Projektplanungszeilen erstellen, und dabei die Menge des Artikels, der Ressource oder des Fibupostens angeben, die Sie fakturieren möchten.
+Sie können eine Rechnung aus Projektplanungszeilen erstellen und dabei die Menge des Artikels, die Ressource oder das Fibukonto angeben, die/das Sie fakturieren möchten.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.
-2. Ein relevantes Projekt öffnen.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") und geben Sie **Projekte** ein. Wählen Sie dann den zugehörigen Link aus.
+2. Öffnen Sie ein entsprechendes Projekt.
 3. Wählen Sie eine Projektaufgabe aus, deren Wert für das Feld **Projektaufgabenart** **Buchen** enthält und klicken Sie anschliessend auf die Aktion **Projektplanzeilen**.  
-4. In einer Projektplanungszeile im Feld **In Rechnung zu übertragende Menge** geben Sie die Menge des Artikels, der Ressource, Fibukontoart ein, die fakturiert werden soll.  
+4. In einer Projektplanungszeile im Feld **In Rechnung zu übertragende Menge** geben Sie die Menge des Artikels, die Ressource und die Fibukontoart ein, die fakturiert werden soll.  
 5. Wählen Sie die Aktion **Verkaufsrechnung erstellen**.
-6. Auf der Seite **Projekt-Verkaufsrechnung erstellen** geben Sie das Buchungsdatum an und ob Sie eine neue Rechnung erstellen oder diese Rechnung einer bestehenden Rechnung hinzufügen möchten.
+6. Auf der Seite **In Verkaufsrechnung für Projekt übertragen** geben Sie das Buchungsdatum an und ob Sie eine neue Rechnung erstellen oder diese Rechnung einer bestehenden Rechnung hinzufügen möchten.
 7. Wählen Sie die Schaltfläche **OK** aus.  
-8. Auf der Seite **Projektplanungszeilen** wählen Sie Die Aktion **Verkaufsrechnungen/Gutschrift** aus.
+8. Auf der Seite **Projektplanungszeilen** wählen Sie die Aktion **Verkaufsrechnungen/Gutschrift** aus.
 
     Die Seite **Verkaufsrechnung** wird geöffnet und zeigt die Menge an, die Sie zum Fakturieren in die Rechnung übertragen haben.
 9. Nehmen Sie die zusätzlichen Änderungen vor, und wählen Sie dann die Aktion **Buchen**.
 
 > [!NOTE]  
->   Das obige Verfahren dient zum Erstellen, Prüfen und Buchen einer projektbezogenen Verkaufsgutschrift.
+> Das obige Verfahren dient zum Erstellen, Prüfen und Buchen einer projektbezogenen Verkaufsgutschrift.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Projekte verwalten](projects-manage-projects.md)  
 [Finanzen](finance.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

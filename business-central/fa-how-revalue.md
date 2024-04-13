@@ -1,25 +1,26 @@
 ---
 title: Anlagen neu bewerten
-description: 'Erfahren Sie, wie der Wert von Anlagen reguliert wird und neue Beträge als erhöhte AfA oder Zuschreibungen erfasst werden, und buchen Sie zusätzliche Anschaffungskosten.'
+description: 'Erfahren Sie, wie der Wert von Anlagen reguliert wird und neue Beträge als erhöhte AfA oder Zuschreibungen erfasst werden und wie Sie andere Anschaffungskosten buchen.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.form: '5628, 5629, 5633'
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: conceptual
+ms.search.form: '5628, 5629, 5633'
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="revalue-fixed-assets"></a>Anlagen neu bewerten
+# Anlagen neu bewerten
 
 Eine Neubewertung von Anlagen kann aus Abschreibungen, erhöhter AfA oder allgemeinen Wertanpassungen bestehen.
 
-Wenn sich der Wert einer Anlage erhöht hat, buchen Sie eine Erf.-Journalzeile mit einem höheren Betrag, einer Abschreibung, auf das Abschreibungsbuch. Der neue Betrag wird als Abschreibung gemäss der Anlagebuchung eingerichtet.
+Wenn sich der Wert einer Anlage erhöht, buchen Sie eine Erfassungsjournalzeile mit einer Zuschreibung auf das Abschreibungsbuch. Der neue Betrag wird als Abschreibung gemäss der Einrichtung der Anlagenbuchung erfasst.
 
-Wenn sich der Wert einer Anlage verringert hat, buchen Sie eine Erf.-Journalzeile mit einem niedrigen Betrag, einer erhöhten Abschreibung, auf das Abschreibungsbuch. Der neue Betrag wird als erhöhte AfA gemäss der Anlagebuchung eingerichtet.
+Wenn sich der Wert einer Anlage verringert, buchen Sie eine Erfassungsjournalzeile mit einem niedrigen Betrag, einer erhöhten Abschreibung, auf das Abschreibungsbuch. Der neue Betrag wird als erhöhte AfA gemäss der Anlagebuchung eingerichtet.
 
 Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispielsweise allgemeinen Preisänderungen, anzupassen. Die Stapelverarbeitung **Anlagen indexieren** kann verwendet werden, um verschiedene Beträge (wie erhöhte AfA und Zuschreibungen) zu ändern.
 
-## <a name="to-post-appreciation-from-the-fixed-asset-gl-journal"></a>So buchen Sie Zuschreibungen aus dem Anlagen Fibu Erf.-Journal
+## So buchen Sie Zuschreibungen aus dem Anlagen-Fibu-Erfassungsjournal
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Anlagen Fibu Erfassungsjournale** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine ursprüngliche Erf.-Journalzeile und füllen Sie die notwendigen Felder aus.
@@ -30,7 +31,7 @@ Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispiels
     >   Schritt 4 funktioniert nur, wenn Sie Folgendes eingerichtet haben: Auf der Seite **Zuschreibungskonto** der Buchungsgruppe der Anlage enthält das Feld **Kto. Wartung** das Sollkonto im Fibukonto und das Feld **Gegenkto. Wartung** enthält das Fibukonto, auf das die Gegenposten für Zuschreibungen gebucht werden sollen. Weitere Informationen finden Sie unter [So richten Sie Anlagenbuchungsgruppen ein](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 5. Wählen Sie die Aktion **Buchen** aus.
 
-## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>So buchen Sie eine erhöhte Abschreibung aus dem Anlagen Fibu Erf.-Journal
+## So buchen Sie eine erhöhte Abschreibung aus dem Anlagen Fibu Erf.-Journal
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Anlagen Fibu Erfassungsjournale** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine ursprüngliche Erf.-Journalzeile und füllen Sie die notwendigen Felder aus.
@@ -41,7 +42,7 @@ Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispiels
     >   Schritt 4 funktioniert nur, wenn Sie Folgendes eingerichtet haben: Auf der Seite **Anlagenbuchungsgruppenkarte** der Buchungsgruppe der Anlage enthält das Feld **Abschreibungskonto** das Habenkonto im Fibukonto und das Feld **Ausgaben-Abschreibungskonto** das Sollkonto im Fibukonto, auf das die Gegenposten für erhöhte Abschreibungen gebucht werden sollen. Weitere Informationen finden Sie unter [So richten Sie Anlagenbuchungsgruppen ein](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Wählen Sie die Aktion **Buchen** aus.
 
-## <a name="to-perform-general-revaluation-of-fixed-assets"></a>So führen Sie allgemeine Neubewertungen von Anlagen aus
+## So führen Sie allgemeine Neubewertungen von Anlagen aus
 
 Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispielsweise allgemeinen Preisänderungen, anzupassen. Die Stapelverarbeitung **Anlagen indexieren** kann verwendet werden, um verschiedene Beträge (wie erhöhte AfA und Zuschreibungen) zu ändern. Das Kontrollkästchen **Indexierung zulassen** auf der Seite **Abschreibungsbuch** muss aktiviert sein.
 
@@ -57,11 +58,11 @@ Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispiels
     > [!TIP]  
     >   Falls die Indexzahlen nur für die Simulation verwendet werden, können Sie ein spezielles Abschreibungsbuch dafür erstellen. Dann haben diese Posten keinen Einfluss auf andere Abschreibungsbücher.
 
-## <a name="to-post-other-acquisition-costs"></a>So buchen Sie zusätzliche Anschaffungskosten
+## So buchen Sie weitere Anschaffungskosten
 
-Sie können zusätzliche Anschaffungskosten einer Anlage auf die gleiche Art buchen, auf die Sie die ursprünglichen Anschaffungskosten gebucht haben: aus einer Einkaufsrechnung oder aus einem Anlagen Erf.-Journal. Weitere Informationen finden Sie unter [Anschaffen von Anlagen](fa-how-acquire.md).  
+Sie können weitere Anschaffungskosten einer Anlage aus einer Einkaufsrechnung oder aus einem Anlagenerfassungsjournal auf die gleiche Art buchen, auf die Sie die ursprünglichen Anschaffungskosten gebucht haben. Weitere Informationen finden Sie unter [Anschaffen von Anlagen](fa-how-acquire.md).  
 
-Falls bereits AfA für die Anlage berechnet wurde, aktivieren Sie das Kontrollkästchen **Rückw. AfA-Korr. b. Anschaff.**, damit die zusätzlichen Anschaffungskosten abzüglich des Restwertes proportional zu dem Betrag abgeschrieben werden, der für angeschaffte Anlage bereits abgeschrieben worden ist. Dies stellt sicher, dass die Abschreibungsperiode nicht geändert wird.  
+Falls bereits eine Abschreibung für die Anlage berechnet wurde, aktivieren Sie das Kontrollkästchen **Anschaffung rückw. abschr.**, damit die weiteren Anschaffungskosten abzüglich des Restwertes proportional zu dem Betrag abgeschrieben werden, der für angeschaffte Anlage bereits abgeschrieben wurde. Diese Methode stellt sicher, dass die Abschreibungsperiode nicht geändert wird.  
 
 Die Berechnung des Abschreibungsprozentsatzes erfolgt in dieser Weise:  
 
@@ -69,9 +70,9 @@ Die Berechnung des Abschreibungsprozentsatzes erfolgt in dieser Weise:
 
 *AfA Betrag = (P/100) x (zusätzliche Anschaffungskosten - Restwert)*  
 
-Beachten Sie, dass Sie das Kontrollkästchen **AfA bis Anlagedatum** auf der Rechnung, dem Anlagen Fibu Buch.-Blatt oder den Anlagen Buch.-Blattzeilen aktivieren müssen, um sicherzustellen, dass die AfA vom letzten Anlagenbuchungsdatum bis zum Buchungsdatum der zusätzlichen Anschaffungskosten berechnet wird.
+Beachten Sie, dass Sie das Kontrollkästchen **Abschreibung bis Anlagedatum** in der Rechnung, dem Anlagen-Fibu-Erfassungsjournal oder den Anlagenerfassungsjournal-Zeilen aktivieren müssen, um sicherzustellen, dass die Abschreibung vom letzten Anlagenbuchungsdatum bis zum Buchungsdatum der weiteren Anschaffungskosten berechnet wird.
 
-### <a name="example---posting-other-acquisition-costs"></a>Beispiel – Buchen von zusätzlichen Anschaffungskosten
+### Beispiel: Weitere Anschaffungskosten buchen
 
 Eine Maschine wurde am 1. August 2000 erworben. Die Anschaffungskosten betragen 4.800. Die Abschreibungsmethode ist linear über vier Jahre.
 
@@ -81,21 +82,21 @@ Am 31. August 2000 wird die Stapelverarbeitung **AfA berechnen** ausgeführt. Di
 
 Am 15. September 2000 wird eine Rechnung für die Lackierung der Maschine gebucht. Der Rechnungsbetrag ist 480.
 
-Falls Sie das Kontrollkästchen **AfA bis Anlagedatum** auf der Rechnung aktiviert haben, bevor diese gebucht wurde, würde die folgende Berechnung erfolgen:  
+Falls Sie das Kontrollkästchen **AfA bis Anlagedatum** auf der Rechnung aktiviert haben, bevor diese gebucht wurde, ergibt sich folgende Berechnung:  
 
 15 Tage Abschreibung Date (vom 01.09.00 bis zum 15.09.00) werden berechnet als:
 
 *Buchwert x AfA-Tage / verbleibende Anzahl der AfA-Tage = (4800 - 100) x 15 / 1410 = 50*
 
-Falls Sie das Kontrollkästchen **Rückw. AfA-Korr. b. Anschaff.** auf der Rechnung aktiviert haben, bevor diese gebucht wurde, würde die folgende Berechnung erfolgen:  
+Falls Sie das Kontrollkästchen **Anschaffung rückw. abschr.** auf der Rechnung aktiviert haben, bevor diese gebucht wurde, ergibt sich folgende Berechnung:  
 
-*Die zusätzlichen Anschaffungskosten werden abgeschrieben als ((150 x 100) / 4800) / 100 x 480 = 15*
+*Die weiteren Anschaffungskosten werden abgeschrieben als ((150 x 100) / 4800) / 100 x 480 = 15*
 
-Die Grundlage für AfA ist jetzt *5280 = (4800 + 480)*, und die kumulierte AfA ist *165 = (100 + 50 + 15)*. Dies entspricht 45 AfA-Tagen der gesamten Anschaffungskosten. Das bedeutet, dass die Anlage innerhalb der geschätzten Lebensdauer von vier Jahren vollständig abgeschrieben wird.  
+Die Grundlage für AfA ist jetzt *5280 = (4800 + 480)*, und die kumulierte AfA ist *165 = (100 + 50 + 15)*. Dies entspricht 45 AfA-Tagen der gesamten Anschaffungskosten. Diese Berechnung bedeutet, dass die Anlage innerhalb der geschätzten Lebensdauer von vier Jahren vollständig abgeschrieben wird.  
 
 Wenn die Stapelverarbeitung **AfA berechnen** am 30.09.00 ausgeführt wird, wird die folgende Berechnung verwendet:  
 
-*Verbleibende Restlebensdauer ist 3 Jahre, 10 Monate und 15 Tage = 1395 Tage*  
+*Verbleibende Restlebensdauer ist 3 Jahre, 10 Monate und 15 Tage = 1.395 Tage*  
 
 *Der Buchwert ist (5280 - 165) = 5115*  
 
@@ -103,9 +104,9 @@ Wenn die Stapelverarbeitung **AfA berechnen** am 30.09.00 ausgeführt wird, wird
 
 *Gesamtsumme AfA = 165 + 55 = 220*  
 
-Falls Sie das Kontrollkästchen **AfA bis Anlagedatum** aktiviert haben, würde die Anlage 15 AfA-Tage verlieren, weil die Stapelverarbeitung **AfA berechnen**, die am 30.09.00 ausgeführt wurde, die AfA vom 15.09.00 bis zum 30.09.00 berechnen würde. D. h., wenn die Stapelverarbeitung **AfA berechnen** am 30.09.00 ausgeführt würde, würde die folgende Berechnung erfolgen:  
+Falls Sie das Kontrollkästchen **Abschreibung bis Anlagedatum** nicht aktiviert haben, verliert die Anlage 15 Abschreibungstage, weil der Batchauftrag **Abschreibung berechnen**, der am 30.09.00 ausgeführt wurde, die Abschreibung vom 15.09.00 bis zum 30.09.00 berechnen würde. D. h., wenn die Stapelverarbeitung **AfA berechnen** am 30.09.00 ausgeführt würde, würde die folgende Berechnung erfolgen:  
 
-*Verbleibende Restlebensdauer ist 3 Jahre, 10 Monate und 15 Tage = 1395 Tage*  
+*Verbleibende Restlebensdauer ist 3 Jahre, 10 Monate und 15 Tage = 1.395 Tage*  
 
 *Der Buchwert ist (4800 + 480 - 100 - 15) = 5165*
 
@@ -113,7 +114,7 @@ Falls Sie das Kontrollkästchen **AfA bis Anlagedatum** aktiviert haben, würde 
 
 *Gesamtsumme AfA = 100 + 15 + 55.54 = 170.54*
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Anlagen](fa-manage.md)  
 [Anlagen einrichten](fa-setup.md)  
