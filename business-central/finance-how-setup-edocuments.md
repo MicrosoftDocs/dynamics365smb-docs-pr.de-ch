@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: '359, 360, 6103, 6133'
-ms.date: 10/05/2023
+ms.date: 03/29/2023
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -21,7 +21,7 @@ ms.service: dynamics-365-business-central
 
 Der erste Schritt bei der Konfiguration elektronischer Belege (E-Beleg) besteht in der Einrichtung des E-Beleg-Dienstes, in dem Sie das gesamte Verhalten Ihres Systems in Bezug auf die E-Beleg-Kommunikation konfigurieren.
 
-## Den E-Beleg-Dienst einrichten
+## Den E-Belegdienst einrichten
 
 Gehen Sie wie folgt vor, um den E-Beleg-Dienst einzurichten.
 
@@ -73,13 +73,13 @@ Wenn Sie das Format **Datenaustauschdefinition** nicht verwenden, können Sie Fo
 
 ### Unterstützte Belegtypen 
 
-Unterstützte Dokumenttypen basieren auf dem ausgewählten **Belegformat**. Um zu überprüfen, welche Belegtypen unterstützt werden, führen Sie auf der Seite **E-Belegdienst** die Aktion **Unterstützte Belegtypen** aus. Die **Unterstützten Quellbelegtypen des E-Belegdienstes** öffnet sich und in der Spalte **Quellbelegtyp** finden Sie alle die unterstützten Belegtypen.  
+Unterstützte Dokumenttypen basieren auf dem ausgewählten **Belegformat**. Um zu überprüfen, welche Belegtypen unterstützt werden, wählen Sie auf der Seite **E-Belegdienst** die Aktion **Unterstützte Belegtypen** aus. Die **Unterstützten Quellbelegtypen des E-Belegdienstes** öffnen sich und in der Spalte **Quellbelegtyp** können Sie verschiedene Belegtypen auswählen, um Sie für das Format, dass Sie verwenden möchten, als unterstützt festzulegen. Stellen Sie sicher, dass Sie den Belegtyp nicht verwenden, wenn dieser Beleg auf dieser Seite nicht ausgewählt ist.   
 
 ## Ein Belegsendeprofil einrichten
 
-Sie können für jeden Debitor eine bevorzugte Methode zum Senden von Verkaufsbelegen einrichten. so müssen Sie nicht jedes Mal eine Sendeoption auswählen, wenn Sie die Aktion **Buchen und senden** auswählen. Auf der Seite **Belegsendeprofile** können Sie verschiedene Sendeprofile einrichten und dann Ihre Auswahl aus den **Belegsendeprofilen** auf der Debitorenkarte treffen. Im Kontrollkästchen **Standard** können Sie auswählen, dass das Belegsendeprofil das Standardprofil für alle Debitoren gilt, ausser Debitoren, bei denen das Feld **Belegsendeprofil** auf ein anderes Sendeprofil eingestellt ist.
+Sie können für jeden Debitor eine bevorzugte Methode zum Senden von Verkaufsbelegen einrichten. So müssen Sie nicht jedes Mal eine Sendeoption auswählen, wenn Sie die Aktion **Buchen und senden** auswählen. Auf der Seite **Belegsendeprofile** können Sie verschiedene Sendeprofile einrichten und dann Ihre Auswahl aus den **Belegsendeprofilen** auf der Debitorenkarte treffen. Im Kontrollkästchen **Standard** können Sie auswählen, dass das Belegsendeprofil das Standardprofil für alle Debitoren gilt, ausser Debitoren, bei denen das Feld **Belegsendeprofil** auf ein anderes Sendeprofil eingestellt ist.
 
-Diese Funktionalität wird zum Einrichten der Automatisierung der elektronischen Fakturierung verwendet. Wenn Sie die Schaltfläche **Buchen und senden** für einen Verkaufsbeleg auswählen, wird im Dialogfeld **Buchungs- und Sendebestätigung** das verwendete Sendeprofil angezeigt: entweder das für den Debitor eingerichtete oder Standardprofil für alle Debitoren.
+Diese Funktionalität wird zum Einrichten der Automatisierung der elektronischen Fakturierung verwendet. Wenn Sie die Schaltfläche **Buchen und senden** für einen Verkaufsbeleg auswählen, wird im Dialogfeld **Buchungs- und Sendebestätigung** das verwendete Sendeprofil angezeigt: entweder das für den Debitor eingerichtete oder das Standardprofil für alle Debitoren.
 
 Gehen Sie wie folgt vor, um ein Belegsendeprofil einzurichten.
 
@@ -104,10 +104,10 @@ Gehen Sie wie folgt vor, um den Workflow einzurichten, der in der E-Beleg-Funkti
 1. Wählen Sie das ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Workflowvorlagen** ein und wählen Sie dann den zugehörigen Link.
 2. Wenn Sie **Workflow-Vorlagen für E-Belege** auf der Seite **Workflow-Vorlagen** nicht finden können, wählen Sie **Microsoft-Vorlagen zurücksetzen**. **Workflow-Vorlagen für E-Belege** sollte dann erscheinen. Schliessen Sie die Seite.
 3. Wählen Sie das ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Workflows** ein und wählen Sie dann den entsprechenden Link.
-4. Führen Sie die Aktion **Neuer Workflow aus Vorlage** aus, um eine Vorlage für den E-Beleg-Prozess auszuwählen. Die verfügbaren Vorlagen sind **An einen Dienst senden** und **An mehrere Dienste senden**.
+4. Wählen Sie die Aktion **Neuen Workflow aus Vorlage** aus, um eine Vorlage für den E-Belegprozess auszuwählen. Die verfügbaren Vorlagen sind **An einen Dienst senden** und **An mehrere Dienste senden**.
 5. Wählen Sie **OK**, um die Einrichtung des Workflows abzuschliessen.
 6. Wählen Sie im Feld **Dann Antwort** **E-Beleg mit Einrichtung senden** aus, um die Workflowreaktionen zu konfigurieren.
-7. Wählen Sie den von Ihnen erstellten E-Beleg-Dienst als Option aus, wählen Sie **OK** und aktivieren Sie dann den Workflow.
+7. Wählen Sie den von Ihnen erstellten E-Belegdienst als Option aus, wählen Sie **OK** und aktivieren Sie dann den Workflow.
 
 > [!NOTE]
 > Sie können Ihren eigenen Workflow für E-Belege erstellen, ohne vordefinierte Workflow-Vorlagen zu verwenden. Wenn Sie mehr Dienste haben, können Sie unterschiedliche Workflows nutzen.
@@ -122,13 +122,28 @@ E-Belege können im Hinblick darauf, wie lange die E-Belege aufbewahrt werden m�
 
 Führen Sie die folgenden Schritte aus, um Aufbewahrungsrichtlinien für E-Belege einzurichten.
 
-1. Führen Sie auf der Seite **E-Belegdienste** die Aktion **Aufbewahrungsrichtlinie** aus.
+1. Wählen Sie auf der Seite **E-Belegdienste** die Aktion **Aufbewahrungsrichtlinie** aus.
 2. Wenn die Aktion abgeschlossen ist, wählen Sie eine der folgenden Aufbewahrungsrichtlinien zum Einrichten aus:
 
     - E-Beleg-Protokoll
     - Integrationsprotokoll für E-Belege
     - E-Beleg-Zuordnungsprotokoll
     - E-Beleg-Datenspeicherung
+
+## E-Belegdemodaten  
+
+> [!NOTE]
+> Ab Business Central Version 24.0 ist es möglich, Demodaten für E-Belege einzurichten.
+
+Um einfachere Möglichkeiten zum Testen und Vorführen der Fähigkeiten von **E-Belegen** zu bieten, hat Microsoft ein neues Demomodul für elektronische Belege erstellt. Um dieses Modul zu aktivieren, gehen Sie wie folgt vor:  
+
+1.  Wählen Sie das ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Contoso-Demo-Tool** ein und wählen Sie dann den zugehörigen Link aus.  
+2.  Bevor Sie das **E-Beleg-Contoso-Modul** aktivieren, müssen Sie aufgrund von Abhängigkeiten die folgenden Module aktiviert haben: **Allgemeines Modul** und **Lagermodul**. 
+3.  Nachdem Sie diese Module aktiviert haben, wählen Sie das **E-Belege-Contoso-Modul** und anschliessend die Aktion **Generieren** aus. 
+4.  Gehen Sie wie folgt vor.  
+5.  Schliessen Sie die Seite.   
+
+Sobald Sie ein aktiviertes Modul haben, haben Sie neue Demoartikel erstellt, sechs elektronische Belege (basierend auf Peppol BIS 3) importiert und bereits den **E-Belegdienst** mit erstellten Workflows konfiguriert.  
 
 ## Siehe auch 
 
