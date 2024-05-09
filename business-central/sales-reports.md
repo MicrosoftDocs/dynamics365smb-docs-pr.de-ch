@@ -24,8 +24,10 @@ In den folgenden Artikeln werden einige der wichtigsten Aufgaben zur Analyse des
 * [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)
 
 
-## Siehe auch
+## Siehe auch 
 
+[Überblick über Verkaufsanalysen](sales-analytics-overview.md)   
+[Ad-hoc-Analysen von Verkaufsdaten](ad-hoc-analysis-sales.md)    
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Verkauf](sales-manage-sales.md)  
 [Artikel reservieren](inventory-how-to-reserve-items.md)

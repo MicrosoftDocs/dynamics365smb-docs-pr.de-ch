@@ -53,20 +53,22 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 | Bis  | Informationen |
 | --- | --- |
 | Richten Sie die Voraussetzungen für die Verwendung des Anlagenfeatures ein (legen Sie Standardwerte, Anlagenbuchungen, Buchungsgruppen, Umlageschlüssel, Erfassungsjournale und Buchungsarten fest). | [Anlagen einrichten](fa-setup.md)|
-| Erstellen von Anlagen, Zuordnen von Abschreibungsmethoden, Buchen von Anschaffungen und Restwerten sowie Drucken von Anlagenlisten |[Erworbene Anlagen](fa-how-acquire.md) |
+| Verwalten von Anlagenbudgets, Budgetieren von Anschaffungskosten, Budgetieren von Anlagenverkäufen und Budgetieren der Abschreibung. |[Budgets für Anlagen verwalten](fa-how-manage-budgets.md) |
+| Erstellen von Anlagen, Zuordnen von Abschreibungsmethoden, Buchen von Anschaffungen und Restwerten sowie Drucken von Anlagenlisten |[Anlagen erwerben](fa-how-acquire.md) |
+| Informieren Sie sich über verschiedene Anlagen-Abschreibungsmethoden. |[Abschreibungsmethoden](fa-depreciation-methods.md) |
+| Berechnen und Buchen der Abschreibung und Analysieren der Abschreibung in Anlagenberichten. |[Anlagen abschreiben oder amortisieren](fa-how-depreciate-amortize.md) |
+| Erfahren Sie mehr über integrierte Berichts- und Analysefunktionen für Anlagen. | [Überblick über die Anlagenanalyse](fa-analytics-overview.md) |
 | Erfassen von Servicebesuchen, Buchen und Überwachen von Wartungskosten. |[Anlagen verwalten](fa-how-maintain.md) |
 | Aktualisieren von Versicherungsinformationen, Buchen von Anschaffungskosten auf Versicherungspolicen, Anpassen der Versicherungsdeckung, Anzeigen der Versicherungsstatistik und Auflisten von Versicherungspolicen |[Versichern von Anlagen](fa-how-insure.md) |
 | Umbuchen von Anlagen, Transferieren von Anlagen an verschiedene Standorte sowie Aufteilen oder Zusammenfassen von Anlagen |[Übertragen, Teilen oder Kombinieren von Anlagen](fa-how-trans-split-combine.md) |
 | Anpassen der Werte von Anlagen, Buchen von Zuschreibungen und Buchen von erhöhten Abschreibungstransationen |[Anlagen neu bewerten](fa-how-revalue.md) |
-| Berechnen und Buchen der Abschreibung und Analysieren der Abschreibung in Anlagenberichten. |[Anlagen abschreiben oder amortisieren](fa-how-depreciate-amortize.md) |
-| Informieren Sie sich über verschiedene Anlagen-Abschreibungsmethoden. |[Abschreibungsmethoden](fa-depreciation-methods.md) |
-| Buchen von Verkaufstransaktionen, Anzeigen von Verkaufsposten und Buchen von Teilverkäufen |[Anlagen entsorgen oder ausser Dienst stellen](fa-how-dispose-retire.md) |
-| Verwalten von Anlagenbudgets, Budgetieren von Anschaffungskosten, Budgetieren von Anlagenverkäufen und Budgetieren der Abschreibung. |[Budgets für Anlagen verwalten](fa-how-manage-budgets.md) |
-| Erfahren Sie mehr über integrierte Berichts- und Analysefunktionen für Anlagen. | [Anlagenberichte und -analysen](fa-reports.md) |
+| Buchen von Verkaufstransaktionen, Anzeigen von Verkaufsposten und Buchen von Teilverkäufen |[Anlagen entsorgen oder ausser Betrieb nehmen](fa-how-dispose-retire.md) |
+
 
 ## Siehe auch 
 
 [Anlagen einrichten](fa-setup.md)  
+[Überblick über die Anlagenanalyse](fa-analytics-overview.md)   
 [Finanzen – Übersicht](finance.md)  
 [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

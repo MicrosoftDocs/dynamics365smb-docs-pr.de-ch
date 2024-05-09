@@ -2,32 +2,34 @@
 title: Verwalten von Speicher durch das Löschen von Belegen oder Datenkomprimierung
 description: 'Erfahren Sie, wie Sie mit sich ansammelnden historischen Belegen umgehen (und die Menge der in einer Datenbank gespeicherten Daten reduzieren), indem Sie sie löschen oder komprimieren.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: '107, 9035, 9040'
-ms.date: 09/14/2022
-ms.author: bholtorf
+ms.date: 04/16/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Verwalten von Speicher durch das Löschen von Belegen oder Datenkomprimierung
+# Verwalten von Speicher durch das Löschen von Belegen oder Datenkomprimierung
 
 Ein Benutzer mit einer zentralen Rolle, z. B. der Anwendungsadministrator, muss sich regelmässig um die angesammelten historischen Belege kümmern, indem er diese löscht oder komprimiert.  
 
 > [!TIP]
 > Erfahren Sie mehr über andere Möglichkeiten, die Menge der in einer Datenbank gespeicherten Daten zu reduzieren. Lesen Sie dazu [Reduzierung der in Business Central Datenbanken gespeicherten Daten](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) in unserer Dokumentation für Entwickler und IT-Profis.
 
-## <a name="delete-documents"></a>Löschen von Belegen
+## Löschen von Belegen
 
-In bestimmten Situationen kann es erforderlich sein, dass Sie fakturierte Bestellungen löschen müssen. Sie können sie jedoch erst löschen, wenn Sie die Artikel in den Bestellungen vollständig in Rechnung gestellt und erhalten haben. [!INCLUDE[prod_short](includes/prod_short.md)] hilft Ihnen, dies zu überprüfen.
+In bestimmten Situationen müssen Sie die fakturierten Bestellungen vielleicht löschen. Sie können sie jedoch erst löschen, wenn Sie die Artikel in den Bestellungen vollständig in Rechnung gestellt und erhalten haben. [!INCLUDE[prod_short](includes/prod_short.md)] hilft Ihnen, dies zu überprüfen.
 
-Rücklieferungen werden normalerweise gelöscht, nachdem sie in Rechnung gestellt wurden. Wenn Sie eine Rechnung buchen, wird sie auf die Seite **Gebuchte Einkaufsgutschrift** übertragen. Wenn Sie das Kontrollkästchen **Gebuchte Rücklieferung bei Gutschrift** auf der Seite **Einkäufe & Einkauf Einr.** aktiviert haben, wird die Rechnung auf die Seite **Gebuchte Rücklieferung** übertragen. Belege können mithilfe der Stapelverarbeitung **Erledigte Eink.-Rekl. löschen** gelöscht werden. Vor dem Löschen prüft die Stapelverarbeitung, ob die Einkaufsreklamationen vollständig geliefert und fakturiert wurden.  
+Unternehmen löschen Retouren normalerweise, nachdem sie in Rechnung gestellt wurden. Wenn Sie eine Rechnung buchen, überträgt [!INCLUDE [prod_short](includes/prod_short.md)] sie auf die Seite **Gebuchte Einkaufsgutschrift**. Wenn Sie das Kontrollkästchen **Gebuchte Rücklieferung bei Gutschrift** auf der Seite **Einkäufe & Einkauf Einr.** aktiviert haben, wird die Rechnung auf die Seite **Gebuchte Rücklieferung** übertragen. Belege können mithilfe der Stapelverarbeitung **Erledigte Eink.-Rekl. löschen** gelöscht werden. Vor dem Löschen von Belegen überprüft der Batchauftrag, ob die Einkaufsretouren vollständig geliefert und fakturiert wurden.  
 
-Erledigte Rahmenbestellungen werden nicht automatisch gelöscht, nachdem Sie alle zugehörigen Bestellungen verarbeitet und in Rechnung gestellt haben. Stattdessen können Sie sie mit dem Batchauftrag **Erledigte Rahmenbestellungen löschen** löschen.  
+Rahmenbestellungen werden nicht automatisch gelöscht, nachdem Sie alle zugehörigen Bestellungen verarbeitet und fakturiert haben. Stattdessen können Sie sie mit dem Batchauftrag **Erledigte Rahmenbestellungen löschen** löschen.  
 
-Fakturierte Serviceaufträge werden in der Regel automatisch gelöscht, nachdem sie vollständig in Rechnung gestellt wurden. Wenn eine Rechnung gebucht wird, wird ein entsprechender Eintrag erstellt, der dann auf der Seite **Gebuchte Servicerechnungen** eingesehen werden kann.  
+Unternehmen löschen Serviceaufträge in der Regel automatisch, nachdem sie vollständig fakturiert wurden. Wenn eine Rechnung gebucht wird, wird ein entsprechender Eintrag erstellt, der dann auf der Seite **Gebuchte Servicerechnungen** eingesehen werden kann.  
 
-Serviceaufträge werden jedoch nicht automatisch gelöscht, wenn die Gesamtmenge des Auftrags von der Seite **Gebuchte Servicerechnungen** und nicht vom Serviceauftrag selbst gebucht wurde. Sie müssen solche fakturierten Aufträge möglicherweise manuell löschen, indem Sie den Batchauftrag **Fakturierte Serviceaufträge löschen** ausführen.  
+Serviceaufträge werden jedoch nicht automatisch gelöscht, wenn die Gesamtmenge des Auftrags von der Seite **Servicerechnung** und nicht vom Serviceauftrag selbst gebucht wurde. Sie müssen solche fakturierten Aufträge möglicherweise manuell löschen, indem Sie den Batchauftrag **Fakturierte Serviceaufträge löschen** ausführen.  
 
-## <a name="compress-data-with-date-compression"></a>Daten mit Datumskomprimierung komprimieren
+## Daten mit Datumskomprimierung komprimieren
 
 Sie können Daten in [!INCLUDE [prod_short](includes/prod_short.md)] komprimieren, um Platz in der Datenbank zu sparen &mdash;, was Ihnen in [!INCLUDE [prod_short](includes/prod_short.md)] online sogar Geld sparen kann. Die Komprimierung, die auf Daten und Funktionen basiert, fasst mehrere alte Einträge zu einem neuen Eintrag zusammen.
 
@@ -37,9 +39,9 @@ Sie können Einträge komprimieren, die alle der folgenden Bedingungen erfüllen
 * Das Feld **Öffnen** ist auf **Nein** festgelegt.
 * Sie sind mindestens fünf Jahre alt. Wenn Sie Daten komprimieren möchten, die weniger als fünf Jahre alt sind, wenden Sie sich an Ihren Microsoft-Partner.
 
-So können z.B. Kreditorenposten aus früheren Geschäftsjahren komprimiert werden, so dass es nur eine Gutschrift und eine Lastschrift pro Konto und Monat gibt. Der Betrag des neuen Postens ergibt sich aus der Summe aller komprimierten Posten. Das zugewiesene Datum ist das Startdatum für den komprimierten Zeitraum, z.B. der erste Tag des Monats (wenn die Buchungen nach Monaten komprimiert sind). Nach der Komprimierung können Sie immer noch die Nettoveränderung für jedes Konto im vorherigen Geschäftsjahr sehen.
+So können z.B. Kreditorenposten aus früheren Geschäftsjahren komprimiert werden, so dass es nur eine Gutschrift und eine Lastschrift pro Konto und Monat gibt. Der Betrag des neuen Postens ergibt sich aus der Summe aller komprimierten Posten. Das zugewiesene Datum ist das Startdatum für den komprimierten Zeitraum, z. B. der erste Tag des Monats (wenn Sie Posten nach Monaten komprimieren). Nach der Komprimierung können Sie immer noch die Nettoveränderung für jedes Konto im vorherigen Geschäftsjahr sehen.
 
-Die Anzahl der Posten, die im Zuge der Datumskomprimierung erstellt werden, hängt von der Anzahl der festgelegten Filter, den kombinierten Feldern und der ausgewählten Periodenlänge ab. Es gibt immer mindestens einen Eintrag. Wenn der Batchauftrag beendet ist, sehen Sie das Ergebnis auf der Seite **Date Compr. Register** sehen.
+Die Anzahl der Posten, die im Zuge der Datumskomprimierung erstellt werden, hängt von der Anzahl der festgelegten Filter, den kombinierten Feldern und der ausgewählten Periodenlänge ab. Es gibt immer mindestens einen Posten. Wenn der Batchauftrag beendet ist, sehen Sie das Ergebnis auf der Seite **Date Compr. Register** sehen.
 
 Sie können mit Batchaufträgen die folgenden Datentypen komprimieren.
 
@@ -56,9 +58,9 @@ Wenn Sie Kriterien für die Komprimierung festlegen, können Sie den Inhalt best
 
 Nach der Komprimierung werden die Inhalte der folgenden Felder in jedem Fall beibehalten: **Buchungsdatum**, **Kreditorennr.**, **Belegart**, **Währungscode**, **Buchungsgruppe**, **Betrag**, **Restbetrag**, **Ursprungsbetrag (MW)**, **Restbetrag (MW)**, **Betrag (MW)**, **Einkauf (MW)**, **Rechnungsrabatt (MW)**, **Rabatt gewährt (MW)** und **Rabatt möglich**.
 
-## <a name="posting-compressed-entries"></a>Komprimierte Buchungen buchen
+## Komprimierte Buchungen buchen
 
-Komprimierte Einträge werden etwas anders gebucht als Standardbuchungen. Dies dient dazu, die Anzahl der durch die Datumskomprimierung erstellten neuen Fibuposten zu verringern. Dies ist besonders wichtig, wenn Sie Informationen wie Dimensionen und Belegnummern aufbewahren. Durch die Datumskomprimierung werden neue Einträge wie folgt erstellt:
+Komprimierte Posten werden ein wenig anders gebucht als Standardbuchungen. Dieser Unterschied dient dazu, die Anzahl der durch die Datumskomprimierung erstellten neuen Fibuposten zu verringern. Dies ist besonders wichtig, wenn Sie Informationen wie Dimensionen und Belegnummern aufbewahren. Durch die Datumskomprimierung werden neue Einträge wie folgt erstellt:
 
 * Auf der Seite **Fibuposten** werden neue Einträge für die komprimierten Buchungen erstellt. Das Feld **Beschreibung** enthält **Datum komprimiert**, damit die komprimierten Einträge leicht zu identifizieren sind. 
 * Auf Sachkonto-Seiten, wie z.B. der Seite **Kunden-Sachkonto-Einträge**, werden ein oder mehrere neue Einträge erstellt. 
@@ -66,17 +68,17 @@ Komprimierte Einträge werden etwas anders gebucht als Standardbuchungen. Dies d
 Der Buchungsprozess erzeugt Lücken in der Nummernreihe für Einträge auf der Seite **Fibuposten**. Diese Nummern werden nur den Einträgen auf den Hauptbuchseiten zugewiesen. Der den Einträgen zugeordnete Nummernkreis ist auf der Seite **Fibujournal** in den Feldern **Von Laufnr.** und **Bis Laufnr.** verfügbar. 
 
 > [!NOTE]
-> Nachdem Sie die Datumskomprimierung ausgeführt haben, werden alle Konten im Hauptbuch gesperrt. Das bedeutet, dass Sie z.B. keine Kreditoren- oder Bank-Sachkonto-Einträge für die von der Komprimierung betroffenen Konten stornieren können.
+> Nachdem Sie die Datumskomprimierung ausgeführt haben, können Sie Kreditoren- oder Bankposten für von der Komprimierung betroffene Transaktionen nicht mehr stornieren.
 
 Die Anzahl der Einträge, die sich aus einer Datumsverdichtung ergeben, hängt davon ab, wie viele Filter Sie festlegen, welche Felder kombiniert werden und wie lang der von Ihnen gewählte Zeitraum ist. Es gibt immer mindestens einen Posten.
 
 > [!WARNING]
 > Die Datumskomprimierung löscht Posten. Daher sollten Sie immer eine Datensicherung der Datenbank durchführen, bevor Sie die Stapelverarbeitung ausführen.
 
-### <a name="to-run-a-date-compression"></a>So führen Sie eine Datumskomprimierung aus
+### So führen Sie eine Datumskomprimierung aus
 
 1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](media/ui-search/search_small.png "Symbol 'Nach Seite oder Bericht suchen'"), geben Sie **Datenverwaltung** ein und wählen Sie dann den entsprechenden Link.
-2. Führen Sie einen der folgenden Schritte aus:
+2. Führen Sie je nach Ihren Anforderungen einen der folgenden Schritte aus:
     * Um eine Anleitung zum Festlegen der Datenkompression für eine oder mehrere Arten von Daten zu verwenden, wählen Sie **Datenverwaltungsanleitung**.
     * Um die Komprimierung für einen einzelnen Datentyp festzulegen, wählen Sie **Datenkomprimierung**, **Einträge komprimieren**, und wählen Sie dann die zu komprimierenden Daten.
 
@@ -84,7 +86,7 @@ Die Anzahl der Einträge, die sich aus einer Datumsverdichtung ergeben, hängt d
    > Sie können nur Daten komprimieren, die älter als fünf Jahre sind. Wenn Sie Daten komprimieren möchten, die weniger als fünf Jahre alt sind, wenden Sie sich an Ihren Microsoft-Partner. Sie müssen das `OnSetMinimumNumberOfYearsToKeep`-Ereignis in der „Datumskomprimierung“-codeunit verwenden, um den Schwellenwert festzulegen.
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Verwaltung](admin-setup-and-administration.md)  
 
