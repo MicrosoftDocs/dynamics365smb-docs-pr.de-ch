@@ -1,19 +1,19 @@
 ---
-title: Arbeiten mit Verkauf Rahmenaufträgen oder Einkaufsbestellung
-description: 'Verwenden Sie Rahmenaufträge, wenn ein Debitor der Abnahme grosser Mengen zugestimmt hat, die in mehreren kleineren Lieferungen über einen bestimmten Zeitraum geliefert werden sollen. Gleiches gilt für den Einkauf.'
+title: Arbeiten mit Rahmenaufträgen oder Bestellungen
+description: 'Verwenden Sie Rahmenaufträge, wenn ein Kunde der Abnahme grosser Mengen zugestimmt hat, die in mehreren kleineren Lieferungen über einen bestimmten Zeitraum geliefert werden sollen. Gleiches gilt für den Einkauf.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '507, 509, 6620, 6622, 6623, 9303, 9310'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbeiten mit Verkauf Rahmenaufträgen oder Einkauf Rahmenbestellungen
+# Arbeiten mit Rahmenaufträgen oder Rahmenbestellungen
 
 Ein Rahmenauftrag stellt ein Gerüst für eine langfristige Vereinbarung zwischen Ihnen und einem Debitor dar. In ähnlicher Weise verwenden Sie Einkauf Rahmenbestellungen, um langfristige Vereinbarungen zwischen Ihnen und Ihrem Kreditor zu verwalten.
 
-Ein Rahmenauftrag wird in der Regel erstellt, wenn sich ein Debitor verpflichtet hat, grössere Mengen abzunehmen, die über einen längeren Zeitraum in mehreren kleineren bereitgestellt werden. Rahmenaufträge umfassen häufig nur einen Artikel mit im Vorfeld festgelegten Lieferterminen. Der Hauptgrund für die Verwendung von Rahmenaufträgen anstelle von normalen Aufträgen ist, dass Mengen, die für einen Rahmenauftrag eingegeben werden, keine Auswirkungen auf die Artikelverfügbarkeit haben, sodass der Rahmenauftrag als Arbeitsvorlage zum Überwachen und Planen verwendet werden kann.
+Ein Rahmenauftrag wird in der Regel erstellt, wenn sich ein Debitor verpflichtet hat, grössere Mengen abzunehmen, die über einen längeren Zeitraum in mehreren kleineren bereitgestellt werden. Rahmenaufträge umfassen häufig nur einen Artikel mit im Vorfeld festgelegten Lieferterminen. Der Hauptgrund für die Verwendung eines Rahmenauftrags anstelle eines Verkaufsauftrags besteht darin, dass die bei einem Rahmenauftrag eingegebenen Mengen keinen Einfluss auf die Artikelverfügbarkeit haben und daher als Arbeitsvorlage für die Überwachung und Planung verwendet werden können.
 
 In einem Rahmenauftrag kann jede einzelne Lieferung als Auftragszeile eingerichtet werden, die dann zum Zeitpunkt der Lieferung in einen Auftrag umgewandelt werden kann.
 
@@ -22,7 +22,7 @@ Rahmenaufträge werden beispielsweise verwendet, wenn ein Debitor anruft und 100
 > [!NOTE]
 > Rahmenbestellungen funktionieren auf ähnliche Weise wie Rahmenaufträge. Die Dokumentation enthält nur Rahmenverkaufsaufträge.
 
-## <a name="to-create-a-blanket-sales-order"></a>So legen Sie einen Rahmenauftrag an:
+## So legen Sie einen Rahmenauftrag an:
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Verkaufsrahmenaufträge** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
@@ -30,10 +30,10 @@ Rahmenaufträge werden beispielsweise verwendet, wenn ein Debitor anruft und 100
 4. Nehmen Sie im Feld **Auftragsdatum** keine Eingabe vor. Wenn die einzelnen Verkaufsaufträge anhand des Rahmenauftrags erstellt werden, wird als Auftragsdatum des Verkaufsauftrags automatisch das Arbeitsdatum festgelegt.
 5. Erstellen Sie im Inforegister **Zeilen** einzelne Zeilen für jede Lieferung. Wenn der Kunde beispielsweise 1.000 Einheiten gleichmässig auf vier Wochen verteilt erhalten möchte, geben Sie vier separate Zeilen mit jeweils 250 Einheiten ein.  
 
-## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>So erstellen Sie einen Auftrag aus einem Rahmenauftrag:
+## So erstellen Sie einen Auftrag aus einem Rahmenauftrag:  
 
-1. Um einen Auftrag für eine oder mehrere der Zeilen des Rahmenverkaufsauftrags zu erstellen, entfernen Sie die Menge im Feld **Zu liefernde Menge** in allen Zeilen, für die zum aktuellen Zeitpunkt keine Lieferung gewünscht wird.  
-2. Wenn Sie bereit sind, Bestellungen zu erstellen, wählen Sie die Aktion **Bestellung erstellen** und wählen Sie dann **Ja**. Sie werden in einer Meldung darüber informiert, dass dem Rahmenauftrag eine Auftragsnummer zugewiesen wurde. Beachten Sie, dass der Rahmenauftrag nicht gelöscht wurde.  
+1. Um einen Auftrag für eine oder mehrere der Zeilen des Rahmenauftrags zu erstellen, entfernen Sie die Menge im Feld **Zu liefernde Menge** in allen Zeilen, für die zum aktuellen Zeitpunkt keine Lieferung gewünscht wird.  
+2. Wenn Sie bereit sind, Bestellungen zu erstellen, wählen Sie die Aktion **Bestellung erstellen** und wählen Sie dann **Ja** aus. Sie werden in einer Meldung darüber informiert, dass dem Rahmenauftrag eine Auftragsnummer zugewiesen wurde. Beachten Sie, dass der Rahmenauftrag nicht gelöscht wurde.  
 3. Wählen Sie die Schaltfläche **OK** aus.  
 4. Um die Ergebnisse der vorangehenden Schritte anzuzeigen, wählen Sie auf dem Inforegister **Zeilen** die Option **Aktionen**, wählen Sie Zeile, wählen Sie Nicht gebuchte Zeilen, und wählen Sie dann **Aufträge**.  
 5. Wählen Sie auf der Seite **Verkaufszeilen** den entsprechenden Verkaufsauftrag aus. Wählen Sie auf dem Inforegister **Zeilen** die Option Aktionen, wählen Sie Zeile, und wählen Sie dann **Beleg anzeigen**.  
@@ -44,25 +44,25 @@ Das folgende gilt für Verkaufsaufträge nach der Erstellung von Rahmenaufträge
 - Beachten Sie unbedingt, dass die Menge der Auftragszeile die Menge der zugehörigen Rahmenauftragszeile nicht übersteigen darf. Andernfalls kann der Auftrag nicht gebucht werden.  
 - Wenn der Auftrag als geliefert und/oder als fakturiert gebucht wurde, werden die Felder **Menge geliefert** und **Fakturierte Menge** auf des zugehörigen Rahmenauftrags automatisch aktualisiert.  
 - Die Nummer des Rahmenauftrags und die Zeilennummer werden als Eigenschaften der Auftragszeilen erfasst, wenn diese aus einem Rahmenauftrag erstellt wurden.  
-- Wenn Aufträge nicht direkt aus einem Rahmenauftrag erstellt werden, aber dennoch zu diesem gehören, kann eine Verknüpfung zwischen einem Auftrag und einem Rahmenauftrag eingerichtet werden, indem die Nummer des verknüpften Rahmenauftrags im Feld **Rahmenauftragsnr.** in der Auftragszeile eingegeben wird. Lagerdurchlaufzeit" der Einkaufsbestellung.  
+- Wenn Aufträge nicht direkt aus einem Rahmenauftrag erstellt werden, aber dennoch zu diesem gehören, kann eine Verknüpfung zwischen einem Auftrag und einem Rahmenauftrag eingerichtet werden, indem die Nummer des verknüpften Rahmenauftrags im Feld **Rahmenauftragsnr.** in der Auftragszeile eingegeben wird Lagerdurchlaufzeit" der Einkaufsbestellung.  
 - Nachdem der Verkaufsauftrag für die Gesamtmenge einer Rahmenbestellzeile erstellt wurde, kann kein anderer Verkaufsauftrag für dieselbe Zeile erstellt werden. Benutzer können im Feld **Zu liefernde Menge** keine Menge eingeben. Wenn in einem Rahmenauftrag jedoch weitere Mengen hinzugefügt werden müssen, kann der Wert im Feld **Menge** erhöht werden, und es können weitere Aufträge erstellt werden.  
-- Der fakturierte Rahmenauftrag verbleibt im System, bis er gelöscht wird, und zwar entweder durch Löschen einzelner Rahmenaufträge oder durch Ausführen der Stapelverarbeitung **Erledigte Rahmenauftr. löschen**.  
+- Der fakturierte Rahmenauftrag verbleibt im System, bis er gelöscht wird, und zwar entweder durch Löschen einzelner Rahmenaufträge oder durch Ausführen des Batchauftrags **Erledigte Rahmenauftr. löschen**.  
 - Wenn ein Debitor in der Anwendungsregion «Marketing» auch als Kontakt eingerichtet wurde und Sie einen Aktivitätenvorlagencode für Rahmenaufträge auf der Seite **Marketing &amp; Vertrieb Einr.** angegeben haben, wird eine Aktivität in der Tabelle «Aktivitätenprotokollposten» aufgezeichnet, wenn Sie **Drucken** auswählen, um die Rahmenaufträge zu drucken.
 
-## <a name="to-view-the-status-of-a-blanket-sales-order"></a>So zeigen Sie den Status eines Rahmenauftrags an:
+## So zeigen Sie den Status eines Rahmenauftrags an:
 
 Sie können sich den Status einer Rahmenbestellung auf der Seite **Auftragssstatistik Rahmenbestellung** anzeigen lassen. Dies kann dann von Bedeutung sein, wenn Sie beginnen, die Bestellung zu fakturieren, die aus der Rahmenverkaufsbestellung erstellt wurde.  
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Verkaufsrahmenaufträge** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie einen Rahmenbestellung aus, und wählen Sie die **Statistik** Aktion aus.  
-3.  Im Fenster **Verkaufsstatistik Rahmenbestellung** finden Sie auf dem Inforegister **Allgemein** zusammengefasste Informationen über die gesamte Bestellung, basierend auf den Gesamtmengen in den verschiedenen **Mengenfeldern** in den Rahmenbestellungszeilen.  
+3.  Auf der Seite **Verkaufsstatistik Rahmenbestellung** finden Sie auf dem Inforegister **Allgemein** zusammengefasste Informationen über die gesamte Bestellung, basierend auf den Gesamtmengen in den verschiedenen **Mengenfeldern** in den Rahmenbestellungszeilen.  
 
 - Auf dem Inforegister **Fakturierung** finden Sie zusammengefasste Informationen über die Gesamtmenge in den verschiedenen Feldern **Zu fakturierende Menge** in den Rahmenverkaufsbestellungszeilen.  
 - Auf dem Inforegister **Lieferung** werden zusammengefasste Informationen über die Gesamtmenge in den verschiedenen Feldern **Zu liefernde Menge** in den Rahmenverkaufsbestellungszeilen angezeigt.  
 - Auf dem Inforegister **Vorauszahlung** werden zusammenfassende Informationen zu den vorab bezahlten Beträgen angezeigt.  
 - Auf dem Inforegister **Kreditor** werden bestimmte grundlegende Informationen über den Kreditor angezeigt.
 
-## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Um gebuchte und nicht gebuchte Rahmenbestellungszeilen anzuzeigen
+## Um gebuchte und nicht gebuchte Rahmenbestellungszeilen anzuzeigen
 
 Die Verknüpfung zwischen dem Rahmenauftrag und dem daraus stammenden Verkaufsauftrag und jeder andere Verkaufsbeleg wird beibehalten, nachdem sie als Liste gebuchter und ungebuchter Verkaufsauftrags- und Rechnungszeilen gebucht wurden.  
 
@@ -88,7 +88,7 @@ Die Verknüpfung zwischen dem Rahmenauftrag und dem daraus stammenden Verkaufsau
 
 5.  Klicken Sie auf der Seite **Verkaufszeile** auf Zeile **Beleg anzeigen**, um den Posten anzuzeigen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Verkauf](sales-manage-sales.md)  
 [Montagerahmenaufträge](assembly-how-to-create-blanket-assembly-orders.md)  
