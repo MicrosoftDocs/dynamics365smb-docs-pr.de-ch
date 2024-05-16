@@ -12,18 +12,21 @@ ms.service: dynamics-365-business-central
 ---
 # Kreditorenberichte und -analysen
 
-Um Sie bei der Verwaltung Ihrer Verbindlichkeiten in [!INCLUDE [prod_short](includes/prod_short.md)] zu unterstützen, sind Standardberichte und Analysen integriert. Es geht über die herkömmlichen Berichtsbeschränkungen hinaus und hilft Ihnen, verschiedene Arten von Berichten effizient zu gestalten.  
+[!INCLUDE [prod_short](includes/prod_short.md)] verfügt über Berichte und Analysen, um Sie bei der Verwaltung Ihrer Kreditorenkonten zu unterstützen. Die Tools sprengen die Grenzen herkömmlicher Berichte und erleichtern es Ihnen, verschiedene Arten von Berichten effizient zu gestalten.  
 
 ## Berichte
+
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
-## Siehe auch
+## Finanzberichte mit dem Berichts-Explorer kennenlernen
 
-[Finanzauswertungen analysieren in Microsoft Excel](finance-analyze-excel.md)  
-[Arbeiten mit Dimensionen](finance-dimensions.md)  
-[Verwaltung von Anlagen](fa-manage.md)  
-[Lokale Funktionen – Übersicht](about-localization.md)  
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
+## Siehe auch 
+
+[Ad-hoc-Analysen der Finanzdaten](ad-hoc-analysis-finance.md)  
+[Finanzielle Analysen](bi.md)  
+[Einkaufsanalysen](purchasing-analytics-overview.md)  
 [Buchhalter-Erfahrung in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
