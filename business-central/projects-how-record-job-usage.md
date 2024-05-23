@@ -3,13 +3,13 @@ title: Datensatz-Verbrauch oder -Verwendung von Projektressourcen und -artikeln
 description: 'Dieser Artikel beschreibt, wie der Verbrauch oder die Verwendung von Artikeln oder Ressourcen für Projekte in Projektmanagement erfasst werden.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 02/22/2024
 ms.custom: bap-template
 ---
-# <a name="record-consumption-or-usage-for-projects"></a>Verbrauch oder Nutzung für Projekt erfassen
+# Verbrauch oder Nutzung für Projekt erfassen
 
 Auf der Seite **Projektkarte** können Sie die Seite **Projektplanzeilen** öffnen, um die Nutzung verschiedener Teile Ihres Projekts zu überprüfen und zu erfassen. Diese Informationen werden automatisch aktualisiert, wenn Sie Informationen zwischen Projekten und Projekterfassungsjournalen oder Projektrechnungen ändern und übertragen. Dazu ist es erforderlich, dass Sie den Schalter **Link Verbrauch standardmässig anwenden** auf der Seite **Projekteinrichtung** aktiviert ist. Erfahren Sie mehr unter [Projekte einrichten](projects-how-setup-jobs.md).  
 
@@ -17,7 +17,7 @@ Zum Beispiel können Sie für Planungszeilen der Art **Budget** die Menge einer 
 
 Die folgenden Verfahren beschreiben, wie Sie tatsächliche (budgetierte) Mengen und Kosten mit einem Projekterfassungsjournal aufzeichnen. Alternativ können Sie auch Einkaufsbelege verwenden, um Einkäufe für ein Projekt zu erfassen. Weitere Informationen finden Sie unter [Verwalten von Projektlieferungen](projects-how-manage-project-supplies.md).
 
-## <a name="to-record-usage-for-a-project-planning-line-of-type-budget"></a>Den Verbrauch in einer Projektplanungszeile der Art „Budget“ erfassen
+## Den Verbrauch in einer Projektplanungszeile der Art „Budget“ erfassen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") und geben Sie **Projekte** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie das Projekt und dann die Aktion **Projektplanzeilen** aus. 
@@ -42,7 +42,7 @@ Die folgenden Verfahren beschreiben, wie Sie tatsächliche (budgetierte) Mengen 
 9. Auf der Seite **Projektplanungszeilen** überprüfen Sie den erfassten Verbrauch, indem Sie die Felder **Menge**, **Restmenge** und **Auf Erf.-Journal zu übertragende Menge** kontrollieren.  
 10. Um zusätzlichen Verbrauch zu erfassen, wiederholen Sie die Schritte 3 bis 8.  
 
-## <a name="to-create-project-journal-lines-manually"></a>Projekterfassungsjournal-Zeilen manuell erstellen
+## Projekterfassungsjournal-Zeilen manuell erstellen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Projekterfassungsjournale** ein und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie im Feld **Batchname** einen entsprechenden Projekterfassungsjournal-Batch aus.  
@@ -51,7 +51,7 @@ Die folgenden Verfahren beschreiben, wie Sie tatsächliche (budgetierte) Mengen 
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-view-project-usage-estimates-and-post-updates"></a>So zeigen Sie Projektverbrauchschätzungen und Buchungsaktualisierungen an
+## So zeigen Sie Projektverbrauchschätzungen und Buchungsaktualisierungen an
 
 Der Projektverbrauch kann bis zum Projektabschluss in einem einzigen Schritt angezeigt werden. Verwenden Sie hierzu die Stapelverarbeitung **Restverbrauch für Projekt berechnen** für alle Aufgaben bis zum Projektende (einschliesslich).  
 
@@ -66,7 +66,7 @@ Auf diese Weise können Sie die ursprüngliche Planung mit den tatsächlichen Er
 4. Aktualisieren Sie das Erf.-Journal mit sämtlichen Änderungen, die möglicherweise erforderlich sind.  
 5. Wählen Sie die Aktion **Buchen** aus.
 
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-project"></a>Belege für Bestand und Lagerkommissionierungen für ein Projekt erstellen
+## Belege für Bestand und Lagerkommissionierungen für ein Projekt erstellen
 
 Verwenden Sie die Aktionen **Lagerkommissionierung erstellen** und **Lagerkommissionierungen erstellen** auf der Seite **Projektkarte**. Um einen Beleg für eine Kommissionierung zu erstellen oder zu registrieren, verwenden Sie die Aktionen **Kommissionierlinien/Bewegungslinien** oder **Registrierte Kommissionierlinien**. Weitere Informationen finden Sie unter [Flows für Produktion, Montage und Projekte](design-details-internal-warehouse-flows.md).
 
@@ -83,7 +83,7 @@ Sie können die Aktionen unter den folgenden Bedingungen verwenden:
 > 
 > Wenn Ihr Standort so festgelegt ist, dass sowohl die Kommissionierung als auch die Verarbeitung von Sendungen erforderlich ist, d.h. wenn Sie auf der Seite **Standortkarte** sowohl das Feld **Kommissionierung anfordern** als auch das Feld **Sendung anfordern** ausgewählt haben, verwenden Sie die Seite **Lager-Kommissionierung**, um die Kommissionierung zu bearbeiten. Lagerkommissionierungen sind ähnlich wie Bestandskommissionierungen. Der Unterschied besteht darin, dass Sie die Kommissionierung registrieren, anstatt die Kommissionierungsinformationen zu buchen. Mit dieser Registrierung wird kein Verbrauch gebucht, sondern die Artikel werden lediglich für die Buchung verfügbar gemacht. Als Manager eines Lagers können Sie ein Kommissionierarbeitsblatt verwenden, um die Kommissionierinformationen zu organisieren, bevor Sie die einzelnen Anweisungen für die Kommissionierung im Lager erstellen.
 
-## <a name="to-review-planning-lines-for-a-project-ledger-entry"></a>So überprüfen Sie Planungszeilen für einen Projektposten
+## So überprüfen Sie Planungszeilen für einen Projektposten
 
 Nachdem Sie die Projekterfassungsjournal-Zeilen gebucht haben, können Sie die gebuchten Planungszeilen sehen, die den Projekterfassungsjournal-Posten zugeordnet sind.
 
@@ -94,7 +94,7 @@ Nachdem Sie die Projekterfassungsjournal-Zeilen gebucht haben, können Sie die g
 2. Wählen Sie ein entsprechendes Projekterfassungsjournal und anschliessend die Aktion **Projektposten** aus.  
 3. Auf der Seite **Projektposten** wählen Sie die Aktion **Anzeigen verknüpfter Projektplanungszeilen** aus.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Projektmanagement](projects-manage-projects.md)  
 [Finanzen](finance.md)  

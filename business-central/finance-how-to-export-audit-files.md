@@ -9,10 +9,10 @@ ms.search.keywords: 'audit, export, SIE, SAF-T, FAC, GDPdU, file export'
 ms.search.form: '5260, 5261, 5264, 5266, 5267, 5270'
 ms.date: 04/04/2023
 ms.author: altotovi
-ms.reviewer: kfend
+ms.reviewer: bholtorf
 ---
 
-# <a name="audit-file-export"></a>Export der Protokolldatei
+# Export der Protokolldatei
 
 Der Export von Buchhaltungsinformationen aus dem System ist eine häufige Anforderung einiger lokaler Behörden oder Wirtschaftsprüfer. Exporte von Formaten und erforderlichen Informationen können davon abweichen. Einträge für den Export sind in der Regel Fibuposteneinträge (Fibuposten) oder Salestaxeinträge (MWST). Manchmal sind jedoch weitere Informationen erforderlich.
 
@@ -21,7 +21,7 @@ Der Export von Buchhaltungsinformationen aus dem System ist eine häufige Anford
 > [!NOTE]
 > Derzeit können Sie als zusätzliche App das SIE-Format (Schweden), das FEC-Format (Frankreich) und das SAF-T-Format auswählen. Partner können auch ein benutzerdefiniertes Format entwickeln. Die Anzahl der verfügbaren Formate wird im Laufe der Zeit zunehmen.
 
-## <a name="set-up-audit-file-export"></a>Prüfdateiexport einrichten
+## Prüfdateiexport einrichten
 
 1. Wählen Sie die Suchschaltfläche ![Lupenschaltfläche aus, welche das „Sie wünschen ...“-Feature öffnet](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?"), geben Sie **Prüfdateiexport einrichten** ein und wählen Sie dann den entsprechenden Link aus.
 2. Führen Sie auf der Seite **Prüfdateiexport einrichten** die folgenden Schritte aus:
@@ -42,7 +42,7 @@ Der Export von Buchhaltungsinformationen aus dem System ist eine häufige Anford
     2. Geben Sie im Feld **Prüfdateiname** den Standarddateinamen oder die Dateinamenvorlage für die Prüfdatei an, die Sie exportieren möchten.
     3. Aktivieren Sie das Kontrollkästchen **In Zip archivieren**, um exportierte Dateien automatisch zu komprimieren.
 
-## <a name="provide-the-gl-account-mapping-for-audit-file-export"></a>Die Fibukontenzuordnung für den Prüfdateiexport angeben
+## Die Fibukontenzuordnung für den Prüfdateiexport angeben
 
 Für die meisten von Behörden angeforderten Formate für Fibukonten ist ein bestimmter Standardkontenplan erforderlich. Nachdem Sie Ihre Fibukonten konfiguriert haben, basiert Ihre exportierte Datei daher auf diesen Zuordnungen. Sie können mehr Zuordnungen in Ihrem System verwenden.
 
@@ -67,7 +67,7 @@ Gehen Sie wie folgt vor, um die Fibukontenzuordnung für den Prüfdateiexport an
     1. Um Zeilen auf der Seite **Fibukontozuordnung** auf Grundlage eines vorhandenen Kontenplans zu generieren, wählen Sie **Quelle für Zuordnung initialisieren** aus. Um die Fibukontenzuordnung aus einem anderen Zuordnungscode zu kopieren, wählen Sie **Aus einer anderen Zuordnung kopieren** aus. Wenn Sie mit dem Anlegen von Zeilen fertig sind, werden alle Fibukonten mit gebuchten Einträgen grün markiert.
     2. Um nur Fibukonten mit Buchungen zu markieren, wählen Sie **Verfügbarkeit von Fibukontoeintrag aktualisieren** aus. Wenn die Option **Eingangssaldo einbeziehen** aktiviert ist, werden alle gebuchten Fibukontoeinträge für die Berechnung berücksichtigt. Ansonsten werden nur Fibukontoeinträge des Berichtszeitraums berücksichtigt.
 
-## <a name="export-the-audit-file"></a>Die Prüfdatei exportieren
+## Die Prüfdatei exportieren
 
 1. Wählen Sie die Suchschaltfläche ![Lupenschaltfläche aus, welche das „Sie wünschen ...“-Feature öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Exportbelege für Prüfdatei** ein und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie auf der Seite **Exportbelege für Prüfdatei** **Neu** aus.
@@ -95,7 +95,7 @@ Gehen Sie wie folgt vor, um die Fibukontenzuordnung für den Prüfdateiexport an
 > [!IMPORTANT]
 > Wenn Sie mehrere Einträge exportieren möchten, empfehlen wir, diese aufgrund möglicher Leistungsprobleme nicht in der aktuellen Sitzung zu exportieren. Sie sollten die Parallelverarbeitung stattdessen an arbeitsfreien Tagen oder Stunden verwenden.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 [Finanzmanagement](finance.md)  
 [Den Fibuposten und den Kontenplan verstehen](finance-general-ledger.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
