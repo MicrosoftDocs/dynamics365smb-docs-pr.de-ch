@@ -3,9 +3,9 @@ title: Rückgängigmachen einer Buchung durch Buchung einer Umkehrbuchung
 description: 'Wenn Sie fehlerhafte Buchungen im Fibu Erf.-Journal finden, können Sie die Aktion Transaktion zurückbuchen verwenden, um die korrekte Buchung mit einem Protokoll zu stornieren.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -27,8 +27,6 @@ Posten können in allen Seiten **Posten** storniert werden. Das folgende Verfahr
 
 > [!NOTE]
 > Der Eintrag muss aus einer Journalbuchung stammen.
->
-> Ausserdem können Sie keine Buchungen rückgängig machen, die mit Informationen aus einem Projekt gebucht wurden oder die Gewinne und Verluste innerhalb derselben Transaktion realisiert haben.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Hauptbuchhaltungsposten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Posten, den Sie stornieren möchten, und wählen die **Transaktion stornieren** Aktion aus.
@@ -84,10 +82,21 @@ Die Schritte sind denen der gebuchten Rücksendungen ähnlich.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-## Siehe auch
+## Einen Debitoren- und Kreditorenposten mit einem realisierten Gewinn- oder Verlustposten stornieren
 
-[Montagesbuchungen rückgängig machen](assembly-how-to-undo-assembly-posting.md)  
-[Buchen von Transaktionen direkt im Fibuposten](finance-how-post-transactions-directly.md)  
+Mit der Aktion **Transaktion stornieren** können Sie Zahlungen umkehren, die auf Posten in Fremdwährungen angewendet wurden und mit dem Batchauftrag „Wechselkursregulierung“ angepasst wurden. Das Feature funktioniert sowohl für Käufe als auch für Verkäufe.
+
+Das folgende einfache Szenario veranschaulicht die Funktionsweise:
+
+1. Buchen Sie eine Verkaufsrechnung für einen Debitor in einer Fremdwährung.
+2. Passen Sie den Wechselkurs für diese Währung an.
+3. Buchen Sie eine auf die Rechnung angewendete Zahlung.
+4. Heben Sie die Anwendung auf und stornieren Sie die Zahlungstransaktion, beispielsweise über die Seite **Debitorenposten** .
+
+## Siehe auch 
+
+[Montagebuchung rückgängig machen](assembly-how-to-undo-assembly-posting.md)  
+[Transaktionen direkt in der Finanzbuchhaltung buchen](finance-how-post-transactions-directly.md)  
 [Arbeiten mit Fibu Erfassungsjournalen](ui-work-general-journals.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
