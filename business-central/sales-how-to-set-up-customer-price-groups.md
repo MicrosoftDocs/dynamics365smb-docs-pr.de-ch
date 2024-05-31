@@ -10,17 +10,17 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Kundenpreisgruppen festlegen
+# <a name="set-up-customer-price-groups"></a>Kundenpreisgruppen festlegen
   
 Die Verkaufspreise können von den Kundengruppen, an die Sie verkaufen, abhängig gemacht werden. Diese werden als Debitorenpreisgruppen bezeichnet.
 
 Bevor Sie Kundenpreisgruppen festlegen, müssen Sie entscheiden, wie viele Gruppen Sie haben möchten und welche Kunden zu den einzelnen Gruppen gehören werden.  
 
-## So erstellen Sie Verkaufspreise für eine Gruppe von Kunden  
+## <a name="how-to-create-sales-prices-for-a-group-of-customers"></a>So erstellen Sie Verkaufspreise für eine Gruppe von Kunden
 
 Wenn Sie sich auf die Preise geeinigt haben, die die Gruppe von Kunden für bestimmte Artikel zahlen wird, registrieren Sie die Vereinbarung für die einzelnen Artikel in den Zeilen auf der Seite **Verkaufspreise**.
 
-### Um Verkaufspreise für eine Gruppe von Kunden zu erstellen
+### <a name="to-create-sales-prices-for-a-group-of-customers"></a>Um Verkaufspreise für eine Gruppe von Kunden zu erstellen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol, geben Sie **Kundenpreisgruppen** ein und wählen Sie dann den entsprechenden Link.  
 
@@ -42,11 +42,11 @@ Wenn Sie sich auf die Preise geeinigt haben, die die Gruppe von Kunden für best
 
 Wiederholen Sie die Schritte 4 bis 8 für jedes Element, für das Sie einen Verkaufspreis erstellen möchten.
 
-## So geben Sie Debitorenpreisgruppen-Codes auf Kundenkarten ein  
+## <a name="how-to-enter-customer-price-group-codes-on-customer-cards"></a>So geben Sie Debitorenpreisgruppen-Codes auf Kundenkarten ein
 
 Nachdem Sie die Kundenpreisgruppen festgelegt haben, können Sie die Kundenpreisgruppen-Codes auf den Kundenkarten eingeben.
 
-### Um Kundenpreisgruppen-Codes auf einer Kundenkarte einzugeben  
+### <a name="to-enter-customer-price-group-codes-on-a-customer-card"></a>Um Kundenpreisgruppen-Codes auf einer Kundenkarte einzugeben
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link aus.  
 
@@ -55,7 +55,7 @@ Nachdem Sie die Kundenpreisgruppen festgelegt haben, können Sie die Kundenpreis
 3. Wählen Sie auf dem Inforegister **Fakturierung** im Feld **Debitorenpreisgruppe** den Code **Debitorenpreisgruppe**.  
 
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
