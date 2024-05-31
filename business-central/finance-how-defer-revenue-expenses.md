@@ -11,7 +11,7 @@ ms.date: 03/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="defer-revenues-and-expenses"></a>Umsätze und Ausgaben abgrenzen
+# Umsätze und Ausgaben abgrenzen
 
 Um Einnahmen und Ausgaben in einer anderen Periode als in jener, in der die Transaktion gebucht wurde, anzusetzen, können Sie Einnahmen und Ausgaben über einen bestimmten Zeitplan automatisch abgrenzen.
 
@@ -20,7 +20,7 @@ Um Einnahmen oder Ausgaben in den betroffenen Buchhaltungsperioden einzubeziehen
 > [!NOTE]
 > Verkaufs- und Einkaufserfassungsjournale validieren den Quellcode. Für die Validierung darf der Quellcode für Verkäufe und Verkaufserfassungsjournale bzw. Einkäufe und Einkaufserfassungsjournale nicht identisch sein, wenn Sie Abgrenzungen verwenden. Wenn die Einrichtung identisch ist, können Sie diese Einschränkung umgehen, indem Sie eine Vorlage und einen Batch erstellen, die einen anderen Quellcode verwenden.
 
-## <a name="to-set-up-a-gl-account-for-deferral"></a>So richten Sie ein Fibukonto für Abgrenzungen ein
+## So richten Sie ein Fibukonto für Abgrenzungen ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.
@@ -29,17 +29,17 @@ Um Einnahmen oder Ausgaben in den betroffenen Buchhaltungsperioden einzubeziehen
 
 Für beide Arten Abgrenzung wählen Sie im Feld **Art** **Bilanz** aus und benennen Sie die Konten entsprechend, wie "Nicht verdiente Erträge" für zurückgestellte Einnahmen und "nicht bezahlte Ausgaben" für abgegrenzte Ausgaben.
 
-## <a name="to-set-up-a-deferral-template"></a>So richten Sie eine Abgrenzungsvorlage ein
+## So richten Sie eine Abgrenzungsvorlage ein
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Abgrenzungsvorlagen** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus.
 4. Geben Sie auf der Seite **Berechnungsmethode** an, wie das Feld **Betrag** für jede Periode auf der Seite **Abgrenzungsplan** berechnet wird. Sie haben die Wahl zwischen den folgenden Optionen:
 
-   * **Linear**: Die regelmässigen Abgrenzungsbeträge werden entsprechend der Anzahl der Perioden berechnet, verteilt entsprechend der Periodenlänge.
-   * **Gleich pro Periode**: Die regelmässigen Abgrenzungsbeträge werden entsprechend der Anzahl der Perioden berechnet, gleichmässig nach Perioden verteilt.
-   * **Tage pro Periode**: Die regelmässigen Abgrenzungsbeträge werden entsprechend der Anzahl der Tage in der Periode berechnet.
-   * **Benutzerdefiniert**: Die regelmässig Abgrenzungsbeträge werden nicht berechnet. Sie müssen das Feld **Betrag** für jede Periode auf der Abgrenzungsplanseite manuell ausfüllen. Weitere Informationen finden Sie im Abschnitt „So ändern Sie einen Aufschubzeitplan aus einer Verkaufsrechnung”.
+   * **Linear**: Die regelmäßigen Abgrenzungsbeträge werden entsprechend der Anzahl der Perioden berechnet, verteilt entsprechend der Periodenlänge.
+   * **Gleich pro Periode**: Die regelmäßigen Abgrenzungsbeträge werden entsprechend der Anzahl der Perioden berechnet, gleichmäßig nach Perioden verteilt.
+   * **Tage pro Periode**: Die regelmäßigen Abgrenzungsbeträge werden entsprechend der Anzahl der Tage in der Periode berechnet.
+   * **Benutzerdefiniert**: Die regelmäßig Abgrenzungsbeträge werden nicht berechnet. Sie müssen das Feld **Betrag** für jede Periode auf der Abgrenzungsplanseite manuell ausfüllen. Weitere Informationen finden Sie im Abschnitt „So ändern Sie einen Aufschubzeitplan aus einer Verkaufsrechnung”.
 5. In der **Periodenbeschr.** Feld geben Sie eine Beschreibung an, die bei Einträgen für die Abgrenzungsbuchung angezeigt wird. Sie können die folgenden Platzhaltercodes für typische Werte eingeben, die automatisch eingefügt werden, wenn die Periodenbeschreibung angezeigt wird.
 
    * %1 = Die Tagesnummer des Periodenbuchungsdatums
@@ -51,7 +51,7 @@ Für beide Arten Abgrenzung wählen Sie im Feld **Art** **Bilanz** aus und benen
 
 Beispiel: Das Buchungsdatum ist 02.06.2016. Wenn Sie „Abgrenzungsausgabe für %4 %6“ eingeben, ist die angezeigte Beschreibung „Abgrenzungsausgaben für Februar 2016“.
 
-## <a name="to-assign-a-deferral-template-to-an-item"></a>So weisen Sie einem Artikel eine Abgrenzungsvorlage zu
+## So weisen Sie einem Artikel eine Abgrenzungsvorlage zu
 
 > [!NOTE]  
 > Die Schritte in diesem Verfahren sind die gleichen wie bei der Zuordnung einer Stundungsvorlage zu einem Fibukonto oder einer Ressource.
@@ -60,7 +60,7 @@ Beispiel: Das Buchungsdatum ist 02.06.2016. Wenn Sie „Abgrenzungsausgabe für 
 2. Öffnen Sie die Karte für den Artikel, für den Ausgaben oder Einnahmen zu den Buchhaltungsperioden abgegrenzt werden müssen, wenn der Artikel gekauft oder verkauft wurde.
 3. Im Feld **Standard-Abgrenzungsvorlage** wählen Sie die entsprechende Abgrenzungsvorlage aus.
 
-## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a>So ändern Sie einen Aufschubzeitplan von einer Verkaufsrechnung aus
+## So ändern Sie einen Aufschubzeitplan von einer Verkaufsrechnung aus
 
 > [!NOTE]  
 > Die Schritte in diesem Ablauf sind identisch, wie wenn Sie einen Abgrenzungsplan für Ausgaben aus einer Kaufrechnung ändern.
@@ -74,7 +74,7 @@ Beispiel: Das Buchungsdatum ist 02.06.2016. Wenn Sie „Abgrenzungsausgabe für 
 5. Wählen Sie die Aktion **Berechnungsplan** aus.
 6. Wählen Sie die Schaltfläche **OK** aus. Der Aufschubzeitplan wird für die Verkaufsrechnung aktualisiert. Die zugehörige Aufschubvorlage ist unverändert.
 
-## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a>Um anzuzeigen, wie die Abgrenzungsausgaben oder -einnahmen im Fibuposten gebucht werden
+## Um anzuzeigen, wie die Abgrenzungsausgaben oder -einnahmen im Fibuposten gebucht werden
 
 > [!NOTE]  
 > Die Schritte in diesem Ablauf sind die selben, wie Sie in der Vorschau sehen, wie Abgrenzungsausgaben gebucht werden.
@@ -84,7 +84,7 @@ Beispiel: Das Buchungsdatum ist 02.06.2016. Wenn Sie „Abgrenzungsausgabe für 
 
 Fibukonteneinträge, die im entsprechenden Abgrenzungskonto gebucht werden müssen, wie beispielsweise "Nicht verdiente Erträge" werden durch die Beschreibung bezeichnet, die Sie unter **Perioden Beschr.** eingegeben haben. Feld in der Abgrenzungsvorlage beispielsweise "Ausgaben abgegrenzt für Februar 2016".
 
-## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>So überprüfen Sie gebuchte Aufschübe im Bericht „Verkaufsaufschubzusammenfassung” .
+## So überprüfen Sie gebuchte Aufschübe im Bericht „Verkaufsaufschubzusammenfassung” .
 
 > [!NOTE]  
 > Die Schritte in diesem Ablauf sind die selben, wie Sie sie sehen, wenn Sie die Zusammenfassung des Einkaufsabgrenzungsberichts ansehen.
@@ -93,7 +93,7 @@ Fibukonteneinträge, die im entsprechenden Abgrenzungskonto gebucht werden müss
 2. Geben Sie auf der Seite **Verkaufsabgrenzungszusammenfassung** im Feld **Saldo ab** das Datum ein, bis zu welchem Sie abgegrenzte Einnahmen anzeigen möchten.
 3. Klicken Sie auf die Schaltfläche **Vorschau**.
 
-## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>So legen Sie einen Zeitraum fest, in dem die Abgrenzungsbuchung zugelassen werden soll
+## So legen Sie einen Zeitraum fest, in dem die Abgrenzungsbuchung zugelassen werden soll
 
 Sie können einen Zeitraum festlegen, in dem Transaktionen gebucht werden können, indem Sie in den Feldern **Buchung zulassen von** und **Buchung zulassen bis** wie folgt Daten eingeben:
 
@@ -105,13 +105,13 @@ Wenn Sie das getan haben, müssen Sie eine Ausnahme für Abgrenzungen machen, da
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol, geben Sie **Fibuposten Einrichtung** oder **Benutzereinrichtung** ein, und wählen Sie dann den entsprechenden Link.
 2. Geben Sie in die Felder **Abgrenzungsbuchung zulassen von** und **Abgrenzungsbuchung zulassen bis** ein Anfangs- und Enddatum für den Zeitraum ein.
 
-### <a name="video-guidance"></a>Videoanleitung
+### Videoanleitung
 
 Das folgende Video zeigt, wie Sie den Zeitraum festlegen, in dem Sie abgegrenzte Einnahmen und Ausgaben buchen können, und wie Sie Ausnahmen festlegen.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fG6C]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Finanzen](finance.md)  
 [Finance einrichten](finance-setup-finance.md)  

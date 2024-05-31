@@ -9,7 +9,7 @@ ms.date: 06/14/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-cost-adjustment"></a>Designdetails: Kostenregulierung
+# Designdetails: Kostenregulierung
 
 Der vorrangige Zweck der Kostenregulierung besteht darin, Kostenänderungen von Kostenquellen zu Kostenempfängern weiterzuleiten, abhängig von der Kostenbewertungsmethode eines Artikels, um eine korrekte Lagerbewertung zu gewährleisten.  
 
@@ -26,7 +26,7 @@ Die folgenden sind sekundäre Zwecke oder Funktionen der Kostenregulierung.
 
 Bestandskosten müssen reguliert werden, bevor die zugehörigen Wertposten mit der Finanzbuchhaltung abgestimmt werden können. Weitere Informationen finden Sie unter [Designdetails: Abstimmung mit der Fibu](design-details-reconciliation-with-the-general-ledger.md).  
 
-## <a name="detecting-the-adjustment"></a>Erkennen der Regulierung
+## Erkennen der Regulierung
 
 Die Aufgabe zum Erkennen, ob Kostenregulierung auftreten sollte, wird hauptsächlich durch die Routine "Lagerposten – Zeile buchen" ausgeführt, während die Aufgabe zum Berechnen und Generieren von Kostenanpassungeinträgen durch die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** ausgeführt wird.  
 
@@ -36,26 +36,26 @@ Damit Kosten weitergeleitet werden können, bestimmt der Erkennungsmechanismus, 
 * Eingabepunkt Regulierung Durchschnittskosten  
 * Auftragesebene  
 
-### <a name="item-application-entry"></a>Artikelausgleichsposten
+### Artikelausgleichsposten
 
 Diese Entdeckungsfunktion wird für Artikel verwendet wird, die FIFO, LIFO, Standardkosten und bestimmte Bewertungsmethoden verwenden und für Szenarien mit festen Ausgleichen. Die Feldfunktionen funktionieren wie folgt:  
 
 * Kostenregulierung wird erkannt, indem die Herkunftsanlagenposten als *Ausgegl. Posten regul.* markiert werden, wenn ein Lagerposten oder ein Wertposten gebucht wird.  
-* Die Kostenweiterleitung tritt gemäss den Kostenketten auf, die in der Tabelle **Artikelanwendungseintrag** erfasst werden.  
+* Die Kostenweiterleitung tritt gemäß den Kostenketten auf, die in der Tabelle **Artikelanwendungseintrag** erfasst werden.  
 
-### <a name="average-cost-adjustment-entry-point"></a>Eingabepunkt Regulierung Durchschnittskosten
+### Eingabepunkt Regulierung Durchschnittskosten
 
 Diese Entdeckungsfunktion wird für Artikel verwendet, die die Bewertungsmethode "Durchschnitt" verwenden. Die Feldfunktionen funktionieren wie folgt:  
 
 * Kostenregulierung wird erkannt, indem ein Datensatz in der Tabelle **Durchschnittlicher Kostenanpassungs-Einstiegspunkt** markiert wird, sobald ein Wertposten gebucht wird.  
 * Kostenweiterleitung tritt auf, wenn die Kosten auf Wertposten mit einem späteren Bewertungsdatum angewendet werden.  
 
-### <a name="order-level"></a>Auftragesebene
+### Auftragesebene
 
 Diese Entdeckungsfunktion wird in Konvertierungsszenarien, Produktion und Montage verwendet. Die Feldfunktionen funktionieren wie folgt:  
 
 * Kostenregulierung wird erkannt, indem der Auftrag markiert wird, sobald eine Ressource oder ein Werkstoff als verbraucht/verwendet gebucht wird.  
-* Die Kostenweiterleitung entsteht durch Anwenden der Kosten aus dem Werkstoff oder der Ressource auf die Ausstossposten, die mit dem Auftrag verknüpft sind.  
+* Die Kostenweiterleitung entsteht durch Anwenden der Kosten aus dem Werkstoff oder der Ressource auf die Ausstoßposten, die mit dem Auftrag verknüpft sind.  
 
 Die Auftragsebenenfunktion wird verwendet, um Regulierungen bei der Montagebuchung zu erkennen. Die folgende Grafik zeigt die Regulierungspostenstruktur:  
 
@@ -63,40 +63,40 @@ Die Auftragsebenenfunktion wird verwendet, um Regulierungen bei der Montagebuchu
 
 Weitere Informationen finden Sie unter [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md).  
 
-## <a name="manual-versus-automatic-cost-adjustment"></a>Manuelle gegen Automatische Lagerregulierung
+## Manuelle gegen Automatische Lagerregulierung
 
 Die Kostenregulierung kann auf zwei Arten ausgeführt werden:  
 
 * Manuell durch Ausführen der Stapelverarbeitung **Kostenanpassung  Artikelposten** Stapelverarbeitung. Sie können diese Stapelverarbeitung entweder für alle Artikel oder nur für bestimmte Artikel oder Artikelkategorien ausführen. Dieser Stapelauftrag führt eine Kostenregulierung für die Artikel im Lager durch, für die eine eingehende Transaktion, etwa ein Einkauf, erstellt wurde. Für Artikel, die die Kostenberechnungsmethode Durchschnitt verwenden, nimmt die Stapelverarbeitung auch eine Regulierung vor, wenn ausgehende Transaktionen erstellt werden.  
-* Automatisch, indem die Kosten jedes Mal angepasst werden, wenn Sie eine Lagertransaktion buchen, und wenn Sie einen Fertigungsauftrag schliessen. Die Kostenregulierung wird nur für den speziellen Artikel oder die Artikel ausgeführt, die von der Buchung betroffen sind. Dieses ist eingerichtet, wenn Sie das Kontrollkästchen **Automatische Lagerregulierung** auf der Seite **Lager Einrichtung** auswählen.  
+* Automatisch, indem die Kosten jedes Mal angepasst werden, wenn Sie eine Lagertransaktion buchen, und wenn Sie einen Fertigungsauftrag schließen. Die Kostenregulierung wird nur für den speziellen Artikel oder die Artikel ausgeführt, die von der Buchung betroffen sind. Dieses ist eingerichtet, wenn Sie das Kontrollkästchen **Automatische Lagerregulierung** auf der Seite **Lager Einrichtung** auswählen.  
 
 Es ist sinnvoll, die Kostenregulierung automatisch auszuführen, wenn Sie buchen, da Einheitspreise häufiger aktualisiert werden und daher präziser sind. Der Nachteil besteht darin, dass die Leistung der Datenbank beeinflusst werden kann, wenn die Kostenregulierung so oft ausführt wird.  
 
-Da es wichtig ist, den Einstandspreis eines Artikels auf dem neuesten Stand zu halten, wird empfohlen, dass Sie die **Stapelverarbeitung Kosten anpassen** Artikeleinträge so häufig wie möglich ausführen, ausserhalb der Kernarbeitszeiten. Oder verwenden Sie die automatische Kostenregulierung. Dadurch wird gewährleistet, dass der Einstandspreis für Artikel täglich aktualisiert wird.  
+Da es wichtig ist, den Einstandspreis eines Artikels auf dem neuesten Stand zu halten, wird empfohlen, dass Sie die **Stapelverarbeitung Kosten anpassen** Artikeleinträge so häufig wie möglich ausführen, außerhalb der Kernarbeitszeiten. Oder verwenden Sie die automatische Kostenregulierung. Dadurch wird gewährleistet, dass der Einstandspreis für Artikel täglich aktualisiert wird.  
 
 Unabhängig davon, ob Sie die Kostenregulierung manuell oder automatisch erstellt wurde, der Regulierungsvorgang und seine Auswirkungen sind identisch. [!INCLUDE[prod_short](includes/prod_short.md)] berechnet den Wert der eingehenden Transaktion und übergibt diese Kosten an alle ausgehenden Vorgängen, wie Verkaufs- oder Verbrauch, die mit der eingehenden Transaktion ausgeglichen wurden. Die Kostenregulierung erstellt Wertposten, die Ausgleichsbeträge und Beträge enthalten, die die Rundung kompensieren.  
 
 Die neuen Ausgleichs- und Rundungswertposten haben das Buchungsdatum der zugehörigen Rechnung. Ausnahmen sind, wenn die Wertposten in eine geschlossene Buchhaltungsperiode oder Lagerbuchungsperiode fallen, oder wenn das Buchungsdatum vor dem Datum im **Buchen ab zulassen**-Feld auf der Seite **Finanzbuchhaltung einrichten** liegt. Wenn dies auftritt, weist die Stapelverarbeitung das Buchungsdatum als erstes Datum der nächsten offenen Periode zu.  
 
-## <a name="adjust-cost---item-entries-batch-job"></a>Lagerreg. fakt. Einst. Preise (Stapelverarbeitung)
+## Lagerreg. fakt. Einst. Preise (Stapelverarbeitung)
 
 Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge anpassen**, haben Sie die Möglichkeit, den Batchauftrag für alle Artikel oder nur für bestimmte Artikel oder Kategorien zu aktivieren.  
 
 > [!NOTE]  
 > Es ist empfehlenswert, immer die Stapelverarbeitung für alle Artikel ausführen und die Filteroption nur zu verwenden, um die Laufzeit der Stapelverarbeitung zu verringern, oder die Kosten eines bestimmten Artikels zu korrigieren.  
 
-### <a name="example"></a>Beispiel
+### Beispiel
 
 Im folgenden Beispiel wird veranschaulicht, wie Sie einen Artikel als am 01-01-20 empfangen und fakturiert buchen. Sie buchen den verkauften Artikel später als geliefert und am 01-15-20 fakturiert. Anschliessend müssen Sie die Batchaufträge **Einstandspreisregulierung  Artikelposten** und **Lagerregulierung zu GL** ausführen. Die folgenden Einträge werden folgendermassen erzeugt:  
 
-#### <a name="value-entries-1"></a>Wertposten (1)
+#### Wertposten (1) 
 
 |Buch. Datum|Lagerpostenart|Einstandsbetrag (tatsächl.)|Gebuchte Lagerregulierung an G/L|Fakturierte Menge|Laufnr.|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Einkauf|10,00|10,00|1|1|  
 |01-15-20|Verkauf|-10.00|-10.00|-1|2|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1"></a>Relationsposten im Sachkonto – Tabelle Artikelpostenrelation (1)
+#### Relationsposten im Sachkonto – Tabelle Artikelpostenrelation (1)
 
 |Fibuposten Laufnr.|Wertposten Lfd. Nr.|Fibujournalnr.|  
 |-------------|---------------|----------------|  
@@ -105,7 +105,7 @@ Im folgenden Beispiel wird veranschaulicht, wie Sie einen Artikel als am 01-01-2
 |3|2|1|  
 |4|2|1|  
 
-#### <a name="general-ledger-entries-1"></a>Fibuposten (1)
+#### Fibuposten (1)
 
 |Buch. Datum|Fibukonto|Kontonr. (En-US-Demo)|Betrag|Laufnr.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -114,16 +114,16 @@ Im folgenden Beispiel wird veranschaulicht, wie Sie einen Artikel als am 01-01-2
 |01-15-20|[Lagerkonto]|2130|-10.00|3|  
 |01-15-20|[COGS-Konto]|7290|10,00|4|  
 
-Später buchen Sie einen zugehörigen Einkaufsartikelzuschlag für 2,00 MW fakturiert auf 02-10-20. Anschliessend müssen Sie die Batchaufträge **Einstandspreisregulierung Artikelposten** und **Lagerregulierung zu GL buchen** ausführen. Die Stapelverarbeitung zur Kostenregulierung passt die Kosten des Verkaufs entsprechend um -2,00 MW an, und die Stapelverarbeitung **Bestandkosten an Fibu buchen** bucht die neuen Wertposten in die Fibu. Das Ergebnis ist wie folgt definiert:  
+Später buchen Sie einen zugehörigen Einkaufsartikelzuschlag für 2,00 MW fakturiert auf 02-10-20. Anschließend müssen Sie die Batchaufträge **Einstandspreisregulierung Artikelposten** und **Lagerregulierung zu GL buchen** ausführen. Die Stapelverarbeitung zur Kostenregulierung passt die Kosten des Verkaufs entsprechend um -2,00 MW an, und die Stapelverarbeitung **Bestandkosten an Fibu buchen** bucht die neuen Wertposten in die Fibu. Das Ergebnis ist wie folgt definiert:  
 
-#### <a name="value-entries-2"></a>Wertposten (2)
+#### Wertposten (2)  
 
 |Buch. Datum|Lagerpostenart|Einstandsbetrag (tatsächl.)|Gebuchte Lagerregulierung an G/L|Fakturierte Menge|Ausgleich|Laufnr.|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |02-10-20|Einkauf|2.00|2.00|0|Nein|3|  
 |01-15-20|Verkauf|-2.00|-2.00|0|Ja|4|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2"></a>Relationsposten im Sachkonto – Tabelle Artikelpostenrelation (2)
+#### Relationsposten im Sachkonto – Tabelle Artikelpostenrelation (2)
 
 |Fibuposten Laufnr.|Wertposten Lfd. Nr.|Fibujournalnr.|  
 |-------------|---------------|----------------|  
@@ -132,7 +132,7 @@ Später buchen Sie einen zugehörigen Einkaufsartikelzuschlag für 2,00 MW faktu
 |7|4|2|  
 |8|4|2|  
 
-#### <a name="general-ledger-entries-2"></a>Fibuposten (2)
+#### Fibuposten (2)
 
 |Buch. Datum|Fibukonto|Kontonr. (En-US-Demo)|Betrag|Laufnr.|  
 |------------|-----------|------------------------|------|---------|  
@@ -141,7 +141,7 @@ Später buchen Sie einen zugehörigen Einkaufsartikelzuschlag für 2,00 MW faktu
 |01-15-20|[Lagerkonto]|2130|-2.00|7|  
 |01-15-20|[COGS-Konto]|7290|2.00|8|  
 
-## <a name="automatic-cost-adjustment"></a>Automatische Kostenregulierung
+## Automatische Kostenregulierung
 
 Um einzurichten, dass Kostenregulierung automatisch ausgeführt wird, wenn Sie eine Lagertransaktion buchen, verwenden Sie das Feld **Automatische Kostenanpassung** auf der Seite **Bestand-Einrichtugn**. Dieses Feld ermöglicht Ihnen, auszuwählen, wie weit zurück vom aktuellen Arbeitsdatum die automatische Lagerregulierung ausgeführt werden soll. Folgende Optionen sind verfügbar.  
 
@@ -157,7 +157,7 @@ Um einzurichten, dass Kostenregulierung automatisch ausgeführt wird, wenn Sie e
 
 Die Auswahl, die Sie im Feld **Automatische Kostenanpassung** vornehmen, ist wichtig für die Leistung und die Korrektheit Ihrer Kosten. Kürzere Perioden, wie etwa **Tag** oder **Woche**, beeinflussen die Systemleistung weniger, da sie die strengere Anforderung haben, dass nur am letzten tag oder in der letzten Woche gebuchte Kosten automatisch reguliert werden können. Dies bedeutet, dass die automatische Kostenregulierung nicht so häufig ausgeführt wird und daher die Systemleistung weniger beeinträchtigt wird. Dies bedeutet jedoch auch, dass Einheitspreise möglicherweise weniger genau sind.  
 
-### <a name="example-1"></a>Beispiel
+### Beispiel
 
 Das folgende Beispiel zeigt ein automatisches Kostenbewertungsszenario:  
 
@@ -169,7 +169,7 @@ Wenn Sie die automatische Kostenregulierung so eingerichtet haben, dass Buchunge
 
 Wenn Sie die automatische Kostenregulierung so eingerichtet haben, dass Buchungen angewendet werden, die innerhalb eines Tages oder einer Woche ab dem aktuellen Arbeitstag angewendet werden, wird die automatische Kostenregulierung nicht ausgeführt, und die Kosten des Einkaufs werden nicht an den Verkauf weitergeleitet, bis Sie die Stapelverarbeitung **Kosten anpassen Artikeleinträge**ausführen.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Artikelpreise justieren](inventory-how-adjust-item-costs.md)  
 [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)  

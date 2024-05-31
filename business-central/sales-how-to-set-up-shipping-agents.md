@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-shipping-agents"></a>Zusteller einrichten
+# Zusteller einrichten
 Sie können einen Code für jeden Spediteur anlegen und Informationen dazu eingeben.  
 
 Wenn Sie eine Internetadresse des Spediteurs eingeben und der Spediteur die Paketverfolgung im Internet anbietet, können Sie die Funktion zur automatischen Paketverfolgung nutzen. Weitere Informationen finden Sie unter [Pakete nachverfolgen](sales-how-track-packages.md)
@@ -19,7 +19,7 @@ Für jeden Spediteur können Sie eine unbegrenzte Anzahl von Transportarten anle
 
 Wenn Sie einer Verkaufsauftragszeile eine Spediteurtransportart zugeordnet haben, wird die Transportzeit für diese Zeile in den Lieferterminzusagen berücksichtigt. Weitere Informationen finden Sie unter [Berechnen von Lieferterminzusagen](sales-how-to-calculate-order-promising-dates.md).
 
-## <a name="to-set-up-a-shipping-agent"></a>So richten Sie einen Spediteur ein
+## So richten Sie einen Spediteur ein  
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Versand-Zusteller** ein und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Wählen Sie die Aktion **Spediteurtransportarten**.
@@ -28,7 +28,7 @@ Wenn Sie einer Verkaufsauftragszeile eine Spediteurtransportart zugeordnet haben
 > [!NOTE]  
 >  Wenn Sie den Spediteur in der Auftragszeile löschen, wird auch der Spediteur Transportartcode gelöscht. Der Inhalt der Felder, die zum Teil auf der Spediteurtransportart basierten, wird neu berechnet.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 [Lieferbedingungen einrichten](sales-how-set-up-shipment-methods.md)  
 [Pakete verfolgen](sales-how-track-packages.md)    
 [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)

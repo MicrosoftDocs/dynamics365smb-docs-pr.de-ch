@@ -9,7 +9,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-assembly-order-posting"></a>Designdetails: Montageauftragsbuchung
+# Designdetails: Montageauftragsbuchung
 Die Montageauftragsbuchung basiert auf demselben Prinzip wie das Buchen ähnlicher Aktivitäten von Verkaufsaufträgen und von Produktionsverbrauch/-aushabe. Die Prinzipien werden jedoch insofern kombiniert, als Montageaufträge ihre eigene Buchungsbenutzeroberfläche, wie für Verkaufsaufträge, haben, während die tatsächliche Postenbuchung im Hintergrund als direkte Artikel- und Ressourcen Erf.-Journalbuchung, wie für den Fertigungsverbrauch, Ausgabe und Kapazität geschieht.  
 
 Ähnlich wie bei der Fertigungsauftragsbuchung werden die verbrauchten Komponenten und die verwendeten Ressourcen konvertiert und als Montageartikel ausgegeben, wenn der Montageauftrag gebucht wird. Weitere Informationen finden Sie unter [Designdetails: Produktionsauftragsbuchung](design-details-production-order-posting.md). Der Kostenfluss für Montageaufträge ist jedoch weniger Komplex, insbesondere da die Buchung der Montagekosten nur einmal geschieht und daher keinen WIP-Bestand generiert.  
@@ -32,7 +32,7 @@ Die folgenden Diagramm zeigt, wie Montagedaten bei der Buchung in Buchungsposten
 
 ![Montagebezogener Entry Flow bei der Buchung.](media/design_details_assembly_posting_2.png "Montagebezogener Eintragsfluss beim Buchen")  
 
-## <a name="posting-sequence"></a>Buchen der Sequenz
+## Buchen der Sequenz  
 Die Buchung eines Montageauftrags erfolgt in der folgenden Reihenfolge:  
 
 1.  Die Montageauftragszeilen werden gebucht.  
@@ -46,24 +46,24 @@ In der folgenden Tabelle wird die Aktionsfolge illustriert.
 |Buchung|<ol><li>Erstellen Sie den gebuchten Montageauftragskopf.</li><li>Kommentarzeilen kopieren.</li><li>Beitragsmontageauftragszeilen (Verbrauch):<br /><br /> <ol><li>Erstellen Sie ein Statusfenster, um den Montageverbrauch zu berechnen.</li><li>Erhalten Sie die Restmenge, auf der die Artikel Erf.-Journalzeile basiert.</li><li>Setzen Sie die verbrauchten und die verbleibenden Mengen zurück.</li><li>Für Montageauftragszeilen des Typs Artikel:<br /><br /> <ol><li>Füllen Sie die Felder in der Erf.-Journalzeile aus.</li><li>Übertragen Sie Reservierungen die Artikel Erf.-Journalzeile.</li><li>Buchen Sie die Artikel Erf.-Journalzeilen, um die Lagerposten zu erstellen.</li><li>Erstellen Sie Logistik Buch.-Blattzeilen, und buchen Sie sie.</li></ol></li><li>Für Montageauftragszeilen des Typs Ressource:<br /><br /> <ol><li>Füllen Sie die Felder in der Erf.-Journalzeile aus.</li><li>Buchen des Artikels Erf.-Journalzeile. Dies erstellt Kapazitätsposten.</li><li>Erstellen und buchen Sie Ressourcen-Erf.-Journalzeilen.</li></ol></li><li>Übertragen Sie Feldwerte aus der Montageauftragszeile in eine neu erstellte gebuchte Montageauftragszeile.</li></ol></li><li>Buchen Sie den Montageauftragskop (Ausgang):<br /><br /> <ol><li>Füllen Sie die Felder in der Erf.-Journalzeile aus.</li><li>Übertragen Sie Reservierungen die Artikel Erf.-Journalzeile.</li><li>Buchen Sie die Artikel Erf.-Journalzeilen, um die Lagerposten zu erstellen.</li><li>Erstellen Sie Logistik Buch.-Blattzeilen, und buchen Sie sie.</li><li>Setzen Sie die Montagemengen und die verbleibenden Mengen zurück.</li></ol></li></ol>|  
 
 > [!IMPORTANT]  
->  Anders als für fertiggestellte Artikel, die zu den Soll-Kosten gebucht werden, wird Montageausstoss zu den Ist-Kosten gebucht.  
+>  Anders als für fertiggestellte Artikel, die zu den Soll-Kosten gebucht werden, wird Montageausstoß zu den Ist-Kosten gebucht.  
 
-## <a name="cost-adjustment"></a>Regulierung Kosten
+## Regulierung Kosten  
  Sobald ein Montageauftrag gebucht wird, in der Bedeutung, dass Komponenten (Material) und Ressourcen in einen neuen Artikel montiert werden, soll die Bestimmung der Ist-Kosten dieses Montageartikels und die Kosten des aktuellen Lagerstatus der betroffenen Komponenten möglich sein. Dies wird durch Weiterleitung von Kosten von den gebuchten Posten der Quelle (den Komponenten und Ressourcen) an die gebuchten Posten des Ziels (die Montageartikel) erreicht. Die Weiterleitung der Kosten wird ausgeführt, indem neue Posten berechnet und generiert werden; diese werden als Regulierungsposten bezeichnet und den Zielposten zugeordnet.  
 
  Die weiterzuleitenden Montagekosten werden mithilfe des Auftragsebenenerkennungsmechanismus erkannt. Informationen über andere Ausgleichserkennungsmechanismen, siehe [Designdetails: Kostenanpassung](design-details-cost-adjustment.md)  
 
-### <a name="detecting-the-adjustment"></a>Erkennen der Regulierung
+### Erkennen der Regulierung  
 Die Entdeckungsfunktion auf Auftragsebene wird in Konvertierungsszenarien, der Produktion und bei der Montage verwendet. Die Feldfunktionen funktionieren wie folgt:  
 
 -   Kostenregulierung wird erkannt, indem der Auftrag markiert wird, sobald eine Ressource oder ein Werkstoff als verbraucht/verwendet gebucht wird.  
--   Die Kostenweiterleitung entsteht durch Anwenden der Kosten aus dem Werkstoff oder der Ressource auf die Ausstossposten, die mit dem Auftrag verknüpft sind.  
+-   Die Kostenweiterleitung entsteht durch Anwenden der Kosten aus dem Werkstoff oder der Ressource auf die Ausstoßposten, die mit dem Auftrag verknüpft sind.  
 
 Die folgende Grafik zeigt die Regulierungspostenstruktur und die Regulierung der Montagekosten.  
 
 ![Montagebezogener Entry Flow bei der Kalkulation.](media/design_details_assembly_posting_3.png "Montagebezogener Eintragsfluss beim Buchen")  
 
-### <a name="performing-the-adjustment"></a>Preiskorrektur durchführen
+### Preiskorrektur durchführen  
 Die Verteilung erkannter Regulierungen von Material- und Ressourcenkosten zu den Montageausgabeposten geschieht durch die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise**. Enthält die Funktion „Mehrstufiger Ausgleich“, die aus den folgenden zwei Elementen besteht:  
 
 -   Nehmen Sie einen Montageauftrags-Ausgleich vor, welcher die Kosten aus dem Material- und Ressourcenverbrauch an den Montageausgangsposten weiterleitet. Zeilen 5 und 6 im nachstehenden Algorithmus sind dafür zuständig.  
@@ -76,7 +76,7 @@ Die Verteilung erkannter Regulierungen von Material- und Ressourcenkosten zu den
 
 Weitere Informationen darüber, wie Kosten aus der Montage und aus der Produktion in die Fibu gebucht werden, finden Sie unter [Designdetails: Bestandesbuchung](design-details-inventory-posting.md).  
 
-## <a name="assembly-costs-are-always-actual"></a>Montagekosten sind immer Ist-Kosten
+## Montagekosten sind immer Ist-Kosten  
  Das Umlaufbestand- (WIP) Konzept gilt nicht in der Montageauftragsbuchung. Montagekosten werden nur als Ist-Kosten gebucht, nie als erwartete Kosten. Weitere Informationen finden Sie unter [Designdetails: Erwartete Kostenbuchung](design-details-expected-cost-posting.md).  
 
 Dies wird durch die folgende Datenstruktur ausgeführt.  
@@ -84,7 +84,7 @@ Dies wird durch die folgende Datenstruktur ausgeführt.
 -   Im Feld **Art** der Artikel Buch.-Blattzeilen in den Tabellen **Kapazitätsposten** und **Wertposten** Tabellen, wird *Ressource* verwendet, um Montageressourcenposten zu identifizieren.  
 -   Im Feld **Lagerpostenart** der Artikel Erf.-Journalzeilen, in den Tabellen **Kapazitätsposten** und **Wertposten** Tabellen, werden *Montageausgabe* und *Montageverbrauch* verwendet, um die AusgabemontageLagerposten und verbrauchte Montagekomponentenposten zu identifizieren.  
 
-Darüber hinaus werden Produktbuchungsgruppen im Montageauftragskopf und in den Montageauftragszeilen standardmässig wie folgt ausgefüllt.  
+Darüber hinaus werden Produktbuchungsgruppen im Montageauftragskopf und in den Montageauftragszeilen standardmäßig wie folgt ausgefüllt.  
 
 |Einheit|Typ|Buchungsgruppe|Gen. Produktbuchungsgruppe|  
 |------------|----------|-------------------|------------------------------|  
@@ -94,21 +94,21 @@ Darüber hinaus werden Produktbuchungsgruppen im Montageauftragskopf und in den 
 
 Entsprechend werden nur Ist-Kosten in der Finanzbuchhaltung gebucht, und keine Interimskonten werden aus der Montageauftragsbuchung eingegeben. Weitere Informationen finden Sie unter [Designdetails: Konten in der Fibu](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="assemble-to-order"></a>Auftragsmontage
+## Auftragsmontage  
 Der Lagerposten, der aus der Buchung eines Auftragsmontageverkaufs resultiert, wurde für den entsprechenden Lagerposten für die Montageausgabe fest angewendet. Entsprechend werden die Kosten eines Auftragsmontageverkaufs aus dem Montageauftrag abgeleitet, mit dem er verknüpft wurde.  
 
 Lagerposten des Typs Verkauf, die aus dem Buchen von Auftragsmontagemengen resultieren, werden mit **Ja** im Feld **Auftragsmontage** markiert.  
 
 Das Buchen von Verkaufsauftragszeilen, bei denen ein Teil eine Lagermenge und ein anderer Teil eine Auftragsmontagemenge darstellt, führt zu separaten Lagerposten, einer für die Lagermenge und einer für die Auftragsmontagemenge.  
 
-### <a name="posting-dates"></a>Buchungsdaten
+### Buchungsdaten
 
 Allgemein werden die Buchungsdaten aus einem Verkaufsauftrag in den verknüpften Montage-Auftrag kopiert. Das Buchungsdatum im Montageauftrag wird automatisch aktualisiert, wenn Sie das Buchungsdatum im Verkaufsauftrag direkt oder indirekt ändern, z.B. wenn Sie das Buchungsdatum in der Lagerverladung, der Lagerkommissionierung oder als Teil einer Massenbuchung ändern.
 
 Sie können das Buchungsdatum im Montage-Auftrag manuell ändern. Es kann jedoch nicht später sein als das Buchungsdatum im verknüpften Verkaufsauftrag. Das System behält dieses Datum bei, es sei denn, Sie aktualisieren das Buchungsdatum im Kundenauftrag.
 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
  [Designdetails: Fertigungsauftragsbuchung](design-details-production-order-posting.md)   
  [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  

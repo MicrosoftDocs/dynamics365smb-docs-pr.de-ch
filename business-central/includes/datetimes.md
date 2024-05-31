@@ -19,7 +19,7 @@ In der folgenden Tabelle finden Sie eine Übersicht über die Möglichkeiten zum
 |1.12.22 5|01-12-22 05:00:00|
 |1.12.22|01-12-22 00:00:00|
 |11 12|11.aktueller Monat.aktuelles Jahr 12:00:00|
-|1112 12|11.12.aktuelles Jahr 12:00:00|
+|1112 12|11-12-aktuelles Jahr 12:00:00|
 |h für heute|heutiges Datum 00:00:00|
 |t Zeit|heutiges Datum aktuelle Zeit|
 |h 10:30|heutiges Datum 10:30:00|

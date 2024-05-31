@@ -9,7 +9,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-planning-assignment-table"></a>Designdetails: Planungs-Zuordnungstabelle
+# Designdetails: Planungs-Zuordnungstabelle
 Alle Artikel sollten eingeplant werden, es gibt jedoch keinen Grund, einen Plan für einen Artikel zu berechnen, es sei denn, es gab eine Änderung im Bedarfs- oder Vorratsmuster seit der letzten Berechnung des Plans.  
 
 Wenn der Benutzer einen neuen Verkaufsauftrag eingegeben oder einen vorhandenen geändert hat, gibt es Gründe zur Neuberechnung des Plans. Andere Ursachen beinhalten eine Änderung in der Planung oder im gewünschten Sicherheitsbestand. Das Ändern einer Stückliste durch Hinzufügen oder Entfernen einer Komponente führt wahrscheinlich zur Anzeige einer Änderung, jedoch nur für den Komponentenartikel.  
@@ -18,13 +18,13 @@ Für mehrere Lagerorte findet die Zuweisung auf Artikelebene pro Lagerortkombina
 
 Der Grund für die Auswahl von Artikeln für die Planung hat mit der Systemleistung zu tun. Wenn keine Änderung des Bedarf-Vorrat-Musters eines Artikels eingetreten ist, schlägt das Planungssystem keine Aktionen vor. Ohne die Planungs-Zuweisung müsste das System die Berechnungen für alle Artikel ausführen, um herauszufinden, was zu planen ist, wodurch die Systemressourcen belastet würden.  
 
-Die Tabelle **Planungszuweisung** überwacht Bedarf und Vorrat und ordnet die entsprechenden Artikel für die Planung zu. Die folgenden Ereignisse werden überwacht:  
+Die Tabelle **Planning Assignment** überwacht Bedarf und Vorrat und ordnet die entsprechenden Artikel für die Planung zu. Die folgenden Ereignisse werden überwacht:  
 
 * Ein neuer Verkaufsauftrag, eine Planung, eine Komponente, eine Bestellung, ein Fertigungsauftrag, ein Montageauftrag oder ein Umlagerungsauftrag.  
 * Änderung von Artikel, Menge, Lagerort, Variante oder Datum auf einem Verkaufsauftrag, Plan, einer Komponente, einem Einkaufsauftrag, einem Produktionsauftrag, einem Montageauftrag oder einem Umlagerungsauftrag.  
 * Stornierung eines Verkaufsauftrags, einer Planung, einer Komponente, einer Bestellung, eines Fertigungsauftrags, eines Montageauftrags oder eines Umlagerungsauftrags.  
-* Verbrauch von Artikeln ausserhalb der Planung.  
-* Istmeldungen von Artikeln ausserhalb der Planung.  
+* Verbrauch von Artikeln außerhalb der Planung.  
+* Istmeldungen von Artikeln außerhalb der Planung.  
 * Ungeplante Bestandänderungen.  
 
 Für diese direkten Vorrat-Bedarf-Verschiebungen wahrt das Auftragstracking- und Aktionsmeldungssystem die Planungs-Zuordnungstabelle und gibt einen Planungsgrund als Aktionsmeldung aus.  
@@ -54,7 +54,7 @@ Wenn sie eine Prod.-Programmplanung oder einen Nettobedarf berechnen, gelten die
 * Prod.-Programmplanung: Die Planungssystemprüfungen prüft, ob der Artikel eine Absatzplanung oder einen Verkaufsauftrag führt. Wenn nicht, ist der Artikel nicht im Plan enthalten.  
 * Nettobedarf: Wenn das Planungssystem erkennt, dass der Artikel durch eine Prod.-Programmplanungs-Planungszeile oder einen Prod.-Programmplanungs-Beschaffungsauftrag aufgefüllt wird, wird der Artikel aus der Planung genommen. Jedoch ist jeder Bedarf aus den entsprechenden Komponenten enthalten.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)   
 [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
 [Designdetails: Umlagerungen in Planung](design-details-transfers-in-planning.md)   

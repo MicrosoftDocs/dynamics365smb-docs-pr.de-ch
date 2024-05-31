@@ -10,14 +10,14 @@ ms.date: 12/20/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analysieren von Cashflow in Ihren Mandanten
+# Analysieren von Cashflow in Ihren Mandanten
 Die Diagramme im Buchhalter-Rollencenter liefern Einblicke, die Ihnen dabei helfen, fundierte Entscheidungen in Bezug auf die Verwendung Ihres Bargelds zu treffen.  
 
 | Um Fragen wie diese zu beantworten | Verwenden Sie dieses Chart |
 | --- | --- |
 | Wie lange bindet der Verkaufsvorgang meine Barmittel?</br> Sollte ich den Bestand erhöhen oder verringern? |Bargeldumlauf |
 | Wann floss Bargeld in mein Unternehmen und zurück?</br> Sind bestimmten Perioden besser als andere? |Cashflow |
-| Sind die Zahlen für eine Periode ausserhalb des Musters?</br> Sollte ich dies überprüfen? |Einnahmen und Ausgaben |
+| Sind die Zahlen für eine Periode außerhalb des Musters?</br> Sollte ich dies überprüfen? |Einnahmen und Ausgaben |
 | Wann könnte ein Bargeldüberschuss oder ein Bargelddefizit auftreten?</br> Sollten ich die Schuld abzahlen oder Geld ausleihen, um bevorstehende Ausgaben zu bezahlen? |Cashflowplanungen |
 
 Im Feld Rollencenter Buchhalte unter **Finanzleistung** geben die Diagramme **Bargeldumlauf**, **Cashflow** und **Einnahmen und Ausgaben** verschiedene Möglichkeiten, den Cashflow zu analysieren:  
@@ -35,13 +35,13 @@ Wenn Sie die Planung, zusätzlich zu den Absatzplanungsposten prüfen möchten, 
 * Subtrahiert Verbindlichkeiten und fügt Forderungen hinzu.  
 * Überspringt duplizierte Verkaufsaufträge und Bestellungen.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a>Cashflowvorschlagszeile anzeigen
+## Cashflowvorschlagszeile anzeigen
 
 1. Suchen Sie nach **Cashflow-Planungen** und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie eine Cashflowplanung, und wählen die **Cashflowvorschlag** Aktion aus.  
 3. Auf der Seite **Cashflow Arbeitsblatt** wählen Sie die Aktion **Vorgeschlagene Arbeitsblattpositionen** aus.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Finance einrichten](finance-setup-finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -9,14 +9,14 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="print-vendor-payments-list-reports-in-the-swiss-version"></a>Drucken des Berichts "Kreditorenzahlungen - Liste" in der Schweizer Version
+# Drucken des Berichts "Kreditorenzahlungen - Liste" in der Schweizer Version
 
 Die Liste **Kreditorenzahlungen** zeigt eine Liste von Zahlungen für jeden Kreditor an. Der Bericht kann Zahlungen chronologisch oder nach Kreditor gruppiert sortieren.  
 
 > [!NOTE]
 > Der Bericht **Liste für Kreditorenzahlungen** ist auf den folgenden Märkten verfügbar: Österreich, Deutschland, Schweiz.
 
-## <a name="to-print-the-vendor-payments-list-report"></a>So drucken Sie den Bericht "Kreditorenzahlungen - Liste"
+## So drucken Sie den Bericht "Kreditorenzahlungen - Liste"  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Kreditorenzahlungen - Liste** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Füllen Sie auf dem Inforegister **Optionen** die Felder wie in der folgenden Tabelle beschrieben aus.  
@@ -28,7 +28,7 @@ Die Liste **Kreditorenzahlungen** zeigt eine Liste von Zahlungen für jeden Kred
 
  Am Ende des Berichts wird die Anzahl der verarbeiteten Zahlungen angezeigt.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Zahlungen vornehmen](../../payables-make-payments.md)
 

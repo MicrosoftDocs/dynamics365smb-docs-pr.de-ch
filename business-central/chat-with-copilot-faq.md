@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: conceptual
 ms.collection:
   - bap-ai-copilot
-ms.date: 02/27/2024
+ms.date: 05/17/2024
 ms.custom: bap-template jswymer
 ---
 # Häufig gestellte Fragen zum Chat mit Copilot
@@ -59,13 +59,25 @@ In der Vorschauversion können der Chatbereich und die Antworten von Copilot üb
 
 ## Findet Copilot Daten in anderen Unternehmen oder Umgebungen?
 
-Selbst wenn Ihre Organisation mehrere Umgebungen oder Unternehmen zur Trennung von Daten verwendet, sucht Copilot nur nach Datensätzen in dem Unternehmen, bei dem Sie aktuell angemeldet sind.
+Copilot sucht nur nach Datensätzen in dem Unternehmen, bei dem Sie aktuell angemeldet sind,&mdash; auch wenn Ihre Organisation mehrere Umgebungen oder Unternehmen verwendet, um Daten zu trennen.
 
 ## Der Copilot-Chatbereich wird nicht angezeigt. Was kann ich tun?
 
-Überprüfen Sie, ob Ihre Benutzersprache unter „Meine Einstellungen“ auf Englisch eingestellt ist und ob Ihre Umgebungsversion 24.0 oder höher ist. Stellen Sie auf der Seite „Copilot und KI-Funktionen“ sicher, dass Ihre Administrierenden die Zustimmung zur Datenverwendung über geografische Grenzen hinweg sowie den Chat aktiviert haben. Stellen Sie sicher, dass die Lokalisierung Ihrer Umgebung nicht Kanada ist.
+Überprüfen Sie, ob Ihre Benutzersprache unter „Meine Einstellungen“ auf Englisch eingestellt ist und ob Ihre Umgebungsversion 24.0 oder höher ist. Stellen Sie auf der Seite „Copilot und KI-Funktionen“ sicher, dass Ihre Administrierenden die Zustimmung zur Datenverwendung über geografische Grenzen hinweg sowie den Chat aktiviert haben. Stellen Sie sicher, dass Ihre Umgebungslokalisierung nicht Kanada ist.
 
-Wenn das Feature „Chat mit Copilot“ immer noch nicht angezeigt wird, hat Microsoft es in Ihrer Region vielleicht noch nicht fertig eingeführt. Copilot wird zunächst im April 2024 für Kundschaft in den USA eingeführt und über mehrere Wochen hinweg in anderen Länderlokalisierungen eingeführt.
+Wenn die Funktion „Chat mit Copilot“ immer noch nicht angezeigt wird, besteht die Möglichkeit, dass Microsoft diese Funktion in Ihrer Region noch einführt. Copilot wird im April 2024 zunächst für US-Kunden und dann im Laufe der Wochen auch in anderen Ländern/Regionen eingeführt.
+
+## Warum zeigt Copilot im Chat-Bereich nur drei Datensätze an?
+
+Wenn Sie Copilot auffordern, Datensätze abzurufen, bestimmt die Art und Weise, wie Sie die Frage formulieren, wie Copilot Seiten identifiziert und Filter anwendet, um das Gesuchte zu finden. Um die Antworten kompakt und prägnant zu halten, werden im Chat-Bereich maximal drei Datensatzkacheln angezeigt, selbst wenn Copilot eine größere Anzahl relevanter Datensätze findet.
+
+## Copilot gibt falsche Antworten auf Summen und andere Berechnungen zurück
+
+In der Vorschau kann Chat mit Copilot Datensätze suchen, Konzepte erklären und Sie durch die Erledigung von Aufgaben in Business Central führen. Andere Anwendungsfälle werden nicht unterstützt, wie etwa das Addieren eines Felds über mehrere Datensätze hinweg oder das Berechnen des durchschnittlichen Monatsbetrags. Wir hoffen, Copilot in Zukunft um grundlegende Mathematikkenntnisse erweitern zu können.
+
+## Kann ich meine Eingabeaufforderungen per Sprache statt per Eingabe eingeben?
+
+Sie können mit Copilot chatten, indem Sie zum Sprechen die Spracherkennung verwenden, anstatt Ihre Wörter in den Chat-Bereich einzugeben. Die Spracherkennung nutzt die Online-Spracherkennung und ist unter Windows verfügbar. Um die Sprache zu verwenden, aktivieren Sie das Chat-Nachrichtenfeld, verwenden Sie dann die Tastenkombination  <kbd>Windows</kbd>+<kbd>H</kbd>  und beginnen Sie zu sprechen. Weitere Informationen finden Sie unter [Verwenden der Spracherkennung, um auf Ihrem PC zu sprechen, anstatt zu tippen](https://support.microsoft.com/windows/use-voice-typing-to-talk-instead-of-type-on-your-pc-fec94565-c4bd-329d-e59a-af033fa5689f).
 
 ## Nächste Schritte
 

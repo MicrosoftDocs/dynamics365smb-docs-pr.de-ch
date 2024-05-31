@@ -9,13 +9,13 @@ ms.date: 06/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="incoming-documents"></a>Eingehende Belege
+# Eingehende Belege
 
 Externe Geschäftsbelege können als E-Mail-Anhang oder als Papierkopie, die Sie zur Ablage einscannen, in Ihre Firma kommen. Dieses Szenario ist typisch für Einkäufe, bei denen solche eingehenden Dokumentdateien Zahlungsbelege für Ausgaben oder kleine Einkäufe darstellen.
 
 Auf der Seite **Eingehende Belege** können Sie verschiedene Funktionen zum Überprüfen von Ausgabenbelegen, Verwalten von OCR-Aufgaben und Konvertieren eingehender Belege, manuell oder automatisch, in den entsprechenden Belegen oder Erfassungsjournalzeilen verwenden. Die externen Dateien können jeder Prozessphase zugeordnet werden, auch gebuchten Belegen und den resultierenden Kreditoren-, Debitoren- und Fibuposten.
 
-## <a name="usage-scenario"></a>Anwendungsszenario
+## Anwendungsszenario
 
 Sie können Dateien oder Papierkopien, die Sie von Ihren Handelspartnern erhalten haben, in [!INCLUDE[prod_short](includes/prod_short.md)] registrieren und einen Datensatz für ein Dokument erstellen. Zum Beispiel eine Einkaufs- oder Verkaufsrechnung, eine Gutschrift oder eine Erfassungsjournalzeile.
 
@@ -29,7 +29,7 @@ Wenn Sie beispielsweise eine Rechnung in PDF-Format von Ihrem Kreditor erhalten,
 > [!TIP]
 > Erstellen Sie Datensätze für eingehende Dokumente in [!INCLUDE[prod_short](includes/prod_short.md)] direkt aus den von den Lieferanten gesendeten E-Mails mit Hilfe des Outlook Add-Ins. Weitere Informationen finden Sie unter [Benutzen Sie Business Central als Ihren Posteingang in Outlook](work-outlook-addin.md).
 
-## <a name="incoming-document-features"></a>Funktionen für Eingehende Belege
+## Funktionen für Eingehende Belege
 
 Die Verarbeitung von Eingangsbelegen kann aus den folgenden Hauptaktivitäten bestehen:
 
@@ -41,7 +41,7 @@ Die Verarbeitung von Eingangsbelegen kann aus den folgenden Hauptaktivitäten be
   * Automatisch, indem Sie das Dokument vom OCR-Dienst als elektronischen Beleg erhalten, nachdem Sie die zugehörige PDF- oder Bilddatei hochgeladen oder per E-Mail an einen OCR-Dienst gesendet haben. Das Inforegister **Finanzinformationen** wird automatisch auf der Seite **Eingehender Beleg** ausgefüllt.
 * Verwenden Sie einen externen OCR-Dienst, um PDF- oder Bilddateien in elektronische Belege umzuwandeln, die in Datensätze in [!INCLUDE[prod_short](includes/prod_short.md)] umgewandelt werden können.
 * Erstellen Sie neue Belege oder eine Fibu Buch.-Blattzeilen aus einem eingehenden Belegdatensatz, indem sie die Informationen so eingeben, wie sie in den eingehenden Belegen stehen.
-* Fügen Sie eingehender Belege zu Einkaufs- und Verkaufsbelegen jeden möglichen Status hinzu, einschliesslich der resultierenden Kreditor, Debitor- und Fibuposten, die aus dem Buchen resultieren.
+* Fügen Sie eingehender Belege zu Einkaufs- und Verkaufsbelegen jeden möglichen Status hinzu, einschließlich der resultierenden Kreditor, Debitor- und Fibuposten, die aus dem Buchen resultieren.
 * Zeigen Sie eingehenden Belege und deren Anhänge aus Einkaufs- und Verkaufsbelegen oder Posten an, oder finden Sie alle Fibuposten ohne eingehende Belege auf der Seite **Kontenplan**.
 
 > [!NOTE]
@@ -56,7 +56,7 @@ Die Verarbeitung von Eingangsbelegen kann aus den folgenden Hauptaktivitäten be
 | Auf den Seiten **Kontenplan** und **Hauptbucheinträge** können Sie mit Hilfe einer Suchfunktion Fibuposten für gebuchte Belege suchen, für die es keine Datensätze für eingehende Belege gibt, und diese dann zentral mit bestehenden Datensätzen verknüpfen oder neue Datensätze mit angehängten Belegdateien erstellen. |[So finden Sie gebuchte Belege ohne zugehörige eingehende Belege](across-how-find-posted-documents-without-income-document-records.md) |
 | Verschaffen Sie sich einen besseren Überblick, indem Sie die Datensätze für eingehende Dokumente auf *Verarbeitet* festlegen und aus der Standardansicht entfernen. |[Mehrere eingehende Belegdatensätze verwalten](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Einkauf](purchasing-manage-purchasing.md)  
 [Bearbeiten von geposteten Belegen](across-edit-posted-document.md)  

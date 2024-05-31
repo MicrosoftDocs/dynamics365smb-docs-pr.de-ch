@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 04/16/2024
+ms.date: 05/17/2024
 ms.custom: bap-template
 ---
 
@@ -43,6 +43,10 @@ Copilot umfasst einen ständig wachsenden Satz an Features, die Benutzende in ve
 ## Erkennt Copilot meine Umgebungsanpassungen?
 
 Einige, aber nicht alle Copilot-Features können mit Ihren benutzerdefinierten Seiten und Tabellen verwendet werden. Sie können beispielsweise die [Analyseunterstützung](analysis-assist.md) auf Ihren benutzerdefinierten Listen verwenden oder [mit Copilot chatten](chat-with-copilot.md), um Datensätze in benutzerdefinierten Tabellen zu finden. Weitere Informationen dazu, welche Copilot-Features mit Anpassungen funktionieren, finden Sie in den Artikeln zu den einzelnen Features.
+
+## Muss Copilot anhand meiner Daten geschult werden?
+
+Copilot in Business Central basiert auf leistungsstarken KI-Grundlagenmodellen gepaart mit Datenverwaltungsfunktionen der Business Central-Plattform. Für die Nutzung von Copilot mit Ihren eigenen Unternehmensdaten ist in Ihrem Unternehmen keine teure oder zeitaufwändige Schulung erforderlich.
 
 ## Kann ich meine eigenen Copiloten für Business Central entwickeln?
 
