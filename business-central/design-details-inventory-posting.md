@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Designdetails: Bestandsbuchung
+# <a name="design-details-inventory-posting"></a>Designdetails: Bestandsbuchung
 
 Jede Bestandstransaktion, wie etwa eine Einkaufslieferung oder eine Verkaufslieferung, bucht zwei Posten unterschiedlichen Typs.  
 
@@ -26,26 +26,26 @@ Jede Bestandstransaktion, wie etwa eine Einkaufslieferung oder eine Verkaufslief
 
  ![Eintrags-Flow beim Abstimmen des Bestands mit dem Hauptbuch.](media/design_details_inventory_costing_1_entry_flow.png "Eintragsfluss beim Abgleich des Lagerbestands mit dem Sachkonto")  
 
-## Beispiel
+## <a name="example"></a>Beispiel
 
 Im folgenden Beispiel wird veranschaulicht, wie Lagerposten, Wertposten und Artikelausgleichsposten zu Fibuposten führen.  
 
  Sie buchen eine Einkaufsbestellung als erhalten und fakturiert für 10 Artikel mit einem EK-Preis von MW 7 und einem Gemeinkostensatz von MW 1. Das Buchungsdatum ist 01-01-20. Die folgenden Einträge werden folgendermassen erzeugt:  
 
-### Lagerposten (1)
+### <a name="item-ledger-entries-1"></a>Lagerposten (1)
 
 |Buch. Datum|Postenart |Einstandsbetrag (tatsächl.)|Menge|Laufnr.|  
 |------------|----------|--------------------|--------|---------|  
 |01-01-20|Einkauf|80.00|10|1|  
 
-### Wertposten (1)
+### <a name="value-entries-1"></a>Wertposten (1)
 
 |Buch. Datum|Postenart |Einstandsbetrag (tatsächl.)|Lagerposten Laufnr.|Laufnr.|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-01-20|EK-Preis|70.00|1|1|  
 |01-01-20|Kosten|10,00|1|2|  
 
-### Artikelausgleichsposten (1)
+### <a name="item-application-entries-1"></a>Artikelausgleichsposten (1)
 
 |Laufnr.|Lagerposten Laufnr.|Eingeh. Lagerposten Laufnr.|Ausgeh. Lagerposten Laufnr.|Menge|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -53,19 +53,19 @@ Im folgenden Beispiel wird veranschaulicht, wie Lagerposten, Wertposten und Arti
 
  Als nächsten Schritt buchen Sie einen Verkauf mit 10 Stück des Artikels mit einem Buchungsdatum aus 01-15-20.  
 
-### Lagerposten (2)
+### <a name="item-ledger-entries-2"></a>Lagerposten (2)
 
 |Buch. Datum|Postenart |Einstandsbetrag (tatsächl.)|Menge|Laufnr.|  
 |------------|----------|--------------------|--------|---------|  
 |01-15-20|Verkauf|-80.00|-10|2|  
 
-### Wertposten (2)
+### <a name="value-entries-2"></a>Wertposten (2)
 
 |Buch. Datum|Postenart |Einstandsbetrag (tatsächl.)|Lagerposten Laufnr.|Laufnr.|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-15-20|EK-Preis|-80.00|2|3|  
 
-### Artikelausgleichsposten (2)
+### <a name="item-application-entries-2"></a>Artikelausgleichsposten (2)
 
 |Laufnr.|Lagerposten Laufnr.|Eingeh. Lagerposten Laufnr.|Ausgeh. Lagerposten Laufnr.|Menge|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -77,7 +77,7 @@ Am Ende der Buchhaltungsperiode führen Sie die Stapelverarbeitung **Lagerreg. b
 
  Die folgenden Tabellen zeigen das Ergebnis der Abstimmung der Lagertransaktionen in diesem Beispiel mit der Finanzbuchhaltung.  
 
-### Wertposten (3)  
+### <a name="value-entries-3"></a>Wertposten (3)
 
 |Buch. Datum|Postenart |Einstandsbetrag (tatsächl.)|Gebuchte Lagerregulierung an G/L|Lagerposten Laufnr.|Laufnr.|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -85,7 +85,7 @@ Am Ende der Buchhaltungsperiode führen Sie die Stapelverarbeitung **Lagerreg. b
 |01-01-20|Kosten|10,00|10,00|1|2|  
 |01-15-20|EK-Preis|-80.00|-80.00|2|3|  
 
-### Fibuposten (3)
+### <a name="general-ledger-entries-3"></a>Fibuposten (3)
 
 |Buch. Datum|Fibukonto|Kontonr. (En-US-Demo)|Betrag|Laufnr.|  
 |------------|-----------|------------------------|------|---------|  
@@ -103,7 +103,7 @@ Am Ende der Buchhaltungsperiode führen Sie die Stapelverarbeitung **Lagerreg. b
 
  Die Beziehung zwischen Wertposten und Fibuposten wird in der Tabelle **Fibuposten - Lagerpostenverbindung** gespeichert.  
 
-### Relationsposten im Sachkonto – Tabelle Artikelpostenrelation (3)
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a>Relationsposten im Sachkonto – Tabelle Artikelpostenrelation (3)
 
 |Fibuposten Laufnr.|Wertposten Lfd. Nr.|Fibujournalnr.|  
 |-------------|---------------|----------------|  
@@ -114,13 +114,13 @@ Am Ende der Buchhaltungsperiode führen Sie die Stapelverarbeitung **Lagerreg. b
 |5|3|1|  
 |6|3|1|  
 
-## Montage- und Produktions-Buchung
+## <a name="assembly-and-production-posting"></a>Montage- und Produktions-Buchung
 
 Kapazitäts- und Ressourcenposten repräsentieren die Zeit, die als bei Produktion oder Montage verbraucht gebucht wird. Diese Prozesskosten werden als Wertposten in der Finanzbuchhaltung zusammen mit den entsprechenden Materialkosten in einer ähnlichen Struktur gebucht, wie für Lagerposten in diesem Thema beschrieben.  
 
 Weitere Informationen finden Sie unter [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md).  
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)  
  [Designdetails: Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md)  

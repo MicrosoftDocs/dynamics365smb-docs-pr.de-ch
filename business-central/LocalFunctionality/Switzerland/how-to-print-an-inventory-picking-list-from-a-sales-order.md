@@ -9,7 +9,7 @@ ms.date: 11/22/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# In der Schweizer Version eine Lager-Kommissionierliste aus einem Verkaufsauftrag drucken
+# <a name="print-an-inventory-picking-list-from-a-sales-order-in-the-swiss-version"></a>In der Schweizer Version eine Lager-Kommissionierliste aus einem Verkaufsauftrag drucken
 
 Eine Lagerkommissionierliste kann direkt von einem Verkaufsauftrag gedruckt werden. Die Kommissionierliste enthält eine Liste von Artikeln mit den folgenden Informationen:  
 
@@ -20,7 +20,7 @@ Eine Lagerkommissionierliste kann direkt von einem Verkaufsauftrag gedruckt werd
 
 Die Kommissionierliste enthält nur die Artikel, deren Versandmenge grösser als 0 ist.  
 
-## So drucken Sie eine Lagerkommissionierliste von einem Auftrag  
+## <a name="to-print-an-inventory-picking-list-from-a-sales-order"></a>So drucken Sie eine Lagerkommissionierliste von einem Auftrag
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie den relevanten Verkaufsauftrag aus und wählen Sie dann auf der Registerkarte Start **Bearbeiten** aus.  
@@ -28,7 +28,7 @@ Die Kommissionierliste enthält nur die Artikel, deren Versandmenge grösser als
 4. Geben Sie auf dem Inforegister **Optionen** im Feld **Anzahl Kopien** die erforderliche Anzahl von Kopien ein.  
 5. Wählen Sie die Schaltfläche **Drucken** aus, um die Auswahlliste zu drucken oder wählen Sie die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
-## Siehe auch 
+## <a name="see-also"></a>Siehe auch
 
 [Einkaufsbelege und Verkaufsbelege (Schweiz)](swiss-purchase-documents-and-sales-documents.md)  
 [Schweizer PLZ importieren](how-to-import-swiss-post-codes.md)  

@@ -10,11 +10,11 @@ ms.date: 11/03/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Zuweisen von Lieferanmahnungen zu Kreditoren in der Schweizer Version
+# <a name="assign-delivery-reminder-codes-to-vendors-in-the-swiss-version"></a>Zuweisen von Lieferanmahnungen zu Kreditoren in der Schweizer Version
 
 [!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
 
-## Siehe auch 
+## <a name="see-also"></a>Siehe auch
 
 [Neue Kreditoren einrichten](../../purchasing-how-register-new-vendors.md)  
 [Lieferanmahnungen](delivery-reminders.md)  
