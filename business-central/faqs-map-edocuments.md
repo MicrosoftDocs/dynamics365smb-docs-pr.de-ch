@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="faq-for-mapping-e-documents-with-purchase-orders-using-copilot-preview"></a>Häufig gestellte Fragen zur Zuordnung von E-Belegen zu Bestellungen mit Copilot (Vorschauversion)
+# Häufig gestellte Fragen zur Zuordnung von E-Belegen zu Bestellungen mit Copilot (Vorschauversion)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ Diese häufig gestellten Fragen (FAQ) beschreiben die KI-Auswirkungen des Featur
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## <a name="what-is-e-documents-matching-assistance"></a>Was ist die Unterstützung beim Abgleich von E-Belegen?
+## Was ist die Unterstützung beim Abgleich von E-Belegen?
 
 Elektronische Belege (E-Belege) bilden die Grundlage moderner Geschäftstransaktionen. Sie umfassen wichtige Dokumente wie Rechnungen und Quittungen, die durch Lieferung und Wareneingang in beide Richtungen fliessen. Sie können elektronische Rechnungen digital in einem strukturierten Format erstellen und übermitteln, das die automatisierte Rechnungsverarbeitung erleichtert. Allerdings kann die Bearbeitung eingehender digitaler Rechnungen für die Kreditorenbuchhaltung komplizierter sein.  
 
@@ -30,7 +30,7 @@ Bisher konnte [!INCLUDE [prod_short](includes/prod_short.md)] neue Einkaufsrechn
 
 Die **Unterstützung beim Abgleich von E-Belegen** nutzt generative KI, um diesen Prozess durch die Automatisierung der Analyse externer elektronischer Rechnungen zu rationalisieren. Mit diesem Feature kann die Buchhaltung Copilot auffordern, Positionen auf eingehenden elektronischen Rechnungen mit Positionen auf Bestellungen in [!INCLUDE [prod_short](includes/prod_short.md)] abzugleichen.
 
-## <a name="what-are-capabilities-of-the-e-documents-matching-assistance"></a>Welche Funktionen bietet die Unterstützung beim Abgleich von E-Belegen?
+## Welche Funktionen bietet die Unterstützung beim Abgleich von E-Belegen?
 
 Copilot bietet KI-gestützte Unterstützung beim Abgleich eingegangener digitaler Rechnungen mit bestehenden Bestellungen in [!INCLUDE [prod_short](includes/prod_short.md)]. Copilot ordnet Positionen basierend auf Folgendem zu:
 
@@ -43,11 +43,11 @@ Copilot identifiziert ähnliche Beschreibungen, wenn sie über die richtigen Mas
 
 Copilot stellt keine Verbindung zu Ihrem E-Beleg-Endpunktdienst her, um digitale Gutscheine abzurufen oder zu senden. Diese Aufgabe unterliegt vollständig Ihrer Kontrolle und ist eine Voraussetzung für die Nutzung der Unterstützung durch Copilot. Dies gilt unabhängig davon, ob die digitalen Belege [!INCLUDE [prod_short](includes/prod_short.md)] über eine Verbindung mit einem Endpunktdienst hinzugefügt oder manuell eingegeben werden.  
 
-## <a name="what-is-the-intended-use-of-the-e-documents-matching-assistance"></a>Wozu dient die Unterstützung beim Abgleich von E-Belegen?
+## Wozu dient die Unterstützung beim Abgleich von E-Belegen?  
 
 Das Feature **Unterstützung beim Abgleich von E-Belegen** soll die Kreditorenbuchhaltung dabei zu unterstützen, bestehende Bestellungen mit eingehenden elektronischen Rechnungen abzugleichen. Bei einem Grossteil dieser Aktivität geht es um das Abgleichen von Zeichenfolgen. [!INCLUDE [prod_short](includes/prod_short.md)] bietet ein Feature, das einige dieser Aufgaben automatisiert, und grosse Sprachmodelle wurden als Möglichkeit identifiziert, dieses Feature zu ergänzen und den manuellen Aufwand weiter zu reduzieren.  
 
-## <a name="how-was-e-documents-matching-assistance-evaluated-what-metrics-are-used-to-measure-performance"></a>Wie wurde die Unterstützung beim Abgleich von E-Belegen bewertet? Welche Metriken werden verwendet, um die Leistung zu messen?
+## Wie wurde die Unterstützung beim Abgleich von E-Belegen bewertet? Welche Metriken werden verwendet, um die Leistung zu messen?
 
 Dieses Feature wurde mit Kombinationen der folgenden Informationen getestet:
 
@@ -60,13 +60,13 @@ Dieses Feature wurde mit Kombinationen der folgenden Informationen getestet:
 
 Die Testdaten beziehen sich sowohl auf die typische Nutzung als auch die Nutzung durch böswillige Akteure. Die Leistung wurde im Vergleich zum manuellen Abgleich derselben Daten in elektronischen Rechnungen und Bestellungen gemessen.
 
-## <a name="what-are-the-limitations-of-e-documents-matching-assistance-how-can-users-minimize-the-impact-of-the-e-documents-matching-assistance-limitations-when-using-the-system"></a>Welche Einschränkungen gelten für die Unterstützung beim Abgleich von E-Belegen? Wie können Benutzende die Auswirkungen der Einschränkungen der Unterstützung beim Abgleich von E-Belegen bei der Nutzung des Systems minimieren?
+## Welche Einschränkungen gelten für die Unterstützung beim Abgleich von E-Belegen? Wie können Benutzende die Auswirkungen der Einschränkungen der Unterstützung beim Abgleich von E-Belegen bei der Nutzung des Systems minimieren?
 
 Die **Unterstützung beim Abgleich von E-Belegen** funktioniert am besten, wenn externe (E-Rechnung) und interne ([!INCLUDE [prod_short](includes/prod_short.md)])Artikelbeschreibungen und Masseinheiten in ein und derselben Sprache verfasst sind. Gemischte Sprachen oder eine gemischte Sprache der Artikelbeschreibungen führen häufig zu weniger Übereinstimmungen und Vorschlägen.  
 
 Der vorgeschlagene Abgleich von Artikeln aus E-Rechnungen mit Artikeln in Bestellungen funktioniert in englischer Sprache am besten. Obwohl Sie dieses Feature in jeder Sprache verwenden können, die [!INCLUDE [prod_short](includes/prod_short.md)] unterstützt, kann es sein, dass es in anderen Sprachen weniger Artikelübereinstimmungen findet.
 
-## <a name="in-which-geographies-and-languages-is-e-documents-matching-assistance-available"></a>In welchen Regionen und Sprachen ist die Unterstützung beim Abgleich von E-Belegen verfügbar?
+## In welchen Regionen und Sprachen ist die Unterstützung beim Abgleich von E-Belegen verfügbar? 
 
 Diese Funktion ist für die Lokalisierung jedes Umgebungslandes bzw. jeder Umgebungsregion und in jeder Benutzersprache mit Ausnahme von Kanada verfügbar. Aufgrund der eingeschränkten Sprachenunterstützung steht das Feature kanadischen Debitoren zunächst nicht zur Verfügung, da es die gesetzlichen Vorgaben im Hinblick auf die Sprache nicht erfüllt. 
 
@@ -74,11 +74,11 @@ Für Kundenumgebungen in Ländern/Regionen, in denen der Azure OpenAI Dienst nic
 
 Weitere Informationen zur Sprache finden Sie unter [Welche Einschränkungen gelten für die Unterstützung beim Abgleich von E-Belegen? Wie können Benutzende die Auswirkungen der Einschränkungen der Unterstützung beim Abgleich von E-Belegen bei der Nutzung des Systems minimieren?](#what-are-the-limitations-of-e-documents-matching-assistance-how-can-users-minimize-the-impact-of-the-e-documents-matching-assistance-limitations-when-using-the-system).   
 
-## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-feature"></a>Welche betrieblichen Faktoren und Einstellungen lassen eine effektive und verantwortungsvolle Nutzung des Features zu?
+## Welche betrieblichen Faktoren und Einstellungen lassen eine effektive und verantwortungsvolle Nutzung des Features zu?
 
 Copilot ergänzt den Zuordnungsalgorithmus, den [!INCLUDE [prod_short](includes/prod_short.md)] bereits bereitstellt, und ordnet die Positionen zu, bei denen dies dem Algorithmus nicht gelungen ist.
 
-### <a name="what-is-expected-of-end-users-while-using-e-documents-matching-assistance"></a>Was wird von Endbenutzenden erwartet, wenn sie die Unterstützung beim Abgleich von E-Belegen nutzen?
+### Was wird von Endbenutzenden erwartet, wenn sie die Unterstützung beim Abgleich von E-Belegen nutzen?
 
 <!--Not sure that this is the right content for this section. Seems like it belongs more in the overview article because it's more related to how to use the feature-->
 
@@ -95,7 +95,7 @@ Sie können die **Unterstützung beim Abgleich von E-Belegen** verwenden, um Pos
 
 Die von Copilot vorgenommenen Abgleiche können falsch oder unvollständig sein. Sie sollten sie immer auf Richtigkeit überprüfen, bevor Sie sich entscheiden, sie zu behalten. Die von Copilot gelieferten Abgleiche und Vorschläge werden in [!INCLUDE [prod_short](includes/prod_short.md)] gespeichert, wenn Sie **Behalten** wählen und Copilot beenden. Sie können alle Zuordnungen oder Vorschläge bearbeiten und korrigieren, bevor Sie sich entscheiden, sie zu behalten. 
 
-### <a name="what-is-expected-of-administrators-and-end-users-when-operating-e-documents-matching-assistance"></a>Was wird von Administrierenden und Endbenutzenden erwartet, wenn sie mit der Unterstützung beim Abgleich von E-Belegen arbeiten?
+### Was wird von Administrierenden und Endbenutzenden erwartet, wenn sie mit der Unterstützung beim Abgleich von E-Belegen arbeiten?
 
 Endbenutzende, wie Mitarbeitende aus der Buchhaltung und andere, die E-Rechnungen erhalten, sollten immer die Richtigkeit der von Copilot bereitgestellten Abgleiche und Vorschläge überprüfen, bevor sie sich entscheiden, sie zu behalten. Wir empfehlen Ihnen, die Bestellpositionen zu überprüfen, um ihre Richtigkeit sicherzustellen und etwaige Unstimmigkeiten zu finden. Sie entscheiden, ob Sie die **Unterstützung beim Abgleich von E-Belegen** nutzen möchten. Auch wenn das Feature **Unterstützung beim Abgleich von E-Belegen** von den Administrierenden aktiviert wurde und verfügbar ist, können Sie sich trotzdem entscheiden, ob Sie es immer, manchmal oder nie verwenden möchten.  
 
@@ -105,15 +105,15 @@ Administrierende entscheiden, ob Copilot grundsätzlich in [!INCLUDE [prod_short
 > - Wir unterstützen das Feature nicht in der lokalen Version von [!INCLUDE [prod_short](includes/prod_short.md)] oder in privaten Clouds.
 > - Partner können dieses Feature nicht erweitern. Entwicklungsfachkräfte von Partnern können dieses Feature nicht ändern, ersetzen oder erweitern. 
 
-## <a name="is-copilot-the-only-way-to-match-e-documents-to-purchase-orders"></a>Ist Copilot die einzige Möglichkeit, E-Belege mit Bestellungen abzugleichen?
+## Ist Copilot die einzige Möglichkeit, E-Belege mit Bestellungen abzugleichen?  
 
 Nein, ob Sie Copilot nutzen, bleibt Ihnen überlassen. [!INCLUDE [prod_short](includes/prod_short.md)] bietet nicht auf KI basierende Möglichkeiten, Artikel aus erhaltenen elektronischen Rechnungen mit Artikeln in Bestellungen in [!INCLUDE [prod_short](includes/prod_short.md)] abzugleichen. Organisationen können auch beide Ansätze gleichzeitig verwenden.  
 
-## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>Wie gebe ich Feedback zu KI-generierten Inhalten?
+## Wie gebe ich Feedback zu KI-generierten Inhalten?  
 
 Jedes Mal, wenn Copilot Abgleiche oder Vorschläge bereitstellt, können Sie Microsoft mithilfe der Steuerelemente „Gefällt mir“ und „Gefällt mir nicht“ direkt im Copilot-Fenster Feedback geben. Ihr Feedback bleibt anonym und wir verwenden diese Daten, um die Qualität dieses Dienstes zu verbessern.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Übersicht über E-Belege](finance-edocuments-overview.md)
 [E-Belege mit Copilot Bestellzeilen zuordnen](map-edocuments-with-copilot.md)
