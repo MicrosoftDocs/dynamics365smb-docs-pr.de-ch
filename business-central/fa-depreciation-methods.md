@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="depreciation-methods-for-fixed-assets"></a>Abschreibungsmethoden für Anlagen
+# Abschreibungsmethoden für Anlagen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] unterstützt acht verschiedene Abschreibungsmethoden für Anlagen:
 
@@ -25,7 +25,7 @@ ms.service: dynamics-365-business-central
 * Manuell
 * Benutzerdefinierte Abschreibung
 
-## <a name="straight-line-depreciation"></a>Lineare Abschreibung
+## Lineare Abschreibung
 
 Bei der linearen Abschreibung schreiben Sie die Anlage mit einem festen jährlichen Prozentsatz oder mit einem festen jährlichen Betrag über den Abschreibungszeitraum hinweg ab. Wenn Sie die Methode "Linear" verwenden, müssen Sie eine der folgenden Optionen im Anlagen-Abschreibungsbuch angeben:  
 
@@ -34,7 +34,7 @@ Bei der linearen Abschreibung schreiben Sie die Anlage mit einem festen jährlic
 * Einen festen jährlichen Betrag  
 * Abschreibungsperiode  
 
-### <a name="depreciation-period"></a>Abschreibungsperiode
+### Abschreibungsperiode
 
 Falls Sie eine Abschreibung Periode angeben (Anzahl der Abschreibung Jahre, Anzahl der Abschreibung Monate oder das Enddatum der Nutzungsdauer), verwendet die Anwendung die folgende Formel, um den Abschreibung Betrag zu berechnen:  
 
@@ -44,19 +44,19 @@ Die verbleibenden Abschreibungstage werden als die Gesamtzahl der Abschreibungst
 
 Der Buchwert kann durch gebuchte Zuschreibungen, Abschreibungen und benutzerdefinierte Abschreibungen 1 und 2 reduziert werden, abhängig davon, ob das Feld **In Abschreibungsberechnung enthalten** deaktiviert ist und ob das Feld **Teil d. Buchwerts** auf der Seite **Anlagenbuchungsart einr.** aktiviert ist. Diese Berechnung stellt sicher, dass die Anlage zum angegebenen Enddatum vollständig abgeschrieben ist.  
 
-### <a name="fixed-yearly-percentage"></a>Fester jährlicher Prozentsatz
+### Fester jährlicher Prozentsatz
 
 Wenn Sie einen festen jährlichen Prozentsatz angeben, verwendet [!INCLUDE [prod_short](includes/prod_short.md)] die folgende Formel für die Berechnung des Abschreibungsbetrags.  
 
 * Abschreibungsbetrag = (Linear % x Abschreibungsbasis x Anzahl Abschreibungstage) / (100 x 360)*  
 
-### <a name="fixed-yearly-amount"></a>Fester jährlicher Betrag
+### Fester jährlicher Betrag
 
 Wenn Sie einen festen jährlichen Betrag angeben, verwendet [!INCLUDE [prod_short](includes/prod_short.md)] die folgende Formel für die Berechnung des Abschreibungsbetrags.  
 
 * Abschreibungsbetrag = (Fester Abschreibungsbetrag x Anzahl Abschreibungstage) / 360*  
 
-### <a name="example---straight-line-depreciation"></a>Beispiel – lineare Abschreibung
+### Beispiel – lineare Abschreibung
 
 Eine Anlage hat Anschaffungskosten von MW 100.000. Die erwartete Lebensdauer ist 8 Jahre. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt.  
 
@@ -73,7 +73,7 @@ Für dieses Beispiel sieht der Anlagenposten folgendermassen aus:
 | 06/30/27 |Abschreibungen |180 |-6.250,00 |6,250.00  |
 | 12/31/27 |Abschreibungen |180 |-6.250,00 |0         |
 
-## <a name="declining-balance-1-depreciation"></a>Abschreibungsmethode „1 % degressiv“
+## Abschreibungsmethode „1 % degressiv“
 
 Hierbei handelt es sich um eine Abschreibungsmethode, bei der der grösste Teil der Kosten einer Anlage in den ersten Jahren der Nutzungsdauer abgeschrieben wird. Wenn Sie diese Methode verwenden, müssen Sie einen festen jährlichen Prozentsatz eingeben.  
 
@@ -85,7 +85,7 @@ Die Afa-Basis wird als Buchwert zu Beginn des Jahres berechnet. Bei der Anzahl d
 
 Der gebuchte Abschreibungsbetrag kann Posten mit verschiedenen Buchungsarten enthalten (erhöhte Abschreibung, Sonder-Abschreibung und benutzerdefinierte Abschreibung), die seit dem Startdatum des aktuellen Geschäftsjahrs gebucht worden sind. Diese Buchungsarten sind in dem gebuchten Abschreibung Betrag enthalten, wenn Häkchen in den Feldern **Abschreibungsart** und **Teil d. Buchwerts** auf der Seite **Anlagenbuchungsart Einr.** gesetzt sind.  
 
-### <a name="example-1---declining-balance-1-depreciation"></a>Beispiel 1 – Abschreibungsmethode „1 % degressiv“
+### Beispiel 1 – Abschreibungsmethode „1 % degressiv“
 
 Eine Anlage hat Anschaffungskosten von MW 100.000. Das Feld **Degressive AfA %** hat den Wert 25. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt.  
 
@@ -115,13 +115,13 @@ Berechnungsmethode:
 
 Die Berechnung erfolgt bis der Buchwert gleich dem endgültigen Rundungsbetrag oder dem von Ihnen angegebenen Restwert ist.  
 
-### <a name="example-2---declining-balance-1-depreciation"></a>Beispiel 2 – Abschreibungsmethode „1 % degressiv“
+### Beispiel 2 – Abschreibungsmethode „1 % degressiv“
 
 Der Buchwert einer Anlage beträgt am 31.12.2022 100.000. Sie buchen am 02.02.2023 eine Abschreibung von 1.778, was dem erwarteten (proportionalen) Betrag der Abschreibung des Jahres nach 32 Tagen entspricht. Wenn Sie die Abschreibung am 30.06.2023 durchführen, schlägt [!INCLUDE [prod_short](includes/prod_short.md)] 8.222 vor, da vom 02.02.2023 bis zum 30.06.2023 148 Tage liegen. Die voraussichtliche Restabschreibung für den 30.06.2023 errechnet sich nach folgender Formel:
 
 * *148/360 x 0,20 x 100.000 = 8.222*
 
-### <a name="example-3---declining-balance-1-depreciation"></a>Beispiel 3 – Abschreibungsmethode „1 % degressiv“
+### Beispiel 3 – Abschreibungsmethode „1 % degressiv“
 
 Wenn Sie einen Betrag buchen, der nicht der Abschreibungsmethode „1 % degressiv“ entspricht, beispielsweise 5.000, schlägt [!INCLUDE [prod_short](includes/prod_short.md)] den Rest des erwarteten Betrags vor.
 
@@ -129,7 +129,7 @@ Der Buchwert einer Anlage beträgt am 31.12.2022 100.000. Sie buchen am 02.02.20
 
 * *148/360 x 0,20 x 100.000 = 8.222*
 
-### <a name="example-4---declining-balance-1-depreciation"></a>Beispiel 4 – Abschreibungsmethode „1 % degressiv“
+### Beispiel 4 – Abschreibungsmethode „1 % degressiv“
 
 Der Buchwert einer Anlage beträgt am 31.12.2023 100.000. Sie buchen am 02.02.2023 eine Abschreibung von 95.000, die den zulässigen Abschreibungsbetrag für das Jahr übersteigt. Wenn Sie die Abschreibung am 30.06.2023 durchführen, schlägt [!INCLUDE [prod_short](includes/prod_short.md)] 5.000 vor, da vom 02.02.2023 bis zum 30.06.2023 148 Tage liegen. Die voraussichtliche Restabschreibung für den 30.06.2023 errechnet sich nach folgender Formel: 
 
@@ -137,11 +137,11 @@ Der Buchwert einer Anlage beträgt am 31.12.2023 100.000. Sie buchen am 02.02.20
 
 Der Restbuchwert beträgt jedoch nur 5.000, daher schlägt [!INCLUDE [prod_short](includes/prod_short.md)] 5.000 vor, da ein Buchwert nicht negativ sein kann.
 
-## <a name="declining-balance-2-depreciation"></a>Abschreibungsmethode „2 % degressiv“
+## Abschreibungsmethode „2 % degressiv“
 
 Die Methoden Degressiv 1 und Degressiv 2 berechnen den gleichen Gesamt Abschreibung-Betrag für jedes Jahr. Falls Sie den Batchauftrag **Abschreibung berechnen** mehr als einmal jährlich ausführen, resultiert die Methode „Degressiv 1“ in gleichen Abschreibungsbeträgen für die einzelnen Perioden. Die Methode „Degressiv 2“ hat in diesem Fall fallende Beträge in den einzelnen Perioden zur Folge.  
 
-### <a name="example---declining-balance-2-depreciation"></a>Beispiel – Abschreibungsmethode „2 % degressiv“
+### Beispiel – Abschreibungsmethode „2 % degressiv“
 
 Eine Anlage hat Anschaffungskosten von MW 100.000. Das Feld **Degressive AfA %** hat den Wert 25. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt. Die Anlagenposten sehen folgendermassen aus:  
 
@@ -176,7 +176,7 @@ Die Abschreibungswerte lauten:
 | 12/31/21 |AB = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91  |
 | ...      |                                                            |
 
-## <a name="db1sl-depreciation"></a>Abschreibung „Degr1/linear“
+## Abschreibung „Degr1/linear“
 
 "Degr1/Linear" ist eine abgekürzte Kombination von "Degressiv 1" und "Linear". Die Berechnung erfolgt bis der Buchwert gleich dem endgültigen Rundungsbetrag oder dem von Ihnen angegebenen Restwert ist.  
 
@@ -191,7 +191,7 @@ Wenn Sie diese Methode verwenden, müssen Sie die geschätzte Nutzungsdauer und 
 >
 > Der Bericht **Anlagevermögen – prognostizierter Wert** kann Abschreibungen für mehrjährige Zeiträume projizieren, was im Vergleich zu den Ergebnissen, die Sie erhalten, wenn Sie Abschreibungen für mehrere Jahre mit einem dieser Zeiträume durchführen, verwirrend sein kann die degressiven Saldomethoden. 
 
-### <a name="example---db1-sl-depreciation"></a>Beispiel – „degr1/lineare“ Abschreibung
+### Beispiel – „degr1/lineare“ Abschreibung
 
 Eine Anlage hat Anschaffungskosten von MW 100.000. Auf der Seite **Anlagen-Abschreibungsbücher** enthält das Feld **Degressive Abschreibung %** den Wert 25 und das Feld **Nutzungsdauer i. Jahren** den Wert **8**. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt.  
 
@@ -237,7 +237,7 @@ Berechnungsmethode:
 
     Es wird der lineare Betrag verwendet, da dieser der höhere Betrag ist.  
 
-## <a name="half-year-convention-depreciation"></a>Abschreibung unter Verwendung der US-Halbjahresregel
+## Abschreibung unter Verwendung der US-Halbjahresregel
 
 Die Methode der US-Halbjahresregel wird nur angewendet, wenn Sie auf der Seite **Anlagenkarte** für die Anlage den Umschalter **US-Halbjahresregel verwenden** aktivieren.  
 
@@ -252,7 +252,7 @@ Wenn die US-Halbjahresregel angewendet wird, hat eine Anlage sechs Abschreibungs
 > [!NOTE]  
 > Die Nutzungsdauer einer Anlage, die nach dem ersten Geschäftsjahr verbleibt, enthält immer ein halbes Jahr, wenn die US-Halbjahresregel verwendet wird. Damit die Halbjahresregel korrekt angewendet wird, muss dass Feld **Enddatum d. Nutzungsdauer** auf der Seite **Anlagen-Abschreibungsbuch** immer ein Datum enthalten, das genau sechs Monate vor dem Enddatum des Geschäftsjahres liegt, in dem die Anlage vollständig abgeschrieben ist.  
 
-### <a name="example---half-year-convention-depreciation"></a>Beispiel – Abschreibung unter Verwendung der US-Halbjahresregel
+### Beispiel – Abschreibung unter Verwendung der US-Halbjahresregel
 
 Eine Anlage hat Anschaffungskosten von MW 100.000. Das **Startdatum Normal-Abschreibung** ist der 01.03.20. Die erwartete Lebensdauer ist fünf Jahre, daher muss das Feld **Enddatum d. Abschreibung** 30.06.25 lauten. Die Stapelverarbeitung **Abschreibung berechnen** wird jährlich ausgeführt. Dieses Beispiel basiert auf einem Kalenderjahr als Geschäftsjahr.  
 
@@ -268,7 +268,7 @@ Die Anlagenposten sehen folgendermassen aus:
 | 12/31/24 |Abschreibungen |360 |-20.000,00 |10,000.00 |
 | 12/31/25 |Abschreibungen |180 |-10.000,00 |0.00 |
 
-## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Beispiel – „Degr1/lineare“ Abschreibung unter Verwendung der US-Halbjahresregel
+## Beispiel – „Degr1/lineare“ Abschreibung unter Verwendung der US-Halbjahresregel
 
 Eine Anlage hat Anschaffungskosten von MW 100.000. Das **Startdatum Normal-Abschreibung** ist der 01.11.20. Die erwartete Lebensdauer ist fünf Jahre, daher muss das Feld **Enddatum d. Abschreibung** 30.06.25 lauten. Auf der Seite **Anlagen-Abschreibungsbücher** enthält das Feld **Degressive Abschreibung %** den Wert 40. Die Stapelverarbeitung **Abschreibung berechnen** wird jährlich ausgeführt. Dieses Beispiel basiert auf einem Kalenderjahr als Geschäftsjahr.  
 
@@ -304,7 +304,7 @@ Berechnungsmethode:
 
     Es wird der lineare Betrag verwendet, da dieser der höhere Betrag ist.  
 
-## <a name="duplicate-entries-to-other-depreciation-books"></a>Posten in andere Abschreibungsbücher duplizieren
+## Posten in andere Abschreibungsbücher duplizieren
 
 Falls Sie über drei Abschreibungsbücher B1, B2 und B3 verfügen und Posten aus B1 in B2 und B3 kopieren möchten, können Sie den Umschalter **Kopien ermöglichen** in den Abschreibungsbuchkarten von B2 und B3 aktivieren. Diese Einstellung kann in den folgenden Szenarien hilfreich sein:
 
@@ -319,15 +319,15 @@ Wenn Sie einen Posten in B1 im Anlagen-Fibu-Erfassungsjournal erstellen und den 
 > [!NOTE]  
 > Es ist nicht möglich, im Anlagen Fibu Erf.-Journal und im Anlagen Erf.-Journal dieselbe Nummernserie zu verwenden. Wenn Sie im Anlagen Fibu Erf.-Journal Posten buchen, müssen Sie das Feld **Belegnr.** leer lassen. Wenn Sie in das Feld eine Nummer eingeben, wird die Nummer im Anlagen Erf.-Journal dupliziert. Sie müssen die Belegnummer manuell ändern, bevor Sie das Erf.-Journal buchen können.  
 
-## <a name="manual-depreciation"></a>Manuelle Abschreibung
+## Manuelle Abschreibung
 
 Verwenden Sie diese manuelle Methode für Anlagen, die nicht abgeschrieben werden, z. B. Land. Sie müssen die Abschreibung im Anlagen Fibu Erf.-Journal eingeben. Die Stapelverarbeitung **Abschreibung berechnen** berücksichtigt keine Anlagen mit der Abschreibungsmethode „Manuell“.
 
-## <a name="user-defined-depreciation"></a>Benutzerdefinierte Abschreibung
+## Benutzerdefinierte Abschreibung
 
 Wenn die integrierten Abschreibungsmethoden Ihren Anforderungen nicht entsprechen, können Sie Ihre eigene Abschreibungsmethode mithilfe von Abschreibungstabellen festlegen. Mehr Informationen zur Anwendung einer benutzerdefinierten Abschreibungsmethode finden Sie unter [Benutzerdefinierte Abschreibungsmethode festlegen](fa-how-setup-user-defined-depreciation-method.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Anlagen – Übersicht](fa-manage.md)  
 [Anlagen einrichten](fa-setup.md)  
