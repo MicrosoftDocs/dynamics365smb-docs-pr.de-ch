@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Analyse nach Funktionsregion
+# <a name="analytics-by-functional-area"></a>Analyse nach Funktionsregion
 
 Die allgemeinen Inhalte über Analysen stehen Ihnen für viele Funktionsregionen auch in speziellen Versionen in [!INCLUDE[prod_short](includes/prod_short.md)] zur Verfügung. 
 
@@ -24,7 +24,7 @@ Die allgemeinen Inhalte über Analysen stehen Ihnen für viele Funktionsregionen
 | Anlagenmanagement | [Anlagenanalysen](fa-analytics-overview.md) |
 
 
-## Siehe auch 
+## <a name="see-also"></a>Siehe auch
 
 [Analysen – Übersicht](reports-bi-reporting.md)  
 

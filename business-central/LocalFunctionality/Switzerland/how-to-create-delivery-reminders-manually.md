@@ -9,11 +9,11 @@ ms.date: 11/16/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Lieferanmahnungen manuell erstellen in der Schweizer Version
+# <a name="create-delivery-reminders-manually-in-the-swiss-version"></a>Lieferanmahnungen manuell erstellen in der Schweizer Version
 
 [!INCLUDE [delivery-reminders-create-manually](../includes/ATCHDE/delivery-reminders-create-manually.md)]
 
-## Siehe auch 
+## <a name="see-also"></a>Siehe auch
 
 [Lieferanmahnungen](delivery-reminders.md)  
 [Lieferanmahnungen generieren](how-to-generate-delivery-reminders.md)  
