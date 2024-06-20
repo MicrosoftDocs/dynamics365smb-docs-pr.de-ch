@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="print-swiss-vat-statements-older-version"></a>Drucken von MWST-Abrechnungen (Schweiz) (ältere Version)
+# Drucken von MWST-Abrechnungen (Schweiz) (ältere Version)
 
 > [!NOTE]  
 >  In diesem Thema wird für Rückwärtskompatibilität mit dem Bericht **Schweizer MWST-Abrechnung** behandelt. Informationen zur Verwendung der späteren Schweizer MWST-Abrechnung, siehe Schweizer MWST-Abrechnung.  
@@ -20,7 +21,7 @@ Die **Schweizer MWST-Abrechnung** ist der Standardberechnungsbericht für die Re
 - MWST-Regulierungsposten.  
 - Ein Abrechnungsbogen.  
 
-## <a name="to-print-the-swiss-vat-statement"></a>So drucken Sie die MWST-Abrechnung (Schweiz)
+## So drucken Sie die MWST-Abrechnung (Schweiz)  
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Schweizer MWST-Abrechnung** ein, und wählen Sie dann den zugehörigen Link aus.  
 
@@ -45,7 +46,7 @@ Die **Schweizer MWST-Abrechnung** ist der Standardberechnungsbericht für die Re
 
 3.  Wählen Sie die Schaltfläche **Drucken** aus, um den MwSt-Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
  [Mehrwertsteuer (Schweiz)](swiss-value-added-tax.md)   
  [Mehrwertsteuersätze der Schweiz](vat-rates-for-switzerland.md)
 

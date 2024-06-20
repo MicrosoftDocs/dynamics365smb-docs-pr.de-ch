@@ -9,19 +9,20 @@ ms.search.form: '6216, 6219, 6220'
 ms.date: 05/07/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="record-sustainability-entries"></a>Nachhaltigkeitsposten erfassen
+# Nachhaltigkeitsposten erfassen
 
 Derzeit können Treibhausgasemissionen (THG-Emissionen) im Nachhaltigkeitssachkonto nur mithilfe von Nachhaltigkeits-Erfassungsjournalen erfasst werden.
 
-## <a name="sustainability-journals"></a>Nachhaltigkeits-Erfassungsjournale
+## Nachhaltigkeits-Erfassungsjournale
 
 Nachhaltigkeits-Erfassungsjournale sind für die Nachverfolgung und Erfassung von Nachhaltigkeitsaktivitäten konzipiert und bieten dazu dieselbe Benutzererfahrung wie andere Erfassungsjournale in Business Central. Benutzende, die über die erforderlichen Informationen verfügen, können Emissionen manuell in ein Erf.-Journal eingeben. Falls diese Informationen nicht vorliegen, können sie alternativ integrierte Formeln verwenden, um die Emissionen auf der Grundlage spezifischer bekannter Parameter, die verschiedenen Arten von Quellen und Konten entsprechen, genau zu berechnen.
 
 Die in ein Erf.-Journal eingegebenen Informationen sind temporär und können geändert werden, solange sie sich in diesem Erf.-Journal befinden. Wenn Sie das Erf.-Journal buchen, werden die Informationen in Nachhaltigkeitsposten auf einzelnen Nachhaltigkeitskonten übertragen, wo sie nicht geändert werden können. Sie können jedoch Storno- oder Korrekturbuchungen vornehmen.
 
-### <a name="use-journal-templates-and-batches"></a>Erf.-Journalvorlagen und -namen verwenden
+### Erf.-Journalvorlagen und -namen verwenden
 
 Es gibt standardmässig zwei Nachhaltigkeits-Erf.-Journalvorlagen: die Standardvorlage und die wiederkehrende Vorlage.
 
@@ -30,13 +31,13 @@ Sie können zu jeder Erfassungsjournalvorlage mehrere Erfassungsjournalnamen als
 > [!TIP]
 > Wenn Sie über viele Zeilen verfügen, können Sie das Fehlerrisiko verringern, indem Sie für jede Emissionsart einen Erf.-Journalbatch anlegen. Alternativ können Sie für alle Emissionsarten auch den normalen Batch verwenden.
 
-### <a name="validate-sustainability-journals"></a>Nachhaltigkeits-Erfassungsjournale überprüfen
+### Nachhaltigkeits-Erfassungsjournale überprüfen
 
 Sie können auf der Seite **Nachhaltigkeitseinrichtung** eine Hintergrundprüfung einschalten, um Verzögerungen beim Buchen zu vermeiden. Wenn bei der Arbeit am Nachhaltigkeits-Erf.-Journal Fehler auftreten, informiert die Prüfung Sie und verhindert, dass das Erf.-Journal gebucht wird.
 
 Wenn Sie die Prüfung aktivieren, werden in der Infobox **Erf.-Journal-Prüfung** Probleme in der aktuellen Zeile und im gesamten Batch angezeigt. Die Überprüfung erfolgt, wenn Sie einen Erf.-Journalbatch laden und wenn Sie eine andere Erfassungsjournalzeile auswählen. Die Kachel **Probleme insgesamt** in der Infobox zeigt an, wie viele Probleme [!INCLUDE [prod_short](includes/prod_short.md)] insgesamt gefunden hat. Durch Anklicken der Kachel können Sie eine Übersicht der Probleme öffnen.
 
-### <a name="work-with-sustainability-journals"></a>Mit Nachhaltigkeits-Erfassungsjournalen arbeiten
+### Mit Nachhaltigkeits-Erfassungsjournalen arbeiten
 
 Um mit der Arbeit an Nachhaltigkeits-Erfassungsjournalen zu beginnen, gehen Sie wie folgt vor:
 
@@ -57,7 +58,7 @@ Um mit der Arbeit an Nachhaltigkeits-Erfassungsjournalen zu beginnen, gehen Sie 
 
 Falls Ihre Formel auf der Option **Aus Finanzbuchhaltung berechnen** in der Kategorie des Nachhaltigkeitskontos beruht, müssen Sie die Aktion **Betrag aus Fibuposten erfassen** verwenden, bevor Sie das Erf.-Journal buchen, um die Emissionen basierend auf dieser Datenquelle zu berechnen. Darüber hinaus müssen Sie, wenn Sie nach dem Ausfüllen der Erf.-Journalzeilen Änderungen an den Emissionsfaktoren vorgenommen haben, die Aktion **Neu berechnen** auswählen, um den richtigen Betrag im Erf.-Journal zu erhalten.
 
-### <a name="recurring-journals"></a>Wiederkehrende Erfassungsjournale
+### Wiederkehrende Erfassungsjournale
 
 Ein wiederkehrendes Erf.-Journal ist ein Nachhaltigkeits.-Buch-Blatt mit spezifischen Feldern zur Verwaltung von Transaktionen, die Sie häufig und allenfalls mit wenigen Änderungen buchen. Dabei handelt es sich beispielsweise um Nachhaltigkeitstransaktionen wie Strom, Wärme oder andere ähnliche Transaktionen. Sie können mithilfe wiederkehrender Erfassungsjournale feste und variable Beträge buchen.
 
@@ -69,7 +70,7 @@ Auch das Feld **Wiederholungsrate** ist wichtig und muss festgelegt werden. Dabe
 
 Das Feld **Ablaufdatum** bestimmt das Datum, an dem die Zeile das letzte Mal gebucht werden soll. Die Zeile wird nach diesem Datum nicht mehr gebucht. Die Verwendung des Feldes **Ablaufdatum** hat den Vorteil, dass die Zeile nicht sofort aus dem Erf.-Journal gelöscht wird. Sie können ein späteres Datum eingeben, so dass Sie die Zeile auch in der Zukunft verwenden können. Wenn das Feld leer ist, wird die Zeile jedes Mal gebucht, bis sie aus dem Erf.-Journal gelöscht wird.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Finanzen](finance.md)  
 [Nachhaltigkeitsmanagement – Überblick](finance-manage-sustainability.md)  

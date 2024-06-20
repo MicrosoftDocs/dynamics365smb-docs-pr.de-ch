@@ -9,11 +9,12 @@ ms.search.form: '283, 284'
 ms.date: 06/29/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="use-allocation-keys-in-general-journals"></a>Verwenden von Umlageschlüsseln in Fibu Erf.-Journals
+# Verwenden von Umlageschlüsseln in Fibu Erf.-Journals
 Die Posten einer Fibu Erf.-Journalzeile lassen sich beim Buchen des Erf.-Journals auf verschiedene Konten verteilen. Die Verteilung kann nach Anzahl, Prozent oder Betrag vorgenommen werden.
 
-## <a name="to-set-up-allocation-keys"></a>Einrichten von Verteilungsschlüsseln
+## Einrichten von Verteilungsschlüsseln
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Wiederk. Fibu Erf.-Journal** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Fibu Erf.-Journalnamen** den **Erf.-Journalnamen**.
 3. Sie können entweder Zuordnungen in einer vorhandene Charge in der Liste ändern oder eine neue Charge mit Zuordnungen erstellen.
@@ -28,13 +29,13 @@ Die Posten einer Fibu Erf.-Journalzeile lassen sich beim Buchen des Erf.-Journal
 10. Nachdem Sie die Zuteilungszeilen eingegeben haben, wählen Sie **OK** aus, um zur Seite **Wiederk. Fibu Erf.-Journal** zurückzukehren. Das Feld **Zugewiesener Betrag (USD)** ist ausgefüllt und entspricht dem Feld **Betrag**.
 11. Buchen Sie die Erf.-Journalzeile.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Ändern eines bereits eingerichteten Umlageschlüssels
+## Ändern eines bereits eingerichteten Umlageschlüssels
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Wiederk. Fibu Erf.-Journal** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Wiederk. Fibu Erf.-Journal** das Erf.-Journal mit der Verteilung aus.
 3. Wählen Sie die Zeile mit der Verteilung, und wählen Sie dann die Aktion **Zuweisungen** aus.
 4. Ändern Sie die relevanten Felder und wählen Sie dann die Schaltfläche **OK** aus.
 
-## <a name="see-also"></a>Weitere Informationen
+## Weitere Informationen
 [Arbeiten mit Fibu Erfassungsjournalen](ui-work-general-journals.md)  
 [Journale und Belege buchen](ui-post-documents-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

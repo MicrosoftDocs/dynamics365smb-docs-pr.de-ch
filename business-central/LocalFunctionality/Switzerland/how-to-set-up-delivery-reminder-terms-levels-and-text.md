@@ -9,12 +9,13 @@ ms.search.form: '5005270, 5005272'
 ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version"></a>Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text in der Schweizer Version
+# Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text in der Schweizer Version
 
 [!INCLUDE [delivery-reminder-terms-levels-text-setup](../includes/ATCHDE/delivery-reminder-terms-levels-text-setup.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Lieferanmahnungen](delivery-reminders.md)  
 [Gewusst wie: Einrichten von Lieferanmahnungen](how-to-set-up-delivery-reminders.md)  
