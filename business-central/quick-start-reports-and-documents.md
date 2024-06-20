@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Schnellstart: Grundlegende Berichte und Dokumentausgabe
+# <a name="basic-reports-and-documents-output-quick-start"></a>Schnellstart: Grundlegende Berichte und Dokumentausgabe
 
 Um [!INCLUDE[prod_short](includes/prod_short.md)] an die Anforderungen Ihres Unternehmens anzupassen, erstellen und verwenden Sie Berichte und angepasste Belege, die an die Prozesse und die visuelle Identität Ihres Unternehmens angepasst sind.
 
-## Fügen Sie Ihr Unternehmenslogo zu den Belegen hinzu
+## <a name="add-your-company-logo-to-documents"></a>Fügen Sie Ihr Unternehmenslogo zu den Belegen hinzu
 
 [!INCLUDE[prod_short](includes/prod_short.md)] verfügt über Vorlagen, die das Logo Ihres Unternehmens verwenden, um Ihnen Zeit beim Anpassen von Belegen wie Rechnungen, Bestellungen und Abrechnungen zu sparen.
 
@@ -26,7 +26,7 @@ Um [!INCLUDE[prod_short](includes/prod_short.md)] an die Anforderungen Ihres Unt
 
 Nachdem das Bild im Feld  **Bild**  angezeigt wird, können Sie die Seite  **Unternehmensinformationen**  schließen.
 
-## Berichte ausführen
+## <a name="run-reports"></a>Berichte ausführen
 
 Berichte organisieren Informationen aus verschiedenen Quellen in [!INCLUDE[prod_short](includes/prod_short.md)] und präsentieren sie in einer lesbaren Weise, die leicht gedruckt oder digital geteilt werden kann. Berichte können auf den Seiten gefunden werden, mit denen sie kontextuell verknüpft sind. Zum Beispiel listet die Seite **Artikel** Berichte zu Lagerbeständen, Einkäufen, Verkäufen und mehr auf.
 
@@ -38,7 +38,7 @@ Berichte organisieren Informationen aus verschiedenen Quellen in [!INCLUDE[prod_
 
 Erfahren Sie mehr über das Filtern von Daten, Planen von Berichten und mehr unter [Berichte ausführen und drucken](ui-work-report.md).
 
-## Speichern Sie Berichte als PDF-, Excel- oder Word-Belege
+## <a name="save-reports-as-pdf-excel-or-word-documents"></a>Speichern Sie Berichte als PDF-, Excel- oder Word-Belege
 
 Um Berichte schnell zu teilen, können Sie [!INCLUDE[prod_short](includes/prod_short.md)]-Berichte direkt als PDF-, Microsoft Excel-, oder Microsoft Word-Belege speichern.
 
@@ -47,7 +47,7 @@ Um Berichte schnell zu teilen, können Sie [!INCLUDE[prod_short](includes/prod_s
 3. Wählen Sie den Dateityp aus und wählen Sie dann **OK** aus.
 Die generierte Berichtsdatei wird automatisch im Download-Ordner Ihres Browsers gespeichert.
 
-### Berichts- und Dokumentlayouts ändern
+### <a name="change-report-and-document-layouts"></a>Berichts- und Dokumentlayouts ändern
 
 [!INCLUDE[prod_short](includes/prod_short.md)] verfügt über viele integrierte Layouts für Ihre Berichte und andere generierte Belege, wie z. B. Verkaufsrechnungen. Sie können Anwendungen wie Microsoft Word oder Excel verwenden, um die Layout-Vorlagen für Belege und Berichte zu bearbeiten; siehe dazu die Beschreibung im folgenden Beispiel:
 
@@ -64,7 +64,7 @@ Die generierte Berichtsdatei wird automatisch im Download-Ordner Ihres Browsers 
 
 Erfahren Sie mehr darüber, wie Sie Berichte und Belege an Ihre Geschäftsanforderungen anpassen können unter [Layouts für Berichte und Belege](ui-manage-report-layouts.md).
 
-## Siehe auch 
+## <a name="see-also"></a>Siehe auch
 
 [Berichte in der täglichen Arbeit verwenden](reports-use-reports.md)  
 [Verfügbare Berichte in [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
