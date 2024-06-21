@@ -8,7 +8,7 @@ ms.reviewer: bholtorf
 ---
 Um Lieferbenachrichtungen für überfällige Einkäufe zu aktivieren, müssen Sie Kreditoren Lieferbenachrichtigungsbedingungen zuweisen.  
 
-## <a name="to-assign-delivery-reminder-codes-to-vendors"></a>So werden Kreditoren Lieferanmahnungscodes zugewiesen
+## So werden Kreditoren Lieferanmahnungscodes zugewiesen  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") Geben Sie **Kreditoren** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie den Inventurauftrag aus, für den Sie eine Lieferbenachrichtigung erstellen möchten und klicken Sie auf **Bearbeiten**.  

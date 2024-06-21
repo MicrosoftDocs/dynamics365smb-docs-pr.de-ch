@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="general-ledger-balance-in-the-swiss-version"></a>Fibupostensaldo in der Schweizer Version
+# Fibupostensaldo in der Schweizer Version
 
 Wenn Sie die **Saldo** Aktion auf der Seite **Fibukonten** auswählen, wird die Seite **Fibukonto Vorläufige Bilanz** geöffnet. Es enthält den Saldo der definitiv gebuchten Fibuposten sowie den Saldo der Posten, die im aktuellen Fibu-Erfassungsjournal gebucht wurden.  
 
@@ -29,7 +29,7 @@ Sie haben die Wahl zwischen zwei Optionen:
 
     Der ungebuchte Saldo wird nur für das zum aktuellen Zeitpunkt geöffnete Fibu-Erfassungsjournal berechnet.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Vorläufige Salden in den Fibu.-Erfassungsjournalen anzeigen](how-to-view-temporary-balances-in-general-ledger-journals.md)  
 

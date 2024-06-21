@@ -10,12 +10,12 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="create-service-quotes"></a>Serviceofferten erstellen
+# Serviceofferten erstellen
 Sie können an Serviceofferten als Basis für Serviceaufträge denken. Tatsächlich sind sie fast identisch. Sie enthalten sowohl die Serviceartikelbeschreibung, wie der Debitor, die Art des Auftrags, den Artikel, für den Service, Gebührenzählung und benötigte Versandinformationen, und die Informationen über die tatsächliche Dienstarbeit.
  
 Serviceofferten können als Vorentwürfe von Serviceaufträgen betrachtet werden, die dann von der Offerte in einen Auftrag umgewandelt werden.  
   
-## <a name="to-create-a-service-quote"></a>So erstellen Sie eine Serviceofferte
+## So erstellen Sie eine Serviceofferte  
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **ServiceOfferten** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine neue Serviceofferte.  
 3. Geben Sie im Feld **Nr.** eine Nummer für die Serviceofferte ein. Wenn Sie Nummernserien für Serviceofferten auf der Seite **Service Einrichtung** definiert haben, wählen Sie die <kbd>Eingabetaste</kbd>, um die nächste verfügbare Serviceoffertennummer auszuwählen.  
@@ -28,7 +28,7 @@ Serviceofferten können als Vorentwürfe von Serviceaufträgen betrachtet werden
 6. Füllen Sie die Serviceartikelzeilen aus.  
 7. Erfassen Sie die geschätzten Kosten in den Servicezeilen.  
   
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)  
 [Mit Serviceaufgaben arbeiten](service-how-to-work-on-service-tasks.md)  
 

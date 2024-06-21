@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-### <a name="reversing-journals-to-correct-mistakes"></a>Stornieren von Erfassungsjournalen, um Fehler zu korrigieren
+### Stornieren von Erfassungsjournalen, um Fehler zu korrigieren
 
 Wenn Sie mit Erfassungsjournalen arbeiten, die viele Zeilen haben und etwas schief geht, ist es wichtig, dass sich Fehler leicht korrigieren lassen. Die Seite **Gebuchtes Fibu Erf.-Journal** bietet eine Reihe von Aktionen, die helfen können.
 
