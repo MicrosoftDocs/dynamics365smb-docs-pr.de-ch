@@ -12,9 +12,9 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ---
 
-# Nur PC-Tastenkombinationskurzübersicht
+# <a name="keyboard-quick-reference---pc-only"></a>Nur PC-Tastenkombinationskurzübersicht
 
-#### Allgemein
+#### <a name="general"></a>Allgemein
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|  
 |-|-|
@@ -41,7 +41,7 @@ ms.reviewer: jswymer
 |<kbd>Tab</kbd>/<kbd>Shift</kbd>+<kbd>Tab</kbd>|Fokus auf das nächste/vorherige Element richten|
 |<kbd>F6</kbd>/<kbd>Shift</kbd>+<kbd>F6</kbd>|Weiter zum nächsten Inforegister/Teil|
 
-#### Navigieren und Zeilen auswählen
+#### <a name="navigate--select-rows"></a>Navigieren und Zeilen auswählen
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
@@ -55,14 +55,14 @@ ms.reviewer: jswymer
 |<kbd>Shift</kbd>+<kbd>Bild auf</kbd>/<kbd>Bild ab</kbd>|Sichtbare Zeilen darüber/darunter auswählen|
 |<kbd>Ctrl</kbd>+<kbd>Eingabetaste</kbd>|Fokus weg von der Liste|
 
-#### Kopieren und einfügen
+#### <a name="copy--paste"></a>Kopieren und einfügen
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Zeilen kopieren/einfügen|
 |<kbd>F8</kbd>|Feld in aktuellen Zeile kopieren|
 
-#### Suchen, filtern und sortieren
+#### <a name="search-filter--sort"></a>Suchen, filtern und sortieren
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
@@ -73,20 +73,20 @@ ms.reviewer: jswymer
 |<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Filter auf ausgewählten Felder hinzufügen|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Filter zurücksetzen|
 
-#### Schnelleingabe
+#### <a name="quick-entry"></a>Schnelleingabe
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Eingabetaste</kbd>|Zum nächsten Schnelleingabefeld ausserhalb einer Liste navigieren|
 |<kbd>Eingabetaste</kbd>/<kbd>Shift</kbd>+<kbd>Eingabetaste</kbd>|Zum nächsten/vorherigen Schnelleingabefeld navigieren|
 
-##### Berichtvorschau
+##### <a name="report-preview"></a>Berichtvorschau
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>Ende</kbd>|Zur ersten/letzten Seite.|
 
-#### Numerische Tastatur
+#### <a name="numeric-keypad"></a>Numerische Tastatur
 
 |Wählen Sie diese Tasten aus|Vorgehensweise|  
 |-|-|
