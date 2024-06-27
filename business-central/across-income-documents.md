@@ -1,26 +1,26 @@
 ---
-title: Arbeiten mit Eingehenden Belegen
+title: Mit eingehenden Belegen arbeiten
 description: 'Sie können eingehende externe Unternehmensbelege, wie Zahlungseingänge oder PDF-Dateien verwalten, OCR-Aufgaben verwalten und Dateien in elektronische Belege und Datensätze umwandeln.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
-ms.date: 06/14/2022
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
-# <a name="incoming-documents"></a>Eingehende Belege
+# Eingehende Belege
 
 Externe Geschäftsbelege können als E-Mail-Anhang oder als Papierkopie, die Sie zur Ablage einscannen, in Ihre Firma kommen. Dieses Szenario ist typisch für Einkäufe, bei denen solche eingehenden Dokumentdateien Zahlungsbelege für Ausgaben oder kleine Einkäufe darstellen.
 
 Auf der Seite **Eingehende Belege** können Sie verschiedene Funktionen zum Überprüfen von Ausgabenbelegen, Verwalten von OCR-Aufgaben und Konvertieren eingehender Belege, manuell oder automatisch, in den entsprechenden Belegen oder Erfassungsjournalzeilen verwenden. Die externen Dateien können jeder Prozessphase zugeordnet werden, auch gebuchten Belegen und den resultierenden Kreditoren-, Debitoren- und Fibuposten.
 
-## <a name="usage-scenario"></a>Anwendungsszenario
+## Anwendungsszenario
 
 Sie können Dateien oder Papierkopien, die Sie von Ihren Handelspartnern erhalten haben, in [!INCLUDE[prod_short](includes/prod_short.md)] registrieren und einen Datensatz für ein Dokument erstellen. Zum Beispiel eine Einkaufs- oder Verkaufsrechnung, eine Gutschrift oder eine Erfassungsjournalzeile.
 
-Laden Sie die empfangenen Dateien hoch – oder verwenden Sie die Kamera des Geräts, um ein Foto zu machen – und erstellen Sie Einträge, um die externen Belege darzustellen. Optional können Sie mit PDF- oder Bilddateien von einem externen OCR-Dienst (Optical Character Recognition) elektronische Belege generieren lassen, die dann in Datensätze in [!INCLUDE[prod_short](includes/prod_short.md)] umgewandelt werden können.
+Laden Sie die empfangenen Dateien hoch – oder verwenden Sie die Kamera des Geräts, um ein Foto zu machen – und erstellen Sie Einträge, um die externen Belege darzustellen. Optional können Sie mit PDF- oder Bilddateien von einem externen optischen Zeichenerkennungsdienst (Optical Character Recognition, OCR) elektronische Belege generieren lassen, die dann in Datensätze in [!INCLUDE[prod_short](includes/prod_short.md)] umgewandelt werden können.
 
 > [!NOTE]
 > Die OCR Funktion wird von externen Anbietern bereitgestellt. Wählen Sie ein Servicepaket, das für Ihre Organisation und/oder Ihr Land/Ihre Region geeignet ist. Dienste, die mit [!INCLUDE[prod_short](includes/prod_short.md)] kompatibel sind, und Details zu den verfügbaren Funktionen finden Sie unter [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
@@ -30,11 +30,11 @@ Wenn Sie beispielsweise eine Rechnung in PDF-Format von Ihrem Kreditor erhalten,
 > [!TIP]
 > Erstellen Sie Datensätze für eingehende Dokumente in [!INCLUDE[prod_short](includes/prod_short.md)] direkt aus den von den Lieferanten gesendeten E-Mails mit Hilfe des Outlook Add-Ins. Weitere Informationen finden Sie unter [Benutzen Sie Business Central als Ihren Posteingang in Outlook](work-outlook-addin.md).
 
-## <a name="incoming-document-features"></a>Funktionen für Eingehende Belege
+## Funktionen für Eingehende Belege
 
 Die Verarbeitung von Eingangsbelegen kann aus den folgenden Hauptaktivitäten bestehen:
 
-* Erfassen Sie die externen Belege in Project '[!INCLUDE[prod_short](includes/prod_short.md)]', indem Sie mithilfe einer der folgenden Methoden Zeilen auf der Seite **Eingehende Belege** anlegen:
+* Erfassen Sie die externen Belege in [!INCLUDE[prod_short](includes/prod_short.md)], indem Sie mithilfe einer der folgenden Methoden Zeilen auf der Seite **Eingehende Belege** anlegen:
   * Manuell, entweder von einem PC oder von einem mobilen Gerät aus, auf eine der folgenden Arten:
     * Verwenden Sie die Schaltfläche **Aus Datei erstellen**, laden Sie eine Datei hoch und füllen Sie dann die entsprechenden Felder auf der Seite **Eingehendes Dokument** aus.
     * Verwenden Sie die Schaltfläche **Neu**, füllen Sie die entsprechenden Felder auf der Seite **Eingehendes Dokument** aus und hängen Sie die entsprechende Datei manuell an.
@@ -42,7 +42,7 @@ Die Verarbeitung von Eingangsbelegen kann aus den folgenden Hauptaktivitäten be
   * Automatisch, indem Sie das Dokument vom OCR-Dienst als elektronischen Beleg erhalten, nachdem Sie die zugehörige PDF- oder Bilddatei hochgeladen oder per E-Mail an einen OCR-Dienst gesendet haben. Das Inforegister **Finanzinformationen** wird automatisch auf der Seite **Eingehender Beleg** ausgefüllt.
 * Verwenden Sie einen externen OCR-Dienst, um PDF- oder Bilddateien in elektronische Belege umzuwandeln, die in Datensätze in [!INCLUDE[prod_short](includes/prod_short.md)] umgewandelt werden können.
 * Erstellen Sie neue Belege oder eine Fibu Buch.-Blattzeilen aus einem eingehenden Belegdatensatz, indem sie die Informationen so eingeben, wie sie in den eingehenden Belegen stehen.
-* Fügen Sie eingehender Belege zu Einkaufs- und Verkaufsbelegen jeden möglichen Status hinzu, einschließlich der resultierenden Kreditor, Debitor- und Fibuposten, die aus dem Buchen resultieren.
+* Fügen Sie eingehender Belege zu Einkaufs- und Verkaufsbelegen jeden möglichen Status hinzu, einschliesslich der resultierenden Kreditor, Debitor- und Fibuposten, die aus dem Buchen resultieren.
 * Zeigen Sie eingehenden Belege und deren Anhänge aus Einkaufs- und Verkaufsbelegen oder Posten an, oder finden Sie alle Fibuposten ohne eingehende Belege auf der Seite **Kontenplan**.
 
 > [!NOTE]
@@ -57,7 +57,7 @@ Die Verarbeitung von Eingangsbelegen kann aus den folgenden Hauptaktivitäten be
 | Auf den Seiten **Kontenplan** und **Hauptbucheinträge** können Sie mit Hilfe einer Suchfunktion Fibuposten für gebuchte Belege suchen, für die es keine Datensätze für eingehende Belege gibt, und diese dann zentral mit bestehenden Datensätzen verknüpfen oder neue Datensätze mit angehängten Belegdateien erstellen. |[So finden Sie gebuchte Belege ohne zugehörige eingehende Belege](across-how-find-posted-documents-without-income-document-records.md) |
 | Verschaffen Sie sich einen besseren Überblick, indem Sie die Datensätze für eingehende Dokumente auf *Verarbeitet* festlegen und aus der Standardansicht entfernen. |[Mehrere eingehende Belegdatensätze verwalten](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Einkauf](purchasing-manage-purchasing.md)  
 [Bearbeiten von geposteten Belegen](across-edit-posted-document.md)  

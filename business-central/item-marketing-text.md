@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/06/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -28,15 +28,13 @@ Copilot bietet Ihnen schnell einen Textvorschlag an, der automatisch für Sie ge
 
 Copilot soll Ihnen Zeit sparen und Ihnen dabei helfen, kreative und ansprechende Texte zu schreiben, die Ihre Marke widerspiegeln und über Ihre gesamte Produktlinie hinweg konsistent sind. Erstellen Sie zunächst einen Vorschlag und ändern Sie ihn dann nach Bedarf.
 
+### Verfügbare Sprachen
+
+[!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+
 ### Voraussetzungen
 
-- Das Feature für Marketingtextvorschläge ist in Ihrer Umgebung aktiviert. Die Aufgabe wird normalerweise durch einen Administrierenden erledigt. Weitere Informationen finden Sie unter [Copilot- und KI-Funktionen konfigurieren](enable-ai.md).
-- Sie verwenden eine der Sprachen, die derzeit von den Marketingtextvorschlägen unterstützt werden.
-
-  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
-
-  Um die Sprache zu ändern, wählen Sie in der oberen rechten Ecke das **Einstellungen**-Symbol ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") > **Meine Einstellungen** > **Sprache** aus. Weitere Informationen finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md#language).
-- Lesen Sie die [Häufig gestellte Fragen zu Vorschlägen für Marketingtexte](faqs-marketing-text.md), um zu erfahren, wie KI eingesetzt wird.
+Das Feature für Marketingtextvorschläge ist in Ihrer Umgebung aktiviert. Die Aufgabe wird normalerweise durch einen Administrierenden erledigt. Weitere Informationen finden Sie unter [Copilot- und KI-Funktionen konfigurieren](enable-ai.md).
 
 ### Einen ersten Entwurf mit Copilot erstellen
 

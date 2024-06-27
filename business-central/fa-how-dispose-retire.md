@@ -1,27 +1,28 @@
 ---
-title: FA entsorgen oder ausmustern
+title: Anlagen entsorgen oder ausser Betrieb nehmen
 description: 'Wenn Sie eine Anlage verkaufen oder anderweitig entfernen, muss der Verkaufswert gebucht werden, um den Gewinn oder Verlust zu berechnen und zu erfassen.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: scrap
 ms.search.form: '5628, 5610, 5611, 5629, 5633'
-ms.date: 06/15/2021
-ms.author: bholtorf
+ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="dispose-of-or-retire-fixed-assets"></a>Anlagen entsorgen oder ausser Dienst stellen
+# Anlagen entsorgen oder ausser Betrieb nehmen
 
-Wenn Sie eine Anlage verkaufen oder anderweitig entfernen, muss der Verkaufswert gebucht werden, um den Gewinn oder Verlust zu berechnen und zu erfassen. Ein Verkaufsposten muss der letzte gebuchte Posten einer Anlage sein. Für teilweise verkaufte Anlagen können Sie mehr als einen Verkaufsposten buchen. Die Summe aller gebuchten Verkaufsbeträge muss ein Habenposten sein.  
+Wenn Sie eine Anlage verkaufen oder anderweitig veräussern, müssen Sie den Veräusserungswert buchen, um den Gewinn oder Verlust zu berechnen und zu erfassen. Ein Verkaufsposten muss der letzte gebuchte Posten einer Anlage sein. Für teilweise verkaufte Anlagen können Sie mehr als einen Verkaufsposten buchen. Die Summe aller gebuchten Verkaufsbeträge muss ein Habenposten sein.  
 
 > [!NOTE]  
 > Falls Sie für den Verkauf einer Anlage eine andere Anlage in Zahlung nehmen, müssen Sie sowohl den Verkauf der alten Anlage als auch die Anschaffung der neuen Anlage buchen. Weitere Informationen finden Sie unter [Anschaffen von Anlagen](fa-how-acquire.md).  
 
-Bei den folgenden Schritten wird davon ausgegangen, dass Sie die entsprechenden Buchungsgruppen auf der Seite **Anlagen-Buchungsgruppen** bereits eingerichtet haben. Weitere Informationen finden Sie unter [So richten Sie Anlagenbuchungsgruppen ein](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
+Bei den folgenden Schritten wird davon ausgegangen, dass Ihre Buchungsgruppen auf der Seite **Anlagen-Buchungsgruppen** eingerichtet wurden. Weitere Informationen finden Sie unter [So richten Sie Anlagenbuchungsgruppen ein](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 
-## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>So buchen Sie einen Verkauf aus dem Anlagen Fibu Erf.-Journal
+## So buchen Sie einen Verkauf aus dem Anlagen Fibu Erf.-Journal
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Anlagen-Fibu Erfassungsjournale** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Anlagen-Fibu-Erfassungsjournale** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine ursprüngliche Erf.-Journalzeile und füllen Sie die notwendigen Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Wählen Sie im Feld **Anlagenbuchungsart** den **Verkauf**.  
 4. Wählen Sie die Aktion **Anlagengegenkonto einfügen**. Eine zweite Erf.-Journalzeile wird für das Gegenkonto erstellt, das für die Buchung eines Verkaufs eingerichtet wird.  
@@ -32,7 +33,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie die entsprechenden 
 
 Wenn Sie eine Anlage zum Teil verkaufen, müssen Sie die Anlage aufteilen, bevor Sie die Verkaufstransaktion buchen können. Weitere Informationen finden Sie unter [Übertragen, Teilen oder Kombinieren von Anlagen](fa-how-trans-split-combine.md).  
 
-## <a name="to-view-disposal-ledger-entries"></a>So zeigen Sie Verkaufsposten an
+## So zeigen Sie Verkaufsposten an
 
 Wenn Sie eine Anlage verkaufen, wird der Verkaufswert in den Fibuposten gebucht, wo Sie die Ergebnisse anzeigen können.  
 
@@ -44,7 +45,7 @@ Wenn Sie eine Anlage verkaufen, wird der Verkaufswert in den Fibuposten gebucht,
 
 Die Seite **Fibuposten** wird geöffnet, auf der Sie die Posten sehen können, die aus der Verkaufsbuchung resultieren.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Anlagen](fa-manage.md)  
 [Anlagen einrichten](fa-setup.md)  
