@@ -930,6 +930,7 @@ ms.service: dynamics-365-business-central
 ##### [MWST-Kontrollbericht](LocalFunctionality/Czech/vat-control-report.md)
 ##### [MWST-Berichte](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [MWST-Korrektur in lokaler Währung](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Nicht abziehbare MWST](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Intrastat für Tschechien (Erweiterung)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Anlagen
@@ -1587,7 +1588,7 @@ ms.service: dynamics-365-business-central
 #### [Lokale Funktionen in der US-Version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Salestax
 ##### [Grundlegende Salestaxeinrichtung](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Salestax in den USA melden](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Salestax in den USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Einführung in die IRS 1099-Formulare und ihre Funktionalität](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
 ##### [Einrichten und Verwenden des IRS 1099-Formulars für Version 24 (Veröffentlichungszyklus 1, 2024)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 #### [Verwendung der IRS 1099-Formulare](LocalFunctionality/UnitedStates/how-to-1099-use.md)
