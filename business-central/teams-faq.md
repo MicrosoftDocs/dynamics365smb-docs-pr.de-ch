@@ -441,7 +441,7 @@ Derzeit ist Share to Teams im Desktop-Webclient, im Detailfenster in Teams und b
 Die Aktion **Für Teams freigeben** finden Sie im Menü **Freigeben** auf allen Seiten, wie Karten- und Belegseiten, Listen- oder Arbeitsblattseiten, einschliesslich angepasster Seiten. Die Aktion ist nicht verfügbar auf Dialogfeldern oder Seiten, die als Dialogfelder angezeigt werden, wie Nachschlagefelder oder Assistenten.
 
 ---
-## <a name="see-also"></a>Weitere Informationen
+## <a name="related-information"></a>Weitere Informationen
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] und Microsoft Teams Integration Übersicht](across-teams-overview.md)  
 [Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md)  

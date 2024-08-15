@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Entwurfsdetails: Artikelverfolgung und Planung
+# <a name="design-details-item-tracking-and-planning"></a>Entwurfsdetails: Artikelverfolgung und Planung
 Da sie im Reservierungssystem gespeichert werden, werden Artikeltrackingnummern vollständig mit Auftragstrackingdatensätzen abgestimmt. Dies bedeutet, dass Artikel mit Auftragstrackingdatensätzen Artikeltrackingnummern zugeordnet werden können. Andererseits können Artikel, die Artikeltrackingnummern haben, zu Auftragstrackingdatensätzen werden. Weitere Informationen finden Sie unter [Designdetails: Artikeltrackingdesign](design-details-item-tracking-design.md).
 
 Weitere Informationen zu den integrierten Systemen finden Sie unter [Designdetails: Reservierungen, Auftragstracking und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md).
@@ -35,7 +35,7 @@ Für Artikel, die ein bestimmtes Artikeltracking verwenden, müssen alle Bedarfe
 
 Weitere Informationen finden Sie unter [Designdetails: Übertragung in der Planung](design-details-transfers-in-planning.md)
 
-## Ausgleich von Angebot und Nachfrage
+## <a name="balancing-demand-and-supply"></a>Ausgleich von Angebot und Nachfrage
 Wenn ein Artikel ein bestimmtes Artikeltracking erfordert, dann wird ein Auftragstrackinglink aus allen Trackingbedarfen des Artikels zu allen entsprechenden Artikeltrackingvorräten erstellt, mit der einzigen Einschränkung, dass der Vorrat vor dem Bedarf kommen muss. Wenn unter diesen Umständen kein Artikeltrackingzubehör gefunden werden kann, das dem trackingspezifischen Bedarf des Artikels entspricht, wird sofort neuer Trackingvorrat ohne Berücksichtigung der Bestellmenge, Planungsparameter oder Neuplanung für vorhandenen Bedarf derselben Serien- oder Chargennummer erstellt.
 
 Wenn Artikeltrackingnummern auf der Bedarfsseite oder auf der Vorratsseite zugewiesen werden, ohne dass ein bestimmtes Artikeltracking erforderlich ist, dann wird ein Auftragstrackinglink von dem Bedarf zu diesem dem Vorrat erstellt, basierend auf dem passendsten Timing und der geeignetsten Menge, wie im normalen Ausgleichsverfahren. Die angegebene Artikeltrackingnummer geht in den Auftragstrackingdatensatz in der gleichen Weise ein, wie eine angegebene Artikeltrackingmenge ein Ende des Auftragstrackinglinks definiert. Das bedeutet, dass die Artikeltrackingnummer, die eingetragen wird, beibehalten wird, während sie auch Teil des Bedarfsverursacherdatensatzes ist.
@@ -44,7 +44,7 @@ Wenn Artikeltrackingnummern auf der Bedarfsseite zugeordnet werden, ohne dass ei
 
 Weitere Informationen finden Sie unter [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)  
 
-## Siehe auch   
+## <a name="see-also"></a>Siehe auch
 [Designdetails: Artikeltrackingdesign](design-details-item-tracking-design.md)  
 [Designdetails: Ausgleich von Nachfrage und Angebot](design-details-balancing-demand-and-supply.md)  
 [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)   

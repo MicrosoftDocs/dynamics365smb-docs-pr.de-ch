@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Abgleichen von Zahlungen mithilfe der automatischen Anwendung
+# <a name="reconcile-payments-using-automatic-application"></a>Abgleichen von Zahlungen mithilfe der automatischen Anwendung
 
 Die Seite **Zahlungsabstimmungs-Erf.-Journal** gibt eingehende oder ausgehende Zahlungen an, die als Transaktionen auf Ihrem Online-Bankkonto oder bei einem Zahlungsverkehr erfasst wurden. Sie können die Zahlungen auf zugehörige offene Debitoren-, Kreditoren- und Bankkontoposten anwenden. Füllen Sie das Journal aus, indem Sie einen Kontoauszug als Bank-Feed oder Datei importieren oder Transaktionen, die Sie über Ihren Zahlungsdienst tätigen, manuell eingeben.
 
@@ -43,7 +43,7 @@ Für jede Erf.-Journalzeile, die ein Zahlung auf der Seite **Zahlungsabstimmungs
 > [!NOTE]  
 > Sie können den Banktransaktionsimport automatisch starten, wenn Sie die Seite **Zahlungsabstimmungserf.-Journal** für ein bestehendes Erfassungsjournal. öffnen. Nachfolgend wird beschrieben, wie Banktransaktionen auf die Seite **Zahlungsabstimmungserf.-Journal** importiert werden, nachdem Sie ein neues Erf.-Journal erstellt haben.
 
-## Vorgehensweise zum Abstimmen von Zahlungen mithilfe der automatischen Anwendung
+## <a name="to-reconcile-payments-using-automatic-application"></a>Vorgehensweise zum Abstimmen von Zahlungen mithilfe der automatischen Anwendung
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") Symbol. Geben Sie **Zahlungsausgangs Erfassungsjournale** ein und wählen Sie dann den zugehörigen Link.
 2. Um in einem neuen Zahlungsabstimmungs-Erfassungsjournal zu arbeiten, wählen Sie die Aktion **Neues Erfassungsjournal** aus.
 3. Wählen Sie auf der Seite **Zahlung Bankkontenliste** das Bankkonto aus, für das Sie Zahlungen abstimmen möchten, und klicken Sie anschliessend auf **OK**.
@@ -88,7 +88,7 @@ Sie können den Wert im Feld **Saldo auf Bankkonto nach dem Buchen** zusammen mi
 > [!NOTE]  
 >   Wenn Sie das Bankkonto nicht über die Seite  **Zahlungsabgleichsjournal**  abgleichen möchten, müssen Sie die Seite  **Bankkontoabgleich**  verwenden. Weitere Informationen finden Sie unter  [Bankkonten abstimmen](bank-how-reconcile-bank-accounts-separately.md).
 
-## Siehe auch 
+## <a name="see-also"></a>Siehe auch
 
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  

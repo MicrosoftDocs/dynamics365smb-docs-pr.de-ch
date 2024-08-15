@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Text auf wiederkehrenden Zahlungen für die automatische Abstimmung Konten zuordnen
+# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Text auf wiederkehrenden Zahlungen für die automatische Abstimmung Konten zuordnen
 
 Im Fenster **Zuordnung Text zu Konto**, das Sie auf der Seite **Zahlungsabstimmungserf.-Journal** öffnen, können Sie schnell Zuordnungen zwischen Text in Zahlungen und bestimmten Soll-, Haben- und Gegenkonten eingeben, sodass solche Zahlungen auf die angegebenen Konten gebucht werden, wenn Sie Zahlungen im Zahlungsabstimmungserf.-Journal buchen.
 
@@ -24,7 +24,7 @@ Die Zahlungen, die anhand der Text-zu-Kontenzuordnung gebucht wurden, werden nic
 
 In einer Zahlungsabstimmungs-Erf.-Journalzeile, in der die Zahlung entsprechend der Text-zu-Kontenzuordnung zur Buchung festgelegt wurde, enthält das Feld **Übereinstimmungsgenauigkeit** **Hoch - Text-Kontozuordnung** und den **Kontenart** und die **Kontennummer**.
 
-## Zuordnen von text auf sich wiederholenden Zahlungen an Konten für automatische Abstimmung
+## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Zuordnen von text auf sich wiederholenden Zahlungen an Konten für automatische Abstimmung
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Zahlungsausgangs Erfassungsjournale** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie ein Zahlungsabstimmungserf.-Journal. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
@@ -44,7 +44,7 @@ In einer Zahlungsabstimmungs-Erf.-Journalzeile, in der die Zahlung entsprechend 
 
 Beim nächsten Mal, wenn Sie eine Bankkontoauszugsdatei importieren oder die Funktion **Automatisch anwenden** auf der Seite **Zahlungsabstimmungserf.-Journal** wählen, enthalten die Erfassungsjournalzeilen für die Zahlungen, die den angegebenen Zuordnungstext enthalten, die zugehörigen Konten im Feld **Kontoart** und **Kontonummer**. Das Feld **Übereinstimmungsgenauigkeit** enthält **Hoch - Text zu Konto Zuordnung**. Dies ist unter der Bedingung der Fall, dass die automatische Anwendungsfunktion nur ein Abgleichungsvertrauen von **Niedrig** oder **Normal** zur Verfügung stellen kann.
 
-## Beispiel: Text-to-Account Zuordnung für Bankgebühren
+## <a name="example-text-to-account-mapping-for-bank-fees"></a>Beispiel: Text-to-Account Zuordnung für Bankgebühren
 
 Um Ausgaben, die sich auf Gebühren einer bestimmten Bank, MyBank, beziehen, immer auf das Fibukonto für Bankgebühren und Gebühren (Konto 60400) zu buchen, füllen Sie eine Zeile auf der Seite **Zuordnung Text zu Konto** wie folgt aus.
 
@@ -52,7 +52,7 @@ Um Ausgaben, die sich auf Gebühren einer bestimmten Bank, MyBank, beziehen, imm
 | --- | --- | --- | --- | --- |
 | MyBank |LEER |60400|Fibukonto |LEER |
 
-## Siehe auch 
+## <a name="see-also"></a>Siehe auch
 
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
