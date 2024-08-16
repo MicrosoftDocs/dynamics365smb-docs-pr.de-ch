@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="preparing-closing-statements"></a>Vorbereitung von Schlussplädoyers
+# Vorbereitung von Schlussplädoyers
 
 [!INCLUDE [prod_short](includes/prod_short.md)] bietet Standardberichte, die Ihnen dabei helfen können, die Informationen zu sammeln, die Sie für die Vorbereitung der Jahresabschlüsse Ihres Unternehmens benötigen. In der folgenden Tabelle werden die Berichte beschrieben.  
 
@@ -26,7 +26,7 @@ ms.reviewer: jswymer
 
 Um einen Bericht zu finden, wählen Sie die ![Glühbirne, die die Funktion „Wie möchten Sie weiter vorgehen“ öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol, geben Sie den Namen ein, wie er in der Tabelle erscheint, und wählen Sie dann den zugehörigen Link.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
