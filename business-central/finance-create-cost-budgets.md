@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Erstellen von Kostenbudgets
+# <a name="creating-cost-budgets"></a>Erstellen von Kostenbudgets
 
 Die Budgetierung in der Kostenrechnung entspricht der Budgetierung im Fibukonto. Ein Kostenbudget wird ausgehend von Kostenarten erstellt, wie ein Budget für das Fibukonto basierend auf Fibukonten erstellt wird.  
 
@@ -26,7 +26,7 @@ Sie verwenden die folgenden Seiten, um Kostenbudgets zu erstellen und zu analysi
 |Sehen Sie sich die Kostenbudgeterfassungen und Kostenbudgetposten an.|**&lt;Kostenbudgeterfassungen**|  
 |Drucken Sie Kostenbudgetvergleiche unter Verwendung der verschiedenen Berichte.|Bericht **Kostenrechnungsbilanz/Budget**<br /><br /> Bericht **Kostenrechnungsauszug/Budget**<br /><br /> Bericht **Kostenbudget nach Kostenstelle**<br /><br /> Bericht **Kostenbudget nach Kostenträger**|  
 
-## Siehe auch 
+## <a name="see-also"></a>Siehe auch
 
 [Kostenrechnung](finance-manage-cost-accounting.md)  
 [Sachkontenbudgets erstellen](finance-how-create-budgets.md)  
